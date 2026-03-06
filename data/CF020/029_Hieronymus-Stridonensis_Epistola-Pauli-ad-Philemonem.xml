@@ -1,0 +1,125 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Epistola Pauli ad Philemonem</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 29</title>
+           <idno>HieStr.EpPaAdP2</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Epistola Pauli ad Philemonem</head>
+<p>
+          <pb n="0807D"/>[ <hi>Cap.</hi> I.] Paulus vinctus Christi Jesu, et Timotheus
+frater, Philemoni dilecto, et adjutori nostro, et Appiae
+sorori charissimae, et Archippo commilitoni nostro,
+et Ecclesiae, quae in domo tua est. Gratia vobis
+et pax a Deo Patre nostro, et Domino Jesu Christo.
+<pb n="0808D"/>
+Gratias ago Deo meo, semper memoriam tui faciens
+in orationibus meis, audiens charitatem tuam, et fidem,
+quam habes in Domino Jesu, et in omnes sanctos:
+ut communicatio fidei tuae evidens fiat in agnitione
+omnis operis boni, quod est in vobis in Christo
+<pb n="0809A"/>
+Jesu. Gaudium enim magnum habui, et consolationem
+in charitate tua: quia viscera sanctorum requieverunt
+per te, frater. Propter quod multam fiduciam habens in
+Christo Jesu imperandi tibi quod ad rem pertinet: propter
+charitatem magis obsecro, cum sis talis, ut Paulus
+senex, nunc autem et vinctus Jesu Christi, obsecro te
+pro meo filio, quem genui in vinculis, Onesimo, qui
+tibi aliquando inutilis fuit, nunc autem et mihi et tibi
+utilis, quem remisi tibi. Tu autem illum, ut mea
+viscera, suscipe: quem ego volueram mecum detinere,
+ut pro te mihi ministraret in vinculis Evangelii:
+sine consilio autem tuo nihil volui facere, uti
+[ <hi>Ms.</hi> ut] ne velut ex necessitate bonum tuum esset,
+sed voluntarium. Forsitan enim ideo discessit ad
+horam a te, ut aeternum illum reciperes: jam non
+<pb n="0810A"/>
+ut servum, sed pro servo charissimum fratrem, maxime
+mihi; quanto autem magis tibi, et in carne,
+et in Domino! si ergo habes me socium, suscipe
+illum sicut me: Si autem aliquid nocuit tibi, aut debet;
+hoc mihi imputa. Ego Paulus scripsi mea manu:
+ego reddam, ut non dicam tibi, quod et teipsum
+mihi debes: ita [ <hi>Ms.</hi> itaque], frater. Ego te
+fruar in Domino. Refice viscera mea in Domino.
+Confidens in obedientia tua scripsi tibi: sciens quoniam
+et super id, quod dico, facies. Simul autem
+et para mihi hospitium: nam spero per orationes
+vestras donari me vobis. Salutat te Epaphras concaptivus
+meus in Christo Jesu, Marcus, Aristarchus,
+Demas, Lucas, adjutores mei. Gratia Domini nostri
+Jesu Christi cum spiritu vestro. Amen.</p>
+<p>
+          <emph>
+            <pb n="0809"/> <hi>Explicit Epistola B. Pauli Apostoli ad Philemonem.</hi> </emph>
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

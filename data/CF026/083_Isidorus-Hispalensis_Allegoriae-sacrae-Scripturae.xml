@@ -1,0 +1,1950 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Allegoriae sacrae Scripturae</title>
+              <author ref="http://viaf.org/viaf/803890">Isidorus Hispalensis<date>565-636</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1850</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 83</title>
+           <idno>IsiHis.AlSaSc</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Praefatio.</head>
+<p>
+          <emph>DOMINO SANCTO REVERENDISSIMO FRATRI OROSIO ISIDORUS.</emph>
+        </p>
+<p> 1. <hi>Quaedam notissima nomina legis evangeliorumque, quae sub allegoria imaginarie obteguntur, et interpretatione
+aliqua egent, breviter deflorata contraxi celeriter, ut plana atque aperta lectoribus redderem. Quae, quia
+inexplicata sunt, annotata brevis materiola dicendi coegit, et nec libelli modum permisit efficere, nec plenissime
+figurarum mysteria explicare. Erat quidem sensus ita, ut ex dictis quae posita sunt et praecedentia et subsequentia
+intelligantur.</hi> </p>
+<div3>
+          <head>2.</head>
+          <p>
+ <hi>Haec itaque cognitioni tuae tractanda atque probanda offerimus, ut quod in ratione verborum ac sensuum inerudite
+dependet, emendandum sollicite cures. Ego enim, mihi charissime, in hujus operis reprehensione excusabilem
+meipsum aestimabo, quia haec non meo conservavi arbitrio, sed tuo commissi corrigenda judicio.</hi> 
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>EX VETERI TESTAMENTO.</head>
+
+<pb n="0099"/>
+<p>
+          <pb n="0099A"/> <emph>116</emph> 3. Adam <note>(Genes. I)</note> figuram Christi gestavit;
+nam sicut ille sexta die formatus ad imaginem Dei, ita
+sexta mundi aetate Filius Dei carnis formam induit,
+hoc est, formam servi accepit, ut reformaret hominem
+ad similitudinem Dei.</p>
+<p> 4. Eva <note>(Ibid.)</note> designat Ecclesiam factam per mysterium
+lavacri, quae <emph>117</emph> de latere in cruce morientis
+Christi fluxit, sicut Eva de costa hominis dormientis.</p>
+<p> 5. Abel. pastor ovium <note>(Genes. IV)</note>, Christi tenuit typum,
+<pb n="0100A"/>
+qui est verus, et bonus pastor, sicut ipse dicit: <hi>Ego sum pastor bonus, qui pono animam meam pro
+ovibus meis,</hi> 
+ venturus rector fidelium populorum.</p>
+<p> 6. Cain, frater ejus <note>(Ibid.)</note>, aetate major, qui eumdem
+Abel occidit in campo, priorem significat populum
+qui interfecit Christum in Calvariae loco.</p>
+<p> 7. Enoch, filius Cain <note>(Ibid.)</note>, in cujus nomine pater
+condidit civitatem, significat impios in hac tantum
+vita esse fundatos.</p>
+<p>
+          <pb n="0101A"/> <emph>118</emph> 8. Seth <note>(Ibid.)</note>, qui resurrectio interpretatur,
+demonstrat Christum Jesum, in quo est vera
+resurrectio, et vita fidelium.</p>
+<p divs_removed="true"> 9. Enos, filius ejus <note>(Ibid.)</note>, qui spe invocavit nomen
+Domini, declarat in spe viventem Ecclesiam, donec
+ad beatitudinem promissae felicitatis perveniat. <emph>119</emph>
+
+        </p>
+        <div3 moved_from_p="true">
+            <head>10.</head>
+          <p>
+ Lamech saeculi hujus figuram tenuit,
+cujus peccatum Christus per sanguinis sui effusionem
+post LXXVII mundi generationes absolvit, juxta quod
+<pb n="0102A"/>
+eas Lucas evangelista descripsit <note>(Luc. III)</note>.</p>
+        </div3>
+<p> 11. Henoch <note>(Genes. V)</note>, qui fuit septimus ab Adam,
+et translatus est, significat septimam requiem futurae
+resurrectionis, quando transferentur sancti
+in vitam perpetuae immortalitatis.</p>
+<p> 12. Noe, qui interpretatur requies, similitudinem
+praefert Domini, in cujus Ecclesia requiescunt quicunque
+ab hujus saeculi excidio liberantur, sicut in
+arca.</p>
+<p>
+          <pb n="0103A"/> <emph>120</emph> 13. Sem vero prophetarum et apostolorum
+tenuit typum, qui ex ejus stirpe nascuntur.</p>
+<p> 14. Japheth figuravit populum gentium, qui versatur
+in ecclesiis israelitarum.</p>
+<p> 15. Cham Judaeos significat, qui Christum incarnatum
+atque mortuum derident.</p>
+<div3>
+          <head>16.</head>
+          <p>
+ Chanaam, filius ejus, qui pro patris delicto
+maledictione damnatur <note>(Genes. IX)</note>, posteritatem
+indicat Judaeorum, qui in passione Domini damnationis
+sententiam exceperunt, clamantibus Judaeis: <hi>Sanguis ejus super nos, et super filios nostros.</hi> 
+</p>
+          <p> 17. Nemrod gigas diaboli typum expressit, qui
+superbo appetitu culmen divinae celsitudinis appetivit,
+dicens: <hi>Ascendam super altitudinem nubium, et
+ero similis Altissimo.</hi> </p>
+<p>
+            <pb n="0103B"/> 18. Heber, in cujus domo propria loquela remansit,
+caeteris linguis <emph>121</emph> divisis, Redemptorem
+nostrum insinuat, in cujus Ecclesia unitas fidei sine
+schismate perseverat.</p>
+<p>
+            <pb n="0104A"/> 19. Melchisedech <note>(Genes. XIV)</note>, qui de fructibus
+terrae sacrificium Domino obtulit, regnum Christi,
+qui est verus rex justitiae, et sacerdotium figuravit,
+cujus corporis et sanguinis sacramentum, id est,
+oblatio panis et vini in toto orbe terrarum offertur.</p>
+<p> 20. Abraham Dei patris gestavit typum, qui filium
+suum dilectum pro mundi salute tradidit immolandum.</p>
+<p> 21. Tres angeli ad eum venientes <note>(Genes. XVIII)</note> 
+divinam historialem insinuant Trinitatem.</p>
+<p> 22. Duas autem uxores, quas habuit Abraham <note>(Gen. XVI, XXI)</note>,
+id est, liberam, <emph>122</emph> et ancillam,
+Apostolus duo esse Testamenta designat <note>(Galath.
+IV)</note>.</p>
+        </div3>
+<div3>
+          <head>23.</head>
+          <p>
+ Isaac et Ismael duos populos ex utroque Testamento
+<pb n="0104B"/>
+procedentes significant.</p>
+        </div3>
+<div3>
+          <head>24.</head>
+          <p>
+ Puer Abraham imaginem priscae legis designat,
+per quem prophetice Domino nostro Jesu Christo
+Ecclesia sponsa praeparata est.
+</p>
+          <p>
+            <pb n="0105A"/> 25. Esau, hispidus atque rufus <note>(Genes. XXV)</note>, populus
+est Judaeorum, in Christum et prophetas impia
+persecutione sanguineus, et indicio pilosae cutis
+tegmine peccatorum horribilis.</p>
+<p> 26. Jacob autem <note>(Ibid.)</note> Christum demonstrat, sive
+populum gentium, qui Dei Patris benedictione praelatus
+est priori populo Judaeorum.</p>
+        </div3>
+<div3>
+          <head>27.</head>
+          <p>
+ Laban legis et diaboli habuit typum, ex cujus
+corpore assumpsit sibi Christus duas conjuges, plebis
+scilicet circumcisionis et gentium.</p>
+        </div3>
+<div3>
+          <head>28.</head>
+          <p>
+ Lia Synagogae figuram habuit, quae infirmis
+oculis cordis sacramenta Dei speculari non potuit.</p>
+        </div3>
+<div3>
+          <head>29.</head>
+          <p>
+ Rachel vero clara aspectu Ecclesiae typum tenuit,
+quae contemplationis acie Christi mysteria
+cernit.
+</p>
+          <p>
+            <pb n="0105B"/> 30. Vir, qui cum Jacob luctam iniit, Christi certamen
+cum populo Israel figuravit; nam sicut Jacob
+claudicavit in certamine, ita Judaei claudicaverunt
+fide in Domini passione. <emph>123</emph>
+</p>
+        </div3>
+<div3>
+          <head>31.</head>
+          <p>
+ Lot <note>(Genes. XIX)</note> typum habuit sanctorum
+qui in fine saeculi ab impiorum incendio liberabuntur.
+</p>
+          <p> 32. Uxor Lot <note>(Ibid.)</note> eorum tenuit typum qui, per
+gratiam Dei vocati, postmodum retro respiciunt.</p>
+<p> 33. Consequenter ipse Lot legis gestavit personam
+de qua infidelitatis opera pariunt qui ea carnali intellectu
+utuntur <note>( <hi>Vide var. lect.</hi> )</note>.</p>
+</div3>
+<div3>
+          <head>34. </head>
+<p>
+            <pb n="0106A"/>Filiae ejus duae <note>(Genes. XIX)</note> Samariam significant
+et Jerusalem, quae fornicantur in lege per adulterium
+illicitae doctrinae.</p>
+        </div3>
+<p> 35. Ruben <note>(Genes. XXXI)</note> primogenitus interpretatur
+visionis filius; populum figuravit qui violavit cubile
+Dei Patris, quando carnem quam sibi Christus
+desponderat confixit in patibulo crucis.</p>
+<p> 36. Simeon scribas designat Judaeorum, qui in
+furore suo occiderunt prophetas, et in dolore suo
+suffoderunt fixuris clavorum Christum, firmissimum
+murum, in quo credentes stabili robore communiuntur. <emph>124</emph>
+</p>
+<div3>
+          <head>37.</head>
+          <p>
+ Levi et auctor et figura est principum
+sacerdotum qui Christum crucifixerunt.</p>
+        </div3>
+<div3>
+          <head>38.</head>
+          <p>
+ Judas significat Christum, qui in cubili sepulcri,
+<pb n="0106B"/>
+quasi leo, securus, corporis somno victoque mortis
+imperio, post triduum resurrexit.
+</p>
+          <p> 39. Issachar Ecclesiae tenuit typum, quae subjecit
+humerum suum ad crucis onus portandum.</p>
+<p> 40. Zabulon eamdem significat Ecclesiam, quae, secus
+fluctus hujus vitae inhabitans, omnes tentationes
+et turbines saeculi portat.</p>
+<p> 41. Nephthalim exprimit omnes sanctos praedicatores,
+qui, instar cervi transilientes, ad superna se
+erigunt, cunctisque credentibus doctrinae eloquia
+conferunt.</p>
+<p>
+            <pb n="0107A"/> 42. Dan Antichristum significat, qui in via vitae
+hujus ungulas equi, id est, extrema saeculi supplantare
+nititur morsu pestiferae praedicationis, ut ejiciat
+eos qui extolluntur in hujus mundi deliciis et divitiis.</p>
+<p> 43. Gad Christum demonstrat, qui in secundo adventu
+suo contra Antichristum accinctus virtute
+judicis praeliaturum se nuntiat.</p>
+<p> 44. Aser eumdem demonstrat Dominum Jesum
+Christum, cujus <emph>125</emph> pinguis est panis in ore fidelium.</p>
+        </div3>
+<div3>
+          <head>45.</head>
+          <p>
+ Joseph <note>(Genes. XXXVII)</note>, qui venditus est a fratribus,
+et in Aegypto sublimatus, Redemptorem nostrum
+significat a populo Judaeorum in manus persequentium
+traditum, et nunc in gentibus exaltatum.
+</p>
+          <p> 46. Benjamin Pauli apostoli imaginem praetulit,
+<pb n="0107B"/>
+quia et novissimus et minimus omnium apostolorum
+fuit electione, et de tribu ejus descendit: iste est
+lupus rapax, mane persecutor diripiens, vespere doctor
+pascens.</p>
+<p> 47. Manasses prioris populi figuram gestavit.</p>
+        </div3>
+<div3>
+          <head>48.</head>
+          <p>
+ Ephraim autem gentium, qui per benedictionem
+patriarchae praepositus est majori populo Judaeorum.
+</p>
+          <p> 49. Thamar <note>(Genes. XXXVIII)</note> Ecclesiae imaginem
+gestat, quae a Christo per annulum fidei et virgam
+crucis conceptionem sanctae meruit ubertatis.</p>
+<pb n="0108A"/>
+</div3>
+<div3>
+          <head>50. </head>
+          <p>
+Duo gemini in utero Thamar <note>(Ibid.)</note> duos populos
+figuraverunt, quorum posterior natus, qui manum
+prior ex utero misit, quia <emph>126</emph> gentium populus
+antea quidem est per prophetas ostensus, sed
+postea revelatus, cujus ideo obstetrix ligavit dexteram
+cocco, quia idem populus per sanguinem Christi
+crucis notatus est signo.
+</p>
+          <p> 51. Dina, filia Jacob <note>(Genes. XXXIV)</note>, Synagogam,
+vel animam, significat: quam in exterioribus saeculi
+curis repertam Sichem princeps terrae opprimit, id
+est, diabolus vitio concupiscentiae carnalis corrumpit.</p>
+        </div3>
+<div3>
+          <head>52.</head>
+          <p>
+ Bala, concubina Jacob <note>(Genes. XXXV)</note>, quam
+Ruben incesto crimine polluit, significat legem Veteris
+Testamenti, quam populus Israel praevaricando
+commaculavit.
+<pb n="0108B"/>
+</p>
+        </div3>
+<div3>
+          <head>53. </head>
+          <p>
+Job in factis dictisque suis personam exprimit
+Redemptoris.</p>
+        </div3>
+<div3>
+          <head>54.</head>
+          <p>
+ Uxor ejus <note>(Job. II)</note>, quae eum ad maledicendum
+provocat, carnalium pravitatem designat.</p>
+        </div3>
+<div3>
+          <head>55.</head>
+          <p>
+ Tres amici Job typum tenuerunt haereticorum,
+qui sub specie consolandi studium seducendi
+gerunt.
+</p>
+          <p> 56. Eliud vero doctorem superbum et arrogantem
+demonstrat, qui durius increpationem suam fidelibus
+intra sanctam Ecclesiam irrogat.</p>
+<p> 57. Pharao figuram habuit diaboli, qui hujus saeculi
+<pb n="0109A"/>
+captivitate populum Dei perdere et terrenis vitiorum
+operibus praegravare tentavit.</p>
+        </div3>
+<div3>
+          <head>58.</head>
+          <p>
+ Filia Pharaonis <note>(Exod. II)</note>, quae Moysen expositum
+ad ripam fluminis collegit. Ecclesia gentium est,
+quae Christum ad flumen salutaris lavacri reperit.</p>
+        </div3>
+<div3>
+          <head>59.</head>
+          <p>
+ Moyses <note>(Exod. XIII)</note> typum Christi gestavit,
+qui populum Dei a jugo diabolicae servitutis eripuit,
+et ipsum diabolum in aeterna poena damnavit.</p>
+        </div3>
+<div3>
+          <head>60.</head>
+          <p>
+ Aaron sacerdos, qui cruore victimarum populum
+expiabat, <emph>127</emph> significat Christum, qui sacrificio
+sanguinis sui peccata diluit mundi.
+</p>
+          <p> 61. Maria, soror Moysi <note>(Num. XII)</note>, Synagogae speciem
+praetulit, quae leprosa propter detractionem et
+murmurationem contra Christum exstitit.</p>
+<p>
+            <pb n="0109B"/> 62. Uxor Moysi Aethiopissa <note>(Exod. II)</note>, figuravit
+Ecclesiam ex gentibus Christo conjunctam, cujus ob
+causam zeli Synagoga obtrectans adversus Christum,
+illico contagio leprae perfunditur.</p>
+<p> 63. Amalech designat diaboli figuram, qui, obvius
+Dei populo, per signum crucis evincitur.</p>
+<p> 64. Sehon quoque, rex Amorrhaeorum, qui vertitur
+in Latinum <hi>tentatio oculorum,</hi> eumdem diabolum
+significat, qui mendacio fallendi sese in angelum lucis
+transfigurat. Ipse est Og, rex Basan, qui interpretatur <hi>conclusio,</hi> 
+ qui intercludere molitur difficultate
+vitiorum viam fidei nostrae, ne pateat nobis transitus
+ad regnum promissum vitae aeternae.</p>
+<p> 65. Viri septuaginta duo seniores, super quos cecidit
+<pb n="0110A"/>
+Spiritus Dei, septuaginta duas nationum linguas in
+hoc mundo diffusas <emph>128</emph> ostendunt, ex quibus multi
+credentes gratiam Spiritus sancti acceperunt.</p>
+<p> 66. Dathan et Abiron, et caeteri, qui, se a Moyse
+et Aaron segregantes, sacrificium usurpare conati
+sunt <note>(Num. XVI)</note>, haereticorum pravitatem designant,
+et perniciem eorum qui se a sacerdotibus Christi et
+a societate Ecclesiae dividunt, et sacrificia profana
+assumunt.</p>
+<p> 67. Balaam, qui cadens apertos oculos habuit, <note>(Num. XXII)</note>,
+typum eorum tenuit qui per fidem
+cognitionem Dei habent, sed obscurati malis operibus
+corruunt.</p>
+        </div3>
+<div3>
+          <head>68.</head>
+          <p>
+ Phinees, qui Zambri et scortum in adulterio
+conversantes pariter interemit <note>(Num. XXV)</note>, figuram
+<pb n="0110B"/>
+tenuit sanctorum doctorum, qui Judaeos et haereticos
+spirituali mucrone in amplexu falsae doctrinae
+concurrentes feriunt.</p>
+        </div3>
+<div3>
+          <head>69.</head>
+          <p>
+ Ille qui, in Sabbato ligna colligens, lapidari
+jubetur, significat eum quem Christus inveniet cum
+peccato in die judicii.</p>
+        </div3>
+<div3>
+          <head>70.</head>
+          <p>
+ Duodecim exploratores scribarum et pharisaeorum
+imaginem tenuerunt, qui Israeliticum populum
+averterunt ne confiderent divinae repromissionis
+gratiam adipisci posse per Christum.</p>
+        </div3>
+<div3>
+          <head>71.</head>
+          <p>
+ Duo portitores, qui de terra promissionis
+botrum in ligno humeris gestaverunt <note>(Num. XIII)</note>,
+duorum populorum significantiam expresserunt, quorum
+prior Judaicus gradiens aversus terga dat Christo,
+<pb n="0111A"/> <emph>129</emph> 
+ posterior, Christianus, eum quem vehit
+inspicit et sequitur Christum.
+</p>
+          <p> 72. Jesu Nave imaginem Salvatoris expressit, qui
+nos in terram repromissionis induxit, et in regnum
+coelestis gloriae collocavit.</p>
+<p> 73. Raab meretrix figuram tenuit Ecclesiae, quae
+per coccum, id est, per passionis dominicae signum,
+ab interitu mundi salvatur.</p>
+        </div3>
+<div3>
+          <head>74.</head>
+          <p>
+ Duo exploratores missi a Jesu in Jericho,
+quos suscepit Raab <note>(Josue II)</note>, duo intelliguntur Testamenta
+in mundum missa quae suscepit Ecclesia ex
+gentibus congregata.</p>
+        </div3>
+<div3>
+          <head>75.</head>
+          <p>
+ Acham, qui de Jericho anathemate concupivit,
+significat nequam, et peccatorem, qui post fidem saeculares
+mores, vel mundi illecebras appetit.
+</p>
+          <p>
+            <pb n="0111B"/> 76. Gedeon, qui cum trecentis viris perrexit ad
+praelium <note>(Judic. VII)</note>, typum Christi gestavit, qui in
+signo crucis de mundo victoriam reportavit. Trecentorum
+enim numerus in Tau littera continetur, per
+quam crucis species ostenditur.</p>
+        </div3>
+<div3>
+          <head>77.</head>
+          <p>
+ Sisara typus diaboli fuit. Jahel autem, quae
+tempora ejus clavo et malleo transfodit, Ecclesiae typum
+expressit, quae per vexillum crucis diaboli imperium
+interfecit. <emph>130</emph>
+</p>
+        </div3>
+<div3>
+          <head>78.</head>
+          <p>
+ Ipsa quoque Debbora, ejusdem Ecclesiae
+typum portans, devicto in Sisara diabolo, canticum
+coelestis gloriae proclamat.
+</p>
+          <p> 79. Jephte, qui pro victoria obtenta filiam immolavit <note>(Judic. XI)</note>,
+Redemptoris ostendebat figuram,
+qui, ex mundo triumphans, carnem propriam in sacrificium
+<pb n="0111C"/>
+obtulit.</p>
+<p> 80. Samson Salvatoris nostri mortem et victoriam
+figuravit, sive quia de faucibus diaboli gentes,
+<pb n="0112A"/>
+quasi favum ab ore reperti leonis, abstraxit, sive
+quia post mortem plures lucratus, plurimosque moriens
+quam vivens exstinxit.</p>
+        </div3>
+<div3>
+          <head>81.</head>
+          <p>
+ Dalila, quae Samson verticem decalvavit <note>(Judic.
+XVI)</note>, Synagogam significat, quae Christum in
+loco Calvariae crucifixit.</p>
+        </div3>
+<div3>
+          <head>82.</head>
+          <p>
+ Ruth alienigena, quae Israelitico viro nupsit,
+Ecclesiam ex gentibus ad Christum venientem ostendit.</p>
+        </div3>
+<div3>
+          <head>83.</head>
+          <p>
+ Booz autem Christum verum Ecclesiae sponsum
+expressit.</p>
+        </div3>
+<div3>
+          <head>84.</head>
+          <p>
+ Anna, quae fuit sterilis, et postmodum fecunda
+facta est <note>(I Reg., I)</note> Ecclesiam Christi significat, quae
+prius in gentibus erat sterilis, nunc largiter pollet
+per universam terram prole numerosae fecunditatis.
+<pb n="0112B"/>
+</p>
+        </div3>
+<div3>
+          <head>85. </head>
+          <p>
+Heli sacerdos reprobatus <note>(I Reg. III)</note> abjectionem
+sacerdotii Veteris Testamenti praefiguravit.
+</p>
+          <p> 86. Samuel vero, qui reprobato Heli in ministerio
+sacerdotali successit <note>(Ibid.)</note>, novi sacerdotii successionem,
+abjecto veteri sacerdotio, praenuntiavit.</p>
+        </div3>
+<div3>
+          <head>87.</head>
+          <p>
+ Duo filii Heli sacerdotes, qui capta a gentibus
+arca perempti sunt <note>(I Reg. IV)</note>, significant posteritatem
+sacerdotii prioris fuisse exstinctam, et legis
+Testamentum ad cultum gentium esse translatum. <emph>131</emph>
+</p>
+        </div3>
+<div3>
+          <head>88.</head>
+          <p>
+ Saul regni Judaici insinuat repromissionem,
+vel reprobationem, sive ejusdem populi aemulationem,
+qui David, id est, Christum injusto odio
+invidiae conatus est occidere.</p>
+        </div3>
+<div3>
+          <head>89.</head>
+          <p>
+ David filii Dei et Salvatoris nostri expressit
+imaginem, sive quod insectatione Judaeorum injustam
+<pb n="0112C"/>
+persecutionem sustinuit, sive quia Christus ex ejus
+stirpe carnem assumpsit.
+</p>
+          <p> 90. Urias Hethaeus typum habuit diaboli, cujus
+<pb n="0113A"/>
+cunjugio prius erat copulata Ecclesia, quam Christus
+concupivit lavantem a sordibus saeculi semetipsam, et
+per lavacri undam purificantem.</p>
+        </div3>
+<div3>
+          <head>91.</head>
+          <p>
+ Salomon Christi praenuntiat figuram qui aedificavit
+domum Deo in coelesti Jerusalem, non de lignis
+et lapidibus, sed de sanctis omnibus.</p>
+        </div3>
+<div3>
+          <head>92.</head>
+          <p>
+ Regina Austri, quae venit ad audiendam sapientiam
+Salomonis <note>(III Reg. X; II Paral. IX)</note>, Ecclesia
+intelligitur, quae ad verbum Dei ab ultimis finibus
+terrae congregatur.</p>
+        </div3>
+<div3>
+          <head>93.</head>
+          <p>
+ Roboam, filius Salomonis, et Jeroboam servus,
+quibus Israel in duas partes divisus est, significant
+divisionem illam in Domini adventu factam, in
+qua pars credentium ex Judaeis regnat cum Christo,
+qui est ex David genere ortus; pars vero secuta Antichristum,
+<pb n="0113B"/>
+cujus ad cultum nefandae servitutis errore
+constricti sunt.</p>
+        </div3>
+<div3>
+          <head>94.</head>
+          <p>
+ Golias <note>(I Reg. XVII)</note> designat diabolum, cujus
+elevationis superbiam Christi prostravit humilitas.</p>
+        </div3>
+<div3>
+          <head>95.</head>
+          <p>
+ Elias Christum demonstrat, quia sicut igneo
+curru ad superna sublatus est, ita Christus ministeriis
+angelorum assumptus est in coelum.
+</p>
+          <p> 96. Vidua, ad quam mittitur Elias pascendus <note>(III
+Reg. XVII)</note>, Ecclesia est, ad quam per fidem venisse
+legitur Christus, cujus farinae et oleo benedicitur, et
+non deficit, id est, gratia corporis Christi, et chrismatis
+unctio, <emph>132</emph> quae toto mundo quotidie impenditur,
+et nunquam minuitur.</p>
+        </div3>
+<div3>
+          <head>97.</head>
+          <p>
+ Elisaeus eumdem Redemptorem Dominum
+figuravit, qui de montis altitudine, id est, coelorum
+<pb n="0113C"/>
+descendens sublimitate, humiliavit seipsum a forma
+Dei usque ad formam hominis, ac mortuis membris
+sua membra composuit, et nostram mortalitatem sui
+corporis medicina sanavit.
+</p>
+          <p> 98. Pueri qui, insultantes Elisaeo, clamabant: <hi>Ascende, calve, ascende, calve,</hi> 
+ et invasi ab urso perierunt <note>(IV Reg. II)</note>,
+indicant populum Judaeorum,
+qui puerili stultitia deriserunt Christum in loco Calvariae
+crucifixum, et capti a duobus ursis, id est,
+Tito et Vespasiano, interierunt.</p>
+        </div3>
+<div3>
+          <head>99.</head>
+          <p>
+ Puer Elisaei cum baculo ad resuscitandum mulieris
+filium missus <note>(IV Reg. IV)</note>, typum priscae legis
+ostendit, quae generi humano transmissa nihil praestitit,
+nisi quod in virga solam auctoritatem severitatis
+monstravit.
+<pb n="0113D"/>
+</p>
+        </div3>
+<div3>
+          <head>100. </head>
+          <p>
+Sunamitis filius mortuus <note>(Ibid.)</note> humani geneis
+figuram tenet, super quod Christus septies oscitans
+<pb n="0114A"/>
+Spiritum septiformis gratiae spiritualiter aspirat, per
+quem a morte peccati reviviscat.</p>
+        </div3>
+<div3>
+          <head>101.</head>
+          <p>
+ Septem millia viri, de quibus dictum Eliae,
+quod non curvaverunt genua ante Baal, significant
+numerum sanctorum, qui, Spiritu septiformis gratiae
+adimpleti, diabolo renuntiaverunt.
+</p>
+          <p> 102. Naaman Syrus significat populum ex gentibus,
+maculis delictorum pollutum, atque a Christo
+per sacramentum baptismi purificatum.</p>
+        </div3>
+<div3>
+          <head>103.</head>
+          <p>
+ Ozias rex, qui, ob meritum scelerum suorum,
+in fronte contagio leprae perfunditur <note>(II Paral. XXVI)</note>,
+regnum indicat Judaeorum, qui dedecus <emph>133</emph> et malum
+perfidiae in fronte gerunt, ubi crucis signum
+portare debuerant.</p>
+        </div3>
+<div3>
+          <head>104.</head>
+          <p>
+ Ezechias rex, cui pro bono opere quindecim
+<pb n="0114B"/>
+anni ad vitam adjiciuntur <note>(IV Reg. XX; II Par. XXXII;
+Is. XXXIX; Eccl. XLVIII)</note>, significat omnes sanctos,
+quibus ad acquirendam vitam aeternam quinque libri
+legis cum decem verbis Decalogi dati sunt, ut per
+complementum legis et praeceptorum regni coelestis
+plenitudinem consequantur.</p>
+        </div3>
+<div3>
+          <head>105.</head>
+          <p>
+ Josias rex, qui celebravit pascha, et de templo
+Domini idola multa depulit <note>(IV Reg. XXIII; II
+Par. XXXV)</note>, significat Christum, qui pro nobis passionem
+suscepit, atque omnia exsecrabilia gentium
+de templis corporis nostri dejiciens, igne virtutis
+suae exusta comminuit, atque in hujus saeculi torrentem
+projecit.</p>
+        </div3>
+<div3>
+          <head>106.</head>
+          <p>
+ Sedecias, cujus oculos in Reblatha rex Babylonis
+evulsit <note>(IV Reg. XXV)</note>, divites et peccatores
+<pb n="0114C"/>
+hujus mundi significat; in Latinum enim vertitur Reblatha <hi>multa haec,</hi> 
+ ideoque iste significat eos qui in
+hujus mundi multa actione et affectione involvuntur,
+atque, a diabolo capti, intelligentiae oculos perdunt.
+</p>
+          <p> 107. Isaias formam evangelistarum et apostolorum
+expressit, qui universa sacramenta Christi, non quasi
+futura, sed quasi praesentia praedicavit.</p>
+        </div3>
+<div3>
+          <head>108.</head>
+          <p>
+ Jeremias autem in verbis et passionibus suis
+mortem et passionem figuravit Domini Salvatoris.</p>
+        </div3>
+<div3>
+          <head>109.</head>
+          <p>
+ Ezechiel imaginem Christi gestavit, qui positus
+in terrena peregrinatione populum salutaribus
+praeceptis instigat.</p>
+        </div3>
+<div3>
+          <head>110.</head>
+          <p>
+ Daniel, qui vitam caelibem tenuit, similitudinem
+habuit continentia sua eorum qui sunt in otio
+<pb n="0114D"/>
+sancto, et terrenis copiis non abutuntur.
+</p>
+          <p> 111. Oseas Christi demonstrat figuram, qui ex
+<pb n="0115A"/>
+fornicatione gentium assumpsit in corpore suo Ecclesiam.</p>
+        </div3>
+<div3>
+          <head>112.</head>
+          <p>
+ Joel, qui interpretatur <hi>incipiens,</hi> indicat typice
+eos qui fidei ostium, et divinae scientiae incipiunt
+cognoscere sacramentum.</p>
+        </div3>
+<div3>
+          <head>113.</head>
+          <p>
+ Amos, pastor et rusticus, Christi est typus,
+qui ab officio pastorali pecorum, id est, ab Hebraeorum
+regimine translatus, nunc alios greges pascit in
+gentibus. <emph>134</emph>
+</p>
+        </div3>
+<div3>
+          <head>114.</head>
+          <p>
+ Abdias, qui in Samaria centum pavit
+prophetas <note>(III Reg. XVIII)</note>, significat omnes fidei
+praedicatores, qui in hoc mundo alimentis sacrarum
+Scripturarum omnes credentes reficiunt.</p>
+        </div3>
+<div3>
+          <head>115.</head>
+          <p>
+ Jonas <note>(Jon. II)</note> Christi mortem figuravit, qui
+tribus diebus ac noctibus in corde terrae, quasi in
+<pb n="0115B"/>
+ventre ceti, quievit.
+</p>
+          <p> 116. Habacuc, luctator fortis, populus est fidelis,
+qui, super excelsa constitutus, in cruce Dominum
+contemplatur, dicens: <hi>Cornua in manibus ejus, ibi
+confirmata est virtus gloriae ejus.</hi> </p>
+<p> 117. Sophonias, qui interpretatur <hi>speculator,</hi> vel <hi>absconditum Domini,</hi> 
+ significat eos qui per contemplationis
+arcanum ad perfectum perveniunt meritorum.</p>
+<p> 118. Aggaeus et Zacharias figuram gestaverunt
+sanctorum, qui nobis in hujus peregrinationis vita
+futurum tempus liberationis declarant.</p>
+        </div3>
+<div3>
+          <head>119.</head>
+          <p>
+ Malachias, qui <hi>angelus Domini</hi> interpretatur,
+typum Salvatoris nostri tenuit, qui Angelus magni
+consilii dicitur.
+<pb n="0115C"/>
+</p>
+        </div3>
+<div3>
+          <head>120. </head>
+          <p>
+Jesus, sacerdos magnus, figuram gerebat
+Christi, per quem ex peregrinatione saeculi hujus ad
+coelestem Jerusalem nobis patet ingressus.
+</p>
+        </div3>
+<div3>
+          <head>121. </head>
+<p>
+            <pb n="0116A"/>Zorobabel, sacerdos <note>(II Esdr. II seqq.)</note>, typus
+est Domini Salvatoris, qui reduxit de captivitate populum,
+et de vivis lapidibus construxit Domino templum.</p>
+        </div3>
+<div3>
+          <head>122.</head>
+          <p>
+ Judith et Esther typum Ecclesiae gestant,
+hostes fidei puniunt, ac populum Dei ab interitu
+eruunt.</p>
+        </div3>
+<div3>
+          <head>123.</head>
+          <p>
+ Tobias priscae legis imaginem tenuit, cujus
+oculos Judaicae hirundines <emph>135</emph> obcaecant, dum eos
+luminis sacramenta male intelligentes obcaecant.</p>
+        </div3>
+<div3>
+          <head>124.</head>
+          <p>
+ Tobias, filius ejus, Domini nostri Jesu
+Christi imaginem habuit, qui velut absconditam et
+obcaecatam figurae caligine legem claritate suae virtutis
+illuminat.</p>
+        </div3>
+<div3>
+          <head>125.</head>
+          <p>
+ Tres pueri <note>(Dan. III)</note> praetulerunt figuram
+<pb n="0116B"/>
+sanctorum, qui corpus suum in persecutionem pro
+Christi nomine obtulerunt.</p>
+        </div3>
+<div3>
+          <head>126.</head>
+          <p>
+ Susanna <note>(Dan. XIII)</note> figuram Ecclesiae habet,
+quam testes falsi Judaei, quasi adulteram legis, accusant.</p>
+        </div3>
+<div3>
+          <head>127.</head>
+          <p>
+ Nabuchodonosor rex <note>(IV Reg. XXV)</note> typus
+diaboli fuit, qui haereticorum plebem, erroris captivitate
+devictam, de Jerusalem, id est, de Ecclesia in
+Babyloniam, id est, in ignorantiae confusionem
+abduxit.
+</p>
+          <p> 128. Princeps coquorum, qui muros Jerusalem
+subvertit, hoc significat, quod omnes qui ventris
+desiderio serviunt, virtutes animae destruunt.</p>
+<p> 129. Machabaei septem, qui sub Antiocho acerbissima
+perpessi tormenta, gloriosissime coronati sunt
+<pb n="0116C"/> <note>(II Machab. VII)</note>,
+significant Ecclesiam septiformem,
+quae ab inimicis Christi multam martyrum stragem
+pertulit, et gloriae coelestis coronam accepit.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>EX NOVO TESTAMENTO.</head>
+
+<pb n="0115"/>
+<p>
+          <pb n="0115D"/> <emph>136</emph> 130. Quatuor evangelistae Jesum Christum
+<pb n="0116D"/>
+sub quatuor animalium vultibus figuraliter exprimunt.</p>
+<div3>
+          <head>131. </head>
+<p>
+            <pb n="0117A"/>Matthaeus enim eumdem Redemptorem nostrum
+natum et passum annuntians, in similitudinem
+hominis comparat.</p>
+        </div3>
+<div3>
+          <head>132.</head>
+          <p>
+ Marcus, a solitudine exorsus, leonis figuram
+induit, et Christi regnum invictum potentiamque
+proclamat.</p>
+        </div3>
+<div3>
+          <head>133.</head>
+          <p>
+ Lucas quoque per vituli mysticum vultum
+Christum pro nobis praedicat immolatum.
+</p>
+          <p> 134. Joannes autem per figuram aquilae eumdem
+Dominum post resurrectionem carnis demonstrat
+evolasse in coelum.</p>
+        </div3>
+<div3>
+          <head>135.</head>
+          <p>
+ Petrus personam Ecclesiae gestat, quae habet
+potestatem dimittendi peccata, atque reducendi ab
+inferis homines ad coelestia regna <note>(Matth. VI)</note>.</p>
+        </div3>
+<div3>
+          <head>136.</head>
+          <p>
+ Apostoli quoque omnes totius Ecclesiae portant
+<pb n="0117B"/>
+typum, quia et iidem in dimittendis peccatis similem
+acceperunt potestatem, habentes quidem et
+formam patriarcharum, qui per verbum praedicationis
+in toto orbe terrarum Deo populos spiritualiter
+genuerunt.
+</p>
+          <p> 137. Septuaginta duo discipuli significant illustrationem
+totius orbis per Evangelium Trinitatis. Viginti
+quatuor enim horis mundus omnis peragitur, qui
+numerus triplicatus propter eamdem Trinitatem in
+LXXII deducitur. Idcirco autem mittuntur bini,
+propter praedicandum Dei amorem, et proximi, vel
+mysteriorum gemina Testamenta. <emph>137</emph>
+</p>
+        </div3>
+<div3>
+          <head>138.</head>
+          <p>
+ Joseph typice Christi gestavit speciem,
+qui ad custodiam sanctae Ecclesiae deputatus
+est, quae non habet maculam, aut rugam.
+</p>
+        </div3>
+<div3>
+          <head>139. </head>
+<p>
+            <pb n="0117C"/>Maria autem Ecclesiam significat, quae cum
+sit desponsata Christo, virgo nos de Spiritu sancto
+concepit, virgo etiam parit <note>(Matth. I)</note>.</p>
+        </div3>
+<div3>
+          <head>140.</head>
+          <p>
+ Zacharias sacerdos, qui, angelo jubente,
+obmutuit <note>(Luc. I)</note>, silentium legis et prophetarum,
+adveniente Christo, ostendit.</p>
+        </div3>
+<div3>
+          <head>141.</head>
+          <p>
+ Joannes formam habuit legis, qui Christum
+annuntiavit, et remissionem peccatorum per lavacri
+gratiam praedicavit.
+</p>
+          <p> 142. Magi figuraverunt gentium populos, lucem
+fidei cognituros, indicantes sacramentorum muneribus
+Christum, per thus esse Deum, per myrrham
+hominem passum atque sepultum, per aurum regem
+omnium saeculorum <note>(Matth. II)</note>.</p>
+<pb n="0118A"/>
+</div3>
+<div3>
+          <head>143. </head>
+          <p>
+Herodes, qui infantibus necem intulit <hi>(Mattheus
+II)</hi>, diaboli formam expressit, vel gentium,
+qui, cupientes exstinguere nomen Christi de mundo,
+in caede martyrum saevierunt.</p>
+        </div3>
+<div3>
+          <head>144.</head>
+          <p>
+ Muti in Evangelio significant illos qui fidem
+Christi non confitentur.</p>
+        </div3>
+<div3>
+          <head>145.</head>
+          <p>
+ Caeci illos signant qui fidem quam credunt
+nequaquam intelligunt.</p>
+        </div3>
+<div3>
+          <head>146.</head>
+          <p>
+ Surdi illos figurant qui non exhibent obedientiam
+praeceptorum.</p>
+        </div3>
+<div3>
+          <head>147.</head>
+          <p>
+ Claudi illos demonstrant qui implere praecepta
+salutaria negligunt.</p>
+        </div3>
+<div3>
+          <head>148.</head>
+          <p>
+ Homo prudens, qui aedificavit domum suam
+supra petram, significat doctorem fidelem, qui in
+Christo doctrinae suae et vitae suae stabilimentum
+<pb n="0118B"/>
+constituit.
+</p>
+          <p> 149. Ille vero, qui aedificavit domum suam super
+arenam, haereticum designat, qui aedificat doctrinam
+falsam, ut ruinam faciat magnam. <emph>138</emph>
+</p>
+        </div3>
+<div3>
+          <head>150.</head>
+          <p>
+ Leprosus, quem Christus descendens
+de monte primum curavit <note>(Matth. VIII)</note>, humanum
+indicat genus delicti contagio maculosum.</p>
+        </div3>
+<div3>
+          <head>151.</head>
+          <p>
+ Hoc Redemptor, dum de coelorum altitudine
+quasi de monte descendit, a vario daemonum cultu
+detraxit, atque in unitatem fidei reparavit.
+</p>
+          <p> 152. Centurio <note>(Ibid.)</note> fidem gentium significat,
+quae salutem filii sui infirmi ad mortem petens, humiliter
+dixit: <hi>Domine, non sum digna ut intres sub
+tectum meum, quae persecuta sum Ecclesiam tuam.</hi> </p>
+        </div3>
+<div3>
+          <head>153.</head>
+          <p>
+ Puer autem Centurionis, et filia Chananaeae
+<pb n="0118C"/>
+mulieris, quos Christus non veniens ad eos salvat <note>(Matth. XV)</note>,
+easdem gentes ostendunt, quas Dominus
+non corporali praesentia visitavit, sed per fidem
+verbi salvavit.</p>
+        </div3>
+<div3>
+          <head>154.</head>
+          <p>
+ Ipsa quoque mulier Chananaea <note>(Ibid.)</note> Ecclesiae
+ex gentibus gerit figuram, quae tanquam canis
+quaerebat micas de mensa dominorum, id est,
+satiari doctrinis apostolorum et prophetarum.</p>
+        </div3>
+<div3>
+          <head>155.</head>
+          <p>
+ Socrus Petri febriens <note>(Matth. VIII)</note> significat
+Synagogam, aestu carnalium desideriorum accensam,
+cujus filia est pars illa credentium quae data
+est Petro regenda.
+</p>
+          <p> 156. Scriba repudiatus, qui propter quaestum Dominum
+sequebatur <note>(Ibid.)</note>, significat eos qui Christi
+<pb n="0119A"/>
+fidem non propter Dominum, sed propter lucrum
+saeculi appetunt.</p>
+        </div3>
+<div3>
+          <head>157.</head>
+          <p>
+ Daemoniacus quem Dominus in regione Gerasenorum
+a daemonum legione curavit <note>(Ibid.)</note>, significat
+gentilem populum multorum cultibus daemoniorum
+obnoxium.</p>
+        </div3>
+<div3>
+          <head>158.</head>
+          <p>
+ Pastores porcorum fugientes, qui ea quae
+gesta sunt nuntiant in civitatem <note>(Ibid.)</note>, significant
+principes impiorum, qui dum fidem Christi fugiunt,
+virtutes tamen ejus stupentes mirantur et praedicant.
+</p>
+          <p> 159. Paralyticus, jacens in lectulo <note>(Matth. IX)</note>,
+anima est vitiis dissoluta in <emph>139</emph> corpore suo, quae
+dum fuerit gratia Christi per peccatorum remissionem
+sanata, confestim, pristino robore recepto,
+resurgit, et lectum carnis, in quo debilis ante jacebat,
+<pb n="0119B"/>
+ad domum virtutum reportat, ut se intra conscientiae
+suae secreta constringat, et nequaquam in
+exterioribus ultra voluptatibus dissoluta discurrat.</p>
+<p> 160. Archisynagogi filia, ad quam dum curandam
+pergeret Dominus, tamen priusquam ad eam veniret,
+tetigit eum a tergo mulier, quae profluvio sanguinis
+laborabat <note>(Ibid.)</note>, figuram habuit Ecclesiae venientis
+ex gentibus, quae dum post praedicationem, et post
+passionem, et post ascensionem Christi credidit,
+quasi a tergo Dominum tetigit, et ante accipere salutem
+quam Synagoga, promeruit.</p>
+        </div3>
+<div3>
+          <head>161.</head>
+          <p>
+ Duo caeci, juxta viam sedentes <note>(Ibid.)</note>, significant
+utrosque populos Judaeorum, atque gentilium,
+per fidem Christo appropinquantes, qui dixit: <hi>Ego
+sum via, veritas et vita.</hi> 
+</p>
+          <p>
+            <pb n="0119C"/> 162. Daemonium habens, caecus et mutus, qui scribitur
+a Salvatore curatus <note>(Ibid.)</note>, indicat eos qui ex
+idololatria gentium ad fidem dominicam convertuntur,
+<pb n="0120A"/>
+quibus tamen, expulso a corde daemonum cultu,
+dum primum lucem perceperint fidei, postea ad laudandum
+Deum eorum lingua resolvitur, ut confiteantur
+eum quem antea negaverunt.</p>
+        </div3>
+<div3>
+          <head>163.</head>
+          <p>
+ Homo manum habens aridam <note>(Matth. XII)</note> 
+significat Synagogam, vel animam misericordiae operibus
+infructuosam, cui cum dicitur <hi>Extende manum
+tuam,</hi> admonet semper porrigendam eleemosynam
+pauperibus.</p>
+        </div3>
+<div3>
+          <head>164.</head>
+          <p>
+ Homo de quo immundus spiritus exiens, rursus
+eum occupat <note>(Ibid.)</note>, significat populum Judaeorum,
+et hominem poenitentem, cui per subsecutam
+negligentiam acrius mentem occupat carnis <emph>140</emph> voluptas,
+adjunctis secum aliis septem spiritibus vitiorum,
+id est, iracundia, avaritia, invidia, atque ventris
+<pb n="0120B"/>
+ingluvie, inani gloria, fornicatione atque superbia.</p>
+        </div3>
+<div3>
+          <head>165.</head>
+          <p>
+ Paterfamilias, proferens de thesauro suo
+nova et vetera <note>(Matth. XIII)</note>, Christus est, proferens
+de impenetrabili sapientia sua gemina Testamenta,
+scilicet Vetus, in quo felicitas terrena promittitur, et
+Novum, per quod regnum coelorum speratur.</p>
+        </div3>
+<div3>
+          <head>166.</head>
+          <p>
+ Homo qui seminavit in agro suo granum sinapis <note>(Luc. XIII)</note> 
+ Christus est, qui seminavit fidem
+in mundo, in quo volucres coeli, id est, spirituales
+animae requiescunt.
+</p>
+          <p> 167. Mulier quae fermentum abscondit in satis tribus <note>(Ibid.)</note> 
+ significat sapientiam spiritualis doctrinae,
+ferventem in Trinitatis amore.</p>
+        </div3>
+<div3>
+          <head>168.</head>
+          <p>
+ Homo, qui absconditum thesaurum in agro
+reperit <note>(Matth. XIII)</note>, ille est qui in isto mundo, venditis
+<pb n="0120C"/>
+omnibus, Christum vitamque aeternam acquirit.</p>
+        </div3>
+<div3>
+          <head>169.</head>
+          <p>
+ Quinque millia viri qui quinque panibus et
+duobus piscibus <emph>141</emph> pasti sunt <note>(Joan. VI)</note>, Ecclesiae
+<pb n="0121A"/>
+sunt populi, qui per quinque corporis sensus, alimento
+legis spiritualis a Christo reficiuntur, et duplici
+Testamento, quasi gemellis piscibus, saturantur.</p>
+        </div3>
+<div3>
+          <head>170.</head>
+          <p>
+ Quatuor autem millia viri qui aliis septem
+panibus aluntur <note>(Marc. VIII)</note>, eadem gentium Ecclesia
+est, quae in quatuor mundi partibus diffunditur,
+atque ubertate septiformis gratiae recreatur.</p>
+        </div3>
+<div3>
+          <head>171.</head>
+          <p>
+ Ille qui saepe nunc in ignem, nunc in aquam
+cadebat <note>(Matth. XVII)</note>, mundum significat. Ignis autem
+inflammantem cupiditatem, aqua carnis voluptatem
+demonstrat, in quibus semper arreptus quotidiano
+lapsu praecipitatur.</p>
+        </div3>
+<div3>
+          <head>172.</head>
+          <p>
+ Moyses et Elias, qui apparuerunt cum Domino
+in monte <note>(Ibid.; Luc. IX; Marc. IX)</note>, lex et
+prophetia intelliguntur, quarum vocibus passio, et
+<pb n="0121B"/>
+resurrectio, et gloria Domini declaratur.
+</p>
+          <p> 173. Homo habens centum oves, qui, relictis illis,
+ovem perditam quaerit, ac repertam humeris revehit <note>(Luc. XV)</note>,
+figuram Christi expressit, qui, relictis
+millibus angelorum in coelo, ovem quae perierat in
+Adam, ut bonus pastor, quaesitam in gentibus reperit,
+atque crucis suae humeris ad paradisum reportavit.</p>
+        </div3>
+<div3>
+          <head>174.</head>
+          <p>
+ Mulier, quae perditam reperit drachmam,
+Ecclesia est, quae animam diaboli laqueis abstractam
+et perditam, dum invenerit per poenitentiam, et angelorum
+et hominum facit laetitiam.</p>
+        </div3>
+<div3>
+          <head>175.</head>
+          <p>
+ Debitor decem millium talentorum <note>(Matth.
+XVIII)</note> significat homines qui Deo sunt obnoxii per
+transgressionem decem praeceptorum, sed sicut nobis
+<pb n="0121C"/>
+poscentibus a Domino peccati vincula relaxantur,
+ita unusquisque nostrum dimittat exemplo Domini,
+ne dum minima debita in nos peccantibus non
+concedimus, majora nostra exsolvere cum usuris
+poenarum cogamur.</p>
+        </div3>
+<div3>
+          <head>176.</head>
+          <p>
+ Dives, qui camelo comparatur <note>(Matth. XIX;
+Marc. X)</note>, personam indicat Judaeorum, qui de legis
+potentia gloriantur, quanquam propter terrena, quae
+colunt, non habent regnum coelorum, ubi facilius
+gentium populus criminibus tortuosus, et sarcinis
+peccatorum gravatus, ingreditur per foramen acus,
+quasi per angustias passionis, dolorum ac laborum.</p>
+        </div3>
+<div3>
+          <head>177.</head>
+          <p>
+ Paterfamilias qui operarios ad vineam conducit,
+et denarium <emph>142</emph> promittit <note>(Matth. XX)</note>,
+Christus est, qui vocat omnes ad cultum fidei, promittens
+<pb n="0121D"/>
+eis praemium perfectae beatitudinis.</p>
+        </div3>
+<div3>
+          <head>178.</head>
+          <p>
+ Operarii hora prima conducti hi sunt qui a
+rudimentis infantiae cultum fidei consecuti sunt.
+<pb n="0122A"/>
+</p>
+        </div3>
+<div3>
+          <head>179. </head>
+          <p>
+Qui autem hora tertia, hi sunt qui ab adolescentia
+ad fidem accesserunt.</p>
+        </div3>
+<div3>
+          <head>180.</head>
+          <p>
+ Qui vero hora sexta conducti sunt, hi sunt
+qui in juventutis aetate crediderunt.</p>
+        </div3>
+<div3>
+          <head>181.</head>
+          <p>
+ Qui autem hora nona accesserunt, illi sunt
+qui, jam a juventute in senectutem declinantes, gratiam
+perceperunt.
+</p>
+          <p> 182. Qui vero ultima hora iverunt <note>(Ibid.)</note>, illi
+sunt qui jam decrepiti, et in extremo vitae suae tempore
+vocati, ad Christum venerunt. Qui tamen prioribus
+parem mercedem beatitudinis accipiunt, in illis
+conservans Christus justitiam, qui prima hora nativitatis
+operati sunt; in istis impendens misericordiam,
+qui una vitae hora laboraverunt.</p>
+        </div3>
+<div3>
+          <head>183.</head>
+          <p>
+ Duo filii missi ad operandum vineam
+<pb n="0122B"/> <note>(Matth. XXI)</note> 
+ duorum populorum typum demonstrant.
+Primus enim missus vocatur gentium populus
+per naturae intelligentiam ad operis divini culturam,
+qui prius tamen contumax exstitit, et sese iturum
+negavit. Adveniente autem Domino, priorem
+contumaciam sequente emundat obedientia. Secundus
+autem missus Judaeorum per legis cognitionem
+respondit: <hi>Omnia, quaecunque dixerit Dominus, faciemus;</hi> 
+sed idcirco damnatur, quia non solum in
+professionem legis praevaricatus est, sed in ipsum
+Dominum vineae parricidales manus exercuit.</p>
+        </div3>
+<div3>
+          <head>184.</head>
+          <p>
+ Homo qui vineam plantavit <note>(Matth. XXI;
+Luc. XX)</note>, Deus est, qui condidit Jerusalem, in qua
+aedificavit turrim, et torcular fodit, videlicet templum,
+et altare, et saepe circumdedit, id est, angelorum
+munitione vallavit.
+<pb n="0122C"/>
+</p>
+        </div3>
+<div3>
+          <head>185. </head>
+          <p>
+Coloni autem quibus vineam locat <note>(Ibid.)</note>,
+populus est Israel, qui sub divino cultu possedit Jerusalem.</p>
+        </div3>
+<div3>
+          <head>186.</head>
+          <p>
+ Servi autem qui tempore frugum missi interfecti
+sunt a <emph>143</emph> colonis <note>(Ibid.)</note>, prophetae intelliguntur,
+quorum sanguis effusus est a Judaeis, dum ab
+eis quaererent justitiae fructum et legis.</p>
+        </div3>
+<div3>
+          <head>187.</head>
+          <p>
+ Filius autem novissime missus, quem ejectum
+coloni extra vineam occiderunt <note>(Ibid.)</note>, Christus
+est, quem crucifixerunt Judaei, ejicientes eum extra
+portas Jerusalem.
+</p>
+          <p> 188. Coloni quoque, quos Dominus vineae perdit <note>(Ibid.)</note>,
+populi Judaeorum intelliguntur, qui olim, ut
+videntur, dispersi atque perempti sunt. Illi autem
+agricolae ad quos vinea transferri praecipitur, significant
+<pb n="0122D"/>
+apostolos, vel successores apostolorum.</p>
+<p> 189. Rex qui fecit nuptias filio suo <note>(Matth. XXII)</note>,
+Deus Pater intelligitur, qui copulavit ex virgine carnem
+<pb n="0123A"/>
+virginem Christo. Servi vero, qui missi sunt
+vocare invitatos, apostoli sunt atque prophetae, qui
+Judaeos per legem et Evangelium vocaverunt; sed
+illi modo terrenis voluptatibus, modo carnis et legis
+onere pressi, solemnitatem adventus Domini contempserunt,
+ex quo se indignos existimaverunt vita
+aeterna, gentes autem introisse manifestantur.</p>
+        </div3>
+<div3>
+          <head>190.</head>
+          <p>
+ Rex iratus, qui misit exercitus suos, et perdidit
+interfectores illos, et civitatem illorum incendit <note>(Ibid.)</note>,
+Deus Pater est, qui suscitavit Vespasianum
+Caesarem Romanorum, qui et populum gladio vastavit,
+et civitatem Jerusalem funditus cum suis universis
+evertit, ita ut ulterius belligerare non possit.</p>
+        </div3>
+<div3>
+          <head>191.</head>
+          <p>
+ Homo autem non habens vestem nuptialem
+in accubitu, qui, loquente rege, obmutuit; quem
+<pb n="0123B"/>
+jubet servis ablatum mitti in tenebras exteriores <note>(Ibid.)</note>,
+ille est qui in fide quidem cum caeteris requiescit;
+sed si inventus fuerit in die judicii vestem
+carnis habere pollutam, confestim jubetur ab angelis
+tolli, et mergi in gehennam ignis aeterni.</p>
+        </div3>
+<div3>
+          <head>192.</head>
+          <p>
+ Duo debitores, ex quibus unus debebat feneratori
+denarios quingentos, et alter quinquaginta <note>(Luc. VII)</note>,
+significant utrumque populum, Judaeorum,
+scilicet, et gentium, ex quibus ille qui quinquaginta
+denarios debuit Judaeorum typum habuit;
+ille vero qui <emph>144</emph> quingentos, gentium figuram expressit,
+qui ab initio mundi debitor semper existens,
+chirographum peccati per poenitentiam non solvit.
+Adveniente itaque Christo, tandem credidit, atque
+uberiorem misericordiae fructum accepit, unde quia
+<pb n="0123C"/>
+plus illi concessum est a Christo, amplius diligit
+Christum, sicut scriptum est: <hi>Cui plus dimittitur,
+plus diligit.</hi> </p>
+        </div3>
+<div3>
+          <head>193.</head>
+          <p>
+ Septem vero fratres qui uni mulieri nupserunt,
+et sine filiis mortui sunt <note>(Marc. XII)</note>, homines
+infideles intelliguntur, qui per septem mundi aetates,
+in hac terra totam vitam suam sine fructu justitiae
+consumpserunt.</p>
+        </div3>
+<div3>
+          <head>194.</head>
+          <p>
+ Duo in lecto <note>(Matth. XXIV)</note> illos figurant qui
+remoti a turbis in otio quodammodo vitae vacare videntur.</p>
+        </div3>
+<div3>
+          <head>195.</head>
+          <p>
+ Duae molentes <note>(Ibid.)</note> illi intelliguntur qui
+negotiis temporalium rerum circumferuntur.</p>
+        </div3>
+<div3>
+          <head>196.</head>
+          <p>
+ Duo in agro <note>(Ibid.)</note>, illi sunt qui in ministerio
+Ecclesiae, tanquam in agro dominico, operantur,
+<pb n="0123D"/>
+ex quibus, adveniente nocte, id est, saeculi adversitate,
+quidam permanent in fide, et assumuntur ad
+vitam, quidam discedunt, et relinquuntur ad poenam.</p>
+        </div3>
+<div3>
+          <head>197.</head>
+          <p>
+ Quinque virgines sapientes <note>(Matth. XXV)</note> omnes
+animae sanctae intelliguntur, quae quoniam per
+quinque sensus corporis nullam admittunt cordis
+<pb n="0124A"/>
+corruptionem, idcirco quinario numero computantur.</p>
+        </div3>
+<div3>
+          <head>198.</head>
+          <p>
+ Quinque autem virgines fatuae, quae non habent
+in vasis oleum <note>(Ibid.)</note>, illae animae sunt quae
+habent quidem integritatem corporum, sed non
+servant intra conscientiam boni operis testimonium,
+dum in facie gloriantur apud homines, et non corde
+apud Deum. Ideoque, quia in vasis pectorum suorum
+mentis splendorem non gerunt, adveniente Domino,
+a regni ejus gaudio excluduntur.</p>
+        </div3>
+<div3>
+          <head>199.</head>
+          <p>
+ Homo peregre proficiscens, qui tradidit bona
+sua servis suis <note>(Ibid.)</note>, Christus est, qui post resurrectionem
+suam ad coelos regrediens, tradidit evangelicam
+gratiam evangelicis negotiatoribus fenerandam.
+Sed primus servus in quinque talentis sibi
+<pb n="0124B"/>
+datis quinque libros legis accepit, quod doctrina et
+opere decem praeceptorum amplificavit.
+</p>
+          <p> 200. Alius duobus talentis duo Testamenta promeruit,
+eaque <emph>145</emph> morali ac mystico sensu pie
+dispensando duplicavit.</p>
+        </div3>
+<div3>
+          <head>201.</head>
+          <p>
+ Tertius, sub figura unius talenti, gratiae donum
+acceptum in terrenis voluptatibus obscuravit,
+ideoque projectus est in infernum, quia nullum inde
+operatus est fructum.
+</p>
+          <p> 202. Alii in primo servo sensus cordis et corporis
+acceptos, in secundo intelligentiam et opus, in tertio
+rationem intellexerunt.</p>
+        </div3>
+<div3>
+          <head>203.</head>
+          <p>
+ Juvenis filius viduae quem Dominus mortuum
+extra portas urbis suscitavit <note>(Luc. VII)</note>, significat
+eum qui palam quodlibet mortiferum crimen admittit;
+<pb n="0124C"/>
+quique nonnunquam audito verbo Dei a morte
+peccati resurgit, et per poenitentiam Christi vivere
+incipit; redditurque viduae matri suae, id est, Ecclesiae.
+</p>
+          <p> 204. Homo qui descendebat a Jerusalem in Jericho,
+et incidit in latrones <note>(Luc. X)</note>, ipse Adam figuratur
+in genere suo, qui dum descendit de paradiso
+coelesti in mundum, incidit in angelos tenebrarum.</p>
+        </div3>
+<div3>
+          <head>205.</head>
+          <p>
+ Samaritanus descendens, qui vulnera ejus
+curavit <note>(Ibid.)</note>, Christus est custos noster, qui de
+coelo descendit, et genus humanum a vulneribus
+peccatorum curavit.</p>
+        </div3>
+<div3>
+          <head>206.</head>
+          <p>
+ Stabularius <note>(Ibid.)</note> apostoli sunt, vel successores
+eorum qui infirmitatem nostram praedicatione
+<pb n="0124D"/>
+evangelica recreant.</p>
+        </div3>
+<div3>
+          <head>207.</head>
+          <p>
+ Martha, quae excepit Christum in domum
+suam, et in hac ministrabat <note>(Ibid.)</note>, significat Ecclesiam,
+in hac vita Christum in corde excipientem, et
+in opere justitiae laborantem.</p>
+        </div3>
+<div3>
+          <head>208.</head>
+          <p>
+ Maria, soror ejus, quae sedebat secus pedes
+<pb n="0125A"/>
+Christi, et audiebat verbum <note>(Ibid.)</note>, demonstrat
+eamdem Ecclesiam, in futuro saeculo ab omni opere
+cessantem, et in sola contemplatione sapientiae
+Christi requiescentem.</p>
+        </div3>
+<div3>
+          <head>209.</head>
+          <p>
+ Homo qui media nocte postulabat ab amico
+tres panes <note>(Luc. XI)</note>, similitudinem exprimit cujusque
+in media tribulatione Dominum postulantis, ut det
+ei scientiam Trinitatis. <emph>146</emph>
+</p>
+        </div3>
+<div3>
+          <head>210.</head>
+          <p>
+ Dives, cujus uberes fructus ager attulit <note>(Luc. XII)</note>,
+significat hominem luxuriis deditum,
+et abundantem peccatis, quem immoderate plus amplius
+peccare desiderantem arguit Dominus dicens: <hi>Stulte, hac nocte auferunt animam tuam abs te; quae
+parasti, cujus erunt?</hi> </p>
+        </div3>
+<div3>
+          <head>211.</head>
+          <p>
+ Quinque illi in domo una, id est, pater, mater,
+<pb n="0125B"/>
+filius, filia, nurus, ex quibus duo in tres, et
+tres in duos dividuntur <note>(Ibid.)</note>, significant humanum
+genus fide et religione invicem separatum, partim
+in discissione schismatis, quod duo significant, partim
+in numero trinitatis, quod tria demonstrant. Divisus
+est enim filius adversus patrem suum, id est,
+populus ex gentibus veniens adversus diabolum, cum
+quo antea fuerat sociatus. Divisa est et filia adversus
+matrem suam, id est, plebs ex Judaeis credens
+adversus impiam Synagogam. Divisa est et nurus
+adversus socrum suam, Ecclesia videlicet ex gentibus
+adversus matrem sponsi sui Synagogam, de qua
+secundum carnem Christus fuerat procreatus. Qui
+homines separantur sibi invicem, alii terrenam, alii
+coelestem gloriam appetentes.
+</p>
+          <p>
+            <pb n="0125C"/> 212. Galilaei XVIII super quos cecidit turris in Siloe,
+et occidit eos <note>(Luc. XIII)</note>, interitum plebis Judaeorum
+insinuat. Decem et octo enim apud Graecos
+ex iota, <foreign xml:lang="greek">ι,</foreign> et eta, <foreign xml:lang="greek">η,</foreign> litteris exprimuntur, quibus figuris
+nomen Jesus scribitur, in quem illi credere
+nolentes pariter a Romanis cum sua urbe prostrati
+sunt.</p>
+        </div3>
+<div3>
+          <head>213.</head>
+          <p>
+ Homo qui arborem fici in vinea sua plantavit,
+Christus est, qui Synagogam in Judaico populo
+condidit, quam cum Dominus, quasi inutilem, jussisset
+abscidi, fit illi a colonis apostolis fossa humilitatis,
+adhibetur stercus, id est, confessio peccatorum;
+sicque in novissimo credendo commutabitur
+in melius, dabitque fructus justitiae copiosos.
+<pb n="0126A"/>
+</p>
+        </div3>
+<div3>
+          <head>214. </head>
+          <p>
+Mulier quae, decem et octo annos infirmitatem
+habens, a Domino curata est <note>(Luc. XIII)</note>, Ecclesiae
+typus est, quae in fine temporum salutem fidei
+consecuta est. Sex enim aetatibus mundus iste completur <emph>147</emph> 
+ cujus tamen tempus habet tripertitam
+discretionem, unam ante legem, alteram in lege,
+tertiam sub gratia. Sexies ergo terni decem et octo
+efficiunt, quo numero tempus hoc nostrae salutis
+insinuatur, quando, a Satanae vinculis soluti, quibus
+curvati eramus, donum salutis et spem supernae
+contemplationis accipimus.</p>
+        </div3>
+<div3>
+          <head>215.</head>
+          <p>
+ Hydropicus quem Dominus curavit <note>(Luc. XIV)</note> 
+demonstrat eos quos fluxus carnalium voluptatum
+exuberans aggravat.</p>
+        </div3>
+<div3>
+          <head>216.</head>
+          <p>
+ Homo habens duos filios <note>(Luc. XV)</note> Deus est,
+<pb n="0126B"/>
+habens duos populos, quorum major figuram tenuit
+Judaeorum, qui permansit in Dei cultu; alter junior
+gentium, qui, conditore deserto, servus factus est
+idolorum, quem per egestatem fidei revertentem clementer
+suscepit Deus Pater, et pro conversione ejus
+sub vituli typo immolat Filium unicum; tribuit etiam
+annulum fidei, et stola immortalitatis induit eum,
+quanquam Judaeus frater livoris torqueatur invidia,
+propter salutem tamen ejus gaudium concinit angelorum
+symphonia.</p>
+        </div3>
+<div3>
+          <head>217.</head>
+          <p>
+ Dispensator prodigus, quem dominus a villicatione
+removeri praecepit, et fraudem faciens domino
+suo, relaxavit debitoribus partem, ut haberet unde
+in posterum viveret <note>(Luc. XVI)</note>, haec comparatio ad
+exemplum nostrum proposita est; nam si ille a domino
+<pb n="0126C"/>
+suo laudari promeruit, quia, fraudem ei faciens,
+in posterum sibi de alienis rebus providit, quanto
+magis Christo placere possumus, si ex propriis nostris
+misericordiam indigentibus faciamus, a quibus
+recipi in aeterna tabernacula possimus?
+</p>
+          <p> 218. Dives qui induebatur purpura et bysso <note>(Ibid.)</note> 
+significat Judaeorum superbiam, florentem quondam
+imperii claritate, vel honoris excellentia. <emph>148</emph>
+</p>
+        </div3>
+<div3>
+          <head>219.</head>
+          <p>
+ Mendicus ulcerosus <note>(Ibid.)</note> demonstrat
+gentilem populum, confessionibus peccatorum humiliatum.</p>
+        </div3>
+<div3>
+          <head>220.</head>
+          <p>
+ Quinque fratres divitis illius qui apud inferos
+torquebatur <note>(Ibid.)</note> Judaei intelliguntur, qui sub quinque
+libris positi sunt.
+<pb n="0127A"/>
+</p>
+        </div3>
+<div3>
+          <head>221. </head>
+          <p>
+Decem leprosi, qui mundantur a Domino <note>(Luc.
+XVII)</note>, haeretici significantur, qui in varietate colorum
+diversitatem habent schismatum, quique ideo ad sacerdotes
+mittuntur, ut, detersa omni varietate errorum,
+unitatis percipiant sacramentum.</p>
+        </div3>
+<div3>
+          <head>222.</head>
+          <p>
+ Judex iniquus, qui Dominum non timebat,
+assidue tamen deprecantem viduam exaudivit <note>(Luc.
+XVIII)</note>, similitudo est qua demonstratur quantam
+spem habere debeat qui Dominum indesinenter exposcit,
+cum etiam apud aures iniqui judicis valuerit
+frequens instantia viduae deprecantis. Ipsa autem vidua
+significare potest Ecclesiam, perseverantia sua
+petentem ultionem de inimicis suis, diabolo, vel haereticis.</p>
+        </div3>
+<div3>
+          <head>223.</head>
+          <p>
+ Pharisaeus orans in templo <note>(Ibid.)</note> Judaeorum
+<pb n="0127B"/>
+est populus, qui ex justificationibus legis extollit merita
+sua.</p>
+        </div3>
+<div3>
+          <head>224.</head>
+          <p>
+ Publicanus vero <note>(Ibid.)</note> gentilis est populus,
+qui longe a Deo positus confitetur peccata sua, quorum
+unus superbiendo recessit humiliatus, alter confitendo
+Deo appropinquare meruit exaltatus.</p>
+        </div3>
+<div3>
+          <head>225.</head>
+          <p>
+ Caecus sedens secus viam <note>(Ibid.)</note> populum demonstrat
+gentilem, qui per Christi gratiam fidei meruit
+claritatem.</p>
+        </div3>
+<div3>
+          <head>226.</head>
+          <p>
+ Zachaeus <note>(Luc. XIX)</note> gentilis est populus, gratia
+meritorum pusillus, qui tamen, a terrenis actibus
+sublevatus, per lignum dominicae crucis Christi mysterium
+contemplatur.</p>
+        </div3>
+<div3>
+          <head>227.</head>
+          <p>
+ Homo nobilis qui in longinquam abiit regionem
+accipere sibi regnum <note>(Ibid.)</note>, Redemptor noster
+<pb n="0127C"/>
+est, qui usque ad fines terrae pervenit accipere regnum
+in populis gentium.</p>
+        </div3>
+<div3>
+          <head>228.</head>
+          <p>
+ Cives qui noluerunt eum regnare <note>(Ibid.)</note> Judaei
+intelliguntur, qui Christum regem spreverunt.</p>
+        </div3>
+<div3>
+          <head>229.</head>
+          <p>
+ Servus qui mnam unam accipiens, decem
+acquisivit <note>(Ibid.)</note>, significat doctores qui, accepta
+gratia Evangelii, in decem verborum Decalogi praedicamentis
+bene usi sunt, et docendo multos in <emph>149</emph> 
+fide acquisierunt, idcirco, adveniente Domino, laudabuntur,
+quia lucrati sunt.</p>
+        </div3>
+<div3>
+          <head>230.</head>
+          <p>
+ Qui vero ex una quinque acquisivit <note>(Ibid.)</note>,
+illos demonstrat qui mandatum Dei servantes consequuntur
+scientiam legis, in quinque libris Moysi
+scriptam, eamque docendo ad usum salutis necessarium
+fenerantur.
+<pb n="0127D"/>
+</p>
+        </div3>
+<div3>
+          <head>231. </head>
+          <p>
+Qui vero mnam ipsam in sudario conservavit <note>(Ibid.)</note>,
+ostendit eum qui creditum sibi gratiae donum
+delicate otioseque tractavit, unde et recte amittit
+collatam gratiam, quia per negligentiam praedicare
+contempsit, ut ei augeretur quod laboravit.</p>
+        </div3>
+<div3>
+          <head>232.</head>
+          <p>
+ Vidua quae in gazophylacio duo jecit minuta <note>(Luc. XXI)</note>,
+animam fidelem demonstrat ejus qui in
+thesauro cordis sui fructum dilectionis Dei et proximi
+servat.</p>
+        </div3>
+<div3>
+          <head>233.</head>
+          <p>
+ Sponsus <note>(Joan. II)</note> Christus est; cujus
+nuptiae cum Ecclesia celebrantur, in cujus conjunctione
+aqua in vinum mutatur, quia credentes
+<pb n="0128A"/>
+per lavacri gratiam transeunt ad passionis coronam.</p>
+        </div3>
+<div3>
+          <head>234.</head>
+          <p>
+ Architriclinus <note>(Ibid.)</note>, Moyses intelligitur,
+qui miratur meliorem et sanctiorem populum per
+Jesum in Evangelium congregatum, quam illum
+priorem ab Aegypto deductum; finitum enim vinum
+ostendit sublatam esse gratiam Spiritus sancti a Judaeis,
+et per apostolos in gentibus contributam.</p>
+        </div3>
+<div3>
+          <head>235.</head>
+          <p>
+ Mulier Samaritana <note>(Joan. IV)</note> mystice intelligitur
+Synagoga quinque libris legis, quasi quinque
+viris, secundum sensum carnis, subjecta, quam
+misericorditer Dominus provocat haurire aquam
+vivam, lavacri scilicet percipere gratiam, vel secretam
+legis intelligentiam.</p>
+        </div3>
+<div3>
+          <head>236.</head>
+          <p>
+ Mulier adultera, quae offertur a Judaeis Domino
+<pb n="0128B"/>
+lapidanda <note>(Joan. VIII)</note>, est Ecclesia ex gentibus,
+quae, prius relicto Deo, in idolis fuerat fornicata,
+hanc volebat Synagoga zelans interfici, et Christus
+eam salvat per remissionem delicti, nec sinit eam
+perire, qui novit veniam condonare peccantibus.</p>
+        </div3>
+<div3>
+          <head>237.</head>
+          <p>
+ Simon leprosus <note>(Matth. XXVI)</note> gentilis est
+populus, qui est a Redemptore mundatus.</p>
+        </div3>
+<div3>
+          <head>238.</head>
+          <p>
+ Mulier quae unguento caput Domini unxit <note>(Ibid.)</note> 
+ Ecclesia est, quae fructus sui operis fideique
+odorem ad laudem Dei et Christi gloriam refert.</p>
+        </div3>
+<div3>
+          <head>239.</head>
+          <p>
+ Angelus ille ad cujus descensum movebatur
+aqua, quinque porticibus cincta <note>(Joan. V)</note>, Christus
+est, in cujus adventu turbatus est <emph>150</emph> Judaeorum
+populus quinque libris conclusus: descendente enim
+angelo, commovebatur aqua, et sanabatur infirmus;
+<pb n="0128C"/>
+descendente de coelis Christo, commotus est in passione
+ejus idem populus, et sanatus est mundus.
+</p>
+          <p> 240. Caecus a nativitate, quem Dominus, postquam
+unxit oculos, ad piscinam Siloe misit lavandum <note>(Joan. IX)</note>,
+significat genus humanum a nativitate,
+id est, a primo homine errorum tenebris
+vitiatum, cujus oculos Dominus de sputo et luto linivit,
+quia verbum caro factum est. Et lavari oculos
+in piscina jussit, ut baptizatus in Christo, acciperet
+legem fidei, et crederet in eum qui humilis in mundo
+apparuit.</p>
+        </div3>
+<div3>
+          <head>241.</head>
+          <p>
+ Lazarus, quem Dominus quatriduanum fetentem
+de monumento suscitavit <note>(Joan. XI)</note>, significat
+mundum, quem gravissima peccati consuetudo
+<pb n="0128D"/>
+corruperat, qui tamen quarta die mortis resuscitatur.
+Prima enim dies est mortis, tracta ex Adam
+propago mortis; altera dies mortis est transgressio
+legis naturalis; tertius est dies mortis praevaricatio
+datae legis; quartus dies mortis est contemptus
+evangelicae praedicationis, in quo die Dominus, suum
+opus respiciens, misericorditer resuscitare dignatus
+est.</p>
+        </div3>
+<div3>
+          <head>242.</head>
+          <p>
+ Servus principis sacerdotum, cujus dextra
+amputatur auricula <note>(Matth. XXVI)</note>, Israeliticus est
+populus, propter incredulitatem servus effectus. Hic
+dexteram aurem amittit, dum ad sinistram per intellectum
+<pb n="0129A"/>
+litterae transit, cui Dominus in his cui
+credunt auditum restaurat fidei, et obedientem
+evangelici facit mandati.</p>
+        </div3>
+<div3>
+          <head>243.</head>
+          <p>
+ Princeps sacerdotum, qui scidit vestimentum
+suum in Domini passione <note>(Ibid.)</note>, indicat Hebraeum
+populum nudatum sacerdotio, et evacuatum
+regno scisso.</p>
+        </div3>
+<div3>
+          <head>244.</head>
+          <p>
+ Barabbas, qui Judaeis dimittitur <note>(Matth.
+XXVII)</note>, significat Antichristum, quem illi errantes
+meruerunt suscipere pro Christo.</p>
+        </div3>
+<div3>
+          <head>245.</head>
+          <p>
+ Herodes et Pilatus, qui, cum essent discordes,
+in passione Domini amicitia foederantur <note>(Luc.
+XXIII)</note>, indicant primum divisos fuisse utrosque populos
+circumcisionis et gentium, qui tamen per passionem
+Domini in fide concordaverunt.</p>
+        </div3>
+<div3>
+          <head>246.</head>
+          <p>
+ Simon Cyrenaeus, cui gestandam crucem
+<pb n="0129B"/>
+imposuerunt <note>(Ibid.)</note>, <emph>151</emph> gentium populus intelligitur,
+qui peregrinus in lege, obediens efficitur
+Evangelio, crucis ipse Christi vector, et fidei bajulus
+factus.
+<pb n="0130A"/>
+</p>
+        </div3>
+<div3>
+          <head>247. </head>
+          <p>
+Duo latrones <note>(Ibid.)</note> populum exprimunt Judaeorum
+et gentium: quorum unus incredulus blasphemat
+Christum in cruce pendentem, alter fidelis Judaeos
+increpat blasphemantes.</p>
+        </div3>
+<div3>
+          <head>248.</head>
+          <p>
+ Quatuor milites, qui quatuor partes sibi de Jesu
+vestimentis fecerunt <note>(Psal. CXVIII, 162)</note>, praefiguraverunt
+quatuor partes mundi, qui diviserunt sibi eloquia
+Christi, sicut scriptum est: <hi>Laetabor ego super eloquia
+tua, sicut qui invenit spolia multa.</hi> </p>
+        </div3>
+<div3>
+          <head>249.</head>
+          <p>
+ Mulieres quae apostolis Domini resurrectionem
+annuntiant, lex et prophetia intelliguntur, quae gloriam
+resurrectionis Christi, antequam revelaretur,
+quasi praecursores praedicaverunt.
+</p>
+          <p> 250. Septem discipuli, cum quibus Dominus post resurrectionem
+suam convivasse describitur, septimam
+<pb n="0130B"/>
+indicant post resurrectionis futurae requiem, per
+quam omnes sancti per Christum aeterna beatitudinis
+refectione saturabuntur, ad quam saturitatem nos
+perducat Christus. Amen.
+</p>
+</div3>
+      </div1>
+</body>
+  </text>
+</TEI>

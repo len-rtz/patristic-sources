@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              
+              <titleStmt>
+              <title>Carmen de passione Domini [CSEL]</title>
+              <author ref="http://viaf.org/viaf/100198064">Lactantius<date>250-325</date></author>
+              </titleStmt> 
+              <editor><persName><name xml:lang="la">Georgius Laubmann</name>; <addName xml:lang="de">Georg Laubmann</addName></persName></editor> 
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1893-1897</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 27</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru01wiengoog#page/n11/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Samuel Brandt</name>; <addName xml:lang="de">Samuel Brandt</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>Lactan.CaDePasCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL27.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:l[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0171.stoa004.opp-lat1"/>
+<div1><head>
+            <title type="sub">[LACTANTI] CARMEN DE PASSIONE DOMINI. </title></head>
+          
+          <l n="1"><milestone unit="para"/>Quisquis ades mediique subis in limina templi,  </l>
+            <l n="2">Siste parum insontemque tuo pro crimine passum  </l>
+            <l n="3">Respice me, me conde animo, me pectore serua.  </l>
+            <l n="4">Ille ego qui casus hominum miseratus acerbos,  </l>
+            <l n="5">Huc ueni pacis promissae interpres et ampla  </l>
+            <l n="6">Communis culpae uenia: hic clarissima ab alto  </l>
+            <l n="7">Reddita lux terris, hic alma salutis imago,  </l>
+            <l n="8">Hic tibi sum requies, uia recta, redemptio uera,  </l>
+            <l n="9"><sic>Yeiillumque</sic> dei <choice><note>signuni</note><corr>signum</corr></choice> et memorabile fati.  </l>
+            <l n="10">Te propter uitamque tuam sum uirginis aluum  </l>
+            <l n="11">Ingressus, sum factus homo atque horrentia passus  </l>
+            <l n="12">Funera, nec requiem terrarum in finibus usquam </l>
+
+<app> X: editio s. 1. et a. </app>
+
+<app> <hi>.Ald.:</hi> Poetae christiani ueteres, uol. II, Venet. ap. Aldum 1502. </app>
+
+<app> <hi>PlP2:</hi> editiones Ascensii Parisinae aa. 1505. 1509. </app>
+
+<app>BlB2B3: editiones Basileenses aa. 1509. 1518. 1515. </app>
+
+<app><hi>V:</hi> editio Vindobonensis a. 1511. </app>
+
+<app> <hi>L:</hi> editio Lipsiensis a. 1511. </app>
+
+<app> <hi>Egn.:</hi> Egnatius in Lactantii editione Aldina a. 1515. </app>
+
+<app> <hi>LOCI AVCTORVM SIMILESVE</hi> 1] Venant. Fortunat. carm. <lb/>
+            I 2, 1; X 5, 1. 1 8. J Philomusus, Epitaph. Christi 1 s. (cf. Prolegom.) <lb/>
+            4] Philomusus 27 s. — qui ... acerbosJ Prudent. Psychom. 1. 9 uexillumj <lb/>
+            Prudent. Apoth. 448; Paulin. Petricord. Vito Mart. II 238. 248. <lb/>
+            IV 599. V 154. </app>
+
+<app> Lactantij Firmiani carmina de Passione Domini <hi>X;</hi> Lactantii firmiani <lb/>
+            carmina de passione domini <hi>Ald.;</hi> Lactatii Firmiani de passiSe domini <lb/>
+            carme<foreign xml:lang="grc">̄</foreign> heroictt <hi>V;</hi> LACTANTII FIRMIANI CARMEN He passione Domini <lb/>
+            <hi>Egn.;</hi> L. Celii Lactatii Firmiani pia Nenia vbis crucifixi P1; L.Celij <lb/>
+            (Coelij <hi>L)</hi> Lactantij Firmiani pia Nenia uerbis Christi domini crucifiii <lb/>
+            beneficia sua in nos commemorantis <hi>P2, eadem inscriptio</hi> in <hi>Bl</hi> (quae <lb/>
+            <hi>tamen</hi> Lanctantij <hi>habet) B2B*L, nisi quod</hi> beneficia <hi>post</hi> commemorantis <lb/>
+            <hi>ponunt; de inscriptionibus carminis quales sunt in titulis editionum X <lb/>
+            Ald. V Pl cf. ProlegoPn</hi>. 2 parum) gradum <hi>coni. Verg. Aen. VI 465 <lb/>
+            Heumannus. Poecile III 228, sed cf. locum Philomusi (in Prolegom.)</hi> <lb/>
+            3 pectore] <hi>X,</hi> in pectore <hi>Ald. et cett</hi>. 6 culpa P1 7 rerris <hi>(sic) Ald</hi>. <lb/>
+            9 fari <hi>Egn., probat Barthius, Âdvers. p. 1466, qui etiam</hi> Phari <hi>conicit</hi> </app> <lb/>
+             
+<pb n="149"/>
+            <l n="13"><sic>Inneni</sic>, sed ubique minas et ubique labores.  </l>
+            <l n="14">Horrida prima mihi in terris magalia Iudae  </l>
+            <l n="15">Hospitia in partu sociaeque fuere parenti:  </l>
+            <l n="16">Hic mihi fusa dedit bruta inter inertia primum  </l>
+            <l n="17">Arida in angustis praesepibus herba cubile.  </l>
+            <l n="18">In Phariis primos <choice n="0.06"><note n="2">nixi</note><corr n="30">uixi</corr></choice> regionibus annos  </l>
+            <l n="19">Herodis regno <choice><note>profngus</note><corr>profugus</corr></choice> reliquosque reuersus  </l>
+            <l n="20"><choice><note>Indaeam</note><corr>Iudaeam</corr></choice>, semper ieiunia, semper et ipsam  </l>
+            <l n="21"><choice><note>Panperiem</note><corr>Pauperiem</corr></choice> extremam et rerum inferiora secutus,  </l>
+            <l n="22">Semper agens monitis humana salubribus almae  </l>
+            <l n="23">Ingenia ad studium probitatis, aperta <choice><note>salnbri</note><corr>salubri</corr></choice>  </l>
+            <l n="24">Plurima doctrinae iniungens miracula. quare  </l>
+            <l n="25">Impia Hierusalem, rabidis exercita curis  </l>
+            <l n="26"><choice><note>Innidiae</note><corr>Inuidiae</corr></choice> saeuisque odiis et caeca <choice><note>fnrore</note><corr>furore</corr></choice>  </l>
+            <l n="27">Insonti est poenis letalibus ausa cruentam  </l>
+            <l n="28">In cruce terribili mortem mihi quaerere. quae si  </l>
+            <l n="29">Latius ipse <choice><note>nelim</note><corr>uelim</corr></choice> distinguere sique per omnes  </l>
+            <l n="30">Ire iuuet gemitus mecum et sentire dolores,  </l>
+            <l n="31">Collige consilia insidiasue meique nefandum  </l>
+            <l n="32">Sanguinis innocui pretium et simulata clientis.  </l>
+            <l n="33">Oscula et insultus et <choice><note>saenae</note><corr>saeuae</corr></choice> iurgia turbae.  </l>
+            <l n="34">Verbera praeterea et promptas ad crimina linguas  </l>
+            <l n="35">Fige animo et testes et caeci infanda Pilati  </l>
+            <l n="36"><choice n="0.33"><note n="1">Indicia</note><corr n="2">Iudicia</corr></choice> ingentemque humeros et fessa prementem -  </l>
+            <l n="37">Terga crucem atque graues horrenda ad funera gressus.  </l>
+            <l n="38">Nunc me, nunc uero desertum extrema secutum  </l>
+            <l n="39">Supplicia et dulci procul a genetrice <sic n="poss">lenatum</sic>- </l>
+
+<app> <hi>LOCI AVCTORVM SIMILESVE</hi> 25 Impia Hierusalexn] Elegia <lb/>
+            in Hierusalem (cf. Prolegom.) 9. 13. 17. 21. 47. 53. 55. 61. 62. — exercita <lb/>
+            curis] Verg. Aen. V 779. 26 et caeca furore] Verg. Aen. n 244; <lb/>
+            Philomusns 33. </app>
+
+<app> 13 et <hi>add. Ascensius (P2P2B1B2B3L),</hi> sed <hi>Egn., om. X Ald. V</hi> <lb/>
+            17 augustis <hi>V</hi> 21 sequutus <hi>Ald. V</hi> 22 agens] <hi>Ascensius (P2B1B2B3L),</hi> <lb/>
+            egens <hi>X Ald. Ascensius (Pl) V Egn</hi>. 24 doctrinae iniungens] <hi>X<lb/>
+             Ald. V Egn.</hi>. doctrina iniungens <hi>Ascensius (Pi),</hi> doctrinae iungens <hi>Ascensius<lb/>
+             (P2BlB2B3L)</hi> 25 rabulis <hi>V</hi> 27 letabilibus P3, loetabilibus <hi>BlL</hi> <lb/>
+            29 nelis <hi>Fabricius</hi> distinguete <hi>(sic) Ald</hi>. sicque <hi>B3</hi> 31 insidiasue] <lb/>
+            <hi>X Ald. V Egn.,</hi> insidisue <hi>(sic) Pl,</hi> insidijsue <hi>P2BlB2B3L,</hi> insidiasque <lb/>
+            <hi>Fabricius</hi> 34 et promptas] &amp; promptas &amp; <hi>Ald. (alt</hi>. &amp; <hi>fort. ex 36)</hi> <lb/>
+            lingua <hi>Ald. exempl. Monacense,</hi> s <hi>casu non est expressum, est in exemplari<lb/>
+             Gottingensi</hi> 35 FigeJ <hi>X Ald. V Egn.,</hi> Finge <hi>Ascensius (PlP2BlB2B3L),<lb/>
+             fort. recte</hi> 36 et <hi>om. Ald</hi>. primentem <hi>V</hi> 37 gres <hi>Ald. exempl. <lb/>
+            Monaetme,</hi> sus <hi>casu non est expressum, est in exemplari Gottingensi</hi> <lb/>
+            38 <hi>an</hi> uere ? sequutum <hi>X Ald.,</hi> sequuntQ <hi>(sic) V</hi> 39 leuatam <hi>V</hi> </app> <lb/>
+             
+<pb n="150"/>
+            <l n="40"><sic>Vertice</sic> ad usque pedes me lustra: en aspice crines  </l>
+            <l n="41">Sanguine concretos et sanguinolenta <choice><note>snb</note><corr>sub</corr></choice> ipsis  </l>
+            <l n="42">Colla comis <choice><note>apinisque</note><corr>spinisque</corr></choice> caput crudelibus haustum,  </l>
+            <l n="43">Undique <choice><note>dina</note><corr>diua</corr></choice> <sic>plaens</sic> <sic>aiuam</sic> super ora cruorem.  </l>
+            <l n="44">Compressos speculare oculos et luce carentes  </l>
+            <l n="45">45 <choice><note>Afflictasque</note><corr>Afflictasqne</corr></choice> genas, arentem suspice linguam  </l>
+            <l n="46"><sic>Fello</sic> uenenatam et pallentes funere uultus.  </l>
+            <l n="47">Cerne manus clauis fixas tractosque lacertos  </l>
+            <l n="48">Atque ingens lateris uulnus, cerne inde fluorem  </l>
+            <l n="49">Sanguineum fossosque pedes artusque <choice><note>craentos</note><corr>cruentos</corr></choice>.  </l>
+            <l n="50">Flecte genu lignumque crucis uenerabile adora  </l>
+            <l n="51">Flebilis, innocuo terramque cruore madentem  </l>
+            <l n="52">Ore petens humili lacrimis suffunde subortis  </l>
+            <l n="53">Et me nonnumquam <choice><note>denoto</note><corr>deuoto</corr></choice> in corde meosque  </l>
+            <l n="54">Fer monitus. sectare meae uestigia uitae  </l>
+            <l n="55">Ipsaque supplicia inspiciens mortemque seueram.  </l>
+            <l n="56">Corporis innumeros memorans animique dolores.  </l>
+            <l n="57">Disce aduersa pati et propriae inuigilare saluti.  </l>
+            <l n="58">Haec monumenta tibi si quando in mente iuuabit  </l>
+            <l n="59">Voluere, si qua fides animo tibi forte meorum,  </l>
+            <l n="60">Debita si pietas et gratia digna laborum  </l>
+            <l n="61">Surget, erunt uerae stimuli uirtutis eruntque  </l>
+            <l n="62">Hostis in insidias clipei, quibus acer in omni  </l>
+            <l n="63">Tutus eris uictorque feres certamine palmam.  </l>
+            <l n="64">Haec monumenta tuos si labilis orbis amicos  </l>
+            <l n="65">Auertent sensus fugiente decoris ab umbra  </l>
+            <l n="66">Mundani, efficient ne spe captatus inani  </l>
+            <l n="67">Mobilis occiduis fortunae fidere rebus  </l>
+            <l n="68"><choice><note>Auseris</note><corr>Anseris</corr></choice> aut uitae sperare fugacibus annis. </l>
+
+<app> <hi>LOCI AVCTORVM SIMILESVE</hi> 40 s. crinesa. concretos] Verg. <lb/>
+            Aen. II 277. 40. 42 s.] Cantalicius. Contemplat. (I) ad crucifixum 7's. <lb/>
+            (cf. Prolegom.) 44] ZavenzoniuB, De passione Christi 33 s. (cf. Prolegom.) <lb/>
+            — luce carentes] Philomusus 17. 50] Cantalicius, Excusat. ad <lb/>
+            uirg. Mariam in die passionis Christi 7 (cf. Prolegom.). — ligrfum... <lb/>
+            uenerabile] 'Orientius' De trinit. 49. 59 si qua fides animo] Verg. Aen. <lb/>
+            DI 434. 66 spe .. inani] Verg. Aen. XI 49. </app>
+
+<app> 40 en] an Pa accipe <hi>V</hi> 45 suscipe <hi>L</hi> 46 funere1 <hi>X AIel. P1 <lb/>
+            V Egn., funera P2BlB7B3L</hi> 48 lateris] <hi>L et e coniect. ut uid. Fabricius,</hi> <lb/>
+            lateri <hi>cett. ante Fabricium</hi> 50 s. lignumque-Plebilis <hi>eicit Fabricius</hi> <lb/>
+            52 perfunde <hi>Fabricius</hi> 53 numquam non <hi>Barthius. Aduers. p. 1467</hi> <lb/>
+            57 inuigilate PJ 58 monimenta <hi>Egn</hi>. lubebit <hi>Biuinus</hi> 59 forte] <lb/>
+            <hi>Riuinus,</hi> ferre <hi>priores</hi> 64 monimenta <hi>Egn</hi>. amicus <hi>V</hi> 66 Nundani <lb/>
+            <hi>P2B1L</hi> captatas <hi>X,</hi> capratus Pa 67 sidere <hi>X</hi> 68 Ausis <lb/>
+            <hi>Betuleius</hi> fugacius <hi>V</hi> </app> 
+<pb n="151"/>
+            
+
+          <l n="69"><milestone unit="para"/>Sed te nimirum sic ista caduca <choice><note>nidentem</note><corr>uidentem</corr></choice>  </l>
+            <l n="70"><choice><note>Saecnla</note><corr>Saecula</corr></choice> et exutum patriae melioris amore  </l>
+            <l n="71">Orbis opes <choice><note>rernmque</note><corr>rerumque</corr></choice> usus et uota priorum  </l>
+            <l n="72">Moribus <sic>extollent</sic> sacris uitaeque beatae  </l>
+            <l n="73">Spe duras inter poenas te rore <choice><note>fonebunt</note><corr>fouebunt</corr></choice>  </l>
+            <l n="74">Caelesti pactique boni dulcedine pascent,  </l>
+            <l n="75">Purpuream donec post ultima fata relicto  </l>
+            <l n="76">Corpore sublimes animam reuocabit ad auras  </l>
+            <l n="77">Gratia magna dei. tunc omnem exuta laborem,  </l>
+            <l n="78">Angelicos tunc laeta choros aciesque beatas  </l>
+            <l n="79">Sanctorum inspiciens aeternae pacis amoena  </l>
+            <l n="80">Perpetuo felix mecum regnabit in aula.  </l>
+
+<app> <hi>LOCI AVCTORVM SIMILESVE</hi> 74 dulcedine pascent] Sedul. <lb/>
+            carm. pasch. I 150. 75 s. Purpuream... animam] Verg. Aen. IX 349. <lb/>
+            78-80] Philomusus 49 s. 80 regnabit in aula] Verg. Georg. IV 90. </app>
+
+<app> 70 exutam <hi>V</hi> 71 uisus <hi>X</hi> 72 extollent] <hi>Barthius,</hi> extollens <hi>priores,</hi> <lb/>
+            expolient <hi>Heumannus p. 234</hi> 74 pratique <hi>Barthius conl. Ps. XXIII <lb/>
+            (XXII) 2 et Prudent. Cathem. VIII 41</hi> 77 dei] <hi>Biuinus, tibi priores <lb/>
+            (puncto post</hi> auras <hi>76 posito)</hi> nunc <hi>B1B2B3L</hi> </app> 
+<pb n="152"/>
+             
+            
+<pb n="153"/>
+            
+
+
+
+
+</div1>
+</body>
+</text>
+</TEI>

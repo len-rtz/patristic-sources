@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>De patientia [CSEL]</title> 
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date></author>
+              </titleStmt>
+               
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1900</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 41</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru1swiengoog#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Iosephus Zycha</name>; <addName xml:lang="de">Joseph Zycha</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>August.DeetSyCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL41.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0040.stoa056b.opp-lat1"/>
+
+            <title type="sub">XIIII. DE PATIENTIA. </title>
+          
+          <div1 n="1" subtype="section"><head>§ 1</head>
+
+<p><milestone n="1" unit="altchapter"/>Virtus animi, quae patientia dicitur, tam magnum <lb/>
+            dei donum est, ut etiam ipsius, qui nobis eam largitur, qua <lb/>
+            malos ut corrigantur expectat, patientia praedicetur. ita quamuis <lb n="5"/>
+            deus nihil pati possit, patientia uero a patiendo nomen <lb/>
+            acceperit, patientem tamen deum non modo fideliter credimus, <lb/>
+            uerum etiam salubriter <choice><note>conStemur</note><corr>confitemur</corr></choice>. sed dei patientia qualis <lb/>
+            et quanta sit, quem nihil patientem nec tamen inpatientem, <lb/>
+            immo etiam patientissimum dicimus, uerbis explicare quis <lb n="10"/>
+            possit? ineffabilis est ergo illa patientia, non tamen nulla, <lb/>
+            sicut zelus eius, sicut ira eius et si quid huius modi est. <lb/>
+            nam si tamquam nostra ista cogitemus, in illo nulla sunt. <lb/>
+            nihil enim horum nos sine molestia sentimus; absit autem <lb/>
+            ut inpassibilem dei naturam perpeti ullam molestiam suspicemur. <lb n="15"/>
+            sicut autem zelat sine aliquo liuore, irascitur sine
+
+<app> 2 Incipit eiusdem de bono pacientiae <hi>fol</hi>. 23* <hi>K fol. 4* R</hi> Incipit <lb/>
+            sermo beati Augustini epi de bono patientie <hi>p</hi>. 29 <hi>S</hi> Incipit liber sci <lb/>
+            Augustini epi de paciencia <hi>fol. 246* F fdl. 15b 0 fol. 35 D fol</hi>. 146b <hi>B</hi> <lb/>
+            Incipit liber beati Augustini epi de pacientia <hi>fol. 69* N</hi> Sermo beati <lb/>
+            Augustini epi de <hi>patientia A</hi> Incipit liber <hi>de patientia fol</hi>. 6P <hi>Y fol. 22h V</hi> <lb/>
+            Inč lib. aug de patientia <hi>fol. 150*</hi> W Inč sci aug de patientia <hi>fol. 50 L</hi> <lb/>
+            Incipit Aureli Augustini uirtus <hi>sqq. fol. 106 P</hi> 3 tam <hi>om. B</hi> 4 ipsius <lb/>
+            etiam S nobis <hi>om. KR</hi> ea. dona <hi>K</hi> eam dono <hi>R</hi> largiatur <hi>K</hi> <lb/>
+            qua] qui ea <hi>R</hi> 5 malus <hi>K</hi> corregantur <hi>K</hi> predicatur <hi>K</hi> 6 nihilj <lb/>
+            nihil mali <hi>KRPBDWf</hi> paciendo <hi>K</hi> 7 accepit <hi>KFPBWf</hi> accipit <hi>0</hi> <lb/>
+            patientiam <hi>W</hi> deum <hi>om. KR</hi> 9 et <hi>om. NY</hi> 10 pacientissimum <lb/>
+            <hi>KS</hi> 11 ergo est <hi>DW(</hi> non tafti ulla P nec tamen nulla <hi>V om. bd</hi> <lb/>
+            12 si quid] sicut <hi>RD</hi> buiusce <hi>V</hi> 13 cogitemus] tractemus <hi>B</hi> <lb/>
+            14 enim <hi>om. L</hi> sine molestia nos <hi>B</hi> 15 inpassione domini <hi>V</hi> <lb/>
+            16 liuore <hi>ex</hi> dolore <hi>m. 1 L</hi> libore <hi>K</hi> irascitur-dolore <hi>om. L</hi> </app> <lb/>
+             
+<pb n="664"/>
+            aliqua perturbatione, miseretur sine aliquo dolore, paenitet <lb/>
+            eum sine alicuius suae prauitatis correctione: ita est patiens <lb/>
+            sine ulla passione. nunc itaque humana patientia, quam capere <lb/>
+            possumus et habere debemus, cuius modi sit, quantum dominus <lb/>
+            tribuit et quantum patitur breuitas praesentis sermonis,<lb n="5"/>
+            expediam. 
+</p>
+          
+</div1>
+
+<div1 n="2" subtype="section"><head>§ 2</head>
+
+<p><milestone n="2" unit="altchapter"/> Patientia hominis, quae recta est atque laudabilis et <lb/>
+            uocabulo digna uirtutis, ea perhibetur, qua aequo animo mala <lb/>
+            toleramus, ne animo iniquo bona deseramus, per quae ad <lb/>
+            meliora perueniamus. quapropter inpatientes, dum mala pati<lb n="10"/>
+            nolunt, non efficiunt, ut a malis eruantur, sed ut mala grauiora <lb/>
+            patiantur. patientes autem, qui mala malunt non committendo <lb/>
+            ferre quam non ferendo committere, et leuiora faciunt, <lb/>
+            quae per patientiam patiuntur, et peiora euadunt, quibus <lb/>
+            per inpatientiam mergerentur. bona uero aeterna et<lb n="15"/>
+            magna non perdunt, dum malis temporalibus breuibusque non <lb/>
+            cedunt, <sic>quoniamnonsuntcondignaepassioneshuius</sic> <lb/>
+            temporis, sicut apostolus dicit, ad futuram gloriam, <lb/>
+            quae reuelabitur in nobis, et iterum ait: quod est <lb/>
+            temporale leue tribulationis nostrae, in incredibilem<lb n="20"/>
+            modum aeternum gloriae pondus operatur <lb/>
+            in nobis.
+
+<app> 17 Rom. 8, 18 19 II Cor. 4, 17 </app>
+
+<app> 1 miseratur <hi>R</hi> poenitet <hi>S</hi> penitet <hi>KFNO</hi> 2 cuius <hi>W</hi> suae <lb/>
+            <hi>om. V</hi> patiens <hi>om. W</hi> 3 quae <hi>K</hi> possumua capere Y 4 cuiusmodi. <lb/>
+            (s <hi>er.) K</hi> 5 presentis sermonis breuitas <hi>D</hi> presentis <hi>KS</hi> <lb/>
+            8 quae <hi>K</hi> quam <hi>B</hi> equo (e <hi>postea add.) K</hi> mala aequo animo <lb/>
+            <hi>}&lt;PBDOWr</hi> mala <hi>om. KR</hi> 9 des«»eramus <hi>L</hi> per-perueniamu!\\ <lb/>
+            <hi>om. K</hi> quaed <hi>R</hi> 10 ueniamus <hi>L</hi> pati mala <hi>OW</hi> 11 a om. <hi>W</hi> <lb/>
+            seruentur <hi>A</hi> sed-ferendo <hi>om. N1</hi> sed-committendo <hi>om. V</hi> 13 ferendo] <lb/>
+            ferre nolo <hi>V</hi> fatiunt <hi>K</hi> 14 peiore <hi>R</hi> aeuadnnt N <lb/>
+            quae <hi>0</hi> 15 mererentur <hi>0</hi> 16 breuibusquae <hi>Kl</hi> breuiterque r <lb/>
+            17 condigne <hi>LFO</hi> passionis <hi>K</hi> 18 sicut apostolus dicit <hi>om</hi>. TT <lb/>
+            dicit apostolus <hi>D</hi> 19 et iterum ait <hi>om. FDOTfr</hi> 20 et <hi>(s. 1. L)</hi> <lb/>
+            lene <hi>Lbd</hi> in <hi>om. LAFD</hi> 21 aeternae <hi>RSFNOVWKADr</hi> 22 in <lb/>
+            <hi>om. KRSAFPBWyd</hi> </app> 
+<pb n="665"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="3" subtype="section"><head>§ 3</head>
+
+<p><milestone n="3" unit="altchapter"/> Intueamur itaque, carissimi, quanta in laboribus et <lb/>
+            doloribus homines dura sustineant pro rebus, quas uitiose <lb/>
+            diligunt et quanto ipsi his feliciores fieri putant, tanto infelicius <lb/>
+            concupiscunt. quanta pro falsis diuitiis, quanta pro <lb/>
+            uanis honoribus, quanta pro ludicris affectionibus periculosissima <lb n="5"/>
+            et molestissima patientissime tolerantur! pecuniae, <lb/>
+            gloriae, lasciuiae cupidos uidemus, ut ad desiderata perueniant <lb/>
+            adeptisque non careant, soles, imbres, glacies, <choice><note>ftuctus</note><corr>fluctus</corr></choice> <lb/>
+            et procellosissimas tempestates, aspera et incerta bellorum, <lb/>
+            inmanium plagarum ictus et uulnera horrenda non ineuitabili <lb n="10"/>
+            necessitate, sed culpabili uoluntate perferre. uerum haec quodam <lb/>
+            modo licitae uidentur insaniae. 
+</p>
+          <p><milestone n="4" unit="altchapter"/>Namque auaritia, ambitio, luxuria et uariorum oblectamenta <lb/>
+            ludorum, nisi propter illa facinus aliquod admittatur <lb/>
+            siue flagitium, quod legibus prohibetur humanis, putantur ad <lb n="15"/>
+            innocentiam pertinere: immo etiam qui sine fraude cuiusquam <lb/>
+            aut pro habenda uel augenda pecunia aut pro adipiscendis <lb/>
+            uel retinendis honoribus aut in agone certando seu uenando <lb/>
+            seu theatricum aliquid plausibiliter exhibendo magnos labores <lb/>
+            doloresque pertulerit. parum est quod populari uanitate nullis
+
+<app>1 itaque] ergo <hi>KRPFBDOWQbd</hi> krmi <hi>KLN</hi> quanto <hi>S</hi> <lb/>
+            2 uitio sedilignnt S uitiosae <hi>iy</hi> uitiosa <hi>P</hi> 3 quantum <hi>KRSFDA <lb/>
+            PBNO'VT</hi> quanti <hi>02</hi> ipsi] se <hi>KRSANDbd om. BPFVWOr</hi> felices <lb/>
+            his <hi>BP</hi> felices <hi>KFDBPOWf</hi> fieri] esse <hi>NV</hi> tantum <hi>NV</hi> <lb/>
+            4 quantum <hi>V</hi> quanto <hi>S</hi> diuiciis <hi>K</hi> 5 lucri <hi>B</hi> lucris <hi>KNV</hi> affectibus <lb/>
+            P1 afflictionibus <hi>V</hi> 6 molestissime <hi>V</hi> moleBtissima»»»** <hi>L</hi> patientissimae <lb/>
+            <hi>N</hi> tollerant.. <hi>N</hi> tolerant <hi>V</hi> 7 lasciuiae <hi>om. A</hi> 8 glatiea <lb/>
+            <hi>KS</hi> fructus <hi>V</hi> 9 procellissimas <hi>B</hi> 10 immanuQ (Q <hi>8. l.) F</hi> <lb/>
+            euitali <hi>K</hi>. euitabili <hi>Dl 11</hi> haec] et <hi>L</hi> hac <hi>N hecD</hi> he <hi>0</hi> hae <hi>SAPBWbd</hi> <lb/>
+            licitae quodam modo <hi>SAFNVbd</hi> 12 licit.ae <hi>K</hi> luce <hi>W</hi> licet <hi>R</hi> euidentur <lb/>
+            <hi>R</hi> insania <hi>SR</hi> 13 auaricia <hi>LF</hi> ambicio P luxoriae <hi>R</hi> <lb/>
+            uaria eorum <hi>L</hi> 14 ammittatur <hi>KVLSF</hi> amittatur <hi>RPN</hi> 16 innocentia <lb/>
+            <hi>K</hi> ignorantiS <hi>D</hi> cuiusquam fraude <hi>PBDOFWr</hi> 17 prohibenda <lb/>
+            <hi>SV</hi> agenda <hi>R</hi> dipiscendis <hi>S</hi> 18 aut] seu <hi>D</hi> certanda <hi>81</hi> <lb/>
+            19 heatricum Ll plausabiliter <hi>KP</hi> pausabiliter <hi>V</hi> pausibiliter <hi>N</hi> <lb/>
+            exibendo <hi>V</hi> magnus <hi>K</hi> dolores laboresque <hi>V</hi> 20 doloresque <hi>om. W</hi> <lb/>
+            intulerit <hi>NV</hi> uanitati <hi>K</hi> unitate <hi>W</hi> </app> <lb n="20"/>
+             
+<pb n="666"/>
+            reprehensionibus cohibetur, sed insuper extollitur laudibus, <lb/>
+            quoniam laudatur, sicut scriptum est, peccator in <lb/>
+            desideriis animae suae. uis enim desideriorum facit tolerantiam <lb/>
+            laborum et dolorum; et nemo nisi pro eo, quod delectat, <lb/>
+            sponte suscipit ferre quod cruciat. sed istae, ut dixi,<lb n="5"/>
+            cupiditates, propter quas explendas qui eis flagrant multa <lb/>
+            dura et acerba patientissime sustinent, licitae existimantur <lb/>
+            legibusque concessae. 
+</p>
+          
+</div1>
+
+<div1 n="4" subtype="section"><head>§ 4</head>
+
+<p><milestone n="5" unit="altchapter"/> Quid? quod etiam pro apertis sceleribus, non ut ea <lb/>
+            puniant, sed ut perpetrent, multa homines grauissima perferunt?<lb n="10"/>
+            nonne de quodam nobilissimo patriae parricida saecularium <lb/>
+            litterarum loquuntur auctores, quod famem, sitim, <lb/>
+            frigus ferre poterat eiusque erat corpus patiens inediae, algoris, <lb/>
+            uigiliae supra quam cuiquam credibile est? quid de <lb/>
+            latronibus dicam, quorum omnes cum insidiantur uiatoribus,<lb n="15"/>
+            noctes perpetiuntur insomnes, atque ut transeuntes excipiant <lb/>
+            innocentes, sub qualibet caeli asperitate nocentem animum <lb/>
+            corpusque defigunt? quidam uero eorum inuicem torquere <lb/>
+            perhibentur, ita ut exercitatio contra poenas nihil distet a <lb/>
+            poenis. non enim tantum fortassis excruciantur a iudice, ut<lb n="20"/>
+            a dolentibus ueritas inquiratur, quantum a suis sociis, ut a
+
+<app> 2 Pa. 9, 24 (10, 3) 11 cf. Cic. Cat. III 16; SaU. Catil. 5 </app>
+
+<app> 1 rephensionibua <hi>L</hi> cohiberetur <hi>NS</hi> 2 quod S peccator sicut <lb/>
+            scriptum est <hi>FOW(</hi> sicut scriptum est <hi>legitur post</hi> animae suae <hi>in D</hi> <lb/>
+            3 anime <hi>LK</hi> tollerantiam <hi>XI P</hi> 5 suscepit <hi>K</hi> crutiat <hi>K</hi> iste Nf <lb/>
+            6 fraglant <hi>KPl</hi> flagrant et r 7 dura <hi>om. Dr</hi> acerua <hi>SLl</hi> patientissima <lb/>
+            <hi>N</hi> pacientissime <hi>L</hi> licite <hi>LKSNWf</hi> et licite <hi>V</hi> est!mantur <lb/>
+            <hi>D</hi> 8 concesse <hi>LSFODNW</hi> 9 pro apertis] peractis <hi>F</hi> <lb/>
+            eam <hi>W</hi> 10 ea perpetrent <hi>LA</hi> uel grauissima <hi>V</hi> proferunt 7 <lb/>
+            11 nllne <hi>D</hi> de <hi>om. ODL1</hi> nobilissime <hi>K</hi> nobilissimi <hi>OD</hi> patrie <lb/>
+            <hi>K</hi> patris <hi>OD</hi> paricida <hi>S</hi> parricidi <hi>OD</hi> 12 literarum <hi>S</hi> locuntur <lb/>
+            <hi>KSFDNV7</hi> actores <hi>W</hi> quid S fame <hi>N1</hi> 13 eiusquae Z,1 <lb/>
+            corpus erat S insediae <hi>K</hi> 15 uictoribus <hi>N1</hi> 16 insompnes <hi>Dj</hi> <lb/>
+            adque Kl excipiant (a <hi>ex</hi> u) <hi>L</hi> 17 animam <hi>B</hi> 18 torqueri <hi>FO</hi> <lb/>
+            19 perhibentur perhibentur <hi>S</hi> excitatio <hi>VN</hi> penas <hi>NV</hi> distat <hi>K</hi> <lb/>
+            20 fortasBes tantum <hi>S</hi> 21 adolescentibus P1 doloribus <hi>KR</hi> requiratur <lb/>
+            <hi>B pr</hi>. a <hi>om. N</hi> </app> <lb/>
+             
+<pb n="667"/>
+            patientibus non prodatur. et tamen in his omnibus miranda <lb/>
+            est potius quam laudanda patientia, immo nec miranda nec <lb/>
+            laudanda, quae nulla est, sed miranda duritia, neganda patientia; <lb/>
+            nihil autem illic iure laudandum, nihil utiliter imitandum, <lb/>
+            tantoque rectius maiore supplicio dignum <choice><note>iudicaneris</note><corr>iudicaueris</corr></choice> animum, <lb n="5"/>
+            quanto magis uitiis subdit instrumenta uirtutum. patientia <lb/>
+            comes est sapientiae, non famula concupiscentiae; patientia <lb/>
+            amica est bonae conscientiae, non inimica innocentiae. 
+</p>
+          
+</div1>
+
+<div1 n="5" subtype="section"><head>§ 5</head>
+
+<p><milestone n="6" unit="altchapter"/> Cum ergo quemquam uideris patienter aliquid pati, <lb/>
+            noli continuo laudare patientiam, quam non ostendit nisi causa <lb n="10"/>
+            patiendi. quando illa bona est, tunc ista uera est; quando <lb/>
+            illa non polluitur cupiditate, tunc a falsitate ista distinguitur. <lb/>
+            cum uero illa tenetur in crimine, tunc huius multum erratur <lb/>
+            in nomine. non enim sicut omnes qui sciunt sunt participes <lb/>
+            scientiae, ita omnes qui patiuntur sunt participes patientiae; <lb n="15"/>
+            sed qui passione recte utuntur, hi patientiae ueritate laudantur, <lb/>
+            hi patientiae munere coronantur. 
+</p>
+          
+</div1>
+
+<div1 n="6" subtype="section"><head>§ 6</head>
+
+<p><milestone n="7" unit="altchapter"/> Verum tamen cum pro libidinibus uel etiam sceleribus, <lb/>
+            cum denique pro ista temporali uita ac salute multa homines <lb/>
+            horrenda mirabiliter sufferunt, satis nos admonent, quanta <lb n="20"/>
+            sufferenda sint pro uita bona, ut etiam postea possit esse <lb/>
+            aeterna et sine ullo temporis termino, sine utilitatis ullius
+
+<app>1 prodantur <hi>AWb</hi> tamen <hi>om. B</hi> omnibus] hominibus <hi>L</hi> 2 immo-patientia <lb/>
+            in <hi>mg</hi>. y nec <hi>pr. ex</hi> et <hi>L</hi> 3 que <hi>SK nec F</hi> ulla <hi>F</hi> <lb/>
+            duricia <hi>LF</hi> patientia] sapientia <hi>KB</hi> 4 autem] enim <hi>Y</hi> hic aut <hi>B</hi> <lb/>
+            alibi imitandum et mirandum <hi>PFODBWy</hi> imitandum] mirandum <hi>K</hi> <lb/>
+            5 iudicaberis <hi>S</hi> 6 quanto supplicio <hi>VN</hi> subdit] <hi>odit SNAV</hi> instrumentfl <lb/>
+            <hi>L</hi> 7 sapientiae] patientiae <hi>K</hi> patientia. <hi>K</hi> patientiae <lb/>
+            <hi>N</hi> 8 bona <hi>N</hi> 9 uideris quemquam <hi>Bbd</hi> uideris quempiam <hi>A</hi> <lb/>
+            12 tunc a] tua <hi>NY</hi> ista <hi>om. KB</hi> 13 teneatur B in] ex <hi>L <lb/>
+            om. SNAV multum huius SNAV uius K errant Y</hi> 14 participes <lb/>
+            sunt <hi>BV</hi> 16 hii <hi>KOJVr om. Y</hi> inpatientie <hi>V</hi> 17 hi <lb/>
+            <hi>om. V</hi> inpatientie <hi>V</hi> 19 ista] illa <hi>V</hi> 20 mirabiliter] miranda <hi>0</hi> <lb/>
+            eatis-termino <hi>sequuntur post</hi> secura <hi>668, 1 in cod. D</hi> ammonent <lb/>
+            <hi>KNLSFV</hi> 21 sunt <hi>KRS</hi> postea om. <hi>KR</hi> esse possit <hi>PFBWf</hi> <lb/>
+            22 illius P</app> <lb/>
+             
+<pb n="668"/>
+            detrimento uera felicitate secura. dominus ait: in uestra <lb/>
+            p atientia possidebitis animas uestras; non ait: uillas <lb/>
+            uestras, laudes uestras, luxurias uestras, sed: animas uestras. <lb/>
+            si ergo tanta suffert anima, ut possideat, unde pereat. <lb/>
+            quanta debet sufferre, ne pereat! deinde, ut illud dicam, quod,<lb n="5"/>
+            culpabile non est, si tanta suffert pro salute carnis suae inter <lb/>
+            manus secantium siue urentium medicorum, quanta debet <lb/>
+            sufferre pro salute sua inter furores quorumlibet inimicorum! <lb/>
+            cum medici, ne corpus moriatur, per poenas corpori consulant, <lb/>
+            inimici autem poenas et mortem corpori comminando, ut<lb n="10"/>
+            anima et corpus in gehenna occidatur, inpellant. 
+</p>
+          
+</div1>
+
+<div1 n="7" subtype="section"><head>§ 7</head>
+
+<p>Quamquam et ipsi corpori tunc prouidentius consulatur, <lb/>
+            si temporalis salus eius pro iustitia contemnatur et poena <lb/>
+            uel mors eius patientissime pro iustitia sufferatur. de corporis <lb/>
+            quippe redemptione, quae in fine futura est, loquitur apostolus,<lb n="15"/>
+            ubi ait: et ipsi in nobismet ipsis ingemescimus <lb/>
+            adoptionem expectantes redemptionem corporis <lb/>
+            nostri. deinde subiunxit: spe enim salui facti <lb/>
+            sumus; spes autem, quae uidetur, non est spes. <lb/>
+            quod enim uidet quis, quid et sperat? si autem
+
+<app> 1 Luc. 21, 19 16 Rom. 8, 23-25 </app>
+
+<app> 1 detrimento <hi>om. D</hi> secura felicitate <hi>D</hi> ait] aut <hi>Ll</hi> patientia <lb/>
+            uestra <hi>NV</hi> 2 <hi>post</hi> patientia <hi>duodecim litt. er. in L</hi> non-animas <lb/>
+            uestras <hi>om. D</hi> 3 laudes uestras <hi>om. W</hi> 4 suffert (t in ras.) <hi>L</hi> <lb/>
+            pareat <hi>Ki</hi> 5 aufferre (rre <hi>in ras.) L</hi> ne - 8 sufferre <hi>om. L</hi> 8 salute <lb/>
+            sua] sua <hi>KBNY</hi> sua anima <hi>RSAFPDOWf</hi> inter furores] iDfusores <lb/>
+            <hi>V</hi> furores carnalium <hi>B</hi> 9 medici ne] medicint <hi>N</hi> medici M <lb/>
+            <hi>K</hi> medicine <hi>Y</hi> corporis <hi>NY</hi> insulant <hi>F1</hi> 10 inimicorum NV <lb/>
+            autem <hi>om. NV</hi> corporis <hi>KJRSNAV cominando K</hi> 11 corpus et <lb/>
+            anima P animll <hi>K</hi> animus <hi>A</hi> occidatur in gehenna <hi>Y</hi> 12 Quamquam] <lb/>
+            cum <hi>B</hi> ipso <hi>K</hi> ipsa S1 consolatur S 13 eius salus <hi>1)</hi> <lb/>
+            contempnatur <hi>LFY</hi> condempnatur <hi>N</hi> pena <hi>KLl</hi> penat <hi>V</hi> 15 futora] <lb/>
+            uentura <hi>S</hi> 16 ipse <hi>S</hi> met ipsis <hi>om. PBY</hi> ingemiscimus <lb/>
+            <hi>KRAFPBDOVWrbd</hi> 17 adoptionem filiorum <hi>Lbd</hi> redemptionem <lb/>
+            <hi>om. FODWr</hi> redemptionis <hi>A</hi> 18 subiungit <hi>F</hi> 20 quis nidet <hi>B</hi> <lb/>
+            quidquid <hi>D</hi> et <hi>om. RPNOFBDVWAfb, eras. in K</hi> </app> <lb n="20"/>
+             
+<pb n="669"/>
+            quod non uidemus speramus, per patientiam expectamus. <lb/>
+            </p>
+          <p><milestone n="8" unit="altchapter"/>Cum ergo torquent aliqua mala, sed non extorquent <lb/>
+            opera mala, non solum anima per patientiam possidetur, <lb/>
+            uerum etiam, cum per patientiam corpus ipsum ad tempus <lb n="5"/>
+            affligitur uel amittitur, in aeternam stabilitatem salutemque <lb/>
+            resumitur, et ei per dolorem et mortem inuiolabilis sanitas <lb/>
+            et felix inmortalitas comparatur. unde dominus Iesus ad patientiam <lb/>
+            exhortans martyres suos etiam ipsius corporis <sic>integntatem</sic> <lb/>
+            futuram sine cuiusquam, non dicam, membri, sed <lb n="10"/>
+            capilli amissione promisit. amen dico uobis, inquit, capillus <lb/>
+            capitis uestri non peribit, ut quoniam nemo <lb/>
+            umquam, sicut apostolus dicit, carnem suam odio habuit, <lb/>
+            magis homo fidelis per patientiam quam per inpatientiam <lb/>
+            pro stratu suae carnis inuigilet et futurae incorruptionis inaestimabili <lb n="15"/>
+            lucro quantalibet eius praesentia damna conpenset. 
+</p>
+          
+</div1>
+
+<div1 n="8" subtype="section"><head>§ 8</head>
+
+<p>Quamuis autem patientia uirtus sit animi, partim tamen <lb/>
+            ea utitur animus in se ipso, partim uero in corpore suo. in <lb/>
+            se ipso utitur patientia, quando inlaeso et intacto corpore <lb/>
+            aliquid, quod non expediat uel non deceat, facere aut dicere <lb n="20"/>
+            quibuslibet aduersitatibus aut foeditatibus rerum seu uerborum <lb/>
+            stimulis incitatur et patienter mala omnia tolerat, ne <lb/>
+            ipse mali aliquid opere uel ore committat.
+
+<app> 11 Luc. 21, 18 12 Eph. 5, 29 </app>
+
+<app> 3 ergo] enim <hi>PB</hi> mala <hi>om. B</hi> sed-mala <hi>in mg. info N</hi> non <lb/>
+            <hi>om. Y</hi> 4 per patientiam anima <hi>B</hi> possidetnr] expectat <hi>B</hi> 5 cum <lb/>
+            <hi>om. S</hi> per <hi>om. V</hi> ip*eum <hi>L</hi> 6 adfligitur <hi>S</hi> efficitur <hi>L</hi> amittit <lb/>
+            <hi>B</hi> ammittitur <hi>SV</hi> 7 uiolabilis <hi>SN</hi> 8 unde et <hi>SA V</hi> 9 exortans <lb/>
+            <hi>KPN</hi> suos martyres <hi>D</hi> 10 membris <hi>N</hi> sed et <hi>Br</hi> 11 capillus <lb/>
+            inquit <hi>L</hi> 13 umquam] inquam <hi>W</hi> ait <hi>0</hi> habuit odio <hi>W</hi> <lb/>
+            hodio <hi>N</hi> habet <hi>KR</hi> 14 inpatientiam] impietatem <hi>A</hi> 15 statu <lb/>
+            <hi>KBSFBVDOAWfbd</hi> uigilet <hi>PBWr</hi> corruptionis <hi>V</hi> inestimabili <lb/>
+            <hi>KV</hi> 16 dampna <hi>Vj</hi> 19 se <hi>om. SNAV</hi> inleso <hi>KNVS</hi> illeso <hi>BiVr</hi> <lb/>
+            tacto 8 20 aliquit <hi>L</hi> 21 feditatibus <hi>KNOVW</hi> feditatibus JBy ueruorum <lb/>
+            <hi>Lt</hi> 22 tollerat <hi>Nl</hi> nec <hi>K</hi> 23 ipsi <hi>KW</hi> mali <hi>om. NV</hi> </app> 
+<pb n="670"/>
+            
+</p>
+          <p><milestone n="9" unit="altchapter"/>Per hanc patientiam sustinemus, etiam cum corpore <lb/>
+            sani sumus, quod inter huius saeculi scandala beatitudo nostra <lb/>
+            differtur. unde dictum est, quod paulo ante commemoraui: <lb/>
+            ei quod non uidemus speramus, per patientiam expectamus. <lb/>
+            hac patientia sanctus Dauid conuiciantis obprobria<lb n="5"/>
+            tolerauit et, cum facile posset ulcisci, non <choice n="0.06"><note n="174">solam</note><corr n="2697">solum</corr></choice> non <lb/>
+            fecit, uerum etiam alium pro se dolentem commotumque <lb/>
+            conpescuit et potestatem regiam magis adhibuit prohibendo <lb/>
+            quam exercendo uindictam. neque tunc eius corpus aliquo <lb/>
+            morbo affligebatur aut uulnere, sed humilitatis tempus agnoscebatur<lb n="10"/>
+            ac ferebatur uoluntas dei, propter quam patientissimo <lb/>
+            animo amaritudo contumeliae bibebatur. hanc patientiam dominus <lb/>
+            docuit, quando commotis zizaniorum permixtione semis <lb/>
+            et uolentibus ea colligere dixit respondisse patrem familias: <lb/>
+            sinite utraque crescere usque ad messem. oportet<lb n="15"/>
+            enim patienter ferri, quod festinanter non oportet auferri. <lb/>
+            huius et ipse patientiae praebuit et demonstrauit exemplum, <lb/>
+            quando ante passionem corporis sui diabolum ludam, priusquam <lb/>
+            ostenderet traditorem, pertulit furem et ante <choice><note>eIperimentum</note><corr>experimentum</corr></choice> <lb/>
+            uinculorum et crucis et mortis labiis eius dolosis
+
+<app>4 Rom. 8, 25 5 cf. II Reg. 16, 5 sqq. 15 Matth. 13. 30 <lb/>
+            18 cf. Ioh. 12, 5; 13, 29 20 cf. Matth. 26, 49 </app>
+
+<app> 1 sustinemus <hi>om. V</hi> cum] dum (post corpoie s. <hi>1. m. 2 N,</hi> fft. 1 <lb/>
+            <hi>in V) NVbd</hi> corporis (s s. <hi>I.) L</hi> 2 uiua S 3 inde <hi>SA V</hi> ante <lb/>
+            <hi>om. NV</hi> commemorat apls (t in <hi>ras.,</hi> apis <hi>add. m. 2) L</hi> 4 uidimus <lb/>
+            <hi>K</hi> patientia <hi>V</hi> 5 hanc <hi>S</hi> conuitiantes S conuiciantes <hi>A</hi> <lb/>
+            obpropria <hi>K</hi> 6 <hi>contolerauit PB</hi> tolerantis <hi>N</hi> possit <hi>S alt</hi>. non <lb/>
+            <hi>om. N</hi> 7 etiam] et <hi>KRSPFNBODVAWfbd</hi> -pro se] posse P <lb/>
+            8 magis] magis ac magis <hi>KRPFODBWy</hi> 9 exserendo S exerendo <hi>NA</hi> <lb/>
+            affligebatur aliquo morbo D 10 aut] aa 0 aut unlnere OM. <hi>NV<lb/>
+             agnuscebatur K</hi> 11 uerebatur S propter] <hi>pro K</hi> pacientisaime N <lb/>
+            12 bibatur <hi>KR</hi> uiuebatur <hi>P</hi> aebibebatur <hi>N</hi> exhibebatur <hi>V uincebatur B</hi> <lb/>
+            patiam <hi>S</hi> 13 permistione <hi>V</hi> 14 ea <hi>s. 1. L</hi> dicitur <hi>V</hi> dici: (T S. <hi>I. <lb/>
+             in ras.) N</hi> 16 ferre <hi>B</hi> oportet] potest r auferre <hi>B</hi> 18 quando] <lb/>
+            quod <hi>SAV</hi> sui corporis <hi>PB</hi> diabolum] <hi>om. ODW</hi> discipulum <hi>bd</hi> <lb/>
+            Iudam] ju4s9 <hi>K om. SNVA</hi> prius <hi>KR</hi> 19 ostenderit <hi>F</hi> traditorem <lb/>
+            <hi>om. 0</hi> 20 dolosie] doloris <hi>K</hi></app> <lb n="20"/>
+             
+<pb n="671"/>
+            non negauit osculum pacis. haec omnia et si qua alia sunt, <lb/>
+            quae commemorare longum est, ad eum patientiae modum <lb/>
+            pertinent, quo animus non sua peccata, sed quaecumque <choice><note>extlinsecus</note><corr>extrinsecus</corr></choice> <lb/>
+            mala patienter sustinet in se ipso suo prorsus corpore <lb/>
+            inlaeso. <lb n="5"/>
+            
+</p>
+          <p><milestone n="10" unit="altchapter"/>Alius est autem patientiae modus, quo idem ipse animus <lb/>
+            quaecumque molesta et grauia in sui corporis passionibus <lb/>
+            perfert non sicut stulti uel maligni homines propter adipiscenda <lb/>
+            uana uel scelera perpetranda, sed, sicut a domino <lb/>
+            definitum est, propter iustitiam. utroque modo sancti <lb n="10"/>
+            martyres certauerunt — nam et inpiorum obprobriis saturati <lb/>
+            sunt, ubi animus corpore intacto quasdam ueluti plagas suas <lb/>
+            integer sustinet, et in corporibus uincti sunt, inclusi sunt, <lb/>
+            fame ac siti affecti sunt, torti sunt, secti sunt, dilaniati sunt, <lb/>
+            incensi sunt, trucidati sunt — et pietate inmobili subdiderunt <lb n="15"/>
+            deo mentem, cum paterentur in carne quidquid exquirenti <lb/>
+            crudelitati uenit in mentem. 
+</p>
+          
+</div1>
+
+<div1 n="9" subtype="section"><head>§ 9</head>
+
+<p>Maius sane patientiae certamen est, quando non uisibilis <lb/>
+            inimicus persequendo atque saeuiendo urget in nefas, qui <lb/>
+            palam et aperte a non consentiente uincatur, sed ipse <choice><note>diaboIus</note><corr>diabolus</corr></choice>, <lb n="20"/>
+            qui etiam per filios infidelitatis tamquam per sua uasa filios
+
+<app> 9 cf. Matth. 5, 10 </app>
+
+<app> 2 eam <hi>F</hi> 8 anima <hi>SANV</hi> quecumque <hi>K</hi> intrinsecus <hi>V</hi> <lb/>
+            4 in] ui <hi>V</hi> 5 inleso <hi>KSNY</hi> illeso <hi>B</hi> 7 grauia (i <hi>s. 1.) L</hi> suis <hi>SN</hi> <lb/>
+            8 praefert <hi>L</hi> profert <hi>F</hi> adipiscenda§ F adhipiscenda <hi>B</hi> 9 <hi>post</hi> sed <lb/>
+            sicut <hi>usque ad p. 683, 17 omnia exciderunt in B</hi> 10 difinitum <hi>K</hi> <lb/>
+            iastitia <hi>K</hi> modo <hi>om. S</hi> 11 crrtauerunt <hi>V</hi> obpropriis <hi>K</hi> oppropriis <lb/>
+            <hi>N</hi> 12 quosdam T suas <hi>om. V</hi> 14 siti. <hi>L</hi> afflicti <hi>OW</hi> <lb/>
+            secti—dil. sunt <hi>om. LF</hi> exsecti <hi>SNY</hi> exsec»ti <hi>A</hi> 15 sunt <hi>post</hi> <lb/>
+            trucidati <hi>om. 0</hi> pietatem <hi>SN</hi> inmobile <hi>KSN</hi> immobilos <hi>A</hi> obdiderunt <lb/>
+            <hi>A</hi> 16 deo mentem] do mi, <hi>N</hi> quicquid <hi>LSNVW</hi> 17 crudeli <lb/>
+            crudelitati <hi>L</hi> crudelitate <hi>KPj1</hi> crudelitatfi <hi>N</hi> mente <hi>LK</hi> 18 Maius <lb/>
+            sane] maxime <hi>V</hi> sane] enim 0 non uisibilis] inuisibilis 0 <lb/>
+            19 adque <hi>K</hi> seuiendo <hi>KSN</hi> urguet <hi>S</hi> 20 consentiente] conscie <lb/>
+            <hi>W</hi> uincitur <hi>FBDOWf</hi> uindicatur <hi>K</hi> diabulus <hi>K</hi> </app> <lb/>
+             
+<pb n="672"/>
+            lucis insequitur, per se ipsum occulte occultus oppugnat, <lb/>
+            saeuiendo instans, ut contra deum fiat aliquid uel dicatur. 
+</p>
+          <p><milestone n="11" unit="altchapter"/>Talem illum Iob sanctus expertus est, utraque temptatione <lb/>
+            uexatus, sed in utraque stabilis patientiae robore et <lb/>
+            armis pietatis inuictus. nam prius inlaeso corpore cuncta<lb n="5"/>
+            quae habebat amisit, ut animus ante suae carnis cruciatum <lb/>
+            subtractis rebus, quas magni pendere homines solent, frangeretur <lb/>
+            et aduersus deum loqueretur aliquid his amissis, <lb/>
+            propter quae illud colere putabatur, percussus etiam omnium <lb/>
+            subita orbitate filiorum, ut quos singillatim susceperat, simul<lb n="10"/>
+            perderet, tamquam eorum numerositas non unde felicitas ornaretur <lb/>
+            extiterit, sed unde calamitas augeretur. ubi autem <lb/>
+            ista perpessus in deo suo mansit inmobilis, eius adfixus est <lb/>
+            uoluntati, quem non posset amittere nisi propria uoluntate; <lb/>
+            et pro his quae perdidit eum qui abstulit tenuit, in quo inueniret<lb n="15"/>
+            quod numquam periret. neque enim ille abstulerat, <lb/>
+            qui nocendi habuit uoluntatem, sed ille, qui dederat potestatem. 
+</p>
+          <p><milestone n="12" unit="altchapter"/>Aggressus est inimicus et corpus nec ea, quae homini <lb/>
+            extrinsecus inerant, sed ipsum iam hominem in qua potuit <lb/>
+            parte percussit. a capite usque ad pedes ardebant dolores,<lb n="20"/>
+            scatebant uermes, sanies defluebat: manebat in putri corpore <lb/>
+            animus integer horrendosque cruciatus carnis contabescentis <lb/>
+            inuiolata pietate et incorrupta patientia perferebat. aderat uxor
+
+<app> 1 lucus <hi>S</hi> _occulte <hi>om. SAFPBNDOVWfbd</hi> inpugnat <hi>lib. praet. L</hi> <lb/>
+            2 et <hi>V</hi> dum <hi>W</hi> 3 expertus est sanctus iob <hi>W</hi> 4 stabilis <hi>L:</hi> stabili <lb/>
+            <hi>KSAFPBNDOVWrbd</hi> 5 inleso <hi>KSN</hi> cunctaquae <hi>N</hi> 6 que <hi>K</hi> <lb/>
+            carnis suae <hi>B</hi> 7 pndere <hi>S</hi> assolent <hi>KSPFANBODVWf</hi> 8 et <lb/>
+            <hi>om. K</hi> 9 illtl <hi>KPNBWf</hi> putabatur] uidebatur <hi>K</hi> percossus <lb/>
+            est <hi>bd</hi> 10 susciperat S 11 *perdere <hi>SN</hi> ornetur <hi>W ordinaretur L</hi> <lb/>
+            oriretur <hi>FDOy</hi> 12 exstiterit <hi>PWbd</hi> 13 afi»xus <hi>L</hi> 14 quae <hi>K</hi> <lb/>
+            possit <hi>KFDOy</hi> ammittere <hi>S</hi> 15 his] eis 0 iis <hi>bd</hi> 16 quod nuinquam] <lb/>
+            quodcumque <hi>B</hi> ille <hi>om. V</hi> uoluntatem abstulerat 0 18 Eggressus <lb/>
+            <hi>S</hi> adgressus <hi>NV</hi> 19 hominem iam ipsum <hi>W</hi> 21 sauies <hi>an</hi> <lb/>
+            sames <hi>incertum in K</hi> diffluebat <hi>KSPLBODy,</hi> (i <hi>ex</hi> e) <hi>N</hi> pntrido <lb/>
+            <hi>DWTL2</hi> potenti <hi>K</hi> animus corpore <hi>0</hi> 22 horrendusque <hi>K1</hi> horrendo <lb/>
+            usque <hi>SN</hi> 23 et] ad L </app> <lb/>
+             
+<pb n="673"/>
+            nec ferebat opem aliquam uiro, sed in deum blasphemiam <lb/>
+            suggerebat. non enim eam diabolus, cum etiam filios abstulisset, <lb/>
+            tamquam nocendi inperitus reliquerat, qui quantum <lb/>
+            esset necessaria temptatori iam in Eua didicerat. sed modo <lb/>
+            alterum Adam, quem per mulierem caperet, non inuenerat. <lb n="5"/>
+            cautior fuit iste in doloribus quam ille in nemoribus: ille <lb/>
+            uictus est in deliciis, iste uicit in poenis; consensit ille oblectamentis, <lb/>
+            non cessit iste tormentis. aderant et amici, non <lb/>
+            ut in malis consolarentur, sed ut mala suspicarentur. neque <lb/>
+            enim eum, qui tanta patiebatur, innocentem esse credebant <lb n="10"/>
+            nec tacebat eorum lingua, quod illius conscientia non habebat, <lb/>
+            ut inter inmanes cruciatus corporis etiam falsis animus <lb/>
+            caederetur obprobriis. at ille sustinens in carne dolores suos, <lb/>
+            in corde errores alienos <choice><note>coniagis</note><corr>coniugis</corr></choice> corripiebat insipientiam, amicos <lb/>
+            docebat sapientiam, seruabat ubique patientiam. <lb n="15"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="10" subtype="section"><head>§ 10</head>
+
+<p><milestone n="13" unit="altchapter"/> Hunc intueantur, qui sibi ingerunt mortem, quando <lb/>
+            quaeruntur ad uitam et sibi auferendo praesentem abnegant <lb/>
+            et futuram. qui si ad Christum negandum uel aliquid contra <lb/>
+            <choice><note>institiam</note><corr>iustitiam</corr></choice> faciendum, sicut ueri martyres, cogerentur, omnia <lb/>
+            potius patienter ferre quam sibi inpatienter mortem inferre <lb n="20"/>
+            debuerunt. quod si fugiendorum malorum causa recte fieri <lb/>
+            posset, Iob sanctus se ipse perimeret, ut tanta mala in rebus <lb/>
+            suis, in filiis suis, in membris suis diabolicae crudelitatis effugeret. <lb/>
+            non autem fecit. absit enim, ut in se committeret ipse
+
+<app> 3 cf. Gen. 3, 1 sqq. </app>
+
+<app> 1 aliquam opem <hi>B</hi> aliqua <hi>K</hi> deo <hi>L</hi> blasphemia <hi>K</hi> 2 diabaluB <lb/>
+            <hi>K</hi> etiam <hi>om. D</hi> filios (o <hi>ex</hi> u) <hi>L</hi> 3 nocendum <hi>SN</hi> <lb/>
+            peritus <hi>SN</hi> quae <hi>Abd</hi> quae quia <hi>W</hi> 4 temptari <hi>K</hi> eua <hi>N</hi> <lb/>
+            5 per quem <hi>S</hi> capere <hi>S</hi> 6 fnit] fit <hi>KPB</hi> 7 diliciis <hi>K</hi> yconsentitL <lb/>
+            8 cessit] consensitX1 <hi>et om. KP 9 in om. KNAFODBVW</hi> <lb/>
+            mala] malum <hi>FODWfbd</hi> 10 credebant] cernebant <hi>FBy</hi> 11 non habebat <lb/>
+            conscientia <hi>D</hi> 13 cedere <hi>V</hi> obpropriis <hi>K</hi> obprobrii <hi>S at]</hi> <lb/>
+            ad <hi>LK</hi> 14 insipientium <hi>S</hi> 15 dicebat <hi>S</hi> snpientift <hi>fin. V</hi> 18 quia <lb/>
+            <hi>VL2</hi> 19 uertl <hi>L</hi> 21 debuerant <hi>FPBDOWabd</hi> fugiendorum] fatiendtl <lb/>
+            <hi>K</hi> 22 potuiseet <hi>D</hi> ipsfl <hi>V</hi> 23 crudulitatiB <hi>F</hi> 24 enim J <lb/>
+            autem <hi>V</hi> </app>
+
+<app> XXXXI Aug. Sect V pars III. </app>
+
+<app> 43 </app> <lb/>
+             
+<pb n="674"/>
+            uir sapiens, quod nec mulier suggessit insipiens. quia et si <lb/>
+            suggessisset, merito et hic illud audisset, quod audiuit suggerendo <lb/>
+            blasphemiam: locuta es tamquam una ex insipientibus <lb/>
+            mulieribus. si bona percepimus de manu <lb/>
+            domini, mala non sustineamus? et ipsam quippe patientiam<lb n="5"/>
+            perdidisset, siue blasphemando, sicut illa <choice><note>uoiuerat</note><corr>uoluerat</corr></choice>. <lb/>
+            siue se interficiendo, quod nec illa ausa fuerat dicere, moreretur <lb/>
+            atque esset inter illos de quibus dictum est: uae his <lb/>
+            qui perdiderunt patientiam. et augeret potius quam <lb/>
+            euaderet poenas, qui post sui corporis [mortem siue ad blasphemorum<lb n="10"/>
+            siue ad homicidarum uel etiam plus quam parricidarum <lb/>
+            supplicia raperetur. si enim parricida eo sceleratior <lb/>
+            est quam quilibet homicida, quia non tantum hominem, uerum <lb/>
+            etiam propinquum necat, inque ipsis parricidis, quanto propinquiorem <lb/>
+            quisque peremerit, tanto iudicatur inmanior: sine<lb n="15"/>
+            dubio peior est, qui se occidit, quia nemo est homini se <lb/>
+            ipso propinquior. quid ergo miseri faciunt, qui cum et hic <lb/>
+            sibimet ingestas et postea non solum inpietatis aduersus <lb/>
+            deum, sed etiam ipsius quam in se exercuerunt crudelitatis <lb/>
+            luant debitas poenas, insuper quaerunt et martyrum glorias? <lb n="20"/>
+            cum etiamsi pro uero Christi testimonio persecutionem paterentur <lb/>
+            et se interficerent, ne aliquid a persecutoribus
+
+<app> 3 Iob. 2, 10 8 Eccli. 2, 14 </app>
+
+<app> 2 et <hi>om. W</hi> hic <hi>in ras. N</hi> hi V1 3 loquuta 0 est LI},' <lb/>
+            tamquam] quasi <hi>KPFBDr</hi> unft N1 4 mulieribus <hi>om. W</hi> suscepimus <lb/>
+            <hi>KFPBDOWybd</hi> 5 nonj quare non <hi>P</hi> sustineamus <hi>LPB</hi> <lb/>
+            sustinemus <hi>KSANV</hi> sustinebimus <hi>FDOWybd</hi> ipse <hi>Fbd</hi> 6 perdidisse <lb/>
+            <hi>SN</hi> siue] si <hi>L</hi> sine <hi>W</hi> ipsa <hi>0</hi> 7 ausaj <hi>causa N</hi> moriretur <lb/>
+            <hi>SP</hi> 8 ue <hi>LSFBNVW</hi> iis <hi>AFPbd</hi> 9 sapientiam <hi>N</hi> 10 nisi <lb/>
+            qui ir blasphematorum <hi>KP</hi> phemorum <hi>W 11</hi> homicid«aroiii <hi>L</hi> <lb/>
+            uel-parricidarum <hi>om. L post</hi> etiam <hi>sequitur p. 683,</hi> 16 Bona in <hi>K</hi> <lb/>
+            plus quam <hi>om. A</hi> 12 eos W <hi>om. S</hi> 14 etiam sibi (sibi tM rD.) Y <lb/>
+            inqutj <hi>S</hi> propinquorem <hi>Ll</hi> propinquior est <hi>Y</hi> 15 perimerit <hi>Pl,</hi> <lb/>
+            peruenerit ir indicatur <hi>W</hi> 16 propinquior ae ipso <hi>W</hi> 18 iniectas <lb/>
+            D aduersQ <hi>PFAOBTFy</hi> 20 querantur <hi>W</hi> et on. I* <lb/>
+            22 quid W aliqua <hi>S</hi> aj de S </app> <lb/>
+             
+<pb n="675"/>
+            paterentur, recte illis diceretur: uae his qui perdiderunt patientiam! <lb/>
+            quomodo enim iustum praemium patientiae redditur, <lb/>
+            si et inpatiens passio coronatur? aut quomodo innocens <lb/>
+            iudicabitur, cui dictum est: diliges proximum tuum tamquam <lb/>
+            te ipsum, si homicidium committit in se ipso, quod <lb n="5"/>
+            committere prohibetur in proximo? 
+</p>
+          
+</div1>
+
+<div1 n="11" subtype="section"><head>§ 11</head>
+
+<p><milestone n="14" unit="altchapter"/> Audiant ergo sancti de scripturis sanctis praecepta <lb/>
+            patientiae: fili, accedens ad seruitutem dei sta <lb/>
+            in iustitia et timore, et praepara animam tuam ad <lb/>
+            <sic>teniptationem</sic>; deprime cor tuum et sustine, ut <lb n="10"/>
+            crescat in nouissimis tua uita. omne quod tibi <lb/>
+            superuenerit accipe et in dolore sustine et in humilitate <lb/>
+            tua patientiam habe, quoniam in igne <lb/>
+            probatur aurum et argentum, homines uero acceptabiles <lb/>
+            in camino humiliationis. et in alio loco legitur: <lb n="15"/>
+            fili, ne deficias in disciplina domini neque <lb/>
+            fatigeris cum ab illo increparis; quem enim diligit <lb/>
+            dominus, corripit, flagellat autem omnem filium <lb/>
+            quem recipit. quod hic positum est 'filium quem recipit,' <lb/>
+            hoc in supra dicto testimonio est: homines receptibiles. <lb n="20"/>
+            hoc enim iustum est, ut qui de pristina felicitate <lb/>
+            paradisi propter contumacem deliciarum appetentiam dimissi <lb/>
+            sumus, per humilem molestiarum patientiam recipiamur, fugaces <lb/>
+            mala faciendo, reduces mala patiendo, ibi contra iustitiam <lb/>
+            facientes, hic pro iustitia patientes.
+
+<app> 1 Eccli. 2, 14 4 Matth. 19, 19 8 Eccli. 2, 1-5 16 Prou. <lb/>
+            3, 11. 12 </app>
+
+<app> 1 ue <hi>LSNB VW</hi> iis rbd patientiam #»# <hi>L</hi> pacientiam N <lb/>
+            2 enim] ergo <hi>P</hi> patientiae praemium <hi>PDOBWr</hi> 3 aut <hi>er. L</hi> <lb/>
+            4 diligis <hi>Nl</hi> tamquam] sicut <hi>SDbd</hi> 6 proximum <hi>L</hi> 8 fili fjli <hi>L</hi> <lb/>
+            11 nouissimo <hi>D</hi> uita tua <hi>SPFBDOWfbd</hi> superuenerit tibi <hi>0</hi> <lb/>
+            14 argentum et aurum <hi>W</hi> uero et <hi>D</hi> acceptibiles <hi>L</hi> receptibiles <hi>bd</hi> <lb/>
+            15 chaniino <hi>V</hi> humilitiaonia Pl in <hi>om. OFDPBWf</hi> loco <lb/>
+            alio <hi>DOWbd</hi> 16 discipline <hi>F</hi> 17 illo] eo <hi>B</hi> increpaueria <hi>B</hi> <lb/>
+            dominus diligit <hi>D</hi> 19 <hi>post</hi> recipit <hi>repet</hi>. quod-recipit <hi>in S</hi> 20 acceptabiles <lb/>
+            <hi>DBV</hi> receptabiles Or 22 diliciarum <hi>S</hi> delitiarum <hi>F</hi> adpetentiam <lb/>
+            <hi>SN</hi> 23 recipiamus <hi>NA</hi> 24 <hi>pr</hi>. male <hi>B</hi> </app>
+
+<app> 43* </app> <lb n="25"/>
+            
+<pb n="676"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="12" subtype="section"><head>§ 12</head>
+
+<p><milestone n="15" unit="altchapter"/> Sed uera patientia, quae huius est nomine digna <lb/>
+            <choice><note>uirtntis</note><corr>uirtutis</corr></choice>, quaerendum est unde sumatur. sunt enim, qui eam <lb/>
+            tribuant uiribus uoluntatis humanae. non quas habent ex <lb/>
+            diuino adiutorio, sed quas ex libero arbitrio. error autem iste <lb/>
+            superbus est; eorum est enim qui abundant, de quibus dicitur<lb n="5"/>
+            in psalmo: obprobrium eis qui abundant et despectio <lb/>
+            superbis, non est ergo ista patientia pauperum, quae <lb/>
+            non perit in aeternum. hic enim pauperes ab illo eam <lb/>
+            diuite accipiunt, cui dicitur: deus meus es tu, quoniam <lb/>
+            bonorum meorum non eges. a quo est omne datum<lb n="10"/>
+            optimum et omne donum perfectum, ad quem clamat <lb/>
+            egenus et pauper, qui laudat nomen eius et petendo, quaerendo, <lb/>
+            pulsando dicit: deus meus, eripe me de manu <lb/>
+            peccatoris, de manu legem praetereuntis et iniqui. <lb/>
+            quoniam tu es patientia mea, domine, spes mea a iuuentute<lb n="15"/>
+            mea. isti autem, qui abundant et egere ad dominum <lb/>
+            dedignantur, ne ab illo accipiant ueram patientiam, de sua <lb/>
+            falsa gloriantes consilium inopis uolunt confundere, quoniam <lb/>
+            dominus spes eius est, nec adtendunt, cum homines <lb/>
+            sunt et suae, id est humanae uoluntati tantum tribuunt, in<lb n="20"/>
+            illud se incurrere. quod scriptum est: maledictus omnis <lb/>
+            qui spem suam ponit in homine. unde etiamsi eis contingat, <lb/>
+            ut aliqua dura et aspera, uel ne displiceant hominibus
+
+<app> 6 Ps. 122. 4 7 cf. Ps. 9. 19 9 Ps. 15, 2 10 cf. Iac. 1. 17 <lb/>
+            13 Ps. 70, 4. 5 18 cf. Ps. 13. 6 21 Hier. 17, 5 </app>
+
+<app> 1 Sed uera] scelera <hi>P</hi> 2 sumamur <hi>F</hi> 3 tribuunt <hi>NV</hi> habet <lb/>
+            <hi>SNA V</hi> 4 autem <hi>om. B</hi> 6 eius <hi>S</hi> habundnnt <hi>SFODANBVW-</hi> <lb/>
+            dispectio <hi>LS</hi> 7 ergo est <hi>FPBNDOW.bd</hi> patientia om. <hi>W</hi> 8 poterit <lb/>
+            Pl peribit <hi>FV</hi> hic] hi <hi>ABbd</hi> eam] etiam <hi>Y</hi> 9 dioitem <hi>S</hi> <lb/>
+            dictum est <hi>0</hi> 10 non om. <hi>V</hi> indiges <hi>ANV</hi> 12 et <hi>alt. om. L</hi> querendo <lb/>
+            petendo <hi>W</hi> 13 et dicit <hi>L</hi> eripe] erue <hi>P</hi> 14 peccatoris et <lb/>
+            <hi>A}'PBDOVW.bd</hi> contra legem <hi>V om. BN</hi> praetereuntis} argentis r <lb/>
+            iniqui (i <hi>fin. ex a) L</hi> 15 a] ad <hi>V</hi> 16 habundant <hi>SFDPNBVW</hi> <lb/>
+            ad om. <hi>V</hi> domino <hi>V</hi> deum <hi>AFPDOWfbd</hi> ad dominum] adhuc <hi>B</hi> <lb/>
+            17 *d.e <hi>L</hi> 20 tribuant <hi>S</hi> 21 incurere <hi>S</hi> onrais] omnis homo <hi>B</hi> <lb/>
+            homo <hi>A</hi> 22 continga.t <hi>L</hi> 23 ut aliqua] ui.aqua <hi>L</hi> </app> <lb/>
+             
+<pb n="677"/>
+            uel ne grauiora patiantur uel sibi placendo et amando praesumptionem <lb/>
+            suam eadem ipsa superbissima uoluntate sustineant, <lb/>
+            hoc illis dicendum est de patientia, quod de sapientia <lb/>
+            beatus <choice n="0.05"><note n="1">Jacobus</note><corr n="18">Iacobus</corr></choice> apostolus dicit: non est ista sapientia desursum <lb/>
+            descendens, sed terrena, animalis, diabolica. <lb n="5"/>
+            cor enim non sit <choice><note>superbonim</note><corr>superborum</corr></choice> falsa patientia, sicut superborum <lb/>
+            est falsa sapientia? a quo est autem uera sapientia, ab illo <lb/>
+            est et uera patientia. huic enim cantat ille spiritu pauper: <lb/>
+            deo subiecta est anima mea, quoniam ab ipso est patientia <lb/>
+            mea. <lb n="10"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="13" subtype="section"><head>§ 13</head>
+
+<p><milestone n="16" unit="altchapter"/> Sed respondent et loquuntur dicentes: sicut uoluntas <lb/>
+            hominis sine ullo dei adiutorio uiribus liberi arbitrii tam <lb/>
+            multa grauia et horrenda perfert, siue in animo siue in corpore, <lb/>
+            ut mortalis uitae huius et peccatorum delectatione perfruatur, <lb/>
+            cur non eodem modo eadem ipsa uoluntas hominis <lb n="15"/>
+            eisdem uiribus liberi arbitrii non ad hoc expectans se diuinitus <lb/>
+            adiuuari, sed sibi naturali possibilitate sufficiens quidquid <lb/>
+            laboris uel doloris ingeritur, pro iustitia et uita aeterna <lb/>
+            patientissime sustinet? an uero, inquiunt, idonea est iniquorum <lb/>
+            uoluntas deo non adiuuante, ut se ipsi in cruciatibus <lb n="20"/>
+            pro iniquitate et, antequam ab aliis crucientur, exerceant; <lb/>
+            idonea est uoluntas moras uitae huius amantium, ut deo non <lb/>
+            adiuuante inter atrocissima et longa tormenta in mendacio
+
+<app> 4 Iac. 3, 15 9 Pa. 61, 6 </app>
+
+<app> 1 ne uel <hi>SAN</hi> patiantur grauiorti <hi>B</hi> sibi] si <hi>L</hi> 3 quo <hi>Ll</hi> <lb/>
+            de sapientia om. <hi>V</hi> 4 dicit apostolus iacobus <hi>B</hi> apostolus iacobus <lb/>
+            <hi>}f'DOWI</hi> apostolus dicit iacobus <hi>P</hi> sapientia ista 7 patientia <hi>LA V</hi> <lb/>
+            5 descendens a patre <hi>PB</hi> 6 quur <hi>L</hi> falsa-superborum <hi>om. L</hi> <lb/>
+            7 estpr. <hi>om. V</hi> abj a <hi>V</hi> 8 enim] autem <hi>Wy sps L</hi> 9 est <hi>fin. <lb/>
+             om. V</hi> 11 respondeant <hi>W</hi> locuntur <hi>LSNVWf sicutl si FObd</hi> <lb/>
+            12 dei <hi>om. V</hi> 13 orrenda <hi>F</hi> 15 quur <hi>L</hi> non] in <hi>N</hi> eodem Z.1 <lb/>
+            16 huc <hi>L</hi> spectans <hi>SANV</hi> expetens <hi>0</hi> se* <hi>N</hi> sed <hi>SV</hi> 17 sui <hi>V</hi> <lb/>
+            possibilitati S quicquid <hi>NLSBV</hi> 18 ingeritur <hi>om. L</hi> 19 inquiuut-ipsi <lb/>
+            <hi>om. V</hi> 20 domino <hi>N</hi> ipsi-antequam <hi>om. L</hi> in] si <hi>V</hi> <lb/>
+            cruciantibus <hi>V</hi> 21 propinquitate <hi>N</hi> aliis] <hi>illis Al</hi> exerceantur <hi>V</hi> </app> <lb/>
+             
+<pb n="678"/>
+            perseuerent, ne sua facinora confitentes iubeantur occidi, et <lb/>
+            non est idonea iustorum uoluntas, nisi eis uires desuper suggerantur, <lb/>
+            quaslibet poenas uel ipsius decore <choice><note>iustitiac</note><corr>iustitiae</corr></choice> uel <lb/>
+            aeternae uitae amore perferre? 
+</p>
+          
+</div1>
+
+<div1 n="14" subtype="section"><head>§ 14</head>
+
+<p><milestone n="17" unit="altchapter"/> Qui haec dicunt, non intellegunt et quemque<lb n="5"/>
+            iniquorum tanto esse ad quaecumque mala perferenda duriorem, <lb/>
+            quanto in eo maior est cupiditas mundi, et quemque <lb/>
+            iustorum tanto esse ad quaecumque mala perferenda fortiorem. <lb/>
+            quanto in eo maior est caritas dei. sed cupiditas mundi initium <lb/>
+            habet ex arbitrio uoluntatis, progressum ex iucunditate<lb n="10"/>
+            uoluptatis, firmamentum ex uinculo consuetudinis; caritas <lb/>
+            autem dei diffusa est in cordibus nostris, non utique <lb/>
+            ex nobis, sed per spiritum sanctum qui datus est nobis. <lb/>
+            proinde ab illo est patientia iustorum, per quem diffunditur <lb/>
+            caritas eorum. quam caritatem laudans atque commendans<lb n="15"/>
+            apostolus inter cetera eius bona dixit eam et cuncta sufferre. <lb/>
+            caritas, inquit, magnanima est, et paulo post ait: omnia <lb/>
+            tolerat. quanto ergo maior est in sanctis caritas dei, tanto <lb/>
+            magis pro eo quod diligitur, et quanto maior est in peccatoribus <lb/>
+            cupiditas mundi, tanto magis pro eo, quod concupiscitur,<lb n="20"/>
+            omnia tolerantur. ac per hoc inde est patientia uera <lb/>
+            iustorum, unde est in eis caritas dei; et inde est patientia <lb/>
+            falsa iniquorum, unde est in eis cupiditas mundi. propter <lb/>
+            quod dicit <choice><note>Johannes</note><corr>Iohannes</corr></choice> apostolus: nolite diligere mundum
+
+<app> 11 Rom. 5, 5 17 I Cor. 13, 4. 7 24 I Ioh. 2, 15. 16 <lb/>
+            1 et <hi>om. V</hi> 2 ei <hi>SABV</hi> 5 Quia <hi>L</hi> quem quem <hi>S</hi> quenque <hi>F</hi> <lb/>
+            qugqui <hi>ON</hi> 6 iniquorum] inpiorum <hi>V</hi> 7 quemqufi 81 queuque <hi>F</hi> <lb/>
+            quemčque <hi>0</hi> 8 esse tanto <hi>B</hi> 9 est maior <hi>Obd</hi> 10 iocunditate <lb/>
+            <hi>SFDOABNVj</hi> ioconditate <hi>W</hi> 11 uoluntatis <hi>LSA</hi> karitas 0 14 est <lb/>
+            ab alio <hi>L</hi> 16 eius] huius <hi>V</hi> eam] etiam <hi>NV</hi> et <hi>er. D</hi> cunctos <lb/>
+            <hi>L</hi> 17 inquid <hi>SLl</hi> inquies <hi>L2</hi> magnanima (ni s. <hi>I. m. 2) X</hi> <lb/>
+            et <hi>om. LSNV</hi> paulo n <hi>L</hi> post .11 <hi>L</hi> 19 diligitur] diligitar <lb/>
+            amat P diligitur omnia tolerantur <hi>FDOWj</hi> et <hi>om. 0</hi> maiorl <lb/>
+            magis <hi>Dłfт.r</hi> 20 mandi cupiditas <hi>D</hi> 21 ac] hac <hi>Y</hi> uera patientia V <lb/>
+            iustorum uera <hi>FDOWy</hi> 22 patientia <hi>om. B</hi> 23 iniquorum falsa <lb/>
+            <hi>FDOl-VT</hi> 24 dicit] ait <hi>0 om. W(</hi> apostolus iohannes <hi>FDOW-</hi> <lb/>
+            iohannis <hi>S</hi> </app> <lb/>
+             
+<pb n="679"/>
+            nec ea quae in mundo sunt. si quis dilexerit mundum, <lb/>
+            dilectio patris non est in ipso, quoniam omne quod <lb/>
+            est in mundo, concupiscentia carnis est et concupiscentia <lb/>
+            oculorum et ambitio saeculi: quae non est <lb/>
+            ex patre, sed ex mundo est. haec igitur concupiscentia, <lb n="5"/>
+            quae non est ex patre, sed ex mundo, quando fuerit in homine <lb/>
+            uehementior et ardentior, tanto fit quisque pro eo, quod concupiscit, <lb/>
+            omnium molestiarum dolorumque patientior. idcirco, <lb/>
+            sicut supra diximus, non est ista patientia desursum descendens; <lb/>
+            patientia uero piorum desursum est descendens a patre <lb n="10"/>
+            luminum. itaque illa terrena est, ista caelestis, illa animalis, <lb/>
+            ista spiritalis, illa diabolica, ista deifica, quoniam concupiscentia, <lb/>
+            qua fit, ut peccantes omnia pertinaciter patiantur, ex <lb/>
+            mundo est; caritas autem, qua fit, ut recte uiuentes omnia <lb/>
+            fortiter patiantur, ex deo est. et ideo illi falsae patientiae <lb n="15"/>
+            potest sine adiutorio dei uoluntas humana sufficere tanto <lb/>
+            durior, quanto cupidior, et eo tolerabilius mala sustinens, <lb/>
+            quo ipsa fit peior; huic autem, quae uera patientia est, ideo <lb/>
+            uoluntas humana, nisi desuper adiuta et inflammata, non sufficit, <lb/>
+            quia spiritus sanctus est ignis eius, quo nisi accensa <lb n="20"/>
+            diligat inpassibile bonum, ferre non potest quod patitur malum. 
+</p>
+          
+</div1>
+
+<div1 n="15" subtype="section"><head>§ 15</head>
+
+<p><milestone n="18" unit="altchapter"/> Sicut enim diuina testantur eloquia, deus caritas <lb/>
+            est, et qui manet in caritate, in deo manet, et <lb/>
+            deus in illo manet. quisquis ergo contendit haberi posse
+
+<app> 22 I Ioh. 4. 16 </app>
+
+<app> 2 ipso] eo <hi>OY</hi> quoniam <hi>L:</hi> quia <hi>SAFPBNDOVWfbd</hi> 3 in <lb/>
+            mundo est <hi>SAFPBNDOWfbd</hi> aut concupiscentia <hi>W</hi> cucupiscentia <lb/>
+            <hi>V</hi> 5 ex <hi>pr.]</hi> ex a B a <hi>ANY</hi> de <hi>FBPDOWf</hi> est <hi>om. Nl</hi> <lb/>
+            haec-mundo <hi>om. LNl</hi> 6 de patre <hi>B</hi> a patre <hi>Y</hi> 7 cupiscit <hi>LS</hi> concupiscet <lb/>
+            <hi>ANl</hi> 8 iccirco <hi>Y</hi> 11 est <hi>om. D</hi> 12 dieflca S 13 qua] <lb/>
+            qug <hi>V</hi> 15 patiantur fortiter r ideo <hi>om. W</hi> illa <hi>S</hi> 16 sine <lb/>
+            adiutorio dei potest <hi>0</hi> dei <hi>om. SV</hi> 18 quod <hi>L</hi> peior in <hi>textu<lb/>
+             er., in mg. add. L</hi> quae] quo <hi>N V</hi> est patientia <hi>B</hi> 19 adiuta <lb/>
+            <hi>om. W</hi> 20 ignis eius est <hi>D</hi> 21 inposBibile <hi>NY</hi> 22 protestantur <lb/>
+            <hi>FDy</hi> 24 illo] eo <hi>FDOPBJVj</hi> manet <hi>del. m. 2 0 om. W</hi> habere <lb/>
+            <hi>LNI Y</hi> se posse <hi>V</hi> </app> <lb/>
+             
+<pb n="680"/>
+            dei caritatem sine dei adiutorio, quid aliud contendit nisi <lb/>
+            haberi deum posse sine deo? quis autem hoc dicat <choice><note>christianus</note><corr>Christianus</corr></choice>, <lb/>
+            quod nullus dicere audeat insanus? exultans ergo apud <lb/>
+            apostolum uera, pia fidelisque patientia dicit ore sanctorum: <lb/>
+            quis nos separabit a caritate Christi? tribulatio? an<lb n="5"/>
+            augustia? an persecutio? an fames? an nuditas? an <lb/>
+            periculum? an gladius? sicut scriptum est, quia propter <lb/>
+            te mortificamur tota die, deputati sumus sicut <lb/>
+            oues uictimae. sed in his omnibus superuincimus per <lb/>
+            eum, qui delexit. nos; non ergo per nos, sed per eum,<lb n="10"/>
+            qui dilexit nos. deinde sequitur et adiungit: certus sum <lb/>
+            enim, quia neque mors neque uita neque angeli neque <lb/>
+            principatus neque praesentia neque futura neque <lb/>
+            altitudo neque profundum neque creatura alia poterit <lb/>
+            nos separare a caritate dei, quae est in Christo Iesu<lb n="15"/>
+            domino nostro. haec est illa caritas dei, quae diffunditur <lb/>
+            in cordibus nostris, non ex nobis, sed per spiritum <lb/>
+            sanctum qui datus est nobis; malorum autem <lb/>
+            concupiscentia, propter quam in eis est falsa patientia, <lb/>
+            non est ex patre, sicut dicit apostolus Iohannes, sed ex<lb n="20"/>
+            mundo est. 
+</p>
+          
+</div1>
+
+<div1 n="16" subtype="section"><head>§ 16</head>
+
+<p><milestone n="19" unit="altchapter"/> Hic dicet aliquis: si ex mundo est concupiscentia <lb/>
+            malorum, per quam fit, ut mala omnia pro eo quod <lb/>
+            'ab illis concupiscitur perferant, quo modo ex eorum dicitur
+
+<app> 5 Rom. 8, 35-39 16 cf. Rom. 5, 5 19 cf. I Ioh. 2, 15. 16 </app>
+
+<app> 1 caritatem dei <hi>B</hi> adiutorio dei <hi>B</hi> 2 habere <hi>NV</hi> posse deum W <lb/>
+            3 dicere <hi>om. B</hi> audeat dicere <hi>PFDJVr</hi> audet dicere <hi>V</hi> auderet <hi>B</hi> <lb/>
+            exsultans <hi>Abd</hi> 4 pia <hi>om. L</hi> patientia <hi>om. V</hi> dicit ore] dicito <hi>SA</hi> <lb/>
+            ore <hi>om. NY</hi> 5 an s. <hi>l. P om. A</hi> 6 an famea an persecutio 0 8 deputati] <lb/>
+            estimati <hi>PB</hi> deputati sumus <hi>om. NV</hi> 9 uictimaej occisionis <hi>D</hi> <lb/>
+            10 non-dilexit nos <hi>om. A</hi> ergo <hi>om. FPBDOWfbd</hi> 12 angelus <lb/>
+            <hi>LAV</hi> 13 <hi>post</hi> principatus <hi>add. bd:</hi> neque potestates 14 alia] aliqua <lb/>
+            <hi>0</hi> 15 dei <hi>om. B</hi> 16 diffusa est <hi>AFPBDOWfbd</hi> 17 ex nobill <lb/>
+            per nos <hi>0</hi> 21 est <hi>om. W</hi> 22 et hic <hi>W</hi> hęc <hi>F</hi> dicit <hi>SANV <lb/>
+            et aliquis SNAV est concupiscentia</hi>] <hi>ex concupiscentia SN 24 illo W</hi> </app> <lb/>
+             
+<pb n="681"/>
+            uoluntate? quasi uero non et ipsi ex mundo sint, cum ab eis <lb/>
+            diligitur mundus deserto eo, per quem factus est mundus; <lb/>
+            seruiunt enim creaturae potius quam creatori, qui est <lb/>
+            benedictus in saecula. siue itaque mundi uocabulo Iohannes <lb/>
+            apostolus dilectores significauerit mundi, uoluntas, quae <lb n="5"/>
+            ex ipsis est, utique ex mundo est; siue mundi nomine caelum <lb/>
+            et terram et quaecumque in eis sunt, hoc est uniuersam <lb/>
+            conplexus sit creaturam, uoluntas procul dubio creaturae, quae <lb/>
+            non est creatoris, ex mundo est. propter quod talibus dominus <lb/>
+            dicit: uos de deorsum estis, ego de sursum sum; uos <lb n="10"/>
+            de hoc mundo estis, ego non sum de hoc mundo. apostolis <lb/>
+            autem dicit: si de hoc mundo essetis, mundus <lb/>
+            quod suum est diligeret. sed ne sibi amplius adrogarent, <lb/>
+            quam eorum mensura poscebat, et hoc, quod eos non esse <lb/>
+            dixit ex mundo, naturae putarent esse, non gratiae, quia <lb n="15"/>
+            <choice n="0.00"><note n="1">nero</note><corr n="7062">uero</corr></choice>, inquit, de mundo non estis, sed ego elegi uos de <lb/>
+            mundo, propterea odit uos mundus. ergo de mundo <lb/>
+            erant; nam, ut non essent de mundo, electi sunt de mundo. 
+</p>
+          
+</div1>
+
+<div1 n="17" subtype="section"><head>§ 17</head>
+
+<p><milestone n="20" unit="altchapter"/> Hanc autem electionem non praecedentium in <lb/>
+            bonis operibus meritorum, sed electionem gratiae demonstrans <lb n="20"/>
+            apostolus sic inquit: et in hoc tempore reliquiae per <lb/>
+            electionem gratiae saluae factae sunt; si autem gratia, <lb/>
+            iam non ex operibus; alioquin gratia iam non est <lb/>
+            gratia. haec est electio gratiae, id est electio, qua per dei
+
+<app> 3 Rom. 1, 25 10 Ioh. 8, 23 12 Ioh. 15, 19 21 Rom. 11, 5. 6 </app>
+
+<app> 1 non <hi>om. NV</hi> 2 et deserto <hi>B</hi> deserente <hi>SANV</hi> qu.em <hi>L</hi> <lb/>
+            qusem <hi>S</hi> 3 seruiuit <hi>V</hi> potius creaturae <hi>B</hi> potius <hi>om. Ll</hi> <lb/>
+            6 niundoj malo <hi>B</hi> 8 sit <hi>om. V</hi> 10 de <hi>pr. om. N</hi> suraum] supernis <lb/>
+            <hi>V</hi> sum <hi>er. S</hi> 11 mundo hoc <hi>(pr.) W</hi> apta <hi>LO</hi> apostolis (i <lb/>
+            <hi>BUp. exp</hi>. u) <hi>S</hi> 12 mundo hoc <hi>bd</hi> estis <hi>L1</hi> 13 estj erat <hi>PBNV</hi> <lb/>
+            14 mensura. <hi>L</hi> hoc <hi>om. Ll</hi> 15 ex mundo <hi>om. L</hi> ex] de <hi>D</hi> <lb/>
+            16 hoc mundo <hi>L</hi> ego <hi>om. Dr</hi> 18 non erant <hi>FODWf</hi> ut et <hi>SNY</hi> <lb/>
+            de mundo non essent <hi>SAFPBNDOVWybd</hi> de <hi>om. W</hi> mund_o <hi>L</hi> <lb/>
+            19 dilectionem <hi>PDFOBWf</hi> 20 opibus <hi>V</hi> 21 et <hi>om. W</hi> 24 id <lb/>
+            est-gratiae <hi>om. SANV</hi> </app> <lb/>
+             
+<pb n="682"/>
+            gratiam homines eliguntur, haec est, inquam, electio gratiae. <lb/>
+            qua omnia bona merita praeueniuntur humana. si enim ullis <lb/>
+            bonis meritis datur, iam non gratis donatur, sed debita redditur, <lb/>
+            ac per hoc non uero nomine gratia nuncupatur, ubi <lb/>
+            merces, sicut idem dicit apostolus, non inputatur secundum<lb n="5"/>
+            gratiam, sed secundum debitum. si autem, ut uera <lb/>
+            sit gratia, id est gratuita, nihil inuenit in homine, cui merito <lb/>
+            debeatur — quod bene intellegitur et in eo, quod dictum <lb/>
+            est: pro nihilo saluos facies eos — profecto ipsa dat <lb/>
+            merita, non meritis datur. praeuenit ergo etiam fidem, ex qua<lb n="10"/>
+            omnia bona opera incipiunt; iustus enim, sicut scriptum <lb/>
+            est, ex fide uiuit. porro autem gratia non solum adiuuat <lb/>
+            iustum, uerum etiam iustificat inpium. et ideo etiam cum <lb/>
+            adiuuat iustum et uidetur eius meritis reddi, nec sic desinit <lb/>
+            esse gratia, quoniam id adiuuat, quod est ipsa largita. propter<lb n="15"/>
+            hanc itaque gratiam, quae cuncta bona merita humana praecedit, <lb/>
+            non solum Christus ab <choice><note>iupiis</note><corr>inpiis</corr></choice> occisus est, uerum etiam <lb/>
+            pro inpiis mortuus est. et antequam moreretur, non <lb/>
+            utique iustos, sed iustificandos elegit apostolos, quibus ait: <lb/>
+            ego uos de mundo elegi. quibus enim dixit: <sic>demundo</sic><lb n="20"/>
+            non estis, et, ne putarent se numquam fuisse de mundo. <lb/>
+            mox addidit: sed ego uos de mundo elegi, profecto, ut <lb/>
+            de mundo non essent, ipsius in eos electione conlatum est.
+
+<app> 5 cf. Rom. 4, 4 9 Ps. 55, 8 11 Hab. 2. 4 18 cf. Rora. 5, 6 <lb/>
+            20 Ioh. 15, 19 </app>
+
+<app> 1 est] si <hi>B</hi> gratiae-ullis Ont. <hi>B</hi> 2 qua] quorum <hi>A</hi> illis <hi>Y</hi> <lb/>
+            3 donatur] datur <hi>FPBDOVbd</hi> debito <hi>VA</hi> 4 hac <hi>V</hi> non uero) <lb/>
+            numero Nl 6 gratiam sed secundum <hi>om. L</hi> 8 eo (o s. <hi>I.) L</hi> 9 faciet <lb/>
+            <hi>V</hi> 4i!ţ profecto <hi>L</hi> 10 exJ in <hi>B</hi> qua etiam <hi>B</hi> 11 opera <lb/>
+            <hi>otn. B</hi> concipiunt <hi>B</hi> 13 etiam] autem <hi>W</hi> etiam <hi>om. L</hi> 14, sicj <lb/>
+            sit <hi>L</hi> desinet <hi>SA</hi> 15 gratia <hi>om. 8</hi> adiuuat id <hi>PB</hi> ipsa est <lb/>
+            <hi>Wbd</hi> est <hi>om. S</hi> largitur <hi>JYF</hi> 16 merita bona <hi>0</hi> praecedit <lb/>
+            humana <hi>FNBDW</hi> humana <hi>om. 0</hi> precedet <hi>S</hi> 18 moriretur <lb/>
+            <hi>SLlN*</hi> 19 apostolus <hi>Ll</hi> 20 elegi de mando <hi>NV</hi> eoim] et <lb/>
+            <hi>FBDPOWy</hi> 21 et <hi>om. SNV</hi> umquam <hi>W</hi> 22 de mundo nos <lb/>
+            elegi <hi>B</hi> elegi de mundo <hi>FDO VWj</hi> </app> <lb/>
+             
+<pb n="683"/>
+            quocirca si per suam iustitiam, non per gratiam eius eligerentur, <lb/>
+            non de mundo electi essent, quoniam de mundo iam <lb/>
+            non essent, si iam iusti essent. deinde propterea sunt electi, <lb/>
+            quia iam iusti erant; ipsi priores iam dominum elegerant. <lb/>
+            quis enim potest esse iustus, nisi eligendo iustitiam? finis <lb n="5"/>
+            autem legis Christus ad iustitiam omni credenti, qui <lb/>
+            factus est nobis sapientia a deo et iustitia et sanctificatio <lb/>
+            et redemptio, ut, quemadmodum scriptum est, <lb/>
+            qui gloriatur in domino glorietur. ipse est ergo nostra <lb/>
+            iustitia. <lb n="10"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="18" subtype="section"><head>§ 18</head>
+
+<p><milestone n="21" unit="altchapter"/> Vnde et antiqui iusti ante incarnationem uerbi <lb/>
+            in hac fide Christi et in hac uera iustitia, quod est nobis <lb/>
+            Christus, iustificati sunt, hoc credentes futurum quod nos <lb/>
+            credimus factum: et ipsi gratia salui facti per fidem <lb/>
+            non ex semet ipsis, sed dei dono, non ex operibus, <lb n="15"/>
+            ne forte extollerentur. bona quippe opera eorum non praeuenerunt <lb/>
+            dei misericordiam, sed subsecuta sunt. ipsi quippe <lb/>
+            audierunt, ipsi scripserunt longe antequam Christus uenisset <lb/>
+            in carne: miserebor, cui misertus ero, et misericordiam <lb/>
+            praestabo, cui misericors fuero. ex quibus dei <lb n="20"/>
+            uerbis tanto post apostolus Paulus diceret: igitur non uolentis <lb/>
+            neque currentis, sed miserentis est dei. ipsorum <lb/>
+            etiam uox est longe antequam Christus uenisset in carne:
+
+<app> 5 Rom. 10, 4 6 ICor. 1, 30. 31 14 cf. Eph. 2, 8. 9 19 Ex. <lb/>
+            33. 19; Rora. 9, 15 21 Rom. 9, 16 </app>
+
+<app> 1 si] se <hi>S</hi> suam <hi>om. L</hi> 2 essent] sunt <hi>B</hi> quoniam Uw <hi>L</hi> <lb/>
+            quoniam-essent <hi>om. NV</hi> 3 si] sed <hi>W</hi> deinde si <hi>PBNWj</hi> 4 eligerant <lb/>
+            <hi>PF</hi> 5 elegendo <hi>SNl</hi> 6 autem] enim <hi>PB</hi> ad iuBtitiam <lb/>
+            <hi>om. L 7</hi> est <hi>om. SNXA pro</hi> et <hi>om. V</hi> 8 ut <hi>ex</hi> et <hi>N</hi> et <hi>A</hi> <lb/>
+            9 est <hi>om. L</hi> iustitia nostra <hi>A</hi> 11 et <hi>om. FDOWf</hi> 14 et ipsi <lb/>
+            <hi>om. SNAV</hi> 15 <hi>semet L:</hi> se <hi>SAFPBNDOVWfbd</hi> 16 <hi>extollentur Lx <lb/>
+            cum uoce</hi> bona <hi>incipit K</hi> pcruenerunt <hi>K</hi> 17 misericordiam dei <lb/>
+            <hi>SANVbd</hi> dei <hi>om. D</hi> secuta <hi>FPBDONW;</hi> secuti <hi>K cum uoce</hi> <lb/>
+            ipsi <hi>inc. cod. R</hi> 18 ueniret <hi>]JOy</hi> 19 miserebor enim <hi>B</hi> tui <hi>W</hi> <lb/>
+            20 fuero] ero <hi>PB</hi> ex] e <hi>RAbd</hi> et <hi>SNV</hi> uerbis dei W 21 uerbis <lb/>
+            (i <hi>ex</hi> o) <hi>L</hi> tanta <hi>S</hi> apostulus K 22 misersentis <hi>L</hi> 23 uox] <lb/>
+            nox <hi>W</hi> </app> <lb/>
+             
+<pb n="684"/>
+            deus meus, misericordia eius praeueniet me. quomodo <lb/>
+            autem possent alieni esse a fide Christi, quorum caritate <lb/>
+            etiam nobis praenuntiatus est Christus, sine cuius fide <lb/>
+            quisquam mortalium nec fuit nec est nec esse aliquando <lb/>
+            poterit iustus? si ergo iam iusti a Christo eligerentur apostoli,<lb n="5"/>
+            prius illum ipsi elegissent, ut iusti eligi possent, quia <lb/>
+            sine illo iusti esse non possent. sed non ita factum est; ipse <lb/>
+            quippe illis ait: non uos me elegistis, sed ego uos <lb/>
+            elegi. unde dicit apostolus Iohannes: non quod dilexerimus <lb/>
+            deum. sed quia ipse dilexit nos. <lb n="10"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="19" subtype="section"><head>§ 19</head>
+
+<p><milestone n="22" unit="altchapter"/> Quod cum ita sit, quid est homo utens in hac <lb/>
+            uita propria uoluntate, antequam eligat et diligat deum, nisi <lb/>
+            iniustus et inpius? quid est, inquam, homo aberrans a <lb/>
+            creatore creatura, nisi creator eius memor sit eius et eligat <lb/>
+            eum gratis et diligat gratis? quia ipse non potest eligere<lb n="15"/>
+            uel diligere, nisi prius electus dilectusque curetur, qui caecitate <lb/>
+            eligenda non cernit et langore diligenda fastidit. sed <lb/>
+            forte quis dicat: quomodo deus prius eligit et diligit iniquos, <lb/>
+            ut iustificet eos, cum scriptum sit: odisti, domine, omnes, <lb/>
+            qui operantur iniquitatem? quomodo putamus<lb n="20"/>
+            nisi miro et ineffabili modo? et tamen etiam non possumus
+
+<app> 1 Ps. 58, 11 8 cf. Ioh. 15, 19 9 I Ioh. 4, 10 13 cf. Ps. 8, 5 <lb/>
+            19 Ps. 5, 6 </app>
+
+<app> 2 autem] ergo <hi>0</hi> alieni possent <hi>0</hi> possint <hi>R</hi> 4 nec est OM. <hi>V</hi> <lb/>
+            aliquando esse <hi>A</hi> 5 iamj tam <hi>K</hi> iuati*. <hi>L</hi> iuatitia <hi>N</hi> a <hi>om. X<lb/>
+             elegerentur S 6 illi ipeum W eligissent K ut] qua» L</hi> elegi <lb/>
+            liS; possint <hi>SN</hi> quia <hi>om. SAVN</hi> 8 uoa <hi>om. NY</hi> elegi nos <lb/>
+            <hi>DOr</hi> 9 iohannis <hi>K</hi> nos dilexerimns <hi>V</hi> dileximus <hi>B</hi> 10 dum <hi>B</hi> <lb/>
+            quia] quoniam <hi>KMDOWy</hi> quod <hi>PB</hi> ipse] ipse prior <hi>ItFDOW-jbd,<lb/>
+             (in mg</hi>. prior) <hi>PB</hi> 11 ac <hi>L</hi> 12 uoluptate <hi>L</hi> 13 et] 6 <hi>S</hi> quis <hi>B</hi> <lb/>
+            14 creaturarum <hi>V</hi> e«*l*igat <hi>L</hi> 15 eum <hi>om</hi>. r et diligat gratis <lb/>
+            <hi>om. NV</hi> ipse <hi>om. A</hi> potene <hi>SNV</hi> elegere S 16 caecitatem <hi>K</hi> <lb/>
+            17 eligendi JF languore <hi>KRAPBNW; bd</hi> 18 prius s. <hi>I. K om. Y</hi> <lb/>
+            elegit <hi>SNl</hi> 19 scribtum <hi>K</hi> sit] est <hi>R</hi> 20 qui operantur] operaiites <lb/>
+            <hi>SAVbd</hi> 21 eflnisi F muro S inenarrabili <hi>0</hi> non] nos <lb/>
+            <hi>NSd, om. 0</hi> </app> <lb/>
+             
+<pb n="685"/>
+            cogitare, quod medicus bonus aegrotum et odit et diligit? <lb/>
+            odit enim, quia aegrotat, qui diligit, ut aegritudinem pellat. 
+</p>
+          
+</div1>
+
+<div1 n="20" subtype="section"><head>§ 20</head>
+
+<p><milestone n="23" unit="altchapter"/> Haec propter caritatem dicta sint, sine qua in <lb/>
+            nobis non potest esse uera patientia, quoniam in bonis caritas <lb/>
+            dei est, quae tolerat omnia, sicut in malis mundi cupiditas. <lb n="5"/>
+            sed haec caritas per spiritum sanctum est in nobis, qui <lb/>
+            datus est nobis. unde a quo nobis est caritas, ab illo patientia. <lb/>
+            mundi autem cupiditas quando patienter sustinet onera cuiuslibet <lb/>
+            calamitatis, gloriatur de uiribus propriae uoluntatis <lb/>
+            tamquam de stupore morbi, non de robore sanitatis. insana <lb n="10"/>
+            est ista gloriatio; non est patientiae, sed dementiae. uoluntas <lb/>
+            ista tanto uidetur patientior acerborum malorum, quanto est <lb/>
+            <choice><note>anidior</note><corr>auidior</corr></choice> temporalium <choice><note>bonomm</note><corr>bonorum</corr></choice>, quia inanior aeternorum. 
+</p>
+          
+</div1>
+
+<div1 n="21" subtype="section"><head>§ 21</head>
+
+<p><milestone n="24" unit="altchapter"/> Quodsi eam exagitat et inflammat fallacibus <lb/>
+            uisis et suasionibus inmundus et diabolicus spiritus et maligna <lb n="15"/>
+            conspiratione sociatus efficit hominis uoluntatem uel <lb/>
+            errore dementem uel adpetitu cuiuslibet mundanae delectationis <lb/>
+            ardentem quaecumque uidentur intolerabilia mirabiliter <lb/>
+            sustinere, non tamen ideo etiam uoluntas mala sine <sic>instigatione</sic> <lb/>
+            alterius inmundi spiritus sicut uoluntas bona sine adiutorio <lb n="20"/>
+            sancti spiritus non potest esse. nam esse posse
+
+<app> 6 cf. Rom. 5, 5 </app>
+
+<app> 1 quo <hi>0</hi> et odit figTotum <hi>0</hi> et <hi>pr. om. W</hi> 2 egrotat <hi>KN</hi> aegrotatur <lb/>
+            <hi>R</hi> qui <hi>om. RPFBNDOWjbd</hi> ita ut <hi>A</hi> 8 sunt <hi>B</hi> 4 uera <lb/>
+            esse <hi>B</hi> quoniam] quia <hi>IPRVbd</hi> quo <hi>A</hi> quo a Nl quoril <hi>S</hi> in <hi>s. 1. <lb/>
+            N, (in rag.) A orn. S</hi> bonis] nobis <hi>KB</hi> 5 <hi>post</hi> est <hi>repetuntur</hi> <lb/>
+            in <hi>Suerba:</hi> esse uera-dei est cupiditas mundi <hi>A</hi> cupiditatibus <hi>R</hi> <lb/>
+            6 qui] quia <hi>K</hi> qui. <hi>N</hi> 7 illo est <hi>SANVbd</hi> 8 papienter F honera <lb/>
+            <hi>FD</hi> onora S 10 morbij mortui <hi>K</hi> sanitatis] sanctitatis <hi>KANV</hi> <lb/>
+            insania <hi>Sb</hi> 1] est <hi>pr. om. B</hi> dementiae] mendaciae <hi>N</hi> 12 aceruorum <lb/>
+            <hi>KNL1</hi> est] et <hi>Å</hi> 13 et inanior <hi>V</hi> inaniora <hi>S</hi> inaniora et <hi>N</hi> <lb/>
+            14 eam] ex ea <hi>L</hi> excitat <hi>L</hi> inflamat <hi>K</hi> 15 uisis <hi>(pr</hi>. s <hi>ex</hi> u) <lb/>
+            <hi>L</hi> uisis <hi>N</hi> uisibus <hi>PFBDOWa</hi> inmnndis <hi>FPDOWbd</hi> et om. <lb/>
+            <hi>FDOlJôd</hi> diabolus <hi>R</hi> 16 conspirationeg <hi>L</hi> sotiatus <hi>SV</hi> 17 herrore <lb/>
+            <hi>FW</hi> errorfi <hi>SN</hi> demente <hi>SN</hi> dementie <hi>V</hi> apetitu <hi>NL</hi> 18 quaecumque] <lb/>
+            quae cum <hi>PFBDOWfd</hi> uidetur <hi>SFBDOWrd</hi> intollerabilia <lb/>
+            <hi>K</hi> 19 mala est (est 8. <hi>l.) A</hi> 21 spiritus sancti <hi>V</hi> </app> <lb/>
+             
+<pb n="686"/>
+            uoluntatem malam etiam sine aliquo spiritu uel seducente uel incitante <lb/>
+            in ipso diabolo satis ostenditur. qui per nullum <choice n="0.40"><note n="425">aliam</note><corr n="627">alium</corr></choice> <lb/>
+            diabolum propria uoluntate factus diabolus inuenitur. <choice><note>uolantas</note><corr>uoluntas</corr></choice> <lb/>
+            itaque mala siue cupiditate rapiatur siue timore reuocetur <lb/>
+            siue laetitia diffundatur siue tristitia contrahatur atque in his<lb n="5"/>
+            omnibus perturbationibus animi quaecumque sunt aliis uel <lb/>
+            alio tempore grauiora contemnat et perferat. potest et sine <lb/>
+            alterius spiritus instinctu se ipsa seducere et defectu a superioribus <lb/>
+            in inferiora lapsando, quanto iucundius aestimauerit. <lb/>
+            quod adipisci adpetit uel amittere metuit uel adeptum<lb n="10"/>
+            gaudet uel amissum dolet, tanto tolerabilius pro eo ferre, <lb/>
+            quod sibi minus est ad patiendum quam illud ad fruendum. <lb/>
+            quidquid enim illud est, ex creatura est, cuius nota uoluntas <lb/>
+            est. quodam modo enim familiari contactu atque conexu ad <lb/>
+            experiendam eius suauitatem adiacet amanti creaturae amata<lb n="15"/>
+            creatura. 
+</p>
+          
+</div1>
+
+<div1 n="22" subtype="section"><head>§ 22</head>
+
+<p><milestone n="25" unit="altchapter"/> Voluptas autem creatoris, de qua scriptum est: <lb/>
+            et torrente uoluptatis tuae potabis eos, longe <choice><note>altenus</note><corr>alterius</corr></choice> <lb/>
+            generis est; neque enim, sicut nos, creatura est. nisi <lb/>
+            ergo amor eius detur inde nobis, non est, unde esse possit<lb n="20"/>
+            in nobis. ac per hoc uoluntas bona, qua diligitur deus, in <lb/>
+            homine non potest esse, nisi in quo deus operatur et <lb/>
+            uelle. haec igitur uoluntas bona, id est uoluntas deo fideliter
+
+<app> 18 Ps. 35, 9 22 cf. Phil. 2, 13 </app>
+
+<app> 1 mala <hi>K</hi> sedncenteiri <hi>L</hi> incitantem <hi>L</hi> 2 diabnlo <hi>LS</hi> 3 diabulum <lb/>
+            <hi>K</hi> sed propria <hi>AFPBDOWfbd</hi> diabulos <hi>K</hi> 4 reuocatur <hi>S</hi> <lb/>
+            5 diffunditur <hi>Lv</hi> 6 sint <hi>V om. KR</hi> 7 alio] eo <hi>FDOWj</hi> temporte <lb/>
+            <hi>L</hi> grauiQra <hi>L</hi> grauia <hi>S</hi> contempnat <hi>L</hi> 8 spu <hi>SN</hi> intinctu <lb/>
+            <hi>L</hi> instricto <hi>S</hi> ipsft <hi>AB</hi> defectQ <hi>B</hi> a <hi>Onl. B</hi> 9 iocondius <lb/>
+            <hi>LSPANVy</hi> iocondius <hi>FDW</hi> iucundiora <hi>R</hi> estimauerit <hi>K</hi> 11 admissum <lb/>
+            <hi>V</hi> amissus <hi>S</hi> tantum <hi>SA</hi> tollerabilius <hi>KNl</hi> pro eo <lb/>
+            ferrej proferre <hi>SN</hi> perferre <hi>V</hi> 12 ad <hi>pr.)</hi> et <hi>K</hi> 13 quicquid <hi>LSVW2*</hi> <lb/>
+            uoluptas <hi>FDOVWrd</hi> 14 quodcom modo <hi>S</hi> cont-actu <hi>K</hi> com- <lb/>
+            <hi>nexu S</hi> 15 amat acreatura <hi>NV</hi> 17 uoluntas <hi>PK1</hi> 18 uoluntatis <lb/>
+            <hi>SXPx</hi> 14 nostra <hi>KR</hi> 20 amore <hi>KN</hi> 21 hac <hi>V</hi> 22 operatur <lb/>
+            deus <hi>B</hi> 23 fideliter deo <hi>B</hi> </app> <lb/>
+             
+<pb n="687"/>
+            subdita, uoluntas sanctitate superni ardoris accensa, uoluntas, <lb/>
+            quae diligit deum et proximum propter deum, siue amore, <lb/>
+            de quo respondet apostolus Petrus: domine, tu scis quia <lb/>
+            amo te, siue timore, de quo dicit apostolus Paulus: in <lb/>
+            timore et tremore <choice><note>ueatram</note><corr>uestram</corr></choice> ipsorum salutem operamini, <lb n="5"/>
+            siue gaudio, de quo dicit: spe gaudentes, in <lb/>
+            tribulatione patientes, siue tristitia, qualem se dicit <lb/>
+            habuisse magnam pro fratribus suis, quaecumque amara et <lb/>
+            aspera sufferat, <choice n="0.06"><note n="9">cantas</note><corr n="120">caritas</corr></choice> dei est, quae omnia tolerat, quae <lb/>
+            non diffunditur in cordibus nostris, nisi per spiritum <lb n="10"/>
+            sanctum, qui datus eat nobis. 
+</p>
+          <p><milestone n="26" unit="altchapter"/>Vnde nequaquam dubitante pietate sicut caritas <lb/>
+            sancte amantium, ita patientia pie tolerantium dei donum est. <lb/>
+            neque enim scriptura diuina fallit aut fallitur, quae non solum <lb/>
+            in ueteribus libris habet huius rei testimonia, cum deo dicitur: <lb n="15"/>
+            patientia mea tu es, et: ab ipso est patientia mea, et <lb/>
+            ubi alius propheta dicit accipere nos spiritum fortitudinis, <lb/>
+            uerum etiam in apostolicis litteris legitur: quia uobis donatum <lb/>
+            est pro Christo non solum ut credatis in eum, <lb/>
+            sed ut etiam patiamini pro eo. non ergo quasi de proprio <lb n="20"/>
+            faciat animum elatum quod sibi audit esse donatum. 
+</p>
+          
+</div1>
+
+<div1 n="23" subtype="section"><head>§ 23</head>
+
+<p>Si quis autem non habens caritatem, quae pertinet ad <lb/>
+            unitatem spiritus et uinculum pacis, quo catholica ecclesia <lb/>
+            congregata conectitur, in aliquo schismate constitutus, ne
+
+<app> 3 Ioh. 21. 15 4 Phil. 2, 12 6 Rom. 12, 12 8 cf. I Cor. <lb/>
+            13. 7 10 cf. Rom. 5, 5 16 Ps. 70, 5 Ps. 61, 6 18 Phil. 1, 29 </app>
+
+<app> 1 ardorisj amoris <hi>B</hi> 3 respondit <hi>KJRSABNV</hi> 5 uestram] nestro <lb/>
+            etiam <hi>V</hi> ipsorum <hi>om. B</hi> 6 in spe <hi>K</hi> 7 tristitiam <hi>K</hi> 8 magnam <lb/>
+            habuisse <hi>bd</hi> magna <hi>S</hi> fre suos (os <hi>ex</hi> is) <hi>N</hi> 9 aspera] suauia <hi>PB</hi> <lb/>
+            13 sancta <hi>RK</hi> scae <hi>SFONy</hi> sanctft <hi>V</hi> esse <hi>B</hi> amantium] uiuentium <lb/>
+            <hi>PB</hi> pie <hi>om. NV</hi> donum dei <hi>V</hi> 14 diuina <hi>scriptura RPDOWbd</hi> <lb/>
+            diuina <hi>om. V uerbts</hi> non solum <hi>Jinitttr oratio codd. KR</hi> 16 es tu Y <lb/>
+            17 accipe <hi>S</hi> 18 donatum] datum <hi>V</hi> 19 pro] per S 20 etiam ut <lb/>
+            <hi>NVW propter eum FPBDOW\\-bd 21 facit PFDOBWf</hi> 23 unitatem] <lb/>
+            diuinitatem <hi>F</hi> ecclesia <hi>om. V</hi> 24 scismate <hi>codd</hi>. ne <lb/>
+            <hi>om. Nl</hi> </app> <lb/>
+             
+<pb n="688"/>
+            Christum neget, patitur tribulationes, angustias, famem, nuditatem, <lb/>
+            persecutionem, pericula, carceres, uincula, tormenta, <lb/>
+            gladium uel flammas uel bestias uel ipsam crucem timore <lb/>
+            gehennarum et ignis aeterni, nullo modo ista culpanda sunt, <lb/>
+            immo uero et hic laudanda patientia est. non enim dicere<lb n="5"/>
+            poterimus melius ei fuisse, ut Christum negando nihil eorum <lb/>
+            pateretur, quae passus est confitendo, sed existimandum est <lb/>
+            fortasse tolerabilius ei futurum iudicium, quam si Christum <lb/>
+            negando cuncta illa uitaret, ut illud, quod ait apostolus: si <lb/>
+            tradidero corpus meum ut ardeam, caritatem autem<lb n="10"/>
+            non habeam, nihil mihi prodest, nihil [mihi] prodesse <lb/>
+            intellegatur ad regnum caelorum obtinendum, non ad extremi <lb/>
+            iudicii tolerabilius supplicium subeundum. 
+</p>
+          
+</div1>
+
+<div1 n="24" subtype="section"><head>§ 24</head>
+
+<p><milestone n="27" unit="altchapter"/> Sed merito quaeri potest, utrum et ista patientia <lb/>
+            donum dei sit, an uiribus tribuenda sit uoluntatis<lb n="15"/>
+            humanae, qua quisque ab ecclesia separatus non pro errore. <lb/>
+            qui eum separauit, sed pro ueritate sacramenti seu uerbi, <lb/>
+            quae apud eum remansit, timore poenarum aeternarum poenas <lb/>
+            patitur temporales. cauendum est enim, ne forte, si dei donum <lb/>
+            istam patientiam dixerimus, hi quibus inest etiam ad regnum<lb n="20"/>
+            dei pertinere credantur; si autem illam donum dei esse negauerimus, <lb/>
+            cogamur fateri sine adiutorio et munere dei in uoluntate <lb/>
+            hominis esse posse aliquid boni. neque enim hoc non <lb/>
+            est bonum, ut credat homo aeterno supplicio se esse
+
+<app> 9 I Cor. 13. 3 </app>
+
+<app> 1 negaret <hi>NV</hi> famaem <hi>L</hi> 4 et ista <hi>V</hi> 5 liaec <hi>bd</hi> est patientia <lb/>
+            <hi>BS</hi> 6 fuisset <hi>SV</hi> horum <hi>DOFW</hi> 7 aestimandum <hi>LPf</hi> <lb/>
+            estimandum <hi>B est]</hi> et <hi>SNV</hi> esse <hi>in ras. A</hi> 8 tollerabilius P eij <lb/>
+            et <hi>A</hi> 9 apostolus ait <hi>NV</hi> 11 nichil <hi>B</hi> michi <hi>FB</hi> mihi m <lb/>
+            <hi>L exp. cet. om. incl</hi>. prode esse <hi>L</hi> 12 optinendom <hi>LD</hi> extremi <lb/>
+            (ex 8. <hi>I. m</hi>. 2) <hi>N</hi> 13 tolerabilis <hi>N</hi> tolerabile <hi>V</hi> subeundS <hi>L'</hi> <lb/>
+            15 sit tribuenda <hi>D</hi> uoluntas <hi>SVl</hi> 16 quisquis <hi>D</hi> qui*que <hi>A</hi> separantur <lb/>
+            <hi>A</hi> 17 seperauit <hi>S</hi> 18 apnt <hi>L</hi> patitur poenas r 19 patiiuntur <lb/>
+            <hi>A</hi> temporales] ernales <hi>V</hi> 20 hii <hi>DVW</hi> 21 credatur <hi>A</hi> <lb/>
+            illam <hi>om. A</hi> esse <hi>om. DOFWx-(</hi> 23 boni operis <hi>B</hi> 24 homo <hi>om. D</hi> <lb/>
+            supplicio (i <hi>fin. s. I.) L</hi> puniendum SJ esse <hi>V</hi> </app> <lb/>
+             
+<pb n="689"/>
+            puniendum, si negauerit Christum et pro ista fide qualecumque supplicium <lb/>
+            perferat et contemnat humanum. 
+</p>
+          
+</div1>
+
+<div1 n="25" subtype="section"><head>§ 25</head>
+
+<p>Proinde sicut negandum non est etiam hoc esse donum <lb/>
+            dei, ita intellegendum est alia esse dei dona filiorum illius <lb/>
+            Hierusalem, quae sursum libera est mater nostra. <lb n="5"/>
+            
+</p>
+          <p><milestone n="28" unit="altchapter"/>Haec sunt enim quodam modo hereditaria, in quibus <lb/>
+            sumus heredes dei, coheredes autem Christi; alia <lb/>
+            uero, quae possunt accipere etiam filii concubinarum, quibus <lb/>
+            iudaei carnales et schismatici uel haeretici conparantur. quamuis <lb/>
+            enim scriptum est: eice ancillam et filium eius; neque <lb n="10"/>
+            enim heres erit filius ancillae cum filio meo <lb/>
+            Isaac, et Abrahae dixit deus: in Isaac uocabitur tibi <lb/>
+            semen, quod sic est apostolus interpretatus, ut diceret: id <lb/>
+            est non qui filii carnis, hi filii dei, sed filii promissionis <lb/>
+            deputantur in semine, ut intellegeremus semen Abrahae <lb n="15"/>
+            secundum Isaac propter Christum ad dei filios pertinere, qui <lb/>
+            sunt corpus Christi et membra, id est ecclesia dei una, uera, <lb/>
+            germana, catholica, tenens piam fidem, non eam, quae <sic>perelationem</sic> <lb/>
+            uel timorem, sed eam, quae per dilectionem operatur: <lb/>
+            tamen etiam filios concubinarum quando a filio suo Isaac <lb n="20"/>
+            dimisit Abraham, nonnulla eis largitus est munera, ne relinquerentur <lb/>
+            omni modo inanes, non ut tenerentur heredes. sic <lb/>
+            enim legimus: dedit autem Abraham omnem censum
+
+<app> 4 cf. Gal. 4, 26 7 Rom. 8, 17 10 Gen. 21, 10; Gal. 4,30 12 Gen. <lb/>
+            21, 12; Rom. 9, 7 13 Rom. 9, 8 19 cf. Gal. 5, 6 23 Gen. 25, 5. 6 </app>
+
+<app> 1 et] ut <hi>SANV</hi> 2 contempnat <hi>LNY</hi> 3 etiam <hi>om. FDOW-(bd</hi> <lb/>
+            4 dei esse <hi>P</hi> dona dei <hi>V</hi> ųę dei <hi>N</hi> 5 iherasalem <hi>BV</hi> ierusalem <lb/>
+            <hi>APNDOWybd</hi> 7 autem <hi>om. B</hi> 8 accipere <hi>om. S</hi> 9 sciematici <lb/>
+            <hi>LPBDON1 VWf</hi> heretici <hi>NVPO</hi> 10 est] sit <hi>SANVbd</hi> eice] <lb/>
+            ecce <hi>S</hi> fili' <hi>W</hi> 11 erit heres <hi>DW</hi> 12 habrahae <hi>L</hi> abraae <hi>N</hi> <lb/>
+            dixerit <hi>NWbd</hi> ysaac <hi>V W</hi> 13 est <hi>om. S</hi> interpraetatus <hi>L</hi> interpretatur <lb/>
+            S 14 hii <hi>LSP</hi> hic r 15 habrahe <hi>V</hi> 16 filios <hi>dei lODWf</hi> <lb/>
+            18 jjermina <hi>S</hi> eam] enim <hi>NV</hi> 19 per timorem <hi>SANV</hi> tumorem <hi>LB</hi> <lb/>
+            electionem A 20 a <hi>om. Ll</hi> 21 diuisit <hi>Wb</hi> habraam <hi>N</hi> namnalla <lb/>
+            <hi>Lx</hi> ei <hi>SN A YJV</hi> 22 omni modo] omnino <hi>SANV</hi> omnino <lb/>
+            modo <hi>D</hi> ut] ut <hi>sup. er</hi>. ob <hi>L</hi> tinerentnr Lt 23 autem] enim <hi>W</hi> <lb/>
+            habraham <hi>SV</hi> habraam <hi>N</hi>, </app>
+
+<app> XXXXI Aug. Seet. V para III. </app>
+
+<app> 44 </app> <lb/>
+             
+<pb n="690"/>
+            suum Isaac filio suo; et filiis concubinarum suarum <lb/>
+            dedit Abraham munera et dimisit eos ab Isaac filio <lb/>
+            suo. si ergo filii sumus liberae Hierusalem, alia dona exheredatorum, <lb/>
+            alia intellegamus heredum. hi enim heredes <lb/>
+            sunt, quibus dicitur: non enim accepistis spiritum seruitutis<lb n="5"/>
+            iterum in timorem, sed accepistis spiritum <lb/>
+            adoptionis filiorum, in quo clamamus: abba pater. 
+</p>
+          <p rend="script">XXVIII!. 26. Clamemus ergo spiritu caritatis et, donec <lb/>
+            ueniamus ad hereditatem, in qua semper maneamus, liberali <lb/>
+            amore simus, non seruili timore patientes; clamemus, quamdiu<lb n="10"/>
+            pauperes sumus, donec illa hereditate ditemur. magna <lb/>
+            quippe inde pignora accepimus, quod ad nos ditandos pauper <lb/>
+            factus est Christus, quo in supernas diuitias exaltato missus <lb/>
+            est, qui sancta desideria nostris cordibus inspiraret spiritus <lb/>
+            sanctus. horum <choice><note>paupenim</note><corr>pauperum</corr></choice> adhuc credentium, nondum contemplantium,<lb n="15"/>
+            adhuc sperantium, nondum tenentium, adhuc <lb/>
+            desiderio suspirantium, nondum felicitate regnantium, adhuc <lb/>
+            esurientium et sitientium, nondum satiatorum: horum ergo <lb/>
+            pauperum patientia non peribit in aeternum, non quia <lb/>
+            et illic patientia erit, ubi quod toleretur non erit, sed <sic>lnon</sic><lb n="20"/>
+            peribit' dictum est, quia infructuosa non erit. fructum autem <lb/>
+            habebit aeternum, ideo non peribit in aeternum. quisquis enim <lb/>
+            laborat inaniter, cum eum spes fefellerit, propter quam
+
+<app> 5 Rom. 8, 15 19 Pa. 9. 19 </app>
+
+<app> 1 filio suo ysaac <hi>W</hi> 2 habraam <hi>N</hi> dimisit] diaisit <hi>DOVWb</hi> <lb/>
+            yaaac <hi>V</hi> 8 iherusalem <hi>NBV</hi> ezereditatoram <hi>V</hi> exhereditorum <lb/>
+            <hi>SAN</hi> 4 hic <hi>L</hi> hii <hi>V</hi> eredes <hi>N</hi> 6 iterum <hi>om. 0</hi> <lb/>
+            timore <hi>APDOFBNVf post</hi> spiritum <hi>uerba</hi> seruitutie-spiritum <hi>repe- ,<lb/>
+             tita deleta sunt S</hi> 7 filiorum <hi>om. SNV, (8. I. add.) A</hi> damus N1 <lb/>
+            8 ergo <hi>om. S</hi> spiritum <hi>LSN</hi> per spiritum A et] sed <hi>SANV, otn. D</hi> <lb/>
+            10 sumus <hi>SBl</hi> patienter <hi>SA</hi> quandiu <hi>F</hi> 11 <hi>simua NV</hi> 12 pignera <lb/>
+            <hi>AFLt</hi> 13 exultat omissus <hi>L</hi> 14 acani <hi>L</hi> spiraret <hi>PBFODWj</hi> <lb/>
+            16 adhuc nandum tenentium <hi>V</hi> 18 saturatoram <hi>SNVB</hi> 19 pauper <hi>S</hi> <lb/>
+            20 et 8. <hi>1. N om. B</hi> patientia pauperum <hi>B</hi> toletar <hi>S</hi> toleret <hi>0</hi> <lb/>
+            21 autem] enim <hi>D</hi> 22 habebunt <hi>P</hi> in aeternum <hi>pr. ABNVnx</hi> <lb/>
+            quisquis] qui <hi>PFBDOWfid</hi> enim] in eternfl <hi>V</hi> 23 laborat <hi>fin. B</hi> </app> <lb/>
+             
+<pb n="691"/>
+            laborabat, merito dicit: perdidi tantum laborem; quisquis uero <lb/>
+            ad sui laboris promissa peruenerit, gratulans dicit: non perdidi <lb/>
+            laborem meum. dicitur ergo labor non perisse, non quia <lb/>
+            manet perpetuus, sed quia non est inaniter fusus. sic et patientia <lb/>
+            pauperum Christi, sed ditandorum heredum Christi <lb n="5"/>
+            non peribit in aeternum, non quia et illic patienter ferre <lb/>
+            iubebimur, sed quia pro his quae hic patienter pertulimus, <lb/>
+            aeterna beatitudine perfruemur. non dabit finem sempiternae <lb/>
+            felicitati, qui donat temporalem patientiam uoluntati, quia <lb/>
+            utrumque munus donatae donatum est caritati amen.
+
+<app> 1 merito <hi>om. 0</hi> 2 peraenerat <hi>N*</hi> 3 dictitur <hi>V</hi> 4 perpetuva (v <lb/>
+            <hi>s</hi>. i <hi>m. 1) L</hi> quia iam <hi>B</hi> 5 xps <hi>V</hi> 6 non <hi>alt. om. Set]</hi> in <hi>F</hi> <lb/>
+            illo <hi>V</hi> ill.o <hi>N</hi> 7 iubemur <hi>FDOr</hi> iubentur W iis <hi>bd</hi> 8 aeternam <lb/>
+            beatitudinem <hi>L</hi> perfruamur <hi>PBY</hi> 10 donatae] donat. Et <hi>L</hi> donare <lb/>
+            <hi>W om. S</hi> amen <hi>om. SBDVbd</hi> In nomine dni explicit sermo sci <lb/>
+            Augustini de patientia <hi>fol. 59* L</hi> Explicit sermo de bono patientiae sci <lb/>
+            Augustini epi do gratias am <hi>pag. 50 S</hi> Explicit de paciencia <hi>lol. 120b P</hi> <lb/>
+            Explicit liber de patientia <hi>V</hi> Aurelii Augustini doctoris de patientia <lb/>
+            liber expi <hi>fol. 66b r</hi> Explicit de bono patientie <hi>fol. 22b 0 Subscriptio<lb/>
+             abest a codd. A, fol. 26sb F, fol. 1518 JJ, fol. 77x N, fol</hi>. 45b <hi>D, fol. <lb/>
+             153b W</hi> </app>
+
+<app> 44* </app> <lb n="10"/>
+            
+<pb n="692"/>
+            
+</p>
+
+</div1>
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,594 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Chronicon Prosperi Aquitanici</title>
+              <author ref="http://viaf.org/viaf/52485706">Prosper Aquitanus<date>390-463</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 27</title>
+           <idno>ProAqu.ChPrAq</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head> <hi>Romanorum. Igitur Valente a Gothis in Thracia concremato, Romanorum XLI, GRATIANUS, cum fratre Valentiniano, regnavit annis</hi> 6.</head>
+<p>
+          <note>( <hi>Annis Domin.</hi> 382)</note> 1 AUSONIO ET OLYBRIO COSS.</p>
+<p>Gratianus post mortem patrui, Theodosium Theodosii filium in consortium assumit
+imperii, et ei regnum tradidit Orientis.</p>
+<p> <hi>Theodosius summa felicitate multis atque ingentibus praeliis Gothos superat, et e Thracia
+pellit.</hi> </p>
+<p> <hi>Longobardi ab extremis Germaniae finibus, Oceanique protinus littore, Scandiaque insula
+magna multitudine ingressi, et novarum sedium avidi, Iborea et Aione ducibus, Vandalos
+primum vicerunt.</hi> </p>
+<p> <hi>Sempronius vir apprime eruditus agnoscitur.</hi> </p>
+<p>Ea tempestate Priscillianus episcopus de Gallaecia ex Manichaeorum et Gnosticorum
+dogmate haeresim nominis sui condidit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 383)</note> 2 GRATIANO V ET THEODOSIO COSS.</p>
+<p>Ambrosius pro catholica fide multa sublimiter scripsit.</p>
+<p> <hi>Theodosius cum Thessalonicae aegrotaret, ab Ascholio ejusdem civitatis episcopo baptisma
+suscepit.</hi> </p>
+<p> <hi>Procurante Gratiano, eo quod Theodosius aegrotaret, pax firmatur cum Gothis.</hi> </p>
+<p> <hi>Synodus patrum 150 apud Constantinopolim celebrata est contra Macedonium, Spiritum
+sanctum Deum esse negantem.</hi> </p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 384)</note> 3 EVAGRIO ET EUCHERIO COSS.</p>
+<p>Martianus episcopus Turonorum Gallicae civitatis, multi clarus <note>( <hi>f.</hi> charus)</note> habetur.</p>
+<p> <hi>Gregorius Nazianzenus, vir sua aetate eloquentissimus, et Hieronymi praeceptor, obiit</hi>.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0705"/>
+<p>
+          <note>( <hi>Annis Domin.</hi> 385)</note> 4 ANTONIO ET SYAGRIO COSS.</p>
+<p>Athanaricus rex Gothorum, apud Constantinopolim 15 quo fuerat susceptus, die occiditur.</p>
+<p>
+          <note>( Annis Domin. 386)</note><hi> </hi><note>(Anni ab Abraham. 2400)</note> 5 MEROBAUDE II ET SATURNINO COSS.</p>
+<p>Arcadius Theodosii imperatoris filius Augustus appellatur.</p>
+<p> <hi>Petronius Bononiensis episcopus, vir studiis et sanctitate clarus moritur.</hi> </p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 387)</note> 6 RICIMERE ET CLEARCO COSS.</p>
+<p>Honorius Theodosii filius nascitur.</p>
+<p>Romanae Ecclesiae post Damasum SYRICIUS XXXVI praefuit an. 18.</p>
+<p>In Britannia per seditionem militum Maximus imperator est factus, quo mox ad Gallias
+transfretante, Gratianus Parisiis Merobaudis magistri militum proditione superatus
+et fugiens, Lugduni captus atque occisus est.</p>
+<p>Maximus Victorem filium suum consortem regni facit.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum XLII, VALENTINIANUS cum Theodosio regnavit anni</hi> 8.</head>
+<p>
+          <note>( <hi>Annis Domin.</hi> 388)</note> 1 ARCADIO ET BAUTONE COSS.</p>
+<p>Hoc tempore Hieronymus presbyter, toto jam mundo clarus habitat in Bethleem, egregio
+ingenio et studio universali Ecclesiae serviens.</p>
+<p>Priscillianus in synodo Burdegalensi se damnandum intelligens, ad imperatorem Maximum
+ provocavit, auditusque Treviris ab Evodio praefecto praetorio, a Maximo gladio
+addictus est cum Eucrocia Delphidii rhetoris conjuge, et Latroniano, aliisque
+erroris consortibus.</p>
+<p>Burdegalae quaedam Priscilliani discipula nomine Urbica, ob impietatis pertinaciam per
+seditionem vulgi lapidibus exstincta est.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 389)</note> 2 HONORIO N.  P. ET EVODIO COSS.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 390)</note> 3 VALENTINIANO III ET EUTROPIO COSS.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 391)</note> 4 THEODOSIO II ET CYNEGIO COSS.</p>
+</div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0707"/>
+<p>Maximus tyrannus a Valentiniano et Theodosio imperatoribus in tertio ab Aquileia
+lapide spoliatus indumentis regiis, sistitur, et capite damnatur: cujus filius Victor
+ eodem anno ab Arbogaste interfectus est in Galliis.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 392)</note> 5 TIMASIO ET PROMOTO COSS.</p>
+<p>Ithacius et Ursacius episcopi ob necem Priscilliani, cujus accusatores fuerant, Ecclesiae
+communione privantur.</p>
+<p> <hi>Longobardi</hi>, <hi>eorum ducibus defunctis, primum sibi regem creaverunt Algelmundum
+Ajonis filium, qui regnavit annis</hi> 33.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 393)</note> 6 VALENTINIANO IV ET NEOTERIO COSS.</p>
+<p> <hi>Signum in coelo, quasi columna pendens ardensque, per dies 30 apparuit.</hi> </p>
+<p> <hi>Theodosius venerabile Joannis Baptistae caput ex vico Coslai Constantinopolim deportans,
+septimo ab urbe lapide in basilica, quam magno sumptu in ejus honorem erexerat,
+recondit.</hi> </p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 394)</note> 7 TITIANO ET SYMMACHO COSS.</p>
+<p> <hi>Eugenius favore Arbogastis confisus, imperium sibimet usurpavit.</hi> </p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 395)</note> 8 ARCADIO II ET RUFINO COSS.</p>
+<p>Valentinianus ad vitae fastidium nimia Arbogastis magistri militum austeritate ductus,
+laqueo apud Viennam periit.</p>
+<p>Arbogastes magister exercitus, mortuo Valentiniano, cujus exitu gravabatur, Eugenium
+in Galliis imperare facit.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum XLIII THEODOSIUS, cum jam per 14 regnaret annos, regnat cum Arcadio et Honorio filiis, annis</hi> 3.</head>
+<p>
+          <note>( Annis Domin. 396)</note><hi> </hi><note>(Anni ab Abraham. 2410)</note> 1 THEODOSIO III ET HABUNDANTIO COSS.</p>
+<p>Honorium pater suus Theodosius in eodem loco, quo fratrem ejus Arcadium Caesarem
+fecerat principem, constituit, 17 ab urbe milliario, cum hora tertia tenebrae factae
+sunt.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 397)</note> 2 ARCADIO III ET HONORIO II COSS.</p>
+<p>Joannes monachus anachoreta clarus habetur, qui ornatus prophetiae gratia Theodosium
+consulentem de eventu belli, quod adversus Eugenium movebat, victorem futurum
+praedixit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 398)</note> 3 OLYBRIO ET CENSORINO COSS.</p>
+<p>Theodosius Eugenium vincit, et perimit.</p>
+<p>Augustinus beati Ambrosii discipulus, multa facundia doctrinaque excellens, Hippone
+ Regio in Africa episcopus ordinatur.</p>
+<p>Hoc tempore Claudianus poeta innotuit.</p>
+<p>Theodosius imperator Mediolani moritur.</p>
+</div1>
+
+<div1>
+        <head> <hi>Romanorum XLIV, ARCADIUS cum jam regnasset annis</hi> 12, <hi>regnat cum fratre Honorio annis</hi> 13.</head>
+<p>
+          <note>( <hi>Annis Domin.</hi> 399)</note> 1 ARCADIO IV ET HONORIO III COSS.</p>
+<p>Terraemotus per dies plurimos fuit, coelumque ardere visum est.</p>
+<p> <hi>Orosius Hispanus presbyter, vir eloquens et historiarum cognitor, claret.</hi> </p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 400)</note> 2 CAESARIO ET ATTICO COSS.</p>
+<p>Flaccilla nata est Arcadio filia.</p>
+<p> <hi>Evagrius incredibilis abstinentiae monachus, et in sacris litteris eruditus, apud Aegyptios
+habetur insignis.</hi> </p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 401)</note> 3 HONORIO IV ET EUTYCHIANO COSS.</p>
+<p>ANASTASIUS XXXVII Romanae Ecclesiae episcopatum tenet annos 3, dies 21.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 402)</note> 4 MANLIO THEODORO VC. COSS.</p>
+<p>Cum hoc consulatum inierat Eutropius Eunuchus, qui mox honore et vita exutus est.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 403)</note> 5 STILICONE ET AURELIANO COSS.</p>
+<p>Gothi Italiam, Alarico et Rhadagaiso ducibus, ingressi.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0709"/>
+<p>
+          <note>( <hi>Annis Domin.</hi> 404)</note> 6 VINCENTIO ET FRAVITTA COSS.</p>
+<p>Joannes Constantinopolitanus, et Theophilus Alexandrinus illustres episcopi habentur:
+sed utrumque obscuravit discordia, quae eo usque processit, ut Joannes a Theophilo
+oppressus Pontum exsilio pergere cogeretur, cum tamen communionem
+ejus, maxima pars eorum episcoporum, Romani pontificis exemplum secuta, servaverit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 405)</note> 7 ARCADIO V ET HONORIO V COSS.</p>
+<p>Pollentiae adversus Gothos vehementer utriusque partis clade pugnatum est.</p>
+<p>INNOCENTIUS XXXVIII Romanae Ecclesiae praeest episcopus annis 15, mensibus 2, diebus
+ 21.</p>
+<p>
+          <note>( Annis Domin. 406)</note><hi> </hi><note>(Anni ab Abraham. 2420)</note> 8 THEODOSIO AUGUSTO ET RUMORIDO [ <hi>Al.</hi> RIMORIDIO, <hi>male</hi> ] COSS.</p>
+<p>Eudoxiae Arcadii uxoris statua super porphyricam columnam posita est.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 407)</note> 9 HONORIO VI ET ARISTETO COSS.</p>
+<p>Eudoxia uxor Arcadii diem clausit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 408)</note> 10 STILICONE II ET ANTHEMIO COSS.</p>
+<p>Rhadagaisus in Thuscia multis Gothorum millibus caesis, ducente exercitum Stilicone,
+superatus et captus est.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 409)</note> 11 ARCADIO VI ET PROBO COSS.</p>
+<p>Vandali et Alani Gallias, trajecto Rheno, pridie kal. Januarias ingressi.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 410)</note> 12 HONORIO VII ET THEODOSIO II COSS.</p>
+<p>Constantinus (ex infima militia ob solam speciem nominis) in Britannia tyrannus exoritur,
+et ad Gallias transit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 411)</note> 13 BASSO ET PHILIPPO COSS.</p>
+<p>Arcadius imperator Constantinopoli moritur.</p>
+</div1>
+
+<div1>
+        <head> <hi>Romanorum XLV HONORIUS cum Theodosio fratris filio regnavit annis</hi> 16.</head>
+<p>
+          <note>( <hi>Annis Domin.</hi> 412)</note> 1 HONORIO VIII ET THEODOSIO III COSS.</p>
+<p>Vandali Hispanias occupaverunt.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0709"/>
+<p>Attalus Romae imperator factus, qui mox privatus regno, Gothis cohaesit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 413)</note> 2 FLAVIO VARRONE VC. COS.</p>
+<p>Roma orbis quondam victrix, a Gothis Alarico duce capta: et ob hoc solus fuit orientalium
+partium consul, quod et [ <hi>Al.</hi> in] sequenti anno observatum est.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 414)</note> 3 THEODOSII AUGUSTI IV CONSULATU.</p>
+<p>Constantinus per Honorii duces Constantium et Ulfulam, apud Arelatense oppidum
+victus et captus est, cujus filium Constantem in Hispania regnare orsum, Gerontius
+comes in Maximum quemdam tyrannidem transferens, interemerat.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 415)</note> 4 HONORIO IX ET THEODOSIO V COSS.</p>
+<p>Maximo in Hispania regno ablato, vita est concessa, eo quod modestia humilitasque
+hominis, affectati imperii invidiam non merebatur.</p>
+<p>Gothi rege Ataulpho Gallias ingressi. Eodem tempore heros vir sanctus, et beati Martini
+discipulus cum Arelatensi oppido episcopus praesideret, a populo ipsius civitatis
+insons, et nullis insimulationibus noxius [ <hi>Al.</hi> obnoxius], pulsus est: inque ejus locum
+Patroclus ordinatur, amicus et familiaris Constantii magistri militum, cujus per ipsum
+gratia quaerebatur: eaque res inter episcopos regionis illius magnarum discordiarum
+causa fuit.</p>
+<p>
+          <note>( Annis Domin. 416)</note><hi> </hi><note>(Anni ab Abraham. 2430)</note> 5 LUCIANO VIRO CLARISSIM. CONSULE.</p>
+<p>Hujus collega in consulatu fuit Heraclianus, qui novarum in Africa rerum reus, et honorem
+amisit et vitam.</p>
+<p>Burgondiones partem Galliae propinquantem Rheno obtinuerunt.</p>
+<p>Jovinus et Sebastianus fratres, in Gallia regno arrepto, interempti.</p>
+<p>Hac tempestate Pelagius Brito dogma nominis sui contra gratiam Christi, Coelestio et
+Juliano adjutoribus, exeruit, multosque in suum trahit errorem, praedicans, unumquemque
+ad justitiam voluntate propria regi, tantumque accipere gratiae, quantum
+meruit: quia Adae peccatum ipsum solum laeserit, nec posteros ejus obstrinxerit. Unde
+et volentibus possibile sit omni carere peccato, omnesque parvulos tam insontes
+nasci, quam primus homo ante praevaricationem fuit: nec ideo baptizandos, ut peccato
+exuantur, sed ut sacramento adoptionis honorentur.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 417)</note> 6 CONSTANTIO V.  C. CONSULE.</p>
+<p>Attalus Gothorum consilio et praesidio tyrannidem resumit in Gallia.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 418)</note> 7 HONORIO X ET THEODOSIO VI COSS.</p>
+<p>Attalus a Gothis ad Hispaniam migrantibus neglectus, et praesidio carens capitur, et
+Constantio Patricio vivus offertur.</p>
+<p>Ataulphus a quodam suorum vulneratus interiit: regnumque ejus, Vuallia, peremptis
+qui idem cupere intelligebantur, invasit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 419)</note> 8 THEODOSIO VII ET PALLADIO COSS.</p>
+<p>Placidiam Theodosii imperatoris filiam, quam Romae Gothi ceperant, quamquam Athaulphus
+conjugem habuerat, Vuallia pacem Honorii expetens reddidit, ejusque nuptias
+Constantius promeretur.</p>
+<p>ZOSIMUS XXXIX Romanae Ecclesiae episcopatum suscipit anno uno, mensibus 9, die
+<pb n="0713"/>
+bus 9. Quo tempore Pelagius jam a pontifice Innocentio praedamnatus, Afrorum
+vigore, et maxime Augustini episcopi scientia resistebatur</p>
+</div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0713"/>
+<p>
+          <note>( <hi>Annis Domin.</hi> 420)</note> 9 HONORIO XI ET CONSTANTIO II COSS.</p>
+<p>Honorius triumphans Romam ingreditur, praeeunte currum ejus Attalo, quem Liparae
+vivere exsulem jussit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 421)</note> 10 HONORIO XII ET THEODOSIO VIII COSS.</p>
+<p>Hoc tempore Constantius servus Christi ex vicario Romae habitans, et pro gratia Dei
+Pelagianis devotissime resistens factione eorumdem multa pertulit, quae illum sanctis
+confessoribus sociaverunt.</p>
+<p>Concilio apud Carthaginem habito 217 episcoporum, ad papam Zosimum synodalia decreta
+perlata, quibus probatis, per totum mundum haeresis Pelagiana damnata est.</p>
+<p>Valentinianus Constantii et Placidiae filius, nascitur VI nonas Julias.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0715"/>
+<p>BONIFACIUS XL Romae episcopatum tenet annis 3, mensibus 8, diebus 6.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 422)</note> 11 MAXIMO ET PLINTA COSS.</p>
+<p>Constantius pacem firmat cum Vuallia, data ei ad habitandum Aquitania secunda, et
+quibusdam civitatibus confinium provinciarum.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 423)</note> 12 THEODOSIO, IX CONSTANTIO III COSS.</p>
+<p>Constantius ab Honorio in consortium [ <hi>Al.</hi> consortem] regni assumitur.</p>
+<p>Hieronymus presbyter moritur anno aetatis suae 91 pridie calendas Octobris.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 424)</note> 13 AGRICOLA ET EUSTATHIO COSS.</p>
+<p>Constantinus imperator moritur.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 425)</note> 14 HONORIO XIII ET THEODOSIO X COSS.</p>
+<p>Hoc tempore exercitus ad Hispanias contra Vandalos missus est, cui Castinus dux fuit,
+qui Bonifacium virum bellicis artibus praeclarum inepto et injurioso imperio, ab expeditionis
+suae societate avertit. Nam ille periculosum sibi atque indignum ratus eum
+sequi, quem discordem superbientemque expertus esset, celeriter se ad portum urbis,
+atque inde ad Africam proripuit, idque reipublicae multorum laborum initium fuit.</p>
+<p>
+          <note>( Annis Domin. 426)</note><hi> </hi><note>(Anni ab Abraham. 2440)</note> 15 MARINIANO ET ASCLEPIODOTO COSS.</p>
+<p>Placida Augusta a fratre Honorio pulsa, ad Orientem cum Honorio et Valentiniano
+filiis proficiscitur.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 427)</note> 16 COELESTINUS XLI Romanae Ecclesiae praesidet episcopus annis 9, mensibus 10,
+diebus 17.</p>
+<p> <hi>Longobardorum II regnavit Lamissus meretricis filius annis</hi> 3.</p>
+<p>Honorius moritur, et regnum ejus Joannes occupat, connivente ut putabatur [ <hi>Al.</hi> putatur]
+Castino, qui exercitui magister militum praefuit.</p>
+</div1>
+
+<div1>
+        <head> <hi>Romanorum XLVI, THEODOSIUS regnavit annis</hi> 30.</head>
+<p>
+          <note>( <hi>Annis Domin.</hi> 428)</note> 1 CASTINO ET VICTORE COSS.</p>
+<p>Theodosius Valentinianum, amitae suae filium, Caesarem facit, et cum Augusta matre sua
+ad recipiendum occidentale mittit imperium: quo tempore Joannes dum Africam,
+quam Bonifacius obtinebat, bello reposcit, ad defensionem sui infirmior factus est.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 429)</note> 2 THEODOSIO XI ET VALENTINIANO COSS.</p>
+<p>Placidia Augusta et Valentinianus Caesar mira felicitate Joannem tyrannum opprimunt, et
+regnum victores recipiunt, data venia Actio, quod Hunni, quos per ipsum Joannes acciverat,
+ejusdem studio ad propria reversi sunt. <hi>Castinus autem in exsilium actus est,
+quia videbatur, Joannem sine conniventia ipsius regnum non potuisse assumere.</hi> </p>
+<p>Valentinianus decreto Theodosii Augustus appellatur.</p>
+<p>Arelas nobile oppidum Galliarum a Gothis multa vi oppugnatum est, donec, imminente
+Aetio, non impuniti abcederent [ <hi>Al.</hi> discederent].</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 430)</note> 3 THEODOSIO XII ET VALENTINIANO II COSS.</p>
+<p>Patroclus Arelatensis episcopus, a tribuno quodam barbaro multis vulneribus laniatus,
+<pb n="0717"/>
+occiditur, quod facinus ad occultam jussionem Felicis magistri militum referebatur,
+cujus impulsu creditus est [ <hi>Al.</hi> traditur] etiam Titus diaconus vir sanctus Romae pecunias
+pauperibus distribuens, interfectus.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0717"/>
+<p>
+          <note>( <hi>Annis Domin.</hi> 431)</note> 4 HIERIO ET ARDABURE COSS.</p>
+<p>Bonifacio, cujus potentia gloriaque in Africa augebatur, bellum ad arbitrium Felicis,
+qui ad Italiam venire abnuerat, publico nomine illatum est, ducibus Mavortio et Galbione
+et Sinoce, cujus proditione Mavortius et Galbio, cum Bonifacium obsiderent,
+interempti sunt: moxque ipse a Bonifacio dolo detectus occisus est. Exinde gentibus,
+quae uti navibus nesciebant, dum a concertantibus in auxilium vocantur, mare
+pervium factum est, bellique contra Bonifacium coepti in Sigisvultum comitem cura
+translata est.</p>
+<p>Gens Vandalorum ab Hispaniis ad Africam transiit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 432)</note> 5 FELICE ET TAURO COSS.</p>
+<p>Nestorius Constantinopolitanus episcopus novum Ecclesiis molitur errorem inducere,
+praedicans Christum ex Maria hominem tantum, et non Deum natum, eique divinitatem
+collatam esse pro merito.</p>
+<p>Huic impietati praecipua Cyrilli Alexandrini episcopi industria, et Papae Coelestini repugnat
+auctoritas.</p>
+<p>Pars Galliarum propinqua Rheno, quam Franci possidendam occupaverunt, Aetii comitis
+armis recepta.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 433)</note> 6 FLORENTIO ET DIONYSIO COSS.</p>
+<p>Felice ad patritiam dignitatem provecto, Aetius magister militum factus est.</p>
+<p>Agricola Pelagianus, Severiani episcopi Pelagiani filius, Ecclesias Britanniae dogmatis
+sui insinuatione corrupit, sed ad actionem Palladii diaconi papa Coelestinus Germanum
+Antisiodorensem episcopum vice sua mittit, ut deturbatis haereticis Britannos ad
+catholicam fidem dirigat.</p>
+<p>
+          <note>( <hi>Annis. Domin.</hi> 434)</note> 7 THEODOSIO XIII ET VALENTINIANO III COSS.</p>
+<p>Aetius Felicem cum uxore sua Padusia, et Grunnitum diaconum eos insidiari cum
+praesensisset, interemit.</p>
+<p>Augustinus episcopus per omnia excellentissimus moritur V kalendas Septembris, libris
+Juliani, inter impetum obsidentium Vandalorum, in ipso dierum suorum fine,
+respondens, et gloriose in defensione Christianae gratiae perseverans.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 435)</note> 8 BASSO ET ANTIOCHO COSS.</p>
+<p>Congregata apud Ephesum plus ducentorum synodo sacerdotum, Nestorius cum haeresi
+nominis sui, et cum multis Pelagianis, qui cognatum sibi dogma juvabant, damnatur.</p>
+<p>Ad Scotos in Christum credentes ordinatur a papa Coelestino Palladius, et primus episcopus
+mittitur.</p>
+<p>
+          <note>( Annis Domin. 436)</note><hi> </hi><note>(Anni ab Abraham. 2450)</note> 9 AETIO ET VALERIO COSS.</p>
+<p>Romanae Ecclesiae XLII praeficitur episcopus SIXTUS annis 8, diebus 19, totius orbis
+pace et consensione mirabili.</p>
+<p>Bonifacius ab Africa ad Italiam per urbem venit, accepta Magistri militum dignitate,
+qui cum sibi resistentem Aetium praelio superasset, paucos post dies morbo exstinctus
+est. Aetius vero cum deposita potestate in agro suo degeret, ibique eum quidam
+inimicus ejus repentino incursu opprimere tentasset, profugus ad urbem, atque illinc
+ad Dalmatiam, deinde Pannoniam ad Hunnos pervenit: quorum amicitia, auxilioque
+usus pacem principum, et jus interpollatae potestatis obtinuit.</p>
+</div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0719"/>
+<p>
+          <pb n="0719"/>
+          <note>( <hi>Annis Domin.</hi> 437)</note> 10 THEODOSIO XIV ET MAXIMO COSS.</p>
+<p> <hi>Maxima urbis regiae pars septentrionalis per tres dies continuos</hi> [Al. <hi>continuo] incensa
+collapsaque est mense Augusto.</hi> </p>
+<p> <hi>Joannes monachus cognomento Cassianus Massiliae, insignis et facundus scriptor habetur.</hi> </p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 438)</note> 11 ASPARE ET ARIOBINDA COSS.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 439)</note> 12 THEODOSIO XV ET VALENTINIANO IV COSS.</p>
+<p>Pax facta cum Vandalis, data eis ad habitandum per Trigetium Africae portione, III idus
+Februarii, Hippone.</p>
+<p>Eodem tempore Gundicarium Burgundionum regem intra Gellias habitantem Aetius
+bello obtrivit, pacemque ei supplicanti dedit, qua non diu potitus est. Siquidem illum
+Hunni cum populo suo atque stirpe deleverunt.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 440)</note> 13 ISIDORO ET SENATORE COSS.</p>
+<p>Gothi pacis placita perturbant, et pleraque municipia sedibus vicina suis occupant, Narbonensi
+oppido maxime infesti: quod cum diu obsidione et fame laboraret, per Littorium
+comitem ab utroque periculo liberatum est. Siquidem per singulos equites binis
+tritici modiis advectis, strenuissime et hostes in fugam vertit, et civitatem annona
+implevit.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 441)</note> 14 AETIO II ET SIGISVULTO COSS.</p>
+<p>Bellum adversus Gothos, Hunnis auxiliantibus, geritur.</p>
+<p>Geisericus rex Vandalorum intra habitationis suae limites volens catholicam fidem Ariana
+impietate subvertere, quosdam nostrorum episcoporum eatenus persecutus est, ut
+eos privatos jure basilicarum suarum, etiam civitatibus pelleret, cum ipsorum constantia
+nullis superbissimi regis terroribus cederet.</p>
+<p>Valentinianus Augustus ad Theodosium principem Constantinopolim proficiscitur, filiamque
+ejus in matrimonium accipit. Eodem anno piraticam Barbarorum foederatorum desertores
+exercuerunt.</p>
+<p>Per idem tempus quatuor Hispani viri, Arcadius, Probus, Paschasius, et Eutychius,
+dudum apud Geisericum merito sapientiae et fidelis obsequii clari habebantur: quos
+rex, ut copulatiores sibi faceret, in Arianam sectam transire praecepit. At illi boc
+facinus constantissime respuentes, excitato in rabidissimam iram Barbaro, primum
+proscripti, deinde in exsilium acti, tum atrocissimis cruciati suppliciis, ad postremum
+diversis mortibus interempti, illustri martyrio mirabiliter occubuerunt.
+<pb n="0721"/>
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+<p>Puer autem Paulillus nomine, frater Paschasii, et Eutychii, pro elegantia formae atque
+ingenii admodum regi acceptus, a professione atque amore catholicae fidei cum nullis
+minis deturbari posset, diu fustibus caesus, et ad infamem servitutem damnatus est:
+nec ideo, ut apparet, interfectus, ne superata saevitia impii regis etiam illa aetas gloriaretur.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 442)</note> 15 THEODOSIO XVI, FAUSTO COSS.</p>
+<p>Hoc quoque anno iidem piratae multas insulas, sed praecipue Siciliam vastavere.</p>
+<p>Adversum Gothos in Gallia quaedam prospere gesta.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 443)</note> 16 THEODOSIO XVII ET FESTO COSS.</p>
+<p>Littorius, qui secunda ab Aetio Patritio potestate, Hunnis ut auxiliantibus praeerat,
+dum Aetii gloriam superare appetit, dumque aruspicum responsis et daemonum significationibus
+fidit, pugnam cum Gothis imprudenter conseruit, fecitque intelligi
+quantum illa, quae cum eodem periit, manus prodesse potuerit, si potioribus consiliis,
+quam sua temeritate uti maluisset; quando tantam ipse hostibus cladem intulit,
+ut nisi inconsideranter praelians in captivitatem incidisset, dubitandum foret, cui potius
+parti victoria ascriberetur.</p>
+<p>Hac tempestate Julianus Eclanensis, jactantissimus Pelagiani erroris assertor, quem
+dudum amissi episcopatus intemperans cupido exagitabat, multimoda arte fallendi
+correctionis spem praeferens, molitus est in communione Ecclesiae irrepere.</p>
+<p>Sed his insidiis Sixtus papa diaconi Leonis hortatu vigilanter occurrens, nullum aditum
+pestiferis conatibus patere permisit, et ita omnes catholicos de rejectione fallacis bestiae
+gaudere fecit, quasi tunc primum superbissimam haeresim apostolicus gladius detruncasset.</p>
+<p>Per idem tempus Vitricus reipublicae nostrae fidelis, multis documentis bellicis clarus
+habetur.</p>
+<p>Pax cum Gothis facta, cum eam post ancipitis pugnae lacrymabile experimentum, humilius
+quam umquam ante poposcissent.</p>
+<p>Aetio rebus, quae in Galliis componebantur, intento, Geisericus, de cujus amicitia nihil
+metuebatur, XIV kal. Novembris Carthaginem dolo pacis invadit, omnesque opes ejus,
+excruciatis diverso tormentorum genere civibus, in jus suum vertit. Nec ab ecclesiarum
+despoliatione [ <hi>Al.</hi> despolitatione] abstinens, quas et sacris vasibus exinanitas, et
+sacerdotum administratione privatas, non jam divini cultus loca, sed suorum jussit
+esse habitacula. In universum captivi populi ordinem saevus, sed praecipue nobilitati
+et religioni infensus, ut non discerneretur, hominibus magis, an Deo bellum intulisset.</p>
+<p>Carthago a Vandalis capta, anno postquam Romana esse coeperat, 585 [ <hi>Alias</hi> 583.]</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 444)</note> 17 VALENTINIANO V AUGUSTO ET ANATHOLIO COSS.</p>
+<p>Defuncto Sixto episcopo, 40 amplius diebus Romana Ecclesia sine antistite fuit, mirabili
+pace atque patientia adventum diaconi Leonis exspectans, quem tunc inter Aetium
+et Albinum amicitiae redintegrandae gratia Galliae detinebant, quasi ideo longius
+esset abductus, ut electi meritum et eligentium judicium probaretur. Igitur LEO diaconus
+legatione publica accitus, et gaudenti patriae praesentatus, 43 Romanae Ecclesiae
+episcopus ordinatur.</p>
+<p>Geisericus Siciliam graviter affligens, accepto nuntio de Sebastiano ab Hispania ad
+Africam transeunte, celeriter Carthaginem rediit, ratus periculosum sibi ac suis fore,
+si vir bellandi peritus recipiendae Carthagini incubuisset. Verum ille amicum se magis
+quam hostem videri volens, diversa omnia apud Barbaros, quam praesumpserat, reperit:
+eaque spes causa illi maximae calamitatis et infelicissimae mortis fuit.</p>
+</div1>
+
+<div1>
+        <head> <hi>Romanorum.</hi> </head>
+
+<pb n="0723"/>
+<p>
+          <note>( <hi>Annis Domin.</hi> 445)</note> 18 CYRO V. C CONSULE.</p>
+<p>Theodosius imperator bellum contra Vandalos movet, Ariobinda et Anaxilla atque
+Germano ducibus cum magna classe directis, qui longis cunctationibus negotium
+differentes, Siciliae magis oneri, quam Africae praesidio fuerunt.</p>
+<p>
+          <note>( Annis Domin. 446)</note><hi> (Anni ab Abraham </hi> 2460) 19 Dioscoro ET EUDOXIO COSS.</p>
+<p>Hunnis Thraciam et Illyricum saeva depopulatione vastantibus, exercitus, qui in Sicilia
+morabatur, ad defensionem Orientalium partium revertitur. Cum Geiserico autem
+ab Augusto Valentiniano pax confirmata, et certis spatiis Africa inter utrumque divisa
+est.</p>
+<p>In Geisericum apud suos de successu rerum superbientem quidam optimates ipsius
+conspiraverunt; sed molitione detecta, multis ab eo suppliciis excruciati atque
+exstincti sunt. Cumque idem audendum etiam aliis videretur, multis regis suspicio
+exitio fuit, ut hac sui cura plus virium perderet, quam si bello superaretur.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 447)</note> 20 MAXIMO II ET PATERNO COSS.</p>
+<p>Hoc tempore plurimos Manichaeos intra urbem latere diligentiae papae Leonis innotuit,
+qui eos de secretis suis erutos, et oculis totius Ecclesiae publicatos, omnes dogmatis
+sui turpitudinem et damnare fecit et prodere, incensis eorum codicibus, quorum
+magnae moles fuerant interceptae. Quae cura viro sancto divinitus, ut apparuit, inspirata,
+non solum Romanae urbi. sed etiam universo orbi plurimum profuit. Siquidem
+confessionibus in urbe captorum, qui doctores eorum, qui episcopi, quive presbyteri,
+in quibus provinciis vel civitatibus degerent, patefactum est. Multique Orientalium
+partium sacerdotes industriam apostolici rectoris imitati sunt.</p>
+<p>
+          <note>( <hi>Annis Domin.</hi> 448)</note> 21 THEODOSIO XVIII ET ALBINO COSS.</p>
+<p>Attila rex Hunnorum Bledam fratrem et consortem suum perimit, ejusque populos
+sibi parere compellit.</p>
+<p>
+          <note>( Annis Domin. 449)</note><hi> </hi><note>(Anni ab Abraham. 2463)</note> 22 VALENTINIANO VI ET NONIO COSS.</p>
+<p>
+          <emph>PROSPERI AQUITANICI CHRONICON FINIT.</emph>
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

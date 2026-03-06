@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>Adversus Hermogenem [CSEL]</title> 
+              <author ref="http://viaf.org/viaf/100226395">Tertullianus<date>150-230</date></author>
+              </titleStmt>
+               
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1906</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 47</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru17wiengoog#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Aemilius Kroymann</name>; <addName xml:lang="de">Emil Kroymann</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>Tertul.AdvHerCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL47.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0275.stoa004.opp-lat2"/>
+
+
+<div1 n="1" subtype="section"><head>§ 1</head>
+
+<p>Solemus haereticis compendii gratia de posteritate praescribere. <lb/>
+            in quantum enim ueritatis regula prior, quae etiam <lb/>
+            haeresis futuras renuntiauit, in tantum posteriores quaeque <lb n="5"/>
+            doctrinae haeresis <sic>praeiudicabuntur</sic>, [qua est] quae futurae <lb/>
+            ueritatis antiquiore regula <choice><note>prapnuntiabantur</note><corr>praenuntiabantur</corr></choice>. Hermogenis autem <lb/>
+            doctrina tam nouella est, *** denique ad hodiernum homo <lb/>
+            in saeculo, et natura quoque haereticus, etiam turbulentus, qui <lb/>
+            loquacitatem facundiam existimet et impudentiam constantiam<lb n="10"/>
+            deputet et maledicere singulis officium bonae conscientiae <lb/>
+            iudicet. praeterea pingit &lt;in)licite, nubit adsidue, legem dei in <lb/>
+            libidinem defendit, in artem contemnit, bis falsarius, et cauterio <lb/>
+            et stilo, totus adulter, et praedicationis et carnis. si <lb/>
+            quid et nominum contagio foetet: nec ipse apostolicus Hermogenes<lb n="15"/>
+            in regula perseuerauit. sed uiderit persona, cum doctrina
+
+<app> 4] cf. I Cor. 11, 19. 12—13] cf. Gen. 1, 28. cf. Exod. 20, 4. <lb/>
+            15] cf. II Tim. 1, 15.. </app>
+
+<app>INCIP ADVERSVS HERMOGENEM <hi>PN,</hi> Q. Septimii Florentia Tertulliani <lb/>
+            incipit lib aduersus Hermogenem <hi>F</hi> 3 qllae-renllntiauit = <lb/>
+            quae—praenuntiabantur: <hi>auctor se ipse correxisse uidetur, sed incuria<lb/>
+             librarii prior uerborum compositio non deleta est (el. p. 141,14 et 148,16)</hi> <lb/>
+            5 haeresis futuras <hi>PNF, futuras</hi> haereses <hi>R uulgo</hi> renuntiauit <hi>PNF,</hi> <lb/>
+            praenuntiauit <hi>R uulgo</hi> 6 qua est (= quae) <hi>seclusi, ut per dittographiam <lb/>
+            ortum:</hi> quia sunt, quae <hi>R uulgo,&lt;anti&gt;quae</hi> sunt (qua est <hi>ex</hi> quae št) <hi>Eng</hi> <lb/>
+            7 praenuntiabantur <hi>JR,</hi> praenuntiabuntur <hi>PNF</hi> 8 est <hi>om. F lacunam <lb/>
+            signaui:</hi> ut de tempore inquirere non oporteat <hi>uel simile aliquid intercidisse <lb/>
+            puto</hi> tam nouella est! <hi>Eng</hi> 9 et natura <hi>PN,</hi> natara <hi>F</hi> <lb/>
+            11 conscientiae <hi>R3,</hi> constantiae <hi>PNFB1</hi> 12 inlicite <hi>Urs:</hi> licite <hi>PNF <lb/>
+            (= licenter? Eng)</hi> 13 libidine <hi>F</hi> in artem <hi>P,</hi> mortem <hi>NF</hi> 14 et <lb/>
+            carnis-nominum <hi>om. F</hi> si quid et nominum <hi>scripsi:</hi> siquidem et <lb/>
+            nubentium <hi>PN</hi> 15 contagio <hi>nominatiuum intellego</hi> </app> <lb/>
+             
+<pb n="127"/>
+            mihi quaestio est. [Christum] deum non alium uidetur agnoscere: <lb/>
+            alium tamen facit quem aliter agnoscit. immo totum, <lb/>
+            quod est deus, aufert, nolens illum ex nihilo uniuersa fecisse. <lb/>
+            a Christianis enim ad philosophos conuersus, de ecclesia in <lb/>
+            academiam et porticum, inde sumpsit [a Stoicis] materiam <lb n="5"/>
+            cum deo ponere, quae et ipsa semper fuerit, neque nata neque <lb/>
+            facta nec initium habens omnino nec finem, ex qua deus omnia <lb/>
+            postea fecerit. 
+</p>
+</div1>
+
+<div1 n="2" subtype="section"><head>§ 2</head>
+
+<p>Hanc primam umbram, plane sine lumine, pessimis <lb/>
+            pictor ille argumentationibus colorauit, praestruens aut deum <lb n="10"/>
+            de semetipso fecisse cuncta aut de nihilo aut de aliquo, ut. <lb/>
+            cum ostenderit neque ex semetipso fecisse potuisse neque ex <lb/>
+            nihilo, quod superest exinde confirmet, ex aliquo eum fecisse <lb/>
+            atque ita aliquid illud materiam fuisse. negat illum ex semetipso <lb/>
+            facere potuisse, quia partes ipsius fuissent quaecumque <lb n="15"/>
+            ex semetipso fecisset deus; porro in partes non deuenire, ut <lb/>
+            indiuisibilem et indemutabilem et eundem semper, qua deum. <lb/>
+            ceterum si de semetipso fecisset, aliquid ipsius fuisse. [aliquid] <lb/>
+            omne autem, et quod fieret et quod faceret, imperfectum <lb/>
+            habendum, quia ex parte fieret et ex parte faceret. aut si <lb n="20"/>
+            totus totum fecisset, oportuisse illum simul et [totum] esse <lb/>
+            et non esse, quia oporteret et [totum] esse, ut faceret semetipsum, <lb/>
+            et [totum] non esse, ut fieret de semetipso. (id) porro <lb/>
+            difficillimum. si enim esset, non fieret, esset enim; si uero <lb/>
+            non esset, non faceret, quia nihil esset. eum autem, qui <lb n="25"/>
+            semper sit, non fieri sed esse illum in aeuum aeuorum.
+
+<app> 1 Christum <hi>seclusi</hi> deum <hi>scripsi:</hi> dominum <hi>PNuulgo, om. F</hi> agnoscere <lb/>
+            <hi>F,</hi> aliter agnoscere <hi>Puulgo,</hi> aliter cognoscere <hi>N</hi> 4 a <hi>om. F</hi> ad <lb/>
+            philosophos conuersus <hi>NF,</hi> conuersus ad philosophos <hi>P uulgo</hi> 5 a <lb/>
+            •Stoicis <hi>seclusi</hi> 6 deo <hi>scripsi:</hi> domino <hi>PNF</hi> 7 ex qua <hi>P,</hi> et quia <lb/>
+            JYF deus <hi>scripsi:</hi> dominus <hi>PNF</hi> 9 pessimis pictor ille <hi>scripsi:</hi> <lb/>
+            pessimas pictor illis <hi>PNF</hi> 10 deum <hi>scripsi:</hi> dominum <hi>PNF</hi> 16 deus <lb/>
+            <hi>scripsi:</hi> dominus <hi>PNF</hi> 17 qua deum <hi>scripsi:</hi> qua dominus <hi>PNF</hi> 18 fecisset <lb/>
+            aliquid, ipsius <hi>uulgo</hi> aliquid <hi>seclusi</hi> 21 totum <hi>seclusi</hi> 22 et <lb/>
+            non esse <hi>scripsi:</hi> et non totum <hi>PNF</hi> totum <hi>seclusi</hi> 23 totum <hi>seelusi<lb/>
+             </hi> id <hi>add. Iura</hi> </app><lb/>
+             
+<pb n="128"/>
+            igitur non de semetipso fecisse illum, qui non eius fuerit <lb/>
+            condicionis, ut de semetipso facere potuisset. proinde ex <lb/>
+            nihilo non potuisse eum facere sic contendit, bonum et optimum <lb/>
+            definiens deum, qui bona atque optima tam uelit facere <lb/>
+            quam sit; immo nihil non bonum atque optimum et uelle<lb n="5"/>
+            eum et facere. igitur omnia ab eo bona et optima oportuisse <lb/>
+            fieri secundum condicionem ipsius. inueniri autem et mala ab <lb/>
+            eo facta, utique <choice><note>nou</note><corr>non</corr></choice> ex arbitrio nec ex uoluntate; quia si ex <lb/>
+            arbitrio et uoluntate, [nihil] incongruens et indignum sibi <lb/>
+            faceret. quod ergo non arbitrio suo fecerit, intellegi oportere<lb n="10"/>
+            ex uitio alicuius rei factum, ex materiae sine dubio. 
+</p>
+</div1>
+
+<div1 n="3" subtype="section"><head>§ 3</head>
+
+<p>Adicit et aliud: deum semper deum (semper) etiam dominum <lb/>
+            fuisse, numquam non dominum. nullo porro modo potuisse <lb/>
+            illum semper dominum haberi, sicut et semper deum, si non <lb/>
+            fuisset aliquid retro semper, cuius semper dominus haberetur. <lb n="15"/>
+            fuisse itaque materiam semper (cum) deo domino. hanc coniecturam <lb/>
+            eius iam hinc destruere properabo, quatenus propter <lb/>
+            non intellegentes adiecisse duxit, ut sciat cetera quoque argumenta <lb/>
+            (tam) intellegi quam reuinci. dei nomen dicimus semper <lb/>
+            fuisse apud ipsum et in ipso, domini uero non semper. diuersa <lb n="20"/>
+            enim utriusque condicio. scilicet deus substantiae ipsius nomen, <lb/>
+            id est diuinitatis, dominus uero non substantiae, sed potestatis. <lb/>
+            substantia semper fuit cum suo nomine, quod est deus; postea <lb/>
+            domini, accedentis scilicet rei, mentio. nam ex quo esse
+
+<app>1 fuerit <hi>Lat:</hi> fieret <hi>PNF Oehlerus</hi> 3 sic <hi>R,</hi> si <hi>PNF</hi> 4 deum <hi>scripsi:</hi> <lb/>
+            donrinum <hi>PNF</hi> 8 ex <hi>om. N</hi> 9 nihil <hi>seclusi (potueris et emendare:</hi> <lb/>
+            quia [si] ex arbitrio .. nihil incongruens <hi>Eng)</hi> 11 materiae <hi>scripsi:</hi> materia <lb/>
+            <hi>esse PNF</hi> 12 semper <hi>addidit Iun</hi> 13 dominum <hi>Iun: deum PNF</hi> <lb/>
+            16 cum <hi>addidi (cl. 127, 5)</hi> 17 quatenus <hi>scripsi:</hi> quantus <hi>F</hi>. quam <lb/>
+            hactenus <hi>PN uulgo</hi> 18 duxit, ut sciat F, duxi, ut sciant <hi>PN uulgo</hi> <lb/>
+            19 tam <hi>R, om. PNF</hi> intellegi quam <hi>ENF,</hi> intellegiq <hi>P</hi> 20 ipsum <lb/>
+            <hi>scripsi:</hi> semetipsuni <hi>PNF</hi> ipso <hi>NF,</hi> semetipso <hi>P uulgo</hi> domini <lb/>
+            <hi>seripsi:</hi> dominum <hi>PNF</hi> diuersa—deus <hi>om. F</hi> 21 scilicet deus <hi>scripsi:</hi> <lb/>
+            sed deus <hi>PNFItdeus R"J uulgo</hi> 22 deum uero non substantia et <lb/>
+            potestati <hi>F</hi> 23 substantia <hi>F,</hi> substantiam <hi>PN uulgo fuit scripsi:</hi> <lb/>
+            fuisse <hi>PNF</hi> 24 domini <hi>scripsi:</hi> dominus <hi>PNuulgo, om. F,</hi> postea <lb/>
+            (potestas&gt; domini <hi>Eng</hi> </app> <lb/>
+             
+<pb n="129"/>
+            coeperunt, in quae potestas domini ageret, ex illo per accessionem <lb/>
+            potestatis et factus et dictus est dominus, quia et pater deus <lb/>
+            est et iudex deus est, non tamen ideo pater et iudex semper, <lb/>
+            quia deus semper. nam nec pater potuit esse ante filium nec <lb/>
+            iudex ante delictum. fuit autem tempus, cum et delictum et <lb n="5"/>
+            filius non fuit, quod iudicem et qui patrem deum faceret. <lb/>
+            sic et dominus (deus) non ante ea, quorum dominus existeret, <lb/>
+            sed deus tantum, futurus quandoque, sicut pater per filium, <lb/>
+            sicut iudex per delictum, ita et dominus per ea, quae sibi <lb/>
+            <sic>seraitura</sic> fecisset. argutari tibi uideor, Hermogenes? nauiter <lb n="10"/>
+            scriptura nobis patrocinatur, quae utrumque nomen ei distinxit <lb/>
+            et suo tempore ostendit. nam 'deus' quidem, quod erat semper, <lb/>
+            statim nominat: in principio fecit deus caelum et <lb/>
+            terram, <sic>acdeinceps</sic>, quamdiu faciebat quorum dominus futurus <lb/>
+            erat, 'deus' solummodo ponit: et dixit deus, et fecit deus, <lb n="15"/>
+            et uidit deus, et nusquam adhuc 'dominus'. at ubi uniuersa <lb/>
+            perfecit ipsumque uel maxime hominem, qui proprie deum et <lb/>
+            intellecturus erat dominum et iam cognominaturus, tunc etiam <lb/>
+            domini nomen adiunxit: et cepit deus dominus hominem, <lb/>
+            quem finxit, et praecepit deus dominus Adae. <lb n="20"/>
+            exinde dominus qui retro deus tantum, ex quo habuit cuius <lb/>
+            esset. nam deus sibi erat, rebus autem [tunc deus cum et] <lb/>
+            dominus. igitur in quantum putabit ideo materiam semper <lb/>
+            fuisse, quia dominus semper esset, in tantum constabit nihil <lb/>
+            fuisse, quia constat dominum non semper fuisse. adiciam et
+
+<app>13J Gen. 1, 1. 15] Gen. 1, 3. 19] Gen. 2, 15. </app>
+
+<app> 3 et pater <hi>N</hi> 5 et <hi>(loco priore) Gel:</hi> ei <hi>PNF Oehlerus</hi> 6 qui patrem <hi>NF,</hi> <lb/>
+            quod patrem <hi>P (corr. R)</hi> deum <hi>scripsi:</hi> dominum <hi>PNF</hi> 7 deus <hi>addidi <lb/>
+            </hi> ante ea R, <hi>antea PNF</hi> 8 deus <hi>scripsi:</hi> dominus <hi>PNF</hi> tantum futurus <lb/>
+            <hi>uulgo</hi> 10 argutari <hi>lun:</hi> argumentari <hi>PNF</hi> gnariter <hi>N</hi> 17 deum et <lb/>
+            <hi>seripgt:</hi> dominus et <hi>PNFR\\</hi> dominum <hi>R3 uulgo,</hi> qui, proprie dominus, <lb/>
+            et <hi>Ettg (cf. Gen. 1, 28)</hi> 18 dominum <hi>PNF,</hi> deum <hi>Eng</hi> et iam <hi>Eng:</hi> <lb/>
+            etiam <hi>PNF</hi> cognominaturus <hi>PNFRI,</hi> cognominatur <hi>R3</hi> 19 domini <lb/>
+            <hi>sc-ripsi:</hi> dominus <hi>NF, om. P (add. R ex Hirsaugiensi)</hi> deus dominus <lb/>
+            <hi>NP,</hi> dominus deus <hi>P uulgo</hi> 20 adae <hi>F,</hi> ac de <hi>PN</hi> 21 exinde <hi>F,</hi> <lb/>
+            inde <hi>PN</hi> 22 sibi &lt;semper) <hi>Eng</hi> tunc deus cum et <hi>seclusi, drfendit<lb/>
+             Eng</hi> 25 et ego <hi>&lt;aliud&gt; fort</hi>. </app>
+
+<app> XXXXVJI. Tert. III. </app>
+
+<app> 9 </app> <lb n="25"/>
+             
+<pb n="130"/>
+            ego propter non intellegentes, quorum Hermogenes extrema <lb/>
+            linea est, et quidem ex penu etiam ipsius retorquebo aduersus <lb/>
+            illum. cum enim neget materiam natam aut factam, sic quoque <lb/>
+            inuenio domini nomen deo non competisse in materiam. <lb/>
+            qua libera fuerit necesse est quae originem non habendo non<lb n="5"/>
+            habuit auctorem, quod erat nemini debens ideoque nemini seruiens. <lb/>
+            itaque ex quo deus potestatem suam exercuit in eam, <lb/>
+            faciendo ex materia, ex illo materia dominum deum passa <lb/>
+            demonstrat hoc illum tamdiu non fuisse, quamdiu t fuit hoc. 
+</p>
+</div1>
+
+<div1 n="4" subtype="section"><head>§ 4</head>
+
+<p>Hinc denique incipiam de materia retractare, quod eam<lb n="10"/>
+            deo comparet, proinde non natam, proinde non factam, proinde <lb/>
+            [aeternam] sine initio, sine fine propositam. quis enim alius <lb/>
+            dei census quam aeternitas? quis alius aeternitatis status <lb/>
+            quam semper fuisse et futurum esse ex praerogatiua nullius <lb/>
+            initii et nullius finis? hoc si dei est proprium, solius dei erit,<lb n="15"/>
+            cuius est proprium, [sed] quia si et alii adscribatur, iam non <lb/>
+            erit dei proprium, sed commune cum eo, cui et adscribitur. <lb/>
+            nam etsi sunt qui dicuntur dii siue in caelo <lb/>
+            siue in terra nomine, ceterum nobis unus deus <lb/>
+            pater, ex quo omnia; quo magis apud nos solius dei
+
+<app> 18] I Cor. 8, 5. </app>
+
+<app> 2 ex penu etiam <hi>Lat:</hi> ex penitentia <hi>PNF</hi>. epinoeraata <hi>Urs,</hi> experimenta <lb/>
+            <hi>Oehlerus,</hi> experientiam <hi>Eng</hi> ipsius <hi>NF,</hi> illius <hi>Puulgo</hi> 5 qua <hi>P</hi> (i <hi>add. <lb/>
+            R) F,</hi> quam <hi>N,</hi> quia R <hi>uulgo</hi> 6 auctorem <hi>Urs:</hi> hanc rem <hi>F,</hi> rem <hi>PN,</hi> regem <lb/>
+            <hi>Eng</hi> . nemini-ideoque <hi>om. PN, quos sequitur Eng</hi> debens <hi>v. d. Ylist:</hi> <lb/>
+            debet <hi>F</hi> 9 quamdiu (non) fecit [hoc] <hi>fort</hi>. quamdiu fuit hoc <hi>P, quam din</hi> <lb/>
+            hoc fuit <hi>N,</hi> quamdiu fuit hoc utique <hi>F (sed del</hi>. utique <hi>librarius ipse)</hi> 11 deo <lb/>
+            comparet <hi>scripsi:</hi> deus comparet <hi>NF,</hi> deus sibi comparet <hi>P uulgo</hi> 12 aeter- <lb/>
+            <hi>nam secluei (cf.132,21)</hi> propositamPam: propositaPNF <hi>16 sed seclusi: <lb/>
+            scilicet Oehkrus si et Urs: et si PNF iam om.P (add.R exHirsaugiensi) <lb/>
+            18 grauius corrupta esse puto quae abhinc sequuntur his de causis:</hi> 1) <hi>hiscxt <lb/>
+            sententia ante uerba:</hi> nam etsi... <hi>2) abundare uidentur uerba:</hi> et. ut dixi,alterius <lb/>
+            esset. <hi>3) non liquet, quo referendum sit illud</hi> quod <hi>131, 2 4) non<lb/>
+             iuste procedit oratio inde a uerbis:</hi> aut quid <hi>sqq</hi>. — <hi>Haud leuibus sane<lb/>
+             medelis adhibitis sic uelim restitui:</hi> cui et adscribitur, quo magis... proprium <lb/>
+            est. [et ut dixi... alterius easet] nam etsisunt....pater, exquoomnia. <lb/>
+            quod si...ut unius sit. quid autem erit unicum et singulare, cui nihil <lb/>
+            adaequabitur, nisi quod principale <hi>etc</hi>. 20 quo 223, qui eo <hi>P-ZVPIR1</hi> </app> <lb n="20"/>
+             
+<pb n="131"/>
+            esse debeat quod dei proprium est; et ut dixi, iam non proprium <lb/>
+            esset, quia alterius esset. quod si deus est, unicum <lb/>
+            sit necesse est, ut unius sit. aut quid erit unicum et <lb/>
+            singulare, nisi cui nihil adaequabitur? quid principale, nisi <lb/>
+            quod super omnia, nisi quod ante omnia et ei quo omnia? <lb n="5"/>
+            haec deus [solus] habendo. est, et solus habendo, unus est. <lb/>
+            si et alius habuerit, tot iam erunt dii, quot habuerint quae <lb/>
+            dei sunt. ita Hermogenes duos deos infert, (dum) materiam parem <lb/>
+            deo infert. <choice><note>fdeum</note><corr>deum</corr></choice> autem unum esse oportet. quia quod summum <lb/>
+            sit deus est; summum autem non erit nisi quod unicum <lb n="10"/>
+            fuerit; unicum autem esse non poterit cui aliquid adaequabitur; <lb/>
+            adaequabitur autem deo materia, cum aeterna censetur.] -
+</p>
+</div1>
+
+<div1 n="5" subtype="section"><head>§ 5</head>
+
+<p>Sed deus deus est, et materia materia est. quasi diuersitas <lb/>
+            nominum comparationi resistat, si status idem uindicetur. <lb/>
+            sit et natura diuersa, sit et forma non eadem, dummodo <lb n="15"/>
+            ipsius status una sit ratio. innatus deus: an non innata et <lb/>
+            materia? semper deus: an non semper et materia? ambo sine <lb/>
+            initio, ambo sine fine, ambo etiam auctores uniuersitatis, tam <lb/>
+            qui fecit quam de qua fecit. neque enim potest non et materia <lb/>
+            auctrix omnium deputari, de qua uniuersitas consistit. quomodo <lb n="20"/>
+            respondebit? non statim materiam comparari deo, si <lb/>
+            quid dei habeat, quia non totum habendo non concurrat in <lb/>
+            plenitudinem comparationis? qui deo reliquit amplius, ut <lb/>
+            non totum dei materiae dedisse uideatur? uel qua, inquit, <lb/>
+            et sic habente materia salua sit deo et auctoritas et
+
+<app>5] cf. Rom. 9, 5. cf. Col. 1, 17. cf. I Cor. 8, 6. </app>
+
+<app> 3 sit om. <hi>F</hi> 6 solus <hi>seclusi</hi> est-habendo <hi>om. P</hi> 7 habuerint <hi>P,</hi> <lb/>
+            habuerunt <hi>NF</hi> 8 dum <hi>add. Iun</hi> 9 infert <hi>PN,</hi> infere <hi>F,</hi> inferene <lb/>
+            <hi>Eng quae abhinc usque in finem capitis leguntur eorum, quae antecedunt,<lb/>
+             nullam habent rationem; addita uidentur, quia interciderat supra coniunetio <lb/>
+            </hi> dum 12 aeterna R, in aeterna <hi>P,</hi> materna <hi>N,</hi> materia <hi>F</hi> 15 dummodo <lb/>
+            22s, dum nomini <hi>PNFR1</hi> 16 ratio sit <hi>F</hi> innata et <hi>scripti:</hi> et innata <lb/>
+            et <hi>NF",</hi> et innata <hi>P</hi> 18 <hi>uerba</hi> ambo etiam-consietit <hi>neque ipsa sine offensione<lb/>
+             sunt, ut quae non pertineant ad statum sed ad actum dei, neque concordant <lb/>
+            eum eis quae paulo infra leguntur l. 25 sqq</hi>. 23 qui (= <hi>quomodo)</hi> deo <lb/>
+            <hi>Eng:</hi> quid eo <hi>PNF,</hi> quid deo <hi>R uulgo</hi> 25 auctoritatia <hi>F</hi> substantiae <hi>NF</hi> </app>
+
+<app> 9* </app> <lb n="25"/>
+             
+<pb n="132"/>
+            substantia, qua solus et primus et auctor et dominus omnium censeatur. <lb/>
+            ueritas autem sic unum deum exigit defendendo, ut solius <lb/>
+            sit quicquid ipsius est. ita enim ipsius erit, si fuerit solius, <lb/>
+            (quia) et ex hoc alius deus non possit admitti, dum nemini <lb/>
+            licet habere de deo aliquid. ergo, inquis, nec nos habemus<lb n="5"/>
+            dei aliquid? immo habemus et habebimus, sed ab ipso, non <lb/>
+            a nobis. nam et dei erimus, si meruerimus illi esse, de quibus <lb/>
+            praedicauit: ego dixi, uos dii estis, et stetit deus in <lb/>
+            <sic>ecclesiadeorum</sic>; sed ex gratia ipsius, non ex nostra proprietate, <lb/>
+            quia ipse est solus, qui deos faciat. materiae autem<lb n="10"/>
+            proprium facit quod cum deo habet. aut si a deo accepit <lb/>
+            quod est dei, ordinem dico aeternitatis, potest et credi et <lb/>
+            habere illam cum deo aliquid et deum illam non esse? quale <lb/>
+            est autem, cum <choice><note>conStetur</note><corr>confitetur</corr></choice> ille (illam) aliquid cum deo habere <lb/>
+            et uult solius dei esse quod materiam non negat habere? s <lb n="15"/>
+            
+</p>
+</div1>
+
+<div1 n="6" subtype="section"><head>§ 6</head>
+
+<p>Dicit saluum deo esse, ut et solus sit et primus et omnium <lb/>
+            auctor et omnium dominus et nemini comparandus: per quae <lb/>
+            haec est, materiae quoque adscribit. ille quidem deus contestabitur <lb/>
+            deos et iurabit nonnumquam per semetipsum, quod alius <lb/>
+            non sit qualis ipse, sed mendacem eum faciet Hermogenes. <lb n="20"/>
+            erit enim et materia qualis deus, infecta, innata, initium non <lb/>
+            habens nec finem. dicet deus : ego primus, sed quomodo primus, <lb/>
+            cuius materia coaetanea est? inter coaetaneos enim et contemporales <lb/>
+            ordo. non est. aut et materia prima est. extendi <lb/>
+            inquit, caelum solus. atquin non solus; cum ea enim
+
+<app> 8] Ps. 81, 6. 18] cf. Exod. 20, S. 19J cf. Ea. 45, 20. 22] Ea. <lb/>
+            41, 9; 44, 6; 48, 12. cf. Apoc. 1, 17. 24] Es. 44, 24. </app>
+
+<app> 1 et auctor <hi>scripsi (cf. infra l. 16):</hi> auctor est <hi>PF,</hi> auctorem <hi>N,</hi> auctor <lb/>
+            &lt;omnium) <hi>Eng</hi> 2 defendendo <hi>PN,</hi> defendo <hi>F intellege:</hi> ueritas autem <lb/>
+            unum deum defendendo sic exigit 4 quia <hi>addidi</hi> 6 aliquid. immo <lb/>
+            <hi>uulgo</hi> ei ab ipso <hi>F</hi> 9 ex gratia <hi>P,</hi> et gratia <hi>NF</hi> 10 deo facit <lb/>
+            F materiae <hi>N,</hi> materia <hi>PF</hi> 13 illa non esse <hi>F</hi> esse? quale <hi>Eng:</hi> <lb/>
+            esse. quale <hi>uulgo</hi> 14 ille &lt;illam) <hi>Eng:</hi> ille <hi>PNF,</hi> illam <hi>van der Vliet</hi> <lb/>
+            17 per quae haec est <hi>scripsi:</hi> per quae nec <hi>est PNFE\\</hi> quae <hi>moi Rzuulgo</hi> <lb/>
+            18 ille <hi>PNF,</hi> ego <hi>Pam</hi> 19 deos <hi>Eng:</hi> deus <hi>PNF (contestari</hi> = detestarit ut <lb/>
+            <hi>uiilelur) iurabit scripsi: iurauit PNF 22 sed scripsi: et PNF</hi> 23 eaini <lb/>
+            <hi>scripsi:</hi> autem <hi>PNF</hi> cuius <hi>NF,</hi> cui <hi>P</hi> 25 enim <hi>PNF,</hi> etiam <hi>Oehlems</hi> </app> <lb n="25"/>
+             
+<pb n="133"/>
+            extendit, de qua et extendit. cum proponit saluo dei statu <lb/>
+            fuisse materiam, uide ne reddatur a nobis proinde saluo statu <lb/>
+            materiae fuisse deum. communis tamen status amborum. saluum <lb/>
+            ergo erit et materiae, ut et ipsa (sola) <choice n="0.66"><note n="2">tuerit</note><corr n="1">luerit</corr></choice>, sed cum <lb/>
+            deo, quia et deus solus, sed cum illa, et ipsa prima cum <lb n="5"/>
+            deo, quia et deus primus cum illa, sed et ipsa incomparabilis <lb/>
+            cum deo, quia et deus <sic>incomporabilis</sic> cum illa, et auctrix <lb/>
+            cum deo et domina cum deo. sic aliquid et non totum materiae <lb/>
+            habere ** ita illi nihil reliquit Hermogenes, quod non <lb/>
+            et materiae contulisset, ut non materia deo, sed deus potius <lb n="10"/>
+            materiae comparetur. atque adeo cum ea, (quae) propria dei <lb/>
+            <choice><note>nindicamus</note><corr>uindicamus</corr></choice>: semper fuisse, sine initio sine fine, et primum <lb/>
+            fuisse, et solum, et omnium auctorem, materiae quoque competant, <lb/>
+            quaero, quid diuersum et alienum a deo ac per hoc <lb/>
+            priuatum materia possederit, per quod deo non compararetur? <lb n="15"/>
+            in qua (si) omnia dei propria recensentur, satis praeiudicant <lb/>
+            de reliqua comparatione. 
+</p>
+</div1>
+
+<div1 n="7" subtype="section"><head>§ 7</head>
+
+<p>Si minorem et inferiorem materiam deo et idcirco diuersam <lb/>
+            ab eo et idcirco incomparabilem illi contendit, ut maiori, <lb/>
+            ut superiori, praescribo non capere ullam diminutionem et <lb n="20"/>
+            humiliationem quod sit aeternum et innatum, quia hoc et <lb/>
+            deum faciat tantum quantus est, nullo minorem neque <sic>subiectiorem</sic>, <lb/>
+            immo omnibus maiorem et sublimiorem. sicut enim <lb/>
+            cetera, quae nascuntur aut fiunt et idcirco aeterna non sunt, <lb/>
+            semel opposita fini, qua et initio, admittunt ea, quae deus non <lb n="25"/>
+            capit, diminutionem dico interim et subiectionem, quia nata
+
+<app> 2 reddatur <hi>Urs:</hi> irrideatur P, rideatur <hi>N,</hi> rudeat et F 3 deum <hi>Urs:</hi> <lb/>
+            deus <hi>PNF</hi> communis <hi>NF,</hi> communi <hi>Puulgo</hi> status <hi>scripsi:</hi> statu <lb/>
+            <hi>PNj</hi> statum <hi>F</hi> 4 sola <hi>addidi</hi> 5 illa. et <hi>uulgo</hi> et ipsa—cum illa <lb/>
+            <hi>om. P (add. R in mg. ex Hirsaugiensi) N</hi> 6 ipsa incomparabilis <hi>NF,</hi> <lb/>
+            illa incomparabilia <hi>Puulgo</hi> 7 quia et auctrix <hi>F</hi> 8 et domina cum deo <lb/>
+            <hi>ORI. N</hi> sic(ut) <hi>Eng</hi> 9 <hi>lacunam signaui:</hi> deum contenderes? <hi>uel simile<lb/>
+             gwid intercidisse puto,</hi> concessit deo <hi>mente supplendum putat Eng</hi> qui <lb/>
+            non et <hi>F</hi> 10 ut <hi>P,</hi> et <hi>NF</hi> 11 quae <hi>add. R3, om. PNFR1</hi> 13 <hi>desideratvr: <lb/>
+            </hi> et omnium dominum competant R3, competat <hi>PNFR1</hi> 16 si <lb/>
+            <hi>addidi</hi> 18 diuersum a deo <hi>F</hi> 22 deum <hi>R,</hi> deus <hi>PNF</hi> 24 fiunt <lb/>
+            <hi>scripsi:</hi> finiunt <hi>PNF</hi> 25 qua <hi>Oehlerus:</hi> quae <hi>PNF,</hi> quia <hi>Iun</hi> </app> <lb/>
+             
+<pb n="134"/>
+            et facta sunt, ita et deus ideo ea non capit, quia nec natus <lb/>
+            omnino nec factus est. et materiae autem status talis est. <lb/>
+            igitur ex duobus aeternis, ut innatis, ut infectis, deo atque <lb/>
+            materia, ob eandem rationem communis status ei aequo <choice><note>habeotibus</note><corr>habentibus</corr></choice> <lb/>
+            id, quod neque diminui nec subici admittit, id est aeternitatem, <lb n="5"/>
+            neutrum dicimus altero esse minorem siue maiorem, <lb/>
+            neutrum altero humiliorem siue superiorem, sed stare ambo <lb/>
+            ex pari magna, ex pari sublimia, ex pari solidae et perfectae <lb/>
+            felicitatis, quae censetur aeternitas. neque enim proximi erimus <lb/>
+            opinionis nationum, quae, si quando coguntur deum confiteri,<lb n="10"/>
+            tamen et alios infra illum uolunt. diuinitas autem gradum <lb/>
+            non habet, utpote unica. quae si et in materia erit, ut proinde <lb/>
+            innata et infecta et aeterna, aderit (tota) utrobique, quia minor <lb/>
+            se nusquam poterit esse. quomodo ergo discernere audebit <lb/>
+            Hermogenes atque ita subicere deo materiam, aeternam aeterno,<lb n="15"/>
+            innatam innato, auctricem auctori, dicere habentem: 'et ego <lb/>
+            prima, et ego ante omnia, et ego a qua omnia; pares fuimus, <lb/>
+            simul fuimus, ambo sine initio, sine fine, ambo sine auctore, <lb/>
+            sine domino. quis me deo subicit contemporali coaetaneo? <lb/>
+            si quia deus dicitur, habeo et ego meum nomen. aut ego <lb n="20"/>
+            sum deus aut ille materia, quia ambo sumus quod alter est <lb/>
+            . nostrum'? 
+</p>
+</div1>
+
+<div1 n="8" subtype="section"><head>§ 8</head>
+
+<p>. Putans itaque materiam deo non comparasse. quam <lb/>
+            scilicet subiciat illi, atquin etiam praeponit illam deo et deum <lb/>
+            potius subicit materiae, cum uult eum de materia cuncta<lb n="25"/>
+            fecisse. si enim ex illa usus est ad opera mundi, iam et <lb/>
+            materia superior inuenitur, quae illi copiam operandi
+
+<app>2 et <hi>om. F</hi> et }tJateriap.-talis est <hi>om. N</hi> 3 et duobus innatis et <lb/>
+            aeternis <hi>N</hi> 4 materia <hi>F,</hi> materiae <hi>PN</hi> .5 nec subici <hi>om. F,</hi> neque <lb/>
+            subici <hi>N</hi> 10 opinionis <hi>scripsi (cf. 1 p. 176, 16):</hi> opinionibus <hi>PNF</hi> <lb/>
+            13 aeterna <hi>R,</hi> aeternae <hi>PNF</hi> aderit P, aderint <hi>F,</hi> aderunt <hi>N</hi> tota <lb/>
+            <hi>add. Eng</hi> 16 habentem <hi>F,</hi> audentem <hi>PMuulgo</hi> 18 ambo sine fiDe. <lb/>
+            <hi>F</hi> 19 sine domino <hi>scripsi:</hi> sine deo <hi>PNF</hi> me <hi>PN,</hi> ille <hi>F</hi> deo <lb/>
+            <hi>Iun: deus.PNF Oehlerus</hi> 23 <hi>uerba:</hi> putans (putas <hi>PNF)</hi> itaque-subiciat <lb/>
+            illi, <hi>quae in libris mss. in fine capitis antecedentis leguntur, hic <lb/>
+            inserui</hi> comparare se <hi>Eng</hi> 25 cuncta om. <hi>F</hi> </app> <lb/>
+             
+<pb n="135"/>
+            subministrauit, et deus subiectus materiae uidetur, cuius substantiae <lb/>
+            eguit. nemo enim non eget eo, de cuius utitur; nemo non <lb/>
+            subicitur ei, de cuius eget ut possit uti; sic et nemo de <lb/>
+            alieno utendo non minor est eo, de cuius utitur, et nemo, <lb/>
+            qui praestat de suo uti, non in hoc superior est eo, cui, <lb n="5"/>
+            praestat uti. itaque materia ipsa quidem deo non eguit, sed <lb/>
+            <choice><note>egaisse</note><corr>eguisse</corr></choice> (se) deo praestitit, diuite et locuplete et liberali minori, <lb/>
+            opinor, et inualido et minus idoneo de nihilo facere quae <lb/>
+            uelit. grande reuera beneficium deo contulit, »»# ut haberet <lb/>
+            hodie per quem deus cognosceretur et omnipotens uocaretur, <lb n="10"/>
+            nisi quod iam non omnipotens, si non et hoc potens, ex nihilo <lb/>
+            omnia proferre. sane et sibi praestitit aliquid materia, ut et <lb/>
+            ipsa cum deo possit agnosci coaequalis deo, immo et adiutrix, <lb/>
+            nisi quod solus eam Hermogenes cognouit et haereticorum <lb/>
+            patriarchae, philosophi. prophetas enim et apostolos usque <lb n="15"/>
+            adhuc latuit, puto et Christum. 
+</p>
+</div1>
+
+<div1 n="9" subtype="section"><head>§ 9</head>
+
+<p>Non potest dicere deum ut dominum materia usum ad <lb/>
+            opera mundi; dominus enim non potuit esse substantiae coaequalis. <lb/>
+            sed precario forsitan usus est, et adeo precario, non <lb/>
+            dominio, ut, cum eam malam nosset, de mala tamen sustinuerit <lb n="20"/>
+            uti, scilicet ex necessitate mediocritatis suae, qua non <lb/>
+            ualebat ex nihilo t uti, non ex potestate, quoniam si habuisset <lb/>
+            omnino ut dominus in materiam, quam malam norat, ante <lb/>
+            eam in bonum conuertisset, ut dominus et bonus, ut ita de <lb/>
+            bono, non de malo uteretur. sed quia bonus quidem, dominus
+
+<app> 3 de ctiius eget <hi>scripsi:</hi> de cuius ut eget F cuius eget <hi>PNuulgo</hi> <lb/>
+            •*&gt; superior <hi>NFGB.s,</hi> non superior <hi>PBl</hi> 7 eguisae &lt;l:Ie) <hi>Lat:</hi> eguissc <lb/>
+            <hi>PNFj</hi> egenti se <hi>Urs</hi> diuite et locuplete et liberali <hi>PN,</hi> diuitem <lb/>
+            et locupletem et liberalem F 9 <hi>lacunam statuit Ew. Bruhn</hi> (cum <lb/>
+            ad hominem procreandum se ei obtulit) 10 hodie <hi>PNF,</hi> hominem <lb/>
+            <hi>Rng (nort probans lacunam supra indicatam)</hi> 15 prophetas-apostolos <lb/>
+            <hi>lun:</hi> prophetis-apostolis <hi>PNF</hi> 18 dominus <hi>NR,</hi> deus <hi>PF</hi> 19 adeo <lb/>
+            <hi>EID. Bruhn:</hi> ideo <hi>PNF</hi> 20 eam malam nosset <hi>scripsi:</hi> eam malam non esset <lb/>
+            <hi>F,</hi> ea mala non esset <hi>PN</hi> 22 facere <hi>uel</hi> operari <hi>rescribendum puto</hi> <lb/>
+            quoniam <hi>scripsi:</hi> quam <hi>PNF</hi> si <hi>R,</hi> sibi <hi>PNF</hi> 23 ut dominus <hi>scripsi:</hi> <lb/>
+            ut dens <hi>PNF</hi> 24 bonum <hi>R,</hi> bono <hi>PNF</hi> ' 25 dominus <hi>R,</hi> deum <hi>PNF</hi> </app> <lb n="25"/>
+             
+<pb n="136"/>
+            autem non, ideo qualem habuit tali usus necessitatem suam <lb/>
+            ostendit cedentem condicioni materiae, quam si dominus fuisset. <lb/>
+            emendasset. sic enim Hermogeni respondendum est, cum ex <lb/>
+            dominio defendit deum materia usum, et de re non sua, scilicet <lb/>
+            non facta ab ipso. iam ergo malum ab ipso, qui est<lb n="5"/>
+            mali, si non auctor, quia non effector, certe permissor, quia <lb/>
+            dominator. si uero materia non est ipsius, qua malum dei <lb/>
+            non erit, de alieno ergo usus aut precario usus est, qua <lb/>
+            egens eius, aut et iniuria, qua praeualens eius. his enim tribus <lb/>
+            modis aliena sumuntur: iure beneficio impetu, id est dominio<lb n="10"/>
+            precario ui. dominio non suppetente eligat Hermogenes, quid <lb/>
+            deo congruat, precario an ui de materia cuncta fecisse. non <lb/>
+            ergo melius censuisset deus nihil omnino faciendum quam <lb/>
+            precario aut ui faciendum, et quidem de malo? nonne etiam <lb/>
+            si materia optima fuisset, aeque indecorum sibi existimasset <lb n="15"/>
+            de alieno, licet bono, t factae satis itaque gloriae suae causa <lb/>
+            molitus est mundum, ut debitorem se alienae substantiae <lb/>
+            ostenderet, et quidem non bonae. 
+</p>
+</div1>
+
+<div1 n="10" subtype="section"><head>§ 10</head>
+
+<p>Ergo, inquit, ex nihilo faceret, ut mala quoque arbitrio <lb/>
+            eius imputarentur? magna, bona fide, caecitas haereticorum <lb n="20"/>
+            pro huiusmodi argumentatione, cum ideo aut alium deum <lb/>
+            bonum et optimum uolunt credi, quia mali auctorem existiment <lb/>
+            creatorem, aut materiam cum creatore proponunt, ut <lb/>
+            malum a materia, non a creatore deducant, quando nullus <lb/>
+            omnino deus liberetur ista quaestione, ut non auctor mali<lb n="25"/>
+            uideri proinde possit quisquis ille est, qui malum, etsi non <lb/>
+            ipse fecit. tamen a quocumque et undeunde passus est fieri.
+
+<app> 1 tali <hi>R</hi>. talia <hi>PNF</hi> 2 cedens <hi>fort. (Etig)</hi> 4 dominio <hi>P,</hi> domino <hi>AT</hi> <lb/>
+            non <hi>om. F</hi> 6 mali de ei si <hi>F</hi> 8 est <hi>scripsi:</hi> et <hi>PNF,</hi> erit <hi>Efag</hi> <lb/>
+            14 <hi>uulgo a uerbix</hi> nonne etiam <hi>incipit cap. X</hi> 15 aeque R3, quae <lb/>
+            <hi>PNFR1</hi> si sibi <hi>F</hi> 16 bona <hi>F</hi> bono factae satis. itaque <hi>PNFR'</hi>. <lb/>
+            bono? fatue satis: ita JR3, bono? fatue satis itaque Iun <hi>Rig Oehltrus</hi>. <lb/>
+            bono facere? satis itaque gloriae suae &lt;procurauit, ai ea) causa <hi>fort</hi>. <lb/>
+            18 et quidem P, quidem F, quidem est <hi>N</hi> 20 caecitatis <hi>F</hi> 23 aut <lb/>
+            <hi>R,</hi> et <hi>PNF</hi> 24 malum R3, alium <hi>PNFB1</hi> 27 undeunde <hi>P,</hi> unde <hi>2FF</hi> </app> <lb/>
+             
+<pb n="137"/>
+            audiat igitur et Hermogenes, dum alibi de mali ratione distinguemus, <lb/>
+            interim quoque se nihil egisse hac sua iniectione. <lb/>
+            ecce enim, etsi non auctor, sed adsentator mali inuenitur <lb/>
+            deus, qui malum materiae tanto sustinuit aeone ante mundi <lb/>
+            constitutionem, quam ut bonus et mali aemulus emendasse <lb n="5"/>
+            debuerat. aut enim potuit emendare, sed noluit, aut <lb/>
+            noluit quidem. uerum non potuit. infirmus deus, *«* si <lb/>
+            potuit et noluit, malus et ipse, quia malo fauit, et sic iam <lb/>
+            habetur (auctor) eius, quod licet non instituerit, quia tamen, si <lb/>
+            noluisset illud esse, non esset, ipse iam fecit esse, quod non <lb n="10"/>
+            noluit esse. quod quidem turpius: si id uoluit esse, quod <lb/>
+            ipse noluit fecisse, aduersum semetipsum egit, cum et uoluit <lb/>
+            esse quod noluit fecisse et noluit fecisse quod uoluit esse. <lb/>
+            quasi bonum uoluit esse et quasi malum noluit fecisse. quod <lb/>
+            non faciendo malum iudicauit, id sustinendo bonum pronuntiauit. <lb n="15"/>
+            malum pro bono sustinendo et non potius eradicando <lb/>
+            adsertor eius inuentus est, male, si per uoluntatem, turpiter, <lb/>
+            si per necessitatem. aut famulus erit mali deus aut amicus, <lb/>
+            cum materiae malo conuersatus, nedum etiam de malo eius <lb/>
+            operatus. <lb n="20"/>
+            
+</p>
+</div1>
+
+<div1 n="11" subtype="section"><head>§ 11</head>
+
+<p>Et tamen unde nobis persuadet Hermogenes malam <lb/>
+            esse materiam? non enim poterit non malum dicere cui malum <lb/>
+            adscribit. nam definiuimus diminutionem et subiectionem capere <lb/>
+            non posse quod sit aeternum, ut alii coaeterno inferius deputetur. <lb/>
+            ita et nunc nec malum dicimus competere illi, quia <lb n="25"/>
+            nec ex hoc subici possit, quod nullo modo potest subici, quia <lb/>
+            aeternum est. sed cum alias summum bonum constet esse
+
+<app> 1 distinguemuB <hi>scripsi:</hi> distinguimus <hi>PNF</hi> 2 quoque se <hi>scripsi:</hi> se <lb/>
+            quoque <hi>PNF</hi> 4 aeone <hi>scripsi:</hi> de bono <hi>PNF</hi> 5 mali <hi>P,</hi> malus <hi>NF</hi> <lb/>
+            7 lacvnam <hi>signaui:</hi> ei uoluit nec potuit <hi>inttrcidisse puto</hi> 9 (auctor) eius <lb/>
+            <hi>Urs: eim PNF, reus Oehlems</hi> statuerit F 10 non noluit «crtp«i: nolnit <lb/>
+            non <hi>PNF</hi> 11 quod quidem turpius: <hi>scripsi:</hi> quo quidem tnrpius <hi>F,</hi> quo <lb/>
+            quid est turpius? <hi>PNvulgo</hi> 12 adueraum <hi>P,</hi> aduersus <hi>NF</hi> 21 unde <lb/>
+            <hi>B3,</hi> non de <hi>PNFR1</hi> 23 definiuimua <hi>Eng:</hi> definimus <hi>PNF</hi> deminationem <lb/>
+            <hi>F</hi> 24 quod sit <hi>R3,</hi> quod si ita erit <hi>PNFR1</hi> 26 ex hoc sabici <lb/>
+            <hi>NF,</hi> sabici ex hoc <hi>Puulgo</hi> 27 sed <hi>om. F,</hi> sedenim <hi>fort</hi>. </app> <lb/>
+             
+<pb n="138"/>
+            quod sit aeternum, - ut deus, per quod solus est deus, [dum] <lb/>
+            aeternus est, ita et bonus, dum deus, — quomodo materiae <lb/>
+            inerit malum, quam ut aeternam summum bonum credi necesse <lb/>
+            est? aut si quod aeternum est poterit et mali capax esse. <lb/>
+            poterit hoc et in deo credi, et sine causa gestiuit malum a<lb n="5"/>
+            deo transferre, si competit et aeterno, competendo materiae. <lb/>
+            iam uero si quod aeternum est malum potest credi, inuincibile <lb/>
+            et insuperabile erit malum, ut aeternum. et tamen — <lb/>
+            nos frustra laboramus de auferendo malo ex nobis ipsis? tum <lb/>
+            et deus frustra hoc mandat et praecipit; immo et iudicium<lb n="10"/>
+            frustra constituit deus, iniustitia utique puniturus quibus <lb/>
+            contra malum **« finis, cum <choice><note>prseses</note><corr>praeses</corr></choice> eius, diabolus, abierit <lb/>
+            in ignem, quem praeparauit illi deus et angelis eius, prius <lb/>
+            in puteum abyssi relegatus, cum reuelatio filiorum dei redemerit <lb/>
+            conditionem a malo, utique uanitati subiectam, cum<lb n="15"/>
+            restituta innocentia et integritate conditionis pecora <sic>condiierint</sic> <lb/>
+            bestiis et paruuli de serpentibus luserint, cum pater filio <lb/>
+            posuerit inimicos sub pedes, utique operarios mali. itaque si <lb/>
+            finis malo competit, necesse est competierit (et) initium. erit <lb/>
+            ** materia habens initium, habendo et finem mali. quae enim. <lb n="20"/>
+            malo deputantur, secundum mali <choice n="0.82"><note n="229">statum</note><corr n="49">statura</corr></choice> computantur (materiae.)
+</p>
+</div1>
+
+<div1 n="12" subtype="section"><head>§ 12</head>
+
+<p>Age nunc malam ac pessimam credamus esse materiam, <lb/>
+            utique natura, sicut deum bonum et optimum credimus,
+
+<app>13] cf. Matth. 25, 41. 14] cf. Apoc. 20, 3. cf. Rom. 8, 19. 17] cf. <lb/>
+            Es. 11, 6. 8. 18] cf. Ps. 109, 1. </app>
+
+<app> 1 <hi>parenthesin indicaui, deleri haec uult Eng</hi> dum <hi>seclusi</hi> 2 ita et <hi>scripsi: <lb/>
+            </hi> et ita <hi>PNF</hi> 5 deo <hi>scripsi:</hi> deum <hi>PNF</hi> 7 si <hi>P</hi> (s. <hi>«. a m. 1), om. NF</hi> <lb/>
+            8 tamen <hi>PNFRtum R3 uulgo</hi> 9 ipaia. tum <hi>uulgo</hi> tum <hi>Urs:</hi> cum <hi>PNF</hi> <lb/>
+            10 frustra hoc <hi>NF,</hi> hoc fruetra <hi>P uulgo</hi> 11 quibus contra malum <hi>PNFRt,</hi> <lb/>
+            quodsi contra &lt;erit&gt; mali <hi>Oehlerus,</hi> quodsi tunc mali <hi>Urs</hi> 12 <hi>lacunam<lb/>
+             signaui:</hi> praecipit obniti. attamen ab ipsa scriptura tunc praefinitus est <lb/>
+            mali <hi>uel similia supplenda censeo</hi> 15 uanitati subiectam <hi>1P,</hi> uanitatis <lb/>
+            obiectam <hi>PNFR1</hi> 17 et <hi>R3,</hi> nec <hi>PNF</hi> 19 et <hi>addidi</hi> 20 <hi>lactmam</hi> <lb/>
+            signaui: igitur et <hi>desideratur,</hi> &lt;et&gt; erit <hi>Oehlerus</hi> 21 computantur <lb/>
+            <hi>PN,</hi> deputantur <hi>F,</hi> competunt <hi>Oehletus</hi> materiae <hi>addidi</hi> </app> <lb/>
+             
+<pb n="139"/>
+            proinde natura. porro naturam certam et fixam haberi oportebit, <lb/>
+            tam in malo perseuerantem apud materiam quam et in bono <lb/>
+            apud deum, <sic>inconuertibilem</sic> et indemutabilem scilicet, quia, <lb/>
+            si demutabitur natura in materia de malo in bonum, demutari <lb/>
+            poterit et in deo de bono in malum. hoc loco dicet aliquis: <lb n="5"/>
+            ergo de lapidibus filii Abrahae non suscitabuntur, et genimina <lb/>
+            uiperarum non facient paenitentiae fructum, et filii irae non <lb/>
+            fient filii pacis, si natura mutabilis non erit? temere ad ista <lb/>
+            exempla respicies, o homo. non enim competunt ad causam <lb/>
+            materiae, quae innata est, ea quae nata sunt, lapides et uiperae <lb n="10"/>
+            et homines; horum enim natura habendo institutionem <lb/>
+            habere poterit et cessationem. materiam uero tene semel <lb/>
+            aeternam determinatam, ut infectam, ut innatam, et ideo <lb/>
+            indemutabilis et incorrectibilis naturae credendam, ex ipsius <lb/>
+            etiam sententia Hermogenis, quam opponit, cum deum negat <lb n="15"/>
+            ex semetipso facere potuisse, quia non demutetur quod sit <lb/>
+            aeternum. amissurum scilicet quod fuerat, dum fiat ex <sic>demuratione</sic> <lb/>
+            quod non erat, sic non esse aeternum. deum ergo <lb/>
+            aeternum aliud esse non posse quam quod est semper. hanc <lb/>
+            et ego definitionem merito in illum repercutiam. materiam <lb n="20"/>
+            aeque reprehendo, cum ex illa mala, pessima etiam, bona <lb/>
+            atque optima a deo fiunt: et uidit deus quia bona, et <lb/>
+            benedixit ea deus, utique qua optima, non certe qua mala <lb/>
+            ac pessima. demutationem igitur admisit materia, et si ita <lb/>
+            est, statum aeternitatis amisit; mortua est denique sua forma.
+
+<app> 6] cf. Matth. 3, 9; Luc. 3, 8. cf. Matth. 3, 7-8; Luc. 3, 7. <lb/>
+            7] cf. Eph. 2, 3. 22] Gen. 1, 21-22. </app>
+
+<app> 1 oportet <hi>Oehlertts (nescio uflde)</hi> 3 deum iuconnertibilem et indemutabilem. <lb/>
+            scilicet <hi>uulgo</hi> quia si <hi>Rig:</hi> quasi <hi>PNF</hi> 5 in malum 22a, <lb/>
+            non in malum <hi>PNFR1</hi> dicet <hi>R,</hi> dicit <hi>P (corr. R) NF</hi> 7 facient <hi>P,</hi> <lb/>
+            faciet <hi>NF</hi> 10 ea <hi>om. F</hi> 14 in correctibilis <hi>F,</hi> incorruptibilis <hi>PN<lb/>
+             uulgo</hi> 17 aeternum, amissurum <hi>vulgo</hi> fiat <hi>scripsi:</hi> fit <hi>PNF</hi> 18 sic <lb/>
+            non esse aeternum <hi>scripsi:</hi> si non esset aeternum <hi>PNF</hi> deum <hi>scripsi:</hi> <lb/>
+            dominum <hi>PNF</hi> ergo <hi>NF,</hi> uero <hi>P uulgo</hi> 19 hanc-definitionem <lb/>
+            <hi>scripti:</hi> hac definitione <hi>PNF</hi> 20 in illum <hi>scripai:</hi> ullum <hi>F,</hi> illum <lb/>
+            <hi>PN</hi> materiam aeque <hi>PN,</hi> materiae quo <hi>F</hi> 22 a deo ii3, ab eo <hi>NF, <lb/>
+            mil. PBt</hi> 23 qua—qua <hi>N,</hi> quasi-quasi <hi>P, quia-quia F</hi> certe non <hi>lort</hi>. </app> <lb n="25"/>
+             
+<pb n="140"/>
+            sed aeternitas amitti non potest, quia nisi amitti non possit, <lb/>
+            aeternitas non est. ergo nec demutationem potuit admisisse, <lb/>
+            quia si aeternitas est, demutari nullo modo potest; 
+</p>
+</div1>
+
+<div1 n="13" subtype="section"><head>§ 13</head>
+
+<p>et quaeretur, <lb/>
+            quando ex ea bona facta sint, quae ex demutatione nullo <lb/>
+            modo facta sunt, unde in mala ac pessima boni atque optimi<lb n="5"/>
+            semen. certe nec bona arbor fructus malos edit, quia nec <lb/>
+            deus nisi bonus, nec mala arbor bonos, quia nec materia <lb/>
+            est (nisi) pessima. aut si dabimus illi aliquid etiam boni germinis, <lb/>
+            iam non erit uniformis naturae, id est malae in totum <lb/>
+            et tantum, sed duplex, id est malae et bonae naturae, et<lb n="10"/>
+            quaeretur iterum, an in (eadem) bono et malo potuerit conuenire, <lb/>
+            luci et tenebris, dulci et amaro.. aut si potuit utriusque <lb/>
+            diuersitas, boni et mali, concurrisse et duplex natura fuisse <lb/>
+            materiae, <choice><note>ambomm</note><corr>amborum</corr></choice> ferax fructuum, iam nec bona ipsa deo <lb/>
+            deputabuntur, ut nec mala illi imputentur, sed utraque species<lb n="15"/>
+            de materiae proprietate sumpta ad materiam pertinebit. quo <lb/>
+            pacto neque gratiam bonorum deo debebimus nec inuidiam <lb/>
+            malorum, quia nihil de suo operatus ingenio. per quod probabitur <lb/>
+            manifeste materiae deseruisse. 
+</p>
+</div1>
+
+<div1 n="14" subtype="section"><head>§ 14</head>
+
+<p>Nam et si dicatur, licet ex occasione materiae, suo<lb n="20"/>
+            tamen arbitrio bona protulisse, quasi nactus bonum materiae, <lb/>
+            quamquam et hoc turpe sit, certe cum ex eadem etiam mala <lb/>
+            profert, uel haec utique non de suo arbitrio proferendo seruit <lb/>
+            materiae, aliud non habens facere quam ex malo proferre. <lb/>
+            inuitus utique. qua bonus, (et) ex necessitate, ut inuitus, et ex <lb n="25"/>
+            seruitute, ut ex necessitate. quid ergo dignius, ex necessitate <lb/>
+            eum condidisse mala an ex uoluntate? siquidem ex
+
+<app>12] cf. Es. 5, 20. </app>
+
+<app> <hi>3 male hoc loco distinguuntur capita</hi> quaeretur <hi>P,</hi> quaeritur <hi>NF</hi> <lb/>
+            4 quando <hi>scripsi:</hi> quomodo <hi>PNF</hi> 8 nisi <hi>add. R, om. PNF</hi> 10 et <lb/>
+            tantum (= tantummodo), sed <hi>scripsi (cf. 142, 12. 13.):</hi> sed et tantum <lb/>
+            <hi>PNFR',</hi> Bed iam tum 2?3 <hi>uulgo</hi> malae et bonae <hi>NF,</hi> bonae et <lb/>
+            malae <hi>Puulgo</hi> 11 in &lt;eadem&gt; <hi>scripsi:</hi> in &lt;ea&gt; <hi>Iun:</hi> in <hi>PNF</hi> potuerit <lb/>
+            P, potuerint <hi>NF</hi> 18 nihil &lt;erit&gt; <hi>fort</hi>. 24 ex malo P, et malo <lb/>
+            <hi>NF</hi> 25 et <hi>addidi</hi> </app> <lb/>
+             
+<pb n="141"/>
+            necessitate condidit, si ex materia, ex uoluntate, si ex nihilo. iam <lb/>
+            enim sine causa laboras, ne malorum auctor constituatur deus, <lb/>
+            quia et si de materia fecit, ipsi deputabuntur qui fecit, quatenus <lb/>
+            proinde fecit, acsi de nihilo fecisset, nec interest unde <lb/>
+            fecerit. plane sic interest, unde fecerit, ut inde fecerit, unde <lb n="5"/>
+            eum magis decuit. magis autem eum decuit ex uoluntate <lb/>
+            fecisse quam ex necessitate, id est ex nihilo potius quam ex <lb/>
+            materia. dignius est deum etiam malorum auctorem liberum <lb/>
+            credere quam seruum. quaecumque potestas ei quam pusillitas <lb/>
+            competit. sic et, si condicemus materiam quidem nihil boni <lb n="10"/>
+            habuisse, deum uero, si quid boni edidit, sua uirtute edidisse, <lb/>
+            aliae aeque aborientur quaestiones. primo, si bonum in materia <lb/>
+            omnino non fuit, non ex materia bonum factum, quod materia <lb/>
+            scilicet non habuit. dehinc, si non ex materia, iam ergo ex <lb/>
+            deo factum. si nec ex deo, iam ergo ex nihilo factum. hoc <lb n="15"/>
+            enim superest secundum Hermogenis dispositionem. 
+</p>
+</div1>
+
+<div1 n="15" subtype="section"><head>§ 15</head>
+
+<p>porro <lb/>
+            si bonum neque ex materia factum est, quia non erat in illa, <lb/>
+            ut in mala, neque ex deo, quia nihil potuit ex deo fieri, sicut <lb/>
+            definit Hermogenes, inuenitur bonum iam ex nihilo factum, <lb/>
+            ut ex nullo factum, ut neque ex materia neque ex deo. et si <lb n="20"/>
+            bonum ex nihilo, cur non et malum? immo cur non omnia
+
+<app> 2 deos <hi>PN,</hi> illis <hi>F</hi> 3 quatenus proinde <hi>scripsi:</hi> proinde quatenus P, <lb/>
+            proinde qaantus <hi>NF uerborum ordinem inuerti:</hi> plane sic interest <lb/>
+            unde fecerit ac si de nihilo fecisset, nec interest unde fecerit <hi>PNF</hi> <lb/>
+            6 eum <hi>(all.) om. F</hi> 7 ex <hi>(prius) om. N</hi> 8 deum <hi>PN,</hi> dominus <hi>F</hi> 10 sic <lb/>
+            et, si condicemus <hi>scripsi:</hi> si et sic concedimus P, sic et sic concedimus <lb/>
+            <hi>NF</hi> 11 deum <hi>scripsi:</hi> dominum <hi>PNF</hi> 12 aliae aeque P, aliaeque <lb/>
+            <hi>NF</hi> aborientur (= <hi>non iam erunt) F,</hi> oborientur P, oboriuntur <lb/>
+            N <hi>quae abhinc leguntur inde a uerbis</hi> primo, si bonum <hi>usque ad</hi> <lb/>
+            neque ex deo <hi>(l. 18) non bene se habent, quippe in quibus bis idem dictum <lb/>
+            xit. duplici forma concepisse haec uidetur Tert.:</hi> a) primo si—dispositionem <lb/>
+            (16), b) [porro] si bonum-neque ex deo. <hi>uocabulum</hi> porro, <hi>quod <lb/>
+            in F deest, interpolatum mihi uidetur, postquam confluxerunt duae<lb/>
+             recensiones</hi> 15 hoc PN, hine <hi>F</hi> 16 porro <hi>om. F male hoc loco<lb/>
+             diztinguuntur capita</hi> 17 in <hi>om. N</hi> </app> <lb/>
+             
+<pb n="142"/>
+            ei nihilo, si aliquid ex nihilo? nisi si insufficiens fuit diuina <lb/>
+            uirtus omnibus producendis, quae aliquid protulerit ex nihilo. <lb/>
+            aut si ex materia mala bonum processit, quia neque ex nihilo <lb/>
+            neque ex deo, sequetur, ut ex conuersione processerit materiae <lb/>
+            contra denegatam aeterni conuersionem. ita undeunde bonum<lb n="5"/>
+            constitit, iam negabit Hermogenes inde illud constare potuisse. <lb/>
+            necesse est autem ex aliquo eorum processerit, ex quibus <lb/>
+            negauit procedere potuisse. ceterum si ideo malum non ex <lb/>
+            nihilo, ne dei fiat, de cuius arbitrio uidebitur factum, sed ex <lb/>
+            materia, ut ipsius sit, de cuius substantia erit factum, et hic. <lb n="10"/>
+            ut dixi, auctor mali habebitur deus, qui, cum eadem uirtute <lb/>
+            et uoluntate debuisset omnia bona ex materia protulisse aut <lb/>
+            tantum bona, non omnia tamen bona protulit sed etiam mala, <lb/>
+            utique aut <choice n="0.06"><note n="9">nolens</note><corr n="138">uolens</corr></choice> esse mala, si poterat efficere, ne essent. <lb/>
+            aut non ualens efficere omnia bona, si uoluit et non fecit, ** n <lb n="15"/>
+            dum nihil intersit per infirmitatem dominus auctor mali extiterit <lb/>
+            an per uoluntatem. aut quae fuit ratio, ut cum bona <lb/>
+            fecisset quasi bonus, etiam mala protulisset quasi non bonus? <lb/>
+            cur non congruentia sibi solummodo edidit? quid necesse <lb/>
+            erat suo opere prolato etiam materiae negotium curare proinde<lb n="20"/>
+            et malum proferendo? solus ut cognosceretur bonus de <lb/>
+            bono, materia autem ne cognosceretur mala de malo? plus <lb/>
+            bonum floruisset sine mali afflatu. nam et Hermogenes expugnat <lb/>
+            quorundam argumentationes, dicentium mala necessaria fuisse <lb/>
+            ad inluminationem bonorum ei contrariis intellegendorum. <lb n="25"/>
+            ergo aut nec propterea locus mali proferendi fuit, aut si <lb/>
+            qua alia ratio exegit illud induci, cur non et ex nihilo potuerit
+
+<app> 2 protulerat <hi>fort</hi>. 4 sequitur <hi>F</hi> 5, denegatam 223, denegant iam <lb/>
+            <hi>PNFR1</hi> undeunde <hi>Oehlerus:</hi> unde <hi>PNF</hi> 6 inde <hi>om. Oehlerus</hi> <lb/>
+            12 bona <hi>om. P</hi> 13 protulit sed <hi>Oehlerus:</hi> protulisset <hi>PNF</hi> 14 ne <lb/>
+            essent <hi>Ii3F,</hi> necesse est <hi>PNR1</hi> 15 <hi>lacunam signaui:</hi> turpiter utrumque <lb/>
+            <hi>uel simile aliquid desideratur</hi> 18 quasi <hi>PN,</hi> qua <hi>F</hi> 19 cur <lb/>
+            <hi>Bcripsi:</hi> cum <hi>PNF</hi> non congruentia <hi>PN</hi> non gruentia <hi>F</hi> 21 de <lb/>
+            bona <hi>F</hi> 22 ne <hi>PN,</hi> nec eo <hi>F</hi> malo? plus <hi>Eng:</hi> malo. plus <lb/>
+            <hi>uulgo</hi> </app> <lb/>
+             
+<pb n="143"/>
+            induci, ipsa ratione excusatura dominum, ne mali auctor <lb/>
+            <choice><note>eiistimaretur</note><corr>existimaretur</corr></choice>, quae nunc, cum de materia operatur mala, <lb/>
+            excusat, si excusat? adeo ubique et undique illuc compellitur <lb/>
+            quaestio, quo nolunt qui ipsam mali rationem non <sic>examinando</sic> <lb/>
+            nec dinoscendo, quomodo illud aut deo tribuant aut <lb n="5"/>
+            a deo separent, pluribus et indignioribus destructionibus deum <lb/>
+            obiciunt. 
+</p>
+</div1>
+
+<div1 n="16" subtype="section"><head>§ 16</head>
+
+<p>Igitur in praestructione huius articuli, et alibi forsitan <lb/>
+            retractandi, equidem definio aut deo adscribendum et bonum <lb/>
+            et malum, quae ex materia fecit, aut materiae ipsi, ex qua <lb n="10"/>
+            fecit, aut utrumque utrique, quia ambo sibi obligantur, qui <lb/>
+            fecit et de qua fecit, aut alterum alteri; tertius enim praeter <lb/>
+            materiam et deum non est. porro si dei erit utrumque, uidebitur <lb/>
+            deus etiam mali auctor; deus autem, ut bonus, auctor <lb/>
+            mali non erit: si materiae utrumque, uidebitur materia etiam <lb n="15"/>
+            boni matrix; mala autem in totum materia boni non erit <lb/>
+            matrix: si utriusque erit utrumque, in hoc quoque comparabitur <lb/>
+            deo materia et pares erunt ambo, ex aequo mali ac boni <lb/>
+            adfines; aequari autem deo materia non debet, ne duos deos <lb/>
+            efficiat: si alterum alterius, utique dei bonum et materiae <lb n="20"/>
+            malum, neque malum deo neque materiae bonum <sic>adscribetur</sic>; <lb/>
+            et bona autem et mala deus de materia faciendo cum ea facit. <lb/>
+            haec si ita sunt, nescio, qua possit euadere sententia Hermogenes,  <lb/>
+            qui deum, quoquo modo de materia malum condidit, <lb/>
+            siue uoluntate, siue necessitate, siue ratione, non putet mali <lb n="25"/>
+            auctorem. porro si mali auctor est ipse qui fecit, plane socia <lb/>
+            materia per substantiae suggestum, exclusa iam causa materiae
+
+<app> 1 ipsa = <hi>eadem</hi> 2 cum de materia operatur i23, de materia operatur <lb/>
+            com <hi>JPNFB1</hi> mala, excusat, ai ezcasat <hi>scripsi:</hi> mala excusat. si ezcusat <lb/>
+            <hi>PNF</hi> 5 <hi>tribuant NF,</hi> adtribuant <hi>Puulgo</hi> 6 a <hi>om. P (add. R</hi> in <hi>mg.),<lb/>
+             del. N deum R3,</hi> deo <hi>PNFE1</hi> 8 praestrictione <hi>F</hi> 9 equidem K3, <lb/>
+            quidem <hi>PRl,</hi> qui quidem N, quid <hi>F</hi> 11 quiajR3, qui <hi>PNFR1</hi> 13 deum <lb/>
+            <hi>R3,</hi> deus <hi>PNFR1</hi> dei <hi>UrB:</hi> deue <hi>PNF</hi> 17 erit utriusque <hi>F</hi> 20 dei <lb/>
+            <hi>Urs:</hi> deo <hi>PNF</hi> bonum <hi>PN,</hi> unum <hi>F</hi> 24 deum <hi>R3,</hi> deus <hi>PNFR1</hi> <lb/>
+            26 socia <hi>PN,</hi> soli <hi>F</hi> 27 exclusa iam causa <hi>scripsi:</hi> ezcusas iam causam <lb/>
+            <hi>PNFR1 Oehlerus,</hi> ezcussas <hi>lun,</hi> excludis <hi>Rareliqui</hi> </app> <lb/>
+             
+<pb n="144"/>
+            <sic>introducendae</sic>. nihilominus enim et per materiam deus auctor <lb/>
+            mali ostenditur, si ideo materia praesumpta est, ne deus mali <lb/>
+            auctor uideretur. exclusa itaque materia, dum excluditur causa <lb/>
+            eius. superest, uti deum omnia ex nihilo fecisse constet. <lb/>
+            uidebimus an et mala, cum apparuerit quae mala, et an mala<lb n="5"/>
+            interim ea, quae putas. dignius enim de suo arbitrio produxit, <lb/>
+            haec quoque producendo de nihilo, quam de praeiudicio alieno, <lb/>
+            si de materia produxisset. libertas, non necessitas, deo competit. <lb/>
+            malo, uoluerit mala a semetipso condidisse quam non potuerit <lb/>
+            non condidisse. <lb n="10"/>
+            
+</p>
+</div1>
+
+<div1 n="17" subtype="section"><head>§ 17</head>
+
+<p>Unici dei status hanc regulam uindicat, non aliter <lb/>
+            unici, nisi quia solius. non aliter solius, nisi quia nihil cum <lb/>
+            illo. sic et primus erit, quia omnia post illum: sic omnia <lb/>
+            post illum, quia omnia ab illo: sic ab illo, quia ex nihilo, <lb/>
+            ut illi quoque scripturae ratio constet: quis <choice><note>cognouitu</note><corr>cognouit</corr></choice> <lb n="15"/>
+            sensum domini? aut quis illi consiliarius fuit? <lb/>
+            aut quem consultatus est? aut uiam intellegentiae <lb/>
+            et scientiae quis demonstrauit illi? quis tradidit <lb/>
+            et retribuetur ei? nemo utique; quia nulla uis, nulla <lb/>
+            materia, nulla natura substantiae alterius aderat illi. porro <lb n="20"/>
+            si de aliqua operatus est, necesse est, ab ea ipsa acceperit <lb/>
+            et consilium et tractatum dispositionis, ut uiam intellegentiae <lb/>
+            et scientiae. pro qualitate enim rei operari habuit et secundum <lb/>
+            ingenium materiae, non secundum suum arbitrium, adeo <lb/>
+            ut et mala pro natura non sua sed substantiae fecerit. <lb n="25"/>
+            
+</p>
+</div1>
+
+<div1 n="18" subtype="section"><head>§ 18</head>
+
+<p>Si necessaria est deo materia ad opera mundi, ut Hermogenes <lb/>
+            existimauit, habuit deus materiam longe digniorem et
+
+<app>15] Eom. 11, 84. 35.; Es. 40, 13. 14. </app>
+
+<app> 4 deum RI, deus <hi>PNFM1</hi> 6 ea Ra, et <hi>PNFR1</hi> 17 consiliatos <hi>F</hi> <lb/>
+            18 demonstrauit <hi>R,</hi> demonstrabit <hi>PNF</hi> 19 qua <hi>F</hi> 20 aderat P, <lb/>
+            aderit <hi>NF</hi> 21 aliqua <hi>Iun:</hi> aliquo <hi>PNF Oehlerus</hi> ut ab ea <hi>F</hi> <lb/>
+            22 dispoeitionem tractatus <hi>fort. (cf. de resurr. carnis cap</hi>. 6: qui materiam <lb/>
+            et eligendo dignam iudicasset et tractando fecisset) 26 ai necessaria <lb/>
+            est deo materia ad opera mundi ut hermogenep existimauit <hi>FR <lb/>
+            (ex Hirsaugtenai),</hi> si necessariam esse deo materiam ad opera mundi <lb/>
+            hermogenes existimauit <hi>PN</hi> </app> <lb/>
+             
+<pb n="145"/>
+            <sic>idoniorem</sic>, non apud philosophos aestimandam, sed apud prophetas <lb/>
+            intellegendam, sophiam suam scilicet. haec denique <lb/>
+            sola cognouit sensum domini. quis enim scit quae sunt <lb/>
+            dei et quae in ipso, nisi spiritus, qui in ipso ? sophia <lb/>
+            autem spiritus. haec illi consiliarius fuit, uia intellegentiae <lb n="5"/>
+            et scientiae ipsa est; ex hac fecit, faciendo per illam et faciendo <lb/>
+            cum illa. cum pararet caelum, inquit, aderam illi, et <lb/>
+            cum fortia faciebat super uentos quae sursum <lb/>
+            nubila et quomodo firmos ponebat fontes eius <lb/>
+            quae sub caelo est, ego eram compingens cum <lb n="10"/>
+            ipso. ego eram, ad quem gaudebat; cotidie autem <lb/>
+            oblectabar in persona eius, quando oblectabatur, <lb/>
+            cum perfecisset orbem, et inoblectabatur in filiis <lb/>
+            hominum. quis non hanc potius omnium fontem et originem <lb/>
+            commendet, materiam uere materiarum, non situ subditam, <lb n="15"/>
+            non statu diuersam, non motu inquietam, non habitu informem, <lb/>
+            sed insitam et propriam et compositam et decoram, quali <lb/>
+            deus potuit eguisse, sui magis quam alieni egens? denique <lb/>
+            ut necessariam sensit ad opera mundi, statim eam condit et <lb/>
+            <choice><note>generatin</note><corr>generat</corr></choice> semetipso: dominus, inquit, condidit me initium <lb n="20"/>
+            uiarum suarum in opera sua: ante saecula fundauit <lb/>
+            me, priusquam faceret terram, priusquam montes collocarentur; <lb/>
+            ante omnes autem colles generauit me, prior <lb/>
+            autem abysso genita sum. agnoscat ergo Hermogenes idcirco <lb/>
+            etiam sophiam dei natam et conditam praedicari, ne <lb n="25"/>
+            quid innatum et inconditum praeter solum deum crederemus. <lb/>
+            si enim (quod) intra dominum, quod ex ipso et in ipso fuit,
+
+<app> 3] cf. I Cor. 2, 11. 5J cf. Es. 40, 14. 7] Prou. 8, 27. 28. 30. 31. <lb/>
+            201 Prou. 8, 22. 23. 25. 23J ib. 24. </app>
+
+<app> 1 aestimanda <hi>F</hi> 2 intellegenda <hi>F</hi> 4 et <hi>om. F</hi> 7 inquit caelum <hi>N</hi> <lb/>
+            9 quomodo (= wç) <hi>PNF,</hi> cam <hi>R uulgo</hi> fontes <hi>R3,</hi> montes <hi>PNFR1</hi> <lb/>
+            10 com eo <hi>N</hi> 15 commendetur <hi>F</hi> uere <hi>Iun:</hi> uero <hi>PNF,</hi> (in) uero <hi>lori</hi>. <lb/>
+            situ <hi>IIfflpsi (cf. cap. 38 init.):</hi> sit <hi>F,</hi> sibi <hi>P (in mg</hi>. alias: non sic) <hi>N,</hi> <lb/>
+            fini <hi>Oehlerus</hi> 18 deus <hi>R3,</hi> deo <hi>PNFR1</hi> alieni egens <hi>R3,</hi> alienigenis <lb/>
+            <hi>NF,</hi> alieni <hi>P (in mg. R:</hi> alienigenis) 21 suarum <hi>om. F</hi> 24 genita <lb/>
+            sum. agnoscat <hi>R3,</hi> genita. cum agnoscat <hi>PNFR1</hi> 27 quod <hi>addidi</hi> </app>
+
+<app> XXXXYII. Tert. III. </app>
+
+<app> 10 </app> <lb/>
+             
+<pb n="146"/>
+            sine initio non fuit, sophia scilicet eius, exinde nata et condita, <lb/>
+            ex quo in sensu dei ad opera mundi disponenda coepit <lb/>
+            agitari, multo magis non capit sine initio quicquam fuisse, <lb/>
+            quod extra dominum fuerit. si uero sophia eadem dei sermo <lb/>
+            est, t sensu sophia et sine quo factum est nihil, sicut et<lb n="5"/>
+            dispositum sine sophia, quale est, ut filio dei, sermone unigenito <lb/>
+            et primogenito, aliquid fuerit praeter patrem antiquius <lb/>
+            et hoc modo utique generosius, nedum, quod innatum, fortius <lb/>
+            et, quod infectum, [factum] ualidius? quia quod, ut esset. <lb/>
+            nullius eguit auctoris, multo sublimius erit eo, quod, ut esset. <lb n="10"/>
+            aliquem habuit auctorem. proinde, si malum quidem (quod) <lb/>
+            innatum est, id est *** sermo dei, — eructauit enim, inquit, <lb/>
+            (cor meum) sermonem optimum, — non scio. an a bono <lb/>
+            malum possit abduci, ualidius ab infirmo, ut innatum a nato. <lb/>
+            ita et hoc nomine materiam deo praeponit Hermogenes, <sic>praeponendo</sic><lb n="15"/>
+            eam filio, — filius enim sermo, et deus sermo, et: <lb/>
+            ego et pater unum sumus — nisi quod sustinebit aequo <lb/>
+            animo filius eam praeponi sibi, quae patri adaequatur. 
+</p>
+</div1>
+
+<div1 n="19" subtype="section"><head>§ 19</head>
+
+<p>Sed et ad originale instrumentum Moysei prouocabo, <lb/>
+            unde et diuersa pars (prae)sumptiones suas ingratis fulcire <lb n="20"/>
+            conatur, ns scilicet non inde instrui uideatur, unde oportet. <lb/>
+            itaque occasiones sibi sumpsit quorundam uerborum, ut haereticis <lb/>
+            fere mos est simplicia quaeque torquere. nam et ipsum <lb/>
+            principium, in quo deus fecit caelum et terram, aliquid uolunt
+
+<app> 12] Ps. 44, 2. 16J cf. Ioh. 1,1. Ioh. 10. 30. </app>
+
+<app> 1 eius <hi>NF,</hi> ipsius <hi>Puulgo</hi> 5 sensus sopbiac <hi>Iun:</hi> sensu sophiae, et <lb/>
+            <hi>Oehlerua, sed nescio, an lateat in his uerbis interpretamentuin:</hi> leaus (= iÎis. <lb/>
+            iens) <hi>siue sensus (= Xoyo;  Jng)</hi> sophia est <hi>estowi. Ar 6 sine sophia deleri <lb/>
+            uult Eng</hi> 8 quod innatum fortius <hi>PNFR1,</hi> quod innatum (innato) fortius <lb/>
+            <hi>R3,</hi> quod innatum &lt;nato) fortius <hi>Gel reliqui</hi> 9 factum <hi>seclusi,</hi> facto <lb/>
+            <hi>Gel</hi> 11 quod <hi>addidi</hi> 12 <hi>lacunam signaui:</hi> materia, bonum autcm, <lb/>
+            quod natum est, id est <hi>intercidisse puto,</hi> innatum est, natus autem sermo <lb/>
+            dei <hi>R3uulgo,</hi> innatum est, &lt;bonum autem quod natum est,) id est <hi>Eng</hi> <lb/>
+            13 cor meum <hi>addidi</hi> 14 abduci (= utnct) <hi>scripri (qfRom. 12, 2n:</hi> <lb/>
+            adduci <hi>PNF</hi> 19 Moysei <hi>scripsi:</hi> mons ei <hi>F,</hi> Moysi <hi>P N</hi> 20 praesumptiones <lb/>
+            <hi>scripsi:</hi> sumptionea <hi>N,</hi> suspiciones <hi>PFuulgo</hi> 21 uideatur <hi>scripsi:</hi> <lb/>
+            uideretur <hi>PNF</hi> 24 caelum <hi>NF,</hi> et caelum <hi>P</hi> aliqui <hi>susp. Eng</hi> </app> <lb/>
+             
+<pb n="147"/>
+            fuisse quasi substantiuum et corpulentum, quod in materiam <lb/>
+            interpretari possit. nos autem unicuique uocabulo proprietatem <lb/>
+            cum uindicamus, « <choice><note>piincipium</note><corr>principium</corr></choice> initium esse et competisse ita <lb/>
+            poni rebus incipientibus fieri. nihil enim, quod fieri habet, <lb/>
+            sine initio esse, quod initium sit illi ipsum, dum incipit fieri. <lb n="5"/>
+            ita principium siue initium inceptionis esse uerbum, non alicuius <lb/>
+            substantiae nomen. iam nunc, si principalia dei opera <lb/>
+            caelum et terra sunt, quae ante omnia deus .. fecit suorum <lb/>
+            esse proprie principium, qua priora sunt facta, merito <lb/>
+            sic praefatur scriptura: in principio fecit deus caelum <lb n="10"/>
+            et terram, quemadmodum dixisset: 'in fine deus fecit caelum <lb/>
+            et terram', si post uniuersa fecisset. aut si principium aliqua <lb/>
+            substantia est, erit et finis aliqua materia. plane licebit etiam <lb/>
+            substantiuum aliquid principium esse alii rei, quae ex ipso <lb/>
+            sit futura, ut argilla principium testae, ut semen principium <lb n="15"/>
+            herbae. sed cum ita utimur uocabulo principii, quasi originis, <lb/>
+            non quasi ordinis nomine, adicimus et mentionem ipsius rei <lb/>
+            specialiter, quam uolumus principium alterius rei. de cetero <lb/>
+            si sic ponamus <choice><note>nerbi</note><corr>uerbi</corr></choice> gratia: (in principio fecit figulus peluim <lb/>
+            uel urnam', iam non materiam significabit principium, — non <lb n="20"/>
+            enim argillam nominaui principium, — sed ordinem operis, <lb/>
+            quia figulus ante cetera primum peluim et urnam fecit, exinde <lb/>
+            facturus et cetera. [ad ordinationem operum principii uocabulum <lb/>
+            pertinebit, non ad originem substantiarum.] possum et
+
+<app> 9] Gen. 1, 1. </app>
+
+<app> 1 in <hi>om. F</hi> 2 posait, nos <hi>Eng (reprobans quam infra indicaui lacunam)</hi> <lb/>
+            3 cam <hi>PNFR1,</hi> suam <hi>RPuulgo lacunam signaui:</hi> dicimus <hi>deaidero</hi> <lb/>
+            5 &lt;sic) sine initio esse, quin <hi>Eng</hi> quod <hi>scripsi</hi> quin <hi>PN uulgo,</hi> qui <hi>F</hi> <lb/>
+            6 <hi>lacunam signaui:</hi> faciendo operum <hi>uelim suppleri</hi> 9 qua <hi>Iun:</hi> quae <lb/>
+            <hi>PNF Oehlerus</hi> merito sic praefatur scriptura <hi>Hs,</hi> meritoque aic perfectam <lb/>
+            scripturam <hi>PNFBmeritoque</hi> sic praefatam scripturam <hi>Iun</hi> <lb/>
+            11 fine <hi>scripsi:</hi> finem <hi>PNF</hi> 12 aliqua <hi>R,</hi> aqua <hi>PNF</hi> 15 sit <hi>F, <lb/>
+            om. P (add. R</hi> in <hi>mg. ex Eirsaugiensi) N</hi> 16 cum ita <hi>PN,</hi> ubi <hi>F</hi> <lb/>
+            19 peluem <hi>F</hi> 20 significabit JR3, signiflcauit <hi>PNFR1</hi> 22 peluim N. <lb/>
+            pelnem <hi>P, om. F</hi> 23 ad ordinationem-substantiarum <hi>breuius eadem<lb/>
+             exprimunt quae antecedentia</hi> iam non-et cetera; <hi>primam manum auctoris<lb/>
+             esse suspicor</hi> 24 possum <hi>Iun;</hi> possunt <hi>PNF</hi> </app>
+
+<app> 10* </app> <lb/>
+             
+<pb n="148"/>
+            aliter principium interpretari, non ab re tamen; nam et in <lb/>
+            Graeco principii uocabulum, quod est <sic>ap/ig</sic>, non tantum <lb/>
+            ordinatiuum sed et potestatiuum capit principatum, unde et <lb/>
+            archontes dicunt principes et magistratus. ergo secundum <lb/>
+            hanc quoque significationem principium pro principatu et<lb n="5"/>
+            potestate sumetur. in principatu enim et in potestate deus <lb/>
+            fecit caelum et terram. 
+</p>
+</div1>
+
+<div1 n="20" subtype="section"><head>§ 20</head>
+
+<p>Sed ut nihil aliud significet Graeca uox quam principium <lb/>
+            et principium nihil aliud capiat quam initium, habemus <lb/>
+            etiam illam initium agnoscere quae dicit: dominus condidit <lb n="10"/>
+            me (initium uiarum suarum) in opera sua. si enim per <lb/>
+            sophiam dei omnia facta sunt, et caelum ergo et terram deus <lb/>
+            faciens in principio, id est initio, in sophia sua fecit. denique si <lb/>
+            principium materiam significaret, non ita scriptura instruxisset: <lb/>
+            in principio deus fecit, sed ex principio; non enim in materia,<lb n="15"/>
+            sed ex materia fecisset. de sophia autem potuit dici: in principio. <lb/>
+            in sophia enim primo fecit, in qua cogitando et disponendo <lb/>
+            iam fecerat, quoniam, et si ex materia facturus fuisset, ante in <lb/>
+            sophia [cogitando et disponendo iam fecerat. quoniam et si] erat <lb/>
+            'initium uiarum,' quia cogitatio et dispositio prima sophiae <lb n="20"/>
+            sit operatio, de cogitatu uiam operibus instituentis. hanc et <lb/>
+            inde auctoritatem scripturae mihi uindico, quod et deum. qui <lb/>
+            fecit, et ea, quae fecit, ostendens, unde fecerit non proinde <lb/>
+            testatur. nam cum in omni operatione tria sint principalia. <lb/>
+            qui facit et quod fit et ex quo fit, tria nomina sunt edenda <lb n="25"/>
+            in legitima operis enarratione, persona factoris, species facti, <lb/>
+            forma materiae. si materia non edetur, ubi et opera et operae <lb/>
+            operator eduntur, apparet ex nihilo eum operatum. proinde
+
+<app> 10J Prou. 8, 22. 20] cf. ib. </app>
+
+<app> 1 ab re <hi>PN,</hi> ab ro F 2 IXPXiĮ <hi>R</hi> archie <hi>PNF</hi> 4 archontes <hi>PNF,</hi> <lb/>
+            «PXOVTES <hi>R,</hi> apyov:a&lt;; <hi>Rig</hi> 8 Graeca <hi>om. F</hi> 11 initium uiarum snarura <lb/>
+            <hi>add. Pam</hi> per sophiam <hi>PN,</hi> sophia <hi>F</hi> 19 cogitando-et si <hi>seclusi, <lb/>
+            ut incuria librarii falso repetita</hi> 20 initium <hi>om. F</hi> quia <hi>om. F 80-</hi> <lb/>
+            phia <hi>F</hi> 21 sit <hi>NF,</hi> fit <hi>P uulgo</hi> instituentis <hi>scripsi:</hi> instituens <hi>P J.YP</hi> <lb/>
+            dZ deum <hi>scripsi:</hi> deus <hi>PNF</hi> 24 testatur <hi>PN,</hi> testa est <hi>F</hi> </app> <lb/>
+             
+<pb n="149"/>
+            enim ederetur ex quo, si ex aliquo fuisset operatus. denique <lb/>
+            euangelium ut supplementum instrumenti ueteris adhibebo, <lb/>
+            in quo uel eo magis debuerat ostendi deus ex aliqua materia <lb/>
+            uniuersa fecisse, quo illic etiam, per quem omnia fecerit, reuelatur. <lb/>
+            in principio erat sermo, – in quo principio scilicet deus <lb n="5"/>
+            fecit caelum et terram – et sermo erat apud deum, et deus <lb/>
+            erat sermo. omnia per illum facta sunt, et sine illo <lb/>
+            factum est nihil. cum igitur et hic manifestetur et factor, <lb/>
+            id est deus, et facta, id est omnia, et per quem, id est sermo, <lb/>
+            nonne et unde omnia facta essent a deo per sermonem exegisset <lb n="10"/>
+            ordo profiteri, si ex aliquo facta essent? ita quod non fuit, <lb/>
+            non potuit scriptura profiteri, et non profitendo satis probauit <lb/>
+            non fuisse, quia profiteretur, si fuisset. 
+</p>
+</div1>
+
+<div1 n="21" subtype="section"><head>§ 21</head>
+
+<p>Ergo, inquis, si tu ideo praeiudicas ex nihilo facta <lb/>
+            omnia, quia non sit manifeste relatum de materia praecedenti <lb n="15"/>
+            factum quid, uide ne diuersa pars ideo contendat ex materia <lb/>
+            omnia facta, quia proinde non aperte significatum sit ex nihilo <lb/>
+            quid factum. plane retorqueri quaedam facile possunt, non <lb/>
+            statim et ex aequo admitti, ubi diuersitas causae est. dico <lb/>
+            enim, etsi non aperte scriptura pronuntiauit ex nihilo facta <lb n="20"/>
+            omnia, sicut nec ex materia, non tantam fuisse necessitatem <lb/>
+            aperte significandi de nihilo facta omnia, quanta esset, si ex <lb/>
+            materia facta fuissent, quoniam, quod fit ex nihilo, eo ipso, <lb/>
+            dum non ostenditur ex aliquo factum, manifestatur ex nihilo <lb/>
+            factum, et <choice><note>nou</note><corr>non</corr></choice> periclitatur, ne ex aliquo factum existimetur, <lb n="25"/>
+            quando non demonstretur, ex quo sit factum. quod autem ex <lb/>
+            aliquo fit. nisi hoc ipsum aperte declaratur ex aliquo factum <lb/>
+            illud, dum ex quo factum sit ostenditur, periclitabitur <lb/>
+            primo uideri ex nihilo factum, quia non editur, ex quo sit
+
+<app> 5—6] Iob. 1, 1. 7] Ioh. 1, 3. </app>
+
+<app> 4 qua <hi>F</hi> 19 ex aequo <hi>R,</hi> ex quo P <hi>(corr. R) NF</hi> 23 eo ipso <hi>PN,</hi> <lb/>
+            ipsum <hi>F</hi> 24 manifestatur <hi>PN,</hi> manifestatum eat <hi>F</hi> 26 sit-factum <lb/>
+            <hi>om. NF</hi> 28 (non) ostenditur <hi>Rig</hi> </app> <lb/>
+             
+<pb n="150"/>
+            factum, dehinc etsi ea sit condicione, ut non possit (non factum) <lb/>
+            uideri ex aliquo, proinde periclitabitur ex alio longe factum <lb/>
+            uideri quam ex quo factum est, dum non proponitur, unde <lb/>
+            sit factum. ita si ex nihilo deus cuncta fecit, potuit scriptura <lb/>
+            non adiecisse illum ex nihilo fecisse. ex materia eum fecisse<lb n="5"/>
+            omni modo debuit edixisse, (si sci)licet ex materia fecisset; <lb/>
+            quia illud in totum habebat intellegi, et si non significaretur, <lb/>
+            at istud in dubio, nisi significaretur. 
+</p>
+</div1>
+
+<div1 n="22" subtype="section"><head>§ 22</head>
+
+<p>Atque adeo spiritus sanctus hanc scripturae suae rationem <lb/>
+            constituit, ut, cum quid ex aliquo fit, et quod fit et<lb n="10"/>
+            unde fit referat. fruticet, inquit, terra herbam foeni, <lb/>
+            seminantem semen secundum genus et secundum <lb/>
+            similitudinem, et lignum fructuosum faciens fructum, <lb/>
+            cuius semen in ipso in similitudinem. et factum <lb/>
+            est sic. et produxit terra herbam foeni seminantem <lb n="15"/>
+            semen secundum genus, et lignum fructuosum faciens <lb/>
+            fructum, cuius semen in ipso in similitudinem. et rursus: <lb/>
+            <sic>etdixit</sic> deus: producant aquae repentia animarum <lb/>
+            uiuarum et uolatilia uolantia super terram per firmamentum <lb/>
+            caeli. et factum est sic. et fecit deus cetos<lb n="20"/>
+            magnos et omnem animam animalium repentium, quae <lb/>
+            produxerunt aquae secundum genus ipsorum. item post: <lb/>
+            et dixit deus: producat terra animam uiuam secundum <lb/>
+            genus, quadrupedia et repentia et bestias terrae secundum <lb/>
+            genus ipsorum. si ergo ex iam factis rebus alias res
+
+<app> 11] Gen. 1, 11. 12. 18] Gen. 1, 20. 21. 23] Gen. 1, 24. </app>
+
+<app> 1 ut non possit &lt;non factum) uideri <hi>scripsi:</hi> nt non possit &lt;non) <lb/>
+            uideri <hi>Rig,</hi> ut omnino possit uideri <hi>Oehlerus</hi> 4 fecit, potuit <hi>scripsi</hi>. <lb/>
+            fecisse potuit <hi>F,</hi> fecisse non potuit <hi>PN (probat</hi> non <hi>Eng, qui post</hi> fecisse <lb/>
+            <hi>(l. 5) signum interrogationis ponit)</hi> 5 adiecisse <hi>F,</hi> adiecisset <hi>PN</hi> 6 &lt;si <lb/>
+            sci)licet <hi>Eng:</hi> licet <hi>PNF,</hi> si et <hi>Urs</hi> 7 in totum <hi>Urs:</hi> in toto <hi>PNF</hi> <lb/>
+            8 at-significaretur <hi>om. F</hi> 10 aliquo <hi>R,</hi> aliquo quo <hi>PN,</hi> alio quo <hi>F</hi> <lb/>
+            11 fruticet <hi>Pam:</hi> fructificet <hi>PNFOehlerus</hi> 14 <hi>verba factum</hi> est sic-in <lb/>
+            similitudinem <hi>his in P comparent, sed ita, ut secundo loco pro</hi> in similitudinem <lb/>
+            <hi>scriptum sit:</hi> secundum genua 20 deus <hi>F,</hi> deos <hi>Puulgo, om. N</hi> <lb/>
+            23 uiuam <hi>NF,</hi> uiuentem <hi>Puulgo</hi> </app> <lb n="25"/>
+             
+<pb n="151"/>
+            deus proferens ostendit per prophetam et dicit, quid unde <lb/>
+            protulerit, — quamquam possimus (unde)unde illas prolatas <lb/>
+            aestimare, dumne ex nihilo; iam enim facta erant quaedam, <lb/>
+            ex quibus prolatae uideri possent —, si tantam curam instructioni <lb/>
+            nostrae insumpsit <sic n="poss">3piritus</sic> sanctus, ut sciremus quid <lb n="5"/>
+            unde processerit, nonne proinde nos et de caelo et de terra <lb/>
+            compotes reddidisset significando, unde ea esset operatus, si <lb/>
+            de aliqua materia origo constaret illorum, ne tanto magis ex <lb/>
+            nihilo ea uideretur operatus, quanto nihil adhuc erat factum, <lb/>
+            ex quo operatus uideretur? itaque sicut ea, quae de aliquo <lb n="10"/>
+            prolata sunt, ostendit, unde prolata sint, ita quae non ostendit, <lb/>
+            unde prolata sint, ex nihilo prolata <choice><note>confirnrrat</note><corr>confirmat</corr></choice>. »igitur: in principio <lb/>
+            deus fecit caelum et terram, adoro scripturae <lb/>
+            plenitudinem, qua mihi et factorem manifestat et facta; in <lb/>
+            euangelio uero amplius et ministrum atque arbitrum factoris <lb n="15"/>
+            inuenio, sermonem. an autem de aliqua subiacenti materia <lb/>
+            facta sint omnia, nusquam adhuc legi. scriptum esse doceat <lb/>
+            Hermogenis officina. si non est scriptum, timeat uae illud <lb/>
+            adicientibus aut detrahentibus destinatum. 
+</p>
+</div1>
+
+<div1 n="23" subtype="section"><head>§ 23</head>
+
+<p>Sed (et) ex sequentibus argumentatur, quia scriptum <lb n="20"/>
+            sit: terra autem erat inuisibilis et incomposita, nam <lb/>
+            et terrae nomen redigit (in) materiam, quia terra sit, quae facta <lb/>
+            est ex illa, et <choice><note>Cerat</note><corr>erat</corr></choice>) in hoc dirigit, quasi quae semper retro <lb/>
+            fuerit, innata et infecta, inuisibilis autem et rudis, quia informem <lb/>
+            et confusam et inconditam uult fuisse materiam. has <lb n="25"/>
+            quidem opiniones eius singillatim reuincam; sed interim <choice n="0.23"><note n="268">nolo</note><corr n="874">uolo</corr></choice> <lb/>
+            sic ei respondere: putemus his articulis materiam demonstrari: <lb/>
+            numquid tamen, quia erat ante omnia et talis, et ex ea factum
+
+<app> 12] Gen. 1, 1. 19] cf. Apoc. 22, 18-19. 21] Gen. 1, 2. </app>
+
+<app> 2 undeunde <hi>Urs:</hi> unde <hi>PNF</hi> 3 estimare <hi>PF,</hi> existimare <hi>N (et cod. Diuionensis <lb/>
+            teste Bigaltio)</hi> 4 instructioni <hi>scripsi:</hi> instructionis <hi>PNF</hi> 8 ne <hi>F,</hi> <lb/>
+            ot <hi>PN uulgo</hi> 12 <hi>lacunam signaui:</hi> legens <hi>intercidisse puto</hi> 13 terram. <lb/>
+            adoro <hi>uulgo</hi> 15 factoris <hi>Rig (secundum cod. Diuionensem, ut testatur):</hi> <lb/>
+            rectoris <hi>PNF</hi> 20 et <hi>addidi</hi> 22 in <hi>add. R3, om. PNFH1</hi> 27 putemus <lb/>
+            <hi>N,</hi> putamus <hi>PF</hi> 28 et talis, et ex ea factum aliquid <hi>scripsi:</hi> et talis. id <lb/>
+            sed ex ea factum aliquid <hi>F,</hi> et tale aliquid esse ei ea factum <hi>PN tmlgo</hi> </app> <lb/>
+             
+<pb n="152"/>
+            aliquid scriptura significat? atquin nihil tale significat. fuerit <lb/>
+            licet materia, quantum sibi libet uel potius Hermogeni: potuit <lb/>
+            et fuisse et tamen nihil deus ex illa fecisse, uel quia non <lb/>
+            decebat deum alicuius eguisse, certe quia nec ostenditur quicquam <lb/>
+            ex materia fecisse. sine causa ergo esset, inquis. non<lb n="5"/>
+            plane adeo sine causa. nam etsi mundus non est factus ex <lb/>
+            illa, sed haeresis facta est, et quidem hoc impudentior, quod <lb/>
+            non ex materia facta est haeresis, sed materiam ipsam potius <lb/>
+            haeresis fecit. 
+</p>
+</div1>
+
+<div1 n="24" subtype="section"><head>§ 24</head>
+
+<p>Reuertor nunc ad singulos articulos, per quos putauit<lb n="10"/>
+            significatam esse materiam, et primo de nominibus expostulabo. <lb/>
+            horum enim alterum legimus, quod est terrae, alterum non <lb/>
+            inuenimus, quod est materiae. quaero ergo, cum materiae <lb/>
+            nominatio non extet in scriptura, quomodo ei etiam terrae <lb/>
+            appellatio <sic>adcommodetur</sic> in alio iam genere substantiae nota. <lb n="15"/>
+            quo magis materiae quoque nominatio extitisse debuerat <lb/>
+            consecuta etiam terrae 'appellationem, ut scirem terram commune <lb/>
+            cum materia esse nomen, ne illud ei soli substantiae <lb/>
+            uindicarem, cuius et proprium (et) in qua magis notum est, <lb/>
+            uel ne illud in quamcumque aliam speciem t nec utique omni s&gt; <lb n="20"/>
+            materia communicare possem, si uellem. cum enim non extat <lb/>
+            proprium uocabulum eius rei, cui commune uocabulum adscribitur, <lb/>
+            quando non comparet cui adscribatur, cuicumque alii <lb/>
+            poterit adscribi. ita Hermogenes, et si materiam ostenderet <lb/>
+            nominatam, deberet eandem probare terram quoque cognominatam,<lb n="25"/>
+            ut ita utrumque illi uocabulum uindicaret. 
+</p>
+</div1>
+
+<div1 n="25" subtype="section"><head>§ 25</head>
+
+<p>Vult igitur duas proponi terras in ista scriptura. unam, <lb/>
+            quam in principio deus fecit, aliam [materiam] ex qua fecit, <lb/>
+            de qua dictum sit: terra autem erat inuisibilis et rudis.
+
+<app> 29J Gen. 1, 2. </app>
+
+<app> 2 libet <hi>van der Vliet:</hi> licet <hi>PNF</hi> 11 expoatulando F 14 eitet in <lb/>
+            scriptura <hi>PN,</hi> extet scripturae <hi>F</hi> terrae <hi>R,</hi> terrena <hi>PNF</hi> 19 et addidi, <lb/>
+            proprium, [in] qua magis notum, est <hi>Eng</hi> notum Rlo, natum <hi>PNF</hi> <lb/>
+            20 <hi>verba:</hi> nec utique omni materia quid <hi>sibi uelint, non intellego</hi> <lb/>
+            21 materia <hi>PNF,</hi> materiae <hi>R vulgo</hi> 23 quando <hi>Iun:</hi> quanto <hi>PNF</hi> <lb/>
+            27 uult <hi>PN,</hi> uide <hi>F</hi> 28 materiam <hi>sechm</hi>. </app> <lb/>
+             
+<pb n="153"/>
+            utique si quaeram, ei duabus quae cui nomen terrae accommodare <lb/>
+            debeat, dicetur hanc, quae facta sit, ex illa. ex qua <lb/>
+            facta est, uocabulum deriuasse, quia ueri similius sit ab origine <lb/>
+            <choice><note>gobolem</note><corr>sobolem</corr></choice> potius quam originem a sobole uocitari. hoc si ita <lb/>
+            est, alia nobis obuoluitur quaestio, an competat terram hanc. <lb n="5"/>
+            quam deus fecit, ex illa, ex qua fecit, cognomentum deriuasse. <lb/>
+            audio enim apud Hermogenem ceterosque materiarios haereticos <lb/>
+            terram quidem illam informem et inuisibilem et rudem <lb/>
+            <choice><note>faisse</note><corr>fuisse</corr></choice>, hanc uero nostram uideo et formam et conspectum et <lb/>
+            cultum a deo consecutam, aliud ergo factam quam erat ea, <lb n="10"/>
+            ex qua facta est. porro aliud facta non potuit cum ea de <lb/>
+            nomine sociari, a cuius condicione desciuerat. si nomen proprium <lb/>
+            materiae illius fuit terra, haec, quae non est materia, <lb/>
+            aliud scilicet facta, terrae quoque non capit nomen, alienum et <lb/>
+            <sic>statn</sic> suo extraneum. sed materia facta, id est haec terra, habuit <lb n="15"/>
+            cum sua origine consortium nominis sicut et generis. non <lb/>
+            adeo. nam et testam, licet ex argilla confectam, iam non <lb/>
+            argillam uocabo sed testam, et electrum, licet ex auro et <lb/>
+            argento foederatum, nec argentum tamen nec aurum appellabo <lb/>
+            sed electrum. a cuius habitu quid diuertit, pariter et a uocatu <lb n="20"/>
+            eius recedit, appellationis sicut et condicionis proprietate. <lb/>
+            quam autem transierit de statu terrae illius [id est <choice><note>materiaeJ</note><corr>materiae</corr></choice> <lb/>
+            ista terra, uel eo palam est, quod haec apud Genesim testimonium <lb/>
+            boni accepit: et uidit deus quia bonum, illa <lb/>
+            autem apud Hermogenem in originem et causam malorum <lb n="25"/>
+            deputatur. postremo si ideo haec terra, quia et illa, cur non <lb/>
+            et materia haec quoque. quia et illa? immo et caelum et <lb/>
+            omnia, si ex materia constant, et terrae et materiae uocari
+
+<app> 24] Gen. 1, 10. </app>
+
+<app> 1 terrae accomodare debeat, dicetur <hi>R3G,</hi> terrae accomodari debeat id <lb/>
+            dicetur <hi>N,</hi> terrae accomodari (-dare <hi>F)</hi> id dicetur <hi>PFRt</hi> 5 obruitur <hi>F</hi> <lb/>
+            9 uideo <hi>F,</hi> proinde <hi>PN uulgo</hi> 12 nominatione <hi>Rig</hi> 15 status sui <lb/>
+            <hi>Lat</hi> haec terra <hi>Eng:</hi> ex terra <hi>PNFR1,</hi> terra <hi>R3</hi> 20 quid <hi>NFR3,</hi> quod <lb/>
+            <hi>PBl</hi> 21 (eat et&gt; appellationis sicut et condicionis proprietas <hi>fort</hi>. et <lb/>
+            in conditionis F 22 id est materiae <hi>seclusi</hi> </app> <lb/>
+             
+<pb n="154"/>
+            debuerunt. satis ista de terrae nomine, in quo materiam <lb/>
+            intellegi <choice n="0.23"><note n="220">noluit</note><corr n="697">uoluit</corr></choice>. quod nomen unius elementi omnes sciunt, <lb/>
+            natura primum, dehinc scriptura docente, nisi si et Sileno <lb/>
+            illi apud Midam regem adseueranti de alio orbe credendum <lb/>
+            est, auctore Theopompo. sed et deos multos idem refert. <lb n="5"/>
+            
+</p>
+</div1>
+
+<div1 n="26" subtype="section"><head>§ 26</head>
+
+<p>Nobis autem unus deus et una est terra, quam in <lb/>
+            principio deus fecit. cuius ordinem incipiens scriptura decurrere <lb/>
+            primo factam eam edicit, dehinc qualitatem ipsius edisserit; <lb/>
+            sicut et caelum primo factum professa: in principio <lb/>
+            deus fecit caelum, dehinc dispositionem eius superducit <lb n="10"/>
+            et separauit inter aquam, quae erat infra firmamentum <lb/>
+            et quae erat super firmamentum, et uocauit deus firmamentum <lb/>
+            caelum, ipsum, quod in primordio fecerat. proinde <lb/>
+            et de homine...: et fecit deus hominem, ad imaginem dei <lb/>
+            fecit illum, dehinc qualiter fecerit reddit: et finxit deus<lb n="15"/>
+            hominem de limo terrae et <choice><note>adflanit</note><corr>adflauit</corr></choice> in faciem eius <lb/>
+            flatum uitae, et factus est homo in animam uiuam. <lb/>
+            et utique sic decet narrationem inire: praefari primo, postea <lb/>
+            prosequi; nominare, deinde describere. alioquin uanum, si eius <lb/>
+            rei, cuius nullam praemiserat mentionem. id est materiae, ne <lb n="20"/>
+            ipsum quidem nomen, subito formam et habitum promulgauit, <lb/>
+            ante enarrauit, qualis esset, quam an esset ostendit, figuram <lb/>
+            deformauit, nomen abscondit. at quanto credibilius secundum <lb/>
+            nos eius rei dispositionem scriptura subiunxit, cuius institutionem <lb/>
+            simulque nominationem praemisit? quam denique integer <lb n="25"/>
+            sensus est: in principio deus fecit caelum et terram, <lb/>
+            terra autem erat inuisibilis et rudis; quam deus scilicet
+
+<app> 9] Gen. 1, 1. 11] Gen. 1, 7. 8. 14] Gen. 1, 27. 15] Gen. 2, 7. <lb/>
+            22] cf. Gen. 1, 2. 26] Gen. 1, 1. </app>
+
+<app> 1 quo <hi>R,</hi> quod <hi>PNF</hi> 5 multus <hi>P (corr. B)</hi> 6 autem <hi>om. N</hi> terra <lb/>
+            est F 10 superducit <hi>PNFR1,</hi> superinducit <hi>123 uulgo</hi> 14 <hi>lacttnam <lb/>
+            signaui:</hi> primo, quod eam fecit, enarrat <hi>supplendum puto,</hi> de homine: <lb/>
+            et fecit, &lt;inquit,) deus hominem <hi>Eng</hi> 18 praefari primo <hi>NF,</hi> primo <lb/>
+            praefari <hi>Puulgo</hi> 22 enarrauit <hi>scripsi:</hi> enarrat <hi>PNF</hi> quam an <hi>Rig:</hi> <lb/>
+            antequam an <hi>PN,</hi> antequam <hi>F,</hi> ante, quam an <hi>Eng</hi> 23 deformanit <lb/>
+            <hi>scripsi:</hi> deformati <hi>PNF,</hi> deformat <hi>Iun</hi>. </app> <lb/>
+             
+<pb n="155"/>
+            fecit, de qua scriptura cum maxime dixerat? nam et 'autem' <lb/>
+            ipsum uelut fibula coniunctiuae particulae ad conexum narrationi <lb/>
+            adpositum est: 'terra autem.' hoc enim uerbo reuertitur <lb/>
+            ad eam, de qua supra dixerat, et alligat sensum. adeo aufer <lb/>
+            hinc 'autem', et soluta compago est, ut tunc possit de alia <lb n="5"/>
+            terra dictum uideri: terra erat inuisibilis et rudis. 
+</p>
+</div1>
+
+<div1 n="27" subtype="section"><head>§ 27</head>
+
+<p>Sed tu supercilia, capitis nutu digiti adcommodato, <lb/>
+            altius tollens et quasi retro iactans: 'erat' inquis; quasi semper <lb/>
+            fuerit, scilicet innata et infecta, et idcirco materia credenda. <lb/>
+            at ego sine ullo lenocinio pronuntiationis simpliciter respondebo <lb n="10"/>
+            de omni re posse dici 'erat', etiam de ea, quae facta, <lb/>
+            quae nata sit, quae aliquando non fuerit et quae materia non <lb/>
+            sit. omne enim, quod habet esse. (unde) unde habet, siue per <lb/>
+            initium siue sine initio, hoc ipso, quod 'est', etiam 'erat' dicetur. <lb/>
+            cui competit prima uerbi positio in definitionem, eidem etiam <lb n="15"/>
+            declinatio uerbi decurret in relationem. 'est' definitionis caput. <lb/>
+            'erat' relationis facit. haec sunt argutiae et subtilitates <choice><note>haeretieorum</note><corr>haereticorum</corr></choice>, <lb/>
+            simplicitatem communium uerborum torquentes in <lb/>
+            quaestionem. magna scilicet quaestio est, si erat terra, quae <lb/>
+            facta est. sane discutiendum, an ei competat inuisibilem et <lb n="20"/>
+            rudem fuisse, quae facta est, an ei, ex qua facta est, ut <lb/>
+            eiusdem sit 'erat', cuius et quod erat. 
+</p>
+</div1>
+
+<div1 n="28" subtype="section"><head>§ 28</head>
+
+<p>Atquin non tantum probabimus istum habitum huic <lb/>
+            terrae competisse, sed et illi alii non competisse. nam si
+
+<app>6] Gen. 1, 2. </app>
+
+<app> 1 rnaxime-ipsum <hi>om. F</hi> dixerat <hi>scripsi:</hi> et dixerat <hi>P (del. litteram</hi> <lb/>
+            t <lb/>
+            122), edixerat <hi>N (add</hi>. t <hi>man. libr.),</hi> edixerat <hi>R uulgo,</hi> edisserat <hi>Eng</hi> nam <lb/>
+            et autem ipsum, coniunctiua particula, uelut <hi>fibula fort</hi>. 2 narrationis <hi>F</hi> <lb/>
+            7 sed tu supercilia <hi>Oehlerus:</hi> sed tu supercilio <hi>PN,</hi> et supercilio <hi>F</hi> super- <lb/>
+            <hi>cilia capitis uufyo digiti (intellege: nutui) capitis PN, et capitisF</hi> nutu <lb/>
+            <hi>F,</hi> et nutu <hi>PN</hi> digiti <hi>PN,</hi> et digiti sed tu <hi>F</hi> 10 respondeo <hi>F</hi> <lb/>
+            13 undeunde <hi>Urs:</hi> unde <hi>PNF</hi> siue <hi>om. PR1</hi> 15 eidem <hi>scripsi: <lb/>
+            eiusdem PNF</hi> 16 <hi>decnrrit F</hi> 17 <hi>relationis Iun: relationi PNF</hi> haec <lb/>
+            <hi>PNF,</hi> haeJS 19 quaeitionem. <hi>magna E1,</hi> quaestionem magnam. <hi>PNFRX</hi> <lb/>
+            21 ex qaa <hi>PF,</hi> quae <hi>N</hi> 22 quod erat <hi>scil. inuisibilis ct rudis</hi> 24 sed <lb/>
+            -competisse <hi>om. N</hi> et <hi>om. F</hi> </app> <lb/>
+             
+<pb n="156"/>
+            nuda materia deo subiacebat, nullo scilicet elemento obstruente, <lb/>
+            siquidem nondum quicquam erat praeter ipsam et deum, <lb/>
+            utique inuisibilis esse non poterat, quia etsi tenebras uolet <lb/>
+            in substantia fuisse materiae, cui articulo respondere debebimus <lb/>
+            suo ordine, etiam homini tenebrae uisibiles sunt, — hoc<lb n="5"/>
+            enim ipsum, quod sunt tenebrae, uidetur — nedum deo. et <lb/>
+            utique, si inuisibilis esset, nullo modo cognosceretur qualitas <lb/>
+            eius. unde ergo compertus est Hermogenes informem et confusam <lb/>
+            et inquietam illam fuisse, quae ut inuisibilis latebat? <lb/>
+            aut si hoc a deo reuelatum est, probare debet. sic et an rudis<lb n="10"/>
+            dici potuerit, expostulo. certe enim rude illud est, quod imperfectum <lb/>
+            est. certe imperfectum non potest esse nisi quod <lb/>
+            factum est; quod enim minus factum est, imperfectum <lb/>
+            (est.) certe, inquis. ergo materia, quae facta non erat in <lb/>
+            totum, imperfecta esse non potuit; quae imperfecta non fuit. <lb n="15"/>
+            etiam rudis non fuit. initium non habens. quia facta non <lb/>
+            fuit, caruit et rudimento. initii enim accidens est rudimentum. <lb/>
+            terra uero, quae facta est, meruit et rudis dici. statim enim <lb/>
+            ut facta st, habuit imperfectae locum, ante perfectionem, <lb/>
+
+</p>
+</div1>
+
+<div1 n="29" subtype="section"><head>§ 29</head>
+
+<p>siquidem omnia opera sua deus consummauit, incultis <lb n="20"/>
+            primo elementis depalans quodammodo mundum. dehinc exornatis <lb/>
+            uelut dedicans. nam et lumen non statim splendore solis <lb/>
+            impleuit, et tenebras non statim solatio lunae t.emperauit, et <lb/>
+            caelum non statim sideribus stellisque signauit, et maria non <lb/>
+            statim beluis frequentauit, et ipsam terram non statim uaria<lb n="25"/>
+            fecunditate dotauit; sed primo esse ei contulit, dehinc non <lb/>
+            in uacuum esse suppleuit. sic enim et Esaias: non in uacuum, <lb/>
+            ait, fecit illam, sed inhabitari. postea ergo quam facta <lb/>
+            est, futura etiam perfecta, interim erat inuisibilis et rudis,
+
+<app>27] Es. 45, 18. </app>
+
+<app> 1 materia <hi>R,</hi> sit materia <hi>PNF,</hi> sic materia <hi>Iun Oehlerus</hi> 6 quod <lb/>
+            sunt om. <hi>F</hi> uidetur <hi>lIra:</hi> uidentur <hi>PNF</hi> 9 inquietam <hi>PNF,</hi> inconditam <lb/>
+            <hi>Pam</hi>. incultam <hi>Iun</hi> 13 imperfectum (est&gt; <hi>B,</hi> imperfectum <hi>PNF</hi> <lb/>
+            20 <hi>male hoc loco distinguuntur capita</hi> 22 lumen <hi>PN,</hi> lnmine <hi>F</hi> <lb/>
+            24 maria R3, materiam <hi>PNFR1</hi> 29 perfecta <hi>PN,</hi> perfectum <hi>F</hi> </app> <lb/>
+             
+<pb n="157"/>
+            rudis quidem hoc quoque ipso, quod inuisibilis, ut nec <sic>msai</sic> <lb/>
+            perfecta, simul et ut de reliquo nondum instructa, inuisibilis <lb/>
+            uero, ut adhuc aquis tamquam munimento genitalis humoris <lb/>
+            obducta, qua forma etiam adfinis eius, caro nostra, producitur. <lb/>
+            nam et Dauid ita canit: domini est terra et plenitudo <lb n="5"/>
+            eius, orbis terrae, et omnes qui habitant in illo; <lb/>
+            ipse super maria fundauit eum et super flumina <lb/>
+            praeparauit eum. segregatis enim aquis in cauatiorem <lb/>
+            sinum emicantior facta est arida, quae antehac aquis tegebatur. <lb/>
+            exinde itaque et uisibilis efficitur dicente deo: congregetur <lb n="10"/>
+            <choice><note>aquain</note><corr>aqua</corr></choice> congregatione una, et uideatur arida. <lb/>
+            (uideatur,) inquit, non 'fiat.' iam enim facta erat, sed, inuisibilis <lb/>
+            usque tunc, uideri sustinebat. 'arida' autem, quod erat futura <lb/>
+            ei diuortio humoris, iam terra: et uocauit deus aridam <lb/>
+            terram, non materiam. sic et perfectionem postea consecuta <lb n="15"/>
+            desinit rudis haberi, cum pronuntiat deus: fruticet terra <lb/>
+            herbam foeni seminantem semen secundum genus <lb/>
+            et secundum similitudinem, et lignum fructuosum <lb/>
+            faciens fructum, cuius semen in ipso in similitudinem. <lb/>
+            item: producat terra animam uiuam secundum <lb n="20"/>
+            genus, et quadrupedia et repentia et bestias <lb/>
+            terrae secundum genus. impleuit igitur ordinem suum <lb/>
+            scriptura diuina. quam enim praedixerat inuisibilem et rudem, <lb/>
+            ei et uisionem reddidit et perfectionem. non alias autem materia <lb/>
+            erat inuisibilis et rudis. ergo (et) materia erit postea uisibilis <lb n="25"/>
+            et perfecta. uolo itaque uidere materiam; uisibilis enim
+
+<app> 5] Ps. 23, 1-2. 10] Gen: 1, 9. 14] Gen. 1, 10. 16] Gen. 1, 11. <lb/>
+            20] Gen. 1, 24.. </app>
+
+<app> 1 ut nec uisui <hi>R,</hi> ut ne cui eui <hi>PNF</hi> 2 simul et ut <hi>R,</hi> simuletur <lb/>
+            et ut <hi>PN,</hi> aimalet et ut <hi>F</hi> 3 monimento <hi>PNF</hi> humoris <hi>PN,</hi> ut <lb/>
+            moris <hi>F</hi> 4 <hi>obducta PN,</hi> abducta F 6 illo <hi>scripsi: illa PNF</hi> 7 eumeum <lb/>
+            <hi>(M. orMw terrae) PNF,</hi> eam-eam <hi>R uulgo</hi> 8 cauationem sinuum <lb/>
+            <hi>Rig</hi> 10 deo <hi>PN,</hi> domino <hi>F</hi> 12 uideatQr-sustinebat <hi>om. P (add. <lb/>
+            R</hi> in <hi>mg. ex Hirsaugiensi)</hi> fiat <hi>R,</hi> sit <hi>N,</hi> fit <hi>F</hi> 14 iam <hi>scripri:</hi> <lb/>
+            tamen <hi>PNF</hi> 16 fruticet <hi>Pam:</hi> fructicet <hi>F,</hi> fructificet <hi>PN</hi> 22 impleuit <lb/>
+            F, implebit <hi>PN</hi> 24 alias <hi>scripsi:</hi> alia <hi>PNF</hi> 25 et <hi>addidi</hi> erit <lb/>
+            <hi>PF,</hi> erat <hi>N</hi> 26 itaque <hi>PN,</hi> ita <hi>F</hi> </app> <lb/>
+             
+<pb n="158"/>
+            facta est. uolo et perfectam eam recognoscere, ut ex illa etiam <lb/>
+            foeni herbam et ex illa decerpam lignum fructuosum et ex <lb/>
+            illa animalia usui meo famulem. sed materia quidem nusquam, <lb/>
+            terra uero id est haec, coram. hanc uideo, hanc perfruor, ex <lb/>
+            quo inuisibilis et rudis esse desiit. de qua manifestissime <lb n="5"/>
+            Esaias: haec dicit dominus, qui fecit caelum, iste deus, <lb/>
+            qui demonstrauit terram et fecit illam. certe eandem <lb/>
+            demonstrauit quam et fecit. quomodo demonstrauit? utique <lb/>
+            dicendo: uideatur arida. quare uideri iubet, nisi quia retro <lb/>
+            non uidebatur, ut sic quoque eam non in uacuum fecisset<lb n="10"/>
+            faciendo uisibilem, et ita habitabilem? et sic per omnia probatur <lb/>
+            nobis hanc, quam incolimus, eandem et factam esse a deo <lb/>
+            et ostensam, nec aliam fuisse rudem et inuisibilem quam <lb/>
+            quae et facta et ostensa est. atque ita: terra autem erat <lb/>
+            inuisibilis et rudis ad eam pertinet, quam deus cum<lb n="15"/>
+            caelo parauit. 
+</p>
+</div1>
+
+<div1 n="30" subtype="section"><head>§ 30</head>
+
+<p>Sic et sequentia coniecturam Hermogenis instruere uidebuntur: <lb/>
+            et tenebrae super abyssum et spiritus dei <lb/>
+            super aquas ferebatur, quasi et haec confusae substantiae <lb/>
+            <sic>massaliu</sic> illius molis argumenta portendant. atquin singillatim <lb n="20"/>
+            definiens tenebras abyssum spiritum dei aquas, nihil <lb/>
+            confusum nec in confusione incertum aestimari facit tam diuisa <lb/>
+            relatio certorum et distinctorum elementorum. hoc quidem <lb/>
+            amplius: cum situs proprios eis adscribit, tenebris super <lb/>
+            abyssum, spiritui super aquas, negauit confusionem substantiarum, <lb n="25"/>
+            quarum demonstrando dispositionem demonstrauit etiam <lb/>
+            distinctionem. uanissimum denique, ut materia, quae <choice><note>infoimis</note><corr>informis</corr></choice>
+
+<app> 6] Ee. 45, 18. 9] Gen. 1, 9. 14] Gen. 1, 2. 18] ib. </app>
+
+<app> 1 illa <hi>om. F</hi> 2 fructum <hi>F</hi> 8 famnlem <hi>F,</hi> famulentur <hi>PNuulgo</hi> 4uero, <lb/>
+            id est haec <hi>scripsi (ae</hi>. non <hi>alia illa, id est materia):</hi> uero haec, id est <hi>PNF <lb/>
+            hanc (altero loco) PN, hacF 6 caelum etterram N 7 fecitPam: facitPNF</hi> <lb/>
+            11 habitabilem <hi>Lat:</hi> habilem <hi>PNF reliqui</hi> 16 <hi>parauit scripsi:</hi> separauit <lb/>
+            <hi>PNF</hi> 19 haec <hi>F,</hi> hae <hi>PN uulgo</hi> 20 portendat <hi>F</hi> 21 spiritum <hi>S</hi>. <lb/>
+            spiritus <hi>PNF</hi> 22 aestimari <hi>PN,</hi> aestimare F diaisa <hi>PN,</hi> diuersa F <lb/>
+            24 tenebris <hi>scripsi:</hi> tenebras <hi>PNF</hi> 25 spiritui <hi>scripsi:</hi> spiritus <hi>PNF,</hi> <lb/>
+            epiritum <hi>Pam</hi> 26 <hi>positionem fort</hi>. 27 uaniasimum <hi>B3,</hi> uanitimum <hi>PNFR1</hi> </app> <lb/>
+             
+<pb n="159"/>
+            inducitur, de tot -formarum uocabulis informis adseueretur. <lb/>
+            non edito, quid sit illud corpus confusionis, [quod] unicum <lb/>
+            utique credendum est, si informe est. uniforme etenim. quod <lb/>
+            informe. et informe autem, quod ex uarietate confusum est, <lb/>
+            unam habeat necesse est speciem, quod non habet, [speciem] <lb n="5"/>
+            dum (nihil) ex multis unam habet speciem. ceterum aut habebat <lb/>
+            in se species istas materia, de quarum uocabulis intellegenda <lb/>
+            esset, tenebras dico et abyssum et spiritum et aquas, aut non <lb/>
+            habebat: si [enim] habebat, quomodo inducitur non habens <lb/>
+            formas? si non habebat, (unde) agnoscitur? <lb n="10"/>
+            
+</p>
+</div1>
+
+<div1 n="31" subtype="section"><head>§ 31</head>
+
+<p>Sed et illud utique captabitur, de caelo solo et de <lb/>
+            terra ista scripturam significasse, quod ea in principio deus <lb/>
+            fecerit, de speciebus autem supra dictis nihil tale, et ideo <lb/>
+            eas, quae factae non significentur, ad infectam materiam pertinere. <lb/>
+            respondebimus huic quoque scrupulo. scriptura diuina <lb n="15"/>
+            satis dissereret, si summas ipsas rerum a deo factas commendasset, <lb/>
+            caelum et terram, habentes utique suggestus suos <lb/>
+            proprios, qui in ipsis summis intellegi possent. suggestus <lb/>
+            autem caeli et terrae primo tunc fuerunt tenebrae et abyssus, <lb/>
+            [et] spiritus et aquae. nam terrae quidem suberant abyssus <lb n="20"/>
+            et tenebrae. si enim abyssus infra terram, tenebrae autem <lb/>
+            super abyssum, sine dubio et tenebrae et abyssus infra terram. <lb/>
+            caelo uero spiritus et aquae subiacebant. nam si aquae super <lb/>
+            terram. quae eam texerant, spiritus autem super aquas, pariter <lb/>
+            et spiritus et aquae super terram. quae uero super terram,
+
+<app>1 adJeueretur, non <hi>uulgo</hi> 2 quod <hi>seclusi</hi> 4 informe. et <hi>acripsi:</hi> informe <lb/>
+            est <hi>PNF</hi> confusum est. unam <hi>van der Vliet (cuitts interpretaHonem <lb/>
+            (stud. eccl. p. 80) probare non possum)</hi> 5 speciem <hi>seclwti</hi> <lb/>
+            6 nihil <hi>addidi</hi> habet <hi>PN,</hi> habeat <hi>F (fort. recte, cf. 142,16)</hi> 7 intellegenda <lb/>
+            esset <hi>Urs:</hi> intellegendae esse <hi>PN,</hi> intelligendae se <hi>F</hi> 9 enim <lb/>
+            Becluri: antem <hi>lun</hi> Incitur habens formain <hi>F</hi> 10 unde <hi>add. van der<lb/>
+             Vliet:</hi> (quomodo) <hi>Urs</hi> 12 quod ea in <hi>scripsi:</hi> quod eam in <hi>PN,</hi> quo ea <hi>F</hi> <lb/>
+            16 diasereret si sumrnaa <hi>NGR3,</hi> dissereret summas <hi>PBI,</hi> diasensi summas <hi>F</hi> <lb/>
+            19 fuerant <hi>NF,</hi> fuerint <hi>P uulgo</hi> 20 et <hi>seclusi: (el. 160, 21)</hi> suberaDt<lb/>
+             <hi>scripsi:</hi> suberat <hi>PN,</hi> superat <hi>F</hi> 24 quae R*, quale <hi>PNFR1</hi> </app> <lb n="25"/>
+             
+<pb n="160"/>
+            ea utique infra caelum. et sicut terra abysso et tenebris, ita <lb/>
+            et caelum spiritui et aquis incubabat et complectebatur. et <lb/>
+            ita nouum non est, ut id solum, quod continet, nominetur. <lb/>
+            qua summale, in isto autem intellegatur et quod continetur, <lb/>
+            qua portionale. ecce, si dicam: 'ciuitas extruxit theatrum et <lb n="5"/>
+            circum; scaena autem erat talis et talis, et statuae super <lb/>
+            euripum, et oboliscus super omnia ferebatur': quia non et <choice><note>bas</note><corr>has</corr></choice> <lb/>
+            species edixerim factas a ciuitate, non erunt ab ea cum <choice><note>cireo</note><corr>circo</corr></choice> <lb/>
+            et theatro? an ideo non adieci factas has quoque species. <lb/>
+            quia inerant eis, quae facta praedixeram, et inesse quibus <lb n="10"/>
+            inerant intellegi poterant? sed uacet hoc exemplum, ut <choice><note>hnmanum</note><corr>humanum</corr></choice>: <lb/>
+            aliud de auctoritate scripturae ipsius arripiam. fecit, <lb/>
+            inquit, deus hominem de terra et adflauit in faciem <lb/>
+            eius flatum uitae, et factus est homo in animam <lb/>
+            uiuam. faciem quidem eius hic nominat, sed nec ipsam <lb n="15"/>
+            factam a deo dixit, cutem uero et ossa et carnem et oculos <lb/>
+            et sudorem et sanguinem postea loquitur, quae nec tunc facta <lb/>
+            a deo significauit. quid respondebit Hermogenes? numquid et <lb/>
+            membra hominis ad materiam pertinebunt, quia non nominatim <lb/>
+            facta referuntur? an et haec in hominis factitatione censentur? <lb n="20"/>
+            proinde membra erant caeli et terrae abyssus et tenebrae, <lb/>
+            spiritus et aquae. in corporibus enim membra sunt facta, in <lb/>
+            corporibus et membra sunt nominata. nullum elementum non <lb/>
+            membrum est eius elementi, quo continetur. omnia autem <lb/>
+            elementa caelo aut terra continentur. <lb n="25"/>
+            
+</p>
+</div1>
+
+<div1 n="32" subtype="section"><head>§ 32</head>
+
+<p>Haec responderim pro scriptura praesenti, quatenus <choice><note>bic</note><corr>hic</corr></choice>
+
+<app>12] Gen. 2, 7. </app>
+
+<app> 2 spiritui <hi>Bs,</hi> spiritus <hi>PNFR1</hi> incubabat <hi>PF,</hi> incumbebat <hi>N</hi> comte <lb/>
+            <lb/>
+            plectebatur <hi>Oehlerus:</hi> complebatur <hi>N,</hi> complectebantur P, complectabUltur <lb/>
+            <hi>F</hi> 4 quasi summale <hi>N</hi> 7 oboliscue <hi>NF,</hi> obeliscus <hi>P</hi> et <hi>om. F</hi> <lb/>
+            8 ab ea &lt;factae) <hi>fort</hi>. 10 quia <hi>Rig:</hi> qua <hi>PNF</hi> inesse <hi>NB3,</hi> inestвep.z,WB\\ <lb/>
+            11 inerant <hi>NR,</hi> inerat <hi>PF</hi> 16 a deo <hi>NR,</hi> deo <hi>PF</hi> cutem <hi>NGlP</hi>. cui <lb/>
+            tam <hi>PFB1</hi> 18 significauit <hi>PN,</hi> significat <hi>F</hi> 20 in <hi>8. v. P (a m. 1)</hi> censentur <lb/>
+            <hi>R3,</hi> censetur <hi>PNFB1</hi> 22 et aquae Ra, ea quae <hi>PNFB1</hi> infacta <lb/>
+            <hi>om. P (add. R in mg. ex Htrsaugietvri)</hi> enim <hi>R3,</hi> in Nlf1'Bl </app> <lb/>
+             
+<pb n="161"/>
+            solorum corporum factitationem commendare uidetur caeli <lb/>
+            et terrae. sciit esse, qui ultro in corporibus et membra <lb/>
+            cognoscerent, et ideo compendio usa est prouidit tamen et <lb/>
+            hebetes et insidiosos, qui dissimulato tacito intellectu ipsis <lb/>
+            quoque membris uerbum factitationis significatorium exigerent. <lb n="5"/>
+            itaque et propter istos singulas species factas docet aliis in <lb/>
+            locis. habes Sophiam prior autem abysso genita sum <lb/>
+            dicentem. ut credas abyssum quoque genitam, id est factam, <lb/>
+            quia et filios facimus, licet generemus. nihil interest facta <lb/>
+            an nata sit abyssus, dum initium detur illi,. quod non daretur, <lb n="10"/>
+            si <choice><note>inateriae</note><corr>materiae</corr></choice> [subiciatur] esset. de tenebris uero ipse dominus <lb/>
+            per Esaiam: ego, qui struxi lucem et feci tenebras. de <lb/>
+            spiritu aeque Amos: qui solidat tonitruum et condit <lb/>
+            spiritum et adnuntiat in homines Christum suum, <lb/>
+            eum spiritum conditum ostendens, qui in terras conditas <lb n="15"/>
+            deputabatur, qui super aquas ferebatur, librator et adflator <lb/>
+            et animator uniuersitatis. non .. ut quidam putant, ipsum <lb/>
+            deum significari spiritum, quia deus spiritus; neque enim <lb/>
+            aquae dominum sustinere sufficerent. sed eum spiritum dicit, <lb/>
+            de quo etiam uenti constiterunt, ut ait per Esaiam: quia <lb n="20"/>
+            spiritus a me exiuit, et flatum omnem ego feci. item de <lb/>
+            aquis eadem Sophia: et quomodo firmos ponebat fontes <lb/>
+            quae sub caelo. ego eram modulans cum ipso. cum <lb/>
+            uero et eas species probamus a deo factas, etsi in Genesi <lb/>
+            tantummodo nominantur sine factitationis mentione,
+
+<app> 7] Proa. 8, 24. 12] Es. 45, 7. 20] Ei. 57, 16. 22] Prone 8, 28. </app>
+
+<app> 1 commendare <hi>R3,</hi> commendari <hi>PNF</hi> 2 sciit <hi>rNGR3,</hi> scit <hi>FRl,</hi> <lb/>
+            :,viat <hi>Oehlerus</hi> &lt;fllturos) esse <hi>van der Vliet</hi> 5 sigmficatorium R3, signiicatorum <lb/>
+            <hi>PNFR1</hi> 7 habes <hi>R3,</hi> habere <hi>PNFR1</hi> 11 subiciatur <hi>seclusi<lb/>
+             ■‹f. 160, 19):</hi> subiecta <hi>R3uulgo,</hi> subiciatur &lt;necesse) esset <hi>Eng</hi> dominus <lb/>
+            <hi>R3</hi>. ad minus <hi>PNFR1</hi> 14 et adnuntiat-suum <hi>fort. delendum</hi> suam <lb/>
+            <hi>om, P (add. R ex Hirsaugienai)</hi> 16 liberator <hi>F</hi> 17 <hi>lacunam signaui:</hi> <lb/>
+            ..nim credibile <hi>intercidisae puto,</hi> non iure quidam <hi>Eng</hi> quidem <hi>F</hi> <lb/>
+            1S significari <hi>PNFR1,</hi> significans <hi>R3 uulgo</hi> 22 quomodo (= we;) <hi>PNt <lb/>
+            •cf 145,</hi> 9), quom <hi>R,</hi> cum <hi>reliqui</hi> 24 uero <hi>scripsi:</hi> ergo <hi>PNF</hi> probarnus <lb/>
+            <hi>R,</hi> prodamus <hi>PNF</hi> 25 nominantur <hi>P,</hi> nominatur <hi>NF</hi> </app>
+
+<app> XXXXVII. Xert. III. </app>
+
+<app> 11 </app> <lb n="25"/>
+             
+<pb n="162"/>
+            respondebitur fortasse ex diuerso plane factas eas. sed ex materia. <lb/>
+            ut stilus, quidem Moysei: et tenebrae super aby.ssum et <lb/>
+            spiritus dei super aquas ferebatur materiam (ipsam)sonet. <lb/>
+            ceterae uero scripturae quae ex materia factae sunt species <lb/>
+            in disperso demonstrent. ergo sicut terra de terra, ita et<lb n="5"/>
+            abyssus ex abysso, et tenebrae ex tenebris, et spiritus et <lb/>
+            aquae ex spiritu et aquis constiterunt? at, sicut supra diximus, <lb/>
+            non potuit informis fuisse materia, (si) species habebat; *** <lb/>
+            ut et aliae ex eis sint confectae; nisi quod non aliae, sed <lb/>
+            ipsae ex semetipsis, - siquidem non capit diuersas fuisse quae<lb n="10"/>
+            iisdem nominibus eduntur — quo iam et operatio diuina otiosa <lb/>
+            uideri possit, si quae erant fecit, cum generosior esset, quae <choice><note>nou</note><corr>non</corr></choice> <lb/>
+            erant [facta <choice><note>quamj</note><corr>quam</corr></choice> si fierent. igitur ut concludam: aut materiam <lb/>
+            tunc significauit Moyses scribens: et tenebrae super abyssum <lb/>
+            et spiritus dei super aquas ferebatur, - at cum <lb n="15"/>
+            hae species alibi postea demonstrantur factae a deo, debuerunt <lb/>
+            aeque demonstrari ex materia, quam Moyses praemiserat, <lb/>
+            factae — aut si species istas et non materiam significauit <lb/>
+            Moyses, ubi materia demonstrata sit quaero. 
+</p>
+</div1>
+
+<div1 n="33" subtype="section"><head>§ 33</head>
+
+<p>Sed dum illam Hermogenes inter colores suos inuenit,<lb n="20"/>
+            — inter scripturas enim dei inuenire non potuerit — satis <lb/>
+            est, quod omnia et facta a deo constat et ex materia facta <lb/>
+            non constat. quae etiam si fuisset, ipsam quoque a deo factam <lb/>
+            credidissemus, quia nihil innatum praeter deum praescribentes
+
+<app>2} Gen. 1, 2. 14] ib. </app>
+
+<app> 2 moysei <hi>N,</hi> monsei <hi>PF,</hi> Moysi <hi>R uulgo</hi> 3 ipsam <hi>add. Eng</hi> 7 <hi>signum <lb/>
+            interrogationis posui</hi> at <hi>scripsi:</hi> et <hi>PNF</hi> 8 si <hi>add. J23, otn. PNFRa lacunam <lb/>
+            signaui:</hi> (exclusum igitur, si non habebat,) <hi>intercidisse puto</hi> <lb/>
+            9 eis <hi>scripsi:</hi> ea <hi>PNF</hi> 10 diuersas <hi>R,</hi> diuersitas <hi>PNF</hi> 11 quo <hi>scripsi:</hi> <lb/>
+            quod <hi>PNF</hi> et operatio <hi>NF,</hi> operatio <hi>Puulgo</hi> 12 si quae erant <hi>Rz</hi>. <lb/>
+            si qua ferant <hi>PF,</hi> si qua erant <hi>N</hi> generosior esset <hi>Rig:</hi> generoaiora <lb/>
+            esset <hi>PNP,</hi> generatio sola esset <hi>Oehlerus</hi> 13 facta quam <hi>seclusi</hi> (quam <lb/>
+            <hi>deleuit iam Rig)</hi> 14 scribens <hi>N</hi>. scribit <hi>PPR1,</hi> (cum) scribit <hi>R3 uuigo <lb/>
+            15 parenthesin indicaui</hi> at <hi>PNPRI,</hi> aut <hi>Rauulgo</hi> 16 hae <hi>R,</hi> lias <lb/>
+            <hi>P (corr. R) NF</hi> 20 illam <hi>NR,</hi> illa P <hi>(corr. R) F</hi> inuenerit <hi>fort</hi>. <lb/>
+            21 potuit <hi>Rig,</hi> potuerat <hi>R3 Gel</hi> 23 constat, quae <hi>uulgo</hi> quae A?, qua <lb/>
+            <hi>PF</hi> facta <hi>P (corr. R)</hi> ' </app> <lb/>
+             
+<pb n="163"/>
+            obtineremus. in hunc usque articulum locus est retractatui, <lb/>
+            donec ad scripturas prouocata deficiat exhibitio materiae. <lb/>
+            expedita summa est: nihil inuenio factum nisi ex nihilo, quia <lb/>
+            quod factum inuenio non fuisse cognosco. etiamsi quid ex <lb/>
+            aliquo factum est, ex facto habet censum, ut ex terra herba <lb n="5"/>
+            et fructus et pecudes et figuratio hominis ipsius, ut ex aquis <lb/>
+            natatiles et uolatiles animae. huiusmodi origines [rerum ex his <lb/>
+            prolatarum] potero materias appellare, sed factas a deo et ipsas. 
+</p>
+</div1>
+
+<div1 n="34" subtype="section"><head>§ 34</head>
+
+<p>Ceterum omne ex nihilo constitisse illa postremo diuina <lb/>
+            dispositio suadebit, quae omnia in nihilum redactura est. <lb n="10"/>
+            siquidem et caelum conuoluetur ut liber, immo nusquam <lb/>
+            fiet cum ipsa terra, cum qua primordio factum est: caelum <lb/>
+            et terra praeteribunt, inquit; caelum primum et terra <lb/>
+            prima abierunt, et locus non est inuentus illis, quia <lb/>
+            scilicet quod finit et locum amittit. sic et Dauid: opera <lb n="15"/>
+            manuum tuarum caeli; et ipsi peribunt. sed et si mutabit <lb/>
+            illos uelut opertorium, et mutabuntur, et mutari <lb/>
+            perire est pristino statui, quem, dum mutantur, amittunt. <lb/>
+            et stellae quidem de caelo ruent, sicut fici arbor <lb/>
+            cum ualido commota uento acerba sua amittit, <lb n="20"/>
+            montes uero tamquam cera liquescent a conspectu
+
+<app> ll]Es.34,4. 12] Matth. 24, 35. 13] Apoc. 21,1. 14] Apoc. 20,11. <lb/>
+            1-V Ps. 101, 26. 27. 16] Ps. 101, 27. 19] Apoc. 6,13. 21] Pa. 96, r). </app>
+
+<app> 1 <hi>offendo in uerbis:</hi> in <hi>hunc-materiae, quippe quae intolerabilem in modum <lb/>
+            turbent nexum sententiarum. cohaerere ea arctissime cum eis, quae <lb/>
+            in initio capitis proferuntur, in aperto est. neque tamen quicquam pwaestab.s<lb/>
+             trampositione. nescio igitur, an et hic duplex agnoscenda sit recetlsio:</hi> <lb/>
+            sed dum illam-potuerit -- in hunc-materiae. articulum F, artilum P <lb/>
+            <hi>(add. R syll</hi>. cu) N <hi>retractatui NR,</hi> retractaui P <hi>(in mg</hi>. fort.: retractatui) <hi>F <lb/>
+            3 nisi Oeihlerus: nihil PNF 5 ut ei R, et ex P (corr. R) NF</hi> 7 origines i?\\ <lb/>
+            originis <hi>PNFR1</hi> rerum ex his prolatarum <hi>seclusi</hi> 10 in nihilum <hi>R3,</hi> <lb/>
+            ex nihilo <hi>PNFRX,</hi> ex nihilo (edita in nihilum) <hi>Eng</hi> 15 finit et locum <lb/>
+            <hi>scripsi:</hi> tt finito cum <hi>PNRX,</hi> et finitio cum F, et finit locum <hi>R3 uulgo</hi> <lb/>
+            16 tuarum R3, suarum <hi>PNFR1</hi> sed et <hi>scripsi:</hi> nam et <hi>PNF</hi> 17 et mutari <lb/>
+            <hi>scripsi:</hi> sed et mutari <hi>PNF,</hi> sed mutari <hi>Pam</hi> (sed <hi>ut genuinam lectionem<lb/>
+             corruptelae</hi> nam <hi>olim adscriptum fu:sBe puto; caret enim sensu illud nam)</hi> <lb/>
+            18 quem <hi>R3,</hi> quae <hi>PNFR1</hi> 20 acerba <hi>R3,</hi> acerua <hi>PNFR1</hi> 21 montes <hi>R,</hi> <lb/>
+            niojsea <hi>PNF</hi> liquescent <hi>FR,</hi> liquescens P <hi>(corr. R),</hi> liquescet <hi>N</hi> </app>
+
+<app> 11 </app> <lb/>
+             
+<pb n="164"/>
+            domini, cum surrexerit scilicet confringere terram. <lb/>
+            sed et paludes, inquit, arefaciam, et quaerent aquam <lb/>
+            nec inuenient; etiam mare hactenus. quae omnia et si <lb/>
+            aliter putauerit [spiritaliter] interpretanda, non tamen poterit <lb/>
+            auferre ueritatem ita futurorum, quomodo scripta sunt. <lb n="5"/>
+            si quae enim figurae sunt, ex rebus consistentibus fiant <lb/>
+            necesse est, non ex uacantibus, quia nihil potest ad similitudinem <lb/>
+            de suo praestare, nisi sit ipsum, quod tali similitudini <lb/>
+            praestet. reuertor igitur ad causam, definiens omnia ex nihilo <lb/>
+            edita (ut) in nihilum peruentura. ex aeterno enim, id est ex<lb n="10"/>
+            materia, nihil deus interibile fecisset. nec ex maioribus minora <lb/>
+            condidisset cui magis congruat ex minoribus maiora producere, <lb/>
+            id est ex interibili aeternum, quod et carni nostrae <lb/>
+            pollicetur, cuius uirtutis et potestatis suae hunc iam arrabonem <lb/>
+            uoluit in nobis collocasse, ut credamus illum etiam<lb n="15"/>
+            uniuersitatem ex nihilo, uelut emortuam, quae scilicet non <lb/>
+            erat, in hoc, ut esset, suscitasse. 
+</p>
+</div1>
+
+<div1 n="35" subtype="section"><head>§ 35</head>
+
+<p>De cetero uero statu materiae etsi non est retractandum, <lb/>
+            — prius enim erat, ut eam esse constaret - tamen <lb/>
+            acsi constiterit, persequendus est ordo, quo magis eam non<lb n="20"/>
+            esse constet, cuius nec reliquus status consistat, simul ut <lb/>
+            contrarietates suas agnoscat Hermogenes. prima, inquit, facie <lb/>
+            uidetur nobis corporalis esse materia; exquisita autem ratione <lb/>
+            recta inuenitur neque corporalis neque incorporalis. quae est <lb/>
+            ista ratio recta, quae nihil recti <choice><note>renuutiat</note><corr>renuntiat</corr></choice>, id est nihil certi?
+
+<app> 1] Es. 2, 19. 2J Es. 42, 15; 41, 17. 3] Apoc. 21,1. cf. Ps. 65, 6. </app>
+
+<app> 2 arefaciam <hi>NR,</hi> arefaciant <hi>P F</hi> quaererent <hi>P (del</hi>. re R) 4 aliter <lb/>
+            <hi>PNF,</hi> alter <hi>Lat</hi> spiritaliter <hi>secl. Eng</hi> 7 a similitudine <hi>P</hi> (corr. <hi>R)</hi> <lb/>
+            8 similitudini <hi>scripsi: aimilitudine PNF,</hi> (de)tali similitudine <hi>Eng</hi> 9 definiens <lb/>
+            <hi>scripsi:</hi> definientem <hi>PNF</hi> 10 ut <hi>addidi</hi> nihilum <hi>B1 (cf, 208,17),</hi> <lb/>
+            nihilo <hi>PNFR1</hi> 13 interibili <hi>NR,</hi> interibilia <hi>PF</hi> aeternum. quod et carlli <lb/>
+            nostrae pollicetur, cuius <hi>uulgo</hi> 14 uirtutid et potestatis suae <hi>Urs:</hi> uirtutes <lb/>
+            et potestatis suas <hi>PNF</hi> 15 illum etiam <hi>scrtpsi:</hi> etiam illum <hi>PNF</hi> <lb/>
+            17 erat <hi>R3,</hi> erit <hi>PNFR1</hi> 18 statu <hi>R, status PNF</hi> 21 reliquus status <lb/>
+            <hi>R3,</hi> reliquo statu <hi>PNFR1</hi> 22 agnoscat <hi>R,</hi> agnoscant <hi>PNF</hi> 25 id est <lb/>
+            <hi>R3,</hi> et est <hi>PNFR1</hi> </app> <lb n="25"/>
+             
+<pb n="165"/>
+            nisi fallor enim, omnis res aut corporalis sit necesse est aut <lb/>
+            incorporalis, ut concedam interim esse aliquid incorporale, de <lb/>
+            substantiis dumtaxat, cum ipsa substantia corpus sit rei cuiusque. <lb/>
+            certe post corporale et incorporale nihil tertium. age <lb/>
+            nunc <sic>sjt</sic> et tertium, quod illa recta ratio Hermogeniana <lb n="5"/>
+            compererit, quae neque corporalem neque incorporalem materiam <lb/>
+            facit: ubi est? quale est? quid uocatur? quid describitur? <lb/>
+            quid <choice><note>infcellegitur</note><corr>intellegitur</corr></choice>? (an) tantum hoc ratio renuntiauit, nec <lb/>
+            corporalem materiam nec incorporalem? 
+</p>
+</div1>
+
+<div1 n="36" subtype="section"><head>§ 36</head>
+
+<p>Sed ecce contrarium subicit, aut alia fortasse ratio ei <lb n="10"/>
+            occurrit, ex parte corporalem renuntians materiam et ex parte <lb/>
+            incorporalem. iam ergo ne neutrum sit, utrumque materia <lb/>
+            censenda est? erit enim corporalis et incorporalis, aduersus <lb/>
+            renuntiationem rectae rationis illius, plane rationem non reddentis <lb/>
+            sententiae suae, sicut nec alia reddit. corporale enim <lb n="15"/>
+            materiae uult esse, de quo corpora edantur, incorporale uero <lb/>
+            inconditum motum eius. 'si enim', ait, 'corpus tantummodo <lb/>
+            esset, nihil <sic>ej</sic> incorporale appareret, id est motus; si uero <lb/>
+            in totum incorporalis fuisset, nullum corpus ex ea fieret). <lb/>
+            quanto haec rectior ratio! nisi quod, si tam rectas lineas <lb n="20"/>
+            ducis, Hermogenes, quam ratiocinaris, pictor te bardior non <lb/>
+            est. quis enim tibi concedit motum in secundam partem
+
+<app> 1 corporalis sit necesse est aut incorporalis <hi>siripsi:</hi> corporalis sit <lb/>
+            necesse est aut corporalis F (aut corporalis <hi>del. m. 1),</hi> coiporalis sit <lb/>
+            . necesse est <hi>PNH1,</hi> corporalis aut incorporalis sit necesse est <hi>R3 uulno</hi> <lb/>
+            4 et <hi>om. F</hi> 6 quae <hi>R3,</hi> quod <hi>PNFR1</hi> 8 an <hi>addidi</hi> ratio &lt;illa) <lb/>
+            <hi>fort</hi>. 10 in contrarium <hi>F</hi> 12 ne neutrum <hi>R3,</hi> nene <hi>utrum. P,</hi> nouue <lb/>
+            utrum <hi>FRI,</hi> noie (= nomine) utrum <hi>N</hi> 14 rectae rationis <hi>R3,</hi> reparationis <lb/>
+            <hi>PBI,</hi> reciprocationis <hi>FR3 (ex Hirsaugiensi)</hi>. recipe rois <hi>N</hi> reddentis <lb/>
+            <hi>R3,</hi> reddentes <hi>PNFR1</hi> 15 nec R3, haec <hi>PNFR1</hi> 16 materiam <lb/>
+            <hi>F</hi> corpora edantur <hi>R,</hi> corpore dantur <hi>PNF</hi> 18 esset <hi>R</hi>. <lb/>
+            e-ise <hi>PNF</hi> 20 quando <hi>P (corr. R)</hi> ratio nisi R3, rationis si <lb/>
+            <hi>PNFBl</hi> si tam <hi>R3,</hi> sit <hi>PNFR1</hi> 21 ducis IR3, duci <hi>PNFR1</hi> ratiocinaris <lb/>
+            <hi>Iun:</hi> rationi satis <hi>PNFR', ratio</hi> ista <hi>R3</hi> te bardior <hi>PF,</hi> <lb/>
+            tardior <hi>N</hi> 22 quis <hi>R3,</hi> qui <hi>PNFR1</hi> </app> 
+<pb n="166"/>
+
+            substantiae deputare, cum substantiua res non sit, quia nec corporalis, <lb/>
+            sed accidens, si forte, substantiae et corpori, ut actus <lb/>
+            et pulsus, ut lapsus et casus, ita et motus. nam siue (ab alio <lb/>
+            siue) a semetipso quid mouetur, actus eius est motus, certe <lb/>
+            pars substantiae non est, sicut tu motum substantiam facis<lb n="5"/>
+            materiae incorporalem. omnia denique mouentur aut a semetipsis, <lb/>
+            ut animalia, aut ab aliis, ut inanimalia; tamen nec <lb/>
+            hominem nec lapidem et <choice><note>porporalem</note><corr>corporalem</corr></choice> et incorporalem dicemus. <lb/>
+            quia et corpus habeat et motum, sed unam omnibus formam <lb/>
+            solius corporalitatis, quae substantiae res est. si qua incorporalia <lb n="10"/>
+            eis adsunt, aut actus aut passiones aut officia aut libidines <lb/>
+            eorum, non portiones deputamus. quo ergo facit portionem <lb/>
+            materiae in motum disponere. qui non ad substantiam <lb/>
+            pertinet, sed ad substantiae habitum? quid enim, si immobilem <lb/>
+            placuisset tibi inducere materiam, numquid immobilitas<lb n="15"/>
+            secunda pars formae uideretur? sic itaque nec motus. sed <lb/>
+            de motu et alibi licebit. 
+</p>
+</div1>
+
+<div1 n="37" subtype="section"><head>§ 37</head>
+
+<p>Nunc enim uideo te ad illam rursus rationem reuerti, <lb/>
+            quae tibi <sic>nibil</sic> certi renuntiare consueuit. nam sicut nec <lb/>
+            corporalem nec incorporalem infers materiam, ita nec bonam <lb n="20"/>
+            nec malam adlegas et proinde superargumentans: 'si enim', <lb/>
+            inquis, 'esset bona, quae semper hoc fuerat non <choice><note>dosideraret</note><corr>desideraret</corr></choice> <lb/>
+            compositionem dei: si esset natura mala, non accepisset <lb/>
+            translationem in melius, nec quicquam compositionis suae <lb/>
+            adplicuisset illi deus, tali natura; in uacuum enim laborasset'.
+
+<app> 1 deputare R3, deputaret <hi>PNFR1</hi> corporalis. sed <hi>uulgo</hi> S et casus <lb/>
+            <hi>scripsi:</hi> ut casus <hi>PNF</hi> siue <hi>PNF,</hi> si uel <hi>Leopoldus</hi> ab alio sine <lb/>
+            <hi>addidi</hi> 4 quid <hi>R,</hi> quod <hi>PNF</hi> actus <hi>R,</hi> factus <hi>PNF</hi> 6 denique <lb/>
+            <hi>= namlich, ut saepissime</hi> aut a P, aut ut a <hi>NF</hi> 7 inanimalia <lb/>
+            in animata F 8 corporale et incorporale <hi>P</hi> 9 <hi>lacunam signaui:</hi> <lb/>
+            uindicamus <hi>puto supplendum</hi> 10 incorporalia <hi>Rs, incorpora PlfFR1</hi> <lb/>
+            11 libidines, eorum <hi>uulgo 16 forma = massa materiae cf. 170, 10</hi> sed <lb/>
+            de <hi>R,</hi> sed <hi>P,</hi> sede <hi>NF</hi> 18 ratione P 19 consueuit <hi>NR,</hi> consuebit <hi>PF</hi> <lb/>
+            20 infers <hi>R3,</hi> infert <hi>PNFR1</hi> 21 adlegas et <hi>Urs:</hi> adlegasset <hi>PNF</hi> superargumentaris <lb/>
+            <hi>Ellg:</hi> superargumentasset <hi>PN,</hi> super argumenta sed <hi>F,</hi> <lb/>
+            superargumentans <hi>Rig Oehlerus</hi> 22 inquis <hi>RNF,</hi> iniquius P </app> <lb n="25"/>
+             
+<pb n="167"/>
+            uerba haec tua sunt, quorum te et alibi meminisse oportuerat, <lb/>
+            ne quid his contrarium inferres. sed quoniam de mali et boni <lb/>
+            ambiguitate super materiam in praeteritis aliquid retractauimus, <lb/>
+            nunc ad praesentem et solam propositionem et argumentationem <lb/>
+            tuam respondebo. nec dicam et hic te certum aliquid debuisse <lb n="5"/>
+            pronuntiasse, aut bonam aut malam aut tertium aliquid, sed <lb/>
+            nec hic quod tibi libuit pronuntiasse custodisse. rescindis <lb/>
+            enim quod pronuntiasti, nec bonam nec malam, quia, cum <lb/>
+            dicis: (si esset bona, non desideraret componi a deo,' malam <lb/>
+            portendis, et cum adponis: (si esset mala natura, non admitteret <lb n="10"/>
+            in melius translationem', bonam subostendis. atque ita et boni <lb/>
+            et mali adfinem constituisti quam nec bonam nec malam <lb/>
+            pronuntiasti. ut autem et argumentationem, qua putasti te <lb/>
+            propositionem tuam confirmaturum, retundam, oppono etiam <lb/>
+            illud: si bona fuisset materia semper, quare non desiderasset <lb n="15"/>
+            in melius reformari? bonum non desiderat quod aut non optat <lb/>
+            aut non capit profectum, ut fiat de bono melius. aeque si <lb/>
+            mala natura fuisset, quare non potuerit a deo conuerti, ut a <lb/>
+            potentiore, ut ab eo, qui lapidum quoque naturam conuertere <lb/>
+            ualeat in filios Abrahae? nempe ergo non tantum comparas <lb n="20"/>
+            deum materiae sed et subicis, a quo natura materiae deuinci <lb/>
+            et edomari (in) melius potuisset. sed et quam hic non uis <lb/>
+            natura malam alibi te confessum negabis.
+
+<app> 19] cf. Mattb. 3, 9. </app>
+
+<app> 2 inferres <hi>B3,</hi> infert <hi>PNFR1</hi> 3 super materiam = <hi>plus quam materia <lb/>
+            postulabat</hi>? 6 bonam aut malam <hi>Urs:</hi> bona aut mala <hi>P NF</hi> 7 rescindis <lb/>
+            <hi>R3,</hi> reacindes <hi>PNFR1</hi> 9 dicis si esset <hi>R,</hi> discissiaset <hi>PNF</hi> a <lb/>
+            deo malam portendis R3, habeo (ab eo <hi>N)</hi> mala portentia <hi>PNFM1</hi> <lb/>
+            10 adponis <hi>R3,</hi> adpones <hi>PNFM1</hi> esset <hi>R,</hi> essent <hi>PNF</hi> admitteret <lb/>
+            <hi>R3,</hi> admitterem <hi>PNF</hi> 11 sabostendis <hi>R3,</hi> subostendes <hi>PR1,</hi> subostendens <lb/>
+            <hi>NF</hi> 12 quam JR3, ei quam <hi>PNFR1</hi> 13 ut autem <hi>R3,</hi> si autem <lb/>
+            <hi>PNFR1</hi> et argumentationem <hi>NF,</hi> argumentationem <hi>Puulgo</hi> 14 op- <lb/>
+            <hi>pono R3,</hi> illud <hi>oppono PNFR1</hi> 16 bonum non desiderat quod <hi>scripsi:</hi> <lb/>
+            quod bonum non desiderat <hi>PNF</hi> 21 deum <hi>Lat:</hi> dominum <hi>PNF Oehlerus</hi> <lb/>
+            22 in <hi>add. R3, om. PNFR1</hi> potuisset <hi>PNFR1,</hi> &lt;non) potuisset J23 <lb/>
+            <hi>uulgo</hi> 23 malam, &lt;malam)-negabis? <hi>van der Vliet</hi> negabis <hi>R3,</hi> <lb/>
+            negauit <hi>PNFR1</hi> </app> 
+<pb n="168"/>
+            
+</p>
+</div1>
+
+<div1 n="38" subtype="section"><head>§ 38</head>
+
+<p>De situ materiae id tracto, quod et de modo peruersitatem <lb/>
+            tuam traducat. subiacentem facis deo materiam <lb/>
+            et utique <choice><note>locuM</note><corr>locum</corr></choice>. illi, qui sit infra deum. in loco ergo <lb/>
+            materia. si in loco, ergo intra locum: si intra locum, ergo <lb/>
+            determinatur a loco, intra quem est: si determinatur, habet<lb n="5"/>
+            lineam extremam, quam tu, quantum proprie pictor. agnoscis <lb/>
+            finem esse omni rei, cuius linea extrema est. non ergo erit <lb/>
+            infinita materia, quae, dum in loco est, a loco determinatur. <lb/>
+            et dum determinatur ab illo, extremam eum lineam patitur. <lb/>
+            at tu infinitam facis dicens: (infinita est autem eo, quod <lb n="10"/>
+            semper est.' et si qui discipulorum tuorum uoluerit argumentari, <lb/>
+            quasi infinitam aeuo, non modo corporis intellegi uelis. <lb/>
+            atquin corporaliter infinitam, ut corporaliter immensam et incircumscriptam, <lb/>
+            sequentia ostendunt. 'unde,' inquis, (nec tota <lb/>
+            fabricatur, sed partes eius.' adeo corpore infinita, non tempore <lb n="15"/>
+            est, et obduceris corpore eam infinitam faciens, cum <lb/>
+            locum ei adscribens intra locum et extremam loci lineam <lb/>
+            includis. sed tamen cur non totam eam formauerit deus non <lb/>
+            scio, nisi qua aut inualidus aut inuidus. itaque dimidium <lb/>
+            eius, quae non tota formata sit, quaero. ut qualis tota fuerit <lb n="20"/>
+            agnoscam. debuerat enim deus ut exemplarium antiquitatis ad <lb/>
+            gloriam operis palam fecisse.
+
+<app> 1 et de (= <hi>simul et de). NF,</hi> ut de P 2 facis 2?3, facit <hi>PNFS1</hi> <lb/>
+            3 <hi>lacunam signaui:</hi> adsignas <hi>(cf. 171, 20) uel simile uerbum intercidisae<lb/>
+             uidetur</hi> 6 quam tu, quantum proprie pictor <hi>Eng:</hi> quam.. quantum <lb/>
+            proprie pictor P <hi>(inter</hi> quam <hi>et</hi> quantum <hi>spatium duarum litteraruin<lb/>
+             uacuum relictum),</hi> quam quantum proprie pictor <hi>NF uulgo</hi> agnnscis <lb/>
+            <hi>R3,</hi> agnoscit <hi>PNFR1</hi> H extremam eum lineam <hi>van der Tliet:</hi> <lb/>
+            extrema cum linea <hi>PNF</hi> 10 aut <hi>P (corr. R)</hi> 11 qui discipulorum <lb/>
+            <hi>R,</hi> quid bis ei polorum <hi>PNF</hi> 12 infinitam <hi>R,</hi> infinit <hi>PNF</hi> 13 infhiitam <lb/>
+            ut corpuraliter <hi>om. P (add. R in mg. ex Hirsaugiensi)</hi> 1 <lb/>
+            16 obduceris <hi>hoc loco = refelleris</hi> cum R3, tum <hi>PNFB1</hi> 17 ei <hi>R\\</hi> <lb/>
+            et <hi>PNFR1</hi> extremam <hi>R2,</hi> extremum <hi>PNFR1</hi> 18 includis <hi>JR3,</hi> includes <lb/>
+            <hi>PNFR1</hi> 19 aut <hi>R iloco priore),</hi> ut <hi>PNF</hi> itaque R3, itaque ut <lb/>
+            <hi>PNFRt,</hi> utique <hi>fort</hi>. 20 ut qualis <hi>R:ł,</hi> qualis <hi>PNFR1</hi> </app> 
+<pb n="169"/>
+            
+</p>
+</div1>
+
+<div1 n="39" subtype="section"><head>§ 39</head>
+
+<p>Sit nunc definitiua, sicut rectius tibi uidetur, per <lb/>
+            demutationes suas et translationes, sit et comprehensibilis, <lb/>
+            <sic>Cut</sic> quae fabricatur,' inquis, ca deo,' et dispartibilis, quia et <lb/>
+            conuertibilis et demutabilis, - (demutationes enim eius,' <lb/>
+            inquis, 'dispartibilem eam ostendunt': et hic a lineis tuis <lb n="5"/>
+            excidisti, quibus circa personam dei usus es, praescribens <lb/>
+            deum illam non ex semetipso fecisse, quia in partes uenire <lb/>
+            non posset qui sit aeternus et manens in aeuum ac per hoc <lb/>
+            immutabilis et indiuisibilis. si et materia eadem aeternitate <lb/>
+            censetur, neque initium habens neque finem, eadem ratione <lb n="10"/>
+            non poterit pati dispertitionem et demutationem, qua nec <lb/>
+            deus. in aeternitatis consortio posita participet cum illo necesse <lb/>
+            est et uires et leges et condiciones aeternitatis. aeque <lb/>
+            cum dicis: 'partes autem eius omnia simul ex omnibus <lb/>
+            habent, ut ex partibus totum dinoscatur,' utique eas partes <lb n="15"/>
+            intellegi uis, quae ex illa prolatae sunt, quae hodie uidentur <lb/>
+            a nobis. quomodo ergo omnia ex omnibus habent, <lb/>
+            utique ex pristinis, quando quae hodie uidentur aliter habeant <lb/>
+            quam pristina fuerunt?. 
+</p>
+</div1>
+
+<div1 n="40" subtype="section"><head>§ 40</head>
+
+<p>Dicis in melius reformatam materiam, utique (de) deterioribus, <lb n="20"/>
+            et uis meliora deteriorum exemplarium ferre? confusa <lb/>
+            res erat, nunc uero composita est, et uis ex compositis incomposita <lb/>
+            praeberi? nulla res speculum est rei alterius, id est <lb/>
+            non coaequalis; nemo se apud tonsorem pro homine mulum <lb/>
+            inspexit, nisi si qui putat in hac extructione mundi dispositae <lb n="25"/>
+            iam et comptae informem et incultam materiam
+
+<app> 2 sit et comprehenaibilis 123, sic et comprehensibiles <hi>PNFR1</hi> 3 et <lb/>
+            dispartibilis quia et coouertibilis et demutabilis <hi>scripsi:</hi> quia et conuertibilis <lb/>
+            et demutabilis et dispartibilis <hi>PNF</hi> 7 illam J23, illum <lb/>
+            <hi>2*NFRl</hi> 11 pati ij3, pater <hi>PNFIi1</hi> dispertitionem <hi>PN,</hi> dispersionem <lb/>
+            <hi>F</hi> 12 cum <hi>R3N,</hi> eum <hi>PFR1</hi> illo <hi>R3,</hi> illi <hi>PN,</hi> illic <hi>F</hi> 13 et <lb/>
+            <hi>(primum) om. F</hi> aeque <hi>R3,</hi> atque <hi>PNFB1</hi> 18 utique <hi>PN,</hi> ut <hi>F</hi> <lb/>
+            20 de <hi>add. Pam</hi> 23 rei alterius <hi>NFPam:</hi> alterius <hi>P</hi> 25 dispositae <lb/>
+            iam et comptae <hi>Lat:</hi> disposita iam et contempta <hi>PNF</hi> </app> <lb/>
+             
+<pb n="170"/>
+            respondere. quid hodie informe in mundo, quid retro speciatum in <lb/>
+            materia, ut speculum sit mundus materiae? cum ornamenti <lb/>
+            nomine sit penes Graecos mundus, quomodo inornatae materiae <lb/>
+            imaginem praefert, ut dicas totum eius ex partibus cognosci? <lb/>
+            certe ex illo toto erit etiam hoc, quod non uenit in deformationem;<lb n="5"/>
+            et supra edidisti non totam eam fabricatam. igitur <lb/>
+            uel hoc rude et confusum et incompositum non potest in <lb/>
+            expolitis et distinctis et compositis recognosci, quae nec <lb/>
+            partes materiae appellari conuenit, cum a forma eius. ex <lb/>
+            mutatione diuisa, recesserunt. <lb n="10"/>
+            
+</p>
+</div1>
+
+<div1 n="41" subtype="section"><head>§ 41</head>
+
+<p><sic>Renertor</sic> ad motum, ut ubique te lubricum ostendam: <lb/>
+            <sic>cinconditus</sic> et confusus et turbulentus fuit materiae <lb/>
+            motus.' sic enim et ollae undique ebullientis similitudinem <lb/>
+            opponis. et quomodo alibi alius a te adfirmatur? cum enim <lb/>
+            uis materiam nec bonam nec malam inducere: <sic>Cjgitur</sic>.)<lb n="15"/>
+            inquis, 'subiacens materia, aequalis momenti habens motum <lb/>
+            neque ad bonum neque ad malum plurimum uertit.' <lb/>
+            si aequalis momenti, iam non turbulentus (motus) nec <lb/>
+            caccabacius, sed compositus et temperatus, scilicet qui inter <lb/>
+            bonum et malum suo arbitrio agitatus, in neutram tamen <lb n="20"/>
+            partem pronus et praeceps, mediam, quod aiunt, aginam tenens <lb/>
+            aequilibrato impetu ferebatur. haec inquies non est, haec
+
+<app> 1 retro <hi>NR3,</hi> retrum <hi>F,</hi> tetrum <hi>PJB1</hi> 2 ut <hi>R3,</hi> aut <hi>PNF</hi> ornamenti <lb/>
+            <hi>R,</hi> ornamentis <hi>PNF</hi> 3 inornatae <hi>R3,</hi> inornata <hi>PNFRI</hi> 4 praefert <lb/>
+            <hi>PNFR1 OehlerltS,</hi> refert <hi>R3 reliqui</hi> partibus <hi>R3,</hi> passibus <hi>PNFR1</hi> <lb/>
+            5 toto R3, totum <hi>PNFRI</hi> 6 fabricatum <hi>Gel Rig</hi> 7 confusum et <lb/>
+            incompositam <hi>R3GN:</hi> confugi et incomputum <hi>PF</hi> non impoti-st <hi>F</hi> <lb/>
+            11 et ubique <hi>N</hi> lubricam <hi>P (corr. R)</hi> 12 confusus <hi>van der Vliet:</hi> <lb/>
+            inconfusus <hi>PNF</hi> 13 sic enim edis, ollae <hi>fort</hi>. 14 opponis <hi>R,</hi> oppones <lb/>
+            <hi>PNP,</hi> opponens <hi>fort</hi>. cum enim-inducere <hi>om. N</hi> 17 neque ad <lb/>
+            malum neque ad bonum <hi>N</hi> uertit <hi>PNFR',</hi> uergit <hi>JR3</hi> 18 motus <hi>addidi</hi> <lb/>
+            19 caccabacius <hi>PF,</hi> caccabatus <hi>N</hi> 21 mediam <hi>scripsi:</hi> mediar <hi>PRt,</hi> <lb/>
+            inediar <hi>NF,</hi> mediae <hi>R3 uulgo</hi> aginam tenens aequilibrato <hi>scripsi:</hi> <lb/>
+            aginate nerui librato <hi>PNR1,</hi> gnaten erui librato <hi>F,</hi> aginae aequilibrato <lb/>
+            <hi>Ry uulgo</hi> </app> <lb/>
+             
+<pb n="171"/>
+            turbulentia et passiuitas non est, sed moderatio et modestia <lb/>
+            et iustitia motationis neutram (in) partem inclinantis. plane si <lb/>
+            huc et illuc aut in alterum magis proclinaret, tunc inconcinnitatis <lb/>
+            et inaequalitatis et turbulentiae denotari mereretur. porro <lb/>
+            si neque ad bonum neque ad malum pronior erat motus, <lb n="5"/>
+            utique inter bonum et malum agebatur, ut ex hoc quoque <lb/>
+            materiam determinabilem adpareat, cuius motus nec malo nec <lb/>
+            bono pronus, eo, quod in neutrum uertebat, <choice n="0.00"><note n="3">linter</note><corr n="7305">inter</corr></choice> utrumque <lb/>
+            ab utroque censebatur et hoc nomine ab utroque <sic>determinabatur</sic>. <lb/>
+            sed et bonum et malum in loco facis, cum dicis <lb n="10"/>
+            motum materiae in neutrum eorum fuisse propensum. materia <lb/>
+            enim, quae in loco erat, neque huc neque illuc deuergens in <lb/>
+            loca non deuergebat, in quibus erat bonum et malum. dans <lb/>
+            autem locum bono et malo corporalia ea facis, faciendo localia, <lb/>
+            quia quae locum habent prius est, ut corporalia sint. denique <lb n="15"/>
+            incorporalia proprium locum non habent, nisi in corpore <lb/>
+            cum corpori accidunt. (ad) bonum autem et malum non t <lb/>
+            deuergent materia ut aut corporalia aut localia non deuergebat. <lb/>
+            bonum ergo et malum erras si (non) substantias esse uis. substantias <lb/>
+            enim facis quibus loca adsignas; loca autem adsignas, <lb n="20"/>
+            cum materiae motum ab utraque regione suspendis.
+
+<app> 1 tnrbulentia <hi>B3,</hi> torbulenta <hi>PNFR1</hi> 2 motationis. R3, mutatiQiiiB <lb/>
+            <hi>PNFR1</hi> &lt;in) partem R3, partem <hi>PNFR</hi> 3 aut <hi>om. F</hi> alterum <lb/>
+            <hi>R3,</hi> tale rerum <hi>PN,</hi> talerum <hi>F</hi> proclinaret <hi>R3,</hi> proclibarunt <hi>PNF,</hi> <lb/>
+            proclinarunt JK1 tunc inconcinnitatia <hi>PN,</hi> concinnitatis <hi>F</hi> 4 turbulentiae <lb/>
+            <hi>R,</hi> turbulentias <hi>PNF</hi> 7 materiam <hi>R,</hi> materia <hi>PNF</hi> appareat <lb/>
+            <hi>R3,</hi> adparet <hi>PNFR1</hi> 8 uertebat <hi>PNFR1,</hi> uergebat <hi>R3 uulgo</hi> inter <lb/>
+            <hi>xcripsi:</hi> intra <hi>PNF</hi> 9 censebatur <hi>Eng:</hi> censebat <hi>PNFR1,</hi> pendebat <lb/>
+            <hi>R3 uulgo</hi> 16 habent <hi>scripsi:</hi> haberent <hi>PNF</hi> 17 accidunt <hi>Rig:</hi> accedunt <lb/>
+            <hi>PNF Oehlerus</hi> &lt;ad) bonum <hi>R3,</hi> bonum <hi>PNFR1</hi> 18 deuergent <lb/>
+            <hi>PNFR1,</hi> deuergens <hi>Oehlerus,</hi> deuergente <hi>R* reliqui</hi> ut aut <hi>PNFR1,</hi> <lb/>
+            utat <hi>R3 uulgo (quod ego non intellego). fortasse sic erunt restituenda <lb/>
+            haec uerba:</hi> &lt;ad) bonum autem et malum non deuergenB materia, ad <lb/>
+            corporalia, ut ad localia, non deuergebat = dans autem locum—corpo* <lb/>
+            ralia <hi>sint. nescio igitur, an includenda sint ut prior auctoris mantia</hi>. <lb/>
+            19 erras ai <hi>GR3,</hi> errasse <hi>PNFR1</hi> non <hi>addidi</hi>-</app> 
+<pb n="172"/>
+            
+</p>
+</div1>
+
+<div1 n="42" subtype="section"><head>§ 42</head>
+
+<p>Dispersisti omnia, ne de proximo quam contraria sibi <lb/>
+            sint relucerent. at ego colligam singula et conferam. inconditum <lb/>
+            adseueras motum materiae eamque adicis sectari informitatem; <lb/>
+            dehinc alibi, desiderare componi a deo. desiderat formationem <lb/>
+            quae sectatur informitatem? aut sectatur informitatem<lb n="5"/>
+            quae desiderat formationem? non uis uideri deum aequare <lb/>
+            materiae, et subicis habere illam cum deo communionem. <lb/>
+            (impossibile enim,' inquis, 'non habentem illam commune <lb/>
+            aliquid cum deo ornari eam ab ipso.' atquin, si commune <lb/>
+            aliquid habebat cum deo, non desiderabat exornari ab ipso. <lb n="10"/>
+            pars scilicet dei per communionem. aut et deus poterat ornari <lb/>
+            a materia, habendo cum illa aliquid et ipse commune. etiam <lb/>
+            in hoc necessitati subicis deum, si fuit aliquid in materia. <lb/>
+            propter quod eam formaret. commune autem inter illos facis, <lb/>
+            quod a semetipsis moueantur et semper moueantur. quid <lb n="15"/>
+            minus materiae quam deo adscribis? totum consortium diuinitatis <lb/>
+            hoc erit: libertas et aeternitas motus. sed deus composite, <lb/>
+            materia incondite <choice n="0.02"><note n="5">monetur</note><corr n="244">mouetur</corr></choice>. tamen diuinum proinde (<choice><note>utrurnque</note><corr>utrumque</corr></choice>), <lb/>
+            motu proinde libero et aeterno. atquin plus materiae das. <lb/>
+            cui licuit sic moueri, quomodo deo non licuit. <lb n="20"/>
+            
+</p>
+</div1>
+
+<div1 n="43" subtype="section"><head>§ 43</head>
+
+<p>De motu et illud notauerim. nam secundum ollae <lb/>
+            similitudinem: 'sic erat,' inquis, 'materiae motus antequam <lb/>
+            disponeretur: concretus, inquietus, inadprehensibilis prae <lb/>
+            nimietate certaminis.' dehinc subicis: (stetit autem in dei
+
+<app>6 aequare <hi>F,</hi> aequari <hi>PNuulgo</hi> 7 illam Ji3, illa <hi>PNFlil</hi> communionem <lb/>
+            <hi>R3,</hi> commune <hi>PNFR1</hi> 8 commune R3, communionem <hi>PXFli1</hi> <lb/>
+            9 aliquod <hi>F</hi> 12 commune, etiam <hi>scripsi:</hi> commune: etiam <hi>PFR1,</hi> <lb/>
+            commune, et iam <hi>NB3uulgo,</hi> commune? etiam <hi>Etig offendo in uerbis:</hi> <lb/>
+            etiam in hoc; <hi>nihil enim adhuc attulit auctor, ex quo subiecisse deum<lb/>
+             necessitati intellegatur Hermogenes</hi> 13 subicis deum <hi>R3,</hi> Bubici dei <lb/>
+            <hi>PNFR1</hi> 14 formaret <hi>R3,</hi> formare <hi>PNFR1</hi> 15 moneantur <hi>scripsi:</hi> <lb/>
+            mouentur <hi>PNF</hi> moneantur <hi>PNE'Rt,</hi> mouentur <hi>R3 uulgo</hi> 16 quam <lb/>
+            deo <hi>RF,</hi> quando <hi>PN</hi> cousortium <hi>om. F</hi> 18 materia <hi>R,</hi> materiae <lb/>
+            <hi>PN,</hi> ex materiae <hi>F</hi> mouetur <hi>scripsi:</hi> mouentur <hi>PNF</hi> utrumque <hi>add. <lb/>
+            Eng</hi> 22 erat <hi>R3,</hi> erit <hi>PNFR1</hi> </app> <lb/>
+             
+<pb n="173"/>
+            compositionem et adprehensibilem habuit inconditum motum <lb/>
+            pro tarditate inconditi motus.' supra certamen motui <sic>adscribist</sic> <lb/>
+            hic tarditatem. iam de natura materiae quotiens cadas accipe. <lb/>
+            supra dicis: *si autem esset materia natura mala, non accepisset <lb/>
+            translationem in melius, nec deus aliquid compositionis <lb n="5"/>
+            accommodasset illi; in uacuum enim laborasset.' <lb/>
+            finisti igitur duas sententias: nec materiam natura malam nec <lb/>
+            naturam eius a deo potuisse conuerti. horum immemor postea <lb/>
+            infers: 'at ubi accepit compositionem a deo et ornata est, <lb/>
+            cessauit a natura'. si in bonum reformata est, utique de malo <lb n="10"/>
+            reformata est, et si per compositionem dei cessauit a natura, <lb/>
+            .(:1) mali natura cessauit. ergo et mala fuit natura ante <lb/>
+            compositionem et desinere potuit a natura post reformationem. 
+</p>
+</div1>
+
+<div1 n="44" subtype="section"><head>§ 44</head>
+
+<p>Sed et qualiter operatum facias deum, sequitur ut <lb/>
+            ostendam. plane a philosophis recedis; sed tamen et a prophetis. <lb n="15"/>
+            Stoici enim uolunt deum sic per materiam decucurrisse, <lb/>
+            quomodo <choice n="0.13"><note n="291">mel</note><corr n="1831">mei</corr></choice> per fauos. at tu 'non,' inquis, (pertransiens <lb/>
+            illam facit mundum, sed solummodo apparens et adpropinquans <lb/>
+            ei, sicut facit quid acor solummodo apparens et <lb/>
+            magnes lapis solummodo adpropinquans'. quid simile deus <lb n="20"/>
+            fabricans mundum et acor uulnerans animum aut magnes <lb/>
+            attrahens ferrum? nam etsi apparuit deus materiae, sed non <lb/>
+            uulnerauit illam, quod acor animum, etsi adpropinquauit,
+
+<app>17] cf. Diog. Laert. VII, 147. </app>
+
+<app> 1 adprehensibilem <hi>scripsi:</hi> inadprehensibilem <hi>PNF</hi> 2 pro <hi>scripsir</hi> <lb/>
+            t,rae <hi>PNF</hi> motui <hi>R3,</hi> motus <hi>PNFR1</hi> adscribis <hi>NR,</hi> adscribi <lb/>
+            <hi>PF</hi> 3 hic <hi>NR,</hi> sic <hi>PF</hi> iam <hi>scripsi:</hi> nam <hi>PNF</hi> accipe <hi>FR3,</hi> <lb/>
+            accipis <hi>PN</hi> 4 dicis <hi>R3,</hi> iudices <hi>PNFR1</hi> 5 deus i23, dei <hi>PNFR1</hi> <lb/>
+            s postea <hi>om. P (add. 8. u. R ex Hirsaugiensi) N</hi> 9 infers <hi>R3,</hi> inferens <lb/>
+            <hi>PNFRi Oehlervs</hi> 10 utique-reformata est <hi>om. NF</hi> 11 a natura, &lt;a) <lb/>
+            mali natura eCtisauit. ergo et <hi>scripsi:</hi> a natura mali, natura cessanit ergo, <lb/>
+            et <hi>PN uulgo</hi> cessanit-natara <hi>om. F</hi> 14 utique de mala reformata. <lb/>
+            5ed <hi>et F icf. supra l. 10 in naiis)</hi> 15 recedis. sed <hi>R3,</hi> recessisse <hi>PNFR1</hi> <lb/>
+            16 decurrisse <hi>F</hi> 19 ei-adpropioquans om. <hi>N</hi> quid <hi>PF Iun Oehlerus:</hi> <lb/>
+            'łui <hi>R3 reliqui</hi> acor <hi>scripsi (sicut et infra l. 21 et 23);</hi> decor <lb/>
+            <hi>PNF</hi> apparens-solummodo <hi>om. P (add. R in mg. ex Hirsavgie'luri)</hi> </app> <lb/>
+             
+<pb n="174"/>
+            sed non cohaesit illi, quod magnes ferro. puta nunc exempla <lb/>
+            tua competere: certe si apparendo et adpropinquando materiae <lb/>
+            fecit ex illa deus mundum, utique ex quo apparuit fecit <lb/>
+            et ex quo adpropinquauit. ergo quando non ' fecerat retro, <lb/>
+            nec apparuerat illi nec appropinquauerat. et cui credibile<lb n="5"/>
+            est deum non apparuisse materiae, uel qua consubstantiali <lb/>
+            suae per aeternitatem? ab ea longe fuisse quem credimus <lb/>
+            ubique esse et ubique apparere, cui etiam inanimalia <lb/>
+            et incorporalia laudes canunt apud Danihelem? quantus hic <lb/>
+            locus, in quo deus a materia tantum distabat, ut neque<lb n="10"/>
+            appareret neque adpropinquaret ante mundi molitionem? credo, <lb/>
+            peregrinatus est ad illam de longinquo, cum <choice><note>priraum</note><corr>primum</corr></choice> ei uoluit <lb/>
+            apparere et adpropinquare. 
+</p>
+</div1>
+
+<div1 n="45" subtype="section"><head>§ 45</head>
+
+<p>At enim prophetae et apostoli non ita tradunt mundum <lb/>
+            a deo factum, apparente solummodo et adpropinquante materiae, <lb n="15"/>
+            quia nec materiam ullam nominauerunt, sed primo sophiam <lb/>
+            conditam, initium uiarum in opera ipsius, dehinc et sermonem <lb/>
+            prolatum, per quem omnia facta sunt et sine quo factum <lb/>
+            est nihil. denique sermone eius caeli confirmati sunt <lb/>
+            et spiritu ipsius uniuersae uirtutes eorum. haec est dei<lb n="20"/>
+            dextra et manus ambae, per quas operatus est atque molitus <lb/>
+            est: opera enim manuum tuarum, inquit, caeli, per quas <lb/>
+            et mensus est: mensus est ** caelum et palmo terram.
+
+<app> 9] cf. Dan. 3, 59-80. 16] cf. Prou. 8, 22. 17] cf. Ioh. 1. 3. <lb/>
+            19] Ps. 32, 6. 22] Pa. 101, 26. 23] Es. 40, 12. </app>
+
+<app> 1 cohaesit <hi>NFR,</hi> conchio essit P <hi>(corr. R)</hi> 2 tua 223, ut <hi>PNFR1</hi> <lb/>
+            4 et <hi>om. F</hi> 7 quem JS3, quam <hi>PNFR1</hi> 8 et inanimalia <hi>N</hi> 9 et mcorporalia <lb/>
+            <hi>PN,</hi> incorporalia <hi>F</hi> 11 <hi>appareret-adpropinquaret R,</hi> apparere-appropinquarc <lb/>
+            <hi>PNF</hi> 12 pergrugatus P (corr. <hi>R)</hi> longingeo <hi>P <lb/>
+            (corr. R)</hi> 15 materia P <hi>(corr. R)</hi> 16 sophiam conditam <hi>FR,</hi> sophia <lb/>
+            condita P, sophia conditam <hi>N</hi> 17 initium <hi>Pam:</hi> initiarum <hi>PNJ.',</hi> <lb/>
+            initia <hi>R Gel Oehlerus</hi> 19 confirmati <hi>PN,</hi> cum sumati <hi>F (id est:</hi> consummati) <lb/>
+            20 haec <hi>Eng,</hi> hic <hi>PNF</hi> dei <hi>S's,</hi> deus <hi>PNFR1</hi> 21 dextra <hi>P:łt</hi>. <lb/>
+            deltera F 23 mensus eat mensus <hi>est F,</hi> mensus <hi>est PNuulgo lacunam <lb/>
+            signavi;</hi> inquit, manu <hi>intercidisse uidetur</hi>. </app> <lb/>
+             
+<pb n="175"/>
+            noli ita deo adulari, ut uelis illum solo uisu et solo accessu <lb/>
+            tot ac tantas substantias protulisse et non propriis uiribus <lb/>
+            instituisse. sic enim et Hieremias commendat: deus, faciens <lb/>
+            terram in ualentia sua, parans orbem in intellegentia <lb/>
+            sua, et suo sensu extendit caelos. haec sunt uires eius, <lb n="5"/>
+            quibus enixus totum hoc condidit. maior est gloria eius, si <lb/>
+            laborauit. denique septima die requieuit ab operibus. utrumque <lb/>
+            suo more. aut si apparens solummodo et adpropinquans <lb/>
+            fecit hunc mundum, numquid, cum fecerat, desiit rursus <lb/>
+            apparere et adpropinquare cessauit? atquin magis apparere <lb n="10"/>
+            coepit et ubique conueniri deus, ex quo factus est mundus. <lb/>
+            uides ergo, quemadmodum operatione dei uniuersa consistunt, <lb/>
+            ualentia facientis terram, intellegentia parantis orbem et <lb/>
+            sensu extendentis caelum, non apparentis solummodo nec <lb/>
+            adpropinquantis sed adhibentis tantos animi sui nisus, sophiam <lb n="15"/>
+            ualentiam sensum sermonem spiritum uirtutem, quae illi non <lb/>
+            erant necessaria, ut adparendo tantummodo et adpropinquando <lb/>
+            praefectus fuisset. haec autem, non materiae nescio quae sensualia <lb/>
+            sed ipsius, sunt inuisibilia eius. quae secundum apostolum <lb/>
+            ab institutione mundi factis eius conspiciuntur. quis enim cognouit <lb n="20"/>
+            sensum domini? de quo exclamat: (o) profundum diuitiarum <lb/>
+            et sophiae, ut (in)inuentibilia iudicia eius et
+
+<app> 3] Hier. 28, 15. (51, 15). 19J cf. Rom. 1, 20. 20] cf. Rora. 11, 19. <lb/>
+            21] Rom. 11, 33. </app>
+
+<app> 1 noli <hi>R3,</hi> non <hi>PNFR1</hi> 5 haec <hi>PKFR1,</hi> hae <hi>R3</hi> 6 hoc <hi>om. F</hi> eius <lb/>
+            <hi>F, cm. P (add. R in mg. ex Hirsaugienni) N</hi> 8 apparens solummodo R3, <lb/>
+            appresFo dummodo <hi>PNFR1</hi> 9 fecerat <hi>scripsi:</hi> feceret <hi>F,</hi> faceret <hi>PN,</hi> <lb/>
+            facere <hi>R vulgo</hi> 12 dei—conaistunt <hi>K3,</hi> deus-constituit <hi>PNFR1</hi> 13 parantis <lb/>
+            <hi>R,</hi> parentis <hi>PNF</hi> 14 sensu extendentis <hi>R,</hi> sensum extenditis <lb/>
+            <hi>JPNF</hi> apparentis-adpropinquantis <hi>R,</hi> apparentes-adpropinquantes <lb/>
+            <hi>PNF</hi> 15 adhibentis <hi>R,</hi> adhibentes <hi>F,</hi> hibentis <hi>PN</hi> 17 erant <hi>R:I,</hi> <lb/>
+            erant <hi>PNFR1</hi> 18 praefectus <hi>scripsi:</hi> profectus <hi>PNF,</hi> perfectus <hi>Lat <lb/>
+            Oehlerus verba</hi> non materiae-ipsius <hi>in libris mss. paulo infra post</hi> <lb/>
+            conspiciuntur <hi>tradita httc transposui</hi> 20 &lt;de&gt; factis <hi>Lat (sed c/</hi>. <lb/>
+            KOETjjiaatv) conspiciuntur non <hi>R3 (cf. supra l. 18),</hi> conspici unum ne <lb/>
+            <hi>PATfi1 21 o addidi 22 ininuentibilia Pavi: inuentibilia PNF</hi> ininuestigabilea <lb/>
+            <hi>Pam:</hi> inuestigabiles <hi>PNF</hi> </app> <lb/>
+             
+<pb n="176"/>
+            (in)inuestigabiles uiae eius! quid haec magis sapiunt quam: <lb/>
+            ut ex nihilo omnia facta sunt! quo nec inueniri nec inuestigari <lb/>
+            nisi soli deo possunt, alioquin inuestigabilia, si ex materia. <lb/>
+            [sunt inuestigata et non inuenta.] igitur in quantum constitit <lb/>
+            materiam nullam fuisse, ex hoc etiam, quod nec talem competat<lb n="5"/>
+            fuisse, qualis inducitur, in tantum probatur omnia a deo <lb/>
+            ex nihilo facta.... nisi quod Hermogenes eundem statum <lb/>
+            describendo materiae, quo est ipse, inconditum, confusum, <lb/>
+            turbulentum, ancipitis et praecipitis et feruidi motus, <choice><note>doctimentum</note><corr>documentum</corr></choice> <lb/>
+            artis suae dum ostendit, ipse (se) pinxit.
+
+<app> 1 quid <hi>NR,</hi> quod <hi>PF</hi> quam: ut <hi>Eng:</hi> quam ut <hi>uulgo</hi> 2 sunt <lb/>
+            <hi>PNP;</hi> sint <hi>R uulgo</hi> quo <hi>acripsi:</hi> quae <hi>PNF</hi> 3 soli F, solo PN <lb/>
+            possunt <hi>scripsi:</hi> possent <hi>PNF</hi> 4 sunt-inuenta <hi>seclusi:</hi> sunt, inuestigata <lb/>
+            et non inaenta <hi>Eng</hi> non <hi>del. R</hi> constitit <hi>N,</hi> constituit <hi>PF</hi> <lb/>
+            6 ducitur <hi>F</hi> probatur R3, probaretur <hi>PNFR1</hi> 7 <hi>lacunam signaui:</hi> <lb/>
+            in uacuum ergo laborauerunt materiarii isti <hi>uel simile aliquid intercidisse<lb/>
+             puto</hi> nisi quod <hi>FR (ex Hirsaugienst),</hi> nisi <hi>PN</hi> 8 describendo R:I, <lb/>
+            describendi <hi>PNFBX</hi> 9 documentum <hi>R,</hi> documentia <hi>PNF</hi> 10 dum <hi>1P,</hi> <lb/>
+            de <hi>PNFR1</hi> se <hi>add. R3, om. PNFR1</hi> ADVERSVS HERMOGENEM <lb/>
+            EXPLICIT <hi>P,</hi> Explicit aduersus hermogenem <hi>NF; in F haec inuenitur<lb/>
+             subscriptio:</hi> Iste liber finitus est per fratrem thomam de lypham ordinis <lb/>
+            minorum In pfortzen feria quarta quattuor temporum ab incarnatione domini <lb/>
+            MCCCO0 XXVI.' </app> <lb n="10"/>
+            
+<pb n="177"/>
+            
+</p>
+        
+</div1>
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Additamentum</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1851</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 101</title>
+           <idno>AugHip.Addita2</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Additamentum</head>
+<p>
+          <pb n="0299B"/>Dum lectus fuit mihi ad mensam tractatus ille,
+subito venerunt in aures haec verba: [Si in mente
+tibi non venit Christus, dormit, excita Christum,
+recole fidem. Tunc in te dormit Christus, si verum
+illum filium Dei abnegas esse, si oblitus es passionis
+illius. Tunc in te vigilat Christus, si meministi passionem
+Christi.]</p>
+<p> <emph>915</emph> In praesenti disputatione si eveniat causa cum
+quolibet verba serere de adoptione et proprietate,
+quam dicunt in Christo esse, interrogandum est quae sit
+persona Filii Dei in aeterna nativitate? An sit unigenitus
+in illa persona, verus et proprius Filius Dei?
+Si inquisitor [ <hi>Forte,</hi> inquisitus, <hi>seu</hi> quaesitus] respondit:
+Certissime unigenitus est in illa persona, verus
+et proprius Filius Dei; statim habes respondere et
+captare eum ex suis verbis: Si unigenitus est in
+ea persona, quam aeternaliter habuit, utique in illam
+personam assumpsit humanitatem veram, ut
+esset unigenitus, proprius et verus Filius Dei, et
+nullum locum habet adoptio in illa persona. Nos
+<pb n="0299C"/>
+sumus in persona adoptionis, ille est sicut fuit ante
+assumptionem humanitatis totus in persona proprietatis.
+Si adoptivus est in humanitate, et unigenitus
+<pb n="0300B"/>
+in divinitate, absque omni dubio duas habet personas,
+nostram scilicet, qui sumus adoptivi Filii Dei,
+et suam, quam aeternaliter habuit.</p>
+<p>Item interrogandum est, si beatissima Virgo genitrix
+Dei vere dicatur? Vel si proprius sit filius ejusdem
+Virginis Christus in divina et humana natura?
+Si responderit inquisitor: Est ea ratione proprius
+et totus Christus in duabus naturis Dei Patris Filius:
+quia sicut humiliavit divinitas seipsam, ut esset
+unusquisque [ <hi>Forte,</hi> filius: <hi>verum videtur aliquid
+deesse</hi> ] hominis; ita exaltata est humanitas, ut
+esset verus Dei Filius. Si adoptiva est humanitas Deo
+Patri, adoptiva est divinitas Virgini matri, quia alia
+substantia est divinitas, alia est humanitas, et e contrario
+alia humanitas, alia divinitas. Illa, id est divinitas,
+propter hominem homo verus, et verus filius
+hominis: ista propter Deum, verus Deus et verus
+Filius Dei.</p>
+<p>Item si propter assumptionem, sicut solent illi dicere,
+humanitatis adoptivus est in humanitate, illius
+<pb n="0300C"/>
+est siquidem adoptivus, qui assumpsit hominem, id
+est, Filii Dei. Sola namque Filii persona assumpsit
+hominem, id est, Filii Dei.
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

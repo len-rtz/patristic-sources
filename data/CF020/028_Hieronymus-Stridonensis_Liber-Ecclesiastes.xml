@@ -1,0 +1,886 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Liber Ecclesiastes</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 28</title>
+           <idno>HieStr.LibEcc</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>VERBA ECCLESIASTAE, FILII DAVID REGIS JERUSALEM.</head>
+
+<pb n="1273C"/>
+<div3>
+          <head>[Cap. I.]</head>
+<l> Vanitas vanitatum, dixit Ecclesiastes:</l>
+<l rend="indent">vanitas vanitatum, et omnia vanitas.</l> 
+<l>Quid habet amplius homo,</l>
+<l rend="indent(1)">de universo labore suo, quo laborat sub sole?</l> 
+<l>Generatio praeterit, et generatio advenit,</l>
+<l rend="indent">terra vero in aeternum stat.</l> 
+<l>Oritur sol, et occidit,</l>
+<l rend="indent">et ad locum suum revertitur:</l>
+<l>Ibique renascens, gyrat per meridiem,</l>
+<l rend="indent">et flectitur ad aquilonem:</l>
+<l>Lustrans universa in circuitu pergit spiritus,</l>
+<l rend="indent">et in circulos suos regreditur.</l> 
+<l>Omnia flumina intrant in mare,</l>
+<l rend="indent">et mare non redundat:</l>
+<l>Ad locum, unde exeunt flumina, revertuntur,</l>
+<l rend="indent">ut iterum fluant.</l> 
+<l>
+<pb n="1274C"/>Cunctae res difficiles:</l>
+<l rend="indent">non potest eas homo explicare sermone.</l> 
+<l>Non saturatur oculus visu,</l>
+<l rend="indent">nec auris impletur auditu.</l> 
+<l>Quid est quod fuit?</l> 
+<l rend="indent">ipsum quod futurum est:</l>
+<l>Quid est quod factum est?</l> 
+<l rend="indent">ipsum quod faciendum est.</l> 
+<l>Nihil sub sole novum,</l>
+<l rend="indent">nec valet quisquam dicere: Ecce hoc recens est.</l> 
+<l>Jam enim praecessit in saeculis;</l>
+<l rend="indent">quae fuerunt ante nos</l>
+<l>Non est priorum memoria:</l>
+<l rend="indent">sed nec eorum quidem, quae postea futura sunt,</l>
+<l rend="indent">erit recordatio apud eos,</l>
+<l rend="indent">qui futuri sunt in novissimo.</l> 
+<l>EGO ECCLESIASTES</l>
+<l rend="indent">fui rex Israel in Jerusalem,</l>
+<l>Et proposui in animo meo quaerere</l>
+<l rend="indent">
+<pb n="1275A"/>et investigare sapienter</l>
+<l rend="indent">de omnibus quae fiunt sub sole.</l> 
+<l>Hanc occupationem pessimam dedit Deus filiis hominum,</l>
+<l rend="indent">ut occuparentur in ea.</l> 
+<l>Vidi cuncta, quae fiunt sub sole,</l>
+<l rend="indent">et ecce universa vanitas, et afflictio spiritus.</l> 
+<l>Perversi difficile corriguntur,</l>
+<l rend="indent">et stultorum infinitus est numerus.</l> 
+<l>Locutus sum in corde meo, dicens:</l>
+<l>Ecce magnus effectus sum,</l>
+<l rend="indent">et praecessi sapientia omnes,</l>
+<l rend="indent">qui fuerunt ante me in Jerusalem:</l>
+<l rend="indent">et mens mea contemplata est multa sapienter, et</l>
+<l rend="indent(1)">didicit.</l> 
+<l>Dedique cor meum, ut scirem prudentiam, atque</l>
+<l rend="indent(1)">doctrinam,</l>
+<l rend="indent">erroresque et stultitiam;</l>
+<l>Et agnovi quod in his quoque esset labor,</l>
+<l rend="indent">et afflictio spiritus.</l> 
+<l>
+<pb n="1275B"/>Eo quod in multa sapientia, multa sit indignatio:</l>
+<l rend="indent">et qui addit scientiam, addit laborem [ <hi>Al.</hi> dolorem.]</l>
+</div3>
+<div3>
+          <head>[Cap. II.]</head>
+<l> Dixi ego in corde meo:</l>
+<l>Vadam, et affluam deliciis,</l>
+<l rend="indent">et fruar bonis.</l> 
+<l>Et vidi quod hoc quoque esset vanitas.</l> 
+<l>Risum reputavi errorem:</l>
+<l rend="indent">et gaudio dixi: Quid frustra deciperis?</l> 
+<l>Cogitavi in corde meo abstrahere a vino carnem</l>
+<l rend="indent(1)">meam.</l> 
+<l rend="indent">ut animum meum transferrem ad sapientiam,</l>
+<l rend="indent">devitaremque stultitiam.</l> 
+<l>Donec viderem quid esset utile filiis hominum:</l>
+<l rend="indent">quo facto opus est sub sole numero dierum vitae</l>
+<l rend="indent(1)">suae.</l> 
+<l>Magnificavi opera mea:</l>
+<l rend="indent">aedificavi mihi domos,</l>
+<l rend="indent">et plantavi vineas:</l>
+<l>
+<pb n="1275C"/>Feci hortos, et pomaria,</l>
+<l rend="indent">et consevi ea cuncti generis arboribus;</l>
+<l>Et exstruxi mihi piscinas aquarum,</l>
+<l rend="indent">ut irrigarem silvam lignorum germinantium;</l>
+<l>Possedi servos et ancillas,</l>
+<l rend="indent">multamque familiam habui:</l>
+<l>Armenta quoque, et magnos ovium greges,</l>
+<l rend="indent">ultra omnes qui fuerunt ante me in Jerusalem:</l>
+<l>Coacervavi mihi argentum, et aurum, et</l>
+<l rend="indent">substantias regum, ac provinciarum:</l>
+<l>Feci mihi cantores, et cantatrices,</l>
+<l rend="indent">et delicias filiorum hominum,</l>
+<l>Scyphos et urceos in ministerio ad vina fundenda.</l> 
+<l rend="indent">et supergressus sum opibus omnes, qui fuerunt</l>
+<l rend="indent(1)">ante me in Jerusalem.</l> 
+<l>Sapientia quoque perseveravit mecum:</l>
+<l rend="indent">et omnia, quae desideravunt oculi mei, non negavi eis:</l>
+<l>Nec prohibui cor meum quin omni voluptate frueretur.</l> 
+<l rend="indent">
+<pb n="1275D"/>et oblectaret se in his, quae praeparaveram:</l>
+<l>Et hanc ratus sum partem meam,</l>
+<l rend="indent">si uterer labore meo.</l> 
+<l>Cumque me convertissem ad universa opera, quae</l>
+<l rend="indent(1)">fecerant manus meae,</l>
+<l rend="indent">et ad labores, in quibus frustra sudaveram,</l>
+<l>Vidi in omnibus vanitatem et afflictionem animi,</l>
+<l rend="indent">et nihil permanere sub sole.</l> 
+<l>Transivi ad contemplandum sapientiam,</l>
+<l rend="indent">erroresque et stultitiam.</l> 
+<l>
+<pb n="1276A"/>Quid est, inquam, homo,</l>
+<l rend="indent">ut sequi possit regem Factorem suum?</l> 
+<l>Et vidi quia tantum praecederet sapientia stultitiam,</l>
+<l rend="indent">quantum differt lux a tenebris.</l> 
+<l>Sapientis oculi in capite ejus:</l>
+<l rend="indent">stultus in tenebris ambulat:</l>
+<l rend="indent">et didici quod unus utriusque esset interitus.</l> 
+<l>Et dixi in corde meo:</l>
+<l>Si unus et stulti et meus occasus erit,</l>
+<l rend="indent">quid mihi prodest quod majorem sapientiae dedi</l>
+<l rend="indent(1)">operam?</l> 
+<l>Locutusque cum mente mea,</l>
+<l rend="indent">animadverti quod hoc quoque esset vanitas.</l> 
+<l>Non enim erit memoria sapientis similiter ut stulti</l>
+<l rend="indent(1)">in perpetuum,</l>
+<l rend="indent">et futura tempora oblivione cuncta pariter operient.</l> 
+<l>Moritur doctus similiter et indoctus:</l>
+<l rend="indent">et idcirco taeduit me vitae meae,</l>
+<l>Videntem mala universa esse sub sole,</l>
+<l rend="indent">
+<pb n="1276B"/>et cuncta vanitatem et afflictionem spiritus:</l>
+<l>Rursus detestatus sum omnem industriam meam,</l>
+<l rend="indent">qua sub sole studiosissime laboravi,</l>
+<l>Habiturus haeredem post me,</l>
+<l rend="indent">quem ignoro, utrum sapiens an stultus futurus sit,</l>
+<l>Et dominabitur in laboribus meis,</l>
+<l rend="indent">quibus desudavi et sollicitus fui:</l>
+<l rend="indent">et est quidquam tam vanum?</l> 
+<l>Unde cessavi,</l>
+<l rend="indent">renuntiavitque cor meum ultra laborare sub sole.</l> 
+<l>Nam cum alius laboret in sapientia, et doctrina,</l>
+<l rend="indent">et sollicitudine,</l>
+<l rend="indent">homini otioso quaesita dimittit:</l>
+<l rend="indent">et hoc ergo vanitas, et magnum malum.</l> 
+<l>Quid enim proderit homini de universo labore suo,</l>
+<l rend="indent">et afflictione spiritus, qua sub sole cruciatus est?</l> 
+<l>Cuncti dies ejus doloribus et aerumnis pleni sunt,</l>
+<l rend="indent">nec per noctem mente requiescit:</l>
+<l rend="indent">et hoc ergo vanitas est.</l> 
+<l>
+<pb n="1276C"/>Nonne melius est comedere et bibere,</l>
+<l rend="indent">et ostendere animae suae bona de laboribus suis?</l> 
+<l rend="indent">et hoc de manu Dei est.</l> 
+<l>Quis ita vorabit,</l>
+<l rend="indent">et deliciis affluet ut ego?</l> 
+<l>Homini bono in conspectu suo dedit Deus sapientiam,</l>
+<l rend="indent">et scientiam, et laetitiam:</l>
+<l>Peccatori autem dedit afflictionem, et curam superfluam,</l>
+<l rend="indent">ut addat, et congreget, et tradat ei qui placuit</l>
+<l rend="indent(1)">Deo:</l>
+<l rend="indent">sed et hoc vanitas, et cassa sollicitudo mentis.</l> 
+</div3>
+<div3>
+          <head>[Cap. III.]</head>
+<l> Omnia tempus habent,</l>
+<l rend="indent">et suis spatiis transeunt universa sub coelo.</l> 
+<l>Tempus nascendi,</l>
+<l rend="indent">et tempus moriendi.</l> 
+<l>Tempus plantandi,</l>
+<l rend="indent">et tempus evellendi quod plantatum est.</l> 
+<l>Tempus occidendi,</l>
+<l rend="indent">
+<pb n="1276D"/>et tempus sanandi.</l> 
+<l>Tempus destruendi,</l>
+<l rend="indent">et tempus aedificandi.</l> 
+<l>Tempus flendi,</l>
+<l rend="indent">et tempus ridendi.</l> 
+<l>Tempus plangendi,</l>
+<l rend="indent">et tempus saltandi.</l> 
+<l>Tempus spargendi lapides,</l>
+<l rend="indent">et tempus colligendi.</l> 
+<l>Tempus amplexandi,</l>
+<l rend="indent">
+<pb n="1277A"/>et tempus longe fieri a complexibus.</l> 
+<l>Tempus acquirendi,</l>
+<l rend="indent">et tempus perdendi.</l> 
+<l>Tempus custodiendi,</l>
+<l rend="indent">et tempus abjiciendi.</l> 
+<l>Tempus scindendi,</l>
+<l rend="indent">et tempus consuendi.</l> 
+<l>Tempus tacendi,</l>
+<l rend="indent">et tempus loquendi.</l> 
+<l>Tempus dilectionis,</l>
+<l rend="indent">et tempus odii.</l> 
+<l>Tempus belli,</l>
+<l rend="indent">et tempus pacis.</l> 
+<l>Quid habet amplius homo</l>
+<l rend="indent">de labore suo?</l> 
+<l>Vidi afflictionem, quam dedit Deus filiis hominum,</l>
+<l rend="indent">ut distendantur in ea.</l> 
+<l>Cuncta fecit bona in tempore suo,</l>
+<l rend="indent">et mundum tradidit disputationi eorum,</l>
+<l rend="indent">ut non inveniat homo opus, quod operatus est</l>
+<l rend="indent(1)">
+<pb n="1277B"/>Deus</l>
+<l rend="indent">ab initio usque ad finem.</l> 
+<l>Et cognovi quod non esset melius</l>
+<l rend="indent">nisi laeteri, et facere bene in vita sua.</l> 
+<l>Omnis enim homo, qui comedit et bibit,</l>
+<l rend="indent">et videt bonum de labore suo, hoc donum Dei est.</l> 
+<l>Didici quod omnia opera, quae fecit Deus,</l>
+<l rend="indent">perseverent in perpetuum:</l>
+<l>Non possumus eis quidquam addere,</l>
+<l rend="indent">nec auferre, quae fecit Deus ut timeatur.</l> 
+<l>Quod factum est, ipsum permanet:</l>
+<l rend="indent">quae futura sunt, jam fuerunt:</l>
+<l rend="indent">et Deus instaurat quod abiit.</l> 
+<l>Vidi sub sole in loco judicii impietatem,</l>
+<l rend="indent">et in loco justitiae iniquitatem.</l> 
+<l>Et dixi in corde meo:</l>
+<l rend="indent">justum et impium judicabit Deus,</l>
+<l rend="indent">et tempus omnis rei tunc erit.</l> 
+<l>Dixi in corde meo de filiis hominum,</l>
+<l rend="indent">
+<pb n="1277C"/>ut probaret eos Deus,</l>
+<l rend="indent">et ostenderet similes esse bestiis.</l> 
+<l>Idcirco unus interitus est hominis et jumentorum,</l>
+<l rend="indent">et aequa utriusque conditio:</l>
+<l>Sicut moritur homo, sic et illa moriuntur:</l>
+<l rend="indent">similiter spirant omnia,</l>
+<l rend="indent">et nihil habet homo jumento amplius:</l>
+<l>Cuncta subjacent vanitati,</l>
+<l rend="indent">et omnia pergunt ad unum locum:</l>
+<l rend="indent">de terra facta sunt, et in terram pariter revertuntur.</l> 
+<l>Quis novit si spiritus filiorum Adam ascendat sursum,</l>
+<l rend="indent">et si spiritus jumentorum descendat deorsum?</l> 
+<l>Et deprehendi nihil esse melius</l>
+<l rend="indent">quam laetari hominem in opere suo,</l>
+<l rend="indent">
+<pb n="1278A"/>et hanc esse partem illius.</l> 
+<l rend="indent">Quis enim eum adducet, ut post se futura cognoscat?</l> 
+</div3>
+<div3>
+          <head>[Cap. IV.]</head>
+<l> Verti me ad alia,</l>
+<l rend="indent">et vidi calumnias, quae sub sole geruntur,</l>
+<l>Et lacrymas innocentium,</l>
+<l rend="indent">et neminem consolatorem:</l>
+<l>Nec posse resistere eorum violentiae,</l>
+<l rend="indent">cunctorum auxilio destitutos.</l> 
+<l>Et laudavi magis mortuos, quam viventes:</l>
+<l rend="indent">et feliciorem utroque judicavi, qui necdum natus est,</l>
+<l rend="indent">nec vidit mala, quae sub sole fiunt.</l> 
+<l>Rursum contemplatus sum omnes labores hominum,</l>
+<l rend="indent">et industrias:</l>
+<l>Animadverti patere invidiae proximi:</l>
+<l rend="indent">et in hoc ergo vanitas, et cura superflua est.</l> 
+<l>Stultus complicat manus suas,</l>
+<l rend="indent">et comedit carnes suas, dicens:</l>
+<l>Melior est pugillus cum requie,</l>
+<l rend="indent">quam plena utraque manus cum labore, et afflictione
+animi.</l> 
+<l>
+<pb n="1278B"/>Considerans reperi et aliam vanitatem sub sole:</l>
+<l rend="indent">unus est, et secundum non habet,</l>
+<l rend="indent">non filium, non fratrem,</l>
+<l>Et tamen laborare non cessat,</l>
+<l rend="indent">nec satiantur oculi ejus divitiis:</l>
+<l>Nec recogitat, dicens:</l>
+<l rend="indent">Cui laboro, et fraudo animam meam bonis?</l> 
+<l> Et [ <hi>Al.</hi> in] hoc quoque vanitas est,</l>
+<l rend="indent">et afflictio pessima.</l> 
+<l>Melius est ergo duo simul esse, quam unum:</l>
+<l rend="indent">habent enim emolumentum societatis suae:</l>
+<l rend="indent">si unus ceciderit, ab altero fulcietur:</l>
+<l>Vae soli; quia cum ceciderit,</l>
+<l rend="indent">non habet sublevantem se.</l> 
+<l>Et si dormierint duo, fovebuntur mutuo;</l>
+<l rend="indent">unus quomodo calefiet?</l> 
+<l>Et si quispiam praevaluerit contra unum,</l>
+<l rend="indent">duo resistunt ei:</l>
+<l rend="indent">
+<pb n="1278C"/>funiculus triplex difficile rumpitur.</l> 
+<l>Melior est pauper et sapiens,</l>
+<l rend="indent">rege sene et stulto,</l>
+<l rend="indent">qui nescit praevidere in posterum.</l> 
+<l>Quod et de carcere catenisque interdum quis egrediatur ad regnum:</l>
+<l rend="indent">et alius natus in regno, inopia consumatur,</l>
+<l>Vidi cunctos viventes, qui ambulant sub sole</l>
+<l rend="indent">cum adolescente secundo, qui consurget pro eo.</l> 
+<l>Infinitus numerus est populi</l>
+<l rend="indent">omnium, qui fuerunt ante eum:</l>
+<l>Et qui postea futuri sunt,</l>
+<l rend="indent">et non laetabuntur in eo:</l>
+<l>Sed et hoc vanitas</l>
+<l rend="indent">et afflictio spiritus.</l> 
+<l>Custodi pedem tuum ingrediens domum Dei:</l>
+<l rend="indent">
+<pb n="1279A"/>multo enim melior est obedientia, quam stultorum</l>
+<l rend="indent(1)">victimae,</l>
+<l rend="indent">qui nesciunt quid faciant mali.</l> 
+</div3>
+<div3>
+          <head>[Cap. V.]</head>
+<l> Ne temere quid loquaris,</l>
+<l rend="indent">neque cor tuum sit velox ad proferendum sermonem
+coram Deo.</l> 
+<l>Deus enim in coelo, et tu super terram:</l>
+<l rend="indent">idcirco sint pauci sermones tui.</l> 
+<l>Multas curas sequuntur somnia,</l>
+<l rend="indent">et in multis sermonibus invenitur stultitia.</l> 
+<l>Si quid vovisti Deo, ne moreris reddere:</l>
+<l rend="indent">displicet enim ei infidelis et stulta promissio:</l>
+<l rend="indent">sed quodcumque voveris, redde.</l> 
+<l>Multoque melius est non vovere,</l>
+<l rend="indent">quam post votum promissa non reddere.</l> 
+<l>Ne dederis os tuum, ut peccare facias carnem tuam:</l>
+<l rend="indent">neque dicas coram angelo: Non est providentia:</l>
+<l>Ne forte iratus Deus super sermone tuo,</l>
+<l rend="indent">dissipet cuncta opera manuum tuarum.</l> 
+<l>Ubi multa sunt somnia,</l>
+<l rend="indent">
+<pb n="1279B"/>plurimae vanitates, et sermones innumeri:</l>
+<l rend="indent">tu vero Deum time:</l>
+<l rend="indent">Si videris calumnias egenorum, et violenta judicia,</l>
+<l rend="indent">et subverti justitiam in provincia,</l>
+<l>Non mireris super hoc negotio:</l>
+<l rend="indent">quia excelso alius excelsior est,</l>
+<l>Et super hos quoque eminentiores sunt alii,</l>
+<l rend="indent">et insuper universae terrae rex imperat servienti.</l> 
+<l>Avarus non implebitur pecunia:</l>
+<l rend="indent">et qui amat divitias, fructus non capiet ex eis,</l>
+<l rend="indent">et hoc ergo vanitas.</l> 
+<l>Ubi multae sunt opes,</l>
+<l rend="indent">multi et qui comedunt eas.</l> 
+<l>Et quid prodest possessori,</l>
+<l rend="indent">nisi quod cernit divitias oculis suis?</l> 
+<l>Dulcis est somnus operanti,</l>
+<l rend="indent">sive parum, sive multum comedat:</l>
+<l rend="indent">saturitas autem divitis non sinit dormire eum.</l> 
+<l>
+<pb n="1279C"/>Est et alia infirmitas pessima, quam vidi sub sole:</l>
+<l rend="indent">divitiae conservatae in malum domini sui:</l>
+<l rend="indent">pereunt enim in afflictione pessima:</l>
+<l>Generavit filium, qui in summa egestate erit:</l>
+<l rend="indent">sicut egressus est nudus de utero matris suae, sic</l>
+<l rend="indent(1)">revertetur,</l>
+<l rend="indent">et nihil auferet secum de labore suo.</l> 
+<l>Miserabilis prorsus infirmitas:</l>
+<l rend="indent">quo modo venit, sic revertetur.</l> 
+<l>Quid ergo prodest ei quod laboravit in ventum,</l>
+<l rend="indent">cunctis diebus vitae suae?</l> 
+<l>Comedit in tenebris et in curis multis,</l>
+<l rend="indent">et in aerumna atque tristitia.</l> 
+<l>Hoc itaque mihi visum est bonum,</l>
+<l rend="indent">ut comedat quis, et bibat,</l>
+<l rend="indent">et fruatur laetitia ex labore suo,</l>
+<l rend="indent">quo laboravit ipse sub sole,</l>
+<l>Numero dierum vitae suae,</l>
+<l rend="indent">quos dedit ei Deus:</l>
+<l rend="indent">et haec pars illius.</l> 
+<l>
+<pb n="1279D"/>Et omni homini, cui dedit Deus divitias, atque substantiam,</l>
+<l rend="indent">potestatemque ei tribuit ut comedat ex eis,</l>
+<l rend="indent">et fruatur parte sua, et laetetur de labore suo:</l>
+<l rend="indent">hoc est donum Dei.</l> 
+<l>Non enim satis recordabitur dierum vitae suae,</l>
+<l rend="indent">eo quod Deus occupet deliciis cor ejus.</l> 
+</div3>
+<div3>
+          <head>[Cap. VI.]</head>
+<l> Est et aliud malum, quod vidi sub sole,</l>
+<l rend="indent">et quidem frequens apud homines:</l>
+<l>
+<pb n="1280A"/>Vir, cui dedit Deus divitias, et substantiam et honorem,</l>
+<l rend="indent">et nihil deest animae ejus, ex omnibus quae desiderat:</l>
+<l>Nec tribuit ei potestatem Deus ut comedat ex eo.</l> 
+<l rend="indent">sed homo extraneus vorabit illud:</l>
+<l rend="indent">Hoc vanitas, et magna miseria est.</l> 
+<l>Si genuerit quispiam centum,</l>
+<l rend="indent">et vixerit multos annos,</l>
+<l rend="indent">et plures dies aetatis habuerit,</l>
+<l rend="indent">et anima illius non utatur bonis substantiae suae,</l>
+<l rend="indent">sepulturaque careat:</l>
+<l>De hoc ego pronuntio</l>
+<l rend="indent">quod melior illo sit abortivus.</l> 
+<l>Frustra enim venit, et pergit ad tenebras,</l>
+<l rend="indent">et oblivione delebitur nomen ejus.</l> 
+<l>Non vidit solem,</l>
+<l rend="indent">neque cognovit distantiam boni et mali:</l>
+<l>Etiamsi duobus millibus annis vixerit,</l>
+<l rend="indent">et non fuerit perfruitus bonis:</l>
+<l rend="indent">
+<pb n="1280B"/>nonne ad unum locum properant omnia?</l> 
+<l>Omnis labor hominis in ore ejus:</l>
+<l rend="indent">sed anima illius non implebitur.</l> 
+<l>Quid habet amplius sapiens a stulto?</l> 
+<l rend="indent">et quid pauper, nisi ut pergat illuc,</l>
+<l rend="indent">ubi est vita?</l> 
+<l>Melius est videre quod cupias,</l>
+<l rend="indent">quam desiderare quod nescias;</l>
+<l>Sed et hoc vanitas est,</l>
+<l rend="indent">et praesumptio spiritus.</l> 
+<l>Qui futurus est, jam vocatum est nomen ejus:</l>
+<l rend="indent">et scitur quod homo sit,</l>
+<l rend="indent">et non possit contra fortiorem se in judicio contendere.</l> 
+<l>Verba sunt plurima,</l>
+<l rend="indent">multam in disputando habentia vanitatem.</l> 
+</div3>
+<div3>
+          <head>[Cap. VII.]</head>
+<l> Quid necesse est homini majora se quaerere,</l>
+<l rend="indent">cum ignoret quid conducat sibi vita sua,</l>
+<l rend="indent">
+<pb n="1280C"/>numero dierum peregrinationis suae,</l>
+<l rend="indent">et tempore quod velut umbra praeterit?</l> 
+<l>Aut quis ei poterit indicare</l>
+<l rend="indent">quid post eum futurum sub sole sit?</l> 
+<l>Melius est nomen bonum, quam unguenta pretiosa:</l>
+<l rend="indent">et dies mortis die nativitatis.</l> 
+<l>Melius est ire ad domum luctus,</l>
+<l rend="indent">quam ad domum convivii:</l>
+<l>In illa enim finis cunctorum admonetur hominum,</l>
+<l rend="indent">et vivens cogitat quid futurum sit.</l> 
+<l>Melior est ira risu:</l>
+<l rend="indent">quia per tristitiam vultus, corrigitur animus delinquentis.</l> 
+<l>Cor sapientium ubi tristitia est,</l>
+<l rend="indent">et cor stultorum ubi laetitia.</l> 
+<l>Melius est a sapiente corripi,</l>
+<l rend="indent">quam stultorum adulatione decipi.</l> 
+<l>Quia sicut sonitus spinarum ardentium sub olla,</l>
+<l rend="indent">sic risus stulti:</l>
+<l rend="indent">sed et hoc vanitas.</l> 
+<l>
+<pb n="1280D"/>Calumnia conturbat sapientem,</l>
+<l rend="indent">et perdet robur cordis illius.</l> 
+<l>Melior est finis orationis, quam principium.</l> 
+<l rend="indent">melior est patiens arrogante.</l> 
+<l>Ne velox sis ad irascendum:</l>
+<l rend="indent">quia ira in sinu stulti requiescit.</l> 
+<l>Ne dicas: Quid, putas, causae est</l>
+<l rend="indent">quod priora tempora meliora fuere quam nunc</l>
+<l rend="indent(1)">sunt?</l> 
+<l rend="indent">
+<pb n="1281A"/>stulta enim est hujuscemodi interrogatio.</l> 
+<l>Utilior est sapientia cum divitiis,</l>
+<l rend="indent">et magis prodest videntibus solem.</l> 
+<l>Sicut enim protegit sapientia,</l>
+<l rend="indent">sic protegit pecunia.</l> 
+<l>Hoc autem plus habet eruditio et sapientia,</l>
+<l rend="indent">quod vitam tribuunt possessori suo.</l> 
+<l>Considera opera Dei,</l>
+<l rend="indent">quod nemo possit corrigere quem ille despexerit.</l> 
+<l>In die bona fruere bonis,</l>
+<l rend="indent">et malam diem praecave.</l> 
+<l>Sicut enim hanc, sic et illam fecit Deus,</l>
+<l rend="indent">ut non inveniat homo contra eum justas querimonias.</l> 
+<l>Haec quoque vidi in diebus vanitatis meae:</l>
+<l rend="indent">Justus perit in justitia sua,</l>
+<l rend="indent">et impius multo vivit tempore in malitia sua.</l> 
+<l>Noli esse justus multum:</l>
+<l rend="indent">Neque plus sapias quam necesse est,</l>
+<l rend="indent">ne obstupescas.</l> 
+<l>
+<pb n="1281B"/>Ne impie agas multum:</l>
+<l rend="indent">et noli esse stultus, ne moriaris in tempore non</l>
+<l rend="indent(1)">tuo.</l> 
+<l>Bonum est te sustentare justum,</l>
+<l rend="indent">sed et ab illo ne subtrahas manum tuam:</l>
+<l rend="indent">quia qui Deum timet, nihil negligit.</l> 
+<l>Sapientia confortavit sapientem</l>
+<l rend="indent">super decem principes civitatis.</l> 
+<l>Non est enim homo justus in terra,</l>
+<l rend="indent">qui faciat bonum, et non peccet.</l> 
+<l>Sed et cunctis sermonibus, qui dicuntur,</l>
+<l rend="indent">ne accommodes cor tuum:</l>
+<l>Ne forte audias servum tuum maledicentem tibi:</l>
+<l rend="indent">scit enim tua conscientia, quia et tu crebro maledixisti aliis.</l> 
+<l>Cuncta tentavi in sapientia.</l> 
+<l>Dixi: Sapiens efficiar:</l>
+<l>Et ipsa longius recessit a me multo magis quam erat:</l>
+<l rend="indent">et alta profunditas, quis inveniet eam?</l> 
+<l>
+<pb n="1281C"/>Lustravi universa animo meo,</l>
+<l rend="indent">ut scirem, et considerarem, et quaererem sapientiam,
+et rationem:</l>
+<l>Et ut cognoscerem impietatem stulti,</l>
+<l rend="indent">et errorem imprudentium:</l>
+<l>Et inveni amariorem morte mulierem,</l>
+<l rend="indent">quae laqueus venatorum est,</l>
+<l rend="indent">et sagena cor ejus,</l>
+<l>Vincula sunt manus illius:</l>
+<l rend="indent">qui placet Deo, effugiet illam:</l>
+<l rend="indent">qui autem peccator est, capietur ab illa.</l> 
+<l>Ecce hoc inveni, dixit Ecclesiastes, unum et alterum,</l>
+<l>ut invenirem rationem, quam adhuc quaerit anima</l>
+<l rend="indent(1)">mea,</l>
+<l rend="indent">et non inveni.</l> 
+<l>Virum de mille unum reperi,</l>
+<l rend="indent">mulierem ex omnibus non inveni.</l> 
+<l>Solummodo hoc inveni, quod fecerit Deus hominem rectum,</l>
+<l rend="indent">
+<pb n="1281D"/>et ipse se infinitis miscuerit quaestionibus.</l> 
+<l>Quis talis ut sapiens est?</l> 
+<l rend="indent">et quis cognovit solutionem verbi?</l> 
+</div3>
+<div3>
+          <head>[Cap. VIII.]</head>
+<l> Sapientia hominis lucet in vultu ejus,</l>
+<l rend="indent">et potentissimus faciem illius commutabit.</l> 
+<l>Ego os regis observo,</l>
+<l rend="indent">et praecepta juramenti Dei.</l> 
+<l>Ne festines recedere a facie ejus,</l>
+<l rend="indent">neque permaneas in opere malo:</l>
+<l>Quia omne, quod voluerit, faciet:</l>
+<l rend="indent">et sermo illius potestate plenus est:</l>
+<l rend="indent">nec dicere ei quisquam potest: Quare ita facis?</l> 
+<l>Qui custodit praeceptum,</l>
+<l rend="indent">
+<pb n="1282A"/>non experietur quidquam mali.</l> 
+<l>Tempus et responsionem</l>
+<l rend="indent">cor sapientis intelligit.</l> 
+<l>Omni negotio tempus est, et opportunitas,</l>
+<l rend="indent">et multa hominis afflictio:</l>
+<l>Quia ignorat praeterita,</l>
+<l rend="indent">et ventura nullo scire potest nuntio.</l> 
+<l>Non est in hominis potestate prohibere spiritum,</l>
+<l rend="indent">nec habet potestatem in die mortis:</l>
+<l>Nec finitur quiescere ingruente bello,</l>
+<l rend="indent">neque salvabit impietas impium.</l> 
+<l>Omnia haec consideravi,</l>
+<l rend="indent">et dedi cor meum in cunctis operibus, quae fiunt</l>
+<l rend="indent(1)">sub sole.</l> 
+<l>Interdum dominatur homo homini</l>
+<l rend="indent">in malum suum.</l> 
+<l>Vidi impios sepultos:</l>
+<l rend="indent">qui etiam cum adhuc viverent, in loco sancto erant,</l>
+<l rend="indent">et laudabantur in civitate quasi justorum operum:</l>
+<l rend="indent">sed et hoc vanitas est.</l> 
+<l>
+<pb n="1282B"/>Etenim quia non profertur cito contra malos sententia,</l>
+<l rend="indent">absque ullo timore filii hominum perpetrant mala.</l> 
+<l>Attamen peccator ex eo quod centies facit malum,</l>
+<l rend="indent">et per patientiam sustentatur,</l>
+<l>Ego cognovi quod erit bonum timentibus Deum,</l>
+<l rend="indent">qui verentur faciem ejus.</l> 
+<l>Non sit bonum impio, nec prolongentur dies ejus,</l>
+<l rend="indent">sed quasi umbra transeant qui non timent faciem
+Dei.</l> 
+<l>Est et alia vanitas, quae fit super terram:</l>
+<l rend="indent">sunt justi, quibus multa proveniunt,</l>
+<l rend="indent">quasi opera egerint impiorum.</l> 
+<l>Et sunt impii, qui ita securi sunt,</l>
+<l rend="indent">quasi justorum facta habeant:</l>
+<l rend="indent">sed et hoc vanissimum judico.</l> 
+<l>Laudavi igitur laetitiam,</l>
+<l rend="indent">quod non esset homini bonum sub sole,</l>
+<l>Nisi quod comederet, et biberet, atque gauderet:</l>
+<l rend="indent">
+<pb n="1282C"/>et hoc solum secum auferret de labore suo,</l>
+<l rend="indent">in diebus vitae suae quos dedit ei Deus sub sole.</l> 
+<l>Et apposui cor meum, ut scirem sapientiam,</l>
+<l rend="indent">et intelligerem distentionem quae versatur in</l>
+<l rend="indent(1)">terra:</l>
+<l>Est homo, qui diebus ac noctibus somnum non capit</l>
+<l rend="indent(1)">oculis,</l>
+<l>Et intellexi, quod omnium operum Dei</l>
+<l rend="indent">nullam possit homo invenire rationem,</l>
+<l rend="indent">eorum quae fiunt sub sole:</l>
+<l>Et quanto plus laboraverit ad quaerendum,</l>
+<l rend="indent">tanto minus inveniat:</l>
+<l>Etiamsi dixerit sapiens se nosse,</l>
+<l rend="indent">non poterit reperire.</l> 
+</div3>
+<div3>
+          <head>[Cap. IX.]</head>
+<l> Omnia haec tractavi in corde meo,</l>
+<l rend="indent">ut curiose intelligerem:</l>
+<l>Sunt justi atque sapientes,</l>
+<l rend="indent">et opera eorum in manu Dei:</l>
+<l>Et tamen nescit homo, utrum amore an odio dignus</l>
+<l rend="indent(1)">sit:</l>
+<l rend="indent">
+<pb n="1282D"/>sed omnia in futurum servantur incerta:</l>
+<l>Eo quod universa aeque eveniant</l>
+<l rend="indent">justo et impio,</l>
+<l rend="indent">bono et malo,</l>
+<l rend="indent">mundo et immundo,</l>
+<l>Immolanti victimas,</l>
+<l rend="indent">et sacrificia contemnenti.</l> 
+<l>Sicut bonus, sic et peccator:</l>
+<l rend="indent">ut perjurus, ita et ille qui verum dejerat.</l> 
+<l>Hoc est pessimum inter omnia, quae sub sole fiunt,</l>
+<l rend="indent">quia eadem cunctis eveniunt.</l> 
+<l>Unde et corda filiorum hominum implentur malitia,</l>
+<l rend="indent">et contemptu in vita sua,</l>
+<l rend="indent">
+<pb n="1283A"/>et post haec ad inferos deducuntur.</l> 
+<l>Nemo est qui semper vivat,</l>
+<l rend="indent">et qui hujus rei habeat fiduciam:</l>
+<l>Melior est canis vivus leone mortuo.</l> 
+<l rend="indent">Viventes enim sciunt se esse morituros.</l> 
+<l>Mortui vero nihil noverunt amplius,</l>
+<l rend="indent">nec habent ultra mercedem:</l>
+<l rend="indent">quia oblivioni tradita est memoria eorum.</l> 
+<l>Amor quoque, et odium, et invidiae simul perierunt,</l>
+<l rend="indent">nec habent partem in hoc saeculo,</l>
+<l rend="indent">et in opere quod sub sole geritur.</l> 
+<l>Vade ergo, et comede in laetitia panem tuum,</l>
+<l rend="indent">et bibe cum gaudio vinum tuum:</l>
+<l rend="indent">quia Deo placent opera tua.</l> 
+<l>Omni tempore sint vestimenta tua candida,</l>
+<l rend="indent">et oleum de capite tuo non deficiat.</l> 
+<l>Perfruere vita cum uxore, quam diligis,</l>
+<l rend="indent">cunctis diebus vitae instabilitatis tuae:</l>
+<l rend="indent">qui dati sunt tibi sub sole</l>
+<l rend="indent">omni tempore vanitatis tuae,</l>
+<l>
+<pb n="1283B"/>Haec est enim pars in vita,</l>
+<l rend="indent">et in labore tuo, quo laboras sub sole.</l> 
+<l>Quodcumque potest manus tua facere,</l>
+<l rend="indent">instanter operare:</l>
+<l>Quia nec opus, nec ratio,</l>
+<l rend="indent">nec sapientia, nec scientia</l>
+<l rend="indent">erunt apud inferos, quo tu properas.</l> 
+<l>Verti me ad aliud, et vidi sub sole,</l>
+<l rend="indent">nec velocium esse cursum,</l>
+<l rend="indent">nec fortium bellum,</l>
+<l rend="indent">nec sapientium panem,</l>
+<l rend="indent">nec doctorum divitias,</l>
+<l rend="indent">nec artificum gratiam:</l>
+<l rend="indent">sed tempus casumque in omnibus.</l> 
+<l>Nescit homo finem suum:</l>
+<l rend="indent">sed sicut pisces capiuntur hamo,</l>
+<l rend="indent">et sicut aves laqueo comprehenduntur:</l>
+<l>Sic capiuntur homines in tempore malo,</l>
+<l rend="indent">cum eis extemplo supervenerit.</l> 
+<l>
+<pb n="1283C"/>Hanc quoque sub sole vidi sapientiam,</l>
+<l rend="indent">et probavi maximam.</l> 
+<l>Civitas parva, et pauci in ea viri:</l>
+<l rend="indent">venit contra eam rex magnus, et vallavit eam:</l>
+<l>Exstruxitque munitiones per gyrum,</l>
+<l rend="indent">et perfecta est obsidio.</l> 
+<l>Inventusque est in ea vir pauper et sapiens,</l>
+<l rend="indent">liberavit urbem per sapientiam suam.</l> 
+<l>Et nullus deinceps recordatus est hominis illius pauperis.</l> 
+<l>Et dicebam ego, meliorem esse sapientiam fortitudine.</l> 
+<l>Quomodo ergo sapientia pauperis contempta est,</l>
+<l rend="indent">et verba ejus non sunt audita?</l> 
+<l>Verba sapientium audiuntur in silentio,</l>
+<l rend="indent">plus quam clamor principis inter stultos.</l> 
+<l>Melior est sapientia, quam arma bellica:</l>
+<l rend="indent">et qui in uno peccaverit, multa bona perdet.</l> 
+</div3>
+<div3>
+          <head>[Cap. X.]</head>
+<l> Muscae morientes</l>
+<l rend="indent">perdunt suavitatem unguenti.</l> 
+<l>
+<pb n="1283D"/>Pretiosior est sapientia et gloria,</l>
+<l rend="indent">parva ad tempus stultitia.</l> 
+<l>Cor sapientis in dextera ejus,</l>
+<l rend="indent">et cor stulti in sinistra illius.</l> 
+<l>Sed et in via stultus ambulans,</l>
+<l rend="indent">cum ipse insipiens sit, omnes stultos aestimat.</l> 
+<l>Si spiritus potestatem habentis ascenderit super te,</l>
+<l rend="indent">
+<pb n="1284A"/>locum tuum ne dimiseris:</l>
+<l rend="indent">quia curatio cessare faciet peccata maxima.</l> 
+<l>Est malum quod vidi sub sole,</l>
+<l rend="indent">quasi per errorem egrediens a facie principis:</l>
+<l>Positum stultum in dignitate sublimi,</l>
+<l rend="indent">et divites sedere deorsum.</l> 
+<l>Vidi servos in equis,</l>
+<l rend="indent">et principes ambulantes quasi servos super terram.</l> 
+<l>Qui fodit foveam, incidet in eam:</l>
+<l rend="indent">et qui dissipat sepem, mordebit eum coluber.</l> 
+<l>Qui transfert lapides, affligetur in eis:</l>
+<l rend="indent">et qui scindit ligna, vulnerabitur ab eis.</l> 
+<l>Si retusum fuerit ferrum,</l>
+<l rend="indent">et hoc non ut prius, sed hebetatum erit:</l>
+<l>Multo labore exacuetur,</l>
+<l rend="indent">et post industriam sequetur sapientia.</l> 
+<l>Si mordeat serpens in silentio,</l>
+<l rend="indent">nihil eo minus habet qui occulte detrahit.</l> 
+<l>Verba oris sapientis gratia:</l>
+<l rend="indent">et labia insipientis praecipitabunt eum:</l>
+<l>
+<pb n="1284B"/>Initium verborum ejus stultitia,</l>
+<l rend="indent">et novissimum oris illius error pessimus.</l> 
+<l>Stultus verba multiplicat.</l> 
+<l>Ignorat homo, quid ante se fuerit:</l>
+<l rend="indent">et quod post futurum est, quis illi poterit in dicare?</l> 
+<l>Labor stultorum affliget eos,</l>
+<l rend="indent">qui nesciunt in urbem pergere.</l> 
+<l>Vae tibi, terra, cujus rex est puer,</l>
+<l rend="indent">et cujus principes mane comedunt.</l> 
+<l>Beata terra, cujus rex nobilis est,</l>
+<l rend="indent">et cujus principes vescuntur in tempore suo,</l>
+<l rend="indent">ad reficiendum, et non ad luxuriam.</l> 
+<l>In pigritiis humiliabitur contignatio,</l>
+<l rend="indent">et in infirmitate manuum perstillabit domus.</l> 
+<l>In risum faciunt panem, et vinum ut epulentur viventes:</l>
+<l rend="indent">et pecuniae obediunt omnia.</l> 
+<l>In cogitatione tua regi ne detrahas,</l>
+<l rend="indent">et in secreto cubiculi tui ne maledixeris diviti:</l>
+<l>
+<pb n="1284C"/>Quia avis coeli portabit vocem tuam,</l>
+<l rend="indent">et qui habet pennas annuntiabit sententiam.</l> 
+</div3>
+<div3>
+          <head>[Cap. XI.]</head>
+<l> Mitte panem tuum super transeuntes</l>
+<l rend="indent(1)">aquas:</l>
+<l rend="indent">quia post multa tempora invenies illum.</l> 
+<l>Da partem septem, necnon et octo:</l>
+<l rend="indent">quia ignoras quid futurum sit mali super terram.</l> 
+<l>Si repletae fuerint nubes,</l>
+<l rend="indent">imbrem super terram effundent.</l> 
+<l>Si ceciderit lignum ad austrum, aut ad aquilonem,</l>
+<l rend="indent">in quocumque loco ceciderit, ibi erit.</l> 
+<l>Qui observat ventum, non seminat:</l>
+<l rend="indent">et qui considerat nubes, numquam metet.</l> 
+<l>Quomodo ignoras quae sit via spiritus,</l>
+<l rend="indent">et qua ratione compingantur ossa in ventre praegnantis:</l>
+<l rend="indent">sic nescis opera Dei, qui fabricator est omnium.</l> 
+<l>Mane semina semen tuum,</l>
+<l rend="indent">et vespere ne cesset manus tua:</l>
+<l>
+<pb n="1284D"/>Quia nescis quid magis oriatur, hoc an illud,</l>
+<l rend="indent">et si utrumque simul, melius erit.</l> 
+<l>Dulce lumen,</l>
+<l rend="indent">et delectabile est oculis videre solem.</l> 
+<l>Si annis multis vixerit homo,</l>
+<l rend="indent">et in his omnibus laetatus fuerit:</l>
+<l>Meminisse debet tenebrosi temporis,</l>
+<l rend="indent">et dierum multorum:</l>
+<l rend="indent">
+<pb n="1285A"/>qui cum venerint, vanitatis arguentur praeterita.</l> 
+<l>Laetare ergo, juvenis, in adolescentia tua,</l>
+<l rend="indent">et in bono sit cor tuum in diebus juventutis tuae,</l>
+<l>Et ambula in viis cordis tui,</l>
+<l rend="indent">et in introitu oculorum tuorum:</l>
+<l>Et scito quod pro omnibus his</l>
+<l rend="indent">adducet te Deus in judicium.</l> 
+<l>Aufer iram a corde tuo,</l>
+<l rend="indent">et amove malitiam a carne tua.</l> 
+<l>Adolescentia enim et voluptas vana sunt.</l> 
+</div3>
+<div3>
+          <head>[Cap. XII.]</head>
+<l> Memento Creatoris tui in diebus juventutis tuae,</l>
+<l rend="indent">antequam veniat tempus afflictionis,</l>
+<l rend="indent">et appropinquent anni, de quibus dicas: Non mihi</l>
+<l rend="indent(1)">placent.</l> 
+<l>Antequam tenebrescat sol,</l>
+<l rend="indent">et lumen, et luna, et stellae,</l>
+<l rend="indent">et revertantur nubes post pluviam:</l>
+<l>Quando commovebuntur custodes domus,</l>
+<l rend="indent">et nutabunt viri fortissimi:</l>
+<l>
+<pb n="1285B"/>Et otiosae erunt molentes in minuto numero,</l>
+<l rend="indent">et tenebrescent videntes per foramina;</l>
+<l>Et claudent ostia in platea,</l>
+<l rend="indent">in humilitate vocis molentis:</l>
+<l>Et consurgent ad vocem volucris,</l>
+<l rend="indent"> et obsurdescent omnes filiae carminis.</l> 
+<l>Excelsa quoque timebunt,</l>
+<l rend="indent">et formidabunt in via.</l> 
+<l>Florebit amygdalum,</l>
+<l rend="indent">et impinguabitur locusta,</l>
+<l rend="indent">
+<pb n="1286A"/>et dissipabitur capparis:</l>
+<l>Quoniam ibit homo in domum aeternitatis suae,</l>
+<l rend="indent">et circuibunt in platea plangentes.</l> 
+<l>Antequam rumpatur funiculus argenteus;</l>
+<l rend="indent">et recurrat vitta aurea:</l>
+<l>Et conteratur hydria super fontem,</l>
+<l rend="indent">et confringatur tota super cisternam:</l>
+<l>Et revertatur pulvis in terram suam unde erat,</l>
+<l rend="indent">et spiritus redeat ad Deum, qui dedit illum.</l> 
+<l>Vanitas vanitatum, dixit Ecclesiastes, omnia vanitas.</l> 
+<l>Cumque esset sapientissimus Ecclesiastes,</l>
+<l rend="indent">docuit populum, et enarravit quae fecerat:</l>
+<l rend="indent">et investigans composuit parabolas multas.</l> 
+<l>Quaesivit verba utilia,</l>
+<l rend="indent">et conscripsit sermones rectissimos, ac veritate</l>
+<l rend="indent(1)">plenos.</l> 
+<l>Verba sapientium sicut stimuli,</l>
+<l rend="indent">et quasi clavi in altum defixi,</l>
+<l rend="indent">
+<pb n="1286B"/>quae per magistrorum consilium data sunt a pastore uno.</l> 
+<l>His amplius, fili mi, ne requiras.</l> 
+<l>Faciendi plures libros nullus est finis:</l>
+<l rend="indent">frequensque meditatio, carnis afflictio est.</l> 
+<l>Finem loquendi omnes pariter audiamus.</l> 
+<l rend="indent">Deum time, et mandata ejus observa:</l>
+<l>Hoc est enim omnis homo:</l>
+<l rend="indent">et cuncta quae fiunt, adducet Deus in judicium</l>
+<l rend="indent">pro omni errato, sive bonum, sive malum illud</l>
+<l rend="indent(1)">sit.</l> 
+<p>
+            <emph> <hi>Explicit liber Ecclesiastes.</hi> </emph>
+</p>
+</div3>
+      </div1>
+</body>
+  </text>
+</TEI>

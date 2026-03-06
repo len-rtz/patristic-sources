@@ -1,0 +1,2855 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>De diversis quaestionibus ad Simplicianum</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 40</title>
+           <idno>AugHip.DeDiQuA</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head> <hi>LIBER PRIMUS.</hi> </head>
+<p divs_removed="true">In quo Simpliciani quaestiones ex Epistola Pauli ad Romanos duae tractantur.
+
+
+        </p>
+        
+<p>
+          <head>PRAEFATIO.</head>Gratissimam plane atque suavissimam
+<pb n="0102"/>
+interrogationum tuarum dignationem mihi, pater Simpliciane,
+misisti: quibus nisi respondere conarer, non
+solum contumax, verum etiam ingratus existerem. Et
+<pb n="0103"/>
+illa quidem quae de Paulo apostolo dissolvenda proposuisti,
+jam a nobis erant utcumque discussa litterisque
+mandata. Sed tamen eadem ipsa verba apostolica
+tenoremque sententiarum, non contentus inquisitione
+atque explicatione praeterita, ne quid in ea
+negligentius praeterissem, cautius attentiusque rimatus
+sum. Non enim tu ea percontanda censeres, si
+eorum intellectus facilis atque expeditus foret.
+</p>
+
+<div2>
+          <head>QUAEST. PRIMA.</head>
+<div3>
+            <head>1.</head>
+            <p>
+ <hi>Lex ad quid data. Concupiscentia
+aucta per legem. Peccatum quomodo mortuum
+erat sine lege. Quomodo revixit. Lege quis male utitur.
+Lex nonnisi a spiritualibus impletur. Carnales dupliciter
+dicti. Originalis peccati poena. Lex peccati in membris
+quid. Loci in quibus lex videri possit dici mala. Legem
+esse bonam. Manichaeorum error de veteri lege. Explicantur
+testimonia, quibus lex videri possit non bona.</hi> 
+Nam ex eo loco ubi scriptum est, <hi>Quid ergo dicemus?
+Lex peccatum est? Absit;</hi> usque ad eum locum, ubi
+ait, <hi>Igitur lex volenti mihi bonum est;</hi> et caetera,
+credo usque ad illud, <hi>Miser ego homo, quis me liberabit
+de corpore mortis hujus? Gratia Dei per Jesum Christum
+Dominum nostrum <note>(Rom. VII, 7-25)</note>
+            </hi>: primam nos
+voluisti enodare quaestionem. Quo loco videtur mihi
+Apostolus transfigurasse in se hominem sub lege
+positum, cujus verbis ex persona sua loquitur. Et
+quia paulo ante dixerat, <hi>Evacuati sumus a lege mortis,
+in qua detinebamur, ita ut serviamus in novitate
+spiritus, et non in vetustate litterae,</hi> atque ita per haec
+verba quasi reprehendisse legem posset videri; subjecit
+statim, <hi>Quid ergo dicemus? Lex peccatum est?
+Absit. Sed peccatum non cognovi nisi per legem. Nam
+concupiscentiam nesciebam, nisi lex diceret, Non concupisces.</hi> </p>
+          </div3>
+<div3>
+            <head>2.</head>
+            <p>
+ Hic rursus movet, Si lex non est peccatum, sed
+insinuatrix peccati, nihilominus his verbis reprehenditur.
+Quare intelligendum est, legem ad hoc datam
+esse, non ut peccatum insereretur, neque ut exstirparetur,
+sed tantum ut demonstraretur, quo animam
+humanam quasi de innocentia securam ipsa peccati
+demonstratione ream faceret: ut quia peccatum sine
+gratia Dei vinci non posset, ipsa reatus sollicitudine
+ad percipiendam gratiam converteretur. Itaque non
+ait, Peccatum non feci, nisi per legem; sed, <hi>Peccatum
+non cognovi, nisi per legem.</hi> Neque rursus ait,
+Nam concupiscentiam non habebam, nisi lex diceret,
+Non concupisces; sed ait, <hi>Concupiscentiam nesciebam
+nisi lex diceret, Non concupisces.</hi> Unde apparet concupiscentiam
+per legem non insitam, sed demonstratam.</p>
+          </div3>
+<div3>
+            <head>3.</head>
+            <p>
+ Consequens autem erat ut quoniam nondum accepta
+gratia concupiscentiae resisti non poterat, augeretur
+etiam; quia majores vires habet concupiscentia
+crimine praevaricationis adjuncto, cum etiam
+contra legem facit, quam si nulla lege prohiberetur.
+Consequenter itaque subjungit, <hi>Occasione autem accepta,
+<pb n="0104"/>
+peccatum per mandatum operatum est in me
+omnem concupiscentiam.</hi> Erat enim et ante legem, sed
+non omnis erat, quando crimen praevaricationis adhuc
+deerat. Unde alio loco dicit: <hi>Ubi enim non est lex,
+nec praevaricatio <note>(Rom. IV, 15)</note>
+            </hi>.</p>
+          </div3>
+<div3>
+            <head>4.</head>
+            <p>
+ Quod autem adjungit, <hi>Sine lege enim peccatum
+mortuum est;</hi> pro eo positum est, ac si diceret, Latet,
+hoc est, mortuum putatur: quod paulo post evidentius
+dicturus est. <hi>Ego autem,</hi> inquit, <hi>vivebam sine
+lege aliquando:</hi> id est, nulla ex peccato morte terrebar;
+quia non apparebat, cum lex non esset, <hi>Adveniente
+autem mandato, peccatum revixit;</hi> hoc est,
+apparuit. <hi>Ego autem mortuus sum:</hi> id est, mortuum
+me esse cognovi; vel quia reatus praevaricationis
+certum mortis supplicium comminatur. Sane quod
+ait, <hi>Peccatum revixit adveniente mandato,</hi> satis significavit
+hoc modo aliquando vixisse peccatum, id est
+notum fuisse, sicut arbitror, in praevaricatione primi
+hominis, quia et ipse mandatum acceperat <note>(Gen. II,
+17)</note>. Nam et alio loco dicit, <hi>Mulier autem seducta in
+praevaricatione facta est <note>(I Tim. II, 14)</note>
+            </hi>: et iterum, <hi>In
+similitudine praevaricationis Adae, qui est forma futuri <note>(Rom. V, 14)</note>
+            </hi>.
+Non enim potest reviviscere, nisi quod
+vixit aliquando. Sed mortuum fuerat, id est occultatum,
+cum mortales nati sine mandato legis homines
+viverent, sequentes concupiscentias carnis sine ulla
+cognitione, quia sine ulla prohibitione. Ergo, <hi>Ego,</hi> 
+inquit, <hi>vivebam sine lege aliquando.</hi> Unde manifestat,
+non ex persona sua proprie, sed generaliter ex persona
+veteris hominis se loqui. <hi>Adveniente autem
+mandato peccatum revixit. Ego autem mortuus sum; et
+inventum est mihi mandatum quod erat in vitam, hoc
+esse in mortem.</hi> Mandato enim si obediatur, utique
+vita est. Sed inventum est esse in mortem, dum fit
+contra mandatum, ut non solum peccatum fiat, quod
+etiam ante mandatum fiebat, sed hoc abundantius
+et perniciosius, ut jam a sciente et praevaricante peccetur.</p>
+          </div3>
+<div3>
+            <head>5.</head>
+            <p>
+ <hi>Peccatum enim,</hi> inquit, <hi>occasione accepta per
+mandatum, fefellit me, et per illud occidit.</hi> Peccatum
+non legitime utens lege, ex prohibitione aucto
+desiderio, dulcius factum est, et ideo fefellit. Fallax
+enim dulcedo est, quam plures atque majores poenarum
+amaritudines consequuntur. Quia ergo ab hominibus
+nondum spiritualem gratiam percipientibus
+suavius admittitur quod vetatur, fallit peccatum falsa
+dulcedine. Quia vero etiam accedit reatus praevaricationis,
+occidit.</p>
+          </div3>
+<div3>
+            <head>6.</head>
+            <p>
+ <hi>Itaque lex quidem sancta, et mandatum sanctum,
+et justum, et bonum.</hi> Jubenda enim jubet, et prohibenda
+prohibet. <hi>Quod ergo bonum est, mihi factum est
+mors? Absit.</hi> In male utente quippe vitium est, non
+in mandato ipso, quod bonum est. Quoniam bona est
+<pb n="0105"/>
+lex, si quis ea legitime utatur <note>(I Tim. I, 8)</note>. Male autem
+utitur lege, qui non se subdit Deo pia humilitate,
+ut per gratiam lex possit impleri. Itaque ad nihil aliud
+accipit legem, qui non ea legitime utitur, nisi ut
+peccatum ejus quod latebat ante prohibitionem, apparere
+incipiat per praevaricationem. Et hoc <hi>supra
+modum;</hi> quia jam non solum peccatum fit, sed etiam
+contra mandatum. Sequitur ergo, et adjungit: <hi>Sed
+peccatum, ut appareat peccatum, per bonum mihi operatum
+est mortem, ut fiat supra modum peccator aut
+peccatum per mandatum.</hi> Unde manifestat quo sensu
+dixerit superius, <hi>Sine lege enim peccatum mortuum
+est;</hi> non quia non erat, sed quia non apparebat: et
+quomodo dictum sit, <hi>Peccatum revixit;</hi> non ut esset
+quod erat et ante legem, sed ut appareret, quoniam
+fiebat contra legem: quandoquidem hoc loco ait, <hi>Sed
+peccatum, ut appareat peccatum, per bonum mihi operatum
+est mortem.</hi> Non enim ait, ut sit peccatum; sed, <hi>ut appareat peccatum.</hi> </p>
+          </div3>
+<div3>
+            <head>7.</head>
+            <p>
+ Deinde subjungit causam, cur ita sit: <hi>Scimus
+enim,</hi> inquit, <hi>quia lex spiritualis est; ego autem carnalis
+sum.</hi> In quo satis ostendit non posse impleri legem
+nisi a spiritualibus, qui non fiunt nisi per gratiam.
+Spirituali enim legi quanto fit quisque similior, id
+est, quanto magis et ipse in spiritualem surgit
+affectum, tanto eam magis implet; quia tanto magis
+ea delectatur, jam non sub ejus onere afflictus,
+sed ejus lumine vegetatus: quia praeceptum Domini
+lucidum est illuminans oculos, et lex Domini immaculata
+convertens animas <note>(Psal. XVIII, 8, 9)</note>; gratia
+donante peccata, et infundente spiritum charitatis,
+quo et non sit molesta, et sit etiam jucunda justitia.
+Sane cum dixisset, <hi>Ego autem carnalis sum;</hi> 
+contexuit etiam qualis carnalis. Appellati sunt enim
+ad quemdam modum carnales, jam etiam sub gratia
+constituti, jam redempti sanguine Domini, et renati
+per fidem, quibus idem apostolus dicit: <hi>Et ego, fratres,
+non potui loqui vobis quasi spiritualibus, sed quasi
+carnalibus; tanquam parvulis in Christo lac vobis potum
+dedi, non escam <note>(I Cor. III, 1, 2)</note>
+            </hi>. Quod dicens,
+utique ostendit jam renatos fuisse per gratiam, qui
+erant parvuli in Christo et lacte potandi, et tamen
+eos adhuc carnales vocat. Qui autem nondum est sub
+gratia, sed sub lege, ita carnalis est, ut nondum sit
+renatus a peccato, sed venumdatus sub peccato;
+quoniam pretium mortiferae voluptatis amplectitur
+dulcedinem illam qua fallitur, et delectatur etiam
+contra legem facere, cum tanto magis libet, quanto
+minus licet. Qua suavitate frui non potest quasi pretio
+conditionis suae, nisi cogatur tanquam emptum
+mancipium servire libidini. Sentit enim se servum
+dominantis cupiditatis, qui prohibetur, et se recte
+prohiberi cognoscit, et tamen facit.</p>
+          </div3>
+<div3>
+            <head>8.</head>
+            <p>
+ <hi>Quod enim operor,</hi> ait, <hi>ignoro.</hi> Non ita hic dictum
+est, <hi>ignoro,</hi> quasi peccare se nesciat. Nam contrarium
+erit quod dixit, <hi>Sed peccatum, ut appareat
+peccatum, per bonum mihi operatum est mortem;</hi> et illud
+<pb n="0106"/>
+superius, <hi>Sed peccatum non cognovi, nisi per legem.</hi> 
+Quomodo enim apparet, aut quomodo cognovit
+quod ignorat? Sed ita dictum est, quomodo dicturus
+est Dominus impiis, <hi>Non novi vos <note>(Matth. XXV, 12)</note>
+            </hi>.
+Neque enim aliquid Deum latet, quando <hi>vultus Domini
+super facientes mala, ut perdat de terra memoriam
+eorum <note>(Psal. XXXIII, 17)</note>
+            </hi>. Sed dicimur aliquando ignorare
+quod non approbamus. Ita ergo ait, <hi>Quod enim
+operor, ignoro;</hi> id est, non approbo. Quod consequenter
+ostendit, dicens, <hi>Non enim quod volo, hoc ago;
+sed quod odi, illud facio.</hi> Quod ergo ait, <hi>odi,</hi> hoc ait, <hi>ignoro:</hi> 
+ quia et quibus dicturus est Dominus, <hi>Non
+novi vos;</hi> de his illi dicitur, <hi>Odisti, Domine, omnes
+qui operantur iniquitatem <note>(Psal. V, 7)</note>
+            </hi>.</p>
+          </div3>
+<div3>
+            <head>9.</head>
+            <p>
+ <hi>Si autem quod nolo, hoc facio; consentio legi,
+quoniam bona est.</hi> Hoc enim non vult, quod et lex:
+nam hoc vetat lex. Consentit ergo legi, non in quantum
+facit quod illa prohibet, sed in quantum non vult
+quod facit. Vincitur enim nondum per gratiam liberatus,
+quamvis jam per legem et noverit se male facere,
+et nolit. Quod vero sequitur, et dicit, <hi>Nunc autem
+jam non ego operor illud, sed id quod in me habitat
+peccatum;</hi> non ideo dicit, quia non consentit ad faciendum
+peccatum, quamvis legi consentiat ad hoc
+improbandum. Loquitur enim adhuc ex persona hominis
+sub lege constituti, nondum sub gratia, qui
+profecto trahitur ad male operandum concupiscentia
+dominante atque fallente dulcedine peccati prohibiti,
+quamvis ex parte notitiae legis hoc improbet. Sed
+propterea dicit, <hi>Non ego operor illud,</hi> quia victus operatur.
+Cupiditas quippe id operatur, cui superanti ceditur.
+Ut autem non cedatur, sitque mens hominis
+adversus cupiditatem robustior, gratia facit, de qua
+post dicturus est.</p>
+          </div3>
+<div3>
+            <head>10.</head>
+            <p>
+ <hi>Scio enim,</hi> inquit, <hi>quia non habitat in me, hoc
+est in carne mea, bonum.</hi> Ex eo quod scit, consentit
+legi: ex eo autem quod facit, cedit peccato. Quod si
+quaerit aliquis unde hoc scit, quod dicit habitare in
+carne sua non utique bonum, id est peccatum: unde,
+nisi ex traduce mortalitatis et assiduitate voluptatis?
+Illud est ex poena originalis peccati, hoc est ex poena
+frequentati peccati. Cum illo in hanc vitam nascimur,
+hoc vivendo addimus. Quae duo, scilicet, tanquam
+natura et consuetudo, conjuncta, robustissimam faciunt
+et invictissimam cupiditatem, quod vocat peccatum,
+et dicit habitare in carne sua, id est, dominatum
+quemdam et quasi regnum obtinere. Unde est
+illud in Psalmo, <hi>Elegi abjici in domo Domini magis
+quam habitare in tabernaculis peccatorum <note>(Psal. LXXXIII,
+11)</note>
+            </hi>; quasi non habitet, quamvis ibi sit, qui abjectus
+ibi est, ubicumque sit: unde insinuat habitationem
+cum quodam principatu intelligendam. Si autem per
+gratiam fiat in nobis quod alio loco dicit, <hi>Ut non regnet
+peccatum in nostro mortali corpore ad obediendum
+desideriis ejus <note>(Rom. VI, 12)</note>
+            </hi>, jam nec habitare proprie
+<pb n="0107"/>
+dicitur.</p>
+          </div3>
+<div3>
+            <head>11.</head>
+            <p>
+ <hi>Velle enim,</hi> inquit, <hi>adjacet mihi, perficere autem
+bonum non invenio</hi>. His verbis videtur non recte intelligentibus
+velut auferre liberum arbitrium. Sed
+quomodo aufert, cum dicat, <hi>Velle adjacet mihi?</hi> Certe
+enim ipsum velle in potestate est, quoniam adjacet
+nobis: sed quod perficere bonum non est in potestate,
+ad meritum pertinet originalis peccati. Non
+enim est haec prima natura hominis, sed delicti poena,
+per quam facta est ipsa mortalitas, quasi secunda natura,
+unde nos gratia liberat Conditoris subditos sibi
+per fidem. Sed istae nunc voces sunt sub lege hominis
+constituti, nondum sub gratia. Non enim quod
+vult facit bonum, qui nondum est sub gratia; sed
+quod non vult malum, hoc agit, superante concupiscentia,
+non solum vinculo mortalitatis, sed mole
+consuetudinis roborata. Si autem quod non vult,
+hoc facit; jam non ipse operatur illud, sed quod habitat
+in eo peccatum: sicut superius dictum est et
+expositum.</p>
+          </div3>
+<div3>
+            <head>12.</head>
+            <p>
+ <hi>Invenio ergo,</hi> inquit, <hi>legem mihi volenti facere
+bonum, quoniam mihi malum adjacet:</hi> id est, invenio
+legem bonum mihi esse, cum volo facere quod lex
+habet, quoniam mihi malum adjacet, ad facile faciendum.
+Quiasuperius quod ait, <hi>Velle adjacet mihi,</hi> ad
+facilitatem dixit. Quid enim facilius homini sub lege
+constituto, quam velle bonum et facere malum? Nam
+et illud sine difficultate vult, quamvis non tam facile
+faciat, quam facile vult; et hoc quod odit facile habet,
+quamvis id nolit: sicut praecipitatus sine difficultate
+venit in profundum, quamvis id nolit atque
+oderit. Hoc dixi propter verbum quod ait, <hi>adjacet.</hi> 
+Perhibet igitur testimonium legi, quod bona sit, homo
+sub ea positus et nondum gratia liberatus; perhibet
+omnino eo ipso quod se reprehendit facere contra legem:
+et invenit eam bonum sibi esse, volens facere
+quod illa jubet, et concupiscentia superante
+non valens; atque ita se praevaricationis reatu implicatum
+videt, ad hoc ut gratiam liberatoris imploret.</p>
+          </div3>
+<div3>
+            <head>13.</head>
+            <p>
+ <hi>Condelector enim,</hi> inquit, <hi>legi Dei secundum interiorem
+hominem:</hi> ei utique legi, quae dicit, <hi>Non concupisces.
+Video autem,</hi> inquit, <hi>legem aliam in membris
+meis, repugnantem legi mentis meae, et captivantem me
+sub lege peccati, quae est in membris meis.</hi> Legem appellat
+in membris suis, onus ipsum mortalitatis, in
+quo ingemiscimus gravati <note>(II Cor. V, 4)</note>. Corpus enim
+quod corrumpitur aggravat animam <note>(Sap. IX, 15)</note>.
+Per quod fit etiam saepe ut invicte delectet quod non
+licet. Quam sarcinam prementem et urgentem ideo
+legem appellat, quia jure supplicii divino judicio tributa
+et imposita est ab eo qui praemonuit hominem,
+dicens: <hi>Qua die manducaveritis, morte moriemini (Gen.
+<pb n="0108"/>
+II, 17)</hi>. Haec lex repugnat legi mentis dicenti, <hi>Non
+concupisces:</hi> cui condelectatur homo secundum interiorem
+hominem; et antequam sit quisque sub gratia,
+ita repugnat, ut et captivet eum sub lege peccati, id
+est sub semetipsa. Cum enim dicit, <hi>quae est in membris
+meis;</hi> hanc ostendit eamdem esse de qua superius
+ait, <hi>Video aliam legem in membris meis.</hi> </p>
+          </div3>
+<div3>
+            <head>14.</head>
+            <p>
+ Hoc autem totum ideo dicitur, ut demonstretur
+homini captivo non esse praesumendum de viribus
+suis. Unde Judaeos arguebat tanquam de operibus legis
+superbe gloriantes, cum traherentur concupiscentia
+ad quidquid illicitum est, cum lex de qua gloriabantur,
+dicat, <hi>Non concupisces.</hi> Humiliter ergo dicendum
+est homini victo, damnato, captivo, et nec
+saltem accepta lege victori, sed potius praevaricatori,
+humiliter exclamandum est, <hi>Miser ego homo, quis me
+liberabit de corpore mortis hujus? Gratia Dei per Jesum
+Christum Dominum nostrum.</hi> Hoc enim restat in ista
+mortali vita libero arbitrio, non ut impleat homo
+justitiam, cum voluerit, sed ut se supplici pietate convertat
+ad eum cujus dono eam possit implere.</p>
+          </div3>
+<div3>
+            <head>15.</head>
+            <p>
+ In hac ergo tota, quam tractavimus, apostolici
+contextione sermonis, quisquis putat sensisse Apostolum
+quod mala sit lex, quoniam dicit, <hi>Lex subintravit,
+ut abundaret delictum <note>(Rom. V, 20)</note>
+            </hi>; et, <hi>Ministratio
+mortis in litteris figurata lapideis <note>(II Cor. III, 7)</note>
+            </hi>;
+et, <hi>Virtus peccati lex <note>(I Cor. XV, 56)</note>
+            </hi>, et, <hi>Mortui estis legi
+per corpus Christi ut sitis alterius qui ex mortuis resurrexit;</hi> 
+et, <hi>Passiones peccatorum, quae per legem sunt,
+operabantur in membris nostris, ut fructum ferrent
+morti; nunc vero evacuati sumus a lege mortis, in qua
+detinebamur, ita ut serviamus in novitate spiritus, et non
+in vetustate litterae <note>(Rom. VII, 4-6)</note>
+            </hi>; et alia si qua hujusmodi
+Apostolum dixisse invenimus, attendat ideo
+esse ista dicta, quia lex auget concupiscentiam ex
+prohibitione, et reum obligat ex praevaricatione, jubendo
+quod implere homines ex infirmitate non possunt,
+nisi se ad Dei gratiam pietate convertant. Et
+ideo sub illa esse dicuntur, quibus dominatur. Eis
+autem dominatur, quos punit: punit autem praevaricatores
+omnes. Porro qui acceperunt legem, praevaricant
+eam, nisi per gratiam consequantur posse
+quod jubet. Ita fit ut non dominetur eis qui jam sub
+gratia sunt, implentibus eam per charitatem, qui
+erant sub ejus timore damnati.</p>
+          </div3>
+<div3>
+            <head>16.</head>
+            <p>
+ Nam si illa quae dicta sunt, movent, ut putetur
+Apostolus legem reprehendere; quid agimus de eo
+quod dicit, <hi>Condelector enim legi Dei secundum interiorem
+hominem?</hi> Hoc enim dicens, legem utique laudat.
+Quod cum illi audiunt, respondent, hoc loco
+Apostolum de alia lege dicere; id est, de lege Christi,
+non de illa quae data est Judaeis. Quaerimus ergo
+ab eis de qua lege dicat, <hi>Lex autem subintravit ut abundaret
+delictum?</hi> Respondent, de illa procul dubio,
+quam Judaei acceperunt. Vide ergo utrum ipsa sit, de
+qua dicitur, <hi>Occasione accepta, peccatum per mandatum
+<pb n="0109"/>
+operatum est in me omnem concupiscentiam.</hi> Quid
+est enim aliud, <hi>operatum est in me omnem concupiscentiam;</hi> 
+quam id quod ibi est, <hi>ut abundaret delictum?</hi> 
+Vide quoque utrum consonet etiam illa sententia, <hi>ut fiat supra modum peccator aut peccatum per mandatum.</hi> 
+Hoc est enim, <hi>ut fiat supra modum peccatum;</hi> 
+quod est, <hi>ut abundaret delictum.</hi> Si igitur ostenderimus
+bonum esse mandatum, unde occasione accepta
+peccatum operatum est omnem concupiscentiam,
+ut fieret supra modum; simul ostendemus bonam esse
+legem, quae subintravit ut abundaret delictum, id
+est, ut operaretur peccatum omnem concupiscentiam,
+et fieret supra modum. Audiant ergo eumdem
+apostolum dicentem, <hi>Quid ergo dicemus? Lex peccatum
+est? Absit.</hi> Hoc, inquiunt, de lege Christi dictum
+est; hoc est, de lege gratiae. Respondeant itaque de
+qua intelligant illud quod sequitur: <hi>Sed ego peccatum
+non cognovi, nisi per legem. Nam concupiscentiam
+nesciebam, nisi lex diceret, Non concupisces. Occasione
+autem accepta, peccatum per mandatum operatum
+est in me omnem concupiscentiam.</hi> Ecce verborum ipsa
+contextio satis indicat de qua lege dixerit, <hi>Lex peccatum
+est? Absit.</hi> De illa scilicet, per cujus mandatum occasio
+fuit peccato, ut operaretur omnem concupiscentiam.
+De illa ergo quae subintravit ut abundaret delictum,
+quam putant illi malam. Sed quid apertius,
+quam id quod paulo post ait, <hi>Itaque lex quidem sancta,
+et mandatum sanctum, et justum, et bonum?</hi> Hoc
+rursus dicunt non de illa lege quae Judaeis data est,
+sed de Evangelio dictum est. Manichaeorum est enim
+tam ineffabiliter caeca ista perversitas. Non enim attendunt
+quod apertissimum et manifestissimum sequitur, <hi>Quod ergo bonum est, mihi factum est mors?
+Absit. Sed peccatum, ut appareat peccatum, per bonum
+mihi operatum est mortem, ut fiat supra modum
+peccator aut peccatum per mandatum:</hi> 
+ hoc est, per
+mandatum sanctum, et justum, et bonum; quod tamen
+subintravit ut abundaret peccatum, hoc est, ut
+fieret supra modum.</p>
+          </div3>
+<div3>
+            <head>17.</head>
+            <p>
+ Cur ergo <hi>ministratio mortis</hi> dicitur, si bona est
+lex? Quia <hi>peccatum ut appareat peccatum, per bonum
+mihi operatum est mortem.</hi> Nec mireris, cum de ipsa
+praedicatione Evangelii dictum sit: <hi>Christi bonus odor
+sumus Deo, in iis qui salvi fiunt, et in iis qui pereunt;
+aliis quidem odor vitae in vitam, aliis autem odor mortis
+in mortem <note>(II Cor. II, 15, 16)</note>
+            </hi>. Ad Judaeos enim
+dicta est lex ministratio mortis, ad quos et in lapide
+scripta est ad eorum duritiam figurandam; non ad
+eos qui legem per charitatem implent. <hi>Plenitudo</hi> 
+enim <hi>legis, charitas.</hi> Ipsa enim lex, quae in litteris est
+figurata lapideis, dicit, <hi>Non adulterabis, Non homicidium
+facies, Non furaberis, Non concupisces,</hi> etc.
+Quam legem dicit Apostolus impleri per charitatem,
+ita loquens: <hi>Qui enim diligit alterum</hi>, <hi>legem implevit.
+Nam, Non adulterabis, Non homicidium facies,
+Non furaberis, Non concupisces; et si quod est aliud
+mandatum, in hoc sermone recapitulatur, Diliges proximum
+<pb n="0110"/>
+tuum tanquam te ipsum <note>(Rom. XIII, 8-10)</note>
+            </hi>: quia
+et hoc in eadem lege scriptum est. Cur <hi>virtus peccati
+lex,</hi> si lex bona est? Quia peccatum per bonum operatum
+est mortem, ut fiat supra modum, hoc est,
+majores vires ex praevaricatione concipiat. Cur <hi>mortui
+sumus legi per corpus Christi,</hi> si bona est lex?
+Quia mortui sumus legi damnanti, liberati ab eo
+affectu quem lex punit et damnat. Usitatius enim vocatur
+lex, quando minatur et terret et vindicat. Itaque
+idem praeceptum timentibus lex est, amantibus gratia
+est. Inde est illud in Evangelio: <hi>Lex per Moysen
+data est, gratia et veritas per Jesum Christum facta
+est <note>(Joan. I, 17)</note>
+            </hi>. Eadem quippe lex quae per Moysen
+data est, ut formidaretur, gratia et veritas per Jesum
+Christum facta est, ut impleretur. Sic ergo dictum
+est, <hi>Mortui estis legi,</hi> ac si diceretur, Mortui estis
+supplicio legis, <hi>per corpus Christi,</hi> per quod sunt delicta
+donata, quae legitimo supplicio constringebant.
+Cur <hi>passiones peccatorum quae per legem sunt, operabantur
+in membris nostris, ut fructificarent morti,</hi> si lex
+bona est? Quia illas hic voluit intelligi peccatorum
+passiones, de quibus jam saepe dictum est, augmentum
+concupiscentiae de prohibitione, et reatum poenae
+de praevaricatione: hoc est, quia <hi>per bonum operatum
+est mortem, ut fiat supra modum peccator aut peccatum
+per mandatum.</hi> Cur <hi>liberati sumus a lege mortis,
+in qua detinebamur, ita ut serviamus in novitate spiritus,
+et non in vetustate litterae,</hi> si lex bona est? Quoniam
+lex littera est eis qui non eam implent per spiritum
+charitatis, quo pertinet Testamentum Novum.
+Itaque mortui peccato liberantur a littera, qua detinentur
+rei qui non implent quod scriptum est. Lex
+enim quid aliud quam sola littera est eis qui eam legere
+noverunt, et implere non possunt? Non enim
+ignoratur ab eis quibus conscripta est: sed quoniam
+in tantum nota est, in quantum scripta legitur, non
+in quantum dilecta perficitur, nihil est aliud talibus
+nisi littera; quae littera non est adjutrix legentium,
+sed testis peccantium. Ab ejus ergo damnatione liberantur
+qui per spiritum innovantur, ut jam non sint
+obligati litterae ad poenam: sed intellectui per justitiam
+copulati. Inde est et illud, <hi>Littera occidit, spiritus
+autem vivificat <note>(II Cor. III, 6)</note>
+            </hi>. Lex enim tantummodo
+lecta et non intellecta vel non impleta, utique
+occidit: tunc enim appellatur <hi>littera. Spiritus autem
+vivificat;</hi> quia <hi>plenitudo legis est charitas,</hi> quae <hi>diffusa
+est in cordibus nostris per Spiritum sanctum qui datus
+est nobis <note>(Rom. V, 5)</note>
+            </hi>.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>QUAEST. II.-- <hi>Argumentum Epist. ad Rom. Gratia fidet praecedit bona opera. Gratia fidei minor in catechumenis, major in renatis. Scopus Apostoli in exempla Jacob et Esau. Bona opera ex gratia, non gratia ex operibus. Quomodo justa electio Jacob et reprobatio Esau. Electio Jacob an ex praescientia futurae fidei. Electio ex gratia et proposito Dei. An fides inter dona gratiae numeretur. Quomodo justa reprobatio Esau. Fides donum Dei miserentis. Cur donum fidei subtractum ab Esau. An ex praescientia futurae voluntatis improbatus Esau et approbatus Jacob. Bona voluntas in nobis fit operante Deo. Vocatio an sit effectrix bonae voluntatis. Vocatio congrua. Cur Esau non congruenter vocatus. Obduratio Dei quae sit. Solutio quaestionis de reprobatione Esau. Omnes homines una massa peccati. Quomodo Esau Deus odio habuit, qui nihil odit eorum quae fecit. Peccatum quid. Vasa perditionis ad usum correctionis aliorum fiunt. Vocati non omnes, sed ex omnibus et Judaeis et Gentibus. Intentio Apostoli in Epistola ad Romanos. Electio gratiae quam occulta.</hi> </head>
+<div3>
+            <head>1.</head>
+            <p>
+ Sed jam, ut arbitror, tempus est ad aliam transire
+<pb n="0111"/>quaestionem, quam sic proposuisti, ut ab eo quod
+scriptum est, <hi>Non solum autem</hi>, <hi>sed et Rebecca ex
+uno concubitu habens Isaac patris nostri. Cum enim
+nondum nati essent, neque aliquid egissent bonum aut
+malum;</hi> usque ad id quod scriptum est, <hi>Nisi Dominus
+sabaoth reliquisset nobis semen, sicut Sodoma facti essemus,
+et sicut Gomorrha similes fuissemus <note>(Rom. IX, 10-29)</note>
+            </hi>:
+tota ipsa contextio disseratur; et profecto est latebrosior.
+Sed certe, qualem te erga me novi, jubere
+mihi ut aperirem ista non posses, nisi a Domino
+deprecareris ut possem. Quod adjutorio fidentior factus,
+aggredior.</p>
+          </div3>
+<div3>
+            <head>2.</head>
+            <p>
+ Et primo intentionem Apostoli, quae per totam
+Epistolam viget, tenebo, quam consulam. Haec est autem,
+ut de operum meritis nemo glorietur, de quibus
+audebant Israelitae gloriari, quod datae sibi legi servissent,
+et ex hoc evangelicam gratiam tanquam debitam
+meritis suis percepissent, quia legi serviebant.
+Unde nolebant eamdem gratiam dari Gentibus, tanquam
+indignis nisi Judaica sacramenta susciperent.
+Quae orta quaestio in Apostolorum Actibus solvitur <note>(Act. XV)</note>.
+Non enim intelligebant, quia eo ipso quo
+gratia est evangelica, operibus non debetur: <hi>alioquin
+gratia jam non est gratia <note>(Rom. XI, 6)</note>
+            </hi>. Et multis locis
+hoc saepe testatur, fidei gratiam praeponens operibus,
+non ut opera exstinguat, sed ut ostendat non esse
+opera praecedentia gratiam, sed consequentia: ut
+scilicet non se quisque arbitretur ideo percepisse gratiam,
+quia bene operatus est; sed bene operari non
+posse, nisi per fidem perceperit gratiam. Incipit autem
+homo percipere gratiam, ex quo incipit Deo credere,
+vel interna vel externa admonitione motus ad
+fidem. Sed interest quibus articulis temporum vel celebratione
+sacramentorum gratia plenior et evidentior
+infundatur. Non enim catechumeni non credunt, aut
+vero Cornelius non credebat Deo, cum eleemosynis
+et orationibus dignum se praeberet cui angelus mitteretur <note>(Act. X, 1-4)</note>:
+sed nullo modo ista operaretur,
+nisi ante credidisset; nullo modo autem credidisset,
+<pb n="0112"/>
+nisi vel secretis per visa mentis aut spiritus, vel manifestioribus
+per sensus corporis admonitionibus vocaretur.
+Sed in quibusdam tanta est gratia fidei, quanta
+non sufficit ad obtinendum regnum coelorum; sicut
+in catechumenis, sicut in ipso Cornelio antequam Sacramentorum
+participatione incorporaretur Ecclesiae.
+In quibusdam vero tanta est, ut jam corpori Christi
+et sancto Dei templo deputentur. <hi>Templum enim Dei
+sanctum est,</hi> inquit Apostolus, <hi>quod estis vos <note>(I Cor.
+III, 17)</note>
+            </hi>. Et ipse Dominus, <hi>Nisi quis renatus fuerit ex
+aqua et Spiritu sancto, non intrabit in regnum coelorum <note>(Joan. III, 5)</note>
+            </hi>.
+Fiunt ergo inchoationes quaedam fidei,
+conceptionibus similes: non tamen solum concipi,
+sed etiam nasci opus est, ut ad vitam perveniatur aeternam.
+Nihil tamen horum sine gratia misericordiae
+Dei: quia et opera si qua sunt bona, consequuntur,
+ut dictum est, illam gratiam, non praecedunt.</p>
+          </div3>
+<div3>
+            <head>3.</head>
+            <p>
+ Quam rem persuadere Apostolus volens, quia
+sicut alio loco dicit, <hi>Gratia enim Dei salvi facti sumus;
+et non ex nobis, sed Dei donum est: non ex operibus,
+ne forte quis extollatur <note>(Ephes. II, 8, 9)</note>
+            </hi>; de his qui
+nondum nati erant, documentum dedit. Nemo enim
+posset dicere quod operibus promeruerat Deum Jacob
+nondum natus, ut divinitus diceretur, <hi>Et major serviet
+minori.</hi> Ergo, <hi>Non solum,</hi> inquit, Isaac promissus
+est, cum dictum est, <hi>Ad hoc tempus veniam, et erit
+Sarae filius:</hi> qui utique nullis operibus promeruerat
+Deum, ut nasciturus promitteretur, ut in Isaac vocaretur
+semen Abrahae; id est, illi pertinerent ad sortem
+sanctorum quae in Christo est, qui se intelligerent
+filios promissionis, non superbientes de meritis suis,
+sed gratiae vocationis deputantes quod cohaeredes
+essent Christi; cum enim promissum est ut essent,
+nihil utique meruerant qui nondum erant: <hi>sed et
+Rebecca ex uno concubitu habens Isaac patris nostri.</hi> 
+Vigilantissime ait, <hi>ex uno concubitu</hi> (gemini enim
+concepti erant): ne vel paternis meritis tribueretur,
+si quisquam forte diceret, Ideo talis natus est filius,
+quia pater ita erat affectus illo in tempore quo eum
+sevit in utero matris; aut ita erat mater affecta, cum
+eum concepit. Simul enim ambos uno tempore ille
+sevit, eodem tempore illa concepit. Ad hoc commendandum
+ait, <hi>ex uno concubitu;</hi> ut nec astrologis daret
+locum, vel eis potius quos genethliacos appellaverunt,
+qui de natalibus nascentium mores et eventa conjectant.
+Quid enim dicant, cur una conceptione sub uno
+utique temporis puncto, eadem dispositione coeli et
+siderum, ut diversa singulis annotari omnino non
+possent, tanta in illis geminis diversitas fuerit,
+prorsus non inveniunt: et facile animadvertunt, si
+volunt, responsa illa quae miseris venditant, nullius
+artis expositione, sed fortuita suspicione proferri. Sed
+ut de re quae agitur potius loquamur, ad frangendam
+atque dejiciendam superbiam hominum ingratorum
+gratiae Dei, et audentium gloriari de meritis suis,
+ista commemorantur. <hi>Cum enim nondum nati fuissent,
+<pb n="0113"/>
+neque aliquid egissent bonum vel malum, non ex operibus,
+sed ex vocante dictum est ei, Quia major serviet
+minori.</hi> Vocantis est ergo gratia; percipientis vero
+gratiam consequenter sunt opera bona, non quae gratiam
+pariant, sed quae gratia pariantur. Non enim ut
+ferveat calefacit ignis, sed quia fervet; nec ideo bene
+currit rota ut rotunda sit, sed quia rotunda est: sic
+nemo propterea bene operatur ut accipiat gratiam,
+sed quia accepit. Quomodo enim potest juste vivere,
+qui non fuerit justificatus? quomodo sancte vivere,
+qui non fuerit sanctificatus? vel omnino vivere, qui
+non fuerit vivificatus? Justificat autem gratia, ut justificatus
+possit vivere juste. Prima est igitur gratia,
+secunda opera bona: sicut alio loco dicit, <hi>Ei autem
+qui operatur, merces non imputatur secundum gratiam,
+sed secundum debitum <note>(Rom. IV, 4)</note>
+            </hi>. Sicut illa immortalitas
+post opera bona, si tamen vel ipsa ex debito
+poscitur: sicut idem ait, <hi>Bonum certamen certavi,
+cursum consummavi, fidem servavi; de caetero superest
+mihi corona justitiae, quam reddet mihi Dominus in illa
+die justus judex <note>(II Tim. IV, 7, 8)</note>
+            </hi>. Forte enim quia
+dixit, <hi>reddet,</hi> jam fit ex debito. Cum vero <hi>ascendens
+in altum captivavit captivitatem,</hi> non reddidit, sed <hi>dedit
+dona hominibus <note>(Ephes. IV, 8)</note>
+            </hi>. Unde enim ipse
+Apostolus tanquam debitum reddi sibi praesumeret,
+nisi prius indebitam gratiam percepisset, qua justificatus
+bonum agonem certaret? Fuit enim blasphemus
+et persecutor et injuriosus; sed misericordiam
+consecutus est, ut ipse testatur <note>(I Tim. I, 13)</note>: credens
+utique in eum qui justificat, non pium, sed
+impium <note>(Rom. IV, 5)</note>, ut justificando pium faciat.</p>
+          </div3>
+<div3>
+            <head>4.</head>
+            <p>
+ <hi>Non ex operibus,</hi> inquit, <hi>sed ex vocante dictum
+est ei, Quia major serviet minori.</hi> Ad hoc pertinet quod
+ait, <hi>Cum enim nondum nati fuissent, neque aliquid
+egissent bonum aut malum;</hi> ut posset dici, <hi>Non ex
+operibus, sed ex vocante.</hi> Unde occurrit animo quaerere,
+cur dixerit, <hi>Ut secundum electionem propositum
+Dei maneret?</hi> Quomodo est enim justa, aut qualiscumque
+omnino electio, ubi nulla distantia est? Si enim
+nullo merito electus est Jacob nondum natus et nihil
+operatus, nec omnino eligi potuit nulla existente differentia
+qua eligeretur. Item si nullo merito improbatus
+est Esau, quia et ipse nondum natus et nihil
+operatus erat, cum diceretur, <hi>Et major serviet minori;</hi> 
+quomodo ejus improbatio justa dici potest? Qua ergo
+discretione, quo aequitatis examine quod sequitur
+intelligimus, <hi>Jacob dilexi, Esau autem odio habui?</hi> 
+Quod quidem scriptum est in propheta qui longe
+posterior prophetavit, quam illi nati et mortui sunt:
+sed tamen illa sententia videtur commemorata, qua
+dictum est, <hi>Et major serviet minori;</hi> et antequam nati
+et aliquid operati essent. Unde igitur ista electio, vel
+qualis electio, si nondum natis nondumque aliquid
+<pb n="0114"/>
+operatis nulla sunt momenta meritorum? An forte
+sunt aliqua naturarum? quis hoc intelligat, ex uno
+patre, ex una matre, ex uno concubitu, ex uno creatore?
+An quemadmodum ex eadem terra idem creator
+produxit diversa animantium atque gignentium
+genera, ita ex eodem hominum conjugio atque complexu
+produxit in geminis diversam prolem, unam quam
+diligeret, alteram quam odisset? Nulla ergo electione,
+antequam esset quod eligeretur. Si enim bonus factus
+est Jacob, ut placeret; unde placuit antequam fieret,
+ut bonus fieret? Non itaque electus est ut fieret bonus,
+sed bonus factus eligi potuit.</p>
+          </div3>
+<div3>
+            <head>5.</head>
+            <p>
+ An ideo <hi>secundum electionem,</hi> quia omnium Deus
+praescius etiam futuram fidem vidit in Jacob nondum
+nato; ut quamvis non ex operibus suis justificari quisque
+mereatur, quandoquidem bene operari nisi justificatus
+non potest, tamen quia ex fide justificat gentes
+Deus <note>(Galat. III, 8)</note>, nec credit aliquis nisi libera
+voluntate, hanc ipsam fidei voluntatem futuram praevidens
+Deus, etiam nondum natum praescientia, quem
+justificaret, elegerit? Si igitur electio per praescientiam,
+praescivit autem Deus fidem Jacob; unde probas
+quia non etiam ex operibus elegit eum? Si propterea
+quia nondum nati erant, et nondum aliquid egerant
+bonum seu malum; ita etiam nondum crediderat
+aliquis eorum. Sed praescientia vidit crediturum?
+Ita praescientia videre poterat operaturum: ut quomodo
+dicitur electus propter fidem futuram, quam
+praesciebat Deus, sic alius possit dicere, propter futura
+opera potius electum, quae nihilominus praesciebat
+Deus. Quapropter unde ostendit Apostolus non ex
+operibus dictum esse, <hi>Major serviet minori?</hi> Si quoniam
+nondum nati erant; non solum non ex operibus,
+sed nec ex fide dictum est, quia utrumque deerat
+nondum natis. Non igitur ex praescientia voluit intelligi
+factam electionem minoris, ut major ei serviret.
+Volens enim ostendere non ex operibus factam, propterea
+intulit, dicens, <hi>Cum enim nondum nati fuissent,
+neque aliquid egissent bonum seu malum.</hi> Alioquin poterat
+ei dici: Sed jam sciebat Deus quis quid esset
+acturus. Quamobrem unde illa electio facta sit quaeritur:
+quia si non ex operibus, quae non erant in nondum
+natis; nec ex fide, quia nec ipsa erat: unde igitur?</p>
+          </div3>
+<div3>
+            <head>6.</head>
+            <p>
+ An dicendum est quod nulla electio fuerit, non
+existente aliqua diversitate in utero matris vel fidei,
+vel operum, vel quorumlibet omnino meritorum? Sed
+dictum est, <hi>Ut secundum electionem propositum Dei
+maneret.</hi> Et ideo quaerimus, quia dictum est. Nisi
+forte sic est distinguenda sententia, non ut intelligamus
+tanquam ideo <hi>non ex operibus, sed ex vocante
+dictum</hi> esse, <hi>Major serviet minori, ut secundum electionem
+propositum Dei maneret:</hi> sed ita potius, ut ad hoc de
+<pb n="0115"/>
+nondum natis et nondum aliquid operatis exemplum
+datum accipiatur, ne aliqua electio hic possit intelligi. <hi>Cum enim nondum nati fuissent, neque aliquid
+egissent sive bonum sive malum, ut secundum electionem
+propositum Dei maneret;</hi> 
+ id est, neque aliquid egissent
+bonum aut malum, ut propter ipsam actionem electio
+aliqua fieret ejus qui bene egerat: cum ergo nulla
+esset electio bene agentis, secundum quam maneret
+propositum Dei, <hi>non ex operibus, sed ex vocante,</hi> id
+est, ex eo qui vocando ad fidem gratia justificat impium, <hi>dictum est ei, Quia major serviet minori.</hi> 
+ Non
+ergo secundum electionem propositum Dei manet,
+sed ex proposito electio: id est, non quia invenit
+Deus opera bona in hominibus quae eligat, ideo manet
+propositum justificationis ipsius; sed quia illud manet
+ut justificet credentes, ideo invenit opera quae jam
+eligat ad regnum coelorum. Nam nisi esset electio,
+non essent electi, nec recte diceretur, <hi>Quis accusabit
+adversus electos Dei <note>(Rom. VIII, 33)</note>
+            </hi>? Non tamen electio
+praecedit justificationem, sed electionem justificatio.
+Nemo enim eligitur, nisi jam distans ab illo
+qui rejicitur. Unde quod dictum est, Quia <hi>elegit nos
+Deus ante mundi constitutionem <note>(Ephes. I, 4)</note>
+            </hi>; non
+video quomodo sit dictum, nisi praescientia. Hic autem
+quod ait, <hi>Non ex operibus, sed ex vocante dictum
+est ei, Quia major serviet minori;</hi> non electione meritorum,
+quae post justificationem gratiae proveniunt,
+sed liberalitate donorum Dei voluit intelligi, ne quis
+de operibus extollatur. <hi>Gratia enim Dei salvi facti sumus;
+et hoc non ex nobis, sed Dei donum est: non ex
+operibus, ne forte quis extollatur <note>(Id. II, 8, 9)</note>
+            </hi>.</p>
+          </div3>
+<div3>
+            <head>7.</head>
+            <p>
+ Quaeritur autem, utrum vel fides mereatur hominis
+justificationem; an vero nec fidei merita praecedant
+misericordiam Dei, sed et fides ipsa inter dona
+gratiae numeretur. Quia et hoc loco cum dixisset, <hi>Non
+ex operibus;</hi> non ait, sed ex fide <hi>dictum est ei, Quia
+major serviet minori:</hi> ait autem, <hi>sed ex vocante.</hi> Nemo
+enim credit, qui non vocatur. Misericors autem Deus
+vocat, nullis hoc vel fidei meritis largiens; quia merita
+fidei sequuntur vocationem potius, quam praecedunt. <hi>Quomodo</hi> 
+ enim <hi>credent, quem non audierunt? et
+quomodo audient sine praedicante <note>(Rom. X, 14)</note>
+            </hi>? Nisi
+ergo vocando praecedat misericordia Dei, nec credere
+quisquam potest, ut ex hoc incipiat justificari, et accipere
+facultatem bene operandi. Ergo ante omne meritum
+est gratia. Etenim <hi>Christus pro impiis mortuus est <note>(Id. V, 6)</note>
+            </hi>.
+Ex vocante igitur minor accepit, non ex ullis
+meritis operum suorum, ut major ei serviret: ut etiam
+quod scriptum, <hi>Jacob dilexi,</hi> ex vocante sit Deo, non
+ex operante Jacob.</p>
+          </div3>
+<div3>
+            <head>8.</head>
+            <p>
+ Quid deinde Esau, quod servit minori, et quod
+scriptum est, <hi>Esau autem odio habui,</hi> quibus malis suis
+hoc meruit, cum et ipse nondum natus fuisset, neque
+aliquid egisset boni aut mali, quando dictum est, <hi>Et
+major serviet minori?</hi> An forte quemadmodum illud
+de Jacob nullis meritis bonae actionis dictum est, ita
+Esau nullis meritis malae actionis odiosus? Si enim
+quia praesciebat Deus futura ejus opera mala, propterea
+eum praedestinavit ut serviret minori; propterea praedestinavit
+<pb n="0116"/>
+et Jacob ut ei major serviret, quia futura
+ejus bona opera praesciebat, et falsum est jam quod
+ait, <hi>Non ex operibus.</hi> Si autem verum est quod non
+ex operibus, et inde hoc probat, quia de nondum natis
+nondumque aliquid operatis hoc dictum; unde nec
+ex fide, quae in nondum natis similiter nondum erat:
+quo merito Esau odio habetur antequam nascatur?
+Quod enim fecit Deus ea quae diligeret, nulla quaestio
+est. Si autem dicamus eum fecisse quae odisset, absurdum
+est, occurrente alia Scriptura et dicente, <hi>Neque
+enim odio habens aliquid constituisses, et nihil odisti
+horum quae fecisti <note>(Sap. XI, 25)</note>
+            </hi>. Quo enim merito sol
+factus est sol, aut quid offendit luna ut tanta illo inferior,
+vel quid promeruit ut sideribus caeteris tanto
+clarior crearetur? Sed haec omnia bona creata sunt
+quaeque in genere suo. Non enim diceret Deus, Solem
+dilexi, lunam autem odio habui; aut, Lunam dilexi,
+stellas autem odio habui: sicut dixit, <hi>Jacob dilexi,
+Esau autem odio habui.</hi> Sed illa omnia dilexit, quamvis
+excellentiae diversis gradibus ordinata; quoniam
+vidit Deus quia bona sunt, cum dicto ejus sunt instituta <note>(Gen. I)</note>:
+ut autem odisset Esau, nisi injustitiae
+merito, injustum est. Quod si concedimus, incipit et
+Jacob justitiae merito diligi. Quod si verum est, falsum
+est quod non ex operibus. An forte ex justitia
+fidei? Quid ergo te adjuvat, <hi>Cum enim nondum nati
+fuissent?</hi> quandoquidem in nondum nato nec justitia
+fidei poterat esse.</p>
+          </div3>
+<div3>
+            <head>9.</head>
+            <p>
+ Vidit itaque Apostolus quid ex his verbis posset
+animo audientis vel legentis occurrere, statimque subjecit: <hi>Quid ergo dicemus? numquid iniquitas est apud Deum?
+Absit.</hi> 
+ Et quasi docens quomodo absit: <hi>Moysi enim dicit,</hi> 
+inquit, <hi>Miserebor cui misertus ero, et misericordiam
+praestabo cui misericors fuero.</hi> Quibus verbis solvit
+quaestionem, an potius arctius colligavit? Idipsum
+est enim quod maxime movet, si miseretur cui misertus
+erit, et misericordiam praestabit cui misericors
+fuerit, cur haec misericordia defuit Esau, ut etiam
+ipse per illam esset bonus, quemadmodum per illam
+bonus factus est Jacob. An ideo dictum est, <hi>Miserebor
+cui misertus ero, et misericordiam praestabo cui misericors
+fuero,</hi> quia cui misertus erit Deus ut eum vocet,
+miserebitur ejus ut credat; et cui misericors fuerit
+ut credat, misericordiam praestabit, hoc est faciet
+eum misericordem, ut etiam bene operetur? Unde
+admonemur, nec ipsis operibus misericordiae quemquam
+oportere gloriari et extolli, quod eis quasi
+suis Deum promeruerit; quandoquidem ut haberet
+ipsam misericordiam ille praestitit, qui misericordiam
+praestabit cui misericors fuerit. Quod si eam credendo
+se meruisse quis jactat, noverit eum sibi praestitisse
+ut crederet, qui miseretur inspirando fidem, cujus
+misertus est ut adhuc infideli vocationem impertiret.
+Jam enim discernitur fidelis ab impio. <hi>Quid enim habes,</hi> 
+inquit, <hi>quod non accepisti? Si autem et accepisti,
+quid gloriaris quasi non acceperis <note>(I Cor. IV, 7)</note>
+            </hi>?</p>
+          </div3>
+<div3>
+            <head>10.</head>
+            <p>
+ Recte quidem hoc; sed cur haec misericordia
+<pb n="0117"/>
+subtracta est ab Esau, ut non sic vocaretur, ut et vocato
+inspiraretur fides, et credens misericors fieret
+ut bene operaretur? An forte quia noluit? Si ergo
+Jacob ideo credidit quia voluit, non ei Deus donavit
+fidem, sed eam sibi ipse volendo praestitit, et habuit
+aliquid quod non accepit. An quia nemo potest
+credere nisi velit, nemo velle nisi vocetur, nemo autem
+sibi potest praestare ut vocetur, vocando Deus
+praestat et fidem; quia sine vocatione non potest
+quisquam credere, quamvis nullus credat invitus? <hi>Quomodo</hi> 
+ enim <hi>credent, quem non audierunt? aut quomodo
+audient sine praedicante?</hi> Nemo itaque credit
+non vocatus: sed non omnis credit vocatus. <hi>Multi
+enim sunt vocati, pauci vero electi <note>(Matth. XX, 16)</note>
+            </hi>:
+utique ii qui vocantem non contempserunt, sed credendo
+secuti sunt; volentes autem sine dubio crediderunt.
+Quid est ergo quod sequitur, <hi>Igitur non volentis
+neque currentis, sed miserentis est Dei?</hi> An quia nec velle
+possumus nisi vocati, et nihil valet velle nostrum, nisi
+ut perficiamus adjuvet Deus? Opus est ergo velle et currere.
+Non enim frustra diceretur, <hi>Et in terra pax hominibus
+bonae voluntatis <note>(Luc. II, 14)</note>
+            </hi>; et, <hi>Sic currite ut
+comprehendatis <note>(I Cor. IX, 24)</note>
+            </hi>. <hi>Non</hi> tamen <hi>volentis neque
+currentis, sed miserentis est Dei,</hi> ut quod volumus
+adipiscamur, et quo volumus perveniamus. Noluit
+ergo Esau et non cucurrit: sed et si voluisset et cucurrisset,
+Dei adjutorio pervenisset, qui ei etiam
+velle et currere vocando praestaret, nisi vocatione
+contempta reprobus fieret. Aliter enim Deus praestat
+ut velimus, aliter praestat quod voluerimus. Ut velimus
+enim et suum esse voluit et nostrum; suum vocando,
+nostrum sequendo. Quod autem voluerimus
+solus praestat, id est, posse bene agere, et semper
+beate vivere. Verumtamen Esau nondum natus, nihil
+horum posset velle seu nolle. Cur ergo in utero positus
+improbatus est? Reditur enim ad illas difficultates,
+non solum sua obscuritate, sed etiam nostra tam
+multa repetitione molestiores.</p>
+          </div3>
+<div3>
+            <head>11.</head>
+            <p>
+ Cur enim est improbatus Esau nondum natus,
+qui nec credere poterat vocanti, nec contemnere vocationem,
+nec boni vel mali aliquid operari? Si
+praescientia Dei futurae malae voluntatis ejus, cur non
+et Jacob praescientia Dei approbatus est futurae bonae
+voluntatis ejus? Quod si semel concesseris, potuisse
+quemquam vel approbari vel improbari ex eo quod
+nondum in illo erat, sed quia Deus futurum esse
+praesciebat; conficitur eum potuisse etiam ex operibus
+approbari, quae in illo Deus futura esse praesciebat,
+quamvis nondum esset aliquid operatus; et
+omnino te nihil adjuvabit quod nondum nati erant,
+cum dictum esset, <hi>Et major serviet minori,</hi> ut hinc
+ostendas non ex operibus dictum, quia nondum quidquam
+erat operatus.</p>
+          </div3>
+<div3>
+            <head>12.</head>
+            <p>
+ Illa etiam verba si diligenter attendas, <hi>Igitur
+non volentis neque currentis, sed miserentis est Dei;</hi> 
+non hoc Apostolus propterea tantum dixisse videbitur,
+quod adjutorio Dei ad id quod volumus perveniamus;
+<pb n="0118"/>
+sed etiam ex illa intentione qua et alio loco
+dicit, <hi>Cum timore et tremore vestram ipsorum salutem
+operamini; Deus enim est qui operatur in vobis et velle
+et operari, pro bona voluntate. <note>(Philipp. II, 12, 13)</note>
+            </hi>.
+Ubi satis ostendit etiam ipsam bonam voluntatem in
+nobis operante Deo fieri. Nam si propterea solum dictum
+est, <hi>Non volentis neque currentis, sed miserentis
+est Dei,</hi> quia voluntas hominis sola non sufficit ut juste
+recteque vivamus, nisi adjuvemur misericordia
+Dei; potest et hoc modo dici, Igitur non miserentis
+est Dei, sed volentis est hominis, quia misericordia
+Dei sola non sufficit, nisi consensus nostrae voluntatis
+addatur. At illud manifestum est, frustra nos velle,
+nisi Deus misereatur: illud autem nescio quomodo
+dicatur, frustra Deum misereri, nisi nos velimus. Si
+enim Deus miseretur, etiam volumus: ad eamdem
+quippe misericordiam pertinet ut velimus. <hi>Deus enim
+est qui operatur in nobis et velle et operari, pro bona
+voluntate.</hi> Nam si quaeramus utrum Dei donum sit voluntas
+bona, mirum si negare quisquam audeat At
+enim quia non praecedit voluntas bona vocationem,
+sed vocatio bonam voluntatem, propterea vocanti
+Deo recte tribuitur quod bene volumus, nobis vero
+tribui non potest quod vocamur. Non igitur ideo dictum
+putandum est, <hi>Non volentis neque currentis,
+sed miserentis est Dei,</hi> quia nisi ejus adjutorio non
+possumus adipisci quod volumus, sed ideo potius,
+quia nisi ejus vocatione non volumus.</p>
+          </div3>
+<div3>
+            <head>13.</head>
+            <p>
+ Sed si vocatio ista ita est effectrix bonae voluntatis,
+ut omnis eam vocatus sequatur, quomodo
+verum erit, <hi>Multi vocati, pauci electi?</hi> Quod si verum
+est, et non consequenter vocationi vocatus obtemperat,
+atque ut non obtemperet in ejus est positum voluntate,
+recte etiam dici potest, Igitur non miserentis
+Dei, sed volentis atque currentis est hominis; quia
+misericordia vocantis non sufficit, nisi vocati obedientia
+consequatur. An forte illi qui hoc modo vocati non
+consentiunt, possent alio modo vocati accommodare
+fidei voluntatem, ut et illud verum sit, <hi>Multi vocati,
+pauci electi;</hi> ut quamvis multi uno modo vocati sint,
+tamen quia non omnes uno modo affecti sunt, illi soli
+sequantur vocationem, qui ei capiendae reperiuntur
+idonei; et illud non minus verum sit, <hi>Igitur non volentis
+neque currentis, sed miserentis est Dei,</hi> qui hoc
+modo vocavit, quomodo aptum erat eis qui secuti
+sunt vocationem? Ad alios autem vocatio quidem pervenit;
+sed quia talis fuit qua moveri non possent,
+nec eam capere apti essent, vocati quidem dici potuerunt
+sed non electi: et non jam similiter verum
+est, Igitur non miserentis Dei, sed volentis atque currentis
+est hominis: quoniam non potest effectus misericordiae
+Dei esse in hominis potestate, ut frustra
+ille misereatur, si homo nolit; quia si vellet etiam
+ipsorum misereri, posset ita vocare, quomodo illis
+aptum esset, ut et moverentur et intelligerent et sequerentur.
+Verum est ergo, <hi>Multi vocati, pauci electi.</hi> 
+<pb n="0119"/>
+Illi enim electi. qui congruenter vocati: illi autem
+qui non congruebant neque contemperabantur vocationi,
+non electi, quia non secuti, quamvis vocati.
+Item verum est, <hi>Non volentis neque currentis, sed miseren
+is est Dei;</hi> quia etiamsi multos vocet, eorum tamen
+miseretur, quos ita vocat, quomodo eis vocari
+aptum est, ut sequantur. Falsum est autem si quis
+dicit, Igitur non miserentis Dei, sed volentis atque
+currentis est hominis: quia nullius Deus frustra miseretur;
+cujus autem miseretur, sic eum vocat, quomodo
+scit ei congruere, ut vocantem non respuat.</p>
+          </div3>
+<div3>
+            <head>14.</head>
+            <p>
+ Hic dicet aliquis: Cur ergo Esau non sic est
+vocatus, ut vellet obedire? Videmus enim alios
+aliter iisdem rebus demonstratis vel significatis ad
+credendum moveri. Sicut exempli gratia, Simeon in
+Dominum nostrum Jesum Christum adhuc infantem
+parvulum credidit, Spiritu ei revelante cognoscens <note>(Luc. II, 25)</note>.
+Nathanael ad unam sententiam, quam
+ab illo audivit, <hi>Priusquam te Philippus vocaret, cum
+esses sub arbore fici, vidi te;</hi> respondit, <hi>Rabbi, tu es
+Filius Dei, tu es rex Israel <note>(Joan. I, 48, 49)</note>
+            </hi>. Quod
+tanto post quia confessus est Petrus, meruit audire
+quod beatus sit, et quod ei darentur claves regni coelorum <note>(Matth. XVI, 16-19)</note>.
+Miraculo facto in Cana
+Galilaeae, quod initium signorum Jesu Joannes evangelista
+commemorat, aqua in vinum conversa, crediderunt
+in eum discipuli ejus <note>(Joan. II, 11)</note>. Multos
+loquendo incitavit ad fidem: multi nec suscitatis
+mortuis crediderunt. De cruce atque morte ejus conterriti
+etiam discipuli titubarunt; et tamen latro tunc
+credidit, cum eum non praestantiorem videret in operibus,
+sed consortio crucis aequalem <note>(Luc. XXIII, 40-42)</note>.
+Unus etiam de numero discipulorum post ejus
+resurrectionem, non tam viventibus membris, quam
+recentibus cicatricibus credidit <note>(Joan. XX, 27)</note>: multi
+ex eorum numero a quibus crucifixus est, qui videntes
+eum miracula facientem contempserant discipulis
+eum praedicantibus et in nomine ejus talia facientibus
+crediderunt <note>(Act. II-IV)</note>. Cum ergo alius sic,
+alius autem sic moveatur ad fidem, eademque res saepe
+alio modo dicta moveat, alio modo dicta non moveat;
+aliumque moveat, alium non moveat; quis audeat dicere
+defuisse Deo modum vocandi, quo etiam Esau ad
+eam fidem mentem applicaret, voluntatemque conjungeret,
+in qua Jacob justificatus est? Quod si tanta quoque
+potest esse obstinatio voluntatis, ut contra omnes
+modos vocationis obdurescat mentis aversio; quaeritur
+utrum de divina poena sit ipsa duritia, cum Deus
+deserit non sic vocando, quomodo ad fidem moveri
+potest. Quis enim dicat modum quo ei persuaderetur
+ut crederet, etiam Omnipotenti defuisse?</p>
+          </div3>
+<div3>
+            <head>15.</head>
+            <p>
+ Sed quid hoc quaerimus, cum ipse subjungat
+Apostolus, <hi>Dicit enim Scriptura Pharaoni, Quia ad
+hoc te excitavi, ut ostendam in te potentiam meam, et ut
+<pb n="0120"/>
+annuntietur nomen meum in universa terra?</hi> Hoc autem
+subjecit Apostolus documentum, quo probaret quod
+supra dixerat, <hi>Igitur non volentis neque currentis, sed
+miserentis est Dei.</hi> Tanquam enim ei diceretur, Unde
+hoc doces? <hi>Dicit enim Scriptura,</hi> inquit, <hi>Pharaoni,
+Quia ad hoc te excitavi, ut ostendam in te potentiam
+meam, et ut annuntietur nomen meum in universa terra.</hi> 
+Utique hinc ostendens quod <hi>non volentis neque currentis,
+sed miserentis est Dei.</hi> Concluditque ita, <hi>Ergo
+cujus vult miseretur, et quem vult obdurat;</hi> cum superius
+non utrumque dictum sit. Neque enim quomodo
+dictum est, <hi>Non volentis neque currentis, sed miserentis
+est Dei;</hi> sic etiam dictum est, non nolentis neque
+contemnentis, sed obdurantis est Dei. Unde datur
+intelligi, quod infra utrumque posuit, <hi>Ergo cujus
+vult miseretur, et quem vult obdurat,</hi> ita sententiae
+superiori posse congruere, ut obduratio Dei sit nolle
+misereri: ut non ab illo irrogetur aliquid quo sit homo
+deterior, sed tantum quo sit melior non erogetur. Quod
+si fit nulla distinctione meritorum, quis non erumpat
+in eam vocem, quam sibi ipse objecit Apostolus? <hi>Dicis
+itaque mihi: Quid adhuc conqueritur? nam voluntati ejus
+quis resistit?</hi> Conqueritur enim Deus saepe de hominibus,
+sicut per innumerabiles apparet Scripturarum locos,
+quod nolint credere et recte vivere. Unde fideles et facientes
+voluntatem Dei conversari dicuntur sine querela <note>(Luc. I, 6)</note>,
+quod de illis non queratur Scriptura. Sed, <hi>Quid conqueritur,</hi> 
+ ait? <hi>nam voluntati ejus quis resistit,</hi> 
+quando <hi>cujus vult miseretur, et quem vult obdurat?</hi> Et
+tamen intueamur superiora, et inde nostram, quantum
+ipse Dominus adjuvat, sententiam dirigamus.</p>
+          </div3>
+<div3>
+            <head>16.</head>
+            <p>
+ Ait enim paulo ante, <hi>Quid ergo dicemus? numquid
+iniquitas est apud Deum? Absit.</hi> Sit igitur hoc
+fixum atque immobile in mente sobria pietate atque
+stabili in fide, quod nulla est iniquitas apud Deum:
+atque ita tenacissime firmissimeque credatur idipsum
+quod Deus <hi>cujus vult miseretur et quem vult obdurat,</hi> 
+hoc est, cujus vult miseretur et cujus non vult non
+miseretur, esse alicujus occultae atque ab humano
+modulo investigabilis aequitatis, quae in ipsis rebus
+humanis terrenisque contractibus animadvertenda
+est; in quibus nisi supernae justitiae quaedam impressa
+vestigia teneremus, nunquam in ipsum cubile ac penetrale
+sanctissimum atque castissimum spiritualium
+praeceptorum nostrae infirmitatis suspiceret atque inhiaret
+intentio. Beati qui esuriunt et sitiunt justitiam,
+quoniam ipsi saturabuntur <note>(Matth. V, 6)</note>. In ista igitur
+siccitate vitae conditionisque mortalis, nisi aspergeretur
+desuper velut tenuissima quaedam aura justitiae,
+citius aresceremus, quam sitiremus. Quapropter
+cum dando et accipiendo inter se hominum societas
+connectatur, dentur autem et accipiantur vel
+debita vel non debita; quis non videat iniquitatis argui
+neminem posse, qui quod sibi debetur, exegerit?
+nec eum certe, qui quod ei debetur, donare voluerit?
+hoc autem non esse in eorum qui debitores sunt, sed
+<pb n="0121"/>
+in ejus cui debetur arbitrio? Haec imago, vel, ut supra
+dixi, vestigium negotiis hominum de fastigio
+summo aequitatis impressum est. Sunt igitur omnes
+homines <note>(quandoquidem, ut Apostolus ait, <hi>In Adam
+omnes moriuntur [I Cor. XV, 22]</hi>, a quo in universum
+genus humanum origo ducitur offensionis Dei)</note> una
+quaedam massa peccati, supplicium debens divinae
+summaeque justitiae, quod sive exigatur, sive donetur,
+nulla est iniquitas. A quibus autem exigendum,
+et quibus donandum sit, superbe judicant debitores:
+quemadmodum conducti ad illam vineam injuste indignati
+sunt, cum tantumdem aliis donaretur, quantum
+illis redderetur <note>(Matth. XX, 11)</note>. Itaque hujus
+impudentiam quaestionis ita retundit Apostolus: <hi>O
+homo, tu quis es, qui respondeas Deo?</hi> Sic enim respondet
+Deo, cum ei displicet quod de peccatoribus conqueritur
+Deus, quasi quemquam Deus peccare cogat,
+si tantummodo quibusdam peccantibus misericordiam
+justificationis suae non largiatur, et ob hoc dicatur
+obdurare peccantes quosdam, quia non eorum miseretur,
+non quia impellit ut peccent. Eorum autem
+non miseretur, quibus misericordiam non esse praebendam,
+aequitate occultissima et ab humanis sensibus
+remotissima judicat. Inscrutabilia enim sunt judicia
+ejus, et investigabiles viae ipsius <note>(Rom. XI, 33)</note>.
+Conqueritur autem juste de peccatoribus, tanquam de
+his quos peccare ipse non cogit. Simul etiam ut hi
+quorum miseretur, hanc quoque habeant vocationem;
+ut dum conqueritur Deus de peccatoribus,
+compungantur corde, atque ad ejus gratiam convertantur.
+Juste ergo conqueritur, et misericorditer.</p>
+          </div3>
+<div3>
+            <head>17.</head>
+            <p>
+ Sed si hoc movet, quod voluntati ejus nullus
+resistit, quia cui vult subvenit, et quem vult deserit;
+cum et ille cui subvenit, et ille quem deserit, ex eadem
+massa sint peccatorum, et quamvis debeat uterque
+supplicium, ab uno tamen exigatur, alteri donetur:
+si hoc ergo movet; <hi>O homo, tu quis es, qui respondeas
+Deo?</hi> Arbitror enim sub eadem significatione
+positum, quod dictum est, <hi>homo;</hi> sub qua et illud dicitur, <hi>Nonne homines estis, et secundum hominem ambulatis?</hi> 
+Ibi enim carnales et animales notantur hoc
+nomine, quibus dicitur, <hi>Non potui loqui vobis quasi
+spiritualibus, sed quasi carnalibus;</hi> et illud, <hi>Nondum
+enim poteratis: sed neque adhuc potestis, adhuc enim
+estis carnales <note>(I Cor. III, 1-4)</note>
+            </hi>, et illud, <hi>Animalis autem
+homo non percipit quae sunt Spiritus Dei <note>(Id. II, 14)</note>
+            </hi>.
+His ergo dicitur, <hi>O homo, tu quis es, qui respondeas
+Deo? Numquid dicit figmentum ei qui se finxit, Quare
+me sic fecisti? Aut non habet potestatem figulus luti, ex
+eadem conspersione facere aliud quidem vas in honorem,
+aliud in contumeliam?</hi> Eo ipso fortasse satis ostendit
+se homini carnali loqui; quoniam hoc limus ipse significat,
+unde primus homo formatus est: et quia <hi>omnes,</hi> 
+ ut jam commemoravi, secundum eumdem
+<pb n="0122"/>
+Apostolum <hi>in Adam moriuntur,</hi> unam dicit esse conspersionem
+omnium. Et quamvis aliud vas fiat in honorem,
+aliud in contumeliam; tamen et illud quod fit
+in honorem, necesse est ut carnale esse incipiat, atque
+inde in spiritualem consurgat aetatem. Quandoquidem
+jam in honorem facti erant, et in Christo jam
+nati erant: sed tamen quoniam parvulos adhuc alloquitur,
+etiam ipsos carnales appellat, dicens: <hi>Non
+potui loqui vobis quasi spiritualibus, sed quasi carnalibus.
+Quasi parvulis in Christo lac vobis potum dedi, non
+escam; neque enim poteratis: sed nec adhuc quidem potestis;
+adhuc enim estis carnales.</hi> Quamvis ergo carnales
+eos esse dicat; tamen jam in Christo natos, et in
+illo parvulos, et lacte potandos. Et quod adjungit, <hi>Nec adhuc quidem potestis,</hi> 
+ ostendit proficientes futurum
+esse ut possint; quia jam in eis spiritualiter renatis
+gratia fuerat inchoata. Ergo jam vasa erant in
+honorem facta, quibus adhuc tamen recte diceretur, <hi>O homo, tu quis es, qui respondeas Deo?</hi> 
+ Et si talibus
+recte dicitur, multo rectius eis qui vel nondum ita
+regenerati sunt, vel etiam in contumeliam facti. Illud
+tantummodo inconcussa fide teneatur, quod non sit
+iniquitas apud Deum: qui sive donet, sive exigat debitum,
+nec ille a quo exigit, recte potest de iniquitate
+ejus conqueri, nec ille cui donat, debet de suis meritis
+gloriari. Et ille enim, nisi quod debetur, non reddit:
+et ille non habet, nisi quod accepit.</p>
+          </div3>
+<div3>
+            <head>18.</head>
+            <p>
+ Sed enitendum est hoc loco, si Dominus adjuvet,
+videre quemadmodum et illud verum sit, quod
+scriptum est, <hi>Nihil odisti eorum quae fecisti <note>(Sap. XI,
+25)</note>
+            </hi>; et illud, <hi>Jacob dilexi, Esau autem odio habui <note>(Malach.
+I, 2, 3)</note>
+            </hi>. Si enim propterea Esau odio habuit,
+quia vas factum erat in contumeliam, et aliud vas in
+honorem, aliud in contumeliam idem figulus fecit,
+quomodo <hi>nihil odisti eorum quae fecisti?</hi> Ecce enim
+odit Esau, quod vas ipse fecit in contumeliam. Qui
+nodus ita solvitur, si intelligamus omnium creaturarum
+esse artificem Deum. Omnis autem creatura Dei bona
+est <note>(I Tim. IV, 4)</note>; et omnis homo in quantum homo
+est, creatura est, non in quantum peccator est. Est
+ergo creator Deus et corporis et animi humani. Neutrum
+horum malum, et neutrum odit Deus: nihil
+enim odit eorum quae fecit. Est autem animus praestantior
+corpore; Deus vero et animo et corpore,
+utriusque effector et conditor, nec odit in homine nisi
+peccatum. Est autem peccatum hominis inordinatio
+atque perversitas; id est, a praestantiore Conditore
+aversio, et ad condita inferiora conversio. Non igitur
+odit Deus Esau hominem, sed odit Deus Esau peccatorem.
+Sicut dicitur de Domino, <hi>In sua propria venit,
+et sui eum non receperunt <note>(Joan. I, 11)</note>
+            </hi>: quibus item
+ipse dicit, <hi>Vos propterea non auditis, quia non estis ex
+Deo <note>(Id. VIII, 47)</note>
+            </hi>. Quomodo <hi>sui,</hi> quomodo <hi>non ex Deo:</hi> 
+nisi quia illud dictum est de hominibus, quos ipse
+Dominus fecerat; illud de peccatoribus, quos ipse
+Dominus arguebat? iidem tamen ipsi et homines et
+peccatores; sed homines Dei conditione, peccatores
+<pb n="0123"/>
+propria voluntate. Quod ergo Jacob dilexit, numquid
+peccator non erat? Sed dilexit in eo non culpam quam
+delebat, sed gratiam quam donabat. Nam et Christus
+pro impiis mortuus est <note>(Rom. V, 6)</note>: non tamen ut
+impii permanerent, sed ut justificati ab impietate
+converterentur, credentes in eum qui justificat impium <note>(Id. IV, 5)</note>;
+odit enim Deus impietatem. Itaque
+in aliis eam punit per damnationem, in aliis adimit
+per justificationem, quemadmodum ipse judicat esse
+faciendum illis judiciis inscrutabilibus. Et quod ex
+numero impiorum, quos non justificat, facit vasa in
+contumeliam, non hoc in eis odit quod facit: quippe
+in quantum impii sunt, exsecrabiles sunt; in quantum
+autem vasa fiunt, ad aliquem usum fiunt, ut per
+eorum ordinatas poenas vasa quae fiunt in honorem
+proficiant. Non itaque odit Deus, nec in quantum homines
+sunt, nec in quantum vasa sunt; id est, nec
+quod in eis facit creando, nec quod in eis facit ordinando:
+nihil enim odit eorum quae fecit. Sed tamen
+quod vasa eos facit perditionis, ad usum correctionis
+aliorum facit. Odit enim in eis impietatem, quam
+ipse non fecit. Sicut enim judex in homine odit furtum,
+sed non odit quod datur ad metallum; illud
+enim fur, hoc judex facit: ita Deus quod ex conspersione
+impiorum facit vasa perditionis, non odit quod
+facit, id est, opus ordinationis suae in poena debita
+pereuntium, in qua occasionem salutis illi quorum
+miseretur, inveniant. Sic Pharaoni dictum est, <hi>Ad hoc te excitavi, ut ostendam in te potentiam
+meam, et ut annuntietur nomen meum in universa
+terra.</hi> 
+ Haec demonstratio potentiae Dei, et annuntiatio
+nominis ejus in universa terra prodest eis ut
+timeant, et vias suas corrigant, quibus vocatio talis
+congruit. Sic consequenter dicit: <hi>Si autem volens
+Deus ostendere iram, et demonstrare potentiam suam,
+attulit in multa patientia vasa irae, quae perfecta sunt in
+perditionem:</hi> subauditur, <hi>Tu quis es, qui respondeas
+Deo?</hi> ut recurrente sententia ad verba superiora, iste
+sit sensus: Si volens Deus ostendere iram, attulit vasa
+irae; tu quis es, qui respondeas Deo? Non autem
+solum <hi>volens ostendere iram, et demonstrare potentiam
+suam attulit in multa patientia vasa irae, quae perfecta
+sunt in perditionem;</hi> sed etiam quod sequitur, <hi>ut notas
+faceret divitias gloriae suae in vasa misericordiae.</hi> Quid
+enim prodest vasis perfectis in perditionem, quod ea
+patienter Deus sustinet, ut ordinate disperdat, utaturque
+illis ad instrumentum salutis aliorum, quorum
+miseretur? Sed illis utique prodest, ad quorum salutem
+istis sic utitur; ut sicut scriptum est, justus manus
+lavet in sanguine peccatoris <note>(Psal. LVII, 11)</note>, id
+est, mundetur ab operibus malis per timorem Dei, cum
+videt supplicia peccatorum. Quod ergo <hi>volens ostendere
+iram, attulit vasa irae,</hi> valet ad utilem aliis praestantandum
+<pb n="0124"/>
+timorem, <hi>et ut notas faceret divitias gloriae suae
+in vasa misericordiae, quae praeparavit in gloriam.</hi> Etenim
+obduratio illa impiorum utrumque demonstrat, et quid
+timendum sit, ut quisque pietate convertatur ad
+Deum; et quantae agendae sint gratiae misericordiae
+Dei, qui in aliorum poena quid aliis donet ostendit. Si
+autem illa, quam de aliis exigit, non est justa poena;
+nihil donat aliis, a quibus eam non exigit. Quia vero
+illa justa est, et nulla est iniquitas apud vindicantem
+Deum, quis sufficiat agere gratias ei qui hoc remittit,
+quod si vellet exigere, nemo se recte diceret non debere?</p>
+          </div3>
+<div3>
+            <head>19.</head>
+            <p>
+ <hi>Quos et vocavit nos,</hi> inquit, <hi>non solum ex Judaeis,
+sed etiam ex Gentibus:</hi> id est, vasa misericordiae
+quae praeparavit in gloriam. Non enim omnes Judaeos,
+sed ex Judaeis: nec omnes omnino homines Gentium,
+sed ex Gentibus. Una est enim ex Adam massa peccatorum
+et impiorum, in qua et Judaei et Gentes remota
+gratia Dei ad unam pertinent conspersionem. Si
+enim figulus luti ex eadem conspersione facit aliud
+vas in honorem, aliud vas in contumeliam; manifestum
+est autem quod et ex Judaeis sunt alia vasa in
+bonorem, alia in contumeliam, sicut ex Gentibus: sequitur
+ut ad unam conspersionem omnes pertinere
+intelligantur. Deinde incipit reddere attestationes
+Prophetae singulis generibus converso ordine. Prius
+enim dixit <hi>ex Judaeis</hi>, posterius <hi>ex Gentibus:</hi> prius
+autem reddit testimonium pro Gentibus, deinde pro
+Judaeis. <hi>Etenim sicut Osee dicit, Vocabo non plebem
+meam, plebem meam, et non dilectam, dilectam: et erit
+in loco ubi dictum est, Non populus meus vos, ibi vocabuntur
+filii Dei vivi:</hi> De Gentibus intelligitur dictum,
+quia non habebant destinatum unum sacrificiorum locum,
+sicut Judaei in Jerusalem. Missi sunt autem ad
+Gentes Apostoli, ut in loco suo quique crederent, et
+ubicumque credidissent, ibi sacrificium laudis offerrent
+quibus dedit potestatem filios Dei fieri <note>(Joan. I, 12)</note>. <hi>Isaias autem,</hi> 
+ inquit, <hi>clamat pro Israel.</hi> Ne rursus
+omnes Israelitae in perditionem isse credantur, docet
+et inde facta alia vasa in honorem, alia in contumeliam. <hi>Si fuerit,</hi> 
+ inquit, <hi>numerus filiorum Israel quasi
+arena maris, reliquiae salvae fient.</hi> Caetera ergo turba,
+vasa perfecta ad perditionem. <hi>Verbum enim consummans
+et brevians,</hi> inquit, <hi>faciet Dominus super terram:</hi> 
+id est, ut compendio fidei per gratiam salvos faciat
+credentes, non per innumerabiles observationes, quibus
+illa multitudo serviliter onerata premebatur. Per
+gratiam quippe nobis verbum consummans et brevians
+fecit super terram, dicens: <hi>Jugum meum lene est, et
+sarcina mea levis est <note>(Matth. XI, 30)</note>
+            </hi>. Quod et paulo post
+hic dicitur: <hi>Prope te est verbum in ore tuo, et in corde
+tuo, hoc est verbum fidei quod praedicamus; quia si
+confitearis in ore tuo quia Dominus est Jesus et credideris
+in corde tuo quia Deus illum suscitavit a mortuis
+<pb n="0125"/>
+salvus eris. Corde enim creditur ad justitiam, ore autem
+confessio fit ad salutem. <note>(Rom. X, 8-10)</note>
+            </hi>. Hoc est verbum
+consummans et brevians, quod fecit Deus super
+terram, qua consummatione atque breviatione latro
+justificatus est, qui defixis in cruce omnibus membris,
+et habens libera haec duo, corde credidit ad justitiam,
+ore confessus est ad salutem; statimque audire meruit, <hi>Hodie mecum eris in paradiso 
+ <note>(Luc. XXIII, 43)</note>
+            </hi>.
+Consequerentur enim bona opera ejus, si percepta
+gratia diu inter homines viveret. Sed tamen non ea
+praecesserant, ut eamdem gratiam mereretur, ex latrocinio
+fixus in cruce, ex cruce in paradisum translatus. <hi>Et sicut praedixit,</hi> 
+ inquit, <hi>Isaias, Nisi Dominus sabaoth
+reliquisset nobis semen, sicut Sodoma facti essemus, et
+sicut Gomorrha similes fuissemus.</hi> Quod hic ait, <hi>reliquisset
+nobis semen;</hi> hoc ibi, <hi>reliquiae salvae fient.</hi> Caeteri
+autem tanquam perditionis vasa debito supplicio
+perierunt. Et ut non omnes perissent sicut in Sodoma
+et Gomorrha, non meritum eorum fecit, sed gratia
+Dei relinquentis semen, unde alia messis toto orbe
+consurgeret. Hoc et paulo post: <hi>Sic ergo,</hi> inquit, <hi>et
+in hoc tempore reliquiae per electionem gratiae salvae
+factae sunt. Si autem gratia, jam non ex operibus; alioquin
+gratia jam non est gratia. Quid ergo? Quod quaerebat
+Israel, hoc non est consecutus; electio autem consecuta
+est; caeteri vero excaecati sunt <note>(Rom. XI, 5-7)</note>
+            </hi>.
+Consecuta sunt vasa misericordiae, excaecata sunt
+vasa irae: ex eadem tamen conspersione, sicut in plenitudine
+Gentium.</p>
+          </div3>
+<div3>
+            <head>20.</head>
+            <p>
+ Est locus quidam Scripturae ad rem de qua
+nunc agimus, maxime necessarius, eadem quae tractata
+sunt, mira contestatione confirmans, in eo
+libro qui ab aliis Jesus Sirach, ab aliis Ecclesiasticus
+dicitur, in quo ita scriptum est: <hi>Et omnes homines
+de solo, et ex terra Adam creatus est. In multitudine
+disciplinae Dominus separavit eos, et immutavit vias
+eorum. Et ex ipsis benedixit et exaltavit, et ex his
+sanctificavit et ad se applicavit, et ex ipsis maledixit
+et humiliavit: et convertit illos ad dissensionem illorum.
+Quasi lutum figuli in manu ipsius plasmare illud
+et disponere, omnes viae ejus secundum dispositionem
+ejus; sic homo in manu illius qui se fecit, et reddet
+illi secundum judicium suum. Contrarium malo bonum
+est, et contra mortem vita est; sic et contra virum
+justum peccator. Et sic intuere in omnia opera Altissimi:
+duo, duo</hi>; <hi>unum contra unum.</hi> Primo hic commendata
+est disciplina Dei: <hi>In multitudine,</hi> inquit, <hi>disciplinae Dominus separavit eos:</hi> 
+ unde, nisi a beatitudine
+paradisi? <hi>Et immutavit vias eorum,</hi> ut jam
+tanquam mortales viverent. Tunc facta est una massa
+omnium, veniens de traduce peccati et de poena
+mortalitatis, quamvis Deo formante et creante quae
+bona sunt. In omnibus est enim species et compago
+corporis in tanta membrorum concordia, ut inde
+<pb n="0126"/>
+Apostolus ad charitatem obtinendam similitudinem
+duceret <note>(I Cor. XII, 12, etc.)</note>. In omnibus est etiam
+spiritus vitalis terrena membra vivificans, omnisque
+natura hominis dominatu animae et famulatu corporis
+conditione mirabili temperata: sed concupiscentia
+carnalis de peccati poena jam regnans, universum
+genus humanum tanquam totam et unam conspersionem
+originali reatu in omnia permanante confuderat.
+Et tamen sequitur, <hi>Ex ipsis benedixit et exaltavit, et
+ex ipsis sanctificavit et ad se applicavit, et ex ipsis maledixit
+et humiliavit, et convertit illos in dissensionem
+ipsorum:</hi> tanquam Apostolo dicente, <hi>An non habet
+potestatem figulus luti ex eadem conspersione facere
+aliud vas in honorem, aliud in contumeliam?</hi> Ideoque
+illud quod contexitur, nec ab ipsa similitudine vacat: <hi>Quasi lutum,</hi> 
+ inquit, <hi>figuli in manu ipsius plasmare
+illud et disponere, omnes viae ejus secundum dispositionem
+ejus; sic homo in manu illius qui se fecit.</hi> Sed
+quia dicit Apostolus, <hi>Numquid iniquitas apud Deum?</hi> 
+vide et hic quid adjungat: <hi>Reddet illi,</hi> inquit, <hi>secundum
+judicium suum.</hi> Sed cum damnatis justa tribuantur
+supplicia; tamen quia hoc ipsum in usum convertitur,
+quo illi proficiant quibus praebetur misericordia,
+attende reliqua: <hi>Contrarium,</hi> inquit, <hi>malo
+bonum est, et contra mortem vita; sic et contra virum
+justum peccator. Et sic intuere in omnia opera Altissimi:
+duo, duo; unum contra unum:</hi> utique ut ex
+deteriorum comparatione emineant proficiantque
+meliora. Quae tamen quoniam per gratiam meliora
+sunt, tanquam diceret, <hi>Reliquiae salvae fient</hi>; sequitur
+et dicit ex persona reliquiarum, <hi>Et ego novissimus
+vigilavi, et quasi qui racematur post vindemiatores.</hi> 
+Et unde probat, quia non ex meritis suis, sed ex
+misericordia Dei? <hi>In benedictione,</hi> inquit, <hi>Domini et
+ipse speravi, et quasi qui vindemiat, replevi torcular <note>(Eccli. XXXIII, 10-17)</note>
+            </hi>.
+Quamvis enim novissimus
+vigilaverit; tamen quia erunt, ut dictum est, novissimi
+primi <note>(Matth. XX, 16)</note>, in benedictione Domini
+sperans ex reliquiis Israel racematus populus implevit
+torcular ex ubertate vindemiae, quae toto orbe
+terrarum provenit.</p>
+          </div3>
+<div3>
+            <head>21.</head>
+            <p>
+ Nulla igitur intentio tenetur Apostoli, et omnium
+justificatorum per quos nobis intellectus gratiae
+demonstratus est, nisi ut qui gloriatur, in Domino
+glorietur <note>(II Cor. X, 17)</note>. Quis enim discutiet opera
+Domini, ex eadem conspersione unum damnantis,
+alterum justificantis? Liberum voluntatis arbitrium
+plurimum valet; imo vero est quidem, sed in venumdatis
+sub peccato <note>(Rom. VII, 14)</note> quid valet? <hi>Caro,</hi> 
+inquit, <hi>concupiscit adversus spiritum, et spiritus adversus
+carnem, ut non ea quae vultis faciatis <note>(Galat. V,
+17)</note>
+            </hi>. Praecipitur ut recte vivamus, hac utique mercede
+proposita, ut in aeternum beate vivere mereamur:
+sed quis potest recte vivere et bene operari,
+nisi justificatus ex fide? Praecipitur ut credamus,
+ut dono accepto Spiritus sancti per dilectionem bene
+operari possimus: sed quis potest credere, nisi aliqua
+vocatione, hoc est, aliqua rerum testificatione
+<pb n="0127"/>
+tangatur? Quis habet in potestate tali viso attingi
+mentem suam, quo ejus voluntas moveatur ad fidem?
+Quis autem animo amplectitur aliquid quod eum non
+delectat? aut quis habet in potestate ut vel occurrat
+quod eum delectare possit, vel delectet cum occurrerit?
+Cum ergo nos ea delectant quibus proficiamus
+ad Deum, inspiratur hoc et praebetur gratia Dei,
+non nutu nostro et industria aut operum meritis
+comparatur; quia ut sit nutus voluntatis, ut sit industria
+studii, ut sint opera charitate ferventia, ille
+tribuit, ille largitur. Petere jubemur ut accipiamus,
+et quaerere ut inveniamus, et pulsare ut aperiatur
+nobis <note>(Matth. VII, 7)</note>. Nonne aliquando ipsa oratio
+nostra sic tepida est, vel potius frigida et pene
+nulla, imo omnino interdum ita nulla, ut neque
+hoc in nobis cum dolore advertamus? quia si vel
+hoc dolemus, jam oramus. Quid ergo aliud ostenditur
+nobis, nisi quia et petere et quaerere et pulsare
+ille concedit, qui ut haec faciamus, jubet? <hi>Igitur
+non volentis, neque currentis, sed miserentis est Dei:</hi> 
+quandoquidem nec velle nec currere, nisi eo movente
+atque excitante, poterimus.</p>
+          </div3>
+<div3>
+            <head>22.</head>
+            <p>
+ Quod si electio hic fit aliqua, ut sic intelligamus
+quod dictum est, <hi>Reliquiae per electionem gratiae
+salvae factae sunt <note>(Rom. XI, 5)</note>
+            </hi>; non ut justificatorum
+electio fiat ad vitam aeternam, sed ut eligantur qui
+justificentur: certe ita occulta est haec electio, ut in
+eadem conspersione nobis prorsus apparere non
+possit; aut si apparet quibusdam, ego in hac re
+infirmitatem meam fateor. Non enim habeo quod
+intuear in eligendis hominibus ad gratiam salutarem,
+si ad examen hujus electionis aliqua cogitatione permittor,
+nisi vel majus ingenium, vel minora peccata,
+vel utrumque: addamus etiam, si placet, honestas
+utilesque doctrinas. Quisquis ergo fuerit quam minimis
+peccatis irretitus atque maculatus, (nam nullis
+quis potest?) et acer ingenio, et liberalibus artibus
+expolitus, eligendus videtur ad gratiam. Sed cum
+hoc statuero, ita me ridebit ille qui infirma mundi
+elegit ut confundat fortia, et stulta mundi ut confundat
+<pb n="0128"/>
+sapientes <note>(I Cor. I, 27)</note>, ut eum intuens et
+pudore correctus, ego irrideam multos et prae quibusdam
+peccatoribus castiores, et prae quibusdam
+piscatoribus oratores. Nonne advertimus multos
+fideles nostros ambulantes viam Dei, ex nulla parte
+ingenio comparari, non dicam quorumdam haereticorum,
+sed etiam mimorum? Item non videmus quosdam
+homines utriusque sexus in conjugali castitate
+viventes sine querela, et tamen vel haereticos vel
+paganos, vel etiam in vera fide et vera Ecclesia sic
+tepidos, ut eos miremur meretricum et histrionum
+subito conversorum, non solum patientia et temperantia,
+sed etiam fide, spe, charitate superari?
+Restat ergo ut voluntates eligantur. Sed voluntas
+ipsa, nisi aliquid occurrerit quod delectet atque
+invitet animum, moveri nullo modo potest: hoc
+autem ut occurrat, non est in hominis potestate.
+Quid volebat Saulus, nisi invadere, trahere, vincire,
+necare Christianos? Quam rabida voluntas, quam
+furiosa, quam caeca! qui tamen una desuper voce
+prostratus, occurrente utique tali viso, quo mens illa
+et voluntas refracta saevitia retorqueretur et corrigeretur
+ad fidem, repente ex Evangelii mirabili
+persecutore mirabilior praedicator effectus est <note>(Act.
+VIII, 3, et IX, 1)</note>. Et tamen quid dicemus? <hi>Numquid
+iniquitas est apud Deum,</hi> exigentem a quo placet,
+donantem cui placet? qui nequaquam exigit indebitum,
+nequaquam donat alienum. <hi>Numquid iniquitas
+est apud Deum? Absit.</hi> Quare tamen huic ita, et
+huic non ita? <hi>O homo, tu quis es?</hi> Debitum si non
+reddis, habes quod gratuleris: si reddis, non habes
+quod queraris. Credamus tantum, etsi capere non
+valemus, quoniam qui universam creaturam et spiritualem
+et corporalem fecit et condidit, omnia in
+numero et pondere et mensura disponit <note>(Sap. XI,
+21)</note>. Sed inscrutabilia sunt judicia ejus, et investigabiles
+viae ejus <note>(Rom. XI, 33)</note>. Dicamus Alleluia, et
+collaudemus canticum, et non dicamus, Quid hoc?
+vel, quid hoc? Omnia enim in tempore suo creata
+sunt <note>(Eccli. XXXIX, 19, 26)</note>.
+</p>
+          </div3>
+        </div2>
+      </div1>
+
+<div1>
+        <head> <hi>LIBER SECUNDUS.</hi> In caeteras quaestiones quinque vel sex a Simpliciano propositas ex libris Regum.</head>
+<div2>
+          <head>PRAEFATIO.</head>
+<pb n="0127"/>
+          <p>Satis jam de Apostolo me ad proposita respondisse
+existimo: nunc ad ea quae de libris Regnorum
+requisisti aliud volumen aggrediar; quae, sicut multa et
+prope omnia veterum Librorum, figuratiora sunt, et
+mysteriorum velaminibus involuta. Quamvis autem
+ex eo quod transierimus ad Christum, auferatur velamen <note>(II Cor. III, 16)</note>:
+tamen videmus nunc in aenigmate,
+tunc autem facie ad faciem. Velamen quippe
+omni modo intercludit aspectum; aenigma vero, tanquam
+<pb n="0128"/>
+per speculum, sicut idem apostolus ait, <hi>Videmus
+nunc per speculum et in aenigmate <note>(I Cor. XIII, 12)</note>
+            </hi>,
+nec evidentissimam detegit speciem, nec prorsus obtegit
+veritatem. Aggrediar ergo et ista, duce Domino,
+tuis potius sublevatus orationibus, quam jussionibus
+aggravatus. Praesertim quia ex epistola tua non hoc
+
+<pb n="0129"/>
+te intellexi quaerere, quid haec in prophetia significent:
+in quo revera obtemperare mihi esset difficillimum;
+quia et de tota eorumdem contextione librorum
+ducenda esset intentio, et si esset promptior
+intellectus, magnitudo tamen operis impediret;
+quae si subeunda est, prolixius otium tempusque flagitat:
+sed nunc ipsas rerum proprietates gestarum,
+quae his verbis quorum a te facta commemoratio est,
+significantur, quomodo intelligerem nosse dignatus es
+et meis litteris aperiri.</p>
+</div2>
+
+<div2>
+          <head>QUAESTIO PRIMA.-- <hi>Spiritu Dei diverso modo afficiuntur prophetae. Prophetia habitu perpetuo, et affectu transitorio. Spiritus Dei sine additamento intelligitur bonus. An eodem nomine intelligendus Spiritus sanctus Patri et Filio consubstantialis. Spiritus Dei in Saüle bonus et malus quomodo. Saül persequens Davidem spiritu prophetico et bono correptus. Munera quaedam Spiritus sancti haberi sine charitate. Sine charitate munera alia Spiritus sancti nihil prosunt. An prophetia habeatur sine charitate. Haereticos et schismaticos habere alia dona Spiritus sancti praeter charitatem. Spiritus malus cur dictus spiritus Domini.</hi> </head>
+<div3>
+            <head>1.</head>
+            <p>
+ Et primum quidem quod de primo Regnorum libro
+jussisti ut exponerem, quomodo dictum sit, <hi>Et insiluit
+spiritus Domini in Saül</hi> cum alibi dicat, <hi>Et spiritus
+Domini malus in Saül <note>(1 Reg. XVI, 14)</note>
+            </hi>. Ita enim
+scriptum est: <hi>Et factum est cum converteret humerum
+suum, ut iret a Samuel, convertit Deus in Saül cor aliud,
+et venerunt omnia signa illa die: et venit inde in collem,
+et ecce chorus prophetarum in obviam illi, et insiluit
+in illum spiritus Dei, et prophetavit in medio eorum <note>(Id. X, 9, 10)</note>
+            </hi>.
+Praedixerat enim haec illi Samuel, cum
+eum jussus unxisset. Et hoc quidem non puto habere
+aliquid quaestionis. Spiritus enim ubi vult spirat <note>(Joan.
+III, 8)</note>: et spiritum prophetiae nullarum animarum
+potest maculare contactus. Attingit enim ubique propter
+suam munditiam <note>(Sap. VII, 24)</note>. Afficit autem non
+omnes eodem modo, sed alios per informationem spiritus
+eorumdem hominum, ubi rerum demonstrantur
+imagines; alios per fructum mentis ad intelligentiam;
+alios utraque inspiratione; alios etiam nescientes. Sed
+per informationem spiritus duobus modis: aut per
+somnium, sicut non solum plerique sancti, sed et
+Pharao et Nabuchodonosor rex vidit quod nemo
+eorum intelligere valebat, sed tamen videre uterque
+potuerat <note>(Gen. XLI, et Dan. II-IV)</note>: aut per demonstrationem
+in ecstasi, quod nonnulli Latini stuporem interpretantur;
+mirum si proprie, sed vicine tamen,
+cum sit mentis alienatio a sensibus corporis, ut spiritus
+hominis divino spiritu assumptus capiendis atque intuendis
+imaginibus vacet; sicut Danieli demonstratum
+est quod non intelligebat, et Petro illud vas submissum
+de coelo quatuor lineis <note>(Act. X, 11)</note>: nam et
+ipse quid illa demonstratio figuraret postea cognovit.
+Per fructum autem mentis ad intelligentiam uno modo,
+cum haec ipsa quae demonstrantur imaginibus quid
+significent et quo pertineant revelatur; quae certior
+<pb n="0130"/>
+prophetia est; nam magis ipsam vocat Apostolus prophetiam <note>(I Cor. XIII, 2)</note>:
+sicut Joseph meruit intelligere,
+quod Pharao non nisi videre; et Daniel exponit
+regi, quod ille cernit et nescit. Cum vero ita mens afficitur,
+ut non rerum imagines conjecturali examinatione
+intelligat, sed res ipsas intueatur, sicut intelligitur
+sapientia et justitia omnisque incommutabilis et
+divina species, ad prophetiam de qua nunc agimus
+non pertinet. Utroque autem munere prophetiae donantur
+hi qui et rerum imagines in spiritu vident, et
+quid valeant simul intelligunt, aut certe manifestis
+locutionibus in ipsa demonstratione informantur, sicut
+in Apocalypsi quaedam exponuntur. Nescientes
+autem afficit prophetiae spiritus, sicut Caiphas cum
+esset pontifex prophetavit de Domino quod expediret
+unum mori pro tota gente <note>(Joan. XI, 49, 50)</note>, cum aliud
+in verbis quae dicebat attenderet; quae non se a se ipso dicere
+nesciebat. Abundant in sanctis Libris exempla; et
+res prudentiae tuae notissimas loquor. Non enim ista dicis
+ex me, sed in eis me percontando probas, et cognoscere
+cupiens proficientem, et corrigere paratus errantem.
+Hoc autem verbo, quod positum est, <hi>Et insiluit in eum
+spiritus;</hi> tanquam ex abdito divinitatis secreto repentinus
+significatur afflatus. Horum igitur modorum
+quonam potius affectum esse intelligamus Saül, satis
+apparet ex eo quod ibi scriptum est, <hi>Convertit Deus in
+Saül cor aliud.</hi> Sic enim aliam cordis affectionem significat,
+quam convertendo fecit Deus ut imaginum
+significantium et praefigurantium capax fieret, ad propheticam
+divinationem.</p>
+          </div3>
+<div3>
+            <head>2.</head>
+            <p>
+ Tantum autem distat inter prophetiam prophetarum,
+sicut Isaias, sicut Jeremias, et caeteri hujusmodi
+fuerunt, atque istam transitoriam quae in Saül
+apparuit, quantum distat inter loquelam humanam,
+cum loquuntur homines, et cum eadem loquela propter
+necessarium prodigiam asina locuta est, in qua
+sedebat Balaam propheta <note>(Num. XXII, 28)</note>. Accepit
+enim hoc ad tempus illud jumentum, ut Deus quod
+statuerat demonstraret, non ut habitu perpetuo inter
+homines bestia loqueretur. Aut si hoc exemplum majore
+differentia remotum est; multo minus mirandum
+est homini reprobo datam fuisse ad momentum temporis
+affectu transitorio prophetiam, quando ille dederat,
+qui et asinam cum voluit loqui fecit. Magis enim
+distat pecus ab homine, quam homo reprobus ab
+electis, sed tamen hominibus. Non enim si quisquam
+dixerit aliquid quod ad sapientiam pertinet, continuo
+sapiens existimandus est. Sic nec quisquam, si aliquando
+prophetaverit, jam inter prophetas numerabitur:
+cum et Dominus in Evangelio dicat quosdam
+cum gaudio verbum excipere, et radicis altitudinem
+non habere, sed esse temporales <note>(Matth. XIII, 20,
+21)</note>. Ideoque sicut consequens indicat lectio, factum
+est in parabolam, <hi>Si et Saül inter prophetas <note>(I Reg. X,
+12)</note>
+            </hi>? Hoc igitur mirari desinamus, cum in hominibus
+apparet divinitus aliquid, quorum vel meritum
+<pb n="0131"/>
+vel habitum excedit, cum forte vult Deus cujusdam
+significationis gratia tale aliquid demonstrari.</p>
+          </div3>
+<div3>
+            <head>3.</head>
+            <p>
+ Si autem hoc movet, quod postea Saül malo
+spiritu invadente praefocabatur, qui prius prophetiae
+spiritum acceperat; neque hoc mirandum est. Illud
+enim factum est ex dispensatione aliquid significandi,
+hoc ex merito vindicandi. Nec movere nos debent
+haec alternantia in animo humano, hoc est in creatura
+mutabili; praesertim eo tempore quo caro corruptibilis
+mortalisque portatur. An non videmus in
+ipso Petro, quantum indicat Evangelium, exstitisse
+tantam confessionem, ut audire meruerit, <hi>Beatus es
+Simon Bar Jona, quia non revelavit tibi caro et sanguis,
+sed Pater meus qui in coelis est:</hi> et paulo post
+tam carnaliter eum de Domini passione sensisse, ut
+statim audierit, <hi>Vade post me, Satana, scandalum
+mihi es; non enim sapis quae Dei sunt, sed quae hominum <note>(Matth. XVI, 17, 23)</note>
+            </hi>?
+Et fortasse aliquanto interius
+intelligentibus tantum valet ad visa illa mentis
+haec differentia, qua Petrus primo intellexit Deo Patre
+revelante, quod Filius Dei esset Christus, et postea ne
+moreretur extimuit; quantum valet ad distinguenda visa,
+quae in spiritu hominis alienata mente imaginarie
+fiunt, revelatio prophetiae qua primo afflatus est Saül,
+et commixtio spiritus mali quo postea premebatur.</p>
+          </div3>
+<div3>
+            <head>4.</head>
+            <p>
+ Jamvero illud, quod etiam malus appellatus est
+spiritus Domini, sic intelligitur, quomodo dictum est, <hi>Domini est terra 
+ <note>(Psal. XXIII, 1)</note>
+            </hi>: tanquam creatura
+et in ejus posita potestate. Aut si propterea non congruit
+hoc locutionis exemplum, quia terra non est
+mala; omnis enim creatura Dei bona est <note>(I Tim, IV,
+4)</note>: illud congruat, quod ipse Saül jam reprobus et
+scelestus atque ingratus sancto David, persecutor
+etiam ejus, cum saevissimae invidiae facibus agitaretur,
+tamen adhuc Christus Domini dicebatur; sicut
+eum appellavit ipse David, cum vindicavit exstinctum <note>(II Reg. I, 14, 15)</note>.
+Sed magis arbitror malignum
+spiritum a quo vexabatur Saül, ideo dictum
+spiritum Domini, quod occulto Domini judicio Saülem
+vexabat. Utitur enim Deus ministris etiam spiritibus
+malis ad vindictam malorum, vel ad bonorum
+probationem; alio modo ad illam rem, alio ad
+istam. Quamvis enim inde sit quisque malignus spiritus,
+quia mala voluntate nocere appetit; tamen
+nocendi potestatem non accipit, nisi ab illo sub quo
+sunt omnia certis et justis meritorum gradibus ordinata.
+Quia sicut non est mala voluntas a Deo, sic
+non est potestas nisi a Deo <note>(Rom. XIII, 1)</note>. Quamvis
+enim sit in cujusque potestate quid velit, non est
+tamen in cujusque potestate quid possit vel facere
+cuiquam vel a quoquam pati. Nam et ipse Filius unicus
+Dei passurus ad tempus humiliter homini superbe
+loquenti et dicenti quod potestatem haberet occidendi
+eum vel dimittendi: <hi>Non haberes,</hi> inquit, <hi>in
+me potestatem, nisi data tibi esset desuper <note>(Joan. XIX,
+11)</note>
+            </hi>. Diabolus etiam volens nocere justo viro Job, nocendi
+<pb n="0132"/>
+quidem voluntas diabolo erat, sed tamen a
+Domino Deo potestatem petebat, dicens, <hi>Mitte manum
+tuam, et tange carnem ejus <note>(Job II, 5)</note>
+            </hi>: quamvis
+hoc esset, si permitteretur, ipse facturus. Ipsam
+enim permissionem petebat hoc modo, et manum
+Domini appellabat permissam a Domino manum
+suam, id est, ipsam potestatem quam volebat accipere.
+Cui congruit illud in Evangelio, quod Dominus
+discipulis ait, <hi>Hac nocte postulavit satanas vexare vos
+sicut triticum <note>(Luc. XXII, 31)</note>
+            </hi>. Dictus est ergo spiritus
+Dei malus, hoc est minister Dei ad faciendum in
+Saül quod eum pati judex omnipotentissimus judicabat.
+Quoniam spiritus ille voluntate qua malus
+erat, non erat Dei: creatura vero qua conditus erat,
+et potestate quam non sua, sed Domini omnium
+aequitate acceperat, Dei erat. Verba etiam ipsa Scripturarum
+ita se habent: <hi>Et perrexit,</hi> inquit, <hi>Samuel,
+et abiit in Ramatha; et spiritus Domini recessit a Saül,
+et comprehendit eum spiritus malignus a Domino</hi>, <hi>et
+suffocabat eum. Et dixerunt pueri Saül ad eum: Ecce
+Spiritus Domini malignus suffocat te <note>(I Reg. XVI, 13-15)</note>
+            </hi>.
+Hoc igitur a pueris ejus quomodo sit dictum, <hi>spiritus Domini malignus,</hi> 
+ superiora verba indicant
+narrantis Scripturae et dicentis, <hi>Spiritus malignus a Domino.</hi> 
+Secundum enim hoc <hi>Domini</hi>, quod <hi>a Domino.</hi> 
+Quia per se ipsum velle nocere habebat, id est, comprehendere
+Saül; posse autem non habebat, nisi
+summa justitia sineretur. Si enim juste vindicat Deus,
+quemadmodum ipse dicit Apostolus, cum tradit homines
+in concupiscentias cordis eorum <note>(Rom. I, 24)</note>;
+non mirum si nihilominus juste vindicans tradit eos
+etiam in concupiscentias aliorum nocere volentium,
+sua semper incommutabili aequitate servata.</p>
+          </div3>
+<div3>
+            <head>5.</head>
+            <p>
+ Animadvertendum sane est, cum additamento
+dici, <hi>spiritus Dei malus.</hi> Cum autem tantummodo
+dicitur, <hi>spiritus Dei,</hi> etiamsi non addatur bonus,
+ex hoc intelligitur bonus. Unde apparet bonum spiritum
+secundum substantiam, malum autem secundum
+ministerium dici spiritum Dei. Quanquam quaeri
+adhuc possit utrum cum spiritus Dei dicitur, et ex hoc
+ipso jam, etsi nihil addatur, intelligitur bonus, ille
+intelligatur qui est in Trinitate consubstantialis Patri
+et Filio Spiritus sanctus, de quo dicitur, <hi>Ubi autem
+Spiritus Domini, ibi libertas <note>(II Cor. III, 17)</note>
+            </hi>; et iterum, <hi>Nobis autem revelavit Deus per Spiritum suum;</hi> 
+et illud, <hi>Sic et quae Dei sunt, nemo scit nisi Spiritus
+Dei <note>(I Cor. II, 10, 11)</note>
+            </hi>. Et multis locis hoc modo dicitur
+Spiritus Dei, et intelligitur Spiritus sanctus,
+etiamsi non addatur: quoniam ea quae circumstant,
+satis indicant de quo dicatur; ita ut aliquando nec
+Dei addatur, et intelligatur tamen ille Spiritus Dei
+principaliter sanctus. Nam quem alium commemorat,
+ubi dicit, <hi>Ipse Spiritus testimonium dat spiritui
+nostro, quia sumus filii Dei;</hi> et, <hi>Ipse Spiritus adjuvat
+<pb n="0133"/>
+infirmitatem nostram <note>(Rom. VIII, 16, 26)</note>
+            </hi>; et, <hi>Haec
+omnia operatur unus atque idem Spiritus, dividens
+singula unicuique prout vult;</hi> et, <hi>Divisiones donationum
+sunt, idem autem Spiritus <note>(I Cor. XII, 11, 4)</note>
+            </hi>? In
+his enim omnibus sententiis, nec Dei, nec sanctus est
+additum, et tamen ipse intelligitur. Sed nescio utrum
+manifesto aliquo exemplo probari possit, alicubi spiritum
+Dei dictum sine additamento, ubi Spiritus ille
+sanctus non significetur, sed aliquis quamvis bonus,
+creatus tamen et conditus. Quae proferuntur enim
+dubia sunt, et indigent clariore documento; sicut illud
+quod scriptum est, <hi>Spiritus Dei superferebatur super
+aquam <note>(Gen. I, 2)</note>
+            </hi>. Nam et ibi Spiritum sanctum accipere
+quid impediat, non invenio. Cum enim aquarum
+nomine illa materies insinuetur informis, quae de
+nihilo facta est, unde omnia fierent; quid prohibet
+intelligere Spiritum sanctum Conditoris, quod superferebatur
+huic materiae, non locorum gradibus intervallisque
+spatiorum, quod nequaquam de ulla re incorporea
+recte dicitur, sed excellentia et eminentia
+dominantis super omnia voluntatis, ut omnia conderentur?
+Praesertim cum ea locutio, sicut illarum Scripturarum
+mos est, etiam propheticum quiddam sonet,
+mysteriumque futuri Baptismatis ex aqua et Spiritu
+sancto nascituri populi praefiguret. Non ergo cogit
+quod dictum est, <hi>Et Spiritus Dei superferebatur
+super aquam,</hi> illum intelligere spiritum, sicut nonnulli
+volunt, quo mundi moles universa ista corporea
+velut animatur, ad ministerium quorumque gignentium,
+et in sua specie continendarum corporalium
+creaturarum. Creatura est enim quidquid est tale.
+Illud etiam quod scriptum est, <hi>Quoniam Spiritus Domini
+replevit orbem terrarum <note>(Sap. I, 7)</note>
+            </hi>, non desunt
+qui eumdem spiritum velint accipi, invisibilem scilicet
+creaturam cuncta visibilia universali quadam
+conspiratione vegetantem atque continentem. Sed
+neque hic video quid impediat intelligere Spiritum
+sanctum, cum ipse Deus dicat apud prophetam, <hi>Coelum
+et terram ego impleo <note>(Jerem. XXIII, 24)</note>
+            </hi>. Non
+enim sine suo Spiritu sancto implet Deus coelum et
+terram. Quid ergo mirum si de Spiritu sancto ejus
+dictum est, <hi>Replevit orbem terrarum?</hi> Aliter enim
+replet sanctificando, sicut de Stephano dicitur, <hi>Repletus
+est Spiritu sancto <note>(Act. VI, 5, et VII, 55)</note>
+            </hi>; et
+de caeteris talibus: aliter ergo replet sanctificante
+gratia, sicut quosdam sanctos; aliter attestante
+atque ordinante praesentia, sicut omnia. Quamobrem
+nescio utrum certo aliquo documento Scripturarum
+possit ostendi, cum sine ullo additamento dicitur
+<pb n="0134"/>
+spiritus Dei vel spiritus Domini, aliquid aliud significari
+quam Spiritum sanctum. Sed etsi est forte quod
+in praesentia non occurrat, illud certe arbitror non
+temere dici, quoties in sanctis eloquiis commemoratur
+spiritus Dei, neque additur aliquid, sive ille Patri
+et Filio consubstantialis Spiritus sanctus, sive aliqua
+creatura invisibilis intelligatur, malum tamen non
+posse intelligi, nisi addatur etiam malus. Malo enim
+quia bene utitur Deus ad ministerium judicii sui, appellatur
+etiam ipse spiritus Dei, ad vindictam malorum
+et disciplinam vel probationem bonorum.</p>
+          </div3>
+<div3>
+            <head>6.</head>
+            <p>
+ Nec illud movere jam nos debet, quod postea
+scriptum est, eumdem Saülem spiritu Dei super se
+facto prophetasse, quomodo post bonum spiritum spiritus
+malus, et rursum post malum bonus. Hoc enim
+fit, non mutabilitate Spiritus sancti, qui est incommutabilis
+cum Patre et Filio, sed mutabilitate animi humani,
+Deo cuncta distribuente, sive malis pro merito
+damnationis vel emendationis, sive bonis pro largitate
+gratiae suae. Quanquam videri possit etiam idem fuisse
+Dei spiritus semper in Saül; malus autem illi, quod
+ejus sanctitatis capax non esset. Sed non recte hoc
+videtur. Tutior est enim ille sensus et verior, ut pro mutabilitate
+affectionis humanae Spiritus Dei bonus bene
+afficiat, vel ad prophetiam, vel ad opus quodlibet aliud
+in munere divino; afficiat autem malus male, qui propter
+ministerium divinae aequitatis omnia distribuentis
+et omnibus recte utentis dicitur et ipse spiritus Dei:
+praesertim quia dictum est, <hi>Recessit ab eo Spiritus Dei,
+et comprehendit eum spiritus malignus a Domino.</hi> Nullo
+enim pacto potest idem videri recessisse et apprehendisse.
+Porro autem in nonnullis exemplaribus, et eis
+maxime quae de lingua hebraea ad verbum videntur
+expressa, invenitur Spiritus Dei sine additamento positus;
+et intelligitur malus ex eo quod arripiebat Saül,
+et reficiebat eum David tangendo citharam. Manifestum
+est tamen, ideo non additum malus, quia paulo
+superius jam dictum erat, et de vicinitate Scripturae
+subaudiri et intelligi poterat. Ita enim in hujusmodi
+exemplaribus legitur: <hi>Igitur quandocumque spiritus
+Domini arripiebat Saül, tollebat David citharam et
+percutiebat manu sua, et refocillabatur Saül, et
+levius habebat: recedebat enim ab eo spiritus malus.</hi> 
+Sive ergo quod hic non est dictum, spiritus Dei;
+sed tantummodo, spiritus malus: quod ibi minus
+dictum erat, tanquam redditum apparet, sive quia
+superius ita positum erat, <hi>Et dixerunt servi Saül
+ad eum: Ecce spiritus Dei malus exagitat te; jubeat
+dominus noster, et servi tui qui coram te sunt quaerent
+hominem scientem psallere cithara, ut quando arripuerit
+te spiritus Dei malus, psallat manu sua, et levius
+feras <note>(I Reg. XVI, 23, 15, 16)</note>
+            </hi>; non opus erat, cum
+rursum diceretur, <hi>quandocumque spiritus Dei arripiebat
+Saül,</hi> addere malum, quia notum erat de quo tunc
+diceretur.</p>
+          </div3>
+<div3>
+            <head>7.</head>
+            <p>
+ Verumtamen illa quaestio major est, et non
+transitoria animi intentione rimanda, quod cum Saül
+persequeretur David innocentem, plenus invidia et
+<pb n="0135"/>
+livore vesanus, <hi>factus est super eum Spiritus Dei, et
+ambulabat ingrediens, et prophetabat.</hi> Non enim potest
+hic nisi spiritus bonus intelligi, per quem sancti Prophetae
+futurarum rerum imagines et visa cernebant;
+non ex eo tantum quia dictum est, <hi>Et prophetabat:</hi> 
+nam in exemplaribus quae sunt ex hebraeo, hoc quoque
+invenitur de spiritu malo dictum ita, <hi>Post diem
+autem alterum invasit spiritus Dei malus Saül, et prophetabat
+in medio domus suae <note>(I Reg. XVIII, 10)</note>
+            </hi>. Et in aliis
+divinarum Scripturarum locis saepe invenitur quod
+prophetia non tantum bona, sed et mala dicatur; et
+prophetae dicti sunt Baalim <note>(III Reg. XVIII, 19, 22, 25,
+40)</note>; et exprobratum est quibusdam quia prophetabant
+in Baal <note>(Jerem. II, 8)</note>. Non ergo necesse est intelligi
+propterea bonum spiritum, qui factus est super
+Saül postea, quia dictum est, <hi>et ambulabat ingrediens,
+et prophetabat:</hi> sed quia sine additamento positum est, <hi>Et factus etiam est super eum Spiritus Dei.</hi> 
+ Non enim
+sicut in illo loco dictum erat supra, <hi>Spiritus Dei malus;</hi> 
+ut ex hoc posset etiam in consequentibus subaudiri:
+quin imo superiora magis magisque attestantur
+illum spiritum Dei bonum fuisse et vere propheticum.
+David enim erat cum Samuele, et misit Saül nuntios
+qui apprehenderent David. Quando autem Samuel
+erat inter prophetas et coetum prophetarum, qui illo
+tempore prophetabant, nuntii qui missi sunt, accepto
+eodem spiritu prophetaverunt, missisque aliis hoc
+contigit, et tertiis nihilominus: postea cum et ipse
+Saül venisset, <hi>factus est etiam super eum Spiritus Dei,
+et ambulabat ingrediens, et prophetabat.</hi> Cum enim dicitur, <hi>Factus est etiam super ipsos Spiritus Dei, et prophetabant
+et ipsi;</hi> 
+ idem utique erat spiritus, qui erat
+in prophetis, inter quos et Samuel inventus est <note>(I Reg.
+XIX, 20-23)</note>: ex hoc itaque necesse est intelligi illum
+spiritum bonum. Atque ideo quaestio diligenter discutienda
+est, quomodo et illi cum missi essent ad tenendum
+hominem et ad necem adducendum, tali
+spiritu affici meruerunt, et Saül ipse qui miserat,
+veniens et ipse, et sanguinem innocentem quaerens
+effundere, accipere meruit illum spiritum, et prophetare.</p>
+          </div3>
+<div3>
+            <head>8.</head>
+            <p>
+ Hic nimirum occurrit illud, quod apostolus Paulus
+apertissime exponit, supereminentem viam demonstrans: <hi>Si linguis hominum loquar,</hi> 
+ inquit, <hi>et Angelorum,
+charitatem autem non habeam, factus sum velut
+aeramentum sonans, aut cymbalum tinniens. Et si habuero
+prophetiam</hi>, <hi>et sciero omnia sacramenta et omnem
+scientiam, et si habuero omnem fidem, ita ut montes
+transferam, charitatem autem non habeam, nihil sum.
+Et si distribuero omnem substantiam meam, et si tradidero
+corpus meum ut ardeam, charitatem autem non
+habeam, nihil mihi prodest.</hi> Quo in loco manifestum
+est eum munera illa commemorasse, quae Spiritus
+sancti divisionibus dantur, sicut superius dicit: <hi>Unicuique
+autem datur manifestatio Spiritus ad utilitatem;
+alii quidem per Spiritum datur sermo sapientiae; alii
+sermo scientiae secundum eumdem Spiritum; alteri autem
+<pb n="0136"/>
+fides in eodem Spiritu; alii donatio curationum in
+uno Spiritu; alii operationes virtutum, alii prophetia,
+alii dijudicatio spirituum, alteri genera linguarum.
+Omnia autem haec operatur unus atque idem Spiritus,
+dividens propria unicuique prout vult.</hi> Satis ergo apparet
+inter dona Spiritus sancti esse prophetiam, quam
+tamen si quis habeat, et charitatem non habeat, nihil
+est. Ex quo intelligitur fieri posse ut quidam etiam
+indigni vita aeterna regnoque coelorum, aspergantur
+tamen quibusdam Spiritus sancti muneribus non habentes
+charitatem, sine qua illa munera non nihil
+sunt, sed nihil eis prosunt. Prophetia quippe sine charitate,
+sicut jam demonstratum est, non perducit ad
+regnum Dei: charitas vero sine prophetia utique perducit.
+Cum enim loquens de membris Christi ait, <hi>Numquid omnes apostoli? numquid omnes prophetae?</hi> 
+indubitanter ostendit etiam eum qui prophetiam non
+habet, posse in membris Christi numerari: ubi quem
+locum haberet, si charitatem, sine qua homo nihil
+est, non haberet? Nullo autem modo ita diceret,
+quando de membris agebat quibus Christi corpus impletur,
+Numquid omnes habent charitatem? quemadmodum
+dixit, <hi>Numquid omnes apostoli? numquid omnes
+prophetae? numquid omnes virtutes? numquid omnes
+dona habent curationum <note>(I Cor. XII, 7-11, 29, XIII, 3)</note>
+            </hi>?
+et caetera hujusmodi.</p>
+          </div3>
+<div3>
+            <head>9.</head>
+            <p>
+ Sed dicit aliquis posse quidem fieri ut prophetiam
+quisque non habeat, et tamen habeat charitatem,
+atque ideo Christi membris annumeratus inhaereat:
+sed fieri non posse ut prophetiam habeat, et non
+habeat charitatem; nihil enim est homo habens prophetiam
+sine charitate. Ita fortasse, quemadmodum
+possumus dicere, nihil esse hominem habentem animam
+sine mente: non quia potest inveniri homo qui
+mentem non habeat habens animam; sed quia nihil
+esset, si inveniri posset. Sic etiam dici potest, Si corpus
+figuram habeat, colorem non habeat, videri non
+potest: non quia est corpus cui desit color; sed quia
+si esset, cerni non posset. Ita fortasse dictum est quod
+si quis habeat prophetiam, et charitatem non habeat,
+nihil est: non quia potest in quoquam esse prophetia
+sine charitate; sed quia si esset, prodesse non posset.
+Opus est igitur ad solvendam istam quaestionem,
+ut ostendamus aliquem reprobum hoc donum habuisse
+prophetiae: quod si neminem inveniremus, hoc iste
+ipse Saül satis ostenderet. Sed tamen ille etiam Balaam
+reprobus apparet; non enim eum tacet Scriptura
+divino judicio esse damnatum: et tamen prophetiam
+habebat; et quia charitas ei deerat, inerat
+voluntas maledicendi populo Israel, quam hostis pretio
+comparaverat, qui eum ad maledicendum mercede
+conduxerat; dono tamen illo prophetandi, quo asper
+gebatur, benedicebat invitus <note>(Num. XXII-XXIV)</note>. Nec
+verba illa parum attestantur huic sententiae, quae in
+Evangelio scripta sunt, multos dicturos in illa die, <hi>Domine,
+Domine, in nomine tuo manducavimus et bibimus</hi>, <hi>et in nomine tuo prophetavimus, et in nomine tue virtutes
+<pb n="0137"/>
+multas fecimus:</hi> 
+ quibus tamen dicturus est, <hi>Non
+novi vos; recedite a me, operarii iniquitatis <note>(Matth. VII,
+22, 23)</note>
+            </hi>. Non enim eos mentientes putamus ista dicturos
+in illo judicio, ubi nullus erit fallendi locus, aut
+ullam vocem talium legimus, dicentium, Dileximus
+te. Poterunt ergo dicere, <hi>In nomine tuo prophetavimus,</hi> 
+cum sint improbi et reprobi: non autem poterunt
+dicere, Dilectionem quam mandasti, tenuimus.
+Nam si dicent, non eis respondebitur, <hi>Non novi vos.
+In hoc</hi> enim <hi>cognoscetur,</hi> inquit, <hi>quia discipuli mei
+estis, si vos invicem diligatis <note>(Joan. XIII, 35)</note>
+            </hi>.</p>
+          </div3>
+<div3>
+            <head>10.</head>
+            <p>
+ Exemplum itaque hujus Saül resistit superbis
+nonnullis haereticis, qui aliquid boni de muneribus
+sancti Spiritus negant posse dari eis qui ad sortem
+sanctorum non pertinent: cum eis dicimus habere
+illos posse sacramentum Baptismi, quod cum ad Ecclesiam
+catholicam veniunt, non est in eis ullo modo
+violandum, aut quasi non habeant tradendum; sed
+tamen eos non ideo saluti debere confidere, quia non
+improbamus quod illos accepisse concedimus; sed
+oportere cognoscere unitatis societatem vinculo charitatis
+ineundam, sine qua omnino quidquid habere
+potuerint, quamvis per se sanctum ac venerandum,
+ipsi tamen nihil sunt, tanto indigniores effecti vitae
+aeternae praemio, quanto illis donis non bene usi sunt,
+quae in hac vita, quae transitoria est acceperunt.
+Non autem bene utitur, nisi charitas; et charitas
+omnia tolerat <note>(I Cor. XIII, 7)</note>, atque ideo non scindit
+unitatem, cujus ipsa est fortissimum vinculum. Non
+enim et servus ille non accepit talentum, aut aliquid
+aliud intelligitur talentum quam munus aliquod utique
+divinum: sed, <hi>Qui habet, dabitur ei; qui autem
+non habet, et quod habet auferetur ab eo <note>(Matth. XXV,
+29)</note>
+            </hi>. Quod non habet auferri non potest; sed aliud
+non habet, ut merito auferatur quod habet: non habet
+charitatem utendi, ut auferatur quidquid aliud
+habet, quod sine charitate non prodest.</p>
+          </div3>
+<div3>
+            <head>11.</head>
+            <p>
+ Non igitur mirum est, regem Saül et eo tempore
+quo primum unctus est, accepisse spiritum prophetandi,
+et postea cum esset propter inobedientiam
+reprobatus, recedente ab eo spiritu Domini arreptum
+esse maligno spiritu a Domino: qui etiam
+spiritus Domini appellatus est propter ministerium;
+quia omnibus etiam spiritibus malis bene utitur Dominus,
+vel ad damnationem quorumdam, vel ad
+emendationem, vel ad probationem: et quamvis non
+sit malignitas a Domino, non est tamen potestas nisi
+a Deo <note>(Rom. XIII, 1)</note>. Dictusque est etiam sopor Domini,
+qui occupaverat milites ejusdem Saül, cum David
+hastam et scyphum abstulisset a capite dormientis <note>(I Reg. XXVI, 12)</note>:
+non quia tunc sopor in Domino
+erat, ut ipse dormiret; sed quia ille sopor, qui tunc
+homines apprehenderat, nutu Dei erat infusus, ne
+David servi ejus in eo loco praesentia sentiretur.
+<pb n="0138"/>
+Neque illud mirum est, rursum eumdem Saül accepisse
+spiritum prophetiae, cum persequeretur justum,
+et eum comprehensurus et necaturus venisset in locum
+ubi erat congregatio prophetarum. Sic enim satis
+demonstratum est neminem de tali munere jam
+securum esse debere, tanquam sit acceptissimus Deo,
+si non habeat charitatem: quandoquidem illud donum
+et Saüli dari potuit, propter arcanum quidem alicujus
+sacramenti; sed tamen dari potuit reprobato, et
+invido, et ingrato, et reddenti mala pro bonis, et ne
+post ipsam quidem acceptionem spiritus correcto in
+melius atque mutato.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>QUAEST. II.-- <hi>De Deo nihil dignum dicitur. Praescientia an proprie sit in Deo. Scientia quid, et quomodo in Deo. Ira, misericordia, et zelus Dei quo sensu dicitur. Rebus divinis vocabula humana tribuuntur, sed ibi remotis imperfectionibus intelligenda. Sapientia et scientia unde differunt. Poenitere quomodo convenit Deo. Poenitentia et zelus cur minus videantur Deo congruere quam praescientia, ira et similia.</hi> </head>
+<div3>
+            <head>1.</head>
+            <p>
+ Age, jam videamus quomodo dictum sit, <hi>Poenitet
+me quod constituerim regem Saül <note>(I Reg. XV, 11)</note>
+            </hi>. Quaeris
+enim, non utique in talium verborum intellectu
+rudis, sed rudimenta explorans mea paterno studio
+et benigna cura, quomodo poeniteat aliquid Deum,
+in quo sit omnis praescientia. Ego vero, cum hoc de
+Deo dicitur, indignum aliquid dici arbitrarer, si aliquid
+dignum inveniretur quod de illo diceretur. Cum
+vero verba omnia, quibus humana colloquia conseruntur,
+illius sempiterna virtus et divinitas mirabiliter
+atque incunctanter excedat, quidquid de illo humaniter
+dicitur, quod etiam hominibus apsernabile videatur,
+ipsa humana admonetur infirmitas, etiam illa
+quae congruenter in Scripturis sanctis de Deo dicta
+existimat, humanae capacitati aptiora esse quam divinae
+sublimitati; ac per hoc etiam ipsa transcendenda
+esse sereniore intellectu, sicut ista qualicumque
+transcensa sunt.</p>
+          </div3>
+<div3>
+            <head>2.</head>
+            <p>
+ Quis est enim hominum, cui non occurrat
+in Deo cuncta praesciente, poenitentiam esse non posse?
+Et certe tamen haec duo verba sunt, poenitentia et
+praescientia, quorum quia unum congruere credimus
+Deo, id est praescientiam, negamus in eo esse poenitentiam.
+Cum vero alius liquidiore consideratione ista
+pertractans, quaesierit quemadmodum vel ipsa praescientia
+Deo congruat, et invenerit hujus etiam verbi
+notionem illius ineffabili divinitate longe lateque superari;
+non miratur utrumque de illo propter homines
+dici potuisse, de quo utrumque propter ipsum
+incongrue diceretur. Quid est enim praescientia, nisi
+scientia futurorum? Quid autem futurum est Deo,
+qui omnia supergreditur tempora? Si enim scientia
+Dei res ipsas habet, non sunt ei futurae, sed praesentes;
+<pb n="0139"/>
+ac per hoc non jam praescientia, sed tantum
+scientia dici potest. Si autem sicut in ordine temporalium
+creaturarum, ita et apud eum nondum sunt quae
+futura sunt, sed ea praevenit sciendo; bis ergo ea
+sentit, uno quidem modo secundum futurorum praescientiam,
+altero vero secundum praesentium scientiam.
+Aliquid ergo temporaliter accedit scientiae
+Dei; quod absurdissimum atque falsissimum est.
+Nec enim potest quae ventura praenoscit nosse cum
+venerint; nisi bis innotescant, et praenoscendo antequam
+sint, et cognoscendo cum jam sunt. Ita fit ut
+(quod longe a veritate seclusum est) temporaliter
+aliquid accedat scientiae Dei, cum temporalia quae
+praesciuntur etiam praesentia sentiuntur, quae non
+sentiebantur antequam fierent, sed tantummodo praesciebantur.
+Si vero etiam cum venerint, quae praesciebantur
+esse ventura, nihil novi accedet scientiae
+Dei, sed manebit illa praescientia sicut erat etiam
+priusquam venirent quae praesciebantur; quomodo
+jam praescientia dicetur, quando non est rerum futurarum?
+Jam enim praesentia sunt quae futura cernebat,
+et paulo post erunt praeterita. Praeteritarum
+autem rerum, sicut praesentium, nullo modo potest
+dici praescientia. Reditur ergo ad id, ut fiat rebus jam
+praesentibus scientia, quae eisdem rebus futuris erat
+praescientia: et cum ea quae praescientia erat prius,
+postea scientia fiat in Deo, admittit mutabilitatem et
+temporalis est; cum sit Deus, qui vere summeque est,
+nec ulla ex parte mutabilis, nec ullo motu novitio
+temporalis. Placet ergo ut non dicamus praescientiam
+Dei, sed tantummodo scientiam: quaeramus et hoc
+quomodo. Non enim scientiam solemus dicere in nobis,
+nisi cum sensa et intellecta memoria retinemus;
+cum meminimus aliquid sensisse nos vel intellexisse,
+ut id cum volumus recolamus. Quod si ita in Deo est,
+ut possit proprie dici, Intelligit et intellexit, sentit
+et sensit; admittit tempus, et subrepit nihilominus
+illa mutabilitas, quae longe a Dei substantia removenda
+est. Et tamen et scit Deus, et praescit Deus
+ineffabili modo: sic eum et poenitet ineffabili modo.
+Cum enim scientia Dei longe distet ab humana scientia,
+ita ut irridenda sit comparatio, utraque tamen
+scientia vocatur: et haec quidem humana talis est,
+ut dicat de illa Apostolus etiam, <hi>Scientia destruetur <note>(I Cor. XIII, 8)</note>
+            </hi>;
+quod nullo modo recte de scientia Dei
+dici potest. Sic et ira hominis turbida est et non sine
+cruciatu animi: ira vero Dei, de qua dicitur in Evangelio, <hi>Sed ira Dei manet super eum 
+ <note>(Joan. III, 36)</note>
+            </hi>; et Apostolus, <hi>Revelatur enim ira Dei de coelo super omnem impietatem <note>(Rom. I, 18)</note>
+            </hi>;
+illo in tranquillitate jugiter
+manente, in creatura subdita exercet admirabili aequitate
+vindictam. Misericordia quoque hominis habet
+nonnullam cordis miseriam, unde etiam in latina lingua
+nomen accepit: nam inde est etiam, quod non
+solum gaudere cum gaudentibus, sed etiam flere cum
+flentibus hortatur Apostolus <note>(Id. XII, 15)</note>. Quis autem
+<pb n="0140"/>
+sano capite dixerit, ulla miseria tangi Deum? quem
+tamen ubique Scriptura misericordem esse testatur.
+Ita zelum humanum non sine peste livoris intelligimus:
+zelantem vero Deum non ita, sed eodem verbo,
+non eodem modo.</p>
+          </div3>
+<div3>
+            <head>3.</head>
+            <p>
+ Longum est percurrere caetera, et sunt innumerabilia
+quibus ostenditur multa divina iisdem nominibus
+appellari quibus humana, cum incomparabili diversitate
+sejuncta sint: nec tamen frustra eadem sunt
+rebus utrisque indita vocabula, nisi quia haec cognita
+quae in quotidiana consuetudine versantur, et experimentis
+usitatioribus innotescunt, nonnullam ad intelligenda
+illa sublimia praebent viam. Cum enim
+dempsero de humana scientia mutabilitatem, et transitus
+quosdam a cogitatione in cogitationem, cum recolimus,
+ut cernamus animo quod in contuitu ejus
+paulo ante non erat, atque ita de parte in partem
+crebris recordationibus transilimus; unde etiam ex
+parte dicit esse Apostolus nostram scientiam <note>(I Cor.
+XIII, 9)</note>: cum ergo haec cuncta detraxero, et reliquero
+solam vivacitatem certae atque inconcussae
+veritatis una atque aeterna contemplatione cuncta
+lustrantis; imo non reliquero, non enim habet
+hoc humana scientia, sed pro viribus cogitavero;
+insinuatur mihi utcumque scientia Dei:
+quod tamen nomen, ex eo quod sciendo aliquid
+non latet hominem, potuit esse rei utrique commune.
+Quanquam et in ipsis hominibus solet discerni a
+sapientia scientia, ut etiam Apostolus dicit, <hi>Alii quidem
+per Spiritum datur sermo sapientiae, alii sermo
+scientiae secundum eumdem Spiritum <note>(Id. XII, 8)</note>
+            </hi>:
+in Deo autem nimirum non sunt haec duo, sed unum.
+Et in hominibus quidem haec ita discerni probabiliter
+solent, ut sapientia pertineat ad intellectum aeternorum,
+scientia vero ad ea quae sensibus corporis experimur.
+Sed licet alius aliam differentiam proferat,
+nisi tamen diversa essent, non sic ab Apostolo distinguerentur.
+Quod sane si ita est, ut nomen scientiae
+rebus quas per sensus corporis experimur, deputatum
+sit; nulla est omnino scientia Dei. Non enim
+Deus per se ipsum ex corpore et anima constat, sicut
+homo. Sed melius dicitur aliam esse scientiam
+Dei, et non ejusdem generis, cujus ista est quae hominum
+dicitur: sicut etiam idipsum quod Deus dicitur,
+longe aliud est, quam quemadmodum dictum
+est quia <hi>stetit in synagoga deorum <note>(Psal. LXXXI, 1)</note>
+            </hi>.
+Tamen ad non latere quoquo modo pertinet communicatio
+ipsa vocabuli. Sic etiam de ira hominis detraho
+turbulentum motum, ut remaneat vindictae vigor;
+atque ita utcumque assurgo in notitiam illius
+quae appellatur ira Dei. Item de misericordia si auferas
+compassionem, cum eo quem miseraris, participatae
+miseriae, ut remaneat tranquilla bonitas subveniendi
+et a miseria liberandi, insinuatur divinae
+misericordiae qualiscumque cognitio. Zelum quoque
+Dei non repudiemus et aspernemur, cum scriptum
+<pb n="0141"/>
+invenimus: sed auferamus de humano zelo pallidam
+tabem doloris, et morbidam perturbationem
+animi; remaneatque illud solum judicium, quo corruptio
+castitatis impunita esse non sinitur, et assurgimus
+ut incipiamus aliquo modo capere zelum
+Dei.</p>
+          </div3>
+<div3>
+            <head>4.</head>
+            <p>
+ Quapropter cum legimus etiam Deum dicentem, <hi>Poenitet me;</hi> 
+ consideremus quod esse soleat in hominibus
+opus poenitendi. Procul dubio reperitur voluntas
+mutandi: sed in homine cum dolore animi est;
+reprehendit enim in se quod temere fecerat. Auferamus
+ergo ista, quae de humana infirmitate atque ignorantia
+veniunt, et remaneat solum velle ut non ita sit
+aliquid, quemadmodum erat: sic potest aliquantum
+intimari menti nostrae, qua regula intelligatur quod
+poenitet Deum. Cum enim poenitere dicitur, vult non
+esse aliquid, sicut fecerat ut esset: sed tamen et cum
+ita esset, ita esse debebat; et cum ita esse jam non
+sinitur, jam non debet ita esse, perpetuo quodam et
+tranquillo aequitatis judicio, quo Deus cuncta mutabilia
+incommutabili voluntate disponit.</p>
+          </div3>
+<div3>
+            <head>5.</head>
+            <p>
+ Sed quoniam praescientiam et scientiam cum
+laude solemus in hominibus appellare, iramque
+ipsam solet humanum genus in magnis potestatibus
+timere potius quam reprehendere, congruenter putamus
+talia dici de Deo. Qui autem zelat, et quem aliquid
+poenitet, quoniam vel culpari solet, vel in se
+culpam corrigere, atque ideo cum reprehensione
+ista de hominibus dici; propterea movet, cum legimus
+esse aliquid in Deo ejusmodi. Sed illa Scriptura
+omnibus consulens, propterea magis et ista ponit, ne
+illa quae placent sic intelligantur in Deo, quomodo
+consueverunt in hominibus intelligi. Per haec enim
+quae displicent, cum ea non audemus sic intelligere in
+Deo, ut inveniuntur in homine, discimus etiam illa
+sic quaerere, quae apta esse atque convenientia putabamus.
+Nam si propterea non est illud de Deo dicendum,
+quia in homine displicet; non dicamus incommutabilem
+Deum, quia de hominibus cum reprehensione
+dictum est, <hi>Non enim est illis commutatio <note>(Psal. LIV, 20)</note>
+            </hi>.
+Item sunt quaedam quae in homine
+laudabilia sunt, in Deo autem esse non possunt:
+sicut pudor, quod aetatum viridiorum magnum est
+ornamentum: sicut timor Dei, non enim tantum in
+veteribus Libris laudatur, sed Apostolus etiam dicit, <hi>Perficientes sanctificationem in timore Dei 
+ <note>(II Cor. VII,
+1)</note>
+            </hi>; qui utique in Deo nullus est. Sicut ergo quaedam
+laudabilia hominum non recte dicuntur in Deo; sic
+quaedam culpabilia hominum recte intelliguntur in
+Deo: non ita ut in hominibus, sed vocabulis tantummodo
+communibus, longe alia ratione et modo. Nam
+paulo post idem Samuel, cui dixerat Dominus, <hi>Poenitet
+me quod constituerim regem Saül,</hi> ipsi Saüli ait de
+Deo, <hi>Quoniam non est sicut homo, ut poeniteat eum <note>(I Reg. XV, 29)</note>
+            </hi>:
+ubi videlicet satis ostendit etiam
+<pb n="0142"/>
+cum Deus dicit, <hi>Poenitet me;</hi> non humano more accipiendum
+esse, sicut jam quantum valuimus disputavimus.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>QUAEST. III.-- <hi>Samuel per pythonissam evocari quomodo potuerit. Samuelis forte phantasma fuit, non spiritus. Daemones quomodo norint futura.</hi> </head>
+<div3>
+            <head>1.</head>
+            <p>
+ Item quaeris utrum spiritus immundus qui erat
+in pythonissa, potuerit agere ut Samuel a Saüle videretur
+et loqueretur cum eo <note>(I Reg. XXVIII, 7-19)</note>. Sed
+multo majoris miraculi est quod ipse satanas princeps
+omnium immundorum spirituum potuit loqui cum
+Deo, et petere tentandum Job justissimum virum <note>(Job. I, 11)</note>:
+qui etiam tentandos Apostolos petiit <note>(Luc. XXII, 31)</note>.
+Aut si hoc non ideo habet difficilem
+quaestionem, quia per quam voluerit creaturam, cui
+voluerit creaturae, ubique praesens veritas loquitur,
+nec propterea magni meriti est cui loquitur Deus:
+interest enim quid loquatur; quia et imperator multis
+innocentibus non loquitur, quibus providentissime
+consulit ad salutem; et cum multis nocentibus loquitur,
+quos jubet interfici: si ergo hinc propterea nulla
+quaestio est; nulla sit quaestio quomodo etiam immundus
+spiritus cum anima sancti viri loqui potuerit.
+Omnibus enim sanctis Deus creator et sanctificator
+longe utique major est. Quod si hoc movet, quod licuerit
+maligno spiritui excitare animam justi, et tanquam
+de abditis mortuorum receptaculis evocare;
+nonne magis mirandum est quod satanas ipsum Dominum
+assumpsit et constituit super pinnam templi <note>(Matth. IV, 5)</note>?
+Quolibet enim modo fecerit, ille
+etiam modus quo Samueli factum est ut excitaretur,
+similiter latet. Nisi forte quis dixerit faciliorem diabolo
+fuisse licentiam ad Dominum vivum unde voluit
+assumendum, et ubi voluit constituendum, quam ad
+Samuelis defuncti spiritum a suis sedibus excitandum.
+Quod si illud in Evangelio nos ideo non perturbat,
+quia Dominus voluit atque permisit nulla diminutione
+suae potestatis et divinitatis id fieri; sicut
+ab ipsis Judaeis, quanquam perversis atque immundis
+et facta diaboli facientibus, et teneri se, et vinciri, et
+illudi, et crucifigi atque interfici passus est: non est
+absurdum credere ex aliqua dispensatione divinae voluntatis
+permissum fuisse, ut non invitus nec dominante
+atque subjugante magica potentia, sed volens
+atque obtemperans occultae dispensationi Dei, quae et
+pythonissam illam et Saülem latebat, consentiret spiritus
+Prophetae sancti se ostendi aspectibus regis, divina
+eum sententia percussurus. Cur enim anima
+boni hominis, a malis vivis evocata si venerit, amittere
+videatur dignitatem suam; cum et vivi plerumque
+boni vocati ad malos veniant, et agant cum eis
+quod officium postulat aequitatis, servato atque inconcusso
+decore virtutis suae, et illorum vitiis pro
+rerum praesentium vel usu vel necessitate tractatis?</p>
+          </div3>
+<div3>
+            <head>2.</head>
+            <p>
+ Quanquam in hoc facto potest esse alius facilior
+exitus et expeditior intellectus, ut non vere spiritum
+Samuelis excitatum a requie sua credamus, sed aliquod
+<pb n="0143"/>
+phantasma, et imaginariam illusionem diaboli
+machinationibus factam, quam propterea Scriptura
+nomine Samuelis appellat, quia solent imagines rerum
+earum nominibus appellari, quarum imagines
+sunt. Sicut omnia quae pinguntur atque finguntur ex
+aliqua materie metalli aut ligni, vel cujusque rei
+aptae ad opera hujusmodi, quaeque etiam videntur in
+somnis, et omnes fere imagines, earum rerum quarum
+imagines sunt, appellari nominibus solent. Quis
+est enim qui hominem pictum dubitet vocare hominem?
+Quandoquidem et singulorum quorumque picturam
+cum aspicimus, propria quoque nomina incunctanter
+adhibemus: velut cum intuentes tabulam
+aut parietem, dicimus, Ille Cicero est, ille Sallustius,
+ille Achilles, ille Hector, hoc flumen Simois, illa
+Roma; cum aliud nihil sint quam pictae imagines.
+Unde Cherubim cum sint coelestes potestates, ficta
+tamen ex metallo, quod imperavit Deus, super arcam
+Testamenti, magnae rei significandae gratia, non
+aliud quam Cherubim illa quoque figmenta vocitantur <note>(Exod. XXV, 18)</note>.
+Item quisquis videt somnium,
+non dicit, Vidi imaginem Augustini aut Simpliciani;
+sed, Vidi Augustinum aut Simplicianum: cum eo
+tempore quod tale aliquid vidit, nos ignoraremus;
+usque adeo manifestum est, non ipsos homines, sed
+imagines eorum videri. Et Pharao spicas se dixit vidisse
+in somnis et boves <note>(Gen. XLI, 17-28)</note>, non spicarum
+aut boum imagines. Si igitur liquido constat
+nominibus earum rerum quarum imagines sunt, easdem
+imagines appellari; non mirum est quod Scriptura
+dicit Samuelem visum, etiamsi forte imago Samuelis
+apparuit, machinamento ejus qui transfigurat
+se velut angelum lucis, et ministros suos velut ministros
+justitiae <note>(II Cor. XI, 14, 15)</note>.</p>
+          </div3>
+<div3>
+            <head>3.</head>
+            <p>
+ Jamvero si illud movet, quomodo et a maligno
+spiritu Saüli vera praedicta sunt; potest et illud mirum
+videri, quomodo daemones agnoverint Christum <note>(Matth. VIII, 29)</note>,
+quem Judaei non agnoscebant. Cum
+enim vult Deus etiam per infimos infernosque spiritus
+aliquem vera cognoscere, temporalia duntaxat
+atque ad istam mortalitatem pertinentia, facile est, et
+non incongruum, ut omnipotens et justus ad eorum
+poenam, quibus ista praedicuntur, ut malum quod eis
+impendet, antequam veniat praenoscendo patiantur,
+occulto apparatu ministeriorum suorum etiam spiritibus
+talibus aliquid divinationis impertiat, ut quod
+audiunt ab Angelis, praenuntient hominibus. Tantum
+autem audiunt, quantum omnium Dominus atque moderator
+vel jubet vel sinit. Unde etiam spiritus pythonius
+ in Actibus Apostolorum attestatur Paulo
+apostolo, et evangelista esse conatur <note>(Act. XVI, 17)</note>.
+Miscent tamen isti fallacias, et verum quod nosse potuerint,
+<pb n="0144"/>
+non docendi magis quam decipiendi fine praenuntiant.
+Et forte hoc est quod cum illa imago Samuelis
+Saülem praediceret moriturum, dixit etiam secum
+futurum: quod utique falsum est. Magno quippe
+intervallo post mortem separari bonos a malis in
+Evangelio legimus, cum Dominus inter superbum illum
+divitem, cum jam apud inferos tormenta pateretur, et
+illum qui ad ejus januam ulcerosus jacebat, jam in
+requie constitutum, magnum chaos interjectum esse
+testatur <note>(Luc. XVI, 26)</note>. Aut si propterea Samuel Saüli
+dixit, <hi>Mecum eris,</hi> ut non ad aequalitatem felicitatis, sed
+ad parem conditionem mortis referatur, quod uterque
+homo fuerit, et uterque mori potuerit, jamque mortuus
+mortem vivo praenuntiabat; perspicit, quantum
+opinor, prudentia tua, secundum utrumque intellectum
+habere exitum illam lectionem qui non sit contra
+fidem: nisi forte profundiore et perplexiore inquisitione,
+quae vel virium mearum vel temporis excedit
+angustias, inveniatur ad liquidum, vel posse vel
+non posse animam humanam, cum ex hac vita migraverit,
+magicis carminibus evocatam vivorum apparere
+conspectibus, etiam corporis lineamenta gestantem,
+ut non solum videri valeat, sed et agnosci.
+Et si potest, utrum etiam justi anima, non quidem
+cogatur magicis sacris, sed dignetur ostendi occultioribus
+imperiis summae legis obtemperans: ut si fieri
+non posse claruerit, non uterque sensus in hujus
+Scripturae tractatione atque expositione admittatur,
+sed illo excluso, imaginaria simulatio Samuelis diabolico
+ritu facta intelligatur. Sed quoniam, sive illud
+fieri possit, sive non possit, tamen fallacia satanae
+atque imaginum simulandarum callida operatio decipiendis
+humanis sensibus multiformis invigilat, pedetentim
+quidem, ne inquisitionibus diligentioribus
+praescribamus, sed tamen potius existimemus tale
+aliquid factum maligno pythonissae illius ministerio,
+quamdiu nobis aliquid amplius excogitare atque explicare
+non datur.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>QUAEST. IV.-- <hi>Quo situ corporis orandum.</hi> </head>
+<p>Quod autem quaeris, quid sit quod scriptum est, <hi>Intravit
+rex David, et sedit ante Dominum <note>(II Reg. VII, 18)</note>
+            </hi>:
+quid aliud intelligendum est, nisi quia sedit in conspectu
+Domini; sive ubi erat arca Testamenti, per
+quam sacratior et commendatior quaedam praesentia
+Domini accipi potest; sive quia oraturus sedit, quod
+non fit recte nisi in conspectu Dei, hoc est in intimis
+cordis? Potest enim et sic accipi quod dictum est, <hi>ante Dominum;</hi> 
+ ubi nullus esset hominum, qui audiret
+orantem. Sive ergo propter arcam Testamenti, sive
+propter secretum locum semotum ab arbitris, sive
+propter intimum cordis ubi erat orantis affectus, convenienter
+dictum est, <hi>Sedit ante Dominum.</hi> Nisi forte
+quod sedens oravit, hoc movet; cum et sanctus Elias
+hoc fecerit, quando pluviam orando impetravit <note>(III Reg.
+XVIII, 42-45)</note>. Quibus admonemur exemplis, non esse
+praescriptum quomodo corpus constituatur ad orandum,
+<pb n="0145"/>
+animus Deo praesens peragat intentionem suam.
+Nam et stantes oramus, sicut scriptum est, <hi>Publicanus
+autem de longinquo stabat <note>(Luc. XVIII, 13)</note>
+            </hi>; et fixis
+genibus, sicut in Actibus Apostolorum legimus <note>(Act.
+VII, 59, et XX, 36)</note>; et sedentes, sicut ecce David, et
+Elias. Nisi autem etiam jacentes oraremus, non
+scriptum esset in Psalmis. <hi>Lavabo per singulas noctes
+lectum meum; in lacrymis meis stratum meum rigabo <note>(Psal. VI, 7)</note>
+            </hi>.
+Cum enim quisque orationem quaerit,
+collocat membra, sicut ei occurrerit accommodata pro
+tempore positio corporis ad movendum animum.
+Cum autem non quaeritur, sed infertur appetitus
+orandi, hoc est, cum aliquid repente venit in mentem,
+quo supplicandi moveatur affectus gemitibus inenarrabilibus,
+quocumque modo invenerit hominem, non est
+utique differenda oratio, ut quaeramus quo secedamus,
+aut ubi stemus, aut ubi prosternamur. Gignit
+enim sibi mentis intentio solitudinem, et saepe etiam
+obliviscitur vel ad quam coeli partem, vel in qua positione
+corporis membra illud tempus invenerit.</p>
+</div2>
+
+<div2>
+          <head>QUAEST. V.-- <hi>In verba Eliae querentis Deo de morte filii viduae.</hi> </head>
+<p>In verbis autem beati Eliae, quibus ait, <hi>O Domine,
+testis hujus viduae, cum qua ego inhabito apud ipsam,
+tu male fecisti ut occideres filium ejus;</hi> nihil moveret,
+si vera pronuntiatio servaretur. Vox est enim non
+credentis quod tam male faceret Deus cum ea vidua,
+quae tam pie Prophetam susceperat, eo praesertim
+tempore quo ibi erat, cui protulerat illa totum victum
+suum tam exiguum in tam magna et summa inopia.
+Ita ergo dictum est, ac si diceret, <hi>O Domine, testis
+hujus viduae, cum qua ego inhabito apud ipsam,</hi> tune <hi>male fecisti ut occideres filium ejus?</hi> 
+ ut subintelligatur
+quod utique Dominus testis cordis illius mulieris, ubi
+videbat quanta esset pietas, unde etiam Eliam ipse ad
+eam miserat, non malefaciendi causa mortificaverat
+filium ejus, sed exhibendi miraculi ad gloriam nominis
+sui, quo tantum Prophetam et tunc viventibus
+et posteris commendaret: sicut dicit Dominus, non
+ad mortem mortuum fuisse Lazarum, sed ut glorificaretur
+Deus in Filio suo <note>(Joan. XI, 4)</note>. Et ideo consequentia
+probant, et ipsa etiam fiducia qua credidit
+Elias, non ad hoc illud contigisse, ut acerbo luctu hospita
+ejus affligeretur: sed potius ad hoc factum esse,
+ut Deus magnificentius ostenderet viduae qualem Dei
+famulum suscepisset. Sequitur Scriptura, et dicit: <hi>Et insufflavit puero ter, et invocavit Dominum, et dixit,
+Domine Deus meus, revertatur nunc anima pueri hujus
+in eum. Et factum est sic.</hi> 
+ Haec ergo deprecatio, qua
+petiit Elias tam breviter et tam fidenter ut resurgat
+puer, satis indicat quo affectu dicta sint superiora.
+Et ipsa mulier ostendit ad hoc mortificatum filium
+suum fuisse, ad quod Elias factum esse praesumpserat,
+<pb n="0146"/>
+cum illa verba non confirmando, sed renuendo
+enuntiaverat. Cum enim vivum recepisset filium
+suum, ait, <hi>Ecce cognovi quoniam homo Dei es tu, et
+verbum Domini in ore tuo certissimum <note>(III Reg. XVII-XX,
+21-24)</note>
+            </hi>. Multa sunt autem in Scripturis, quae nisi illo
+modo pronuntientur, in contrariam sententiam recidunt:
+sicuti est, <hi>Quis accusabit adversus electos Dei?
+Deus qui justificat <note>(Rom. VIII, 33)</note>
+            </hi>, si quasi confirmans
+respondeas, vides quanta perversitas oriatur.
+Sic ergo pronuntiandum est, ac si diceretur, Deusne
+qui justificat? ut subaudiatur, Non utique. Ac per hoc
+apertam puto esse illam Eliae sententiam, quam non
+servata pronuntiatio faciebat obscuram.</p>
+</div2>
+
+<div2>
+          <head>QUAEST. VI.-- <hi>De spiritu mendacii misso ad decipiendum Achab.</hi> </head>
+<p>De spiritu vero mendacii, per quem deceptus est
+Achab <note>(III Reg. XXII, 20-23)</note>, hoc intelligamus,
+quod jam superius satis aperte tractatum arbitror:
+Deum scilicet omnipotentem et justum distributorem
+poenarum praemiorumque pro meritis, non solum bonis
+et sanctis ministris uti ad opera congrua, sed etiam
+malis ad opera digna; cum illi pro sua perversa cupiditate
+ nocere appetant, sinantur autem tantum
+quantum ille judicat, qui omnia in mensura et pondere
+et numero disponit <note>(Sap. XI, 21)</note>. Dixit autem
+hoc Michaeas propheta quomodo sibi fuerit demonstratum.
+Occulta enim res et nimis secreta ita demonstratur
+prophetis, sicut potest capere sensus humanus,
+cum etiam rerum imaginibus in revelatione
+tanquam verbis instruitur. Nam quomodo Deus haec
+agat, ubique totus ac semper praesens; et quomodo
+ejus simplicem et incommutabilem aeternamque veritatem
+consulant sancti Angeli, omnesque ab eodem
+Deo creati sublimes et mundissimi spiritus, atque
+id quod in eo sempiterne justum vident, pro congruentia
+rerum inferiorum temporaliter peragant:
+quomodo etiam lapsi spiritus, qui in veritate non steterunt,
+propter immunditiam et infirmitatem concupiscentiarum
+et poenarum suarum non valentes praesentem
+intrinsecus contueri et consulere veritatem,
+signa forinsecus per creaturam exspectent, eisque
+moveantur sive ad faciendum aliquid, sive ad non
+faciendum; quove modo cogantur aeterna lege. qua
+universitas regitur, vincti atque constricti, vel sinentem
+Deum operiri, vel cedere jubenti; et complecti
+arduum, et explicare longissimum est. Vereor
+autem ne ista ipsa quae sunt a me dicta, et non
+satisfecerint exspectationi, et taedio fuerint gravitati
+tuae; quandoquidem cum tu ex omnibus quae interrogasti,
+unum a me libellum mitti velles, ego duos libros
+eosdemque longissimos misi, et fortasse quaestionibus
+tuis nequaquam diligenter expediteque respondi.
+<pb n="0147"/>
+Quamobrem preces tuas pro erratis meis multas
+et assiduas peto fieri: sententiam vero de hoc
+<pb n="0148"/>
+opere tuam brevissimam, sed gravissimam flagito;
+et dum sit verissima, severissimam non recuso.
+</p>
+</div2>
+      </div1>
+</body>
+  </text>
+</TEI>

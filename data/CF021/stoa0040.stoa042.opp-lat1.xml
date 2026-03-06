@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>De Genesi ad litteram liber imperfectus [CSEL]</title>  
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date></author>
+              </titleStmt>
+               
+               <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1894</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 28.1</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru10wiengoog#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Iosephus Zycha</name>; <addName xml:lang="de">Joseph Zycha</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>August.DeLiImCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL28_1.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0040.stoa042.opp-lat1"/>
+
+
+          <div1 n="1" subtype="chapter"><head>cap. 1</head>
+
+<p>De obscuris naturalium rerum, quae omnipotente deo <lb/>
+            artifice facta sentimus, non adfirmando, sed quaerendo tractandum <lb n="5"/>
+            est in libris maxime quos nobis diuina commendat <lb/>
+            auctoritas, in quibus temeritas adserendae incertae dubiaeque <lb/>
+            opinionis difficile sacrilegii crimen euitat: ea tamen quaerendi <lb/>
+            dubitatio catholicae fidei metas non debet excedere. et quoniam <lb/>
+            multi haeretici ad suam sententiam, quae praeter fidem est <lb n="10"/>
+            catholicae disciplinae, expositionem scripturarum diuinarum <lb/>
+            trahere consueuerunt, ante tractationem huius libri catholica <lb/>
+            fides breuiter explicanda est. 
+</p>
+          <p rend="script">Est autem haec: deum omnipotentem patrem uniuersam <lb/>
+            creaturam fecisse atque constituisse per filium suum unigenitum, <lb n="15"/>
+            id est sapientiam et uirtutem suam consubstantialem sibi et <lb/>
+            coaeternam, in unitate spiritus sancti et ipsius consubstantialis <lb/>
+            et coaeterni. hanc ergo trinitatem dici unum deum eumque <lb/>
+            fecisse et creasse omnia, quae sunt, in quantum sunt, disciplina <lb/>
+            catholica credi iubet, ita ut creatura omnis siue intellectualis <lb n="20"/>
+            siue corporalis, uel quod breuius dici potest secundum
+
+<app> 2 Incipit liber de Genesi ad litteram imperfectus <hi>fol. 231* V</hi> Incipit <lb/>
+            liber 11 augustini epi de Genesi ad litteram impfectus <hi>fol. 198* T</hi> Incipit <lb/>
+            liber de genesi ad litteram IpfOs <hi>fol. 24 M</hi> Liber aurelii augustini de <lb/>
+            genesi ad litteram yponensis epi imperfectus incipit <hi>fol 257 L</hi> 4 De] <lb/>
+            e <hi>L; sed spatio D litterae sufficienti uacuo</hi> omnipotenti <hi>b</hi> 6 quos] <lb/>
+            quod <hi>M</hi> diuina <hi>om. ML</hi> 8 non euitat <hi>b</hi> 9 <hi>metbas JM</hi> 12 consuerunt <lb/>
+            <hi>ML</hi> 13 breuiter <hi>om. MLb</hi> 14 patrem omnipotentem <hi>MLbd</hi> <lb/>
+            15 suam <hi>om. V</hi> 17 ipsius <hi>om. L</hi> 19 catholica disciplina <hi>MLbd</hi> <lb/>
+            20 credi] dici <hi>MLb</hi> ita ut] iubet ita ut <hi>MLb</hi> siue <hi>OJA. Lb</hi> </app> <lb/>
+             
+<pb n="460"/>
+            uerba scripturarum diuinarum, sine inuisibilis sine uisibilis, <lb/>
+            non de deo nata, sed a deo sit facta de nihilo: <choice><note>iiihilque</note><corr>nihilque</corr></choice> in <lb/>
+            ea esse quod ad trinitatem pertineat, nisi quod trinitas condidit, <lb/>
+            ista condita est. quapropter creaturam uniuersam neque consubstantialem <lb/>
+            deo neque coaeternam fas est dicere aut credere. <lb n="5"/>
+            
+</p>
+          <p>Esse autem omnia quae fecit deus bona ualde: mala uero <lb/>
+            non esse naturalia; sed omne quod dicitur malum aut peccatum <lb/>
+            esse aut poenam peccati. nec esse peccatum nisi prauum <lb/>
+            liberae uoluntatis <choice><note>adseosum</note><corr>adsensum</corr></choice>, cum inclinamur ad ea quae iustitia <lb/>
+            uetat et unde liberum est abstinere; id est non in rebus ipsis,<lb n="10"/>
+            sed in <choice><note>usn</note><corr>usu</corr></choice> earum non legitimo. usus autem rerum est legitimus, <lb/>
+            ut anima in lege dei maneat et uni deo plenissima dilectione <lb/>
+            subiecta sit et cetera sibi subiecta sine cupiditate aut libidine <lb/>
+            ministret, id est secundum praeceptum dei. ita enim sine difficultate <lb/>
+            et miseria et cum summa facilitate et beatitudine <lb n="15"/>
+            administrabit. poena uero peccati est, cum ipsis creaturis non <lb/>
+            sibi seruientibus cruciatur anima, cum deo ipsa non seruit: quae <lb/>
+            creatura illi obtemperabat, cum ipsa obtemperabat deo. itaque <lb/>
+            non esse ignem malum, quia creatura dei est; sed tamen uri <lb/>
+            eo inbecillitatem nostram ei merito peccati. dici autem peccata <lb n="20"/>
+            naturalia, quae necesse est committi ante misericordiam dei, <lb/>
+            postquam in hanc uitam per peccatum liberi arbitrii lapsi sumus. 
+</p>
+          <p>Renouari autem hominem per legum Christum dominum <lb/>
+            nostrum, cum ipsa ineffabilis et incommutabilis dei sapientia <lb/>
+            plenum totumque hominem suscipere dignata est et nasci de <lb n="25"/>
+            spiritu sancto et uirgine Maria, crucifigi, sepeliri et resurgere <lb/>
+            et ascendere in caelum, quod iam factum est, et uenire ad <lb/>
+            iudicandos uiuos et mortuos in fine saeculi et resurrectione <lb/>
+            mortuorum in carne, quod adhuc futurum praedicatur. datum
+
+<app> 1 diainarum Bcripturarum <hi>MLbd</hi> 2 deo nata] dei natura <hi>bd</hi> &amp;] <lb/>
+            ex <hi>V</hi> 5 aut] atque <hi>TMLb</hi> 6 Esse] Ecce <hi>d</hi> deus om. <hi>TMLb</hi> <lb/>
+            10 istis <hi>MLbd</hi> 11 non <hi>om. MLb</hi> 18 cetera] ecclesia <hi>V</hi> libine T1<lb/>
+             17 seruientibus <hi>om. ML</hi> 18 obtemperabat (a <hi>(in. supra</hi> i <hi>script.) L</hi> <lb/>
+            obtemperabat <hi>om. L</hi> 19 uri] uri <hi>V</hi> 22 per] post <hi>V</hi> lapsi<lb/>
+             sumus <hi>om. V</hi> 23 autem <hi>om. MLb</hi> 24 et] atque <hi>L</hi> aut <hi>b</hi> ac <hi>d</hi> <lb/>
+            28 resurrectionem <hi>bd</hi> 29 datum] datfi <hi>V</hi> </app> <lb/>
+             
+<pb n="461"/>
+            esse spiritum sanctum credentibus in eum. constitutam ab <lb/>
+            illo matrem <sic n="poss">6cclesiam</sic>, quae catholica dicitur, ex eo quia <lb/>
+            uniuersaliter perfecta est et in nullo claudicat et per totum <lb/>
+            orbem diffusa est. remissa esse paenitentibus priora peccata <lb/>
+            et uitam aeternam caelorumque regnum promissum. <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="2" subtype="chapter"><head>cap. 2</head>
+
+<p>Secundum hanc fidem quae possint in hoc libro quaeri <lb/>
+            et disputari considerandum est. in principio fecit deus <lb/>
+            caelum et terram. quattuor modi a quibusdam scripturarum <lb/>
+            tractatoribus traduntur legis exponendae, quorum uocabula <lb/>
+            enuntiari graece possunt, latine autem definiri et explicari: <lb n="10"/>
+            secundum historiam, secundum allegoriam, secundum analogiam, <lb/>
+            secundum aetiologiam. historia est,' cum siue diuinitus siue <lb/>
+            humanitus res gesta commemoratur; allegoria, cum figurate <lb/>
+            dicta intelleguntur; analogia, cum ueteris et noui testamentorum <lb/>
+            congruentia demonstratur; aetiologia, cum causae <lb n="15"/>
+            dictorum factorumque redduntur. 
+</p>
+          
+</div1>
+
+<div1 n="3" subtype="chapter"><head>cap. 3</head>
+
+<p>Hoc ergo quod scriptum est: in principio fecit deus <lb/>
+            caelum et terram, quaeri potest utrum tantummodo secundum <lb/>
+            historiam accipiendum sit an etiam figurate aliquid significet <lb/>
+            et quomodo congruat euangelio et qua causa sic liber iste <lb n="20"/>
+            inchoatus sit. secundum historiam autem quaeritur quid sit: <lb/>
+            in principio, id est utrum in principio temporis an in principio, <lb/>
+            in ipsa sapientia dei, quia et ipse dei filius principium <lb/>
+            se dixit, quando ei dictum est: t.u quia es, et dixit: principium, <lb/>
+            quod et loquor <choice n="0.60"><note n="4825">nobis</note><corr n="3215">uobis</corr></choice>. est enim principium sine
+
+<app>17 Gen. 1, 1 24 Ioh. 8, 25 </app>
+
+<app> .2 catholieairi (m <hi>exp. m., 1) M</hi> _ei q'ŲQ (quo <hi>exp. m. T) M</hi> 8 nullo] <lb/>
+            illo <hi>ML</hi> 5 promissum (pro <hi>super exp</hi>. di <hi>m. 1) L</hi> 6 possunt <hi>VLbd</hi> <lb/>
+            9 quorum-explicari <hi>om. TMLb</hi> 12 aetiologiam] ethimologiam <hi>VTML</hi> <lb/>
+            etymologia <hi>b prius</hi> siue <hi>om. L</hi> 13 ihumanitatis <hi>M</hi> 15 demonstranctur <lb/>
+            <hi>L om. M</hi> ethimologia <hi>VTL om. M</hi> etymologia <hi>b</hi> causae] <lb/>
+            esse (?) <hi>M, eras. L post</hi> dictorumque <hi>positum bd</hi> 16 dictorum factorumque <lb/>
+            (dictorum m. <hi>2 a. l. add.) T</hi> factorum dictorumque <hi>V</hi> 17 deus <lb/>
+            <hi>om. T</hi> 20 congrua L enuangeho <hi>L</hi> liber iste sic <hi>MLbd</hi> 23 quia <lb/>
+            et ipse dei <hi>iterata m. 2 exp T</hi> et <hi>iterat. in L</hi> 24 qui <hi>L</hi> </app> <lb n="25"/>
+             
+<pb n="462"/>
+            principio et est principium cum alio principio. principium sine <lb/>
+            principio solus pater est; ideo ex uno principio esse omnia <lb/>
+            credimus. filius autem ita principium est, ut de patre sit. <lb/>
+            ipsa etiam prima creatura intellectualis potest dici principium <lb/>
+            his quibus caput est, quae fecit deus. cum enim recte<lb n="5"/>
+            appelletur principium caput, in illa gradatione apostolus <lb/>
+            mulierem tantum non dixit caput alicuius. nam et uirum <lb/>
+            dixit caput mulieris et caput uiri Christum et caput Christi <lb/>
+            deum; ita creatori creatura subnectitur. :
+</p>
+          <p>An ideo in principio dictum est, quia primum factum est? <lb n="10"/>
+            an non potuit inter creaturas primum fieri caelum et terra, <lb/>
+            si angeli et omnes intellectuales potestates primum factae <lb/>
+            sunt, quia et angelos creaturam dei et ab eo factos credamus <lb/>
+            necesse est? nam et angelos enumerauit propheta in centesimo <lb/>
+            quadragesimo octauo psalmo, cum dixit: ipse iussit, et<lb n="15"/>
+            facta sunt; ipse mandauit, et creata sunt. sed si primum <lb/>
+            facti sunt angeli, quaeri potest, utrum in tempore facti sunt <lb/>
+            an ante omne tempus an in exordio temporis. si in tempore, <lb/>
+            iam erat tempus, antequam angeli fierent; et quoniam etiam <lb/>
+            tempus ipsum creatura est, incipit necesse esse ut aliquid <lb n="20"/>
+            prius quam angelos factum accipiamus. si autem in exordio <lb/>
+            temporis factos dicimus, ut cum ipsis coeperit tempus, <lb/>
+            dicendum est falsum esse, quod quidam uolunt, cum caelo et <lb/>
+            terra tempus esse coepisse. 
+</p>
+          <p>Si autem prius quam tempus angeli facti sunt, quaerendum ss <lb n="25"/>
+            est, quomodo dictum sit in consequentibus: et dixit deus: <lb/>
+            fiant luminaria in firmamento caeli, ut luceant super
+
+<app> 8 cf. I Cor. 11, 8 16 Ps. 148, 5 27 Gen. 1, 14 </app>
+
+<app> 1 cum <hi>(in mg. forte</hi> de) <hi>d</hi> princ. sine principio <hi>om. M</hi> 4 principium <lb/>
+            <hi>iteratum m</hi>. 2 <hi>exp. T</hi> 5 hiis <hi>ML</hi> iia <hi>d</hi> 7 tantum] tamen <hi>Vbd</hi> <lb/>
+            alicuius] alieni <hi>V</hi> 10 in principio ideo <hi>T1</hi> quoniam <hi>d</hi> 11 terram <hi>L</hi> <lb/>
+            12 QII10ęş potestates (omnes <hi>del. m. 2) T</hi> 15 CXLVIII0 <hi>L •XLVIII M</hi> <lb/>
+            dicit <hi>V</hi> 17 <hi>post fin</hi>. sunt <hi>add</hi>. angeli. Queri potest utrum in tempore facti <lb/>
+            sunt in <hi>cod. V</hi> 22 ipsis] temporis <hi>L</hi> 28 nolunt <hi>T</hi> ante cglum <lb/>
+            et terr3 <hi>TMLb</hi> </app> <lb/>
+             
+<pb n="463"/>
+            terram et diuidant inter diem et noctem; et sint in <lb/>
+            signis et in temporibus et in diebus et in annis. hic <lb/>
+            enim potest uideri tone coepta esse tempora, cum caelum et <lb/>
+            luminaria caeli ordinatis itineribus currere coepissent. quod <lb/>
+            si uerum est, quomodo potuerunt dies esse antequam esset <lb n="5"/>
+            tempus, si a cursu luminarium tempus exorsum est, quae <lb/>
+            quarto die dicuntur esse facta? an ista dierum digestio secundum <lb/>
+            <choice><note>commetudinem</note><corr>consuetudinem</corr></choice> humanae fragilitatis ordinata est lege narrandi <lb/>
+            et humilibus humiliter insinuandi sublimia, qua et ipse sermo <lb/>
+            narrantis non potest nisi aliqua habere et prima et media et <lb n="10"/>
+            ultima? an in temporibus istis dictum est ut essent luminaria, <lb/>
+            quae tempora homines interuallis morarum in corporis motione <lb/>
+            metiuntur? haec enim tempora, si nullus motus corporum <lb/>
+            esset, nulla essent et ipsa sunt hominibus manifestiora. quod <lb/>
+            si admittimus, quaerendum est, utrum praeter motum corporum <lb n="15"/>
+            possit esse tempus in motu incorporeae creaturae. <lb/>
+            ueluti est anima uel ipsa mens: quae utique in cogitationibus <lb/>
+            mouetur et in ipso motu aliud habet prius, aliud posterius, <lb/>
+            quod sine interuallo temporis intellegi non potest. quod si <lb/>
+            accipimus, etiam ante caelum et terram potest intellegi tempus <lb n="20"/>
+            fuisse, si ante caelum et terram facti sunt angeli. erat enim <lb/>
+            iam creatura, quae motibus incorporeis tempus ageret, et <lb/>
+            recte intellegitur cum illa etiam tempus esse ut in anima <lb/>
+            quae per corporeos sensus corporeis motibus assuefacta est. <lb/>
+            sed fortasse non est in principibus et creaturis supereminentibus. <lb n="25"/>
+            sed quoquo modo se hoc habeat — res enim <lb/>
+            secretissima est et humanis coniecturis inpenetrabilis — illud <lb/>
+            certe accipiendum est in fide, etiamsi modum nostrae
+
+<app> 1 inter noctem et diem <hi>bd</hi> 2 signa <hi>Lbd</hi> in temporibus] tempora <lb/>
+            <hi>JLbd</hi> in diebus] dies <hi>Lbd</hi> in annis] annos <hi>Lbd</hi> 4 itineribus] <lb/>
+            terminibus <hi>L</hi> 5 poterunt <hi>ML</hi> tempns esset <hi>MLbd</hi> 10 aliqua. <hi>L</hi> <lb/>
+            12 corpis <hi>Y</hi> 13 metnfitnr <hi>M</hi> metnntur <hi>L</hi> 16 incorporeae (in <hi>add</hi>. <lb/>
+            m. 2) <hi>T</hi> 17 est <hi>om. L</hi> 18 in <hi>ante</hi> ipso <hi>om. MLbd</hi> aliud] ad <hi>M</hi> <lb/>
+            20 potest-terram <hi>om. L</hi> 21 facti sunt <hi>in ras. m. 1 V</hi> 25 sed] et <hi>Y</hi> <lb/>
+            26 hoc ae <hi>Mbd</hi> hoc <hi>om. L</hi> res habeat (babeat <hi>m</hi>. et <hi>1 et 2 del.) M</hi> <lb/>
+            27 coniecturis in <hi>ras. m. 1 Y</hi> </app> <lb/>
+             
+<pb n="464"/>
+            cogitationis excedit, omnem creaturam habere initium tempusque <lb/>
+            ipsum esse creaturam ac per hoc et ipsum habere initium nec <lb/>
+            coaeternum esse <choice><note>creaton</note><corr>creatori</corr></choice>. 
+</p>
+          <p>Potest etiam caelum et terra pro <choice><note>iiniuersa</note><corr>uniuersa</corr></choice> creatura positum <lb/>
+            uideri, ut et hoc uisibile aethereum firmamentum caelum<lb n="5"/>
+            appellatum . sit et illa creatura inuisibilis supereminentium <lb/>
+            potestatum rursusque terra omnis inferior pars mundi cum <lb/>
+            animalibus quibus inhabitatur. an caelum omnis creatura <lb/>
+            sublimis atque inuisibilis dicta est, terra uero omne uisibile, <lb/>
+            ut etiam sic possit hoc, quod dictum est: in principio<lb n="10"/>
+            fecit deus caelum et terram, uniuersa creatura intellegi? <lb/>
+            fortasse quippe non incongrue in comparatione inuisibilis <lb/>
+            creaturae omne uisibile terra dicitur, ut illa caeli nomine <lb/>
+            nuncupetur, quoniam et anima, quae inuisibilis est, cum <lb/>
+            rerum uisibilium amore tumesceret et earum adeptione extolleretur,<lb n="15"/>
+            terra dicta est, sicut scriptum est: quid superbit <lb/>
+            terra et cinis? 
+</p>
+          <p>Sed quaeri potest, utrum iam distincta et composita omnia <lb/>
+            dixerit caelum et terram an ipsam primo informem uniuersitatis <lb/>
+            materiem, quae in has formatas et. speciosas naturas deo<lb n="20"/>
+            <choice><note>iueffabiliter</note><corr>ineffabiliter</corr></choice>. iubente digesta est, caeli et terrae nomine nuncupauit. <lb/>
+            quamquam enim scriptum legerimus:, qui fecisti <lb/>
+            mundum de informi materia, tamen etiam ipsam materiam <lb/>
+            cuiusmodicumque sit non possumus dicere non ab eo factam, <lb/>
+            ex quo omnia confitemur et credimus, ut etiam ipsa digestio <lb n="25"/>
+            et ordinatio singularum quarumque rerum formatarum et distinctarum <lb/>
+            mundus uocetur, ipsa uero materies caelum et terra,
+
+<app> 10 Gen. 1, 1 16 Eccli. 10, 9 22 Sap. 11, 18 </app>
+
+<app> 1 tempusque-initium <hi>om. L</hi> 2 creaturam esse <hi>TlMbd</hi> et om. <hi>Mbd</hi> <lb/>
+            4 etiam] enl <hi>b</hi> 5 aetherium <hi>(sic ubique) V</hi> ethereum <hi>T</hi> 12 compationem <lb/>
+            V inuisibilis] uisibilis <hi>ML</hi> 18 terra <hi>om. V</hi> 16 eorum <hi>Y</hi> <lb/>
+            16 sicut dictum est (dictum est <hi>m. et 1 et 2 del.) M</hi> 19 <hi>inter</hi> dixerit <lb/>
+            <hi>et</hi> caelum <hi>additum est:</hi> In principio fecit deus <hi>in cod. V</hi> 20 spetiosas <lb/>
+            <hi>(semper</hi> t <hi>littera scriptum) V</hi> 21 nuncupauerit <hi>bd</hi> 23 materia <lb/>
+            informi <hi>VT</hi> 27 uocetur mundus <hi>Tl</hi> uero] uera <hi>L</hi> </app> <lb/>
+             
+<pb n="465"/>
+            ueluti semen caeli et terrae appellata sit et caelum et terra <lb/>
+            quasi confusum atque permixtum ab artifice deo accipiendis <lb/>
+            formis idoneum. hactenus de hoc quaesitum sit quod dictum <lb/>
+            est: in principio fecit deus caelum et terram; nihil <lb/>
+            enim horum temere adfirmari potuit. <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="4" subtype="chapter"><head>cap. 4</head>
+
+<p>Terra autem erat inuisibilis et inconposita, et <lb/>
+            tenebrae erant super abyssum; et spiritus dei ferebatur <lb/>
+            super aquam. ab haereticis, qui ueteri testamento aduersantur, <lb/>
+            moueri calumnia huic loco solet, cum dicunt: <lb/>
+            quomodo in principio fecit deus caelum et terram, si iam <lb n="10"/>
+            terra erat? non intellegentes hoc esse subiunctum, ut exponeretur, <lb/>
+            qualis terra fuerit, de qua iam <choice n="0.05"><note n="79">dictam</note><corr n="1364">dictum</corr></choice> est: fecit <lb/>
+            deus caelum et terram. sic ergo accipiendum est: in principio <lb/>
+            fecit deus caelum at terram; haec autem terra, quam <lb/>
+            deus fecit, inuisibilis erat et inconposita, donec ab eodem <lb n="15"/>
+            ipso discerneretur et ex confusione in rerum certo ordine <lb/>
+            constitueretur. an sic melius intellegitur, ut in hac executione <lb/>
+            rursus eadem rerum materies commendaretur, quae superius <lb/>
+            caeli et terrae nomine nuncupata est, ut iste sit sensus: in <lb/>
+            principio fecit deus caelum et terram; hoc autem, quod caelum <lb n="20"/>
+            et terra dictum est, terra erat inuisibilis et inconposita et <lb/>
+            tenebrae super abyssum; id est quod caelum et terra appellatum <lb/>
+            est, materies erat confusa quaedam, de qua mundus, <lb/>
+            qui duabus maximis partibus, caelo scilicet et terra, constat, <lb/>
+            digestis elementis et accepta forma fabricaretur? quae confusio <lb n="25"/>
+            materiae sic potuit insinuari populari intellegentiae, si <lb/>
+            diceretur terra inuisibilis et inconposita uel inordinata uel
+
+<app> 6 Gen. 1, 2 </app>
+
+<app> 1 uelluti <hi>L</hi> et terrae <hi>om. TMLb</hi> et caelum et terra <hi>om. TMLb</hi> <lb/>
+            3 actenus <hi>V</hi> de hoc (JictViP §it <hi>L</hi> 4 nichil <hi>(semper</hi> ch <hi>littera <lb/>
+            scr.) VTML</hi> 5 affirmare <hi>VMLbd</hi> potuit] oportuit <hi>Vbd 7 post</hi> <lb/>
+            super <hi>eras. est</hi> faciS <hi>L</hi> abissum <hi>L</hi> 8 super <hi>om. L</hi> aquas <hi>VTML; <lb/>
+            ded cf. 466, 22</hi> 9 caldpnia <hi>ML</hi> 11 subiunctum] subiectum <hi>Tb</hi> <lb/>
+            12 iam <hi>om. V</hi> 13 sic- terram <hi>om. MLb</hi> est <hi>om. V</hi> 17 exsecatione <lb/>
+            <hi>MLbd</hi> 19 et <hi>8. l. m. 2 T</hi> 20 et terram-quod <hi>in ras. alia<lb/>
+             manu T</hi> 27 terra <hi>om. M et]</hi> uel <hi>TMLb</hi> </app>
+
+<app> XXVIII. Aug. lect. III pars 1. </app>
+
+<app> 30 </app> <lb/>
+             
+<pb n="466"/>
+            inparata et tenebrae super abysum, id est. super profunditatem <lb/>
+            uastissimam: quae rursus profunditas ex eo fortasse nominata <lb/>
+            est, quia nullius intellegentia propter ipsam informitatem <lb/>
+            penetrari potest. 
+</p>
+          <p>Et tenebrae erant super faciem abyssi. utrum subter<lb n="5"/>
+            abyssus erat et supra tenebrae, quasi iam loca distincta essent? <lb/>
+            an quoniam materiae adhuc confusio exponitur, quod etiam <lb/>
+            yjxoc graece dicitur, ideo dictum est: tenebrae erant super <lb/>
+            abyssum, quia lux non erat? quae si esset, utique supra <lb/>
+            esset, quia esset eminentior et ea, quae sibi subiecta erant, <lb n="10"/>
+            inluminaret. et reuera qui diligenter considerat quid sint <lb/>
+            tenebrae, nihil aliud inuenit quam lucis absentiam. ita igitur <lb/>
+            dictum est: tenebrae erant super abyssum, ac si dictum <lb/>
+            esset: non erat lux super abyssum. quapropter haec materies, <lb/>
+            quae consequenti operatione dei in rerum formas ordinata <lb n="15"/>
+            distinguitur, appellata est terra inuisibilis et <choice><note>inconpoaita</note><corr>inconposita</corr></choice> et <lb/>
+            profunditas carens luce: quae appellata est superius nomine <lb/>
+            caeli et terrae ueluti semen, ut iam dictum est, caeli et <lb/>
+            terrae, si tamen non caelum et terram dicendo uniuersitatem <lb/>
+            prius proponere uoluit, ut postea insinuata materie mundi <lb n="20"/>
+            partes exequeretur. 
+</p>
+          <p><choice><note>EtJ</note><corr>Et</corr></choice> spiritus dei* superferebatur super aquam. nuscfliam'»dixerat: <lb/>
+            fecit deus aquam; nec tamen ullo modo credendum <lb/>
+            est aquam deum non fecisse et eam iam fuisse, <lb/>
+            antequam ille aliquid constituisset. etenim ille est, ex quo <lb n="25"/>
+            omnia, per quem omnia, in quo omnia, sicut apostolus <lb/>
+            dicit. ergo et aquam deus fecit et aliter credere magnus <lb/>
+            error est. cur igitur non dictum est, quod aquam deus fecerit?
+
+<app> 5 Gen. 1, 2 22 Gen. 1, 2 25 Rom. 11, 36 </app>
+
+<app> 1 impara <hi>L</hi> 5 faciem abyssi I abjssum <hi>d</hi> 7 etiam] iam <hi>MLb</hi> <lb/>
+            § chaos <hi>VTML</hi> 10 quia esse <hi>L</hi> subiflcta <hi>V</hi> 18 ueluti-terrae <lb/>
+            <hi>om. Lb</hi> 20 materia <hi>TMLbd</hi> 21 ezsequeretur <hi>MLbd</hi> 22 ferebatur <hi>TML</hi> <lb/>
+            28 deus aquam fecit <hi>MLbd</hi> 24 deus <hi>V</hi> fuisse ex fecisse m. 1 <hi>V</hi> <lb/>
+            25 eat <hi>om. Lb</hi></app> <lb/>
+             
+<pb n="467"/>
+            an rursus eandem materiam, quam uel caeli et terrae uel <lb/>
+            terrae inuisibilis et inconpositae atque abyssi nomine nuncupauerat, <lb/>
+            etiam aquam uoluit appellare? cur enim non et <lb/>
+            aqua appellaretur, si terra potuit, cum adhuc neque aqua <lb/>
+            distincta atque formata neque terra esset neque aliquid aliud? sed <lb n="5"/>
+            primo fortasse caelum et terra appellata est, secundo terra <lb/>
+            inconposita et abyssus carens luce, tertio aqua non incongrue: <lb/>
+            ut primo nomine ipsius uniuersitatis, propter quam facta <lb/>
+            = est materies de omnino nihilo, id est caeli et terrae materies <lb/>
+            uocaretur; secundo terrae inconpositae atque abyssi nomine <lb n="10"/>
+            insinuaretur informitas, quia inter omnia elementa terra est <lb/>
+            informior et minus praelucens quam cetera; tertio aquae <lb/>
+            nomine significaretur materies subiecta operi artificis; aqua <lb/>
+            enim mobilior est quam terra. et ideo propter operandi facilitatem <lb/>
+            et motum faciliorem subiecta materies artifici aqua <lb n="15"/>
+            magis uocanda erat quam terra. 
+</p>
+          <p>Et aer quidem mobilior est quam aqua; aether autem ipso <lb/>
+            aere mobilior non absurde creditur aut sentitur; sed aeris uel . <lb/>
+            aetheris nomine minus conuenienter appellaretur materies. <lb/>
+            magis enim haec elementa uim creduntur habere faciendi, <lb n="20"/>
+            terra uero et aqua patiendi. quod si occultum est, illud certe <lb/>
+            apertissimum puto, quod aquam uentus mouet et nonnulla <lb/>
+            . terrena; uentus autem est aer motus et quasi fluctuans. ergo <lb/>
+            cum aer aquam manifeste moueat, unde autem ipse moueatur, <lb/>
+            ut sit uentus, occultum sit, quis dubitet congruentius aquae <lb n="25"/>
+            nomine materiam uocari, qua <choice n="0.02"><note n="5">monetur</note><corr n="244">mouetur</corr></choice>, quam aeris, qui mouet? <lb/>
+            moueri autem pati est, mouere facere. huc accedit, quod ea, <lb/>
+            quae terra gignit, aqua inrigantur, ut nasci et profici possint,
+
+<app>6 caelum et <hi>om. L</hi> 8 nomine <hi>om. TMLbd</hi> 9 de omnino nihilo <lb/>
+            materies <hi>d</hi> id eat <hi>om. TMLbd</hi> materies] nomine <hi>TMLbd</hi> 10 uocaretur-nomine <lb/>
+            <hi>om. L</hi> 12 felucens <hi>Lbd</hi> 13 materia <hi>MLbd</hi> 14 est <lb/>
+            <hi>om. TL</hi> propter <hi>om. V</hi> 17 ether <hi>VT</hi> aethere <hi>L</hi> mobilior <lb/>
+            ipso aere <hi>Lbd</hi> 20 elementa <hi>om. L</hi> 21 illad] uel <hi>MLb</hi> <lb/>
+            24 manifestat <hi>M1</hi> rrfoueat manifeste <hi>MLxbd</hi> 25 ut si <hi>ML</hi> <lb/>
+            26 qua] quia <hi>TMLbd</hi> ei aeris <hi>M</hi> 27 quod} at <hi>L</hi> 28 perfici <lb/>
+            <hi>MLbd -</hi> </app>
+
+<app>80* </app> <lb/>
+             
+<pb n="468"/>
+            ita ut prope uideatur in haec ipsa nascentia eadem aqua <lb/>
+            conuerti. quocirca congruentius aquae nomine appellaretur <lb/>
+            materies, cum subdita operi artificis insinuaretur propter <lb/>
+            mobilitatem et conuersionem in quaeque nascentia corpora, <lb/>
+            quam nomine aeris, in quo sola <choice><note>mobiiitas</note><corr>mobilitas</corr></choice> posset animaduerti,<lb n="5"/>
+            cetera uero, quibus materia expressius significaretur, defuissent, <lb/>
+            ut totus iste sit sensus: in principio fecit deus caelum <lb/>
+            et terram, id est materiam, quae caeli et terrae formam capere <lb/>
+            posset. quae materia terra inuisibilis et inconposita <lb/>
+            erat, id est informis et luce carens profunditas: quae tamen<lb n="10"/>
+            quoniam mouenti et operanti artifici subdita esset, propter <lb/>
+            hoc ipsum quod cedit operanti aqua etiam nominata est. 
+</p>
+          <p>In hac igitur materiae significatione prius insinuatus est <lb/>
+            finis eius, id est propter quid facta sit; secundo ipsa informitas, <lb/>
+            tertio seruitus sub artifice atque subiectio. itaque<lb n="15"/>
+            primo caelum et terra — propter hoc enim facta <sic>materiessecundo</sic> <lb/>
+            terra inuisibilis et inconposita et tenebrae super <lb/>
+            abyssum, id est ipsa informitas sine lumine — unde etiam <lb/>
+            terra inuisibilis dicta est — tertio aqua subiecta spiritui ad <lb/>
+            habitum formasque capiendas . ideo super aquam ferebatur<lb n="20"/>
+            spiritus dei, ut spiritum operantem, aquam uero unde operaretur <lb/>
+            intellegamus, id est materiam fabricabilem. cum enim <lb/>
+            tria ista dicimus unius rei nomina, materia mundi, materia <lb/>
+            informis, materia fabricabilis, horum primo nomini bene <lb/>
+            adiungitur caelum et terra, secundo obscuritas, confusio, profunditas, <lb n="25"/>
+            tenebrae, tertio cedendi facilitas, cui iam ad operandum <lb/>
+            spiritus superfertur artificis. 
+</p>
+          <p>Et spiritus dei superferebatur super aquam. non ita
+
+<app> 7 Gen. 1, 1. 2 28 Gen. I, 2 </app>
+
+<app> 1 uideantur <hi>Tx post</hi> nascentia <hi>scriba aberrans ex uersu 4 add</hi>. <lb/>
+            corpora-aeris, <hi>sed ea del. L</hi> eadem eadem <hi>M</hi> 4 queq; (q; <hi>add. <lb/>
+             8. I. m. 2) T</hi> 5 <hi>ante</hi> sola <hi>eras. est</hi> sola <hi>L</hi> 7 deum <hi>L</hi> 8 qua <hi>MLb</hi> <lb/>
+            11 subiecta <hi>ML</hi> 15 sub] ab <hi>L</hi> itaque] In <hi>MLb</hi> 17 <hi>alt</hi>. et <hi>om. Lb</hi> <lb/>
+            18 ipsum abissum <hi>Lunde-est om. MLb</hi> 20 habitandum <hi>TMLb</hi> <lb/>
+            23 ista tria <hi>J.bà</hi> 27 superferatur <hi>TMLb</hi> </app><lb/>
+            
+<pb n="469"/>
+            <sic>superferebatur</sic>, ut oleum aquae uel aqua terrae, id est quasi <lb/>
+            contineretur, sed, si ad hoc de uisibilibus exempla capienda <lb/>
+            sunt, sicut superfertur lux ista solis aut lunae his corporibus, <lb/>
+            quae inluminat in terra; non enim continetur illis sed cum <lb/>
+            caelo contineatur istis superfertur. item cauendum est, ne <lb n="5"/>
+            quasi locorum spatiis dei spiritum superferri materiae putemus, <lb/>
+            sed ui quadam effectoria et fabricatoria, ut illud cui superfertur <lb/>
+            efficiatur et fabricetur, sicut superfertur uoluntas artificis <lb/>
+            ligno uel cuique rei subiectae ad operandum uel ipsis <lb/>
+            etiam membris corporis sui, quae ad operandum mouet. et <lb n="10"/>
+            haec similitudo cum iam sit omni corpore excellentior parua <lb/>
+            est tamen et prope nihil ad intellegendam superlationem <lb/>
+            spiritus dei subiecta sibi ad operandum mundi materia; sed <lb/>
+            non inuenimus euidentiorem similitudinem et propinquiorem <lb/>
+            rei de qua loquimur in his rebus quae ab hominibus quomodocumque <lb n="15"/>
+            capi possunt. quapropter optime in huius modi <lb/>
+            cogitatione illud praeceptum tenebitur, quod scriptum est: <lb/>
+            benedicentes dominum exaltate illum quantumcumque <lb/>
+            potueritis, superabit et adhuc. hoc autem dictum sit, si <lb/>
+            hoc loco spiritus dei spiritus sanctus, quem in ipsa ineffabili <lb n="20"/>
+            - et incommutabili trinitate ueneramur, accipitur. 
+</p>
+          <p>Potest autem et aliter intellegi, ut spiritum dei uitalem <lb/>
+            creaturam, qua uniuersus iste uisibilis mundus atque omnia <lb/>
+            corporea continentur et mouentur, intellegamus, cui deus <lb/>
+            omnipotens tribuit uim quandam sibi seruiendi ad operandum <lb n="25"/>
+            in his quae gignuntur. qui spiritus cum sit omni corpore <lb/>
+            aethereo melior, quia omnem uisibilem creaturam omnis creatura <lb/>
+            inuisibilis antecedit, non absurde spiritus dei dicitur. quid
+
+<app> 18 Eccli. 43, 30 </app>
+
+<app> 1 ut] sicut <hi>bd</hi> 3 hiis <hi>ML</hi> 4 in <hi>om. L</hi> 7 ui <hi>m. 2 ex</hi> in <hi>T</hi> <lb/>
+            9 etiam ipsis <hi>TMLbd</hi> 10 sui <hi>om. L</hi> 14 propinquorem <hi>L</hi> 15 hiis <hi>ML</hi> <lb/>
+            iis <hi>d ab]</hi> ad <hi>M</hi> quemadmodumcumque <hi>V</hi> 16 in huiusmodi <lb/>
+            cogitatione optime <hi>TMLbd</hi> 18 deum <hi>bd</hi> 23 iste] est <hi>MLb</hi> 24 corpora <lb/>
+            <hi>V</hi> 26 hiis <hi>ML</hi> iis <hi>d</hi> 27 ethereo <hi>VTl</hi> inuisibilis creatura <lb/>
+            <hi>Lbd</hi> </app> <lb/>
+             
+<pb n="470"/>
+            enim non est dei ex his quae condidit, cum etiam de ipsa <lb/>
+            terra dictum sit: domini est terra et plenitudo eius, et <lb/>
+            illud uniuersali complexione quod scriptum est: quoniam <lb/>
+            tua sunt omnia, domine, qui animas amas? sed tum <lb/>
+            potest iste spiritus sic intellegi, si quod dictum est: in principio<lb n="5"/>
+            fecit deus caelum et terram, tantum de uisibili <lb/>
+            creatura dictum sentiamus, ut super materiam rerum uisibilium <lb/>
+            in exordio fabricationis eorum superferretur inuisibilis spiritus, <lb/>
+            qui tamen etiam ipse creatura esset, id est non deus, sed a <lb/>
+            deo facta atque instituta natura. si autem uniuersae creaturae,<lb n="10"/>
+            id est et intellectualis et animalis et corporalis, materia <lb/>
+            creditur illo aquae uocabulo enuntiata, nullo modo potest hoc <lb/>
+            loco spiritus dei nisi ille incommutabilis et sanctus intellegi, <lb/>
+            qui ferebatur super materiam omnium rerum, quas fecit et <lb/>
+            condidit deus. <lb n="15"/>
+            
+</p>
+          <p>Tertia opinio de hoc spiritu oriri potest, ut credatur spiritus <lb/>
+            nomine aeris elementum enuntiatum, ut ita quattuor elementa <lb/>
+            insinuata sint, quibus mundus iste uisibilis surgit: caelum <lb/>
+            scilicet et terra et aqua et aer, non quia iam erant distincta <lb/>
+            et ornata, sed quia in illius materiae quamuis informi confusione<lb n="20"/>
+            tamen exortura praesignabantur: quae informis confusio <lb/>
+            tenebrarum et abyssi nomine commendata est. sed quaelibet <lb/>
+            istarum sententiarum uera sit, omnium rerum, quae ortae <lb/>
+            sunt, quae uidentur et quae non uidentur, non quantum ad <lb/>
+            uitia, quae contra naturam sunt, sed quantum ad ipsas naturas <lb n="25"/>
+            adtinet, deum esse auctorem et conditorem credendum est
+
+<app> 2 Ps. 23, 1 3 Sap. 11, 27 5 Gen. 1, 1 </app>
+
+<app> 1 hiis <hi>ML</hi> iis <hi>d</hi> 3 illa <hi>F</hi> est <hi>om. L</hi> 4 tunc <hi>TMLbd</hi> <lb/>
+            5 sic <hi>om. L</hi> si] sic <hi>Lb</hi> 6 tantum] tunc <hi>M</hi> 8 earum <hi>d</hi> uisibilis <lb/>
+            <hi>V</hi> 9 id est <hi>om. L</hi> a] ex <hi>V</hi> 11 <hi>primum</hi> et <hi>om. MLb</hi> <lb/>
+            12 hoc loco spiritus dei potest <hi>MLbd</hi> 14 super super <hi>M</hi> 17 elemen[tum <lb/>
+            enun]ciatum (men enun <hi>in fine uersus om. L</hi> 18 sint (i <hi>ex</hi> <lb/>
+            u) <hi>L</hi> sunt <hi>b</hi> 19 <hi>primum</hi> et <hi>om. M</hi> iam <hi>om. V</hi> 20 ordinata <hi>Mbd</hi> <lb/>
+            ordina <hi>L</hi> illa materia <hi>V</hi> 22 tenebras <hi>V</hi> et <hi>om. V</hi> byssi <hi>Tl</hi> <lb/>
+            abissi <hi>L</hi> 23 sententiarum istarum <hi>TMLbd</hi> </app> <lb/>
+             
+<pb n="471"/>
+            nullamque omnino esse creaturam, quae non ab ipso initium <lb/>
+            perfectionemque habeat generis et substantiae suae. 
+</p>
+          
+</div1>
+
+<div1 n="5" subtype="chapter"><head>cap. 5</head>
+
+<p>Et dixit deus: fiat lux. et facta est lux. deum <lb/>
+            dixisse: fiat lux, non uoce de pulmonibus edita nec l\\p.gua <lb/>
+            et dentibus debemus accipere. carnalium sunt istae cogita- , <lb n="5"/>
+            tiones; secundum carnem autem sapere mors est. sed <sic>ineftabiliter</sic> <lb/>
+            dictum est: fiat lux. utrum autem hoc quod dictum <lb/>
+            est filio unigenito dictum est an id ipsum quod dictum est <lb/>
+            filius unigenitus est quod dictum uerbum dei dicitur, per quod <lb/>
+            facta sunt omnia, quaeri potest, dum tamen illa absit inpietas, <lb n="10"/>
+            ut uerbum dei unigenitum filium quasi uocem prolatam sicut <lb/>
+            a nobis fit esse credamus. uerbum autem dei, per quod facta <lb/>
+            sunt omnia, nec coepit esse nec desinet; sed sine inchoatione <lb/>
+            natum patri coaeternum est. quare hoc, quod dictum est: <lb/>
+            fiat lux, si et coepit et destitit dici, magis filio dictum est <lb n="15"/>
+            hoc uerbum quam ipsum est filius. et tamen etiam hoc ineffabiliter, <lb/>
+            ne carnalis imago subrepat in animam et intellectum <lb/>
+            pium spiritalem conturbet, quia et incipere aliquid et <lb/>
+            desinere in natura dei, si proprie accipiatur, temeraria et <lb/>
+            praeceps opinio est, carnalibus tamen et paruulis non tamquam <lb n="20"/>
+            in ea mansuris sed tamquam inde resurrecturis humanissime <lb/>
+            concedenda. quidquid enim incipere et desinere deus <lb/>
+            dicitur, nullo modo in ipsius natura sed in eius creatura, quae <lb/>
+            illi miris modis obtemperat, intellegendum est. 
+</p>
+          <p>Et dixit deus: fiat lux. utrum ea lux, quae his carnalibus <lb n="25"/>
+            oculis patet, an aliqua occulta, quam nobis per hoc corpus <lb/>
+            uidere non datum est? et si occulta, utrum corporea, quae <lb/>
+            per locorum spatia tenditur fortasse in sublimibus partibus <lb/>
+            mundi, an incorporea, qualis in anima est ad quam uitandi
+
+<app> 3 Gen. 1, 3 6 cf. Rom. 8, 6 9 cf. Ioh. 1, 1. 3 </app>
+
+<app> 2 profectionemque <hi>ML</hi> 5 accipere debemus <hi>MLbd</hi> 6 autem <lb/>
+            carnem <hi>TMLbd</hi> 8 id <hi>om. L</hi> 9 dei uerbum <hi>MLbd</hi> 11 ut] ne <lb/>
+            16 dicit <hi>V</hi> 17 nec <hi>bd</hi> animum <hi>bd</hi> 21 in ea-tamquam <hi>om. M</hi> <lb/>
+            surrecturia <hi>Ybel</hi> recturis <hi>L</hi> 22 <hi>post</hi> concedenda <hi>add</hi>. est <hi>Lbd</hi> <lb/>
+            xjuicquid <hi>(sic semper) VTML</hi> enim] tamen <hi>b</hi> 25 hiis <hi>ML</hi> in <lb/>
+            his <hi>Tx</hi> 29 an-uitandi <hi>repet in M</hi> </app> <lb/>
+             
+<pb n="472"/>
+            et adpetendi refertur examen a sensibus corporis, qua non <lb/>
+            carent etiam animae bestiarum, an ea superior quae ratiocinando <lb/>
+            adparet, ex qua incipit omne quod creatum est? quamlibet <lb/>
+            enim lucem significet, factam tamen et creatam debemus <lb/>
+            accipere, <sic>ndn</sic> illam, qua fulget ipsa dei sapientia, quae non<lb n="5"/>
+            creata sed nata est, ne sine luce deus fuisse putetur, priusquam <lb/>
+            istam, de qua nunc agitur, condidisset. de hac enim, <lb/>
+            sicut ipsa uerba satis docent, hoc commendatur, quod facta <lb/>
+            sit. et dixit, inquit, fiat lux . et facta est lux. alia est <lb/>
+            lux de deo nata et alia lux, quam fecit deus . nata de deo<lb n="10"/>
+            lux est ipsa dei sapientia, facta uero lux est quaelibet mutabilis <lb/>
+            siue incorporea sine corporea. 
+</p>
+          <p>Mouere autem solet, quomodo lux corporea esse potuerit, <lb/>
+            antequam caelum esset et caeli luminaria, quae post istam <lb/>
+            exponuntur: quasi uero facile ab homine percipi potest aut <lb n="15"/>
+            omnino ullo modo potest, utrum sit aliqua lux praeter caelum, <lb/>
+            quae tamen spatiis locorum distincta atque diffusa sit mundumque <lb/>
+            amplectatur. sed cum liceat hic et incorpoream lucem <lb/>
+            intellegere, si non uisibilem tantum creaturam in hoc libro <lb/>
+            sed omnem creaturam expositam dicimus, quid opus est in <lb n="20"/>
+            hac controuersia remorari? et fortasse quod quaerunt homines, <lb/>
+            quando angeli facti sunt, ipsi significantur hac luce breuissime <lb/>
+            quidem sed tamen conuenientissime ac decentissime. 
+</p>
+          <p>Et uidit deus lucem quia bona est. ista sententia non <lb/>
+            quasi insoliti boni laetitiam sed adprobationem operis significari <lb n="25"/>
+            oportet intellegi. quid enim conuenientius de deo dicitur, <lb/>
+            quantum inter homines dici potest, quam cum ita ponitur <lb/>
+            "dixit" "factum est" "<choice><note>plaeuit</note><corr>placuit</corr></choice>", ita ut in eo, quod dixit,
+
+<app> 24 Gen. 1, 4 </app>
+
+<app> 2 quae superior <hi>Lbd</hi> superiorque <hi>M</hi> ratiocinandi <hi>d</hi> 3 quod <lb/>
+            (d <hi>8. I.) L, om. M</hi> 4 debere <hi>ML</hi> 6 creata est sed nata (natura <hi>b) MLbd</hi> <lb/>
+            ne] non <hi>MLb</hi> 10 natura <hi>pro</hi> nata <hi>bis b</hi> de <hi>iteratur V</hi> 12 corporea <lb/>
+            sine incorporea <hi>bd</hi> 14 ista exponitur <hi>V</hi> 15 <hi>ante</hi> ab <hi>addit</hi> <lb/>
+            hoc <hi>d</hi> 16 ullo] nullo <hi>V</hi> 21 controuersiam <hi>VT</hi> fortaeset (t <hi>fin. exp. <lb/>
+            m. 1) M</hi> 23 ac] et <hi>TMLbd</hi> 24 deus <hi>om. ML \\1{)</hi> non <hi>V</hi> 25 boni <lb/>
+            laetitiam] beniuolentiam <hi>MLb</hi> significare <hi>TML</hi> 28 ut] quod <hi>b</hi> dicit <hi>L</hi> </app> <lb/>
+             
+<pb n="473"/>
+            imperium eius intellegatur, in eo, quod factum est, potentia, <lb/>
+            in eo, quod placuit, benignitas, sicut ineffabilia per hominem <lb/>
+            hominibus, ita ut omnibus prodesse possent, dici debuerunt. 
+</p>
+          <p>Et diuisit deus inter lucem et tenebras. hinc intellegi <lb/>
+            licet, quanta diuini operis facilitate ista dicantur effecta. non <lb n="5"/>
+            enim quisquam est, qui sic existimet lucem factam, ut esset <lb/>
+            confusa cum tenebris et ob hoc postea separationis indigeret; <lb/>
+            sed eo ipso, quo lux facta est, consecuta est etiam diuisio <lb/>
+            inter lucem et tenebras. quae enim societas luci cum <lb/>
+            tenebris? deus ergo diuisit inter lucem et tenebras, quia <lb n="10"/>
+            lucem fecit, cuius absentia tenebrae uocantur. interest autem <lb/>
+            inter lucem et tenebras, sicut interest inter uestimentum et <lb/>
+            nuditatem aut plenum et inane et similia. 
+</p>
+          <p>Iam quot modis lux possit intellegi, supra dictum est, <lb/>
+            quibus contrariae priuationes possunt tenebrae nominari. alia s <lb n="15"/>
+            est enim lux, quae uidetur his oculis corporeis etiam ipsa <lb/>
+            corporea, ut solis et lunae et stellarum et si quid huius modi <lb/>
+            est, cui contrariae sunt tenebrae, cum aliquis locus ea luce <lb/>
+            caret. alia item lux est uita sentiens et ualens discernere quae <lb/>
+            per corpus ad animae iudicium referuntur, id est alba et nigra <lb n="20"/>
+            canora et rauca suaueolentia et graueolentia dulcia et amara <lb/>
+            calida et frigida et cetera huius modi. alia est enim lux quae <lb/>
+            sentitur oculis aliudque per oculos agitur, ut sentiatur. illa <lb/>
+            enim in corpore, haec autem quamuis per corpus ea quae <lb/>
+            sentit accipiat in anima tamen est. huic contrariae sunt tenebrae, <lb n="25"/>
+            insensibilitas quaedam uel si melius insensualitas dicitur,
+
+<app> 4 Gen. 1, 4 9 II Cor. 6, 14 </app>
+
+<app> 2 <hi>post</hi> sicut <hi>inculcat</hi> ista <hi>d</hi> 3 prodesse possent] prodessent <hi>Lb</hi> <lb/>
+            4 diuisit <hi>ex</hi> dimisit <hi>V</hi> inter <hi>om. VT</hi> 6 estimet <hi>TML</hi> ęstimet <hi>b</hi> <lb/>
+            8 quod <hi>V</hi> 9 quae-tenebras <hi>om. L</hi> lucis <hi>Mbd</hi> 11 iterest <hi>L</hi> <lb/>
+            14 possit intelligi lux <hi>TMLbd</hi> 16 hiis <hi>ML</hi> 17 corporea] corpea <hi>M</hi> <lb/>
+            18 aliqui <hi>V</hi> 19 item] autem <hi>Lb</hi> 21 graueolentia] putentia <hi>TMLb</hi> <lb/>
+            22 huius modi] huius <hi>M om. L</hi> 23 aliudque] alia qua <hi>TMLbd</hi> <lb/>
+            ut <hi>om. V</hi> 25 percipiat <hi>bd</hi> in anima] inanimatum <hi>ML</hi> inanimata <hi>b</hi> <lb/>
+            tamen <hi>om. M</hi> est. Tamen <hi>Vest</hi> tamen <hi>d</hi> 26 insensualitas] insensibilitas <lb/>
+            <hi>V</hi> </app> <lb/>
+             
+<pb n="474"/>
+            id est non sentire, quamuis inferantur quae sentiri possent, <lb/>
+            si esset in illa uita ista lux unde sentitur. neque hoc cum <lb/>
+            ministeria desunt corporis, sicut in caecis aut surdis — nam <lb/>
+            in istorum animis est ista lux, de qua nunc agimus, sed instrumenta <lb/>
+            corporis desunt - neque eo modo, quo in silentio<lb n="5"/>
+            uox non auditur, cum et ista lux est in anima et adsunt corporis <lb/>
+            instrumenta, sed nihil quod sentiatur infertur. non ergo <lb/>
+            qui his causis non sentit, caret ista luce; sed cum talis <lb/>
+            potentia non est in anima, quae iam nec anima dici solet sed <lb/>
+            tantum uita, qualis perhibetur esse uitis et arboris et quarumque<lb n="10"/>
+            stirpium, si tamen eas uel talem habere persuaderi ullo <lb/>
+            modo potest, quas nonnulli nimis errantes haeretici non solum <lb/>
+            sentire per corpus, id est uidere et audire et calorem ignemque <lb/>
+            discernere sed etiam intellegere rationem et cogitationes nostras <lb/>
+            nosse arbitrantur; sed de his alia quaestio est. insensibilitas<lb n="15"/>
+            ergo tenebrae sunt huius lucis, qua quidque sentitur, cum <lb/>
+            ipsam uim sentiendi non habet uita quaelibet. conuenienter <lb/>
+            autem hanc lucem dici concedit quisquis concedit recte dici <lb/>
+            lucem, qua res quaeque manifesta est. cum autem dicimus: <lb/>
+            manifestum est hoc canorum esse, manifestum est hoc dulce<lb n="20"/>
+            esse, manifestum est hoc frigidum esse et quod forte huius <lb/>
+            generis per corporales sensus adtingimus, haec lux, qua ista <lb/>
+            manifesta sunt, utique intus in anima est, quamuis per corpus <lb/>
+            inferantur quae ita sentiuntur. tertium lucis genus in creaturis <lb/>
+            intellegi potest, -quo ratiocinamur. huic contrariae tenebrae <lb n="25"/>
+            sunt inrationabilitas, sicut sunt animae bestiarum.
+
+<app> 12 cf. contra Manichaeos </app>
+
+<app> 1 possunt <hi>V</hi> 2 essent <hi>L</hi> illam <hi>V</hi> lux ista <hi>TMLbd</hi> 3 desunt <lb/>
+            ministeria <hi>Tl</hi> 5 eo] illo <hi>TMLbd</hi> quo] quo modo <hi>bd</hi> 6 assunt <hi>Y</hi> <lb/>
+            8 hiis <hi>ML</hi> iis <hi>d</hi> 10 quarumcumque <hi>MLbd</hi> 11 ullo] nullo <hi>M,</hi> (n <lb/>
+            <hi>paene eras.) L</hi> 12 nonulli <hi>V</hi> 18 et audire] aut audire <hi>b</hi> audire <hi>d <lb/>
+            15 hiis JtfL</hi> 16 sunt <hi>om. TMLbd</hi> quidque] quicquid <hi>M</hi> quidquid <hi>bd</hi> <lb/>
+            quid <hi>L</hi> 18 lucem hanc <hi>MLbd</hi> quisquis concedit <hi>om. L</hi> 19 dicamus <lb/>
+            <hi>Y</hi> 20 manifestum] maim <hi>M; ita et sequens et tertium scriptum</hi> <lb/>
+            man. esse <hi>b</hi> 21 <hi>alt</hi>. esse] est <hi>M</hi> 22 per <hi>om. V</hi> sensus adtingimus] sentimus <lb/>
+            <hi>V</hi> attingimus per ÇQТJ}QТI)Įęş şęJ)ŞŲŞ <hi>L</hi> 24 quae ita sentiuntur <lb/>
+            <hi>om. M</hi> 26 inrationabilitas sicut sunt <hi>om. L</hi> </app> 
+<pb n="475"/>
+            
+</p>
+          <p>Siue ergo lucem aetheream siue sensualem, cuius animalia <lb/>
+            participant, siue rationalem, quam et angeli et homines habent, <lb/>
+            a deo factam primitus in rerum natura haec sententia uult <lb/>
+            intellegi, diuisisse deum inter lucem et tenebras eo ipso, quo <lb/>
+            lux facta est, oportet accipi, quod aliud est lux, aliud illae <lb n="5"/>
+            priuationes lucis, quas in contrariis tenebris ordinauit deus. <lb/>
+            non enim deum fecisse tenebras dictum est, quoniam species <lb/>
+            ipsas deus fecit, non priuationes, quae ad nihilum pertinent, <lb/>
+            unde ab artifice deo facta sunt omnia: quas ab eo tamen <lb/>
+            ordinatas intellegimus, cum dicitur: et diuisit deus inter <lb n="10"/>
+            lucem et tenebras, ne uel ipsae priuationes non haberent <lb/>
+            ordinem suum deo cuncta regente atque administrante, sicut <lb/>
+            in cantando interpositiones silentiorum certis moderatisque <lb/>
+            interuallis, quamuis uocum priuationes sint, bene tamen ordinantur <lb/>
+            ab his, qui cantare sciunt et suauitati uniuersae cantilenae <lb n="15"/>
+            aliquid conferunt, et umbrae in picturis eminentiora <lb/>
+            quaeque distingunt ac non specie sed ordine placent. nam et <lb/>
+            uitiorum nostrorum non est auctor deus; sed tamen ordinator <lb/>
+            est, cum eo loco peccatores constituit et ea perpeti cogit <lb/>
+            quae merentur. ad hoc ualet quod oues ponuntur ad dexteram, <lb n="20"/>
+            haedi autem ad sinistram. quaedam ergo et facit deus et <lb/>
+            ordinat; quaedam uero tantum ordinat. iustos et facit et ordinat; <lb/>
+            peccatores autem, in quantum peccatores sunt, non facit sed <lb/>
+            ordinat tantum, quippe cum illos ad dexteram, illos ad sinistram <lb/>
+            constituit et quod in ignem aeternum iubet ire, ad <lb n="25"/>
+            meritorum ordinem ualet. ita species naturasque ipsas et facit <lb/>
+            et ordinat; priuationes autem specierum defectusque naturarum <lb/>
+            non facit sed ordinat tantum. dixit itaque: fiat lux. et facta <lb/>
+            est lux, non dixit: fiant tenebrae. et factae sunt tenebrae.
+
+<app> 10 Gen. 1, 4 20 cf. Matth. 25, 33 </app>
+
+<app> 1 etheriam <hi>VT</hi> 2 et <hi>ante</hi> angeli <hi>om. MLbd</hi> 8 hac <hi>TMLb</hi> 6 tenebris <lb/>
+            <hi>om. L</hi> 9 tamen ab eo <hi>TMLbd</hi> 11 haberentj herent <hi>L</hi> 15 hiis <hi>ML</hi> <lb/>
+            iis <hi>d</hi> qgi qui <hi>(pr</hi>. qui <hi>exp. tn. 1) M</hi> 17 distinguunt <hi>Mbd</hi> et <lb/>
+            <hi>om. V</hi> 19 est <hi>om. L</hi> 22 iustos-ordinat <hi>om. Y</hi> 24 dextram <hi>b</hi> <lb/>
+            25 constituet <hi>V</hi> 27 naturararum <hi>L</hi> 28 tantum] tamfi <hi>V</hi> 29 facta <hi>L</hi></app> <lb/>
+             
+<pb n="476"/>
+            horum ergo unum fecit, alterum non fecit, utrumque tamen <lb/>
+            ordinauit, cum diuisit deus inter lucem et tenebras. ita et <lb/>
+            ipso faciente pulchra sunt singula et ipso ordinante pulchra <lb/>
+            sunt omnia. 
+</p>
+          
+</div1>
+
+<div1 n="6" subtype="chapter"><head>cap. 6</head>
+
+<p>Et uocauit deus lucem diem et tenebras uocauit  <lb n="5"/>
+            noctem. cum et lux nomen sit alicuius rei et dies rursum <lb/>
+            et tenebrae et nox utrumque sit nomen, utrum ita dici oportuit <lb/>
+            nomina rebus inposita esse, ut illa res, cui nomen inpositum <lb/>
+            est, utique alio quoque nomine — non enim aliter <sic>poteratenuntiaretur</sic>, <lb/>
+            et ita dictum est: uocauit deus lucem diem,<lb n="10"/>
+            ut indifferenter dici etiam conuerse posset: uocauit deus diem <lb/>
+            lucem et uocauit noctem tenebras? quid ei respondebimus, <lb/>
+            si quis a nobis ita quaerat: luci nomen inpositum est dies an <lb/>
+            diei nomen inpositum est lux? quia haec duo utique, in quantum <lb/>
+            ad res significandas articulata uoce enuntiantur, nomina<lb n="15"/>
+            sunt. hoc modo etiam de aliis duobus quaeri potest: tenebris <lb/>
+            nomen inpositum est nox an nocti inpositum est nomen tenebrae? <lb/>
+            et quidem, ut scriptura praescribit, manifestum est <lb/>
+            lucis nomen dictum esse diem et tenebrarum nomen dictum <lb/>
+            esse noctem. quia cum diceret: deus fecit lucem et diuisit <lb n="20"/>
+            inter lucem et tenebras, nondum de uocabulis agebatur, postea <lb/>
+            sunt adhibita uocabula dies et nox, cum et illa sine dubio <lb/>
+            uocabula sint, lux et tenebrae, res aliquas significantia sicut <lb/>
+            dies et nox. ergo ita hoc accipiendum est, quia enuntiari aliter <lb/>
+            non posset res, quae nomen accepit, nisi aliquo nomine? an<lb n="25"/>
+            potius ista uocatio accipienda est ipsa distinctio? non enim
+
+<app> 5 Gen. 1, 5 </app>
+
+<app> 2 ordinat <hi>V</hi> diuidit <hi>VMLb</hi> deus <hi>om. M</hi> 3 pulcra <hi>Md</hi> <lb/>
+            5 uocabit <hi>fin. V</hi> 7 <hi>post</hi> nomen <hi>scriba aberrans ex uersu 8</hi> impositumnomine <lb/>
+            <hi>add. et ipse deleuit L</hi> utrum] utrumque <hi>MLbd</hi> 9 quoque <lb/>
+            <hi>om. V</hi> 10 enuntiaretur] enumerare <hi>MLb</hi> enuntiare <hi>d</hi> 11 etiam <lb/>
+            dici <hi>TMLbd</hi> 12 respondemus <hi>V</hi> 18 quaerit <hi>MLbd</hi> 15 nuntiantur <lb/>
+            <hi>V TM</hi> şįgųjfjÇ,ųtŲT nuntiantur <hi>L</hi> 17 an nocti impositum est <hi>iteratur <lb/>
+            sed m. 2 semel del. T</hi> 18 ut] in <hi>V</hi> pscribit <hi>T</hi> describit <hi>bd</hi> <lb/>
+            19 diem-esse <hi>om. T</hi> 21 agebft (t <hi>omissum est) M</hi> 22 adhibita <lb/>
+            sunt <hi>Lbd</hi> 24 hoc ita <hi>MLbd</hi> </app> <lb/>
+             
+<pb n="477"/>
+            omnis lux dies aut omnes tenebrae nox; sed lux et tenebrae <lb/>
+            certis inter se uicibus ordinatae atque distinctae diei et noctis <lb/>
+            nominibus appellantur. omne quippe uocabulum ad distinctionem <lb/>
+            ualet: unde etiam nomen, quod rem notet, appellatum <lb/>
+            est quasi notamen, notet autem hoc est distinguat et doctitantem <lb n="5"/>
+            ad discernendum adiuuet. fortasse ergo ipsum diuisisse <lb/>
+            inter lucem et tenebras, hoc est uocasse lucem diem et tenebras <lb/>
+            noctem, ut hoc sit ordinasse ista quod uocasse. an ista <lb/>
+            uocabula significare nobis uolunt, quam lucem dixerit et quas <lb/>
+            tenebras? tamquam si diceret: fecit deus lucem et diuisit <lb n="10"/>
+            inter lucem et tenebras. lucem autem dico diem et tenebras <lb/>
+            dico noctem, ne aliquam aliam lucem intellegas, quae non <lb/>
+            sit dies, et ne aliquas alias tenebras intellegas, quae non sint <lb/>
+            <sic>nOlo</sic> nam si omnis lux dies posset intellegi et omnes tenebrae <lb/>
+            noctis nomine censerentur, fortasse non opus esset dicere: <lb n="15"/>
+            et uocauit deus lucem diem et tenebras uocauit <lb/>
+            noctem. 
+</p>
+          <p>Item quaeri potest quem diem dicat et quam noctem. si <lb/>
+            istum diem uult accipi, quem solis ortus inchoat et claudit <lb/>
+            occasus, et istam noctem, quae a solis occasu usque in ortum <lb n="20"/>
+            tendit, non inuenio, quomodo esse potuerint, antequam caeli <lb/>
+            luminaria facta essent. an ipsa spatia horarum et temporum <lb/>
+            etiam sine discrimine fulgoris atque umbrae iam ita uocari <lb/>
+            potuerunt? et quomodo in illam lucem rationalem, si haec <lb/>
+            significata est, aut sensualem cadit haec uicissitudo, quae <lb n="25"/>
+            nomine diei et noctis significatur? an non secundum quod <lb/>
+            euenit sed secundum quod potest euenire ista insinuata sunt, <lb/>
+            quia et rationi potest error succedere et sensui quaedam <lb/>
+            stoliditas?
+
+<app> 2 uicibus] uocibus <hi>Lb</hi> 3 omne-distinctionem <hi>iterantur M</hi> 4 rem <lb/>
+            notat <hi>MLb</hi> 5 hoc] id <hi>bd</hi> distingat <hi>M</hi> distinguet <hi>b</hi> doctitanter <hi>bd</hi> <lb/>
+            6 diuise <hi>ML</hi> 7 lucem-uocasse <hi>om. M</hi> 9 uolQjt <hi>(m. 1 corr.) M<lb/>
+             10 si om. TMLb 12 lucem L 18 dies-sint om. V sunt Lb</hi> <lb/>
+            sit <hi>M</hi> 14 possit <hi>VMLbd</hi> 18 quam] quem <hi>L</hi> 21 tenditur <hi>TMLbd</hi> <lb/>
+            potuerunt <hi>L</hi> 23 4i9CretitH&gt;e discrimine <hi>L</hi> 24 illam] hac <hi>V</hi> 26 non <lb/>
+            <hi>om. MLb</hi> 27 sed <hi>om. V</hi> inuenire <hi>Lb</hi> </app> 
+<pb n="478"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="7" subtype="chapter"><head>cap. 7</head>
+
+<p>Et facta est uespera et factum est mane dies <lb/>
+            unus. non eodem modo nunc appellatur dies, quo cum <lb/>
+            diceretur: et uocauit deus lucem diem, sedeo modo, quo <lb/>
+            dicimus uerbi gratia triginta dies habere mensem: hic enim <lb/>
+            nomine diei noctes quoque includimus; superius autem ita<lb n="5"/>
+            dictus est dies, ut a nocte seiungeretur. itaque cum illa <lb/>
+            operatio dei per lucem gesta insinuaretur, consequenter dicitur <lb/>
+            factam esse uesperam et factum esse mane unum diem, ut <lb/>
+            sit scilicet unus dies a coepto die usque ad coeptum diem, <lb/>
+            id est a mane usque ad mane, quales dies adnumeratis, ut<lb n="10"/>
+            dixi, noctibus appellamus. sed quomodo facta est uespera et <lb/>
+            factum est mane? an tanta mora temporis fecit lucem deus <lb/>
+            et diuisit inter lucem et tenebras, quanta mora tenditur dies <lb/>
+            lucens, id est non adnumerata nocte? et ubi est quod scriptum <lb/>
+            est: subest enim tibi, cum uoles posse, si opus est deo<lb n="15"/>
+            productione temporis, ut aliquid perficiat? an omnia quidem <lb/>
+            tamquam in arte atque ratione perfecta sunt deo non in <lb/>
+            productione temporis, sed in ipsa ui, quae illas etiam res, <lb/>
+            quas non stare sed transire cernimus, stabiliter efficit? non <lb/>
+            enim et in sermone nostro, cum uerba alia transeant et alia<lb n="20"/>
+            succedant, credibile est ita fieri in arte ipsa, qua operante <lb/>
+            stabiliter artificiosa occurrit oratio. quamquam ergo sine productione <lb/>
+            temporis faciat deus, cui subest posse cum uolet, <lb/>
+            ipsae tamen naturae temporales motus suos temporaliter peragunt. <lb/>
+            ita ergo fortasse dictum est: et facta est uespera <lb n="25"/>
+            et factum est mane dies unus, sicut ratione prospicitur <lb/>
+            ita fieri debere aut posse, non ita, ut fit temporis tractibus. <lb/>
+            nam non ipsam rationem operationum contemplatus est in spiritu
+
+<app> 1 Gen. 1, 6 15 Sap. 12, 18 </app>
+
+<app> 2 eodem] eo <hi>V</hi> 3 deos <hi>om. L</hi> 4 hoc <hi>V d</hi> 5 ita dep9 <hi>Ml</hi> 7 deij <lb/>
+            diei <hi>d</hi> factam dicitur <hi>Lbd</hi> 8 esse <hi>bis om. V</hi> diem unum <hi>bd</hi> <lb/>
+            9 scilicet sit <hi>MLbd</hi> a coepto] accepto <hi>V</hi> a.cepto (c <hi>paene eras.) T</hi> <lb/>
+            14 enumerata <hi>b</hi> 15 si] sibi <hi>V</hi> 16 proficiat <hi>Lb</hi> 17 in <hi>fin. om. M</hi> <lb/>
+            18 qua <hi>bd</hi> 19 subtilitcr <hi>L</hi> 21 ista <hi>d</hi> 23 posse] potest <hi>L</hi> 24 ipse <hi>d</hi> <lb/>
+            26 pspicitur <hi>V</hi> 27 temporalibus <hi>MLbd</hi> 28 non] in <hi>MLbd</hi> ipsa <lb/>
+            ratione <hi>TMLbd</hi> operationem <hi>bd</hi> </app> <lb/>
+             
+<pb n="479"/>
+            sancto ille, qui dixit: qui manet in aeternum creauit <lb/>
+            omnia simul; sed commodissime in hoc libro quasi per <lb/>
+            morarum interualla factarum a deo rerum digesta narratio <lb/>
+            est, ut ipsa dispositio, quae ab infirmioribus animis contemplatione <lb/>
+            stabili uideri non poterat, per huius modi ordinem sermonis <lb n="5"/>
+            exposita quasi istis oculis cerneretur. 
+</p>
+          
+</div1>
+
+<div1 n="8" subtype="chapter"><head>cap. 8</head>
+
+<p>Et dixit deus: fiat firmamentum in medio aquae <lb/>
+            et sit diuidens inter aquam et aquam. et sic est factum. <lb/>
+            et fecit deus firmamentum et diuisit inter aquam <lb/>
+            quae erat sub firmamento et inter aquam quae erat <lb n="10"/>
+            supra firmamentum. utrum aquae tales sunt supra firmamentum, <lb/>
+            quales sub firmamento istae uisibiles? an, quia illam <lb/>
+            aquam uidetur significare, supra quam spiritus ferebatur et <lb/>
+            eam intellegebamus esse ipsam mundi materiam, haec etiam <lb/>
+            hoc loco firmamento interposito discreta credenda est, ut inferior <lb n="15"/>
+            <sic>sitmateria</sic> corporalis, superior animalis? hoc enim firmamentum <lb/>
+            dicit, quod caelum postea uocat. caelesti autem <lb/>
+            corpore nihil est in corporibus melius. alia quippe corpora <lb/>
+            caelestia, alia terrestria et utique caelestia meliora: quorum <lb/>
+            naturam quidquid transit nescio quemadmodum iam corpus <lb n="20"/>
+            possit uocari; sed est fortasse uis quaedam subiecta rationi, <lb/>
+            qua ratione deus ueritasque cognoscitur: quae natura quia <lb/>
+            formabilis est uirtute atque prudentia, cuius uigore cohibetur <lb/>
+            eius fluitatio atque constringitur et ob hoc quasi materialis <lb/>
+            adparet, recte aqua diuinitus appellata est non locorum <sic>spatiosed</sic> <lb n="25"/>
+            merito naturae incorporeae caeli corporei ambitum excedens. <lb/>
+            et quoniam caelum firmamentum uocauit, non absurde
+
+<app> 1 Eccli. 18, 1 7 Gen. 1, 6. 7 </app>
+
+<app> 1 ille <hi>om. MLbd</hi> creauit] compleuit <hi>Lb</hi> 2 hoc] illo <hi>bd</hi> morarum <lb/>
+            per <hi>bd</hi> õ stabili] uisibili <hi>Lb</hi> uidere <hi>VLb</hi> 6 quasi <hi>om. V</hi> <lb/>
+            8 factum est <hi>TMLbd</hi> 10 sub—erat <hi>om. M</hi> inter <hi>om. VTML</hi> <lb/>
+            11 supra] super <hi>TM</hi> sint <hi>TMLbd</hi> 12 uisibilis <hi>V</hi> 18 aquam <hi>om. M</hi> <lb/>
+            uidere <hi>L</hi> 17 posea <hi>M</hi> uocauit <hi>TMLb</hi> 20 iam <hi>om. Vd</hi> 22 quam <lb/>
+            naturam <hi>VTML</hi> 24 fluctuatio <hi>Lbd</hi> ob hoc] obiectio <hi>b</hi> 25 rapparet <lb/>
+            <hi>L</hi> 26 incorporeae] incorpore <hi>VML</hi> in corpore b incorporei <hi>Lb</hi>. </app> <lb/>
+             
+<pb n="480"/>
+            intellegitur quid quid infra aethereum caelum est, in quo <lb/>
+            pacata et firma sunt omnia, mutabilius esse et dissolubilius. <lb/>
+            quod genus corporalis materiae ante acceptam speciem distinctionemque <lb/>
+            formarum, a qua sub firmamento nominata est, <lb/>
+            fuerunt qui crederent has uisibiles aquas et frigidas caeli<lb n="5"/>
+            <choice><note>snperficiem</note><corr>superficiem</corr></choice> superamplecti. et documentum adhibere conati sunt <lb/>
+            de tarditate stellae unius de septem uagantibus, quae superior <lb/>
+            est ceteris et a Graecis <sic>aaiveov</sic> dicitur et triginta annis peragit <lb/>
+            signiferum circulum, ut ob hoc tarda sit, quia est frigidis <lb/>
+            aquis uicinior, quae supra caelum sunt. quae opinio nescio<lb n="10"/>
+            quemadmodum possit apud eos defendi, qui subtilissime ista <lb/>
+            quaesierunt. nihil autem horum temere adfirmandum sed caute <lb/>
+            omnia modesteque tractanda sunt. 
+</p>
+          <p>Et dixit deus: fiat firmamentum in medio aquae <lb/>
+            et sit diuidens inter aquam et aquam. et sic est<lb n="15"/>
+            factum. postquam dixit: sic est factum, quid opus erat <lb/>
+            rursum addere: et fecit deus firmamentum et diuisit <lb/>
+            inter aquam quae erat sub firmamento et aquam quae <lb/>
+            erat supra firmamentum? nam cum dixisset superius: et <lb/>
+            dixit deus: fiat lux. et facta est lux, non addidit rursus: <lb n="20"/>
+            et fecit deus lucem; hic autem posteaquam dixit deus: fiat. <lb/>
+            et sic est factum, additum est: et fecit deus. an hinc <lb/>
+            adparet non oportere illam lucem intellegi corporalem, ne eam <lb/>
+            aliqua creatura interposita deus fecisse uideatur — deum autem <lb/>
+            trinitatem dico —, hoc uero firmamentum caeli, quia corporeum <lb n="25"/>
+            est, per incorpoream creaturam accepisse speciem
+
+<app> 14 Gen. 1, 6. 7 </app>
+
+<app> 1 caelum] celum celum <hi>V</hi> 2 et] atque <hi>Lbd</hi> firmata <hi>Lbd</hi> mutabilius <lb/>
+            <hi>om. M</hi> 4 formatum <hi>bd</hi> sub <hi>om. MLbd</hi> firmamentum <hi>bd</hi> <lb/>
+            nominatum <hi>bd</hi> 5 superficiem coeli <hi>TMLbd</hi> 6 habere <hi>ML</hi> 8 est <lb/>
+            <hi>cm. TMLb</hi> a <hi>om. V</hi> fenon <hi>VTl</hi> pheton <hi>ML</hi> ?&lt;UTU&gt;V <hi>b</hi> 9 ut <lb/>
+            <hi>om. L</hi> trarda <hi>V</hi> frigidis (i <hi>fin. ex</hi> u) <hi>M</hi> 13 sunt tractanda <hi>MLbd</hi> <lb/>
+            15 factum eat <hi>MLbd</hi> 17 adere <hi>L</hi> 20 addit V rursum <hi>TMLbd</hi> <lb/>
+            21 postquam <hi>b post</hi> dixit <hi>inculcant</hi> et dixit <hi>bd</hi> 22 factum est <hi>MLbd</hi> <lb/>
+            23 lucem illam (illa <hi>L) TJILbd</hi> 24 fecisse deus <hi>Lbd</hi> 25 uero] <lb/>
+            autem <hi>b</hi> corporeum] corporem <hi>L</hi> </app> <lb/>
+             
+<pb n="481"/>
+            formamque credatur, ut prius incorporeae naturae rationaliter a <lb/>
+            ueritate inpressum sit quod corporaliter inprimeretur, ut caeli <lb/>
+            fieret firmamentum, et ideo quod positum est: et dixit deus: <lb/>
+            fiat. et sic est factum, in ipsa rationali natura prius <lb/>
+            factum est fortasse unde inprimeretur corpori species ? <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="9" subtype="chapter"><head>cap. 9</head>
+
+<p>Cum autem additum est: et fecit deus firmamentum <lb/>
+            et diuisit inter aquam quae erat sub firmamento et <lb/>
+            aquam quae erat supra firmamentum, ipsa operatio in <lb/>
+            illa materia, ut corpus caeli fieret, significatur ? an forte <lb/>
+            uarietatis causa, ut textus sermonis in fastidium non ueniret, <lb n="10"/>
+            supra non est positum quod infra positum est et non oportet <lb/>
+            scrupulose omnia rimari? eligat quis quod potest; tantum ne <lb/>
+            aliquid temere atque incognitum pro cognito afferat memineritque <lb/>
+            se hominem de diuinis operibus quantum permittitur <lb/>
+            quaerere. <lb n="15"/>
+            
+</p>
+          <p>Et uocauit deus firmamentum caelum. quod de uocatione <lb/>
+            superius tractatum est, hic quoque considerari potest; <lb/>
+            non enim omne firmamentum caelum est. et uidit deus <lb/>
+            quia bonum est. et de hoc superius quod tractatum est <lb/>
+            retractetur, nisi quod non eundem ordinem uideo. nam superius: <lb n="20"/>
+            et uidit deus lucem quia bona est, et post deinde <lb/>
+            subicitur: diuisit deus inter lucem et tenebras; et <lb/>
+            uocauit deus lucem diem et tenebras uocauit noctem, <lb/>
+            hic autem, postquam factum enarratum est, quod factum <lb/>
+            dicebatur, et posteaquam uocatum est firmamentum caelum, <lb n="25"/>
+            tum dicitur: et uidit deus quia bonum est. quod si non
+
+<app> 6 Gen. 1, 7 16 Gen. 1, 8 </app>
+
+<app> 1 creditur <hi>bd</hi> creadatnr <hi>L</hi> imcorporeae <hi>ML</hi> rationabiliter <hi>d</hi> <lb/>
+            2 impremeretur <hi>L</hi> 8 feeret <hi>L</hi> quod <hi>om. TMLbd</hi> 4 factum <lb/>
+            est <hi>TMLbd</hi> in otn. <hi>V</hi> 5 facta <hi>TMLb</hi> corporis <hi>V</hi> 8 <hi>ante</hi> ipsa <lb/>
+            <hi>add</hi>. et <hi>JlLLbd</hi> cooperatio <hi>ML</hi> corporatio <hi>b</hi> 10 **ueniret (in <hi>eras.) L</hi> <lb/>
+            11 enpra] et supra <hi>ML</hi> 12 scropujonim <hi>MLb</hi> limari] numerare <hi>V <lb/>
+            m. 1 in ras</hi>. quia (s <hi>ex</hi> d) <hi>L</hi> 13 afferat] asserat <hi>TMLbd</hi> 18 caelum <lb/>
+            O-ł. <hi>L</hi> 19 quia] quod <hi>TMLbd</hi> quo <hi>L</hi> 20 retractaretur <hi>Lbd</hi> <lb/>
+            23 et ten. uoc. tenebras <hi>L</hi> 25 postq uA <hi>b</hi> 26 tum] cQ <hi>MLb</hi> est <lb/>
+            <hi>om. Lb post</hi> est <hi>add</hi>. et IłQętęł ŲQIĮlęų iipp99ita est <hi>L</hi> </app>
+
+<app> XXVIII. Aug. lect. III pars 1. </app>
+
+<app> 31 </app> <lb/>
+             
+<pb n="482"/>
+            fastidii euitandi gratia ita uariatum est, illud certe intellegere <lb/>
+            cogimur, quod dictum est: et fecit deus omnia simul. <lb/>
+            quare enim primo ibi uidit quia bonum est et postea nomen <lb/>
+            inposuit, hic autem primo nomen inposuit et postea uidit <lb/>
+            quia bonum est P nisi quia ista indifferentia significat morarum<lb n="5"/>
+            interualla non esse in operatione dei, quamuis in ipsis inueniantur <lb/>
+            operibus ? secundum autem morarum interuallum <lb/>
+            prius aliquid et postea efficitur, sine quibus narratio factorum <lb/>
+            non potest esse, quamuis sine his deus ista efficere potuerit. <lb/>
+            et facta est uespera et factum est mane dies secundus. <lb n="10"/>
+            iam hinc superius tractatum est et easdem rationes hic <lb/>
+            quoque ualere arbitror. 
+</p>
+          
+</div1>
+
+<div1 n="10" subtype="chapter"><head>cap. 10</head>
+
+<p>Et dixit deus: congregentur aquae quae sub <lb/>
+            caelo sunt in congregationem unam et adpareat arida. <lb/>
+            et sic est factum. hinc probabilius credi potest aquam <lb n="15"/>
+            dictam esse superius, sicut arbitrabamur, ipsam mundi materiam. <lb/>
+            nam si uniuersum aqua obpletum erat, unde uel quo <lb/>
+            potuit congregari? si enim confusionem quandam materialem <lb/>
+            aquae nomine appellauerat, haec congregatio accipienda est <lb/>
+            ipsa formatio, ut talis esset aquae species, qualem nunc esse <lb n="20"/>
+            cernimus. et ipsum "adpareat arida", quod positum est, terrae <lb/>
+            formatio intellegi potest, ut hanc haberet speciem terra, quam <lb/>
+            cernimus. inuisibilis enim et inconposita dicta erat, cum adhuc <lb/>
+            materiae species deesset. dixit ergo deus: congregetur <lb/>
+            aqua quae sub caelo est; id est in formam redigatur <lb n="25"/>
+            materies corporalis, ut aqua ista sit, quam sentimus. in congregationem <lb/>
+            unam: uis ipsa formae commendatur nomine
+
+<app> 13 Gen. 1, 9 </app>
+
+<app> 1 ellitandi. <hi>L</hi> uariatum] narratum <hi>MLb</hi> illud <hi>om. b</hi> 2 cogitemur <lb/>
+            <hi>Y</hi> 4 hic—inposuit <hi>om. V</hi> 5 ista] illa <hi>bd</hi> differentia <hi>MLbd</hi> <lb/>
+            6 inueniatur <hi>TMLb</hi> 9 esse non potest <hi>d</hi> hiis <hi>ML</hi> egt ista (est <lb/>
+            <hi>exp. m</hi>. 2) <hi>M</hi> 10 facta] factum <hi>ML</hi> 1;I\\lŲŞ secundus (unus <hi>del</hi>. m. <lb/>
+            <hi>1 et 2) M</hi> 12 non arbitror <hi>Ll</hi> arbitor <hi>V</hi> 14 appareant aride <hi>YT</hi> <lb/>
+            15 factum est <hi>TMLbd</hi> 18 quandam confusionem <hi>d</hi> 19 nomen <hi>ML</hi> <lb/>
+            accipienda] appellanda <hi>Lb</hi> 23 incoposita <hi>L</hi> 24 desset <hi>b</hi> congregegtur <lb/>
+            <hi>L</hi> 25 in <hi>om. M</hi> </app> <lb/>
+             
+<pb n="483"/>
+            unitatis. hoc est enim uere formari in unum aliquid redigi, <lb/>
+            quoniam summe unum est omnis formae principium. et adpareat <lb/>
+            arida: id est speciem uisibilem accipiat atque a <lb/>
+            confusione distinctam. et bene aqua congregatur, ut adpareat <lb/>
+            arida; id est cohibetur quod fluitat materiae, ut quod obscurum <lb n="5"/>
+            est inlustretur. et sic est factum: etiam hoc fortasse in <lb/>
+            rationibus intellectualis naturae prius factum est, ut postea <lb/>
+            quod dicitur: et congregata est aqua in congregationem <lb/>
+            unam et adparuit arida, non superfluo additum uideatur, <lb/>
+            cum iam dictum esset: et sic est factum, sed ut post <lb n="10"/>
+            rationalem atque incorpoream operationem intellegeremus etiam <lb/>
+            corporalem secutam. 
+</p>
+          <p>Et uocauit deus aridam terram et congregationem <lb/>
+            aquae uocauit mare. adhuc nobiscum facit illa causa <lb/>
+            uocabulorum; non enim omnis aqua mare aut omne aridum <lb n="15"/>
+            terra. ergo quae aqua esset et quae arida, uocabulis segregandum <lb/>
+            fuit. ipsam autem distinctionem atque formationem <lb/>
+            fuisse uocationem dei non absurde adhuc intellegi potest. et <lb/>
+            uidit deus quia bonum est. et hic ipse ordo seruatus est; <lb/>
+            quare huic etiam illa, quae iam tractata sunt, conferantur. <lb n="20"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="11" subtype="chapter"><head>cap. 11</head>
+
+<p>Et dixit deus: germinet terra herbam pabuli <lb/>
+            ferentem semen secundum suum genus et similitudinem <lb/>
+            et lignum fructuosum faciens fructum, cuius <lb/>
+            semen sit in se secundum suam similitudinem. postquam <lb/>
+            facta sunt terra et mare et uocata et adprobata, quod <lb n="25"/>
+            saepe diximus non morarum interuallis esse accipiendum, ne <lb/>
+            ineffabilem operantis dei facultatem tarditas aliqua consequatur,
+
+<app>13 Gen. 1, 10 21 Gen. 1, 11 </app>
+
+<app> 2 <hi>cum voce</hi> unum <hi>desinit codex T</hi> pareat <hi>V</hi> 3 a <hi>om. V</hi> 4 pareat <lb/>
+            <hi>V</hi> 5 fluita <hi>L</hi> materiae <hi>scripsi:</hi> materie <hi>VML</hi> mare <hi>bd</hi> <lb/>
+            6 factum est <hi>MLbd</hi> 7 ut iţł L 9 paruit <hi>V</hi> superfluum <hi>L</hi> additum] <lb/>
+            addere <hi>L</hi> 10 factum est <hi>Lbd</hi> factum <hi>M</hi> 11 atque] et <hi>MLbd</hi> <lb/>
+            intelligerimus F1 13 deus <hi>om. L</hi> et <hi>om. b</hi> 14 mare uocauit <hi>Lbd</hi> <lb/>
+            facit] fclt <hi>V</hi> 16 esset] est <hi>L post</hi> arida <hi>add</hi>. et <hi>M</hi> 17 ipsam] <lb/>
+            ipam <hi>V</hi> 20 tracta <hi>L</hi> 22 genus suum <hi>MLbd</hi> 28 fruetnosum] fructiferum <lb/>
+            <hi>bd</hi> 24 semen om. <hi>L</hi> 26 accipiendum esse <hi>MLbd</hi> </app>
+
+<app>31* </app> <lb/>
+             
+<pb n="484"/>
+            non statim sicut duobus praecedentibus diebus subicitur: <lb/>
+            facta est uespera et factum est mane dies tertius, <lb/>
+            sed adiungitur alia operatio, ut germinet terra herbam <lb/>
+            pabuli ferentem semen secundum genus suum et <lb/>
+            similitudinem et lignum fructiferum faciens fructum,<lb n="5"/>
+            cuius semen sit in se secundum suam similitudinem. <lb/>
+            quod de luce illa et firmamento et aquis et arida dictum non <lb/>
+            est; non enim habet illa lux successionis propaginem aut de <lb/>
+            caelo aliud caelum nascitur aut terra aut mare alia maria <lb/>
+            et alias terras gignunt, quae sibi succedant. hic ergo dicendum<lb n="10"/>
+            fuit: ferentem semen secundum suum genus et <lb/>
+            similitudinem et cuius semen in se sit secundum <lb/>
+            suam similitudinem, ubi similitudo nascentium praetereuntis <lb/>
+            similitudinem seruat. 
+</p>
+          <p>Haec autem <choice><note>opania</note><corr>omnia</corr></choice> ita super terram sunt, ut ipsi terrae<lb n="15"/>
+            radicibus cohaereant et ei continuentur et rursum quodammodo <lb/>
+            separentur: propterea huius naturae significationem in ista <lb/>
+            narratione seruatam arbitror, quia et eodem die facta sunt, <lb/>
+            quo terra adparuit, et tamen iterum dixit deus, ut terra <choice><note>germinarAt</note><corr>germinaret</corr></choice>, <lb/>
+            et iterum dictum est: et sic est factum. deinde<lb n="20"/>
+            secundum superiorem regulam, postquam dictum est: <lb/>
+            et sic est factum, subiungitur ipsa executio: et dedit <lb/>
+            terra herbam pabuli ferentem semen secundum suum <lb/>
+            genus et lignum fructiferum faciens fructum, cuius <lb/>
+            semen in se secundum suam similitudinem, et iterum <lb n="25"/>
+            dicit: uidit deus quia bonum est. itaque et uno die ista <lb/>
+            iunguntur et iteratis dei uerbis distinguuntur ab inuicem,
+
+<app> .22 Gen. 1, 12. 13 </app>
+
+<app>1 diebus praecedentibus <hi>MLbd</hi> 2 <hi>alt</hi>. est <hi>om. L</hi> die <hi>M</hi> 7 et <hi>ante</hi> <lb/>
+            arida <hi>om. L</hi> non est] est <hi>V</hi> 8 illa <hi>om. MLbd</hi> 9 caelum de alio <lb/>
+            caelo <hi>bd</hi> 10 sibi <hi>om. MLbd</hi> 12 in se sit] sit in ee <hi>Mbd</hi> sin in <hi>L</hi> <lb/>
+            ' secudum <hi>L</hi> 15 supra <hi>bd</hi> terra <hi>V</hi> 16 radicitus <hi>bd</hi> cohaereantt L <lb/>
+            continentur <hi>V</hi> 17 ista] iusta <hi>V</hi> 18 narrationem F eo <hi>V</hi> 20 factum <lb/>
+            est <hi>MLbd</hi> 22 et <hi>om. V MLb</hi> factum est <hi>MLbd post</hi> factum <hi>add</hi>. <lb/>
+            factum est <hi>M</hi> executio] excecatio <hi>ML</hi> 23 pabuli (a <hi>ex</hi> u <hi>m. 1) V</hi> <lb/>
+            genus suum <hi>MLbd</hi> 26 et <hi>om. M</hi> 27 distinguitur <hi>V</hi> distinguntur <hi>L</hi> </app> <lb/>
+             
+<pb n="485"/>
+            quod de terra et mari propterea puto non esse factum, quia <lb/>
+            magis harum rerum est discernenda natura, quae cum oriantur <lb/>
+            et occidant seminis successione propagantur. an quia terra et <lb/>
+            mare simul fieri potuerint non solum in rationibus creaturae <lb/>
+            spiritalis, ubi simul omnia facta sunt, sed etiam in ipsa corporali <lb n="5"/>
+            motione, arbores uero et quaeque stirpes nasci non <lb/>
+            possent nisi terra, in qua <choice><note>germiuarent</note><corr>germinarent</corr></choice>, praecessisset, propterea <lb/>
+            et repetendum erat iussum dei, ut et facta significarentur <lb/>
+            distantia tamen non alio die facienda, propter quod radicibus <lb/>
+            terrae adfiguntur et continuantur ? sed quaeri potest, cur istis <lb n="10"/>
+            deus non inposuerit nomina. an praetermissum est, quia multitudo <lb/>
+            eorum non sinebat? uerum haec quaestio melius postea <lb/>
+            considerabitur, cum animaduertemus alia quae non uocauit <lb/>
+            deus, sicut uocauit lucem et caelum et terram et mare. et <lb/>
+            facta est uespera et factum est mane dies tertius. <lb n="15"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="12" subtype="chapter"><head>cap. 12</head>
+
+<p>Et dixit deus: fiant luminaria in firmamento <lb/>
+            caeli, ut luceant super terram et diuidant inter diem <lb/>
+            et noctem; et sint in signis et in temporibus et in <lb/>
+            diebus et in annis; et sint in splendorem in firmamento <lb/>
+            caeli, ut luceant super terram. quarto die luminaria <lb n="20"/>
+            facta sunt, de quibus dicitur: et sint in diebus. quid <lb/>
+            sibi ergo uolunt tres dies transacti sine luminaribus ? aut cur <lb/>
+            ista erunt in diebus, si etiam sine istis dies esse potuerunt? <lb/>
+            an quia euidentius productio illa temporis et morarum interuallum <lb/>
+            motu istorum luminarium distingui ab hominibus <lb n="25"/>
+            potest? an ista dierum et noctium enumeratio ad distinctionem <lb/>
+            ualet inter illam naturam, quae facta non est, et eas, quae <lb/>
+            factae sunt, ut mane nominaretur propter earum speciem <lb/>
+            factarum, uespera uero propter priuationem? quoniam
+
+<app>14 Gen. 1, 13 16 Gen. 1, 14. 15 </app>
+
+<app>2 discernanda <hi>L</hi> 5 spiritualis <hi>(ita semper) d</hi> in <hi>om. V</hi> 7 possnnt <lb/>
+            <hi>V</hi> germinaret <hi>Y</hi> praecessis sisset <hi>V</hi> 8 ut et] et <hi>V</hi> ut <hi>d</hi> <lb/>
+            9 distantie <hi>V</hi> 14 terra <hi>V</hi> 15 facta] factum <hi>MLbd</hi> 18 in temporibus] <lb/>
+            temporibus <hi>VLbd</hi> 19 in annis] annis <hi>MLbd</hi> 22 sibi <hi>om. MLbd</hi> <lb/>
+            25 istarum <hi>V</hi> 26 noctuum <hi>ML</hi> 27 facta-quae <hi>om. M</hi> 29 quoniam] <lb/>
+            quę <hi>b</hi> quia <hi>d</hi> </app> <lb/>
+             
+<pb n="486"/>
+            <sic>quantura</sic> adtinet ad illum, a quo facta sunt, speciosa atque formosa <lb/>
+            sunt, quantum autem in ipsis est, possunt deficere, quia de <lb/>
+            nihilo facta sunt, et in quantum non deficiunt, non est eorum <lb/>
+            materiae, quae ex nihilo est, sed eius, qui summe est et illa <lb/>
+            facit esse in genere atque ordine suo. <lb n="5"/>
+            
+</p>
+          <p>Et dixit deus: fiant luminaria in firmamento caeli <lb/>
+            ut luceant: utrum de fixis tantum dictum est sideribus an <lb/>
+            etiam de uagis ? sed duo luminaria maius et minus inter uaga <lb/>
+            sidera numerantur: quomodo ergo in firmamento facta sunt <lb/>
+            omnia, cum singulos suos uel globos uel circulos uaga singula<lb n="10"/>
+            quaeque possideant ? an quoniam in scripturis et caelos multos <lb/>
+            legimus et caelum, sicuti in hoc loco cum dicitur caelum et <lb/>
+            firmamentum, intellegendum est omnem istam aetheream machinam <lb/>
+            dici, quae omnia sidera continet, sub qua puri et <lb/>
+            tranquilli aeris serenitas uiget, sub quo item iste aer turbulentus<lb n="15"/>
+            et procellosus agitatur? ut luceant super terram <lb/>
+            et diuidant inter diem et noctem. nonne iam deus <lb/>
+            diuiserat inter lucem et tenebras et uocauerat diem lucem et <lb/>
+            tenebras uocauerat noctem? ex quo adparet eum inter diem <lb/>
+            et noctem diuisisse. quid sibi uult nunc, quod dicitur de<lb n="20"/>
+            luminaribus: et diuidant inter diem et noctem? an ita <lb/>
+            nunc fit ista diuisio per luminaria, ut hominibus nota sit <lb/>
+            etiam solis carnalibus oculis ad rerum istarum contemplationem <lb/>
+            utentibus, ita uero deus eam fecit ante circuitum luminarium, <lb/>
+            ut nunc uideri nisi a paucis sancto spiritu et serena<lb n="25"/>
+            ratione non possit? an inter alium diem et aliam noctem <lb/>
+            diuisit deus, id est inter speciem, quam inprimebat illi informitati, <lb/>
+            et informitatem, quae adhuc formanda restabat? <lb/>
+            alius uero est iste dies et alia nox, quorum uoluente caelo
+
+<app> 3 in <hi>om. M</hi> 4 materie <hi>V</hi> illa] alia <hi>V</hi> 5 atque] et <hi>MLbd</hi> <lb/>
+            6 in firmamento caeli luminaria <hi>MLbd</hi> 9 sidera] sdierum <hi>V</hi> in <lb/>
+            firmamento <hi>om. MLb</hi> 11 multos <hi>om. M</hi> 12 sicuti-firmamentum <lb/>
+            <hi>om. L</hi> dicitur firmamentum caelum <hi>Mbd</hi> 13 etlxeriam <hi>V</hi> 14 que <hi>Y</hi> <lb/>
+            sidera] substantia <hi>MLb</hi> 15 qua <hi>d</hi> turbulentis <hi>L1</hi> 17 iam] etiam <hi>MLb</hi> <lb/>
+            18 lucem diem <hi>Lbd</hi> 20 nunc uult <hi>MLbd</hi> 25 ut nunc <hi>scripsi:</hi> et <lb/>
+            nunc <hi>Y</hi> ut <hi>MLbd</hi> sancto] sano <hi>bd</hi> 27 infornati <hi>V</hi> </app> <lb/>
+             
+<pb n="487"/>
+            uicissitudo animaduertitur, quae fieri non posset nisi solis <lb/>
+            ortu et occasu. 
+</p>
+          
+</div1>
+
+<div1 n="13" subtype="chapter"><head>cap. 13</head>
+
+<p>Et sint in signis et in temporibus et in diebus <lb/>
+            et in annis. uidetur mihi hoc, quod dixit: in signis, planum <lb/>
+            fecisse illud, quod dixit: et in temporibus, ne aliud acciperentur <lb n="5"/>
+            signa et aliud tempora. haec enim nunc dicit tempora, <lb/>
+            quae interuallorum distinctione aeternitatem incommutabilem <lb/>
+            supra se manere significant, ut signum, id est quasi uestigium <lb/>
+            aeternitatis tempus adpareat. item cum adiungit: et in diebus <lb/>
+            et in annis, ostendit quae dixerit tempora, ut dies fiant <lb n="10"/>
+            conuersione fixorum siderum, anni uero manifesti, cum sol <lb/>
+            signiferum circulum peragit, obscuriores autem, cum id unumquodque <lb/>
+            uagorum siderum in suis orbibus facit. non enim <lb/>
+            dixit: et mensibus, quia fortassis mensis annus est lunae; <lb/>
+            sicut duodecim lunae anni annus est eius sideris, quod <lb n="15"/>
+            ‹›<sic>aeovta</sic> Graeci uocant, et triginta solis anni annus est eius <lb/>
+            sideris, quod fPatv(J)v dicitur. et fortasse ita cum omnia sidera <lb/>
+            ad idem redierint, annus magnus peragitur, de quo multi <lb/>
+            multa dixerunt. an in signis dicit, quibus certum iter significatur <lb/>
+            nauigandi, in temporibus autem, uelut est uernum <lb n="20"/>
+            tempus et aestas et autumnus et hiems, quia et ista circumactu <lb/>
+            siderum uariantur suasque uices atque ordinem seruant, <lb/>
+            in diebus autem et in annis, sicut iam expositum est, <lb/>
+            accipiendum ? 
+</p>
+          <p>Et sint in splendorem in firmamento caeli, ut luceant <lb n="25"/>
+            super terram. supra iam dictum erat: fiant luminaria
+
+<app> 3 Gen. 1, 14 25 Gen. 1, 13 </app>
+
+<app> 3 in <hi>med. om. MLbd</hi> 4 et <hi>om. d</hi> 4 annis <hi>omisso</hi> in <hi>Y</hi> 5 in <hi>ante</hi> <lb/>
+            temporibus 8. <hi>I. m. 1 V</hi> 6 dixit <hi>Lbd</hi> 8 supra <hi>corr</hi>. ex super <hi>L</hi> <lb/>
+            10 in <hi>ante</hi> annis <hi>om. V</hi> dixit <hi>b</hi> 12 id] ad <hi>ML</hi> 14 fortasse <hi>MLbd</hi> <lb/>
+            est <hi>om. Vest</hi> luce <hi>Ml</hi> 15 lunae] solis <hi>V</hi> 16 fetonta <hi>V</hi> phetunta <hi>ML</hi> <lb/>
+            cpo:aac.uv'tC&amp; <hi>b</hi> eiusdem <hi>V</hi> 17 foenon <hi>V</hi> phoemon <hi>ML</hi> &lt;paatvov <hi>b</hi> <lb/>
+            19 dixit <hi>Llbd</hi> 20 nauigandi] uani gaudii <hi>V</hi> uelut] ut <hi>L</hi> 21 autumpnus <lb/>
+            <hi>ML</hi> hyems <hi>V</hi> hyemps <hi>ML</hi> 23 expositum iam <hi>bd</hi> 25 splendore <lb/>
+            <hi>YMLb</hi> et in firmamento <hi>b</hi> 26 supra-terram <hi>om. MLb</hi> </app> <lb/>
+             
+<pb n="488"/>
+            in firmamento caeli, ut luceant super terram; cur <lb/>
+            putamus esse repetitum? an quemadmodum dictum est de <lb/>
+            stirpibus, ut ferant semen et sit in eis semen secundum suum <lb/>
+            genus et similitudinem, ita hic e contrario dictum est de <lb/>
+            luminaribus: fiant et sint, id est fiant et non gignant, sed<lb n="5"/>
+            ipsa sint. et sic est factum. ordo ille seruatur. 
+</p>
+          <p>Et fecit deus duo luminaria: luminare maius initium <lb/>
+            diei et luminare minus initium noctis, et stellas. <lb/>
+            quid dicat initium diei et initium noctis <choice><note>moz</note><corr>mox</corr></choice> adparebit. et <lb/>
+            stellas uero quod addidit, utrum pertineant ad initium noctis<lb n="10"/>
+            an non ambiguum est. quidam autem <choice n="0.92"><note n="884">uolunt</note><corr n="72">nolunt</corr></choice> hic significari <lb/>
+            lunam plenam esse primitus factam, quod plena luna initio <lb/>
+            noctis adsurgit, id est mox post solis occasum. sed illud absurdum <lb/>
+            est, ut non a prima sed a sexta decima uel quinta <lb/>
+            decima numerandi sumamus exordium. nec illud moueat, quod<lb n="15"/>
+            perfectum fieri debuerit luminare quod factum est. omni enim <lb/>
+            die perfecta est; sed eius perfectio ab hominibus non uidetur, <lb/>
+            nisi cum ex contraria parte soli obposita fuerit. nam etiam <lb/>
+            cum illo constituta, quoniam sub illo est, uidetur finiri; sed <lb/>
+            etiam tunc plena est, quia ex alia parte inlustratur nec uideri <lb n="20"/>
+            potest ab his, qui subter sunt, id -est terram incolunt. quod <lb/>
+            non paucis uerbis, sed subtilibus dissertationibus et quarundam <lb/>
+            figurarum uisibilium demonstratione doceri potest. 
+</p>
+          <p>Et posuit illa deus in firmamento caeli, ut luceant <lb/>
+            super terram. quomodo dixit: fiant in firmamento, et <lb n="25"/>
+            quomodo nunc dicit: fecit deus luminaria et posuit in <lb/>
+            firmamento, quasi extra sint facta et post ibi posita, cum <lb/>
+            iam dictum sit, ut ibi fierent? an hinc etiam atque etiam <lb/>
+            significatur non ita deum fecisse, ut homines solent, sed ita
+
+<app> 7 Gen. 1, 16 24 Gen. 1, 17 </app>
+
+<app> 1 cur] ut <hi>V</hi> 2 dictum <hi>om. MLb</hi> 3 genna suum <hi>Lbd</hi> 4 hic <lb/>
+            <hi>om. MLb</hi> est <hi>om. L</hi> 6 factum est <hi>MLbd</hi> 8 initium <hi>post</hi> minus <lb/>
+            <hi>om. M</hi> 11 huc <hi>M</hi> hec <hi>L poet</hi> hic add. <hi>et exp. est</hi> uolfit <hi>V</hi> 15 moneat <lb/>
+            <hi>b</hi> 20 parte] pte <hi>M</hi> 21 hiia <hi>ML</hi> uunt <hi>om. V</hi> 22 diaaertionibus <lb/>
+            <hi>MLb</hi> 27 post ibi] primo ubi <hi>MLb</hi> </app> <lb/>
+             
+<pb n="489"/>
+            narratum ut hominibus potuit: scilicet ut apud homines aliud <lb/>
+            sit fecit", aliud „posuit", apud deum autem utrumque idem <lb/>
+            sit, qui faciendo ponit et ponendo facit? 
+</p>
+          <p>Et praesint diei et nocti et diuidant inter diem et <lb/>
+            noctem. hoc est quod dictum erat: initium diei et initium <lb n="5"/>
+            noctis, quod hic exponit dicendo: praesint diei et nocti. <lb/>
+            ergo initium illud principatum intellegere debemus, quia et <lb/>
+            in die nihil est inter illa quae uidentur sole excellentius et <lb/>
+            in nocte nihil luna uel stellis. unde illa etiam ambiguitas <lb/>
+            iam non moueat et credamus stellas sic positas, ut ad initium <lb n="10"/>
+            noctis, id est principatum pertineant. et uidit deus quia <lb/>
+            bonum est. idem ordo seruatur. meminerimus sane, quod <lb/>
+            etiam ista deus non uocauerit, cum dici potuerit: et uocauit <lb/>
+            deus luminaria sidera, quia non omne luminare sidus est. 
+</p>
+          <p>Et facta est uespera et factum est mane dies quartus, <lb n="15"/>
+            si dies istos consideres, quos ortus solis occasusque <lb/>
+            distinguit, non iste quartus, sed fortasse primus est dies, ut <lb/>
+            eo tempore putemus ortum esse solem, quo factus est, et <lb/>
+            donec cetera sidera fierent, occidisse. sed qui intellegit et <lb/>
+            solem alibi esse, cum apud nos est nox, et noctem alibi esse <lb n="20"/>
+            cum 801 apud nos est, dierum istorum enumerationem sublimius <lb/>
+            indagabit. 
+</p>
+          
+</div1>
+
+<div1 n="14" subtype="chapter"><head>cap. 14</head>
+
+<p>Et dixit deus: eiciant aquae reptilia animarum <lb/>
+            . uiuarum et uolatilia uolantia super terram sub firmamento <lb/>
+            caeli. et sic est factum. ea quae natantia sunt <lb n="25"/>
+            animalia reptilia sunt appellata, quia pedibus non ambulant, <lb/>
+            an quia sunt alia, quae sub aqua in terra repunt? alia enim <lb/>
+            sunt pennata in aquis, sicut pisces qui squamas habent uel
+
+<app> 4 Gen. 1, 18 15 Gen. 1, 19 23 Gen. 1, 20 </app>
+
+<app> 1 narratur <hi>b</hi> 2 siçt <hi>M</hi> aliud] ad (d <hi>s. I</hi>. M <hi>fine uers.) M</hi> 4 ac <lb/>
+            nocti <hi>MLbd</hi> õ hoc est quod <hi>om. MLbd</hi> 6 nocti <hi>V</hi> 9 etiam <lb/>
+            illa <hi>MLbd</hi> 12 memineritis <hi>M</hi> 18 eet esse (est <hi>exp. m. 1j M</hi> <lb/>
+            20 est <hi>om. M</hi> not: est <hi>Lbd</hi> 28 eitiant <hi>V</hi> 24 uolantia] uiuentia <hi>Lb</hi> <lb/>
+            25 factum est <hi>MLbd</hi> 27 alia enim] an <hi>MLbd</hi> 28 qui <hi>om. ML</hi> <lb/>
+            squanimas <hi>V</hi> </app> <lb/>
+             
+<pb n="490"/>
+            alii qui non habent, sed tamen pennis nituntur. qui utrum <lb/>
+            inter uolatilia hoc loco numerandi sint dubitari potest. nam <lb/>
+            et ipsa uolatilia cur aquis tribuerit, non aeri, nonnulla quaestio <lb/>
+            est. non enim has aues tantum hic accipere possumus, quibus <lb/>
+            aquae familiares sunt, quales sunt mergi et anates et quaecumque<lb n="5"/>
+            huius modi. nam si de his tantum dixisset, non <lb/>
+            praetermitteret alio loco de aliis auibus dicere, inter quas <lb/>
+            nonnullae usque adeo ab aquis remotae sunt, ut ne bibant <lb/>
+            quidem. nisi forte istum aerem terris contiguum, quoniam se <lb/>
+            humidum etiam serenissimis noctibus rore testatur, aquam <lb n="10"/>
+            uocauit, quia et in nubem cogitur. nubes autem aqua est, <lb/>
+            quod omnes sentiunt, quibus contigit in montibus inter nubila <lb/>
+            uel etiam in campis inter nebulas ambulare. in hoc quippe <lb/>
+            aere uolare aues dicuntur. nam in illo sublimiore atque puriore, <lb/>
+            qui uere aer ab omnibus appellatus est, nequeunt; non enim <lb n="15"/>
+            earum pondus tenuitate sua sustinet. in illo autem neque <lb/>
+            nubes concrescere asseruntur nec aliquid procellosum existere: . <lb/>
+            quippe ubi uentus adeo nullus est, ut in uertice Olympi <lb/>
+            montis, qui spatia huius humidi aeris excedere dicitur, quaedam <lb/>
+            litterae in puluere solere fieri perhibeantur et post annum <lb n="20"/>
+            integrae atque inlaesae inueniri ab his, qui sollemniter memoratum <lb/>
+            montem ascendebant. 
+</p>
+          <p>Quapropter non absurde existimari potest firmamentum caeli <lb/>
+            in scripturis diuinis usque ad haec spatia uocari, ut et ille <lb/>
+            aer tranquillissimus et sincerissimus ad firmamentum pertinere<lb n="25"/>
+            credatur. hoc enim nomine firmamenti ipsa tranquillitas et <lb/>
+            magna pars rerum significari potest. unde etiam illud dici <lb/>
+            pluribus locis in Psalmis existimo: et ueritas tua usque
+
+<app> 28 Ps. 35, 6; 56, 11 </app>
+
+<app> 1 aliis <hi>L</hi> nituntur] nituntur <hi>V</hi> 3 <hi>nouulla V</hi> 4 hic <hi>om. MLb</hi> <lb/>
+            5 <hi>alt</hi>. sunt <hi>om. MLbd</hi> 6 huius modi] huius <hi>ML</hi> si om. <hi>V</hi> hiis <hi>ML</hi> <lb/>
+            tantam-aliis om. <hi>M</hi> 7 pretermitteront <hi>V</hi> 8 ab <hi>om. V</hi> 12 contingit <lb/>
+            <hi>d</hi> motibus <hi>ML</hi> 14 auolare <hi>V</hi> 16 eorum <hi>V</hi> 17 nec] neque <hi>MLbd</hi> <lb/>
+            18 uerticem <hi>V</hi> olimpi <hi>VL</hi> 21 hiis <hi>ML</hi> iis <hi>d</hi> sollempniter <hi>ML</hi> <lb/>
+            24 diuinis scripturis <hi>MLbd</hi> 28 locis <hi>om. Mb</hi> </app> <lb/>
+             
+<pb n="491"/>
+            ad nubes. nihil enim est firmius et serenius ueritate. nubes <lb/>
+            autem sub ista sincerissimi aeris regione concrescunt. quod <lb/>
+            quamquam figurate dictum accipiatur, ex his tamen rebus <lb/>
+            sumtum est, quae habent ad haec quandam similitudinem, <lb/>
+            ut corporea creatura constantior et purior, quae a summitate <lb n="5"/>
+            caeli usque ad nubes est, ueritatis figuram recte habere <lb/>
+            uideatur, id est usque ad aerem caliginosum et procellosum <lb/>
+            et humidum. ergo uolatilia uolantia super terram sub firmamento <lb/>
+            caeli conuenienter sunt aquis adtributa, quia non <sic>inconuenienter</sic> <lb/>
+            aer iste aqua nominatur. hinc etiam intellegi <lb n="10"/>
+            datur de aere nihil esse dictum, quomodo uel quando sit <lb/>
+            factus, quia iste aer nomine aquarum tenetur, ille autem <lb/>
+            nomine firmamenti; atque ita nullum elementum praetermissum <lb/>
+            est. 
+</p>
+          <p>Sed fortasse quis dicat: si eo quod dictum est: congregetur <lb n="15"/>
+            aqua, intellegimus aquam esse factam ex illa cono <lb/>
+            fusione materiae, hanc autem congregationem mare appellauit <lb/>
+            deus, quomodo ibi possumus hunc aerem intellegere factum, <lb/>
+            quod mare non dicitur, etiam si aqua dici potest? quamobrem <lb/>
+            mihi uidetur in eo, quod dictum est: adpareat arida, non <lb n="20"/>
+            solum speciem terrae sed etiam huius aeris crassioris esse <lb/>
+            insinuatam. per hunc enim terra inluminatur, ut perspicua <lb/>
+            nobis sit. in uno ergo uerbo, quo dictum est: adpareat, <lb/>
+            intimata sunt omnia, sine quibus adparere non posset; id est <lb/>
+            et species eius et nudatio ab aquis et aeris superfusio, per <lb n="25"/>
+            quem in ea lumen a superiore mundi parte transmittitur. an <lb/>
+            potius in eo, quod scriptum est: congregetur aqua, species <lb/>
+            huius aeris commendatur, quia iste aer cum condensatur, <lb/>
+            hanc aquam uidetur efficere? coactionem itaque in densitatem
+
+<app> 3 accipitur <hi>b</hi> hiis <hi>ML</hi> 4 sumtum] scriptum <hi>MLbd</hi> 5 constancio <lb/>
+            <hi>L</hi> a <hi>om. VM</hi> 7 est JJę <hi>(del. m. 1 et 2) M</hi> prQcęşą: <lb/>
+            <hi>procellosum L 9 tributa V incouenienter L</hi> 11 <hi>dictum esae MLbd</hi> <lb/>
+            12 factum <hi>Y</hi> aquarum-nomine <hi>om. M</hi> 18 deus <hi>om. ML</hi> 22 e <lb/>
+            terra <hi>M</hi> 28 quod <hi>V</hi> 24 potest b 25 aquis] aliquis <hi>M</hi> 26 lumen] <lb/>
+            nomen b 28 cum iste aer <hi>bd</hi> densetur <hi>V</hi> densatur <hi>ML</hi> 29 quoactionem <lb/>
+            <hi>V</hi> in densitatemJ intensitatem <hi>V</hi> </app> <lb/>
+             
+<pb n="492"/>
+            congregationem aquae fortasse appellauit, ut mare fieret; <sic>ul</sic> <lb/>
+            id, quod non congregatum, id est non spissatum superfertur <lb/>
+            aqua sit, quae aues uolantes possit sustinere, utrique nomini <lb/>
+            adcommodata, ut uocari possit et aqua subtilior et aer <lb/>
+            crassior. sed quando iste factus <choice n="0.24"><note n="3942">ait</note><corr n="12431">sit</corr></choice> cur non dicitur? an forte<lb n="5"/>
+            uerum est, quod quidam uolunt, humidis exhalationibus maris <lb/>
+            et terrae has auras effici ita crassiores aere illo superiore ac <lb/>
+            liquido, ut gestandis uolatilibus auium sint adcommodatae, <lb/>
+            ita porro teneriores his aquis, quibus corpus abluitur, ut <lb/>
+            earum comparatione siccae atque aeriae sentiantur? et quia<lb n="10"/>
+            de terra et mari iam dictum erat, quid opus erat dicere de <lb/>
+            exhalationibus eorum, id est aquis auium, cum illum aerem <lb/>
+            purissimum et tranquillissimum firmamento adtributum intellexeris? <lb/>
+            </p>
+          <p>Nam neque de fontibus et fluminibus dictum est quomodo<lb n="15"/>
+            facta sint. qui enim scrupulosius ista quaerunt et disserunt, <lb/>
+            aethereo superlapsu de mari dulcem inuisibiliter dicunt extrahi <lb/>
+            uaporem his uidelicet ascensionibus, quas nullo modo sentire <lb/>
+            possumus: inde conglobari nubes, atque ita terram imbribus <lb/>
+            madefactam antris occultioribus instillare atque insudare <lb n="20"/>
+            tantum, quantum coactum et per diuersos tramites lapsum <lb/>
+            erumpat in fontes siue paruos <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> fluminibus gignendis <lb/>
+            idoneos. cuius rei documenta esse uolunt, quod marinarum <lb/>
+            aquarum decoctarum uapor sinuato cooperculo exceptus <lb/>
+            humorem dulcem gustantibus exhibet. et omnibus fere manifestum <lb n="25"/>
+            est diminutos fontes inopiam sentire pluuiarum. adtestatur <lb/>
+            et diuina historia, cum <choice><note>Heliaa</note><corr>Helias</corr></choice> tempore ariditatis
+
+<app>27 cf. III Reg. 18, 48. 44. </app>
+
+<app> 2 <hi>priue</hi> non <hi>om. V</hi> 5 <hi>post</hi> quando <hi>addunt</hi> quaeritur <hi>bd</hi> cur sit <lb/>
+            (eic <hi>b)</hi> iste factus <hi>MLbd</hi> dicit <hi>V</hi> 6 cxalationibus <hi>M</hi> eialacionibus <hi>L</hi> <lb/>
+            7 aures <hi>ML</hi> efficit <hi>V</hi> ita <hi>om. L</hi> 8 gustandis <hi>V</hi> uolatibus <hi>bd</hi> <lb/>
+            9 hiis <hi>ML</hi> iis <hi>d</hi> 10 sentiatur <hi>V</hi> 12 exalationibus <hi>V</hi> eiatationibus <hi>M</hi> <lb/>
+            exalacionibus <hi>L</hi> earum <hi>Lbd</hi> est <hi>om. ML</hi> 17 etherio <hi>V post</hi> <lb/>
+            dulcem <hi>addit</hi> aquam <hi>V</hi> dicunt] ductum <hi>V</hi> 18 in uaporem <hi>b</hi> hiis <hi>M</hi> <lb/>
+            19 inde] in die <hi>MLb</hi> 22 gignendis fluminibus <hi>MLbd</hi> 28 marinarum] <lb/>
+            marmarum <hi>V</hi> 26 deminutos <hi>V</hi> 27 helyas <hi>V</hi> Elias <hi>d</hi> </app> <lb/>
+             
+<pb n="493"/>
+            imbrem posceret; iussit enim, cum ipse oraret, ut Helisaeus <lb/>
+            ad mare adtenderet. unde cum uideret oriri perparuam nubeculam <lb/>
+            pluuiam regi sollicito adesse nuntiauit, qua mox etiam <lb/>
+            fugiens inrigatus est. et Dauid dicit: domine, qui aduocas <lb/>
+            aquam maris et effundis eam super faciem terrae. <lb n="5"/>
+            quapropter mari nominato de aliis aquis superfluo diceret, <lb/>
+            siue istis roriferis quae tenuitate auras uolantibus auibus <lb/>
+            praebent, siue fontium ac fluminum, si et illae exhalationibus <lb/>
+            fiunt et istae reciprocis imbribus, quos terra sorbet, emanant. 
+</p>
+          
+</div1>
+
+<div1 n="15" subtype="chapter"><head>cap. 15</head>
+
+<p>Eiciant aquae reptilia animarum uiuarum. cur <lb n="10"/>
+            additum est: uiuarum? an possunt esse animae, nisi uiuant? <lb/>
+            an istam manifestiorem uitam commendare uoluit, quae inest <lb/>
+            animalibus sentientibus, quoniam stirpes ea carent? et uolatilia <lb/>
+            uolantia super terram sub firmamento caeli. si <lb/>
+            uolatilia non uolant in illo purissimo aere, ubi nulla nubila <lb n="15"/>
+            oriuntur, hinc manifestum est ad firmamentum eum pertinere, <lb/>
+            quia sub firmamento caeli dictum est uolatilia uolare super <lb/>
+            terram. et sic est factum. ordo ille seruatur, ideoque subiungitur <lb/>
+            sicut in ceteris excepta luce, quae prior facta est. 
+</p>
+          <p>Et fecit deus cetos magnos et omnem animam animalium <lb n="20"/>
+            repentium, quae eiecerunt aquae secundum <lb/>
+            genus eorum, et omne uolatile pennatum secundum <lb/>
+            suum genus. meminerimus sane secundum suum genus de his <lb/>
+            creaturis dici, quae seminali propagine reparantur; nam hoc <lb/>
+            de herbis iam et arboribus dictum est. et omne uolatile <lb n="25"/>
+            pennatum. cur additum est: pennatum? an potest esse
+
+<app> 4 Amos 5, 8; 9, 6 10 Gen. 1, 20 20 Gen. 1, 21 </app>
+
+<app> 1 Helisaeus] helyseus <hi>bd VM</hi> elyseus <hi>L</hi> puer suus <hi>bd</hi> 8 regi] <lb/>
+            rei <hi>b</hi> nutiauit <hi>M</hi> numciauit <hi>L</hi> 4 quid <hi>b</hi> 5 effundit <hi>ML</hi> 6 mar- <lb/>
+            <hi>om. L</hi> superflue <hi>d</hi> 7 isti <hi>b</hi> 8 illa <hi>V</hi> exaltationibus <hi>Mb</hi> enltacionibus <lb/>
+            <hi>L</hi> 9 emanant] et manat <hi>V</hi> 10 car-uiuarum <hi>om. M</hi> <lb/>
+            11 nis <hi>L</hi> nisi uiuant] insinuant <hi>V</hi> 13 stirpes) stipitel <hi>MLb</hi> 15 ibi <hi>V</hi> <lb/>
+            16 mafestum <hi>L</hi> 18 factum est <hi>MLbd</hi> 22 et-genus <hi>om. V</hi> ualatile <lb/>
+            <hi>L</hi> 23 genus luum <hi>Lbd</hi> genus suum <hi>M</hi> hiis <hi>ML</hi> iia <hi>d</hi> <lb/>
+            25 de herbis iam hoc <hi>Lbd</hi> arboribus] de arboribus <hi>bd</hi> est </app> <lb/>
+            <hi>om. V</hi> <lb/>
+             
+<pb n="494"/>
+            uolatile quod pennas non habeat? sed si potest, numquid hoc <lb/>
+            genus non fecit deus, quando non inuenitur ubi sit factum? <lb/>
+            an omnino potest quidquam uolare sine pennis? nam et <lb/>
+            uespertiliones et locustae et muscae et si quid eius modi est <lb/>
+            quod plumis careat, pennis non caret. sed pennatum additum<lb n="5"/>
+            est, ne solas aues intellegeremus, quoniam pisces <lb/>
+            pennati sunt et super terram uolant infra aquas; ideo non <lb/>
+            dictum est "aues", sed et uolatile pennatum uolantia <lb/>
+            generaliter. et uidit deus quia bonum est. et hic sicut in <lb/>
+            ceteris locis intellegendum. <lb n="10"/>
+            
+</p>
+          <p>Et benedixit ea deus dicens: crescite et multiplicamini <lb/>
+            et inplete aquas maris; et uolatilia multiplicentur <lb/>
+            super terram. benedictionem ad fecunditatem ualere <lb/>
+            uoluit, quae in successione prolis adparet, ut ea benedictione, <lb/>
+            qua infirma et mortalia creata sunt, genus suum nascendo<lb n="15"/>
+            custodiant. sed cum etiam stirpes nascendo teneant similitudinem <lb/>
+            praetereuntium, cur eas non benedixit? an quia sensu <lb/>
+            carent, qui rationi uicinus est? non enim uacat fortasse, quod <lb/>
+            secunda persona utitur deus in benedicendo, ut haec animantia <lb/>
+            compellet quodammodo tamquam audientia dicendo:<lb n="20"/>
+            crescite et multiplicamini et inplete aquas maris. nec <lb/>
+            tamen in eadem persona usque ad finem benedictionis inuenitur; <lb/>
+            sequitur enim: et uolatilia multiplicentur super terram; <lb/>
+            non dixit: multiplicamini super terram. nisi forte hoc ipso <lb/>
+            significatur sensum animantium non adeo uicinum esse rationi, <lb n="25"/>
+            ut perfecte possit accipere compellantem, sicut quae intellegunt <lb/>
+            atque uti ratione possunt.
+
+<app> 11 Gen. 1, 22 </app>
+
+<app> 2 non <hi>ante</hi> fecit <hi>om. MLbd</hi> quando] quandoquidem <hi>MLbd</hi> ubi] <lb/>
+            ut <hi>ML</hi> 4 huius modi <hi>MLbd</hi> 7 supra <hi>ML</hi> cum <hi>uoce</hi> infra <hi>incipit <lb/>
+            codex T</hi> 8 uolantia (uolentia <hi>L)</hi> generaliter et uolatile pennatum <hi>TMLbd</hi> <lb/>
+            11 eas <hi>VT</hi> deus <hi>om. d</hi> 12 replete <hi>bd</hi> 13 fecumditatem <hi>L</hi> 14 ea] <lb/>
+            a <hi>V</hi> 15 qua] que <hi>Y</hi> quia <hi>d</hi> infima <hi>VTML</hi> 16 sed] et <hi>M</hi> <lb/>
+            18 uitinus <hi>V</hi> uocat <hi>Ml</hi> 20 compellit <hi>Y</hi> cõpellat <hi>b</hi> tamquam] <lb/>
+            tam <hi>VT</hi> 22 uenitur <hi>d</hi> 24 non-terram <hi>om. MLb</hi> 26 perfecte] <lb/>
+            forte <hi>MLb</hi> posset <hi>b</hi> compellentem <hi>L</hi> compel tem <hi>M</hi> 27 atque om. <hi>L</hi> </app>
+</p>
+<pb n="495"/>
+            
+          <p>Et factum est sic. hic plane quiuis tardus iam euigilare <lb/>
+            debet, ut intellegat quales isti dies enumerentur. cum enim <lb/>
+            certos seminum numeros deus animantibus dederit seruantes <lb/>
+            miram certa ordinatione constantiam, ut certo dierum numero <lb/>
+            pro suo quaeque genere et concepta utero gerant et edita oua <lb n="5"/>
+            calefaciant — cuius naturae institutio dei sapientia conseruatur, <lb/>
+            quae tendit a fine usque ad finem fortiter et disponit <lb/>
+            omnia suauiter —: quomodo uno die potuerunt et concipere <lb/>
+            et utero grauescere et parta uaporare atque nutrire et <lb/>
+            inplere aquas maris et multiplicari super terram? ita enim <lb n="10"/>
+            subiungitur: et sic est factum, ante uesperae aduentum. <lb/>
+            sed nimirum, cum dicit: facta est uespera, materiam informem <lb/>
+            commemorat; cum autem dicit: factum est mane, <lb/>
+            speciem, quae ipsa operatione inpressa est materiae . ita enim <lb/>
+            post operationem transactum diem concludit. non tamen dixit <lb n="15"/>
+            deus: fiat. uespera uel: fiat mane; commemoratio est enim <lb/>
+            rerum factarum breuissima significatis per uesperam et mane <lb/>
+            materia et specie, quae utique deum fecisse iam dictum erat, <lb/>
+            cum ipsum defectum tamen, id est cum de specie ad materiam <lb/>
+            et ad nihilum tenditur, si hoc noctis nomine recte insinuatum <lb n="20"/>
+            putamus, non dixerit factum sed tantum ordinatum a deo, <lb/>
+            cum ait superius: diuisit deus inter lucem et tenebras: <lb/>
+            ut uesperae uocabulo significetur informis materia, quae <lb/>
+            quamuis ex nihilo facta est, est tamen et habet capacitatem <lb/>
+            specierum atque formarum. accipi etiam potest tenebrarum <lb n="25"/>
+            nomine ipsum omnino nihilum, quod non fecit deus et unde <lb/>
+            fecit quaecumque facere pro sua ineffabili bonitate dignatus <lb/>
+            est, cum sit omnipotens, qui etiam de nihilo tanta fecit.
+
+<app> 7 Sap. 8, 1 22 Gen. 1, 4 </app>
+
+<app> 1 plane 8. <hi>I. m. IV</hi> 3 numero <hi>VT</hi> 4 certo ordine <hi>bd</hi> 5 quaeque] <lb/>
+            queque <hi>V</hi> quoque <hi>MLbd</hi> concepto <hi>L</hi> 7 a fine <hi>om. V</hi> 8 et <lb/>
+            <hi>om. TMLb</hi> concepere <hi>L</hi> 9 grauesceret <hi>b</hi> parta] parca <hi>ML</hi> <lb/>
+            uaporare] uapore <hi>ML</hi> fouere <hi>b</hi> 11 est <hi>om. M</hi> factum est <hi>TLbd</hi> <lb/>
+            uespere <hi>T</hi> 12 sed <hi>om. M</hi> 13 ma/:mane <hi>L</hi> 14 ita] mane <hi>bd</hi> 16 uel] <lb/>
+            et <hi>M om. Lb</hi> 17 significatarum <hi>b</hi> 20 intenditur <hi>ML</hi> 21 dixit <hi>MLb</hi> <lb/>
+            tantum] tamen <hi>Vbd</hi> 24 est <hi>ante</hi> tamen <hi>om. V</hi> 25 accipere <hi>VT</hi> <lb/>
+            etiam <hi>om. VT</hi> 27 fecit <hi>in ras. m. 1 V</hi> ineffabilia <hi>M</hi> </app>
+</p>
+<pb n="496"/>
+            
+          <p>Et facta est uespera et factum est mane dies quintus. <lb/>
+            hic postquam dixit: et sic est factum, non subdidit <lb/>
+            sicut solet executionem, quasi iterum facta sint; iam enim <lb/>
+            superius dictum erat. nec ea benedictione, quae ad gignendam <lb/>
+            prolem pertinet, aliqua noua natura fabricabatur; sed quae<lb n="5"/>
+            facta erant per successionem conseruabantur. et ideo nec illud <lb/>
+            dictum est: et uidit deus quia bonum est; iam enim res ipsa <lb/>
+            placuerat, quae tantum seruanda erat in fetibus. nihil hic <lb/>
+            itaque repetitum est, nisi quod ait: et factum est sic; <lb/>
+            statimque subiectum de uespera et mane: quibus nominatis<lb n="10"/>
+            transacta opera de informi materia et specie quae inponitur <lb/>
+            significari dictum est. nisi forte aliquid melius atque sublimius <lb/>
+            occurrerit quaerentibus. 
+</p>
+          <p>Et dixit deus: eiciat terra animam uiuam secundum <lb/>
+            suum genus: quadrupedum et serpentium et bestiarum<lb n="15"/>
+            terrae secundum genus et pecora secundum genus. <lb/>
+            et factum est sic. cum dictum fuerit "animam", cur additum <lb/>
+            sit <choice><note>Buiuam</note><corr>uiuam</corr></choice>* et quid sit" secundum genus" et de solita <lb/>
+            conclusione qua dicitur: et factum est sic, sicut superius <lb/>
+            tractatum est, consideranda et accipienda sunt. cum autem in <lb n="20"/>
+            latina lingua nomine bestiarum omne inrationale animal generaliter <lb/>
+            significetur, hic tamen distinguendae sunt species, ut <lb/>
+            quadrupedes accipiamus <sic>omniaiumenta</sic>, serpentes omnia repentia, <lb/>
+            bestias uel feras omnia quadrupedia indomita, pecora uero <lb/>
+            quadrupedia, quae non operando adiuuant, sed dant aliquem <lb n="25"/>
+            fructum pascentibus. 
+</p>
+          
+</div1>
+
+<div1 n="16" subtype="chapter"><head>cap. 16</head>
+
+<p>Et fecit deus bestias terrae secundum genus <lb/>
+            et pecora secundum genus et omnia serpentia terrae <lb/>
+            secundum genus. haec iteratio quod dictum est: et fecit <lb/>
+            deus, cum iam dictum esset: et factum est sic, secundum
+
+<app>1 Gen. 1, 23 14 Gen. 1. 24 27 Gen. 1, 25 </app>
+
+<app> 2 dixerat <hi>b</hi> factum est <hi>MLbd</hi> 3 sicuti <hi>d</hi> 4 superius om. <hi>MJUb</hi> <lb/>
+            5 nona] nõa <hi>V</hi> 6 Buccessione <hi>L</hi> 10 statimque] statuique <hi>V</hi> 11 de <lb/>
+            <hi>om. TMLb</hi> 18 occurrit <hi>Vd</hi> 15 serpentum <hi>b</hi> 17 et—genus <hi>otn. TMLb</hi> <lb/>
+            21 rationale <hi>VT</hi> 28 pecora] bestias <hi>L</hi> </app> <lb n="30"/>
+             
+<pb n="497"/>
+            superiorem regulam consideretur. sane hic pecorum nomine <lb/>
+            omnia puto significata esse quadrupedia, quae sub cura hominum <lb/>
+            uiuunt. et uidit deus quia bonum est: solite accipiendum. <lb/>
+            <lb/>
+            Et dixit deus: faciamus hominem ad imaginem et <lb n="5"/>
+            similitudinem nostram. et hic animaduertenda quaedam <lb/>
+            et coniunctio et discretio animantium. nam eodem die factum <lb/>
+            hominem dicit, quo bestias; sunt enim simul omnia terrena <lb/>
+            animantia. et tamen propter excellentiam rationis, secundum <lb/>
+            quam ad imaginem dei et similitudinem efficitur homo, separatim <lb n="10"/>
+            de illo dicitur, postquam de ceteris terrenis animantibus <lb/>
+            solite conclusum est dicendo: et uidit deus quia bonum est. 
+</p>
+          <p>Considerandum etiam illud, quod in ceteris dixit deus: <lb/>
+            fiat. et factum est; hic autem dixit deus: faciamus, ut <lb/>
+            hoc quoque modo uoluerit spiritus sanctus humanae naturae <lb n="15"/>
+            insinuare praestantiam. cui autem nunc dictum est: faciamus, <lb/>
+            nisi cui dicebatur in ceteris: fiat? omnia enim per ipsum <lb/>
+            facta sunt et sine ipso factum est nihil. sed quid <lb/>
+            putamus aliter dictum esse: fiat, nisi ut ipse faceret iussu ' <lb/>
+            patris, et aliter: faciamus, nisi ut ambo pariter facerent? <lb n="20"/>
+            an omnia quae facit pater, per filium facit et ideo nunc <lb/>
+            "<sic>faeiamus</sic>" dictum est, ut ipsi homini, propter quem scriptura <lb/>
+            ipsa facta est, ita in se ipso demonstraretur ea quae filius <lb/>
+            dicente patre facit etiam ipsum patrem facere, ut quod in <lb/>
+            ceteris dicebatur: fiat. et factum est, hic exponatur non <lb n="25"/>
+            separatim fuisse dictionem et separatim effectionem sed utrumque <lb/>
+            simul, cum hic dicitur: faciamus? 
+</p>
+          <p>Et dixit deus: faciamus hominem ad imaginem et <lb/>
+            similitudinem nostram. omnis imago est similis ei, cuius
+
+<app> 5 Gen. 1, 26 17 Ioh. 1, 8. </app>
+
+<app> 1 superiorem] pijriorS (i priorS <hi>in mg. m. 2) T</hi> priorem <hi>ML</hi> 3 solitej <lb/>
+            solite accipi <hi>V</hi> 7 coniuntio <hi>V</hi> 8 dicit om. <hi>MLb</hi> 9 excellantiam <hi>L</hi> <lb/>
+            11 <hi>ante</hi> postquam <hi>inserunt</hi> cui <hi>VT</hi> 12 solide <hi>ML</hi> 13 dixit] non <lb/>
+            dixit <hi>bd</hi> 14 fiat-dens <hi>om. MLbd</hi> 16 insinnand' L 17 nisi <hi>om. V</hi> <lb/>
+            24 facere] faceret <hi>V</hi> quod <hi>om. V</hi> 28 faciamus hominem <hi>om. V</hi> <lb/>
+            29 similis est <hi>TMLbd</hi>. </app>
+
+<app> XXVIII. Aug. leet. III pari 1. </app>
+
+<app> 32 </app> <lb/>
+             
+<pb n="498"/>
+            imago est; nec tamen omne, quod simile est alicui, etiam <lb/>
+            imago est eius. sicut in speculo et pictura quia imagines <lb/>
+            sunt, etiam similes sunt, tamen, si alter ex altero natus non <lb/>
+            est, nullus eorum imago alterius dici potest. imago enim tunc <lb/>
+            est, cum de aliquo exprimitur. cur ergo, cum dictum esset:<lb n="5"/>
+            ad imaginem, additum est: et similitudinem, quasi possit <lb/>
+            esse imago dissimilis? sufficeret ergo ad imaginem dicere. <lb/>
+            an aliud est simile, aliud similitudo, sicut aliud est castus, <lb/>
+            aliud castitas, aliud fortis, aliud fortitudo, ut, quemadmodum <lb/>
+            quaecumque sunt fortia fortitudine sunt fortia et quaecumque<lb n="10"/>
+            sunt casta castitate sunt casta, ita et quaecumque similia <lb/>
+            sunt similitudine sint similia? non autem imago nostra satis <lb/>
+            proprie dicitur similitudo nostra esse, cum tamen proprie <lb/>
+            dicatur similis nobis esse, ut ibi sit ea similitudo, qua similia <lb/>
+            sunt quaecumque similia, ubi est et castitas, qua casta sunt<lb n="15"/>
+            quaecumque sunt casta. castitas autem nullius participatione <lb/>
+            casta est, sed eius participatione sunt casta quaecumque casta <lb/>
+            sunt. quae utique in deo est, ubi est etiam illa sapientia, <lb/>
+            quae non participando sapiens est, sed cuius participatione <lb/>
+            sapiens est anima quaecumque sapiens est. quapropter etiam <lb n="20"/>
+            similitudo dei, per quam facta sunt omnia, proprie dicitur <lb/>
+            similitudo, quia non participatione alicuius similitudinis similis <lb/>
+            est, sed ipsa est prima similitudo, cuius participatione similia <lb/>
+            sunt, quaecumque per illam fecit deus. 
+</p>
+          <p>Expositio ergo fortasse est, cum additum esset: ad similitudinem, <lb n="25"/>
+            cum iam dictum esset: ad imaginem, ut ostenderetur <lb/>
+            eam, quae imago dicta est, non ita esse similem deo, <lb/>
+            quasi alicuius similitudinis participantem, sed hanc ipsam
+
+<app> 2 eius] <hi>ius V etj uel Lb 3 similes sint VT 4 alterius om. L <lb/>
+            6 et-uers. 8</hi> simile <hi>om. L</hi> 8 <hi>post</hi> castus <hi>add</hi>. et <hi>T</hi> 9 est castitas <lb/>
+            <hi>L</hi> 11 <hi>prius</hi> sunt <hi>om. TMLb</hi> ita et <hi>scripsi:</hi> ita <hi>TMLbd</hi> et <hi>V</hi> <lb/>
+            sunt similia <hi>Lbd</hi> 12 sint] sunt <hi>TML</hi> 19 sapiens] sapientia <hi>V</hi> sed <lb/>
+            cuius <hi>om. V;</hi> sed-anima <hi>om. L</hi> 21 per] pter <hi>V</hi> quem <hi>M 23prius</hi> <lb/>
+            est <hi>om. L altemm</hi> est <hi>om. ML</hi> 2o est <hi>om. L</hi> cum] quod <hi>d</hi> <lb/>
+            est <hi>Ld</hi> ad-dictum <hi>om. M;</hi> ad-esset <hi>om. Lb</hi> similitudinem-ad <lb/>
+            <hi>om. VT</hi> 27 similem esse <hi>MLbd</hi> </app> <lb/>
+             
+<pb n="499"/>
+            esse similitudinem, cuius participarent omnia, quae dicuntur <lb/>
+            esse similia. sicut ibi est et castitas, cuius participatione <lb/>
+            castae sunt animae, et sapientia, cuius participatione sapientes <lb/>
+            sunt animae, et pulchritudo, cuius participatione pulchra sunt <lb/>
+            quaecumque sunt pulchra. si enim tantum similitudinem <lb n="5"/>
+            diceret, non significaret ab ipso esse genitam; si autem <lb/>
+            tantummodo imaginem diceret, significaret quidem ab ipso <lb/>
+            genitam, sed non significaret ita similem, ut non tantum similis <lb/>
+            sed ipsa similitudo esset. ut autem nihil castius ipsa castitate <lb/>
+            et nihil sapientius ipsa sapientia et nihil pulchrius ipsa pulchritudine, <lb n="10"/>
+            ita nihil similius ipsa similitudine dici aut cogitari <lb/>
+            aut esse omnino potest. unde intellegitur ita patri esse similem <lb/>
+            similitudinem suam, ut eius naturam plenissime perfectissimeque <lb/>
+            inpleat. 
+</p>
+          <p>Quantum autem ad speciem rebus inponendam ualeat dei <lb n="15"/>
+            similitudo, per quam facta sunt omnia, quamquam humanas <lb/>
+            cogitationes altissime superet, licet tamen utcumque arbitrari, <lb/>
+            si consideremus omnem naturam, <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> quae sentientibus <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> <lb/>
+            quae ratiocinantibus occurrerit, similibus inter se partibus <lb/>
+            <choice><note>sernare</note><corr>seruare</corr></choice> uniuersitatis effigiem. nam ex sapientia dei sapientes uocantur <lb n="20"/>
+            animae rationales et ulterius hoc nomen non porrigitur; <lb/>
+            nam neque ulla pecora et multo minus arbores aut ignem <lb/>
+            uel aerem uel aquam uel terram sapientem possumus dicere, <lb/>
+            quamquam per ipsam dei sapientiam sint etiam omnia haec <lb/>
+            in quantum sunt. at uero similes inter se et lapides dicimus <lb n="25"/>
+            et animalia et homines et angelos. iam uero in singulis rebus <lb/>
+            et terram, eo quod similes inter se habeat partes suas, fieri, <lb/>
+            ut terra sit, et aquam qualibet quaque parte similem esse <lb/>
+            ceteris partibus nec aliter aquam esse potuisse, et quantumlibet <lb/>
+            aeris, si cetero esset dissimile, nullo pacto aerem esse
+
+<app> 1 cui <hi>V</hi> 2 ibi] ipsa <hi>Vd</hi> 5 quaec. pul. sunt <hi>TJILbel</hi> 7 ab ipso <lb/>
+            quidem <hi>MLbd</hi> 9 castita <hi>L</hi> 10 et <hi>init. om. L</hi> 17 utrumque <hi>MLb</hi> <lb/>
+            19 occurrit <hi>Vd</hi> 20 uniuersitatis] unitatis <hi>MLbd</hi> 21 porritur <hi>ML</hi> <lb/>
+            22 <hi>cum uoce</hi> et <hi>finit. cod. T</hi> 25 atj aut <hi>V</hi> et <hi>om. MLb</hi> 28 ut] <lb/>
+            in <hi>V</hi> aquam] eaquam <hi>V</hi> libet <hi>V</hi> quaque] que <hi>V</hi> quoque <hi>d</hi> <lb/>
+            partem <hi>V</hi> </app>
+
+<app> 32* </app> <lb n="30"/>
+             
+<pb n="500"/>
+            potuisse, et ignis lucisue particulam, eo quod non sit <choice n="0.23"><note n="30">dissimilia</note><corr n="99">dissimilis</corr></choice> <lb/>
+            reliquis partibus, fieri, ut sit quod est: ita de unoquoque <lb/>
+            lapidum uel arborum uel corpore cuiuslibet animantis discerni <lb/>
+            et intellegi potest, quod non solum cum aliis sui generis <lb/>
+            rebus, sed in se ipsis singulis non essent, nisi partes inter<lb n="5"/>
+            se similes haberent. et tanto est pulchrius corpus, quanto <lb/>
+            similioribus inter se suis partibus constat. iam porro animarum <lb/>
+            non solum aliarum cum aliis amicitia similibus moribus confit, <lb/>
+            sed etiam in unaquaque anima similes actiones atque uirtutes, <lb/>
+            sine quibus constantia esse non potest, beatam uitam indicant. <lb n="10"/>
+            similia uero haec omnia, non autem ipsam similitudinem <lb/>
+            possumus dicere. quapropter, si rebus inter se similibus uniuersitas <lb/>
+            constat, ut singulae sint quidquid sunt et omnes <lb/>
+            ipsam uniuersitatem conpleant, quam deus et condidit et gubernat, <lb/>
+            per similitudinem eius profecto, qui condidit omnia,<lb n="15"/>
+            supereminentem atque incommutabilem et incontaminabilem <lb/>
+            talia facta sunt, ut similibus inter se partibus pulchra sint, <lb/>
+            ad ipsam tamen similitudinem omnia non facta sint, sed sola <lb/>
+            substantia rationalis: quare omnia per ipsam, sed ad ipsam <lb/>
+            non omnia. <lb n="20"/>
+            
+</p>
+          <p>Rationalis itaque substantia et per ipsam facta est et ad <lb/>
+            ipsam; non enim est ulla natura interposita, quandoquidem <lb/>
+            mens humana — quod non sentit, nisi cum purissima et <lb/>
+            beatissima est — nulli cohaeret nisi ipsi ueritati, quae simili. <lb/>
+            tudo et imago patris et sapientia dicitur. recte igitur secundum<lb n="25"/>
+            hoc, quod interius et principale hominis est, id est <lb/>
+            secundum mentem accipitur: faciamus hominem ad imaginem <lb/>
+            et similitudinem nostram. ex illo enim, quod in <lb/>
+            homine principatum tenet, quod eum disiungit a beluis, totus
+
+<app> 1 lueilue] lucis sue <hi>VML</hi> lucis sug <hi>b</hi> 2 est] non est <hi>MLb</hi> 4 et] <lb/>
+            uel <hi>Lb</hi> 6 pulchrius est <hi>L</hi> 7 partibus suis <hi>MLbd</hi> 8 similibus] qua <lb/>
+            similibus <hi>V</hi> 13 singulae (in <hi>in ras. m. 1) Y</hi> 15 qui] qua <hi>MLb</hi> <lb/>
+            16 supereminenter <hi>b</hi> incommutabiliter <hi>b;</hi> incommutabilem et <hi>om. M</hi> <lb/>
+            et incontaminabilem <hi>om. V</hi> incontaminabiliter <hi>b</hi> 18 omnia non <hi>iri</hi> <lb/>
+            ras. <hi>m. 2 Y</hi> sunt <hi>Y</hi> 19 ad QŲ1JJÎł ipsam <hi>L</hi> 20 omnia] nisi anima <hi>bd<lb/>
+             sed</hi> Rationalis: Itaque <hi>sqq. cum</hi> anima <hi>coniungit b</hi> 28 cum] eum <hi>ML</hi> </app> <lb/>
+             
+<pb n="501"/>
+            est homo aestimandus. cetera in eo, quamquam in suo genere <lb/>
+            pulchra sint, tamen cum pecoribus communia sunt ac per hoc <lb/>
+            in homine parui pendenda. nisi forte quod ad intuendum caelum <lb/>
+            figura humani corporis erecta est, ualet etiam aliquid, <lb/>
+            ut corpus ipsum ad similitudinem dei factum credatur, ut, <lb n="5"/>
+            quemadmodum a patre illa similitudo non auertitur, ita corpus <lb/>
+            humanum a caelo non sit auersum, sicut aliorum corpora <lb/>
+            animalium auersa sunt, quia prona in aluum prosternuntur. <lb/>
+            sed tamen hoc non omni modo accipiendum est; nam corpus <lb/>
+            nostrum a caelo plurimum differt; in illa uero similitudine, <lb n="10"/>
+            quae filius est, non potest quidquam esse dissimile illi, cui <lb/>
+            similis est., quoniam similia quaecumque alia sunt inter se <lb/>
+            etiam dissimilia ex aliqua parte sunt: ipsa uero similitudo <lb/>
+            non est aliqua ex parte dissimilis. pater tantum pater est nec <lb/>
+            filius aliud est quam filius, quia et cum dicitur similitudo <lb n="15"/>
+            patris, quamquam ostendat nullam interuenire dissimilitudinem, <lb/>
+            non tamen solus est pater, si habet similitudinem. 
+</p>
+          <p>Et dixit deus: faciamus hominem ad imaginem et <lb/>
+            similitudinem nostram. satis quidem quae superius dicta <lb/>
+            sunt secundum id exponunt haec uerba scripturae, in quibus <lb n="20"/>
+            legimus dixisse deum: faciamus hominem ad imaginem <lb/>
+            et similitudinem nostram, ut similitudo dei, ad quam <lb/>
+            factus est homo, ipsum dei uerbum, hoc est unigenitus filius <lb/>
+            accipi possit: non utique ut ipse sit eadem imago et similitudo <lb/>
+            aequalis patri. est tamen et homo imago dei, sicut
+
+<app> 14 Retract. I 18 <hi>tom. XXXII p. 613 Migne:</hi> inueni quippe eum <lb/>
+            usque ad haec uerba dictatum: pater tantum pater est — uers. 17 <lb/>
+            similitudinem. post haec repetiui uerba scripturae rursus consideranda <lb/>
+            atque tractanda: "et dixit deus: faciamus hominem ad imaginem et <lb/>
+            similitudinem nostram". quod autem ibi sequitur addendum putaui, cum <lb/>
+            eum retractarem. nec sic tamen perfeci, sed hoc quoque addito inperfectum <lb/>
+            reliqui. 18 Gen. 1, 26 </app>
+
+<app> 1 quamquam] quantum <hi>L</hi> 8 pendenda sunt <hi>L</hi> 4 aliquid etiam <hi>MLbd</hi> <lb/>
+            6 illa similitudo <hi>om. V</hi> 9 hoc <hi>om. L</hi> omni modo] omnino <hi>MLb</hi> <lb/>
+            11 illi <hi>ex</hi> ille <hi>m. 1 M</hi> 14 tantum <hi>scripst sccutus Retractationes:</hi> tamen <lb/>
+            <hi>lib</hi>. 16 dissimilitndinem (dis <hi>s. I. m. 1) V</hi> 17 si habet] sed habet <hi>L</hi> <lb/>
+            sed <hi>M</hi> 24 potest <hi>V</hi> eundem <hi>V</hi> 25 est] et <hi>V</hi> </app> <lb n="25"/>
+             
+<pb n="502"/>
+            apertissime ostendit apostolus dicens: uir quidem non de-. <lb/>
+            bet uelare caput, cum sit imago et gloria dei. sed <lb/>
+            haec imago ad imaginem dei facta non est aequalis et coaeterna <lb/>
+            illi, cuius imago est; nec esset, etiamsi numquam omnino <lb/>
+            peccasset. ille autem sensus est potius -in his diuinis uerbis<lb n="5"/>
+            eligendus, ut ideo dictum intellegamus non singulariter sed <lb/>
+            pluraliter: faciamus hominem ad imaginem et similitudinem <lb/>
+            nostram, quia non ad solius patris aut solius filii <lb/>
+            uel solius spiritus sancti, sed ad ipsius trinitatis imaginem <lb/>
+            factus est homo. quae trinitas ita est trinitas, ut unus deus<lb n="10"/>
+            sit, ita est unus deus, ut trinitas sit. non enim ait filio loquens: <lb/>
+            faciamus hominem ad imaginem tuam, aut: ad imaginem meam, <lb/>
+            sed pluraliter ait: ad imaginem et similitudinem nostram: <lb/>
+            a qua pluralitate spiritum sanctum separare quis audeat? quae <lb/>
+            pluralitas quoniam non tres dii, sed unus est deus, ideo intellegendum<lb n="15"/>
+            est postea scripturam singulariter intulisse atque. <lb/>
+            dixisse: et fecit deus hominem ad imaginem dei, ut <lb/>
+            non sic accipiatur tamquam deus pater ad imaginem dei, hoc <lb/>
+            est filii sui: alioquin quomodo est uerum, quod dictum est: <lb/>
+            ad imaginem nostram, si ad filii solius imaginem factus<lb n="20"/>
+            est homo? ac per hoc quia uerum est, quod ait deus: ad <lb/>
+            imaginem nostram, ita dictum est: fecit deus hominem <lb/>
+            ad imaginem dei, tamquam diceretur ad imaginem suam, <lb/>
+            quod est ipsa trinitas. 
+</p>
+          <p>Nonnulli autem putant ideo non repetitam similitudinem<lb n="25"/>
+            neque dictum: et fecit deus hominem ad imaginem et similitudinem <lb/>
+            dei, quia tunc tantummodo ad imaginem factus est, <lb/>
+            similitudo autem illi postea seruabatur in resurrectione mortuorum: <lb/>
+            quasi possit esse imago aliqua, in qua similitudo non
+
+<app> 1 I Cor. 11, 7 </app>
+
+<app> 2 sed-dei <hi>om. M</hi> 5 hiis <hi>ML</hi> 6 eligendis <hi>b</hi> ut 595 <hi>L</hi> ut non <hi>b</hi> <lb/>
+            non <hi>post</hi> ideo <hi>posit. d</hi> 9 uel] aut <hi>Lbd</hi> 11 filius <hi>V</hi> 14 a <hi>om. b</hi> <lb/>
+            16 non singulariter <hi>ML</hi> 17 dei] et similitudinem suam <hi>V</hi> 19 uerum <lb/>
+            est <hi>MLbd</hi> 22 dictum dictum <hi>L</hi> 25 ideo ideo <hi>L</hi> 27 qui <hi>ML</hi> <lb/>
+            factus est <hi>om. ML</hi> 28 resurrectionem <hi>M</hi> resurretionem <hi>L</hi> </app> <lb/>
+             
+<pb n="503"/>
+            sit. si enim omnino similis non est, procul dubio nec imago <lb/>
+            est. uerum tamen ut non sola ratione id agere uideamur, et <lb/>
+            auctoritas apostoli Iacobi adhibenda est, qui cum de lingua <lb/>
+            hominis loqueretur ait: in ipsa benedicimus deum et in <lb/>
+            ipsa maledicimus homines, qui ad similitudinem dei <lb n="5"/>
+            facti sunt.
+
+<app> 4 Iac. 3, 9 </app>
+
+<app> 2 uerumptamen <hi>ML</hi> 3 Iacobi apostoli <hi>MLbd</hi> adhibenda est <lb/>
+            <hi>om. V</hi> 5 qui <hi>om. M</hi> 6 Explicit Aurelii Augustini liber cuius titulus <lb/>
+            est de Genesi ad litteram imperfectus <hi>fol. 239 V</hi> Eiplicit liber de <lb/>
+            genesi ad litteram imperfectus <hi>fol. 31 M</hi> </app>
+</p>
+<pb n="504"/>
+            
+<pb n="505"/>
+ 
+</div1>           
+        
+</body>
+</text>
+</TEI>

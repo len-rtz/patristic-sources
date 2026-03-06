@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>Gesta cum Emerito Donatistarum Episcopo [CSEL]</title>  
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date></author>
+              </titleStmt>
+               
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1910</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 53</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/CSEL53#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Michael Petschenig</name>; <addName xml:lang="de">Michael Petschenig</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>August.GeEmDonCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL53.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0040.stoa066c.opp-lat1"/>
+<div1><head>Gesta cum Emerito Donatistarum Episcopo</head>
+<div2 n="1" subtype="section"><head>§ 1</head>
+  
+         <p>Gloriosissimis imperatoribus Honorio duodecimo et Theodosio <lb/>
+            octauo consulibus duodecimo Kalendas Octobres Caesareae <lb/>
+            in ecclesia maiore cum Deuterius <choice><note>epiScopus</note><corr>episcopus</corr></choice> metropolitanus <lb/>
+            Caesariensis una cum Alypio Tagastensi, Augustino Hipponiensi, <lb/>
+            Possidio Calamensi, Rustico Cartenitano, Palladio Tigabitano <lb n="5"/>
+            et ceteris episcopis in exedram processissent praesentibus presbyteris <lb/>
+            et diaconibus et uniuerso clero ac frequentissima plebe, <lb/>
+            adesset etiam Emeritus partis Donati episcopus, Augustinus <lb/>
+            episcopus ecclesiae catholicae dixit: Fratres carissimi, qui ab <lb/>
+            initio catholici fuistis et quicumque ad catholicam ex Donatistarum <lb n="10"/>
+            errore uenistis et pacem huius sanctae ecclesiae catholicae <lb/>
+            cognouistis et ueraci corde tenuistis et qui adhuc forte <lb/>
+            de catholicae unitatis ueritate dubitatis, audite nos sollicitos <lb/>
+            pura dilectione pro uobis. quando uenit ad hanc ciuitatem <lb/>
+            die nudiustertiana frater noster Emeritus Donatistarum adhuc <lb n="15"/>
+            episcopus, perlatum est ad nos subito eum esse praesentem. <lb/>
+            et quoniam caritate quam deus uidet desiderabamus eius praesentiam, <lb/>
+            ad eum uidendum continuo conuolauimus. inuenimus <lb/>
+            eum stantem in platea; facta inuicem salutatione admonuimus, <lb/>
+            quod durum esset ac turpe eum in platea remanere, ut ad <lb n="20"/>
+            ecclesiam nobiscum ueniret. at ille nobis sine ulla recusatione <lb/>
+            consensit; ubi nos putauimus eum ita communionem catholicam <lb/>
+            non recusaturum, quemadmodum uel spontaneum obtulit <lb/>
+            aduentum uel ad ecclesiam uenire minime dubitauit. illo autem <lb/>
+            in peruersitate haeretica quamuis intra ecclesiam catholicam
+
+<app> 1 anno 418 </app>
+
+<app> <hi>De praescriptione codicis r cf. Praefatio</hi> De Gestis cum Emerito Donatistarum <lb/>
+            episcopo, Liber unus <hi>f</hi> 1 duodecimum <hi>fv</hi> teodosio <hi>r</hi> 2 octauumfv <lb/>
+            <hi>Octobres scirpsi -bris rfv</hi> Caesariae/ <hi>3 maiori rfo (at maiore F <lb/>
+            in Retract. capitulo)</hi> 4 Caesareensis <hi>v</hi> Alipio <hi>rf</hi> Thagastensi <hi>v</hi> <lb/>
+            ipponiensi <hi>T</hi> Hipponensi <hi>fv</hi> 6 presbiteris P 7 diaconis <hi>/</hi> 9 krtii l1 </app> <lb n="25"/>
+             
+<pb n="182"/>
+            diutius remorante allocutus sum dilectionem uestram, sicut <lb/>
+            meminisse dignamini. multa dixi, quae audistis et quae sine <lb/>
+            dubio quantum potestis etiam meministis, multa de pace, <lb/>
+            multa de caritate, multa de sanctae ecclesiae catholicae quam <lb/>
+            deus promisit et praestitit unitate. in quo meo sermone et<lb n="5"/>
+            uos alloquebar et illum exhortabar et, quantum in me poterant <lb/>
+            uiscera caritatis, omnes in periculo animae suae constitutos <lb/>
+            in illo meo sermone parturiebam et parere domino cupiebam. <lb/>
+            hoc enim et beatus Paulus apostolus dixit quibusdam: filioli <lb/>
+            mei, quos iterum parturio, donec Christus formetur<lb n="10"/>
+            in uobis. sed etiam post sermonem nostrum cum adhuc in <lb/>
+            illa sua perduraret pertinacia, nec sic desperandum putauimus; <lb/>
+            sed nec de quoquam, quamdiu uiuit in hoc corpore, homine <lb/>
+            desperandum putamus. neque enim sic dixi nudiustertius me <lb/>
+            non desperasse, ut hodie audeam desperare. <lb n="15"/>
+            
+</p>
+          
+</div2>
+
+<div2 n="2" subtype="section"><head>§ 2</head>
+
+<p>Sed ad hunc articulum causa perducta est, ut, quoniam <lb/>
+            uenit et quantum cognouimus sponte uenit, non sit huic ecclesiae <lb/>
+            infructuosus eius aduentus. aut enim, quod magis <lb/>
+            optamus et cupimus, etiam de illius salute uobiscum in catholica <lb/>
+            pace gaudebimus, aut si, quod abominamur et detestamur,<lb n="20"/>
+            ipse in illa pertinacia perdurauerit, debetis uos eius <lb/>
+            praesentia melius nosse, quid intersit inter catholicam pacem <lb/>
+            et haereticam dissensionem. partis enim Donati episcopus est, <lb/>
+            sed Donatistis huius ciuitatis ordinatus; quos Donatistas in <lb/>
+            nomine Christi in gremium catholicum iam magna ex parte <lb n="25"/>
+            suscepimus, ita ut paene omnes communioni catholicae sociatos <lb/>
+            esse gaudeamus. sed quoniam et qui iam communicarunt <lb/>
+            non quidem uniuersi, sed quidam uidentur de ipsa, ut paulo <lb/>
+            ante dixi, catholica ueritate dubitare, quidam uero non saltem <lb/>
+            dubitant, sed adhuc corde positi in parte Donati praesentiam <lb n="30"/>
+            nobis exhibent corporalem, siue uiri siue feminae carne intus, <lb/>
+            spiritu foris, bonum esse aestimamus episcopum ipsorum interrogare, <lb/>
+            ut, si habet aliquid quod pro ipsa parte adhuc
+
+<app> 9 Gal. 4, 19<lb/>
+             24 sed] et <hi>coni. v</hi> a Donatistis <hi>f</hi> 27 communicauerunt <hi>fv</hi> </app> <lb/>
+             
+<pb n="183"/>
+            dicat, post factam apud Carthaginem omnibus notam collationem <lb/>
+            si habet aliquid quod adhuc dicat, dicat sine praeiudicio <lb/>
+            partis Donati, quod tamen prodesse existimet nobis, in quorum <lb/>
+            ciuitate pro uestra in Christo salute se existimat ordinatum, <lb/>
+            et nos respondebimus sine praeiudicio catholicae, quoniam <lb n="5"/>
+            modo nullas partes defensionis imposuit, quod tamen, sicut <lb/>
+            existimamus et uolumus, prodesse uobis possit praesentibus <lb/>
+            contra praesentem, ut, si seductus est, non seducat, si autem <lb/>
+            nos seducebamus, ipso praesente, qui foris fortasse multa <lb/>
+            iactitat, arguamur refellamur conuincamur doceamur. hoc <lb n="10"/>
+            propterea dixi, ne ideo loqui nolit, quia potest dicere: <sic>cnullas</sic> <lb/>
+            mihi modo pars mea partes defensionis imposuit.' non enim <lb/>
+            post ipsam collationem non loquebatur aut post illam collationem <lb/>
+            non ad istam ciuitatem uenit aut de ista prouincia <lb/>
+            aliquando discessit aut credimus eum omnino post illam collationem <lb n="15"/>
+            nulli homini uerbum pro parte Donati fecisse. noui <lb/>
+            quae nobis dicebantur — uos alloquor qui ex ipsa uenistis —, noui <lb/>
+            quid dicebatur uobis, nos cognitoris emisse sententiam. noui <lb/>
+            dictum esse uobis, quod ille fuerit communionis nostrae et <lb/>
+            propterea istos loqui omnia quae uellent minime permisit et <lb n="20"/>
+            eos potestate potius oppressit quam probitate quod loquebantur <lb/>
+            non accepit. ista omnia iactata sunt post collationem <lb/>
+            siue ab ipso siue ab hominibus communionis illius. quid interest <lb/>
+            a quo uos perturbemini, quos uolumus in catholica pace <lb/>
+            esse tranquillos? si absens esset, dicerem de illo uobis: qui <lb n="25"/>
+            autem conturbat uos, <sic>portabitiudicium</sic>, quicumque <lb/>
+            est ille. haec enim quae dixi beati Pauli uerba sunt aduersus <lb/>
+            absentes, a quibus simplices turbabantur. nunc autem <lb/>
+            praesens est: modo nobis dignetur dicere quare uenerit. 
+</p>
+          
+</div2>
+
+<div2 n="3" subtype="section"><head>§ 3</head>
+
+<p>Frater Emerite, praesens es. collationi (no)biscum
+
+<app> 25 Gal. 5, 10 </app>
+
+<app> 6 nnllas <hi>scripsi, cf. lin. 11</hi> nullus <hi>JTfo</hi> 7 aestimamus <hi>v (non f)</hi> <lb/>
+            17 uos] eos <hi>jy</hi> ipsa parte <hi>fv</hi> 21 probitate <hi>J'f</hi> ueritate <hi>v</hi> 29 aduenerit <lb/>
+            <hi>fv</hi> 30 collationi nobiscum <hi>coni. v</hi> collationibus cum i7 collationibus <lb/>
+            <hi>fv</hi> </app> <lb n="30"/>
+             
+<pb n="184"/>
+            interfuisti. si uictus es, quare uenisti? si autem te uictum esse <lb/>
+            non putas, loquere unde tibi uictor esse uidearis. tunc enim <lb/>
+            uictus es, si ueritate uictus es. si autem uideris uictus potestate <lb/>
+            et uicisti ueritate, non est hic potestas qua uictus uideris; <lb/>
+            audiant ciues tui unde te uictorem praesumis esse. at si<lb n="5"/>
+            nosti aduersus te uictricem fuisse ueritatem, quid adhuc respuis <lb/>
+            unitatem? Emeritus episcopus partis Donati dixit: Gesta <lb/>
+            indicant si uictus sum aut uici, si ueritate uictus sum aut <lb/>
+            potestate oppressus sum. Augustinus episcopus ecclesiae <choice><note>catbolicae</note><corr>catholicae</corr></choice> <lb/>
+            dixit: Quare ergo uenisti? Emeritus episcopus partis<lb n="10"/>
+            Donati dixit: Ut hoc dicerem quod requiris. Augustinus episcopus <lb/>
+            ecclesiae catholicae dixit: Requiro quare ueneris. hoc <lb/>
+            non quaererem, si non uenisses. Emeritus episcopus partis Donati <lb/>
+            dixit notario qui excipiebat: Fac. 
+</p>
+          
+</div2>
+
+<div2 n="4" subtype="section"><head>§ 4</head>
+
+<p>Cumque reticeret, Augustinus episcopus ecclesiae catholicae<lb n="15"/>
+            dixit: Si ergo sub ueritate tacuisti, non sine causa uenisti, <lb/>
+            nisi quia istos decipere uoluisti. cumque diu reticeret, <lb/>
+            Augustinus episcopus ecclesiae catholicae dixit: Uidetis, fratres, <lb/>
+            diu tacentem; moneo ut optetis resipiscentem, obsecro ne <lb/>
+            sequamini pereuntem. uerumtamen quoniam gesta collationis<lb n="20"/>
+            nostrae commemorauit, ubi apparere posse dixit, utrum ueritate <lb/>
+            sit uictus an potestate oppressus, multa sunt quidem <lb/>
+            ubi superfluis et moratoriis proseeutionibus gesta cumularunt, <lb/>
+            nihil aliud magnis uiribus agentes, nisi ut nihil ageretur; sed <lb/>
+            domino praesidente et causam suam agente uentum est quo<lb n="25"/>
+            noluerunt. dicta causa atque definita est. sed si omnia gesta <lb/>
+            uobis legere uelimus, quamquam praesentibus uobis fratrem <lb/>
+            et coepiscopum meum Deuterium obstringo, ut, quemadmodum <lb/>
+            fit apud Carthaginem, apud Tagastem, apud Constantinam, <lb/>
+            apud Hipponem, apud omnes diligentes ecclesias, sic etiam <lb n="30"/>
+            deinceps facere non pigrescat, ut annis omnibus per ieiuniorum <lb/>
+            dies, id est quadragesima ante pascha, quando uobis maxime <lb/>
+            ieiunantibus plus uacat audire, eadem gesta collationis per
+
+<app> 20 collationis <hi>v</hi> communionis <hi>rj</hi> 21 commemorauerit <hi>/</hi> 29 Thagastem <lb/>
+            <hi>v</hi> 30 hypponem J* </app> <lb/>
+             
+<pb n="185"/>
+            annos singulos uniuersa a capite in finem recitentur ex ordine, <lb/>
+            tamen, ut dicere coeperam, quia non omnia uobis modo legere <lb/>
+            possumus, dignamini prius audire ante collationem quas litteras <lb/>
+            dederimus ad cognitorem, ubi promisimus uel quemadmodum <lb/>
+            suscipi uellemus si uicti fuissemus, uel quemadmodum <lb n="5"/>
+            eos susciperemus si uinceremus, ut uideretur non in contentione, <lb/>
+            sed in humilitate esse uictoria. 
+</p>
+          
+</div2>
+
+<div2 n="5" subtype="section"><head>§ 5</head>
+
+<p>Alypius episcopus ecclesiae catholicae epistulam recitauit: <lb/>
+            Honorabili ac dilectissimo filio, uiro clarissimo <lb/>
+            et spectabili, tribuno et notario Marcellino Aurelius, <lb n="10"/>
+            Siluanus et uniuersi episcopi catholici. Edicto <lb/>
+            spectabilitatis tuae, quo nostrae collationis tranquillitati <lb/>
+            quietique seruandae et ueritati manifestandae <lb/>
+            ac muniendae consultum est, in omnibus <lb/>
+            nos consentire, sicut admonere dignatus es, per <lb n="15"/>
+            has litteras intimamus. illo etiam ueritate confisi <lb/>
+            nos uinculo condicionis obstringimus, ut, si nobis <lb/>
+            hi cum quibus agimus demonstrare potuerint, cum <lb/>
+            secundum dei promissa populi christiani usque <lb/>
+            quaque crescendo iam magnam partem orbis <sic>implessent</sic> <lb n="20"/>
+            et in ceteram dilatarentur implendam, <lb/>
+            subito ecclesiam Christi nescio quorum quos isti <lb/>
+            accusant peccatorum perisse contagione et in sola <lb/>
+            parte Donati remansisse, si hoc, ut dictum est, <lb/>
+            demonstrare potuerint, nullos apud eos honores <lb n="25"/>
+            episcopatus requiremus, sed eorum sequemur pro <lb/>
+            sola salute consilium, quibus tanti gratiam beneficii <lb/>
+            pro cognita ueritate debebimus. si autem
+
+<app>9 August. epist. 128,1—3 (ed. Goldbacher), signaui <hi>y-</hi> cf. Breuic. 15 </app>
+
+<app> 1 ex ordine recitentur <hi>fo</hi> 2 tamen <hi>post</hi> capite <hi>exhibet F</hi> 8 Alipius <lb/>
+            <hi>rj</hi> epistolam <hi>Tfv</hi> 11 Dicto <hi>/</hi> 14 ac muniendae] muniendaeque <lb/>
+            <hi>y</hi> 16 litteras <hi>om. f</hi> illa <hi>Tf</hi> 18 hi] hoc <hi>lf</hi> 20 impleuissent <hi>fv</hi> <lb/>
+            implerent <hi>y 21</hi> cetera-implenda <hi>y</hi> 23 contagio <hi>y</hi> 24 remansisse <lb/>
+            parte Donati <hi>fvy</hi> 26 episcopatus] episcopalis muneris <hi>y</hi> 27 sola <lb/>
+            aeterna salute <hi>vy</hi> </app> <lb/>
+             
+<pb n="186"/>
+            nos potius ualuerimus ostendere ecclesiam Christi <lb/>
+            omnium non solum Africanarum, sed etiam transmarinarum <lb/>
+            prouinciarum, multarum gentium spatia <lb/>
+            feracissima populorum copia iam tenentem et sicut <lb/>
+            scriptum est toto mundo fructificantem atque <lb n="5"/>
+            crescentem, nullorum hominum sibi commixtorum <lb/>
+            peccatis perire potuisse, si denique ipsorum, quos <lb/>
+            tunc accusare uoluerunt potius quam conuincere <lb/>
+            ualuerunt, quaestionem definitam, quamuis non <lb/>
+            in eis ecclesia consistat, et Caecilianum innocentem, <lb n="10"/>
+            illos autem uiolentos et calumniosos esse <lb/>
+            iudicatos ab eo imperatore, ad cuius examen <sic>criminationessuasultroaccusandomiserunt</sic>, <lb/>
+            postremo <lb/>
+            si, quidquid de peccatis quorumlibet hominum <lb/>
+            dixerint, uel humanis documentis uel diuinis probauerimus<lb n="15"/>
+            aut eorum innocentiam falsis criminibus <lb/>
+            appetitam aut Christi ecclesiam, cuius <choice><note>eommunioni</note><corr>communioni</corr></choice> <lb/>
+            cohaeremus, nullis eorum delictis esse <lb/>
+            destructam, sic eius nobiscum teneant unitatem, <lb/>
+            ut non solum uiam salutis inueniant, sed nec honorem<lb n="20"/>
+            episcopatus amittant. neque enim in eis <lb/>
+            diuinae sacramenta ueritatis, sed commenta humani <lb/>
+            detestamur erroris, quibus sublatis fraternum <lb/>
+            pectus complectemur christiana nobis caritate <lb/>
+            coniunctum, quod nunc dolemus dissensione<lb n="25"/>
+            diabolica separatum. poterit quippe unusquisque <lb/>
+            nostrum honoris sibi socio copulato uicissim sedere <lb/>
+            eminentius, sicut peregrino episcopo iuxta <lb/>
+            considente collega. hoc cum alternis basilicis
+
+<app> 5 cf. Col. 1, 6 </app>
+
+<app> 2 affricanaruin r sed] uerum <hi>fvy</hi> 3 multarumque <hi>vy</hi> 9 quae- <lb/>
+            Btionem demonstrauerimus esse finitam <hi>y</hi> 10 ecclesia] ecclesiae causa <hi>vy</hi> <lb/>
+            11 autem <hi>om. r</hi> 14 quidquid] quid <hi>Tf</hi> 24 amplectimur <hi>y</hi> 29 considentem <lb/>
+            collegam <hi>If</hi> </app> <lb/>
+             
+<pb n="187"/>
+            utrimque conceditur utroque alterum cum honore <lb/>
+            mutuo praeueniente, quia, ubi praeceptio caritatis <lb/>
+            dilatauerit corda, possessio pacis non fit angusta, <lb/>
+            ut uno eorum defuncto deinceps iam singulis <lb/>
+            singuli pristino more succedant. nec nouum aliquid <lb n="5"/>
+            fiet; nam hoc ex ipsius separationis exordio <lb/>
+            in eis, qui damnato nefariae dissensionis errore <lb/>
+            unitatis dulcedinem uel sero sapuerunt, catholica <lb/>
+            dilectio custodiuit. aut si forte populi christiani <lb/>
+            singulis delectantur episcopis et duorum consortium <lb n="10"/>
+            inusitata rerum facie tolerare non possunt, <lb/>
+            utrique de medio discedamus et ecclesiis singulis <lb/>
+            damnata schismatis causa in unitate pacifica constitutis <lb/>
+            ab episcopis singulis in ecclesiis singulis <lb/>
+            <sic>annuentibus</sic> unitati factae per loca necessaria <lb n="15"/>
+            singuli constituantur episcopi. 
+</p>
+          
+</div2>
+
+<div2 n="6" subtype="section"><head>§ 6</head>
+
+<p>Et cum legeret, Augustinus episcopus dixit: Dicam caritati <lb/>
+            uestrae et commemorem rem dulcissimam et suauissimam, <lb/>
+            quam domino adiuuante sumus experti. cum ante ipsam collationem <lb/>
+            inter nos aliqui fratres de hac re colloqueremur, quia <lb n="20"/>
+            pro pace Christi episcopi debent esse aut debent non esse, <lb/>
+            quod nobis fatendum est, circumspicientes omnes fratres et <lb/>
+            <sic>coepiscopos</sic> nostros, non facile nobis occurrebant, qui hoc <lb/>
+            uellent suscipere et de hac humilitate domino sacrificare. <lb/>
+            dicebamus, ut fieri solet, 'ille potest, ille non potest, ille <lb n="25"/>
+            consentit hoc, ille non tolerat', loquentes pro suspicionibus <lb/>
+            nostris magis, qui corda illorum uidere minime poteramus. <lb/>
+            quando autem uentum est ut hoc palam fieret, in concilio
+
+<app> 1 utrimque] utrumque <hi>rf</hi> utroque-praeueniente] uterque ab alterutro <lb/>
+            honore mutuo praeuenitur <hi>y</hi> 2 perceptio <hi>y, cf. Caes. 5 sub finem</hi> <lb/>
+            6 ex] ab <hi>y</hi> 7 discissionis <hi>fvy</hi> 9 christiani populi <hi>y</hi> 12 secedamus <hi>y</hi> <lb/>
+            in singulis <hi>y</hi> 14 episcopis (epif) <hi>scripsi</hi> his <hi>rf, cf. Breuic. I 5:</hi> utrisque <lb/>
+            de medio recedentibus singuli constituerentur episcopi ab eis episcopis <lb/>
+            ordinandi, qui in suis plebibus singuli inuenirentur ab—annuentibus] <lb/>
+            ab his, qui singuli in ecclesiis singulis inuenientur <hi>vy</hi> 15 unitate <lb/>
+            facta <hi>v</hi> 27 magis <hi>ante</hi> pro <hi>exhibent fv</hi> </app> <lb/>
+             
+<pb n="188"/>
+            uniuersorum tam frequenti paene trecentorum episcoporum <lb/>
+            sic placuit omnibus, sic exarserunt omnes, ut parati essent <lb/>
+            episcopatum pro Christi unitate deponere et non perdere, sed <lb/>
+            deo tutius commendare. duo ibi uix inuenti sunt quibus displiceret, <lb/>
+            unus annosus senex, qui hoc etiam dicere liberius<lb n="5"/>
+            ausus est; alter uoluntatem suam tacito uultu significauit. <lb/>
+            sed posteaquam illum senem liberius hoc dicentem obruit <lb/>
+            omnium fraterna correptio, illo mutante sententiam uultum <lb/>
+            etiam ille mutauit. audite ergo, quibus modis etiam ipsa exhortatio <lb/>
+            facta est propter illum qui ait: qui se <choice n="0.85"><note n="6">humiliat</note><corr n="1">humiliatio</corr></choice> <lb n="10"/>
+            exaltabitur. 
+</p>
+          
+</div2>
+
+<div2 n="7" subtype="section"><head>§ 7</head>
+
+<p>Item legit: Quid enim dubitemus redemptori <lb/>
+            nostro sacrificium istius humilitatis offerre? an <lb/>
+            uero ille de caelis in membra descendit humana, <lb/>
+            ut membra eius essemus, et nos, ne ipsa eius membra<lb n="15"/>
+            crudeli diuisione lanientur, de cathedris descendere <lb/>
+            formidamus? propter nos nihil sufficientius <lb/>
+            quam christiani fideles et oboedientes sumus; <lb/>
+            hoc ergo semper simus. episcopi autem propter <lb/>
+            christianos populos ordinamur; quod ergo christianis<lb n="20"/>
+            populis ad <choice><note>christianam</note><corr>Christianam</corr></choice> pacem prodest, hoc <lb/>
+            de nostro episcopatu faciamus. Augustinus episcopus <lb/>
+            dixit: Propter nos hoc debemus esse <choice><note>qUod</note><corr>quod</corr></choice> uos. quid debes <lb/>
+            esse tu cuicumque loquor uestrum? <choice><note>christianus</note><corr>Christianus</corr></choice> fidelis oboediens. <lb/>
+            hoc tu propter te, hoc et ego propter me. ergo, quod tu<lb n="25"/>
+            propter te et ego propter me, semper esse debemus, quod <lb/>
+            autem sum propter te, sim si tibi prodest, non sim si tibi <lb/>
+            obest. ecce quod dictum est attendite. item legit: Si serui <lb/>
+            utiles sumus, cur domini aeternis lucris pro nostris <lb/>
+            temporalibus sublimitatibus inuidemus? episcopalis <lb n="30"/>
+            dignitas fructuosior nobis erit, si gregem
+
+<app> 10 Luc. 18, 14 12. 28 August. epist. 128, 3 </app>
+
+<app> 6 alter <hi>/</hi> aliter <hi>rv</hi> 14 humana membra descendit <hi>fv</hi> membra humana <lb/>
+            descendit <hi>y</hi> 18 obedientes simus <hi>/</hi> 19 semper sumus <hi>rf</hi> </app> <lb/>
+             
+<pb n="189"/>
+            Christi deposita magis collegerit quam retenta <lb/>
+            disperserit. cumque recitaret, Augustinus episcopus dixit: <lb/>
+            Fratres mei, si dominum cogitamus, locus iste altior specula <lb/>
+            uinitoris est, non fastigium superbientis. si, cum uolo retinere <lb/>
+            episcopatum meum, dispergo gregem Christi, quomodo est <lb n="5"/>
+            damnum gregis honor pastoris? item legit: Nam <sic>quafronte</sic> <lb/>
+            in futuro saeculo promissum a Christo sperabimus <lb/>
+            honorem, si <choice><note>christianam</note><corr>Christianam</corr></choice> in hoc saeculo noster <lb/>
+            honor impedit unitatem? haec propterea praelostantiae <lb/>
+            tuae scribenda curauimus et ut per<lb n="10"/>
+            innotescant omnibus postulamus, ut in adiutorio <lb/>
+            domini dei nostri, quo admonente ista promittimus <lb/>
+            et quo adiuuante nos implere posse confidimus, <lb/>
+            etiam ante collationem, si fieri potest, corda <lb/>
+            hominum uel infirma uel dura pia caritas aut sanet <lb n="15"/>
+            aut edomet ac sic iam pacificis mentibus non <lb/>
+            resistamus manifestissimae ueritati et disputationem <lb/>
+            uel praecedamus concordia uel sequamur. <lb/>
+            neque enim desperare debemus, si recolunt esse <lb/>
+            pacificos beatos, quoniam ipsi filii dei <sic n="poss">uocabun</sic>- <lb n="20"/>
+            . tur, multo dignius et facilius eos uelle, ut pars <lb/>
+            Donati uniuerso orbi christiano reconcilietur quam <lb/>
+            uniuersus orbis <choice><note>christianus</note><corr>Christianus</corr></choice> a parte Donati rebaptizetur, <lb/>
+            cum praesertim de Maximiani sacrilego <lb/>
+            e t damnato schismate uenientes, quos etiam terrenarum <lb n="25"/>
+            potestatum iussionibus insectando emendare <lb/>
+            curarunt, tanta diligentia quaesierunt, ut <lb/>
+            nec baptismum ab eis datum rescindere auderent <lb/>
+            et quosdam eorum damnatos sine ulla honoris <lb/>
+            diminutione susciperent, quosdam uero in illius
+
+<app> 6 August. epist. 128, 3-4 20 cf. Matth. 5, 9 </app>
+
+<app> 1 magis <hi>deposita y</hi> 10 et ut] ut et <hi>y, puncto post</hi> omnibus <hi>posito</hi> <lb/>
+            17 disputationem nostram <hi>iv</hi> 19 beatos esse <hi>pacificos y</hi> 27 dilectione <lb/>
+            <hi>(cf. 12 init.) quaesierint y</hi> 29 honoris eorum deminutione <hi>y</hi> </app> <lb n="30"/>
+             
+<pb n="190"/>
+            discissionis societate impollutos esse censerent. <lb/>
+            quorum inter se concordiae non inuidemus, sed <lb/>
+            eos oportet aduertere, quam pie ramum a se fractum <lb/>
+            tanto studio radix catholica inquirit, si ramus <lb/>
+            ipse similiter a se paruum fragmen incisum sic<lb n="5"/>
+            colligere laborauit. et alia manu: optamus te, fili, <lb/>
+            in domino bene ualere. 
+</p>
+          
+</div2>
+
+<div2 n="8" subtype="section"><head>§ 8</head>
+
+<p>Quo recitato Augustinus episcopus dixit: Audite qui <lb/>
+            nescitis, audite, obsecro uos. deo gratias, quia ipso praesente <lb/>
+            loquor. causam istam Maximianistarum, quam uolo modo<lb n="10"/>
+            uobis exponere, ubi omnium calumniarum suarum tamquam <lb/>
+            malarum mercium nauem fregerunt, causam ergo istam Maximianistarum <lb/>
+            cum totiens obiecissemus in nostra collatione, <lb/>
+            nihil aduersus eam dicere potuerunt, id est aduersus obiectionem <lb/>
+            nostram totiens insertam, totiens repetitam, totiens<lb n="15"/>
+            eorum frontibus illisam nihil omnino respondere potuerunt, <lb/>
+            quia quod responderent non inuenerunt. audite ergo illam <lb/>
+            diligenter. ecce hic est, audit me. si mentior, redarguat, probare <lb/>
+            me compellat. gesta quidem ipsa hic non sunt, sed ibi <lb/>
+            sit causa. feramus quaslibet dilationes, ut ad documenta necessaria<lb n="20"/>
+            ueniamus, si probauero quod dico. si tamen inde dubitat <lb/>
+            aut, quod absit, dubitare se fingit, quod pace eius dixerim, <lb/>
+            non communicet, si non probauero. si autem scit iam me <lb/>
+            uerum dicere et nouit propterea respondere noluisse, quia <lb/>
+            quod responderet non potuit inuenire, rogo uos, ut ipsi iudicetis<lb n="25"/>
+            quid sit tolerabilius, in honore suo suscipere a se damnatum <lb/>
+            an fratrem agnoscere non aliquando a se conuictum. <lb/>
+            intendite, obsecro, audite narrationem. 
+</p>
+          
+</div2>
+
+<div2 n="9" subtype="section"><head>§ 9</head>
+
+<p>Maximianus quidam diaconus fuit Carthaginiensis in <lb/>
+            parte Donati. siue merito superbiae suae siue, ut ipsi putant, <lb n="30"/>
+            merito iustitiae suae offendit episcopum suum, id est Primianum <lb/>
+            Carthaginiensem, siue inique, si superbus meliorem, siue <lb/>
+            iuste, si probus inprobiorem. excommunicatus est a Primiano.
+
+<app> 1 esse] fuisse y 3 tanto studio ramum a se fractum y 6 laborauerit <lb/>
+            <hi>rrnl</hi> 29 Carthaginensis <hi>et</hi> 32 Carthaginensem <hi>Ffo</hi> </app> <lb/>
+             
+<pb n="191"/>
+            perrexit ad episcopos uicinos, concitauit inuidiam Primiano, <lb/>
+            accusauit eum apud illos. uentum est ad Carthaginem. uoluerunt <lb/>
+            qui uenerunt multi episcopi Donatistae ad se uenire <lb/>
+            Primianum, sicut uoluerunt maiores istorum ad se uenire <lb/>
+            Caecilianum. factione cognita noluit ad istos uenire Primianus, <lb n="5"/>
+            sicut ad illos noluit uenire Caecilianus. damnatus est ab istis <lb/>
+            absens Primianus, sicut ab illis damnatus est absens Caecilianus. <lb/>
+            qualem imaginem rerum uoluit deus ante oculos nostros <lb/>
+            recenti tempore ponere, quoniam nimis antiqua iam delebat <lb/>
+            obliuio! damnatus est absens. ab aliis episcopis partis Donati <lb n="10"/>
+            Primianus communioni est restitutus, immo quia eum non <lb/>
+            deposuerunt, in sua sede firmatus est. damnati sunt Maximianistae, <lb/>
+            sicut a peregrinis episcopis et transmarinis absoluto <lb/>
+            Caeciliano meruit damnari Donatus. damnatus est Maximianus <lb/>
+            cum duodecim ordinatoribus suis. factio quidem ipsa plurimos <lb n="15"/>
+            continebat; centum erant fortassis episcopi. sed ne maior <lb/>
+            praecisio fieret, isti noluerunt paucis deiectis multis imponere <lb/>
+            disciplinam. damnarunt solos qui affuerunt ordinationi <choice><note>Magimiani</note><corr>Maximiani</corr></choice>, <lb/>
+            quando contra episcopum suum illicite est leuatus <lb/>
+            episcopus; ceteri in ipsa factione constituti, si redire ad ecclesiam <lb n="20"/>
+            uellent, in suis permitterentur honoribus. uerbis quidem <lb/>
+            suis ostendebant eos foris esse ab ecclesia; quem enim hortaris <lb/>
+            ut intret, foris est. constituto ergo die, intra quem diem <lb/>
+            si redirent nihil eis obessent quae aduersus Primianum dicebantur, <lb/>
+            decreto Bagaiensi firmauerunt, damnatus est Maximianus <lb n="25"/>
+            cum duodecim. coepit agi, ut damnati de basilicis pellerentur. <lb/>
+            interpellantur iudices, interpellantur proconsules, in <lb/>
+            iudicium allegatur episcopale Bagaiense concilium. dicuntur <lb/>
+            haeretici, demonstrantur damnati, impetrantur iussiones, auxilia <lb/>
+            congregantur, uenitur ad eiciendos de basilicis homines <lb n="30"/>
+            damnatos et in sua pertinacia constitutos. illis condemnatis <lb/>
+            populi qui fauebant restiterunt, ubi non potuerunt uicti sunt, <lb/>
+            in locum eorum qui uicti sunt et expulsi alii ordinati sunt.
+
+<app> 17 uoluerunt v 19 eleuatus <hi>fv</hi> 24 eis nihil <hi>fv</hi> 25 bagalensi <hi>r</hi> <lb/>
+            firmarunt <hi>fv</hi> 28 bagalense r </app> <lb/>
+             
+<pb n="192"/>
+            ex quibus duos nouimus, ut de ceteris taceamus, unum Felicianum <lb/>
+            (Mustitanum), alterum Praetextatum Assuritanum, quos <lb/>
+            post annos duos aut tres per Optatum Gildonianum post <lb/>
+            multas illis illatas persecutiones iudiciariis prosecutionibus et <lb/>
+            tota acrimonia potestatum in suis honoribus susceperunt. post<lb n="5"/>
+            damnationem suam, post eiectionem, post persecutiones susceperunt <lb/>
+            illos in honoribus suis, adiunxerunt sibi socios atque <lb/>
+            collegas. nam in loco unius ipsorum Praetextati Assuritani <lb/>
+            alium iam ordinauerant nomine Rogatum, qui modo catholicus <lb/>
+            est, cui exercitus istorum, id est agmen circumcellionum,<lb n="10"/>
+            . linguam et manum praecidit. illi autem, qui per ipsum tempus, <lb/>
+            quo illi damnati foris erant, ferme per triennium baptizati <lb/>
+            sunt a damnatis, baptizati sunt foris ab ecclesia istorum, <lb/>
+            sic sunt suscepti. nemo dixit <sic>enon</sic> habes baptismum, quia <lb/>
+            foris es baptizatus': et rebaptizatur qui uenit de Epheso de<lb n="15"/>
+            Smyrna de Thessalonica de ceteris ecclesiis, quas suo labore <lb/>
+            apostoli plantauerunt et ad quas legimus missas apostolorum <lb/>
+            epistulas, quas audimus in ecclesia recitari. 
+</p>
+          
+</div2>
+
+<div2 n="10" subtype="section"><head>§ 10</head>
+
+<p>Sententia tenetur, et quantum audiuimus ab ipso fratre <lb/>
+            nostro, quem deus faciat pacatum fratrem nostrum, ab isto<lb n="20"/>
+            Emerito est dicta sententia ubi illi damnati sunt. legatur ipsa <lb/>
+            sententia ubi illi damnati sunt, et legatur sententia ubi Caecilianum <lb/>
+            damnauerunt maiores istorum, et uideamus qui rei <lb/>
+            peiores facti sunt, qui grauiore sententia puniti, qui strepitu <lb/>
+            maiore damnati. ibi dixit: licet enim uiperei seminis<lb n="25"/>
+            noxios partus uenenati uteri alueus diu texerit et <lb/>
+            concepti sceleris uda coagula in aspidum membra <lb/>
+            tardo se calore uaporauerint, tamen conceptum
+
+<app> 25 Sententia concilii Bagaiensis </app>
+
+<app> 2 Mustitanum <hi>suppleui</hi> praetestatum JH 4 persecutionibus <hi>f</hi> <lb/>
+            8 praetestati <hi>r</hi> 9 ordinauerunt <hi>fv</hi> 16 amirna <hi>r</hi> 18 epistolas <hi>rfv</hi> <lb/>
+            21 <hi>dictata fv, cf. Cresc. III19, 22</hi> dictator uel dictor illius sententiae <lb/>
+            25 <hi>Aug. sententiam concilii Bagaitani ex memoria recitat; cf. infra</hi> <lb/>
+            11 nomina omnium mihi non occurrunt 27 uda] unda <hi>r</hi> 28 tardiose <lb/>
+            calor euaporauerit r </app> <lb/>
+             
+<pb n="193"/>
+            uirus euanescente umbraculo occultari <sic>nonpotuit</sic>. <lb/>
+            nam etsi sero publicum tamen parricidium et facinus <lb/>
+            suum feta scelerum uota pepererunt, quod <lb/>
+            ante praedictum est: 'parturiit iniustitiam, <choice><note>conscepit</note><corr>concepit</corr></choice> <lb/>
+            dolorem et peperit iniquitatem.' sed quoniam <lb n="5"/>
+            serenum iam fulget e nubilo nec est confusa criminum <lb/>
+            silua, cum ad poenam designata sunt nomina <lb/>
+            — indulgentia enim antehac fuerat —, dum <lb/>
+            clementiae dimittimus lineam, inuenit causa quos <lb/>
+            puniat. et inter cetera: loquamur, carissimi fratres, <lb n="10"/>
+            schismatis causas, quia iam non possumus tacere <lb/>
+            personas. Maximianum fidei aemulum, ueritatis <lb/>
+            adulterum, ecclesiae matris inimicum, Dathae, <lb/>
+            Chorae et Abiron ministrum. haec uerba sunt partis <lb/>
+            Donati in Maximianistas isto ut audiuimus dictante prolata. <lb n="15"/>
+            scitis autem qui sunt Dathan, Chore et Abiron. ipsi primo <lb/>
+            schisma fecerunt, quibus poena usitata non suffecit: uiuos <lb/>
+            aperta terra deuorauit. Dathae, Chorae et Abiron ministrum, <lb/>
+            uerba ipsius sunt, de pacis gremio sententiae <lb/>
+            fulmen excussit. audite adhuc: et quod adhuc eum, <lb n="20"/>
+            inquit, dehiscens terra non absorbuit, ad maius <lb/>
+            iudicium superis reseruauit. raptus enim poenam <lb/>
+            sui compendio lucrauerat funeris; usuras nunc <lb/>
+            grauioris colligit faenoris, cum mortuus interest <lb/>
+            uiuis. uerba sunt ipsius Maximianum damnantis uel potius, <lb n="25"/>
+            ut ipse dicit, 'ore ueridico' fulminantis. et tamen collecti sunt, <lb/>
+            aspides uiperae parricidae nec exsufflatur baptismus, quem <lb/>
+            dedit aspis uipera parricida. audistis, quantus ignis exarserit <lb/>
+            eloquentiae, quando inuenit faenum quod posset incendere.
+
+<app> 4 Ps. 7, 15 10. 18. 20 Sententia concilii Bagaiensis 17 cf. <lb/>
+            Num. 16, 32 26 cf. pag. 195, 3 ;-</app>
+
+<app> 1 unbraculo r 2 facinus et parricidium <hi>v et Aug. alias</hi> 8 indulgentia <lb/>
+            <hi>scripsi</hi> indulgentiae <hi>rfv, cf. Cresc. IIII 31, 318</hi> 10 kafiii <hi>1;</hi> <lb/>
+            13 <hi>et</hi> 18 Dathan <hi>f</hi> 16 sint <hi>Iv</hi>. 21 sorbuit <hi>alias</hi> 22 iudicium] supplicium <lb/>
+            <hi>alias</hi> poenam <hi>om. r</hi> 23 sui] suam <hi>alias</hi> 27 eisuflatur <hi>F</hi> </app>
+
+<app> LIII. August. c. Don. III. </app>
+
+<app> 13 </app> <lb/>
+             
+<pb n="194"/>
+            frater Emerite, amplexus es fratrem tuum Felicianum tui oris <lb/>
+            fulmine condemnatum: agnosce fratrem tuum Deuterium tibi <lb/>
+            etiam genere sociatum. 
+</p>
+          
+</div2>
+
+<div2 n="11" subtype="section"><head>§ 11</head>
+
+<p>Quotienscumque, fratres mei, causam istam Maximianistarum, <lb/>
+            quam sicut potui uobis exposui, eis cum in collatione<lb n="5"/>
+            ageremus obiecimus, plus inde tacuit quam modo in omnibus <lb/>
+            tacet. non se occultent tergiuersatoria non defensione sed fuga. <lb/>
+            dicunt enim, quod dilationem illis dederint et intra dilationem <lb/>
+            illos susceperint. hoc falsum est; duodecim cum Maximiano <lb/>
+            damnati sunt, ceteri autem non aderant ordinationi eius, quando<lb n="10"/>
+            ei manus imposita est. illis dilationem dederunt; nam uerba <lb/>
+            ipsius ista sunt: nec solum hunc, inquit, sceleris sui <lb/>
+            mors iusta condemnat; trahit etiam ad consortium <lb/>
+            criminis plurimos catena sacrilegii, de quibus <lb/>
+            scriptum est: (uenenum aspidum sub labiis eorum <lb n="15"/>
+            quorum os maledictione et amaritudine plenum <lb/>
+            est. ueloces pedes eorum ad effundendum sanguinem. <lb/>
+            contritio et infelicitas in uiis eorum, et uiam <lb/>
+            pacis non cognouerunt. non est timor dei ante <lb/>
+            oculos eorum'. nollemus quidem tamquam proprii<lb n="20"/>
+            corporis secare iuncturam.sed quoniam tabescentis <lb/>
+            uulneris putredo pestifera plus habet in abscisione <lb/>
+            solaminis quam in remissione medicaminis, inuenta <lb/>
+            est causa salubrior, ne per cuncta membra pestilens <lb/>
+            irreperet uirus, ut compendioso dolore natum<lb n="25"/>
+            decidat uulnus. famosi ergo criminis reos esse nominat <lb/>
+            duodecim, inter quos et Felicianum et Praetextatum, <lb/>
+            sed nomina omnium mihi non occurrunt; et sic infert: qui <lb/>
+            funesto opere perditionis uas sordidum collecta <lb/>
+            faeculentia sordidarunt, sed et clericos aliquando
+
+<app> 12. 28 Sententia concilii Bagaiensis 15 Ps. 13, 3 </app>
+
+<app> 2 fratrem tuum <hi>om. r</hi> 9 illos suos <hi>v</hi> enim cum <hi>10</hi> 20 e proprii <lb/>
+            <hi>alias</hi> 21 secare iuncturam] iunctura praecidi <hi>alias</hi> 24 salubris <hi>f</hi> <lb/>
+            25 inrepat <hi>alias</hi> 26 esse] ecce <hi>v</hi> 27 praetestatum <hi>r</hi> 28 infert <lb/>
+            sic <hi>fv</hi> 30 sordidarunt <hi>Ff</hi> glntinarunt <hi>v et Aug. alias</hi> </app> <lb n="30"/>
+             
+<pb n="195"/>
+            ecclesiae Carthaginis, qui, dum facinori intersunt, <lb/>
+            illicito incestui praebuerunt lenocinium, dei praesidentis <lb/>
+            arbitrio uniuersalis concilii ore ueridico <lb/>
+            damnatos esse cognoscite. eos autem, quos sacrilegi <lb/>
+            surculi non polluere plantaria, hoc est qui a <lb n="5"/>
+            Maximiani capite proprias manus uerecundo fidei <lb/>
+            pudore retraxerunt, ad matrem ecclesiam redire <lb/>
+            permisimus. uolebant pumicare faciem suam, quia sacrilegis <lb/>
+            ignoscebant et aperte schismaticis uiam redeundi concedebant. <lb/>
+            quid est hoc, rogo. modo mihi dignetur exponere, quomodo <lb n="10"/>
+            eos sacrilegi surculi non polluere plantaria. quare illis dilationem <lb/>
+            das, si nullam partem in Maximiani schismate habere <lb/>
+            potuerunt? si autem socii sunt factionis, quamuis non fuerint <lb/>
+            praesentes ordinationi, quomodo illos non inquinat Maximianus, <lb/>
+            et totum orbem terrarum semel absens damnatus, tertio praesens <lb n="15"/>
+            absolutus inquinat Caecilianus? non inquinat Afer Afros, <lb/>
+            uiuus uiuos, notus notos, particeps socios, et Caecilianus <lb/>
+            inquinat transmarinos, inquinat longe positos, (inquinat ignotos,) <lb/>
+            inquinat nondum natos? tecum sedit a te damnatus, et <lb/>
+            non te inquinauit Felicianus? ego illum non uidi, tu illum <lb n="20"/>
+            <choice><note>uosti</note><corr>nosti</corr></choice>; ego illum innocentem credo, tu istum nocentem damnasti. <lb/>
+            aut si fateris innocentis te fuisse receptorem, fateris te <lb/>
+            innocentis fuisse damnatorem. 
+</p>
+          
+</div2>
+
+<div2 n="12" subtype="section"><head>§ 12</head>
+
+<p>Et tamen, fratres mei, non inuidemus concordiae eorum. <lb/>
+            inter se suscitata odia diabolica finierunt, quomodo putant, <lb n="25"/>
+            in pacem redierunt. sed hoc dico: si ramus fractus quaesiuit <lb/>
+            paruum a se fractum, qua diligentia debet arbor ipsa quaerere <lb/>
+            ramum ex se fractum? ideo sudamus, ideo laboramus, <lb/>
+            ideo inter eorum arma et cruentas furias circumcellionum
+
+<app> 16 cf. Gaud. I 39, 54 post init. </app>
+
+<app> 2 lenocinium praebuerunt <hi>alias</hi> 10 dignentur <hi>f</hi> 15 tertium <hi>r</hi> <lb/>
+            18 inquinat ignotos <hi>ex Gaud. l. c. inserui</hi> 19 nondum natos <hi>ex Gaud. <lb/>
+             I c. recepi</hi> non damnatos <hi>rfv</hi> 20 inquinauit] inquinat <hi>fo</hi> tu istum <lb/>
+            nosti <hi>fo, cf. Post gesta cap. 6 p. 106, 1</hi> 24 eorum] ipsorum <hi>fv</hi> 27 paruum] <lb/>
+            uirgultum <hi>fv, cf. § 7 extr</hi>. </app>
+
+<app> 13* </app> <lb/>
+             
+<pb n="196"/>
+            periclitati sumus et adhuc reliquias eorum qualicumque donata <lb/>
+            a deo patientia toleramus, dum arbor quaerit ramum, dum <lb/>
+            grex ex ouili Christi ouem perditam quaerit. si pastoralibus <lb/>
+            uisceribus praediti sumus, per saepes et spinas nos coartare <lb/>
+            debemus. membris. laceratis ouem quaeramus et pastori principique<lb n="5"/>
+            omnium cum laetitia reportemus. multa diximus etiam <lb/>
+            fatigati, et tamen frater noster, propter quem ista dicimus <lb/>
+            <choice n="0.60"><note n="4825">nobis</note><corr n="3215">uobis</corr></choice> et cui pariter dicimus et pro quo tanta agimus, adhuc <lb/>
+            pertinax sistit. constantem se putat fortitudo crudelis. non <lb/>
+            adhuc de uana et falsa fortitudine glorietur. audiat apostolum<lb n="10"/>
+            dicentem: uirtus in infirmitate perficitur. oremus pro <lb/>
+            illo. unde scimus quid uelit deus? multae cogitationes, <lb/>
+            sicut scriptum est, in corde uiri; consilium autem <lb/>
+            domini manet in aeternum.
+
+<app> 5 cf. Luc. 15, 4-6 11 II Cor. 12, 9 12 Prou. 19, 21 </app>
+
+<app> 9 consistit <hi>fv</hi> 14 aeternum. <hi>(minio)</hi> Expliciunt gesta beati augustini <lb/>
+            epi ca emerito donatistarum epo r. </app> 
+<pb n="197"/>
+            
+</p>
+        
+</div2>
+</div1>
+
+        <div1 n="retractationes" subtype="section">
+          <head>
+            <title type="main">AVGVSTINI RETRACTITIONUM LIB. II CAP. LXXVII (LI)</title>
+          </head>
+          
+            <title type="sub">(PAG. 187, 16 ED. KNOELL). GESTA CUM EMERITO DONATISTA, LIBER UNUS. </title>
+          
+  <div2 n="1" subtype="section"><head>§ 1</head>
+  
+          <p>Aliquanto post conlationem, quam cum hereticis Donatistis <lb/>
+            habuimus, orta est nobis necessitas pergendi in Mauritaniam <lb n="5"/>
+            Caesariensem. ibi apud ipsam Caesaream Emeritum, <lb/>
+            Donatistarum episcopum, uidimus, unum scilicet eorum septem, <lb/>
+            quos pro suae causae. defensione delegerant, et qui in <lb/>
+            eadem causa maxime laborauerat. quae cum illo egerimus <lb/>
+            praesentibus episcopis eiusdem prouinciae et plebe Caesariensis <lb n="10"/>
+            ecclesiae, in qua ciuitate et ciuis et memoratorum hereticorum <lb/>
+            episcopus fuit, ecclesiastica gesta testantur, quae in meis <lb/>
+            habentur opusculis. ubi non inueniens, quid responderet, totum <lb/>
+            sermonem meum, quem de solis Maximianistis in auribus eius <lb/>
+            et omnium, qui aderant, explicaui, tamquam mutus audiuit, <lb n="15"/>
+            
+</p>
+          
+</div2>
+
+<div2 n="2" subtype="section"><head>§ 2</head>
+
+<p>Hic liber uel haec gesta sic incipiunt: <hi><sic>Oloriosissimo</sic> <lb/>
+            Honorio Augusto XII et Constantio iterum VV. CC. consulibus <lb/>
+            XI Kalendas Octobris Caesarea in ecclesia maiore</hi>.
+
+<app> <hi>Lectiones cod. Gratianopolitani 152 sacc. XIII:</hi> </app>
+
+<app> 3 Incipit retractatio beati augustini epi in libro de gestis cum emerito <lb/>
+            donatistarum epo 6 cesariam 16 Gloriosissimo] Gloriosissimis imperatoribus <lb/>
+            17 Augusto <hi>om</hi>. Constantio-CC.] theodosio VIII. 18 XIJ <lb/>
+            XU. Kt cesaree </app> <lb/>
+            
+<pb n="198"/>
+             
+<pb n="199"/>
+            
+</p>
+
+</div2>
+        
+</div1></body>
+</text>
+</TEI>

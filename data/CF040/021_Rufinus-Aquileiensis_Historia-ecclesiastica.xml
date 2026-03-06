@@ -1,0 +1,3518 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Historia ecclesiastica</title>
+              <author ref="http://viaf.org/viaf/77679446">Rufinus Aquileiensis<date>345-411</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1849</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 21</title>
+           <idno>RufAqu.HisEcc</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Praefatio.</head>
+<p> <emph>209-210</emph> Peritorum dicunt esse medicorum, ubi imminere urbibus, vel regionibus generales viderint
+morbos, providere aliquod medicamenti, vel poculi genus, quo praemuniti homines, ab imminenti defendantur
+exitio. Quod tu quoque, Venerande Pater Chromati, medicinae exequens genus, tempore quo, diruptis
+<pb n="0463"/>
+Italiae claustris ab Alarico duce Gothorum, se pestifer morbus infudit, et agros, armenta, viros longe
+lateque vastavit, populis tibi a Deo commissis feralis exitii aliquod remedium quaerens, per quod aegrae
+mentes ab ingruentis mali contagione subtractae, melioribus occupatae studiis tenerentur: injungis mihi ut
+Ecclesiasticam historiam, quam vir eruditissimus Eusebius Caesariensis Graeco sermone conscripsit, in
+Latinum vertam: <emph>211-212</emph> cujus lectione animus audientium vinctus, dum notitiam rerum gestarum avidius
+petit, oblivionem quodammodo malorum, quae gererentur, acciperet. A quo ego opere cum excusare me
+vellem, utpote inferior et impar, et qui in tam multis annis usum Latini sermonis amiserim, consideravi
+quod non absque aliquo Apostolicae institutionis ordine nobis ista praeciperes. Nam et cum Dominus aliquando
+esurientibus in deserto auditorum turbis, dixisset ad Apostolos: <hi>Date eis vos manducare:</hi> Philippus
+unus ex Apostolis intelligens, eo magis splendescere divinae virtutis insignia, si minorum quorumque ministeriis
+explerentur, non protulit panes Apostolicae reconditos perae, sed puerulum adesse dicit, habentem
+quinque panes, et duos pisces. Quem verecunde excusans, adjecit: <hi>Sed haec quid sunt inter tantos <note>(Matth. 14;
+Marc. 6; Luc. 9.)</note>
+          </hi>? quo magis in angustis opibus et desperatis clara fieret divina potentia. Sciens ergo ex illis
+te quoque descendere disciplinis, recordatus quod Philippi fortassis exemplo, ubi pascendi turbas tempus
+vidisti, puerulum subrogaveris, qui panes quidem quinque sicut acceperat, duplicatos adhiberet, ad explendum
+tamen Evangelicum Sacramentum, proprio labore captos adderet etiam pisciculos duos, aggressus sum
+exsequi, ut potui, quod praeceperas: certus quod excusabit imperitiae nostrae culpas, praecipientis auctoritas.</p>
+<p>Sciendum sane est, quod decimus liber hujus operis in Graeco, quoniam perparum habebat in rebus gestis,
+per reliqua omnia in Episcoporum panegyricis tractatibus, nihil ad scientiam rerum conferentibus occupatus,
+omissis quae videbantur superflua, historiae si quid habuit, nono conjunximus libro, et in ipso Eusebii
+narrationi <hi>[Al. narrationis]</hi> dedimus finem. Decimum vero et undecimum librum nos conscripsimus
+partim ex majorum traditionibus, partim ex his quae nostra jam memoria comprehenderat; et eos velut duos
+pisciculos supra scriptis panibus addidimus. Quos si tu probaveris, vel benedixeris, pro certo confidam
+quod sufficient turbis. Continet autem idem omne opus res in Ecclesia gestas a Salvatoris Ascensione, et
+deinceps. Nostri vero duo libelli a temporibus Constantini post persecutionem, usque ad obitum Theodosii
+Augusti.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>EJUSDEM IN SUBSEQUENTES</hi> DUOS HISTORIAE SUAE LIBROS <hi>Praefatio.</hi> RUFINUS LECTORI.</head>
+
+<pb n="0463"/>
+<p> <emph>213-214</emph> Hucusque nobis Eusebius rerum in Ecclesia gestarum memoriam tradidit. Caetera vero, quae
+usque ad praesens tempus per ordinem subsecuta sunt, quae vel in majorum litteris reperimus, vel nostra
+memoria attigit, Patris (Chromatii) religiosi praeceptis et in hoc parentes, quam poterimus, breviter addemus.</p>
+</div1>
+
+
+<div1>
+        <head>RUFINI AQUILEIENSIS PRESBYTERI HISTORIAE ECCLESIASTICAE LIBRI DUO.</head>
+        <pb n="0465"/>
+        <head>ELENCHUS CAPITUM PRIMI LIBRI.</head>
+        <p>
+
+<pb n="0465"/>
+<list>
+<item>CAP. XV. De Constantini.</item>
+</list>
+<list>
+<item>CAP. XI. De Constantia sorore Constantini, et Presbytero.</item>
+</list>
+<list>
+<item>CAP. IX. De captivitate Frumentii et Edesii, et de
+conversione Indorum per ipsos gesta.</item>
+</list>
+<list>
+<item>CAP. VII. De Helena Constantini matre.</item>
+</list>
+<list>
+<item>
+<pb n="0465A"/>CAP. I. De Arii haeresi.</item>
+<item>CAP. II. De Concilio apud Nicaeam congregato.</item>
+<item>CAP. III. De conversione Philosophi Dialectici.</item>
+<item>CAP. IV. De Paphnucio Confessore.</item>
+<item>CAP. V. De Spiridione Episcopo, et mirabilibus
+ejus.</item>
+<item>CAP. VI. Exemplum fidei Nicaenae, et statutorum
+ejus.</item>
+        </list>
+
+<pb n="0465C"/>.
+<item>CAP. VIII. De Cruce Salvatoris in Jerosolymis ab Helena
+reperta.</item>
+
+<pb n="0465C"/>.
+<item>CAP. X. De conversione gentis Iberorum per captivam
+facta.</item>
+
+<pb n="0465C"/>
+ per eam fratri insinuato.
+<item>CAP. XII. De Alexandri, et Eusebii, atque Arii conflictu.</item>
+<item>CAP. XIII. De probroso Arii interitu.</item>
+<item>CAP. XIV. De Athanasii Episcopi principiis.</item>
+
+<pb n="0466B"/> Imperatoris errore.
+
+
+<pb n="0465B"/>
+<list>
+<item>CAP. XX. De Concilio apud Mediolanum habito, et
+exiliis Eusebii, Luciferi, caeterorumque
+Episcoporum catholicorum.</item>
+</list>
+<list>
+<item>CAP. XVIII. De fuga et latebris Athanasii.</item>
+</list>
+<list>
+<item>CAP. XVI. <emph>215-216</emph> De concilio haereticorum apud
+Tyrum contra Athanasium congregato.</item>
+<item>CAP. XVII. De exciso brachio Arsenii, caeterisque
+dolis haereticorum in concilio retectis.</item>
+        </list>
+
+<pb n="0466C"/>.
+<item>CAP. XIX. Ut Constans Imperator, pro Athanasio,
+fratri Constantio scripserit, eumque Ecclesiae
+suae reddi jusserit.</item>
+
+<pb n="0466C"/>.
+<item>CAP. XXI. De Ariminensi concilio.</item>
+
+<pb n="0466A"/>
+<list>
+<item>CAP. XXVI. De fine Constantini Imperatoris, et ortu
+Juliani.</item>
+</list>
+<list>
+<item>CAP. XXII. De Liberio Episcopo urbis Romae.</item>
+<item>CAP. XXIII. De Jerosolymorum et Alexandriae Episcopis.</item>
+<item>CAP. XXIV. De permixtione Episcoporum apud Antiochiam.</item>
+<item>CAP. XXV. De schismate Arianorum, quod in tres
+partes divisum est, et quidam eorum Eunomiani,
+alii Macedoniani, alii vero permanserunt
+Ariani.</item>
+        </list>
+
+<pb n="0466C"/>.
+<item>CAP. XXVII. De Episcopis ab exilio relaxatis.</item>
+<item>CAP. XXVIII. De Concilio apud Alexandriam sanctorum
+Episcoporum, et Luciferi ab his dissidio.</item>
+<item>CAP. XXIX. De his quae in eodem Concilio statuta
+sunt.</item>
+<item>CAP. XXX. De Eusebio et Hilario, atque Ecclesiarum
+per eos restitutione.</item>
+<item>CAP. XXXI. De scriptis Hilarii.</item>
+<item>CAP. XXXII. De persecutionibus Juliani blandis et callidis.</item>
+<item>CAP. XXXIII. De saevitia ejus erga Athanasium.</item>
+
+<pb n="0466B"/>
+<list>
+<item>CAP. XXXVII. De Judaeorum conatibus, qui a Juliano
+decepti, templum in Jerosolymis.</item>
+</list>
+<list>
+<item>CAP. XXXV. De sepulcro martyris Babylae.</item>
+</list>
+<list>
+<item>CAP. XXXIV. De fuga rursum et latebris Athanasii.</item>
+        </list>
+
+<pb n="0466C"/>.
+<item>CAP. XXXVI. De Theodoro Confessore apud Antiochiam.</item>
+
+<pb n="0466C"/> reaedificant.
+<item>CAP. XXXVIII. Ut terraemotu inibi, et igni divinitus accenso,
+Judaei ab illicitis disturbabantur
+inceptis.</item>
+<item>CAP. XXXIX. De signis et virtutibus terrificis, quae in
+exitium conversa sunt Judaeorum.</item>
+
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>LIBER PRIMUS.</hi> </head>
+<div2>
+          <head>CAPUT PRIMUM. <hi>De Arii haeresi.</hi> </head>
+<pb n="0467A"/>
+<p> <emph>217-218</emph> Cum apud Alexandriam post Achillam,
+qui Petro Martyri successerat, Alexander sacerdotium
+suscepisset, quia pax nostris et quies a
+persecutionibus erat, atque Ecclesiarum gloria Confessorum
+meritis gaudebat: prosperitas rerum nostrarum
+domestica contentione turbatur. Etenim presbyter
+quidam apud Alexandriam, Arius nomine,
+vir specie et forma magis, quam virtute religiosus,
+sed gloriae laudisque et novitatis improbe cupidus,
+prava quaedam de fide Christi proferre, et quae antea
+in quaestionem nunquam venerant, coepit: abscidere
+ac separare ab illa aeterna et ineffabili Dei Patris
+<pb n="0467B"/>
+substantia, vel natura Filium conabatur. Quae
+res plurimos in Ecclesia conturbabat. Sed cum
+Alexander Episcopus natura lenis et quietus, assiduis
+commonitionibus Arium cuperet a pravo incepto
+et assertionibus impiis revocare, nec tamen res ex
+sententia procederet, quod plerosque jam contagio
+pestiferae assertionis infecerat, non solum apud
+Alexandriam, verum et per alias urbes provinciasque
+dispersa: perniciosum fore credens; si dissimularet
+ a talibus, plurimis consacerdotibus suis rem
+indicat. Quaestio latius innotescit. Sermo usque ad
+aures religiosi principis, quippe qui omni studio et
+diligentia curaret, quae nostra sunt, pervenit. Tum
+ille ex sacerdotum sententia apud urbem Nicaeam
+Episcopale Concilium convocat <hi>(Anno CCCXXV)</hi>, ibique
+<pb n="0467C"/>
+Arium trecentis decem et octo Episcopis residentibus
+<pb n="0468A"/>
+adesse jubet, ac de ejus propositionibus, et
+quaestionibus judicari.</p>
+        </div2>
+<div2>
+          <head>CAPUT II. <hi>De Concilio apud Nicaeam congregato.</hi> </head>
+<p>Sed et in eo Concilio admirabile factum Principis
+non puto reticendum. Etenim cum ex omnibus pene
+locis Episcopi convenissent, et (ut fieri solet) diversis
+ex caussis inter se quaedam jurgia detulissent,
+interpellabatur frequenter a singulis: offerebantur
+libelli, culpae proferebantur, et magis ad haec, quam ad
+id, pro quo ventum fuerat, animos dabant. At ille videns
+quod per hujusmodi <hi>[Al. hujuscemodi]</hi> jurgia caussa
+summi <emph>219</emph> negotii frustraretur, diem certam <hi>[Al. certum]</hi> 
+<pb n="0468B"/>
+statuit, qua unusquisque Episcoporum si quid
+querimoniae habere videretur, deferret. Et cum resedisset,
+suscepit a singulis libellos: quos simul omnes
+in sinu suo continens, nec in eis quid contineretur
+aperiens, ait ad Episcopos: Deus vos constituit
+sacerdotes, et potestatem vobis dedit de nobis <hi>[Al.
+de vobis]</hi> quoque judicandi, et ideo nos a vobis recte
+judicamur. Vos autem non potestis ab hominibus
+judicari. Propter quod Dei solius inter vos exspectate
+judicium, et vestra jurgia quaecumque sunt, ad illud
+divinum reserventur examen. Vos etenim nobis a Deo
+dati estis dii, et conveniens non est ut homo judicet
+deos; sed ille solus de quo scriptum est: <hi>Deus stetit
+in synagoga deorum, in medio autem deos discernit <note>(Psal. 81. 1.)</note>
+            </hi>.
+Et ideo his omissis, illa quae ad fidem
+<pb n="0468C"/>
+Dei pertinent, absque ulla animorum contentione
+<pb n="0469A"/>
+distinguite. Quum haec dixisset, omnes simul querimoniarum
+libellos jussit exuri, ne innotesceret ulli
+hominum simulatio sacerdotum. Verum quum per
+dies multos in Episcoporum Concilio de fide quaestio
+verteretur, et nonnulli diversa sentirent, ac vehementer
+coeptis Arii faverent, plures tamen erant qui
+impium <hi>[Ms. imperium]</hi> exsecrarentur inceptum. Cumque
+in eodem Concilio esset Confessorum magnus
+numerus sacerdotum, omnes Arii novitatibus adversabantur.
+Favebant vero ei viri in quaestionibus callidi.
+et ob id simplicitati fidei adversi.</p>
+        </div2>
+<div2>
+          <head>CAPUT III. <hi>De conversione Philosophi Dialectici.</hi> </head>
+<p>Quantam vero virtutem habeat fidei simplicitas,
+<pb n="0469B"/>
+etiam ex his quae inibi gesta referuntur, agnoscimus.
+Etenim cum pro studio religiosi Imperatoris, ex omni
+terra sacerdotes Dei coissent, <emph>220</emph> opinione commoti
+philosophi quoque et dialectici valde nobiles,
+et opinatissimi convenerunt. In quibus quidam insignis
+in arte Dialectica, per dies singulos, conflictus
+summi certaminis cum Episcopis nostris, viris
+adaeque in Dialectica non improbabiliter eruditis,
+movebat: et fiebat ingens spectaculum, convenientibus
+ad audiendum doctis et litteratis viris. Nec
+tamen ullo genere philosophus concludi a quoquam
+poterat, aut constringi. Tanta etenim dicendi arte
+objectis quaestionibus occurrebat, ut ubi maxime putaretur
+adstrictus, velut anguis lubricus elaberetur.
+Sed ut ostenderet Deus, quia non in sermone regnum
+<pb n="0469C"/>
+Dei, sed in virtute consistit, quidam ex Confessoribus
+simplicissimae naturae vir, et nihil aliud
+sciens nisi Jesum Christum, et hunc crucifixum, inter
+caeteros auditores Episcopos <hi>[Ms. episcopus]</hi> aderat.
+Qui cum vidisset philosophum insultantem nostris,
+et callida se disputationis arte jactantem, poscit ab
+omnibus locum: velle se paucis cum philosopho
+sermocinari. Tum vero nostri, qui simplicitatem
+viri et imperitiam in <hi>[Al. de]</hi> sermone duntaxat nossent,
+pavere, et velut pudorem quemdam pati, ne
+forte apud callidos homines risui efficeretur sancta
+<pb n="0470A"/>
+simplicitas. Perstitit tamen senior, et hinc movit
+sermonis exordium. In nomine, inquit, Jesu Christi,
+philosophe, audi quae vera sunt. Deus unus est qui
+fecit caelum et terram, quique homini, quem de terrae
+limo formaverat <note>(Gen. 1.)</note>, spiritum dedit: universa
+quae videntur, et quae non videntur, virtute Verbi
+sui creavit, et Spiritus sui sanctificatione firmavit.
+Hoc Verbum ac sapientia, quem nos Filium dicimus,
+humanos miseratus errores, ex Virgine nascitur, et
+per passionem mortis a perpetua nos morte liberavit,
+ac resurrectione sua aeternam nobis contulit vitam.
+Quem <emph>221</emph> et exspectamus judicem omnium,
+quae gerimus esse venturum: credis hoc <hi>[Al. haec]</hi> 
+ita esse, philosophe? At ille velut si nunquam ullum
+sermonem contradicendi didicisset, ita obstupefactus
+<pb n="0470B"/>
+virtute dictorum, mutus ad omnia, hoc solum potuit
+respondere, ita sibi videri, nec aliud verum esse,
+quam dixerat. Tum senior: Si haec, inquit, ita esse
+credis, surge et sequere me ad Dominicum, et hujus
+fidei signaculum suscipe. Et philosophus conversus
+ad discipulos suos, vel ad eos, qui audiendi gratia
+convenerant: Audite, inquit, o eruditi viri, donec
+verbis mecum gesta res est, verba verbis opposui, et
+quae dicebantur, dicendi arte subverti: ubi vero pro
+verbis virtus processit ex ore dicentis, non potuerunt
+resistere verba virtuti, nec homo adversari potuit
+Deo. Et ideo si quis vestrum potuit in his quae dicta
+sunt sentire quae sensi, credat Christo, et sequatur
+hunc senem, in quo loquutus est Deus. Ita philosophus
+Christianus effectus, tandem se gratulatus est
+<pb n="0470C"/>
+victum.</p>
+        </div2>
+<div2>
+          <head>CAPUT IV. <hi>De Paphnutio Confessore.</hi> </head>
+<p>Fuit praeterea in illo Concilio et Paphnutius, homo
+Dei, Episcopus ex Aegypti partibus, Confessor ex
+illis quos Maximianus dexteris oculis effossis, et
+sinistro poplite succiso, per metalla damnaverat. Sed
+in hoc tanta virtutum inerat gratia, ut signa per
+eum non minus, quam dudum per Apostolos fierent.
+Nam et daemones verbo tantum <hi>[Ms. tantummodo]</hi> 
+<pb n="0471A"/>
+fugabat, et aegros <hi>[Al. aegrotos]</hi> sola oratione curabat:
+sed et caecis visum dicitur reddidisse, et paralyticos
+ad stabilitatem corporis <hi>[Al. corporum]</hi> revocasse.
+Quem Constantinus in tanta veneratione, et affectu
+habuit, ut saepius eum intra palatium evocatum complecteretur,
+et illum oculum, qui in confessione fidei
+fuerat evulsus, avidioribus osculis demulceret.</p>
+        </div2>
+<div2>
+          <head>CAPUT V. <hi>De Spiridione Episcopo, et mirabilibus ejus.</hi> </head>
+<p> <emph>222</emph> Ex eorum numero, et si quid adhuc eminentius,
+fuisse dicitur etiam Spiridion Cyprius Episcopus,
+vir unus ex ordine prophetarum, quantum
+etiam nos eorum, qui eum viderant narratione
+comperimus. Hic pastor ovium etiam in Episcopatu
+<pb n="0471B"/>
+positus permansit. Quadam vero nocte cum ad caulas
+fures venissent, et manus improbas, quo aditum
+educendis ovibus facerent, extendissent, invisibilibus
+quibusdam vinculis restricti, usque ad lucem velut
+traditi tortoribus permanserunt. Cum vero oves
+ducturus ad pascua matutinus se ageret senior, videt
+juvenes absque humanis vinculis in caulis pendere
+districtos. Cumque causam noxae comperisset, absolvit
+sermone, quos meritis vinxerat: et ne eis inanis
+nocturna cederet occupatio: Tollite, inquit, o juvenes,
+unum vobis arietem, ne sine caussa venisse
+videamini, quem melius prece, quam furto quaesisse
+convenerat. Tradunt de hoc etiam illud factum mirabile:
+filiam habuit Irenem nomine, quae ei cum bene
+ministrasset virgo defuncta est. Post ejus obitum
+<pb n="0471C"/>
+venit quidam dicens, se ei quoddam depositum commendasse.
+Rem gestam ignoraverat pater. Perquisitum
+in tota domo, nusquam quod poscebatur inventum
+est. Persistebat tamen ille, qui commendaverat,
+et fletu ac lacrymis perurgebat: vitae suae quoque
+illaturum se esse exitium, nisi commendata reciperet,
+testabatur. Permotus lacrymis ejus senex, ad
+sepulcrum filiae properat, atque eam ex nomine
+clamitat. Tum illa de sepulcro Quid vis, ait, pater?
+Commendatum, inquit, illius ubi posuisti? At illa
+locum designans, illic, ait, invenies defossum. Regressus
+ad domum, rem sicut filia de sepulcro responderat,
+repertam tradidit reposcenti. Sed et multa
+alia ejus feruntur <emph>223</emph> gesta mirabilia, quae etiam
+<pb n="0472A"/>
+nunc ore omnium celebrantur. Tales igitur in illis
+adhuc temporibus permulti viri in Ecclesiis Domini
+refulgebant, ex quibus plurimi in illo Concilio fuerunt.
+Sed et Athanasius eodem tempore Alexandri
+diaconus Alexandrini Episcopi, aderat consiliis senem
+quamplurimis juvans. Interea per dies singulos agitabatur
+conventus, nec facile aut temere de re tanta
+statuere audebant. Evocabatur frequenter Arius in
+Concilium, et assiduo tractatu assertiones ejus discutiebantur,
+et quid adversum haec teneri deberet, aut
+statui, summa cum libratione quaerebatur. Verum
+post diutinum multumque tractatum placet omnibus,
+ac velut uno cunctorum ore et corde decernitur <foreign xml:lang="greek">ὁμοούσιον</foreign>
+ scribi debere, idest, ejusdem cum Patre
+substantiae Filium confiteri, idque firmissima omnium
+<pb n="0472B"/>
+sententia pronuntiatur. Decem et septem soli tunc
+fuisse dicuntur, quibus Arii fides magis placeret,
+extrinsecus creatum Dei Filium ex nullis substantibus,
+et non ex ipsa Patris deitate progenitum confirmantes.
+Defertur ad Constantinum sacerdotalis
+Concilii sententia. Ille tanquam a Deo prolatam veneratur.
+Cui si quis tentasset obniti, velut contra
+divina statuta venientem, in exilium se protestatur
+acturum. Sex igitur soli cum Ario se patiuntur expelli:
+reliqui vero undecim, consilio inter se habito,
+adquiescunt ad subscribendum manu sola, non mente.
+Cujus simulationis auctor praecipue extitit Nicomediae
+Episcopus Eusebius. Interim quoquo modo aliis
+veritate, aliis simulatione (sicut post exitus docuit)
+subscribentibus, et de singulis quibusque Ecclesiasticis
+<pb n="0472C"/>
+observationibus certa statuta figentibus, Concilium
+diremptum est. Exemplum autem expositionis
+fidei eorum, qui convenerant, infra scriptum
+est.</p>
+        </div2>
+<div2>
+          <head>CAPUT VI. <hi>Exemplum fidei Nicaenae <note>(Ann. 324.)</note>
+            </hi>.</head>
+<p> <emph>224</emph> Credimus in unum Deum, Patrem Omnipotentem,
+omnium visibilium et invisibilium factorem.
+Et in unum Dominum nostrum Jesum Christum,
+Filium Dei, de Patre natum Unigenitum, idest, de
+substantia Patris, Deum ex Deo, lumen ex lumine,
+Deum verum ex Deo vero, natum, non factum, <foreign xml:lang="greek">ὁμοούσιον</foreign>
+ Patri, hoc est, ejusdem cum Patre substantiae:
+per quem omnia facta sunt, quae in caelo et
+<pb n="0473A"/>
+quae in terris. Qui propter nos et propter nostram
+salutem descendit, et incarnatus est homo factus,
+passus est, et resurrexit tertia die, et ascendit in
+caelos: inde venturus judicare vivos et mortuos. Et
+in Spiritum Sanctum. Eos autem, qui dicunt, erat
+aliquando, quando non erat, et antequam nasceretur
+non erat, et quia ex nullis substantibus factus est,
+aut ex alia subsistentia, vel substantia, dicunt esse <foreign xml:lang="greek">τρέπτον,</foreign>
+ aut convertibilem, vel mutabilem Filium
+Dei, anathematizat catholica et Apostolica Ecclesia.</p>
+<p divs_removed="true">
+            <emph>Canones Nicaeni.</emph>
+
+          </p>
+          <div3 moved_from_p="true">
+              <head>1.</head>
+            <p>
+ Statuunt praeterea observandum esse in Ecclesiis,
+Ne quis ex his qui semetipsos impatientia libidinis
+exciderunt, veniret ad clerum.
+</p>
+          </div3>
+          <pb n="0473B"/>
+
+<div3>
+            <head>II. </head>
+            <p>
+Et ne quis nuper assumtus ex vita, vel conversatione
+Gentili, accepto baptismo, antequam cautius
+examinetur, clericus fiat.</p>
+          </div3>
+<div3>
+            <head>III.</head>
+            <p>
+ Et ne quis Episcoporum caeterorumque clericorum,
+cum extraneis mulieribus habitet, praeterquam
+cum matre, vel sorore, vel <foreign xml:lang="greek">θείᾳ,</foreign> vel si quae
+sunt hujusmodi necessitudinum personae.</p>
+          </div3>
+<div3>
+            <head>IV.</head>
+            <p>
+ Et ut Episcopus (si fieri potest) a totius provinciae
+Episcopis ordinetur. Si hoc difficile est, certe
+non minus, quam a tribus: ita tamen, ut Metropolitani
+Episcopi maxime, vel <emph>225</emph> praesentia, vel auctoritas
+habeatur. Absque quo ordinationem irritam
+esse voluerunt.</p>
+          </div3>
+<div3>
+            <head>V.</head>
+            <p>
+ Et ne, quem alius Episcopus de Ecclesia expulerit,
+<pb n="0473C"/>
+sive clericum, sive laicum, suscipiat alius. Sane
+ne hoc aut iracundia aliqua, aut contentione (ut fieri
+solet) injuste factum remedium non haberet, decernunt
+per singulos annos in singulis quibusque provinciis
+secundo ab omnibus Episcopis provincialibus
+concilia agi debere, et de hujuscemodi negotiis judicari,
+ut si forte ab uno inique aliquid gestum est,
+a caeteris emendetur. Si recte, ut ab omnibus confirmetur.</p>
+          </div3>
+<div3>
+            <head>VI.</head>
+            <p>
+ Et ut apud Alexandriam, et in urbe Roma,
+vetusta consuetudo servetur, ut vel ille Aegypti, vel
+hic suburbicariarum Ecclesiarum sollicitudinem
+gerat.</p>
+          </div3>
+<div3>
+            <head>VII.</head>
+            <p>
+ Et ut si forte in ordinando Episcopo, duo vel
+tres pro aliqua contentione dissentiant, reliquorum
+<pb n="0474A"/>
+auctoritas, et praecipue Metropolitani cum caeteri
+firmior habeatur.</p>
+          </div3>
+<div3>
+            <head>VIII.</head>
+            <p>
+ Et ut Episcopo Jerosolymorum antiquitus tradita
+honoris praerogativa servetur, manente nihilominus
+et Metropolitani ipsius provinciae dignitate.</p>
+          </div3>
+<div3>
+            <head>IX.</head>
+            <p>
+ Et ut Catharos (qui apud nos Novatiani sunt) si
+forte poenitentes ad Ecclesiam convertantur, confessos
+Ecclesiastica dogmata, clericos in ordine quidem
+suo suscipi debere: sed in ordinatione data. Sane
+si Episcopus ipsorum veniat ad Episcopum nostrum,
+debere eum in Presbyterorum loco sedere. Episcopi
+vero nomen manere apud illum solum, qui catholicam
+semper tenuit fidem, nisi sua voluntate ipse eum tali
+nomine honorare voluerit: vel si placuerit, ut quaerat
+ei Episcopi locum vacantem, hoc sit in ipsius potestate.
+<pb n="0474B"/>
+</p>
+          </div3>
+<div3>
+            <head>X. </head>
+            <p>
+Et ne in una civitate duo sint Episcopi.</p>
+          </div3>
+<div3>
+            <head>XI.</head>
+            <p>
+ Et si qui forte indiscrete ad <emph>226</emph> Sacerdotium
+provecti, postmodum vel ipsi aliquid de se criminosum
+confessi sunt, vel ab aliis revicti, ut abjiciantur:
+sed et si qui ex his qui lapsi sunt, et per
+ignorantiam forte ordinati, recogniti fuerint, ut abjiciantur.</p>
+          </div3>
+<div3>
+            <head>XII.</head>
+            <p>
+ Et si qui absque tormentis in persecutionibus
+lapsi sunt, et ex corde agunt poenitentiam, quinque
+annos inter Catechumenos faciant, et duobus annis
+post hoc fidelibus tantum in oratione jungantur; et
+ita postmodum suscipiantur.</p>
+          </div3>
+<div3>
+            <head>XIII.</head>
+            <p>
+ Qui vero propter confessionem militiam abjecerant,
+et rursum ad hanc abierunt, hos tredecim
+<pb n="0474C"/>
+annis poenitentiam gerere, et postea suscipi, si
+tamen ex corde poenitentiam gerant. Esse tamen in
+potestate Episcopi moderandi facultatem, si eorum
+fructuosam et attentam poenitentiam viderit.</p>
+          </div3>
+<div3>
+            <head>XIV.</head>
+            <p>
+ De his vero qui vita excedunt poenitentibus,
+decernunt, vacuum nullum debere dimitti. Si quis
+sane accepta communione supervixerit, debere eum
+tempora statuta complere, vel certe prout moderari
+Episcopus voluerit.</p>
+          </div3>
+<div3>
+            <head>XV.</head>
+            <p>
+ De Catechumenis qui prolapsi sunt, statuerunt
+tribus annis eos a Catechumenorum oratione separatos,
+postea recipi debere.</p>
+          </div3>
+<div3>
+            <head>XVI.</head>
+            <p>
+ Et ne de civitate inferiori ad majorem Ecclesiam
+transire quis ambiat sive Episcopus, sive
+etiam alius clericus.
+<pb n="0475A"/>
+</p>
+          </div3>
+<div3>
+            <head>XVII. </head>
+            <p>
+Et ne quis clericus qui derelicta Ecclesia
+sua, nulla existente caussa probabili, vagatur et oberrat
+per alias Ecclesias, suscipiatur in communionem.</p>
+          </div3>
+<div3>
+            <head>XVIII.</head>
+            <p>
+ Et ut nemo eum qui ad alium pertinet, subripiens,
+in sua Ecclesia ordinet clericum absque consensu
+illius ad quem pertinet.</p>
+          </div3>
+<div3>
+            <head>XIX.</head>
+            <p>
+ Et ne quis clericus aut usuras accipiat, aut
+frumenti vel vini ampliationem, quod solet in novo
+datum, vel sexcuplum, vel etiam duplum <emph>227</emph> recipi:
+quod si faciat, tanquam turbis lucri reum abjiciendum.</p>
+          </div3>
+<div3>
+            <head>XX.</head>
+            <p>
+ Et ne Diaconi Presbyteris praeferantur, neve
+sedeant in consessu Presbyterorum, aut illis praesentibus,
+Eucharistiam dividant, sed illis agentibus
+<pb n="0475B"/>
+solum ministrent. Si vero Presbyter nullus sit in
+praesenti, tunc demum etiam ipsis licere dividere:
+aliter vero agentes, abjici jubent.</p>
+          </div3>
+<div3>
+            <head>XXI.</head>
+            <p>
+ Et ut Paulianistae, qui sunt Photiniani, rebaptizentur.</p>
+          </div3>
+<div3>
+            <head>XXII.</head>
+            <p>
+ Sed et Diaconissas, quoniam quidem manus
+Impositionem non accipiunt, etiam ipsas inter laicos
+esse debere.
+</p>
+            <p>Igitur cum de his, prout divinarum legum reverentia
+poposcerat, decrevissent, sed et de observatione
+Paschae antiquum canonem, per quem nulla de
+reliquo varietas oriretur, Ecclesiis tradidissent, omnibus
+rite dispositis, Ecclesiarum pax et fides in
+Orientis atque Occidentis partibus una atque eadem
+servabatur.</p>
+          </div3>
+        </div2>
+<div2>
+          <head>CAPUT VII. <hi>De Helena Constantini matre.</hi> </head>
+
+<pb n="0475C"/>
+<p>Per idem tempus Helena Constantini mater, foemina
+incomparabilis <hi>[Ms. incomparabili]</hi> fide et religione
+animi, ac magnificentia singulari, cujus jure
+Constantinus et esset filius et crederetur, divinis admonita
+visionibus, Jerosolymam petit, atque ibi
+locum in quo sacrosanctum corpus Christi patibulo
+<pb n="0476A"/>
+affixum pependerat, ab incolis perquirit. Qui idcirco
+ad inveniendum difficilis erat, quod ab antiquis persecutoribus
+simulacrum in eo Veneris fuerat defixum <hi>[Al. adfixum]</hi>,
+ut si quis Christianorum in loco
+illo <emph>228</emph> Christum adorare voluisset, Venerem videretur
+adorare. Et ob hoc infrequens et pene oblivioni
+datus fuerat locus. Sed cum (ut supra diximus)
+religiosa foemina properasset ad locum caelesti
+sibi indicio designatum, cuncta ex eo prophana et polluta
+deturbans, in altum purgatis ruderibus, tres confuso
+ordine reperit <hi>[Al. comperit]</hi> cruces. Sed obturbabat
+reperti muneris laetitiam uniuscujusque crucis indiscreta
+proprietas. Aderat quidem et titulus ille, qui Graecis,
+et Latinis, atque Hebraicis litteris a Pilato fuerat
+conscriptus: sed nec ipse satis evidenter dominici prodebat
+<pb n="0476B"/>
+signa patibuli. Hinc jam humanae ambiguitatis
+incertum, divinum flagitat testimonium. Accidit
+in eadem urbe primariam quandam loci illius foeminam
+gravi aegritudine confectam, seminecem jacere.
+Macarius per idem tempus Ecclesiae illius Episcopus
+erat. Is ubi cunctantem reginam atque omnes pariter
+qui aderant, videt: Adferte (inquit) huc totas, quae
+repertae sunt cruces, et quae sit quae portaverit Dominum <hi>[Al. Deum]</hi>,
+nunc nobis adaperiet Deus. Et
+ingressus cum regina pariter et populis ad eam, quae
+decumbebat, defixis genibus hujuscemodi ad Deum
+precem profudit.</p>
+        </div2>
+<div2>
+          <head>CAPUT VIII. <hi>De Cruce Salvatoris in Jerosolymis ab Helena reperta.</hi> </head>
+<p>Tu, Domine, qui per unigenitum Filium tuum salutem
+<pb n="0476C"/>
+generi humano per passionem crucis conferre
+dignatus es, et nunc in novissimis temporibus adspirasti
+in corde ancillae tuae perquirere lignum beatum,
+in quo salus <emph>229</emph> nostra pependit, ostende evidenter
+ex his tribus, quae crux fuerit ad dominicam
+gloriam, vel quae extiterit ad servile supplicium, ut
+haec mulier, quae semiviva decumbit, statim ut eam
+lignum salutare contigerit, a mortis januis revocetur
+<pb n="0477A"/>
+ad vitam. Et cum haec dixisset, adhibuit primo
+unam ex tribus, et nihil profecit. Adhibuit secundam,
+et ne sic quidem aliquid actum est. Ut vero admovit
+tertiam, repente adapertis <hi>[Al. apertis]</hi> oculis
+mulier consurrexit, et stabilitate virium recepta,
+aiacrior multo, quam cum sana fuerat, tota domo
+discurrere et magnificare Dei <hi>[Al. Domini]</hi> potentiam
+coepit. Sic evidenti indicio Regina voti compos effecta,
+templum mirificum in eo loco in quo crucem
+repererat, regia ambitione construxit. Clavos quoque,
+quibus corpus Dominicum fuerat affixum, portat
+ad filium. Ex quibus ille frenos composuit, quibus
+uteretur ad bellum: et ex <hi>[Al. tac. ex]</hi> aliis galeam
+nihilominus belli usibus aptam fertur armasse.
+Ligni vero ipsius salutaris partem detulit filio, partem
+<pb n="0477B"/>
+vero thecis argenteis conditam dereliquit in loco:
+quae etiam nunc ad memoriam solicita veneratione
+servatur. Reliquit etiam hoc indicium religiosi animi
+Regina venerabilis: Virgines quas ibi reperit Deo
+sacratas, invitasse ad prandium, et tanta eas devotione
+curasse dicitur, ut indignum crederet, si famulorum
+uterentur officiis, sed ipsa manibus suis, famulae
+habitu succincta, cibum apponeret, poculum
+porrigeret, aquam manibus infunderet, et Regina
+orbis ac mater imperii, famularum Christi se famulam
+deputaret. Et haec quidem Jerosolymis gesta.
+ Interea Constantinus pietate fretus, Sarmatas, Gothos,
+aliasque barbaras nationes, nisi quae vel amicitiis,
+vel deditione sui, pacem <emph>230</emph> praevenerant, in
+solo proprio armis edomuit. Et quanto magis se religiosius
+<pb n="0477C"/>
+ac humilius Deo subjecerat, tanto amplius ei
+Deus universa subdebat. Ad Antonium quoque primum
+eremi habitatorem, velut ad unum ex prophetis
+litteras, supliciter mittit, ut pro se ac liberis
+Domino supplicaret. Ita non solum meritis suis, ac
+religione matris, sed et intercessione sanctorum
+commendabilem se Deo fieri gestiebat. Sane quoniam
+tanti viri Antonii fecimus mentionem, de virtutibus
+<pb n="0478A"/>
+ejus atque institutis, et sobrietate mentis, ut
+in solitudine vitam degens, usus solummodo consortio
+fuerit bestiarum, et de daemonibus crebros agens
+triumphos, placuerit Deo supra cunctos mortales,
+utque institutionis suae praeclara usque in hodiernum
+monachis exempla reliquerit, volentem me aliqua
+exponere ille libellus exclusit, qui ab Athanasio scriptus,
+etiam Latino sermone editus est. Propter
+quod nos, omissis his quae ab aliis jam dicta sunt, ea
+memorabimus, quae quamvis gestorum contineat fides,
+ab his tamen qui longe positi sunt, obscurior
+fama subtraxit.</p>
+        </div2>
+<div2>
+          <head>CAPUT IX. <hi>De captivitate Frumentii et Edesii, et de conversione Indorum per ipsos gesta.</hi> </head>
+
+<pb n="0478B"/>
+<p>In ea divisione orbis terrae, quae ad praedicandum
+verbum Dei sorte per Apostolos celebrata est,
+cum aliae aliis provinciae obvenissent, Thomae
+Parthia, et Matthaeo Aethiopia, eique adhaerens
+citerior India Bartholomaeo dicitur sorte decreta. Inter
+quam Parthiamque media, sed longo <hi>[Al. longe]</hi> 
+interior tractu, India ulterior jacet, multis variisque
+linguis et gentibus habitata, quam velut longe
+remotam, nullus Apostolicae praedicationis vomer <emph>231</emph> 
+ impresserat, quae tamen temporibus Constantini
+tali quadam ex caussa semina fidei prima suscepit.
+Metrodorus quidam philosophus, inspiciendorum
+locorum, et orbis perscrutandi gratia, ulteriorem
+dicitur Indiam penetrasse. Cujus exemplo
+<pb n="0478C"/>
+etiam invitatus Meropius quidam Tyrius philosophus
+simili ex caussa adire Indiam voluit, liabens
+secum duos puerulos, quos liberalibus litteris utpote
+propinquos instituebat. Quorum unus qui erat junior
+Edesius, alter Frumentius vocabatur. Igitur
+pervisis, et in notitiam captis his quibus animus pascebatur,
+cum philosophus redire caepisset, aquae
+vel caeterorum necessariorum caussa ad portum
+<pb n="0479A"/>
+quendam navis, qua vehebatur applicuit <hi>[Al. applicavit]</hi>.
+Moris est inibi Barbarorum, ut siquando foedus
+sibi cum Romanis turbatum vicinae nuntiaverint <hi>[Al. nuntiaverunt]</hi> 
+ gentes, omnes qui apud eos ex
+Romanis inventi fuerint jugulentur. Invaditur navis
+philosophi: cuncti cum ipso pariter perimuntur.
+Pueruli reperti sub arbore meditantes, et lectiones
+suas parantes, Barbarorum miseratione servati, ducuntur
+ad regem. Horum ille alterum, id est, Edesium
+sibi pincernam fecit. Frumentio vero, quem
+quasi perspicacem deprehenderat et prudentem, rationes
+suas scriniaque commisit. Ex quo et in honore
+magno apud regem habiti, et in amore. At vero
+moriens rex, uxorem cum parvulo filio regni dereliquit
+haeredem: adolescentibus autem quid vellent,
+<pb n="0479B"/>
+agendi dedit liberam facultatem. Quos tamen regina
+suppliciter exorat, tanquam quae nihil haberet in
+toto regno fidelius, ut secum, usquequo adolesceret
+filius, regendi regni sollicitudinem partirentur: et
+praecipue Frumentium, cujus prudentia ad moderandum
+sufficeret regnum. Nam alius fidem puram,
+et sobriam mentem simpliciter exhibebat. Idque
+dum agerent <hi>[Al. ageret]</hi>, et regni gubernacula Frumentius
+haberet in manibus, Deo mentem ejus et
+animos instigante <emph>232</emph> requirere sollicitius coepit,
+si qui inter negociatores Romanos Christiani essent,
+et ipsis potestatem maximam dare, ac monere, ut
+conventicula per loca singula facerent, ad quae
+Romano ritu orationis caussa confluerent. Sed et
+ipse multo magis eadem facere, et ita caeteros cohortari,
+<pb n="0479C"/>
+favore et beneficiis invitare, praestare quicquid
+opportunum fuisset, loca aedificiis, aliaque necessaria
+praebere, et omnimodo gestire, ut Christianorum
+inibi semen exsurgeret. Sed cum regius puer
+adolevisset, cui procurationem regni gerebant, expletis
+omnibus et ex fide traditis, multum licet detinentibus
+et rogantibus, ut manerent, regina vel filio,
+ad orbem tamen nostrum revertuntur. Et Edesio
+festinante Tyrum, parentes propinquosque revisere,
+Frumentius Alexandriam pergit, dicens,
+aequum non esse <hi>[Al. est]</hi> opus occultare Dominicum.
+Igitur rem omnem, ut gesta est exponit Episcopo,
+ac monet, ut provideat virum aliquem dignum,
+quem, congregatis jam plurimis Christianis, et Ecclesiis
+constructis in Barbarico solo, Episcopum
+<pb n="0479D"/>
+mittat. Tum vero Athanasius ( nam is nuper sacerdotium
+susceperat) attentius et propensius Frumentii
+dicta gestaque considerans, in concilio sacerdotum
+<pb n="0480A"/>
+ait: Et quem alium inveniemus virum talem, in
+quo sit spiritus Dei in ipso sicut in te, qui haec ita
+possit implere? Et tradito ei sacerdotio, redire eum
+cum Domini gratia, unde venerat, jubet. Quique
+cum Episcopus perrexisset ad Indiam, tanta ei data
+esse a Deo virtutum gratia dicitur, ut signa per eum
+Apostolica fierent, et infinitus numerus Barbarorum
+converteretur ad fidem. Ex quo in Indiae partibus et
+populi Christianorum et Ecclesiae factae sunt, et Sacerdotium
+caepit. Quae nos ita gesta, non opinione
+vulgi, sed ipso Edesio Tyri presbytero postmodum
+facto, qui Frumentii comes prius fuerat, referente
+cognovimus.</p>
+        </div2>
+<div2>
+          <head>CAPUT X. <hi>De conversione gentis Iberorum per captivam facta.</hi> </head>
+
+<pb n="0480B"/>
+<p> <emph>233</emph> Per idem tempus etiam Iberorum gens,
+quae sub axe Pontico jacet, verbi Dei foedera, et fidem
+futuri susceperat regni. Sed hujus tanti boni
+praestitit caussam mulier quaedam captiva, quae apud
+eos reperta, cum fidelem et sobriam satis ac pudicam
+duceret vitam, totisque diebus ac noctibus obsecrationes
+Deo pervigiles exhiberet, in admiratione
+esse ipsa rei novitas Barbaris caepit, et quid hoc sibi
+ velit, curiosius perquirebant. Illa, ut res erat.
+simpliciter Christum se Deum hoc ritu colere fatebatur.
+Nihil ex hoc amplius Barbari praeter novitatem
+nominis mirabantur. Verum (ut fieri solet) ipsa
+perseverantia curiositatem quandam mulierculis inferebat,
+si quid emolumenti ex tanta devotione caperetur.
+<pb n="0480C"/>
+Moris apud eos esse dicitur, ut si parvulus
+aegrotet, circumferatur a matre per singulas domos,
+quo scilicet si quis experti aliquid remedii noverit,
+conferat laboranti. Cumque mulier quaedam parvulum
+suum per omnes circumtulisset ex more, nec
+aliquid remedii, cunctas domos lustrando, caepisset,
+venit etiam ad captivam, ut si quid sciret, ostenderet.
+Illa se humani quidem remedii nihil scire testatur,
+Deum tamen suum Christum quem colebat, dare
+ei desperatam ab hominibus posse salutem, confirmat.
+Cumque cilicio suo parvulum superposuisset,
+atque ipsa desuper orationem fudisset ad Dominum,
+sanum matri reddidit infantem. Sermo defertur ad
+plures, factique fama magnifici usque ad aures reginae
+perlabitur. Quae dolore quodam gravissimo corporis
+<pb n="0480D"/>
+afflicta, in desperatione maxima erat. Rogat
+ad se captivam deduci. Illa ire abnuit, ne praesumere
+amplius aliquid quam sexus sineret, videretur.
+<pb n="0481A"/>
+Ipsam se regina <emph>234</emph> deferri ad captivae cellulam
+jubet. Quam similiter supra cilicium suum positam,
+invocato Christi nomine, continuo post precem, sanam
+et alacrem fecit exsurgere. Christumque esse
+Deum, Dei summi Filium, qui salutem hanc contulerit,
+docet: eumque quem sibi auctorem suae sciret
+esse incolumitatis et vitae, commonet invocandum.
+Ipsum namque esse, qui et regibus regna distribuat,
+et mortalibus vitam. At illa cum laetitia domum
+regressa, marito percontanti caussam tam subitae
+sanitatis aperuit, quique cum pro salute conjugis
+laetus, et mulieri munera deferri juberet, illa:
+Horum, inquit, o rex, nihil captiva dignatur: aurum
+despicit, argentum respuit, jejunio quasi cibo pascitur:
+hoc solum ei muneris dabimus, si eum, qui me,
+<pb n="0481B"/>
+illa invocante, sanavit, Christum Deum colamus.
+Ad hoc tunc rex segnior fuit, et interim distulit, saepius
+licet ab uxore commonitus, donec accidit quadam
+die venante eo in silvis cum comitibus suis,
+obscurari densissimis tenebris diem, et per tetrae
+noctis horrorem luce subducta, caecis iter gressibus
+denegari. Alius alio diversi ex comitibus oberrant,
+ipse solus densissima obscuritate circumdatus, quid
+ageret, quo se verteret nesciebat: cum repente anxios
+salutis desperatione animos cogitatio talis ascendit.
+Si vere <hi>[Al. vero]</hi> Deus est Christus ille, quem
+uxori suae captiva praedixerat, nunc se de his
+tenebris liberet, ut ipsum ex hoc omissis omnibus
+coleret. Illico ut haec nondum verbo, sed sola mente
+devoverat, reddita mundo dies, regem ad urbem
+<pb n="0481C"/>
+perducit incolumem. Quique reginae rem
+protinus ut gesta est pandit. Evocari jam jamque
+captivam, et colendi ritum ut sibi tradat, exposcit:
+neque <hi>[Al. nec]</hi> se ultra alium Deum quam
+Christum veneraturum esse confirmat. Adest captiva,
+edocet Deum Christum: supplicandi ritum <hi>[Al.
+ritus]</hi> venerandique modum, inquantum de his <emph>235</emph> 
+ aperire feminae fas erat, pandit. Fabricari tamen
+Ecclesiam monet, formamque describit. Igitur rex, totius
+gentis populo convocato, rem ab initio quae erga
+se ac reginam gesta fuerat, exponit, fidemque edocet,
+et nondum initiatus in sacris, fit suae gentis
+Apostolus. Credunt viri per regem, feminae per reginam:
+cunctisque idem volentibus Ecclesia exstruitur
+instanter: et elevato jam perniciter murorum
+<pb n="0481D"/>
+ambitu, tempus erat quo columnae collocari deberent.
+<pb n="0482A"/>
+Cumque erecta prima vel secunda, ventum
+fuisset ad tertiam, consumtis omnibus machinis, et
+boum hominumque viribus, cum media jam in obliquum
+fuisset erecta, et pars reliqua nullis machinis
+erigeretur, repetitis secundo et tertio ac saepius viribus,
+ne loco quidem moveri attritis omnibus potuit.
+Admiratio erat totius populi, regis animositas
+hebescebat: quid fieri deberet, omnes simul latebat.
+Sed cum interventu noctis omnes abscessissent,
+cunctique mortales et ipsa opera cessarent, captiva
+sola in oratione pernoctans mansit intrinsecus: cum <hi>[Al. cumque]</hi> 
+ ecce matutinus et anxius cum suis omnibus
+ingrediens rex, videt columnam, quam tot
+machinae ac tot populi movere non quiverant, erectam,
+et supra basim suam librate suspensam, nec
+<pb n="0482B"/>
+tamen superpositam, sed quantum unius pedis
+spatio in aere pendentem. Tunc vero omnes populi
+contuentes et magnificantes Deum, veram esse regis
+fidem, et captivae religionem praesentis miraculi
+testimonio perhibebant. Et ecce mirantibus adhuc
+et stupentibus cunctis, in oculis eorum sensim supra
+basim suam, nullo contingente, columna deposita,
+summa cum libratione consedit. Post hoc <hi>[Al. haec]</hi> 
+reliquus numerus columnarum tanta facilitate suspensus
+est, ut omnes quae superfuerant, ipsa die
+locarentur. Postea vero quam Ecclesia magnifice
+constructa est, et populi fidem Dei majore ardore
+sitiebant, captivae <emph>236</emph> monitis ad Imperatorem
+Constantinum totius gentis legatio mittitur: res
+gesta exponitur: sacerdotes mittere oratur, qui
+<pb n="0482C"/>
+caeptum erga se Dei munus explerent. Quibus ille
+cum omni gaudio et honore transmissis, multo amplius
+ex hoc laetatus est, quam si incognitas Romano
+imperio gentes et regna ignota junxisset. Haec nobis
+ita gesta, fidelissimus vir Bacurius, gentis ipsius
+rex, et apud nos Domesticorum Comes (cui summa
+erat cura et religionis et veritatis) exposuit, cum
+nobiscum Palaestini tunc limitis Dux, in Jerosolymis
+satis unanimiter degeret. Sed ad coeptum redeamus.</p>
+        </div2>
+<div2>
+          <head>CAPUT XI. <hi>De Constantia sorore Constantini, et Presbytero per eam fratri insinuato.</hi> </head>
+<p>Posteaquam religiosi Principis mater Helena summis
+Romani regni honoribus affecta, ex hac luce discessit,
+<pb n="0482D"/>
+Constantia tunc Licinii relicta, fratris Augusti
+<pb n="0483A"/>
+solatiis utebatur. Huic accidit presbyterum
+quendam venire in notitiam, latenter partibus Arii
+faventem. Sed is primo nihil omnino de his apud
+sororem Principis aperire: ubi vero multa familiaritas
+copiam tribuit, paulatim sermonem coepit
+aspergere <hi>[Al. aperire]</hi>, invidiam dicens Ario generatam,
+et. pro simultatibus privatis Episcopum
+suum rem contentiose exagitavisse, aemulationis stimulo
+confixum, quod Arius apud plebem satis carus
+haberetur. Haec atque hujusmodi alia frequentius
+suggerens, animos Constantiae suos effecit. Quae
+cum diem obitura, visitaretur a fratre, atque ab eo
+blande religioseque compellaretur, extremam dicitur
+ab eo gratiam poposcisse, ut presbyterum in
+familiaritatem reciperet, et quae sibi ab eo pro spe
+<pb n="0483B"/>
+et salute suggererentur, audiret: se quidem jam
+ex hac luce discedentem nihil curare: pro fratris
+vero statu <emph>237</emph> esse sollicitam, ne forte pro innocentium
+poenis, regni sui pateretur excidium. Quibus
+ille monitis a sorore susceptis, et fidelem pro se
+germanae sollicitudinem credens, accommodavit aurem
+presbytero: et interim accersiri de exilio Arium
+jubet, ut quemadmodum de fide sentiret, exponeret.
+Tum ille fidem conscripsit, quae non quidem sensum
+nostrum, tamen verba nostra continere professionemque
+videretur. Miratus quidem est Imperator,
+et putavit unam eandemque in ipsius et Concilii
+dudum gesti expositione sententiam contineri: tamen
+in nullo relaxat animi vigorem, sed rursus
+eum ad concilii remittit examen: quoniam quidem
+<pb n="0483C"/>
+ad dedicationem Jerosolymorum ex omni orbe coire
+sacerdotes invitabantur, haec ad eos de nomine ejus
+scribens, ut si expositionem fidei ejus probarent, et
+eum vel per invidiam, ut asserebat, tunc circumventum
+dinoscerent, vel nunc ab errore correctum, clementi
+erga ipsum judicio uterentur (quandoquidem
+<pb n="0484A"/>
+tanta fuerit Concilii moderatio, ut non in personam
+ejus, sed in dogmatum pravitatem fuerit lata sententia)
+si tamen et Episcopi ejus Alexandri accommodaretur
+assensus. Sed et ab his quidem qui
+primo coeptis ejus faventes, cum simulatione subscripserant,
+facile receptus est. Cum vero Alexandriam
+perrexisset, ibi omne ejus frustratur inceptum:
+quoniam quidem dolis apud ignorantes locus
+est, scientibus vero, dolum intendere, non aliud est
+quam risum movere. Interea dum haec apud
+Alexandriam frustra agitantur, venerabilis Augustus
+Constantinus <emph>238</emph> in suburbana villa Nicomediae
+trigesimo et primo imperii sui anno diem functus
+est, liberis de successione Romani orbis testamento
+haeredibus scriptis. Quo in tempore quoniam quidem
+<pb n="0484B"/>
+Constantius, cui Orientis regnum decreverat, praesens
+non erat, dicitur secreto accersiens presbyterum,
+quem a sorore commendatum supra diximus,
+et exinde familiariter habitum, tradidisse ei testamentum
+quod scripserat, et obtestatus sub sacramento,
+ne ulli nisi Constantio cum venisset, in manus
+traderet. Cui etiam quod eunuchi qui erant in
+Palatio favebant, arte indicio de Imperatoris morte
+suppresso usque ad Constantii praesentiam, multis
+nova tentantibus oppressis, res tutae integraeque
+remansere. Cum vero Constantius affuisset, depositum
+presbyter restituit. Cujus beneficii gratia Imperator
+regni cupidus, ita ei devinctus est, ut qui imperare
+cunctis ambierit, ab illo sibi imperari aequanimiter
+pateretur. Ex quo, devincto sibi Imperatore,
+<pb n="0484C"/>
+coepit de Arii restitutione suggerere, et nolentes adquiescere
+sacerdotes, uti cogeret, persuadere.</p>
+        </div2>
+<div2>
+          <head>CAPUT XII. <hi>De Alexandri, et Eusebii, atque Arii, conflictu.</hi> </head>
+<p>Ea tempestate apud Alexandriam Alexander, in
+<pb n="0485A"/>
+Jerosolymis Maximus confessor, apud Constantinopolim
+aeque Alexander, ut ex Athanasii scriptis
+comperimus, sacerdotio fungebantur. Sed Eusebius
+qui apud Nicomediam erat, de cujus simulatione <emph>239</emph> 
+ in subscribendo supra diximus, amplam temporis
+nactus occasionem, et Principi per presbyterum
+familiaris effectus, revolvere omnia, atque in
+irritum revocare Concilii gesta molitur. Arium nequicquam
+apud Alexandriam commorantem venire
+facit, et Imperialibus edictis concilium denuo Constantinopolim
+convocari. Quo convenere illi maxime,
+qui Arium atque Eusebium sectabantur, quique
+saepe cum Alexandro congressi, ut Arium susciperet,
+nec tamen aliquid profligantes, ab injuriis
+quidem ejus temperabant. Ad ultimum certam ei
+<pb n="0485B"/>
+diem statuentes denuntiant, ut aut ipse Arium susciperet,
+aut si reniteretur, se Ecclesia pulso et in
+exilium truso, ab alio eum suscipiendum sciret. Tum
+ille nocte <hi>[Al. noctem]</hi>, quae ad constitutam intererat
+diem, sub altari jacens, atque in oratione et lacrymis
+totam pervigilem ducens, Ecclesiae caussam
+Domino commendabat. Cumque lux fuisset exorta,
+nec tamen ab oratione Alexander cessaret, Eusebius
+cum suis omnibus velut haeretici belli signifer, domum
+Arii matutinus ascendit, eumque propere sequi
+ad Ecclesiam jubet, protestatus quod Alexander,
+nisi praesens adquiesceret, expulsus cederet loco.</p>
+        </div2>
+<div2>
+          <head>CAPUT XIII. <hi>De probroso Arii interitu.</hi> </head>
+<p>
+            <pb n="0486C"/>Igitur omnium summa expectatio, quo vel Alexandri
+perseverantia, vel Eusebii Ariique instantia declinaret.
+Cumque cunctorum animi essent, ut in tali
+re, expectatione suspensi, Arius ad Ecclesiam pergens,
+episcoporum et populorum frequentia constipatus, <emph>240</emph> 
+ humanae necessitatis caussa ad publicum
+locum declinat. Ubi <hi>[Al. Ibi]</hi> cum sederet, intestina
+ejus atque omnia viscera in secessus cuniculum
+<pb n="0486A"/>
+defluxere: ita tali in loco dignam mortem
+ blasphemae ac foetidae mentis exsolvit. Quod postea
+quam in Ecclesia nuntiatum est Eusebio, atque his
+qui una secum sanctum et innocentem virum Alexandrum
+de Ario recipiendo fatigabant, superati pudore,
+et adoperti confusione discedunt. Tunc completus
+est sermo ad gloriam Domini, quem Alexander in
+oratione sua ad Deum <hi>[Al. Dominum]</hi> proclamaverat,
+dicens: Judica, Domine, inter me et Eusebii
+minas atque Arii vim. Sed haec ad praesens quidem
+paululum pudoris habuere. Convenientes vero inter
+se haeretici, veriti ne forte si, sicut res gesta est,
+integre ad Imperatorem Constantium pervenisset,
+non solum a perfidia eorum, in qua callide irretitus
+tenebatur, abscederet: verum et in auctores deceptionis
+<pb n="0486B"/>
+suae severius aliquid ex regia auctoritate
+decerneret, componunt <hi>[Al. ponunt]</hi> per eunuchos
+quos jam perfidia deceptos tenebant, uti de Arii
+morte Imperator quam fieri posset composite et
+communiter nosceret, neque aliquid quod Dei vindictam
+indicare videretur, audiret. Quibus ita
+gestis, de caussa fidei ut coeperant, prosequuntur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XIV. <hi>De Athanasii Episcopi principiis.</hi> </head>
+<p>Igitur apud Alexandriam, defuncto Alexandro,
+Athanasius susceperat sedem. Quod vero esset
+idem vir acris ingenii, et in ecclesiasticis negotiis
+apprime vigilans, satis jam tunc haereticis <emph>241</emph> innotuerat,
+cum ad Concilium Nicaenum cum Episcopo
+<pb n="0486C"/>
+suo sene Alexandro venerat, cujus suggestionibus
+haereticorum doli ac fallaciae vigilanter detegebantur.
+Statim ergo ut eum episcopum factum
+cognoverunt <hi>[Al. cognoverant]</hi>, rati id quod res indicabat,
+sua negotia per illius sollicitudinem non
+facile processura, omnibus modis quaerere adversus
+eum machinas deceptionum parabant. Verum non
+mihi absque ordine videtur, pauca de hujus viri
+<pb n="0487A"/>
+origine supra repetere, et cujus a puero institutionis
+fuerit, sicuti ab his qui cum ipso vitam duxerant,
+accepimus, memorare. Tempore quo apud Alexandriam
+Petri martyris diem Alexander Episcopus
+agebat, cum post expleta solemnia conventurus ad
+convivium suum clericos exspectaret, in loco mari
+vicino, videt eminus puerorum supra oram maris
+ludum imitantium, ut fieri solet, Episcopum atque
+ea quae in Ecclesiis geri mos est. Sed cum intentius
+diutine pueros inspectaret, videt ab his geri quaedam
+etiam secretiora et mystica. Perturbatus illico, vocari
+ad se clericos jubet, atque eis quid eminus ipse
+videret, ostendit. Tum abire eos, et comprehensos
+ad se perducere omnes pueros imperat. Cumque
+adessent, quis eis ludus, et quid egissent, vel quomodo
+<pb n="0487B"/>
+percunctatur. Illi, ut talis habet aetas, pavidi,
+negare primo, deinde rem gestam per ordinem pandunt,
+et baptizatos a se esse quosdam catechumenos
+confitentur per Athanasium, qui ludi illius puerilis
+episcopus fuerat simulatus. Tum ille diligenter inquirens
+ab his qui baptizati dicebantur, quid interrogati
+fuerint, quidve responderint, simul et ab eo qui interrogaverat.
+Ubi videt, secundum religionis nostrae
+ritum cuncta constare, conlocutus cum concilio clericorum,
+statuisse traditur, illis, quibus integris
+interrogationibus et responsionibus aqua fuerat infusa,
+iterari baptismum non debere, sed adimpleri <emph>242</emph> 
+ <hi>[Al. adimplere]</hi> ea quae a sacerdotibus mos
+est. Athanasium vero atque eos quos ludus ille vel
+presbyteros habere visus fuerat, vel ministros, convocatis
+<pb n="0487C"/>
+parentibus, sub Dei obtestatione tradit Ecclesiae
+ suae nutriendos. Parvo autem tempore, cum
+a Notario integre, et a Grammatico sufficienter
+Athanasius fuisset instructus, continuo tanquam
+fidele Domini commendatum a parentibus, restituitur
+sacerdoti, ac velut Samuel quidam in templo
+Domini nutritur, et ab eo pergente ad patres in
+senectute bona, ad portandum post se ephod sacerdotale
+deligitur. Sed hujus tanti in Ecclesia pro
+fidei integritate agones fuerunt, ut etiam de hoc
+videatur dictum esse illud quod scriptum est: <hi>Ego
+enim ostendam ei, quanta eum pati oporteat pro nomine
+meo <note>(Act. 9. 16.)</note>
+            </hi>. In hujus etenim persecutiones
+universus conjuratus orbis, et commoti sunt
+principes terrae: gentes, regna, exercitus coierunt
+<pb n="0488D"/> <hi>[Al. coierant]</hi> 
+ adversus eum. Ille autem divinum
+<pb n="0488A"/>
+illud conservabat eloquium, dicens: <hi>Si consistant
+adversum me castra, non timebit cor meum: si insurgat
+in me praelium, in hoc ego sperabo <note>(Psal. 26. 3.)</note>
+            </hi>.
+Verum quoniam tanta ac talia ejus gesta sunt, ut
+magnitudo quidem rerum nihil me praeterire patiatur:
+multitudo vero gestorum quam plurima cogat
+omittere, incertus aestuat animus, dum deliberare
+non valet quid teneat, quid omittat. Et ideo
+pauca nos quae ad rem pertinent memorabimus,
+reliqua ejus fama narrabit sine dubio minora vero
+nuntiatura. Nam nihil quod addere possit, inveniet.</p>
+        </div2>
+<div2>
+          <head>CAPUT XV. <hi>De Constantini Imperatoris errore.</hi> </head>
+<p>Igitur ubi Constantius Orientis regnum solus
+<pb n="0488B"/>
+obtinuit, Constantino fratre non longe ab Aquileia
+apud Alsam fluvium a militibus interfecto,
+Constans utriusque germanus, Occidentem
+satis industrie gubernabat. Nam <emph>243</emph> Constantius
+natura et animo regio, dum primis illis
+regni sui fautoribus satis indulget, per eunuchos
+arte in perfidiam decipitur a perversis sacerdotibus;
+et intento satis studio, pravis eorum
+ contentionibus obsecundat. Sed illi verentes, ne
+forte adeundi regis copia quandoque fieret Athanasio,
+et per eum de veritate fidei quam pervertebant,
+secundum Scripturas edoceretur, omnimodis insimulare
+eum apud principem, et velut si reum
+omnium scelerum ac flagitiorum adgrediuntur exponere,
+usquequo humani corporis brachium loculo
+<pb n="0488C"/>
+delatum Imperatori ostendunt: quod ab Athanasio
+excisum magicae artis gratia de Arsenii cujusdam
+corpore confirmabant. Sed et alia quam plurima
+criminosa simul et flagitiosa componunt.</p>
+        </div2>
+<div2>
+          <head>CAPUT XVI. <hi>De concilio haereticorum apud Tyrum contra Athanasium congregato.</hi> </head>
+<p>Quibus ex caussis Imperator jubet convocato Concilio
+Athanasium condemnari. Idque apud Tyrum
+(misso e latere suo uno ex Comitibus, adnitente
+quoque Archelao tunc Comite Orientis, nec non et
+eo qui Phoenicem provinciam gubernabat) congregari
+jubet. Eo deducitur Athanasius: loculus cum
+humano brachio circumfertur: invidia et horror
+<pb n="0488D"/>
+non solum religiosas, sed et viles animas pervadit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XVII. <hi>De exciso brachio Arsenii, caeterisque dolis haereticorum in concilio retectis.</hi> </head>
+
+<pb n="0489A"/>
+<p>Hic Arsenius, cujus brachium dicebatur excisum,
+Lector aliquando Athanasii fuerat, et ob culpam
+ correptionem veritus, frequentiae sese subtraxerat.
+Cujus latebras opportunas sibi ad hujuscemodi commentum
+flagitiosi hominem rati, initio compositi criminis
+occultatum eum apud quemdam, fidissimum
+sceleribus suis <emph>244</emph> crediderant <hi>[Al. crediderunt]</hi>,
+retinabant. Pervenit tamen ad hunc in
+latebris positum quid suo nomine criminis in intentaretur
+Athanasio. Et sive eum ipsa humanitatis contemplatio,
+sivi divina perpulit providentia, clam per
+noctis silentia evadens claustris, enavigavit Tyrum,
+<pb n="0489B"/>
+et pridie quam caussae dicendae adesset ultimus
+dies, Athanasio sese Arsenius obtulit, utque se
+rerum gestarum series haberet, edocuit. Ille domi
+esse hominem, nec innotescere cuiquam de ejus
+praesentia, jubet. Interea Concilium cogitur, in quod
+aliquanti concinnatae calumniae conscii, omnes pene
+infenso animo adversum Athanasium praejudicatoque
+conveniunt. Per idem tempus Paphnutius confessor,
+de quo supra memoravimus, aderat, Athanasii innocentiae
+conscius. Is cum vidisset Maximum Jerosolymorum
+Episcopum, qui una secum effosso oculo,
+et poplite succiso, confessor extiterat, verum pro
+nimia simplicitate nihil de sacerdotum scelere suspicantem,
+consedisse cum caeteris quos factionis
+macula sociaverat, medium consessum adire non
+<pb n="0489C"/>
+veritus: Te, inquit, o Maxime, cum quo mihi unum
+atque idem confessionis insigne est, cum quo mihi
+pariter mortale lumen effossum, clariorem divini
+luminis conciliavit aspectum: te, inquam, non patiar
+sedere in concilio malignantium, et cum iniqua gerentibus
+introire. Injectaque manu elevans eum de
+medio eorum, ac de singulis instruens, perpetua
+dehinc Athanasio communione sociavit. Sed interim
+caussa dicitur. Prima introducitur accusatio mulieris
+cujusdam, quae se diceret aliquando hospitio
+Athanasium recepisse <hi>[Al. suscepisse]</hi>, et ab eo noctu
+nihil suspicantem, vim corruptionis esse perpessam.
+Introduci ad haec jubetur Athanasius: ingreditur
+cum Timotheo presbytero suo, eumque monet,
+ut posteaquam mulier dicendi finem fecisset, se tacente,
+<pb n="0489D"/>
+ ipse ad ea quae dixerat responderet. Cumque
+mulier ea quae edocta fuerat, perorasset, Timotheus
+<pb n="0490A"/>
+conversus <emph>245</emph> ad eam: Vere, inquit, mulier,
+ego mansi apud te aliquando, aut vim tibi, ut asseris,
+feci? Tunc illa (ut mulierum se talium procacitas
+habet) objurgans Timotheum: Tu tu, inquit,
+mihi vim fecisti, tu in illo loco commaculasti castitatem
+meam. Simul et conversa ad judices, obtestari
+fidem Dei coepit, vera se dicere. Tum omnes ridiculosus
+pudor habere caepit, quod tam facile, tacente <hi>[Al. docente]</hi> 
+ eo, factio compositi criminis patuisset.
+Nec tamen permissi sunt judices habere de muliere
+quaestionem, unde haec, vel per quos, aut quomodo
+fuisset aptata calumnia, quoniam judicandi libertas
+penes accusatores erat. Hinc transitur ad aliud crimen.
+Profertur facinus seculis inauditum. Hoc est, inquiunt,
+ubi nemo possit verborum praestigiis decipi,
+<pb n="0490B"/>
+res oculis agitur, verbis cessantibus: Brachium
+hoc te, aiunt, Athanasi, accusat excisum. Haec est
+Arsenii dextera, quam tu quomodo, vel ad quos usus
+excideris, indicato. Tum ille: Quis enim, inquit,
+vestrum Arsenium noverat, ut hanc ipsius esse
+ dexteram cognoscatis. Exsurrexerunt aliquanti, qui
+se dicerent optime scisse Arsenium, in quibus nonnulli
+erant absque conscientia factionis. Orat dehinc
+a judicibus Athanasius, ut hominem suum, quem
+ negocium deposceret, jubeant introduci. Cumque
+introductus esset Arsenius, elevato ejus vultu, Athanasius
+concilio et judicibus ait: Hic est Arsenius.
+Et allevans ejus nihilominus dexteram: Haec est,
+inquit, etiam dextera ejus, haec est et sinistra. Haec
+autem, quam isti offerunt, manus unde sit, vos requirite.
+<pb n="0490C"/>
+Tunc <hi>[Al. Tum]</hi> velut nox quaedam et tenebrae
+accusatorum oculis infusae, quid agerent, quo
+se verterent, nesciebant. Ipsum etenim esse Arsenium
+testes qui paulo ante scire se dixerant, confirmabant.
+Verum, quia non judicandi, <emph>246</emph> sed
+opprimendi hominis caussa concilium gerebatur,
+fragor omnium repente attollitur, magum esse
+Athanasium, et decipere intuentium oculos, conclamatur,
+nec debere ullo modo ultra talem hominem
+vivere: factoque impetu, suis eum discerpere manibus
+parant. Sed Archelaus, qui cum caeteris ex
+praecepto Imperatoris concilio praesidebat, ereptum
+eum de <hi>[Al. ex]</hi> discerpentium manibus, per occultos
+exitus eduxit, ac fugae (qua solum posset) salutem
+monuit commendare. Concilium tamen rursum
+<pb n="0490D"/>
+conveniens, tanquam si nihil omnino deprehensum
+fuisset, ut confessum de intentatis criminibus
+<pb n="0491A"/>
+Athanasium condemnat. Et gesta in hunc modum
+ficta per orbem terrae mittentes, ad sceleris sui
+consensum, Imperatore cogente, caeteros Episcopos
+perpulerunt.</p>
+        </div2>
+<div2>
+          <head>CAPUT XVIII. <hi>De fuga et latebris Athanasii.</hi> </head>
+<p>Hinc jam toto orbe profugus agitur Athanasius,
+nec ullus ei tutus ad latendum supererat locus. Tribuni,
+Praepositi, Comites, exercitus quoque ad investigandum
+eum moventur <hi>[Al. commoventur]</hi> edictis
+imperialibus. Praemia delatoribus proponuntur,
+si quis vivum maxime, si id minus, caput certe
+Athanasii detulisset. Ita totis regni viribus frustra
+adversum eum, cui Deus aderat, certabatur. Interea
+<pb n="0491B"/>
+sex continuis annis ita latuisse fertur in
+lacu cisternae non habentis aquam, ut solem numquam
+videret. Sed cum per ancillam, quae sola conscia
+dominorum officiis qui ei latebras praebuerant,
+ videbatur, indicatus fuisset, tanquam Dei spiritu
+admonitus, ipsa nocte qua ad eum comprehendendum
+cum indicibus veniebatur, post annos sex
+migravit ad alium locum. Ita illi qui venerant <emph>247</emph> 
+frustrati, dominisque in fugam versis, de ancilla ut
+falsa indice poenas sumunt.</p>
+        </div2>
+<div2>
+          <head>CAPUT XIX. <hi>Ut Constans Imperator, pro Athanasio, fratri Constantio scripserit, eumque Ecclesiae suae reddi jusserit.</hi> </head>
+<p>Verum ne graves alicui latebrae suae fierent, et
+<pb n="0491C"/>
+occasio calumniae innocentibus quaereretur, nihil sibi
+ultra jam tutum in Constantii regno praesumens, ad
+Constantis partes profugus abscedit <hi>[Al. abcessit]</hi>.
+A quo satis honorifice religioseque susceptus est. Quique
+caussa ejus, quam fama compererat, diligentius
+cognita, scribit ad fratrem, pro certo se comperisse,
+quod sacerdos Dei summi Athanasius injuste fugas et
+exilia pateretur. Hunc itaque recte faceret, si absque
+<pb n="0492A"/>
+ulla molestia loco suo restitueret: si id nollet, curae
+sibi futurum, ut ipse id adimpleret, regni ejus intima
+penetrans, et poenas dignissimas de auctoribus sceleris
+sumens. Quibus scriptis perterritus Constantius
+(quod posse facere ea quae minitabatur, conscius
+erat, fratrem) simulata benignitate ultro venire ad se
+Athanasium jubet, et levi increpatione perstrictum,
+ad Ecclesiam suam permittit securum <hi>[Al. in securum]</hi> 
+ire. Admonitus tamen <emph>248</emph> Imperator ab
+impiis consiliariis: Non est, inquit, magnum, Athanasi,
+quod Episcopi poscunt de te, ut unam ex multis
+quae sunt apud Alexandriam Ecclesiis, concedas populis
+eorum qui tibi communicare nolunt. Tum ille,
+Deo sibi suggerente, paratum in tempore consilium
+reperit. Et quid est, inquit, Imperator, quod poscenti
+<pb n="0492B"/>
+tibi liceat denegari, qui potestatem omnium habes jubendi?
+Sed unum est quod oro, ut meam quoque
+petitiunculam libenter admittas. Cumque se omnia
+quae vellet, quamvis essent difficilia, promitteret
+praestaturum, si hoc unum cederet libens, ait Athanasius:
+Hoc est quod rogo, ut quia etiam hic (nam
+apud Antiochiam res agebatur) sunt nostri populi qui
+istis <hi>[Al. his]</hi> communicare nolunt, unam eis tenere
+ concedatur Ecclesiam. Aequissimum sibi videri, et
+valde praestandum, laetus spopondit Imperator. Sed
+cum rem detulisset ad eos, quorum consiliis utebatur,
+neque ibi se velle accipere Ecclesiam, neque hic
+dare, respondent, quia plus sibi singuli quique quam
+absentibus consulebant. Ita Imperator admiratus ejus
+prudentiam, properare ocyus ad suscipiendam suam
+<pb n="0492C"/>
+Ecclesiam jubet. Sed cum Magnentii scelere Imperator
+Constans regno simul et vita fuisset exemptus,
+rursum in Athanasium veteres <emph>249</emph> illi incentores
+Principis odia resuscitare coeperunt: fugatoque de
+Ecclesia, in locum ejus Georgium quemdam perfidiae
+et immanitatis suae socium mittunt. Nam prius quemdam
+Gregorium miserant. Rursum fuga, rursum latebrae
+et edicta adversum Athanasium Principis per
+<pb n="0493A"/>
+omnem locum ponuntur, praemia et honores delatoribus
+pollicentia. Ipse quoque cum ob vindictam necis
+fraternae, regnumque recuperandum ad Occidentis
+partes venisset, et extincto tyranno, regni solus arce
+potiretur, fatigare Occidentales Episcopos, et per
+deceptionem ad consensum Arianae haereseos cogere
+aggreditur, Athanasii prius condemnatione praemissa,
+et velut obicis validissimi objectione sublata.</p>
+        </div2>
+<div2>
+          <head>CAPUT XX. <hi>De Concilio apud Mediolanum habito, et exiliis Eusebii, Luciferi, caeterorumque Episcoporum catholicorum.</hi> </head>
+<p>Ob hoc apud Mediolanum Episcoporum concilium
+convocatur: plures decepti. Dionysius vero, Eusebius,
+Paulinus, Rhodanius, et Lucifer, dolum in negotio
+esse proclamantes, asserentesque quod subscriptio
+<pb n="0493B"/>
+in Athanasium, non aliam ob caussam, quam
+destruendae fidei moliretur, in exilium trusi sunt. His
+<pb n="0494A"/>
+etiam Hilarius jungitur, caeteris vel ignorantibus, ve
+non credentibus fraudem.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXI. <hi>De Ariminensi concilio.</hi> </head>
+<p> <emph>250</emph> Sed tali consilio gestum fuisse negocium,
+rei exitus docuit. Illis namque de medio sublatis,
+continuo synodus apud Ariminum congregatur. Ibi
+secundum ea quae Orientales apud Seleuciam composuerant
+callidi homines et versuti, simplices et imperitos
+Occidentalium sacerdotes facile circumveniunt,
+hoc modo proponendo eis: Quem magis colere et
+adorare vellent, <foreign xml:lang="greek">ὁμοούσιον,</foreign> an Christum? Illisque virtutem
+verbi, quid <foreign xml:lang="greek">ὁμοούσιον</foreign> significaret, ignorantibus,
+velut in fastidium quoddam et exsecrationem sermo
+deductus est, Christo se credere, non <foreign xml:lang="greek">ὁμοουσίῳ,</foreign> confirmantibus.
+<pb n="0494B"/>
+Sic <hi>[Al.</hi> Et sic] multorum, praeter paucos,
+qui scientes prolapsi sunt, animi decepti, contra ea
+quae patres apud Nicaeam conscripserant, venientes,
+<pb n="0495A"/> <foreign xml:lang="greek">ομοούσιον</foreign>
+ quasi ignotum et a Scripturis alienum sermonem
+auferri de fidei Expositione decernunt, communionemque
+suam haereticorum societate commaculant.
+Ea tempestate facies Ecclesiae foeda et admodum
+turpis erat. Non enim sicut prius ab externis,
+sed a propriis vastabatur. Fugabat alius, alius fugabatur,
+et uterque de Ecclesia erat. Ara nusquam, nec
+immolatio, nec libamina: praevaricatio tamen et lapsus
+erat, ac ruina multorum. Similis poena, sed impar
+victoria. Similiter cruciabatur, <emph>251</emph> sed non similiter
+glorificabantur: quia dolebat Ecclesia etiam illius
+casum, qui impellebat ad lapsum.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXII. <hi>De Liberio Episcopo urbis Romae.</hi> </head>
+<p>Igitur Liberius, qui post Julium Marci, quem Silvester
+<pb n="0495B"/>
+praecesserat, successorem, in urbe Roma per
+idem tempus sacerdotio fungebatur, in exilium truditur:
+inque ejus locum Felix diaconus suus ab haereticis
+subrogatur. Et non tam sectae diversitate,
+quam communionis et ordinationis conniventia
+maculatur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXIII. <hi>De Jerosolymorum et Alexandriae Episcopis.</hi> </head>
+<p>Jerosolymis vero Cyrillus post Maximum, sacerdotio
+confusa jam ordinatione suscepto, aliquando in
+fide, saepius in communione variabat. Apud Alexandriam
+vero Georgius satis procaciter vi raptum
+episcopatum gerebat, ita ut magis sibi juris dicendi
+creditos fasces, quam sacerdotium ministrandum religiosis
+<pb n="0495C"/>
+officiis aestimaret.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXIV. <hi>De permixtione Episcoporum apud Antiochiam.</hi> </head>
+<p>Apud Antiochiam sane diversis temporibus multa
+et admodum confuse gesta sunt. Nam defuncto Eudoxio,
+<pb n="0496A"/>
+cum multi diversarum urbium Episcopi ad
+illam sedem summa ambitione niterentur, ad ultimam
+Meletium de Sebastia Armeniae civitate, contra
+decreta concilii illuc transferunt. Qui tamen ab ipsis
+rursum in <emph>252</emph> exilium truditur, quod contra opinionem
+ipsorum non Arii, sed nostram fidem caepit
+in Ecclesia praedicare. Quem magna plebs sede <hi>[Al.
+Ecclesia]</hi> depulsum secuta, ab haereticorum societate
+divellitur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXV. <hi>De schismate Arianorum, quod in tres partes divisum est: et quidam eorum Eunomiani, alii Macedoniani, alii vero permanserunt Ariani.</hi> </head>
+<p>Interea ut aliquando etiam in semetipsam praedives
+<pb n="0496B"/>
+malitia desaeviret, sacerdotes, et populi, qui,
+Ario duce, primitus fuerant ab Ecclesia divulsi, in
+tres denuo sectas partesque finduntur. Nam illi
+(quos paulo superius dixeramus, non adquiescentes
+Eusebii caeterorumque simulationibus, cum Ario
+exilium pertulisse) postmodum nec ipsi Ario regressode
+exilio communicare voluerunt, eo quod simulata
+confessione communicasset iis, qui de ipsa substantia
+Dei Patris Filium confiterentur: quia ipsi ea quae
+primo docuerat Arius, ex nullis extantibus creatum
+et factum, non natum Filium, satis libera, seu
+potius impudenti blasphemia confirmabant. Quod et
+post illorum obitum Aetius quidam, post Aetium validius
+et latius asserebat Eunomius, vir corpore et
+anima leprosus, et interius exteriusque morbo regio
+<pb n="0496C"/>
+ corruptus, arte tamen dialectica praepotens, plurima
+contra fidem nostram scripsit, et disputandi leges
+sectatoribus suis dedit. A quo etiam nunc Eunomiana
+haeresis appellatur. Alius quoque Macedonius nomine,
+quem, nostris expulsis, imo potius necatis, apud
+Constantinopolim statuerant Episcopum, quia <emph>253</emph> 
+<pb n="0497A"/>
+similem Patri Filium fatebatur, licet Spiritum Sanctum
+aeque ut illi blasphemaret, tamen ab illis
+expellitur, quia similia ut de Patre, etiam de Filio
+praedicaret. Neque vero nostris conjungitur, a quibus
+de Spiritu Sancto diversa sentiret. Ita pestifera
+illa bestia, quae per Arium primo quasi de inferis
+extulerat caput, subito triformis apparuit: per Eunomianos,
+qui dicunt per omnia dissimilem Filium
+Patri, quia nullo genere similis possit esse factura
+factori: Per Arianos, qui dicunt, similem quidem
+posse dici Filium Patri, sed largitate gratiae, non
+proprietate naturae, in quantum scilicet potest creatori
+creatura conferri: Per Macedonianos, qui dicunt
+similem quidem Filium per omnia Patri, Sanctum
+vero Spiritum cum Patre et Filio nihil habere commune.
+<pb n="0497B"/>
+Haec quidem inter illos ita gesta sunt. Sed
+sicut de talibus scriptum est: <hi>Discissi sunt, et non
+sunt compuncti <note>(Psal. 34. 15.)</note>
+            </hi>: plurimi sane eorum,
+qui videbantur attentiorem vitam gerere, et monasteria
+apud Constantinopolim vicinasque provincias,
+et Episcopi nobiles Macedonii magis errorem sunt
+secuti.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXVI. <hi>De fine Constantii Imperatoris, et ortu Juliani.</hi> </head>
+<p>Sed Constantius Imperator, dum Juliano (quem
+Caesarem apud Gallias reliquerat) dignationem sibi
+Augusti sponte praesumenti, armis ire obviam parat,
+vicesimo et quarto post occasum patris imperii sui
+anno, in <emph>254</emph> oppido Ciliciae Mopsocrenis diem
+defunctus est.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXVII. <hi>De Episcopis ab exilio relaxatis.</hi> </head>
+
+<pb n="0497C"/>
+<p>Post quem Julianus, praesumtum prius, deinde
+ ut legitimum, solus obtinuit principatum. Is primo
+<pb n="0498A"/>
+velut arguens perperam gesta Constantii, Episcopos
+jubet de exiliis relaxari. Post vero adversum nostros
+tota nocendi arte consurgit. Interim qui superfuerant
+Episcopi, de exiliis relaxantur. Nam Liberius
+urbis Romae Episcopus, Constantio vivente, regressus
+est. Sed hoc utrum quod adquieverit voluntati
+suae ad subscribendum, an ad populi Romani gratiam,
+a quo proficiscens fuerat exoratus [ <hi>Subint.</hi> 
+Constantius], indulserit, pro certo compertum non
+habeo. Lucifer autem cum exoraretur ab Eusebio,
+quia uterque in partibus vicinis Aegypto fuerat relegatus,
+ut ad videndum Athanasium Alexandriam
+pergerent, communique tractatu cum his qui superfuerant
+sacerdotibus, de statu Ecclesiae decernerent,
+praesentiam sui abnegans, legatum pro se
+<pb n="0498B"/>
+diaconum suum mittit, atque ipse intento animo Antiochiam
+pergit: ibique dissidentibus adhuc partibus,
+sed in unum tamen revocari posse sperantibus,
+si sibi talis eligeretur Episcopus, erga quem non una
+plebs, sed utraque gauderet, praeproperus catholicum
+quidem et sanctum virum, ac per omnia dignum sacerdotio
+Paulinum Episcopum collocavit, sed tamen
+in quem adquiescere plebs utraque non posset.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXVIII. <hi>De Concilio apud Alexandriam sanctorum Episcoporum, et Luciferi ab his dissidio.</hi> </head>
+<p> <emph>255</emph> Pergit interea Eusebius Alexandriam, ibique
+Confessorum concilio congregato, pauci numero,
+sed fide integri, et meritis multi, quo pacto post
+haereticorum procellas, et perfidiae turbines tranquillitas
+<pb n="0498C"/>
+revocaretur Ecclesiae, omni cura et libratione
+discutiunt. Aliis videbatur fidei calore ferventibus,
+nullum debere ultra in sacerdotium recipi, qui
+se utcumque haereticae communionis contagione maculasset.
+Sed qui imitantes Apostolum quaerebant,
+<pb n="0499A"/>
+non quod sibi utile esset, sed quod pluribus, vel
+qui imitarentur Christum, qui cum esset omnium
+vita, pro salute cunctorum humilians se, descendit
+in mortem, quo scilicet inveniretur et in mortuis
+vita: dicebant melius esse, humiliari se paululum
+propter dejectos, et inclinari propter elisos, ut eos
+rursus erigerent, nec sibimet solis puritatis merito
+caelorum regna defenderent, sed esse gloriosius, si
+cum pluribus illuc mererentur intrare. Et ideo rectum
+sibi videri, ut tantum perfidiae auctoribus amputatis,
+reliquis sacerdotibus daretur optio, si forte
+velint <hi>[Al. vellent]</hi>, abjurato errore perfidiae, ad fidem
+patrum statutaque converti, nec negare aditum
+redeuntibus, quin potius de eorum conversione gaudere:
+quia et ille evangelicus junior filius, paternae
+<pb n="0499B"/>
+depopulator substantiae, in semetipsum reversus, non
+solum suscipi meruit, sed et dignus paternis complexibus <hi>[Al. amplexibus]</hi> 
+ deputatur, et anulum fidei
+recepit, et stola circumdatur: per quam quid aliud
+quam sacerdotii declarantur insignia? nec probabilis
+extitit apud patrem senior filius, quod invidit
+recepto: nec tantum meriti habuit non delinquendo,
+quantum noxae contraxit non indulgendo germano.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXIX. <hi>De his quae in eodem Concilio statuta sunt.</hi> </head>
+<p> <emph>256</emph> Cum igitur hujuscemodi sententias <hi>[Al. sententiam
+et prolatam]</hi> ex evangelica auctoritate prolatas,
+ordo ille sacerdotalis et Apostolicus approbasset,
+ex Concilii decreto, Asterio caeterisque qui
+<pb n="0499C"/>
+cum ipso erant, Orientis injungitur procuratio, Occidentis
+vero Eusebio decernitur. Additur sane in illo
+Concilii decreto, etiam de Spiritu Sancto plenior
+disputatio, ut ejusdem substantiae ac deitatis, cujus
+Pater et Filius, etiam Spiritus Sanctus crederetur,
+nec <hi>[Al. ne]</hi> quicquam prorsus in Trinitate, aut creatum,
+aut inferius, posteriusve diceretur. Sed et de
+differentia substantiarum et subsistentiarum sermo
+ejus per scripturam motus est. Graeci <foreign xml:lang="greek">οὐσίασ</foreign> et <foreign xml:lang="greek">ὑποστάσεις,</foreign>
+ vocant. Quidam etenim dicebant substantiam
+et subsistentiam unum videri: et quia tres
+subsistentias non dicimus in Deo, nec tres substantias
+dicere debeamus. Alii vero, quibus longe aliud substantia,
+quam subsistentia significare videbatur, dicebant,
+<pb n="0499D"/>
+quia substantia ipsam rei alicujus naturam
+<pb n="0500A"/>
+rationemque, qua constat, designet: Subsistentia
+autem uniuscujusque personae, hoc ipsum quod extat
+et subsistit, ostendat. Ideoque propter Sabelli
+haeresim tres esse subsistentias confitendas, quod
+quasi tres subsistentes personas significare videretur,
+ne suspicionem daremus, tanquam illius fidei sectatores,
+quae Trinitatem in nominibus tantum, et non
+in rebus ac subsistentiis confitetur. Sed et de incarnatione
+Domini comprehensum est, quia corpus quod
+susceperat Dominus, neque sine sensu, neque sine
+anima suscepisset. Quibus omnibus caute moderateque
+compositis, unusquisque itinere suo cum pace
+perrexit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXX. <hi>De Eusebio et Hilario, atque Ecclesiarum per eos restitutione.</hi> </head>
+
+<pb n="0500B"/>
+<p> <emph>257</emph> Sed Eusebius cum redisset Antiochiam, et
+invenisset ibi a Lucifero contra pollicitationem ordinatum
+Episcopum, pudore simul et indignatione
+compulsus abscessit, neutri parti communionem
+suam relaxans, quia digrediens inde promiserat se
+acturum in Concilio, ut is eis ordinaretur Episcopus,
+a quo pars neutra descisceret. Ille namque
+populus, qui Meletium dudum de Ecclesia pulsum,
+quasi pro fide recta fuerat secutus, non junxerat se
+ad priores catholicos, id est, qui cum Eustathio, et
+ Eusebio Episcopo fuerant (ex quibus etiam Paulinus
+erat) sed suum principatum, suumque conventiculum
+tenuit. Hos ergo cum in unum revocare voluisset
+ Eusebius, nec tamen (praeventus a Lucifero) potuisset,
+<pb n="0500C"/>
+abscessit. Tunc regressus Meletius de exilio,
+quia cum eo numerosior populus erat, Ecclesias tenuit:
+et ex eo jam propriam synodum cum caeteris
+Orientalibus Episcopis habuit, nec tamen Athanasio
+junctus est. Interim Lucifer injuriam dolens, quod
+Episcopum a se ordinatum apud Antiochiam non recepisset
+Eusebius, nec ipse recipere cogitat Alexandrini
+decreta concilii, sed constringebatur legati sui
+vinculo, qui in concilio ipsius auctoritate subscripserat.
+Abjicere namque eum non poterat, qui auctoritatem
+ejus tenebat. Si vero recepisset, omne
+suum frustrandum videbat inceptum. Diu ergo de
+hoc multumque deliberans, cum ex utraque parte
+concluderetur, elegit, ut legato suo recepto, erga
+<pb n="0500D"/>
+caeteros sententiam disparem, sed sibi placitam
+<pb n="0501A"/>
+custodiret. Ita regressus ad Sardiniae partes, sive
+quia cita morte praeventus, tempus sententiae mutandae
+non habuit (etenim temere coepta corrigi spacio
+solent) sive hoc animo immobiliter <emph>258</emph> sederat,
+parum firmaverim. Ex ipso interim Luciferianorum
+schisma, quod licet per paucos adhuc volvitur, sumsit
+exordium. Eusebius vero circumiens Orientem
+atque Italiam, medici pariter et sacerdotis fungebatur
+officio. Singulas quasque ecclesias, abjurata infidelitate,
+ad sanitatem rectae fidei revocabat, maxime
+quod Hilarium, quem dudum cum caeteris Episcopis
+in exilium trusum esse memoravimus, regressum
+jam, et in Italia positum, haec eadem erga instaurandas
+Ecclesias, fidemque patrum reparandam reperit
+molientem.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXI. <hi>De scriptis Hilarii.</hi> </head>
+
+<pb n="0501B"/>
+<p>Nisi quod Hilarius vir natura lenis et placidus,
+simulque eruditus, et ad persuadendum commodissimus,
+rem diligentius et aptius procurabat. Qui
+etiam libros de fide nobiliter scriptos edidit, quibus
+et haereticorum versutias, et nostrorum deceptiones,
+et male credulam simplicitatem ita diligenter exposuit,
+ut et praesentes, et longe positos, quibus ipse per
+ se disserere viva voce non poterat, perfectissima
+instructione corrigeret. Ita duo isti viri, velut magnifica
+quaedam mundi lumina, Illyricum, Italiam, Galliasque
+suo splendore radiarunt, ut omnes etiam de
+abditis angulis et abstrusis haereticorum tenebrae
+fugarentur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXII. <hi>De persecutionibus Juliani blandis et callidis.</hi> </head>
+
+<pb n="0501C"/>
+<p>Sed Julianus postquam ad Orientem Persas bello
+pulsaturus advenit, et publica (quam prius occultaverat)
+erga idolorum cultum ferri coepit insania,
+callidior caeteris persecutor, non vi, neque tormentis,
+sed praemiis, honoribus, blanditiis, persuasionibus, <emph>259</emph> 
+ majorem pene populi partem, quam si
+atrociter pulsasset, elisit. Studia auctorum Gentilium
+Christianos adire prohibens, ludos litterarum
+<pb n="0502A"/>
+illis solis, qui deos deasque venerarentur, patere
+decernit. Militiae cingulum non dari, nisi immolantibus
+jubet. Procurationem provinciarum, jurisque
+dicendi Christianis statuit non debere committi, utpote
+quibus etiam lex propria gladio uti vetuisset.
+Et proficiebat quotidie in hujuscemodi legibus exquirendis,
+quibus et <hi>[Al. tacetur et]</hi> si quid versutum
+vel callidum, tamen quod minus videretur crudele,
+decerneret.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXIII. <hi>De saevitia ejus erga Athanasium.</hi> </head>
+<p>Sed non erga Athanasium fictae philosophiae tenere
+imaginem potuit. Etenim cum, velut tetri serpentes
+de cavernis terrae ebullientes, ad eum processisset
+magorum, philosophorum, aruspicum, augurumque
+<pb n="0502B"/>
+manus prophana, omnes pariter allegant, nihil
+suis artibus successurum, nisi prius Athanasium,
+velut omnium horum obstaculum, sustulisset.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXIV. <hi>De fuga rursum et latebris Athanasii.</hi> </head>
+<p>Iterum mittitur exercitus, iterum duces, iterum
+oppugnatur Ecclesia. Cumque eum moesti et flentes
+populi circumstarent, prophetico apud eos usus sermone
+perhibetur: Nolite (inquit) filii, conturbari,
+quia nubecula est, et cito pertransit. Cumque discessisset,
+et navi per Nilum fluvium iter ageret:
+Comes qui ad hoc ipsum missus fuerat, cognito ejus
+itinere, instanter eum insequi <emph>260</emph> caepit. Et cum
+forte applicuisset Athanasii navicula ad quendam lo
+<pb n="0502C"/>
+cum, comperit a praetereuntibus post tergum esse
+ percussorem suum, et jam jamque nisi prospiceret,
+imminere. Conterriti omnes qui simul aderant socii,
+eremum suadebant ad fugae praesidium petendam.
+Tum ille: Nolite, inquit, o filioli, deterreri: eamus
+magis in occursum percussori nostro, ut sciat quia
+louge major est qui nos defendit, quam qui persequitur.
+Et conversa navicula, iter agere obviam ei qui
+se insectabatur, adgressus est. Ille qui nullo genere
+suspicari posset in occursum sibi venire quem quaereret,
+tanquam praetereuntes aliquos interrogari jubet,
+<pb n="0503A"/>
+ubi audissent esse Athanasium. Cumque respondissent
+vidisse se eum non longe euntem, tota celeritate
+pertransiens, properat in vanum, festinans capere,
+quem ante oculos positum videre non potuit.
+Ille vero Dei virtute monitus Alexandriam redit,
+ibique tuto latebras usquequo persecutio cessaret,
+exegit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXV. <hi>De sepulcro martyris Babylae.</hi> </head>
+<p>Dedit et aliud Julianus vecordiae suae ac levitatis
+indicium. Nam cum Daphnis in suburbano Antiochiae
+juxta fontem Castalium litaret Apollini, et nulla ex
+his quae quaerebat, responsa susciperet, caussasque
+silentii percontaretur a sacerdotibus daemonis, aiunt,
+Babylae martyris sepulcrum prope adsistere, et ideo
+<pb n="0503B"/>
+responsa non reddi. Tum ille, venire Galilaeos (hoc
+enim nomine nostros appellare solitus erat) et auferre
+sepulcrum martyris jubet. Igitur Ecclesia universa
+conveniens, <emph>261</emph> matres et viri, <hi>[Al. additur et]</hi> virgines,
+juvenesque immensa exultatione succincti, trahebant
+longo agmine arcam Martyris, psallentes summis
+clamoribus, et cum exultatione dicentes: <hi>Confundantur
+omnes qui adorant sculptilia, et qui confidunt
+in simulacris suis <note>(Psal. 96. 7.)</note>
+            </hi>. Haec in auribus
+prophani Principis per sex millia passuum tanta exultatione
+psallebat omnis Ecclesia, ut coelum clamoribus
+ resultaret. Unde et ille in tantam iracundiae
+rabiem deductus est, ut altera die comprehendi Christianos
+passim et trudi juberet in carcerem, ac paenis
+<pb n="0503C"/>
+et cruciatibus affici.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXVI. <hi>De Theodoro Confessore apud Antiochiam.</hi> </head>
+
+<pb n="0504A"/>
+<p>Quod Sallustius Praefectus ejus non probans, licet
+esset Gentilis, tamen jussus exequitur, et apprehensum
+unum quendam adolescentem qui primus
+occurrit, Theodorum nomine, a prima luce usque ad <hi>[Al. in]</hi> 
+ horam decimam tanta crudelitate, et tot mutatis
+carnificibus torsit, ut nulla aetas simile factum
+meminerit. Cum tamen ille in eculeo sublimis, et
+hinc inde lateribus instante tortore, nihil aliud faceret,
+nisi quod vultu securo et laeto psalmum, quem
+pridie omnis Ecclesia cecinerat, iteraret: cumque se,
+omni expensa crudelitate, Sallustius nihil egisse
+perspiceret, recepto in carcerem juvene, abiisse fertur
+<pb n="0504B"/>
+ad Imperatorem, <emph>262</emph> et quid egerit nunciasse, ac
+monuisse ne tale aliquid tentare vellet de caetero,
+alioquin et illis gloriam et sibi ignominiam quaereret.
+Hunc Theodorum ipsi nos postmodum apud Antiochiam
+vidimus. Et cum requireremus ab eo si sensum
+doloris habuisset ex integro, dicebat se quidem dolores
+parum sensisse, adstitisse autem quendam juvenem,
+qui sudanti sibi, linteo candidissimo et sudores <hi>[Al. sudorem]</hi> 
+ abstergeret, et aquam frigidam frequenter
+infunderet, et ita se esse delectatum, ut tunc
+moestior factus sit, quando deponi de eculeo jussus
+est. Comminatus igitur Imperator, post victoriam
+Persicam melius se Christianos debellaturum, profectus
+quidem est, sed nullus redit. Ibi namque, incertum
+<pb n="0504C"/>
+a suis, an ab hostibus confossus, post annum
+<pb n="0505A"/>
+et octo menses praesumti Augustalis imperii, finem
+vitae fecit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXVII. <hi>De Judaeorum conatibus, qui a Juliano decepti, templum in Jerosolymis reaedificant.</hi> </head>
+<p>Tanta vero ejus ad decipiendum subtilitas et calliditas
+fuit, ut etiam infelices Judaeos vanis spebus
+illectos, ut ipse agitabatur, illuderet. Quos primo
+omnium convocatos ad se interrogat, cur non
+sacrificarent, cum eis lex sua de sacrificiis imperaret?
+At illi occasionem se invenisse temporis <emph>263</emph> 
+ rati: Non possumus, inquiunt, nisi in solo
+Jerosolymorum templo. Ita namque praecipit lex.
+Et accepta ab eo reparandi templi licentia, in tantum
+<pb n="0505B"/>
+insolentiae pervenerunt, ut aliquis eis prophetarum
+redditus videretur. Igitur ex omnibus locis atque provinciis
+ convenere Judaei, locum templi olim igne
+consumti aggredi caepere, Comite properandi operis
+ab Imperatore concesso: sumtu publico et privato
+res omni instantia gerebatur. Interea insultare nostris,
+et velut reparatis sibi regni temporibus, comminari
+acrius, ac saevitiam ostentare, prorsus in magno
+tumore et superbia agere. Cyrillus post Maximum
+Confessorem Jerosolymis Episcopus habebatur.
+Apertis igitur fundamentis, calces cementaque adhibita,
+nihil omnino deerat, quin die postera, veteribus
+deturbatis, nova jacerent fundamenta: cum
+tamen Episcopus diligenti consideratione habita, vel
+ex illis <hi>[Al. his]</hi> quae in Danielis prophetia de temporibus
+<pb n="0505C"/>
+legerat, vel quae in Evangeliis Dominus praedixerat,
+persisteret, nullo genere fieri posse, ut ibi
+a Judaeis lapis super lapidem poneretur. Res erat in
+exspectatione.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXVIII. <hi>Ut terraemotu inibi, et igni divinitus accenso, Judaei ab illicitis disturbabantur inceptis.</hi> </head>
+
+<pb n="0506A"/>
+<p>Et ecce nocte quae ad incipiendum opus jam sola
+restabat, terraemotus ingens oboritur, et non solum
+fundamentorum saxa longe lateque jactantur, verum
+etiam totius loci pene <emph>264</emph> aedificia complanantur.
+Porticus quoque publicae, in quibus Judaeorum multitudo,
+quae operi videbatur insistere, commanebat,
+ad solum deductae, omnes Judaeos qui reperti sunt
+oppressere. Luce vero orta, cum se mala crederent
+effugisse, ad requirendos eos qui oppressi fuerant,
+reliqua multitudo concurrit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXIX. <hi>De signis et virtutibus terrificis, quae in exitium conversa sunt Judaeorum.</hi> </head>
+
+<pb n="0506B"/>
+<p>Aedes erat quaedam in inferioribus templi demersa,
+habens aditum <hi>[Al. aditus]</hi> inter duas porticus,
+quae fuerant complanatae, in qua ferramenta, aliaque
+operi <hi>[Al. opera]</hi> necessaria servabantur, e qua subito
+globus quidam ignis emicuit, et per medium plateae
+percurrens, adustis et exanimatis qui aderant Judaeis,
+ultro citroque ferebatur. Hoc iterum saepiusque et
+frequentissime per totam illam diem repetens, pertinacis
+populi temeritatem flammis ultricibus coercebat.
+Cum interim pavore ingenti et trepidatione omnes qui
+aderant deterriti, solum verum Deum Jesum Christum
+confiteri cogebantur inviti. Et ne haec casu fieri
+crederentur, in sequenti nocte in vestimentis omnium
+<pb n="0506C"/>
+signaculum Crucis ita evidens apparuit, ut etiam qui
+diluere pro sui infidelitate voluisset, nullo genere
+valeret abolere. Sic deterriti Judaei atque Gentiles,
+locum simul et inaniter coepta reliquere.</p>
+</div2>
+      </div1>
+
+<div1>
+        <head> <emph>265-266</emph> ELENCHUS CAPITUM LIBRI SECUNDI.</head>
+        <p>
+
+<pb n="0505"/>
+<list>
+<item>
+<pb n="0505D"/>CAP. I. De ortu et religiosa mente principis Joviniani,
+et de fine ejus.</item>
+<item> II. De ortu Valentiniani et Valentis.</item>
+<item> III. De dormitione Athanasii, et persecutionibus
+Lucii haeretici.</item>
+<item> IV. De virtutibus et mirabilibus Sanctorum qui
+fuerunt in Aegypto.</item>
+        </list>
+
+<pb n="0506D"/>
+<list>
+<item> VIII. Quot.</item>
+</list>
+<list>
+<item>VII. De Didymo Alexandrino.</item>
+</list>
+<list>
+<item>V. De persecutione, quae fuit apud Edessam.</item>
+<item> VI. De Moyse, quem regina Sarracenorum, gentis
+suae poposcit Episcopum.</item>
+        </list>
+
+<pb n="0505D"/> vidente
+
+
+<pb n="0506D"/> ex discipulis Antonii etiam tunc in
+eremo habitantibus, virtutes et signa fecerint.
+
+
+<pb n="0507A"/>
+<list>
+<item> XIX. De restitutione.</item>
+</list>
+<list>
+<item>XII. De.</item>
+</list>
+<list>
+<item>IX. De Gregorio et Basilio Cappadociae Episcopis.</item>
+<item> X. De Damaso Episcopo, et Ursini subreptione.</item>
+<item> XI. De Ambrosio Episcopo.</item>
+        </list>
+
+<pb n="0507C"/> Valentiniani fine.
+<item> XIII. De Gothorum per Thracias irruptione, et
+Valentis nece.</item>
+<item> XIV. Ut Gratianus Imperator Theodosium regni
+participem adsciverit, et post multa religiose
+et fortiter gesta, Maximi tyranni
+insidiis succubuerit.</item>
+<item> XV. De Valentiniano puero. Utque mater ejus
+Justina Arianam haeresim defendens,
+Ecclesias perturbare conata sit.</item>
+<item> XVI. De Benivoli <hi>[Al. Benevoli]</hi> magistri memoriae
+fideli constantia.</item>
+<item> XVII. Ut Theodosius necem Gratiani ultus, de Maximo
+triumphaverit.</item>
+<item> XVIII. De Theodosii commisso in Thessalonicenses,
+et poenitentia ejus publice apud sacerdotes
+gesta.</item>
+
+<pb n="0507C"/> Ecclesiarum, quae per ipsum
+<pb n="0507B"/>
+jam catholicum in Oriente restitutae
+sunt.
+<item> XX. De Apollinare et haeresi ejus.</item>
+<item> XXI. De Episcop. successionibus per Orientem.</item>
+
+<pb n="0508A"/>
+<list>
+<item> XXXIII. De apparatu belli adversus Eugenium Theodosii,
+et de victoria ejus, orationibus
+magis quam virtute.</item>
+</list>
+<list>
+<item>XXX. Ut mensura aquae Nili fluminis, quam.</item>
+</list>
+<list>
+<item>XXVI. De Canopi.</item>
+</list>
+<list>
+<item>XXII. De seditione Paganorum contra fideles.</item>
+<item> XXIII. De situ templi Serapis, et subversione ejus.</item>
+<item> XXIV. De fraudibus, quae in templis Paganorum
+detectae sunt.</item>
+<item> XXV. De Saturni sacerdote Tyranno, totius pene
+Alexandriae adultero.</item>
+        </list>
+
+<pb n="0507D"/> initio et interitu.
+<item> XXVII. De Ecclesiis et Martyriis, quae in idolorum
+locis constructae sunt.</item>
+<item> XXVIII. De Joannis sepulchro violato, et reliquiis
+apud Alexandriam conservatis.</item>
+<item> XXIX. De Thoracibus Serapis apud Alexandriam
+abrasis, et signo Christi in loco eorum
+reddito.</item>
+
+<pb n="0507D"/> <foreign xml:lang="greek">ποῦχυν</foreign>
+vocant, ad Ecclesiam deferatur.
+<item> XXXI. De Valentiniani junioris interitu, et ortu
+Eugenii.</item>
+<item> XXXII. De responsis Joannis monachi.</item>
+
+<pb n="0507D"/> parata.
+
+
+<pb n="0508B"/>
+<list>
+<item> XXXIV. De fine Theodosii post victoriam, et Arcadio
+atque Honorio liberis ejus et haeredibus
+regni.</item>
+        </list>
+
+</p>
+      </div1>
+
+<div1>
+        <head>LIBER SECUNDUS.</head>
+<div2>
+          <head>CAPUT I. <hi>De ortu et religiosa mente Principis Joviniani. et de fine ejus.</hi> </head>
+<pb n="0507B"/>
+<p> <emph>267</emph> Post Juliani necem tandem civile nobis Jovi
+niani reparatur Imperium. Is namque sub uno eodemque
+tempore Imperator, et Confessor, et male illati extitit
+depulsor erroris. Nam cum in procinctu esset
+exercitus, et urgeret Barbarus, ductores nostri de
+summis rebus consilium trahentes, Joviniano calculum
+<pb n="0507C"/>
+dederunt. Cumque apprehensus ad suscipienda
+Imperii traheretur insignia, ad exercitum Juliani sacrilegiis
+prophanatum, dicitur proclamasse: Non se
+posse imperare eis, quia esset Christianus. Tum
+omnes pari eademque voce respondisse perhibentur:
+Et nos Christiani sumus: nec priusquam hanc
+vocem audiret, adquiescere ad Imperium voluisse <hi>[Al. voluit]</hi>.
+Denique statim affuit ei divina clementia,
+contraque omnem spem, cum clausi undique hostibus
+tenerentur, nec evadendi facultas ulla suppeteret,
+subito emissos a Barbaris oratores adesse vident,
+<pb n="0508B"/>
+pacemque deposcere: exercitui quoque inedia consumto,
+cibos caeteraque necessaria in mercimoniis
+polliceri, omnique humanitate nostrorum temeritatem
+ emendare. Sed ubi in viginti et novem annos pace
+composita, ad Romanum regressus est solum, <emph>268</emph> 
+clariorque lux nostro se orbi ex Orientis partibus
+oborta <hi>[Al. exorta]</hi> diffudit, rempublicam quasi post
+nimias procellas omni moderatione <hi>[Al. omnimoda
+ratione]</hi> adgreditur reparare: Ecclesiarum vero curam
+<pb n="0508C"/>
+non in secundis habere. Nec tamen incaute, ut
+Constantius egerat, sed lapsu praedecessoris admonitus,
+honorificis et officiosissimis litteris Athanasium
+requirit, et ab ipso formam fidei et Ecclesiarum
+disponendarum suscipit modum. Sed haec tam pia
+et tam laeta principia mors immatura corrupit. Post
+octo etenim menses ortus sui apud Ciliciam diem
+obit.</p>
+        </div2>
+<div2>
+          <head>CAPUT II. <hi>De ortu Valentiniani et Valentis.</hi> </head>
+<p>Post hunc Valentinianus imperium suscepit, qui
+<pb n="0509A"/>
+pro fide nostra a Juliano militia fuerat expulsus. Sed
+complevit in illo Dominus quod promisit, plus etiam
+quam centupla in praesenti seculo restituens ei. Nam
+quia militiam pro Christo reliquerat, recepit [ <hi>Al.</hi> recipit]
+imperium. Is in consortium regni assumsit fratrem
+Valentem, et sibi quidem Occiduas partes delegit,
+illi autem Orientales reliquit. Sed Valens favendo
+haereticis, abiit in viam patrum suorum. Nam
+et Episcopos egit in exilium, et Presbyteros, ac Diaconos,
+et Monachos (Tatiano Alexandriae praesidente)
+usque ad tormenta deduxit, et ignibus tradidit. Multaque
+nefanda et crudelia in Ecclesiam Dei molitus
+<pb n="0510A"/>
+est. <emph>269</emph> Sed haec omnia post Athanasii obitum.
+Nam illo superstite, velut divina quadam virtute prohibitus,
+cum debaccharetur in caeteros, in illum
+nihil ausus est triste committere.</p>
+        </div2>
+<div2>
+          <head>CAPUT III. <hi>De dormitione Athanasii, et persecutionibus Lucii haeretici.</hi> </head>
+<p>Igitur ea tempestate, cum quadragesimo et sexto
+anno sacerdotii sui Athanasius, post multos agones
+multasque patientiae coronas quievisset in pace, sciscitatus
+de successore, Petrum tribulationum suarum
+<pb n="0511A"/>
+participem et socium delegit. Sed Lucius
+Arianae partis Episcopus, continuo tanquam <emph>270</emph> 
+ad ovem advolat lupus. Et Petrus quidem navem
+protinus conscendens, ad urbem Romam profugit.
+Lucius vero tanquam materia sibi crudelitatis oblata,
+saevior erga caeteros efficiebatur. Et ita ibat in
+sanguinem, ut ne speciem quidem aliquam religionis
+servare videretur, cujus primo ingressu tanta et tam
+turpia in virgines et continentes Ecclesiae gesta sunt,
+quae nec in persecutionibus Gentilium memorantur.
+Inde post fugas civium et exilia, post caedes et tormenta,
+flammasque quibus innumeros confecerat
+[ <hi>Al.</hi> condemnavit], ad monasteria furoris sui arma
+convertit. Vastat eremum, et bella quiescentibus indicit.
+Tria millia simul, aut eo amplius, viros per
+<pb n="0511B"/>
+ totam eremum secreta <emph>271</emph> et solitaria habitatione
+dispersos oppugnare pariter aggreditur. Mittit armatam
+equitum ac peditum manum: Tribunos, Praepositos,
+et bellorum duces, tanquam adversum Barbaros
+pugnaturus elegit. Qui cum venissent, novam
+belli speciem vident, hostes suos gladiis objectare
+cervices, et nihil aliud dicere, nisi: Amice, ad quid
+venisti?</p>
+        </div2>
+<div2>
+          <head>CAPUT IV. <hi>De virtutibus et mirabilibus sanctorum qui fuerunt in Aegypto.</hi> </head>
+<p>Per idem tempus patres monachorum vitae et antiquitatis
+merito, Macarius et Isidorus, aliusque Macarius,
+atque Heraclides, et Pambus Antonii discipuli
+<pb n="0511C"/>
+per Aegyptum, et maxime in Nitriae deserti partibus
+habebantur viri, qui consortium vitae et actuum, non
+cum caeteris mortalibus, sed cum supernis angelis
+habere credebantur. Quae praesens vidi loquor: et
+eorum gesta refero, quorum in passionibus socius
+esse promerui. Hi ducebant exercitum Domini, non
+mortalibus telis, sed fide religionis armatum, exercitum
+moriendo vincentem, et qui sanguinis sui profusione
+victor Christum sequeretur ad caelum. Quique
+[ <hi>Al.</hi> Qui] dum in tabernaculis positi, et orantes
+expectarent interfectores suos, delatus est ad eos
+homo olim membris omnibus, et praecipue pedibus,
+ aridus. Sed cum ab eis in nomine Domini oleo fuisset
+<pb n="0512A"/>
+petunctus, statim confirmatae sunt plantae ejus.
+Et dicentibus eis, in nomine Jesu Christi, quem Lucius
+persequitur, surge, et sta in pedibus tuis, et redi
+in domum tuam, continuo exsurgens et exiliens, benedicebat
+Deum, ostendens quia vere erat in eis
+Deus. Ante aliquantulum vero temporis caecus quidam
+rogabat deduci se ad cellulam Macarii, quae <emph>272</emph> 
+ erat in deserto, itinere trium dierum. Quo
+posteaquam caecus multo ductantium labore pervenit,
+Macarium non reperit domi. Contristatus valde,
+nullatenus mitigare moestitiam poterat, sanitatis
+ solatio carens. Tum [ <hi>Al.</hi> Cum] vero fervore fidei
+concalescens, Deprecor, inquit ad eos qui deduxerant,
+applicate me ad illam partem parietis, ubi cubare
+senior solet. Et cum fuisset admotus, parum
+<pb n="0512B"/>
+luti aridi, unde paries oblitus videbatur, assumens,
+palmae suae superposuit [ <hi>Al.</hi> supposuit]. Rogat etiam
+ut aquam de puteo, ex quo bibere solebat, haurirent.
+ Quo humore resolvens glebulam, eodemque
+luto oculos suos superungens, et lavans de aqua, quae
+hausta fuerat, repente recepit visum, ita ut nullo indigens
+adminiculo rediret ad sua. Sed ne secundum
+leprosos illos ageret, quos a se curatos in Evangeliis
+ingratos Dominus notat, cum omni domo sua regressus
+[ <hi>Al. add.</hi> est] et Deo gratias referens, rem ut
+gesta fuerat indicavit. Idem ipse Macarius leenae
+speluncam habuit cellulae vicinam. Et quadam die
+catulos suos caecos ad eum bellua producit, et ante
+pedes ejus ponit. At ille cum intellexisset pro caecitate
+catulorum bestiam supplicare, rogavit Dominum
+<pb n="0512C"/>
+ut eis redderet visum. Quo recepto, matrem sequentes
+redeunt ad speluncam. Et paulo post ipsam cum
+catulis suis regrediens, pelles ovium lanatas plurimas,
+velut munus pro suscepta gratia ad senem defert,
+morsu oris evectas, et ante fores ejus depositis,
+abscedit. Verum si singulorum mirabilium gesta
+prosequi velimus, excludimur a proposita brevitate,
+maxime cum haec narrationem proprii habere operis
+mereantur.</p>
+<p>Sed in his omnibus Lucius non erubuit, nec aliquid
+reverentiae virtutum mirabilibus detulit; quinimo
+jubet patres ipsos ablatos a grege suo <emph>273</emph> 
+imo clam raptos, in insulam quandam Aegypti paludium
+<pb n="0513A"/>
+deportari, in qua compererat neminem prorsus
+esse Christianum, quo per hoc vel absque solatiis,
+vel absque consuetis actibus viverent. Senes
+igitur cum duobus solis pedissequis noctu ad insulam
+deducuntur, in qua erat templum quoddam summa
+veneratione a loci incolis observatum. Cumque,
+ primum navicula senum oram soli illius contigisset,
+ecce subito sacerdotis templi illius virgo filia
+correpta spiritu, cum ingenti vociferatione et clamoribus
+usque ad caelum datis, agi per medios populos
+coepit, et crebros ducens rotatus, stridens huc atque
+illuc rabida ora vibrare. Cumque ad spectaculum
+tam ingentis monstri, maxime quod esset sacerdotis
+filia (qui in honore praecipuo apud illos erat) populi
+convenissent, per auras eam raptam sequentes, perveniunt
+<pb n="0513B"/>
+usque ad naviculam senum. Ibi vero projecta
+eorum pedibus et prostrata clamare coepit: Quid venistis
+huc, o servi Dei summi, antiquis nos et veternosis
+evolvere domiciliis? In hoc loco depulsi undique
+latebamus, quomodo vos nequaquam latere potuimus?
+Cedimus antiquis sedibus, populos vestros
+terrasque recipite. Cum haec diceret, increpatus ab
+eis erroris spiritus effugatur. Et puella sana una cum
+parentibus suis jacebat ad pedes nostri temporis Apostolorum.
+Qui talibus exordiis praedicantes eis fidem
+Domini nostri Jesu Christi, in tantam conversionem
+repente eos perduxerunt, ut statim die ipsa manibus
+suis antiquissimum templum, et in summa veneratione
+habitum destruerent, et Ecclesiam confestim
+aedificarent. Nec ad deliberandum spatio temporis
+<pb n="0513C"/>
+eguerunt, quibus fidem rerum fecerant, non verba,
+sed virtus. Sed hoc cum fuisset Alexandriae nunciatum,
+veritus Lucius, ne forte etiam suorum in eum
+odia justa consurgerent, <emph>274</emph> qui aperte jam bellum
+non hominibus, sed Deo indiceret, occulte eos
+revocari, et in eremum remitti jubet. Dum haec in
+Aegypto geruntur, ne in aliis quidem locis persecutionis
+flamma cessabat.</p>
+        </div2>
+<div2>
+          <head>CAPUT V. <hi>De persecutione quae fuit apud Edessam.</hi> </head>
+<p>Edessa namque Mesopotamiae urbs fidelium populorum
+est, Thomae Apostoli Reliquiis decorata. Ubi
+cum per se Imperator populos vidisset Ecclesiis ejectos
+<pb n="0514A"/>
+in campo habere conventiculum, tanta dicitur
+iracundia accensus, ut praefectum suum pugno percuteret,
+cur non fuissent inde quoque, sicut jusserat,
+deturbati. At ille licet esset Paganus, et injuriis ab
+Imperatore fuisset affectus, tamen consideratione
+humanitatis, altera die ad vastandum populum processurus,
+facit hoc ipsum civibus per occulta indicia
+clarescere, quo scilicet cavere sibi [ <hi>Al.</hi> se] possent,
+ne invenirentur in loco Mane processurus, terrorem
+solito majorem per Officium movet, agitque omnia,
+quo quam minimi, vel si fieri posset, nulli periclitarentur.
+Videt tamen frequentiorem solito populum
+tendere ad locum, currere praecipites et festinare,
+tanquam vererentur, ne quis [ <hi>Al.</hi> qui] deesset ad
+mortem. Interea videt quandam mulierculam ita festinam
+<pb n="0514B"/>
+et properam domo sua prorumpere, ut nec
+clauderet ostium, nec operire se, ut mulierum habitum
+decet, diligentius potuisset, infantem quoque
+parvulum secum trahentem, cursuque rapido, irrupto
+etiam Officii agmine, festinantem. Tum ille ultra non
+ferens: Apprehendite, inquit, mulierem, et huc deducite
+Cumque fuisset adducta: Quo, inquit,
+mulier infoelix, properas tam festina? Ad campum,
+ait, quo catholicorum populus convenit. Et
+non, <emph>275</emph> inquit, audisti, quia Praefectus illuc pergit,
+ut omnes interficiat quos invenerit? Audivi, inquit,
+et ideo festino, ut ibi inveniar. Et quo, inquit,
+parvulum istum trahis? Ut et ipse, ait, martyrium
+consequi mereatur. Quae cum audisset vir moderatissimus,
+redire Officium et converti vehiculum ad
+<pb n="0514C"/>
+palatium jubet. Et ingressus ait, Imperator, subire
+mortem si jubeas paratus sum. Opus vero quod praecipis,
+implere non possumus. Cumque edocuisset
+cuncta de muliere, repressit Imperatoris insaniam.</p>
+        </div2>
+<div2>
+          <head>CAPUT VI. <hi>De Moyse, quem Regina Sarracenorum gentis suae poposcit Episcopum.</hi> </head>
+<p>Per idem tempus Ecclesia velut persecutionis igne
+conflante, purior auri metallo refulgebat. Non enim
+in verbis uniuscujusque fides, sed in exiliis et carceribus
+probabatur: quia non honori erat catholicum
+esse, sed poenae: praecipue apud Alexandriam, ubi
+ne sepeliendis quidem corporibus mortuorum libera
+facultas fidelibus erat. Quae dum Lucius omni arrogantia
+<pb n="0515A"/>
+et saevitia gereret, Mauvia Sarracenorum
+gentis Regina, vehementi bello Palaestini et Arabici
+limitis oppida atque urbes quatere, vicinasque simul
+vastare provincias coepit. Cumque frequentibus
+bellis Romanum attrivisset exercitum, et plurimis
+peremptis, reliquos vertisset in fugam, orata pacem,
+non aliter se amplexuram promittit, nisi Moyses
+quidam nomine, monachus, genti suae ordinaretur
+Episcopus. Qui in eremo partibus suis propinqua
+vitam solitariam ducens, meritis et virtutibus ac signis
+quae faciebat Deus per illum, magnifice innotuerat.
+Petitio ejus Principi indicata Romano, sine
+ulla dilatione jubetur impleri a ducibus nostris, qui
+ibi infoeliciter <emph>276</emph> pugnaverant. Captus Moyses ad
+sacerdotium suscipiendum, Alexandriam ex more
+<pb n="0515B"/>
+deducitur. Adest Lucius, cui ordinandi deferebatur
+officium. Quo viso, Moyses praesentibus ducibus qui
+perurgebant, et populis, ait: Ego quidem me, non
+esse dignum tanto sacerdotio judico: verumtamen
+si aliqua in me, licet indigno, divina dispensatio putatur
+explenda, Deum nostrum caeli ac terrae Dominum
+testor, quod Lucius Sanctorum sanguine pollutas
+et cruentas super me non injiciet manus. Cumque
+Lucius tam gravi nota inustum se videret in
+oculis plurimorum: Quare, inquit, Moyses, tam facile
+condemnas eum, cujus fidem ignoras? Aut si tibi
+aliquis de me aliter indicavit, audi fidem meam, et
+tibi ipse magis quam aliis crede. Tunc ille: Desine,
+inquit, o Luci, dolosis tuis me quoque imaginibus
+adgredi. Bene mihi nota est fides tua, quam protestantur
+<pb n="0515C"/>
+servi Dei per metalla damuati, Episcopi in
+exilium trusi, Presbyteri, diaconi extra Christiani
+nominis habitacula relegati, bestiis alii, alii etiam
+ignibus traditi. Nunquid potest verior esse fides quae
+auribus capitur, quam quae oculis pervidetur?
+Apud me certum est, quod qui Christo recte credunt,
+ista non faciunt. Et ita majore dedecore deformatus
+(quoniam perurgebat necessitas Reipublicae consulendi)
+compulsus est adquiescere, ut ab Episcopis
+quos in exilium truserat, sacerdotium sumeret. Quo
+suscepto, et gentis ferocissimae pacem tenuit, et fidei
+catholicae custodivit intemerata consortia.</p>
+        </div2>
+<div2>
+          <head>CAPUT VII. <hi>De Didymo Alexandrino vidente.</hi> </head>
+
+<pb n="0516A"/>
+<p>Verum cum apud Alexandriam populos et urbem
+nebulosi doctoris tetra perfidiae caligo suffunderet,
+velut lampadem quandam divina luce fulgentem <emph>277</emph> 
+ Didymum Dominus accendit. De cujus vita atque
+institutis, quoniam ad Ecclesiae gloriam Dei munere
+ concessus creditur, licet in transcursu, necessario
+tamen commemoranda nobis pauca videntur. Is
+namque in parva aetate, cum adhuc etiam prima litterarum
+ignoraret elementa, luminibus orbatus, majore
+desiderio scientiae veri luminis inflammatur:
+nec desperationem cupita adipiscendi passus est,
+cum audisset scriptum in Evangelio: <hi>Quod apud homines
+<pb n="0516B"/>
+impossibile est, possibile est apud Deum <note>(Matth.
+19. Marc. 10. Luc. 28.)</note>
+            </hi>. Hac igitur divina pollicitatione
+confisus indesinenter Dominum deprecabatur,
+non ut oculorum carnalium visum, sed ut illuminationem
+cordis acciperet. Miscebat tamen precibus
+studia ac laborem, et juges continuatasque vigilias,
+non ad legendum, sed ad audiendum adhibebat, ut
+quod aliis visus, hoc illi conferret auditus. Cum vero
+post lucubrationis laborem somnus (ut fieri solet)
+legentibus advenisset, Didymus silentium illud non
+ad quietem, vel ocium datum ducens, tanquam mundum
+animal ruminans cibum quem caeperat, ex integro
+revocabat, et ea quae dudum, percurrentibus
+aliis, ex librorum lectione cognoverat, memoria et
+animo retexebat, ut non tam audisse, quae lecta fuerant,
+<pb n="0516C"/>
+quam descripsisse ea mentis suae paginis videretur.
+Ita brevi, Deo docente, in tantam divinarum
+humanarumque rerum eruditionem ac scientiam venit,
+ut scholae Ecclesiasticae Doctor existeret, Athanasio
+Episcopo, caeterisque sapientibus in Ecclesia
+viris Dei admodum probatus: sed et in caeteris, sive
+Dialecticae, sive Geometriae, Astronomiae quoque, vel
+Arithmeticae disciplinis ita esset paratus, ut nullus
+unquam philosophorum aliqua ex his artibus proponens,
+obtinere eum, vel concludere quiverit, sed
+statim ut responsiones ejus acciperet, <emph>278</emph> magistrum
+eum etiam illius de qua proposuisset, crederet
+disciplinae. Hujus aliquanti dicta, vel communiter disputata,
+<pb n="0517A"/>
+vel proponentibus responsa, adhibitis notariis
+descripsere: quae etiam nunc in magna admiratione
+habentur. Nos tamen qui et vivae vocis ejus ex parte
+aliqua fuimus auditores, et ea quae a nonnullis dicente
+eo descripta legimus, longe majorem gratiam
+et divinum nescio quid, ac supra humanam vocem
+sonans, in illis magis sermonibus, qui de ore ipsius
+proferebantur, agnovimus. Hunc etiam beatus Antonius
+cum fidei Athanasii testimonium laturus, adversum
+Arianos de Thebaide Alexandriam descendisset,
+magnificis consolatus est verbis: Nihil te, inquit,
+offendat, o Didyme, quod carnalibus oculis videris
+orbatus. Desunt enim tibi oculi illi, quos mures, et
+muscae, et lacertae habent. Sed laetare, quia habes
+oculos quos Angeli habent, et quibus Deus videtur,
+<pb n="0517B"/>
+per quos tibi magnum scientiae lumen accenditur.</p>
+        </div2>
+<div2>
+          <head>CAPUT VIII. <hi>Quot ex discipulis Antonii etiam tunc in eremo habitantibus, virtutes et signa fecerint.</hi> </head>
+<p>Florebat igitur Aegyptus ea tempestate, non solum
+eruditis in Christiana philosophia viris, verum etiam
+his qui per [ <hi>Al.</hi> super] vastam eremum commanentes,
+signa et prodigia Apostolica simplicitate vitae, et cordis
+sinceritate faciebant. Ex quibus interim quos ipsi
+vidimus et quorum benedici manibus meruimus, hi
+sunt, Macarius de superiori eremo, alius Macarius de
+inferiori, Isidorus in Scyti, Pambus in Cellulis, Moyses
+et Beniamin in Nitria, Scyrion et Helias et Paulus in
+Apeliote, alius Paulus in Focis, Poemen et Joseph <emph>279</emph> 
+ in Pispiri, qui appellabatur mons Antonii. Sed
+<pb n="0517C"/>
+et alios quamplures hujuscemodi viros in Aegypti
+partibus habitare, fideli comperimus auditu, ut vere
+compleretur Apostoli dictum: <hi>Quia ubi abundavit
+peccatum, superabundavit et gratia <note>(Rom. 5.)</note>
+            </hi>. Habuit
+autem per idem tempus etiam Mesopotamia viros
+nobiles, iisdem studiis pollentes. Quorum aliquantos
+ipsi per nos apud Edessam [ <hi>Al.</hi> Edissam] et in Carrarum
+partibus vidimus, plures autem auditione didicimus.</p>
+        </div2>
+<div2>
+          <head>CAPUT IX. <hi>De Gregorio et Basilio Cappadociae Episcopis.</hi> </head>
+<p>Sed neutra harum infoecundior Cappadocia fuit,
+<pb n="0518A"/>
+imo aliquid laetius Gregorium nobis cum Basilio germinavit.
+Tulit igitur et ipsa multorum Sanctorum
+segetem satis [ <hi>Al.</hi> satisque] laetam, produxit copiosam
+piorum vineam, olivarum quoque Domini germinavit
+novellam. Sed isti praecipue velut duo filii pinguedinis,
+assistentes dextera laevaque candelabro, instar
+[ <hi>Al.</hi> adinstar] duorum coeli luminarium refulgebant.
+Unde dignum puto de his pauca supra repetere.
+Ambo nobiles, ambo Athenis eruditi, ambo collegae,
+ambo de auditorio digressi ad profitendam Rhetoricam
+rogabantur. Quod opus magnifice quidem implebat
+Basilius, Gregorius vero magnificentius contemnebat.
+Quique cum se totum Dei servitio mancipasset,
+tantum de collegae amore praesumsit, ut
+sedentem Basilium, de doctoris cathedra deponeret,
+<pb n="0518B"/>
+ac secum ad monasterium manu injecta perduceret,
+ibique per annos (ut aiunt) tredecim, omnibus Graecorum
+ saecularium libris remotis, solis divinae
+Scripturae voluminibus operam dabant, earumque
+intelligentiam, non ex propria praesumtione, sed ex
+majorum scriptis et auctoritate sequebantur: quos
+et ipsos [ <hi>Al.</hi> et ipsa] ex Apostolica successione intelligendi
+regulam suscepisse constabat. Quorum
+praecipue in Prophetas [ <hi>Al.</hi> prophetias] commentarios
+discutientes, thesauros sapientiae et scientiae reconditos
+in vasis fictilibus perquirebant. <emph>280</emph> Verum
+cum jam ipsi sufficienter instructi Divina dispensatione
+ad imbuendos populos vocarentur, et alius
+alio itinere, ad idem tamen opus uterque traheretur,
+Basilius Ponti urbes et rura circumiens, desides
+<pb n="0518C"/>
+gentis illius animos et parum de spe futura sollicitos
+stimulare verbis, et praedicatione succendere, callumque
+ab his longae negligentiae caepit abolere,
+subegitque, abjectis inanium rerum et secularium
+curis, suimet notitiam recipere, in unum coire, monasteria
+construere, psalmis, et hymnis, et orationibus
+docuit vacare, pauperum coram gerere, eisque
+habitacula honesta, et quae ad victum necessaria
+sunt, praebere, virgines instituere, pudicam castamque
+vitam omnibus pene desiderabilem facere. Ita
+brevi permutata est totius provinciae facies, ut in
+arido et squalenti campo videretur seges foecunda,
+ac laeta vinea surrexisse. Gregorius vero bonum
+<pb n="0519A"/>
+semen non patiebatur, aut super spinas jacere, aut
+inter saxa dispergere, sed bonam terram cordis sui
+jugi cultu et exercitiis indesinentibus excolebat. Et
+multo amplius hic in semetipso, quam ille in caeteris
+proficiebat. Suscipere ille, quae renuntiantes
+seculo deferebant ad pedes suos, et dividere ut quisque
+eguisset, curam gerebat. Iste nihil habendi, et
+omnia possidendi contentus sacramento, erga solas
+sapientiae divitias avarus et multum cupidus inhaerebat.
+Ille coire plures in unum, et sui invicem in
+necessariis habere sollicitudinem docebat. Hic sui
+exemplo quod erat absolutus et liber, cunctis sermone
+Apostolico praedicabat: <hi>Ego autem volo vos
+sine sollicitudine esse <note>(1. Cor. 7. 32.)</note>
+            </hi>; et <hi>Dominus
+in proximo est:</hi> nihil solliciti sitis, sed tanquam servi
+<pb n="0519B"/>
+Christi, hoc solum estote solliciti, quando redeat
+Dominus de [ <hi>Al.</hi> a] nuptiis. Ille delinquentibus misericorditer
+condolere, et a delicto revocare: hic
+per divini eloquii gratiam delinquendi incitamenta
+praevenire, nec sinere labi eum, qui difficulter erigeretur
+elisus. Ille in fide purus, hic in praedicatione
+liberior. <emph>281</emph> Ille Deo humilis, hic etiam
+hominibus erat. Ille arrogantes contemtu, hic ratione
+vincebat. Sic in utroque diversa gratia unum opus
+perfectionis explebat. Igitur Basilius non multo post
+Caesareae Cappadociae Episcopus, cum a Valente in
+exilium pro fide cogeretur, exhibitus est ad tribunal
+Praefecti, terroribusque <note>(ut illi moris est [ <hi>Al.</hi> 
+erat] potestati)</note> et minis maximis agi caepit, ut [ <hi>Al.</hi> et]
+nisi praeceptis Principis obediret, interitum sibi jam
+<pb n="0519C"/>
+jamque speraret impendere. Tum ille intrepidus,
+et absque ulla animi perturbatione haec sibi minitanti
+Praefecto respondisse fertur: Atque utinam
+aliquid mihi esset digni muneris, quod offerrem huic,
+qui maturius Basilium de nodo follis hujus absolveret.
+Cumque daretur ei nox, quae erat media, ad
+spacium deliberandi, respondisse denuo perhibetur:
+Ego crastino ipse ero qui nunc: tu te utinam non
+mutares. Et illa quidem nocte uxor imperatoris
+velut tortoribus tradita cruciatur: filius vero qui eis
+erat unicus, extinctus paternae impietatis creditur
+exsolvisse supplicia. Ita ante lucem missi, qui rogarent
+<pb n="0520A"/>
+Basilium, ut precibus suis intercederet pro eis,
+ne etiam ipsi, et quidem multo justius similiter interirent.
+Sic accidit, ut cum omnes catholicos expulerit
+[ <hi>Al.</hi> expelleret] Valens, Basilius usque ad vitae
+exitum intemerato communionis sacramento in Ecclesia
+perduraret. Gregorius vero apud Nazianzon
+oppidum in locum patris Episcopus subrogatus haereticorum
+turbinem fideliter tulit. Reddita vero pace,
+Constantinopolim ad Ecclesiam docendam venire
+ exoratus, non abnuit. Ubi brevi tempore tantum
+ad emendandum populum vetustis haereticorum infectum
+venenis proficit, ut tunc primum Christiani
+sibi fieri viderentur, et novellam lucem veritatis aspicere,
+cum religionis doctor multa <emph>282</emph> quidem
+verbis, plura tamen doceret exemplis: nec viderent
+<pb n="0520B"/>
+ab eo discipulis aliquid imperari, quod non prius
+ipse fecisset. Sed ubi gloriam subsecuta invidia est,
+obniti quidam, et proscriptionibus minus sanis uti
+coepere, ut ipso ad propria remeante, alius ordinaretur
+Episcopus. Quod ille susurrari tantum, et sub
+ dente sentiens ruminari, ipse profert, quod dicere
+ei nullus audebat: Absit, inquit, ut mei caussa aliqua
+simultas in Dei sacerdotibus oriatur. Si propter me
+est ista tempestas, tollite me, et mittite me in mare,
+et desinet a vobis quassatio. Tum regressus, in Ecclesia
+sua [ <hi>Al.</hi> Ecclesiam suam] quod superfuit vitae
+tempus exegit. Et quoniam jam fessa aetate, et corpore
+invalidus erat, successorem sibi ipse delegit,
+quo Ecclesiam gubernante, debilitatis et senectutis
+otio frueretur. Exstant quoque utriusque ingenii monimenta
+<pb n="0520C"/>
+magnifica Tractatuum, quos ex tempore in
+Ecclesiis declamabant. Ex quibus nos denas ferme
+ singulorum Oratiunculas transfudimus in Latinum.
+Basilii praeterea Instituta monachorum, optantes, si
+poterimus, et Dei favor adjuverit, eorum plura transferre.
+Fuerunt praeterea fratres duo Basilio, Gregorius
+et Petrus. Quorum alter in verbo doctrinae, alter
+in operibus fidei fratrem ita exaequabat, ut uterque
+vel Basilium, vel Gregorium redderet. Exstant etiam
+ipsius Gregorii junioris aliqua Opuscula luculenta.
+Sed de his satis dictum. In Occiduis vero partibus
+<pb n="0521A"/>
+Valentinianus fide religionis illaesus, veteri Romani
+imperii censura rempublicam gubernabat.</p>
+        </div2>
+<div2>
+          <head>CAPUT X. <hi>De Damaso Episcopo, et Ursini subreptione.</hi> </head>
+<p>Damasus post Liberium per successionem sacerdotium
+ in urbe Roma <emph>283</emph> susceperat. Quem
+praelatum sibi non ferens Ursinus quidam ejusdem
+Ecclesiae diaconus intantum furoris erupit,
+ut persuaso quodam satis imperito et agresti
+ Episcopo, collecta turbulentorum et seditiosorum
+hominum manu, in Basilica quae Sicinini
+appellatur, Episcopum se fieri extorqueret
+legibus et ordine et traditione perversis. Quo ex
+facto tanta seditio, imo vero tanta bella coorta sunt,
+<pb n="0521B"/>
+alterutrum defendentibus populis, ut replerentur humano
+sanguine orationum loca. Quae res factione
+ Maximini Praefecti saevi hominis, ad invidiam boni
+et innocentis versa est sacerdotis, ita ut caussa ad
+Clericorum usque tormenta deduceretur. Sed assertor
+innocentiae Deus affuit, et in caput eorum qui intenderant
+dolum, poena conversa est.</p>
+        </div2>
+<div2>
+          <head>CAPUT XI. <hi>De Ambrosio Episcopo.</hi> </head>
+<p>Interea defuncto apud Mediolanum Auxentio haereticorum
+Episcopo, utriusque partis populi diversis
+studiis ferebantur. Dissensio gravis et periculosa seditio
+urbi propriae maturum parabat exitium, si pars
+utraque cum diversum vellet, nequaquam quod proposuerat,
+<pb n="0521C"/>
+obtineret. Ambrosius tunc Consularis
+ejusdem provinciae fasces gerebat. Is cum perniciem
+civitati videret impendere, pro loco atque officio suo,
+confestim Ecclesiam, seditionem populi mitigaturus,
+ingreditur. Cumque inibi multa secundum leges et
+publicam disciplinam pro quiete et tranquillitate perorasset,
+pugnantis inter se et dissidentis populi subito
+<pb n="0522A"/>
+clamor et vox una consurgit, Ambrosium Episcopum
+postulantes, baptizari hunc <emph>284</emph> protinus
+clamant (erat enim catechumenus) et sibi Episcopum
+dari: nec aliter unum populum fore atque unam fidem,
+nisi Ambrosius sibi daretur sacerdos. Obluctante
+illo et plurimum resistente, ad Imperatorem
+relatum populi desiderium, omni maturitate jubetur
+impleri. Dei enim, ait, esse, quod discordantem
+populi fidem, et animos dissidentes conversio subita
+in unum consensum atque in unam sententiam revocaret.
+Moxque Dei gratiam consecutus, et initiatus
+sacris, et sacerdos effectus est.</p>
+        </div2>
+<div2>
+          <head>CAPUT XII. <hi>De Valentiniani fine.</hi> </head>
+<p>
+            <pb n="0522B"/>Interea cum ad bellum Sarmaticum Valentinianus
+de Galliae partibus venisset Illyricum, ibi vixdum
+coepto bello, aegritudine subita oppressus diem obiit,
+relictis haeredibus in Imperio filiis, Gratiano Augusto,
+Valentinianoque admodum parvulo, et nondum
+regiis insignibus initiato. Quem tamen necessitas eorum,
+qui tanquam vacuum imperii locum conabantur
+invadere, compulit, etiam [ <hi>Al.</hi> et] absente fratre,
+purpura indui, Probo tunc Praefecto fideliter rem
+gerente.</p>
+        </div2>
+<div2>
+          <head>CAPUT XIII. <hi>De Gothorum per Thracias irruptione, et Valentis nece.</hi> </head>
+<p>Per idem tempus in Orientis regno Gothorum gens
+sedibus suis pulsa, per omnes se Thracias infudit,
+armisque urbes et agros vastare feraliter coepit.
+<pb n="0522C"/>
+Tum vero Valentis bella quae Ecclesiis inferebat, in
+hostem coepta converti, seraque poenitentia Episcopos <emph>285</emph> 
+ et presbyteros relaxari [ <hi>Al.</hi> relaxare] exiliis,
+ac de metallis resolvi monachos jubet. Ipse tamen ab
+hostibus circumventus in praedio, quo ex bello trepidus
+confugerat, impietatis suae poenas igni exustus
+dedit, annis in Imperio cum fratre primo, et post
+<pb n="0523A"/>
+cum filiis fratris, quatuordecim pariter exactis. Quae
+pugna initium mali Romano Imperio tunc et deinceps
+fuit. Igitur Gratianus cum fratre admodum parvulo,
+post patrui necem Orientis quoque suscepit Imperium.
+Is pietate et religione omnes pene, qui ante
+fuerant principes, superabat. Usu armorum strenuus,
+velox corpore, et ingenio bonus erat, sed juvenili
+exultatione plus fere laetus, quam sufficiebat, et plus
+verecundus, quam Reipublicae intererat.</p>
+        </div2>
+<div2>
+          <head>CAPUT XIV. <hi>Ut Gratianus Imperator Theodosium regni participem adsciverit, et post multa religiose et fortiter gesta Maximi tyranni insidiis succubuerit.</hi> </head>
+<p>Quique videns utile, virum annis maturum in tantis
+regni curis habere participem, et quia, ut sermo
+<pb n="0523B"/>
+divinus monet: <hi>Melius duo, quam unus <note>(Eccles. 4, 9.)</note>
+            </hi>,
+consortem adsciscit Theodosium, eique Orientis
+procuratione permissa, partes sibi ac fratri Occiduas
+reservavit. Verum is postquam multa religiose ac
+fortiter gessit, a Maximo tyranno apud Britannias
+exorto, per Andragathium ducem, Lugduni, suorum
+magis proditione, quam vi hostium, peremptus est.</p>
+        </div2>
+<div2>
+          <head>CAPUT XV. <hi>De Valentiniano puero. Utque mater ejus Justina Arianam haeresim defendens, Ecclesias perturbare conata sit.</hi> </head>
+<p> <emph>286</emph> At Valentinianus in Italia degens, fratris nece,
+atque hostis metu perterritus, simulatione oblatam pacem
+a Maximo, simulans ipse quoque libenter amplectitur.
+Cum interim Justina mater ejusdem, Arianae
+<pb n="0523C"/>
+haereseos alumna, impietatis suae venena, quae,
+vivente viro, suppresserat, filio facile decepto fidenter
+[ <hi>Al.</hi> libenter] aperuit. Igitur apud Mediolanum
+posita, conturbare Ecclesiarum statum, comminari
+sacerdotibus depulsiones, exilia, nisi Ariminensis
+concilii decreta, quibus fides patrum temerata fuerat,
+revocarent. Quo bello Ecclesiae murum et turrim
+validissimam pulsabat Ambrosium. Eumque minis,
+terroribus [ <hi>Al.</hi> terroribusque], atque omni oppugnationis
+genere fatigans, primum sibi aditum debellandae
+<pb n="0524A"/>
+rimabatur Ecclesiae. Sed quamvis illa Jezabel spiritu
+pugnaret armata, resistebat tamen Ambrosius,
+Eliae virtute repletus et gratia. Ipsa autem in Ecclesiis
+garrire, strepere, animare, et inflammare ad
+discordiam populos [ <hi>Al. add.</hi> coepit]: sed quod minus
+res ex sententia cederet. injuriam putare, et pro
+hoc [ <hi>Al.</hi> hac] apud filium conqueri. Unde adolescentulus
+pro contumeliae invidia, quam falso conflaverat
+mater, accensus, armatorum globum ad Ecclesiam
+mittit: confringi januas, oppugnari sancta, Sacerdotem
+pertrahi, atque in exilium agi, protinus jubet.
+Sed tanta fuit perseverantia fidelium populorum, ut
+animas prius amittere, quam Episcopum mallent.</p>
+        </div2>
+<div2>
+          <head>CAPUT XVI. <hi>De Benevoli Magistri memoriae fideli constantia.</hi> </head>
+
+<pb n="0524B"/>
+<p> <emph>287</emph> Interim dictanda adversum fidem patrum
+Imperialia decreta mandantur Benevolo, tunc memoriae
+scriniis praesidenti. Sed ille cui ab incunabulis
+sacra fides, et venerabilis fuit, abnegat se impia
+verba posse proferre, et contra Deum loqui. Tum
+vero ne incoeptum reginae frustrari videretur, celsior
+ei honor promittitur, si impleret injuncta. Illo qui
+nobilior in fide esse quam in honoribus cuperet:
+Quid mihi, ait, pro impietatis mercede altiorem promittitis
+gradum? Hunc ipsum, quem habeo tollite:
+tantum mihi conscientia fidei duret illaesa. Haec dicens,
+ante pedes impia praecipientium cingulum jecit.
+Ambrosius vero adversum Reginae furorem, non
+se manu defensabat, aut telo, sed jejuniis continuatisque
+<pb n="0524C"/>
+vigiliis sub altari positus: per obsecrationes
+defensorem sibi atque Ecclesiae Deum parabat. Dumque
+ haec in longum diversis machinis et oppugnationibus
+nequam Justina moliretur, Maximus, qui se
+exuere tyranni infamia, et legitimum principem gestiret
+ostendere, datis litteris impium protestatur
+incoeptum, fidem Dei impugnari, et statuta catholicae
+Ecclesiae subrui, et inter haec appropinquare Italiae
+coepit. Quo Justina comperto, hoste simul atque
+impietatis conscientia perurgente, in fugam versa
+<pb n="0525A"/>
+cum filio, exilia quae Dei sacerdotibus praeparabat,
+prima sortitur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XVII. <hi>Ut Theodosius necem Gratiani ultus, de Maximo triumphaverit.</hi> </head>
+<p> <emph>288</emph> Adfuit tamen Theodosius propter regni fidem,
+bonitatisque ac beneficiorum Gratiani memor,
+et in vindictam, totis viribus Orientis insurgens,
+ultus est sanguinem justum. Valentiniani quoque
+impia inter haec mater defuncta, fidem catholicam,
+quam ipsa violaverat, et regnum tyrannide depulsa,
+ restituit. Atque ipse posteaquam Romam illustri
+triumpho invectus est, ad propria rursus regna remeavit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XVIII. <hi>De Theodosii commisso in Thessalonicenses, et poenitentia ejus publice apud sacerdotes gesta.</hi> </head>
+
+<pb n="0525B"/>
+<p>Per idem tempus subreptione quadam daemonis,
+turpis macula religioso principi inusta [ <hi>Al.</hi> ingesta]
+est. Etenim cum apud Thessalonicam seditione exorta,
+quidam ex militaribus vir impetu fuisset populi
+furentis extinctus, repentini nuntii atrocitate succensus,
+ad ludos Circenses invitari populum eique ex
+improviso circumfundi milites, atque obtruncari
+passim, ut quisque occurrisset, gladio jubet, et vindictam
+dari non crimini, sed furori. Ob hoc cum a
+sacerdotibus Italiae argueretur, agnovit delictum,
+culpamque cum lachrymis professus, publicam poenitentiam
+in conspectu totius Ecclesiae exegit: et in
+<pb n="0525C"/>
+hoc sibi tempus adscriptum, absque regali fastigio
+patienter implevit. Quibus omnibus istud quoque mirabiliter
+adjecit: Lege sanxit in posterum, <emph>289</emph> 
+ut sententiae Principum super animadversione prolatae
+in diem tricesimum ab executoribus differentur:
+quo locus misericordiae, vel (si res tulisset) poenitentiae
+non periret.</p>
+        </div2>
+<div2>
+          <head>CAPUT XIX. <hi>De restitutione Ecclesiarum, quae per ipsum jam catholicum in Oriente restitutae sunt.</hi> </head>
+
+<pb n="0526A"/>
+<p>Igitur ad Orientem regressus, ibique, ut ab exordio
+principatus sui, summa cura summoque studio
+pulsis haereticis, Ecclesias catholicis tradere: idque
+ea moderatione agere, ut ultione contemta, tantum
+catholicis de Ecclesiarum restitutione consuleret,
+quo fides recta absque praedicationis impedimento
+proficeret: communem se praebere erga sacerdotes
+Dei: fide, religione, et munificentia cunctis regium
+animum exhibere: accessu facilis et absque imperiali
+fastu ad colloquium se humilibus praebere: hortatu
+ejus et largitionibus, Ecclesiae plurimis locis ornatae
+<pb n="0526B"/>
+satis magnificeque constructae: praestare multa poscentibus,
+sed frequentius ultro offerre. Idolorum
+cultus, qui Constantini institutione et deinceps negligi
+et destrui coeptus fuerat, eodem imperante collapsus
+est. Pro quibus in tantum Deo charus fuit, ut
+speciale ei munus contulerit divina providentia. Et
+enim in Thebaidos partibus monachum quendam
+Joannem nomine, spiritu prophetico replevit, cujus
+monitis atque responsis pacem retinere, an bellum
+gerere, esset melius, sciscitabatur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XX. <hi>De Apollinare, et haeresi ejus.</hi> </head>
+<p> <emph>290</emph> Interea apud Laodiciam Syriae ante idem
+<pb n="0526C"/>
+tempus Apollinaris Episcopus, vir sane in caeteris
+instructus, sed dum contentionis vitio nimius agitur,
+et adversum omne quod quisque dixerat, ire obvius
+delectatur, jactatione ingenii malefortis haeresim
+ex contentione generavit, asserens solum corpus,
+non etiam animam a Domino in Dispensatione susceptum.
+In quo cum evidentibus Evangelii testimoniis
+<pb n="0527A"/>
+urgeretur (quibus ipse Dominus et Salvator
+habere se animam profitetur, et ponere eam quando
+vult, et iterum assumere eam: quamque turbatam
+et tristem dicit esse usque ad mortem) vertit se post,
+et ne ex toto verti, vel vinci videretur, ait, eum quidem
+habuisse animam, sed non ex ea parte quae rationabilis
+est, sed ex ea solum qua vivificat corpus.
+Ad supplementum vero rationabilis partis, ipsum
+Verbum Dei fuisse perhibebat. Quae assertio primo
+in urbe Roma [ <hi>Al.</hi> Romana] a Damaso et Petro
+Alexandrino Episcopo concilio congregato tali sententia
+depulsa est, ut decernerent, Si quis Filium
+Dei, qui sicut vere Deus, ita et vere homo fuit, vel
+humanitatis aliquid, vel deitatis minus diceret habuisse,
+alienus ab Ecclesia judicaretur. Quae sententia
+<pb n="0527B"/>
+et apud Alexandriam confirmata est, et apud
+Constantinopolim decreto concilii. Ex illo Apollinaristae
+ab Ecclesia declinantes, et Episcopos sibi suae
+partis, et dogmata propria Ecclesiasque defendunt.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXI. <hi>De Episcoporum successionibus per Orientem.</hi> </head>
+<p> <emph>291</emph> Igitur in urbe Roma post Damasum Siricius
+ Ecclesiae suscepit sacerdotium. Apud Alexandriam
+vero defuncto Petro, Timotheus, et post hunc
+Theophilus: in Jerosolymis autem post Cyrillum
+Joannes, Apostolicas reparant sedes. Apud Antiochiam
+vero defuncto Meletio substituitur Flavianus.
+Sed quod Paulinus adhuc supererat, qui in catholicorum
+semper societate permanserat, multa ibi
+jurgia et multae controversiae saepe commotae, nec
+<pb n="0527C"/>
+tamen summa vi nitentibus aliis, aliis obnitentibus
+[ <hi>Al.</hi> obtinentibus], ipsisque in hoc elementis terrae
+marisque fatigatis, potuit aliquando pacis ullus obtineri
+modus, cum utique fidei jam nulla videretur
+subesse discordia. Hoc idem apud Tyrum fuit: Ubi
+cum Diodorus, unus sane ex antiquis catholicis vir,
+et tentationum documentis probatus, Athanasii testimonio
+esset a confessoribus Episcopus factus, modestia
+<pb n="0528A"/>
+ejus contemta, alius a Meletii partibus ordinatur.
+Sed et in multis aliis urbibus Orientis, hujusmodi
+confusiones contentio genuit sacerdotum.
+Apud Constantinopolim vero Nectarius ex Praetore
+Urbano catechumenus et nuper baptisma consecutus,
+sacerdotium suscepit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXII. <hi>De seditione Paganorum contra Fideles.</hi> </head>
+<p>Interea apud Alexandriam novi motus et contra
+temporum fidem adversum Ecclesiam concitantur:
+ex occasione hujuscemodi oborti. Basilica quaedam
+publici operis, vetusta et admodum neglecta fuit,
+quam Constantius Imperator donasse Episcopis
+perfidiam suam praedicantibus ferebatur. Quae longa
+<pb n="0528B"/>
+incuria nihil validum praeter parietes habebat. Visum
+est Episcopo qui per idem tempus gubernabat
+Ecclesiam, hanc ab Imperatore deposcere, <emph>292</emph> ut
+crescentibus fidelium populis, orationum quoque
+crescerent domus. Quamque cum acceptam vellet
+excolere, reperta sunt in loco antra quaedam latentia
+et terrae defossa, latrociniis et sceleribus magis quam
+caeremoniis apta. Igitur Gentiles, qui retegi criminum
+suorum latebras et flagitiorum cavernas viderunt
+[ <hi>Al.</hi> viderent], non ferentes operta tot seculis
+mala et tenebris obtecta reserari, velut draconum
+calice potato, insanire omnes ac palam furere coeperunt.
+Nec vocibus jam et seditionibus, ut solebant,
+sed manu ferroque decertare nituntur. Crebros conflictus
+agere in plateis, belloque aperto uterque populus
+<pb n="0528C"/>
+inter se coire. At nostri numero et potentia
+multo plures, sed modestia religionis minus feroces
+erant. Ex quo frequenter nostrorum plurimis vulneratis,
+aliquantis etiam interfectis, ad templum
+quasi ad arcem quandam refugiebant. Quo nonnullos
+ex Christianis captos secum abducentes [ <hi>Al.</hi> adducentes],
+accensis aris immolare cogebant: renitentes
+novis et exquisitis suppliciis excruciatos necabant,
+alios patibulis affigentes, alios confractis cruribus
+<pb n="0529A"/>
+in speluncas praecipitantes, quas ob sacrificiorum
+sanguinem, caeterasque impuritates delubri recipiendas,
+vetustas curiosa construxerat. Verum haec per
+dies singulos primo cum metu, deinde cum fiducia
+et desperatione gerere, atque intra templum clausi
+rapto et praeda vivere. Ad postremum grassantes in
+sanguinem civium, ducem sceleris et audaciae suae
+deligunt Olympium quendam, nomine et habitu
+ philosophum, quo antesignano arcem defenderent,
+et tyrannidem tenerent. At hi quibus Romanarum
+legum custodia, jurisque dicendi cura permissa est,
+cognitis quae gesta fuerant, turbati atque perterriti
+ad templum convolant, caussas audaciae perconctantur,
+et quid sibi vellet ille concursus, in quo cum
+tanto scelere ante aras sanguis civium funderetur,
+<pb n="0529B"/>
+inquirunt. Sed illi obfirmato aditu confusis et dissonis
+vocibus <emph>293</emph> rationem facti nullam, sed clamorem
+reddebant. Missis tamen ad eos nuntiis, de
+Romani Imperii potestate, de vindicta legum, et de
+his quae talia solerent subsequi, commonebant.
+Cumque loci munitio nihil adversum vesana molientes
+agi, nisi vi majore, sineret, res gesta ad Imperatorem
+refertur. Ille qui ingenita mentis clementia
+errantes mallet emendare quam perdere,
+rescribit, illorum quidem vindictam, quos ante aras
+sanguis effusus Martyres effecit, non esse poscendam,
+in quibus dolorem interitus superaverit gloria meritorum.
+De caetero vero malorum caussam radicesque
+discordiae, quae pro simulachrorum defensione veniebant,
+penitus debere succidi: quibus exterminatis,
+<pb n="0529C"/>
+etiam bellorum caussa pariter conquiesceret. Cumque
+haec scripta venissent, et velut post inducias
+parvi temporis ad audiendum uterque populus convenisset
+ad templum, statim ut prima Epistolae pagina
+ reserata est, in cujus exordio vana Gentilium
+superstitio culpabatur, clamor a nostris immensus
+attollitur, stupor ac pavor Gentilium populos invadit.
+Latebras unusquisque quaerere, angustos fugae calles
+rimari, aut nostris se latenter immergere: ut ab omnibus
+qui aderant nosceretur, praesentia Dei populo
+audaciam tribuente, furorem daemonis qui in illis
+prius debacchatus fuerat, effugatum.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXIII. <hi>De situ templi Serapis, et subversione ejus.</hi> </head>
+<p>
+            <pb n="0529D"/>Serapis apud Alexandriam templum auditum quidem
+omnibus puto, plerisque vero etiam notum.
+Locus est non natura, sed manu et constructione per
+<pb n="0530A"/>
+centum, aut eo amplius gradus, in sublime suspensus,
+quadratis et ingentibus spatiis omni ex parte
+distentus: cuncta vero, quo ad summum pavimentorum
+evadatur, opere <emph>294</emph> forniceo constructa, quae
+immensis desuper luminaribus, et occultis adytibus
+invicem in semet distinctis, usum diversis ministeriis
+et clandestinis officiis exhibebant. Jam vero in
+superioribus extrema totius ambitus spatia occupant
+exedrae et pastophoria (tabernacula), domusque in
+excelsum porrectae, in quibus vel aeditui, vel hi quos
+appellabant <foreign xml:lang="greek">ἀγνεύοντας,</foreign> id est, qui se castificant,
+commanere soliti erant. Porticus quoque post haec
+omnem ambitum quadratis ordinibus distinctae intrinsecus
+circumibant. In medio totius spatii aedes
+erat, pretiosis edita columnis et marmoris saxo ex
+<pb n="0530B"/>
+trinsecus ample magnificeque constructa. In hac simulachrum
+Serapis ita erat vastum, ut dextra unum
+parietem, alterum leva perstringeret: quod monstrum
+ex omnibus generibus metallorum lignorumque
+compositum ferebatur. Interiores delubri parietes
+laminis primo aureis vestiti, super has argenteis, ad
+postremum aereis habebantur, quae munimento [ <hi>Al.</hi> 
+monimenta] pretiosioribus metallis forent. Erant
+etiam quaedam ad stuporem admirationemque videntium,
+dolis et arte composita. Fenestra perexigua ab
+ortu solis ita erat aptata, ut die qua fuerat institutum
+simulachrum Solis ad Serapin salutandum introferri,
+diligenter temporibus observatis, ingrediente
+simulachro radius solis per eandem fenestram
+ directus, os et labra Serapis illustraret, ita ut
+<pb n="0530C"/>
+inspectante populo, osculo salutatus Serapis videretur
+a Sole. Erat et aliud fraudis genus hujusmodi:
+Natura lapidis Magnetis hujus virtutis esse perhibetur,
+ut ad se rapiat et attrahat ferrum. Signum
+Solis ad hoc ipsum ex ferro subtilissimo manu artificis
+fuerat fabricatum, ut lapis, cujus naturam ferrum
+ad se trahere diximus, desuper in laquearibus
+fixus, cum temperate sub ipso radio ad libram fuisset
+positum simulachrum, et vi naturali ad se raperet
+ferrum, assurexisse populo simulachrum, et in
+aere pendere videretur. Et ne hoc lapsu <emph>295</emph> propero
+proderetur, ministri fallaciae, Surrexit [ <hi>Al.</hi> 
+Surrexerit], aiebant, Sol, ut valedicens Serapi,
+discedat ad propria. Sed et multa alia decipiendi
+caussa a veteribus in loco fuerant constructa,
+<pb n="0530D"/>
+quae nunc longum est enumerare per singula.
+Verum ut dicere coeperamus, Rescripto recitato, parati
+quidem erant nostrorum populi ad subvertendum
+<pb n="0531A"/>
+erroris auctorem: persuasio tamen quaedam ab
+ipsis Gentilibus fuerat dispersa, quod si humana
+manus simulachrum illud contigisset, terra dehiscens
+illico solveretur in chaos, caelumque repente
+rueret in praeceps. Quae res paululum stuporem
+quendam populis dabat. Cum ecce [ <hi>Al.</hi> esset] unus
+ex militibus fide quam armis magis munitus, correptam
+bipennem, insurgens omni nisu, maxillae veteratoris
+inlidit. Clamor attollitur utrorumque populorum:
+neque tamen aut caelum ruit, aut terra desedit.
+Inde iterum atque iterum <emph>296</emph> repetens, putris
+ligni fumosum genium caedit: quo dejecto,
+igni adhibito tam facile, quam lignum aridum conflagravit.
+Post hoc revulsum cervicibus, et depresso
+modio, trahitur caput: tunc pedes, aliaque membra
+<pb n="0531B"/>
+caesa securibus et rapta funibus distrahuntur, ac
+per singula loca membratim in conspectu cultricis
+Alexandriae senex veternosus exuritur. Ad ultimum
+<pb n="0532A"/>
+truncus, qui superfuerat, in amphitheatro concrematur:
+vanaeque superstitionis et erroris antiqui
+Serapis hic finis fuit. De cujus origine diversa fertur
+opinio Paganorum. Alii Jovem putant: cujus capiti
+modius superpositus, vel quia cum mensura modoque
+cuncta indicet moderari, vel vitam mortalibus
+frugum largitate praeberi [ <hi>Al.</hi> praebere]. Alii virtutem
+Nili fluminis, cujus Aegyptus opibus et foecunditate
+pascatur. Quidam in honorem nostri Joseph
+formatum perhibent simulachrum, <emph>297</emph> ob dimensionem
+frumenti, qua famis tempore subvenit Aegyptiis.
+Alii repertum in historiis Graecorum veteribus
+ferunt, Apin quemdam patremfamilias seu regem in
+Aegypto Memphis positum, cum famis tempore frumenta
+apud Alexandriam defecissent, ex proprio affatim
+<pb n="0532B"/>
+civibus alimenta praebuisse. Quo defuncto, in
+honorem ejus instituerint apud Memphis templum,
+in quo bos quasi indicium optimi agricolae nutritur,
+<pb n="0533A"/>
+habens quaedam coloris insignia, qui ex nomine
+ejus Apis appelletur: <foreign xml:lang="greek">σορὸν</foreign> vero, id est, sepulchrum,
+in quo corpus ejus inerat Alexandriam deduxerint,
+et Soron Apis primo ex compositione Sorapin, post
+vero per corruptionem Serapin nominarint. Quod
+an verum sit, aut nihil omnino, de his Deus viderit.
+Sed ad inceptum redeamus.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXIV. <hi>De fraudibus, quae in templis Paganorum detectae sunt.</hi> </head>
+<p>Post haec capite ipso idololatriae dejecto, studiis
+vigilantissimi sacerdotis [ <hi>Al. add.</hi> quoque] quaecumque
+fuerant per totam Alexandriam portenta potius,
+quam simulachra pari exitu et simili dedecore publicantur.
+ Horret animus dicere, qui miseris mortalibus
+laquei a daemonibus praeparati sint, quae funera,
+<pb n="0533B"/>
+quae scelera in illis, quae dibebant [ <hi>Al.</hi> dicebantur] <foreign xml:lang="greek">ἄδυτα,</foreign>
+ tegerentur: quot ibi infantum capita
+desecta inauratis labris inventa sint: quot miserorum
+cruciabiles mortes depictae. Quae cum proderentur
+in lucem, ac sub auras prolata ferrentur, licet
+confusione ipsa Gentiles et pudore diffugerent:
+tamen si quis adesse potuit, mirabatur tot seculis
+se illis tam nefariis et tam pudendis fraudibus irretitum.
+Unde et plurimi <emph>298</emph> ex his, condemnato
+errore et scelere deprehenso, fidem Christi et cultum
+verae religionis amplexi sunt. Nam ut omittam
+caetera flagitia, quae in aliis locis vi necatis parvulis,
+despicatisque ob fibrarum inspectionem virginibus
+gerebantur, unum solummodo quod in templo Saturni
+<pb n="0533C"/>
+geri, ad omnium venit conscientiam, memorabo:
+ex quo etiam caetera quae omisimus, perpendantur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXV. <hi>De Saturni sacerdote Tyranno, totius pene Alexandriae adultero.</hi> </head>
+<p>Sacerdos erat apud eos Saturni, Tyrannus nomine.
+Hic [ <hi>Al.</hi> Is] quasi ex responso numinis, adorantibus
+in templo nobilibus quibusque et primariis
+viris, quorum sibi matronae ad libidinem placuissent,
+<pb n="0534A"/>
+dicebat, Saturnum sibi praecepisse, ut uxor sua
+pernoctaret in templo. Tum is qui audierat, gaudens
+quod uxor sua dignatione numinis vocaretur, exornatam
+comptius insuper et donariis onustam, ne vacua
+scilicet repudiaretur, conjugem mittebat ad
+templum. In conspectu omnium conclusa intrinsecus
+matrona, Tyrannus clausis januis, et traditis clavibus
+discedebat. Deinde facto silentio, per occultos et
+subterraneos adytus, intra ipsum Saturni simulachrum
+patulis erepebat cavernis. Erat autem simulachrum
+patulis erepebat cavernis. Erat autem simulachrum
+illud a tergo exesum, et parieti diligenter
+annexum. Ardentibusque intra aedem luminibus, intentae
+supplicantique mulieri vocem subito per
+simulachrum aeris concavi proferebat, ita ut pavore
+et gaudio infelix mulier trepidaret, quod
+<pb n="0534B"/>
+dignam se tanti numinis putaret alloquio. Postea
+quam vero quae libitum fuerat, vel ad consternationem
+majorem, vel ad libidinis incitamentum, <emph>299</emph> 
+ disseruisset numen impurum, arte
+quadam linteolis obductis, repente lumina extinguebantur
+universa. Tum descendens obstupefactae et
+consternatae mulierculae adulteri fucum prophanis
+commentationibus inferebat. Haec cum per omnes
+miserorum matronas multo jam tempore gererentur,
+accidit quandam pudicae mentis foeminam horruisse
+facinus, et attentius designantem, cognovisse vocem
+Tyranni, ac domum regressam, viro de fraude sceleris
+indicasse. Ille de injuria conjugis, imo potius
+sua, ardentius inflammatus, inscriptum Tyrannum
+ad tormenta deducit. Quo convicto atque confesso,
+<pb n="0534C"/>
+caecisque fraudibus revelatis, pudor omnis et dedecus
+Paganorum pervaserat domos, adulteris matribus,
+incestis patribus, liberis spuriis deprehensis. Quibus
+divulgatis et proditis, raptim cum simulachris et aedibus
+excidebantur et crimina.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXVI. <hi>De Canopi initio et interitu.</hi> </head>
+<p>Jam vero Canopi quis enumeret superstitiosa flagitia?
+ubi praetextu sacerdotalium litterarum (ita
+<pb n="0535A"/>
+etenim appellant antiquas Aegyptiorum litteras) magicae
+artis erat pene publica schola. Quem locum
+velut fontem quendam atque originem daemonum intantum
+venerabantur Pagani, ut multo ibi major
+celebritas, quam apud Alexandriam haberetur. Sed
+de hujus quoque monstri errore, cujusmodi originem
+tradant, absurdum non erit paucis exponere.
+Ferunt aliquando Chaldaeos Ignem Deum suum circumferentes,
+cum omnium provinciarum diis habuisse
+conflictum, quo scilicet qui vicisset, hic esse Deus ab
+omnibus crederetur. <emph>300</emph> Reliquarum provinciarum
+Dii [ <hi>Al.</hi> Dei], aeris aut auri, argentive, aut ligni, vel
+lapidis, vel ex quacunque materia constabant, quae
+per ignem procul dubio corrumperetur. Ex quo fiebat,
+ut Ignis locis omnibus obtineret. Haec cum audisset
+<pb n="0535B"/>
+Canopi sacerdos, callidum quiddam excogitavit.
+Hydriae fieri solent in Aegypti partibus fictiles, undique
+crebris, et minutis admodum foraminibus patulae,
+quibus turbida aqua desudans, defaecatior ac
+purior redditur [ <hi>Al.</hi> redderetur]. Harum ille unam
+cera foraminibus obturatis, desuper etiam variis coloribus
+pictam, aqua repletam statuit ut Deum. Et
+excisum veteris simulachri, quod Menelai gubernatoris
+ ferebatur, caput desuper positum diligenter
+aptavit. Adsunt post haec Chaldaei: itur in conflictum:
+circa hydriam ignis accenditur: cera qua foramina
+fuerant obturata, resolvitur: sudante hydria
+ignis extinguitur. Sacerdotis fraude Canopus Chaldaeorum
+victor ostenditur. Unde ipsum Canopi simulachrum,
+pedibus perexiguis, attracto collo, et quasi
+<pb n="0535C"/>
+ suggillato ventre tumido in modum hydriae cum dorso
+aequaliter tereti formatur. Ex hac persuasione
+velut Deus victor omnium colebatur. Sed profecerint
+haec fortasse aliquando Chaldaeis. Nunc vero
+adventante sacerdote Dei Theophilo, nullus profuit
+sudor, nec ceris fraus obtecta subvenit. Vastata sunt
+omnia, atque ad solum deducta.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXVII. <hi>De Ecclesiis et Martyriis quae in idolorum locis constructa sunt.</hi> </head>
+<p>Sed nihil gestum est, quod in squalorem verteret
+locum. Flagitiorum cavernae, veternosa busta
+<pb n="0536A"/> <emph>301</emph> 
+ dejecta sunt, et veri Dei templa Ecclesiae celsae
+ constructae. Nam et in Serapis sepulcro, prophanis
+aedibus complanatis, ex uno latere Martyrium,
+ex altero consurgit Ecclesia. Occasio autem Martyrii
+construendi unde data sit, dignum arbitror memorare.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXVIII. <hi>De Joannis sepulcro violato et reliquiis apud Alexandriam conservatis.</hi> </head>
+<p>Juliani temporibus velut relaxatis frenis efferbuit
+in omnem saevitiam feritas Paganorum. Ex quo accidit,
+apud Sebasten Palaestinae urbem sepulchrum
+ Joannis Baptistae mente rabida et funestis manibus
+invaderent, ossa dispergerent, atque ea rursum collecta,
+igni cremarent, et sanctos cineres pulveri immixtos,
+<pb n="0536B"/>
+per agros et rura dispergerent. Sed Dei providentia
+factum est, quosdam de Jerosolymis ex
+monasterio Philippi hominis Dei, orationis illuc caussa
+per idem tempus venisse. Qui cum tantum nefas humanis
+quidem manibus, sed ferina mente fieri viderent,
+mori gratius habentes, quam hujuscemodi piaculo
+funestari, inter eos qui ossa ad exurendum
+legebant, mixti diligentius, in quantum res patiebatur,
+ac religiosius congregantes, furtim se vel stupentibus,
+vel insanientibus subtraxere, et ad religiosum
+patrem Philippum venerandas reliquias pertulere.
+Ille supra se ducens, tantum thesaurum propriis
+servare vigiliis, ad Pontificem maximum tunc Athanasium,
+hostiae immaculatae reliquias per Julianum
+diaconum suum, post etiam Palaestinae urbis Episcopum
+<pb n="0536C"/>
+mittit. Quas ille susceptas, paucis arbitris sub
+cavato sacrarii pariete inclusas, prophetico spiritu
+profuturas generationi posterae conservavit: quibus
+nunc dejectis et prostratis idololatriae vestigiis, in
+aedibus quondam prophanis aurea tecta consurgerent.
+Sed post occasum <emph>302</emph> Serapis, qui numquam vixerat,
+quae jam alterius daemonis stare delubra potuerunt?
+Parum dixerim, si omnes quae erant Alexandriae
+per singulas pene columnas cujuscumque
+daemonis aediculae infultae ceciderunt. Sed per cunctas
+Aegypti urbes, per castella, per vicos, per omne
+rus, per ripas fluminis, per eremum quoque, si qua
+<pb n="0537A"/>
+phana vel [ <hi>Al.</hi> seu] potius busta reperiri potuerunt,
+instantia uniuscujusque Episcopi subruta, et ad solum
+deducta sunt, ita ut denuo rus culturae redderetur,
+quod injuste fuerat daemonibus deputatum.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXIX. <hi>De Thoracibus Serapis apud Alexandriam abrasis, et signo Christi in loco eorum reddito.</hi> </head>
+<p>Sed et illud apud Alexandriam gestum est, quod
+etiam Thoraces Serapis, qui per singulas quasque
+domos in parietibus, in ingressibus, in postibus
+etiam ac [ <hi>Al.</hi> in] fenestris erant, ita abscissi sunt
+ omnes et abrasi, ut ne vestigium quidem usquam,
+vel numinis appellatio, aut ipsius, aut cujuslibet alterius
+daemonis remaneret; sed pro his Crucis Dominicae
+<pb n="0537B"/>
+signum unusquisque in postibus, in ingressibus,
+in fenestris, in parietibus, columnisque depingeret.
+Quod cum factum esse hi qui superfuerant
+ex Paganis viderent, in recordationem rei magnae
+ex traditione sibimet antiquitus commendata venisse
+perhibentur: Signum hoc nostrum Dominicae Crucis
+inter illas quas dicunt <foreign xml:lang="greek">ίερατικὰς,</foreign> id est, sacerdotales
+literas, habere Aegyptii dicuntur velut unum ex caeteris
+literarum, quae apud illos sunt, elementis. Cujus
+literae seu vocabuli hanc esse asserunt interpretationem: <hi>Vita ventura.</hi> 
+ Dicebant ergo hi qui tunc admiratione
+rerum gestarum convertebantur ad fidem, ita
+sibi ab antiquis traditum, quod haec quae nunc coluntur,
+tamdiu starent, quamdiu viderent signum
+istud <emph>303</emph> venisse, in quo esset vita. Unde accidit
+<pb n="0537C"/>
+ut magis hi qui erant ex sacerdotibus vel ministris
+templorum, ad fidem converterentur, quam illi quos
+errorum praestigiae et deceptionum machinae delectabant.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXX. <hi>Ut mensura aquae Nili fluminis, quam</hi> <foreign xml:lang="greek">πῆχυν</foreign> <hi>vocant, ad Ecclesiam deferatur.</hi> </head>
+<p>Sane quoniam moris erat in Aegypto, ut mensura
+ascendentis Nili fluminis ad templum Serapis deferretur,
+velut ad incrementi aquarum et inundationis
+<pb n="0538A"/>
+auctorem, subverso ejus simulachro, ignique consumto,
+omnes simul negabant, Serapin injuriae memorem,
+aquas ultra ac affluentia solita largiturum.
+Sed ut ostenderet Deus non Serapin, qui multo erat
+Nilo posterior, sed se esse, qui aquas fluminis temporibus
+suis juberet excrescere, tanta ex eo et deinceps
+fuit inundatio, quantam fuisse prius aetas nulla
+meminerat. Et ideo ulna ipsa, id est, aquae mensura,
+quam <foreign xml:lang="greek">πήχυν</foreign> vocant, ad aquarum Dominum in Ecclesiam
+coepta deferri. Sed ubi haec gesta religioso
+Principi nuntiata sunt, extentis ad caelum palmis,
+cum ingenti fertur exultatione dixisse: Gratias tibi,
+Christe, quod absque urbis illius magnae pernicie
+tam vetustus [ <hi>Al.</hi> vetus] error extinctus est.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXI. <hi>De Valentiniani junioris interitu, et ortu Eugenii.</hi> </head>
+
+<pb n="0538B"/>
+<p>Interea Valentinianus in Occiduis partibus, animis
+( quantum aetas patiebatur) ardentibus, Rempublicam
+gerens, caussis etiam nunc latentibus laqueo
+vitam finivit. Sed hoc quidam dolo ducis sui Arbogasti
+factum confirmabant: idque quam maxime
+publica tenebat opinio. Alii quidem a commissi [ <hi>Al.</hi> 
+commisso] scelere ducem alienum dicebant, <emph>304</emph> 
+sed caussas praestitisse, quibus in hoc adolescens
+animi indignatione cogeretur, quod minus ei tanquam
+per aetatem nondum valido, libera de omnibus
+indulgeret imperia. Fuere tamen nonnulli sacerdotum,
+qui pacis ab eo qui post creatus est legatione
+suscepta, immunem esse ducem a mortis scelere
+apud Theodosium testarentur.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXII. <hi>De responsis Joannis monachi.</hi> </head>
+
+<pb n="0538C"/>
+<p>Sed ille nihilo segnius inflammatus ad ultionem,
+arma contra Eugenium, qui in locum defuncti substitutus
+est, corripit, primo Dei voluntatem per
+Joannem monachum <note>(de quo supra <hi>[Cap. 19. fin.]</hi> 
+memoravimus)</note> sciscitatus. Tum ille qui primam de
+Maximo ei victoriam praedixerat incruentam, etiam
+hanc, licet non absque plurima utriusque sanguinis
+inundatione, promittit.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXIII. <hi>De apparatu belli adversus Eugenium Theodosii, et de victoria ejus orationibus magis, quam virtute peracta.</hi> </head>
+
+<pb n="0539A"/>
+<p>Igitur praeparatur ad bellum non tam armorum
+telorumque, quam jejuniorum orationumque subsidiis:
+nec tam excubiarum vigiliis, quam obsecrationum
+pernoctatione munitus circumibat, cum sacerdotibus
+et populo omnia orationum loca, ante
+Martyrum et Apostolorum thecas jacebat cilicio
+prostratus, et auxilia sibi fida sanctorum intercessione
+poscebat. At Pagani, qui errores suos novis
+semper erroribus animant, innovare sacrificia, et
+Romam funestis victimis cruentare, inspicere exta
+pecudum, et ex fibrarum praescientia securam Eugenio
+<pb n="0539B"/>
+victoriam nuntiare. Superstitiosius haec agente,
+et cum omni animositate, Flaviano tunc Praefecto,
+cujus assertionibus <emph>305</emph> (magna enim erat ejus in
+ sapientia praerogativa) Eugenium victorem fore pro
+certo praesumpserat. Sed ubi verae religionis fretus
+auxilio Theodosius, alpium fauces coepit urgere, primi
+illi, quibus nequicquam litatae sunt tot victimae,
+de fallaciae conscientia trepidi daemones, in fugam
+versi. Post etiam magistri horum et doctores errorum
+praecipue [ <hi>Al.</hi> praecipueque] Flavianus, plus
+pudoris, quam sceleris reus, cum potuisset evadere
+eruditus admodum vir, mereri se mortem pro errore
+justius, quam pro crimine judicavit. Caeteri vero
+instruunt aciem, et collocatis in superiori jugo
+insidiis, ipsi pugnam in descensu montis exspectant.
+<pb n="0539C"/>
+Verum ubi ad primos ventum est, et illico se legitimo
+Principi tradiderunt: cum caeteris imis vallibus
+deprehensis conflictus acerrimus geritur. Stetit aliquandiu
+anceps victoria: fundebantur auxilia Barbarorum,
+et terga jam hostibus dabant. Sed fiebat hoc
+non ut Theodosius vinceretur, sed ne per Barbaros
+vincere videretur. Tum ille ut conversas suorum
+acies vidit, stans in edita rupe, unde et conspicere
+et conspici ab utroque posset exercitu, projectis
+armis, ad solida se vertit auxilia, et prostratus in
+conspectu Dei: Tu, inquit, omnipotens Deus, nosti
+quia in nomine Christi Filii tui ultionis justae, ut
+puto, praelia ista suscepi: si secus, in me vindica.
+<pb n="0540A"/>
+Si vero cum caussa probabili, et in te confisus, huc
+veni, porrige dexteram tuis, <hi>Ne forte dicant Gentes,
+ubi est Deus eorum <note>(Psal. 113. 30.)</note>
+            </hi>? Quam supplicationem
+pii Principis, certi a Deo esse susceptam, hi
+qui aderant duces, animantur ad caedem: et praecipue
+ Bacurius, vir fide, pietate, virtute et animi et
+corporis insignis, et qui comes esse et socius Theodosii
+mereretur, proximos quosque conto, telis, gladio
+passim sternit, agmina hostium conferta <emph>306</emph> 
+et constipata perrumpit. Iter per millia ruentium ad
+ipsum Tyrannum, ruptis agminibus, et acervatim
+fusis stragibus, agit. Vix fortasse ab impiis [ <hi>Al.</hi> infidelibus]
+credantur, quae gesta sunt. Etenim compertum
+est, quod post illam Imperatoris precem quam
+Deo fuderat, ventus ita vehemens exortus est, ut
+<pb n="0540B"/>
+tela hostium in eos qui jecerant, retorqueret. Cumque
+magna vi persistente vento, omne jaculum missum
+ab hostibus frustraretur [ <hi>Al.</hi> perfrustaretur], fracto
+adversariorum animo, seu potius divinitus repulso,
+Arbogasto duce nequicquam, Deo adverso, fortiter
+faciente, Eugenius ante Theodosii pedes, vinctis [ <hi>Al.</hi> 
+vinctus] post terga manibus, adducitur. Ibique vitae
+ejus et certaminis finis fuit. Tum vero religioso
+Principi gloriosior victoria de frustratis opinionibus
+Paganorum, quam de Tyranni interitu fuit: quibus
+ spes vana et falsa divinatio minus in interitu contulit
+poenae, quam pudoris servavit in vita.</p>
+        </div2>
+<div2>
+          <head>CAPUT XXXIV. <hi>De fine Theodosii post victoriam, et Arcadio atque Honorio liberis ejus et haeredibus regni.</hi> </head>
+<p>
+            <pb n="0540C"/>Cumque post haec ut futurorum praescius Imperator,
+disponendae Reipublicae sollicitudine stringeretur,
+ad orientem protinus mittit, ubi venturus ad
+bellum, tuta liberos custodia commendarat. Ibique
+Arcadium Augustum regnum sibi dudum traditum
+servare praecipit [ <hi>Al.</hi> praecepit]. Honorium vero pari
+dignatione praeditum, ad occidentis imperium venire
+ ocyus jubet. Quo suscepto, et paternis osculis
+complexibusque constricto, traditis occidentalis regni
+gubernaculis, ipse, Romano imperio per annos decem
+et septem feliciter gubernato, ad meliora migravit,
+cum piissimis Principibus percepturus praemia
+meritorum.
+</p>
+</div2>
+      </div1>
+</body>
+  </text>
+</TEI>

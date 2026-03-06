@@ -1,0 +1,3928 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Dialogi in Porphyrium</title>
+              <author ref="http://viaf.org/viaf/100218964">Boetius<date>480-525</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1847</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 64</title>
+           <idno>Boetiu.DiInPo</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>DIALOGUS PRIMUS.</head>
+<p>
+          <pb n="0009A"/>Hiemantis anni tempore in Aureliae montibus concesseramus,
+atque ibi tunc cum violentior auster
+ejecisset noctis placidam atque exturbasset quietem,
+recensere libitum est ea quae doctissimi viri ad illuminandas
+quodammodo acies intellectus densitate
+caligantissimas, quibusdam quasi introductoriis commentariis
+ediderunt. Ejus vero rei Fabius initium
+fecit, qui cum me lectulo recumbentem, et quaedam
+super eisdem rebus cogitantem meditantemque vidisset,
+hortatus, ut quod saepe eram pollicitus, aliquam
+illi ejus rei traderem disciplinam. Complacitum
+est igitur, quoniam tunc et familiarium salutationes,
+et domestica negotia cessabant. Interrogatus
+a me ergo super quibus vellet rebus me enodare atque
+expedire, tunc Fabius: Quoniam, inquit, tempus
+<pb n="0009B"/>
+ad studia vacat, et hoc otium in honestum negotium
+converti licet, rogo ut mihi explices id quod Victorinus
+orator sui temporis ferme doctissimus a Porphyrio
+per <foreign xml:lang="greek">εἰσαγωγήν,</foreign> id est per introductionem in
+Aristotelis Categorias dicitur transtulisse. Et primum
+disciplinis didascalicis quibusdam me imbue, quibus
+expositores vel etiam commentatores, ut discipulorum
+animos docilitate quadam assuescant, utuntur.
+Tunc ego: Sex omnino, inquam, magistri in omni
+expositione praelibant. Praedocent enim quae sit cujuscunque
+operis intentio, quod apud illos <foreign xml:lang="greek">σκόπος</foreign>
+vocatur. Secundum quae utilitas, quod a Graecis <foreign xml:lang="greek">χρήσιμον</foreign>
+appellatur. Tertium qui ordo, quod Graeci vocant <foreign xml:lang="greek">τάξιν.</foreign>
+ Quarum si ejus cujus esse opus dicitur,
+<pb n="0009C"/>
+germanus propriusque liber est, quod <foreign xml:lang="greek">γνήσιον</foreign> interpretari
+solet. Quintum quae sit ejus operis inscriptio,
+quod <foreign xml:lang="greek">ἐπιγραφὴν</foreign> Graeci nominant. In hoc etiam quod
+intentionem cujusque libri insolenter interpretarentur,
+de inscriptione quoque operis apud quosdam
+minus callentes haesitatum est. Sextum est id dicere,
+ad quam partem philosophiae cujuscunque libri ducatur
+intentio, quod Graeca oratione dicitur <foreign xml:lang="greek">εἰς ποῖον
+μέρος φιλοσοφίας ἀνάγεται.</foreign> Haec ergo omnia in quolibet
+philosophiae libro quaeri convenit, atque expediri.
+Tunc Fabius, quae esset introductionis intentio interrogavit.
+Et ego inquam: Aristoteles, qui factus est
+introductionis pons, non aliter intelligi potest, nisi
+ipsas res de quibus disputaturus est, ad intelligentiam
+<pb n="0009D"/>
+praeparemus. Videns enim Porphyrius quod in
+rebus omnibus essent quaedam prima natura, ex quibus
+omnia, velut ex aliquo fonte manarent, et illa
+quae prima essent, et subsistentia esse, et generis
+vocabulo nuncupari. Porro autem nunquam esse genus
+posse, nisi ei quaedam alia subderentur, et quae
+<pb n="0010A"/>
+essent subdita species appellari: porro autem nunquam
+genus uni speciei genus esse posse, sed pluribus.
+Plures autem species non posse esse multiplices,
+nisi eas aliqua discretio separet. Si enim nihil
+sibi dissimiles forent, una species non multiplices viderentur.
+Illa igitur divisio et dissimilitudo specierum
+differentiae nomine vocitantur. Omnia vero quae
+aliqua re differunt, fieri aliter non possunt nisi quibusdam
+propriis solitariisque naturis insignita sint.
+Atque haec hactenus. Videns ergo quod omnis omnium
+disparilitas in gemina rerum principia secaretur,
+in substantiam atque accidens, ita ut neque accidens
+sine substantia, neque sine accidenti substantia
+esse possit. Accidens quippe sine aliquo
+<pb n="0010B"/>
+substantiae fundamento esse non potest: substantia
+vero ipsa sine superjecto accidente videri nullo modo
+potest. Ut enim color sit quod est accidens, in corpore
+erit quod est substantia. Porro autem cum corpus,
+id est substantiam videris, insignitam eam
+accidenti, id est aliquo colore respicies. Itaque fit
+ut neque substantia praeter accidens sit, neque accidens
+a substantia relinquatur. Ubi enim substantia
+fuit, mox accidens consecutum est. Speculatus igitur
+Porphyrius in his duabus rebus, id est accidenti et
+substantia, genera, species, propria, differentiasque
+versari, et quod ipsa per se sint genera subjectis et
+subjacentibus speciebus, quae differentiis et propriis
+insignitae sunt, statuit principaliter de genere, specie,
+differentia, propriisque tractare. Et quoniam
+<pb n="0010C"/>
+tractatus hic in definitionibus, ut post docebimus,
+proderit, si quis autem in definitione generali ponat
+accidens, eum non recte definire manifestum est,
+quod suo loco tractabitur, statuit pauca de accidentibus
+praelibare. Ita enim nos prudentissimus doctor
+instituit, ut tunc in definitionibus quibuslibet plenam
+scientiam queamus accipere, cum quod prosit dictum
+sit, et quod non sit utile, segregetur. Haec igitur
+hujus operis intentio est, de genere, specie, differentiis,
+propriis, accidentibusque tractare. Hic Fabius:
+Expedisti, inquit, de intentione, nunc utilitatem
+explica. Varia, inquam, et multiplex in hoc
+opere commoditas utilitasque versatur. Primum
+enim in Aristotelis categorias perquam uberrime
+<pb n="0010D"/>
+prodest. Quid autem prosit dicemus, cum de ejus
+libri inscriptione tractabimus, sed in quibus aliis
+prosit, paucis philosophiae ipsius divisione facta perstringam.
+Et prius quid sit ipsa philosophia considerandum
+est. Est enim philosophia amor et studium
+et amicitia quodammodo sapientiae. Sapientiae vero
+<pb n="0011A"/>
+non hujus quae in artibus quibusdam et in aliqua fabrili
+scientia notitiaque versatur, sed illius sapientiae,
+quae nullius indigens, vivax mens, et sola rerum
+primaeva ratio est. Est autem hic amor sapientiae
+intelligentis animi ab illa pura sapientia illuminatio,
+et quodammodo ad seipsam retractio atque advocatio,
+ut videatur studium aeque sapientiae, studium divinitatis
+et purae mentis illius amicitia. Haec igitur
+sapientia cuncto animarum generi meritum suae divinitatis
+imponit, et ad propriam naturae vim puritatemque
+reducit. Hinc nascitur speculationum cogitationumque
+veritas, et sancta puraque actuum castimonia.
+Quae res in ipsius philosophiae divisionem
+sectionemque convertitur. Est enim philosophia genus,
+species vero ejus duae, una quae <foreign xml:lang="greek">θεωρητική</foreign> dicitur,
+<pb n="0011B"/>
+altera quae <foreign xml:lang="greek">πρακτική,</foreign> id est speculativa et activa.
+Erunt autem tot speculativae philosophiae species,
+quot sunt res in quibus justae speculatio considerationis
+habetur. Quotque actuum diversitates, tot species
+varietatesque virtutum. Est igitur <foreign xml:lang="greek">θεωρητικῆς,</foreign> id est
+contemplativae vel speculativae triplex diversitas, atque
+ipsa pars philosophiae in tres species dividitur.
+Est enim <foreign xml:lang="greek">θεωρητικῆς</foreign> pars una de intellectibilibus,
+alia de intelligibilibus, alia de naturalibus. Tunc interpellavit
+Fabius, miratusque est quid hoc novi sermonis
+esset, quod unam speculativae partem intellectibilem
+nominassem. Nota, inquam, quoniam Latino
+sermone nunquam dictum reperi, intellectibilia, egomet
+mea verbi compositione vocavi. Est enim intellectibile
+quod unum atque idem per se in propria
+<pb n="0011C"/>
+semper divinitate consistens: nullis unquam sensibus,
+sed sola tantum mente intellectuque capitur.
+Quae res ad speculationem Dei atque ad animi incorporalitatem
+considerationemque verae philosophiae
+indagatione componitur. Quam partem Graeci <foreign xml:lang="greek">θεολογίαν</foreign>
+nominant. Secunda vero pars est intelligibilis,
+quae primam intellectibilem cogitatione atque intelligentia
+suscipiens, ea comprehendit quae sunt omnium
+coelestium supernae divinitati operum causae,
+et quidquid sub lunari globo beatiore animo atque
+puriore substantia valet; postremo humanarum animarum
+conditionem atque statum, quae omnia cum
+prioribus illis intellectibiles substantiae fuissent, sed
+corporum tactu, ab intellectibilibus ad intelligibilia
+degenerarunt, ut non magis ipsa intelligantur quam
+<pb n="0011D"/>
+intelligant, et intelligentiae puritate tunc beatiora
+sunt, quoties sese intellectibilibus applicarint. Tertia <foreign xml:lang="greek">θεωρητικῆς</foreign>
+ species est, quae circa corpora atque
+eorum scientiam cognitionemque versatur, id est
+physiologia, quae naturas corporum passionesque declarat.
+Secunda vero, intelligibilium substantia, interito
+in medio collocata est, quod habeat et corporum
+animationem, et quodammodo vivificationem, et intellectibilium
+considerationem cognitionemque, ut
+dictum est. Practicae vero philosophiae, quam activam
+superius dici demonstratum est, hujus quoque
+triplex est divisio. Est enim prima quae sui curam
+gerens cunctis sese erigit, exornat, augetque virtutibus,
+nihil invita admittens, quo non gaudeat, nihil
+<pb n="0012A"/>
+faciens poenitendum. Secunda vero est quae reipublicae
+curam suscipiens, cunctorum saluti suae providentiae
+solertia, et justitiae libra, et fortitudinis stabilitate,
+et temperantiae patientia medetur. Tertia vero
+quae rei familiaris officium mediocri componens dispositione
+distribuitur. Sunt harum etiam aliae subdivisiones,
+quas nunc persequi supersedendum est.
+Ad haec igitur ut sciri possint et superiora intelligi
+queant, necessarius maxime uberrimusque fructus
+est artis ejus, quam Graeci <foreign xml:lang="greek">λογικήν,</foreign> nos rationalem
+possumus dicere, quod recta orationis ratione quid
+verum, quidque decens sit, nullo erroris flexu diverticulove
+fallatur. Quam artem quidam partem
+philosophiae, quidam non partem, sed ferramentum
+et quodammodo supellectilem judicarunt. Qua autem
+<pb n="0012B"/>
+id utrique impulsi ratione crediderint, alio erit
+opere commemorandum. Haec autem generis, speciei,
+differentiae, proprii atque accidentis disputatio
+in omni nobis philosophiae cognitione quasi quamdam
+viam parat. Nam cum quid genus sit docemur,
+quid species, intelligimus genus esse philosophiam,
+species vero indubitanter <foreign xml:lang="greek">θεωρητικήν</foreign> et <foreign xml:lang="greek">πρακτικήν,</foreign> id
+est speculativam et activam. De logica vero utrum
+sit species, eadem hac possumus ratione perpendere.
+Prodest nobis differentiae cognitio ad ipsarum philosophiae
+specierum differentias cognoscendas. Prodest
+proprii scientia ad cognoscendum quid unicuique
+philosophiae speciei solitaria natura videatur ac substantiae
+innatum. Prodest accidentis cognitio: per
+hoc enim quid principaliter in rebus sit cernere, et
+<pb n="0012C"/>
+quid secundo contingentique loco conveniat, discernere
+valeamus. Ita nobis harum quinque rerum
+scientia, ramosa quadam et multifida vi, in omnibus
+sese philosophiae partes infundit. Ad grammaticam
+vero, non minor hujus rei usus est, quando orationem
+genus dicimus: octo vero partes orationis, per
+species, differentias, propriaque metimur. Est vero
+hujus rei perquam rhetorice amica conjunctaque cognitio.
+Ita enim rhetoricam in tribus causarum possumus
+separare generibus, et eas in subjectis constitutionibus
+dissecare. Definitionum quoque quae ad
+logicam pertinent magna atque utilis uberrimaque
+cognitio est, quas definitiones, nisi per genera, species,
+differentias, proprietatesque tractaveris, nullus
+unquam definitionibus terminus imponetur. Nam si
+<pb n="0012D"/>
+quid definis, ex quo sit genere primum tibi dicendum
+est, atque in hoc genus speciesque consummata
+sunt. Nam cujuscunque rei genus dixeris, ad quam rem
+illud dixeri, speciem facis. Ut si quid sit homo definias,
+dicas hominem esse animal. Igitur quoniam ad
+hominem aptasti animal, genus esse animal, et hominem
+speciem a te declaratum est, sed non sufficit
+sola generis in definitione monstratio. Si enim solum
+animal hominem esse dixeris, num potius hominem
+quam bovem asinumque aut equum definitione depinxeris?
+Prodest igitur etiam differentias adhibere,
+per quas id quod definies a speciebus aliis sejungatur,
+ut dicas hominem esse animal rationale. Et
+quoniam sub eadem differentia plures frequenter species
+<pb n="0013A"/>
+inveniuntur, ut sub rationali Deus atque homo
+est, utilissimus proprietatis usus est, ut id dicas,
+quod sola quam definis species, suum propriumque
+retineat. Fit ergo hujusmodi hominis definitio: Homo
+est animal, id est genus, homo vero species, rationale,
+quod differentia est, risus capax, quod proprium
+est: accidentium vero in definitionibus nullus
+usus est. Prodest ergo in definitionibus harum quinque
+rerum cognitio, ut nec ea quae sunt utilia praetermittas,
+nec ea quae nihil praestant commoditatis, adjungas.
+In divisione vero tantum prodest, ut nisi per
+horum scientiam, nulla res recte distribui, secarique
+possit. Nam quae generum vel specierum recta distributio
+divisione erit, ubi ipsarum quae dividuntur
+rerum nulla scientiae cognitione dirigimur? Probationum
+<pb n="0013B"/>
+vero veritas in his maxime constituta est:
+quod per ea quae dividis, id quod dividis, vel quid
+aliud probas. Nam Marcus Tullius in Rhetoricorum
+primo, quoniam divisionem generum, causarum rite
+atque ordinate faciebat, ejus rei probationem ita
+esse debere per species generaque disposuit, cum ait
+easdem res aliis superponi, aliis supponi posse, eisdem
+et subjectas et superpositas esse non posse. Haec fere
+de utilitate ad tempus dicenda credidimus. Tunc Fabius:
+Valde miror, inquit, cur inchoanti mihi tam
+subtilius inventas exercitatasque res edideris. Sed
+dic, quaeso, quodnam hoc totum fuit consilium? Et
+ego, dicam tibi quod assuescendus animus auditoris
+et mediocri subtilitate imbuendus est, ut cum sese
+hic primum exercuerit palaestra ingenii, quasi quodammodo
+<pb n="0013C"/>
+prius luctatus, ea quae sequentur sine ullo
+labore conficiat. Sed quid restet dicas licebit. Et Fabius:
+Ordinem, inquit, restare arbitror, si bene commemini.
+Atqui, inquam, hic ordo valde cum inscriptione
+conjunctus est. Si enim alterum noris, ambo
+noveris. Ordo tamen est quod omnes post Porphyrium
+ingredientes ad logicam, hujus primum libelli
+tractatores fuerunt, quod primus hic ad simplicitatem
+tenuitatis usque progressus, quo procedentibus
+viandum sit, praeparat. Aristoteles enim, quoniam
+dialecticae atque apodicticae disciplinae volebat posteris
+ordinem scientiamque contradere, vidit apodicticam
+dialecticamque vim uno syllogisimi ordine
+contineri. Scribit itaque primos resolutorios quos
+Graeci <foreign xml:lang="greek">ἀναλυτικοὺς</foreign> vocant, qui legendi essent antequam
+<pb n="0013D"/>
+aliquid dialecticae vel apodicticae artis attingerent.
+Imprimis enim resolutoriis de syllogismorum
+ordine complexioneque et figuris tractatur. Et quoniam
+syllogismus genus est apodictici et dialectici
+syllogismi, dialecticam in Topicis suis exercuit, apodicticam
+in secundis resolutoriis ordinavit: horum
+disciplina, quam ille in monstrandis syllogismis ante
+collegerat, prius etiam in studiis lectitatur. Itaque
+primi prius resolutorii quam secundi qui de apodictico
+syllogismo, vel Topica quae de dialectico syllogismo
+sunt, accipiuntur. Traxit igitur Aristoteles dialecticam
+atque apodicticam scientiam, adunavitque
+in syllogismorum resolutoria disputatione. Sed quoniam
+syllogismum ex propositionibus constare necesse
+<pb n="0014A"/>
+est, librum <foreign xml:lang="greek">Περὶ ἑρμηνείας,</foreign> qui inscribitur de
+Propositionibus, adnotavit. Omnes vero propositiones
+ex sermonibus aliquid significantibus componuntur.
+Itaque liber quem de decem praedicamentis
+scripsit, quae apud Graecos <foreign xml:lang="greek">κατηγορίαι</foreign> dicuntur, de
+primis rerum nominibus significantibusque est. Vidit
+enim Aristoteles infinitam miscellamque esse rerum
+omnium, verborumque disparilitatem, et ut eorum
+ordinem reperiret, in decem primis sermonibus,
+prima rerum genera significantibus, omne quidquid
+illud vel rerum, vel sermonum poterat esse, collegit.
+Sed Aristoteles hactenus. Speculatus autem
+Porphyrius si categoriae genera sunt rerum, rerum
+vero sermonumque diversitas, speciebus, differentiis,
+propriisque insigniretur, videns etiam quod accidentium
+<pb n="0014B"/>
+in categoriis magna vis esset (omnes enim res
+Aristoteles in duas primum partes dividit, in accidens
+atque substantiam), et accidens in novem membra
+dispersit, dicens, aut substantiam esse quamcunque
+illam rem, aut si accidens esset, quoniam aut
+qualitas, aut quantitas, aut ad aliquid, aut ubi, aut
+quando, aut jacere, aut habere, aut facere esset, aut
+pati. Praelibat igitur nos Porphyrius ad horum verissimam
+cognitionem hoc de generibus, speciebus,
+differentiis, propriis, accidentibusque tractatu. Sic
+igitur cum ante apodicticam dialecticamque rem
+syllogistica praelegantur, ante syllogisticam in propositionibus
+primus labor sit, ante propositiones in
+categoriis pauca desudent, ante categorias in isagogis
+plurimum laborent, quae de generibus, speciebus,
+differentiis, propriis, accidentibusque censentur,
+<pb n="0014C"/>
+ordo est de his ipsis rebus pauca praelibare. Recte
+igitur ut filo quodam hic Porphyrii liber primus legentibus
+studiorum praegustator, et quodammodo
+initiator occurrit. Quod si in hac re, quod dictum
+est, sat est, rem etiam de inscriptione confecimus.
+Quo enim alio melius quam introductionis nomine
+nuncupetur hic liber? Est namque ad categorias
+Aristotelis introitus, et quaedam quasi janua venientes
+admittit. Tum Fabius: Perge, quaeso te; et si
+ejus hoc proprium germanumque opus est collige.
+Hoc, inquam, indubitatum est, omnibus enim Porphyrii
+libris stylus hic convenit. Et mos hic Porphyrio
+est, ut in his rebus quae sunt obscurissimae, introducenda
+quaedam et praegustanda praecurrat, ut alio
+quodam libro de Categoricis syllogismis fecit, et de
+<pb n="0014D"/>
+multis item aliis quae in philosophia gravia illustriaque
+versantur. Et hoc apud superiores indubitatum
+est, quibus nolle credere inscitia est. Tum Fabius:
+Restat, inquit, ut ad quam partem philosophiae ducatur,
+edisseras. Et ego: Dicam tibi: Quoniam categoriae
+ad propositiones aptantur, syllogismi de propositionibus
+componuntur, apodictici vero vel dialectici
+syllogismi in logicae artis disciplina vertuntur.
+Constat quoque categorias quae ad propositiones
+syllogismosque pertinent, logicae scientiae esse connexas.
+Quare introductio quoque in categorias ad
+logicam scientiam convenienter aptabitur. Quoniam
+ea quae praedicenda sunt explicui, nunc textus ipsius
+ratio atque ordo videatur. Tum Fabius: Priusquam
+<pb n="0015A"/>
+explanatio sensus procedat id scire desidero, cur
+cum posset dicere: Cum necessarium sit, praeposterato
+ordine, cum sit necessarium dixit. Et ego:
+Quoniam, inquam, nullum accidens est, quod non
+substantiae fundamento nitatur. Porro autem quidquid
+ad cujuslibet superjecti firmitatem est, id antequam
+ipsum esset, fuisse necesse est: ut enim in
+domibus, nisi prius fundamenta subjicias, nulla unquam
+fabrica, sic nisi prius substantiae fundamenta
+sint, nulla unquam accidentia superponentur. Oportet
+enim prius esse aliquid, ut formam qualitatis arripiat,
+nam necessarium qualitas est: non absurde
+igitur prius esse posuit, post etiam necessarium, id
+est post substantiam qualitatis nomen aptavit. Hic
+Fabius: Subtilissime, inquit, et lucide, sed nunc
+<pb n="0015B"/>
+ordo ipse operis textusque videatur.</p>
+<p> <hi>Cum sit necessarium Menanti, sive ad Aristotelis categorias,
+sive ad definitionis disciplinam, nosse quid sit
+genus, quidve species, quid differentia, quid proprium,
+quid accidens, et omnino ad ea quae sunt divisionis,
+vel quae approbationis, quorum utilitas est et magna
+cognitio, breviter tibi explicare tentabo. Quae apud antiquos
+quidem alte et magnifice quaestionum genera
+proposita sunt, ego simplici sermone cum quadam
+conjectura in res consideratione alia, ista explicabo mediocriter.</hi> </p>
+<p>Tunc ego: Praediximus quidem pauca superius, sed
+vel his quaedam addere, vel haec eadem rursus commemorare
+absurdum esse non arbitror. Totus autem
+sensus talis est: Scribens ad Menantium de utilitate
+<pb n="0015C"/>
+libri, summatim pauca praedicit, quo elucubratior
+animus auditoris exercitatiorque ad haec capienda
+perveniat. Prodesse autem ad Aristotelis categorias
+dicit, quod cum omnium sermonum significantium
+varietatem diversa rerum summa divideret, et in substantiam
+atque accidens omnes res secaret atque dispergeret,
+accidens in novem secuit partes, quod superius
+demonstravi, et haec genera generalissima nominavit,
+id est <foreign xml:lang="greek">γενικώτατα,</foreign> quod super ista alia genera
+inveniri non possint. Igitur si sunt genera, sine
+speciebus esse non possunt. Si sub his species supponuntur,
+differentiis non vacabunt. Quod si differentias
+retinent, propriis indigebunt. Accidentis vero
+novem praedicamenta sunt. Quocirca non absurdum
+fuit hinc introductionem in praedicamenta componi,
+<pb n="0015D"/>
+ut de generibus, speciebus, differentiis, propriisque
+tractaret, quae in ipsis praedicamentis inseparabiliter
+videntur inserta. Amplius. Quod Aristotelica subtilitas
+priusquam ad praedicamentorum ordinem veniretur,
+de aequivocis univocisque tractavit, definit vero
+aequivoca sic: Aequivoca sunt quorum nomen solum
+commune est, secundum vero nomen substantiae alia
+ratio est, ut si qua sunt, quae nomine tantum communicent,
+substantia vero dissimilent: univoca vero
+quae sub eodem nomine et sub eadem substantia continentur.
+Omne igitur genus ad species quae sunt sub
+ipso positae univoce praedicari potest. Porro autem
+quidquid ad quaslibet res univoce praedicatur, in his
+sola diffinitio una est, genus vero speciesque convertitur.
+<pb n="0016A"/>
+Animal enim et homo univocum est. Animal
+enim animalis nomine dicitur. Porro autem homini
+nomen etiam convenit animalis, ut dicatur animal,
+uno ergo nomine animalis homo et animal appellatur.
+Animalis vero diffinitio est, substantia animata
+sensibilis, quam si ad hominem vertas nihil absurdum
+feceris: potest enim homo esse substantia animata
+sensibilis, sed animal genus, homo vero species;
+univoce igitur genus et species praedicantur.
+Aequivoca vero qui fuerint, quoniam definitionibus
+differunt, et eorum quorum definitiones aliae sunt,
+alia est etiam substantia: quorum alia substantia est,
+alia sunt etiam omnino genera, in his eisdem aequivocis
+constat, quod neque genus, neque species possit
+aptari: etenim si quis hominem marmoreum et
+<pb n="0016B"/>
+hominem vivum hominis nomine appellet, idem nomen
+utrique fecerit substantiae, differentia vero diffinitioque
+est dissimilis. Porro autem hominis et statuae
+non unum genus est, sed statuae inanimatum,
+hominis animatum. Quare constat quoniam nunquam
+sub eisdem generibus continentur quaecunque aequivoce
+praedicantur. Quam vim nisi prius de generibus,
+speciebus, propriis et differentiis notitiam scientiamque
+perceperis, nullo nunquam tempore discernis.
+Idem Aristoteles ait quid sint primae substantiae, quid
+secundae, et primas substantias dicit esse individuorum
+corporum et singulorum, ut est Cicero, aut
+Plato, aut Socrates. Secundas vero substantias species
+appellavit, ut est homo, vel genera in quibus
+ipsae species continentur, ut est animal. Haec igitur
+<pb n="0016C"/>
+nisi praelibata generis specieique cognitione sciri non
+possunt. Idem ait substantiam ab alia substantia, in
+eo quod substantia sit, nulla differentia disgregari.
+Idem substantiae proprietates requirit, ut quasi impresso
+aliquo signo, sic proprietate nota, facilius
+quid substantia sit invenire atque expedire possimus.
+Atque hoc idem in accidentibus fecit. Nam et quantitatis
+et qualitatis et ad aliquid relationis propria
+collegit, et idem magna apud Aristotelem cura diligentiaque
+conspicitur. Videsne ut sese quinque harum
+rerum vis in categorias interserat, et praedicamentorum
+virtutibus inseparabiliter colligetur? Non mendax
+igitur Porphyrius de hac cognitione, harum quinque
+rerum nobis in categorias, utilitate promisit. Definitionis
+vero disciplinam superius diximus praeter genera,
+<pb n="0016D"/>
+species, differentias et propria non posse tractari.
+Sed quoniam sunt quaedam genera, quae genus
+habere non possunt, ut est substantia, et alia quae
+Aristoteles in praedicamentis constituit, dicat quis
+haec ad horum cognitionem nihil omnino prodesse,
+quod non sit in his a genere trahenda definitio, in
+quibus genus inveniri non possit, quod si qua res
+genus non haberet, species non esset. Hoc ita posito
+ad generalissimorum generum definitionem nihil genera
+et species utilitatis habere. Ridicula mehercle
+atque absurda propositione. Praeter scientiam enim
+generum specierumque magis genera illa generalissima
+cognoscere qui potis est, cum, haec sola generum
+specierumque cognitio si amissa sit, nihil de generibus
+<pb n="0017A"/>
+speciebusque noscatur? In illis igitur in quibus
+genus aliud superius inveniri non potest, nullius
+unquam terminus definitionis aptabitur, et in ipsius
+definitione genera speciesque cessabunt, et solae
+differentiae propriaque illius terminum definitionis
+informant. Cum enim id quod dicis, ab aliis rebus
+omnibus adjunctis differentiis segregaveris, et propriis
+impressis formam ejus figuramque monstraveris,
+genus quod invenire non poteris perquirere non
+labores. Sed in his species et genera non requiruntur,
+in quibus, quod ipsa generalissima sint genera, genus
+inveniri non queat. Porro autem in his quorum genus
+est aliquid, nisi a genere definitio ducatur, finis ejus
+definitionis vitiosa conclusione colligitur. Accidens
+vero ad definitiones nihil prodesse non dubium est.
+<pb n="0017B"/>
+Definitio enim substantiam informare desiderat, accidens
+vero substantiam non designat. Accidens igitur
+in definitione nihil prodest. Est itaque necessaria
+generis specieique cognitio, ut si generalissima non
+sint quae quisque definiturus est, a genere definitionem
+trahat. Si vero generalissima sint, ejus genus
+quaerere, quod inveniri non potest, non laboret. Aeque
+enim vitiosum est vel in generalissimis genera quaerere,
+vel in subalternis generibus a generibus definitionem
+ducere supersedere. Differentiae vero et propria,
+vel si magis genera sunt, vel si subalterna,
+maximam retinent utilitatem: et quoniam ad definitiones
+quae pertinent quaedam dicta sunt, pauca etiam
+de his ipsis rationabilius subtiliusque colligemus. Sit
+genus animal, sit species homo, sit differentia rationale
+<pb n="0017C"/>
+vel mortale, sit proprium risibile: accidens vero
+quoniam ad definitiones incommodum est praetermittamus.
+Quisquis ergo speciem definit, ita de genere
+ab aliis eam generibus separat, ut si quis dicat
+quid est homo? animal. Dicens enim animal, separavit
+hominem ab omnibus generibus quaecunque
+animalia non sunt. Si quis vero differentiam dicat, et
+eam ad speciem accommodet, res sub eisdem generibus
+per differentias segregavit. Nam cum dicis hominem
+esse animal rationale, cum etiam bos et equus
+species animalis sint, additum tamen rationale homini,
+ab aliis sub eodem genere speciebus, hominis
+speciem segregavit atque distinxit: propria vero cum
+dederis, res quae sunt sub eisdem, differentiis segregabis.
+Nam cum dixeris hinnibile vel risibile, illud
+<pb n="0017D"/>
+est equi proprium, illud hominis. Et cum equus cum
+bove atque cane sub eadem differentia sit, quod irrationabilia
+sunt omnia, adjectum hinnibile a caeteris
+equum sub eadem differentia speciebus dividit. Homo
+vero et Deus sub eadem differentia sunt, id est rationali,
+quod utrique rationales sunt, quamvis homo
+et Deus adjuncta mortali differentia separentur:
+proprio tamen, id est risibili, quod solus habet homo,
+naturalius substantialiusque disjungitur, quod in aliis
+rebus in quibus nulla species tali differentia separatur
+melius cognosci potest. Nam cum sub eadem differentia
+sint irrationalia, equus, bos, canis, nec est
+ulla alia quae eos separet differentia substantialis.
+Possunt enim accidentis esse differentiae, ea quae eos
+<pb n="0018A"/>
+separent, quales sunt formarum, additum tamen equo
+proprium hinnibile, equum ab aliis sub eadem differentia
+speciebus proprietatis ipsius separatione disjunxit.
+Repetendum est igitur a primordio, quod
+genera in definitionibus ab aliis generibus separant,
+differentiae ab ipsis speciebus, quae sub eisdem generibus
+positae sunt, propria a speciebus, quae sub eisdem
+differentiis supponuntur. Sed quoniam plene de
+diffinitione tractatum est, probationis vel divisionis
+vim subtilitatemque tractemus. Sed omnis divisio
+duplex est, aut cum totum corpus in diversa disjungis,
+aut cum genera per species distribuis. Si quis
+igitur harum quinque rerum minus solers divisiones
+rerum facere voluerit, non est dubium quin eas per
+inscientiam saepe a speciebus in genera solvat, quod
+<pb n="0018B"/>
+est factu foedissimum, quod Hermagorae in prima
+Rhetoricorum disputatione usu venit. In tales enim
+erroris nebulas incidit, ut duo genera sub aequalis
+generis parte poneret. Quod si divisionis vim veritatemque
+vidisset, et disciplinam generum, specierumque,
+propriorum et differentiarum recepisset, nunquam
+tam insulsae divisionis errore vivacissime a
+Marco Tullio culparetur. In probationibus vero tantus
+est hujus operis fructus, ut praeter haec nullius unquam
+rei possit provenire probatio. Quid enim monstrare
+digne queas, cum cujus differentias nescias,
+idipsum quale sit scire non possis? Quid autem digne
+exsequeris, cujus si genus nescias, ex quo idipsum
+fonte manet ignores? Vel quid in probationibus ratione
+possis ostendere, cujus si speciem nescias,
+<pb n="0018C"/>
+idipsum de quo aliquid probare vis, quid sit non
+possis agnoscere? Quid si propria praetermittas?
+nullas unquam res valebis propriae termino probationis
+includere. At vero si non vim accidentium naturamque
+perspicias, cum de cujusque substantia tractes,
+inane accidentis nomen aeque in definitionibus
+probationibusque miscebis. Ita his rebus cognitis, integra
+stabilisque divisio et definitio permanebit, incognitis,
+debilis lababit et trunca probatio. Haec se
+igitur Porphyrius (non Victorinus) breviter mediocriterque
+promittit exponere. Non enim introductionis
+vice fungeretur, si ea nobis a primordio fundaret, ad
+quae nobis haec tam clara introductio praeparatur.
+Servat igitur introductionis modum doctissima parcitas
+disputandi, ut ingredientium viam ad obscurissimas
+<pb n="0018D"/>
+rerum caligines aliquo quasi doctrinae suae
+lumine temperaret. Dicit enim apud antiquos alta et
+magnifica quaestione disserta, quae ipse nunc parce
+breviterque composuit. Quid autem de his a priscis
+philosophiae tractatoribus dissertum sit, breviter ipse
+tangit et praeterit. Tum Fabius: Quid illud, inquit,
+est? Et ego: Hoc, inquam, quod ait se omnino praetermittere
+genera ipsa et species, utrum vere subsistant,
+an intellectu solo et mente teneantur, an
+corporalia ista sint an incorporalia: et utrum separata,
+an ipsis sensibilibus juncta. De his sese, quoniam
+alta esset disputatio, tacere promisit: nos autem
+adhibito moderationis freno, mediocriter unumquodque
+tangamus. Eorum ergo quae se transire et praetermittere
+<pb n="0019A"/>
+pollicetur, prima est quaestio, utrum genera
+ipsa et species verae sint, an in solis intellectibus,
+nuda inaniaque fingantur, quae quaestio hujusmodi
+est: Quoniam hominum multiformis est animus per
+sensuum qualitatem res sensibus subjectas intelligit,
+et ex his quadam speculatione concepta, viam sibi ad
+incorporalia intelligenda praemunit: ut cum singulos
+homines videam, eos quoque me vidisse cognoscam,
+et quia homines sunt, me intellexisse profitear. Hinc
+igitur ducta intelligentia, velut jam sensibilium cognitione
+roborata, sublimiori sese intellectu considerationis
+extollit, et jam speciem ipsam hominis,
+quae sub animali est posita, et singulos homines
+continet, suspicatur, et illud incorporeum intelligit,
+cujus ante particulas corporales in singulis hominibus
+<pb n="0019B"/>
+sentiendis et intelligendis assumpserat. Nam hominem
+quidem illum specialem, qui nos omnes intra
+sui nominis ambitum coercet, non est dicere corporalem,
+quippe quem sola mente intelligentiaque concepimus.
+Sic igitur mens rerum nixa primordiis altiori
+atque incorporabili intelligentia sublimatur. Hinc ergo
+animus non solum per sensibilia res incorporales
+intelligendi est artifex, sed etiam fingendi sibi atque
+etiam mentiendi. Inde enim ex forma equi et hominis
+falsam centaurorum speciem sibi ipsa intelligentia
+comparavit. Has igitur mentis considerationes, quae
+a rerum sensu ad intelligentiam profectae, vel intelliguntur,
+vel certe finguntur. <foreign xml:lang="greek">Φαντασίας</foreign> Graeci dicunt,
+a nobis visa poterunt nominari. Ita ergo nunc de
+generibus, speciebus et caeteris quaerunt, utrum haec
+<pb n="0019C"/>
+vere subsistentia, et quodammodo essentia constantiaque
+intelligantur, ut a corporibus singulis vere
+atque integre ductam hominis speciem intelligamus,
+an certe quadam animi imaginatione fingantur, ut
+ille Horatii versus est: Humano capiti cervicem pictor
+equinam jungere si velit, quod neque est, neque esse
+poterit, sed sola falsa mentis consideratione fingitur.
+Nimis acuta et subtilis inquisitio, atque ad rem maxime
+profutura. Scienda enim sunt, utrum vere sint: nec
+esset de his disputatio consideratioque si non sint.
+Sed si rerum veritatem atque integritatem perpendas,
+non est dubium quin verae sint. Nam cum res omnes
+quae verae sunt, sine his quinque esse non possint,
+has ipsas quinque res vere intellectas esse non dubites.
+Sunt autem in rebus omnibus conglutinatae et
+<pb n="0019D"/>
+quodammodo conjunctae atque compactae. Cur enim
+Aristoteles de primis decem sermonibus genera rerum
+significantibus disputaret? vel eorum differentias,
+propriaque colligeret, et principaliter de accidentibus
+dissereret, nisi haec in rebus intimata et quodammodo
+adunata vidisset? Quod si ita est, non est dubium
+quin verae sint, et certa animi consideratione teneantur,
+quod ipsius quoque Porphyrii probatur assensu.
+Nam quasi jam probato, et scito quod ita vere subsistant,
+aliam quaestionem inferre non dubitat, cum
+dicit: An corporalia ista sint, an incorporalia. Quae
+nimis esset frivola atque absurda quaestio, utrum
+essent corporalia, nisi prius esset constaret. Haec
+quoque non mediocriter utilis inquisitio ita resolvitur:
+<pb n="0020A"/>
+Incorporalia esse nullus dubitat, cumque ipsa
+nullis sensibus capiantur, animi tamen qualia sint
+consideratione clarescunt. Nam quia incorporeorum,
+prima natura est, potest res incorporea parens esse
+quodammodo corporeae. Corporea vero incorporeis
+praeesse non poterunt, quod quoniam substantia genus
+est, corporale vero et incorporale species sunt
+substantiae, corporale non esse genus haec res declarat,
+quod substantiae, id est generi, incorporale
+supponitur. Quod si corporale esset genus, nunquam
+sub eo species incorporea poneretur. Animadvertere
+igitur vehementissime, quam nunquam quidquam a
+te animadversum fuit. Genus ipsum quoniam species
+habet, species vero differentiis disjungantur, et
+proprietatibus informentur, quoniam quaedam species
+<pb n="0020B"/>
+reperiuntur quae in contraria sub generis divisione
+contrarias obtinent vices: ut sub animali
+rationale atque irrationale contraria sunt, sub rationali,
+mortale atque immortale, et haec quoque
+contraria. Quaeritur, si animal solitario intellectu neque
+rationale neque irrationale sit, unde hae differentiae
+in speciebus natae sint, quae in genere ante
+non fuerant? Quod si genus, id est animal utrasque
+res in se habet, ut et rationale et irrationale sit, in
+uno eodemque duo contraria eveniunt, quod est impossibile.
+Attingam igitur breviter quaestionem, et
+dicam quod non genus utrumque sit, id est rationale
+vel irrationale, vel quidquid aliud inter se species
+per contrarietates dividunt, sed vi sua et potestate
+genus hoc continet, ipsum vero nihil horum
+<pb n="0020C"/>
+est. Ita ergo genus tale est, ut ipsum neque incorporale,
+neque corporale sit, utrumque tamen ex se
+possit efficere, quod secundo libro melius liquebit.
+Species vero alias corporalis, alias incorporalis est.
+Nam si hominem sub substantia ponas, corporalem
+speciem posuisti, sin Deum incorporalem. Eodem
+modo etiam differentiae. Nam si corporales vel incorporales
+species dividunt, erunt alias incorporales,
+alio tempore corporales; ut si dicas quadrupes
+ad bipedem, corporalis differentia est, sed rationalis
+ad irrationalem, incorporalis est differentia, et propria
+nihilominus eodem modo. Nam aequale speciei
+cum proprium fuerit, si incorporalis erit species,
+incorporale erit proprium, sin corporalis, corporale
+vindicabitur. Et accidens eodem modo. Nam si
+<pb n="0020D"/>
+incorporalibus quidem accidit incorporale esse, manifestum
+est ut in animo accidens est scientia, incorporalis
+scilicet. Corporalibus vero quae accidunt,
+corporalia esse manifestum est: ut si quis dicat accidens
+me habere capillum crispum. Sic igitur genus
+neutrum per seipsum est, sed utrasque res ex seipso
+efficere potest, species, differentias, propria et accidentia,
+ut accepta in contrarias species fuerint,
+proinde vel corporalia vel incorporalia vocabuntur.
+Sed sunt quibus hoc ipsum integrum videri possit,
+et haec solum incorporalia esse diffiniunt, qui sic
+dicant, non considerari genus in eo quod suapte natura
+constat, sed in eo quod genus sit. Itaque si substantia
+genus est, non consideratur in eo quod substantia
+<pb n="0021A"/>
+est, sed in eo quod sub se species habet.
+Item si species corporeum et incorporeum est, non in
+eo quod Deus vel homo dicitur, considerantur, sed
+in eo quod est sub genere. Eodem modo etiam differentiae
+non considerantur in eo quod bipes vel quadrupes
+sit, sed in eo quod est differentia. Nam
+quadrupes hoc ipsum nulla differentia est, nisi sit
+bipes a quo differat. Itaque non quadrupes vel bipes
+respicitur, sed id quod medium est in bipede et quadrupede,
+id est differentia. Et de proprio idem. Nam
+quod cujuscunque est proprium, in eo proprium consideratur,
+quod ejus cujus dicitur esse proprium speciei
+solius est. Nam risibile non in eo est proprium
+hominis quod risus est, sed in eo quod solus homo
+potest ridere: quae manifeste incorporalia esse indubitatum
+<pb n="0021B"/>
+est. Deinde accidentia proinde sunt, qualia
+fuerunt ea quibus accidunt, ut superius dictum est:
+sed hi probare videntur hoc ipsius Porphyrii sententia,
+qui, veluti jam probato quod incorporea sint,
+ita ait: Et utrum separata, an ipsis sensibilibus
+juncta; quod si esse haec aliquando corporalia exstitisset,
+absurdum esset quaerere utrum corporalia
+sejuncta essent a sensibilibus an juncta, cum sensibilia
+ipsa sint corporea. Talis autem est quaestio, ut
+quoniam quaedam incorporales sunt res, quae omnino
+corpora non patiuntur, ut animal vel Deus:
+quaedam vero quae sine corporibus esse non possunt,
+ut prima post terminos incorporalitas: quaedam autem
+quae in corporibus sunt, et praeter corpora sese
+esse patiuntur, ut anima; quaeritur ergo hae quinque
+<pb n="0021C"/>
+res ex quo incorporalitatis sint genere, utrum eorum
+quae omnino separantur a corpore, an eorum quae a
+corporibus separari non possunt, an quae jungantur
+aliquoties et aliquoties segregentur. Videtur autem
+quod et segregari et jungi possint. Nam quando corporalium
+divisio per genera in species fit, et eorum
+propria et differentiae nominantur, haec scilicet sensibilia,
+id est corporalia esse non dubium est. Cum
+vero de incorporalibus rebus tractatus habetur, et
+per ea ipsa dividuntur quae corpore carent, circa
+corporalia versantur. Quod si hoc est, non est dubium
+quod quinque haec ex eodem sint genere, quod
+et praeter corpora separatum esse possit, et corporibus
+jungi patiatur, sed ita, ut si corporibus
+juncta fuerint, inseparabilia a corporibus sint. Si
+<pb n="0021D"/>
+vero incorporalibus, nunquam ab incorporalibus separentur,
+et utrasque in se contineant potestates.
+Nam si corporalibus junguntur, talia sunt, qualis illa
+prima post terminos incorporalitas, quae nunquam
+discedit a corpore: si vero incorporalibus, talia sunt,
+qualis est animus, qui nunquam corpori copulatur.
+Haec se igitur tacere Porphyrius pollicitus, breviter
+mediocriterque super his rebus tractare promittit,
+habita in res alia consideratione aut conjectura,
+quod simile est ac si diceret: Quoniam haec ad praedicamenta,
+et ad definitiones, et ad divisiones, et ad
+probationes pertinent, ideo haec tractaturus assumo,
+et eatenus de his disseram, quatenus supradictis
+rebus proficiunt, non quatenus de his ipsis generibus
+<pb n="0022A"/>
+speciebusque, et caeteris quaevis tractari possint.
+Sunt enim illa (ut ipse ait) gravioris tractatus,
+quam doctrinam a Peripateticis acceptam, id est ab
+Aristotelicis, se sequi confessus est. Nam Stoici qui
+de his quoque rebus tractare voluerunt, non omnino
+a Porphyrio suscipiuntur, atque ideo ait se a
+Peripateticis rationem disputationis accipere. Tunc
+me Fabius ita percunctatus: Quid est, inquit, quod
+dudum dixeras, cum a te de incorporalibus tractaretur,
+esse quasdam incorporalitates quae circa corpus
+semper consisterent, ut sunt primae incorporalitates
+post terminos, quae est haec incorporalitas,
+aut quos terminos dicis? non enim intelligo. Et ego,
+longus, inquam, tractatus est, et nihil nobis ad hanc
+rem quam quaerimus profuturus. Sed dicam breviter
+<pb n="0022B"/>
+terminos me dixisse extremitates earum quae in geometria
+sunt figurarum; de incorporalitate vero quae
+circa terminos constat, si Macrobii Theodosii doctissimi
+viri primum librum quem de Somno Scipionis
+composuit in manibus sumpseris, plenius uberiusque
+cognosces. Sed nunc ad sequentia transeamus.
+Tunc Fabius, ut placet, inquit, simulque sic
+incipit.</p>
+</div1>
+
+<div1>
+        <head>DE GENERE.</head>
+<p> <hi>Videtur enim neque genus, neque species, simpliciter
+appellari, id est uno modo. Genus namque dicitur
+quorumdam ad se invicem, et ad aliquem quodam
+modo se habentium collectio, per quam Dardanidum
+dicitur genus. Dicitur rursus genus uniuscujusque
+generationis principium, aut a generante, aut ab eo
+<pb n="0022C"/>
+loco in quo quis genitus est</hi> </p>
+<p>Caetera, inquit, fere nota sunt. Tunc ego: Si vim
+prius aequivocationis aspicias, divisionem generis
+diligenter agnosces. Placet enim generis nomen cum
+sibi subjectis aequivoce nominari. Aequivoca vero
+sunt, quae cum nomine una sint, longe diversa substantiae
+ratione et diffinitionis discreta sunt, ut si
+quis hanc, verbi gratia, statuam Veneris appellet.
+Congruunt igitur Venus ipsa et statua Veneris unius
+nuncupatione vocabuli, quod utrique Veneris nomen
+est. Si quis vero quid sit utrumque definiat, longe
+aliam vere Veneris, aliam lapidis, rationem definitionemque
+constituet. Speculantibus igitur illa esse
+aequivoca, quae uno vocabulo apellentur, definitionibus
+vero diversis constituantur, clarescet (ut opinor)
+<pb n="0022D"/>
+participatio generis quam Porphyrius fecit praevisa.
+Omne enim quidquid a genere in species ducitur,
+univocum, non aequivocum est. Univocum est,
+quod et eodem nomine vocari, et eadem definitione
+constitui potest, ut et animal genus, homo vero
+species, sed idem homo animal est. Genus igitur et
+species, id est animal atque homo possunt unius
+animalis nomine nuncupari, ut utrumque animal
+vocetur, sed eadem definitionibus non discrepant.
+Nam si definitionem reddas animalis, dicas id esse
+animal, quod est substantia animata sensibilis:
+quam definitionem si ad hominem vertas, non erit
+absurdum dicere hominem substantiam esse animatam
+atque sensibilem sicut animal, sed hoc superius
+<pb n="0023A"/>
+dictum est. Si enim univoca sunt, quae uno nomine
+atque eadem definitione constituuntur, aequivoca
+vero quae uno nomine sunt, et non sunt sub
+una definitione substantiae, quidquid univocum est,
+ut animal genus ad suas species est, in his genera
+speciesque versantur: quidquid aequivocum est, ut
+aries, namque plura significans aequivocum est, sed
+non censetur participatione generis et speciei, non
+est in eis talis participatio, ut speciebus et generibus
+censeantur. Quae enim erit in his generis specieique cognitio,
+in quibus substantiae definitio atque integerrima
+ratio disgregatur? Ita ergo Porphyrius nomen generis
+in tres dividit formas, sed ut aequivoca, non ut univoca,
+id est ut hae formae uno quidem generis nomine
+contineantur, sui autem proprietate disgregata dissentiant:
+<pb n="0023B"/>
+et hoc modo illud in tres dividit partes,
+ut dicat vocari semel genus eorum inter se plurimorumque
+collectio, qui ab uno quocunque nomen generis
+trahunt, ut Romani a Romulo trahentes genus,
+ex eodem genere esse dicuntur. Secundo vero
+loco dici genus affirmat, uniuscujusque generationis
+principium, aut a generante, aut a loco in quo quis
+genitus est, ut Aeneam ab Anchise et genere dicimus
+esse Trojanum. Tertium vero genus dicitur illud
+cui species supponitur. Victorinus vero duo superiora
+genera in unum redigit. Nam et multitudinis
+congruentiam inter se per eamdem generis nuncupationem,
+et quorumcumque a genere lineam et locum
+in quo quis natus est uno generis vocabulo et
+designatione esse declarat. Addit autem ipse quod
+<pb n="0023C"/>
+soli Latinae linguae congruere possit: dicit enim secundo
+modo genus dici, ut est genus causae honestum:
+quae genera causarum Graeci in rhetorica arte
+genera esse non putant, sed <foreign xml:lang="greek">σχήματα</foreign> vocant, id est
+figuras. Genera autem sola principalia accipiunt, demonstrativum,
+deliberativum et judiciale. Quae ipsa <foreign xml:lang="greek">εἴδη</foreign>
+ rhetorices vocant, id est species rhetoricae, genera
+vero causarum nos dicimus. Tertium vero genus
+est id quod Porphyrius ponit, id est sub quo
+differentiis distributae species supponuntur. Sed quoniam
+de tertio genere tractaturus est, Victorini culpam,
+vel, si ita contingit, emendationem aequi bonique
+faciamus. Nunc ergo ad priorem apud Victorinum
+generis significationem revertamur, et ejus ut
+sunt verba enodanda atque explananda sumamus. Genus
+<pb n="0023D"/>
+namque, inquit, dicitur quorumdam ad se invicem
+et ad aliquem quodammodo se habentium collectio.
+Hic ergo utrumque monstravit, et cognationem inter
+se multitudinis et lineae ductum. Nam cum dicit genus
+quorumdam collectionem ad se invicem quodammodo
+habentium, id est aliqua inter se cognatione
+junctorum, cognationes monstrat: et quod addidit,
+et ad aliquem, generis lineam significat, quam
+singuli contingentes, et ad unum sese ipsius generationis
+applicatione jungentes, plures ex eadem linea
+juncti atque cognati sunt, ut sit hic ordo: Genus
+dicitur quorumdam collectio ad se invicem quodammodo
+et ad aliquem habentium, id est ad alicujus
+lineam per genus contingentium, ut per collectionem
+<pb n="0024A"/>
+cognationem demonstret, et per habitudinem quodammodo
+ad aliquem colligatam, lineam generis
+ductumque designet. Sequitur ergo, et id planius
+lucidiusque significat, cum dicit: Dicitur rursus genus
+cujuscunque generationis principium, aut a generante,
+aut ab eo loco in quo quis genitus est. Id ipsum
+latius expedit quod superius stricto et sentuoso
+brevitatis vinculo colligaverat. Dicit enim rursus genus
+dici, aut a generatione, id est a quo quis genitus
+est, aut ab eo loco in quo quis natus est. Sed
+rursus particula, si ad hoc connectatur, quod ait aut
+ab eo in quo quis genitus est, intellectus non titubat,
+ut sit ordo. Dicitur genus uniuscujusque nativitatis
+principium, aut a generante, aut rursus ab
+eo loco in quo quis genitus est, vel certe erit simplicior
+<pb n="0024B"/>
+expositio, si priorem generis significationem,
+id est quorumdam ad aliquem quodammodo se habentium
+collationem, ad solius cognationem multitudinis
+accipiamus: lineae vero ductum et loci generationem
+in inferiori significatione distribui, ita
+tamen ut una quodammodo generis significatione, et
+multitudinis cognationem, et a generante lineam, et
+loci nativitatem significet. Haec enim omnia de sola
+cujuslibet nominatione tractantur. Quare non absurdum
+est omnia quae ad ortum genitalem cujuslibet
+pertineant una significatione generis contineri. Proprie
+tamen et simplicissimae expositionis est quatuor
+significationes generis constituisse Victorinum, ut
+ad tres Porphyrii unam ipse addiderit, et honestum
+genus causae, ut sint generis hae quatuor significationes,
+<pb n="0024C"/>
+multitudinis cognatio, lineae ductus, genus
+causae, genus specierum. Sequitur secunda generis
+divisio apud Victorinum, ut est genus causae quae
+Graeci (ut dictum est) non genera sed <foreign xml:lang="greek">σχήματα</foreign> vocant.
+Tertiae vero significationis generis hic modus
+est, genus dici cui supponitur species, id est genus
+illud a quo species derivantur, quod ait ad superiorum
+fortasse similitudinem aequitatemque dispositum.
+Sic enim genus speciebus suis principium est,
+ut Romulus his qui ab eo cognati sunt junctique Romani.
+Item eodem modo nomen Romuli Romanos
+omnes continet, quemadmodum nomine generis species
+continentur. Nam sicut a Dardano Dardanidae
+prioris nomen Dardani in sese ipsos posteriores accipiunt:
+ita et animal, cum, verbi gratia, species
+<pb n="0024D"/>
+habeat hominem atque equum, equus scilicet atque
+homo animalis in se vocabulum capere, ut dicantur
+ipsa animalia, non recusant. Eodem igitur modo species
+sub generibus continentur, quemadmodum cognati
+homines sub illo a quo illam cognationem forte
+traxerunt. Nam et genus speciebus principium est,
+et plurimarum in se specierum collectivum est. Rursus
+primum cognationis nomen et ipsius generationis
+est principium, et in illius solius vocabulo diversitas
+hominum vocabuli et generis participatione
+colligitur, atque hoc est quod ait his verbis: Aliter
+dicitur genus cui supponuntur species, juxta similitudinem
+forte superiorum appellatum: etenim principium
+quoddam est genus his quae sub ipso sunt, et
+<pb n="0025A"/>
+videtur multitudinem continere omnium quae sub se
+sunt. Sed cautissime est additum, videtur. Si enim
+nihil haec omnia distarent, una significatio generis
+esset, et ea quae in species funditur, et
+ea quae in cognatione dividitur. Sed est inter haec
+genera talis diversitas, et quod genera earum specierum,
+quae sub se habent alias species, aequaevis
+speciebus aequaliter sunt genera. Hominem
+enim et equum, qui sub animali sunt, neutrum
+neutro possumus dicere prius, quantum pertinet
+ad tempus, inchoationemque nascendi. Nam si qua
+res una sit prior, altera posterior, et eas sub uniuscujusque
+generis nomine quis velit aptare, non
+poterit. Genus enim speciebus suis aequaliter genus
+est. Quod si genus speciebus suis aequaliter genus
+<pb n="0025B"/>
+est, species ipsae ejus ordinis inter se aequali tempore
+ortuque censentur. At vero in generibus quae
+cognationes efficiunt non ita est. Quisquis enim fuit
+Capis pater, qui Capuam condidit, si solum filium
+Capim progenuit, et ab eo uno Capuanorum cognatio
+junctioque manavit, distat a genere cujus
+species supponuntur, quod genus uni speciei genus
+esse numquam potest nisi pluribus, quod quoniam
+est idoneum genus illud, id est principium cognationum
+etiam ab uno filio colligere et congregare cognationem,
+quod genus per species ductum facere
+non potest, nisi plures species supponantur. Constat
+in hoc distare genus quod cognationem colligit,
+et a quo species dividuntur. Potest autem distare in
+hoc etiam quod genus, id est principium cognationis
+<pb n="0025C"/>
+potest habere sub se duos, ex se non aequali temporis
+conditione progenitos, sed alium posterioris
+ortus, alium vero senioris, quod in generibus, speciebusque
+non convenit. Nam (ut superius dictum
+est) species nisi sibi aequales fuerint non merito,
+sed natura, sub genere poni non possunt. His igitur
+expeditis sequitur</p>
+<p> <hi>Toties igitur de genere dicto, de postrema significatione
+inter philosophos disputatio est, quod definientes
+ita declarant: Genus esse quod ad plurimas
+differentias specie distantes in eo quod quid sit, praedicetur.</hi> </p>
+<p>Quod dicit toties, tertio demonstrare vult, atque
+hoc propter lucidam operis seriem admissum est, ut,
+quoniam genus plurimorum nomen est, omnis ejus
+<pb n="0025D"/>
+primum significatio diceretur, ut de qua disputandum
+esset, aliis rejectis, eligeretur. Quod ait hoc
+modo, cum toties, id est tertio genus dicatur apud
+philosophos unde ipse tractaturus est de postrema
+generis significatione quam dixit, id est de illo genere
+quod sub se species habet disputatio consideratioque
+vertitur. At vero de superioribus generibus, id
+est de cognatione et loco in quo quis genitus est, aut
+historicorum, aut poetarum exspectatio est, secundi
+vero generis rhetorum, tertii philosophorum consideratio
+est. Etiam hic in disputationibus ordo est,
+quod cum inciderint res quae multis possint nominibus
+nuncupari, et de uno quocunque eorum vocabulo
+tractari disserique necesse sit, ducuntur prius in
+<pb n="0026A"/>
+ordinem omnia, ut id quod eligitur et rejicitur distinguatur.
+Sed illa quae rejicienda atque explodenda
+sunt prius dicuntur. Illud vero quod disserendum
+tractandumque capitur posterius nominatur, ut hic
+illa posterior generis significatio posita est, quam
+disserendam accepturus prius definiendam, et termino
+quodam circumscribendam demonstrandamque
+suscepit. Omnis enim res nisi quod prius sit, constiterit,
+ejus tractatus vacuus modo speculationis
+habebitur. Definit igitur genus sic: Genus esse, quod
+ad plures differentias specie distantes in eo quod
+quid sit praedicatur, velut animal, quae diffinitio talis
+est: Omnia quae distant, habent inter se quamdam
+differentiam qua distare et differre videntur. Porro
+autem si quod sit genus, et sub eo species supponatur,
+<pb n="0026B"/>
+duas vel plures necesse est species poni sub
+genere, quoniam unius speciei genus esse non potest.
+Sed si plurimae species erunt, aliqua necesse
+est differentia dividantur, aliter enim plures esse
+non possunt. Nam si nihil distent, non erunt plures
+species, et nomen generis perit. Constat igitur eas
+sub genere poni species, quae differentiis distributae
+plures numero ipsarum differentiarum divisionibus
+componantur. Ergo, quoniam superius dictum est in
+omnibus definitionibus a genere definitionis trahendum
+esse principium, si quam cujuslibet speciem
+definire volueris, genus primo necessario nominabis,
+et ad illam speciem quam definis, generis nomen
+prius aptabis. Et hoc illam principaliter dicis esse,
+quod est illud genus sub quo ipsa species quam definis
+<pb n="0026C"/>
+est posita. Post autem differentiis propriisque
+eam ab aliis circumscriptione quadam definitionis
+excludis. Nam si dicis animal esse hominem, animal
+genus est, species vero homo. Nomen igitur animalis,
+id est generis de homine, id est specie praedicasti,
+cum dixeris hominem esse animal. Quod si
+nomen generis in definitionibus ad unam speciem dicere
+posses, de ea nomen generis praedicares: species
+autem ut non aequali modo generibus suis species
+sint, nihil vetat, imo etiam necesse est semper
+quaecunque sunt genera de sibi subjectis speciebus in
+definitionibus, vel in quibuslibet interrogationibus
+praedicari. Sed quoniam praedicatur genus de speciebus,
+quomodo praedicatur agnoscendum est. Nam si
+dixeris quid est homo, et aliquis responderit, animal,
+<pb n="0026D"/>
+bene et integre respondisse videtur, et certe.
+Nam cum tu quid sit homo interrogaveris, ille respondit
+animal, genus scilicet de specie in eo quod
+quid sit species praedicatur. Nam tu quid esset species
+interrogasti: ille vero in eo quod quid sit species
+de qua interrogasti, animalis nomen, id est
+genus accommodavit. Plena igitur et propria definitio
+facta est generis, hoc esse genus, quod ad plurimas
+differentias specie distantes in eo quod quid sit appellatur,
+ut animal: animal enim ad hominem,
+equum, bovem, corvum, anguem, et alia plura quae
+differentiis speciebusque differunt, in eo quod quid
+sit appellatur. Sed utrum sic dixit genus esse, quod
+ad plurimas species differentia distantes in eo quod
+<pb n="0027A"/>
+quid sit praedicetur, an sic dixit genus esse, quod ad
+plurimas genus differentias specie distantes in eo
+quod quid sit praedicetur, nihil interest. Nam sive
+differentiae specie distent, sive species differentiis
+distent, utrumque idem est. Nam sive rationale et
+irrationale quae sunt differentiae, specie hominis,
+verbi gratia, atque equi distent, sive species homo
+atque equus differentia rationali atque irrationali
+dividantur et distent, nihil interest. Quare plena
+perfectaque facta est generis divisio. Sed definitiones
+duplicibus modis fiunt: una enim definitio est, quae
+(sicut dictum est) a genere trahitur. Sed quoniam
+sunt quaedam genera magis, quae super se genus aliud
+habere non possunt, ut sunt praedicamenta decem
+quae Aristoteles constituit; eorum igitur definitio quae
+<pb n="0027B"/>
+haberi potest, quorum genus inveniri non potest,
+quod omnium quaecunque sunt ipsa sunt genera.
+Horum ergo quos Graeci <foreign xml:lang="greek">ὑπογραφοὺς λόγους</foreign> dicunt,
+Latini subscriptivas rationes dicere possunt, reddemus.
+Subscriptivae autem rationes sunt demonstrativae
+et quodammodo insignitivae proprietatis illius
+rei, quae cum ipsa generalissima sit, et genus ejus
+nullum reperiri possit, eam tamen definire necesse
+est: et Aristoteles, quoniam substantiam genus generalissimum
+definire volebat, et ejus nullum genus
+poterat invenire, proprietatem quamdam et demonstrationem
+subscriptionemque ipsius rei dicit esse
+subjectum. Substantia enim omnibus subjecta est.
+Accidens enim quod in novem dividit partes, praeter
+substantiam esse non potest, atque ideo omnia quaecunque
+<pb n="0027C"/>
+definienda sunt, si genus non habeant, eorum
+subscriptivam quamdam et demonstrativam rationem
+reddi necesse est. Sic igitur nunc genus,
+quoniam rem ipsam definiendam putabat, non duxit
+a genere definitionem, sed dedit quamdam generis
+demonstrationem proprietatemque. Dico autem
+quod Porphyrius vel subalternorum generum, vel
+illorum quae generalissima sunt, hanc dederit definitionem,
+et quodammodo subscriptionem demonstrationemque.
+Nam si quod genus habet aliud genus,
+et item hoc ipsum aliud, et item aliud, si nullum
+erit supra genus, quod genus non habeat, in infinitum
+procedit ratio. Sin vero habuerit, necesse est
+quoque istam definitionem aperte ordinateque congruere.
+Dico autem genus non animal animali, neque
+<pb n="0027D"/>
+quod homo species sit homini, atque equus equo:
+sed illud quo ipsum animal homini atque equo genus
+est, animal enim ipsum per sese nulli genus est, neque
+homo ipsum per sese ulli species est, neque
+equus ipsum per sese ulli species est, sed sunt genera
+et species ad alterius participationem. Nam,
+quoniam sub animali est equus atque homo, non ad
+seipsum animal genus est, sed ad equum atque hominem.
+Et item species quae vocantur, homo scilicet
+atque equus, non ad equum atque hominem, sed ad
+animal species sunt. Dico igitur genus et species non
+ipsas substantias in quibus genus et species sunt,
+sed ipsam participationem priorum ad subteriores,
+et subteriorum ad priores. Haec igitur participatio,
+<pb n="0028A"/>
+quoniam et in magis generibus, et in magis speciebus,
+et in subalternis generibus, et in subalternis
+speciebus una atque eadem est, et hujus participationis
+inveniri genus non poterat, haec definitio generis
+quae facta est, non a genere tracta est, sed
+subscriptiva ratio et demonstrativa et designativa
+quodammodo generis est reddita. Hic Fabius: Subtiliter,
+mehercle, et quod nunquam fere antehac audivimus,
+sed perge, quaeso te. Jam enim certant sidera
+quodammodo, et nox luce superatur. Tunc ego:
+Sequitur rerum omnium prima brevisque divisio. Ita
+enim ait:</p>
+<p> <hi>Eorum quae dicuntur, alia ad proprietatem dicuntur,
+sicut sunt omnia individua, ut est Socrates, et hoc et
+illud. Alia quae ad multitudinem, ut sunt genera, species,
+<pb n="0028B"/>
+et differentiae, et propria, et accidentia. Haec
+enim communiter non unius propriae appellationis sunt.
+Est enim genus ut animal, species ut homo, differentia
+ut rationale, proprium ut risibile, accidens ut album,
+sedere. Ab his igitur quae ad unitatem dicuntur differt
+genus, quod genus est quod de pluribus praedicatur.</hi> </p>
+<p>Brevis (ut supra dictum est) et distincta divisio.
+Omnis enim res, aut unius rei nomen est, aut plurimarum,
+et hoc est quod ait: Eorum quae dicuntur alia
+ad unitatem dicuntur, sicut sunt omnia individua.
+Quid autem sit breviter explicandum est. Omne genus,
+quoniam sub se species habet, species vero
+differentiis disjunguntur, et proprietatibus explicantur.
+Accidunt autem in speciebus accidentia secundo
+loco, principaliter vero in individuis quae sunt sub
+<pb n="0028C"/>
+speciebus. Quid autem sit posterius dicendum est.
+Genera igitur et de speciebus dicuntur, et de differentiis
+quae ipsas species distribuunt, et de propriis
+quae species componunt, et de his accidentibus quae
+cum principaliter individuis fuerint, in speciebus
+esse dicuntur: hoc autem monstremus exemplis,
+et sit nobis genus animal, sit species homo, sit differentia
+rationale, sit proprium risibile, sit accidens
+stans vel ambulans, vel aliquid in mensura corporis,
+ut tripedalis. Animal ergo quod genus est, dicitur
+de specie, id est de homine. Dicis enim hominem
+esse animal. Porro autem de speciei differentia nihilominus
+dicis genus. Dicis enim rationale esse animal.
+Nihil autem prohibet eodem modo et de proprio
+genus dicere. Nam si dicas quid est risibile, non
+<pb n="0028D"/>
+absurdum est animal nominare. Accidentia vero hoc
+modo principaliter in individuis, secundo vero loco
+sunt in speciebus. Nam si quis dicat singulos homines,
+utputa Ciceronem sedere vel stare, vel quod
+aliud libet, in specie hominis eadem quoque convenire
+necesse est. Nam si Cicero sedet, sedet etiam
+homo. Si Cicero ambulat, ambulat etiam homo. Ergo
+si qua accidentia venerint ab individuis, et ea tracta
+in speciebus consederint, ad ipsa quoque accidentia
+dici poterit genus. Quid est enim ambulans, si quis
+interroget? merito animal dicitur. Nihil enim ambulare
+nisi animal potest. Porro autem sub speciebus
+individua sunt, ut Cicero et Virgilius sub homine
+ad quae individua genus speciei praedicari
+<pb n="0029A"/>
+potest. Nam si interrogaveris quid est Cicero? merito
+animal dicas. Genus igitur et ad speciem et ad
+differentias, et ad accidentia, et ad propria, et ad
+individua nominatur. Porro autem species, non jam
+de genere, neque de differentiis, sed de solis propriis
+et subjectis individuis appellatur. In illis, id
+est individuis, quia superest; in propriis, quia aequalis
+est. Quid autem sit hoc modo videmus: Omnia
+genera speciebus suis supersunt et abundant. Abundare
+autem genera dicimus speciebus, plus habere
+genera virtutis quam species. Homo enim quod est
+species solum homo est. Animal vero quod est genus,
+non solum homo est, sed et equus vel bos, vel
+quodlibet aliud animali suppositum. Ita major vis
+generis recte de minori sibi et subjecta specie praedicatur.
+<pb n="0029B"/>
+Alia vero sunt, quae sibi sunt paria ut sunt
+propria et species. Species est homo, proprium risibile.
+Quidquid ergo fuerit risibile, hoc est homo.
+Quidquid homo, hoc risibile est. Itaque neque risibile
+hominis, neque homo risibilis potentiam supervadit,
+sed aequalia sibi ad se invicem praedicari possunt,
+ut si dicas, quid est homo? Risibile. Quid est risibile?
+Homo. Ita igitur quaecunque superiora fuerint
+ad illa quae subteriora sunt, praedicantur. Et quaecunque
+aequalia fuerint, pariter sibi ad invicem praedicantur.
+Illa vero quae subteriora sunt et minora,
+de superioribus et abundantibus ut sunt genera et
+species praedicari non possunt. Nunquam enim recte
+speciem de genere praedicabis. Ita ergo species de
+proprio praedicatur ut pari. Sed quoniam sub speciebus
+<pb n="0029C"/>
+sigillatim individua sunt: individua autem
+vocamus quae in nullas species, neque in aliquas jam
+alias partes dividi possunt, ut est Cato, vel Plato,
+vel Cicero, et quidquid hominum singulorum est:
+hos enim in nullis partibus dividis, ut animal in
+species, hominem scilicet, atque equum, hominem
+quoque ipsum specialem, et singulos circumplectentem,
+in Catonem, Platonem, Virgilium, et omnes
+sigillatim homines distributos, hominem vero ipsum
+singularem, id est Ciceronem, in nullos alios distribuere
+possumus, atque ideo <foreign xml:lang="greek">ἄτομον,</foreign> id est individuum
+vocitatum est. Species ergo quae ad propria
+aequaliter praedicatur ad individua, quoniam major
+est species hominis, quam quodlibet aliud individuum,
+ita praedicatur ut superius ad id quod est
+<pb n="0029D"/>
+subalterius. Cicero enim solus Cicero est, homo autem
+non solus est Cicero, quod si ad individua praedicatur,
+et ad individuorum accidentia praedicatur.
+Ita igitur species ad genus quod superius est non
+praedicatur, neque ad differentiam, quia differentia
+(ut nunc monstraturi sumus) super speciem est, ad
+proprium vero cui par species est, vel ad individuum
+cui superest, praedicatur. Differentia vero et ad species,
+et ad propria, et ad accidentia, et ad individua
+praedicatur. Namque rationale quod est differentia
+ad hominem praedicatur, quod est species. Ita rationale
+quod est differentia, praedicatur ad risibile, id
+est proprium. Dicitur enim id esse risibile, quod rationale.
+Nam si homo rationale, et homo risibile,
+<pb n="0030A"/>
+constat id quod est risibile etiam rationale posse nominari.
+Quod si ad species differentia dicitur, species
+autem ad individua praedicatur, necesse est ut differentia
+quoque ad individua praedicetur. Dicis enim
+qualis est Cicero? rationalis. Quod si differentia ad
+individua praedicatur, accidentia vero individuis accidunt,
+necesse est differentias ad accidentia praedicari.
+Proprium vero quoniam semper unius speciei
+proprium est, et ad unam speciem praedicatur solam,
+cui est proprium. Risibile namque quod proprium
+est, ad solam hominis speciem praedicatur.
+Quod si ad hominis speciem praedicatur, species vero
+ad individua dicitur, non est dubium quin proprium
+quoque de individuis praedicetur. Nam si homo risibile
+animal est, Cicero quoque et Virgilius risibilia
+<pb n="0030B"/>
+animalia recte dicuntur. Quod si proprium ad individua
+recte dicitur, recte etiam et de accidentibus
+praedicatur, quae ipsis accidunt individuis. Accidentia
+vero et ipsa, et de speciebus, et de aliis omnibus praedicantur,
+et de ipsis maxime individuis. Namque et
+albus equus et albus homo dicitur, et iterum niger
+equus, et niger Aethiops dicitur. Quod si ita est, animal
+quoque nigrum dicitur. Dicitur etiam rationale nigrum
+et irrationale nigrum, quippe si equus et homo
+aethiops nigri sunt. Dicitur etiam risibile nigrum
+cum hominum quis niger fuerit. Dicitur etiam individuum
+nigrum, cum sic quis unus homo ex Aethiopia
+nominatur. Quod cum ita sit, constat et genus ad
+plurima praedicari, id est species, differentias, accidentia,
+propria, atque individua, nihilominus et
+<pb n="0030C"/>
+differentiam ad plurima praedicari, id est ad species,
+propria ad individua et accidentia, et proprium ad
+plurima, id est speciem, individua et accidentia. Et
+speciem ad plurima, id est individua et accidentia.
+Accidens vero et ad genus et ad speciem, et ad proprium,
+et ad differentiam, et ad individua. Quod si
+ita est, has quinque res constat ad plurima praedicari.
+At vero individuum, quoniam sub se nihil habet,
+ad singularitatem quamdam et unitatem praedicatur.
+Cicero enim unus est, et ad unum nomen aptatur.
+Ita individua quae ad unitatem dicuntur, cunctis superioribus
+supposita sunt, ut genus, species, differentia,
+ad propria, vel accidentia, quamvis ad se
+invicem dici possunt, ad individua tamen aequaliter
+praedicantur, ut superius demonstratum est. Individua
+<pb n="0030D"/>
+vero, quoniam sub se nihil habent ubi secari
+distribuique possint, ad nihil aliud praedicantur,
+nisi ad seipsa quae singula atque una sunt. Atque
+hoc est quod ait: Eorum quae dicuntur alia ad unitatem
+dicuntur, sicut omnia individua, ut est Socrates,
+et hoc et illud. Alia quae ad multitudinem, ut sunt
+genera, et species, et differentiae, et propria, et accidentia.
+Haec enim communiter non unius propriae
+appellationis sunt. Simile est ac si diceret: Haec enim
+communiter ad plurima praedicantur non ad unitatem,
+sicut individua. Et quid sint genera vel species
+vel differentiae vel propria vel accidentia exemplum
+supponit dicens: Est enim genus, ut animal; species,
+ut homo, quam dudum hominis speciem cum aliis
+<pb n="0031A"/>
+animantibus sub animali posuimus. Differentia, ut
+rationale qua species, scilicet hominis ab irrationali
+distat animali. Proprium, ut risibile, quod nullum
+aliud animal, neque rationale, neque irrationale habet.
+Nullum enim animal ridet, nisi solus homo.
+Quare cum quaedam coelestium potestatum animalia
+rationabilia sint, eorum tamen proprium risibile non
+est, quoniam non rident. Recte igitur risibile solius
+hominis proprium praedicatur. Accidens, album, nigrum
+et sedere, quoniam in substantia hominum non
+sunt, merito accidentia nominantur. Nam si substantiae
+cujuscunque speciei interesset, id quod accidens
+dicimus, interempto accidenti periret etiam ejus speciei
+substantia cui accidit. Nam quoniam rationale in
+hominis substantia est, si rationabilitas interimatur,
+<pb n="0031B"/>
+hominis quoque substantia necessario peritura est.
+Idcirco, quoniam in ipsius speciei substantia naturaque
+versatur. At vero album et nigrum, vel quaecunque
+sunt accidentia si interimas, species ipsa in qua
+illa accidebant, manet. Nam neque omnis homo candidus,
+neque omnis niger est, et cui alterutra defuerint
+ejus species non peribit. Atque idcirco haec accidentia,
+veluti non innata in substantia, sed a foris
+venientia recte nominata sunt. Nunc ergo, quoniam
+quid sit genus ostenditur, et ea quae ad unitatem dicuntur,
+ab iis quae de plurimis praedicantur distinxit
+atque distribuit, ipsius generis differentias, vel ab his
+quae ad unitatem dicuntur, vel ab eis quae ad pluralitatem
+congruunt, id est differentia, specie, proprio,
+accidentique declarat, et dicit genus ab illis quae ad
+<pb n="0031C"/>
+sola individua praedicantur, id est quae ad unitatem,
+hoc differre, quod genus ad plurima praedicetur, individua
+vero ad singula. Sed, quoniam haec differentia
+generis ad individua communis erat differentiis, speciebusque,
+propriis et accidentibus, ab illis ipsis aliis
+differentiis genus dividit atque disjungit. Quod ita
+demonstrat. Ab his igitur quae ad unitatem dicuntur
+differt genus, quod genus est hoc quod de pluribus
+praedicatur.</p>
+<p> <hi>Ab his ergo reliquis genus differt. Primo a specie,
+quoniam species, etsi de pluribus, non tamen specie
+differentibus, sed numero praedicatur.</hi> </p>
+<p>Ac primum generis specieique distantiam monstrat,
+quae prior est a genere. Nam quamvis differentia supra
+speciem sit, non super subalternam tamen, sed
+<pb n="0031D"/>
+super speciem specialissimam differentia ponitur.
+Nam quamvis rationalis differentia super hominem
+ponatur, quae species specialissima est, tamen ante
+speciem specialissimam ipsa differentia species est
+ejus generis, cui species specialissima supponitur.
+Nam sub animali ante hominem rationale ponitur.
+Igitur cum genus et species utraque ad plurima praedicentur,
+genus vero ad plurimas species in eo quod
+quid sit praedicatur, species non jam ad plurimas
+species, sed ad plurima individua praedicatur. Sunt
+autem quaedam genera generalissima (ut dictum est)
+supra quae aliud genus inveniri non possit. Sunt autem
+species sub quibus aliae species inveniri non possint,
+et integra species illa nominatur, quae nunquam
+<pb n="0032A"/>
+genus est, id est sub qua species nullae sunt. Nam si
+sub ea species essent, ipsa etiam genus esse posset.
+Species ergo quae vere species est, alias sub se species
+non habebit, ut est homo. Namque homo, quoniam
+species est, singuli homines qui sub ipso sunt,
+non ejus species, sed individua nominantur. Nam si
+homo genus esset hominum singulorum, genus autem,
+sicut dictum est, ad plurimas res specie differentes
+in eo quod quid sit appellatur: homo, id est
+species, si ut genus praedicaretur ad singulos homines,
+singuli homines specie ipsa differrent. Sed singuli
+homines specie non differunt, quod autem specie non
+differt, si quid ad hoc praedicatum fuerit, non praedicatur
+ut genus ad species, id est homo non praedicatur
+ad singulos homines ut genus ad res plurimas
+<pb n="0032B"/>
+specie differentes, sed ad res plurimas numero differentes:
+singuli enim homines numero a se tantum
+non specie distant. Atque ideo, quoniam genus sic
+ad subjecta praedicatur, ut ad plurimas res specie
+differentes praedicetur; species autem ad subjecta
+ita praedicatur, ut ad plurimas res numero differentes
+praedicetur. Congruunt igitur sibi genus et species,
+quod genus et species ad plurima praedicantur,
+et utraque in eo quod quid sit. Nam si interroges quid
+est homo, animal dicitur, id est genus. Et si interroges
+quid est Cicero, homo dicitur, id est species.
+Distant autem, quod quamvis utraque ad plurima
+praedicentur, et in eo quod quid sit genus tamen praedicatur
+ad res specie differentes, species vero dicitur
+ad res tantum numero differentes, quod Porphyrius
+<pb n="0032C"/>
+sic demonstrat:</p>
+<p> <hi>Ab his vero reliquis quae de pluribus appellantur,
+genus differt, primo a specie. Quoniam species, et si de
+pluribus praedicentur, non tamen specie differentibus,
+sed numero: homo enim species cum sit, de Socrate,
+Platone et Cicerone praedicatur, qui non specie, sed
+numero differunt. Animal vero quod genus est, et bovis
+et equi praedicatio est, quae differunt specie a se invicem,
+non numero solo.</hi> </p>
+<p>Quod simile est ac si diceret, genus a specie unam
+differentiam plus habere. Congruunt namque genera
+speciebus, quod utraque in eo quod quid sit praedicantur,
+ut dictum est. Congruunt item genus et species
+quod utraque ad res plurimas praedicantur. Congruit
+item genus et species, quod utraque ad res
+<pb n="0032D"/>
+numero differentes praedicantur. Nam et singuli homines
+ita a se divisi sunt, quantum ad numerum, ut
+homo ab equo vel bove, vel a cervo, vel a quibuslibet
+aliis animantibus. At vero distat a specie genus,
+quod genus de pluribus rebus specie differentibus
+praedicatur, quod species non habent. Nihil autem
+differre arbitror, utrum ita dicatur aliam rem ad aliam
+praedicari, an aliam rem de alia praedicari. Uterque
+enim idem intellectus est. Nam si animal praedicatur
+ad hominem, idem etiam animal de homine praedicatur.
+Nam cum interrogaveris quid est homo, respondes
+de hominis interrogatione hominem esse animal.
+Sed nunc oportet nos ea quae sequuntur aspicere.
+Quid ergo sequitur?</p>
+<p>
+          <pb n="0033A"/> <hi>A proprio autem genus differt, quod proprium juxta
+quamque speciem proprium appellatur cui proprium est,
+et juxta ea quae sub specie sunt, scilicet individua. Namque
+risibile hominis solum est, et singulorum utique hominum.
+Genus autem non ad unam speciem, sed ad plures
+res specie differentes semper aptatur.</hi> </p>
+<p>Ergo hoc videtur hic dicere, quod omne proprium
+si fuerit speciei unius tunc vere est proprium. Nam si
+unius speciei non fuerit, sed duarum vel plurium,
+tunc duobus vel pluribus non proprium, sed erit in
+substantiae ratione commune. Constat ergo proprium
+ei cujus est proprium, soli speciei singulariter adhaerere.
+Unde quoniam hominis species sola est quae
+rideat, risibile homini proprie et singulariter aptatur.
+Ad unam semper igitur speciem proprietas adhibetur.
+<pb n="0033B"/>
+Distat igitur proprium a genere, quod genus semper
+ad plurimas species appellatur, proprium vero de una
+tantum specie cujus est proprium. Nam si risibile dicas,
+ad unam tantum speciem hominis appellatur.
+Congruit autem genus cum proprio in hoc quod genus
+et proprium de pluribus appellantur. Namque genus
+ad plures species appellatur. Appellatur etiam genus
+de his quae sub speciebus sunt individuis. Nam si
+homo et equus animal est, erit etiam Cicero animal,
+et quilibet equus singulariter animal nominatur. Similiter
+et proprium ad plurima dicitur. Dicitur enim
+ad unamquamque speciem, et ad ea individua quae
+sunt sub specie praedicatur. Nam si homo risibilis est,
+risibilis est etiam Cicero et Virgilius, et quicunque
+singulariter nominantur risibiles sunt. Congruunt
+<pb n="0033C"/>
+etiam quoniam utraque in eo quod quid sit praedicantur.
+Nam genus de specie in eo quod quid sit praedicatur.
+Nam si dicis quid est homo, animal appellabis.
+Item proprium in eo quod quid sit praedicatur. Nam
+si dicis quid est homo, merito risibile praedicabis.
+Congruunt autem quod genus et proprium ad plurimas
+res numero differentes praedicantur. Nam ita a
+se differunt singula animalia, id est homo, equus et
+corvus, et caetera, ut singuli homines, quantum ad
+numerum. Distat autem a genere, quod genus ad plurimas
+species praedicatur, proprium vero ad unam
+solam cujus est proprium nominatur. Sed non est inter
+genus et proprium eadem differentia quae est inter
+speciem et genus. Nam species de nulla omnino specie
+praedicatur, proprium vero licet non ad plures, ad
+<pb n="0033D"/>
+unam tamen solam speciem cujus est proprium, semper
+aptatur. Post haec igitur de differentiae accidentisque
+a genere distantia disserit dicens:</p>
+<p> <hi>A differentia vero et ab accidentibus differt genus,
+quoniam et si etiam ista de pluribus specie differentibus
+praedicantur (differentiae scilicet, et accidentia quae communiter
+accidunt), non tamen in eo quod quid sit appellantur,
+cum interrogantibus nobis fit secundum ea
+responsio; magis enim quale quid sit ostenditur.</hi> </p>
+<p>Differentiam vero et accidens idcirco posterius reservavit,
+quod eorum unam differentiam erat distantiamque
+dicturus. Differentia enim et accidens qualitatem
+cujuscunque speciei demonstrant: illa substantiae
+qualitatem, id est differentia; illud, id est
+<pb n="0034A"/>
+accidens, accidentalem qualitatem non substantiae.
+Ergo quoniam genus supra speciem est, et species
+supposita generi, genus speciem, species individuum
+quid sit ostendit. Porro autem sola possunt species
+differentia segregari: qualitatibus enim substantialibus,
+id est substantias declarantibus, sejunguntur
+atque dispertiuntur. Nam cum animal genus sit, homo
+vero vel equus species, quales utraeque species sint
+monstrat differentiae segregatio, ut dicamus speciem
+esse hominis rationalem, speciem vero equi irrationalem.
+Si quis enim interroget quid est homo, animal
+dicitur. Sin autem quis dicat qualis est homo,
+rationalis respondetur. Ita semper differentia non in
+eo quod quid sit, sed in eo quod quale sit appellatur:
+de accidenti vero non dubium est, cum ipsa qualitas
+<pb n="0034B"/>
+in accidentis partibus componatur. Namque in praedicamentis
+inter alias novem partes accidentis, etiam
+qualitas nominatur. Nam etiam si quis interroget
+qualis corvi species sit, nigra continuo respondetur.
+Congruunt ergo genera differentiis et accidentibus
+quod de speciebus pluribus praedicantur. Nam sicut
+genus species sub se plures habet, ita differentia. Nam
+rationalem dicimus Deum et hominem. Rursus etiam
+accidens de pluribus speciebus praedicatur. Nam nigrum
+dicimus et hominem, et equum, et corvum, et
+ebenum, et plurimas alias species. Rursus congruit
+genus differentiae, quod, sicut genus, sic differentia
+aequaliter ad individuum praedicatur. Nam si Cicero
+animal est, quod est genus, et rationale animal est,
+quod est differentia. Congruunt etiam, quod de numero
+<pb n="0034C"/>
+differentibus praedicantur, quod superius de
+aliis monstratum est. Distat autem quod (sicut dictum
+est) genus in eo quod quid sit appellatur: differentia
+vero vel accidentia in eo quod quale sit praedicantur.
+Nam si dicas quid est homo, appellabis genus, et
+dicis animal esse hominem. Si vero qualis sit ad
+differentiam interrogaveris, rationale respondeam,
+vel accidens nigrum vel album, vel qualis quisque
+sit de quo interrogatur. His igitur distributis distantias
+ipsas a primordio rursus orditur dicens:</p>
+<p> <hi>Unde hoc quod de pluribus praedicatur genus distat
+ab iis quae de singulis praedicantur, hoc est ab individuis.
+Illo quod de specie differentibus praedicatur distat
+a speciebus et a propriis. Illo etiam in quo quid sit
+appellatur, secernitur a differentiis et a communiter
+<pb n="0034D"/>
+accidentibus, quod haec duo quale quid sit declarant.</hi> </p>
+<p>Hoc dicit distare genus ab individuis, quod genus
+de pluribus (ut dictum est) praedicatur. Colligit autem
+et in unum redigit proprii specieique differentias.
+Nam, quoniam species de pluribus non specie, sed
+numero differentibus praedicatur, proprium vero de
+una tantum specie et de iis quae sub eadem specie
+sunt individuis praedicatur. Quamvis enim de una
+specie praedicetur, tamen aequa est illi cum specie a
+genere differentia de pluribus specie differentibus non
+praedicari. Nam neque species praedicare omnino de
+speciebus aliquid poterit: neque proprium, quoniam
+proprium non de pluribus speciebus, sed de una tantum
+cujus est specie praedicatur. Quod si ita est, una
+<pb n="0035A"/>
+differentia a genere, species et propria sejunguntur.
+Accidens vero et differentia eadem quoque una a
+genere differentia separantur, quod genus in eo quod
+quid sit dicitur, differentia vero vel accidentia, in eo
+quod quale appellantur. Has Porphyrius ad construendam
+generis rationem differentias quam parcissime potest
+colligit, et ipsas differentias multis modis posterius
+probaturus, nunc vero, quantum sat est, dicit se abundantem
+generis constituisse rationem, hoc dicens:</p>
+<p> <hi>Hoc si ita est, nullo minus aut plus effecta est generis
+diffinitio.</hi> </p>
+<p>Perfectam plenamque se generis diffinitionem fecisse
+dicit, quoniam neque plus neque minus facta sit diffinitio,
+sed aequaliter ad genus pariliterque composita.
+Quod quale sit hoc modo monstrandum est. Novimus
+<pb n="0035B"/>
+quod quaedam res quae ad alia praedicantur his
+de quibus praedicantur, abundant, ut genera et species.
+Namque animal quod genus est, de homine quod
+est species, hoc abundat, quod nomen generis etiam
+in equum atque bovem atque in alia valet aptari.
+Ergo si quis ad quamlibet rem abundantem fecerit,
+majoremque definitionem quam ipsa res fuerit, quam
+definit, non erit integra propriaque definitio, quoniam
+non solam illam rem amplectitur quam definit,
+si major fuerit diffinitio, sed etiam alias quascunque
+res quibus ipsius definitionis terminus abundabit.
+Majorum igitur praedicamentorum major erit definitio,
+minorum vero minor erit etiam definitio. Animal
+ergo quod majus est, ita definiunt: Animal est
+substantia animata sensibilis: hominem vero quod
+<pb n="0035C"/>
+ab animali minus est, ita definiunt: Homo est animal
+rationale, mortale, risus et disciplinae perceptibile.
+Quod si majus est animal ab homine, major erit
+etiam animalis definitio ab hominis definitione. Plus
+enim erit dicere substantia animata sensibilis, quam
+animal rationale, mortale. Nam substantia animata
+sensibilis, sicut ipsum animal, non solum hominem
+complectitur, sed etiam equum et bovem atque alias
+hujusmodi species. Si quis ergo ad hominem majorem
+definitionem aptaverit, quae est animalis, ut ita
+definiat hominem: homo est substantia animata sensibilis,
+non est plena definitionis ratio, cum equus
+atque bos substantia animata atque sensibilis esse
+possint, quae species hominis non sunt. Si quis vero
+majori rei minorem definitionem aptaverit, curam et
+<pb n="0035D"/>
+diminutam quodammodo facit rationem. Nam si quis
+animal definire volens dicat: Animal est res rationalis,
+risus et disciplinae perceptibilis, non erit integra
+definitio, quoniam sunt quaedam animalia quae
+istius definitionis rationem subterfugere atque evadere
+possunt. Est enim animal bos, quod neque rationale
+sit, neque risus perceptibile. Sola igitur relinquantur
+bene definiri, quaecunque aequalibus definitionibus
+constituuntur, ubi autem aequalis definitio
+sit, hoc modo possumus reperire: Praedicamenta
+quaecunque fuerint, si majus praedicamentum de minore
+aliquo praedicatur, converti non potest, ut
+minor de majore praedicetur. Semper enim majora
+de minoribus, nunquam minora de majoribus praedicantur.
+<pb n="0036A"/>
+Nam si quis dicat hominem esse animal, non
+poterit convertere animal esse hominem. Nam homo
+nihil aliud, quantum ad genus, nisi animal est: animal
+quantum ad species potest esse etiam non homo.
+Paria vero praedicamenta semper sibi ipsa invicem
+convertuntur. Nam quoniam risibile solius est hominis,
+risibile ad hominem praedicatum etiam converti
+potest, ut homo ad risibile praedicetur. Dicitur enim
+quidquid est homo, risibile: quiquid est risibile,
+homo. Ergo quascunque definitiones convertere potes,
+illae verae atque pares sunt: quascunque convertere
+non potes, aut majores, aut minores sunt, pares
+inveniri non possunt. Nam si dicas hominem esse
+substantiam animatam atque sensibilem, verum est.
+Item si convertas et dicas substantiam animatam
+<pb n="0036B"/>
+atque sensibilem esse hominem, non omnino verum
+dixeris. Potest enim substantia animata esse atque
+sensibilis et homo non esse. Item si dixeris rem rationalem,
+mortalem, risus et disciplinae capacem
+animal esse, verum dixeris. Si autem dicas atque
+convertas animal esse rem rationalem, mortalem,
+risus et disciplinae perceptibilem, non omnino verum
+dixeris. Potest enim esse animal, et non esse rationale
+et risus capax. Ergo quoties major est definitio,
+quam id quod definitur, si prius dicitur id quod
+definitur, et major definitio adhibetur, vera esse poterit
+definitio. Si enim prius dixeris hominem rem minorem,
+et ad ipsum postea adhibueris definitionem
+majorem, ut prius dicas homo est, et postea subjungas
+substantia animata sensibilis, utrum est. Homo
+<pb n="0036C"/>
+enim necessario est substantia animata sensibilis. Si
+vero prius dixeris definitionem, et postea dixeris id
+quod definies, vera esse non potest omnino. Nam si
+definitionem majorem prius dixeris, dicens substantia
+animata sensibilis, et postea rem minorem intuleris,
+ut dicas homo est, ut sit, substantia animata
+sensibilis homo est, non omnino verum est. Potest
+enim esse et substantia animata sensibilis, non tamen
+homo. At vero si minor fuerit definitio quam illa
+ipsa res quae definitur, si prius dicta sit definitio,
+vera est, posterior, falsa. Nam si dixeris definitionem
+quae est minor, res rationalis, mortalis, risus et disciplinae
+capax, et post intuleris animal est, ut sit, res
+rationalis, mortalis, risus et disciplinae capax animal
+est, vera est. Omnis enim res, quae rationalis et
+<pb n="0036D"/>
+mortalis est, risus et disciplinae capax, necessario
+animal est. At vero si converteris, et rem majorem
+prius dixeris: post vero minorem definitionem adhibueris,
+vera omnino esse non potest. Nam si dicas
+prius, animal est, postea autem junxeris, res rationalis,
+mortalis, risus et disciplinae perceptibilis, non
+omnino verum est. Potest enim esse animal, et rationale
+vel mortale non esse. Itaque si major est definitio
+quam res fuerit: si prius rem dixeris, postea definitionem
+intuleris, vera est. Si vero prius definitionem
+dixeris post rem intuleris, falsa est. In minoribus
+vero definitionibus et majoribus rebus contra
+est. Nam si definitionem prius dixeris, postea rem
+subjeceris, vera est. Si vero rem prius dixeris, postea
+<pb n="0037A"/>
+definitionem subjeceris, vera omnino esse non potest.
+At vero in aequalibus definitionibus converti aequaliter
+potest. Nam quoniam solius hominis haec est
+definitio, animal rationale, mortale, aequalis est haec
+ad hominem definitio, quoniam non est aliud, cui
+possit aptari. Itaque si prius definitionem dixeris,
+postea rem subjeceris, vera erit, ut est: homo est
+animal rationale, mortale, risus et disciplinae perceptibile.
+Sin vero converteris, et prius definitionem,
+postea rem dixeris, ut si dicas, animal quod fuerit
+rationale, mortale, risus et disciplinae perceptibile
+homo est, haec quoque vera est: ita semper ut definitiones
+verae sint, neque plus, neque minus in definitionibus
+oportet aptari, sed aequaliter definitiones
+convenienterque disponi. Quod Porphyrius scilicet
+<pb n="0037B"/>
+non ignorans ait, se neque plus, neque minus effecisse
+generis definitionem. Et Fabius: Sequitur inquit
+de specie disputare. Dic, inquam, quid sequitur?
+Et Fabius: Hic (ut opinor) ordo est.
+</p>
+      </div1>
+
+<div1>
+        <head>DE SPECIE.</head>
+<p> <hi>Species quoque multis dicitur modis. Nam et uniuscujusque
+hominis forma species appellatur. Rursus
+dicitur et pulchritudo vultus, unde pulcherrimos quosque
+speciosos dicimus. Dicitur species et ea quae supposita
+est generi, unde hominem animalis speciem appellamus,
+cum animal ipsum genus sit: et album, coloris speciem.</hi> </p>
+<p>Tunc ego speciei quoque nomen sicut generis
+aequivocum puta. Nam et hoc quoque multifariam
+appellari designat. Dicitur enim, inquit, species et
+figura corporis, et fortasse alia plura. De quibus quoniam
+<pb n="0037C"/>
+nullus tractatus habebatur, jure praetermissa
+sunt. Hic tamen a Victorino videtur erratum, quod
+cum idem sit cujuscunque hominis species et vultus,
+quasi in alia appellatione speciei vultus iterum pulchritudinem
+dixit: quasi vero non perinde pulchritudo
+vultus sit ac tota species fuerit, nam si quispiam
+pulcher fuerit toto corpore, etiam vultu. Sed, praetermissis
+his, ad illam speciem quae sub genere ponitur
+atque genus efficit veniamus. Namque, ut dictum
+est, substantiae ipsae nullo speciei nomine generisve
+censentur, nisi quadam ad se invicem collatione sint
+comparationeque compositae. Namque quod homo animal
+est, non idcirco ei genus est, quoniam animal est,
+sed idcirco quod sub se hominis atque equi, et caeterorum
+animantium species habet, atque idcirco ait: Unde
+<pb n="0037D"/>
+hominem animalis speciem appellamus, cum animal
+ipsum genus sit: neque enim homo species diceretur,
+nisi super ipsum animalis appellatio praedicaretur. Sed
+ut monstraret non in solis substantiis genera speciesque
+versari, sed etiam in omnium praedicamentorum
+nuncupationibus esse connexa, non solius substantiae
+dedit exemplum, sed etiam ejus quod reliquum remanserat
+accidentis. Quod enim ait; Et album coloris speciem,
+in accidentis divisione ponitur qualitatis. Sed, quoniam
+inter se quaedam connexio est, et talis comparatio
+atque relatio, ut praeter ad se invicem habitudinem genera
+et species esse non possint: nihil enim in eorum
+diffinitionibus concludi potest, nisi alterutrum nominata
+sint. Nam si substantia generis speciei supposita,
+<pb n="0038A"/>
+speciei vero substantia genere superposito, et ad
+ipsam praedicatio perficitur, non est dubium quin
+cum genus diffinire necesse sit jure speciem, et cum
+speciem, jure nobis genus praedicare necesse sit. Haec
+igitur etiam in generis subscriptione servabatur distinctio,
+cum generis definitio habita est. Hoc enim dictum
+est, tunc esse genus quod ad distantes species diceretur.
+Nunc vero dicendum est id esse speciem quae sub
+genere ponitur. Sed multiplex ejus difinitio haberi potest.
+Potest enim rursus dici id esse speciem, ad quam
+genus in eo quod quid sit, praedicatur. Quae res utraeque
+id significant, speciem poni sub genere. Nam
+prima quidem definitio, id aperte designat. Secunda
+non talis est: quoniam semper minora majoribus
+supponuntur. Genus ab eo aliquid in eo quod quid
+<pb n="0038B"/>
+sit praedicatur: quod majus esse non dubium est.
+Quod si ita est, nullus est obscuritatis error, quin
+species quae minor est majori sibi generi supponatur.
+Nihil igitur haec secunda definitionis significatio
+a priore differt: non enim species sub genere poneretur,
+nisi genus ad speciem in eo quod quid sit praedicaretur.
+Tertia vero definitio speciei integra ratione
+collecta est, et ipsius speciei vim naturamque demonstrat.
+Dicit enim speciem esse quae ad plurima
+numero differentia in eo quod quid sit praedicatur.
+Quae diffinitio etiam ex superiore genere debuit esse
+planissima. Sed ego non quantum castigata permittit
+brevitas explicabo, sed prius de ipsis generibus
+speciebusque pauca dicenda sunt: Cum sint quaedam
+genera quae species habeant, atque ipsa aliis generibus
+<pb n="0038C"/>
+species esse possint, non est dubium ea gemina
+comparationis habitudine fungi, ut ad alia species,
+ad alia genera nominentur. Sed si in uno filo atque
+ordine speculemur, et quodcunque genus alicujus rei
+repertum est, ejus rursus genus aliud requiramus, et
+rursus aliud atque aliud: iterum si nihil sit quo intellectus
+ratioque consistat, inexplicabilis ratio interminabilisque
+tractabitur: sed, quoniam multa sunt in
+his scientiae fundamenta, quae nulla ratione animi in
+infinitum procedentia concluduntur, dicendum necessario
+est posse nos ascendentes usque ad tale aliquid
+pervenire, cujus cum ipsum caeteris genus sit, aliud
+genus invenire non possumus, quod genus primum, et
+magis genus, et generalissimum nuncupetur. Sed si
+hoc in genere contingit, ut ascendentes alicubi consistamus,
+<pb n="0038D"/>
+non est dubium quin descendentes iterum
+species ad aliquem quodammodo calcem offenso termino
+consistamus. Igitur cum descenderimus per
+speciem et usque ad illam speciem venerimus, quae
+sub se species nullas habet, illam speciem ultimam
+speciem et magis speciem et specialissimam nuncupemus.
+Sed, quoniam species aliquorum est continens
+(si aliquorum specie differentium continens esset),
+non magis species, sed genus merito vocaretur. Sed,
+quoniam continet, et non specie differentes res continet,
+similes necesse est sibi contineat pluralitates: sed si
+continet pluralitatem, et majus semper est id quod
+continet, quam id quod continetur, de pluralitate
+illa species praedicabitur. Appellabitur igitur species
+<pb n="0039A"/>
+de pluribus rebus numero differentibus in eo quod
+quid sit. Species enim cum appellatur de subterioribus,
+superiorem speciem substantiamque declarat.
+Nam cum dicimus quid est Cicero: homo continuo
+respondetur. Cum ergo tribus modis speciei facta sit
+definitio, superiores duae non tantum sunt speciei,
+sed etiam subalternae speciei. Est enim species quae
+et ipsa genus est: sit enim ipsa generalissimum genus
+substantia, et sub ea corpus, sub corpore, animatum
+corpus; sub animato corpore, animal; sub animali,
+homo; sub homine, individua. Sed hanc divisionem
+plenius posterius exsequemur, nunc autem hoc
+nobis tantum sufficit. Substantia igitur magis genus est,
+homo magis species, ita ut neque substantia species aliquando
+esse possit, nec homo genus: corpus vero animatum
+<pb n="0039B"/>
+vel animal ad superiora species, ad subteriora
+genera nominantur. Si quis ergo corpus animatum vel
+animal vel hominem velit exprimere et dicat: Species est
+quae ponitur sub genere, et ad quam genus in eo quod
+quid sit praedicatur, haec definitio et magis speciem, id
+est hominem, et subalternam speciem continet, id est
+corpus animatum vel animal. Nam corpus animatum
+et animal et homo sub genere sunt posita, et ad eas
+omnes in eo quod quid sit appellatur, ut dictum est.
+Si quis vero illam speciem definitione monstrare velit
+quae vere species est, id est specialissimam speciem
+quae tantum species et nunquam genus sit, hoc modo
+definiet: Speciem esse, quae ad plurimas res numero
+differentes in eo quod quid sit praedicetur. Sed haec
+definitio subalternis speciebus nunquam conveniet.
+<pb n="0039C"/>
+Illae enim quae subalternae sunt species, possunt etiam
+pro generibus accipi, si ad subjecta praedicentur.
+Quod si possunt pro generibus accipi, cum pro generibus
+acceptae fuerint non tantum ad plurimas res
+numero, sed etiam specie differentes praedicabuntur,
+quippe cum sunt genera. Sed quia hoc in magis speciebus
+non evenit ut aliquando de specie differentibus
+praedicentur, haec definitio posterior solius magis
+speciei definitio est, et eam caeterae subalternae species
+excludunt atque rejiciunt, quod Porphyrius ita
+demonstrat. Sed haec definitio ejus speciei est, quae
+magis species dicitur. Aliae vero definitiones erunt
+etiam illarum quae non sunt magis species, horum
+ergo ipsam subscriptionem demonstrationemque clarius
+seipsum dicere promittit cum dicit:</p>
+<p>
+          <pb n="0039D"/> <hi>Manifestius autem hoc fiet quod dicimus hoc modo:
+In omnibus praedicamentis sunt quaedam magis generum
+et magis specierum, sunt alia mixta: magis genera
+sunt supra quae nullum aliud genus poterit inveniri.
+Magis species rursus, sub qua nulla species reperitur,
+horum intervalla quae possident, et genera et species
+sunt, singula superioribus et inferioribus collata, ut
+alteri genus alteri species appellentur.</hi> </p>
+<p>Hujusmodi sunt, inquit, quaedam quorum genera
+inveniri non possunt, haecque ipsa merito magis genera
+nominantur, quoniam majus ipsis aliquid inveniri
+non potest. Nam si ista sunt genera (genus autem
+omnibus sub se positis majus est) quorum genus nullum
+est, nihil eorum majus poterit reperiri. At, quorum
+<pb n="0040A"/>
+nihil majus poterit inveniri, merito ipsa magis
+genera vocitantur. Sunt autem quaedam alia quae
+magis species appellantur, sub quibus aliae species
+locatae non sunt. Nam plus videtur esse species ea et
+integrior, ac vere species est, quae genus nunquam
+est, quam ea quae aliquando genus esse potest. Quod
+si verior species est, quae sola species, nunquam
+genus est, merito magis species appellata est. Igitur
+inter magis speciem et magis genus intervallum quod
+est, subalterna genera, et subalternae species impleverunt.
+Nam subalterna vocamus quaecunque ad superiora
+species, ad inferiora pro generibus accipiuntur,
+idcirco quia, si omnes res ad inferiora componas,
+genera sunt, si ad superiora, species: et si ad superiora
+et inferiora eadem ducas, genera et species invenientur.
+<pb n="0040B"/>
+Atque ideo subalterna genera et species nominata
+sunt, quod filo quodam atque ordine ad inferiora
+composita genera, et ad superiora species agnoscantur.
+Sed haec ita genera speciesque esse possunt, non
+ut cui genus est, eidem iterum velut species supponatur.
+Nam si (ut prius ostensum est) specie sua majus
+est genus, non est dubium quin major res sub
+minori poni non possit: atque ideo ait, ut alteri genus,
+alteri species appellentur, quod nequaquam ad
+eamdem rem et genus esse et species conveniret.
+Dat igitur hujus rei exemplum, ut quod dicit, facilius
+possit agnosci. Facit igitur hanc divisionem. Ponit
+substantiam magis genus, supponitur substantiae
+corpus et in incorporeum. Corpori, animatum corpus
+et inanimatum. Animato corpori animal sensibile, et
+<pb n="0040C"/>
+animal insensibile, ut sunt ostrea vel conchilia, vel
+echini, vel arbores, et alia hujuscemodi, quae vivendi
+animam habent, non etiam sentiendi. Sub animali,
+animal rationale et irrationale. Sub rationali, mortale
+et immortale. Sub mortali, hominem. Sub homine
+singulos homines, hoc est corpora individua, Ciceronem
+et Virgilium scilicet, et eos qui jam in partes sunt
+singuli. Substantia ergo quae prior est, magis generis
+loco accipitur. Genus enim solum non etiam species
+est, quod nunquam ei genus superius invenitur, homo
+vero solum species est: nullas enim alias sub se species
+coercet. Singuli enim homines non specie, ut
+dictum est, sed numero differunt. Corpus vero quod
+pridem sub genere posuimus id est substantia, ad
+substantiam quaedam species, ad animatum corpus
+<pb n="0040D"/>
+genus accipitur. Animatum autem corpus ad corpus
+species est, ad animal genus; animal autem ad animatum
+corpus species videtur, ad rationale animal,
+genus. Rationale item animal, mortalis genus est,
+species animalis. Mortale autem genus hominis est,
+species rationalis animalis: homo autem quod super
+individua est, nihil de generis natura sortitus est,
+sed tantum sola species appellatur. Sed hanc divisionem
+sicubi in aliis rebus transferri et aptari placet,
+ita considerandum est, ut quidquid fuerit cujus genus
+inveniri non potest, magis id genus appelletur. Et
+quidquid cujus nulla species fuerit, id est ut super
+individua collocetur, illa magis species. Oportet enim
+si quod genus sit, super differentes specie res poni.
+ 
+
+<pb n="0041A"/>
+Quod autem magis species, non super differentes
+specie res poni, nunquam aliter digne species poterit
+appellari. Ergo, quoniam quemadmodum quod
+superius genus super se nullum genus habet, magis
+genus dicitur: ita species, quoniam sub se species
+non habet, sed tantum individua, merito magis species
+appellatur. Illa autem quae in medio posita sunt
+non ejusdem sunt habitudinis. Nam quoniam species
+esse possunt, non sunt magis genera: et quoniam
+genera esse possunt, idcirco nunquam magis species
+praedicantur. Nam illis quae supersunt species sunt:
+illis vero quae subsunt loco generis praeponuntur.
+Cum igitur duae formae sint omnium rerum, ut aut
+genera praeponantur, aut species supponantur, summitates,
+id est generalissimum genus, et specialissima
+species, singulas tantum continent habitudines.
+<pb n="0041B"/>
+Illud, ut tantum genus, nunquam species videatur:
+illud, ut sola species, nunquam etiam genus appelletur.
+Subalterna vero quae media sunt duas formas
+habent, id est utrasque. Namque (ut frequentius insinuatum
+est) et generis quodammodo parentelam, et
+speciei derivationem sortita sunt. Nec hoc fortasse
+nos turbet quod species specialissima habet aliquid
+sub se. Namque homo, cum sit magis species, habet
+sub se singulos homines. Haec enim quamvis individuis
+supersit, nunquam formam specialitatis immutat.
+<pb n="0042A"/>
+Cum enim sub se individua habeat quod ea contineat,
+quae sub una specie sint, et nulla substantia
+proprietate discrepent, species eorum vocatur quae
+continet. Ita homo et animalis species dicitur, quia
+continetur: et hominum singulorum species est, quia
+eos continet qui nulla unquam specie discrepabunt.
+Definitio igitur magis generum magisque specierum
+talis est: Magis genus esse dicitur, quod genus semper
+sit, nunquam species. et quo superius nullum
+genus sit. Rursus magis species est, quae species
+semper sit, nunquam genus. Et iterum quae nunquam
+dividitur in species, et quae ad plurima numero differentia
+in eo quod quid sit praedicatur. Illa vero alia
+(ut saepe dictum est) et genera et species esse possunt,
+superioribus scilicet inferioribusque collata.
+Hoc autem attentissime respiciendum est, quod in
+<pb n="0042B"/>
+diversis longe nationibus in eo genere, ubi ex
+sanguine aliqua cognatio deducitur diversarum cognationum
+gens ad unum caput generis duci potest.
+Namque cum Romani a Romulo sunt, Romulus autem
+a Marte, Mars a Jove, poterit genus Romanorum ad
+Jovem duci. Item quoniam Athenienses a Minerva,
+Minerva a Jove, potest Atheniensium genus ad eumdem
+Jovem velut ad originem duci. Item quoniam
+Persae a Sole, Sol autem a Jove, possunt Persae quoque
+ad eumdem Jovem, velut ad originem propriam
+<pb n="0043A"/>
+deduci. Ita diversissimae gentes ad unius cognationem
+erigi possunt, quod idem in speciebus generibusque
+non fit. Nunquam enim diversa genera sub uno
+genere poterunt accommodari. Aristoteles enim primorum
+generum praedicamenta decem constituit,
+quae velut aliquis fons, ita subterioribus omnibus
+ortum quodammodo nationemque profuderunt.
+Haec igitur genera, quoniam generalissima sunt, et
+superius eis nullum aliud inveniri genus potest, ad
+unum genus reduci non poterunt. Quod si decem
+genera prima ad unum genus reduci non poterunt,
+nec illa quae subsunt eisdem generibus, id est species
+subalternaque genera, ad unum genus aliquando
+poterunt applicari. Nam si prima eorum genera ad
+unum superius duci non possunt, non est dubium
+<pb n="0043B"/>
+quin ea ipsa quae sub ipsis sunt, ab uno genere coerceri
+continerique non patiantur. Nam si substantia,
+qualitas, et quantitas, et caetera sub alio communi
+genere poni non possunt, quod ipsa magis sunt genera,
+nec quidquid substantia fuerit, id est sub eodem
+genere, ut animal vel homo, vel item sub qualitate
+vel quantitate, ad aliquod genus commune se
+poterunt applicare. Nunquam enim inveniri genus
+poterit, quod haec decem genera solitario et proprio
+intellectu intra se possit veluti species continere. At
+dicat quis: Haec omnia decem genera si vere sunt
+subsistentia, quodammodo substantia vel entia dici
+posse. Flexus enim hic sermo est ab eo quod est
+esse, et in participii abusione tractum est propter
+angustationem Latinae linguae compressionemque.
+<pb n="0043C"/>
+Haec igitur (ut dictum est) entia possunt appellari. Et
+ens hoc ipsum, id est esse, genus eorum fortasse
+dici videbitur, sed falso. Namque omnia quae inter
+se aequivoce nominantur, nunquam ejusdem continentiam
+generis sortiuntur. Quippe quorum substantia
+discrepat, non est dubium quin generis quoque
+ipsius definitio discrepabit: haec autem ut entia
+nominentur, non univoce, sed aequivoce praedicantur.
+Nam quoniam substantia ens est, et item qualitas
+ens, si quis rationem definitionemque substantiae
+et qualitatis dixerit, eademnam utrisque non poterit
+convenire, non est dubium quin substantia et
+qualitas non univoce, sed aequivoce praedicentur.
+Quod si aequivoce praedicantur, sub ejusdem generis
+fonte poni non poterunt. Non est igitur in generibus
+<pb n="0043D"/>
+speciebusque aliquod genus solum quod possit
+diversa rerum genera coercere. Tunc Fabius: Abundanter
+haec, inquit, omnia, et de his ipsis rebus frequentius
+inculcatum est. Sed perge ad sequentia.
+Faciam, inquam. Haec enim, ut arbitror, sequuntur.</p>
+<p> <hi>Ergo decem genera constituit Aristoteles in praedicamentis
+quae magis genera sunt. At vero illae quae
+magis species sunt, semper in plurimo quidem numero
+sunt, non tamen in infinito. At vero individua quae
+ub magis speciebus sunt, infinita sunt semper.</hi> </p>
+<p>Hoc enim dicere vult quod multo plures species
+sunt quam genera: habet enim genus sub se plurimas
+species: et quoniam decem genera rerum
+omnium prima sunt, species specialissimae non solum
+<pb n="0044A"/>
+decem sunt, sed plures, non tamen infinitae. Individua
+vero quae sub magis speciebus sunt infinita
+sunt, et eorum intelligentia nulla unquam capi
+scientia potest. Quae enim infinita sunt nullo scientiae
+termino concluduntur. Igitur omnis a nobis divisio,
+omnisque scientia a magis generibus per subalterna
+genera usque ad magis species deducatur. Ibi enim
+consistentes integram superiorum scientiam accipere
+possumus ac retinere. Si quis autem individua velit
+scientia disciplinaque comprehendere, frustra laborat:
+sed ita jubemur a magis generibus usque ad
+magis species per media intervalla discurrere, ut
+specificis differentiis dividentes subalterna genera,
+a magis generibus usque ad magis species descendamus.
+Specificae differentiae sunt quae speciem
+<pb n="0044B"/>
+quamcunque declarant. Declarant autem species
+differentiis hoc modo. Si quis enim dicat substantiam,
+ut ponat sub substantia, corpus sub corpore,
+animatum corpus sub animato corpore, animal sub
+animali, rationale animal sub animali rationali, mortale,
+et omnes has species quae sunt substantiae cum
+differentiis posuerit, hominis scilicet species informabitur.
+Nam corpus animatum ab inanimato corpore
+differentia est. Porro autem animal ab insensibilibus,
+et rationale ab irrationali, et mortale ab immortalibus
+differentiae sunt: haec igitur omnia cum
+junxeris, unam speciem declarabis, id est hominem.
+Nam cum dicis corpus animatum, animal rationale
+et mortale, quae scilicet differentiae in subalterno ordine
+sibi suppositae sunt, hominem demonstrasti.
+<pb n="0044C"/>
+Sunt autem quaedam aliae differentiae, quae tales
+sunt, ac si dicas animal rhetoricorum, quod solus
+homo rhetor esse possit. Sed haec differentia non
+specifica differentia est, et substantiam hominis naturamque
+non perficit, sed tantum artem quamdam
+scientiamque commendat. Illae igitur in divisionibus
+differentiae speciesque prosunt, ex quibus illa quae
+dicitur magis species informatur, et haec vocatur
+specifica differentia, quae magis speciem possit efficere.
+Ergo cum per haec descensum fuerit ad magis
+species, relinquenda sunt sub magis speciebus individua,
+nec eorum est aliqua scientia requirenda. Nam
+illa non solum infinita sunt, sed etiam quaecunque
+in sese continuerint infinita fiunt. Rhetorica enim
+species est. Sed cum venerit in singulos homines,
+<pb n="0044D"/>
+tunc per singulos et infinitos divisa, singula etiam
+fiet et infinita. Si enim omnes quicunque sunt vel
+fuere numerentur rhetores, nullus unquam hujusce
+numerationis finis erit, cum praesertim etiam per
+infinita tempora in futurum singuli homines rhetores
+esse possint. Hic Fabius: Hoc igitur, inquit, erat
+quod ait.</p>
+<p> <hi>Porro autem vel artium vel disciplinarum cum individua
+per singulos homines esse ceperint, rationem ad
+percipiendum capere vel habere omnino non possunt.</hi> </p>
+<p>Et ego. Hoc, inquam, est quod cum artes vel disciplinae,
+quae in sua specie una ante collecta fuerint,
+in individua venerint, id est, per singulos homines in
+infinitam multitudinem innumerabilemque sese dispertiunt:
+<pb n="0045A"/>
+hoc autem idcirco evenit, quod haec eadem
+ratio est quam Porphyrius ipse dicere non neglexit.
+Genus enim cum unum sit, plurimarum specierum
+progenitivum est. Namque sub uno genere plures
+species inveniuntur, idcirco quoniam species genus
+illud unde profluunt, in plurima segregant atque
+dispertiunt. Genus autem plurimas colligit res, sicut
+ipsum a plurimis iterum speciebus dividitur. Namque
+homo, corvus et equus, quae sunt species, quantum
+ad animal, aequaliter animalia sunt. Ita enim nomen
+animalis omnes suas species intra se continet. Quod
+si et in homine animalis nomen est, et in corvo, et
+in equo, non est dubium, quoniam illud genus, quod
+sub seipsum ea continet, species divisae inter se dividant
+multiplicentque. Colligit igitur genus species
+<pb n="0045B"/>
+in se, species vero suapte natura genus ipsum dispertiunt.
+Est igitur genus collectivum specierum suarum
+et quodammodo adunativum. Species vero divisae
+generis quodammodo et multiplicativae. Igitur quicunque
+ad magis genera ascendit, omnem specierum
+multitudinem per genera colligit adunatque. Cum
+vero a magis generibus usque ad magis species decurritur,
+omnis unitas generum superiorum in multifidas
+ramosasque species segregabitur. Quod autem
+ait multitado capienda, perinde est ac si diceret,
+multitudo facienda est: nam cum dividis genus in
+species, easdem species multas esse accipis, quas tu
+idem fecisti. Species quoque ab hac generis adunatione
+ac quodammodo collectione non discrepant.
+Namque et ipsae infinitatem individuorum ad unam
+<pb n="0045C"/>
+revocant formam. Singulorum enim hominum species
+quae est homo, collectiva est, hoc modo. Ad hominis
+enim speciem cuncti singuli homines, unus homo
+sunt, id est prima species quae nos continet coercetque.
+Porro autem ipsa species in nos multos scissa
+dividitur. Omne enim quod singulum est atque individuum,
+illud unde nascitur dividit. Omne quod non
+est singulum atque individuum, sed dividi potest,
+non per se ipsum magis dividit subteriora, quam colligit.
+His igitur expeditis, constat et genus plurimarum
+specierum esse genus, et speciem plurima sub
+se individua coercere. Nam si illa quae sunt subteriora
+dispertiunt, et in multitudinem dissipant dividuntque,
+non est dubium quin superiora semper inferioribus
+pauciora sint. Praedicamenta vero quae
+<pb n="0045D"/>
+aliud de alio praedicantur, vel ad se invicem quae torquentur,
+hoc modo sunt: omnis enim res alia aut
+major erit, aut minor, aut aequa; omne quod est
+majus, de minore poterit praedicari: nam cum animal
+sit majus ab homine, poterit animal de homine
+praedicari, minus vero de majore non dicitur. Nam
+quoniam animal est et homo et equus, ad animal
+hominem si praedicare volueris, tantum haec convenit
+praedicatio, quantum convenit animal partem esse
+super hominem. Age enim, converte, et die hoc esse
+animal quod hominem: quantum igitur pars est animalis,
+quae hominis speciem contineat, tantum animal
+homo est. In illis autem aliis partibus animalis
+quae aliud continent quam est species hominis, hominis
+<pb n="0046A"/>
+appellatio non convenit. Nam si dicas animal,
+hoc est, quod homo in illa parte in qua equus est
+non erit homo, atque ideo universaliter non convertuntur.
+Nam si dicis, omnis homo animal, verum est.
+Si dixeris, omne animal homo est, falsum est. Quod
+si majora de minoribus idcirco praedicantur, quia
+omne majus minus in se continet: et minora de majoribus
+idcirco non praedicantur, quia majora minoris
+definitionem supervadunt, et quodammodo exsuperant,
+non est dubium quin illa quae sunt aequalia,
+sibi possint ipsa converti. Aequalia autem illa sunt
+quae neque minora neque majora sunt, id est, ut si
+in quamlibet speciem apponantur, et omni illi speciei
+adsunt, et nulli alii: nam omnis homo risibilis est,
+et nulla alia species risibili potest proprio nuncupari,
+<pb n="0046B"/>
+atque ideo quoniam aequalia sunt convertuntur. Dicis
+enim: Quid est homo? Risibile; Quid est risibile?
+Homo: et item, Quid est hinnibile? Equus; Quid est
+equus? Hinnibile. Quod si semper majora de minoribus
+praedicantur, superiora necesse est genera esse,
+et omnia subalterna minora. Quod si subalterna omnia
+minora sunt, non est dubium quin si quis per
+subdivisionem descendat ad ultimam speciem, quodcunque
+genus de vicinis sibi praedicabitur, etiam de
+subalternis praedicetur: namque substantia habet sibi
+vicinum ad subteriora genus, ad se vero speciem,
+quod est corpus; de hoc igitur substantia praedicatur.
+Si quis enim interroget quid est corpus, dicitur substantia.
+Sub corpore vero est animatum corpus, et
+sub eo animal. Ergo quoniam substantia idcirco
+<pb n="0046C"/>
+praedicatur de corpore, quia illi est superior, necesse
+est, quibus corpus superius fuerit, eisdem etiam sit
+substantia superior. Nam si corpus praedicatur de
+animato corpore, et de animali, praedicabitur etiam
+substantia de animato corpore, et de animali. Sic
+igitur quaecunque superiora fuerint de subterioribus
+non solum sibi vicinis, sed etiam longe subterioribus
+praedicantur. Nam si majora sunt iis quae sibi vicinae
+sunt speciebus, multo majora erunt etiam illis quibus
+illae vicinae species fuerint ampliores: ergo de quibuscunque
+species praedicatur, de ipsis praedicabitur et
+illius speciei genus. Nam si species aliqua, aliqua re
+major est, multo genus speciei ipsius illa re qua species
+major est, majus erit. Atque ita ad id praedicabitur
+quemadmodum ipsa species antea praedicata est.
+<pb n="0046D"/>
+Quod si ita est, non est dubium quin genus quoque
+generis illius, quod ad illud ad quod species praedicabatur,
+poterat praedicari, etiam id quoque de eo de
+quo species et genus speciei praedicabatur, praedicari
+posse. Nam si quis dicat Ciceronem esse hominem,
+cum animal hominis genus sit, non erit absurdum
+Ciceronem animal praedicari, et cum animalis ipsius
+substantia genus sit, non erit inconveniens Ciceronem
+substantiam praedicari, quoniam quae supersunt de
+subterioribus praedicantur, et quae subteriora sunt si
+qua alia sibi subteriora habeant, illud primum genus
+habebunt etiam ista subteriora, et de his non inconvenienter
+praedicabitur. Igitur species de individuo
+praedicatur ut magis, magis genus vero de omnibus
+<pb n="0047A"/>
+subalternis, et de magis specie praedicatur: aequo
+enim modo dicitur et corpus substantia, et animatum
+corpus substantia, et sensibile corpus substantia, et
+rationale animal substantia, et mortale substantia,
+et homo substantia, et de ipsis etiam magis genus
+individuis praedicatur, ut dictum est: potest enim
+Cicero dici substantia, species vero sola de nullis
+aliis, nisi de individuis praedicatur, ut praedictum
+est: individua autem ipsa de nullo alio praedicantur
+nisi de ipsis, id est singulis. Natura autem individuorum
+haec est, quod proprietates individuorum in solis
+singulis individuis constant, et in nullis aliis transferuntur,
+atque ideo de nullis aliis praedicantur. Ciceronis
+enim proprietas cujuslibet modi fuerit, neque
+in Catonem, neque in Brutum, neque in Catullum
+<pb n="0047B"/>
+aliquando conveniet. At vero proprietates hominis
+quae sunt idem rationale, mortale, risibile, pluribus,
+et omnibus individuis possunt et singulis convenire.
+Omnis enim homo et sigillatim individuus, et rationalis
+est, et mortalis, et sensibilis, et risibilis. Atque
+ideo illa quorum proprietates possunt aliis convenire,
+possunt de aliis praedicari. Haec autem quorum proprietas
+<pb n="0048A"/>
+in aliis non convenit, nisi in se ipsis tantum
+singulariter, de aliquibus aliis praeter se singulariter
+praedicari non possunt. Repetendum est igitur, quod
+omne individuum specie continetur, species vero
+ipsa coercetur a genere, et unum quasi omnium totum
+corpus, magis genus est, et nunquam est pars:
+individuum vero pars semper est, nunquam est totum.
+Species autem et pars et totum merito nuncupatur,
+nam ad genus pars est, ad individua totum: dividit
+enim genus (ut dictum est) et individua colligit. Sed
+species pars est alterius, id est, generis, totum vero
+non est partis, sed partium. Namque genus et unum
+est, et plures species unius rei, id est, unius generis
+species pars est. Et quoniam individua plura sunt,
+et infinita sub una specie quae illa individua colligit,
+<pb n="0048B"/>
+species illa non est unius totum, id est, non est partis
+totum, sed plurimorum, id est partium; plures enim
+partes sub ea individuorum sunt, quarum totum species,
+id est homo, appellatur. Sed de genere et specie
+sufficienter dictum est. Et quoniam matutinae salutationes
+vocant, in futuras noctis vigilias quod est reliquum
+transferamus.
+</p>
+      </div1>
+
+
+<div1>
+        <head>DIALOGUS SECUNDUS.</head>
+        <pb n="0047"/>
+        <head>DE DIFFERENTIA.</head>
+
+<pb n="0047B"/>
+<p>Multa tam nobis a parente natura quam caeteris
+animantibus gravia illustriaque concessa sunt, quae
+nos ita quasi quaedam benigna artifex humanitatis
+<pb n="0047C"/>
+excoluit, ut primum nobis reputandi considerandique
+animos rationemque concederet, post vero rationem
+repertam proloquendi conferret, perinde ac si voluisset,
+jussissetque nos non corporis sensibus a belluis,
+sed mentis divinitate distare: quae cum se sibi adjunxerit,
+et a suae vivacitate naturae non discesserit,
+tunc sic ut ipsa est aeterni generis, ita quoque famam
+in posteros, vitamque gloriae infinitissimis temporibus
+coaequat. Sin vero pravis se libidinibus corporis
+obnoxiam mens perdendam corrumpendamque permiserit,
+naturam corporis sequitur. Nam nihil ejus
+vivacitatis post corpora remanet, cui omnis labor et
+studium de rebus corporis atque in corpus impensum
+est. Quare advertendum est, ut nos meliores accuratioresque
+reddamus, non ea re qua pecudibus nihil
+<pb n="0047D"/>
+distare possumus, sed quo coelestium virtutum similitudine
+aeternitatis gloriam factis egregiis dictisque
+mereamur. Sed de his alias, nunc ad propositum revertar.
+Cum igitur alterius noctis consueta lucubratio
+vigiliaeque venissent, credo hesternae rationis subtilitate
+captus, vel qua ipse est cupiditate discendi audiendique
+studio, vigilantius quam unquam surrexerat
+Fabius ad me perrexit, qui postquam consalutatus,
+sequentis a me operis promissam continuationem
+reposceret. Faciam, inquam, non invitus, quippe cum
+nec mihi sit in vita quidquam melius agere, et tu
+hanc mihi jocunditatem studio tuo augeas, quod mihi
+perquam gratissimum est, placuit igitur ut quoniam
+hesterna dissertio speciem explicuerat, alterius expositionis
+<pb n="0048B"/>
+principium de sequenti differentia sumeretur.
+Hic Fabius: Uberrime, inquit, a te hesternis
+vigiliis de generibus et speciebus expositum est. Sed
+(ut dici audio) subtilior de differentiis tenuiorque
+<pb n="0048C"/>
+tractatus est. Non, inquam, immerito, nam varie acceptae
+differentiae varias habebunt etiam potestates.
+Erunt namque alias genera, alias species, alias vero
+differentiae, sed hoc postea demonstrabitur. Nunc
+vero ita (ut arbitror) textus est:</p>
+<p> <hi>Omnis differentia et communiter et proprie et magis
+proprie dicitur.</hi> </p>
+<p>Differentiam quoque multis appellari modis designat.
+Dicit autem tribus his modis fieri differentiam,
+cum aut communes sunt, aut propriae, aut magis
+propriae. Communes sunt quibus omnes aut ab aliis
+differimus, aut a nobis ipsis: nam sedere vel ambulare
+vel stare differentia est: nam si tu ambules, ego
+vero sedeam, in situ ipso atque ambulatione differimus.
+<pb n="0048D"/>
+Et item ego cum nunc sedeo, postea vero si ambulem,
+communi a meipso differentia discrepabo.
+Propriae vero sunt quae uniuscujusque individui formam
+aliqua naturali proprietate depingunt, ut si quis
+sit caesiis oculis, vel crispo capillo. Etenim propria
+uniuscujusque singuli hominis sunt quo cum ista
+nascuntur. Magis propriae sunt quae in substantia ipsa
+permanent, et totam speciem differentia descriptioneque
+permutant, ut est rationalis vel mortalis hominis
+differentia. Horum autem communes et propriae
+differentiae sub eadem specie singulos a se faciunt
+discrepare, illa propriis differentiis, illa communibus.
+Magis propriae vero totam naturam cujuslibet
+speciei substantiamque permutant, et ab aliis speciebus
+segregant atque disjungunt. Harum ergo communes
+<pb n="0049A"/>
+et propriae differentiae, quoniam speciem non
+permutant, sed formam quodammodo et habitudinem
+solum faciunt discrepare, alteratum facere dicuntur,
+id est non integrum alterum facere, id est non integre
+permutare, sed quodammodo discrepantiam
+distantiamque faciunt, atque ideo non vocantur alterum
+facientes, id est permutantes, sed magis alteratum,
+id est non integre alterum facientes. Illa vero
+tertia, id est magis propria, quoniam substantialis
+est, et ipsius speciei inserta naturae alterum facit.
+Nam quoniam homo atque equus quantum ad hoc
+quod animalia erant una illis erat substantia, veniens
+nationale disgregavit omnino speciem, et funditus alterum
+fecit. Ergo communes et propriae differentiae
+alteratum facientes vocantur, magis propriae autem
+<pb n="0049B"/>
+alterum facientes. Constat igitur differentiarum alias
+facere alterum, alias alteratum: illae quae faciunt
+alterum, quae substantiales sunt, et omnes naturam
+speciemque permutant, et specificae praedicantur;
+valent enim quamlibet speciem constituere, et ab
+aliis omnibus segregare, et ejus formam naturamque
+componere. Nam si dicas mortale et rationale differentias
+et eas animali supponas, non est dubium quin
+cum hominis speciem facias, speciei hujus sint perfectrices,
+atque ideo specificae nominantur, quod et
+permutant naturam, et ipsam substantiam cujuslibet
+alius speciei constituant. Illae vero aliae nihil aliud efficiunt,
+nisi alteratum, quippe cum aut proprietate
+quadam formae alius distet ab alio, aut aliqua habitudine
+et dispositione aliquid faciendi. Illa igitur
+<pb n="0049C"/>
+magis propria differentia, quam specificam nominamus,
+sola poterit in generis divisione congruere. Etenim
+caeterae nihil ad substantiam, sed ad quamdam
+quodammodo ejusdem similitudinis discrepantiam
+distantiamque ponuntur. Nihil enim in illis praeter
+alteritatem solam reperire queas, quippe quae non
+constituunt species, sed constitutas jam et effectas
+magis propriis suis qualitatibus ipsae discriminant.
+Quod autem dicit:</p>
+<p> <hi>Repetenti nunc a superioribus dicendum est, differentiarum
+alias esse separabiles, alias inseparabiles,</hi> Hoc est quod hic nunc divisio alia rursus assumitur.
+Nam cum prius differentiam in tribus partibus
+separaret, et postea tres illas in duarum tantum numerum
+quantitatemque colligeret, ut alias alterum
+<pb n="0049D"/>
+facientes esse diceret, alias alterantes, ipsarum rursus
+trium tertia sumitur facienda divisio. Dicit enim
+alias esse separabiles, alias inseparabiles, et sicut in
+priore divisione alteratum facientes duae fuerunt
+communes et propriae, sola vero magis propria remanserat
+quae alterum faciebat, eodem nunc etiam
+modo in separabilibus et in inseparabilibus: communis
+tantum separabilis differentia est, utraque aliae,
+ut caecitas oculorum, vel flava caesaries, vel corporis
+proceritas, quae sunt propriae differentiae; vel certe
+rationabilitas, vel mortalitas, quae sunt magis propriae
+differentiae, non possunt unquam ab hominis specie
+segregari. Sedere vero vel currere, quae communes
+sunt, separantur a singulis, et item rursus adduntur.
+<pb n="0050A"/>
+Earum vero quae sunt inseparabiles, aliae per se veniunt,
+aliae vero per accidens. Et illae quae per se
+veniunt, a magis propriis manant. Illae quae per accidens,
+a solis propriis effunduntur. Et inseparabile
+accidens est, quidquid per inseparabilem propriam
+differentiam unicuique speciei contigerit. Sed quanquam
+propria et magis propria inseparabiles differentiae
+sint, nunquam tamen illam superiorem formam
+naturamque commutant. Nam magis propria semper
+alterum, propria solum semper efficit alteratum. Huc
+accedit quod inseparabiles propriae possunt alicui
+plus minusve contingere. Inseparabiles magis propriae,
+nec cumulis intentionis augent, nec imminutione
+decrescunt. Potest enim alius procerior, alius
+fuscior, deductioribus alius capillis, alius flavioribus
+<pb n="0050B"/>
+nasci, quae sunt inseparabiles propriae differentiae.
+At vero magis propria, id est rationale neque plus,
+neque minus admittit. Omnes enim homines in eo
+quod homines sunt, aequaliter sunt rationales atque
+mortales. Nam si genus plus minusve esse possit genus,
+possunt etiam differentiae vel intentione crescere,
+vel remissione decrescere. Nam quoniam animal
+non est plus homini quam equo, neque equo plus
+quam caeteris, et aequaliter subjectis omnibus genus
+est. Sic specierum differentiae quas specificas appellamus
+magis minusve non capiunt. Nam si animal rationale,
+mortale, hominis est definitio, et hominum
+nihilominus singulorum, non est dubium quin haec
+definitio ad omnes homines singulos aequaliter semper
+aptetur, et nulli neque plus neque minus conveniat.
+<pb n="0050C"/>
+Quod si ita est, partes quoque totius definitionis, quae
+sunt differentiae, tales erunt ut nulli neque plus
+neque minus, sed aequaliter semper et convenienter
+aptentur. Partes autem hujus definitionis
+sunt rationale et mortale. Rationale igitur et mortale,
+quae sunt magis propriae differentiae plus minusve non
+capiunt. Ab hac igitur, id est, separabilium inseparabiliumque
+differentiarum divisione tribus modis differentias
+speculamur. Nam aut separabiles sunt, aut
+inseparabiles. Inseparabilium vero aut per se veniunt,
+aut per accidens. Quae per se veniunt aliae sunt quae
+genus dividunt, aliae quae speciem informant atque
+constituunt. Sed de superioribus prius dictum est.
+Nunc autem de iis quae genus dividunt et speciem
+constituunt disseramus. Omnis quaecunque fit generum
+<pb n="0050D"/>
+divisio in species, si earum specierum alia subdivisio
+fiat, et a magis generibus per subalterna genera
+usque ad magis species decurratur, gemina in
+his erit duplexque divisio. Namque si contrarias differentias
+respicias, generum est divisio. Si subalternorum
+generum sit, specierum constitutio. Si enim
+genus dividamus, id est substantiam, ut jam in
+speciei disputatione divisa est, et sic ut substantia
+sit summa post substantiam, animatum corpus et
+inanimatum; sub animato corpore sensibile et insensibile;
+sub sensibili, id est animali, rationale et
+irrationale; sub rationali, mortale et immortale. Hae
+igitur differentiae eaedem species sunt, si contra seipsas
+in divisione respiciantur, et dividunt genus hoc
+<pb n="0051A"/>
+modo. Nam quoniam sub substantia animatum corpus
+et inanimatum posuimus, si animatum corpus
+contra inanimatum respicias, substantiam divisisti.
+Si vero subalterna genera in ipsis differentiis aspicias,
+speciem constitues. Nam si animatum corpus et
+quod sub ipso est sensibile corpus aspexeris, animal
+respexisti. Item si rationalem differentiam contra
+irrationalem differentiam acceperis, genus quod est
+utrorumque, id est animal divisisti. Si vero sub eodem
+ordine rationalem differentiam et mortalem
+accipias, hominis sine dubio speciem demonstrasti.
+Ita hae differentiae alio modo accepta fiunt generis
+divisibiles, id est genera dividentes. Alio vero modo
+fiunt constitutivae specierum, id est quae species declarent
+atque constituant.</p>
+<p>
+          <pb n="0051B"/> <hi>Nam si contrarias differentias respexeris, divides genus.
+Si vero subalternas, speciem constitues.</hi> </p>
+<p>Differentiarum igitur vis, et separabilium et inseparabilium
+caeteras tres res, id est genus, speciem,
+accidensque sic retinet, ut permutata comparatione
+per haec eadem ipsa etiam permutentur. Nam rationale
+et mortale differentias si contra irrationale et
+immortale respexeris, divisibiles sunt generis differentiae.
+Sin vero idem ipsum rationale et mortale ad
+superiora comparaveris, species erunt ejus quod eas
+continet animalis.</p>
+<p> <hi>Si vero rationale atque mortale ad subjectum hominem
+consideres, genera ejus constitutivasque differentias
+contemplabere.</hi> </p>
+<p>At vero de illis aliis inseparabilibus, id est, propriis
+cadunt differentiae inseparabilis accidentis. Inseparabile
+<pb n="0051C"/>
+namque est accidens, caecitas oculorum, et
+nasi curvitas, et alia hujusmodi. Et idem de separabilibus
+accidentibus, id est de communibus. Separabile
+namque accidens est, vigilare, dormire, currere,
+et sedere. Quod autem dicit: Sic igitur composita
+sit super omnia substantia, et sint ejus differentiae
+divisibiles animatum et inanimatum, contrarias differentias
+in species monstrat. Quod autem dicit:
+Haec differentia animata atque sensibilis sociata substantiae
+perficiet animal, constitutivas specierum
+differentias monstrat. Sic igitur variis modis acceptae,
+varias virtutes formasque sortitae sunt. Sed et divisibiles
+et constitutivae utraeque specifice nominantur,
+et in divisionibus generum definitionibusque solae
+sunt utiles. Caeterae vero inseparabiles per accidens,
+<pb n="0051D"/>
+inutiles, et multo magis illae sunt inutiles, quae separabili
+differentia discretioneque formatae sunt. Has
+autem specificas differentias, qui de differentiarum
+divisione tractavere, tales esse declarant quibus
+species a genere abundant. Quid autem sit breviter
+explanandum est. Controversia est utrum genus differentias
+specierum suarum in se habeat, an minime,
+ut puta: Animal sub se habet species rationale et
+irrationale, id est hominem, et verbi gratia equum.
+Rationabilitatem igitur et irrationabilitatem, id est,
+hominis vel equi differentias, quibus a se species sub
+animali positae differunt, utrum habet utrasque animal,
+an non habeat in controversia est. Nam si animal
+quod genus est, neque rationale est neque irrationale,
+<pb n="0052A"/>
+species quae sub ipso sunt positae istas differentias
+non habebunt. Nam si genus istas differentias
+non habebit, unde erunt speciebus differentiae, quibus
+a seipsis differunt? Sed si quis dicat esse in genere
+istas differentias (non enim haberet differentias
+species, nisi prius genus habuisset), aliud majus
+continet incommodum. Nam quoniam aeque sunt
+species quae sub aliquo genere supponuntur, et aequaliter
+homo atque equus sub animali genere ponuntur,
+neque homo prius est neque equus, sed uterque
+aequaliter animalis species nominantur. Igitur si rationale
+atque irrationale aequaliter sub eodem genere
+sunt, erunt etiam uno tempore. Quod si uno tempore
+et genus istas differentias habet, ut genus suapte
+natura, id est animal rationale sit et irrationale, non
+<pb n="0052B"/>
+est dubium quod eadem res uno tempore duas contrarietates
+in sese substantialiter retineat, quod fieri
+nequit. Quid igitur? Dicendum est quoniam genus
+actu quidem ipso quod Graeci <foreign xml:lang="greek">ἐνέργειαν</foreign> vocant istas
+differentias non habet. At vero potestate ab his ipsis
+differentiis, quas in suas species fundit non vacat.
+Quid autem sit actus et potestas castigatius explicandum
+est. Tantum interest actus a potestate,
+quantum homo ridens ab eo qui ridere possit non
+tamen rideat. Ille enim agit ipsam rem, ille tantum
+potest, non etiam agit. Sic igitur et animal.
+Namque homo actu ipso rationalis est. Semper enim
+homo rationalis, et nihil aliud est: et equus semper
+irrationalis, et ejus irrationabilitas in actu posita est.
+At vero ipsum animal rationale vel irrationale non
+<pb n="0052C"/>
+ipsum agit, neque est in eorum actu positum, sed in
+potestate. Potest enim ex se rationale atque irrationale
+profundere. Quare quoniam species actu differentias
+continent, genus vero potestate, species a
+genere merito differentiis abundare dicuntur. Quoniam
+quod genus potest, id est differentias facere,
+species non solum possunt, sed etiam agunt. In ipsis
+enim speciebus positae informataeque sunt. Est
+autem alia differentiae definitio talis quae dicat differentiam
+esse quae ad plurimas species in eo quod
+quale sit, praedicatur. Differentia ad res plurimas dici
+potest, ut rationale dicitur ad hominem: homo enim
+est rationalis, dicitur ad Deum. Deus enim rationalis
+dicitur, sed non in eo quod quid sit, sed in eo quod
+quale sit. Nam si qualis homo sit interrogetur, rationalis
+<pb n="0052D"/>
+continuo respondetur. Qualis Deus sit si interroges,
+rationale non absurde dixeris. Eodem modo
+etiam irrationabilitas dicitur et ad equum et ad bovem
+et ad piscem et ad avem, quae omnia si qualia
+sint interrogaveris, irrationabilia praedicantur. Bona
+igitur et recta haec est definitio, id est differentia est
+quae ad plurimas res specie distantes in eo quod
+quale praedicatur. Et de mortali vero, et de aliis differentiis,
+eadem est ratio. Sequitur locus perdifficilis,
+sed transferentis obscuritate Victorini magis quam
+Porphyrii proponentis, qui hujusmodi est. Dicit enim
+omnem rem quaecunque est corporea ex materia et forma
+constare. Namque si statuam dicas, constat statua
+ex aere (verbi gratia) et figura illa quam ei suus fictor
+<pb n="0053A"/>
+imposuit, et est materia ex qua facta est aes: figura
+vero, id est, forma qua aes ipsum formatum est. Nam
+si hominem formabis ex aere et figura hominis, erit
+hominis figura, forma, aes vero materia. Eodem modo
+etiam genus. Namque genus in modum materiae accipitur,
+differentia vero in modum formae. Etenim
+quemadmodum quaecunque illa res ex materia et forma
+constat, sic etiam omnis species ex genere et
+differentia. Namque genus ita est hominis, ut est
+statuae aes. Differentia vero sic est hominis, ut est
+forma illa ex qua aes effictum est. Nam sicut ex aliqua
+figura quae ex aeris materia efficta est, cujuscunque
+illius species statuae fit, sic etiam in genus, id est in
+animal cum venerit differentia, id est rationale, hominis
+species fingitur. Ista igitur sibi proportionaliter
+<pb n="0053B"/>
+sunt. Proportio autem est cujuscunque illius rei similis
+ad aliquam rem cognatam comparatio: ut puta
+si duo compares ad quatuor, dupla proportio est. Si
+vero viginti ad quadraginta, eadem dupla. Sub eadem
+ergo proportione sunt quatuor ad duo, sub quali quadraginta
+ad viginti, quod utraque duplex est numerorum
+comparatio. Sic igitur qualis proportio est,
+id est comparatio materiae et figurae, talis est proportio
+generis et differentiae: et ista quatuor sibi
+proportionaliter sunt. Eodem enim modo ex materia
+et figura species uniuscujusque illius fictionis formata
+est, quemadmodum ex genere et differentiis species
+cujuscunque illius animantis inanimantisve formatur,
+quod Victorinus scilicet intellexisse minus videtur.
+Nam quod Porphyrius <foreign xml:lang="greek">ἄλογον</foreign> dixit, id est proportionale,
+<pb n="0053C"/>
+ille sic accepit quasi <foreign xml:lang="greek">ἀνάλογον</foreign> diceret, id est
+irrationaliter. Atque ideo in loco ubi habet hoc modo
+scriptum: Omnes namque res ex forma et materia
+consistunt, ipsa autem forma irrationalis est, tollendum
+est irrationalis. Et subterius paululum ubi habetur:
+Jam omne genus simile materiae est, et consistit
+irrationale, tollendum est irrationale, et ponendum
+est proportionale, ut sit, et consistit proportionaliter.
+Nam quae proportio est figurae ad materiam in efficienda
+cujuslibet corporis fictione, eadem est proportio
+differentiae ad genus in efficienda cujuslibet
+specie animati atque inanimati. Sequitur item alia
+definitio quae est hujusmodi: Dicunt enim esse differentiam
+quod possit separare quidquid sub eodem
+genere est, et recte dicunt. Nam dum sub eodem genere
+<pb n="0053D"/>
+sit homo atque equus, quia utrumque est animal,
+cum venerit rationale vel irrationale equum
+atque hominem quod sub eodem genere sunt, dividunt
+atque discernunt. Sunt igitur illae differentiae
+quae possunt res sub eodem genere separare. Est
+autem alia definitio: Differentiae sunt quibus quodque
+ab alio distat. Nam homo atque equus rationali atque
+irrationali differentia discrepant, cum unum sint
+quantum ad genus, et hoc est quod dicit:</p>
+<p> <hi>Differentia est qua differunt singula, quia per seipsum
+genus est, et illa quae rationalia sunt, nos scilicet,
+et illa quae irrationalia sunt. Namque et homo et
+equus et avis haec omnia genus unum sunt, id est animal.
+Namque animal horum omnium genus est</hi> </p>
+<p>Sed si de hoc loco in quo positum est, quia per
+<pb n="0054A"/>
+seipsum genus est, mutes et facias quae per se ipsa
+animalia sunt, planior sensus erit. Generis enim hic
+nomine pro animalis abusus est, et erit hujusmodi
+ordo: Differentia est qua differunt singula, quae per
+se ipsa animalia sunt, et illa quae rationalia sunt animalia,
+nos scilicet, et illa quae irrationalia sunt. Quod
+si sic esset, nullus esset error omnino. Nunc vero
+genus quod ait, pro animalis nomine intelligendum
+est. Item dii atque homines cum utrique rationales
+sint, mortalitatis tamen nomine adjecto differunt discrepantque.
+Sic igitur differentia est qua singula
+differunt, sed hoc non simpliciter, sed illas tantum
+differentias hujusmodi esse putandum est, quae ad
+substantiam prosint, et quae ad id quod est et quaecunque
+speciei possunt esse aliquae partes quae hujusmodi
+<pb n="0054B"/>
+est: Si equus atque homo, quorum utrorumque
+unum genus est animal, a se differunt rationali
+atque irrationali qualitate, attamen ista rationabilitas
+et irrationabilitas in substantia ipsarum specierum
+est hoc modo. Nam neque equus potest esse sine irrationabilitate,
+neque homo sine rationabilitate. Atque
+ideo istae differentiae prosunt ad aliquid esse speciei
+illi cui fuerint accommodatae, et substantiae ipsius
+partes sunt. Nam cum homo ex his differentiis constet,
+id est ex rationali et mortali, rationale et mortale
+solum positum pars est substantiae hominis. Nam
+si utraque simul unum hominem faciunt, non est
+dubium quin ad substantiam hominis efficiendam
+unaquaeque earum res pars esse videatur. Quare illae
+differentiae quaecunque non prosunt ad esse, neque
+<pb n="0054C"/>
+partes substantiae cujuslibet speciei sunt, specificae
+differentiae dici non habent, quamvis sola hoc una
+species habeat. Nam si homo navigat, potest dici
+animal navigabile. Sed navigare in substantiam hominis
+non vertitur. Neque enim homo inde subsistit,
+quia navigat, quamvis hoc nullum aliud animal
+habere possit, id est, nullum possit animal navigare.
+Eodem modo et esse rhetorem vel grammaticum.
+Has igitur differentias quae ad esse non
+prosunt, sed tantum artem aliquam scientiamque
+commemorant, non ponimus specificas esse,
+quamvis una quaelibet animalis id species habeat.
+Ergo considerandum est, ut quoties dicimus definitionem
+differentiae illam differentiam esse qua differant
+singula, illam significari differentiam intelligamus,
+<pb n="0054D"/>
+quae ad aliquid esse prodest et quae est alicujus
+pars substantiae speciei. Illa vero quae ad esse non
+prosunt in hoc genere differentiarum, quamvis singulae
+cujusque sint non ponamus. Sed quoniam de
+differentia dictum est, de proprio explicemus. Tunc
+Fabius, ut arbitror, consequens est.
+</p>
+      </div1>
+
+<div1>
+        <head>DE PROPRIO.</head>
+<p> <hi>Proprium quatuor dicitur modis. Dicitur namque
+proprium quod uni speciei accidit, etiamsi non omnibus.</hi> </p>
+<p>Et ego: Quatuor ergo modis propria dividuntur:
+est enim proprium quod uni accidit, et si non omnibus,
+ut est rhetor vel geometer vel grammaticus.
+Haec vero omnia uni soli speciei, id est homini accidunt,
+<pb n="0055A"/>
+non tamen omnibus. Neque enim omnes homines
+vel grammatici, vel rhetores, vel geometri
+sunt, atque ideo vocabitur hoc proprium quod uni sit,
+etiamsi non omnibus. Est item alia proprietas quae
+est omnibus, etiamsi non soli. Nam bipes omni homini
+accidit. Omnis enim homo bipes est; sed non
+soli hominum speciei accidit, sed etiam avibus. Et
+item tertium proprium quod omni et soli et aliquo
+tempore accidit, ut est in pubertate pubescere, et in
+senectute canescere. Namque et omnibus hominibus
+evenit, et nulli alii speciei nisi soli hominum, et aliquo
+tempore: constitutum enim tempus est vel adolescentibus
+pubescendi, vel senescentibus canescendi.
+Neque enim a sexto anno vel septimo aliquis pubescit,
+aut a vicesimo canescit, nisi forte aliquid accidat
+<pb n="0055B"/>
+novi. Quartum proprium est, quod uni speciei accidit,
+et omnibus sub eadem specie individuis, et omni
+tempore. Nam risibilem esse hominem, et uni speciei
+solum, id est homini contingit, et omnibus sub eadem
+specie individuis: omnes enim singuli homines
+rident, et omni tempore. Nunquam enim tempus fuit,
+ut quicunque ridere non possit. Sed risibile dico
+potestate, non actu. Namque etsi non rideat homo,
+tamen quia ridere potest, risibilis appellatur. Et sunt
+integre et vere propria ista quae et uni, et omnibus,
+et omni tempore insunt. Namque haec speciebus suis
+converti possunt. Si enim dicas: Quid est homo? Risibile.
+Si quid est risibile interroges, homo praedicabis.
+Illa vero alia bipes, vel grammaticus propria
+quidem sunt, sed converti non possunt. Nam grammaticus
+<pb n="0055C"/>
+semper homo, homo vero non semper grammaticus.
+Et econtrario homo semper bipes est, non
+econtra bipes semper homo est. Et hinnibile similiter
+magis proprium equi est. Nam eodem modo haec proprietas
+ad suam speciem converti potest: nam si
+dicas quid est equus, hinnibile respondebis. Si, quid
+est hinnibile, equus praedicabitur. Sed quoniam de
+propriis dictum est, de accidentibus sequens tractatus
+habeatur. Tum Fabius: Definit Porphyrius accidens
+sic.
+</p>
+      </div1>
+
+<div1>
+        <head>DE ACCIDENTI.</head>
+<p> <hi>Accidens est quod infertur et aufertur sine ejus in quo
+est interitu.</hi> </p>
+<p>Hoc autem dicere videtur, illud esse accidens sine
+<pb n="0055D"/>
+quo potest constare illud cui accidit: ut puta si forte
+casu aliquo cuiquam facies irrubuerit, abscedente
+rubore illaesa facies permanebit, sicut eveniente non
+laesa est. Dividitur ergo accidens in separabile et in
+inseparabile. Namque separabile accidens est, ut puta
+si quis sedeat vel ambulet: inseparabile est, ut si
+dicas corvum nigrum, cygnum album, atque haec accidentia
+separari non possunt. Nascitur autem hujusmodi
+dubietas, utrum superior definitio vera sit, et
+omnium accidentium nomen includat. Nam quoniam
+sunt quaedam (ut ipse ait) accidentia inseparabilia, in
+his talis definitio videtur convenire non posse. Nam
+si separari non possunt, non est in illis vera definitio
+quae dicit: Accidens esse quod inferri et auferri potest
+<pb n="0056A"/>
+sine ejus in quo est interitu. Nam cum inseparabilia
+sint, auferri non possunt. Sed haec tam vehemens
+quaestio solvitur sic, quod haec ipsa definitio
+de accidentibus facta est potestate, non actu, et intelligentia,
+non veritate. Non quia Aethiops et corvus
+colorem amittant, sed sine isto colore ad intelligentiam
+nostram possunt subsistere. Nam verum est
+quoniam Aethiopem aut corvum color niger nunquam
+deserit. Sed si quis intelligat colorem istum Aethiopem
+vel corvum posse amittere, plumarum tantum
+color in corvo mutabitur, et erit avis alba specie et
+forma corvi, si quis hoc intelligat. At vero hominis,
+id est Aethiopis, amisso nigro colore, erit ejus species
+candida, sicut etiam aliorum hominum. Ergo hoc
+non ideo quia fiat dicitur, sed ideo quia si posset
+<pb n="0056B"/>
+fieri, hujus accidentis susceptrix substantia non periret.
+Quod ipse hoc modo demonstrat:</p>
+<p> <hi>Potest autem subintelligi et corvus albus, et Aethiops,
+ut corvus, amisso colore, in propriae substantiae natura
+permaneat, colorem suum perditurus sine interitu suo
+in quo color fuit.</hi> </p>
+<p>Nihil enim ad speciem impedit, si Aethiops vel
+corvus, amisso colore, in propriae substantiae natura
+permaneat. Est autem alia definitio, quae est hujusmodi:</p>
+<p> <hi>Accidens est quod contingit alicui, et inesse et non
+inesse.</hi> </p>
+<p>Nam quod in substantiam non vertitur, id accidens
+esse dicimus, id est non in substantia insitum, sed
+extrinsecus veniens. Erga ea quae contingunt et esse
+<pb n="0056C"/>
+et non esse, ideo accidentia vocata sunt, quoniam in
+substantiae ratione non accipiuntur. Si enim in substantiae
+ratione ponerentur, nunquam non essent, et
+si non essent, nunquam esse possent. Nam quoniam,
+verbi gratia, rationalis in substantia hominis est,
+nunquam homo esse poterit irrationabilis, quoniam
+irrationabilitas in substantia hominis non est. Ex hoc
+ergo venit etiam alia definitio:</p>
+<p> <hi>Accidens esse illud, quod neque genus sit, neque species,
+neque differentia, neque proprium.</hi> </p>
+<p>Nam quoniam genus, species, differentia, et proprium,
+in substantia sunt, et cujuscunque illius rei
+substantiam monstrant, idcirco quidquid horum aliquid
+non fuerit, id accidens merito praedicabitur. Explicitis
+igitur atque expeditis his quae proposuit, id
+<pb n="0056D"/>
+est genere, specie, propriis, differentiis, accidentibusque
+tractare, nunc exsequitur illa quae inter haec omnia
+communia sunt, et quae differentia.</p>
+<p>
+          <emph>DE COMMUNIBUS GENERIS, DIFFERENTIAE, SPECIEI,
+PROPRII, ACCIDENTISQUE.</emph>
+        </p>
+<p>Et primo omnium simul inter se communiones explicat,
+post etiam singulorum, et dicit omnium esse
+commune de pluribus praedicari. Namque genus praedicatur
+de speciebus et de individuis, eodem modo
+praedicatur et differentia de speciebus et de individuis.
+Etiam proprium de specie et de individuis praedicatur.
+At vero species de solis tantum individuis
+appellatur. Genus enim, ut animal, praedicatur de
+equis, hominibus, bobus et canibus, id est speciebus.
+<pb n="0057A"/>
+Praedicatur item et de his quae sub ipsis speciebus
+individua continentur. Nam sicut species ipsa canis
+vel equi vel hominis animalia sunt, sic vel unusquisque
+equus vel homo animalia praedicantur. Differentiae
+vero praedicantur de speciebus et de individuis hoc
+modo. Namque homo et equus species sunt. Sed rationalis
+dicitur, et ad speciem hominis differentia
+praedicatur, eodem modo et ad Ciceronem. Nam cum
+sub hominis specie individuum sit, et ipse rationalis
+appellatur. Proprium autem de specie praedicatur,
+cum dicitur species quod est homo risibilis, et cum
+dicitur Cicero risibilis, quod est individuum, monstratur
+proprium de individuis praedicari. Species vero
+de suis tantum solis individuis praedicatur. Interrogatur
+enim quid est Cicero. Et homo respondetur.
+<pb n="0057B"/>
+Accidens vero praedicatur de individuis, et postea de
+speciebus. Nam si quis dicat, homo sedet, quod est
+accidens separabile, quicunque singulum hominem,
+id est individuum sedere viderit, tunc idem et de
+specie praedicat, ut dicat, quoniam Cicero sedet. Cicero
+autem homo est, homo sedet. Eodem modo inseparabile
+accidens de speciebus et de individuis
+praedicatur. Expeditis ergo omnium communionibus,
+generis et differentiae primum communiones differentiasque
+declarat.</p>
+<p>
+          <emph>DE COMMUNIBUS GENERIS ET DIFFERENTIAE.</emph>
+        </p>
+<p>Et primum dicit generi cum differentia esse commune,
+quod ab utrisque species continentur. Nam
+genus quod est animal, continet speciem hominis
+atque equi. Porro autem rationale, quod est differentia,
+<pb n="0057C"/>
+continet et hominem et Deum. Et irrationale, quod
+est differentia, continet equum et bovem atque avem.
+Sed ita continet, ut genus semper plures species
+contineat, quam continet differentia. Namque genus
+et ipsas differentias continet. Genus enim, id est animal
+rationale atque irrationale, continet illas species
+quae sunt sub rationali, et illas quae sunt sub irrationali
+continet genus, id est animal. At vero differentia,
+id est rationale, irrationale non continet, sed tantum
+hominem atque Deum. Plus igitur genus continet
+quam differentia. Est autem alia communio; si quid
+enim ad quodlibet genus ita praedicatur, ut ejus genus
+sit, et de illis speciebus quae sunt sub illo genere
+ad quod praedicatur, illud genus appellatur, et de illis
+individuis quae sub illis speciebus sunt. Namque animal
+<pb n="0057D"/>
+genus est hominis et de animali praedicatur, ut
+genus substantia. Genus enim substantia animalis est.
+Ergo illa substantia quae ad hominis genus, id est
+animal, ita praedicatur, ut genus praedicatur etiam et
+ad ipsum hominem: dicitur enim homo substantia.
+Praedicatur item illud generis genus, etiam de illis
+quae sunt specie individuis. Dicitur enim Cicero,
+quod est sub hominis specie individuum, substantia:
+differentia eodem modo. Nam si qua differentia dicta
+fuerit de alia differentia, ut differentia intelligatur,
+praedicabitur, et ad speciem quae sub illa differentia
+est ad quam praedicatur, et de illis individuis quae sub
+eadem specie sunt. Nam ratione uti, differentia ad
+rationalem differentiam veluti cognata differentia
+<pb n="0058A"/>
+praedicatur. Rationabile autem praedicatur ad hominem,
+ergo et ratione uti praedicabitur ad hominem.
+Idem etiam ratione uti, praedicatur ad Ciceronem,
+quod est individuum, sub illa specie ad quam speciem
+illa differentia, id est rationalis praedicatur, de qua
+praedicabitur ut cognata illa differentia, id est ratione
+uti. Igitur est ista generis differentiaeque communitas,
+quod ea quae de genere speciei praedicantur ut
+genus, et de sub eodem genere specie praedicantur,
+et de individuis: et illa quae de differentia praedicantur
+ut differentia, et de sub eadem differentia
+specie praedicantur, et de individuis. Est autem alia
+communio, quod quemadmodum interempto genere
+species interimuntur, sic interempta differentia species
+sub eadem differentia interimuntur. Nam si interierit
+<pb n="0058B"/>
+animal, homo atque equus continuo periturus
+est. Sin vero differentia interierit, id est rationale,
+dii atque homines interibunt, et nihil eorum erit
+quod uti ratione possit.</p>
+<p>
+          <emph>DE PROPRIIS GENERIS ET DIFFERENTIAE.</emph>
+        </p>
+<p>Post demonstrationem igitur communionum proprietas
+eorum differentiasque designat, et dicit primam
+differentiam eam, qua genus non solum a differentiis,
+sed etiam speciebus, propriis et accidentibus
+differat. Namque dicit genus multo de pluribus
+praedicari, quam praedicatur differentia, vel species,
+vel accidens, vel proprium. Namque genus dicitur,
+id est animal de quadrupede, de bipede, de reptili,
+id est de serpente, de natatili, id est de pisce. Quadrupes
+autem quod est a bipede differentia, de solis
+<pb n="0058C"/>
+illis dicitur quae quatuor pedes habent, id est, equus
+vel bos. De caeteris autem aliis, id est, bipede vel
+reptili vel natatili, unde genus aequaliter praedicatur,
+appellari non potest. Plus autem genus a speciebus
+praedicatur, quod cum homo species sit, et de solis
+individuis praedicetur, idem tamen homo de aeque
+vel bove vel cane non praedicatur. At vero animal
+quod est genus, de pluribus speciebus praedicatur,
+id est de homine, et de equo, et cane et bove, et de
+omnibus quae sub ipsis posita sunt individuis. Genus
+autem a proprio praedicationibus abundat, quod proprium
+unius speciei semper est, et de sub eadem
+individuis. Genus vero de multis speciebus et propriis
+praedicatur, et de sub eisdem individuis. Ab
+<pb n="0058D"/>
+accidentibus vero genus magis de plurimis praedicatur,
+quod cum unius cygni inseparabile fortasse
+accidens sit album, animal non solum de cygno praedicatur,
+sed etiam de albis omnibus et non albis
+animalibus. At vero accidens de solis tantum illis
+quibus inseparabiliter continetur, vel quibus separabiliter.
+Nam principaliter de individuis dicitur. Quare
+constat multo de pluribus praedicari genus quam
+accidentia praedicantur, quod accidentia principaliter
+de individuis, genera vero de individuis et de speciebus
+et de differentiis praedicantur.</p>
+<p> <hi>Sed nunc illas differentias accipiamus quibus genus
+dividitur, non quibus species informantur.</hi> </p>
+<p>Hoc autem est: Quoniam duas diximus differentiarum
+esse formas, ut aliae sunt divisibiles, aliae
+<pb n="0059A"/>
+constitutivae. Constitutivas illas diximus, quae sub
+eodem filo positae et subalternis generibus descendentes
+speciem quamdam informant atque perficiunt,
+ut est rationale vel mortale, quae hominis speciem
+constituunt. Alias vero divisibiles, quae genus dividunt,
+non speciem informant, id est rationale et irrationale,
+mortale et immortale. Nunc de differentiis illis
+iste tractatus habetur quae genus dividunt, non quae
+speciem constituunt. Nam illae quae genus dividunt in
+differentiarum integro loco accipiuntur, illae vero quae
+speciem constituunt in specierum generumque substantiam
+accipiuntur. Namque rationale mortalis genus
+est. Porro mortale hominis genus est, et istae constituunt
+speciem. At vero rationale irrationalis species
+non est, neque genus. Nec mortale immortalis
+<pb n="0059B"/>
+neque genus neque species est. Atque ideo quoniam
+propriam vim differentiarum ista retinent, quae neque
+genera neque species sibi invicem esse possunt, ipsas
+nunc differentias accipiamus in quibus nulla quantum
+ad genus est speciemque communitas. Est etiam
+generis differentia. Namque genus a propriis differentiis
+prius est. Namque si abstuleris genus, omnes
+simul differentias abstulisti. Nam si abstuleris animal,
+rationale atque irrationale non remanent. Porro
+autem si rationale abstuleris, remanet animal. Sed
+si utrasque interemeris differentias, id est rationale
+et irrationale, potest tamen quoddam intelligi, quod
+sit substantia animata sensibilis, id est animal. Ita
+genus sublatum omnes secum aufert differentias.
+Sublatae differentiae genus secum non interimunt,
+<pb n="0059C"/>
+quod intelligentia genus remanet, id est quoniam
+potest animal intelligi praeter differentias, ut ejus
+tantum definitionem animo capias, et esse dicas substantiam
+animatam atque sensibilem. Quae autem
+talia sunt, ut ipsa interempta interimant, non simul
+aliis interemptis ipsa interimantur, priora sunt illis
+quae possunt interimere. Est etiam alia differentia,
+quod genus semper in eo quod quid sit praedicatur,
+ut dictum est, differentia vero in eo quod quale sit.
+Sed hoc frequentius inculcatum est, atque ideo id a
+nobis praetermittendum est. Est etiam alia differentia,
+quod ad omnem speciem unum semper genus
+aptatur. Homo enim unum tantum genus habet, ut
+animal appelletur: in unam autem speciem plurimae
+differentiae poterunt commodari. Namque homo et
+<pb n="0059D"/>
+rationale est, quae differentia est, et mortale, quae
+eadem differentia est, et sensibile, quibus scilicet
+omnibus aliis differt. Differt enim his omnibus quod
+sensibilis est ab insensibilibus, quod rationalis ab
+irrationabilibus, quod mortalis ab immortalibus. Est
+etiam alia differentia quae superius dicta est. Nam
+genus speciei ita est ut materies, differentia vero ut
+figura. Nam sicut in aeris materiem veniens figura
+statuam efficit, ita animali, id est generi veniens
+differentia, id est rationale vel irrationale facit hominis
+vel pecudis speciem. Quae autem communitates
+vel proprietates generis et differentiae fuerunt, hactenus
+dixit, et fortasse erunt etiam aliae, quae propter
+brevitatem supersedendae atque dimittendae sunt.</p>
+<p>
+          <emph>
+            <pb n="0060A"/>DE COMMUNIBUS GENERIS ET SPECIEI.</emph>
+        </p>
+<p>Nunc autem de generis vel speciei communitatibus
+proprietatibusque tractatur, et dicit genus et
+speciem commune habere de pluribus praedicari,
+sicut dictum est. Nam genus et de speciebus pluribus
+praedicatur et de earum individuis. Et item species
+de sub se plurimis individuis appellatur, et hic quoque
+illae species accipiuntur, quae magis species sunt.
+Nam si subalternae accipiuntur, non magis species
+quam genera videbuntur. Nam quae subalternae species
+sunt, etiam genera sunt, et erit absurdum et
+huic propositioni inconveniens de generum inter se
+differentiis communionibusque tractare. Accipiantur
+igitur illae tantum species, quae species et magis species
+appellantur. Est etiam alia eorum communio,
+<pb n="0060B"/>
+quod sicut genus a specie primum est, sic species
+ab individuis primae sunt. Nam si genus auferas, species
+abstulisti. Si species abstuleris, genera non
+peribunt. Porro si species abstuleris, individua morientur.
+Si individua interierint, species manent. Est
+etiam his alia communio, quod quemadmodum genus
+quid sit totum declarat, sic etiam species. Nam totum
+quod est rationale, atque irrationale a genere declaratum
+est. Dicitur enim quidquid fuerit rationale vel
+irrationale, id esse animal: sic igitur totum quid sit
+a genere declaratum. Porro autem quid sit tota hominum
+diversitas, id est individuorum, a sola specie
+declaratur, cum dicitur homo. Nam et Scytha et Indus
+et totum quidquid individuum est, uno solo hominis,
+id est speciei nomine continetur.</p>
+<p>
+          <emph>
+            <pb n="0060C"/>DE PROPRIIS GENERIS ET SPECIEI.</emph>
+        </p>
+<p>Dissertis igitur generis specieique communionibus,
+ad proprietates eorum vel differentias transitum
+fecit, dicens:</p>
+<p> <hi>Differre inter se genus et species, quod genera species
+continent, nunquam rursus genera ab propriis speciebus
+continentur.</hi> </p>
+<p>Oportet autem (ut dictum est) in hoc tractatu non
+subalternas, sed magis species considerari. Genus
+enim plurimarum specierum est continens, et unum
+omnium, et totum omnibus et singulis. Quod si ita
+est, et genus a suis speciebus singulis majus est, atque
+ideo eas dicitur continere, non est dubium quin
+ea ipsa genera quae continent species, ab his ipsis
+contineri non possint. Insuper omnia genera praejacent.
+<pb n="0060D"/>
+Hoc videtur dicere, quod omnia genera prius
+sint ab his speciebus quae sub ipsis positae continentur.
+Nam sicuti materies prima est ab illa re quae
+veniens in materiam formam constituerit atque figuraverit,
+sic etiam prius est genus ab illa specie quam
+veniens differentia formavit atque constituit. Nisi
+enim in generibus differentia venerit, species nunquam
+constituentur. Quare praejacent, id est praesunt, et
+antiquiora sunt genera speciebus suis. Atque ideo si
+genera interimantur, species quoque peribunt. Nam
+si animal sustuleris, hominem pecudemque sustulisti.
+Si vero species interimantur, non continuo genus
+interibit. Nam si homo perierit, animal continuo nor
+interemptum est: alia enim remanebit species de qua
+<pb n="0061A"/>
+ipsum animal, id est genus praedicetur. Atque ideo
+genera ab speciebus suis priora sunt, et quod omnia
+genera univoce de speciebus praedicentur, species
+ipsae de generibus nunquam. Hoc (arbitror) hesterna
+lucubratione jam dictum est. Nam genera semper de
+speciebus univoce praedicantur. Homo enim, et homo
+est et animal. Porro autem animal genus est hominis,
+et praedicatur animal de homine. Quoniam ergo animal
+praedicatur, et dicitur homo animal, animal et
+homo uno animalis nomine nuncupantur. Sed his
+ipsis definitio una conveniet. Est enim animal substantia
+animata sensibilis, quod non absurdum est in
+homine dici. Nam homo ipse si animal dicatur, non
+erit absurdum dici de homine substantia animata
+sensibilis. Igitur genus de speciebus suis univoce
+<pb n="0061B"/>
+praedicatur, quod et eodem nomine, et eadem definitione
+conveniat. At vero species non modo univoce
+non praedicantur de generibus suis, sed nec omnino
+praedicantur. Nulla enim res minor de majore poterit
+praedicari. Atque ideo, quoniam species minores sunt
+suis generibus, de generibus suis neque univoce, neque
+aliquo modo poterunt appellari.</p>
+<p> <hi>Amplius omnia genera abundant complexione sub se
+positarum specierum, ipsae species abundant generum
+suorum propriis differentiis.</hi> </p>
+<p>Quod dicit perinde est ac si diceret: Omne quod
+genus est, plures sub se species continet; omne vero
+quod species sub se plures habet, differentias habet.
+Genus enim, id est animal, in hoc homine, id est
+specie, superabundat et superest, quod homo solum
+<pb n="0061C"/>
+homo est. Animal vero non solum homo, sed etiam
+bos vel avis, vel alia hujusmodi. Species vero in eo
+superant genera sua, quod eas differentias quas species
+in actu habent, eas genera non habent. Nam, sicut
+superius dictum est, genera differentias illas quas
+habent sub se species positae, potestate continent,
+non etiam re. Atque ideo species quae est homo, vel
+alia species, sicut est equus a genere suo animali, in
+hoc abundant et supersunt, quod animal ipsum per
+se neque rationale neque irrationale est. At vero
+homo vel equus hoc rationale, illud est rationis expers.
+Illud etiam quod species nunquam magis genus
+fiet, rursus et genus nunquam magis species fit, et
+ut sciremus hic non de subalternis speciebus, sed de
+illis magis speciebus specialissimisque tractari. Quid
+<pb n="0061D"/>
+ait? Quod ea quae sunt genera magis species fieri
+nunquam possunt, neque magis species aliquando
+fieri magis genus. Nam species nunquam genus est.
+Quidquid enim fuerit species genus non erit, neque
+quidquid fuerit genus species erit. Quare constat in
+his eum tractatibus de speciebus solis, non etiam de
+subalternis disserere. Subalterna enim possunt esse
+etiam genera, magis species vero (ut ipse ait) nunquam
+genera esse possunt, sed postquam de generum
+specierumque communitatibus differentiisque tractatus
+habitus est, ad genera propriaque transgressus est.</p>
+<p>
+          <emph>DE COMMUNIBUS GENERIS ET PROPRII.</emph>
+        </p>
+<p> <hi>Generis et proprii commune hoc est, adhaerere speciebus
+et eas amplectari.</hi> </p>
+<p>
+          <pb n="0062A"/>Dicit genera et propria in hoc sibi esse consimilia,
+quod omne genus a suis speciebus nunquam recedit.
+Eodem modo et propria. Nam si dixeris homo, cum
+ipso homine continuo animal nominasti, quod ipsius
+hominis, id est speciei genus est. At vero etiamsi
+hominem dixeris, ejus etiam proprium continuo cum
+homine nominasti: omnis enim homo risibilis est.
+Ita semper genus et propria suis speciebus inserta et
+quodammodo conglutinata sunt. Similiter et genus
+praedicatur de speciebus, et proprium de iis quae sui
+participantia sunt, et aequaliter, inquit, omnes species
+eidem generi supponuntur, et ad eas genus illud
+appellatur, sicut propria ad ea praedicantur, quae sui
+participari possunt. Namque aequaliter genus de homine
+dicitur, et de equo, et de bove, et de caeteris
+<pb n="0062B"/>
+animantibus, quemadmodum et risibile, id est, proprium
+de Hortensio dicitur et Cicerone, et de singulis
+individuis quae sub eadem specie continentur, ad
+quam speciem proprium, id est, risibile poterit praedicari.
+Adhuc commune est ipsis univoce praedicari.
+Namque sicut genus de suis speciebus (ut dictum est)
+univoce praedicatur, ita et proprium de ea specie
+cujus est proprium univoce praedicatur. Nam qui
+homo est, et risibile est. Porro autem si quis dicat
+hominem esse animal rationale et mortale, et dixerit
+risibile esse animal rationale et mortale, non errabit.
+Aequaliter igitur et genus de speciebus suis, et propria
+de ea specie, cujus sunt, propria univoce praedicant.</p>
+<p>
+          <emph>DE PROPRIIS GENERIS ET PROPRII.</emph>
+        </p>
+<p>
+          <pb n="0062C"/>Differt autem utrumque, quod genus primum est,
+secundum proprium. Genus enim si ab specie primum
+est, proprium autem uni tantum speciei adhaeret, et
+eidem aequale est, non est dubium quin genus quod
+specie majus est, proprio etiam speciei majus sit.
+Nam ut sit risibile, animal prius est. Namque ut aliqua
+species informetur, propriis et differentiis primo
+erit genus, ubi illa conveniant, sicut frequentius inculcatum
+est. Accedit etiam quod genus de pluribus
+speciebus praedicatur. Namque genus, id est animal
+de pluribus, at vero proprium, id est, risibile de sola
+tantum hominis specie praedicatur. Unde fit ut semper
+propria de speciebus suis conversim praedicari
+possint, species autem de genere nunquam. Neque
+enim quod animal est, homo est, neque omne quod
+<pb n="0062D"/>
+animal est, risibile est. Potest enim esse et equus et
+hinnibile id quod animal nominatur. Porro autem
+omne quod est homo, id risibile est, et omne quod
+est risibile, id homo est. Possunt enim propria et
+species sibiipsa converti, et conversim ad se invicem
+praedicari. Praeterea omni speciei quidquid fuerit proprium,
+et omni et soli est. Namque risibile et omnibus
+hominibus est, et soli hominis speciei evenit. At
+vero animal quod genus est, et si uni speciei inest,
+non tamen soli. Namque animal omni homini inest,
+non soli tamen homini, quia inest etiam pecudi et
+caeteris animantibus. Oportet autem hic illa propria
+intelligere, quae magis propria sunt, id est quae integre
+propria nominantur, quae sunt hujusmodi ut et
+<pb n="0063A"/>
+uni speciei et omnibus insint. Differunt ergo in hoc
+quoque genere et propria, quod propria et uni speciei
+adsunt, et omnibus individuis quae in ea specie sunt:
+genera vero omnibus quidem individuis quae in eadem
+specie sunt et sub eodem genere, non tamen uni soli speciei,
+cum genus semper de pluribus praedicatur. Unde
+fit, ut sublata propria non auferant genus, sublatis vero
+generibus, ipsa quoque propria auferantur. Nam si sustuleris
+proprium, id est risibile, remanet hinnibile,
+remanet natatile. Si vero genus sustuleris, simul quoque
+species sustulisti. Si species sustuleris, propria
+etiam quae insunt speciebus simul interibunt. Itaque,
+sublatis generibus, propria sustuleris, sublatis vero
+propriis, simul genera non auferentur.</p>
+<p>
+          <emph>DE COMMUNIBUS GENERIS ET ACCIDENTIS.</emph>
+        </p>
+<p>
+          <pb n="0063B"/>Peractis igitur generum propriorumque differentiis
+ad generum accidentiumque communitates vel proprietates
+transitum fecit, et unam eorum praedicat
+communitatem, quae est quod de pluribus praedicatur.
+Namque sicut genus de pluribus speciebus praedicatur,
+ita etiam separabile accidens vel inseparabile de pluribus
+speciebus appellatur. Dicitur enim et de corvo
+et de Aethiope nigrum, et de equo et homine moveri,
+quod illud est inseparabile accidens, illud vero separabile;
+et quoniam longius a se distant, idcirco unam
+eorum solam communionem dixit, et alias si quae
+forte essent quaerere supersedit.</p>
+<p>
+          <emph>QUID INTER GENUS ET ACCIDENS.</emph>
+        </p>
+<p>Differt autem genus ab accidenti, quod genus ante
+species est, accidentia vero speciebus posteriora sunt.
+<pb n="0063C"/>
+Semper genera super species, et his praejacere et esse
+majora superius demonstratum est. Namque prius
+est animal ab homine, atque ideo consumptum animal
+species quoque consumit, consumptae vero species
+non interimunt genera. At vero accidens postea
+necesse est ut sit, quam sint ipsae species. Erit enim
+prius aliquid cui possit accidere. Omne enim accidens
+propter illud cui accidit esse non potest. Atque ideo
+prius erit aliqua res cui accidat, quam sit ipsum
+accidens. Necesse est igitur ut omne accidens post
+species inveniatur, et magis post individua, quibus
+principaliter possit accidere. Hunc accedit quod generis
+participantia aequaliter participant, sicut omne
+genus speciebus suis aequaliter genus est, ut saepius
+dictum est, et species omnes aequaliter suo generi
+<pb n="0063D"/>
+participant. Namque equus et homo aequaliter animalia
+sunt, neque equus homine plus, neque homo
+plus equo. At vero accidentia non aequaliter participant.
+Nam cum separabile accidens sit moveri, possunt
+aliae inter se species eodem accidenti participantes
+tardius vel citius moveri, et de inseparabili
+accidenti eodem modo. Est enim ut aliquis nigrioribus
+oculis sit, et alius quamvis nigris, tamen ita purpureis,
+atque ideo et intentionem et remissionem recipit
+accidens. Nam et candidus quod dicitur, et magis
+et minus dicitur, et alia hujusmodi. Quare distant
+haec duo, quod genere, quae participant, aequaliter
+participant, accidenti fortasse non aequaliter. Huc
+accedit quod genera non modo ante individua, sed
+<pb n="0064A"/>
+ante species sunt, accidentia vero non modo post
+species, sed etiam post individua sunt. Ipsis enim
+principaliter accidunt, ut dictum est. Est etiam differentia,
+quae jam superius dicta est: nam genus in
+eo quod quid sit praedicatur, accidens vero in eo quod
+quale sit, aut quomodo se habeat: nam si quid sit
+Socrates interroges, homo atque animal respondetur:
+si vero qualis sit, fortasse calvus, aut simus,
+quae accidentia sunt inseparabilia. Sin vero quomodo
+se habeat, aut jacet respondetur, aut sedet, aut quid
+aliud facere contigerit. Ergo quoniam generis a specie
+et differentia et proprio et accidenti divisa substantia
+est, nunc posteriora persequitur. Sunt autem differentiae
+viginti: nam cum quinque res sint, et unaquaeque
+ipsarum ab aliis quatuor distet, et item
+<pb n="0064B"/>
+quatuor differentias habeat, quinquies quaternis, viginti
+differentiae efficiuntur; nam si genus differt ab
+specie, proprio, differentia et accidenti, quatuor differentiae
+fiunt. Sin vero species differt a genere
+proprio, differentia, accidenti, item aliae quatuor quae
+junctae cum superioribus octo fiunt. Et si differentia
+distat ab specie, proprio, genere et accidenti, aliae
+quatuor supercrescunt. Quae junctae cum octo prioribus
+duodecim faciunt. At vero si proprium differt
+a genere, specie, differentia et accidenti, aliis quatuor
+differentiis super duodecim positis, omnes sedecim
+differentiae fiunt. Quod si accidentis quoque differentias
+ad quatuor reliqua duxeris, quatuor super sedecim
+crescentibus, viginti omnes differentiae perficiuntur.
+Quae ita viginti sunt ut ad sufficientem doctrinae cumulum
+<pb n="0064C"/>
+decem tantum differentiae numerentur. Nam
+quod dictum est genus differre a differentia, specie,
+ 
+
+<pb n="0064D"/>
+proprio et accidenti, quatuor fuere differentiae. Si
+autem differentiam dicamus differre a specie, proprio
+et accidenti, supervacuum est differentiae cum
+genere differentiam commemorare, cum jam prius
+commemoraverimus, quando generis ad differentiam,
+differentias diximus: iisdem enim (ut opinor) differt
+differentia a genere, quibus differebat genus a differentia.
+Itaque relinquenda est haec differentia, qua
+distat differentia a genere, quoniam superius jam
+dicta est, cum diceretur quo genus distaret a differentia.
+Remanent igitur tres differentiae, quibus ipsa
+differentia ab specie, proprio et accidenti distat, et
+est superioris generis ad alia, 4 differentiae fuerint,
+nunc vero differentiae ad alia, tres distantiae videantur,
+<pb n="0065A"/>
+7 hae distantiae fiunt. At vero species quo a genere
+distet jam tunc dictum est, cum dicebatur quo
+genus distet a specie. Quid autem differentia discreparet,
+tunc demonstratum est, cum diceremus in
+quo differentia a specie discerneretur. Remanent
+igitur duae speciei, id est, cum proprio et accidenti
+differentiae, quae junctae cum superioribus 7, 9 differentias
+efficiunt. Restat igitur una proprii et accidentis
+differentia, quae dicatur: nam quid a genere
+distet dictum est, cum quid genus distaret a proprio
+diceretur. Porro quid a specie distaret dudum dicebatur,
+cum quid species a proprio differret enumerabatur.
+Porro autem quid a differentia, etiam id dictum
+est, cum a proprio differentia separaretur. Sed
+nunc quemadmodum differentia a specie, proprio accidentique
+<pb n="0065B"/>
+discernitur, videamus.</p>
+<p>
+          <emph>DE COMMUNIBUS DIFFERENTIAE ET SPECIEI.</emph>
+        </p>
+<p>Est communio differentiae et speciei quod aequaliter
+species sub se individuis se permittit, et aequaliter
+individua specie ipsa participant: namque omnes
+homines aequaliter homines sunt, et hominis participatione
+aeque participant: eodem modo etiam differentia,
+namque omnes homines aequaliter rationales
+sunt, et rationabilitate quae est differentia, omnes qui
+ratione participant aeque participant. Est etiam alia
+communitas, quod quemadmodum species nunquam
+deserit ea quorum species est, et quibus superest,
+sic et differentia nunquam ea deserit quae distare ab
+aliis facit: namque Socrates, cum sub specie hominis
+est, nunquam ab hominis specie deseritur. Semper
+<pb n="0065C"/>
+enim Socrates homo est. At vero differentia Socratem,
+cum Socrates rationalis est, nunquam deserit.
+Semper enim Socrates rationale animal est.</p>
+<p>
+          <emph>DE PROPRIIS DIFFERENTIAE ET SPECIEI.</emph>
+        </p>
+<p>Differunt autem inter se species et differentia
+quod differentia semper in eo quod quale sit praedicatur.
+Nam dicitur Socrates quale animal sit, ut rationale
+respondeatur; species vero in eo quod quid
+sit praedicatur. Nam dicitur quid sit Socrates, ut
+homo respondeatur. Namque hominis qualitas rationale
+est, sed non simpliciter. Illa enim qualitas pro
+differentia accipitur, quae veniens in genere speciem
+constituit, et de qualitate substantiali facta est substantialis
+et specifica differentia. Ista igitur talis
+qualitas differentia nominatur, et ea in eo quod quale
+<pb n="0065D"/>
+sit ad hominem praedicatur, hoc etiam in eorum est
+differentiis. Namque differentia frequenter in pluribus
+speciebus consideratur. Differentia enim quadrupes
+in bovis, et in equi, et in canis specie est:
+et differentia rationalis hominis et angeli, species
+vero nunquam aliis nisi solis sub se positis individuis
+praeest. Nunquam enim alia res homo est nisi quod
+est individuum, ut est Socrates, et Plato, et Cicero.
+Unde fit ut sublata differentia, species quoque tollatur.
+Nam si sustuleris rationale, hominem sustuleris.
+Sin vero sustuleris speciem, differentia manet.
+Nam si sustuleris hominem, rationalis angeli differentia
+manebit. Est vero etiam haec differentia, quod
+differentia cum alia differentia jungi potest, ut aliqua
+<pb n="0066A"/>
+ex his species informetur. Namque rationalis differentia
+et mortalis differentia junctae unius hominis
+speciem reddiderunt. Junctae vero species nunquam
+aliquam ex se speciem constituent. Si enim jungas
+hominem bovi, nulla ex his species informabitur.
+Sed fortasse dicat aliquis: Asini atque equi conjunctione
+mulus nascitur; sed non ita est. Namque individui
+conjunctione natum est aliquid individuum.
+Si autem sic simpliciter speciem ipsam asini atque
+equi conjungas, nulla ex his unquam species constituitur.
+Neque enim si se possunt individua
+commiscere, idcirco etiam species individuorum in
+alterutram substantiam transeunt: atque ideo constat
+junctas species unam speciem non posse componere,
+quod differentiae junctae unius speciei constitutivae
+<pb n="0066B"/>
+sint. His itaque transactis ad differentiae et propria
+communia veniamus.</p>
+<p>
+          <emph>DE COMMUNIBUS DIFFERENTIAE ET PROPRII.</emph>
+        </p>
+<p>Differentia et proprium commune habent quod
+quibus differentia est et a quibus ipsa differentia
+participatur, aequaliter participatur: nam rationalis
+differentia cum inest hominibus, et omnes homines
+rationabili differentia participant, non est dubium
+quin omnes homines aequaliter sint rationales, atque
+aequaliter rationabilitate participent. At vero proprium
+quod risibile est, aequaliter omnibus hominibus
+est: omnes enim homines aequaliter risibiles
+sunt. Est etiam haec eorum communitas, quod
+sicut potestate risibile dicitur, etiamsi non rideat,
+<pb n="0066C"/>
+ita etiam potestate bipes dicitur, etiamsi quis uno
+pede minuatur: non enim quod est dicitur, sed
+quod esse possit: nam quoniam ille ridere potest,
+risibilis nominatur; quod ille duos pedes habere
+possit, bipes. Atque ideo nunquam ab illis in quibus
+sederint, proprium differentiaque discedunt. Semper
+enim homo risibilis est, etiamsi non rideat.
+Semper bipes, etiamsi uno pede minuatur. In his
+enim differentiis et propriis (ut dictum est) quod
+potestate esse possit, non quod vere sit consideratur.</p>
+<p>
+          <emph>DE PROPRIIS EORUMDEM.</emph>
+        </p>
+<p>Differunt autem inter se, quod differentia de pluribus
+speciebus praedicatur, proprium vero de una.
+Namque differentia quae est mortalis praedicatur de
+<pb n="0066D"/>
+homine, de bove, de equo, et caeteris animantibus;
+et rationale praedicatur, et de Deo, et de homine.
+At vero risibile de sola tantum specie hominis praedicatur.
+Unde evenit ut omnis differentia, quoniam
+plurimarum continens est specierum, a suis speciebus
+major sit, atque ideo ipsa de speciebus praedicari
+potest. Porro autem de ipsa species praedicari non
+potest: neque enim conversim dici potest. Nam
+quoniam homo dicitur rationalis, non contra dicitur
+quod rationale est id quod homo est. Potest enim
+esse etiam non homo, sed Deus. At vero proprium,
+quoniam aequaliter et ad unam speciem semper
+aptatur, aequa vice atque appellatione convertitur:
+dicitur enim, quid est homo? risibile. Quibus pertractatis
+<pb n="0067A"/>
+ad differentiam et accidens transgressa
+disputatio est.</p>
+<p>
+          <emph>DE COMMUNIBUS DIFFERENTIAE ET ACCIDENTIS.</emph>
+        </p>
+<p>Differentia et accidens commune habent de pluribus
+praedicari. Namque differentia dicitur et de homine
+et de Deo, cum utrique rationales sunt. Et accidens
+dicitur et de homine et de equo, ut homo
+Aethiops niger, et equus niger. Est etiam alia communio
+quod inseparabile accidens cuicunque speciei
+fuerit, inseparabiliter et omnibus inest ut differentia.
+Namque inseparabiliter accidens quod est nigrum,
+corvo inseparabiliter accidit, et omnibus corvis.
+Eodem modo etiam differentia. Nam quoniam accidit
+homini ut bipes sit, semper et omnibus hominibus est
+esse bipedibus.</p>
+<p>
+          <emph>
+            <pb n="0067B"/>DE PROPRIIS EORUMDEM.</emph>
+        </p>
+<p>Differunt autem inter se, quod omnis differentia
+species continet, non contra ipsa a speciebus continetur.
+Nam si differentia plures sub se species habet,
+ut dictum est, major erit sub se positis speciebus.
+Si major erit, nunquam eam quaelibet species
+continet. Major enim a minori nunquam poterit contineri.
+Nam quod est rationale, continet hominem
+et Deum. Homo vero rationale non continet. Accidentia
+vero aliquoties continent, aliquoties continentur.
+Namque continent, quoniam frequenter unum
+accidens duas sub se species habet, ut nigrum habet
+Aethiopem et corvum. Continentur vero quoniam
+saepe una substantia habet duo vel tria vel quamlibet
+plurima accidentia. Si quis enim sit glaucus, vel
+<pb n="0067C"/>
+crispus, vel candidus, vel procerus, haec omnia accidentia
+unus cui accesserunt complectitur et continet.
+Atque ideo species illa quae illud individuum continet
+quod individuum plura in se accidentia suscepit,
+accidentis illius complexiva est.</p>
+<p> <hi>Dehinc differentia nunquam intenditur neque relaxatur.</hi> </p>
+<p>Quod dicit hoc est rationale in unaquaque specie,
+neque plus neque minus est. Nullus enim homo alio
+homine ad substantiam plus rationalis est neque
+minus. At vero accidens et intenditur et remittitur.
+Dicitur enim quicunque procerior, dicitur quicunque
+velocior, dicitur quicunque crispior, quae omnia accidentia
+esse non dubium est.</p>
+<p> <hi>Praeterea immistae semper sunt contrariae differentiae.</hi> </p>
+<p>
+          <pb n="0067D"/>Immistae ait, id est, immiscibiles quae misceri non
+possunt. Neque enim rationale cum irrationali misceri
+potest, neque in una specie convenire. At vero contraria
+accidentia manifestum est in una specie posse
+congruere. Namque nigrum et album potest in una
+non modo specie, sed individuo congruere. Potest
+enim quicunque homo, cum ipse sit candidus, nigros
+tamen capillos habere. Ergo quemadmodum species
+differat a genere vel differentia dictum est, cum de
+generis ad speciem, et differentiae ad speciem distantia
+diceremus.</p>
+<p>
+          <emph>DE COMMUNIBUS SPECIEI ET PROPRII.</emph>
+        </p>
+<p>Nunc dicemus id quod reliquum est de speciei propriique
+<pb n="0068A"/>
+communibus. Et est una eorum communio,
+quod de se ipsa invicem praedicantur. Nam quoniam
+aequa sibi sunt, neque species hominis alii proprio
+convenit, nisi risibili, neque risibile alii convenit speciei,
+nisi homini, atque ideo dicitur, quid est homo?
+risibile. Quid est risibile? homo. Commune est etiam
+illud quod omne proprium aequaliter ad sub se posita
+praedicatur. Namque omnes homines aequaliter
+risibiles sunt, et species aequaliter ad sub se posita
+praedicatur. Namque omnes homines individui aequaliter
+uno nomine homines nuncupantur.</p>
+<p>
+          <emph>DE PROPRIIS EORUMDEM.</emph>
+        </p>
+<p>Differunt a se, quoniam species potest etiam genus
+alteri esse, proprium esse non potest. Sed hic illam
+speciem intelligamus quae subalterna est, non illam
+<pb n="0068B"/>
+quae magis species est, et genus esse nunquam potest.
+Atque ideo nos illam modo solam, quae subalterna
+species est intelligamus, quae scilicet poterit
+esse et genus. Namque mortale cum rationalis generis
+sit species, hominis genus est. At vero risibile de
+nulla unquam alia specie poterit praedicari, neque
+alii esse proprium, sicut est hominis. Illa enim semper
+(ut dictum est) propria sunt, quae nulli alii nisi
+ad unam speciem semper aptantur. Deinde species
+praecedit, et sic proprium sequitur. Quod dicit tale
+est: Omnis species ut habeat proprium, primo eam
+esse et constare necesse est. Oportet enim prius esse
+hominem ut sit risibilis, non prius esse risibile ut sit
+homo. Nam quoniam proprium dicitur, per se proprium
+non constat, nisi alicujus species sit. Atque
+<pb n="0068C"/>
+ideo prius esse necesse est illud cujus est proprium
+quam sit proprium. Huc accedit quod species semper
+in opere intelligitur cujuscunque subjecti. Species
+enim semper in actu est, non solum propria potestate.
+Homo enim revera et opere et actu homo est,
+id est nunquam poterit esse non homo. At vero risibile
+quod est proprium, potestate tantum dicitur,
+etiamsi actu non sit. Potest enim quilibet ille non
+ridere, tamen quia ridere potest, risibile nominatur.
+Distant igitur in hoc quod semper species in actu est
+et in opere, proprium vero aliquoties potestate; deinde
+quorum definitiones diversae sunt, necessario
+etiam ipsa quoque diversa sunt. Omnis definitio
+substantiam definit. Ergo si quae ejusdem substantiae
+fuerint, eadem etiam definitione monstrantur. Si
+<pb n="0068D"/>
+quae ejusdem definitionis fuerint, eadem substantia
+praedicantur. At vero si quae definitionibus differant,
+differunt etiam substantiis. Quae substantiis differunt,
+longe a seipsis alia sunt. Nunc igitur quoniam definitiones
+proprii et speciei differunt, species ipsa
+quoque et proprium a se differunt. Est autem speciei
+definitio sub genere esse, et ad plurima numero
+differentia in eo quod quid sit praedicari. At vero
+proprii uni tantum inesse speciei, et sub ipsa de
+omnibus individuis praedicari. Sed quoniam definitionibus
+differunt, ipsa quoque species a proprio distabit.</p>
+<p>
+          <emph>DE COMMUNIBUS SPECIEI ET ACCIDENTIS.</emph>
+        </p>
+<p>Post haec ad communitates speciei et accidentis
+<pb n="0069A"/>
+disputationem transtulit, et dicit eorum raras alias
+esse communitates, nisi has solas quod de pluribus
+praedicantur. Longe enim a se distare videntur, in
+substantia sui et in potestate patiendi atque faciendi
+id quod alicui accidit, et id cui accidit. Namque illud
+cui accidit, quasi quoddam fundamentum est accidentis.
+Illud vero quod accidit, praeter id cui accidit,
+esse in sui substantia non potest.</p>
+<p>
+          <emph>DE PROPRIIS EORUM.</emph>
+        </p>
+<p>Propria vero singulorum sunt haec, quod species in
+eo quod quid sit praedicatur, accidens vero in eo quod
+quale sit et quodammodo se habens. Nam si quis
+dicat, quid Socrates est, homo dicitur. Si quis dicat
+qualis sit, calvus vel simus appellatur. Si quis vero
+quomodo se habens, sedens aut jacens appellabitur.
+<pb n="0069B"/>
+Item in hoc differunt quod unaquaeque substantia
+unam speciem habet. Namque hominis substantia
+unam solam hominis speciem habet. Substantia vero
+aeque unam solius equi speciem habet. At vero una
+substantia plura frequenter accidentia continebit.
+Nam et in eodem equo quaedam pars frequenter
+nigra quaedam, alba est. Et est in eo proceritas, est
+altitudo, est aquilinum caput, et alia hujusmodi.
+Habet etiam non solum inseparabile accidens eadem
+substantia, sed etiam separabile. Nam fortasse quidam
+velox est, et idem etiam corpore validus est,
+idem etiam sagittator, et caetera. Huc accedit quod
+species praenoscuntur, id est praeintelliguntur, hoc
+est ante esse cognoscuntur quam accidentia. Et
+prius erit aliqua res ubi accidat, quam illa quae accidit,
+<pb n="0069C"/>
+et quoniam species est subjectum accidentis ubi
+accidens accidat, ideoque ante species intelligitur
+esse quam accidens. Accidentia vero postea nata
+sunt, id est a foris venientia et extranea, a qualibet
+illa substantia, etiam si inseparabilia sunt. Haec quoque
+est eorum separatio, quod semper omnia quae participant
+specie, aequaliter participant. Aequaliter enim et
+Socrates et Cicero et Plato sunt homines. At vero illa
+quae participant accidenti, etiamsi inseparabile accidens
+sit, tamen non aequaliter participant. Nam
+quamvis inseparabile sit accidens Aethiopibus nigris
+esse, tamen est aliquis inter ipsos nigrior, nec omnes
+illa nigredine aequaliter participant.</p>
+<p>
+          <emph>DE COMMUNIBUS PROPRII ET ACCIDENTIS.</emph>
+        </p>
+<p>Relinquitur igitur de communibus proprii accidentisque
+<pb n="0069D"/>
+tractare. Nam proprium quid distaret vel
+a specie, vel a genere, vel a differentia, superius demonstratum
+est. Proprium autem et inseparabile
+accidens commune habent, quod sine his nunquam
+consistunt ea quae eorum participant, et in quibus
+ipsa considerantur. Nam neque homo amittit risibile
+esse, nec Aethiops aut corvus, nigrum. Atque ideo
+sine his ipsis, id est propriis et accidentibus, quae
+eorum participant, constare non possunt, ne forte
+contra superiorem definitionem accidentis venire
+<pb n="0070A"/>
+videatur ista communio. Est enim ita definitum. Accidens
+est quod infertur et aufertur sine ejus in quo
+est interitu. Quod nunc dici videtur sine his constare
+non posse, cum superius sine eorum interitu posse
+diceretur auferri. Sed hoc modo dicitur, non quod
+si auferatur hoc accidens inseparabile, intereat illud
+cui accidit, sed quoniam separari non potest, idcirco
+sine his constare non possit. Est etiam inseparabilis
+accidentis et proprii alia communio, quod sicut
+et omni et semper inest proprium cui inest, id est
+homini (semper enim et omnis homo risibilis est),
+sic etiam quodlibet accidens inseparabile, et omni
+et semper est accidens inseparabile. Namque et omnis
+corvus, et semper niger est. Sola autem cum separabilibus
+accidentibus illa communio est, quod
+<pb n="0070B"/>
+quemadmodum de multis individuis proprium praedicatur,
+ita etiam accidens de multis individuis potest
+praedicari. Plures enim currunt, plures etiam
+ambulant, quae scilicet accidentia separabilia sunt,
+quemadmodum plures possunt esse risibiles.</p>
+<p>
+          <emph>DE PROPRIIS EORUM.</emph>
+        </p>
+<p>Differunt autem ista, quod proprium semper uni
+speciei inest, accidens vero pluribus. Nam accidens
+pluribus speciebus et animatis et inanimatis evenit,
+ut est ebeno nigrum, corvo nigrum, homini Aethiopi
+nigrum. Risibile vero nulli, nisi soli homini. Atque
+ideo conversim proprium praedicatur, quia unius
+speciei continens est, et illi speciei soli aequalis est.
+At vero accidens conversim praedicari non potest,
+quia plures sub se species habet. Non enim potest dicere
+<pb n="0070C"/>
+id esse nigrum quod ebenum, cum dicas hoc
+esse ebenum quod nigrum. Potest enim esse nigrum
+et non esse ebenum. Deinde omne proprium aequaliter
+se his rebus quae sub se fuerint dat et ab his
+aequaliter participatur. Socrates enim et Cicero et
+Vergilius aequaliter et risibili participant, et aequaliter
+risibiles sunt. At vero accidens non semper
+aequaliter est accidens. Potest enim quicunque esse
+procerior, et alius esse velocior. Quod scilicet illud
+separabile est accidens, illud inseparabile. Et fortasse
+aliae eorum quaedam proprietates et communiones
+esse videantur. Sed nunc, quantum introductioni
+sat est, ista sufficiant. Sed jam tibi, Fabi, omnia
+quaecunque ad introductionem Porphyrii pertinent,
+plenius uberiusque tractata sunt. Post vero si quidem
+<pb n="0070D"/>
+unquam me egueris, studiis praesertim tuis quae
+nulla unquam honestate caruerunt, libens animo
+hortatorque ad easdem cupiditates parebo. Hic Fabius:
+Tu, inquit, paterno haec mihi animo polliceris;
+verum ego nunquam deficiam ab his studiis, te praesertim
+docente, a quo totam fortasse logicae Aristotelis,
+si vita suppetit, capiam disciplinam. Et ego faciam, inquam,
+libentissime. Sed quoniam jam matutinus (ut ait
+Petronius) sol tectis arrisit, surgamus, et si quid est
+illud, diligentiore postea consideratione tractabitur.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

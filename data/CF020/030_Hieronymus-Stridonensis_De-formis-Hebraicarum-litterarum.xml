@@ -1,0 +1,107 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>De formis Hebraicarum litterarum</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 30</title>
+           <idno>HieStr.DeFoHeL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>De formis Hebraicarum litterarum</head>
+<p>
+          <pb n="0307B"/>Hebraicarum litterarum formae duae sunt: una antiqua,
+qua Samaritani utuntur, altera posterior, qua
+<pb n="0308B"/>
+Judaei. Ea de causa captivi facti Israel, et Babyloniam
+ducti, jussit rex Assyriorum, ne deserta remaneret
+<pb n="0309A"/>
+terra supra dictorum, Assyrios pro eis habitare
+in locum. Hos Samaritas, qui et patriae consuetudinem
+servant, ignem colentes, et Judaica mandata,
+Esdras nobis scire tradidit scriptis suis. Hos
+ipsos Judaei Samaritas appellant patria lingua, qui
+interpretantur <hi>custodes.</hi> Nam cum per Medos Cyrus
+regnaret Persis, Astyage deposito rege Medorum avo
+suo, atque ad Persas regnum totum transtulisset,
+captivitatem omnem Judaeorum dimisit. Atque reversi,
+permixti fuerunt supradictis Assyriis Samaritani,
+qui esse videbantur Judaei. Propter quod ut
+essent separati ab eis, Esdras legis doctor formam
+aliam litterarum instituit atque tradidit eis, virtute
+tamen litterarum eadem servata, quibus litteris
+etiam nunc utuntur Judaei.</p>
+<p>Sunt igitur Hebraicae litterae, quae per Moysen
+<pb n="0309B"/>
+sunt traditae XXII. Nomina sunt ista:
+ </p>
+<p>
+          <pb n="0310B"/>Scribuntur autem versus nobis universe a dextris,
+namque ad sinistram partem eas finiunt. Propter
+quod et nos hoc eodem modo litteras posuimus.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

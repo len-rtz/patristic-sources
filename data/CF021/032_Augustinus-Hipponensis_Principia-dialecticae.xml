@@ -1,0 +1,868 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Principia dialecticae</title>
+              <author>Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 32</title>
+           <idno>AugHip.PriDia</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+
+<div2>
+        <head>CAPUT PRIMUM.-- <hi>De simplicibus verbis.</hi> </head>
+<p>Dialectica est bene disputandi scientia. Disputamus
+autem verbis. Verba igitur aut simplicia sunt, aut
+conjuncta. Simplicia sunt, quae unum quiddam significant:
+ut cum dicimus homo, equus, disputat, currit.
+Nec mireris quod, disputat, quamvis ex duobus compositum
+sit, tamen inter simplicia numeratum est.
+Nam res definitione illustratur. Dictum est autem id
+esse simplex, quod unum quiddam significet. Itaque
+hoc includimus hac definitione, quod non includimus
+eum dicimus, loquor. Quamvis enim unum verbum
+sit, non habet tamen simplicem significationem, siquidem
+significat etiam personam quae loquitur. Ideo
+jam obnoxium est veritati aut falsitati; nam et negari
+et affirmari potest. Omnis itaque prima et secunda
+persona verbi quamvis singillatim enuntietur, tamen
+inter conjuncta verba numerabitur, quae simplicem
+non habent significationem. Siquidem quisquis dicat,
+ambulo; et ambulationem facit intelligi, et seipsum
+qui ambulat. Et quisquis dicit, ambulas; similiter et
+rem quae fit, et eum qui facit, significat. At vero qui
+dicit, ambulat; nihil aliud quam ipsam significat ambulationem.
+Quamobrem tertia persona verbi semper
+inter simplicia numerabitur; et nondum aut affirmari
+aut negari potest, nisi talia verba sint, quibus necessario
+cohaeret personae significatio consuetudine loquendi,
+ut cum dicimus, pluit aut ningit, etiamsi non
+addatur quis pluat aut ningat, tamen quia intelligitur,
+non potest inter simplicia numerari.</p>
+</div2>
+
+<div2>
+        <head>CAPUT II.-- <hi>Verba conjuncta.</hi> </head>
+<p>Conjuncta verba sunt, quae sibi connexa res plures
+significant, ut cum dicimus, homo ambulat, aut homo
+festinans in montem ambulat, et si quid tale. Sed
+conjunctorum verborum alia sunt, quae sententiam
+comprehendunt, ut ea quae dicta sunt; alia quae non
+comprehendunt, sed exspectant aliquid; ut eadem ipsa
+quae diximus, si subtrahas verbum quod positum est,
+ambulat, quamvis enim verba conjuncta sint, homo
+festinans in montem; tamen adhuc pendet oratio. Separatis
+igitur his verbis quae non implent sententiam,
+restant ea verba conjuncta quae sententiam comprehendunt:
+horum item duae species sunt. Aut enim sic
+sententia comprehenditur, ut vero aut falso teneatur
+obnoxia, ut est, omnis homo ambulat; aut, omnis
+homo non ambulat; et si quid hujusmodi. Aut sic impletur
+sententia, ut licet perficiat propositum animi,
+affirmari tamen negarive non possit: ut cum imperamus,
+cum optamus, cum exsecramur, et his similia.
+Nam si quis dicat, perge ad villam, vel utinam pergat
+ad villam, aut, dii illum perdant; non potest argui
+quod mentiatur, aut credi quod verum dicat. Nihil
+enim affirmavit vel negavit: ergo nec tales sententiae
+in quaestionem veniunt, aut disputatorem requirunt.</p>
+</div2>
+
+<div2>
+        <head>CAPUT III.-- <hi>Quae simplices sententiae, quae conjunctae.</hi> </head>
+<p>Sed illae quae requiruntur, aut simplices sunt, aut
+conjunctae. Simplices sunt, quae sine ulla copulatione
+sententiae alterius enuntiantur: ut est illud quod dicimus,
+omnis homo ambulat. Conjunctae sunt de quarum
+copulatione judicatur: ut est, si ambulat, movetur.
+Sed cum de conjunctione sententiarum judicium fit,
+tamdiu est donec perveniatur ad summam. Summa
+autem est quae conficitur ex concessis. Quod dico tale
+est, Qui dicit, Si ambulat, movetur, probare vult aliquid,
+ut hoc concesso, verum esse restet illi dicere,
+quod ambulet: et summa consequatur, quae jam negari
+non potest, id est quod movetur: quae item non
+potest concedi, id est quod non ambulet. Rursus si
+<pb n="1410"/>
+hoc modo velit dicere, homo iste ambulat, simplex
+sententia est: quam si concessero, et aliam quae aliquid
+exspectat ad completionem sententiae adjunxerit:
+quisquis autem ambulat, movetur. Et hanc etiam si
+concessero, ex hac junctione sententiarum quamvis
+singillatim enuntiatarum et concessarum, illa summa
+sequitur, quae jam necessario concedatur, id est, igitur
+homo iste movetur.</p>
+</div2>
+
+<div2>
+        <head>CAPUT IV.-- <hi>Conjunctas sententias subdividit.</hi> </head>
+<p>His igitur breviter constitutis, singulas partes consideremus.
+Nam sunt primae duae, una de iis quae
+simpliciter dicuntur, ubi est quasi materia dialecticae;
+altera de iis quae conjuncta dicuntur, ubi jam quasi
+opus apparet. Quae de simplicibus, vocatur de loquendo.
+Illa vero quae de conjunctis est, in tres partes dividitur.
+Separata enim conjunctione verborum quae
+non implet sententiam, illa quae sic implet sententiam,
+ut nondum faciat quaestionem vel disputatorem requirat,
+vocatur de eloquendo. Illa vero quae sic implet
+sensum, ut de sententiis simplicibus judicetur, vocatur
+de proloquendo. Illa quae sic comprehendit sententiam,
+ut de ipsa etiam copulatione judicetur, donec
+perveniatur ad summam, vocatur de proloquiorum
+summa. Has ergo singulas partes diligentius explicemus.</p>
+</div2>
+
+<div2>
+        <head>CAPUT V.-- <hi>Quomodo de rebus, verbis, dicibilibus, dictionibus, tractetur in logica. Differunt dicibile, et dictio.</hi> </head>
+<p>Verbum est uniuscujusque rei signum, quod ab audiente
+possit intelligi, a loquente prolatum. Res est
+quidquid intelligitur vel sentitur vel latet. [Sciuntur
+enim corporalia, intelliguntur spiritualia; latet vero
+ipse Deus, et informis materia. Deus est quod neque
+corpus est, neque animal est, neque sensus est, neque
+intellectus est, neque aliquid quod excogitari potest.
+Informis materia est mutabilitas mutabilium rerum,
+capax omnium formarum.] Signum est et quod seipsum
+sensui, et praeter se aliquid animo ostendit.
+Loqui est articulata voce signum dare. Articulata autem
+dico quod comprehendi litteris potest. Haec autem
+omnia quae definita sunt, utrum recte definita sint, et
+utrum hactenus verba definitionis aliis definitionibus
+prosequenda fuerint, ille indicabit locus in quo definiendi
+disciplina tractatur. Nunc quod instat, accipe
+intentus. Omne verbum sonat. Cum enim est in
+scripto, non verbum, sed verbi signum est. Quippe
+inspectis a legente litteris, occurrit animo, quod voce
+prorumpat. Quid enim aliud litterae scriptae, quam
+seipsas oculis, et praeter se animo voces ostendunt?
+Quia et paulo ante diximus, signum esse quod seipsum
+sensui, et praeter se animo aliquid ostendit: quae legimus
+igitur, non verba sunt, sed signa verborum.
+Sed ut ipsa littera, cum sit pars minima vocis articulatae,
+abutimur tamen hoc vocabulo ut appellemus
+litteram, etiam cum scriptam videmus; quamvis
+omnino tacita sit, neque ulla pars vocis, sed signum
+partis vocis appareat: ita etiam verbum appellatur
+cum scriptum est, quamvis verbi signum significantis
+vocis non eluceat. Ergo, ut coeperam dicere, omne
+verbum sonat. Sed quod sonat, nihil ad dialecticam.
+De sono enim verbi agitur, cum quaeritur, vel animadvertitur,
+quanta vocalium vel dispositione leniatur,
+vel concursione dehiscat; item consonantium vel interpositione
+nodetur, vel congestione asperetur; et
+quot vel qualibus syllabis constet, ubi poeticus rhythmus
+accentusque a grammaticis solo aurium tractatur
+negotio. Et tamen cum de his disputatur, praeter dialecticam
+non est: haec enim scientia disputandi est.
+Sed tunc verba sunt signa rerum, quando de ipsis
+<pb n="1411"/>
+obtinent vim; verborum autem, illa de quibus hic
+disputatur. Nam cum de verbis loqui nisi verbis nequeamus,
+et cum loquimur non nisi de aliquibus rebus
+loquamur, occurrit animo ita esse verba signa rerum,
+ut res esse non desinant. Cum ergo verbum ab ore
+procedit, si propter se procedit, id est ut de ipso verbo
+aliquid quaeratur aut disputetur, res est utique disputationi
+quaestionique subjecta. Sed ipsa res verbum
+vocatur. Quidquid autem ex verbo non auris, sed
+animus sentit, et ipso animo tenetur inclusum, dicibile
+vocatur: cum vero verbum procedit, non propter
+se, sed propter aliud aliquod significandum, dictio
+vocatur. Res autem ipsa, quae jam verbum non est,
+neque verbi in mente conceptio, sive habeat verbum,
+quo jam significari possit, sive non habeat, nihil aliud
+quam res vocatur proprio jam nomine. Haec ergo quatuor
+distincte teneantur, verbum, dicibile, dictio, res.
+Quod dixi verbum, et verbum est, et verbum significat.
+Quod dixi dicibile, verbum est; nec tamen verbum,
+sed quod in verbo intelligitur et in animo continetur,
+significat. Quod dixi dictionem, verbum est,
+sed tale quo jam illa duo simul, id est ipsum verbum,
+et quod fit in animo per verbum, significantur. Quod
+dixi rem, verbum est, quod praeter illa tria, quae dicta
+sunt, quidquid restat, significat. Sed exemplis haec
+illustranda esse perspicio. Fac igitur a quodam grammatico
+puerum interrogatum hoc modo: Arma, quae
+pars orationis est? Quod dictum est, Arma, propter
+se dictum est, id est verbum propter ipsum verbum:
+caetera vero quod ait, quae pars orationis est, non
+propter se, sed propter verbum, quod arma dictum
+est, vel animo sensa, vel voce prolata sunt. Sed cum
+animo sensa sunt, ante vocem dicibilia sunt; cum
+autem propter id quod dixi, proruperunt in vocem,
+dictiones factae sunt. Ipsum vero arma, quod hic verbum
+est, cum a Virgilio pronuntiatum est, dictio fuit:
+non enim propter se prolatum est, sed ut eo significarentur
+vel bella quae gessit Aeneas, vel scutum, vel
+caetera arma, quae Vulcanus Aeneae fabricatus est. Ipsa
+vero bella vel arma, quae gesta sunt aut ingesta ab
+Aenea; ipsa, inquam, quae cum gererentur atque essent,
+videbantur, quaeque si nunc adessent, vel digito
+monstrare possemus, aut tangere, quae etiamsi non
+cogitarentur, non eo tamen fit ut non fuerint: ipsa
+ergo per se nec verba sunt, nec dicibilia, nec dictiones;
+sed sunt res, quae jam proprio nomine res vocantur.
+Tractandum est igitur nobis in hac parte dialecticae
+de verbis, de dictionibus, de dicibilibus, de
+rebus: in quibus omnibus cum partim verba significentur,
+partim non verba (nihil est enim de quo non
+verbis disputare necesse sit); itaque de his primo
+disputatur, per quae de caeteris disputare conceditur.
+Igitur verbum quodlibet, excepto sono, de quo bene
+disputatur, ad facultatem dialecticae pertinet, non ad
+dialecticam disciplinam. Ut defensiones Ciceronis sunt
+quidem rhetoricae facultatis, sed non his docetur ipsa
+rhetorica.</p>
+</div2>
+
+<div2>
+        <head>CAPUT VI.-- <hi>De origine verbi. Verbum unde dictum. Stoicorum de origine verbi opinio.</hi> </head>
+<p>Ergo omne verbum propter id quod sonat, quatuor
+quaedam necessaria vocat in quaestionem, originem
+suam, vim, declinationem, ordinationem. De origine
+verbi quaeritur, cum quaeritur unde ita dicatur: res
+mea sententia nimis curiosa, et non nimis necessaria.
+Neque hoc mihi placuit dicere, quod sic Ciceroni quoque
+idem videtur; quamvis quis egeat auctoritate in
+re tam perspicua? Quod si omnino multum juvaret
+explicare originem verbi, ineptum esset aggredi, quod
+persequi profecto infinitum est. Quis enim reperire
+possit, quod quid dictum fuerit, unde ita dictum sit?
+Huc accedit, quod ut somniorum interpretatio, ita
+verborum origo pro cujusque ingenio praedicatur.
+Ecce enim verba ipsa quispiam ex eo putat dicta, quod
+aurem quasi verberent: Imo, inquit alius, quod aerem.
+Sed nostra non magna lis est. Nam uterque a verberando
+hujus vocabuli originem trahit. Sed e transverso
+tertius, vide, quam rixam inferat. Quod enim verum,
+<pb n="1412"/>
+ait, nos loqui oporteat, odiosumque sit, natura ipsa
+judicante, mendacium; verbum a vero cognominatum
+est. Nec ingenium quartum defuit. Nam sunt qui verbum
+a vero quidam dictum putent, sed prima syllaba
+satis animadversa, secundam negligi non oportere.
+Verbum enim cum dicimus, inquiunt, prima ejus syllaba
+verum significat, secunda sonum. Hoc autem volunt
+esse bombum. Unde Ennius sonum pedum,
+bombum pedum dixit: et <foreign xml:lang="greek">βοάσαι</foreign> Graeci clamare; et
+Virgilius,  « Reboant silvae »  <note>(Georg. lib. 3, v. 223)</note>.
+Ergo verbum dictum est quasi a vero boando, hoc est
+verum sonando. Quod si ita est, praescribit quidem
+hoc nomen, ne cum verbum faciamus, mentiamur:
+sed vereor ne ipsi qui dicunt ista, mentiantur. Ergo
+ad te jam pertinet judicare, utrum verbum a verberando,
+an a vero solo, an a vero boando dictum putemus:
+an potius unde sit dictum non curemus; cum,
+quod significet, intelligamus. Breviter tamen hunc
+locum notatum esse de origine verborum, volo paulisper
+accipias, ne ullam partem suscepti operis praetermisisse
+videamur. Stoici autumant, quos Cicero in
+hac re irridet, nullum esse verbum, cujus non certa
+ratio explicari possit. Et quia hoc modo, suggerere facile
+fuit, si diceres hoc infinitum esse; quibus verbis
+alterius verbi originem interpretaveris; eorum rursus
+a te originem quaerendam esse donec perveniatur eo
+ut res cum sono verbi aliqua similitudine concinat, ut,
+cum dicimus, aeris tinnitum, equorum hinnitum,
+ovium balatum, tubarum clangorem, stridorem catenarum.
+Perspicis enim haec verba ita sonare, ut res
+quae his verbis significantur. Sed quia sunt res, quae
+non sonant; in his similitudinem tactus valere, ut si
+leniter vel aspere sensum tangunt, lenitas vel asperitas
+litterarum ut tangit auditum, sic eis nomina pepererit.
+Et ipsum lene cum dicimus, leniter sonat. Quis
+item asperitatem non et ipso nomine asperam judicet?
+Lene est auribus, cum dicimus voluptas: asperum
+est, cum dicimus, crux. Ita res ipsae afficiunt, sicut
+verba sentiuntur. Mel, quam suaviter res ipsa gustum,
+tam suaviter nomen tangit auditum. Acre, in utroque
+asperum est: lana et vepres, ut audiuntur verba, sic
+illa tanguntur. Haec quasi cunabula verborum esse
+crediderunt, ut sensus rerum cum sonorum sensu
+concordarent. Hinc ad ipsarum inter se rerum similitudinem
+processisse licentiam nominandi: ut cum,
+verbi causa, crux propterea dicta sit, quod ipsius
+verbi asperitas cum doloris, quem crux efficit, asperitate
+concordat: crura tamen non propter asperitatem
+doloris, sed quod longitudine atque duritia inter
+membra caetera sint ligno crucis similiora, sic appellata
+sint. Inde ad abusionem ventum est, ut usurpetur
+non tam rei similis, sed quasi vicinae. Quid enim simile
+inter significationem parvi et minuti, cum possit
+parvum esse, quod non modo nihil minutum sit, sed
+etiam aliquid creverit? Dicimus tamen propter quamdam
+vicinitatem, minutum pro parvo. Sed haec abusio
+vocabuli in potestate loquentis est: habet enim parvum,
+ut minutum non dicatur. Illud magis pertinet
+ad id quod volumus ostendere, quod cum piscina dicitur
+in balneis, in qua piscium nihil sit, nihilque piscibus
+simile habeat, videtur tamen a piscibus dicta
+propter aquam, ubi piscibus vita est. Ita vocabulum
+non translatum similitudine, sed quadam vicinitate
+usurpatum est. Quod si quis dicat homines piscibus
+similes natando fieri, et inde piscinae nomen esse
+natum; stultum est hoc refutare, cum ab re neutrum
+abhorreat, et utrumque lateat. Illud tamen bene accidit,
+quod uno exemplo dilucidare jam possumus,
+quid distet origo verbi, quae de vicinitate arripitur, ab
+ea quae similitudine ducitur. Hinc facta est progressio
+usque ad contrarium. Nam lucus dictus putatur, quod
+minime luceat; et bellum, quod res bella non sit; et
+foederis nomen, quod res foeda non sit: quod si a foeditate
+porci dictum est, ut nonnnulli volunt, redit
+ergo ad illam vicinitatem, cum id quod fit, ab eo per
+quod fit nominatur. Nam et ista omnino vicinitas late
+patet, et per multas partes secatur. Aut per efficientiam,
+<pb n="1413"/>
+ut hoc ipsum a foeditate porci, per quem foedus
+efficitur; aut per effectum, ut puteus, quod ejus effectus
+potatio est, creditur dictus; aut per id quod continet,
+ut urbem, ab orbe appellatam volunt, quod
+auspicato loco circumduci aratro solet: cujus rei et
+Virgilius meminit, ubi Aeneas urbem designat aratro <note>(Aeneid. lib. 5, v. 755)</note>:
+aut per id quod continetur, ut
+si quis horreum mutata d littera affirmet ab hordeo
+nominatum; aut per abusionem, ut cum hordeum
+dicimus, et ibi triticum conditur; vel a parte totum,
+ut mucronis nomine, quae summa pars est gladii, totum
+gladium vocant; vel a toto pars, ut capillus quasi
+capitis pilus. Quid ultra provehar? Quidquid aliud
+annumerari potest, aut similitudine rerum et sonorum,
+aut similitudine rerum ipsarum, aut vicinitate,
+aut contrario, contineri videbis originem verbi, quam
+prosequi non quidem ultra soni similitudinem possumus;
+sed hoc non semper utique possumus. Innumerabilia
+enim sunt verba, quorum ratio reddi non possit:
+aut non est, ut ego arbitror; aut latet, ut Stoici
+contendunt. Vide tamen paululum, quomodo perveniri
+putant ad illa verborum cunabula, vel ad stirpem
+potius atque adeo sementum, ultra quod quaeri originem
+vetant, nec si quis velit, potest quidquam invenire.
+Nemo ambigit syllabas, in quibus V littera locum
+obtinet consonantis, ut sunt in his verbis, venter, vafer,
+velum, vinum, vomis, vulnus, crassum et quasi
+validum sonum edere. Quod approbat etiam loquendi
+consuetudo, cum quibusdam verbis eas subtrahimus,
+ne onerent aurem. Nam inde est quod amasti libentius
+dicimus quam amavisti, et abiit; non abivit; et in
+hunc modum innumerabilia. Ergo cum dicimus, vim,
+sonus verbi, ut dictum est, quasi validus congruit rei,
+quae significatur. Jam ex illa vicinitate per id quod
+efficiunt, hoc est quia violenta sunt, dicta vincula
+possunt videri, et vimen quo aliquid vinciatur. Inde
+vites, quod adminiculis quibus vinciantur nexibus
+pendent. Hinc etiam propter similitudinem, incurvum
+senem vietum Terentius appellavit. Hinc terra, quae
+pedibus itinerantium flexuosa et trita est, via dicitur.
+Si autem via, quae vi pedum trita est, creditur dicta,
+redit origo ad illam vicinitatem. Sed faciamus a similitudine
+vitis vel viminis, hoc est a flexu esse dictam:
+quaerit ergo me quispiam, quare via dicta est: respondeo,
+a flexu, quia flexum velut incurvum vietum
+veteres dixerunt: unde vietos quod cantho ambiantur,
+rotarum ligna vocant. Persequitur quaerere, unde
+vietum flexum dicatur: et hic respondeo, a similitudine
+vitis. Instat atque exigit unde istud sit vitis nomen:
+dico quia vincit ea quae comprehenderit. Scrutatur
+ipsum vincire, unde dictum sit: dicemus, a vi.
+Vis quare sic appellatur, requiret: redditur ratio,
+quia robusto et valido sono verbum rei, quae significatur,
+congruit. Ultra quod requirat non habet. Quot
+modis autem origo verborum corruptione vocum varietur,
+ineptum est prosequi: nam et longum, et minus
+quam illa quae dicta sunt, necessarium est.</p>
+</div2>
+
+<div2>
+        <head>CAPUT VII.-- <hi>De vi verbi.</hi> </head>
+<p>Nunc vim verborum, quantum res patitur, breviter
+consideremus. Vis verbi est, qua cognoscitur quantum
+valeat: valet autem tantum, quantum audientem
+movere potest. Porro movet audientem, aut secundum
+se, aut secundum id quod significat, aut ex utroque
+communiter. Sed cum secundum se movet, aut ad solum
+sensum pertinet, aut ad artem, aut ad utrumque.
+Sensus autem aut natura movetur, aut consuetudine.
+Natura movetur in eo, quod offenditur si quis nominet
+Artaxerxem regem, vel mulcetur cum audit Euryalum.
+Quis enim etiamsi nihil utique de his hominibus
+audierit, quorum ista sunt nomina, non tamen
+in illo asperitatem maximam, et in hoc judicet esse
+lenitatem? Consuetudine movetur sensus, cum offenditur
+cum audit quiddam: nam hic ad suavitatem soni
+vel insuavitatem nihil interest; sed tamen valent aurium
+penetralia movere, utrum per se transeuntes sonos
+quasi hospites notos, an ignotos recipiant. Arte
+autem movetur auditor, cum enuntiato sibi verbo, attendit
+<pb n="1414"/>
+quae sit pars orationis, vel si quid aliud in his
+disciplinis, quae de verbis traduntur, accepit. At vero
+ex utroque, id est et sensu et arte de verbo judicatur,
+cum id, quod aures metiuntur, ratio notat, et nomen
+ita ponitur; ut dicitur, optimus: mox ut aurem longa
+una syllaba et duae breves hujus nominis percusserint,
+animus ex arte statim pedem dactylum agnoscit. Sensum
+vero non secundum se, sed secundum id quod significat
+verbum movet, quando per verbum accepto
+signo, animus nihil aliud quam ipsam rem intuetur,
+cujus illud signum est quod accepit: ut cum, Augustino
+nominato, nihil aliud quam ego ipse cogitor ab
+ipso, cui notus sum: aut quilibet hominum menti
+occurrit, si forte hoc nomen, vel qui me ignorat audierit,
+vel qui alium novit, qui Augustinus vocetur.
+Cum autem simul et secundum se verbum movet audientem,
+et secundum id quod significat; tunc et ipsa
+enuntiato, et id quod ab eo enuntiatur, simul advertitur.
+Unde enim fit quod non offenditur aurium
+castitas, cum audit, Manu, ventre, pene, bona patria
+laceraverat; offenderetur autem si obscoena pars
+corporis sordido ac vulgari nomine appellaretur? in
+hoc autem sensum animumque utriusque deformitas
+offenderet, nisi illa turpitudo rei quae significata est,
+decore verbi significantis operiretur, cum res eadem
+sit, cujus utrumque vocabulum est: veluti non alia
+meretrix, sed aliter tamen videtur eo cultu, quo ante
+judicem stare assolet, aliter eo quo in luxuriosi cubiculo
+jaceret. Cum igitur tantam vim tamque multiplicem
+appareat esse verborum, quam breviter pro
+tempore summatimque attigimus; duplex hic ex consideratione
+sensus nascitur: partim propter explicandam
+veritatem, partim propter servandum decorem,
+quorum primum ad dialecticum, secundum ad oratorem
+maxime pertinet. Quamvis enim nec disputationem
+deceat ineptam, nec eloquentiam oporteat esse
+mendacem; tamen et in illa saepe atque adeo pene
+semper audiendi delicias discendi cupido contemnit,
+et in hac imperitior multitudo quod ornate dicitur,
+etiam vere dici arbitratur. Ergo cum appareat quid
+sit uniuscujusque proprium, manifestum est et disputatorem,
+si qua ei delectandi cura est, rhetorico colore
+aspergendum; et oratorem, si veritatem persuadere
+vult, dialecticis quasi nervis atque ossibus esse roborandum,
+quae ipsa natura corporibus nostris, nec firmitati
+virium subtrahere potuit, nec oculorum offensioni
+patere permisit. Itaque nunc propter veritatem
+dijudicandam, quod dialectica profitetur, ex hac verborum
+vi, cujus quaedam semina sparsimus, quae impedimenta
+nascantur videamus.</p>
+</div2>
+
+<div2>
+        <head>CAPUT VIII.-- <hi>Obscurum et ambiguum. Differentiae obscuri et ambigui. Tria genera obscurorum.</hi> </head>
+<p>Impedit auditorem ad veritatem videndam in verbis,
+aut obscuritas aut ambiguitas. Inter obscurum et ambiguum
+hoc interest, quod in ambiguo plura se ostendunt,
+quorum quid potius accipiendum sit ignoratur;
+in obscuro autem nihil, aut parum quod attendatur,
+apparet. Sed ubi parum est quod apparet, obscurum
+est ambiguo simile: veluti si quis ingrediens iter, excipiatur
+aliquo bivio, vel trivio, vel etiam, ut ita dicam,
+multivio loco, sed densitate nebulae nihil viarum
+quod est, eluceat: ergo a pergendo prius obscuritate
+tenetur. At ubi aliquantum rarescere nebulae coeperint,
+videtur aliquid, quod utrum via sit, an terrae
+proprius et nitidior color incertum est: hoc est obscurum
+ambiguo simile. Dilucescente coelo quantum
+oculis satis sit, jam omnium viarum deductio clara
+est; sed qua sit pergendum, non obscuritate, sed ambiguitate
+dubitatur. Item sunt obscurorum genera tria:
+unum est quod sensui patet, animo clausum est; tanquam
+si quis malum punicum pictum videat, qui neque
+<pb n="1415"/>
+viderit aliquando, nec omnino quale esset audierit;
+non oculorum est, sed animi, quod cujusce rei pictura
+sit, nescit. Alterum genus est, ubi res animo pateret,
+nisi sensui clauderetur, sicut est homo pictus in
+tenebris: nam ubi oculis apparuerit, nihil animus hominem
+pictum dubitabit. Tertium genus est, in quo
+etiam sensui absconditur, quod tamen si ludaretur,
+nihilo magis animo emineret: quod genus est omnium
+obscurissimum, ut si imperitus malum illud punicum pictum
+etiam in tenebris cogeretur agnoscere. Refer nunc
+animum ad verba, quorum istae sunt similitudines constitutae.
+Pone quempiam grammaticum, convocatis discipulis,
+factoque silentio suppressa voce dixisse, Temetum:
+quod ab eo dictum, qui prope assidebant,
+satis audierunt; qui remotius, parum; qui autem remotissime
+nulla omnino voce perstricti sunt. Horum
+autem partim sciebant, illi scilicet qui nescio quo casu
+remotiores erant, quid esset temetum; reliquos prorsus
+latebat: omnes obscuritate impediebantur. Et hic
+jam perspicis omnia illa genera obscuritatum. Nam
+qui auditu nihil dubitabant, primum illud genus patiebantur,
+cui simile est, malum punicum ignorantibus,
+sed in luce pictum. Qui noverant verbum, sed
+auribus aut parum aut omnino non acceperant vocem;
+secundo illo genere laborabant, cui similis est hominis
+imago, sed non in conspicuo, sed omnino tenebroso
+loco. Qui autem non solum vocis, sed et significationis
+verbi expertes erant; tertii generis, quod omnino
+deterrimum est, caecitate involvebantur. Quod autem
+dictum est, quoddam obscurum ambiguo simile, in
+his perspici potest, quibus verbum erat quidem notum,
+sed vocem penitus nullam, aut non omnino certam
+perceperant. Omnia igitur obscura loquendi genera
+vitabit, qui et voce quantum satis est clara, nec
+ore impedito, et verbis notissimis utetur. Vide nunc in
+eodem grammatici exemplo, quam longe alias impediat
+ambiguitas quam obscuritas verbi. Fac enim eos
+qui aderant et satis sensu accepisse vocem magistri,
+et illum verbum enuntiasse, quod esset omnibus notum;
+ut puta, fac eum dixisse, Magnus, et deinde siluisse:
+attende quid incerti, hoc audito nomine, patiantur.
+Quid si dicturus est, Quae pars orationis est? Quid
+si de metris quaesiturus, qui sit pes? Quid si historiam
+interrogaturus, ut puta, magnus Pompeius quot bella
+gesserit? Quid si commendandorum carminum gratia
+dicturus est, Magnus et pene solus poeta Virgilius?
+Quid si objurgaturus negligentiam discipulorum, in
+haec deinde verba prorumpat, Magnus vos ob studium
+disciplinae torpor invasit? Videsne remota nebula obscuritatis,
+illud quod supra dictum est quasi eminuisse
+multivium? Nam hoc unum quod dictum est, magnus,
+et nomen est, et pes chorius est, et Pompeius est, et
+Virgilius est, et negligentiae torpor. Et si qua alia vel
+innumerabilia non commemorata sunt, quae tamen
+per hanc enuntiationem verbi possunt intelligi.</p>
+</div2>
+
+<div2>
+        <head>CAPUT IX.-- <hi>Ambiguitatum genera duo.</hi> </head>
+<p>Itaque rectissime a dialecticis dictum est, ambiguum
+esse omne verbum. Nec moveat quod apud Ciceronem
+calumniatur Hortensius, hoc modo: <hi>Ambigua
+se aiunt audire acute, explicare dilucide: item omne
+verbum ambiguum esse dicunt, quomodo igitur ambigua
+ambiguis explicabunt? nam hoc est in tenebras exstinctum
+lumen inferre.</hi> Facile quidem atque callide dictum.
+Sed hoc est quod apud eumdem Ciceronem
+Scaevolae dicit Antonius: <hi>Denique ut sapientibus diserte,
+stultis etiam vere videaris dicere.</hi> Quid enim aliud loco
+illo facit Hortensius, nisi acumine ingenii et lepore
+sermonis, quasi meraco et suavi poculo imperitis caliginem
+offundit? Quod enim dictum est, omne verbum
+ambiguum esse, de singulis verbis dictum est.
+Explicantur ambigua disputando, et nemo utique verbis
+singulis disputat. Nemo igitur ambigua verba verbis
+ambiguis explicabit. Et tamen cum omne verbum
+ambiguum sit, nemo verbum ambiguum nisi verbis, sed
+etiam conjunctis, quae jam ambigua non sunt, explicabit.
+Ut enim si diceretur. Omnis miles bipes est,
+non ex eo sequeretur, ut cohors ex militibus bipedibus
+<pb n="1416"/>
+tota constaret. Ita cum dico ambiguum omne verbum,
+non dico sententiam, non disputationem quamvis
+verbis ista texantur. Omne igitur ambiguum verbum
+non ambigua disputatione explicabitur. Nunc ambiguitatum
+genera videamus. Quae prima duo sunt:
+unum in iis etiam, quae dicuntur; alterum quod in iis
+solis, quae scribuntur, dubitationem facit. Nam si quis
+audierit, Acies, et si quis legerit, poterit incertum
+habere, nisi per sententiam clarescat, utrum acies
+militum, an ferri, an oculorum dicta vel scripta sit.
+At vero si quis inveniat scriptum, verbi causa leporem,
+nec appareat qua sententia positum sit, profecto dubitabit,
+utrum penultima hujus verbi syllaba producenda
+sit, ab eo quod est lepos; an ab eo quod est lepus
+corripienda. Quam scilicet non pateretur ambagem,
+si accusativum hujus nominis casum voce loquentis
+acciperet. Quod si quis dicat, loquentem male pronuntiare
+potuisse; jam non ambiguitate, sed obscuritate
+impediretur auditor. Ex illo tamen genere quod
+ambigno simile est, quia male latine pronuntiatum
+verbum, non in diversas rationes trahit cogitantem,
+sed ad id quod apparet impellit. Cum igitur ista duo
+genera inter se plurimum distent, primum genus rursus
+in duo dividitur: nam quidquid dicitur, et per
+plura intelligi potest, eadem scilicet plura aut uno
+vocabulo et una interpretatione; aut tantum uno tenentur
+vocabulo, sed diversis expeditionibus explicantur.
+Ea quae una definitio potest includere, univoca
+nominantur: illis autem quae sub uno nomine
+necesse est definire diverse, aequivoci nomen est.
+Prius ergo consideremus univoca, ut quomodo genus
+hoc jam patefactum est, illustretur exemplis. Hominem
+cum dicimus, tam puerum dicimus quam juvenem,
+quam senem, tam stultum quam sapientem, tam
+magnum quam parvum, tam civem quam peregrinum,
+tam urbanum quam agrestem, tam qui jam fuit quam
+qui nunc est, tam sedentem quam stantem, tam divitem
+quam pauperem, tam agentem aliquid quam cessantem,
+tam gaudentem quam moerentem vel neutrum.
+Sed in his omnibus dictionibus nihil est, quod non ut
+hominis nomen accepit, ita etiam hominis definitione
+claudatur: nam definitio hominis est, Animal rationale,
+mortale: non ergo quisquam potest dicere animal
+rationale mortale juvenem tantum, non etiam
+senem et puerum, etc., aut sapientem esse tantum,
+non etiam stultum; imo et ista et caetera, quae
+numerata sunt, sicut hominis nomine, ita etiam definitione
+continentur: nam sive puer, sive stultus, sive
+pauper, sive etiam dormiens, si animal rationale mortale
+non est; nec homo est. Est autem homo; illa igitur definitione
+contineatur necesse est. Et de caeteris quidem
+nihil ambigitur: de puero autem parvo aut stulto, sive
+prorsus fatuo, aut de dormiente, vel ebrio, vel furente
+dubitari potest, quomodo possunt esse animalia
+rationalia, etiam si possit defendi, sed ad alia properantibus
+longum est. Ad id quod agitur illud satis
+est, non esse istam definitionem hominis rectam, nisi
+et omnis homo eadem contineatur, et praeter hominem
+nihil. Haec sunt igitur univoca, quae non solum
+nomine uno, sed una etiam ejusdem nominis definitione
+clauduntur: quamvis et inter se propriis nominibus
+et definitionibus distingui possunt. Diversa
+enim nomina, puer, adolescens, dives et pauper, liber
+et servus, et si quod aliud differentiarum est, et
+inter se ideo proprias definitiones habebunt: sed ut
+illis unum commune nomen est homo, sic animal rationale
+mortale definitio una communis est.</p>
+</div2>
+
+<div2>
+        <head>CAPUT X.-- <hi>Ambiguitas ex aequivocis varia.</hi> </head>
+<p>Nunc aequivoca videamus, in quibus ambiguitatum
+perplexio prope infinita silvescit: conabor tamen eas
+in genera certa distinguere. Utrum autem conatum
+meum haec facultas sequatur, tu judicabis. Ambiguitatum
+igitur, quae ab aequivocis veniunt, primo genera
+tria sunt: unum ab arte, alterum ab usu, tertium
+ab utroque. Arte nunc dico, propter nomina quae in
+verborum disciplinis verbis imponuntur. Aliter enim
+definitur apud grammaticos quid sit aequivocum, aliter
+<pb n="1417"/>
+apud dialecticos; et tamen hoc unum quod dico,
+Tullius, et nomen est, et pes dactylus, et aequivocum.
+Itaque si quis ex me efflagitet, ut definiam quid sit
+Tullius, cujuslibet notionis explicatione respondeo.
+Possum enim recte dicere, Tullius nomen est, quo
+significatur homo summus quidam orator, qui Catilinae
+conjurationem consul oppressit. Subtiliter attende
+me nomen ipsum definisse: nam si mihi Tullius ipse,
+qui si viveret, digito monstrari potuisset, definiendus
+foret, non dicerem, Tullius est nomen, quo significatur
+homo; sed dicerem, Tullius est homo, et ita caetera
+adjungerem. Item respondere possem, Hoc nomen
+Tullius est dactylus, his litteris constans: quod
+enim eas litteras habeat, opus est innuere. Licet enim
+illud dicere, Tullius est verbum, per quod aequivocantur
+inter se omnia cum hoc ipso, quae supra dicta
+sunt, et si quid aliud inveniri potest. Sed dico, Cum
+ergo hoc nomen quod dixi, Tullius, secundum artium
+vocabula tam varie mihi licuit definire; quid dubitamus
+esse ambiguorum genus ex aequivocis venientium,
+quod merito dici possit ex arte contingere? Diximus
+enim aequivoca esse, quae non ut uno nomine, ita
+etiam una definitione possunt teneri. Unde nunc alterum
+genus est, quod ex loquendi usu venire memoravimus.
+Usum nunc appello illud verbum, propter
+quod verba cognoscimus. Quis enim verba propter
+verba conquirat et colligat? Itaque jam constitue aliquem
+sic audire, ut notum ei sit, nihil de partibus
+orationis, aut de metris quaeri, aut de verborum aliqua
+disciplina: tamen adhuc potest cum dicitur, Tullius,
+aequivocorum ambiguitate impediri. Hoc enim
+nomine et ipse qui fuit summus orator, et ejus picta
+imago vel statua, et codex quo ejus litterae continentur,
+et si quid est in sepulcro ejus cadaveris, significari
+potest. Diversis enim rationibus dicimus, Tullius
+ab interitu patriam liberavit; et, Tullius inauratus in
+Capitolio stat; et, Tullius, tibi totus legendus est; et,
+Tullius hoc loco sepultus est: unum enim nomen est,
+sed diversis haec omnia definitionibus explicanda sunt.
+Hoc igitur genus aequivocorum est, in quo jam nulla
+de disciplina verborum oritur ambiguitas, sed de ipsis
+rebus quae significantur. At si utrumque confundat
+audientem vel legentem, sive quod ex arte, sive ex loquendi
+usu dicitur, nonne tertium genus recte annumerabitur?
+Cujus exemplum in sententia quidem apertius
+apparet, ut si quis dicat, Multi dactylico metro scripserunt,
+ut est Tullius: nam hic incertum est utrum
+Tullius pro exemplo dactyli pedis, an dactylico poetae
+positum sit: quorum illud ex arte, hoc ex usu loquendi
+accipitur. Sed in simplicibus etiam verbis contingit,
+licet tantum vocem hujus verbi grammaticus
+audientibus discipulis enuntiet, ut supra ostendimus.
+Cum igitur haec tria genera manifestis rationibus inter
+se differant, rursum primum genus in duo dividitur.
+Quidquid enim ex arte, verborum facit ambiguitatem,
+partim sibi pro exemplo esse potest, partim non
+potest. Cum enim definio quid significat nomen, possum
+hoc ipsum exempli gratia supponere, quod dico
+nomen, utique nomen est: hac enim lege per casus
+flectitur dicendo nomen, nominis, nomini, etc. Item
+cum definio quid significat, dactylus, hoc ipsum potest
+pro exemplo esse: etenim cum dicimus, dactylus,
+unam syllabam longam et duas deinde breves enuntiamus.
+At vero cum definitur adverbium quid significet,
+non potest hoc ipsum pro exemplo dici: etenim
+cum adverbium dicimus, haec ipsa enuntiatio nomen
+est. Ita secundum aliam notionem, adverbium utique
+adverbium est, et nomen non est; secundum aliam
+vero adverbium non est adverbium, quia nomen est.
+Item pes creticus, quando quid significet definitur,
+non potest hoc ipsum pro exemplo esse: haec enim
+ipsa enuntiatio quando dicimus, creticus, prima longa
+syllaba, deinde duabus brevibus constat; quod autem
+significat, longa syllaba et brevis et longa est:
+ita et hic secundum aliam notionem, creticus nihil
+aliud est quam creticus, et dactylus non est; secundum
+aliam vero creticus non est creticus, quia dactylus
+<pb n="1418"/>
+est. Secundum igitur genus, quod jam propter disciplinas
+verborum ad loquendi usum dictum est pertinere,
+duas habet formas. Nam aequivoca dicta sunt,
+aut ex eadem origine venientia, aut ex diversa. Ex eadem
+origine appello, quando uno nomine ac non sub
+una definitione teneantur, uno tamen quasi fonte dimanant,
+ut est istud, quia Tullius et homo et statua et
+codex et cadaver intelligi potest: non possunt quidem
+ista una definitione concludi, sed tamen unum habent
+fontem, ipsum scilicet verum hominem, cujus et illa statua,
+et ille liber, et illud cadaver est. Ex diversa origine,
+ut cum dicimus, nepos, longe ex diversa origine
+filium filii et luxuriosum significat. Haec ergo distincta
+teneamus, et inde illud genus, quod ex eadem
+origine appello, in quae item dividatur: nam dividitur
+in duo, quorum unum translatione, alterum declinatione
+contingit. Translationem voco, cum vel similitudine
+unum nomen fit multis rebus, ut Tullius, et
+ille in quo magna eloquentia fuit, et statua ejus dicitur.
+Vel ex toto, cum pars cognominatur, ut cum cadaver
+illius Tullius dici potest: vel ex parte totum, ut cum
+tecta dicimus totas domus. Aut a genere species: verba
+enim principaliter dicunt Romani, quibus loquimur;
+sed tamen verba proprie nominata sunt, quae
+per modos et tempora declinamus: aut ab specie genus;
+nam cum scholastici non solum proprie, sed et
+primitus dicantur ii qui adhuc in schola sunt; omnes
+tamen qui in litteris vivunt, nomen hoc usurpant.
+Aut ab efficiente effectus, ut Cicero est liber Ciceronis:
+aut ab effectu efficiens, ut terror, quia terrorem
+fecit. Aut a continente quae continentur, ut domus
+etiam qui in domo sunt dicuntur: aut a conversa vice,
+ut castanea arbor dicitur quae et fructus: vel si quod
+aliud inveniri potest, quod ex eadem origine quasi
+transferendo cognominetur. Vides, ut arbitror, quid
+faciat in verbis ambiguitatem. Quae autem ad eamdem
+originem pertinentia conditione declinationis
+ambigua esse dicimus, talia sunt. Fac verbi causa
+quemque dixisse, pluit. Et haec diverse utique definienda
+sunt. Item scribere cum dicit, incertum est
+utrum in infinitivo activi, an imperativo passivi pronuntiatum
+sit. Homo cum unum nomen sit, et una
+enuntiatio, tamen fit aliud ex nominativo, aliud ex
+vocativo. Quin doctius et docte verbi enuntiatio quoque
+diversa est. Doctius aliud est cum dicimus,
+doctius mancipium; aliud cum dicimus, doctius
+illo disputavit. Declinatione igitur ambiguitas orta
+est: nam declinationem nunc appello, quidquid
+sive per voces sive per significationes flectendo verba
+contingit. Hic doctus et docte, tantum per voces
+flexum est; hic homo et homo, secundum solas significationes.
+Sed hujusmodi genus ambiguitatum minutatim
+concidere ac prosequi pene infinitum est. Itaque
+locum ipsum hactenus notasse suffecerit, ingenio praesertim
+tuo. Vide nunc ea, quae ex diversa origine veniunt:
+nam ipsa dividuntur adhuc in duas primas formas,
+quarum una est, quae contingit diversitate
+linguarum; ut cum dicimus, iste, haec una vox aliud
+apud Graecos, aliud apud nos significat. Quod genus
+tamen non omnis novit: non enim unicuique perspicuum
+est, nisi qui linguas nosset, aut qui linguas disputaret.
+Altera forma est, quae in una quidem lingua
+facit ambiguitatem, diversa tamen eorum origine, quae
+uno vocabulo significantur, quale est illud, quod de
+nepote supra posuimus. Quod rursus in duo scinditur
+Aut sub eodem genere partis orationis, sicut nomen
+est nepos, cum filium filii, et cum luxuriosum significat;
+aut sub diversis, ut dictum est a Terentio,
+<l>Qui scias ergo istuc nisi periclum feceris?</l>  <note>(Terent. Andr. act. 3, scen. 3, v. 33.)</note> 
+sed etiam istuc pronomen, istuc adverbium. Jam ex
+utroque, id est arte et usu verborum, quod in aequivocis
+tertium genus posueramus, tot ambiguitatum
+formae possunt existere, quot in duobus superioribus
+posueramus. Restat ergo illud genus ambiguum:
+<pb n="1419"/>
+quod in scriptis solis reperitur. Cujus tres sunt species:
+aut enim spatio syllabarum fit tale ambiguum,
+aut acumine, aut utroque. Spatio autem, ut cum scribitur,
+venit, de tempore incertum est, propter occultum
+primae syllabae spatium. Acumine autem, ut cum
+scribitur, pone, utrum ab eo quod est pono, an ut
+dictum:
+<l>
+<pb n="1420"/>Pone sequens, namque hanc dederat Proserpina legem.</l>  <note>(Georg. liv. 4, v. 487.)</note> 
+incertum est propter latentem acuminis locum. A
+vero ex utroque fit, ut in superioribus de lepore diximus;
+nam non solum producenda, sed acuenda est
+etiam penultima syllaba hujus verbi, si ab eo quod est
+lepos, non ab eo quod est lepus, deflexum est.
+</p>
+
+</div2>
+    </body>
+  </text>
+</TEI>

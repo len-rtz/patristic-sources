@@ -1,0 +1,86 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Testimonia</title>
+              <author ref="http://viaf.org/viaf/27422228">Gennadius Massiliensis<date>fl. 500</date> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1851</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 103</title>
+           <idno>GenMas.Testim32</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head> <hi>Gennadius Massil. Script. Eccl., cap.</hi> 51.</head>
+<p>Vigilius diaconus composuit ex traditione Patrum, monachorum regulam, quae in coenobio ad profectum
+fratrum in conventu legitur, breviato et aperto sermone, totius monasticae professionis in se tenentem
+disciplinam.</p>
+<p>Sanctus Benedictus Anianae abbas Concordiae Regularum multa Orientalis, sive Orientalium regulae capita
+inserit.</p>
+<p>Smaragdus quoque abbas in expositione Regulae sancti Benedicti, cap. 28, Regulam Orientalem, capite
+autem 31, Regulam Patrum Orientalium appellat.</p>
+<p>Annales Trevirenses in Apologia monasterii sancti Maximini part. II, cap. 1. Et apud Christoph. Broverum
+lib. VII Annal. Trevir.</p>
+<p>Erecta fuit ibidem religio Christiana monastica sub Regula Orientalium Monachorum.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

@@ -1,0 +1,1307 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Prooemia in libros Veteris ac Novi Testamenti</title>
+              <author ref="http://viaf.org/viaf/803890">Isidorus Hispalensis<date>565-636</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1850</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 83</title>
+           <idno>IsiHis.PrInLiV</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head> <emph>190</emph> Prologus.</head>
+<p>
+          <pb n="0155C"/> 1. Plenitudo Novi et Veteris Testamenti, quam in
+canone catholica recipit Ecclesia, juxta vetustam
+priorum traditionem ista est.</p>
+<p> 2. In principio videlicet, quinque libri Moysi, Genesis,
+Exodus, Leviticus, Numeri, Deuteronomium,
+<pb n="0156C"/>
+id est, recapitulatio legis et quasi secunda lex.</p>
+<p> 3. Huic succedunt libri Jesu Nave, Judicum, et libellus
+cujus <emph>191</emph> est titulus Ruth, qui non ad historiam
+Judicum, ut Hebraei asserunt, sed magis ad
+principium Regum pertinere videtur.</p>
+<p>
+          <pb n="0157A"/> 4. Hos sequuntur quatuor libri Regum. Quorum
+quidem Paralipomenon libri duo e latere annectuntur,
+quia earumdem gestarum rerum continent causas
+quae in libris Regum esse noscuntur,</p>
+<p divs_removed="true"> 5. Quanquam et alia sunt volumina quae in consequentibus
+diversorum inter se temporum texunt historias,
+ut Job liber, et Tobiae, et Esther, et Judith,
+et Esdrae, et Machabaeorum libri duo. <emph>192</emph>
+
+        </p>
+        <div3 moved_from_p="true">
+            <head>6.</head>
+          <p>
+ Sed hi omnes, praeter librum Job, Regum
+sequuntur historiam, deinceps Judaeorum annales suis
+quibusque temporibus persequuntur, continentes tristia,
+sive laeta, quae post excidium Jerusalem judaico
+populo acciderunt.</p>
+        </div3>
+<div3>
+          <head>7.</head>
+          <p>
+ Ex quibus quidem Tobiae, Judith, et Machabaeorum
+<pb n="0158A"/>
+Hebraei non recipiunt. Ecclesia tamen eosdem
+inter canonicas scripturas enumerat.
+</p>
+          <p> 8. Occurrunt dehinc Prophetae, in quibus est Psalmorum
+liber unus, et Salomonis libri tres, Proverbiorum
+scilicet, Ecclesiastes, et Cantica canticorum.
+Duo quoque illi egregii, et sanctae institutionis libelli, <emph>193</emph> 
+ Sapientiam dico, et alium qui vocatur Ecclesiasticus;
+qui dum dicantur a Jesu filio Sirach editi,
+tamen propter quamdam eloquii similitudinem Salomonis
+titulo sunt praenotati. Qui tamen in Ecclesia
+parem cum reliquis canonicis libris tenere noscuntur
+auctoritatem.</p>
+<p> 9. Supersunt libri sedecim prophetarum, ex quibus
+<pb n="0159A"/>
+quatuor sunt, qui majora volumina condiderunt,
+id est, Isaias, Jeremias, Ezechiel et Daniel.</p>
+<p> 10. Reliqui vero duodecim breves sunt, et contigui,
+et ob hoc uno volumine coarctati, quorum nomina
+haec sunt: Osee, Joel, Amos, Abdias, Jonas, Michaeas,
+Nahum, Habacuc, Sophonias, Aggaeus, Zacharias
+et Malachias. Quidam autem Jeremiae Lamenta segregantes,
+de volumine ejus resecuerunt, sicque quadraginta
+quinque libros Veteris Testamenti suscipiunt.</p>
+        </div3>
+<div3>
+          <head>11.</head>
+          <p>
+ Hinc occurrit Testamentum Novum, cujus primum
+Evangeliorum libri sunt quatuor, scilicet, Matthaeus,
+Marcus, Lucas et Joannes. Sequuntur deinde
+Epistolae Pauli apostoli quatuordecim, id est, ad Romanos,
+ad Corinthios duae, ad Galatas, ad Ephesios,
+<pb n="0159B"/>
+ad Philippenses, ad Thessalonicenses duae, ad Colossenses,
+ad Timotheum duae, ad Titum vero, et
+ad Philemonem, et ad Hebraeos singulae.</p>
+        </div3>
+<div3>
+          <head>12.</head>
+          <p>
+ Epistolae quoque Joannis apostoli tres, Petri
+duae, Judae, et Jacobi singulae.
+</p>
+          <p>
+            <pb n="0160A"/> <emph>194</emph> 13. Actus etiam apostolorum, et Apocalypsis
+Joannis. Fiunt ergo in ordine utriusque Testamenti
+libri septuaginta et duo.</p>
+<p> 14. Haec sunt enim nova et vetera, quae de thesauro
+Domini proferuntur, e quibus cuncta sacramentorum
+mysteria revelantur. Hi sunt duo Seraphim,
+qui in confessione sanctae Trinitatis jugiter
+decantantes <foreign xml:lang="greek">Τρὶς ἃγιος</foreign> hymnum erumpunt.</p>
+<p> 15.  Haec [ <hi>Forte</hi> hae] etiam duae olivae in Zacharia,
+quae a dextris, et sinistris lampadis astant,
+atque pinguedine et splendore Spiritus sancti totum
+orbem doctrinae claritate illuminant.</p>
+<p> 16. Hae litterae sacrae, hi libri integri numero et
+auctoritate: aliud cum istis nihil est comparandum.
+Quidquid extra hos fuerit, inter haec sancta et divina
+<pb n="0160B"/>
+nullatenus est recipiendum.</p>
+        </div3>
+<div3>
+          <head>17.</head>
+          <p>
+ Disposito igitur Veteris ac Novi Testamenti
+ordine librorum et numero, nunc cursim breviterque
+in eos parva prooemia narrationum subjiciamus.
+</p>
+        </div3>
+      </div1>
+
+
+<div1>
+        <head>INCIPIUNT PROOEMIA.</head>
+        <pb n="0159"/>
+        <head> <hi>De Genesi.</hi> </head>
+
+<pb n="0159B"/>
+<p> 18. Genesis, juxta fidem historiae, describit fabricam
+mundi, et hominis conditionem, cataclysmum,
+et divisionem terrae, confusionem quoque linguarum,
+gestaque omnium patriarcharum, usque ad ingressionem
+Israel in Aegyptum.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Exodi.</hi> </head>
+<p> 19. Exodus continet Hebraeorum servitutem, ac
+decem plagas <emph>195</emph> Aegypti, egressum populi, et nubem
+<pb n="0159C"/>
+protegentem, transitum etiam Rubri maris,
+mersumque cum curribus Pharaonem, et gloriae decantationem,
+ingressum quoque eremi, cibum mannae, 
+ quo aliti sunt, percussionem quoque rupis,  
+et fluenta in dulcedinem versa, pugnam Amalec,
+mandata etiam Decalogi, et arcam Testamenti, dedicationemque
+tabernaculi et oblationem.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Levitico.</hi> </head>
+<p> 20. In Levitico autem lex sacrificiorum, hostiarumque
+<pb n="0160B"/>
+diversitas, indumenta pontificum, et levitarum
+ministeria describuntur: ciborum etiam discretio,
+et diversae peccatorum purgationes, vel
+hostiae ordinantur.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Numeris.</hi> </head>
+<p> 21. In Numeris vero egressae de Aegypto tribus
+enumerantur, protectionesque eorum, perfectorum
+aetate virorum, qui egressi sunt de Aegypto, computatio
+tenetur inserta, Prophetia Balaam, quadraginta
+<pb n="0160C"/>
+quoque duarum per eremum mansionem
+sacramenta signantur.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Deuteronomio.</hi> </head>
+<p> 22. In Deuteronomio autem, quae est secunda lex,
+narrantur ea quae inter Pharan, et Tophel, et Laban,
+et Naseroth, usque ad Cades Barne fuerunt populo
+dicta a Moyse: mandata, videlicet, atque promissa,
+maledictiones peccatorum, et promissiones beatitudinis.
+Ibi canit canticum Moyses. Ibi dat benedictionem
+<pb n="0161A"/>
+filiis Israel; ibique, terra repromissionis conspecta,
+moritur atque sepelitur.</p>
+<p> 23. Nonnulli autem Hebraeorum quatuor tantum
+libros computant legis, id est, Genesim, Exodum,
+Leviticum, Numeros. <emph>196</emph> Deuteronomium autem
+repetitionem eorumdem librorum, et quasi quoddam
+legis meditatorium dicunt. Ea duntaxat ratione, pro eo
+quod illi quatuor proprias rerum gestarum continent
+causas, iste vero omnium.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>De Josue.</hi> </head>
+<p> 24. In Jesu Nave libro filii Israel, duce Jesu, Jordanem
+transeunt, ac secundo circumciduntur, subversisque
+dehinc Chananaeorum gentibus, divisione
+terrae eorum haereditatis sortes suscipiunt.</p>
+</div1>
+
+<div1>
+        <head> <hi>De libro Judicum.</hi> </head>
+
+<pb n="0161B"/>
+<p> 25. In libro Judicum continentur peccata et servitutes
+Israel, exclamationesque populi, et miserationes
+Dei.   Describuntur prospera, atque adversa
+bellorum  .</p>
+</div1>
+
+<div1>
+        <head> <hi>De libro Ruth.</hi> </head>
+<p> 26. Liber Ruth ejusdem Moabitidis texit historiam,
+de cujus stirpe familia David descendit. Hunc Hebraei
+libellum ad Judicum librum subjungunt, pro eo quod
+in diebus Judicum gesta esse commemorant quae in
+eo scripta sunt; at contra Latini, pro eo quod genus
+regis David retexat, ortum ex eadem Moabitide Ruth,
+ad corpus libri Regnorum veracius eum pertinere
+contendunt.</p>
+</div1>
+
+<div1>
+        <head> <hi>De libro Regum.</hi> </head>
+<p>
+          <pb n="0161C"/> 27. Regum liber, quanquam apud Latinos propter
+<pb n="0162A"/>
+prolixitatem sui <emph>197</emph> in quatuor partibus sit desectus,
+apud Hebraeos tamen in duobus divisus est voluminibus.
+Quorum primus Samuel scribit, arcam
+Domini a Judaeis transisse ad gentes, Heli quoque
+sacerdotium in Samuel mystice fuisse translatum et
+in David Saulis regis imperium.</p>
+<p> 28. Malachim vero reges Judaeae, et Israeliticae
+gentis, gestaque eorum per ordinem digerit temporum,
+ipsum quoque Israel ob errorem idololatriae
+narrat in Assyrios transmigratum; ad extremum edocet
+venisse Nabuchodonosor in Jerusalem, captivumque
+duxisse principem, ac populum, et subvertisse
+urbem et templum.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>De Paralipomenon.</hi> </head>
+<p> 29. Paralipomenon apud Hebraeos sub unius libri
+<pb n="0162B"/>
+volumine continetur, appellaturque ab eis <hi>Dibrehaiamin,</hi> 
+id est, <hi>Verba dierum,</hi> apud nos autem propter
+prolixitatem sui in duabus decisus est partibus.
+Haec est autem historia ordinem generationum et
+temporum continens. In qua scilicet non parva sanctarum
+Scripturarum eruditio continetur.</p>
+<p> 30. Namque in historia Veteris Testamenti in locis
+suis aut omnino <emph>198</emph> omissa sunt, aut fortasse non
+plene digesta, in isto summatim ac breviter explicata
+sunt, cujus quidem series e latere legis, sive
+Regnorum adjuncta procedit, perveniens ad illud
+usque tempus quo et regnorum textus finitur.  
+Namque ab exordio fabricae mundi incipiens, protenditur
+per ordinem rerum gestarum usque ad ruinam
+Jerusalem in annis tribus mille septuaginta duobus
+<pb n="0162C"/>
+per generationes septuaginta duas.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>De libro Job.</hi> </head>
+
+<pb n="0163A"/>
+<div3>
+          <head>31.</head>
+          <p>
+ Job liber continet ejusdem sancti viri damna,
+funera, vel flagella, et contumeliosa consolantium
+dicta, lamenta quoque ejus, in quibus totius mundi
+deplorat miseriam; consolationes etiam Dei ad eum
+per turbinem, ejusque duplicem bonorum in fine remunerationem.
+Hic autem ex suis passionibus et verbis
+Christi expressit imaginem; conjux vero ejus
+carnalium typum designat, qui, intra Ecclesiam positi,
+vitam spiritualium moribus suis scandalizant.
+</p>
+          <p> 32. Amici vero ejus speciem praebuerunt haereticorum,
+figuramque dogmatum perversorum. Porro
+Eliu, qui adversus Job gravi exprobratione innititur,
+significat eos qui intra sanctam Ecclesiam arroganter
+praedicant, et per tumorem cordis ac scientiae fastum,
+<pb n="0163B"/>
+quidquid proferunt superbiae exemplis ostentant.</p>
+</div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Psalterio.</hi> </head>
+<p> 33. Liber Psalmorum, quanquam uno concludatur
+volumine, <emph>199</emph> non est tamen editus uno eodemque
+auctore. Decem enim prophetae sunt qui eos diverso
+tempore scripserunt, id est, Moyses, David, Salomon,
+Asaph, Eman, Ethan, Idithun, et filii Core
+Asir, Elcana, Abiasaph, sive Esdras. Nonnulli etiam
+Aggaei et Zachariae esse existimantur.</p>
+<p> 34. De iis autem qui sine titulis sunt, traditio veterum
+talis est, ut cujus auctoris praescriptio praecesserit,
+caeteri, qui sine titulo sequuntur, ipsius esse
+credantur. Est autem hic liber allegoricis ac typicis
+sacramentis signatus; specialiter autem, quod natus,
+<pb n="0163C"/>
+quod passus, quod resurrexit Christus, pene
+hoc omnium psalmorum resonat organum.</p>
+<p> 35. Sciendum autem quod apud Hebraeos omnes
+<pb n="0164A"/>
+psalmi permisti fuerunt, et inordinati, quos tamen
+prius Esdras in unum volumen coegit, et in ordinem,
+numerumque disposuit, ac perocculto mysterii
+sacramento aliis alios praetulit ordine, dum posteriores
+videantur in tempore. Nam secundum historiae
+cursum tertius psalmus quinquagesimo posterior
+est, sed propter mysterium in <emph>200</emph> ordine prior
+est. Sic enim habentur et caeteri, quia Spiritus sanctus
+eos praeordinavit, ut voluit.</p>
+</div1>
+
+<div1>
+        <head> <hi>De libris Salomonis.</hi> </head>
+<p> 36. Salomon tria volumina edidit: primus ex his
+Proverbiorum liber est; secundus, qui appellatur
+Ecclesiastes; tertius, cujus titulus est Cantica canticorum.
+In quibus quidem tribus libris trium generum
+disciplinas composuit, quibus ad rerum scientiam
+<pb n="0164B"/>
+pervenitur. In primis namque ethicam, id est,
+moralem; post haec physicam, quae qualitatem naturae
+comprehendit; ad ultimum theoricam, id est,
+contemplativam. In Proverbiis enim moralia docens,
+per communem quemdam loquendi usum altiorem
+intelligentiam edidit, conservationemque mandatorum
+et doctrinae coelestis institutionem succinctis
+versibus brevibusque sententiis coaptavit.</p>
+<div3>
+          <head>37.</head>
+          <p>
+ Sunt autem proverbia sub verbis aliis res alias
+explicantia, vel significantia, quae aliter quam dicuntur
+intelliguntur, plus in virtute sententiarum
+quam in sono verborum, quae Graeci paroemias vocant.
+In Ecclesiaste vero rerum naturam discutiens,
+cuncta in mundo caduca et vana esse reprehendit
+[ <hi>Forte,</hi> deprehendit]; rerumque omnium fragilitate
+<pb n="0164C"/>
+perspecta, renuntiare mundo admonuit.
+</p>
+          <p> 38. In Canticis autem canticorum supergressus
+visibilia, atque contemplans ea quae sunt coelestia,
+<pb n="0165A"/>
+vel divina, sub specie sponsi et sponsae, Christi Ecclesiae
+unitatem declarat, atque animam ad <emph>201</emph> 
+amorem coelestium excitans provehendam ad consortium
+Dei provocat. Illud etiam non est omittendum,
+quod a doctoribus nostris traditur, apud Hebraeos
+hanc fuisse observationem, ne cuiquam librum
+hunc legere permitterent, nisi viro jam perfectae
+scientiae, et laboratae fidei, ne forte per imbecillitatem
+infantiae, et fidei imperitiam, non tam
+erudiret cognitio lubricas mentes, quam potius ad
+concupiscentias corporales converteret.</p>
+<p> 39. Omnes enim Scripturas a doctoribus eorum
+tradi pueris solitum est, etiam eas quas <hi>deuteroseis</hi> 
+vocant. Quatuor tantum ista ad ultimum reservari,
+id est, principium Genesis de mundi creatione, Ezechielis
+<pb n="0165B"/>
+quoque principia, in quibus de cherubim
+scripsit, et finem ejus, in quo templi descriptio continetur,
+et Cantica Canticorum.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De libro Sapientiae.</hi> </head>
+<p> 40. Liber Sapientiae, qui vocatur <hi>Panareton,</hi> Christi
+adventum, qui est sapientia Dei Patris, passionemque
+ejus aperta manifestatione denuntiat.   Hunc
+edidit Jesus, filius Sirach, in quo etiam nonnulla
+vivendi praecepta composuit.</p>
+</div1>
+
+<div1>
+        <head> <emph>202</emph> <hi>De Ecclesiastico.</hi> </head>
+<div3>
+          <head>41.</head>
+          <p>
+ Ecclesiasticus vero morum pene omnium disciplinam,
+et sanctae religionis conversationem affatim
+copioseque conscripsit. Dictus est autem Ecclesiasticus,
+pro eo quod in medio coetu populi, id est,
+coram ecclesia fuerit habitus. Hic enim propter
+<pb n="0165C"/>
+nimiam sensus similitudinem et eloquii parilitatem
+<pb n="0166A"/>
+Salomonis titulo praenotatur. Constat autem et hunc
+librum a Jesu filio Sirach editum fuisse, et inter
+reliquos sacrarum Scripturarum libros pari habitum
+veneratione.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Isaia.</hi> </head>
+<p> 42. Isaias propheta, qui interpretatur <hi>salus Domini,</hi> 
+hic, postquam de altari missus calculus labia ejus
+purgavit, dignus efficitur Spiritus sancti prophetia.
+Speculaturque duo seraphim in aenigmate duorum
+Testamentorum, cum duodecim alis, id est, apostolis,
+qui praedicatione sua totum mundum volucri celeritate
+discurrunt, tegentes faciem et pedes sedentis
+in throno Dei, id est, occultantes ea, sive quae ante
+saeculi fuerunt exordia, sive quae post transactam
+hujus mundi figuram futura sunt.</p>
+<div3>
+          <head>43. </head>
+<p>
+            <pb n="0166B"/>Hic tamen post visionem Judae et Jerusalem
+adversus caeteras gentes, quae in cicuitu ejus sunt,
+prophetiae convertit sermonem, et juxta qualitatem
+locorum, et vitae diversitatem, quae essent eis mala
+ventura denuntiat. Post captivitatem enim Jerusalem
+ruinam Babyloniae comminatur. <emph>203</emph>
+</p>
+        </div3>
+<div3>
+          <head>44.</head>
+          <p>
+ Deinde necem Philisthiim, vastitatem
+Moab, exterminium Damasci, et Aegypti commotionem,
+et solitudinem maris deserti, obsidionem quoque
+Edom, fugam et interitum Arabiae, excidium
+vallis Sion, subversionem etiam Tyri, sive quadrupedum.
+Sed figuraliter in visione Judae Synagoga
+projicitur, et Ecclesia Domino copulatur. In ruina
+Babyloniae confusio totius mundi superbiaque arguitur,
+et finis ejus monstratur. In vastitate Moab error
+<pb n="0166C"/>
+scientiae saecularis in silentium luctumque mutatur.
+</p>
+          <p>
+            <pb n="0167A"/> 45. In eversione Aegypti totius mundi idololatriae
+destruuntur, templique Domini aedificatio praedicatur.
+In contritione Philisthiim luctus eorum monstratur,
+qui abijciunt jugum Christi, et elevant se contra
+scientiam Dei. Porro per Damascum praedicatio gentium,
+et ruina ostenditur populi Judaeorum. Per
+onus maris deserti hujus saeculi tentatio declaratur,
+et quae illi ventura sunt ostenduntur.</p>
+        </div3>
+<div3>
+          <head>46.</head>
+          <p>
+ Per Idumaeam oritur sol justitiae gentium, et
+tenebrae veniunt populo Judaeorum. Per Arabiam
+praedicatur aqua baptismatis praebenda iis qui fugerunt
+gentium errores, vel eorum blasphemias. Per
+vallem Sion perditio praedicatur Jerusalem, et haereticorum,
+qui de sublimitate Ecclesiae ceciderunt.
+Per Tyrum gentibus praedicatur, ut, saeculi errore
+<pb n="0167B"/>
+deposito, ad Christum Dominum convertantur.
+</p>
+          <p> 47. Reliqua vero ejus vel de Christo, vel de Ecclesia
+gentium sunt, sive de consummatione mundi.
+Prophetavit autem annis ferme LXX, sub regibus
+quatuor Judae, ordine atque genere sibimet <emph>204</emph> 
+succedentibus, id est, Ozia, Joathan, Achaz, ad
+ultimum Ezechia: sub quo pars magna voluminis
+ejus usque ad calcem texitur prophetiae.</p>
+</div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Jeremia</hi> </head>
+<div3>
+          <head>48.</head>
+          <p>
+ Jeremias propheta, qui interpretatur <hi>excelsus
+Domini,</hi> simplex in loquendo, et ad intelligendum
+facilis; qui in omnibus dictis et passionibus suis
+Redemptoris nostri imaginem praetulit. Hic, postquam
+in typo Christi regna destruxit diaboli, justiaeque
+vel fidei aedificavit imperium, jubetur prophetare
+<pb n="0167C"/>
+super omnes gentes, Aegyptum videlicet et
+Palaestinos, Moab et Ammon, Edom et Damascum,
+et Cedar, et super regna Assur, necnon super Helan,
+et Babyloniam</p>
+        </div3>
+<div3>
+          <head>49.</head>
+          <p>
+ Inter haec autem videt virgam vigilantem divinae
+correptionis et potestatis. Ollam quoque succensam,
+id est, Judaicam plebem igne carnalium
+desideriorum ardentem. Aspicit et duos cophinos
+ficorum in praefiguratione duorum populorum.
+</p>
+          <p> 50. Descendit et in domum figuli, et videt diminutionem
+vasis prioris, et novi instaurationem ad
+designandum defectum prioris populi, et successionem
+futuri. Sumit etiam calicem supplicii, atque
+universis gentibus porrigit. Accipit et lumbare sub
+exemplo populi Judaeorum, atque putrefactum projicit
+<pb n="0167D"/>
+illud in dispersionem trans flumina gentium.
+Ostendit et calicem aureum Babylonis, per quem
+<pb n="0168A"/>
+inebriatus est mundus lethifero idololatriae haustu.</p>
+        </div3>
+<div3>
+          <head>51.</head>
+          <p>
+ Jubetur et projicere in Euphratem volumen
+lapidi alligatum, ad demonstrandum interitum Babylonis,
+vel figuraliter totius mundi. Increpat etiam
+delinquentes, et ad conversionem provocat.</p>
+        </div3>
+<div3>
+          <head>52.</head>
+          <p>
+ Ad ultimum plangit ruinam Jerusalem, templique
+excidium, et dispersionem gentis; quaeque
+non tantum praenuntiavit, sed etiam praesentia vidit.
+Exorsus est autem duodecimo anno Josiae regis Judae
+eo tempore quo et Olda mulier prophetiaque ejus
+per quatuor reges extensa est, sub Josia, et Eliacim,
+et Joacim, et <emph>205</emph> Sedecia, sub quo eversa est Jerusalem.
+Annis LXXII et tribus mensibus prophetavit,
+excepto illo tempore quo post eversam Jerusalem
+in Aegypto cum populo fuit.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Ezechiele.</hi> </head>
+
+<pb n="0168B"/>
+<div3>
+          <head>53.</head>
+          <p>
+ Ezechiel, qui in Latinum vertitur <hi>fortitudo Dei;</hi> 
+hic figurans typice Christum, stat juxta fluvium saeculi,
+et praeclara contuetur mysteria.</p>
+        </div3>
+<div3>
+          <head>54.</head>
+          <p>
+ Cernit similitudinem gloriae Dei, et quatuor
+animalia in similitudinem evangeliorum, et rotas se
+invicem continentes in typo testamentorum. Videt et
+aurigam, id est, Christum, deorsum igne judicii,
+sursum electri, id est, divinitatis fulgore rutilantem.
+Comedit quoque librum divinae legis, in quo scriptum
+est lamentum poenitentium, et carmen justorum, et
+vae eorum qui post peccatum poenitentiam non egerunt.
+</p>
+          <p> 55. Dehinc accipit laterem, in quo obsessa Jerusalem
+pictura describitur, vel in quo sub typo Christi
+<pb n="0168C"/>
+ejusdem Jerusalem, id est, totius Ecclesiae, quae
+est e latere Christi formata, mysteria describuntur.
+Capit et hic propheta somnium sinistri lateris, in
+typo mortis peccatorum, qui ad laevam positi aeterna
+supplicia sustinebunt: ac demum a sinistro in dextro
+latere dormire jubetur propter spem eorum qui per
+mutationem morum resurrectionis gloriam obtinebunt.
+Aspicit interea et duas virgas sibimet copulatas,
+in similitudinem circumcisionis, et gentium,
+sive aquilam sub Nabuchodonosor, velut Antichristi
+figura, magnis alis, et volucri celeritate totius mundi
+imperia occupantem.</p>
+        </div3>
+<div3>
+          <head>56.</head>
+          <p>
+ Plangit praeterea sub specie principis Tyri
+beatitudinem diaboli, quam amisit, et ruinam ejus
+magnam [ <hi>Forte,</hi> magna] cum lamentatione deplorat.
+<pb n="0168D"/>
+Ad ultimum, arundinem vel funiculum gestans metitur
+sub specie sanctorum mystice Jerusalem.
+</p>
+          <p>
+            <pb n="0169A"/> 57. Inter haec mystica subjicit quaedam moralia,
+falsos criminatur prophetas, atque speculatoribus
+praecipit ne reticeant malitiam. Quatuor etiam ultionum
+poenas peccatoribus praedicat, animasque redire
+ad corpora sua prophetat. Ostendit quoque unumquemque <emph>206</emph> 
+ pro se rationem Domino redditurum,
+nec in progeniem posse ultra diffundi labem paterni
+delicti.</p>
+<p> 58. Objurgat inter haec sub Oolla et Oolliba omnem
+turpitudinem Samariae et Jerusalem; nativitatemque
+objicit contumeliosam. Saepe etiam ad poenitentiam
+captivos provocat populos, et post praevaricationem
+admonet populum redire conversum. Hic
+autem aetatis suae anno 35, et captivitatis quinto in
+Chaldaea exsulans prophetavit: ibique vaticinium
+<pb n="0169B"/>
+consummavit.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Daniele.</hi> </head>
+<div3>
+          <head>59.</head>
+          <p>
+ Daniel, qui interpretatur judicium Dei, quique
+etiam de Christo cunctorum manifestior prophetarum
+est. Denique iste non solum venturum praedicavit,
+ut caeteri, sed etiam et tempus incarnationis et passionis
+per ordinem regum et numerum definivit annorum,
+ita ut potius non videatur futurum praedicere,
+sed quasi transacta narrare. Hic autem quatuor
+regnorum cernit frequentius visiones, eorumque differentias
+sub diversis imaginibus intromittit.
+</p>
+          <p> 60. De Antichristo quoque ostendit quod ipse sit
+cornu pusillum, id est, parvo tempore regnaturus, 
+ et, decem regibus subjugatis, solus postremis
+temporibus regnaturus.   De consummatione Jerusalem
+<pb n="0169C"/>
+vel mundi plura scribit, sive de die judicii,
+et regno sanctorum. In fine autem voluminis prophetiae
+suae Susannae historiam et Belis draconisque
+fabulas ponit.</p>
+        </div3>
+<div3>
+          <head>61.</head>
+          <p>
+ Hic autem liber apud Hebraeos Hebraicis quidem
+litteris, <emph>207</emph> sed Chaldaica lingua scriptus est.
+Prophetavit autem in Babylone, quando et Ezechiel.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Osee.</hi> </head>
+<p> 62. Osee propheta, qui intelligitur <hi>salvans,</hi> in duodecim
+prophetis primus, profundior reliquis in sententiis,
+<pb n="0170A"/>
+et operosior intellectu. Iste ad eas tribus quae
+vocantur Ephraim et Samaria, domum Joseph et
+Israel, loquitur, sed per Ephraim haereticos arguit,
+qui recedentes ab Ecclesiae unitate, participes facti
+sunt idolorum.</p>
+<p> 63. Per Samariam autem eorumdem haereticorum
+demonstrat figuram, qui praeceptorum Dei custodes
+esse mentiuntur, et sub praetextu veritatis mendacium
+colunt. Hic historialiter Judaeos in Christo ultimo
+tempore credituros pronuntiavit. Tertium quoque
+resurrectionis dominicae diem praedixit. Prophetavit
+autem in diebus Oziae regis Juda, sive Jeroboam regis
+Israel, quando et Isaias.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>De Joele.</hi> </head>
+<div3>
+          <head>64.</head>
+          <p>
+ Joel propheta, qui interpretatur <hi>incipiens.</hi> Iste,
+<pb n="0170B"/>
+ad Judam tantum et Jerusalem vaticinium proferens,
+in principio sui voluminis, post voluptuosa convivia ad
+luctum provocat Jerusalem, excidiumque ejus pronuntiat.
+Praedicat quoque vocationem gentium, et
+super congregatos credentes superventurum Spiritum
+sanctum. Prophetavit autem sub Joatham rege Juda,
+quando et Michaeas.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Amos.</hi> </head>
+<p> 65. Amos, qui interpretatur <hi>onus,</hi> vaticinavit in
+Samariam et Jerusalem, tria et quatuor scelera gentium
+sub totius mundi figura describens. Primum
+itaque scelus, quia omnes in Adam peccaverunt. Secundum,
+quia insitam naturae legem immemores
+rationis <emph>208</emph> non intellexerunt. Tertium quoque
+<pb n="0170C"/>
+eorum qui datae legi non obedierunt. Quartum inexpiabile
+eorum qui in Christo non crediderunt, pro
+quibus sceleribus intonat Dominus ignem, id est,
+sententiam aeterni judicii illaturum.</p>
+<p> 66. Hic autem adventum Christi sub dominica
+voce ita praedicat: <hi>Ego firmans tonitruum, et creans
+spiritum, et annuntians in hominibus Christum.</hi> Reliqua
+autem, quae de Amasia et Jeroboam, sive Israel
+loquitur, tropologice ad haereticos sunt referenda.
+Prophetavit autem sub rege Ozia, eo tempore quo
+Osee et Isaias.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>De Abdia.</hi> </head>
+
+<pb n="0171A"/>
+<p> 67. Abdias, qui interpretatur <hi>servus Domini,</hi> inter
+omnes prophetas brevior numero verborum, sed
+gratia mysteriorum aequalis. Iste contra Idumaeam
+loquens increpat mystice superbiam Edom, prioris
+videlicet populi audaciam, quod Jacob fratrem suum,
+id est, Christum ex Hebraeorum stirpe creatum occiderit.
+In monte autem <emph>209</emph> Sion, quae est Jerusalem,
+futuram salutem et Sanctum, qui est Christus,
+annuntiat, atque in monte Esau, per quem figuratur
+ecclesia gentium, futurum intonat Domino regnum.
+Prophetavit sub Josia rege Juda, quando et Michaeas.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Jona.</hi> </head>
+<p> 68. Jonas, qui interpretatur <hi>columba,</hi> tam sermone
+quam naufragio suo passionem Christi mortemque,
+<pb n="0171B"/>
+et resurrectionem, figurat, sive quod de navi in
+mare, tanquam de cruce in terram, projectus est,
+sive quod, in ventre ceti exceptus, tanquam in sepultura
+terrae tribus diebus ac noctibus reconditus
+est, vel quod in figura Ninive poenitentiam mundo
+praedixerit. In sequentibus autem typum gerit Judaeorum,
+qui salutem gentium, non tantum advenire
+noluerunt, sed dum venit, invisi [ <hi>Al.,</hi> invidi] sunt.
+Ninive quoque gentium significat speciem, Jonas
+vero in hoc loco Judaeorum.</p>
+<p> 69. Nam quemadmodum Ninivitarum salus ad
+aemulationem provocavit Jonam, ita redemptio gentium
+scandalum exstitit Judaeorum. Merito et contra
+Orientem civitatis sedisse legitur sub umbra hederae,
+quia eadem plebs separans se a salute Ecclesiae,
+<pb n="0171C"/>
+dolore tabida, contra Christum, id est, Orientem
+Ecclesiae, linguam suam movere nititur, sedens
+<pb n="0172A"/>
+sub umbra legis, quae umbra a verme arefacta est,
+quia, adveniente Christo, vetera transierunt, et ecce
+facta sunt omnia nova. Prophetavit autem sub Ozia
+rege Juda, quando et Osee, et Amos, et Isaias prophetaverunt.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>De Michaea.</hi> </head>
+<p> 70. Michaeas propheta interpretatur <hi>quis iste?</hi> 
+Comminatur Samariae iram Domini ob causam simulacrorum,
+interitumque populo Israel <emph>210</emph> venturum
+denuntiat. Locum etiam in quo nasceretur Christus
+demonstrat. Prophetavit autem sub Josia,
+quando et Sophonias.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Nahum.</hi> </head>
+<p> 71. Nahum, qui est <hi>consolator,</hi> simulacra gentium
+exterminanda pronuntiat, necnon urbem sanguinum
+<pb n="0172B"/>
+Jerusalem, post cujus interitum pedes annuntiantis
+pacem, id est, Salvatoris adventum proclamat.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Habacuc.</hi> </head>
+<p> 72. Habacuc, <hi>amplexans,</hi> sive <hi>luctator fortis,</hi> in
+principio voluminis sui describit diabolum cum
+membris ac moribus suis; in fine vero praenuntiat
+adventum passionemque Salvatoris.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Sophonia.</hi> </head>
+<div3>
+          <head>73.</head>
+          <p>
+ Sophonias, <hi>speculator mysteriorum Domini,</hi> et <hi>abscondens,</hi> 
+ cernit captivitatem urbis Jerusalem a
+Romanis futuram, per vocem clamoris a porta piscium,
+et per collium contritionem, id est, montis
+Sion, qui est collis Jerusalem; necnon et aliarum
+gentium eversionem praedicat, terroremque divini
+judicii intonat.
+<pb n="0172C"/>
+</p>
+        </div3>
+<div3>
+          <head>74. </head>
+          <p>
+Loquitur etiam contra Moab et Ammon, sed
+per ipsos tanquam finitimi populo Dei, et proximi
+<pb n="0173A"/>
+catholicis sacramentis, <emph>211</emph> haeretici arguuntur.
+Hic tertium diem resurrectionis Christi prophetat,
+atque in adventu Christi totum orbem sub uno jugo
+Domino serviturum annuntiat. Prophetavit autem
+sub Josia, quando et Jeremias.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Aggaeo.</hi> </head>
+<div3>
+          <head>75.</head>
+          <p>
+ Aggaeus, qui interpretatur <hi>solemnis.</hi> Hic in vaticinii
+sui textu templum Domini restaurandum praecepit,
+contritionem praedicat gentium, vel commotionem
+totius mundi praedicit, ac sub figura Zorobabel
+Christi vaticinatur adventum. Septuagesimo autem
+anno captivitatis populi prophetavit, duobus tantum
+mensibus Zachariam vaticinio suo praecedens.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Zacharia.</hi> </head>
+<p>
+          <pb n="0173B"/> 76. Zacharias, qui nominatur <hi>memoria Domini,</hi> 
+postquam jam Domini patribus prophetavit, vidit
+virum sedentem super equum rufum, in figura corporis
+Christi, roseum sanguine passionis, sive myrteta,
+gentium populum significantia; aspicit et cornua
+quatuor, sive fabros in figura gentium, quae Judam
+et Israel dispergentes, gravi pondere depresserunt.</p>
+<p> 77. Intuetur similiter et Jesum, sordibus carnis
+et mortalitate vestitum, quibus ablatis, indutum immortalitate
+et gloria. Cernit et lapidem, qui est
+Christus, septem habentem oculos, id est, septiformis
+spiritus plenitudinem. Inter haec intuetur torrem
+et titionem exstinctum, id est, diabolum. Candelabrum
+videt in figura Christi cum lucernis septem,
+quae sunt Ecclesiae; necnon et duas olivas, ad dexteram
+<pb n="0173C"/>
+et ad sinistram candelabri positas, duorum
+Testamentorum typum significantes.</p>
+<p> 78. Assumit quoque idem duas virgas funiculi et
+decoris in typo Judaeorum et gentium. Aspicit deinde
+duas mulieres, id est, haereticorum plebes, sive Judaeorum,
+in alis suis levantes amphoram, id est,
+diabolicam doctrinam, massamque plumbi, quod est <emph>212</emph> 
+ pondus peccati gravissimum, sive volumen
+volans, in quo peccata hominum et supplicia describuntur.</p>
+<p> 79. Videt et quadrigas quatuor, uno praedicationis
+evangelicae jugo currentes. Post hoc aspicit equos
+missos ad praedicationem mundi: primum rufum,
+passione martyrii. Secundum nigrum, squalore poenitentiae.
+Tertium album, candore baptismatis. Quartum
+<pb n="0173D"/>
+varium, expositione et doctrina fidei. Cernit
+quoque et tubas, sanctorum gestantes figuram, per
+quas Dominus mundo canit, atque angulum, in quo
+duo ex adverso populi conjunguntur, sive paxillum,
+figuraliter Christum, infixum in cordibus populorum,
+<pb n="0174A"/>
+describit et pastorem, Antichristum, opus et intentionem
+in sinistro habentem.</p>
+<div3>
+          <head>80.</head>
+          <p>
+ Equum quoque in figura plebis haereticorum,
+et ascensorem ejus diabolum. Praedicat etiam fontem
+in domo veri David, patentem in lavacro regenerationis.
+Alia quaecunque scribit, aut de adventu Domini,
+aut de ejus passione sunt, aut de saeculi fine,
+sive judicio. Prophetavit autem secundo anno Darii
+regis Medorum, iisdem temporibus quibus et Aggaeus,
+anno septuagesimo desolationis templi et captivitatis
+populi.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Malachia.</hi> </head>
+<p> 81. Malachias, qui interpretatur <hi>angelus Domini,</hi> 
+in principio vaticinii sui demonstrat odium Judaeorum
+in Esau, et dilectionem junioris populi in Jacob.
+<pb n="0174B"/>
+In sequentibus autem veteres Judaeorum victimas
+reprobat. Et sacrificium transferri ad gentes annuntiat.
+In fine vero adventum Domini, diem quoque
+judicii justorumque praemia, et impiorum poenas.
+Joannem etiam praedicat ante primum adventum
+Domini missum, et Eliam ante secundum adventum
+annuntiat esse mittendum.</p>
+<p> 82. Inter haec nonnulla moralia et disciplinis
+congruentia explicat, in quibus corripit populum,
+sive sacerdotes despicientes nomen Domini, atque
+ejus sacramenta pollutis oblationibus et sacrificiis <emph>213</emph> 
+ violantes. Praemonet etiam episcopos doctos,
+et sine macula esse debere, et citra personarum acceptionem
+populos veritatem instruere; discordes
+quoque arguit, decimas et primitias reddendas in
+<pb n="0174C"/>
+praedicatoribus a populis Ecclesiae praecipit.</p>
+<p> 83. Objurgat et eos qui conjuges suas despiciunt,
+et aliarum amore nectuntur. Similiter et illos qui,
+miseriam suam dolentes, felicitatem laudant eorum
+qui hujus mundi prosperis perfruuntur. Prophetavit
+autem novissimus in Babylone, quando Aggaeus et
+Zacharias.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Esdra.</hi> </head>
+<p> 84. Esdras scribit populum, expleto captivitatis
+tempore, imperante Cyro rege Persarum, in Jerusalem
+fuisse reversum; ac sub Zorobabel et Jesu
+filio Josedech, sacerdote magno, sive Nehemia, muros
+Jerusalem templumque et altare renovatum, jus
+quoque sacerdotum restitutum, et sanctae religionis
+cultum, multisque opibus gentium principumque
+<pb n="0174D"/>
+Persarum muneribus perornatum.</p>
+</div1>
+
+<div1>
+        <head> <hi>De Machabaeis.</hi> </head>
+<div3>
+          <head>85.</head>
+          <p>
+ Machabaeorum libri, licet non habeantur in
+canone Hebraeorum, tamen ab Ecclesia inter divinorum
+voluminum annumerantur historias. Praenotant
+<pb n="0175A"/>
+autem praelia inter Hebraeorum duces gentesque
+Persarum, pugnam quoque Sabbatorum, et nobiles
+Machabaei triumphos, foedus quoque amicitiarum
+cum Romanorum ducibus, actaque legationum.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De quatuor Evangeliis.</hi> </head>
+<p> 86. Evangeliorum praedicatio, quamvis quadrifaria
+sit, una est tamen, <emph>214</emph> quia ex uno eodemque
+ore Divinitatis processit. Haec sunt enim quatuor
+flumina, de uno paradisi fonte manantia, quae quadrupli
+unione decurrunt, ac per totum mundum
+coelestis praedicationis ministrant fluenta, gratiae ac
+fidei virorem infundunt.</p>
+<p> 87. Haec est illa in Zacharia quadriga Domini, in
+qua per omnem orbem evectus leni jugo colla sibi
+<pb n="0175B"/>
+cunctarum gentium subjicit. Hi sunt etiam, et quos
+sub quatuor animalium specie visio prophetalis descripsit,
+id est, hominis, leonis, bovis et aquilae.</p>
+<p> 88. Namque primus, scilicet Matthaeus, ut homo,
+ordinem humanae nativitatis designat. Secundus,
+scilicet Marcus, ad instar rugientis leonis statim in
+principio sui divinae potestatis fortitudinem intonat.
+Tertius, scilicet Lucas, victimam sacerdotis praemittens,
+quasi vituli mortem insinuat. Quartus, scilicet
+Joannes, more aquilae aspectans coelum, terram
+avidus transvolat, atque nativitatem verbi occulta
+mysterii intelligentia penetrat; sed ex his tria
+illa animalia, quae in terra gradiuntur, actualem vitam
+sequentes, ea tantummodo persecuti sunt quae
+homo Christus in terris temporaliter gessit. Quartum
+<pb n="0175C"/>
+autem animal contemplationis acie coelestia inspicit,
+et pauca operum, plurima divinitatis sacramenta
+digessit.</p>
+<p> 89.  Matthaeus itaque in principio regalem Christi
+sequens prosapiam, et moralem, tamen deinceps
+potius disciplinam secutus, pauca signorum et plura
+vivendi praecepta composuit. Item Marcus abbreviator
+Matthaei, ea quae in itinere ad rationem vitae
+regendae docebat Petrus, veloci stylo retexuit, gradiens
+pariter <emph>215</emph> inter Lucam atque Matthaeum,
+<pb n="0176A"/>
+plura tamen ex Matthaeo commemorat, non tantum
+rerum, sed et verborum ordinem servans.</p>
+<div3>
+          <head>90.</head>
+          <p>
+ Lucas vero historiae magis ordinem tenens,
+copiosius caeteris gestorum Christi virtutes enuntiat.
+Ad ultimum Joannes, naturalia explicans, transvolavit
+coelos, et angelos, Verbumque Dei reperit, et
+in principio fuisse annuntiavit.
+</p>
+          <p> 91. Ex his primus et ultimus ea praedicaverunt
+quae ex ore Christi audierunt, vel quae ab illo facta
+vel gesta audierunt. Reliqui medii duo ea tantummodo
+quae ab apostolis cognoverunt: quorum quidem
+Matthaeus Evangelium in Judaea primus scripsit,
+deinde Marcus in Italia, tertius Lucas in Achaia, ultimus
+Joannes in Asia. Ex quibus solus tantum Matthaeus
+praedicationis suae historiam Hebraico perstrinxit
+<pb n="0176B"/>
+stylo. Reliqui vero Graeci sermonis eloquio ediderunt.</p>
+</div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Epistolis Pauli.</hi> </head>
+<p> 92. Paulus apostolus quatuordecim Epistolis praedicationis
+suae perstrinxit stylum. Ex quibus aliquas propter
+typum septiformis Ecclesiae septem scripsit Ecclesiis,
+conservans potius nec excedens numerum sacramenti
+propter septiformem sancti Spiritus efficaciam. Scripsit
+autem ad Romanos, ad Corinthios, ad Galatas,
+ad Ephesios, ad Philippenses, ad Colossenses, ad
+Thessalonicenses, ad Hebraeos, reliquas vero postmodum
+singularibus edidit personis, ut rursus ipsum
+illum septenarium numerum ad sacramentum unitatis
+converteret.</p>
+<p> 93. Argumenta autem earumdem Epistolarum haec
+<pb n="0176C"/>
+sunt: imprimis Romanae plebis fidem collaudat; Corinthios
+gemina doctrina <emph>216</emph> castigat, apud Galatas
+per gratiam fidei excludit opera legis, Ephesios magnificat
+in fide, quam acceperunt; laudat Colossenses
+pro eo quod in fide perstiterunt; Philippenses
+Evangelium custodisse gratulatur; Thessalonicenses,
+in prima Epistola, fide crevisse et operibus, in secunda,
+persecutiones tolerasse fortiter gloriatur.</p>
+<div3>
+          <head>94.</head>
+          <p>
+ Instruit quoque per Timotheum et Titum Ecclesias.
+Philemonem de emendato servo Onesimo rogat.
+<pb n="0177A"/>
+Ad ultimum Hebraeos, qui in Christo crediderunt, et
+postmodum persecutionibus Judaicis territi a fide
+recesserunt, confortat, atque ad gratiam Evangelii
+revocat.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Epistolis beati Petri.</hi> </head>
+<div3>
+          <head>95.</head>
+          <p>
+ Petrus apostolus scripsit duas Epistolas, quae
+canonicae nominantur. Scripsit autem iis qui, ex circumcisione
+credentes, in dispersione gentium erant,
+quae quidem videntur quibusdam esse planiores;
+dum tam profundis repletae sint sensibus, ut per eas
+qui possunt perscrutari divinae scientiae sensum, quasi
+per breve quoddam receptaculum, magnas sententias
+et magna sibi mysteria revelari contueantur.
+</p>
+          <p> 96.  In prima autem Epistola scribit regenerationis
+potentiam, et prophetas, qui praenuntiaverunt
+<pb n="0177B"/>
+futuram Ecclesiae in passionibus tolerantiam.
+Admonet deinde pontifices in castitate vivere, et, ut
+parvulos, sine dolo manere. Demonstrat etiam sanctos
+lapides esse vivos, et populum acquisitionis, et
+regale sacerdotium. Inter haec popularibus bene vivendi
+ordinem instituit; hortatur mulieres subditas
+esse, cultuque pretioso non incedere, viros quoque
+ad modicum uxoribus adhaerere, orationem frequentare,
+et cum omnibus unanimiter vivere. Praeterea
+scribit arcae mysterium, sive baptismi sacramentum,
+per quod homo a mundi actibus liberatur.</p>
+        </div3>
+<div3>
+          <head>97.</head>
+          <p>
+ Imperatque fidelibus solius divinae voluntatis
+obedire praeceptis, nec ultra carnis inservire desideriis.
+Docet etiam clerum ac populum sibi ministrare
+<pb n="0177C"/>
+vicissim, passionesque Christi nullum pavescere;
+et de domo Dei inchoare judicium, et coronari
+sanctos, <emph>217</emph> mansuetudinem quoque et humilitatem
+alternam invicem admonet observare, insidiasque
+diaboli omni sollicitudine praecavere, adjiciens
+omne opus bonum incipientis per Deum ad consummationem
+perduci.
+</p>
+          <p> 98. In secunda autem Epistola alloquitur fideles,
+in hoc mundo quasi interfectos, atque exhortatur
+omnes de pejoribus ad meliora transire. Scribit etiam
+justorum memorias refovendas, memoratque pseudoprophetas
+utriusque Testamenti, qui sunt magistri
+mendacii. Deinde infert diluvii exemplum ad signandum
+interitum impiorum, et eorum qui, voluptatibus
+peccatorum injecti, servi corruptionis effecti
+<pb n="0177D"/>
+sunt.</p>
+        </div3>
+<div3>
+          <head>99.</head>
+          <p>
+ Scribit etiam abundare novissimis temporibus
+derisores, et apud Deum mille annos unum diem haberi
+praedicat. Inter haec resurrectionem elementorum,
+novitatemque coeli et terrae. Ad extremum de
+Epistolis Pauli loquitur, quas cum quidam indocti
+non intelligunt, pravo eas sensu evertunt.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Epistola beati Jacobi.</hi> </head>
+
+<pb n="0178A"/>
+<div3>
+          <head>100.</head>
+          <p>
+ Jacobus frater Domini scripsit unam Epistolam,
+ad aedificationem Ecclesiae pertinentem, cujus
+sententiae immensam scientiae claritatem legentibus
+videntur infundere.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Epistolis beati Joannis.</hi> </head>
+<div3>
+          <head>101.</head>
+          <p>
+ Joannes apostolus tres scripsit Epistolas, quarum
+prima, officium charitatis commendans, tota in
+amore Dei et fraterna dilectione versatur.
+</p>
+          <p> 102. Secunda quoque, quam Electae dominae scripsit,
+dilectionis hortatur studium; denotat etiam seductores,
+et ab haereticis admonet declinandum. <emph>218</emph>
+</p>
+        </div3>
+<div3>
+          <head>103.</head>
+          <p>
+ Tertiam autem Caio scribit, in qua collaudat
+eum in studio veritatis et opere misericordiae;
+deinde denotat proterviam cujusdam Diotrepis, et Demetrio
+<pb n="0178B"/>
+testimonium perhibet veritatis.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Epistola sancti Judae apostoli.</hi> </head>
+<div3>
+          <head>104.</head>
+          <p>
+ Judae Epistola increpat blasphemantes in Christo,
+et quosdam impudicos sub exemplo impiorum,
+qui per superbiam et luxuriam sempiternis ardoribus
+traditi sunt, pro quibus admonet Ecclesiam ut eos
+arguat, et ad poenitentiam cohortetur.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Actibus apostolorum.</hi> </head>
+<div3>
+          <head>105.</head>
+          <p>
+ Apostolorum historia nascentis Ecclesiae fidem
+opusque describit, cujus quidem scriptor Lucas
+evangelista monstratur. Continet autem ea quae in
+Judaea vel gentibus per gratiam Spiritus sancti, tam
+a Petro quam ab aliis apostolis, et specialiter a Paulo,
+operata vel gesta sunt.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head> <hi>De Apocalypsi.</hi> </head>
+<p>
+          <pb n="0178C"/> 106. Joannes, postquam scribere septem jubetur
+Ecclesiis, aspicit filium hominis sedentem in throno,
+et viginti quatuor seniores, et quatuor animalia procedentia
+ante thronum, in dextera quoque sedentis
+librum septem sigillis signatum, in quo bellum, egestas,
+mors, clamor interfectorum, finis quoque mundi
+notatur et saeculi.</p>
+<div3>
+          <head>107.</head>
+          <p>
+ Describit deinde duodena millia servorum
+Dei, qui signantur in frontibus; ibi septem angeli
+tubis canunt sequenti grandine et igne cum sanguine
+in terra. Tertia quoque pars terrae ibi comburitur, et
+tertia pars maris sanguis efficitur; astraque ipsa rutilantia
+tertiam fulgoris partem amittunt; ibi de
+fumo putei locustae producuntur daemoniorum, accipientes
+potestatem laedendi qui non sunt agni cruore
+<pb n="0178D"/>
+signati.</p>
+        </div3>
+<div3>
+          <head>108.</head>
+          <p>
+ Praeterea comedit Evangelista librum Testamenti
+oris praedicatione suavissimum, et operis difficultate
+amarum. Metiturque coeleste templum, describitque
+verba viginti quatuor seniorum, <emph>219</emph> et arcam
+Testamenti, ac mulierem amictam sole, pugnamque
+in coelis Michaelis cum dracone, ruinamque draconis.
+<pb n="0179A"/>
+Conspicit praeterea et Antichristi figuram, habentem
+capita regni septem, et cornua potestatis, et numerum
+nominis.
+</p>
+          <p> 109. Narrat inter haec et canticum Testamenti novum,
+speculaturque angelos gestantes pateras, cernitque
+similiter interitum bestiae, et beatitudinem
+eorum qui corporis sui vestimenta absque carnis voluptate
+<pb n="0180A"/>
+munda servaverunt. Exsequitur deinde interitum
+meretricis Babyloniae, et nuptias Agni, adventum
+judicii, interitumque Antichristi, et sempiternam
+punitionem diaboli. Ad ultimum memorat resurrectionem
+mortuorum, coelique novitatem, et terrae,
+descriptionemque Jerusalem, flumen etiam baptismi
+mundum, lignumque vitae Dominum Jesum Christum.
+</p>
+</div3>
+      </div1>
+</body>
+  </text>
+</TEI>

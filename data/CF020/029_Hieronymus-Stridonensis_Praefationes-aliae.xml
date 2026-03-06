@@ -1,0 +1,242 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Praefationes aliae</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 29</title>
+           <idno>HieStr.PraAli</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<note>
+        <div1>
+          <head>ADMONITIO J. MARTIANAEI IN DUAS SEQUENTES PRAEFATIONES S. HIERONYMI.</head>
+<p> <hi>Praeter volumina Jobi ac Davidis a nobis jam edita, periere caeteri libri sacri, quos Hieronymus de Graeco
+diligentissime emendatos, additis insuper</hi> obelis <hi>et</hi> asteriscis, <hi>linguae suae studiosis hominibus, id est, Latinis
+tribuerat. Supersunt tantum duae Praefatiunculae, quae libris Paralipomenon ac Salomonis erant affixae ad declarationem
+ejus, quod Hieronymus praestiterat in hujusmodi translationibus ex Graeco Latinis. Faxit Deus, ut
+aequalem habeant illi libri sortem cum Jobi volumine, quod excepta ejusdem praefatione ineditum ad nos usque
+jacebat in tenebris, nunc autem integrum ac immaculatum in lucem prodiisse gaudemus. Id ipsum equidem de
+Paralipomenis et operibus Salomonis sperare nobis liceret, si plures essent ac diligentes Scripturarum indagatores,
+qui labore improbo vetera sacrorum Bibliorum evolverent monumenta in antiquis Ecclesiarum archivis ac
+Bibliothecis. Hortamur itaque etiam atque etiam studiosos omnes, ut si qui sint penes ipsos manuscripti codices
+sacri, diligenter cum editis eos conferre non graventur. Ex hac enim contentione facile deprehenditur, supersint
+etiamnum, necne Hieronymi versiones Latinae juxta</hi> LXX, <hi>maxime si intra sacrum contextum signa obelorum
+et asteriscorum legentibus occurrerint. O felicem aetatem nostram, si post editum Canonem Hebraicae veritatis,
+translationes quoque universae ab Hieronymo concinnatae ad Graecos in integrum restituerentur! Quaeramus
+igitur quicumque utilitatis publicae curiosi sumus, aperiet forsan thesauros adhuc reconditos ille, qui dixit:</hi> 
+Quaerite, et invenietis.</p>
+<p> <hi>Caeterum in superstite praefatione ad Paralipomena, in primis notandum venit, Hieronymum non ex Graecis
+exemplaribus, sed ex Hebraeo emendasse hunc librum. Assumpto namque legis doctore apud Judaeos inclyto,
+totum volumen Paralipomenon cum eo contulit a vertice usque ad extremum unguem, quod liber ille Nominum
+in Graecis et Latinis codicibus ita scriptorum vitio fuisset depravatus, ut non tam Hebraea quam Barbara quaedam
+ac Sarmatica nomina haberet conjecta. Hinc necesse erat adhaesisse Hebraeorum fontibus, ubi nomina isthaec
+distinctis intervallis posita, suisque syllabis apposite descripta leguntur. Deinde etiam illud attendendum, quod
+cum Hieronymus undiqueversum ex suis praefatiunculis testimonia collegerit ad retundendam Rufini reprehensionem,
+qua S. Doctorem invidiae erga Septuaginta Interpretes calumniator insimulabat, nihil tamen hujus prologi
+replicat in suae Apologiae posteriori libro, ad cujus finem citatae reperiuntur omnes praefationes veteris Instrumenti.
+Cur hoc acciderit, necdum bene novimus: nisi conjectare utcumque liceat cum Erasmo, Hieronymum
+non ex sua sententia dixisse,</hi> Septuaginta Interpretes plenos fuisse Spiritu sancto, <hi>et in libris sacris multa
+addidisse</hi> ob auctoritatem Spiritus Sancti: <hi>sed id tribuisse animo Domnionis et Rogatiani familiarium suorum,
+apud quos tantum pondus habebant forte exemplaria</hi> LXX <hi>Interpretum. Quidquid sit de hac Erasmi conjectura,
+certum exstat, S. Hieronymum negare aliis sexcentis locis, Spiritu Sancto movente, editam fuisse Versionem
+Graecam Septuaginta, quia</hi> aliud est, <hi>inquit prologo in Genesim,</hi> vatem, aliud est esse interpretem. Ibi spiritus
+ventura praedicit, hic eruditio et verborum copia, ea, quae intelligit, transfert. <hi>Et iterum:</hi> Aut aliter de
+eisdem libris per Septuaginta Interpretes, aliter per apostolos Spiritus sanctus testimonia texuit, ut quod
+illi tacuerunt, hi scriptum esse mentiti sint. <hi>Haec adversus Rufinum afferens in suo Apologiae libro secundo,
+non potuit ibidem verba subsequentis praefationis in Paralipomena replicare ad suam defensionem; quin illico
+stultitiae argueretur in causa</hi> LXX <hi>Interpretum, de quibus tam contraria et invicem sibi pugnantia scripsisset.
+Prudenter itaque reticet quod olim animo ac salivae Domnionis tribuerat, apud quem summa forte ea fuit auctoritas
+editionis</hi> LXX, <hi>sed salvo semper honore Hebraei styli, ut et apud omnes alios hujus temporis ecclesiasticos
+viros, qui utramque auctoritatem, Hebraeorum scilicet, Graecorumque librorum, divinam esse fatebantur.</hi> </p>
+<p> <hi>Jam quod spectat prologum in libros Salomonis, illud ante nos monuit Leander de S. Martino, eam praefationem
+impressam fuisse in omnibus editionibus Glossae ordinariae: ab Erasmo autem et a Reatino episcopo praetermissam
+in collectione operum S. Hieronymi: quamvis genuinus sit fetus ejusdem Sancti Doctoris, uti ex
+argumento praefatiunculae, sententiis, et modo scribendi prorsus Hieronymiano scire nobis licet. Verum pars ultima
+hujus prologi manifestissime supposititia viro erudito nimium imposuit, cum suis annotationibus eam illustrans
+S. Hieronymo ascribere conatur. Poterat utique fraudem agnoscere ex incongruo sensu, quem verba addititiae
+partis efficiunt in hoc prologo: neque enim Hieronymo scribenti ullatenus conveniunt, ut infra planum fit
+in scholiis nostris ad hunc locum praefationis jam dictae. Porro edendam in fine primae partis Divinae Bibliothecae
+praefatiunculam spopondimus in notis, sed mutato deinceps consilio, in calce hujus secundae partis ejusdem
+Bibliothecae Divinae eam collocare satius duximus.</hi> 
+<pb n="0401"/>
+          </p>
+</div1>
+      </note>
+
+<div1>
+        <head> PRAEFATIO HIERONYMI IN LIBRUM PARALIPOMENON JUXTA LXX INTERPRETES.</head>
+
+<pb n="0401"/>
+<p>
+          <emph>Eusebius Hieronymus Domnioni et Rogatiano suis in Jesu salutem.</emph>
+        </p>
+<p>
+          <pb n="0401A"/> Quomodo Graecorum historias magis intelligunt,
+qui Athenas viderint, et tertium Virgilii librum, qui
+a Troade per Leucaten, et Acroceraunia ad Siciliam,
+et inde ad ostia Tiberis navigarint: ita sanctam
+Scripturam lucidius intuebitur, qui Judaeam oculis
+contemplatus est [ <hi>Al.</hi> sit], et antiquarum urbium memorias,
+locorumque vel eadem vocabula, vel mutata
+cognoverit [ <hi>Al.</hi> cognoverunt]. Unde et nobis
+curae fuit, cum eruditissimis Hebraeorum hunc laborem
+subire, ut circumiremus provinciam, quam universae
+Christi Ecclesiae sonant. Fateor enim, mi
+Domnion, et Rogatiane charissimi, numquam me in
+divinis voluminibus, propriis viribus credidisse, nec
+habuisse magistrum [ <hi>Al. tac.</hi> magistrum] opinionem
+meam, sed ea etiam de quibus scire me arbitrabar,
+<pb n="0401B"/>
+interrogare me solitum: quanto magis de his
+super quibus anceps eram? Denique cum a me nuper
+litteris flagitassetis, ut vobis librum Paralipomenon
+Latino sermone transferrem, de Tiberiade Legis
+quondam doctorem, qui apud Hebraeos admirationi
+habebatur, assumpsi: et contuli cum eo a vertice,
+ut aiunt, usque ad extremum unguem: et sic confirmatus,
+ausus sum facere quod jubebatis. Libere
+<pb n="0402A"/>
+enim vobis loquor, ita et in Graecis et Latinis codicibus
+hic nominum liber vitiosus est, ut non tam
+Hebraea quam Barbara quaedam, et Sarmatica nomina
+congesta [ <hi>Al.</hi> conjecta] arbitrandum sit. Nec
+hoc Septuaginta Interpretibus, qui Spiritu sancto
+ pleni, ea quae vera fuerant, transtulerunt, sed
+scriptorum culpae ascribendum, dum de inemendatis
+[ <hi>Al.</hi> emendatis] inemendata scriptitant: et saepe tria
+nomina, subtractis e medio syllabis, in unum vocabulum
+cogunt, vel e regione unum nomen, propter
+latitudinem suam, in duo, vel tria vocabula dividunt.
+Sed et ipsae appellationes, non homines, ut plerique
+aestimant [ <hi>Al.</hi> existimant], sed urbes, et regiones, et
+saltus, et provincias sonant, et oblique sub interpretatione
+ et figura eorum, quaedam narrantur historiae:
+<pb n="0402B"/>
+de quibus in Regnorum libro dicitur, <hi>Nonne
+ecce haec scripta sunt in libro Verborum Dierum regum
+Juda?</hi> Quae utique in nostris codicibus non habentur.
+Hoc primum sciendum, quod apud Hebraeos,
+Paralipomenon liber unus sit: et apud illos, vocetur
+[ <hi>Al.</hi> vocatus] DABRE JAMIM, id est, <hi>Verba Dierum:</hi> 
+qui propter magnitudinem, apud nos divisus
+est, quod nonnulli etiam in Bruto, Ciceronis dialogo,
+<pb n="0403A"/>
+faciunt, ut eum in tres partes secent, cum
+ unus a suo auctore sit editus. Deinde etiam illud
+attendendum, quod frequenter nomina, non vocabula
+hominum, sed rerum, ut dixi, significantias sonent
+[ <hi>Al.</hi> sonant]. Ad extremum, quod omnis eruditio
+Scripturarum in hoc libro [ <hi>Al. tac.</hi> libro] continetur:
+et historiae vel quae [ <hi>Al.</hi> quae vel] praetermissae
+sunt in suis locis, vel perstrictae leviter, hic
+per quaedam verborum compendia explicentur. Orationum
+itaque vestrarum adjutus auxilio, misi librum
+benevolis placiturum: tamen invidis displiciturum
+esse non ambigo. Optima enim quaeque, ut ait Plinius,
+malunt contemnere et invidere plerique, quam
+<pb n="0404A"/>
+discere. Si quis in hac interpretatione voluerit aliquid
+reprehendere, interroget Hebraeos, suam conscientiam
+recolat, videat ordinem textumque sermonis,
+et tunc nostro labori, si potuerit, detrahat.
+Ubicumque ergo asteriscos, id est, stellas + radiare
+in hoc volumine videritis, ibi sciatis de Hebraeo
+additum quod in Latinis codicibus non habetur.
+Ubi vero obelus, transversa scilicet virga ÷,
+praeposita est, illic signatur quid Septuaginta Interpretes
+addiderint, vel ob decoris gratiam, vel ob
+Spiritus sancti auctoritatem, licet in Hebraeis voluminibus
+non legatur.
+<pb n="0403"/>
+</p>
+      </div1>
+
+<div1>
+        <head> PRAEFATIO HIERONYMI IN LIBROS SALOMONIS JUXTA LXX INTERPRETES.</head>
+<p>
+          <pb n="0403C"/>Tres libros Salomonis, id est, Proverbia, Ecclesiasten,
+Canticum Canticorum, veteri Septuaginta
+Interpretum auctoritati reddidi, vel antepositis lineis,
+÷ superflua quaeque designans, vel stellis + titulo
+praenotatis, ea quae minus habebantur, interserens:
+quo plenius, o Paula et Eustochium, cognoscatis
+quid in libris nostris minus sit, quid redundet. Nec
+non etiam illa, quae imperiti Translatores male in
+linguam nostram de Graeco sermone verterant,
+<pb n="0404C"/>
+oblitterans et antiquans, curiosissima veritate correxi.
+Et ubi praepostero ordine atque perverso, sententiarum
+fuerat lumen ereptum, suis locis restituens,
+feci intelligi quod latebat. Porro in eo libro,
+qui a plerisque Sapientia Salomonis inscribitur, et
+in Ecclesiastico, quem esse Jesu filii Sirach, nullus
+ignorat, calamo temperavi: tantummodo Canonicas
+Scripturas vobis emendare desiderans, et studium
+meum certis, magis quam dubiis commendare.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

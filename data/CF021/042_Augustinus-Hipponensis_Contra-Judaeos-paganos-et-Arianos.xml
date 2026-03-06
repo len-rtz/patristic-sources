@@ -1,0 +1,1257 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Contra Judaeos paganos et Arianos</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 42</title>
+           <idno>AugHip.CoJuPaE</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<note>
+        <div1>
+          <head>ADMONITIO IN SUBSEQUENTEM SERMONEM.</head>
+<p>Iste quoque sermo sub Arianorum dominatu habitus est, eo tempore quo haereticis illis disputantibus, et Catholicos,
+alios pollicitatione ac praemio, alios vi potentiaque deducere a fide nitentibus obsistere nullus audebat. <hi>Magnus tibi videris,</hi> 
+ ait concionator, cap. 7, <hi>quia disputas nullo tecum altercante, nullo judice praesidente. Et dum
+suffragatur tempus errori tuo, existimas te aliquid esse, cum nihil sis: et seductus multos seducere concupiscis, aliquos
+pecunia, aliquos potentia.</hi> Id confer cum superiore sermone, cap. 7, quo etiam loco, nempe supra, col. 1115, lin.
+11, Arianorum Ecclesiam <hi>speluncam</hi> dictam, ut hic cap. 22, observabis. De implenda professione renuntiationis
+baptizati admonentur capp. 3 et 4, non secus atque in subdititiis sermonibus de Symbolo ad Catechumenos in
+tomo 6. Alia loca illis, vel superiori sermoni similia praeterimus. Multa porro sunt delibata ex Augustino:
+illud cap. 18, <hi>Numquid si magicis artibus fecit ut coleretur mortuus, magus erat antequam natus?</hi> est libri 1 de
+Consensu Evangelistarum, cap. 11. Item illud cap. 13, <hi>Quid est, In medio duum animalium cognosceris, nisi
+aut in medio duorum Testamentorum, aut in medio duorum latronum, aut in medio Moysi et Eliae cum eo in monte
+sermocinantium?</hi> ductum est ex libri 18 de Civitate Dei capite 32. Inde etiam, cap. 23, translati huc Sibyllini
+versus. Cum Gregorio in Evangel. homil. 33, id usurpat concionatur in sermonis exordio, <hi>Cum potius expediat
+flere magis quam aliquid dicere.</hi> Itemque alia quaedam cap. 17 habet cum ejusdem homil. 10 in Evang. convenientia.
+In cap. 15 dicit Virgilium poetam versu illo,
+<l>Jam nova progenies coelo demittitur alto,</l>
+testimonium Christo perhibuisse: quod Augustinus in epistola 104 ad Nectarium, n. 11, longe verius appellat <hi>carmen adulatorium, dictum viro nobili,</hi> 
+ scilicet Pollioni. Dictionis barbariem monstrat Bernardus Vindingus in
+Critico Augustiniano, et nonnulla velut inepta reprehendit, sed quae editionum erant vitia, correcta hic ex
+Remigiano annorum octingentorum codice, in quo inscribitur <hi>Sermo sancti Augustini de Symbolo;</hi> ex Vaticanis
+tribus, ex uno Bellovacensi abbatiae S. Quintini, ex Corbeiensi, etc.</p>
+
+
+<div2>
+            <head>CAPUT PRIMUM.</head>
+<p> <hi>Christianae vigiliae.</hi> Inter pressuras
+atque angustias praesentis temporis et nostrae
+officia servitutis cogimur, dilectissimi, non tacere,
+cum potius expediat flere magis quam aliquid dicere:
+verumtamen ne quid minus lucri areae dominicae accedens,
+dicatur nobis, <hi>Serve nequam et piger, tu erogares
+pecuniam meam, et ego veniens cum usuris exigerem
+eam <note>(Matth. XXV, 26, 27)</note>
+              </hi>: peto Charitatem
+vestram, ut quae ipse paterfamilias per nos vobis ministraverit,
+libenter accipere dignemini: Apostoli
+verba sunt, <hi>Nox praecessit, dies autem appropinquavit:
+deponentes ergo opera tenebrarum induite vos arma lucis <note>(Rom. XIII, 12)</note>
+              </hi>.
+Expulsa itaque noctis caligine, effugatisque
+tenebris peccatorum, radius veri luminis
+fulgeat in cordibus nostris. Exigit enim a nobis ratio
+hujus tantae congregationis, et noctis transactae vobis
+reddere rationem, et istius diei de tanto sacramento
+percepto veram sempiternamque demonstrare salutem.
+Si enim opera transactae noctis consideremus,
+et quid egerimus, Domino donante, explicare valuerimus;
+inveniemus nos in nocte, non opera noctis,
+sed diei peregisse. Neque enim delectatione somni
+sopitos sensus nostros agnovimus, nec phantasmatibus
+animas nostras illusas, nec ipsa corpora stramentorum
+calore depressa in alto sopore requies inclinavit:
+sed vigilando, orando, psallendo, contra
+adversarium diabolum dimicando, et magnam lucem
+infusam cordibus nostris sensimus, et in nocte opera
+diei peregimus. Quid enim egimus in hac nocte? Diabolum
+fugavimus, Christum introduximus. Quid egimus
+in hac nocte? Captivatorem captivavimus. Quid
+egimus in hac nocte? Tenebras diabolicas de cordibus
+vestris exclusivimus, lumen verum hauriendum esse
+demonstravimus. Quid actum est in hac nocte? Veniens
+vera fortitudo alligavit fortem, et vasa domus
+ejus diripuit <note>(Matth. XII)</note>. Quid actum est in hac nocte?
+Exstirpata est superbia, introducta est humilitas.
+Quid actum est in hac nocte? Princeps omnium vitiorum
+expulsus est, fons omnium bonorum susceptus
+est. Videtis, dilectissimi, quae bona habeatis praeparata,
+et ex quo onere, vel ex quibus sarcinis peccatorum
+relevamini ab isto qui vos vocat ut suscipiatis
+jugum ejus lene, et sarcinam ejus levem <note>(Id. XI, 29)</note>: <hi>Deponentes itaque opera tenebrarum, induite vos arma
+lucis.</hi> 
+ Quid sit hoc, ex verbis Symboli quod modo
+accepistis, vobis expositum esse cognoscite. Quid est, <hi>Deponite opera tenebrarum;</hi> 
+ nisi, Renuntiate diabolo,
+pompis, et angelis ejus? Et quid est, <hi>Induite vos arma
+lucis;</hi> nisi, Credite in Deum Patrem omnipotentem?</p>
+</div2>
+
+<div2>
+            <head>CAPUT II.</head>
+<p> <hi>Diabolus qui sit.</hi> Prius tamen, dilectissimi,
+discutiamus, qui sit, vel quid sit diabolus, et
+quae sint pompae ejus, quibus renuntiantes, opera
+deponimus tenebrarum: tunc demum, de Deo Patre
+omnipotente, qui est vera lux, quantum ipse donaverit,
+Charitati vestrae dicemus. Quid est diabolus?
+Angelus per superbiam separatus a Deo, qui non stetit
+in veritate, auctor mendacii, et a semetipso deceptus,
+qui alterum decipere concupivit. Iste adversarius
+effectus humani generis, inventor mortis,
+superbiae institutor, radix malitiae, scelerum caput,
+princeps omnium vitiorum, persuasor etiam turpium
+voluptatum. Hic dum illum primum, Adam scilicet,
+<pb n="1118"/>
+patrem omnium nostrum intueretur, videretque hominem
+ex limo terrae ad imaginem Dei factum, pudicitia
+ornatum, temperantia compositum, charitate
+circumdatum, immortalitate vestitum, aemulus atque
+invidus haec hominem terrenum accepisse, quod ipse
+dum esset angelus per superbiam cognoscitur amisisse,
+invidit statim insatiabilis homicida, eosque nostros
+primos parentes illis donis ac tantis bonis exspoliavit,
+insuper et peremit. Namque, dilectissimi, cum
+tanta bona homini diabolus abstulisset, pudicitiam,
+continentiam, charitatem, immortalitatem, eumque
+nudatum ac turpem reddidisset, obsitum suis pannis
+deridens eum, suo dominio obstrinxit, atque ex illo
+vinculo omnem prolem ejus sibimet obligavit. Turpes
+enim pannos suscepit Adam, quando a diabolo exspoliatus
+pudicitia, accinctus est impudicitia; amissa temperantia,
+intemperans effectus est; perdita charitate,
+malus inventus est; exspoliatus immortalitate, morti
+propinatus est. Heu! quid perdidit, et quid accepit!
+Ad hos etiam turpissimos pannos suos posteros
+obligavit.</p>
+</div2>
+
+<div2>
+            <head>CAPUT III.</head>
+<p> <hi>Renuntiare satanae, quid.</hi> Renuntiemus
+huic damnosae haereditati: pupilli effecti sumus.
+Antequam exactor veniat, tam pessimae haereditati,
+in qua sunt panni diaboli, pompae scilicet et angelis
+ejus si quis renuntiare neglexerit; cum judex venerit,
+sicut Evangelium loquitur, tradetur debitor exactori,
+exactor autem debitorem in carcerem trudet. <hi>Amen
+dico tibi,</hi> ait Dominus, <hi>non exies inde, donec reddas
+novissimum quadrantem <note>(Matth. V, 26)</note>
+              </hi>. Omne itaque
+genus humanum tanquam pauperem et pupillum commendat
+Scriptura divina, dicens Deo, <hi>Tibi derelictus
+est pauper, pupillo tu eris adjutor.</hi> Ejusque adversarium
+diabolum demonstrans, secutus adjunxit, <hi>Contere
+brachium peccatoris et maligni <note>(Psal. IX, 14, 15,
+sec. Hebraeos)</note>
+              </hi>. Adsit itaque aliquis homo pius, et aliquam
+misericordiam huic pupillo et pauperi exhibeat.
+Ferocem enim atque callidum adversarium patitur, et
+hic pupillus in causa sua deficit; quoniam eum suus
+adversarius pravis actibus obligavit. Adhibeamus huic
+pupillo idoneos defensores, et Apostolorum tanquam
+jurisperitorum coelestium ei patrocinium subrogemus.
+Quid est agendum apud tales pro tali? Apud
+vos itaque, Petre, Paule, Joannes, caeterique sancti
+consiliarii veri judicis, amici summae potestatis, causam
+exponimus, quam optime nostis, hujus pauperis
+et pupilli, generis scilicet humani, qui ex paterno chirographo
+debitor inventus reus, atque constrictus ab
+adversario detinetur: non est aliud, quemadmodum
+huic subveniatur, nisi ex vestro consilio. Quid itaque
+in hoc negotio vestrae serenitati videatur pro hujus
+miseri libertate, ex communi tractatu unitam pro eo
+dignamini proferre sententiam. Et vos enim astrinxerat
+haec obligatio, nisi vobis gratia subveniret. Liberati
+ liberate: consilium quod a vero judice accepistis,
+promite; ut hoc sequatur qui captivus detinetur,
+atque ex mala servitute per vestram defensionem ad
+veram perveniat libertatem. Et haec est vox omnium.
+<pb n="1119"/>
+Quod fecimus faciat. Quid, obsecro, facturus est? Renuntiet
+diabolo, pompis et angelis ejus: haec est illa
+damnosa haereditas, cui renuntiare compellimur. Videtis,
+dilectissimi, qualem sententiam protulerunt
+nostri defensores.</p>
+</div2>
+
+<div2>
+            <head>CAPUT IV.</head>
+<p> <hi>Relapsus a Baptismo.</hi> Vigilet itaque
+unusquisque, ne non ex toto renuntians post
+professionem, apud cum diabolus suos pannos recognoscat:
+et incipiat reus semper detineri, quem
+Christus voluit sua gratia liberare. Nec sibi blandiantur,
+qui post gratiam acceptam corrigi nolunt,
+atque rursus ad illas suas pristinas redeunt voluptates.
+Exspectatur enim dies judicii, aderit ille
+aequissimus judex, qui nullius potentis personam accipiet,
+cujus palatium auro argentove nemo corrumpet.
+Astabunt omnes animae, ut referat unaquaeque
+secundum ea quae per corpus gessit, sive bonum, sive
+malum <note>(II Cor. V, 10)</note>. Praesto enim erit et adversarius
+diabolus; recitabuntur verba professionis nostrae. Et
+si talis inventus fuerit quisque, ut debitor ex hac vita
+migret; exsultabit ille adversarius in conspectu severissimi
+ judicis, superiorem se esse clamans, agens
+talem causam apud talem judicem: Aequissime, inquit,
+judex juste, judica: <hi>Justitia et judicium praeparatio
+sedis tuae <note>(Psal. LXXXVIII, 15)</note>
+              </hi>. Judica meum esse, qui
+tuus esse noluit: meus est, mecum damnandus est.
+Post renuntiationem utquid invasit pannos meos?
+Quid apud eum impudicitia faciebat, cui ipse renuntiaverat?
+Quid intemperantia, quid avaritia, quid ira,
+quid superbia, quid caetera mea? Postremo, aequissime:
+fugientem a me, confugientem ad te, postea cum
+meis quibus renuntiaverat apprehendi, invasorem detinui:
+in ipsa quodam modo mea possessione a me
+apprehensus est. Quid enim in circo faciebat, atque
+ibi furias, lites, insanas voces, inanesque victorias,
+tum jam a se alienas sibimet dividebat? Quid in theatro
+faciebat renuntiator turpium voluptatum? Quid in
+amphitheatro crudelitates suis oculis intuendo? Thesaurizavit
+sibi iram in die irae <note>(Rom. II, 5)</note>. Haec omnia
+mea post renuntiationem invasit, meus esse voluit, et
+mea concupivit. Judica, judica aequissime: quoniam
+quem tu dignatus es tanto pretio liberare, ipse mihi
+se postmodum voluit obligare. Poterit, dilectissimi,
+os aperire is qui post professionem suam talis invenitur,
+ut juste diabolo addicatur? Videte quid agatis,
+filii mei, fratres mei; videte quid agatis, quomodo
+hanc professionem vestram custodiatis. Contestamur
+vos per ipsum judicem omnesque potestates coelestes,
+quae et nos audiunt admonentes, et vos excipiunt profitentes,
+ne in vacuum gratiam Dei accipiatis <note>(II Cor.
+VI, 1)</note>, sed corde integro, tota virtute, perfecta fide
+renuntiantes atque spernentes tam damnosam diabolicam
+haereditatem, ne pupilli vel pauperes remaneatis.</p>
+</div2>
+
+<div2>
+            <head>CAPUT V.</head>
+<p> <hi>Triadis unitas.</hi> Credite in Deum Patrem
+omnipotentem. Mutantes Patrem, mutate haereditatem.
+Quis est iste Pater omnipotens? Patrem
+quidem Deum, qui credimus, nostrum atque totius
+mundi cognoscimus esse per gratiam; sed et proprium
+ejus Filium quaerimus per substantiam: quoniam et
+antequam ab illo mundus formaretur, Pater erat. Si
+Pater erat, cujus Pater erat? Erat ei utique Filius ex
+ipso cum ipso, hoc quod ipse, sed non ipse; quoniam
+ille Pater, hic Filius: quoniam omnipotens Pater
+omnipotentem Filium genuit de se, ita aequalem sibi,
+ut totus maneret in se, et esset Pater Filii, et Filius
+Patris, Deus ex Deo, dies ex die, lumen ex lumine:
+nec tamen duo dii, aut duo dies, aut duo luminaria;
+sed unus Deus, unus dies, unum lumen. Non capis
+videndo, intellige credendo: munda oculos cordis;
+imo potius ipsa lux quam desideras videre, mundet
+cor tuum, ut sit a peccatorum tenebris mundatum: <hi>Beati</hi> 
+ enim <hi>mundo corde, quia ipsi Deum videbunt <note>(Matth. V, 8)</note>
+              </hi>.
+Ecce extende aciem oculi cordis et vide,
+et aurem cordis accommoda et audi. Pater enim et
+<pb n="1120"/>
+Filius duo sonant, sed cum ipse Filius dicit, <hi>Ego in
+Patre, et Pater in me est <note>(Joan. XIV, 10)</note>
+              </hi>, Verbum enim
+Patris est Filius; Pater autem nunquam fuit sine
+Verbo, quoniam <hi>In principio erat Verbum, et Verbum
+erat apud Deum, et Deus erat Verbum: hoc erat in
+principio apud Deum <note>(Id. I, 1)</note>
+              </hi>; hoc Verbum Filius
+cum est in Patre, et Pater in Filio suo Verbo suo:
+non ergo duo dii, sed unus est Deus. Dies ex die,
+duos videntur significare dies: sed cum ipse Filius in
+Evangelio dicit Judaeis, <hi>Abraham pater vester cupivit
+videre diem meum, et vidit, et laetatus est <note>(Id. VIII, 56)</note>
+              </hi>;
+Abraham autem tres videns viros sub quercu Mambre,
+non tres appellavit dominos, sed unum in omnibus
+appellavit Dominum, tanquam tres diem unum.
+Unde ipse Dominus in Evangelio, unum volens intelligi
+diem Patrem et Filium, Philippo requirenti Patrem
+tanquam alterum diem, quoniam jam Filium
+videbat diem, ostendens quo oculo quaerere deberet
+videre Dei unitatem, quia oculum carnis fixerat in
+humanitatem: <hi>Philippe,</hi> inquit, <hi>qui me vidit, vidit et
+Patrem;</hi> ego enim et Pater non duo dies, sed unus.
+Si potes capere, cape sempiternum diem.</p>
+</div2>
+
+<div2>
+            <head>CAPUT VI.</head>
+<p> <hi>Trinitas incomprehensibilis.</hi> Lumen
+de lumine duo sonare videntur luminaria: sed absit
+a nobis, ne nos error Manichaeorum comprehendat,
+qui istum solem aestimant esse Christum: sed nos
+solem justitiae credimus Verbum Patris, inseparabilem,
+aequalem, cum Patre manentem, et omnia cum
+illo disponentem: Patrem per Filium omnia facientem,
+fabricam mundi per Verbum suum construentem,
+Filium ad nos venientem, nec Patrem deserentem,
+semper cum illo, nusquam sine illo; illuminantem,
+et de se et de illo splendentem, radiantem,
+coruscantem: non duo luminaria, sed unum lumen. <hi>Ego</hi> 
+ enim, ait, <hi>et Pater unum sumus <note>(Id. X, 30)</note>
+              </hi>. De
+ipso Verbo unigenito ait propheta David: <hi>Semel locutus
+est Deus, duo haec audivi <note>(Psal. LXI, 12)</note>
+              </hi>. Quomodo
+semel locutus est Deus, et secundo sonuit; nisi quia
+Verbum intransgressibile procedens de corde Patris,
+suscepit carnem, ut esset homo, ex utero matris?
+Venit, et mansit: ad nos venit, et a Patre non recessit.
+Ecce per hoc quod semel locutus est Deus, surrexit
+omnis fabrica nostra: per hoc quod secundo
+sonuit, factus est pax nostra, ut solveret inimicitias in
+carne <note>(Ephes. II, 14)</note>. Hoc Verbum, hoc lumen non
+respiciens Arianus, audet dicere Filium minorem,
+quem nos confitemur aequalem: insana contumacia
+vult de Verbo in corde Patris manente disputare,
+cum semetipsum non valeat intelligere. Insane haeretice,
+prius redi ad te, considera te totum, si potes
+comprehendere te: et tunc disputa de illo qui fecit
+et me et te. Vide quam non altum sapiebat, sed in
+simplicitate cordis Deum nosse quaerebat ille humilis,
+qui in uno lapide superbam frontem dejecit Goliae <note>(I Reg. XVII, 49)</note>.
+Vide quam non altum sapiebat:
+consideravit enim quid in se ipso ageretur; consideravit
+animam suam, inspexit suam fabricam, discussit
+se intus quid esset, et ex qua parte molem tam
+pulchram gubernaret, atque in vasculo luteo quae habitaret
+domina anima, plena tantis thesauris sapientiae,
+scientiae, prudentiae: ubi illic essent tanta, tam
+pretiosa, tam grandia: quae loca anima obtineret, in
+qua nullus est locus: atque ex uno fonte quomodo
+procederent singulae virtutes sine diminutione et
+exeuntis et profundentis. Vidit haec, consideravit haec,
+voluit nec valuit comprehendere, exclamavit Deo dicens: <hi>Mirificata est scientia tua ex me; invaluit, et non
+potero ad illam 
+ <note>(Psal. CXXXVIII, 6)</note>
+              </hi>. Hoc fuit dicere,
+Quando te possum comprehendere tam magnum, qui
+me ipsum non valeo explicare extremum et parvum?
+Videte et alium humilem requirentem modulum suae
+infirmitatis, et non excedentem, sed ad humilia inclinantem: <hi>Arenam,</hi> 
+ inquit, <hi>maris, et pluviae guttas, et
+<pb n="1121"/>
+dies saeculi quis dinumeravit? Altitudinem coeli, et latitudinem
+terrae, et profundum abyssi quis mensus est?
+Sapientiam Dei praecedentem omnia quis investigavit <note>(Eccli. I, 2, 3)</note>
+              </hi>?
+Ecce propheta dicit, imo ipse Dominus
+qui loquebatur per prophetam, quod sapientiam
+Dei nullus investigavit. Christus est enim Dei virtus
+et Dei sapientia <note>(I Cor. I, 24)</note>. Nullus secundum divinitatem
+potuit investigare Dei sapientiam: quia secundum
+id quod Filius natus est de Patre sine matre, <hi>nativitatem ejus quis enarrabit 
+ <note>(Isai. LIII, 8)</note>
+              </hi>?</p>
+</div2>
+
+<div2>
+            <head>CAPUT VII.</head>
+<p> <hi>Contra Arianos.</hi> Dic mihi, haeretice,
+qui audes dicere quod minor sit Dei Sapientia: dic
+mihi, altitudo coeli quanta sit, latitudo terrae, profundum
+abyssi? Numera si potes pluviae guttas, arenam
+maris, et dies saeculi: tuorum etiam numerum
+capillorum, quoniam <hi>omnes capilli capitis vestri numerati
+sunt <note>(Matth. X, 30)</note>
+              </hi>, demonstra mihi, atque
+explica parva ista inferiora, et tunc tibi credam posse
+te investigare superiora. Sed non potes, non vales.
+Spiritus Dei te convincit, qui vos haereticos ante
+praevidit. Qui enim ista quae superius diximus, conscripserunt
+atque senserunt, spiritu agebantur veritatis,
+non erroris. Tu autem, haeretice, cum haec non
+vales explicare, audes de ipsa quae investigari non
+potest, Dei Sapientia disputare: et magnus tibi videris,
+quia disputas nullo altercante tecum, nullo judice
+praesidente. Et dum suffragatur tempus errori tuo,
+existimas te aliquid esse, cum nihil sis: et seductus
+multos seducere concupiscis; aliquos pecunia, aliquos
+potentia: tales tibi congregas, quos plurimos
+tecum perdas. Non est hic tibi labor utilis ad salutem,
+sed potius ad perniciem. Talia enim docendo,
+imo non docendo, sed potius blasphemando, non cuilibet
+potenti, sed ipsi Deo Patri in ejus Filio facere
+demonstraris injurias. Major est Pater, minor est
+Filius: melior est Pater, inferior Filius. Has contumelias
+nec homo quilibet sapiens libenter accipiat,
+qui filium meliorem se ipso, aut parem habere contendit.
+Unde est etiam illud dictum propheticum: <hi>Laetatus est pater in filio sapiente, in vita sua vidit, et in
+obitu ejus non est contristatus. Mortuus enim est pater,
+et tanquam non est mortuus: similem enim reliquit post
+se 
+ <note>(Eccli. XXX, 5, 4)</note>
+              </hi>. Ecce propheta dicit sapientem
+filium hominis esse similem patri; et tu, haeretice,
+audes dicere ipsam Sapientiam, id est Dei Filium Patri
+esse dissimilem? Propheta dicit mortuum hominem
+patrem in eo quod filium similem reliquit,
+vivere in filio; et tu audes ipsam sempiternam Vitam,
+quod est Dei Filius, separare ab illo qui nunquam
+moritur Patre?</p>
+</div2>
+
+<div2>
+            <head>CAPUT VIII.</head>
+<p> <hi>Aequalitas personarum.</hi> Et quid,
+inquis, facturus sum? Ipse dixit, <hi>Pater major me est <note>(Joan. XIV, 28)</note>
+              </hi>.
+Quia non intelligis, ideo tibi male
+sonat quod bene dixit. Nam ipse dixit; imo et confirmavit.
+Prorsus ipse dixit, <hi>Pater major me est:</hi> ipse
+Filius dixit. Sed vide quando hoc dixit: in susceptione
+humanae naturae positus hoc dixit. Tunc dixit, <hi>Pater major me est,</hi> 
+ quando dixit, <hi>Tristis est anima mea
+usque ad mortem <note>(Matth. XXVI, 38)</note>
+              </hi>. Tunc dixit, <hi>Pater
+major me est,</hi> quando flevit, quando lassatus est,
+quando esurivit, quando sitivit. Tunc dixit, <hi>Pater major
+me est,</hi> quando eum dicit Scriptura minoratum
+paulo minus ab Angelis <note>(Psal. VIII, 6)</note>. Numquid enim
+etiam hic insana superbia ita irreverens progreditur
+vestra, ut Verbum Dei manens apud Patrem, audeat
+in ipsa illa divinitate dicere Angelis esse minorem?
+Si non audes, haeretice, hoc dicere, serva hos gradus,
+et periet error tuus: Filius apud Patrem, et
+cum Patre aequalis, quoniam sempiternus cum sempiterno,
+semper manens cum semper manente: aequalis
+missus, et veniens: in susceptione hominis minor,
+non solum Patre, verum etiam Angelis: aequalis in
+forma Dei, minor in forma servi: aequalis cum Patre
+creans Angelos; minor Patre homines faciens angelos:
+aequalis cum Patre novum construens mundum
+<pb n="1122"/>
+; minor Patre perditum reparans mundum:
+aequalis cum Patre vitam largiens aeternam; minor
+Patre mortem suscipiens nostram.</p>
+</div2>
+
+<div2>
+            <head>CAPUT IX.</head>
+<p> <hi>Christi nativitas.</hi> Hunc itaque Filium
+credimus Dei in susceptione hominis minorem, in
+divinitate Patri aequalem, factum, sicut Apostolus
+dicit, ex semine David secundum carnem <note>(Rom. I, 3)</note>.
+Ex semine enim David virgo Maria, qua de Spiritu
+sancto concipiente, et in cujus utero Verbum carne
+suscepta, nobis factus est mediator homo totus et
+Deus <note>(I Tim. II, 5)</note>, Verbum, et anima, et caro unus
+Christus. Hoc quippe nobis etiam ordo hujus sacramenti
+declarat, quod posteaquam credimus in Deum
+Patrem omnipotentem, credimus et in Filium ejus
+Jesum Christum, de Spiritu sancto natum ex virgine
+Maria. Et haec nativitas perturbat omnem cogitationem
+humanam; quoniam virtus est eam operata divina.
+Nam quando admittit ratio nostrae generationis,
+ut virgo concipiens, virgo post partum permanens,
+Filius videatur, et integritas inviolata servetur? Hoc
+non potest implere quilibet homo natus: ille autem
+potuit, quia non erat solus homo, sed Deus et homo;
+qui propterea voluit nasci homo, quia perierat omnis
+homo. Primum itaque miraculum magnum hujus Mediatoris
+ac singulare fuit, quod sic natus est: ut ille
+qui veniebat multos docere facere miracula, quae ipse
+per se et per illos faciebat, haberet tamen aliquid
+proprium qui nihil usurpaverat alienum. Solus enim
+de virgine natus est, quia solus sine amplexu maris et
+feminae de Spiritu sancto conceptus est: solus sine
+corruptione implevit uterum matris, quia solus pro
+nobis super coelos ascendit, ut sederet ad dexteram
+Patris. Acceperunt ab illo discipuli ut facerent multa
+et magna miracula, et fecerunt: nec tamen quispiam
+praedicatur aut creditur de virgine natus, aut de Spiritu
+sancto conceptus, nisi ille unus qui creator temporum
+inventus in tempore est etiam ipse creatus,
+suscipiens quam integram formaverat humanam naturam,
+ut per ipsam quodam modo redemptor nostram
+repararet ruinam. Et hic Dei Filius, et hominis
+filius; Dei Filius in corde Patris, hominis filius in
+utero matris: idem ipse unus Christus, qui processit
+ex utero virginali tanquam sponsus de thalamo suo <note>(Psal. XVIII, 6)</note>.
+In quo utero spirituales nuptiae sunt
+celebratae, Deusque conjunctus est carni, et caro cohaesit
+Deo, ut esset unus Christus Deus et homo.</p>
+</div2>
+
+<div2>
+            <head>CAPUT X.</head>
+<p> <hi>Crudelitas Herodis.</hi> Hinc ergo procedens
+velut sponsus de thalamo suo, ad cujus nuptias
+commota universa exsultare visa est creatura. Namque
+angelorum chorus ex his nuptiis pacem designat
+hominibus bonae voluntatis: quia qui erat Dei Filius,
+factus est et hominis Filius; suscipiens quod non erat,
+non amittens quod erat. His nuptiis coeli novam stellam,
+novum atque splendidum lumen illo ipso sponso
+in se operante producunt; ut lumen verum sedentibus
+in umbra mortis nuntiarent natum, et veluti lingua
+sua laudarent hunc sponsum procedentem, quem sciebant
+ad hoc suscepisse hominem mortalem, ut faceret
+immortalem. Ad hunc sponsum Magi ab extremo terrae
+veniunt, commoniti requirunt, vocati munera offerunt,
+infantem natum necdum quidem videntes, sed
+stella indice regem adorare cupientes. Ex his nuptiis
+regis nati turbatus Herodes, perturbati et Judaei regem
+totius creaturae non intelligentes; quaerit Herodes
+quem audit regem natum infantem perdere, ne
+illo crescente posset regnum amittere; Judaei nolentes
+habere Dei Filium regem, ubi Christus nasceretur
+Herodi produnt, atque de unius infantis nece utrorumque
+voluntas astringitur. Postquam Herodes Judaeis
+narrantibus didicit, ubi Christus occidendus posset
+inveniri, vocans ad se Magos, tempus ab eis inquisivit
+<pb n="1123"/>
+stellae, missisque in Bethlehem ait: <hi>Ite, diligenter
+inquirite de puero, ut et ego veniens adorem eum <note>(Matth.
+II, 8)</note>
+              </hi>. O labia dolosa! utquid in corde et corde loqueris
+mala? Aliud enim habet tua lingua, aliud clamat
+conscientia. Te ipsum decipis talia cogitando, erras,
+fallis et falleris. Frustra in malo vigilat falsitas: non
+a te, sicut decet, inquiritur veritas. Ecce audiunt te
+Magi, aliud quidem foris dicentem, sed nesciunt te intus
+aliud cogitantem, et pergunt ita ut ad te amplius
+non revertantur. Ille enim eos admonebat, qui insipientiam
+tuam deridens, hoc Magos facere praecepit
+quod rex jusserat verus, non quod subdole persuaserat
+falsus. <hi>Per aliam,</hi> inquit Evangelista, <hi>viam regressi
+sunt in regionem suam <note>(Ibid., 12)</note>
+              </hi>. Verum cum a Magis
+te delusum sensisses, Herodes, voluisti omnes infantes
+terrae illius perdere, ut unum quem quaerebas posses
+occidere. Sed ille sponsus noster, qui processit de
+thalamo suo, ut ex ore infantium et lactentium perficeret
+laudem, sivit te implere voluntatem tuam, ut
+aetas quae lingua propria Christum non poterat confiteri,
+testimonio mortis suae confiteretur, et crudelitas
+immanis demonstraretur tua, et ad nuptias coelestis
+sponsi infantium congregaretur turba. Dic, Herodes,
+si te Christus ideo offendit, quia ejus Magis annuntiantibus
+audisti regnum; quid te offenderunt bi qui
+tecum adversus Christum sentiebant principes Judaeorum,
+quorum filios interficiens ipsos magis atrocissima
+poena in suis filiis afflixisti? Nam Christum minime
+invenire potuisti. Sed quid tecum diutius agam?
+Ipsos, ipsos conveniam Judaeos, qui dum infantem
+Christum noluerunt agnoscere, filios suos cum illo
+compulsi sunt amittere: quos quidem occidit mortique
+propinavit Herodes vester amicus; sed his mortalitatem
+aeternamque vitam donavit Christus, quem
+vestrum etiam nunc dicitis inimicum.</p>
+</div2>
+
+<div2>
+            <head>CAPUT XI.</head>
+<p> <hi>Contra Judaeos, ex Isaia et Jeremia.</hi> Vos, inquam, convenio, o Judaei, qui usque in hodiernum
+diem negatis Filium Dei. Nonne vox vestra
+illa est, quando eum videbatis miracula facientem,
+atque tentantes dicebatis, <hi>Quousque animas nostras
+suspendis? Si tu es Christus, dic nobis palam.</hi> Ille autem
+ad considerationem miraculorum vos mittebat dicens, <hi>Opera quae ego facio, ipsa testimonium de me perhibent <note>(Joan. X, 24, 25)</note>
+              </hi>:
+ut Christo testimonium dicerent,
+non verba, sed facta. Vos autem non agnoscentes
+Salvatorem, qui operabatur salutem in medio terrae
+vestrae <note>(Psal. LXXIII, 12)</note>, adjicientes in malo aistis, <hi>Tu de te ipso testimonium dicis, testimonium tuum non
+est verum.</hi> 
+ Sed ad haec ille quid vobis responderit, advertere
+noluistis. <hi>Nonne scriptum est,</hi> inquit, <hi>in Lege
+vestra, quod duorum hominum verum sit testimonium <note>(Joan. VIII, 13, 17)</note>
+              </hi>?
+Praevaricatores Legis, intendite
+Legem. Testimonium quaeritis de Christo: in Lege
+vestra scriptum est, quod duorum hominum testimonium
+verum sit <note>(Deut. XVII, 6; XIX, 15)</note>; procedant
+de Lege vestra, non tantum duo, sed etiam plures testes
+Christi, et convincant auditores Legis, nec factores.
+Dic, Isaia, testimonium Christo. <hi>Ecce,</hi> inquit, <hi>virgo in utero concipiet et pariet filium, et vocabilis nomen
+ejus Emmanuel, quod est interpretatum, Nobiscum
+Deus 
+ <note>(Isai. VII, 14)</note>
+              </hi>. Accedat et alius testis: dic et tu,
+Jeremia, testimonium Christo. <hi>Hic est,</hi> inquit, <hi>Deus
+noster, et non aestimabitur alius absque illo, qui invenit
+omnem viam scientiae, et dedit eam Jacob puero suo et
+Israel dilecto suo. Post haec in terris visus est, et cum
+hominibus conversatus est <note>(Baruch III, 36-38)</note>
+              </hi>. Ecce
+duo testes idonei ex Lege vestra, ex quorum testimonio
+non sunt compuncta corda vestra.</p>
+</div2>
+
+<div2>
+            <head>CAPUT XII.</head>
+<p> <hi>Ex Daniele.</hi> Sed alii atque alii ex
+Lege Christi testes introducantur, ut frontes durissimae
+inimicorum conterantur. Veniat et ille Daniel sanctus,
+juvenis quidem aetate, senior vero scientia ac
+mansuetudine, convincat omnes falsos testes: sicut
+<pb n="1124"/>
+convicit seniores impudicos <note>(Dan. XIII, 47)</note>, ita suo
+testimonio Christi conterat inimicos. Dic, sancte Daniel,
+dic de Christo quod nosti. <hi>Cum venerit,</hi> inquit, <hi>Sanctus sanctorum, cessabit unctio 
+ <note>(Id. IX, 24)</note>
+              </hi>. Quare
+illo praesente cui insultantes dicebatis. <hi>Tu de te ipse
+testimonium dicis, testimonium tuum non est verum <note>(Joan. VIII, 13)</note>
+              </hi>,
+cessavit unctio vestra, nisi quia ipse
+est qui venerat Sanctus sanctorum? Si, ut vos dicitis,
+nondum venit, sed exspectatur ut veniat Sanctus sanctorum,
+demonstrate unctionem: si autem, quod verum
+est, cessavit unctio vestra, agnoscite venisse
+Sanctum sanctorum. Ipse est enim et lapis ille abscissus
+de monte sine manibus concidentium, id est,
+Christus natus de virgine sine manibus complectentium:
+qui tantum crevit, ut mons magnus fieret, et
+impleret universam faciem terrae <note>(Dan. II, 34, 35)</note>. De
+quo monte dicit propheta, <hi>Venite ascendamus in montem
+Domini <note>(Isai. II, 3)</note>
+              </hi>. Et de quo David dicit, <hi>Mons
+Dei, mons uber: utquid suspicamini montes incaseatos,
+montem in quo placuit Deo habitare in ipso <note>(Psal. LXVII,
+16, 17)</note>
+              </hi>? Cum enim ipse Dominus Christus discipulos
+suos interrogaret, quem eum dicerent esse homines
+Filium hominis; responderunt: <hi>Alii Eliam, alii Jeremiam,
+alii Joannem Baptistam, aut unum ex Prophetis <note>(Matth. XVI, 14)</note>
+              </hi>.
+Et ille: <hi>Utquid suspicamini montes
+incaseatos, montem in quo placuit Deo habitare in ipso?</hi> 
+Hunc agnovit Petrus dicens, <hi>Tu es Christus Filius Dei
+vivi <note>(Ibid., 17)</note>
+              </hi>. Agnovit montem, et ascendit in montem:
+testimonium dixit Veritati, et dilectus est a Veritate.
+Supra petram fundatus est Petrus, ut mortem
+susciperet illum amando, quem ter negaverat timendo.</p>
+</div2>
+
+<div2>
+            <head>CAPUT XIII.</head>
+<p> <hi>Testimonia caetera ex Lege et
+Prophetis.</hi> Dic et tu, Moyses legislator, dux populi
+Israel, testimonium Christo. <hi>Prophetam vobis excitabit
+Deus de fratribus vestris. Omnis anima quae non audierit
+prophetam illum, exterminabitur de populo suo <note>(Deut.
+XVIII, 15, 19)</note>
+              </hi>. Prophetam autem dictum Christum,
+ipsum audi in Evangelio Christum: <hi>Non est,</hi> inquit, <hi>propheta sine honore, nisi in patria sua 
+ <note>(Matth. XIII,
+57)</note>
+              </hi>. Accedat etiam David sanctus, testis fidelis, ex
+cujus semine processit ille, cui Lex et Prophetae testimonium
+dicunt; dicat et ipse de Christo <hi>Adorabunt,</hi> 
+inquit, <hi>eum omnes reges terrae; omnes gentes servient
+illi <note>(Psal. LXXI, 11)</note>
+              </hi>. Cui servient? Dic, cui servient?
+Vis audire cui? <hi>Dixit Dominus Domino meo, Sede ad
+dextram meam, donec ponam inimicos tuos scabellum
+pedum tuorum <note>(Psal. CIX, 1)</note>
+              </hi>. Et expressius atque nominatim: <hi>Quare,</hi> 
+ inquit, <hi>tumultuatae sunt gentes, et
+populi meditati sunt inania? Astiterunt reges terrae, et
+principes convenerunt in unum, adversus Dominum et
+adversus Christum ejus <note>(Psal. II, 1)</note>
+              </hi>. Accedat et alius
+testis, dic et tu Habacuc propheta testimonium Christo. <hi>Domine,</hi> 
+ inquit, <hi>audivi auditum tuum, et timui;
+consideravi opera tua, Deus, et expavi (Habacuc III, 2)</hi>.
+Quae opera Dei iste miratus expavit? Numquid fabricam
+mundi iste miratus expavit? Absit: sed audi ad
+quid expavit. <hi>In medio,</hi> inquit, <hi>duum animalium cognosceris.
+Opera tua Deus. Verbum caro factum est <note>(Joan. I, 14)</note>
+              </hi>.
+ <hi>In medio duum animalium cognosceris.</hi> 
+Quis, quousque descendisti? Expavescere me fecisti:
+quia Verbum per quod facta sunt omnia, in praesepio
+jacuisti. <hi>Agnovit bos possessorem suum, et asinus praesepe
+domini sui <note>(Isai. I, 3)</note>
+              </hi>. <hi>In medio duum animalium
+cognosceris.</hi> Quid est, <hi>In medio duum animalium cognosceris;</hi> 
+nisi aut in medio duorum Testamentorum,
+aut in medio duorum latronum, aut in medio Moysi
+et Eliae cum eo in monte sermocinatium? <hi>Ambulavit,</hi> 
+inquit, <hi>Verbum, et exivit in campos (Habacus III, 3)</hi>. <hi>Verbum caro factum est, et habitavit in nobis.</hi> 
+ Hoc et
+Jeremias ait: <hi>Post haec in terris visus est, et cum hominibus
+conversatus est <note>(Baruch III, 38)</note>
+              </hi>. Ecce quomodo
+conveniunt sibi testes veritatis: ecce quomodo convincunt
+filios falsitatis. Sufficiunt vobis ista, o Judaei,
+an adhuc ad vestram confusionem ex Lege et ex gente
+vestra alios introducemus testes, ut illi testimonium
+perhibeant, cui perdita mente insultantes dicebatis, <hi>Tu de te ipso testimonium perhibes testimonium tuum
+<pb n="1125"/>
+non est verum?</hi> 
+ Quod si velim ex Lege et ex Prophetis
+omnia quae de Christo dicta sunt colligere, facilius me
+tempus quam copia deserit.</p>
+</div2>
+
+<div2>
+            <head>CAPUT XIV.</head>
+<p> <hi>Semeonis et Zachariae testimonium.</hi> Verumtamen senem illum ex gente vestra natum, sed
+in errore vestro non relictum, Simeonem sanctum in
+medium introducam: qui meruit decrepitus teneri in
+hac luce quousque videret veram lucem. Quem quidem
+jam aetas compellebat ire: sed exspectabat suscipere,
+quem sciebat venire. Cum iste senex admonitus
+esset a sancto Spiritu, quod non ante moreretur
+quam videret Christum Dei, natumque cognoscens,
+perrexit ad templum. Ubi vero eum portari matris
+manibus vidit, et divinam infantiam pia senectus agnovit,
+tulit infantem in manibus suis. Ille quidem Christum
+infantem ferebat, sed senem Christus regebat.
+Regebat qui portabatur, ne ille ante promissum a corpore
+solveretur. Quid tamen dixerit, quem confessus
+fuerit, advertite inimici, non Christi, sed vestri. Benedicens
+Deum exclamavit senex ille, et dixit: <hi>Nunc
+dimittis, Domine, servum tuum secundum verbum tuum
+in pace; quia viderunt oculi mei salutare tuum <note>(Luc. II,
+26-32)</note>
+              </hi>. Illi etiam parentes Joannis, Zacharias et Elisabeth,
+juvenes steriles, in senecta fecundi, dicant
+etiam ipsi testimonium Christo. Dicant de Christo quid
+sentiant, et testem idoneum Christo nutriant. Aiunt
+enim suo parvulo nato, <hi>Tu puer, propheta Altissimi vocaberis:
+praeibis enim ante faciem Domini parare vias
+ejus <note>(Id. I, 17)</note>
+              </hi>. Ipsique matri et virgini Elisabeth ait: <hi>Unde mihi hoc, ut veniat mater Domini mei ad me?
+Ecce enim ut facta est vox salutationis tuae in auribus
+meis, exsultavit in gaudio infans in utero meo 
+ <note>(Ibid., 43,
+44)</note>
+              </hi>. Intelligens enim Joannes matrem Domini sui venisse
+ad suam matrem, inter ipsas angustias uteri
+adhuc positus, motu salutavit, quem voce non poterat.
+Quid postea ipse Joannes praecursor et amicus,
+humilis et fidelissimus servus, testis idoneus effectus,
+tanto major in natis mulierum, quanto existimabatur
+esse quod non erat? Christum enim eum esse Judaei
+credebant: sed ille non se esse clamabat, dicens: <hi>Quem me suspicamini esse, non sum ego; sed ecce venit
+post me, de cujus pedibus non sum ego dignus solvere
+corrigiam calceamenti ejus 
+ <note>(Marc. I, 7; Luc. III, 16;
+Act. XIII, 25)</note>
+              </hi>. O fidelis testis, et amice veri sponsi,
+quantum te humiliavisses si ad corrigiam calceamenti
+ejus solvendam dignum te esse dixisses? Sed dum ad
+hoc non te dignum dicis, Judaeis falsis testibus contradicis.
+Et haec a te dicta sunt antequam Christum
+videres: qui cum ad te ipse venit excelsus humilis
+implendae dispensationis suae gratia ut a te baptizaretur
+qui nullum habebat omnino peccatum, quid responderis,
+quem cognoveris, quale testimonium protuleris,
+audiant inimici qui audire nolunt: <hi>Ecce,</hi> inquit, <hi>Agnus Dei, ecce qui tollit peccatum mundi 
+ <note>(Joan.
+I, 29, 36)</note>
+              </hi>. Et adjecit: <hi>Tu ad me venis baptizari; ego
+a te debeo baptizari <note>(Matth. III, 14)</note>
+              </hi>. Agnovit servus
+Dominum: agnovit peccati originalis vinculis obligatus
+ab omni nexu peccati liberum: agnovit praeco judicem,
+agnovit creatura Creatorem, agnovit paranymphus
+sponsum. Nam et haec vox Joannis est: <hi>Qui habet
+sponsam, sponsus est. Amicus autem sponsi stat et audit
+eum, et gaudio gaudet propter vocem sponsi <note>(Joan.
+VII, 29)</note>
+              </hi>.</p>
+</div2>
+
+<div2>
+            <head>CAPUT XV.</head>
+<p> <hi>Ex libris Ethnicorum.</hi> Sufficiunt vobis
+ista, o Judaei, sufficiunt vobis tanti testes, testimonia
+ex Lege vestra, ex gente vestra? An adhuc
+impudenti animo audebitis dicere, quod alterius
+gentis vel nationis homines Christo deberent testimonium
+perhibere? Sed si hoc dicitis, respondet quidem
+ille vobis, <hi>Non sum missus, nisi ad oves quae perierunt
+domus Israel <note>(Matth. XV, 24)</note>
+              </hi>. Sed sicut vos in Actibus
+Apostolorum increpat Paulus, <hi>Vobis primum
+oportuerat annuntiari verbum Dei, sed quia repulistis
+illud, nec vos dignos vitae aeternae judicastis, ecce,</hi> inquit, <hi>convertimur ad Gentes 
+ <note>(Act. XIII, 46)</note>
+              </hi>: demonstremus
+<pb n="1126"/>
+etiam nos ex Gentibus testimonium Christo
+fuisse prolatum; quoniam veritas non tacuit clamando
+etiam per linguas inimicorum suorum. Nonne quando
+poeta ille facundissimus inter sua carmina,
+<l>Jam nova progenies coelo demittitur alto,</l> <note>(Virgil. Eclog. 4, vers. 7.)</note> 
+dicebat, Christo testimonium perhibebat? In dubium
+hoc veniat, nisi alios ex Gentibus idoneos testes pluraque
+dicentes in medium introducam. Illum regem
+qui vestram superbiam captivando perdomuit, Nabuchodonosor,
+regem scilicet Babylonis non praetermittam.
+Dic, Nabuchodonosor, quid in fornace, quo
+tres viros justos injuste immiseras, vidisti; dic, dic
+quid tibi fuerit revelatum. <hi>Nonne,</hi> inquit, <hi>tres viros
+misimus in fornacem ligatos? Et aiunt ei: Vere rex.
+Ecce, inquit, ego video quatuor viros solutos deambulantes
+in medio ignis, et corruptio nulla est in eis, et
+aspectus quarti similis est Filio Dei <note>(Dan. III, 91)</note>
+              </hi>. O
+alienigena, unde tibi hoc? Quis tibi annuntiavit Filium
+Dei? quae lex, quis propheta? Nondum quidem
+mundo nascitur, et similitudo nascentis a te cognoscitur.
+Unde tibi hoc? Quis tibi istud annuntiavit,
+nisi quia sic te divinus ignis intus illuminavit, ut cum
+illic apud te captivi tenerentur inimici Judaei, sic diceres
+testimonium Filio Dei?</p>
+</div2>
+
+<div2>
+            <head>CAPUT XVI.</head>
+<p> <hi>Ex Sibyllinis vaticiniis. Vaticinium
+Sibyllae.</hi> Sed quia in ore duorum vel trium testium
+stat omne verbum, sicut ipse Dominus confutans vestram
+contumaciam, <hi>In lege,</hi> inquit, <hi>vestra scriptum
+est, quod duorum hominum testimonium verum sit <note>(Deut.
+XVII, 6; Joan. VIII, 17)</note>
+              </hi>: etiam ex Gentibus tertius
+testis introducatur, ut testimonium veritatis omni ex
+parte roboretur. Quid Sibylla vaticinando etiam de
+Christo clamaverit, in medium proferamus, ut ex
+uno lapide utrorumque frontes percutiantur, Judaeorum
+scilicet atque Paganorum, atque suo gladio, sicut
+Golias <note>(I Reg. XVII, 50)</note>, Christi omnes percutiantur
+inimici: audite quid dixerit:
+ 
+<l> <foreign xml:lang="greek">Ι</foreign> Judicii signum, tellus sudore madescet.</l> 
+<l> <foreign xml:lang="greek">Η</foreign> E coelo Rex adveniet per saecla futurus.</l> 
+<l> <foreign xml:lang="greek">Σ</foreign> Scilicet in carne praesens ut judicet orbem.</l> 
+<l> <foreign xml:lang="greek">Ο</foreign> Unde Deum cernent, increduius atque fidelis</l>
+<l> <foreign xml:lang="greek">Υ</foreign> Celsum cum sanctis, aevi jam termino in ipso.</l> 
+<l> <foreign xml:lang="greek">Σ</foreign> Sic animae cum carne aderunt, quas judicat ipse.</l> 
+<l> <foreign xml:lang="greek">Χ</foreign> Cum jacet incultus densis in vepribus orbis.</l> 
+<l> <foreign xml:lang="greek">Ρ</foreign> Rejicient simulacra viri, cunctam quoque gazam.</l> 
+<l> <foreign xml:lang="greek">Ε</foreign> Exuret terras ignis, pontumque, polumque</l>
+<l> <foreign xml:lang="greek">Ι</foreign> Inquirens tetri portas effringet Averni.</l> 
+<l> <foreign xml:lang="greek">Σ</foreign> Sanctorum sed enim cunctae lux libera carni</l>
+<l> <foreign xml:lang="greek">Τ</foreign> Tradetur, sontes aeternaque flamma cremabit.</l> 
+<l> <foreign xml:lang="greek">Ο</foreign> Occultos actus retegens, tunc quisque loquetur</l>
+<l> <foreign xml:lang="greek">Σ</foreign> Secreta, atque Deus reserabit pectora luci.</l> 
+<l> <foreign xml:lang="greek">Θ</foreign> Tunc erit et luctus, stridebunt dentibus omnes.</l> 
+<l> <foreign xml:lang="greek">Ε</foreign> Eripitur solis jubar, et chorus interit astris.</l> 
+<l> <foreign xml:lang="greek">Ο</foreign> Volvetur coelum, lunaris splendor obibit.</l> 
+<l> <foreign xml:lang="greek">Υ</foreign> Dejiciet colles, valles extollet ab imo.</l> 
+<l> <foreign xml:lang="greek">Υ</foreign> Non erit in rebus hominum sublime vel altum.</l> 
+<l> <foreign xml:lang="greek">Ι</foreign> Jam aequantur campis montes et caerula ponti.</l> 
+<l> <foreign xml:lang="greek">Ο</foreign> Omnia cessabunt, tellus confracta peribit.</l> 
+<l> <foreign xml:lang="greek">Σ</foreign> Sic pariter fontes torrentur, fluminaque igni.</l> 
+<l> <foreign xml:lang="greek">Σ</foreign> Sed tuba tunc sonitum tristem demittet ab alto</l>
+<l> <foreign xml:lang="greek">Ω</foreign> Orbe gemens facinus miserum variosque labores,</l>
+<l> <foreign xml:lang="greek">Τ</foreign> Tartareumque chaos monstrabit terra dehiscens.</l> 
+<l> <foreign xml:lang="greek">Η</foreign> Et coram hic Domino reges sistentur ad unum.</l> 
+<l> <foreign xml:lang="greek">Ρ</foreign> Recidet e coelis ignisque et sulphuris amnis.</l>
+            </p>
+<p>Haec de Christi nativitate, passione et resurrectione,
+atque secundo ejus adventu ita dicta sunt, ut si quis
+in graeco capita horum versuum discernere voluerit, inveniat <foreign xml:lang="greek">Ἰησοῦς Χριστὸς Θεοῦ Υἱὸς</foreign>
+ <foreign xml:lang="greek">Σωτήρ</foreign>: id est, Jesus
+Christus Dei Filius Salvator. Quod et in latinum translatis
+eisdem versibus apparet, praeterquam quod
+graecarum litterarum proprietas non adeo potuit
+observari.</p>
+<p>Alios versus Sibyllinos Christi passionem apertius
+<pb n="1127"/>
+demonstrantes, intentissime audite:
+<l>In manus iniquas infidelium postea veniet.</l> 
+<l>Dabunt autem Deo alapas manibus incestis.</l> 
+<l>Et impurato ore expuent venenatos sputus.</l> 
+<l>Dabit vero ad verbera simpliciter sanctum dorsum.</l> 
+<l>Et colaphos accipiens tacebit, ne quis agnoscat</l>
+<l>Quod Verbum, vel unde venit, ut inferis loquatur.</l> 
+<l>Et corona spinea coronabitur.</l> 
+<l>Ad cibum autem fel, et ad sitim acetum dederunt.</l> 
+<l>Inhospitalitatis hanc monstrabunt mensam.</l> 
+<l>Ipsa enim insipiens tuum Deum non intellexisti,</l>
+<l>Ludentem mortalium mentibus, sed spinis</l>
+<l>Coronasti, et horridum fel miscuisti.</l> 
+<l>Templi vero velum scindetur, et die</l>
+<l>Medio nox erit tenebrosa nimis tribus horis.</l> 
+<l>Et morte morietur, tribusque diebus somno suscepto,</l>
+<l>Et tunc a mortuis regressus ad lucem veniet.</l> 
+<l>Primus resurrectionis initium revocatus ostendet.</l>
+            </p>
+</div2>
+
+<div2>
+            <head>CAPUT XVII.</head>
+<p> <hi>Testimonia ex coelo, ex mari, ex
+terra, ex infernis.</hi> Credo jam vos, o inimici Judaei tantis
+testibus ita obrutos confutatosque, ut nihil ultra
+quaerere debeatis: qui ipsi veritati nimia insipientia
+vel potius amentia, cum omnia nossetis quae de Christo
+essent dicta atque conscripta, inverecunda fronte
+dicebatis, <hi>Tu de te ipso testimonium dicis, testimonium
+tuum non est verum <note>(Joan. VIII, 13)</note>
+              </hi>. Verumtamen ut
+divinae majestatis veritas lucescat, supra tot testium
+praeclaras voces, suo Creatori universa creatura testimonium
+se dixisse proclamet. Nonne coelum testimonium
+dixit, quando novum sidus in nova hominis
+progenie, velut lingua et digito, quo potuit, natum
+Deum hominem gentibus demonstravit? Nonne mare
+testimonium dixit, quando oblitus quodam modo naturae
+suae liquidus humor, soliditate suscepta, sui
+Domini portavit impressa vestigia: ut impleretur
+illud quod dictum est, <hi>In mari est via tua et semitae
+tuae in aquis multis <note>(Psal. LXXVI, 20)</note>
+              </hi>? Quod elementum
+servum Christi supra se ambulare cupientem, ut
+demonstraret quantum interesset inter creaturam et
+Creatorem, labili unda Petrum absorbuisset, nisi
+Dominus rerum, mergenti Petro manum porrexisset <note>(Matth. XIV, 31)</note>.
+Nonne terra testimonium dixit,
+quando ejus conspersa saliva, ex ea caeci nati oculos
+inungens, lumen non videnti restituit <hi>(Joan: IX, 7)</hi>:
+et fabrica quod minus habuit, ex limo terrae artifex
+reparavit, qui totum hominem de terra ante formavit <note>(Gen. II, 8)</note>?
+Nonne inferna Christo testimonium perhibuerunt,
+quando jure suo perdito, Lazarum quem
+dissolvendum acceperant, integrum per quatriduum
+reservarunt, ut incolumem redderent, cum vocem
+Domini sui jubentis audirent <note>(Joan. XI, 43)</note>? Quid in
+ipsa ejus passione, nonne contra vestram impudentiam
+ferocemque amentiam ipsam quodam modo publicam
+lucem testem citabo? Sicut putabatis, homo
+tantum a vobis interficiebatur Christus: quod et si
+tantum esset, vobis parcere debuistis, ut manus vestras
+alienas redderetis a sanguine innocentis. Quae
+caecitas infusa est cordibus vestris, ut nec illa vos
+tanta deterreret medio die solis obscuritas, et inter
+ejus radios claros amputata lux? Nox recondita in
+diem: imo nox usurpavit diem, nec cursum sui
+ordinis natura servavit; sed obtenebratur coelum, luget
+terra, velum templi conscinditur, petrae scinduntur,
+inferna reserantur <note>(Matth. XXVII, 45, 51, 52)</note>,
+omnis pene creatura expavescit mortem Christi. Nec
+tamen in his tantis aperti sunt oculi cordis vestri. O
+Judaei, daemones qui vestra corda possederunt, dixerunt, <hi>Scimus qui sis; quid venisli ante tempus perdere
+nos 
+ <note>(Marc. I, 24)</note>
+              </hi>? et vos, <hi>Tu de te ipso testimonium
+<pb n="1128"/>
+dicis, testimonium tuum non est verum <note>(Joan.
+VIII, 13)</note>
+              </hi>!</p>
+</div2>
+
+<div2>
+            <head>CAPUT XVIII.</head>
+<p> <hi>Ex eventis.</hi> Sed non intelligentes
+actiones vestras, egistis causas nostras. Denique
+nostrae saluti militavit vestra malitia: ille enim qui
+ad hoc venerat ut pro nobis moreretur, insanas voces, <hi>Crucifige, crucifige 
+ <note>(Luc. XXIII, 21)</note>
+              </hi>, clamantium ut
+homo non expavit, quia ut Deus eas ante praevidit.
+Quantum laborastis, ut discipulum Judam pecunia
+corrumperetis <note>(Matth. XXVI, 15)</note>, et a malo venditore
+mali emptores Christum non possidendum compararetis,
+nundinas malas agentes animae vestrae, quando fundebatis
+pretium salutis nostrae? Quantum laborastis,
+ut judicem a vestro scelere manus lavantem, calumniis,
+Caesaris nomine opposito, opprimeretis, ut
+id impleret quod fieri volebatis <note>(Id. XXVII, 24)</note>?
+Quantum laborastis, ut Christus occideretur, et latro
+dimitteretur <note>(Ibid., 20-26)</note>? Quantum laborastis, ut
+Christus contumelias pateretur, spinis coronaretur <note>(Marc. XV, 17)</note>,
+in ligno suspenderetur, lancea perfoderetur <note>(Joan. XIX, 34)</note>?
+Quantum clamastis, quantum
+sudastis, quantum laborastis? Sed omnis iste labor
+vester, fructus est noster. Denique a vobis Christus
+occiditur, nobis resurgit: a vobis in ligno suspenditur,
+clavisque confixus in cruce detinetur, et
+a ducibus nostris discipulis suis in medio eorum clausis
+januis invenitur <note>(Id. XX, 19)</note>. Pecunia milites corrumpendo
+Christi resurrectionem opprimere voluistis <note>(Matth. XXVIII, 12, 13)</note>,
+et ecce ejus resurrectio toto
+mundo jam celebratur, et quod dedistis, totum perdidistis.
+Implere non potuistis quod voluistis: audite
+jam quod audire non vultis. Die tertio a mortuis resurgens,
+assumptus in coelum, sedet ad dexteram
+Patris <note>(Marc. XVI, 19; Luc. XXIV, 51)</note>: dispersit vos
+per universas terras, ut ubique prophetias de ejus nativitate,
+passione, resurrectione, ascensione, quaecumque
+dicta sunt, vos perferatis, atque lucernam
+Legis, tanquam lignea candelabra sensu carentia,
+gentibus ministretis. Quod propterea factum esse cognoscite,
+ne gentes haec omnia quae aguntur, dum
+praedicantur, a nobis dicerent fuisse conficta. Hanc
+etiam ipsam vestram dispersionem fuisse praedictam,
+David propheta declarat dicens: <hi>Ne occideris eos, ne
+quando obliviscantur legis tuae, sed disperge eos in virtute
+tua <note>(Psal. LVIII, 12)</note>
+              </hi>. Dispersio ergo haec vestra
+testimonium perhibet Christo, cui dixistis, <hi>Tu de te ipso
+testimonium dicis, testimonium tuum non est verum <note>(Joan.
+VIII, 13)</note>
+              </hi>: ut ex vestro testimonio inimicorum, alii inimici
+confundantur, qui Christum magicis artibus fecisse
+dicunt quaecumque fecit miracula. Nam et hoc quod
+mortuus colitur, magicae potentiae deputandum esse
+contendunt. Proferte codices propheticos, o Judaei
+Christi inimici, ut ex ipsis alii Pagani convincantur
+inimici. Prophetas longe antequam nasceretur ante
+se praemisit, qui omnia quae superius diximus, praedixerunt.
+Hinc jam judicate qui recta sapitis: numquid
+si magicis artibus fecit ut coleretur et mortuus,
+magus erat antequam natus? Confundimini, corrigimini
+qui talia de Christo vel sentitis, vel creditis,
+vel dicitis. Confundimini et vos, Judaei, qui lucernam
+Legis in manibus habentes, aliis lumen praebetis, et
+vos in eam intendere non curatis, sed exspectatis quidem
+et vos ut veniat qui venturus est. Et veniet; sed
+non sicut vultis veniet: veniet excelsus ille qui a vobis
+interfectus est, nullius criminis reus; manifestus veniet
+Deus, et videbitis judicantem, quem contempsistis,
+miracula facientem. Qualis erit tunc vestra conscientia,
+cum vobis ille nullam jam exhibebit patientiam,
+quia vos invenit in anima mortuos, qui venturus
+est judicare vivos et mortuos?</p>
+</div2>
+
+<div2>
+            <head>CAPUT XIX.</head>
+<p> <hi>Contra Arianos.</hi> Credimus in Spiritum
+sanctum, quem nos credimus Deum, aequalem Patri et
+Filio, manentem in Patre et Filio, inseparabilem a Patre
+<pb n="1129"/>
+et Filio, regnantem cum Patre et Filio. Trinitas una, et
+tertia in unitate persona Spiritus sanctus, qui operatur
+omnia in omnibus. Hunc et Ariani blasphemantes,
+Patre Filioque volunt esse minorem. Nec eorum errorem
+ille evangelicus revocat timor dicens, <hi>Si quis
+dixerit verbum in Filium hominis, remittetur illi: si
+quis autem dixerit verbum in Spiritum sanctum, non
+remittetur illi, nec hic, nec in futuro saeculo <note>(Matth.
+XII, 32)</note>
+              </hi>. Quid est, Ariane? sentisne quo progressa
+fuerit immanitas tua? Dicis verbum in Filium hominis,
+quia secundum divinitatem Filium Dei asseris
+esse minorem. Dicis verbum in Spiritum sanctum, in
+ipsa illa individua unitate etiam Filio esse minorem.
+Dicendo tale verbum de Verbo, tale verbum de Spiritu
+sancto, non remittuntur nec hic nec in futuro
+saeculo peccata tua, et tu rebaptizando polliceris dimittere
+aliena? Nos donum Spiritus sancti agnoscimus
+esse remissionem omnium peccatorum, suffragante
+nobis ipsa Veritate, quae post resurrectionem suam
+ait discipulis suis, <hi>Accipite Spiritum sanctum; si cui
+remiseritis peccata, remittuntur illi <note>(Joan. XX, 23)</note>
+              </hi>. Vos
+autem sacrilego ausu, quibus jam Christus dono
+Spiritus sancti per Baptismum et originalia et propria
+cuncta demisit omnino peccata, in jam baptizatis
+exsufflatis Christum, respuitis Spiritum sanctum; et
+renatum non abluere, sed sordidare; non liberare,
+sed obligare; non vivificare, sed mortificare contenditis.
+Nec mirum si has ruinas quotidie fabricatis, qui
+petram integram Christum in fundamento habere
+noluistis. A vestro errore separat Veritas filios suos,
+quos sic fovet ut nutriat, non sicut tu blandiendo decipit
+ut occidat.</p>
+</div2>
+
+<div2>
+            <head>CAPUT XX.</head>
+<p> <hi>Resurrectio.</hi> Apud Catholicam,
+dilectissimi, noveritis tantum esse veram fidem, germanam
+pacem, perpetuam salutem. Non enim in angulo
+est, sed ubique tota est. Si quis ab ea discesserit,
+atque haereticorum se errori tradiderit, ut fugitivus
+servus judicabitur, non ut filius adoptivus: nec ad
+vitam aeternam resurget, sed potius ad damnationem.
+Quoniam bonis malisque promittitur resurrectio: <hi>Omnes quidem resurgemus,</hi> 
+ ait Apostolus, <hi>sed non
+omnes immutabimur <note>(I Cor. XV, 51)</note>
+              </hi>. Et quid prodest,
+fratres mei, resurgere, et non immutari? Qui enim in
+illa vita non fuerit immutatus, a justo judice invenitur
+esse damnatus. Damnatus autem aeternam non consequitur
+vitam, qui de adversario diabolo victricem
+noluit accipere palmam. Quid enim prodest, dilectissimi,
+quod non illis vinculis in idolorum cultu
+quempiam diabolus tenet, et visco haereticorum captum
+detentumque possidet? Qui vult ad aeternam
+vitam pervenire, contra omnes diaboli laqueos debet
+fortiter invigilare. Non enim qualis est ista vita, ita
+invenietur et illa.</p>
+</div2>
+
+<div2>
+            <head>CAPUT XXI.</head>
+<p> <hi>Differentia temporalis vitae et aeternae.</hi> Quantum autem distat inter hanc et illam, debet
+nosse Charitas vestra. Hic falsitas, ibi veritas: hic
+perturbatio, illic fida possessio: hic pessima amaritudo,
+illic sempiterna dulcedo: hic periculosa elatio,
+illic secura exsultatio: hic timetur ne qui erat amicus,
+efficiatur subito inimicus; illic semper manet
+amicus, quia nullus illuc admittitur inimicus: hic
+quidquid est bonum, timetur ne pereat; illic quidquid
+acceperis, ab illo servabitur qui facit ut nec tu
+transeas, et quod acceperis non amittas: hic mors,
+ibi vita: hic luctus, ibi gaudium: hic omnia quae
+creavit Deus, illic ipse pro omnibus et in omnibus
+Deus: et quae digna dicuntur, si tamen aliqua dicuntur.
+Non enim sufficit humana lingua laudare, quod
+sensus mortalium non valet comprehendere. Veniemus
+illuc, fratres mei; et ibi videbimus quod oculus hic
+non vidit, ibi audiemus quod auris hic non audivit,
+ibi intelligemus quod cor humanum comprehendere
+hic non valuit <note>(I Cor. II, 9)</note>, videntes fruentesque
+exsultabimus inenarrabili gaudio <note>(I Petr. I, 8)</note>. Et
+<pb n="1130"/>
+quale gaudium erit, ubi nullus timor erit? Quale
+gaudium erit, cum te videris socium esse Angelorum,
+participem regni coelorum, regnare cum Rege, nihil
+concupiscendo omnia possidere, sine avaritia divitem,
+sine pecunia administrantem, sine successore judicantem,
+sine metu Barbarorum regnantem, sine
+morte in aeterna vita viventem?</p>
+</div2>
+
+<div2>
+            <head>CAPUT XXII.</head>
+<p> <hi>De via ad patriam.</hi> Sed ut ad ista
+veniamus, viam tutissimam quae illuc perducit non
+dimittamus. Quae est haec via? Christus ex toto se,
+ex capite et ex corpore. Ex capite, aequalis Filius, in
+manente manens: ex corpore minor, viam istam ut
+gigas velociter transiens <note>(Psal. XVIII, 6)</note>. Caput et
+corpus, Christus et Ecclesia. Nec ab illo separemur,
+aliquid aliud de illo, sicut haeretici, credendo; nec
+ab ista, pravis nostris moribus declinando. Haec est
+mater vera, pia mater et casta, intrinsecus sui viri
+dignitate ornata, non forinsecus mendacio fallente
+turpiter colorata. Non vos ab ista matre nomen confictum
+seducat alienum, non vos Ecclesiae species
+aliena decipiat. Sponsa Christi non est quae virum
+suum non cognoscit: turpis est quae tanti viri speciem
+suis sermonibus fuscare contendit: frustra sibi
+Ecclesiae nomen imponit. Video equidem te, o spelunca
+subdola, decipiens, quia decepta: video quidem
+quod aptes formam tuam sub specie aliena.
+Quid te componis? quid tantum te exornas? quid fimbrias
+tuas expandis? quid te contra veram sponsam
+aequare contendis? Non te recipit sponsus, quia non
+es sponsa. Sed pulchram te esse dicis, et de auro
+atque ornamentis plurimis gloriaris. Respondet tibi
+sponsus, respondet tibi speciosus forma prae filiis hominum <note>(Psal. XLIV, 3, 4)</note>:
+ <hi>Species fornicariae facta
+est tibi, irreverens facta es in omnibus.</hi> Quod si dixeris,
+Quare? Respondet, Quia sub specie sponsae componis
+te, et mentiris sponsum tuum esse me. <hi>Species fornicariae
+facta est tibi, irreverens facta es in omnibus.</hi> Non
+sicut Patrem appellasti me: <hi>Ego</hi> enim <hi>et Pater unum
+sumus <note>(Joan. X, 30)</note>
+              </hi>. Non sicut Patrem appellasti me,
+et principem virginitatis tuae <note>(Jerem. III, 3, 4)</note>. Verba
+sunt Christi per prophetam. Si enim ego essem princeps
+virginitatis tuae, servarem integritatem tuam,
+sicut integram servavi matrem meam. Quia ergo nec
+principem virginitatis tuae, nec Patri me agnoscis
+aequalem, nec ego te agnosco virginem. Noli te amplius
+jactare esse quod non es: agnosce turpitudinem
+tuam: Arius abstulit integritatem tuam. Non es igitur
+sponsa, quia non es integra. Frustra enim illum
+sponsum vocas, qui non est tuus: turpem enim viduam
+non accipit Christus. Redi, redi repudiata, redi
+confusa, redi serpentinis fraudibus violata; redi, non
+in divinitate coelesti composita, sed humanis assertionibus
+circumventa, redi: fallere temetipsam potes,
+fallere sponsum non potes. Novit enim ille quam
+quaerit, agnoscit ille quam vocat. Semper vivit mater:
+noverca, quid te supponis? Non potes excludere
+pulchram dominam, cum sis ipsa turpis ancilla. <hi>Species fornicariae facta est tibi.</hi> 
+ Non enim servasti uni
+viro fidem, quae catholicam non tenes unitatem. Ille
+enim sponsus matrem quaerit veram, quae pie suos
+filios nutriat; non turpem, quae alienos fraudulenter
+occidat. Vide quae est haec mater vera, quae adhuc te
+tolerat suos filios praefocantem, suo viro injurias irrogantem.
+Tolerat, quia patientiam exhibet sui sponsi,
+et exspectat auras libertatis, ut vindicetur ab eo ejus
+humilitas, quoniam eam viri sui obtinet charitas.
+Ipse est enim qui vivit et regnat cum Deo Patre et
+cum Spiritu sancto in saecula saeculorum. Amen.
+</p>
+</div2>
+        </div1>
+      </note>
+</body>
+  </text>
+</TEI>

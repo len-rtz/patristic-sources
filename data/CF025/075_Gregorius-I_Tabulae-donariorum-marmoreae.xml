@@ -1,0 +1,554 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Tabulae donariorum marmoreae</title>
+              <author ref="http://viaf.org/viaf/100184667">Gregorius I<date>540-604</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1849</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 75</title>
+           <idno>GreI.TaDoMa</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>TABULA MARMOREA AD PORTICUM S. PETRI PARIETI AFFIXA.</head>
+ 
+<p>+ DOMINIS SCIS AC BEATISS PETRO ET PAVLO APOSTOLORVM PRINCIPIBVS + GREGORIVS INDIGNVS SERVVS +
+QVOTIENS LAVDI VESTRAE VSIBVS SERVITVRA QVEDAMLICET PARBA CONQVIRIMVS VESTRA VOBIS REDDIMVS NON NOSTRA LARGIMVR
+VT HAEC AGENTES NON SIMUS ELATI DE MVNERE SET DE SOLVTIONE SECVRI + NAM QVID VNQVAM SINE VOBIS NOSTRVM EST +
+QVI NON POSSVMVS ACCEPTA REDDERE + NISI QVIA PER VOS ITERVM ET IPSVM HOC VT REDDEREMVS ACCEPIMVS + VNDE EGO VESTER
+SERVVS REDVCENS AD ANIMVM MVLTVM ME VOBIS BEATI APOSTOLI PETRE ET PAVLE ESSE DEVITOREM PROPTER QVOD AB VVERIBVS
+MATRIS MEAE DIVINAE POTENTIAE GRATIA PROTEGENTE INTRO GREMIVM ECCLESIAE VESTRAE ALVISTIS ET AD INCREMENTVM
+PER SINGVLOS GRADVS VSQVE AD SVMMVM APICEM SACERDOTII LICET IMMERITVM PRODVCERE ESTIS DIGNATI + IDEOQVE
+HOC PRIVILEGII MVNVSCVLVM HVMILI INTERIM OFFERRE DEVOTIONE PRAEVIDI + STATVO ENIM ET A MEIS SVCCESSORIBVS
+SERVANDVM SINE ALIQVA REFRAGATIONE CONSTITVO + VT LOCA VEL PRAEDIA CVM OLIBETIS QVI INFERIVS DESCRIBVNTVR
+QVOS PRO CONCINNATIONE LVMINARIORVM VESTRORVM A DIVERSIS QVIBVS DETENEBANTVR RECOLLIGENS VESTRA VOBIS DICAVI
+IMMVTILATA PREMANERE ID EST IN PATRIMONIO APPIAE MASS VICTORIOLAS OLIBETV IN FVND RVMELLIANO IN INTEGRo
+OLIBETv. IN FVND OCTABIANO IN INTEGRo MASS TRABATIANA OLIBET. IN FVND BVRREIANO VT SP OLIBET IN FVND APPIANO VT
+SP</p>
+<p>OLIBETV IN FVND. IVLIANO IN INTEGRO OLIBET. IN FVND VIVIANO VT SVP. OLIBET. IN FVND. CATTIA . . .
+OLIBET. IN FVND. SOLIFICIANO. VT SP. OLIBET. IN FVND. PALMIS VT SVP. OLIBET IN FVND. SAGARIS. V . . . . <super>V</super>. . .
+OLIBET. IN FVND. MARANO. VT SVP. OLIBET. IN FVND. IVLIANO VT SP. OLIBET IN FVND. SATVRRIANO. VT SP.
+OLIBET. IN FVND. CANIANO ET CARBONARIA VT SVP. MASS. CESARIANA OLIBET. IN FVND. FLORANº VT
+OLIBET. IN FVND. PRISCIANO ET GRASSIANO VT SVP. OLIBET IN FVND. PASCVRANO VT SP. OLIBET IN FVNDOSVPmacr;
+VARINIANO VT SVP. OLIBET IN FVND. CESARIANO. VT SP. MASS. PONTIANA OLIBET IN FVND. PONTIANO VT SP.
+OLIBET. IN FVND. CASAROMANIANA VT SP. OLIBET. IN FVND. TATTIANO VT SP. OLIBET. IN FVND. CASAFLORANA VT SP
+MASS. STEIANA OLIBET. IN FVND. BERRANO VT SP. OLIBET. IN FVND. CACLANO VT SP. OLIBET IN FVND. PONTIANº VT
+OLIBET. IN FVND. AQVILIANO VT SP. OLIBET. IN FVND STEIANO VI SP. OLIBET. IN FVND. CASSIS VT SP. MASS. TERTIANA<super>S</super>
+          <super>P</super>
+OLIBET. IN FVND. CAMME LIANO ET FVND. TORTILLIANO VT SP. OLIBET IN FVND. CASACVCVLI VT SP. MASS. NEVIANA
+OLIBET. IN FVND. ARCIPI ANO VT SP. OLIBET. IN FVND. CORELLIANO VT SP. OLIBET. IN FVND. VRSANO VT SVPER +
+IN PATRIMONIO LABICANENS MASS. ALGISIA OLIBET QVI EST AD TVFV IVXTA ANAGNIAS IN INTEGRO +
+OLIBET QVI EST IN SIBVLA ET MODICAS TALIAS CATAGEMMVLVM AG MILIT. OLIBET. IN APLINEAS IN INTEGRO +
+OLIBET. QVI EST IN CLAVINIANO OLIBET. QVEM TENET FRANCVLVS COLONVS IN FVND. ORDINIANO IN INTEGRO +
+</p>
+      </div1>
+
+<div1>
+        <head>TABULA MARMOREA AD BASILICAM S. PAULI PARIETI AFFIXA.</head>
+
+<pb n="0481"/> 
+<p>GREGORIVS EPISC. SERVVS SERVORVM DI + FELICI SVBDIAC. ET RECTORI PATRIMONII APPIAE
+LICET OMNIA QVAE HAEC APOSTOLICA HABET ECCLESIA BEATORVM PETRI AC PAVLI QVORVM HONORE ET BENEFICIIS ADQVISITA SVNT
+DO SINT AVCTORE COMMVNIA. ESSE TAMEN DEBET IN AMMINISTRATIONE ACTIONVM DIVERSITAS PERSONARVM VT IN ADSIGNATIS CVIQVE
+REBVS CVRA ADHIBERI POSSIT IMPENSIOR. CVM IGITVR PRO ECCLESIA BEATI PAVLI APOSTOLI SOLLICITVDO NOS DEBITA COMMONE
+RET NE MINVS ILLIC HABERE LVMINARIA ISDEM PRAECO FIDEI CERNERETVR QVI TOTVM MVNDVM LVMINE PRAEDICATIONIS IMPLEVIT ET VAL
+DE INCONGRVVM AC ESSE DVRISSIMVM VIDERETVR VT ILLA EI SPECIALITER POSSESSIO NON SERVIRET IN QVA PALMAM SVMENS MARTY
+RII CAPITE EST TRVNCATVS VT VIVERET VTILE IVDICAVIMVS EANDEM MASSAM QVAE AQVAS SALVIAS NVNCVPATVR CVM OMNIBVS
+FVNDIS SVIS ID EST. CELLA VINARIA. ANTONIANO. VILLA PERTVSA BIFVRCO. PRIMINIANO. CASSIANO. SILONIS. CORNELI
+TESSELLATA. ATQVE CORNELIANO CVM OMNI IVRE INSTRVCTO INSTRVMENTOQVE SVO ET OMNIBVS GENERALITER AD EAM
+PERTINENTIBVS CVM XPI GRATIA LVMINARIBVS DEPVTARE ADIICIENTES ETIAM EIDEM CESSIONI HORTOS DVO POSITOS
+INTER TIBERIM ET PORTICVS IPSIVS ECCLESIAE EVNTIBVS A PORTA CIVITATIS PARTE DEXTRA QVOS DIVIDIT FLVVIVS
+ALMON INTER ADFINES HORTI MONASTERII SCI STEPHANI QVOD EST ANCILLARVM DI POSITVM AD SCM PAVLVM ET AD
+FINES POSSESSIONIS PISINIAN SIMVL ET TERRVLAS QVAE VOCANTVR FOSSA LATRONIS POSITAS. IDEM IVXTA EANDEM
+PORTICVM EVNTIBVS SIMILITER A PORTA PARTE SINISTRA VBI NVNC VINEAE FACTAE SVNT QVAE TERRVLAE COHAERENT
+AB VNO LATERE POSSESSIONI EVGENITIS QD SCOLASTICI ET AB ALIA PARTE POSSESSIONI MONAST. SCI ARISTI QVAE
+OMNIA QVONIAM DO ADIVVANTE PER ANTEDICTAE ECCLESIAE PRAEPOSITOS QVIPER TEMPORA FVERINT A PRAESENTI SEPTIMA
+INDICTIONE VOLVMVS ORDINARI ET QVIDQVID EXINDE ACCESSERIT LVMINARIBVS EIVS IMPENDI ATQVE IPSOS EXINDE
+PONERE RATIONES IDCIRCO EXPERIENTIAE TVAE PRAECIPIMVS VT SVPRASCRIPTAM MASSAM AQVAS SALVIAS CVM PRAE
+NOMINATIS OMNIBVS FVNDIS SVIS NECNON HORTVS ATQVE TERRVLAS QVAE SVPERIVS CONTINENTVR DE BREVIBVS SVIS DELERE DEBEAT
+AC AVFFERRE ET CVNCTA AD NOMEN PRAEDICTAE ECCLESIAE BEATI PAVLI APOSTOLI TRADERE QVATENVS SERVIENTES SIBI PRAEPOSITI
+OMNI POST HOC CARENTES EXCVSATIONE DE LVMINARIBVS EIVS ITA SINE NOSTRA STVDEANT SOLLICITVDINE COGITARE VT NVLLVS ILLIC
+VMQVAM NEGLECTVS POSSIT EXISTERE FACTA VERO SVPRASCRIPTARVM OMNIVM RERVM TRADITIONE VOLVMVS VT HOC PRAECEPTVM
+IN SCRINIO ECCLESIAE NOSTRAE EXPERIENTIA TVA RESTITVAT BENE VALE.
+DAT. VIII. KAL. FEBRVARIAS IMP. DN N FHOCA PP. AUG. ANNO SECVNDO ET CONSVLATVS EIVS ANNO PRIMO IND. SEPTIMA.</p>
+</div1>
+
+<div1>
+        <head>DE TABULIS DONARIORUM MARMOREIS Romae a beato Gregorio Magno sanctis apostolis Petro et Paulo dicatis.</head>
+
+<pb n="0483"/>
+<p>
+          <pb n="0483A"/> <emph>330</emph> Tabulas Donariorum marmoreas sanctis
+apostolis Petro et Paulo a beato Gregorio Magno
+dicatas pro luminaribus, ut ipse ait, concinnandis,
+et in porticu sancti Petri affixas, hoc in loco apponendas
+censui, ut ea quae de vetusto scribendi modo
+in scholiis, et praesertim in scholio illo 241, 242,
+dixi <note>(Infra tom. IV S. Gregorii Operum, Patrologiae
+vero LXXVIII)</note>, corroborentur. Quoniam vero donationem
+aliam beato Paulo ab eodem Gregorio
+sancto pro luminaribus item concinandis lapide incisam;
+et in porticu olim sancti Pauli ad parietem ecclesiae
+affixam, nunc autem paucis abhinc diebus ante
+majus altare translatam prope alteram ex duabus
+columnis, quae primarium fulciunt arcum, a dextera
+parte collocatam, necnon in ejusdem beati Gregorii
+Regist. lib. XII ep. 19 conscriptam inveni; ad ipsius
+Sancti et Christianam et Apostolicam pietatem splendide
+repraesentandam ac perpetuo conservandam,
+hoc etiam loco imprimendam indicavi. Rerum namque
+gestarum monumenta, ut ratio ipsa suadet, et
+<pb n="0483B"/>
+experientia docet, facilius per typographicam quam
+per sculptoriam artem ab interitu vindicari queunt.
+Tabulae primo loco positae, et ad porticum sancti
+Petri affixae, duarum Tabularum frusta videntur, sicut
+diversae lapidum formae, necnon mutili Donariorum
+fines prae se ferunt.</p>
+<p>De Tabulis Donariorum marmoreis in porticu sancti
+Petri ad parietem ecclesiae affixis Maphaeus Vegius
+in libello de praestantia basilicae sancti Petri
+loquitur in hanc verborum formam: <hi>Beatus Gregorius
+ad instruenda abundantius basilicae sancti Petri
+luminaria, multa praedia, multaque praesertim oliveta
+illi donavit, sicut constat ex publico documento inscripto
+tabulis marmoreis: quae cum primo septem essent,
+duae tantum adhuc affixae sunt muro ante ingressum
+basilicae.</hi> Haec Maphaeus Vegius dicto in libello,
+qui in bibliotheca basilicae sancti Petri asservatur.</p>
+<p>Ego interea lectorem moneo, omnem vel etiam
+futilem hisce in tabulis describendis et imprimendis
+industriam fuisse adhibitam, ut vetusta scribendi
+<pb n="0483C"/>
+consuetudo ad amussim, vel, ut rectius dicam, ad
+minimum usque apicem repraesentaretur, spatiis tantum
+exceptis, quae quamvis in inscriptionibus lapide
+incisis inter singulas quasque voces desiderentur;
+ea tamen in hisce impressis apponenda curavi, ut
+lectio facilior reddatur. In nonnullis item vocibus
+contractis puncta non exstant, et minuscula elementa
+majusculis admixta interdum cernuntur.</p>
+<p>Voces denique obsoletas quae priscam illam veterum
+scriptorum aetatem sapiunt etiam prout jacent reliquimus,
+easque lapicidarum mendis carere lectorem
+monitum volo: littera enim pro littera nonnunquam
+a veteribus usurpata invenitur, ut <hi>immutilata</hi> pro <hi>immutilata, inmeritum</hi> 
+ pro <hi>immeritum, inpendi</hi> pro <hi>impendi, set</hi> 
+ pro <hi>sed, adquisita</hi> pro <hi>acquisita, adsignatis</hi> 
+pro <hi>assignatis, intro</hi> pro <hi>intra</hi> (id est, adverbium
+loco praepositionis), <hi>super</hi> pro <hi>supra</hi> (hoc est,
+praepositio pro adverbio), <hi>post hoc</hi> pro <hi>posthac</hi> (nam <hi>post hoc</hi> 
+ quasi <hi>post hoc tempus</hi> dicitur, cujus significationem
+habet adverbium <hi>posthac), adfines</hi> (agrorum)
+<pb n="0483D"/>
+pro <hi>affines</hi> et <hi>confines, adicientes</hi> pro <hi>adjicientes,
+exsistere</hi> pro <hi>existere, hortus</hi> (in accusandi casu) pro <hi>hortos, detenebantur</hi> 
+ pro <hi>detinebantur, consolatus</hi> pro <hi>consulatus.</hi> 
+ Hujus generis exempla majori ex parte
+in orthographia Aldina, et in aliis inscriptionibus,
+quas ad millia sexaginta et eo amplius descriptas
+penes se habere Aldus junior affirmare solebat, antiquitus
+usurpata leguntur, quae brevitatis gratia silentio
+praetermittenda censui: sat enim est hac in re
+citasse inscriptiones veterum Latinorum ab Aldo descriptas.
+Ipse enim abstrusa omnia antiquitatum in
+Latine scribendo monumenta adeo accurate observavit,
+<pb n="0484A"/>
+ut neminem in hoc genere parem <emph>331</emph> habuerit.
+Non desunt etiam scriptores, qui dictas voces
+apud antiquos in usu frequenti fuisse dicant: quos
+brevitatis causa omitto.</p>
+<p>Illa item B. Gregorii aetas littera B pro V et V pro
+B uti non raro solebat, ut supra videre est in tabula
+ex duabus prima, in qua legitur, <hi>parba</hi> pro <hi>parva,
+olibetum</hi> pro <hi>olivetum, silbula</hi> pro <hi>silvula, octabiano</hi> 
+pro <hi>octaviano; devitorem</hi> pro <hi>debitorem,</hi> et <hi>uveribus</hi> 
+pro <hi>uberibus.</hi> Hunc vetustum scribendi usum in scholio
+nostro 246 ( <hi>Ubi supra</hi> ) satis diffuse explicavimus,
+ut idem scholium, in quo nonnulla scitu fortasse
+digna enarrantur, huic etiam tabulae deserviret. Alia
+item haud omnino contemnenda ad hujus generis
+scribendi pronuntiandique usum spectantia in Commentario
+nostro bibliothecae Vaticanae anno 1591
+impresso, pag. 153 et 297 docuimus.</p>
+<p>Lectorem item moneo, in <hi>olivetorum</hi> recensione
+legi semper <hi>olibetum</hi> in accusandi casu per vocem
+hoc modo contractam, <hi>olibet</hi> et cum puncto et sine
+<pb n="0484B"/>
+ipso, vel <hi>olibetu,</hi> modo etiam cum puncto, modo absque
+ipso. Quod autem accusandi casus sine littera <hi>m</hi> 
+ fuerit in usu apud veteres Latinos illos qui aetate
+beati Gregorii exstabant, id nobis persuadent multae
+antiquorum inscriptiones lapide incisae, quarum etiam
+exempla, brevitati consulens omitto.</p>
+<p>Illud interea subticendum non videtur, cur scilicet <hi>olivetum,</hi> 
+ quod est generis neutrius, in hac inscriptione
+masculini semper generis esse inveniatur: id
+quod factum puto per figuram synthesim, quae discordat
+cum voce, et cum suo concorda significatu,
+ut est illud Virg. VIII Aen., <hi>Praeneste sub ipsa,</hi> teste
+Aldo seniori, et <hi>Camerino sub ipsa,</hi> i. civitate: nam <hi>Praeneste</hi> 
+ et <hi>Camerinum</hi> sunt generis neutrius. Per
+hanc item figuram, synthesim, dicitur: Lilium est
+albissimus florum. i. flos albissimus omnium florum;
+ita etiam olivetum, quod est locus, sive ager, in quo
+oleae consitae sunt, discordat cum voce, et concordat
+cum significatu, si referatur ad locum, sive ad
+agrum.</p>
+<p>
+          <pb n="0484C"/>In secunda tabula, quae infra cernitur, legitur <hi>isdem</hi> 
+in recto pro <hi>idem.</hi> Hanc vocem <hi>isdem,</hi> in nominativo
+singulari pro <hi>idem,</hi> non solum Eucherius bis
+in II lib. in Gen. et bis in lib. Regum usurpavit, sed
+Ennius etiam auctor perantiquus in nominativo singulari,
+et in ablativo plurali, ut refert Cicero in lib.
+de Oratore, usus est eadem voce, <hi>isdem</hi> dicens: <hi>Isdem
+campus habet (inquit Ennius) et in templis isdem,
+probavit,</hi> etc.</p>
+<p>In templis <hi>isdem</hi> pro <hi>iisdem,</hi> dixit Ennius. Hinc
+Cicero eodem in loco ait <hi>isdem</hi> dici et in nominativo
+singulari, et in ablativo plurali, et utrumque usurpatum
+fuisse ab Ennio: nam vox <hi>isdem</hi> derivatur ab is,
+ea, id, et demum, auctore Prisciano lib. XII, cap.
+de figura. Hinc, si non <hi>isdem,</hi> sed <hi>idem,</hi> campus legeretur,
+ut nunc profecto legitur, sed corrupte quidem
+Ciceronis de hac voce disputatio vana esset.
+Ennius enim quamvis in nominativo singulari dixerit, <hi>isdem,</hi> 
+ non <hi>idem campus,</hi> in ablativo plurali etiam
+dixit <hi>in templis isdem,</hi> pro <hi>iisdem,</hi> et uti maluit eadem
+<pb n="0484D"/>
+voce in secundo loco, alterum <hi>i,</hi> abjiciens ut
+malum sonum vitaret, quam pro <hi>iisdem,</hi> vocem <hi>eisdem</hi> 
+usurparet, quae sane vox (ut ait Cicero) erat
+opimior, quam scilicet ferebat Ennii aetas, quae nimirum
+vetustatem sapiebat. <hi>Isdem</hi> itaque voce, primo
+Ennii loco pro <hi>idem,</hi> reposita, Ciceronis locus emendatur.</p>
+<p> <hi>Duo</hi> etiam pro <hi>duos,</hi> ut <hi>hortos duo positos.</hi> Quem
+locum in secunda tabula mendosum esse credidissem,
+nisi locum Charisii legissem scribentis, <hi>duo</hi> pro <hi>duos,</hi> 
+et <hi>ambo</hi> pro <hi>ambos</hi> juxta analogiam, et declinationem
+Graecam recte dici. Ait enim Charisius libro I:
+<pb n="0485A"/>
+Nonnulli, Graecos secuti, <emph>332</emph> quia illi, <foreign xml:lang="greek">τοὺς δύο</foreign> et <foreign xml:lang="greek">τοὺς ἄμφο</foreign>
+ dicunt, <hi>hos duo,</hi> et <hi>hos ambo</hi> dixerunt. <hi>Ambo</hi> 
+ pro <hi>ambos</hi> apud Virg. ecl. 6:
+<l rend="indent">nam saepe senex spe carminis ambo</l>
+<l>Luserat.</l> 
+Ita legendum ex Charisio, necnon ex codice Ms.
+vetutissimo et insigniori, characteribus majusculis
+conscripto, qui in bibliotheca Vaticana asservatur.
+Idem Virgilius in lib. IV Georgicorum:
+<l>Verum ubi ductores acie revocaveris ambo.</l> 
+Ita Virgilii locus ex Charisio emendandus. In codice
+Vaticano insigni versus hic non exstat, quia in hoc
+lib. IV Georg. aliquot paginae desiderantur. Afranius
+in Pantaleo:
+<l>Revocas nos ambo ad praelium.</l> 
+Idem Virgilius lib. XII Aeneidos:
+<l>Hunc congressus, et hunc; illum eminus, eminus ambo.</l> 
+Ita legitur in codice ms. vetustissimo et insigniori
+<pb n="0485B"/>
+Vaticano. Terentius in Andria act. II, sc. 2: <hi>Ambo
+opportune vos volo.</hi> Ita legendum ex Charisio; alii
+enim legunt: <hi>Ambo opportune: vos volo.</hi> </p>
+<p> <hi>Duo</hi> pro duos recte scribit, ait Charisius lib. I,
+Attius in Epinausimache:
+<l>Martes armis duo congressos crederes.</l> 
+Ita legendum ex Charisio. Terentius in Adelphis,
+act. V, sc. 3:
+<l>Tu illos duo pro re olim tollebas tua.</l> 
+Ubi Helenius Acron, <hi>duo</hi> pro duos. Ita legitur in codice
+ms. vetutissimo et insigniori Vaticano. Ita etiam
+legitur in Terentio a Gabriele Faerno; et i a Terentii
+locus ex Charisio est emendandus. Cicero in
+Verrem lib. I, act. 2: <hi>Horum Pater abhinc duo et
+viginti annos est mortuus.</hi> Sic legebatur, et ita legi
+debet. Idem ad Atticum lib. IV, epist. ultima: <hi>Duo
+consulares, qui te dicerent.</hi> Sic legendum. Idem ad
+Q. Fr. lib. I, ep. 2: <hi>Duo Mysos.</hi> Ita legendum, et ita
+emendavit Paulus Manutius ex lib. Bessarionis. Idem
+<pb n="0485C"/>
+lib. Famil. III, epist. 4: <hi>Duo enim duarum aetatum
+plurimi facio, Cn. Pompeium filiae socerum, et M.
+Brutum generum tuum.</hi> Idem lib. VII, ep. 25: <hi>Praeter
+duo nos, loquitur isto modo nemo.</hi> Ita legitur, et ita
+legi debet. Idem lib. eod., epist. 29: <hi>Duo parietes de
+eadem fidelia dealbare.</hi> Idem de Amicitia: <hi>Ut omnis
+charitas sive inter duo, aut inter paucos jungeretur.</hi> 
+Sallustius historiarum lib. IV, in epist. Mithridatis: <hi>Inter me atque Lucullum, prope inopia rursus ambo
+incessit.</hi> 
+ Virg. ecl. V: <hi>Craterasque duo statuam tibi.</hi> 
+Ita legit Pierius ad sibilum evitandum: et ita legitur
+in codice ms. vetustissimo, et insigniori Vaticano.
+Idem lib. II Aeneidos:
+<l>Si duo praeterea tales Idaea tulisset</l>
+<l>Terra viros</l>
+Ita legitur in codice ms. vetustissimo et insigniori
+Vaticano, nec aliter legi potest, quia utraque syllaba
+in voce, <hi>Duo,</hi> est brevis; et in primo loco est dactylus,
+in quo prima syllaba longa est, duabus sequentibus
+<pb n="0485D"/>
+brevibus.</p>
+<p>Priscianus lib. VII ait: Oportet scire quidem analogiae
+rationem, usum tamen auctorum magis aemulari. <hi>Duo</hi> 
+ praeterea, et <hi>Ambo</hi> accusativos, secundum
+hanc declinationem proferunt, <hi>Ambos,</hi> et <hi>Duos.</hi> C.
+Julius Romanus in libello de Analogia rectam ponit
+esse declinationem: <hi>Hos duo.</hi> </p>
+<p> <hi>Duo</hi> igitur pro <hi>duos,</hi> et <hi>ambo</hi> pro <hi>ambos</hi> recte
+scribi ex Charisio et aliis probatissimis auctoribus
+fatendum, affirmandumque est.</p>
+<p>Quod autem ad orthographiam attinet, duae voces
+in prima tabula absque diphtongo leguntur, quarum
+prima est dictio <hi>quedam,</hi> altera vero <hi>Cesariano.</hi> In
+secunda vero Tabula legitur <hi>Fhoca,</hi> pro <hi>Phoca.</hi> Quas
+sane voces lapicidarum mendis carere non puto.</p>
+<p> <hi>Massa</hi> hisce in tabulis non eo sensu quo dicitur
+massa auri et argenti, atque id genus alia; sed pro
+<pb n="0486A"/>
+fundo sive villa, quam vulgo dicunt possessionem,
+usurpatur. Unde <hi>massarius</hi> <emph>333</emph> cui totius villae
+cura commissa est nuncupatur, ut placet Huguitioni.
+Hinc nonnullis in locis rustica possessio, pro villa
+sive fundo sumpta, <hi>massaria</hi> vocitari solet.</p>
+<p>Haec de glossematibus sive vocibus veterum Latinorum
+abstrusis in utraque Donariorum tabula conscriptis:
+de quibus lectorem monitum volui, ut ne
+quis voces obsoletas per typographorum incuriam
+impressam fuisse opinetur, necve quis omnes illas
+lapicidarum menda esse suspicetur.</p>
+<p>Ea Donariorum tabula quae nunc ad basilicam sancti
+Pauli exstat, legitur etiam in Registro beati Gregorii
+lib. XII, epist. 19; sed in epistola quae Registro
+inserta est nonnulla desiderantur: nam in salutatione
+epistolari desunt haec verba, quae in tabula marmorea
+exstant: <hi>Episcopus servus servorum Dei.</hi> Ad finem
+vero epistolae verba haec: <hi>Bene vale. Dat. viij. Kalend.
+Februarias, Imp. Domino N. Fhoca PP. Aug.
+anno secundo, et consolatus ejus anno primo, ind. septima.</hi> 
+<pb n="0486B"/>
+Haec in tabula marmorea.</p>
+<p>Nonnullae item voces, ut, <hi>in foro,</hi> pro quo in tabula
+legitur <hi>bifurco; horos duos,</hi> pro <hi>hortos duo positos;
+id est,</hi> pro <hi>ibidem; similiter parte sinistra ad
+portam,</hi> pro <hi>similiter a porta, parte sinistra; Eugentis,</hi> 
+pro <hi>Eugenitis; possessionibus monasterii sancti
+Edistii,</hi> pro <hi>possessioni monasterii sancti Aristi;
+hortos,</hi> pro <hi>hortus; deleri facias ac auferri,</hi> pro <hi>delere
+debeat ac auferre.</hi> </p>
+<p>His de rebus lectorem item monitum volui, ut si
+quis tabulam marmoream cum epistola Registro inserta
+conferret, hanc collationem in Registro imprimendo
+factam non fuisse sciat: propterea quod dum
+Registrum typis mandaretur, tabula illa, nondum in
+ecclesiam translata, in porticu sancti Pauli, ad parietem
+affixa erat in editissimo loco sita, hinc perpaucis
+et fere nemini nota: quia vix aliquid de ea
+legi poterat. Ego vero dum scholia et alia in beatum
+Gregorium a me elaborata in lucem edenda curarem,
+<pb n="0486C"/>
+aliud agens, incidi in Panvinium, qui totam hanc
+tabulam in libello de septem Urbis ecclesiis scriptam
+reliquit, dum de basilica sancti Petri sermonem haberet.</p>
+<p>Quare omni adhibita diligentia et industria, eam
+quaerendo inveni, inventamque ex marmore fideliter
+decerpsi, decerptamque denique atque impressam,
+ob rationes initio assignatas hoc loco apponere libuit.</p>
+<p>Reliquum est ut paucis explicemus cur beatus
+Gregorius Magnus solis pro luminaribus seu lampadibus
+in honorem sanctorum apostolorum Petri et
+Pauli accendendis, tot fundos et praedia, sive tot
+possessiones, totque denique oliveta eorumdem
+sanctorum basilicis dedicarit, ac destinarit: nam
+ex tot tantisque praediorum, et olivetorum praesertim
+reditibus, nonnisi ingentem lampadum numerum
+dictis in ecclesiis adhibitum olim fuisse, colligere possumus.
+Id quod planum cuique profecto fit, si
+Vitae summorum pontificum ab Anastasio Bibliothecario,
+<pb n="0486D"/>
+et a Platina, necnon Historiae sacrae a
+Petro Mallio conscriptae legantur. Nam post Silvestrum
+papam, Coelestinus, Hilarius, Simplicius,
+Symmachus et post Gregorium Magnum Sabinianus,
+ejus successor, deinde Honorius, Agatho,
+Gregorius II, Zacharias, et alii varia candelabrorum
+genera argentea, variis nominibus nuncupata
+(hoc est coronae, phara, canthara, cerostata et
+rhetia) multasque auri et argenti libras pro lampadibus
+basilicae sancti Petri Romae dono dederunt.
+Idem fecit Constantinus Magnus imp., deinde Theodoricus
+rex sub Hormisda, Belisariusque sub Vigilio,
+qui magni pretii varia candelabrorum genera, multaque
+auri et argenti pondo, imperatoriae ac regiae
+opulentiae ac liberalitati consentanea, ecclesiae
+sancti Petri atque item beati Pauli obtulerunt. Panvinius
+de rebus antiquis memoralibus et praestantia
+basilicae sancti Petri lib. V in ejusdem ecclesiae
+bibliotheca asservato, ait: <hi>Mathilda sanctitate celebris,
+<pb n="0487A"/>
+tanti basilicam sancti Petri fecit, ut quo luminaribus
+adhibitis magis decoraretur, tanquam debitam ei dotem
+donavit patrimonium suum, id est, Liguriae et
+Hetruriae praecipuas partes cum omnibus oppidis ac
+eorumdem juribus.</hi> Haec Panvinius. Platina in ipso
+Paschalis II Vita, inquit hunc in modum: <hi>Hoc tempore
+Mathilda comitissa, admodum senio confecta,
+moriens, Romanae Ecclesiae ex testamento reliquit
+quidquid a Pissia amne, et sancto Quirico agri Senensis
+usque ad Ceperanum inter Appenninum et mare pertinet,</hi> <emph>334</emph> 
+ <hi>addita Ferraria, quae adhuc Romanae Ecclesiae
+vectigalis est.</hi> Haec Palatina. Sed Ferraria longe
+prius sub Ecclesiaeditione fuit, hoc est mille abhinc fere
+annis, tempore videlicet Vitaliani, ut in chronicis peregrini
+Prisciani et Gasparis Sardi videre licet, deinde
+tempore Pipini, Karoli Magni, Ludovici I, Henrici
+I et Othonis I ante Mathildam, et ex eorumdem, caeterorumque
+post Mathildam, imperatorum privilegiis,
+quae in archivo castri sancti Angeli custodiuntur,
+constat. De hac item donatione, donationisque confirmatione
+<pb n="0487B"/>
+a comitissa Mathilda tempore Gregorii
+VII et Paschalis II praestita anno 1102 authentica non
+desunt momenta scriptis mandata, quae in omnibus
+S.  E. R. archivis asservantur. Postquam autem in
+sermonem de Ferraria non consulto, sed re id mihi
+subministrante incidi, breviter et quasi praeteriens,
+dicam quod de ipsa Ferraria accidit dum haec de
+sanctorum apostolorum Petri et Pauli lampadibus
+typis mandarem. Superiori namque anno Domini
+1597, die. 27 Octobris, Alhdonso Estense hujus nominis
+Il et ultimo Ferrariae duce sine filiis ac descendentibus
+mortuo, sanctiss.  D.  N. Clement VIII pastor
+Ecclesiae vigilantissimus, et patrimonii sancti Petri
+defensor acerrimus et indefessus, ubi primum accepit
+Ferrariae ducatum in feudum olim a Romanis
+pontificibus praedecessoribus suis concessum, ad Romanam
+Ecclesiam ob lineam dicti Alphonsi finitam
+fuisse devolutum, nulla penitus cunctatione interposita,
+cum universo S.  R. E. cardinalium collegio de
+illius recuperatione graviter ac sapienter egit, dictam
+<pb n="0487C"/>
+recuperationem iisdem quoque cardinalibus instanter
+postulantibus. Quare sanctiss.  D. N. in decreto, hac
+de re pronuntiando, humanis posthabitis rationibus,
+totam Ferrariae ditionem Christo Domino Salvatori
+nostro, necnon gloriosae ac semper virgini Dei genitrici
+Mariae, sanctisque apostolis Petro et Paulo
+constanti animo miroque pietatis ardore addixit et
+consecravit. Juris itaque ac canonum ordine servato,
+<pb n="0488A"/>
+stricto tandem utroque gladio, Petroque sancti Nicolai
+in carcere diacono cardinali Aldobrandino ejusdem
+Clementis nepote, ad res sane praeclaras et arduas
+pro Romana Ecclesia celeriter ac feliciter perficiendas
+nato, ad ducatum <emph>335</emph> Ferrariae recuperandum
+cum militaribus copiis misso, Caesar Estensis
+nullo militum exspectato congressu, eumdem Ferrariae
+ducatum antiquo ac legitimo S.  R. E. domino,
+anno hoc ipso 1598 die 12 Januarii restituere, inita
+conventione scriptis mandata, promisit: reque ipsa
+ejusdem vigesima nona mensis die, hoc est pridie
+diei sancto Hippolyto consecratae, in qua ipsius Clementis,
+antea Hippolyti nuncupati, pontificatus natalis
+celebratur, libere ac pacifice, non humano tantum,
+sed expresso divinae opis praesidio, restituit,
+Ferraria gaudio gestiente, tota urbe Roma exsultante,
+Deoque ingentes gratias agente, universaque Italia
+admirante. Hactenus de Ferraria. Nunc ad nostrum
+de lampadibus in honorem sanctorum apostolorum
+Petri et Pauli olim accendi solitis institutum revertamur.
+<pb n="0488B"/>
+Nam Petrus Mallius in libro de historiae Basilicae
+sancti Petri, ut in Bibliotheca vaticana videre
+est, post varia donorum ac redituum genera basilicae
+sancti Petri pro lampadibus accendendis enumerata,
+de luminaribus dicta in Ecclesia perpetuo accensis
+loquens, CL lampades diu noctuque, in stationibus
+autem CCL sua tempestate in basilica sancti Petri arsisse
+testatur, variaque lampadum et candelabrorum
+genera et nomina, atque item loca omnia, in quibus
+candelabra suspendebantur, recenset, stationibus
+quibuscumque totius anni enarratis. Accendebatur
+etiam candelabrum, quod tot habebat lampades, quot
+dies anni sunt, hoc est CCCLXV. Imo ut Anastasius
+bibliothecarius in Hadriano primo ait: Hadrianus
+ipse basilicae sancti Petri dono dedit candelabrum,
+crucis formam repraesentans, MCCCLX candelis vel
+lampadibus insignitum, quod ante presbyterium
+pendens, quatuor anni vicibus, die scilicet Natalis
+Domini, in Paschate, in Natali sanctorum apostolorum
+Petri et Pauli, et in Romani pontificis electione,
+<pb n="0488C"/>
+quae singulo quoque anno, ipso vivente, celebratur,
+ac accendi solebat, MCCCLXX lampades ante presbyterum
+accendi solebant. Idem fere legitur de basilica
+sancti Pauli. Cum itaque in basilicis sanctorum
+apostolorum Petri et Pauli tot lampades perpetuo
+arderent, mirum nemini videri debet, si tot praedia,
+totque oliveta dictis basilicis fuerint dedicata ac
+destinata.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

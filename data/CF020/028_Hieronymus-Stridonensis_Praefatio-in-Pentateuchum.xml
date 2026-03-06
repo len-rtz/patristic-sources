@@ -1,0 +1,178 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Praefatio in Pentateuchum</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 28</title>
+           <idno>HieStr.PrInPe</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Praefatio in Pentateuchum</head>
+<p>
+          <pb n="0147A"/>Desiderii mei desideratas accepi epistolas, qui
+quodam praesagio futurorum, cum Daniele sortitus
+est nomen, obsecrantis <note>(Dan. IX, 23)</note>, ut translatum
+in Latinam linguam de Hebraeo sermone Pentateuchum,
+nostrorum auribus traderem. Periculosum
+opus certe, et obtrectatorum meorum latratibus
+patens, qui me asserunt in Septuaginta Interpretum
+suggillationem nova pro veteribus cudere: ita ingenium
+<pb n="0148A"/>
+quasi vinum probantes; cum ego saepissime
+testatus sim, me pro virili portione in tabernaculo
+Dei offerre quae possim, nec opes alterius, aliorum
+paupertate foedari. Quod ut auderem, Origenis me
+studium provocavit, qui editioni antiquae translationem
+Theodotionis miscuit, asterisco +, et obelo ÷,
+id est, stella et veru opus omne distinguens: dum
+aut illucescere facit quae minus ante fuerant, aut
+<pb n="0149A"/>
+superflua quaeque jugulat, et confodit; maximeque
+quae evangelistarum et apostolorum auctoritas promulgavit:
+in quibus multa de veteri Testamento legimus,
+quae in nostris codicibus non habentur; ut
+est illud. <hi>Ex Aegypto vocavi filium meum <note>(Matth. II,
+15)</note>
+          </hi>; et: <hi>Quoniam Nazaraeus vocabitur <note>(Ibid., 23)</note>
+          </hi>; et: <hi>Videbunt in quem compunxerunt 
+ <note>(Joan XIX, 37)</note>
+          </hi>; et: <hi>Flumina de ventre ejus fluent aquae vivae 
+ <note>(Joan. VII,
+38)</note>
+          </hi>; et: <hi>Quae nec oculus vidit, nec auris audivit, nec
+in cor hominis ascenderunt, quae praeparavit Deus
+diligentibus se <note>(I Cor. II, 9)</note>
+          </hi>; et multa alia quae proprium <foreign xml:lang="greek">σύνταγμα</foreign>
+ desiderant. Interrogemus ergo eos,
+ubi haec scripta sint: et cum dicere non potuerint,
+de libris Hebraicis proferamus. Primum testimonium
+est in Osee <note>(Osee XI, 1)</note>, secundum in Isaia
+<pb n="0149B"/> <note>(Isai. XI, 1)</note>,
+tertium in Zaccharia <note>(Zacch. XII, 10)</note>,
+quartum in Proverbiis <note>(Prov. XVIII, 4)</note>, quintum
+<pb n="0150A"/>
+aeque in Isaia <note>(Isai. LXIV, 4)</note>. Quod multi ignorantes,
+ apocryphorum deliramenta sectantur; et Iberas
+naenias libris authenticis praeferunt. Causas erroris
+non est meum exponere. Judaei prudenti factum dicunt
+esse consilio, ne Ptolemaeus unius Dei cultor,
+etiam apud Hebraeos duplicem divinitatem deprehenderet.
+Quod maxime idcirco faciebant, quia in Platonis
+dogma cadere videbatur. Denique ubicumque
+sacratum aliquid Scriptura testatur de Patre et Filio
+et Spiritu sancto, aut aliter interpretati sunt, aut
+omnino tacuerunt; ut et regi satisfacerent et arcanum
+fidei non vulgarent. Et nescio quis primus
+auctor septuaginta cellulas Alexandriae mendacio
+suo exstruxerit, quibus divisi eadem scriptitarent,
+cum Aristeas [ <hi>Al.</hi> Aristaeus] ejusdem Ptolemaei
+<pb n="0150B"/>
+ <foreign xml:lang="greek">ὑπερασπιστὴς</foreign>, et multo post tempore Josephus,
+nihil tale retulerint: sed in una basilica congregatos,
+<pb n="0151A"/>
+contulisse scribant, non prophetasse. Aliud est
+enim vatem, aliud esse interpretem. Ibi Spiritus
+ventura praedicit: hic eruditio et verborum copia,
+ea quae intelligit, transfert. Nisi forte putandus est
+Tullius Oeconomicum Xenophontis, et Platonis
+ Protagoram, et Demosthenis pro Ctesiphonte, afflatus
+rhetorico spiritu transtulisse. Aut aliter de eisdem
+libris per Septuaginta Interpretes, aliter per
+apostolos Spiritus sanctus testimonia texuit, ut quod
+illi tacuerunt, hi scriptum esse mentiti sint. Quid
+igitur? damnamus veteres? minime: sed post priorum
+studia, in domo Domini quod possumus, laboramus.
+Illi interpretati sunt ante adventum Christi,
+et quod nesciebant, dubiis protulere sententiis. Nos
+post passionem et resurrectionem ejus, non tam
+<pb n="0151B"/>
+prophetiam, quam historiam scribimus. Aliter enim
+audita, aliter visa narrantur. Quod melius intelligimus,
+melius et proferimus. Audi igitur, aemule; obtrectator,
+<pb n="0152A"/>
+ausculta: non damno, non reprehendo
+Septuaginta, sed confidenter cunctis illis apostolos
+praefero. Per istorum os mihi Christus sonat, quos
+ante prophetas inter spiritalia charismata positos
+lego: in quibus ultimum pene gradum interpretes
+tenent <note>(I Cor. XII, 28; Ephes. IV, 11)</note>. Quid livore
+torqueris? quid imperitorum animos contra me concitas?
+Sicubi in translatione tibi videor errare, interroga
+Hebraeos, diversarum urbium magistros consule.
+Quod illi habent de Christo, tui codices non
+habent. Aliud est, si contra se postea ab apostolis
+usurpata testimonia, probaverunt, et emendatiora
+sunt exemplaria Latina quam Graeca, Graeca quam
+Hebraea. Verum haec contra invidos. Nunc te precor,
+Desideri charissime, ut quia tantum opus me subire
+<pb n="0152B"/>
+fecisti, et a Genesi exordium capere, orationibus
+juves: quo possim eodem spiritu quo scripti sunt
+libri, in latinum eos transferre sermonem.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

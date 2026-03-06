@@ -1,0 +1,2982 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Canones Evangeliorum</title>
+              <author ref="http://viaf.org/viaf/29403098">Eusebius Pamphilus<date/> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 29</title>
+           <idno>EusPam.CanEva</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>EUSEBII CAESARIENSIS EPISTOLA IN SUBSEQUENTES CANONES EVANGELIORUM.</head>
+<p>
+          <emph>
+            <pb n="0529C"/>EUSEBIUS CARPIANO FRATRI
+In Domino Salutem.</emph>
+        </p>
+<p>Ammonius quidam Alexandrinus, magno studio
+<pb n="0531A"/>
+atque industria unum nobis pro quatuor Evangeliis
+derelinquit. Namque trium Evangeliorum sensus exceptos,
+omnes similes contextus Matthaei Evangelio
+quasi ad unum congestos, annexuit: ita ut eorumdem,
+quantum ad tenorem pertinet lectionis, sequens
+jam stylus interruptus esse videatur. Verum ut salvo
+corpore, sive textu caeterorum hic Evangeliorum
+propria et familiaria loca, in quibus eadem similiterque
+dixerunt, scire possis, ac vere disserere, accepta
+occasione ex praedicti viri studio, alia ratione
+decem numerorum tibi titulos designavi. Quorum
+primus, quatuor in se continet numeros, in quibus
+similia ab universis dicta sunt, Matthaeo, Marco,
+Luca, Joanne. Secundus, in quibus tres, Matthaeus,
+Marcus, Lucas. Tertius, in quibus tres, Matthaeus,
+<pb n="0531B"/>
+Lucas, Joannes. Quartus, in quibus tres, Matthaeus,
+Marcus, Lucas. Quintus, in quibus duo, Matthaeus
+Lucas. Sextus, in quibus duo, Matthaeus, Marcus.
+Septimus, in quibus duo, Matthaeus, Joannes. Octavus,
+in quibus duo, Marcus, Lucas. Nonus, in quibus
+duo, Lucas, Joannes. Decimus, in quibus singuli de
+qubusdam proprie scripserunt. Et quidem subjectorum
+titulorum id est argumentum, clara vero eorum
+narratio haec est: etenim per singula loca Evangeliorum
+quidam numerus videtur appositus, paulatim
+incipiens a primo, deinde secundo, postremo tertio,
+et per ordinem librorum ad finem usque progrediens.
+Itaque per singulos numeros supputatio, per
+lineae distinctionem invenitur inserta, significans
+cui de decem titulis appositus numerus assignetur.
+<pb n="0531C"/>
+Veluti siquidem primum, certum est in primo. Si
+vero in secundo, et eodem modo usque ad decem.
+Si igitur evoluto uno qualicumque cum quatuor
+Evangeliis, cuilibet capitulo velis insistere, et rescire
+qui similia dixerint, et loca propria agnoscere singulorum,
+in quibus eadem sunt prolocuti ejusdem
+sensus quem tenes, relegens propositum numerum,
+quesitumque eum in titulo quem demonstrat tituli
+subnotatio, continuo scire potes ex suprascriptionibus,
+quas in fronte notatas invenies: qui, aut quot de
+his quae inquiris, similia dixerint. Veniens etiam ad
+reliqua Evangelia per eumdem numerum, quem continent,
+videbis appositos per singulos numeros, atque
+eos in suis propriisque locis similia dixisse reperies.</p>
+<p>
+          <emph>
+            <pb n="0530C"/> <foreign xml:lang="greek">ΕΥΣΕΒΙΟΣ ΚΑΡΠΙΑΝΩ ΑΓΑΠΗΤΩ ΑΔΕΛΦΩ
+Ἐν Κυριῷ χαίρειν.</foreign>
+          </emph>
+        </p>
+<p> <foreign xml:lang="greek">Ἀμμόνιος μὲν ὁ Ἀλεξανδρεὺς, πολλὴν, ὡς εἰκὸς, φιλοπονίαν
+<pb n="0532A"/>
+καὶ σπουδὴν εἰσαγηοχὼς, τὸ διὰ τεσσάρων ἡμῖν
+καταλέλοιπεν εὐαγγέλιον, τῷ κατὰ Ματθαῖον τὰς ὁμοφώνους
+τῶν λοιπῶν εὐαγγελιστῶν περικοπὰς παραθεὶς, ὡς
+ἐξ ἀνάγκης συμβῆναι τὸν τῆς ἀκολουθίας εἱρμὸν τῶν
+τριῶν διαφθαρῆναι, ὅσον ἐπὶ τῷ ὕφει τῆς ἀναγνώσεως·
+ἵνα δὲ σωζομένου καὶ τοῦ τῶν λοιπῶν δι' ὅλου σώματός
+τε καὶ εἰρμοῦ, εἰδέναι ἔχοις τοὺς οἰκείους ἑκάστου εὐαγγελιστοῦ
+τόπους ἐν οἷς κατὰ τῶν αὐτῶν ἠνέχθησαν, καὶ φιλαληθῶς
+εἰπεῖν, ἐκ τοῦ πονήματος τοῦ προειρημένου ἀνδρὸς
+εἰληφὼς ἀφορμὰς, καθ' ἑτέραν μέθοδον κανόνας δέκα τὸν
+ἀριθμὸν διεχάραξά σοι τοὺς ὑποτεταγμένους· ὧν ὁ μὲν
+πρῶτος περιέχει ἀριθμοὺς ἐν οἶς τὰ παραπλήσια εἰρήκασιν
+οἱ τέσσαρες, Ματθαῖος, Μάρκος, Λουκᾶς, Ἰωάννης. Ὁ
+δεύτερος, ἐν ᾧ</foreign> [ <hi>F.</hi> <foreign xml:lang="greek">ἐν οἷς,</foreign> <hi>ut et infra</hi> ] <foreign xml:lang="greek">οἱτρεῖς, Ματθαῖος, Μάρκος,
+Λουκᾶς. Ὁ τρίτος, ἐν ᾧ οἱ τρεῖς, Ματθαῖος, Λουκᾶς,
+<pb n="0532B"/>
+Ἰωάννης. Ὁ τέταρτος, ἐν ᾧ οἱ τρεῖς, Ματθαῖος, Μάρκος,
+Ἰωάννης. Ὁ πέμπτος, ἐν ᾧ οἱ δύο, Ματθαῖος, Λουκᾶς. Ὁ
+ἕκτος, ἐν ᾧ οἱ δύο, Ματθαῖος, Μάρκος. Ὁ ἕβδομος, ἐν ᾧ οἱ
+δύο, Ματθαῖος, Ἰωάννης. Ὀ ὄγδοος, ἐν ᾧ οἱ δύο, Μάρκος,
+Λουκᾶς. Ὁ ἔννατος, ἐν ᾧ οἱ δύο, Λουκᾶς, Ἰωάννης. Ὁ
+δέκατος, ἐν ᾧ περὶ τίνων ἕκαστος αὐτῶν ἰδίως ἀνέγραψεν.
+Αὕτη μὲν οὖν ἡ τῶν ὑποτεταγμένων κανόνων ὑπόθεσις· ἡ
+δὲ σαφὴς αὐτῶν διήγησις, ἔστιν ἥδε· ἐφ' ἑκάστῳ τῶν τεσσάρων
+εὐαγγελίων ἀριθμός τις πρόκειται κατά μέρος,
+ἀρχόμενος ἀπὸ τοῦ πρώτου, εἶτα δευτέρου, καὶ τρίτου,
+καὶ καθεξῆς προϊὼν δι' ὅλου μέχρι τοῦ τέλους τοῦ βιβλίου,
+καθ' ἕκαστον δὲ ἀριθμὸν ὑποσημείωσις διὰ κινναβάρεως
+πρόκειται, δηλοῦσα ἐν ποίῳ τῶν δέκα κανόνων
+κείμενος ὁ ἀριθμὸς τυγχάνει. Οἷον εἰ μὲν α', δῆλον ὡς
+ἐν τῷ πρώτῳ, εἰ δὲ β', ἐν τῷ δευτέρῳ, καὶ οὕτω καθεξῆς
+<pb n="0532C"/>
+μέχρι τῶν δέκα. Εἰ οὖν ἀναπτύξας ἕν τι τῶν τεσσάρων
+εὐαγγελίων ὁποιονδήποτε, βουληθείης ἐπιστῆναί τινι ᾧ
+βούλει κεφαλαίῳ, καὶ γνῶναι τίνες τὰ παραπλήσια εἰρήκασι,
+καὶ τοὺς οἰκείους ἐν ἑκάστῳ τόπους εὑρεῖν ἐν οἷς
+κατὰ τῶν αὐτῶν ἠνέχθησαν, ἧς ἐπέχεις περικοπῆς ἀναλαβὼν
+τὸν προκείμενον ἀριθμὸν, ἐπιζητήσας τε αὐτὸν
+ἔνδον ἐν τῷ κανόνι ὃν ἡ διὰ τοῦ κινναβάρεως ὑποσημείωσις
+ὑποβέβληκεν, εἴσῃ μὲν εὐθὺς ἐκ τῶν ἐπὶ μετώπου
+τοῦ κανόνος προγραφῶν, ὁπόσοι καὶ τίνες τὰ παραπλήσια
+εἰρήκασιν, ἐπιστήσας δὲ καί τοῖς τῶν λοιπὼν εὐαγγελίων
+ἀριθμοῖς τοῖς ἐν τῷ κανόνι ᾧ ἐπέχεις ἀριθμῷ παρακειμένοις,
+ἐπιζητήσας τε αὐτοὺς ἔνδον ἐν τοῖς οἰκείοις ἑκάστου
+εὐαγγελίου τόποις, τὰ παραπλήσια λέγοντας εὑρήσεις.</foreign>
+</p>
+      </div1>
+
+
+<div1>
+        <head>CANONES EVANGELIORUM.</head>
+        <pb n="0531"/>
+        <head>INCIPIT CANON PRIMUS, IN QUO QUATUOR.</head>
+<table>
+<row>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+<cell>
+              <emph>MARCUS.</emph>
+            </cell>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+<cell>
+              <emph>JOANNES.</emph>
+            </cell>
+</row>
+<row>
+<cell>VIII.</cell>
+<cell>II.</cell>
+<cell>VII.</cell>
+<cell>X.</cell>
+</row>
+<row>
+<cell>XI.</cell>
+<cell>IV.</cell>
+<cell>X.</cell>
+<cell>VI.</cell>
+</row>
+<row>
+<cell>XI.</cell>
+<cell>IV.</cell>
+<cell>X.</cell>
+<cell>XII.</cell>
+</row>
+<row>
+<cell>XI.</cell>
+<cell>IV.</cell>
+<cell>X.</cell>
+<cell>XIV.</cell>
+</row>
+<row>
+<cell>XI.</cell>
+<cell>IV.</cell>
+<cell>X.</cell>
+<cell>XXVIII.</cell>
+</row>
+<row>
+<cell>XIV.</cell>
+<cell>V.</cell>
+<cell>XIII.</cell>
+<cell>XV.</cell>
+</row>
+<row>
+<cell>XXIII.</cell>
+<cell>XXVII.</cell>
+<cell>XVII.</cell>
+<cell>XLVI.</cell>
+</row>
+<row>
+<cell>XXIII.</cell>
+<cell>XXVII.</cell>
+<cell>XXXIV.</cell>
+<cell>XLVI.</cell>
+</row>
+<row>
+<cell>XXIII.</cell>
+<cell>XXVII.</cell>
+<cell>XIV.</cell>
+<cell>XLVI.</cell>
+</row>
+<row>
+<cell>LXX.</cell>
+<cell>XX.</cell>
+<cell>XXXVII.</cell>
+<cell>XXXVIII.</cell>
+</row>
+</table>
+<table>
+<pb n="0532D"/>
+</table>
+<table>
+<row>
+<cell>LXXXVII.</cell>
+<cell>CXXXIX.</cell>
+<cell>CCL.</cell>
+<cell>CXLII.</cell>
+</row>
+<row>
+<cell>LXXXVII.</cell>
+<cell>CXXXIX.</cell>
+<cell>CCL.</cell>
+<cell>CXLVI.</cell>
+</row>
+<row>
+<cell>XCVIII.</cell>
+<cell>XCVI.</cell>
+<cell>CXVI.</cell>
+<cell>XL.</cell>
+</row>
+<row>
+<cell>XCVIII.</cell>
+<cell>XCVI.</cell>
+<cell>CXVI.</cell>
+<cell>CXI.</cell>
+</row>
+<row>
+<cell>XCVIII.</cell>
+<cell>XCV.</cell>
+<cell>CXVI.</cell>
+<cell>CXX.</cell>
+</row>
+<row>
+<cell>XCVIII.</cell>
+<cell>XCVI.</cell>
+<cell>CXVI.</cell>
+<cell>CXXIX.</cell>
+</row>
+<row>
+<cell>XCVIII.</cell>
+<cell>XCVI.</cell>
+<cell>CXVI.</cell>
+<cell>CXXXI.</cell>
+</row>
+<row>
+<cell>XCVIII.</cell>
+<cell>CXVI.</cell>
+<cell>CXVI.</cell>
+<cell>CXLIV.</cell>
+</row>
+<row>
+<cell>CXXIIII.</cell>
+<cell>XXXVII.</cell>
+<cell>LXXVII.</cell>
+<cell>CIX.</cell>
+</row>
+<row>
+<cell>CXXXII.</cell>
+<cell>L.</cell>
+<cell>CIX.</cell>
+<cell>LIX.</cell>
+</row>
+</table>
+<table>
+<pb n="0533A"/>
+</table>
+<table>
+<row>
+<cell>CXXXII.</cell>
+<cell>LI.</cell>
+<cell>XXI.</cell>
+<cell>XXXV.</cell>
+</row>
+<row>
+<cell>CXLVII.</cell>
+<cell>LXIV.</cell>
+<cell>XCII.</cell>
+<cell>XLIX.</cell>
+</row>
+<row>
+<cell>CLXVI.</cell>
+<cell>LXXXII.</cell>
+<cell>XCIV.</cell>
+<cell>XVII.</cell>
+</row>
+<row>
+<cell>CLXVI.</cell>
+<cell>LXXXII.</cell>
+<cell>XCIV.</cell>
+<cell>LXXIV.</cell>
+</row>
+<row>
+<cell>CCIX.</cell>
+<cell>CXIX.</cell>
+<cell>CCXXXIV.</cell>
+<cell>C.</cell>
+</row>
+<row>
+<cell>CCXI.</cell>
+<cell>CXXI.</cell>
+<cell>CCXXXVIII</cell>
+<cell>XXI.</cell>
+</row>
+<row>
+<cell>CCXX.</cell>
+<cell>CXXII.</cell>
+<cell>CCXXXIX.</cell>
+<cell>LXXVII.</cell>
+</row>
+<row>
+<cell>CCXX.</cell>
+<cell>CXXII.</cell>
+<cell>CCXLII.</cell>
+<cell>LXXXV.</cell>
+</row>
+<row>
+<cell>CCXX.</cell>
+<cell>CXXIX.</cell>
+<cell>CCLXI.</cell>
+<cell>LXXXVIII.</cell>
+</row>
+<row>
+<cell>CCXLIV.</cell>
+<cell>CXXXIX.</cell>
+<cell>CCL.</cell>
+<cell>CXLI.</cell>
+</row>
+<row>
+<cell>CCXLIV.</cell>
+<cell>CXXXIX.</cell>
+<cell>CCL.</cell>
+<cell>CXLVI.</cell>
+</row>
+<row>
+<cell>CCLXXIV.</cell>
+<cell>CLVI.</cell>
+<cell>CCLX.</cell>
+<cell>XX.</cell>
+</row>
+<row>
+<cell>CCLXXIV.</cell>
+<cell>CLVI.</cell>
+<cell>CCLX.</cell>
+<cell>XLVIII.</cell>
+</row>
+<row>
+<cell>CCLXXIV.</cell>
+<cell>CLVI.</cell>
+<cell>CCLX.</cell>
+<cell>XCVI.</cell>
+</row>
+<row>
+<cell>CCLXXVI.</cell>
+<cell>CLVIII.</cell>
+<cell>LXXIV.</cell>
+<cell>XCVIII.</cell>
+</row>
+<row>
+<cell>CCLXXX.</cell>
+<cell>CLXII.</cell>
+<cell>CCLXIX.</cell>
+<cell>CXXII.</cell>
+</row>
+<row>
+<cell>CCLXXXIV</cell>
+<cell>CLXV.</cell>
+<cell>CCLXVI.</cell>
+<cell>LV.</cell>
+</row>
+</table>
+<table>
+<pb n="0533B"/>
+</table>
+<table>
+<row>
+            <cell>CCLXXXIV</cell>
+            <cell>CLXV.</cell>
+            <cell>CCLXVI.</cell>
+            <cell>LXIII.</cell>
+          </row>
+<row>
+            <cell>CLXXXIV.</cell>
+            <cell>CLXV.</cell>
+            <cell>CCLXVI.</cell>
+            <cell>LXV.</cell>
+          </row>
+<row>
+            <cell>CCLXXXIV</cell>
+            <cell>CLXV.</cell>
+            <cell>CCLXVI.</cell>
+            <cell>LXVII.</cell>
+          </row>
+<row>
+            <cell>CCLXXXIX</cell>
+            <cell>CLXXII.</cell>
+            <cell>CCLXXV.</cell>
+            <cell>CXXVI.</cell>
+          </row>
+<row>
+            <cell>CCXCI.</cell>
+            <cell>CLXXII.</cell>
+            <cell>CCLXXIX.</cell>
+            <cell>CLVI.</cell>
+          </row>
+<row>
+            <cell>CCXCIV.</cell>
+            <cell>CLXXV.</cell>
+            <cell>CCLXXXII.</cell>
+            <cell>CLXI.</cell>
+          </row>
+<row>
+            <cell>CCXCV.</cell>
+            <cell>CLXXVI.</cell>
+            <cell>CCLXXXI.</cell>
+            <cell>XLII.</cell>
+          </row>
+<row>
+            <cell>CCXCV.</cell>
+            <cell>CLXXVI.</cell>
+            <cell>CCLXXXII.</cell>
+            <cell>LVII.</cell>
+          </row>
+<row>
+            <cell>CCC.</cell>
+            <cell>CLXXXI.</cell>
+            <cell>CCLXXXV.</cell>
+            <cell>LXXIX.</cell>
+          </row>
+<row>
+            <cell>CCC.</cell>
+            <cell>CLXXXI.</cell>
+            <cell>CCLXXXV.</cell>
+            <cell>CLVIII.</cell>
+          </row>
+<row>
+            <cell>CCCII.</cell>
+            <cell>CLXXXIII.</cell>
+            <cell>CCLXXXVII</cell>
+            <cell>CLX.</cell>
+          </row>
+<row>
+            <cell>CCCIV.</cell>
+            <cell>CLXXXIV.</cell>
+            <cell>CCLXXXIX</cell>
+            <cell>CLXX.</cell>
+          </row>
+<row>
+            <cell>CCCVI.</cell>
+            <cell>CLXXXVII.</cell>
+            <cell>CCXC.</cell>
+            <cell>CLXII.</cell>
+          </row>
+<row>
+            <cell>CCCVI.</cell>
+            <cell>CLXXXII.</cell>
+            <cell>CCXC.</cell>
+            <cell>CLXXIV.</cell>
+          </row>
+<row>
+            <cell>CCCX.</cell>
+            <cell>CXCI.</cell>
+            <cell>CCXCVII.</cell>
+            <cell>LXIX.</cell>
+          </row>
+<row>
+            <cell>CCCXIII.</cell>
+            <cell>CXCIV.</cell>
+            <cell>CCXCIV.</cell>
+            <cell>CLXXII.</cell>
+          </row>
+<row>
+            <cell>CCCXIV.</cell>
+            <cell>CXCV.</cell>
+            <cell>CCXCI.</cell>
+            <cell>CLXVI.</cell>
+          </row>
+<row>
+            <cell>CCCXIV.</cell>
+            <cell>CXCV.</cell>
+            <cell>CCXCI.</cell>
+            <cell>CLXVIII.</cell>
+          </row>
+<row>
+            <cell>CCCXV.</cell>
+            <cell>CXCVI.</cell>
+            <cell>CCXCII.</cell>
+            <cell>CLXXV.</cell>
+          </row>
+<row>
+            <cell>CCCXVIII.</cell>
+            <cell>CXCIX.</cell>
+            <cell>CCC.</cell>
+            <cell>CLXXVI.</cell>
+          </row>
+<row>
+            <cell>CCCXX.</cell>
+            <cell>CC.</cell>
+            <cell>CCCII.</cell>
+            <cell>CLXXVIII.</cell>
+          </row>
+<row>
+            <cell>CCCXXV.</cell>
+            <cell>CCIV.</cell>
+            <cell>CCCX.</cell>
+            <cell>CLXXXIV.</cell>
+          </row>
+<row>
+            <cell>CCCXXVI.</cell>
+            <cell>CCVI.</cell>
+            <cell>CCCXI.</cell>
+            <cell>CLXXXVIII</cell>
+          </row>
+<row>
+            <cell>CCCXXVI.</cell>
+            <cell>CCV.</cell>
+            <cell>CCCXIII.</cell>
+            <cell>CXCIV.</cell>
+          </row>
+<row>
+            <cell>CCCXXVIII</cell>
+            <cell>CCVI.</cell>
+            <cell>CCCXIV.</cell>
+            <cell>CXCVI.</cell>
+          </row>
+<row>
+            <cell>CCCXXXI.</cell>
+            <cell>CCIX.</cell>
+            <cell>CCCXV.</cell>
+            <cell>CXCVII.</cell>
+          </row>
+<row>
+            <cell>CCCXXXII</cell>
+            <cell>CCX.</cell>
+            <cell>CCCXVIII.</cell>
+            <cell>CXCVII.</cell>
+          </row>
+<row>
+            <cell>CCCXXXIV</cell>
+            <cell>CCXII.</cell>
+            <cell>CCCXXI.</cell>
+            <cell>CCI.</cell>
+          </row>
+<row>
+            <cell>CCCXXXV.</cell>
+            <cell>CCXIV.</cell>
+            <cell>CCCXXIV.</cell>
+            <cell>CXCIX.</cell>
+          </row>
+<row>
+            <cell>CCCXXXVI</cell>
+            <cell>CCXV.</cell>
+            <cell>CCCXVII.</cell>
+            <cell>CXCIX.</cell>
+          </row>
+<row>
+            <cell>CCCXXXVI</cell>
+            <cell>CCXV.</cell>
+            <cell>CCCXIX.</cell>
+            <cell>CXCVIII.</cell>
+          </row>
+<row>
+            <cell>CCCXLIII.</cell>
+            <cell>CCXXIII.</cell>
+            <cell>CCCXXIX.</cell>
+            <cell>CCIV.</cell>
+          </row>
+<row>
+            <cell>CCCXLVIII.</cell>
+            <cell>CCXXVII.</cell>
+            <cell>CCCXXXII.</cell>
+            <cell>CCVI.</cell>
+          </row>
+<row>
+            <cell>CCCXLIX.</cell>
+            <cell>CCXXVIII.</cell>
+            <cell>CCCXXXIII</cell>
+            <cell>CCVIII.</cell>
+          </row>
+<row>
+            <cell>CCCLII.</cell>
+            <cell>CCXXXI.</cell>
+            <cell>CCCXXXVI.</cell>
+            <cell>CCIX.</cell>
+          </row>
+<row>
+            <cell>CCCLII.</cell>
+            <cell>CCXXXI.</cell>
+            <cell>CCCXXXVI</cell>
+            <cell>CCXI.</cell>
+          </row>
+</table>
+<p>
+          <emph>
+            <pb n="0533D"/> <hi>Explicit Canon primus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON SECUNDUS, IN QUO TRES.</head>
+<table>
+<row>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+<cell>
+              <emph>MARCUS.</emph>
+            </cell>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+</row>
+<row>
+<cell>XV.</cell>
+<cell>VI.</cell>
+<cell>XV.</cell>
+</row>
+<row>
+<cell>XXI.</cell>
+<cell>X.</cell>
+<cell>XXXII.</cell>
+</row>
+<row>
+<cell>XXXI.</cell>
+<cell>CXI.</cell>
+<cell>CLXXXV.</cell>
+</row>
+<row>
+<cell>XXXII.</cell>
+<cell>XXXIX.</cell>
+<cell>LXXIX.</cell>
+</row>
+<row>
+<cell>XXXII.</cell>
+<cell>XXXIX.</cell>
+<cell>CXXXIII.</cell>
+</row>
+<row>
+<cell>L.</cell>
+<cell>XLI.</cell>
+<cell>LVI.</cell>
+</row>
+<row>
+<cell>LXII.</cell>
+<cell>XIII.</cell>
+<cell>IV.</cell>
+</row>
+<row>
+<cell>LXII.</cell>
+<cell>XIIII.</cell>
+<cell>XXIV.</cell>
+</row>
+<row>
+<cell>LXIII.</cell>
+<cell>XVIII.</cell>
+<cell>XXXIII.</cell>
+</row>
+<row>
+<cell>LXVII.</cell>
+<cell>XV.</cell>
+<cell>XXVI.</cell>
+</row>
+<row>
+<cell>LXIX.</cell>
+<cell>XLVI.</cell>
+<cell>LXXXIII.</cell>
+</row>
+<row>
+<cell>LXXI.</cell>
+<cell>XXI.</cell>
+<cell>LXXXVIII.</cell>
+</row>
+</table>
+<table>
+<pb n="0534A"/>
+</table>
+<table>
+<row>
+<cell>LXXII.</cell>
+<cell>XXII.</cell>
+<cell>LXXXIX.</cell>
+</row>
+<row>
+<cell>LXXII.</cell>
+<cell>XXII.</cell>
+<cell>CXXXVI.</cell>
+</row>
+<row>
+<cell>LXXIII.</cell>
+<cell>XXIII.</cell>
+<cell>XL.</cell>
+</row>
+<row>
+<cell>LXXIV.</cell>
+<cell>XLIX.</cell>
+<cell>LXXXV.</cell>
+</row>
+<row>
+<cell>LXXVI.</cell>
+<cell>LII.</cell>
+<cell>CLXIX.</cell>
+</row>
+<row>
+<cell>LXXIX.</cell>
+<cell>XXIX.</cell>
+<cell>LXXXVI.</cell>
+</row>
+<row>
+<cell>LXXX.</cell>
+<cell>XXX.</cell>
+<cell>XLIV.</cell>
+</row>
+<row>
+<cell>LXXII.</cell>
+<cell>LIII.</cell>
+<cell>LXXXVII.</cell>
+</row>
+<row>
+<cell>LXXXII.</cell>
+<cell>LIII.</cell>
+<cell>CX.</cell>
+</row>
+<row>
+<cell>LXXXIII.</cell>
+<cell>LIV.</cell>
+<cell>LXXXVII.</cell>
+</row>
+<row>
+<cell>LXXXIII.</cell>
+<cell>LIV.</cell>
+<cell>CXII.</cell>
+</row>
+<row>
+<cell>LXXXV.</cell>
+<cell>LV.</cell>
+<cell>LXXXVIII.</cell>
+</row>
+<row>
+<cell>LXXX.</cell>
+<cell>LV.</cell>
+<cell>CXIV.</cell>
+</row>
+<row>
+<cell>LXXXVIII.</cell>
+<cell>CXLI.</cell>
+<cell>CXLVIII.</cell>
+</row>
+<row>
+<cell>LXXXVIII.</cell>
+<cell>CXLI.</cell>
+<cell>CCLI.</cell>
+</row>
+<row>
+<cell>XCII.</cell>
+<cell>XL.</cell>
+<cell>LXXX.</cell>
+</row>
+<row>
+<cell>XCIV.</cell>
+<cell>LXXXVI.</cell>
+<cell>XCVII.</cell>
+</row>
+</table>
+<table>
+<pb n="0534B"/>
+</table>
+<table>
+<row>
+<cell>XCIV.</cell>
+<cell>LXXXVI.</cell>
+<cell>CXLVI.</cell>
+</row>
+<row>
+<cell>CIII.</cell>
+<cell>I.</cell>
+<cell>LXX.</cell>
+</row>
+<row>
+<cell>CXIV.</cell>
+<cell>XXIV.</cell>
+<cell>XLI.</cell>
+</row>
+<row>
+<cell>CXVI.</cell>
+<cell>XXV.</cell>
+<cell>XLII.</cell>
+</row>
+<row>
+<cell>CXVI.</cell>
+<cell>XXV.</cell>
+<cell>CLXV.</cell>
+</row>
+<row>
+<cell>CXVI.</cell>
+<cell>XXV.</cell>
+<cell>CLXXVII.</cell>
+</row>
+<row>
+<cell>CXXI.</cell>
+<cell>XXXII.</cell>
+<cell>CXXVII.</cell>
+</row>
+<row>
+<cell>CXXII.</cell>
+<cell>XXXIII.</cell>
+<cell>CXXIX.</cell>
+</row>
+<row>
+<cell>CXXIII.</cell>
+<cell>XXXIV.</cell>
+<cell>CXLVII.</cell>
+</row>
+<row>
+<cell>CXXX.</cell>
+<cell>XXXV.</cell>
+<cell>LXXXII.</cell>
+</row>
+<row>
+<cell>CXXXI.</cell>
+<cell>XXXVI.</cell>
+<cell>LXXVI.</cell>
+</row>
+<row>
+<cell>CXXXV.</cell>
+<cell>XXXVIII.</cell>
+<cell>LXXVIII.</cell>
+</row>
+<row>
+<cell>CXXXVII.</cell>
+<cell>XLIV.</cell>
+<cell>LXVII.</cell>
+</row>
+<row>
+<cell>CXLIII.</cell>
+<cell>LVII.</cell>
+<cell>XC.</cell>
+</row>
+<row>
+<cell>CXLIV.</cell>
+<cell>LIX.</cell>
+<cell>XII.</cell>
+</row>
+<row>
+<cell>CXLIX.</cell>
+<cell>LXVI.</cell>
+<cell>XXXV.</cell>
+</row>
+<row>
+<cell>CXLIX.</cell>
+<cell>LXVI.</cell>
+<cell>XLIII.</cell>
+</row>
+<row>
+<cell>CLIII.</cell>
+<cell>LXIX.</cell>
+<cell>XCXVI.</cell>
+</row>
+</table>
+<table>
+<pb n="0534C"/>
+</table>
+<table>
+<row>
+<cell>CLXIV.</cell>
+<cell>LXXIX.</cell>
+<cell>CXLIV.</cell>
+</row>
+<row>
+<cell>CLXVIII.</cell>
+<cell>LXXXIII.</cell>
+<cell>CXCV.</cell>
+</row>
+<row>
+<cell>CLXVIII.</cell>
+<cell>LXXXIII.</cell>
+<cell>CCVI.</cell>
+</row>
+<row>
+<cell>CLXX.</cell>
+<cell>LXXXV.</cell>
+<cell>XCVI.</cell>
+</row>
+<row>
+<cell>CLXXII.</cell>
+<cell>LXXXVII.</cell>
+<cell>CXVIII.</cell>
+</row>
+<row>
+<cell>CLXXIV.</cell>
+<cell>XCI.</cell>
+<cell>XCIX.</cell>
+</row>
+<row>
+<cell>CLXXVI.</cell>
+<cell>XCVIII.</cell>
+<cell>CI.</cell>
+</row>
+<row>
+<cell>CLXXVIII.</cell>
+<cell>XCV.</cell>
+<cell>CII.</cell>
+</row>
+<row>
+<cell>CLXXVIII.</cell>
+<cell>XCV.</cell>
+<cell>CCXVII.</cell>
+</row>
+<row>
+<cell>CLXXIX.</cell>
+<cell>XCIX.</cell>
+<cell>CXCVII.</cell>
+</row>
+<row>
+<cell>CXC.</cell>
+<cell>CV.</cell>
+<cell>CXCV.</cell>
+</row>
+<row>
+<cell>CXCII.</cell>
+<cell>CVI.</cell>
+<cell>CXCVI</cell>
+</row>
+<row>
+<cell>CXCIII.</cell>
+<cell>CVII.</cell>
+<cell>CXXI.</cell>
+</row>
+<row>
+<cell>CXCIII.</cell>
+<cell>CVII.</cell>
+<cell>CCXVIII.</cell>
+</row>
+<row>
+<cell>CXCIV.</cell>
+<cell>CVIII.</cell>
+<cell>CLII.</cell>
+</row>
+<row>
+<cell>CXCIV.</cell>
+<cell>CVIII.</cell>
+<cell>CCXIX.</cell>
+</row>
+<row>
+<cell>CXCV.</cell>
+<cell>CIX.</cell>
+<cell>CCXX.</cell>
+</row>
+<row>
+<cell>CXCVIII.</cell>
+<cell>CX.</cell>
+<cell>CCXXI.</cell>
+</row>
+<row>
+<cell>CXCIX.</cell>
+<cell>CXI.</cell>
+<cell>CLXXIII.</cell>
+</row>
+</table>
+<table>
+<pb n="0534D"/>
+</table>
+<table>
+<row>
+<cell>CCI.</cell>
+<cell>CXII.</cell>
+<cell>CCXII.</cell>
+</row>
+<row>
+<cell>CCIII.</cell>
+<cell>CXIV.</cell>
+<cell>CCLXX.</cell>
+</row>
+<row>
+<cell>CCV.</cell>
+<cell>CXVI.</cell>
+<cell>CCXXIV.</cell>
+</row>
+<row>
+<cell>CCVI.</cell>
+<cell>CXVII.</cell>
+<cell>CCXXXII.</cell>
+</row>
+<row>
+<cell>CCVIII.</cell>
+<cell>CXVIII.</cell>
+<cell>CCXXXIII.</cell>
+</row>
+<row>
+<cell>CCXVII.</cell>
+<cell>CXXVII.</cell>
+<cell>CCXL.</cell>
+</row>
+<row>
+<cell>CCXIX.</cell>
+<cell>CXXVIII.</cell>
+<cell>CCXLI.</cell>
+</row>
+<row>
+<cell>CCXXIII.</cell>
+<cell>CXXX.</cell>
+<cell>CCXLIII.</cell>
+</row>
+<row>
+<cell>CCXXV.</cell>
+<cell>CXXXIV.</cell>
+<cell>CCXLV.</cell>
+</row>
+<row>
+<cell>CCXXVI.</cell>
+<cell>CXXXIII.</cell>
+<cell>CCXLIV.</cell>
+</row>
+<row>
+<cell>CCXXIX.</cell>
+<cell>CXXXV.</cell>
+<cell>CCXXXVII.</cell>
+</row>
+<row>
+<cell>CCXXIX.</cell>
+<cell>CXXXV.</cell>
+<cell>CCXLVI.</cell>
+</row>
+<row>
+<cell>CCXLII.</cell>
+<cell>CXXXVII.</cell>
+<cell>CCXXXVII.</cell>
+</row>
+<row>
+<cell>CCXLII.</cell>
+<cell>CXXXVII.</cell>
+<cell>CCXLVIII.</cell>
+</row>
+<row>
+<cell>CCXLIII.</cell>
+<cell>CXXXVIII.</cell>
+<cell>CCXLIX.</cell>
+</row>
+<row>
+<cell>CCXLVIII.</cell>
+<cell>CXLIII.</cell>
+<cell>CCIX.</cell>
+</row>
+<row>
+<cell>CCXLVIII.</cell>
+<cell>CXLIII.</cell>
+<cell>CCLIII.</cell>
+</row>
+<row>
+<cell>CCXLIX.</cell>
+<cell>CXLIV.</cell>
+<cell>CCLIV.</cell>
+</row>
+<row>
+<cell>CCLI.</cell>
+<cell>CXLVI.</cell>
+<cell>CCLV.</cell>
+</row>
+<row>
+<cell>CCLIII.</cell>
+<cell>CXLVIII.</cell>
+<cell>CCIV.</cell>
+</row>
+<row>
+<cell>CCLVIII.</cell>
+<cell>CL.</cell>
+<cell>CCLVII.</cell>
+</row>
+<row>
+<cell>CCLIX.</cell>
+<cell>CLI.</cell>
+<cell>CCLVIII.</cell>
+</row>
+<row>
+<cell>CCLXIV.</cell>
+<cell>CLV.</cell>
+<cell>CLVI.</cell>
+</row>
+<row>
+<cell>CCLXIX.</cell>
+<cell>CLIV.</cell>
+<cell>CCXXVIII.</cell>
+</row>
+<row>
+<cell>CCLXXI.</cell>
+<cell>XLII.</cell>
+<cell>CCXXX.</cell>
+</row>
+<row>
+<cell>CCLXXVIII.</cell>
+<cell>CLX.</cell>
+<cell>CCLXIII.</cell>
+</row>
+<row>
+<cell>CCLXXXI.</cell>
+<cell>CLXIII.</cell>
+<cell>CCLVIII.</cell>
+</row>
+<row>
+<cell>CCLXXXV.</cell>
+<cell>CLXVI.</cell>
+<cell>CCLXV.</cell>
+</row>
+<row>
+<cell>CCLXXXV.</cell>
+<cell>CLXVI.</cell>
+<cell>CCLXVII.</cell>
+</row>
+<row>
+<cell>CCXCVI.</cell>
+<cell>CLXXVII.</cell>
+<cell>CCLXXX.</cell>
+</row>
+<row>
+<cell>CCXCVI.</cell>
+<cell>CLXXVII.</cell>
+<cell>CCLXXXIV.</cell>
+</row>
+<row>
+<cell>CCCI.</cell>
+<cell>CLXXXII.</cell>
+<cell>CCLXXXVI.</cell>
+</row>
+<row>
+<cell>CCCVIII.</cell>
+<cell>CLXXXIX.</cell>
+<cell>CCCV.</cell>
+</row>
+<row>
+<cell>CCCXII.</cell>
+<cell>CXCIII.</cell>
+<cell>CCXCIX.</cell>
+</row>
+</table>
+<table>
+<pb n="0535B"/>
+</table>
+<table>
+<row>
+            <cell>CCCXVI.</cell>
+            <cell>CXCVII.</cell>
+            <cell>CCXCXIII.</cell>
+          </row>
+<row>
+            <cell>CCCXVII.</cell>
+            <cell>CXCVIII.</cell>
+            <cell>CCXCV.</cell>
+          </row>
+<row>
+            <cell>CCCXXII.</cell>
+            <cell>CCII.</cell>
+            <cell>CCXCIX.</cell>
+          </row>
+<row>
+            <cell>CCCXXXVIII.</cell>
+            <cell>CCXVIII.</cell>
+            <cell>CCCXXII.</cell>
+          </row>
+<row>
+            <cell>CCCXXXIX.</cell>
+            <cell>CCIX.</cell>
+            <cell>CCCXXV.</cell>
+          </row>
+<row>
+            <cell>CCCXL.</cell>
+            <cell>CCXX.</cell>
+            <cell>CCCXXVII.</cell>
+          </row>
+<row>
+            <cell>CCCXLII.</cell>
+            <cell>CXXII.</cell>
+            <cell>CCCXXIII.</cell>
+          </row>
+<row>
+            <cell>CCCXLIV.</cell>
+            <cell>CXXIV.</cell>
+            <cell>CCCXVIII.</cell>
+          </row>
+<row>
+            <cell>CCCXLVI.</cell>
+            <cell>CCXXV.</cell>
+            <cell>CCCXXX.</cell>
+          </row>
+<row>
+            <cell>CCCLIII.</cell>
+            <cell>CCXXXII.</cell>
+            <cell>CCCXXXVII.</cell>
+          </row>
+<row>
+            <cell>CCCLIV.</cell>
+            <cell>CCCXXIII.</cell>
+            <cell>CCCXXXVIII.</cell>
+          </row>
+</table>
+<p>
+          <emph> <hi>Explicit Canon secundus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON TERTIUS, IN QUO TRES.</head>
+<table>
+<row>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+<cell>
+              <emph>JOANNES.</emph>
+            </cell>
+</row>
+<row>
+<cell>I.</cell>
+<cell>XIV.</cell>
+<cell>I.</cell>
+</row>
+<row>
+<cell>I.</cell>
+<cell>XIV.</cell>
+<cell>III.</cell>
+</row>
+</table>
+<table>
+<pb n="0535C"/>
+</table>
+<table>
+<row>
+<cell>I.</cell>
+<cell>XIV.</cell>
+<cell>V.</cell>
+</row>
+<row>
+<cell>VII.</cell>
+<cell>VI.</cell>
+<cell>II.</cell>
+</row>
+<row>
+<cell>VII.</cell>
+<cell>VI.</cell>
+<cell>XXV.</cell>
+</row>
+<row>
+<cell>LIX.</cell>
+<cell>LXIII.</cell>
+<cell>CXVI.</cell>
+</row>
+<row>
+<cell>LXIV.</cell>
+<cell>LXV.</cell>
+<cell>XXXVII.</cell>
+</row>
+<row>
+<cell>XC.</cell>
+<cell>LVIII.</cell>
+<cell>CXVIII.</cell>
+</row>
+<row>
+<cell>XC,</cell>
+<cell>LVIII.</cell>
+<cell>CXXXIX.</cell>
+</row>
+<row>
+<cell>XCVII.</cell>
+<cell>CCXI.</cell>
+<cell>CV.</cell>
+</row>
+<row>
+<cell>CXI.</cell>
+<cell>CXIX.</cell>
+<cell>XXX.</cell>
+</row>
+<row>
+<cell>CXI.</cell>
+<cell>CXIX.</cell>
+<cell>CXIV.</cell>
+</row>
+<row>
+<cell>CXI.</cell>
+<cell>CXIX.</cell>
+<cell>CXLVIII.</cell>
+</row>
+<row>
+<cell>CXII.</cell>
+<cell>CXIX.</cell>
+<cell>VIII.</cell>
+</row>
+<row>
+<cell>CXII.</cell>
+<cell>CXIX.</cell>
+<cell>XLIV.</cell>
+</row>
+<row>
+<cell>CXII.</cell>
+<cell>CXIX.</cell>
+<cell>LXI.</cell>
+</row>
+<row>
+<cell>CXII.</cell>
+<cell>CXIX.</cell>
+<cell>LXXVI.</cell>
+</row>
+<row>
+<cell>CXII.</cell>
+<cell>CXIX.</cell>
+<cell>LXXXVII.</cell>
+</row>
+<row>
+<cell>CXII.</cell>
+<cell>CXIX.</cell>
+<cell>XC.</cell>
+</row>
+<row>
+<cell>CXII.</cell>
+<cell>CXIX.</cell>
+<cell>CXLII.</cell>
+</row>
+</table>
+<table>
+<pb n="0535D"/>
+</table>
+<table>
+<row>
+            <cell>CXII.</cell>
+            <cell>CXIX.</cell>
+            <cell>CLIV.</cell>
+          </row>
+<row>
+            <cell>XCII.</cell>
+            <cell>XLVII.</cell>
+          </row>
+</table>
+<p>
+          <emph> <hi>Explicit Canon tertius.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON QUARTUS, IN QUO TRES.</head>
+<table>
+<row>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+<cell>
+              <emph>MARCUS.</emph>
+            </cell>
+<cell>
+              <emph>JOANNES.</emph>
+            </cell>
+</row>
+<row>
+<cell>XVIII.</cell>
+<cell>VIII.</cell>
+<cell>XXVI.</cell>
+</row>
+<row>
+<cell>CXVII.</cell>
+<cell>XXVI.</cell>
+<cell>XCIII.</cell>
+</row>
+<row>
+<cell>CXVII.</cell>
+<cell>XXVI.</cell>
+<cell>XCV.</cell>
+</row>
+<row>
+<cell>CL.</cell>
+<cell>LXVII.</cell>
+<cell>LI.</cell>
+</row>
+<row>
+<cell>CLXI.</cell>
+<cell>LXXVII.</cell>
+<cell>XXIII.</cell>
+</row>
+<row>
+<cell>CLXI.</cell>
+<cell>LXXVII.</cell>
+<cell>LIII.</cell>
+</row>
+<row>
+<cell>CCIV.</cell>
+<cell>CXV.</cell>
+<cell>XCI.</cell>
+</row>
+<row>
+<cell>CCIV.</cell>
+<cell>CXV.</cell>
+<cell>CXXXV.</cell>
+</row>
+<row>
+<cell>CCXVI.</cell>
+<cell>CXXV.</cell>
+<cell>CXXVIII.</cell>
+</row>
+<row>
+<cell>CCXVI.</cell>
+<cell>CXXV.</cell>
+<cell>CXXXIII.</cell>
+</row>
+</table>
+<table>
+<pb n="0536A"/>
+</table>
+<table>
+<row>
+            <cell>CCXVI.</cell>
+            <cell>CXXV.</cell>
+            <cell>CXXXVII.</cell>
+          </row>
+<row>
+            <cell>CCXVI.</cell>
+            <cell>CXXV.</cell>
+            <cell>CL.</cell>
+          </row>
+<row>
+            <cell>CCLXXVII.</cell>
+            <cell>CLIX.</cell>
+            <cell>XCVIII.</cell>
+          </row>
+<row>
+            <cell>CCLXXIX.</cell>
+            <cell>CLXI.</cell>
+            <cell>LXXII.</cell>
+          </row>
+<row>
+            <cell>CCLXXIX.</cell>
+            <cell>CLXI.</cell>
+            <cell>CXXI.</cell>
+          </row>
+<row>
+            <cell>CCLXXXVII.</cell>
+            <cell>CLXVIII.</cell>
+            <cell>CLII.</cell>
+          </row>
+<row>
+            <cell>CCXCIII.</cell>
+            <cell>CLXXIV.</cell>
+            <cell>CVII.</cell>
+          </row>
+<row>
+            <cell>CCXCVII.</cell>
+            <cell>CLXXVIII.</cell>
+            <cell>LXX.</cell>
+          </row>
+<row>
+            <cell>CCXCIX.</cell>
+            <cell>CLXXX.</cell>
+            <cell>CIII.</cell>
+          </row>
+<row>
+            <cell>CCCVII.</cell>
+            <cell>CLXXXVIII.</cell>
+            <cell>CLXIV.</cell>
+          </row>
+<row>
+            <cell>CCCXXI.</cell>
+            <cell>CCI.</cell>
+            <cell>CLXXX.</cell>
+          </row>
+<row>
+            <cell>CCCXXI.</cell>
+            <cell>CCI.</cell>
+            <cell>CXCII.</cell>
+          </row>
+<row>
+            <cell>CCCXXIII.</cell>
+            <cell>CCIII.</cell>
+            <cell>CLXXXIII.</cell>
+          </row>
+<row>
+            <cell>CCCXXIX.</cell>
+            <cell>CCVII.</cell>
+            <cell>CLXXXV.</cell>
+          </row>
+<row>
+            <cell>CCCXXIX.</cell>
+            <cell>CCVII.</cell>
+            <cell>CLXXXVII.</cell>
+          </row>
+<row>
+            <cell>CCCXXXIII.</cell>
+            <cell>CCXI.</cell>
+            <cell>CCIII.</cell>
+          </row>
+</table>
+<p>
+          <emph>
+            <pb n="0536B"/> <hi>Explicit Canon quartus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON QUINTUS, IN QUO DUO.</head>
+<table>
+<row>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+</row>
+<row>
+<cell>III.</cell>
+<cell>II.</cell>
+</row>
+<row>
+<cell>X.</cell>
+<cell>VIII.</cell>
+</row>
+<row>
+<cell>XII.</cell>
+<cell>XI.</cell>
+</row>
+<row>
+<cell>XVI.</cell>
+<cell>XVI.</cell>
+</row>
+<row>
+<cell>XXV.</cell>
+<cell>XLVI.</cell>
+</row>
+<row>
+<cell>XXVII.</cell>
+<cell>XLVIII.</cell>
+</row>
+<row>
+<cell>XXVIII.</cell>
+<cell>XLVII.</cell>
+</row>
+<row>
+<cell>XXX.</cell>
+<cell>XLIX.</cell>
+</row>
+<row>
+<cell>XXXIV.</cell>
+<cell>CXCIV.</cell>
+</row>
+<row>
+<cell>XXXVI.</cell>
+<cell>CLXII.</cell>
+</row>
+<row>
+<cell>XXXVIII.</cell>
+<cell>LIII.</cell>
+</row>
+<row>
+<cell>XL.</cell>
+<cell>LII.</cell>
+</row>
+<row>
+<cell>XLI.</cell>
+<cell>LV.</cell>
+</row>
+</table>
+<table>
+<pb n="0536C"/>
+</table>
+<table>
+<row>
+<cell>XLIII.</cell>
+<cell>CXXIII.</cell>
+</row>
+<row>
+<cell>XLVI.</cell>
+<cell>CLIII.</cell>
+</row>
+<row>
+<cell>XLVII.</cell>
+<cell>CXXXIV.</cell>
+</row>
+<row>
+<cell>XLVIII.</cell>
+<cell>CXCI.</cell>
+</row>
+<row>
+<cell>XLIX.</cell>
+<cell>CL.</cell>
+</row>
+<row>
+<cell>LI.</cell>
+<cell>LIX.</cell>
+</row>
+<row>
+<cell>LIII.</cell>
+<cell>CXXV.</cell>
+</row>
+<row>
+<cell>LIV.</cell>
+<cell>LIV.</cell>
+</row>
+<row>
+<cell>LV.</cell>
+<cell>CLXX.</cell>
+</row>
+<row>
+<cell>LVII.</cell>
+<cell>LXI.</cell>
+</row>
+<row>
+<cell>LVIII.</cell>
+<cell>LX.</cell>
+</row>
+<row>
+<cell>LX.</cell>
+<cell>CLXI.</cell>
+</row>
+<row>
+<cell>LXI.</cell>
+<cell>LXIV.</cell>
+</row>
+<row>
+<cell>LXV.</cell>
+<cell>CLXII.</cell>
+</row>
+<row>
+<cell>LXVI.</cell>
+<cell>LXVI.</cell>
+</row>
+<row>
+<cell>LXVIII.</cell>
+<cell>CV.</cell>
+</row>
+<row>
+<cell>LXXVIII.</cell>
+<cell>CVIII.</cell>
+</row>
+<row>
+<cell>LXXXIV.</cell>
+<cell>CXI.</cell>
+</row>
+</table>
+<table>
+<pb n="0536D"/>
+</table>
+<table>
+<row>
+<cell>LXXXVI.</cell>
+<cell>CIX.</cell>
+</row>
+<row>
+<cell>XCIII.</cell>
+<cell>CXLV.</cell>
+</row>
+<row>
+<cell>XCV.</cell>
+<cell>CLX.</cell>
+</row>
+<row>
+<cell>XCVI.</cell>
+<cell>CLXXXII.</cell>
+</row>
+<row>
+<cell>XCVI.</cell>
+<cell>CLXXXIV.</cell>
+</row>
+<row>
+<cell>CII.</cell>
+<cell>LXIX.</cell>
+</row>
+<row>
+<cell>CIV.</cell>
+<cell>LXXI.</cell>
+</row>
+<row>
+<cell>CV.</cell>
+<cell>CXCIII.</cell>
+</row>
+<row>
+<cell>CVII.</cell>
+<cell>LXXIII.</cell>
+</row>
+<row>
+<cell>CVIII.</cell>
+<cell>CXV.</cell>
+</row>
+<row>
+<cell>CX.</cell>
+<cell>CXVIII.</cell>
+</row>
+<row>
+<cell>CXIX.</cell>
+<cell>CXXII.</cell>
+</row>
+<row>
+<cell>CXXV.</cell>
+<cell>LXII.</cell>
+</row>
+<row>
+<cell>CXXVII.</cell>
+<cell>CXXVIII.</cell>
+</row>
+<row>
+<cell>CXXVIII.</cell>
+<cell>CXXXII.</cell>
+</row>
+<row>
+<cell>CXXIX.</cell>
+<cell>CXXX.</cell>
+</row>
+<row>
+<cell>CXXXII.</cell>
+<cell>LXXXI.</cell>
+</row>
+<row>
+<cell>CXXXIV.</cell>
+<cell>CXX.</cell>
+</row>
+</table>
+<table>
+<pb n="0537A"/>
+</table>
+<table>
+<row>
+<cell>CXXXVIII.</cell>
+<cell>CLXVIII.</cell>
+</row>
+<row>
+<cell>CLVI.</cell>
+<cell>LVII.</cell>
+</row>
+<row>
+<cell>CLVIII.</cell>
+<cell>CCXXVI.</cell>
+</row>
+<row>
+<cell>CLXII.</cell>
+<cell>CLXI.</cell>
+</row>
+<row>
+<cell>CLXXV.</cell>
+<cell>CC.</cell>
+</row>
+<row>
+<cell>CLXXXII.</cell>
+<cell>CLXXXVII.</cell>
+</row>
+<row>
+<cell>CLXXXII.</cell>
+<cell>CLXXXIX.</cell>
+</row>
+<row>
+<cell>CLXXXIII.</cell>
+<cell>CXCVIII.</cell>
+</row>
+<row>
+<cell>CLXXXVII.</cell>
+<cell>CXCIX.</cell>
+</row>
+<row>
+<cell>CXCVII.</cell>
+<cell>CCLXXII.</cell>
+</row>
+<row>
+<cell>CCXIII.</cell>
+<cell>CCXXXV.</cell>
+</row>
+<row>
+<cell>CCXXI.</cell>
+<cell>CLXXXII.</cell>
+</row>
+<row>
+<cell>CCXXVIII.</cell>
+<cell>CXXXIX.</cell>
+</row>
+<row>
+<cell>CCXXXI.</cell>
+<cell>CLXXIX.</cell>
+</row>
+<row>
+<cell>CCXXXI.</cell>
+<cell>CCXV.</cell>
+</row>
+<row>
+<cell>CCXXXII.</cell>
+<cell>CXLII.</cell>
+</row>
+<row>
+<cell>CCXXXIV.</cell>
+<cell>CXXXVI.</cell>
+</row>
+</table>
+<table>
+<pb n="0537B"/>
+</table>
+<table>
+<row>
+            <cell>CCXXXVI.</cell>
+            <cell>CXXXV.</cell>
+          </row>
+<row>
+            <cell>CCXXXVII.</cell>
+            <cell>CXXXVIII.</cell>
+          </row>
+<row>
+            <cell>CCXXXVIII.</cell>
+            <cell>CXL.</cell>
+          </row>
+<row>
+            <cell>CCXL.</cell>
+            <cell>CXLI.</cell>
+          </row>
+<row>
+            <cell>CCXLI.</cell>
+            <cell>CLXXV.</cell>
+          </row>
+<row>
+            <cell>CCLV.</cell>
+            <cell>CCII.</cell>
+          </row>
+<row>
+            <cell>CCLVI.</cell>
+            <cell>CCV.</cell>
+          </row>
+<row>
+            <cell>CCLVII.</cell>
+            <cell>CCXIII.</cell>
+          </row>
+<row>
+            <cell>CCLXI.</cell>
+            <cell>CCVII.</cell>
+          </row>
+<row>
+            <cell>CCLXII.</cell>
+            <cell>CCXII.</cell>
+          </row>
+<row>
+            <cell>CCLXV.</cell>
+            <cell>CLVII.</cell>
+          </row>
+<row>
+            <cell>CCLXVI.</cell>
+            <cell>CLV.</cell>
+          </row>
+<row>
+            <cell>CCLXVI.</cell>
+            <cell>CLVII.</cell>
+          </row>
+<row>
+            <cell>CCLXVII.</cell>
+            <cell>CLVIII.</cell>
+          </row>
+<row>
+            <cell>CCLXX.</cell>
+            <cell>CCXXIX.</cell>
+          </row>
+<row>
+            <cell>CCLXXII.</cell>
+            <cell>CCXXXI.</cell>
+          </row>
+</table>
+<p>
+          <emph> <hi>Explicit Canon quintus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON SEXTUS, IN QUO DUO.</head>
+
+<pb n="0537C"/>
+<table>
+<row>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+<cell>
+              <emph>MARCUS.</emph>
+            </cell>
+</row>
+<row>
+<cell>IX.</cell>
+<cell>III.</cell>
+</row>
+<row>
+<cell>XVII.</cell>
+<cell>VII.</cell>
+</row>
+<row>
+<cell>XX.</cell>
+<cell>IX.</cell>
+</row>
+<row>
+<cell>XXII.</cell>
+<cell>XI.</cell>
+</row>
+<row>
+<cell>XLIV.</cell>
+<cell>CXXVI.</cell>
+</row>
+<row>
+<cell>LXXVII.</cell>
+<cell>LXIII.</cell>
+</row>
+<row>
+<cell>C.</cell>
+<cell>XCVIII.</cell>
+</row>
+<row>
+<cell>CXXXIX.</cell>
+<cell>XLV.</cell>
+</row>
+<row>
+<cell>CXLV.</cell>
+<cell>LX.</cell>
+</row>
+<row>
+<cell>CXLVIII.</cell>
+<cell>LXV.</cell>
+</row>
+<row>
+<cell>CLII.</cell>
+<cell>LXVIII.</cell>
+</row>
+<row>
+<cell>CLIV.</cell>
+<cell>LXXI.</cell>
+</row>
+<row>
+<cell>CLVII.</cell>
+<cell>LXXII.</cell>
+</row>
+</table>
+<table>
+<pb n="0537D"/>
+</table>
+<table>
+<row>
+<cell>CLIX.</cell>
+<cell>LXXIII.</cell>
+</row>
+<row>
+<cell>CLX.</cell>
+<cell>LXXVI.</cell>
+</row>
+<row>
+<cell>CLXIII.</cell>
+<cell>LXXVIII.</cell>
+</row>
+<row>
+<cell>CLXV.</cell>
+<cell>LXXX.</cell>
+</row>
+<row>
+<cell>CLXIX.</cell>
+<cell>LXXXIV.</cell>
+</row>
+<row>
+<cell>CLXXIII.</cell>
+<cell>LXXXIX.</cell>
+</row>
+<row>
+<cell>CLXXX.</cell>
+<cell>C.</cell>
+</row>
+<row>
+<cell>CLXXXIX.</cell>
+<cell>CIII.</cell>
+</row>
+<row>
+<cell>CCII.</cell>
+<cell>CXIII.</cell>
+</row>
+<row>
+<cell>CCXIV.</cell>
+<cell>CXX.</cell>
+</row>
+<row>
+<cell>CCXV.</cell>
+<cell>CXXIV.</cell>
+</row>
+<row>
+<cell>CCXXIV.</cell>
+<cell>CXXXI.</cell>
+</row>
+<row>
+<cell>CCXLVI.</cell>
+<cell>CXL.</cell>
+</row>
+<row>
+<cell>CCXLVII.</cell>
+<cell>CXLII.</cell>
+</row>
+<row>
+<cell>CCL.</cell>
+<cell>CXLV.</cell>
+</row>
+<row>
+<cell>CCLII.</cell>
+<cell>CXLVII.</cell>
+</row>
+<row>
+<cell>CCLIV.</cell>
+<cell>CXLIX.</cell>
+</row>
+</table>
+<table>
+<pb n="0538A"/>
+</table>
+<table>
+<row>
+            <cell>CCLX.</cell>
+            <cell>CLII.</cell>
+          </row>
+<row>
+            <cell>CCLXIII.</cell>
+            <cell>CLIII.</cell>
+          </row>
+<row>
+            <cell>CCLXXV.</cell>
+            <cell>CLVII.</cell>
+          </row>
+<row>
+            <cell>CCLXXXII.</cell>
+            <cell>CLXIV.</cell>
+          </row>
+<row>
+            <cell>CCLXXXVI.</cell>
+            <cell>CLVII.</cell>
+          </row>
+<row>
+            <cell>CCLXXXVIII.</cell>
+            <cell>CLXIX.</cell>
+          </row>
+<row>
+            <cell>CCXC.</cell>
+            <cell>CLXXI.</cell>
+          </row>
+<row>
+            <cell>CCXCII.</cell>
+            <cell>CLXXIII.</cell>
+          </row>
+<row>
+            <cell>CCXCVIII.</cell>
+            <cell>CLXXIX.</cell>
+          </row>
+<row>
+            <cell>CCCV.</cell>
+            <cell>CLXXXV.</cell>
+          </row>
+<row>
+            <cell>CCCIX.</cell>
+            <cell>CXC.</cell>
+          </row>
+<row>
+            <cell>CCCXI.</cell>
+            <cell>CXCII.</cell>
+          </row>
+<row>
+            <cell>CCCXXX.</cell>
+            <cell>CCVIII.</cell>
+          </row>
+<row>
+            <cell>CCCXXXVII.</cell>
+            <cell>CCXVII.</cell>
+          </row>
+<row>
+            <cell>CCCXLI.</cell>
+            <cell>CCXXI.</cell>
+          </row>
+<row>
+            <cell>CCCXLVII.</cell>
+            <cell>CCXXVI.</cell>
+          </row>
+<row>
+            <cell>CCCL.</cell>
+            <cell>CCXXIX.</cell>
+          </row>
+</table>
+<p>
+          <emph>
+            <pb n="0538B"/> <hi>Explicit Canon sextus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON SEPTIMUS, IN QUO DUO.</head>
+<table>
+<row>
+            <cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+            <cell>
+              <emph>JOANNES.</emph>
+            </cell>
+          </row>
+<row>
+            <cell>V.</cell>
+            <cell>LXXXIII.</cell>
+          </row>
+<row>
+            <cell>XIX.</cell>
+            <cell>XIX.</cell>
+          </row>
+<row>
+            <cell>XIX.</cell>
+            <cell>XXXII.</cell>
+          </row>
+<row>
+            <cell>XIX.</cell>
+            <cell>XXXIV.</cell>
+          </row>
+<row>
+            <cell>CXX.</cell>
+            <cell>LXXXII.</cell>
+          </row>
+<row>
+            <cell>CLXXXV.</cell>
+            <cell>CCXV.</cell>
+          </row>
+<row>
+            <cell>CCVII.</cell>
+            <cell>CI.</cell>
+          </row>
+</table>
+<p>
+          <emph> <hi>Explicit Canon septimus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON OCTAVUS, IN QUO DUO.</head>
+<table>
+<row>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+<cell>
+              <emph>MARCUS.</emph>
+            </cell>
+</row>
+</table>
+<table>
+<pb n="0538C"/>
+</table>
+<table>
+<row>
+            <cell>XXIII.</cell>
+            <cell>XII.</cell>
+          </row>
+<row>
+            <cell>XXV.</cell>
+            <cell>XIV.</cell>
+          </row>
+<row>
+            <cell>XXVII.</cell>
+            <cell>XVI.</cell>
+          </row>
+<row>
+            <cell>XXVII.</cell>
+            <cell>XXVIII.</cell>
+          </row>
+<row>
+            <cell>XXVIII.</cell>
+            <cell>XVII.</cell>
+          </row>
+<row>
+            <cell>LXXXIV.</cell>
+            <cell>XLVIII.</cell>
+          </row>
+<row>
+            <cell>LXXXIX.</cell>
+            <cell>LVI.</cell>
+          </row>
+<row>
+            <cell>XCI.</cell>
+            <cell>LXI.</cell>
+          </row>
+<row>
+            <cell>C.</cell>
+            <cell>LXXV.</cell>
+          </row>
+<row>
+            <cell>CIII.</cell>
+            <cell>XCVII.</cell>
+          </row>
+<row>
+            <cell>CCXLVII.</cell>
+            <cell>CXXXVI.</cell>
+          </row>
+<row>
+            <cell>CCLXXVII.</cell>
+            <cell>CCXVI.</cell>
+          </row>
+<row>
+            <cell>CCCXXXV.</cell>
+            <cell>CCXXX.</cell>
+          </row>
+<row>
+            <cell>CCCXL.</cell>
+            <cell>CCXXXIV.</cell>
+          </row>
+</table>
+<p>
+          <emph> <hi>Explicit Canon octavus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON NONUS, IN QUO DUO.</head>
+
+<pb n="0538D"/>
+<table>
+<row>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+<cell>
+              <emph>JOANNES.</emph>
+            </cell>
+</row>
+<row>
+<cell>XXX.</cell>
+<cell>CCXIX.</cell>
+</row>
+<row>
+<cell>XXX.</cell>
+<cell>CCXXII.</cell>
+</row>
+<row>
+<cell>CCLXII.</cell>
+<cell>CXIII.</cell>
+</row>
+<row>
+<cell>CCLXII.</cell>
+<cell>CXXIV.</cell>
+</row>
+<row>
+<cell>CCLXXIV.</cell>
+<cell>CCXXVII.</cell>
+</row>
+<row>
+<cell>CCLXXIV.</cell>
+<cell>CCXXIX.</cell>
+</row>
+<row>
+<cell>CLXXIV.</cell>
+<cell>CCXXXI.</cell>
+</row>
+<row>
+<cell>CCCIII.</cell>
+<cell>CLXXXII.</cell>
+</row>
+<row>
+<cell>CCCIII.</cell>
+<cell>CLXXXVI.</cell>
+</row>
+<row>
+<cell>CCCIII.</cell>
+<cell>CXC.</cell>
+</row>
+<row>
+<cell>CCCVII.</cell>
+<cell>CLXXXII.</cell>
+</row>
+<row>
+<cell>CCCVII.</cell>
+<cell>CLXXXVI.</cell>
+</row>
+<row>
+<cell>CCCVII.</cell>
+<cell>CXC.</cell>
+</row>
+<row>
+<cell>CCCXII.</cell>
+<cell>CLXXXII.</cell>
+</row>
+<row>
+<cell>CCCXII.</cell>
+<cell>CLXXXVI.</cell>
+</row>
+</table>
+<table>
+<pb n="0539A"/>
+</table>
+<table>
+<row>
+            <cell>CCCXII.</cell>
+            <cell>CXC.</cell>
+          </row>
+<row>
+            <cell>CCCXLI.</cell>
+            <cell>CCXIII.</cell>
+          </row>
+<row>
+            <cell>CCCXLI.</cell>
+            <cell>CCXVII.</cell>
+          </row>
+<row>
+            <cell>CCCXLII.</cell>
+            <cell>CCXXI.</cell>
+          </row>
+<row>
+            <cell>CCCXLII.</cell>
+            <cell>CCXXIII.</cell>
+          </row>
+<row>
+            <cell>CCXLII.</cell>
+            <cell>CCXXV.</cell>
+          </row>
+</table>
+<p>
+          <emph> <hi>Explicit Canon nonus.</hi> </emph>
+</p>
+</div1>
+
+<div1>
+        <head>INCIPIT CANON X--MATTHAEUS PROPRIE.</head>
+<table>
+<row>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+<cell>
+              <emph>MATTHAEUS.</emph>
+            </cell>
+</row>
+<row>
+<cell>II.</cell>
+<cell>CLV.</cell>
+</row>
+<row>
+<cell>IV.</cell>
+<cell>CLXVII.</cell>
+</row>
+<row>
+<cell>VI.</cell>
+<cell>CLXXI.</cell>
+</row>
+<row>
+<cell>XIII.</cell>
+<cell>CLXXVII.</cell>
+</row>
+</table>
+<table>
+<pb n="0539B"/>
+</table>
+<table>
+<row>
+<cell>XXIV.</cell>
+<cell>CLXXXI.</cell>
+</row>
+<row>
+<cell>XXVI.</cell>
+<cell>CLXXXIV.</cell>
+</row>
+<row>
+<cell>XXIX.</cell>
+<cell>CLXXXVI.</cell>
+</row>
+<row>
+<cell>XXXIII.</cell>
+<cell>CLXXXVIII.</cell>
+</row>
+<row>
+<cell>XXXV.</cell>
+<cell>CXCI.</cell>
+</row>
+<row>
+<cell>XXXVII.</cell>
+<cell>CXCVI.</cell>
+</row>
+<row>
+<cell>XXXIX.</cell>
+<cell>CC.</cell>
+</row>
+<row>
+<cell>XLII.</cell>
+<cell>CCX.</cell>
+</row>
+<row>
+<cell>XLV.</cell>
+<cell>CCXII.</cell>
+</row>
+<row>
+<cell>LII.</cell>
+<cell>CCXVIII.</cell>
+</row>
+<row>
+<cell>LVI.</cell>
+<cell>CCXXII.</cell>
+</row>
+<row>
+<cell>LXXV.</cell>
+<cell>CCXXVII.</cell>
+</row>
+<row>
+<cell>LXXXI.</cell>
+<cell>CCXXX.</cell>
+</row>
+<row>
+<cell>LXXXIX.</cell>
+<cell>CCXXXIII.</cell>
+</row>
+<row>
+<cell>XCI.</cell>
+<cell>CCXXXV.</cell>
+</row>
+<row>
+<cell>XCIX.</cell>
+<cell>CCXXXIX.</cell>
+</row>
+<row>
+<cell>CI.</cell>
+<cell>CCXLV.</cell>
+</row>
+<row>
+<cell>CVI.</cell>
+<cell>CCLXVIII.</cell>
+</row>
+</table>
+<table>
+<pb n="0539C"/>
+</table>
+<table>
+<row>
+            <cell>CIX.</cell>
+            <cell>CCLXXIII.</cell>
+          </row>
+<row>
+            <cell>CXIII.</cell>
+            <cell>CCLXXXIII.</cell>
+          </row>
+<row>
+            <cell>CXV.</cell>
+            <cell>CCCIII.</cell>
+          </row>
+<row>
+            <cell>CXVIII.</cell>
+            <cell>CCCXIX.</cell>
+          </row>
+<row>
+            <cell>CXXIV.</cell>
+            <cell>CCCXXIV.</cell>
+          </row>
+<row>
+            <cell>CXXVI.</cell>
+            <cell>CCCXXVII.</cell>
+          </row>
+<row>
+            <cell>CXXXVI.</cell>
+            <cell>CCCXLV.</cell>
+          </row>
+<row>
+            <cell>CXL.</cell>
+            <cell>CCCLI.</cell>
+          </row>
+<row>
+            <cell>CLI.</cell>
+            <cell>CCCLV.</cell>
+          </row>
+</table>
+
+</div1>
+
+<div1>
+        <head>MARCUS PROPRIE.</head>
+<table>
+<row>
+<cell>
+              <emph>MARCUS.</emph>
+            </cell>
+<cell>
+              <emph>MARCUS.</emph>
+            </cell>
+</row>
+<row>
+<cell>XIX.</cell>
+<cell>XC.</cell>
+</row>
+<row>
+<cell>XXXI.</cell>
+<cell>XCII.</cell>
+</row>
+<row>
+<cell>XLIII.</cell>
+<cell>XCIV.</cell>
+</row>
+<row>
+<cell>XLVI.</cell>
+<cell>CI.</cell>
+</row>
+</table>
+<table>
+<pb n="0539D"/>
+</table>
+<table>
+<row>
+            <cell>LVIII.</cell>
+            <cell>CIV.</cell>
+          </row>
+<row>
+            <cell>LXII.</cell>
+            <cell>CXXIII.</cell>
+          </row>
+<row>
+            <cell>LXX.</cell>
+            <cell>CXXXII.</cell>
+          </row>
+<row>
+            <cell>LXXIV.</cell>
+            <cell>CLXXXVI.</cell>
+          </row>
+<row>
+            <cell>LXXXI.</cell>
+            <cell>CCXIII.</cell>
+          </row>
+<row>
+            <cell>LXXXVIII.</cell>
+            <cell>CCXXXV.</cell>
+          </row>
+</table>
+
+</div1>
+
+<div1>
+        <head>LUCAS PROPRIE.</head>
+<table>
+<row>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+<cell>
+              <emph>LUCAS.</emph>
+            </cell>
+</row>
+<row>
+<cell>I.</cell>
+<cell>XX.</cell>
+</row>
+<row>
+<cell>III.</cell>
+<cell>XXII.</cell>
+</row>
+<row>
+<cell>V.</cell>
+<cell>XXIX.</cell>
+</row>
+<row>
+<cell>IX.</cell>
+<cell>XXXI.</cell>
+</row>
+<row>
+<cell>XVIII.</cell>
+<cell>L.</cell>
+</row>
+</table>
+<table>
+<pb n="0540A"/>
+</table>
+<table>
+<row>
+<cell>LI.</cell>
+<cell>CCIII.</cell>
+</row>
+<row>
+<cell>LXVII.</cell>
+<cell>CCVIII.</cell>
+</row>
+<row>
+<cell>LXVIII.</cell>
+<cell>CCX.</cell>
+</row>
+<row>
+<cell>LXXII.</cell>
+<cell>CCXIV.</cell>
+</row>
+<row>
+<cell>LXXV.</cell>
+<cell>CCXXIII.</cell>
+</row>
+<row>
+<cell>CIV.</cell>
+<cell>CCXXV.</cell>
+</row>
+<row>
+<cell>CVI.</cell>
+<cell>CCXXVII.</cell>
+</row>
+<row>
+<cell>CVII.</cell>
+<cell>CCXXXVI.</cell>
+</row>
+<row>
+<cell>CXIII.</cell>
+<cell>CCLII.</cell>
+</row>
+<row>
+<cell>CXVII.</cell>
+<cell>CCLVI.</cell>
+</row>
+<row>
+<cell>CXXII.</cell>
+<cell>CCLIX.</cell>
+</row>
+<row>
+<cell>CXXIV.</cell>
+<cell>CCLXIV.</cell>
+</row>
+<row>
+<cell>CXXXI.</cell>
+<cell>CCLXXI.</cell>
+</row>
+<row>
+<cell>CXLIII.</cell>
+<cell>CCLXXIII.</cell>
+</row>
+<row>
+<cell>CXLIX.</cell>
+<cell>CCLXXVI.</cell>
+</row>
+<row>
+<cell>CLI.</cell>
+<cell>CCLXXVIII.</cell>
+</row>
+<row>
+<cell>CLIV.</cell>
+<cell>CCLXXXIII.</cell>
+</row>
+</table>
+<table>
+<pb n="0540B"/>
+</table>
+<table>
+<row>
+            <cell>CLIX.</cell>
+            <cell>CCLXXXVIII.</cell>
+          </row>
+<row>
+            <cell>CLXIII.</cell>
+            <cell>CCXCVI.</cell>
+          </row>
+<row>
+            <cell>CLXIV.</cell>
+            <cell>CCXCVIII.</cell>
+          </row>
+<row>
+            <cell>CLXVI.</cell>
+            <cell>CCCI.</cell>
+          </row>
+<row>
+            <cell>CLXXIV.</cell>
+            <cell>CCCIV.</cell>
+          </row>
+<row>
+            <cell>CLXXVI.</cell>
+            <cell>CCCVI.</cell>
+          </row>
+<row>
+            <cell>CLXXVIII.</cell>
+            <cell>CCCVIII.</cell>
+          </row>
+<row>
+            <cell>CLXXX.</cell>
+            <cell>CCCXVI.</cell>
+          </row>
+<row>
+            <cell>CLXXXIII.</cell>
+            <cell>CCCXX.</cell>
+          </row>
+<row>
+            <cell>CLXXXVIII.</cell>
+            <cell>CCCXXVI.</cell>
+          </row>
+<row>
+            <cell>CXC.</cell>
+            <cell>CCCXXXI.</cell>
+          </row>
+<row>
+            <cell>CXCII.</cell>
+            <cell>CCCXXXIV.</cell>
+          </row>
+<row>
+            <cell>CXCVI.</cell>
+            <cell>CCCXXXIX.</cell>
+          </row>
+<row>
+            <cell>CCI.</cell>
+            <cell>CCCXLIII.</cell>
+          </row>
+</table>
+
+</div1>
+
+<div1>
+        <head>JOANNES PROPRIE.</head>
+
+<pb n="0540C"/>
+<table>
+<row>
+<cell>
+              <emph>JOANNES.</emph>
+            </cell>
+<cell>
+              <emph>JOANNES.</emph>
+            </cell>
+</row>
+<row>
+<cell>IV.</cell>
+<cell>LXXXI.</cell>
+</row>
+<row>
+<cell>VII.</cell>
+<cell>LXXXIV.</cell>
+</row>
+<row>
+<cell>IX.</cell>
+<cell>LXXXVI.</cell>
+</row>
+<row>
+<cell>XI.</cell>
+<cell>LXXXIX.</cell>
+</row>
+<row>
+<cell>XIII.</cell>
+<cell>XCII.</cell>
+</row>
+<row>
+<cell>XVI.</cell>
+<cell>XCIV.</cell>
+</row>
+<row>
+<cell>XVIII.</cell>
+<cell>XCVII.</cell>
+</row>
+<row>
+<cell>XXII.</cell>
+<cell>XCIX.</cell>
+</row>
+<row>
+<cell>XXIV.</cell>
+<cell>CII.</cell>
+</row>
+<row>
+<cell>XXVII.</cell>
+<cell>CIV.</cell>
+</row>
+<row>
+<cell>XXIX.</cell>
+<cell>CVI.</cell>
+</row>
+<row>
+<cell>XXXI.</cell>
+<cell>CVIII.</cell>
+</row>
+<row>
+<cell>XXXIII.</cell>
+<cell>CX.</cell>
+</row>
+<row>
+<cell>XXXVI.</cell>
+<cell>CXII.</cell>
+</row>
+<row>
+<cell>XXXIX.</cell>
+<cell>CXV.</cell>
+</row>
+<row>
+<cell>XLI.</cell>
+<cell>CXVII.</cell>
+</row>
+</table>
+<table>
+<pb n="0540D"/>
+</table>
+<table>
+<row>
+<cell>XLIII.</cell>
+<cell>CXIX.</cell>
+</row>
+<row>
+<cell>XLV.</cell>
+<cell>CXXIII.</cell>
+</row>
+<row>
+<cell>L.</cell>
+<cell>CXXV.</cell>
+</row>
+<row>
+<cell>LII.</cell>
+<cell>CXXVII.</cell>
+</row>
+<row>
+<cell>LIV.</cell>
+<cell>CXXX.</cell>
+</row>
+<row>
+<cell>LVI.</cell>
+<cell>CXXXII.</cell>
+</row>
+<row>
+<cell>LVIII.</cell>
+<cell>CXXXIV.</cell>
+</row>
+<row>
+<cell>LX.</cell>
+<cell>CXXXVI.</cell>
+</row>
+<row>
+<cell>LXII.</cell>
+<cell>CXXXVIII.</cell>
+</row>
+<row>
+<cell>LXIV.</cell>
+<cell>CXL.</cell>
+</row>
+<row>
+<cell>LXVI.</cell>
+<cell>CXLIII.</cell>
+</row>
+<row>
+<cell>LXVIII.</cell>
+<cell>CXLV.</cell>
+</row>
+<row>
+<cell>LXXI.</cell>
+<cell>CXLVII.</cell>
+</row>
+<row>
+<cell>LXXIII.</cell>
+<cell>CXLIX.</cell>
+</row>
+<row>
+<cell>LXXV.</cell>
+<cell>CLI.</cell>
+</row>
+<row>
+<cell>LXXVIII.</cell>
+<cell>CLIII.</cell>
+</row>
+<row>
+<cell>LXXX.</cell>
+<cell>CLV.</cell>
+</row>
+</table>
+<table>
+<pb n="0541A"/>
+</table>
+<table>
+<row>
+<cell>CLVII.</cell>
+<cell>CLXXVII.</cell>
+</row>
+<row>
+<cell>CLIX.</cell>
+<cell>CLXXIX.</cell>
+</row>
+<row>
+<cell>CLXIII.</cell>
+<cell>CLXXXI.</cell>
+</row>
+<row>
+<cell>CLXV.</cell>
+<cell>CLXXXIX.</cell>
+</row>
+<row>
+<cell>CLXVII.</cell>
+<cell>CXCI.</cell>
+</row>
+<row>
+<cell>CLXIX.</cell>
+<cell>CXCIII.</cell>
+</row>
+<row>
+<cell>CLXXI.</cell>
+<cell>CXCV.</cell>
+</row>
+<row>
+<cell>CLXXIII.</cell>
+<cell>CC.</cell>
+</row>
+</table>
+<table>
+<pb n="0542A"/>
+</table>
+<table>
+<row>
+            <cell>CCII.</cell>
+            <cell>CCXVIII.</cell>
+          </row>
+<row>
+            <cell>CCV.</cell>
+            <cell>CCXX.</cell>
+          </row>
+<row>
+            <cell>CCVII.</cell>
+            <cell>CCXXIV.</cell>
+          </row>
+<row>
+            <cell>CCX.</cell>
+            <cell>CCXXVI.</cell>
+          </row>
+<row>
+            <cell>CCXII.</cell>
+            <cell>CCXXVII.</cell>
+          </row>
+<row>
+            <cell>CCXIV.</cell>
+            <cell>CCXXX.</cell>
+          </row>
+<row>
+            <cell>CCXVI.</cell>
+            <cell>CCXXXII.</cell>
+          </row>
+</table>
+<p>
+          <emph> <hi>Explicit Canon X in quo singuli evangelistae proprie.</hi> </emph>
+        </p>
+<p>
+          <emph>
+            <pb n="0541"/>EXPLICIUNT CANONES EVANGELIORUM.</emph>
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

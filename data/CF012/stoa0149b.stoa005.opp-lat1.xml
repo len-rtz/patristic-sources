@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>Liber ad Constantium Imperatorem [CSEL]</title>  
+              <author ref="http://viaf.org/viaf/89595978">Hilarius Pictaviensis<date>315-367</date></author>
+              </titleStmt>
+               
+
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1916</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 65</biblScope></editor>
+            </monogr>
+            <ref target="https://archive.org/stream/CSEL65#page/n0/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Alfredus Feder</name>; <addName xml:lang="de">Alfred Feder</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>HilPic.AdConstCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL65.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0149b.stoa005.opp-lat1"/>
+
+          
+<div1 n="1" subtype="chapter"><head>cap. 1</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+          <p>Non sum <choice><note>noscius</note><corr>nescius</corr></choice>, piissime imperator, ca, quae de <lb n="5"/>
+            nonnullis negotiis ad conscientiae publicae audientiam <sic n="poss">proferan</sic>-. <lb/>
+            tur, pro <choice><note>dignitatc</note><corr>dignitate</corr></choice> eorum, qui eloquuntur, uel grauia existimari <lb/>
+            solere uel <choice><note>lcuia</note><corr>leuia</corr></choice>, dum distantis opinionis ambiguam sententiam <lb/>
+            ad studium intellegentiae permouet <choice n="0.33"><note n="690">homini</note><corr n="1392">hominis</corr></choice>; <sic>contemtus</sic> aut gratia. <lb/>
+</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>            sed mihi apud te de diuina re pia dicturo nullus uulgatae consuctudinis  <lb n="10"/>
+            metus est, quia, cum sis bonus ac religiosus, nec uitium <lb/>
+            <choice n="0.95"><note n="190">iudicii</note><corr n="10">indicii</corr></choice> apud prudentes religionum, quid a quo audiat, sed an, quae <lb/>
+            <sic>audiatsint</sic> religiosa, diiudicet. et quia mihi a deo [de] praesentia tuae <lb/>
+            opportunitas praestita est, nec erga haec quidem conscientiae meae <lb/>
+            cessauit officium, ut in eum, quem apud te habeo de religione sermonem, <lb n="15"/>
+            indignitas forte aliqua tecum loquentis <choice><note>offcndat</note><corr>offendat</corr></choice>. 
+</p>
+          </div3>
+</div1>
+
+<div1 n="2" subtype="chapter"><head>cap. 2</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Episcopus ego sum in omnium Galliarum ecclesiarum atque,
+
+<app>1 SANCTI—IMPERATOREM] <hi>cf. notam ad p. 187, 19 INCIPIT (INCP. B)</hi> <lb/>
+            LIBER (LIB. <hi>B)</hi> II. EIVSDEM AD EVNDEM (EVADEM <hi>Bm1)</hi> QUEM ET CONSTANTI- <lb/>
+            NOPOLI (-NAPOLI <hi>Bm1</hi> -NVPOLI <hi>Bm4)</hi> IPSE TRADIDIT <hi>BC</hi> incipit eiusdem epla <lb/>
+            (epla <hi>s.l.m2)</hi> ad eundem quam et constantinopoli cidem ipse tradidit G liber <lb/>
+            seds eiusdem ad eundem quem et constantinopoli (-im <hi>JOW)</hi> ipse (ipsi EW) <lb/>
+            tradidit <hi>JEOW</hi> item liber eiusdem ad eundem M, <hi>titulum om. L; cf. Hieron. <lb/>
+            de uiris inl. lllll:</hi> ad Constantium libellus. quem uiuenti Constantinopoli porrexerat <lb/>
+            <hi>5 piismc Ba.c.m4 ea] e Cm1. del. Cm2, om. (s.l.Em2) G<foreign xml:lang="grc">π</foreign></hi> de]<hi>praeln</hi>. <lb/>
+            de plerisque <hi>H, (del. m3) C,</hi> a plerisque <hi>com. Cou</hi> li audientium LW proferuntur <lb/>
+            <hi>JEm2 praeferantur <foreign xml:lang="grc">γ</foreign>GL</hi> 7 qui] quae <hi>LW</hi> eloquantur <hi>Bm2</hi> locuntur <lb/>
+            <hi>EmlL</hi> loquuntur II <hi>ea (s.l.Em2) locuntur (loquuntur O) JEm2 MO</hi>cxhistimari <lb/>
+            <hi>Ca.r</hi>. existimare <hi>Em1LMOW</hi> 8 distantis <hi>Eng</hi> distantibus Ɵ his tantis i <lb/>
+            opinionis <hi>li</hi> 9 permouet <hi>B</hi> promouet <hi>CG<foreign xml:lang="grc">π</foreign>Ɵ</hi> 10 aput <hi>B a.c.m2</hi> nullus <lb/>
+            metus est <hi>Q</hi> 11 nec <hi>om. MO</hi> 12 aput <hi>Ba.c.m2</hi> a quo] aut quod <hi>Ba.c.m</hi>? <lb/>
+            13 a deo] ad eo 0 de <hi>del.Cou</hi> praesentia tua <hi>Cp.r.,G<foreign xml:lang="grc">πΔ</foreign></hi> 14 opportunita <lb/>
+            (s s. a) <hi>C</hi> 15 ccssabit <hi>ELW</hi> in eum] meu<foreign xml:lang="grc">̄</foreign> <hi>0</hi> aput <hi>Ba.c.m2</hi> religione <lb/>
+            <foreign xml:lang="grc">̄</foreign> <hi>MO</hi> 16 digtas <hi>Ba.c.m2</hi> 17 in omnium] hominum <hi>Ba.c.m4</hi> gallicarum <lb/>
+            <hi>J</hi> ecclesiarum <hi>s.l.Bm4</hi> ecclesiis M </app> <lb/>
+             
+<pb n="198"/>
+            episcoporum communione, licet exilio, permanens et ecclesiae <lb/>
+            adhuc per presbyteros meos communionem <choice><note>distrihuens</note><corr>distribuens</corr></choice>. exulo autem <lb/>
+            non crimine, sed factione et falsis nuntiis synodi ad te imperatorem <lb/>
+            pium, non ob aliquam criminum meorum conscientiam per impios <lb/>
+            homines delatus. nec leuem habeo querellae meae testem dominum<lb n="5"/>
+            meum religiosum Caesarem tuum Iulianum, qui plus in exilio meo <lb/>
+            contumeliae a malis, quam ego iniuriae, pertulit;</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>in promtu enim  <lb/>
+            sunt pietatis uestrae litterae. falsa autem eorum omnia, qui in exilium <lb/>
+            meum procurauerunt, non in obscuro sunt. ipse quoque uel <lb/>
+            minister uel auctor gestorum omnium intra hanc urbem est. circumuentum<lb n="10"/>
+            te Augustum inlusumque Caesarem tuum ea confidens <lb/>
+            conscientiae meae condicione patefaciam, ut, si indignum aliquid <lb/>
+            non modo episcopi sanctitate, sed etiam laici integritate gessisse <lb/>
+            docear, non iam sacerdotium per ueniam expectem, sed intra paenitentiam <lb/>
+            laici consenescam. <lb n="15"/>
+            
+</p>
+          </div3>
+</div1>
+
+<div1 n="3" subtype="chapter"><head>cap. 3</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Haec autem nunc, dignantissime imperator, arbitrio tuo <lb/>
+            derelinquo, quatenus et quomodo me iubes loqui, et ea, quae maxime <lb/>
+            tecum in tempore hoc agenda sunt, prosequor. dabis quidem <lb/>
+            id in praesens instructionis ad causam, ut praesentem eum, cuius <lb/>
+</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>            ministerio exulo, usque ad confessionem falsorum, quae gessit, adducam. <lb n="20"/>
+            sed nihil de eo, nisi cum iusseris, loquar. nunc autem, quia <lb/>
+            mihi metus est de mundi periculo, de silentii mei reatu, de iudicio <lb/>
+            dei, cura autem est de spe, de uita, de immortalitate non tam mea, <lb/>
+            quam tua <sic>uniuersorumque</sic>. quae quia mihi cum plurimis communis
+
+<app>1 episcoporum (-is <hi>s.l.m4) B</hi> commune <hi>MO</hi> exilio] <hi>praem</hi>. in e ct <lb/>
+            <hi>s.l.Bm4</hi> ecclesia <hi>Ba.c.m4</hi> 2 athuc <hi>Ba.c.m2</hi> adhuc licet <hi>E</hi> per <hi>s.l.C</hi> <lb/>
+            prbb <hi>B</hi> prespiteros W 3 synodi (h <hi>s.l.m4) B</hi> te <hi>s.l.Bm5 4 aliqua B, C<lb/>
+             a.c.m2</hi> conseientia <hi>B, C a.c.m2</hi> 5 delatis <hi>B</hi> delatos W a.c. quaerelle <hi>Bm1</hi> <lb/>
+            quaerellae <hi>Bm2</hi> quaerelle <hi>C</hi> dm <hi>B</hi> 6 cesarem <hi>CG<foreign xml:lang="grc">π</foreign></hi> tuum] tunc <hi>Ba.c.m5</hi> <lb/>
+            7 in promtum <hi>B</hi> in prontū (- <hi>eras.) C</hi> 8 omnia eorum <hi>M</hi> qui] quae <hi>Cou</hi> <lb/>
+            in <hi>eras. E,</hi> om. <hi>Cm1</hi> 9 me <hi>Em1LW</hi> 11 augustum <hi>s.l.Em2, om.LW</hi> Augustum <lb/>
+            te <hi>M</hi> cesarem <hi>CG<foreign xml:lang="grc">π</foreign></hi> confides <hi>C a.c.m </hi>? 12 dignum <hi>B, Ca.c.m3</hi> <lb/>
+            aliquit <hi>B a.c.m2</hi> 14 doceam <hi>Ba.c.m4</hi> uenia <hi>B</hi> exspectem <hi>B p.c.m2, C p.c</hi>. <lb/>
+            paenitentia <hi>B</hi> 16 dignatissime <hi>Ea.c.m2, L</hi> dignitatissime <hi>MO</hi> 17 quatinus <lb/>
+            <hi>CJMO</hi> 18 persequor <hi>MO</hi> dabis e ab his <foreign xml:lang="grc">λ</foreign> 19 praesentem] praesente <lb/>
+            <hi>B,Ca.c.m2</hi> 20 mynisterio 11' ex∗ulo <hi>C</hi> 21 nihil] <hi>cxp. et</hi> n <hi>s.l.Cm2</hi> nunc <lb/>
+            autem <hi>sc. loquor</hi> 23 dei] s loquor <hi>add. s.I.Cm3</hi> cur <hi>y, Ea.c.m2, LMOW</hi> <lb/>
+            sit s. est <hi>Cm3</hi> non] <hi>praem</hi>. et <hi>0</hi> 24 quac] <hi>add</hi>. s loquor s.l. <hi>Cm3</hi> quia <lb/>
+            quę <hi>J,</hi> (in <hi>ras. m2) E</hi> </app> <lb/>
+             
+<pb n="199"/>
+            est, haec a me communis spei expectatio est. 
+</p>
+          </div3>
+</div1>
+
+<div1 n="4" subtype="chapter"><head>cap. 4</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Recognosce fidem, quam olim, optime ac religiosissime <lb/>
+            imperator, ab episcopis optas audire et non audis. dum enim, a <lb/>
+            quibus ea requiritur, sua scribunt et non deum praedicant, orbem <lb/>
+            aeternum erroris et redeuntis in se semper certaminis circumtulerunt. <lb n="5"/>
+            oportuerat humanae infirmitatis modestia omne cognitionis diuinae <lb/>
+            sacramentum illis tantum conscientiae suae finibus contineri, quibus <lb/>
+            credidit, neque post confessam et <sic>iuratam</sic> in baptismo fidem in <lb/>
+            nomine patris et filii et spiritus sancti quicquam <lb/>
+            aliud uel ambigere uel innouare.</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>sed quorundam aut praesumtio  <lb n="10"/>
+            aut facultas aut error apostolicae doctrinae indemutabilem <lb/>
+            constitutionem partim fraudulenter confessa est et partim audacter <lb/>
+            egressa, dum in confessione patris et filii et spiritus sancti ueritatem <lb/>
+            naturalis significationis eludit, ne quid maneret in sensu, quod in <lb/>
+            regenerationis sacramento est confitendum. ob hoc penes quorundam <lb n="15"/>
+            conscientiam nec pater pater nec filius filius nec spiritus sanctus <lb/>
+            spiritus sanctus est.</p></div3>
+
+<div3 n="3" subtype="section"><head>§ 3</head>
+<p>sub cuius necessitatis tamquam improbabili  <lb/>
+            occasione scribendae atque innouandae fidei exinde usus inoleuit. <lb/>
+            qui postquam <choice n="0.06"><note n="64">nona</note><corr n="938">noua</corr></choice> potius coepit condere, quam accepta retinere, <lb/>
+            nec ueterata defendit nec innouata firmauit et facta est fides temporum <lb n="20"/>
+            potius quam <choice><note>euangrliorum</note><corr>euangeliorum</corr></choice>, dum et secundum annos scribitur <lb/>
+            et secundum confessionem baptismi non tenetur. periculosum nobis
+
+<app>8 Matth. 28, 19 </app>
+
+<app> 1 exspectatio <hi>Bp.c.m2,C</hi> 3 episcopo <hi>Ba.c.m5</hi> optas (op in <hi>ras. m2) C</hi> <lb/>
+            et <hi>s.l.Bm4</hi> 4 suam <hi>(sc</hi>. fidem) <hi>Eng</hi> deum <hi>Fed</hi> dei <foreign xml:lang="grc">λ</foreign> <hi>Eng</hi> (quae) dei (sunt) <lb/>
+            6 oportuerat] <hi>add</hi>. enim <hi>S</hi> humanae (-ne <hi>C</hi> humanitate <hi>Bad)</hi> infirmitatis (ac <lb/>
+            <hi>add. Bad)</hi> modestia <hi>Cp.c.m2,GӨ</hi> humanitate infirmata (infirmitas <hi>Ba.c</hi>. infir- <lb/>
+            Illata <hi>Bp.c. infirmitate JEm2</hi> in- <hi>exp</hi>. 0) molestia (-am <hi>BCm1MO</hi> modestia <hi>Em2) <lb/>
+            H, Ca.c.m2, <foreign xml:lang="grc">π</foreign></hi> omnem <hi>H, C p,r</hi>. diuinae cognitionis <hi>E</hi> 7 tantum] tam <hi>.J <lb/>
+            8 baptism Ba.c.m4 fidem] add. et Bp.c.m4, LW 9 fili B spiritu Ca c</hi>. <lb/>
+            11 facilitas <hi>C p.c.m2,G<foreign xml:lang="grc">π</foreign>Ө</hi> fatuitas <hi>susp. Cou</hi> inde mutabilem 0 in demutatione <lb/>
+            (bilem <hi>s.l.) E</hi> 12 <hi>pr</hi>. partim] partem <hi>Ba.c.m?, C a.c.m2</hi> et <hi>om. COli<lb/>
+             atl</hi>. partim] partem <hi>B</hi> parte <hi>C a.c.m2</hi> 13 fili <hi>B</hi> spiritu <hi>C a.c</hi>. 14 ne <lb/>
+            quid G neque id <hi>(alt,</hi> e <hi>eras. el</hi> id <hi>s.l.) C,<foreign xml:lang="grc">π</foreign> Bad</hi> neque ut <hi>B</hi> ne id <hi>Era LypOilCou</hi> <lb/>
+            manet <hi>JEm2MO</hi> sensum <hi>B, Ca.c.m2</hi> quod] sed 0 15 <hi>confidendum MO</hi> <lb/>
+            paenes <hi>B</hi> 16 pater nec (nec <hi>del.)</hi> pater <hi>J</hi> filius nec (nec <hi>del.)</hi> filius <hi>J <lb/>
+            17 subler</hi> necessitatis tamquam <hi>lineam duxil Cm2,</hi> om. G probabili (im <hi>s.l.) B</hi> <lb/>
+            18 occasionis <hi>B, Ca.c.m3 exinde exp. Cm2</hi> 19 nouam <hi>R, C a.r</hi>. 20 defendet <lb/>
+            <hi>B,C a.c.m3</hi> 21 scribituret] <hi>Bm4 Cm1<foreign xml:lang="grc">πΔ</foreign></hi> describituret <hi>Cm2G Cou scribturae Bm1</hi></app> <lb/>
+             
+<pb n="200"/>
+            <sic>ammodum</sic> atque etiam miserabile est tot nunc fides exsistere, quot <lb/>
+            uoluntates, et tot nobis doctrinas esse, quot mores, et tot causas <lb/>
+            blasphemiarum pullulare, quot uitia sunt, dum aut ita fides scribuntur, <lb/>
+            ut uolumus, aut ita, ut nolumus, intelleguntur. et cum <lb/>
+            secundum unum deum et unum dominum et unum baptisma<lb n="5"/>
+            etiam fides una sit, excedimus ab ea fide, quae sola est. et dum plures, <lb/>
+            ad id coeperunt esse, ne ulla sit. 
+</p>
+          </div3>
+</div1>
+
+<div1 n="5" subtype="chapter"><head>cap. 5</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Conscii enim nobis inuicem sumus post Niceni conuentus <lb/>
+            synodum nihil aliud quam fidem scribi. dum in uerbis pugna <lb/>
+            est, dum de nouitatibus quaestio est, dum de ambiguis <sic>cecasio</sic> est,<lb n="10"/>
+            dum de auctoribus <choice><note>querclla</note><corr>querella</corr></choice> est, dum de studiis certamen est, <lb/>
+            dum in consensu difficultas est, dum alter <choice><note>nlteri</note><corr>alteri</corr></choice> anathema esse <lb/>
+            coepit, prope iam nemo Christi est. incerto enim <choice><note>dftctrinarum</note><corr>doctrinarum</corr></choice> <lb/>
+</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>            uento uagamur et aut, dum doeemus, perturbamus aut, dum docemur,  <lb/>
+            erramus. iam uero proximi anni fides quid iam de immutatione <lb n="15"/>
+            in se habet? prima, quae '<sic>omousion</sic>' decernit taceri; sequens rursum, <lb/>
+            quae '<sic>omousion</sic>' discernit et praedicat; tertia deinceps, <choice n="0.00"><note n="5">quac</note><corr n="30156">quae</corr></choice> 'usiam'
+
+<app>5 cf. Eph. 4, 5 9—12 cf. Fulgent. Ferrand. ad Pelagium et Anatolium <lb/>
+            ep. VI (LXVJI 922 M) 13 cf. I Cor. 1,12 Eph. 4, 14 </app>
+
+<app> 1 quod <hi>B, Ca.c.m2</hi> 2 quod <hi>B, C a.c.m2</hi> 3 blasfemiarum <hi>G</hi> quod <lb/>
+            <hi>B, Ca.c.m2</hi> 4 ut uolumus, aut ita, ut <hi>om. MO</hi> nolumus] uolumus A cum <lb/>
+            <hi>s.l.Em2</hi> 5 dominum] <hi>add. per dittographiam</hi> et una <hi>fides a, (om.J, exp. Em2) <foreign xml:lang="grc">π</foreign></hi> <lb/>
+            et una<foreign xml:lang="grc">̄</foreign> fide<foreign xml:lang="grc">̄</foreign> G 6 excidimus <hi>LypOil</hi> et <hi>s.l,Bm4</hi> plures (sc. coeperunt esse)] <lb/>
+            <hi>plus ei Ba.c., add. fiunt EraLypGilCou sint (s.l.m2) C,G<foreign xml:lang="grc">π</foreign> 7 ceperint Em1L</hi> <lb/>
+            ne ulla] uulla <hi>Ba.c.m4</hi> 8 simus <hi>CJM, Wa.c</hi>. si m <hi>0</hi> nicheni <hi>Ba.c</hi>. nvceni <lb/>
+            <hi>Cm2LOn</hi> 9 synodum (h <hi>s.l.m4) B</hi> lOnouitatibus] <hi>uoluntatibus(noui s.l.)E <lb/>
+            alt</hi>. est <hi>s.l.Wm2</hi> : 11 quacrella <hi>(pr. l</hi><hi>eras.) C</hi> 12 conscnsu] <hi>JELCou (ct. Ferrandus: <lb/>
+            </hi> dum de consensu difficultas est) consessu <hi><foreign xml:lang="grc">γ</foreign>GMOW</hi> concessu <hi>Eng</hi> <lb/>
+            14 <hi>pr</hi>. aut dum] ut aut <hi>Ba.c.m? alt</hi>. dum] cum <hi>L</hi> 15 pximiani <hi>G</hi> in <lb/>
+            demutatione <hi>ELW</hi> 16 habeat <hi>G</hi> prima quae <hi>Fed</hi> primaque <hi>LW m2</hi> prima <lb/>
+            namque <hi>JE</hi> primumque <hi>yG</hi> primum quae <hi>LypGilCou</hi> primum namque <hi>MO</hi> <lb/>
+            primum W m1Era 16 homousion (lineam <hi>duxit s.l.m2)G,O</hi> omausion (a <hi>er o)M,</hi> <lb/>
+            OMOYCION <hi>add.in mg.C</hi> discernit <hi>Ba.c.m</hi>? rursumq. <hi>B. Ca.c.m3,G</hi> <lb/>
+            17 <hi>pr</hi>. quae] q.(ae <hi>s.l.m2)C</hi> homousion <hi>(lineam duxit</hi> s.l.m2)G,O omoeusion L, <lb/>
+            (o s. eu <hi>m2)</hi> W e t omoeousion adq. (t s. d) in ttln omoeousion (t <hi>significat<lb/>
+             singulas litleras, quae legi nequeunt) in mg. Bm4</hi> descerni <hi>B</hi> decernit (is s. <hi>pr. e) J</hi> <lb/>
+            cerni <hi>Ca.c.m3</hi> et praedieat] praeiudicat <hi>B</hi> predicat <hi>Ca.c.m3</hi> tercia <hi>n</hi> <lb/>
+            tertiam V tercia<foreign xml:lang="grc">̄</foreign> G tertium 0 </app> <lb/>
+             
+<pb n="201"/>
+            simpliciter a patribus <choice><note>praesumtani</note><corr>praemunitam</corr></choice> <sic>pcr</sic> indulgentiam <choice n="0.81"><note n="61">excusat</note><corr n="14">excubat</corr></choice>; postremum <lb/>
+            quarta, quae non excusat, <sic>scd</sic> condemnat.</p></div3>
+
+<div3 n="3" subtype="section"><head>§ 3</head>
+<p>et quo tandem  <lb/>
+            processum est? ut neque penes nos neque penes quemquam ante <lb/>
+            nos sanctum exinde aliquid atque inuiolabile perseueret, de similitudine <lb/>
+            autem dei filii ad deum patrem quodsi miserabilis nostri <lb n="5"/>
+            temporis fides <choice><note>cst</note><corr>est</corr></choice>, ne non aut ex toto aut tantum ex portione sit <lb/>
+            similis, <choice><note>egrcgii</note><corr>egregii</corr></choice> scilicet arbitri caelestium <choice><note>sacramcntorum</note><corr>sacramentorum</corr></choice>, conquisitores <lb/>
+            inuisibilium <choice><note>mystiriorum</note><corr>mysteriorum</corr></choice> professionibus de fide dei calumniamur. <lb/>
+            </p></div3>
+
+<div3 n="4" subtype="section"><head>§ 4</head>
+<p>annuas atque menstruas de deo fides decernimus,  <lb/>
+            decretis <sic>paenitemur</sic>. <sic>paenitenetes</sic> <sic>defendimusdefensos</sic> anathematizamus <lb n="10"/>
+            aut in nostris aliena aut in alienis nostra damnamus <lb/>
+            et, cum mordemus inuicem, iam absumti sumus ab <choice><note>inuiccm</note><corr>inuicem</corr></choice>. 
+</p>
+          </div3>
+</div1>
+
+<div1 n="6" subtype="chapter"><head>cap. 6</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Fides deinde quaeritur, quasi fides nulla sit. fides scribenda <lb/>
+            est, quasi in corde non sit. regenerati per fidem nunc ad <choice><note>fidcm</note><corr>fidem</corr></choice> docemur, <lb/>
+            quasi regeneratio illa sine fide sit. Christum post baptisma <choice><note>diseimus</note><corr>discimus</corr></choice>. <lb n="15"/>
+            quasi baptisma aliquod esse possit sine Christi fide.</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>emendamus,  <lb/>
+            quasi in spiritum sanctum peccasse sit uenia. sed impietatis <lb/>
+            ipsius hinc uel praecipue causa perpetua est, quod fidem apostolicam <lb/>
+            septuplo proferentes ipsi tamen fidem euangelicam nolumus <lb/>
+            confiteri, dum impietates nostras nobis in populis multiloquiis defendimus <lb n="20"/>
+            et magniloquentiae uanitate aures simplicum uerbis fallentibus <lb/>
+            inludimus. dum euitamus de domino Christo ea <choice><note>credcre</note><corr>credere</corr></choice>, quae de se
+
+<app>12 cf. Gal. 5, 15 17 cf. Matth. 12, 32 </app>
+
+<app>1 praesumta <hi>N, Ca.c.m2</hi> postremumque (qup <hi>del.) E</hi> 2 quartamq. <lb/>
+            <hi>Ca.c.m3</hi> quartam <hi>BG</hi> quartum <hi>G</hi> 3 est <hi>om. H, Ca.c.m2</hi> paenes <hi>n</hi> paenes B <lb/>
+            4 aliquot <hi>B</hi> aliquod <hi>CJ</hi> atque <hi>(in ras. el</hi> 1 eque s./.) <hi>E</hi> 5 fili <hi>B</hi> quodsi <lb/>
+            (si <hi>postea exp. el del.) H, Cou</hi> quod <hi>CG<foreign xml:lang="grc">πΔ</foreign></hi> 6 fides temporis 0 est <hi>sc. quod <lb/>
+            meiuimus</hi> unn <hi>om</hi>. LW <hi>pr. aut rep. s. l. L</hi> tantum] tm<foreign xml:lang="grc">̄</foreign>G 7 arbitriiLMO <lb/>
+            9 anniuas <hi>B</hi> 10 paenitemus <hi>Cm2,</hi> (us in <hi>ras.) L, Lyp Era Gil Cou</hi> 12 et cum <lb/>
+            mordenms inuicem] <hi>J,</hi> (cum mordemus <hi>in ras.) Em2</hi> et cum morientes mordemus <lb/>
+            inuicem <hi>MO</hi> et morientes (morientems <hi>Ba.c.m?)</hi> mori inuicem <hi>yO</hi> et morientes <lb/>
+            <hi>(Ea.r.?)</hi> inuicem mori <hi>Em1LW</hi> et mordentes (nos <hi>add</hi>. Cou) inuicem <hi>LypGil Cou</hi> <lb/>
+            absumpti <foreign xml:lang="grc">π</foreign> assumti <hi>Ca.c.m2</hi> assumpti <hi>0</hi> 13 quasi] quam <hi>Ba.c.m4</hi> 14 est <lb/>
+            <hi>s.l.Cm2</hi> 15 dicimus G 17 in spiritu sancto <hi>B, Ca.c.m3</hi> ipsius impietatisG <lb/>
+            18 ipsius hinc] irae <hi>Ba.c.m4</hi> 19 septulo U speculo (spec in <hi>ras. eI</hi> 1 septuplo <lb/>
+            <hi>s.l.) E, L</hi> ipsis M 20 inpietates <hi>Ba.c.m</hi>? nobisj <hi>fort</hi>. nouis <hi>sc. multiloquiis</hi> <lb/>
+            21 uanitatem <hi>CMO</hi> unitatem <hi>Ba.c.m4</hi> simplicium G<foreign xml:lang="grc">π</foreign> 22 deuitamus MO <lb/>
+            <hi>all. dc s.l. J</hi> </app> <lb/>
+             
+<pb n="202"/>
+            docuit credenda, et per speciosum pacis nomen in unitatem perfidiae <lb/>
+            subrepimus et sub reiciendis nouitatibus rursum ipsi nouis <lb/>
+            ad deum uocibus rebellamus et sub scripturarum uocabulo non <lb/>
+            scripta mentimur: uagi, prodigi, impii, dum et manentia demutamus <lb/>
+            et accepta perdimus et inreligiosa praesumimus. <lb n="5"/>
+            
+</p>
+          </div3>
+</div1>
+
+<div1 n="7" subtype="chapter"><head>cap. 7</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Quod hieme undoso mari obseruari a nauigantibus <choice><note>maximc</note><corr>maxime</corr></choice> <lb/>
+            tutum est, ut naufragio desaeuiente in portum, ex quo soluerant, <lb/>
+            reuertantur, uel incautis adulescentibus conuenit, ut, cum in tuenda <lb/>
+            domo sua mores paternae obseruantiae transgressi profusa libertate <lb/>
+            sua usi sunt, iam sub ipso amittendi patrimonii metu solus illis ad <lb n="10"/>
+            paternam consuetudinem necessarius et tutus recursus sit, ita inter <lb/>
+            haec fidei naufragia caelestis patrimonii iam paene profligata <lb/>
+            hereditate tutissimum nobis est primam et solam <sic>puangelicam</sic> <lb/>
+            fidem confessam in baptismo intellectamque retinere nec demutare, <lb/>
+            quod solum acceptum atque auditum habeo, bene credere, non ut <lb n="15"/>
+            ea, quae synodo patrum nostrorum continentur, tamquam inreligiose <lb/>
+            et impie scripta damnanda sint, sed quia per temeritatem <lb/>
+            humanam usurpantur ad contradictionem, quod ob hoc sub <choice><note>nnmine</note><corr>nomine</corr></choice> <lb/>
+</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>            nouitatis euangelium negaretur, ut periculose tamquam sub emendatone  <lb/>
+            <sic>mnouetur</sic>. quod emendatum est, semper proficit, ut, dum<lb n="20"/>
+            omnis emendatio displicet, emendationem <sic>Dmnem</sic> emendatio consecuta <lb/>
+            condemnet, ac si iam, quidquid illud est, non emendatio aliqua <lb/>
+            sit emendationis, sed coeperit esse damnatio.
+
+<app> 2 cf. I Tim. 6, 20 8 cf. Luc. 15,13 sqq. </app>
+
+<app> 1 speciosum (u <hi>ex</hi> a) <hi>J</hi> spacis <hi>0</hi> 2 subripimus 4 <hi>exceptis J el T</hi> <lb/>
+            reicien∗dis <hi>(eras. esl</hi> s) <hi>C</hi> 3 et <hi>s.l.Bm4</hi> 4 prodii 11x et] <hi>ad ilO</hi> deputamusLlF <lb/>
+            6 undoso mari] unde sonarijl/ unde somari 0 7 desaeuiente] de se. <lb/>
+            <hi>facienteB,Ca.c.m2 portu B,Ca.c.m2</hi> ex] <hi>in E a.c., LW 8 induenda LMOW</hi> <lb/>
+            9 domus a moris <hi>B, Ca.c.m3</hi> paterne <hi>s.l.G</hi> patriae <hi>Ba.c.m4 obseruantia</hi> <lb/>
+            et <hi>(all</hi>. t <hi>del.) B</hi> transgressae <hi>Ba.c.m4</hi> profusae <hi>Ba.c.m4, Ea.c.m2, add</hi>. <lb/>
+            in <hi>Em2</hi> 10 sua <hi>s.l.Em2, om.LW usi] praem</hi>. re <hi>s.l. J</hi> patrimonio <lb/>
+            <hi>Ba.c.m4</hi> 11 sit <hi>Lyp Gil Cou</hi> est <foreign xml:lang="grc">λ</foreign> 12 iam <hi>s.l.Bml</hi> praeligata <hi><foreign xml:lang="grc">γ</foreign>G</hi>. <lb/>
+            (plibata <hi>E)n</hi> 13 etuangelicam <hi>C</hi> 14 in baptismo] inuictissimam (ic <hi>del. <lb/>
+             ei</hi> bap <hi>s.l.m2) B</hi> in baptisma <hi>Ca.c.m2, MO</hi> 15 abeo <hi>B</hi> 16 synhodo <hi>Bm4</hi> <lb/>
+            synodum <hi>Bml</hi> inreligiosae <hi>B, Ca.r</hi>. religiose <hi>MO</hi> 17 s G 18 usurpatur <lb/>
+            <hi>Ba.c.m2</hi> contradictione <hi>B</hi> quod <hi>s.l.Bm5</hi> 19 ut om. G<foreign xml:lang="grc">π</foreign>∆ inpericulosc <lb/>
+            <hi>G<foreign xml:lang="grc">π</foreign>∆</hi> 21 <hi>pr</hi>. emendatio <hi>om. MO</hi> 22 quidquit <hi>Ba.c.m2</hi> quicquid <hi>CG,</hi> (quiequic <lb/>
+            O) <foreign xml:lang="grc">π</foreign> <hi>illut B 23 emendationi B sed] si B ceperit GJ</hi> </app>
+</p>
+<pb n="203"/>
+            
+          </div3>
+</div1>
+
+<div1 n="8" subtype="chapter"><head>cap. 8</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>In quantum ego nunc beatae <sic>religiosaeque</sic> <choice n="0.63"><note n="153">uoluntatis</note><corr n="88">uoluntati</corr></choice> uirum <lb/>
+            te, domine Constanti imperator, ammiror, fidem tantum secundum <lb/>
+            ea, quae scripta sunt, desiderantem — et merito plane ad illa ipsa <lb/>
+            unigeniti dei eloquia festinas, ut imperatoriae sollicitudinis capax <lb/>
+            pectus etiam diuinorum dictorum conscientia plenum sit; hoc qui <lb n="5"/>
+            repudiat, antichristus est et, qui simulat, anathema est —, sed unum <lb/>
+            hoc ego per hanc dignationis tuae sinceram audientiam rogo, ut <lb/>
+            praesente synodo, quae nunc de fide litigat, pauca me de scripturis <lb/>
+            euangelicis digneris audire et loquar tecum uerbis domini mei Iesu <lb/>
+            Christi, cuius uel exsul sum uel sacerdos. habent enim uasa testea <lb n="10"/>
+            non ignobiles thesauros et infirmiora corporum magis <choice><note>reucrenda</note><corr>reuerenda</corr></choice> <lb/>
+            sunt et apud nos modo deum indocti piscatores loquuti sunt. super <lb/>
+            humilem et trementem uerba sua secundum prophetam deus <lb/>
+            respicit.</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>fidem, imperator, quaeris: audi eam, non de nouis eartulis,  <lb/>
+            sed de dt'i libris. scito eam posse etiam in occidente donari, unde <lb n="15"/>
+            uenientes in regno dei cum Abraham et Isaac et Iacob recumbent. <lb/>
+            memento eam non in quaestione philosophiae esse, sed in euangelii <lb/>
+            doctrina. non tam mihi autem rogo audientiam, quam tibi atque <lb/>
+            ecclesiis dei. ego enim penes me habeo fidem, exteriore non egeo: <lb/>
+            quod accepi, teneo nec demuto, quod dei est.
+
+<app> 10 cf. II Cor.4,7 13 cf.Esai.66,2 15 cf. Matth.8,11 20 rf. A poc, 3. 11 </app>
+
+<app> 1 In quantum = <hi>quantumlibet</hi> uirum MO uerum <hi><foreign xml:lang="grc">γ</foreign>JEGLW</hi> uere 0 <lb/>
+            2 tantum <hi>Cou</hi> tantam A tantam fidem <hi><foreign xml:lang="grc">π</foreign></hi> 3 <hi>parentheseos initium mdicauit<lb/>
+             Eug</hi> desiderantem. et <hi>CGn Bad Era Gil</hi> desiderantem et <hi>B</hi> desiderantem: et <lb/>
+            <hi>LypCou ipsa illa Lml</hi> 4 festinas] <hi>JEm2 featinans <foreign xml:lang="grc">γ</foreign> Em1GLMOW<foreign xml:lang="grc">Δ</foreign> quia</hi> <lb/>
+            festinans <hi>Cou</hi> 5 pectus] <hi>add</hi>. id <hi>Bm2</hi> G antechristus <hi>B parentheseos <lb/>
+            linem indicauil Eng</hi> est. sed 6 unum] num <hi>Ba.c.m5</hi> 8 synodo (h s. n <lb/>
+            <hi>m4) B qui B,C a.c.m3 9 lesu om. B 10 habet C a.c.m3</hi> habent enimj <lb/>
+            habentem (enim <hi>add. m4) B</hi> 11 ignohile <hi>MO</hi> 12 et-sunt <hi>rep., sed postea <lb/>
+            del, B</hi> aput <hi>Ba.c.m2</hi> loquti <hi>Cml</hi> allocuti <hi>Cm3G 13dnsn</hi> deus respicit <lb/>
+            secundum prophetam MO 14 audi eamj audiam <hi>Ba.c.m</hi>? de <hi>s.l.Cm3</hi> <lb/>
+            15 cito <hi><foreign xml:lang="grc">γ</foreign>JLW</hi> eam (a<foreign xml:lang="grc">̄</foreign> in <hi>ras. E)</hi> posse etiam <hi>JEMO</hi> et posse etiam <hi>yGLW</hi> <lb/>
+            et posse eam <hi>Cou</hi> 16 ysac <hi>Ca.c.m3</hi> ysaac <hi>G<foreign xml:lang="grc">π</foreign></hi> 17 in quaestionem <hi>B, <lb/>
+            Ca.r</hi>. quaestionem <hi>Cou</hi> phylosophio <hi>JEGLW</hi> philosophi <hi>MO</hi> in euangelii <lb/>
+            doctrinam <hi>B, Ca.r</hi>. euangelii doctrinam <hi>Cou</hi> 18 tam] tn <hi>G</hi> autem] <hi>om. MO,</hi> <lb/>
+            hanc <hi>G p,c.m2</hi> 19 paenes <hi>B</hi> exteriorem <hi>B,Ca.r</hi>. exterior <hi>MO</hi> non <lb/>
+            nego (e <hi>s</hi>. g <hi>m4) B</hi> </app><lb n="20"/>
+            
+</p>
+<pb n="204"/>
+            
+          </div3>
+</div1>
+
+<div1 n="9" subtype="chapter"><head>cap. 9</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Sed memento tamen neminem <sic>hercticorum</sic> esse, qui se nunc <lb/>
+            non secundum scripturas praedicare ca, quibus blasphemat, mentiatur. <lb/>
+            hinc enim Marcellus 'uerbum dei' cum legit, nescit. hinc Fotinus <lb/>
+            'hominem Iesum Christum' cum loquitur, ignorat. hinc et Sabellius, <lb/>
+            dum quod e t ego et pater unum sumus non intellegit, sine <lb n="5"/>
+            deo patre et sine deo filio est.</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>hinc et Montanus per insanas feminas  <lb/>
+            suas '<sic>paraclytum</sic> alium' defendit. hinc et Manicheus et Marcion <lb/>
+            legem odit, quia littera occidit et mundi princeps diabolus <lb/>
+            est. omnes scripturas sine <choice><note>seripturae</note><corr>scripturae</corr></choice> sensu loquuntur et fidem sine <lb/>
+            fide praetendunt. scripturae enim non in legendo sunt, sed in intellegendo<lb n="10"/>
+            neque in praeuaricatione sunt, sed in caritate. 
+</p>
+          </div3>
+</div1>
+
+<div1 n="10" subtype="chapter"><head>cap. 10</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Audi, rogo, ea, quae de Christo sunt scripta, ne sub (eis) ca, <lb/>
+            quae non scripta sunt, praedicentur. summitte ad ca, quae de <lb/>
+            libris loquuturus sum, aures tuas.</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>fidem tuam ad dcum erigas. audi,  <lb/>
+            quod proficit ad fidem, ad unitatem, ad <choice><note>aetermtatem</note><corr>aeternitatem</corr></choice>. loquuturus <lb n="15"/>
+            tecum sum cum honore regni et fidei tuae omnia ad Orientis et <lb/>
+            Occidentis pacem proficientia, sub publica <choice><note>eonseientia</note><corr>conscientia</corr></choice>, <choice><note>suh</note><corr>sub</corr></choice> synodo <lb/>
+            dissidenti, sub lite famosa. 
+</p>
+          </div3>
+</div1>
+
+<div1 n="11" subtype="chapter"><head>cap. 11</head>
+
+<div3 n="1" subtype="section"><head>§ 1</head>
+
+<p>Praemitto interim pignus futuri apud te <choice><note>strmonis</note><corr>sermonis</corr></choice> mei. non <lb/>
+            aliqua ad scandalum neque, quae extra euangelium sunt, defendam;<lb n="20"/>
+            sed intelleges a me in <choice><note>saeramento</note><corr>sacramento</corr></choice> 'solius dei <choice><note>urri</note><corr>ueri</corr></choice>' et 'quem misit <lb/>
+            Iesum Christum', praedicari unum deum patrem, 'ex quo omnia',
+
+<app>3 cf. Apoc. 19, 13. Ioh. 1,1 4 cf. I Tim, 2, 5o loh. 10, 30 7 cf. <lb/>
+            loh. 14, 16 8 II Cor. 3, 6 cf. loh. 12, 31 21 cf. Ioh. 17, 3 22 cf. <lb/>
+            I Cor. 8, 6 </app>
+
+<app>1 ab <hi>(eras. C)</hi> hereticorum y 3 enim <hi>om. n</hi> marce∗llus Wcum uerbum <lb/>
+            dei <hi>n</hi> 5 <hi>pr</hi>. et <hi>om. J, erp. BEm2</hi> intelleget B 6 est <hi>om.B, Ca.c.m2</hi> <lb/>
+            7 paraclitum <hi>Bp.c.m4, CO</hi> marchion (h <hi>del.) B</hi> marcio <hi>L</hi> martion <hi>CO</hi> <lb/>
+            8 odiit <hi>B</hi> quia] qua <hi>B</hi> 10 sunt <hi>s.l.Bm4 alt</hi>. in <hi>s. I. Cm3 J,</hi> om. 0 <lb/>
+            12 <hi>subler</hi> sub <hi>lineam duxit Cm?,</hi> sub <hi>om. G</hi> eis] <hi>add. Cou, om. <foreign xml:lang="grc">λ</foreign></hi> ea] e <lb/>
+            <hi>Ca.c.m3</hi> 14 sum] um <hi>C a.c.m2</hi> 15 quod <hi>s.l.Cm1</hi> profici <hi>Ca.c.m3</hi> 16 cum <lb/>
+            <hi>s.l.Bm4</hi> 17 proficicntia] profutura A <hi>pr</hi>. sub] si <hi>Gml</hi> sub publica] <lb/>
+            supplica <hi>B, Ca.c.m2</hi> conscia <hi>G</hi> synodo (h <hi>s.l.m4) B</hi> 19 praemitto <lb/>
+            <hi>LypGilCou</hi> praetermitto <hi><foreign xml:lang="grc">λΒ</foreign>adEra</hi> aput <hi>Ba.c.m2</hi> 20 euangilium <hi>Ca.c.m2 <lb/>
+            21 intellegens B intellige∗s C</hi> ucri] <hi>uiui (I misit] add. in Bml CGMO, <lb/>
+            W a.r</hi>. 22 ihm <hi>s.l.Bm4</hi> patrem deum G </app> <lb/>
+             
+<pb n="205"/>
+            et unum dominum Iesum Christum, 'per quem omnia', natum ex <lb/>
+            deo, qui est 'ante tempora aeterna' et erat 'in principio apud deum', <lb/>
+            deus 'uerbum', qui est imago dei inuisibilis, in <lb/>
+            quo habitat omnis plenitudo diuinitatis corporaliter, <lb/>
+            qui, cum in forma dei esset, humilians <lb n="5"/>
+            se salutis nostrae causa 'formam serui' ex conceptu spiritus <lb/>
+            sancti de uirgine accepit, factus oboediens usque ad <lb/>
+            mortem, mortem autem crucis et post resurrectionem <lb/>
+            mortis deinde 'in caelestibus' sedens aderit 'iudex uiuorum et mortuorum' <lb/>
+             et 'rex' omnium aeternorum 'saeculorum'. est enim 'unigenitus' <lb n="10"/>
+            deus et 'deus uerus' et 'deus magnus', 'super omnia <lb/>
+            deus' et omnis lingua confitebitur, quia dominus <lb/>
+            Iesus Christus in gloria dei patris est.</p></div3>
+
+<div3 n="2" subtype="section"><head>§ 2</head>
+<p>haec ego  <lb/>
+            in spiritu sancto ita credidi, ut ultra hanc de domino Iesu Christo <lb/>
+            fidem non possim doceri, non per haec adimens patrum fidei religionem, <lb n="15"/>
+            sed secundum regenerationis meae symbolum et doctrinae <lb/>
+            euangelicae scientiam ab ea iuxta ista non dissonans.
+
+<app> 2 cf. II Tim. 1, 9 rf. toh. 1, 1 3 Col. 1, 15 Col. 2, 9 5 Phil. 2, 6 <lb/>
+            cf. Phil. 2, 6 sq. 7 Phil. 2, 8 9 cf. Kph. 1, 20 Act. 10, 42 10 cf. <lb/>
+            Apoc. 15, 3 cf. loh. 1, 18 11 cf. 1 Ioh. 5, 20 cf. Ps. 76, 14 et <lb/>
+            Tit. 2, 13 cf. Rom. 9, 5 12 Phil. 2, 11 </app>
+
+<app> 1 et unum dum ihm xpm per quem omnia <hi>om. B, sed. add. s.l.m4</hi> 2 ante <lb/>
+            (an in <hi>raB. m3) Caput B a,c,m2</hi> 3 dei <hi>s.l.Cm1</hi> 4 habitet <hi>EW</hi> ac coepit <lb/>
+            <hi>Ca.c.m3 11 alt. et s.l.Bm4</hi> magnus] <hi>add. et Cou 12 et s.l.Bm4</hi> <lb/>
+            o <lb/>
+            13 xps <hi>eras</hi>. W, <hi>om. L</hi> est dei patrisG:r quia xps ds e in <hi>mg. Bm3 g GL<lb/>
+             15 religione B, Ca.c.m2 16 sed s.l.Cm2 simbolum CJMO</hi> 17 ab ea) <lb/>
+            habeam <hi>L</hi> habcii IV ∗abea∗E EXPL. SCI HILARI EPSI ET CONF AD CONSTANTIV <lb/>
+            LIB. II. <hi>B</hi> EXPLICIT SCI IIILARII EPI ET CFESSORIS AD CONSTANTIVM LIBER. <lb/>
+            II. C explicit. liber II (scds <hi>E)</hi> sci (sci om. <hi>EW)</hi> hylarii ad constantium <hi>JEW epla</hi> <lb/>
+            lib. II s. hylarii ad constantinu 0 explicit <hi>G, subscriptionem om. LM</hi> </app>
+</p>
+<pb n="206"/>
+            
+<pb n="207"/>
+            
+
+</div3>
+</div1>    
+</body>
+</text>
+</TEI>

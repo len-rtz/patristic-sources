@@ -1,0 +1,376 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Hymni</title>
+              <author ref="http://viaf.org/viaf/100184667">Gregorius I<date>540-604</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1849</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 78</title>
+           <idno>GreI.Hymni5</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+
+<div1>
+        <head>DIE DOMINICO.</head>
+        <pb n="0849"/>
+        <head>AD NOCTURNUM.</head>
+<p>
+          <l>1. Primo dierum omnium</l>
+<l>Quo mundus exstat conditus,</l>
+<l>Vel quo resurgens conditor</l>
+<l>Nos, morte victa, liberat.</l>
+        </p>
+<p>
+          <l>2. Pulsis procul torporibus,</l>
+<l>Surgamus omnes ocius,</l>
+<l>Et nocte quaeramus pium</l>
+<l>Sicut prophetam novimus.</l>
+        </p>
+<p>
+          <l>3. Nostras preces ut audiat,</l>
+<l>Suamque dextram porrigat,</l>
+<l>Ex expiatos sordibus</l>
+<l>Reddat polorum sedibus.</l>
+        </p>
+<p>
+          <l>4. Ut quique sacratissimo</l>
+<l>Hujus diei tempore</l>
+<l>Horis quietis psallimus,</l>
+<l>Donis beatis muneret.</l>
+        </p>
+<p>
+          <l>5. Jam nunc, paterna claritas,</l>
+<l>Te postulamus affatim,</l>
+<l>Absit libido sordidans,</l>
+<l>Omnisque actus noxius.</l>
+        </p>
+<p>
+          <l>6. Ne foeda sit vel lubrica</l>
+<l>Compago nostri corporis,</l>
+<l>Per quod averni ignibus</l>
+<l>Ipsi crememur acrius.</l>
+        </p>
+<p>
+          <l>7. Ob hoc, Redemptor, quaesumus</l>
+<l>Ut probra nostra diluas,</l>
+<l>Vitae perennis commoda</l>
+<l>Nobis benigne conferas.</l>
+        </p>
+<p>
+          <l>8. Quo carnis actu exsules,</l>
+<l>Effecti ipsi coelibes,</l>
+<l>Ut praestolamur cernui,</l>
+<l>Melos canamus gloriae.</l>
+        </p>
+<p>
+          <l>9. Praesta, Pater piissime,</l>
+<l>Patrique compar Unice,</l>
+<l>Cum Spiritu Paracleto</l>
+<l>Regnans per omne saeculum.</l>
+        </p>
+</div1>
+
+<div1>
+        <head>ALIUS.</head>
+<p>
+          <l>1. Nocte surgentes, vigilemus omnes:</l>
+<l>Semper in Psalmis meditemur, atque</l>
+<l>Nisibus totis Domino canamus</l>
+<l rend="indent">Dulciter Hymnos.</l>
+        </p>
+<p>
+          <l>2. Ut pio Regi pariter canentes,</l>
+<l>Cum suis sanctis mereamur aulam</l>
+<l>Ingredi coeli, simul et beatam</l>
+<l rend="indent">Ducere vitam.</l>
+        </p>
+<p>
+          <l>3. Praestet hoc nobis Deitas beata</l>
+<l>Patris, ac Nati, pariterque sancti</l>
+<l>Spiritus, cujus reboat in omni</l>
+<l rend="indent">Gloria mundo. Amen.</l>
+        </p>
+</div1>
+
+<div1>
+        <head>AD LAUDES.</head>
+
+<pb n="0849"/>
+<p>
+          <l>1. Ecce jam noctis tenuatur umbra,</l>
+<l>Lucis aurora rutilans coruscat:</l>
+<l>Nisibus totis rogitemus omnes</l>
+<l rend="indent">Cunctipotentem</l>
+        </p>
+<p>
+          <l>2. Ut Deus noster miseratus omnem</l>
+<l>Pellat languorem, tribuat salutem,</l>
+<l>Donet et nobis pietate Patris</l>
+<l rend="indent">Regna polorum.</l>
+        </p>
+<p>
+          <l>3. Praestet hoc nobis Deitas</l>
+<l>beata, <hi>ut supra.</hi> </l>
+        </p>
+</div1>
+
+<div1>
+        <head>AD VESPERAS.</head>
+<p>
+          <l>1. Lucis Creator optime,</l>
+<l>Lucem dierum proferens,</l>
+<l>Primordiis lucis novae</l>
+<l>Mundi parans originem.</l>
+        </p>
+<p>
+          <l>2. Qui mane junctum vesperi</l>
+<l>Diem vocari praecipis,</l>
+<l>Tetrum chaos illabitur,</l>
+<l>Audi preces cum fletibus.</l>
+        </p>
+<p>
+          <l>3. Ne mens gravata crimine</l>
+<l>Vitae sit exsul munere,</l>
+<l>Dum nil perenne cogitat,</l>
+<l>Seseque culpis illigat.</l>
+        </p>
+<p>
+          <l>4. Coelorum pulset intimum,</l>
+<l>Vitale tollat praemium,</l>
+<l>Vitemus omne noxium,</l>
+<l>Purgemus omne pessimum.</l> 
+</p>
+      </div1>
+
+
+
+<div1>
+        <head>IN QUADRAGESIMA.</head>
+        <head>AD NOCTURNUM.</head>
+<p>
+          <l>1. Clarum decus jejunii</l>
+<l>Monstratur orbi coelitus,</l>
+<l>Quod Christus auctor omnium</l>
+<l>Cibis dicavit abstinens.</l>
+        </p>
+<p>
+          <l>2. Hoc, Moyses charus Deo,</l>
+<l>Legisque lator factus est,</l>
+<l>Hoc Eliam per aera</l>
+<l>Curru levavit igneo.</l>
+        </p>
+<p>
+          <l>3. Hinc Daniel mysteria</l>
+<l>Victor leonum viderat,</l>
+<l>Per hoc amicus intimus</l>
+<l>Sponsi Joannes claruit.</l>
+        </p>
+<p>
+          <l>4. Haec nos sequi dona, Deus,</l>
+<l>Exempla parcimoniae;</l>
+<l>Tu robur auge mentium,</l>
+<l>Dans spiritale gaudium. Amen.</l> 
+</p>
+      </div1>
+
+<div1>
+        <head>AD VESPERAS.</head>
+<p>
+          <l>1. Audi, benigne conditor,</l>
+<l>Nostras preces cum fletibus</l>
+<l>In hoc sacro jejunio</l>
+<l>Fusas quadragenario.</l>
+        </p>
+<p>
+          <l>
+<pb n="0850"/>
+<div3>
+              <head>2. </head>
+              <p>
+Scrutator alme cordium,</p>
+            </div3>
+          </l>
+<l>Infirma tu scis virium;</l>
+<l>Ad te reversis exhibe</l>
+<l>Remissionis gratiam.</l>
+        </p>
+<p>
+          <l>3. Multum quidem peccavimus:</l>
+<l>Sed parce confitentibus;</l>
+<l>Ad nominis laudem tui</l>
+<l>Confer medelam languidis.</l>
+        </p>
+<p>
+          <l>4. Sic corpus extra conteri</l>
+<l>Dona per abstinentiam,</l>
+<l>Jejunet ut mens sobria</l>
+<l>A labe prorsus criminum.</l>
+        </p>
+<p>
+          <l>5. Praesta, beata Trinitas,</l>
+<l>Concede, simplex Unitas,</l>
+<l>Ut fructuosa sint tuis</l>
+<l>Jejuniorum munera. Amen.</l>
+        </p>
+</div1>
+
+<div1>
+        <head>IN DOMINICA PALMARUM.</head>
+<p>
+          <l>1. Magno salutis gaudio</l>
+<l>Laetetur omne saeculum,</l>
+<l>Jesus Redemptor omnium</l>
+<l>Sanavit orbem languidum.</l>
+        </p>
+<p>
+          <l>2. Sex ante Paschae ferias</l>
+<l>Advenit in Bethaniam,</l>
+<l>Ubi pie post triduum</l>
+<l>Resuscitavit Lazarum.</l>
+        </p>
+<p>
+          <l>3. Nardi Maria pistici</l>
+<l>Sumpsit libram mox optimi,</l>
+<l>Unxit beatos Domini</l>
+<l>Pedes rigando lacrymis.</l>
+        </p>
+<p>
+          <l>4. Post haec jugalis asinae</l>
+<l>Jesus supernus arbiter</l>
+<l>Pullo sedebat: inclytam</l>
+<l>Pergebat Jerosolymam.</l>
+        </p>
+<p>
+          <l>5. O quam stupenda pietas,</l>
+<l>Mira Dei clementia!</l> 
+<l>Sessor aselli fieri</l>
+<l>Dignatur auctor saeculi.</l>
+        </p>
+<p>
+          <l>6. Ramos virentes sumpserat</l>
+<l>Palma recisos tenera,</l>
+<l>Turba praecessit obviam</l>
+<l>Regi perenni plurima.</l>
+        </p>
+<p>
+          <l>7. Honor, virtus, imperium</l>
+<l>Sit Trinitati unicae,</l>
+<l>Patri, Nato, Paracleto</l>
+<l>Per infinita saecula. Amen.</l>
+        </p>
+</div1>
+
+<div1>
+        <head>IN PASSIONE DOMINI.</head>
+<p>
+          <l>1. Rex Christe factor omnium,</l>
+<l>Redemptor et credentium,</l>
+<l>Placare votis supplicum,</l>
+<l>Te laudibus colentium.</l>
+        </p>
+<p>
+          <l>2. Cujus benigna gratia</l>
+<l>Crucis per alma vulnera,</l>
+<l>
+<pb n="0851"/>Virtute solvit ardua</l>
+<l>Primi parentis vincula.</l>
+        </p>
+<p>
+          <l>3. Qui es creator siderum,</l>
+<l>Tegmen subisti carneum,</l>
+<l>Dignatus hanc vitissimam</l>
+<l>Pati doloris formulam.</l>
+        </p>
+<p>
+          <l>
+<pb n="0851"/>
+<div3>
+              <head>4. </head>
+              <p>
+Ligatus es ut solveres</p>
+            </div3>
+          </l>
+<l>Mundi ruentis complices,</l>
+<l>Per probra tergens crimina,</l>
+<l>Quae mundus auxit plurima.</l>
+        </p>
+<p>
+          <l>5. Cruci, Redemptor, figeris,</l>
+<l>Terram sed omnem concutis,</l>
+<l>
+<pb n="0852"/>Tradis potentem spiritum,</l>
+<l>Nigrescit atque saeculum.</l>
+        </p>
+<p>
+          <l>6. Mox in paternae gloriae</l>
+<l>Victor resplendens culmine,</l>
+<l>Cum Spiritus munimine</l>
+<l>Defende nos, Rex optime.</l> 
+<l rend="indent">Amen.</l> 
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

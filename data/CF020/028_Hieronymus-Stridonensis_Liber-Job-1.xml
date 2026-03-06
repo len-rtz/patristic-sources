@@ -1,0 +1,2911 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Liber Job 1</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 28</title>
+           <idno>HieStr.LibJob</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>PRAEFATIO S. HIERONYMI IN LIBRUM JOB.</head>
+<p>
+          <pb n="1079A"/>Cogor per singulos Scripturae divinae libros adversariorum
+respondere maledictis: qui interpretationem
+meam, reprehensionem Septuaginta Interpretum
+criminantur: quasi non et apud Graecos
+Aquila, Symmachus, et Theodotio, vel verbum e
+verbo, vel sensum e sensu, vel ex utroque commixtum,
+et medie temperatum genus translationis
+expresserint: et omnia veteris Instrumenti volumina
+Origenes obelis asteriscisque distinxerit, quos vel
+additos, vel de Theodotione sumptos, translationi
+antiquae inseruit, probans defuisse quod additum
+est. Discant igitur obtrectatores mei recipere in toto,
+<pb n="1080A"/>
+quod in partibus susceperunt, aut interpretationem
+meam cum asteriscis suis radere. Neque enim fieri
+potest, ut quos plura intermisisse perspexerint,
+non eosdem etiam in quibusdam errasse fateantur,
+praecipue in Job: cui si ea quae sub asteriscis addita
+sunt, subtraxeris, pars maxima voluminis detruncabitur:
+et hoc dumtaxat apud Graecos. Caeterum
+apud Latinos, ante eam translationem, quam sub
+asteriscis et obelis nuper edidimus, septingenti
+ferme aut octingenti versus desunt; ut decurtatus
+et laceratus corrosusque liber, foeditatem sui publice
+legentibus praebeat. Haec autem translatio nullum de
+<pb n="1081A"/>
+veteribus sequitur interpretem; sed ex ipso Hebraico,
+Arabicoque sermone, et interdum Syro, nunc
+verba, nunc sensus, nunc simul utrumque resonabit.
+Obliquus enim etiam apud Hebraeos totus liber fertur
+et lubricus: et quod Graece rhetores vocant, <foreign xml:lang="greek">ἐσχηματισμένος</foreign>,
+dumque aliud loquitur, aliud agit:
+ut si velis anguillam aut muraenulam strictis tenere
+manibus, quanto fortius presseris, tanto citius
+elabitur. Memini me ob intelligentiam hujus voluminis,
+ Lyddaeum quemdam praeceptorem, qui apud
+Hebraeos primus haberi putabatur, non parvis redemisse
+nummis: cujus doctrina an aliquid profecerim,
+nescio: hoc unum scio, non potuisse me interpretari,
+nisi quod ante intellexeram. A principio itaque
+voluminis, usque ad verba Job, apud Hebraeos
+<pb n="1081B"/>
+prosa oratio est. Porro a verbis Job, in quibus ait,
+<l> <hi>Pereat dies, in qua natus sum,</hi> </l>
+<l indent="1"> <hi>et nox, in qua dictum est, conceptus est homo,</hi> </l>
+usque ad eum locum, ubi ante finem voluminis scriptum
+est:
+<l> <hi>Idcirco ipse me reprehendo,</hi> </l>
+<l indent="1"> <hi>et ago poenitentiam in favilla et cinere:</hi> </l>
+hexametri versus sunt, dactylo spondaeoque currentes:
+et propter linguae idioma, crebro recipientes
+et alios pedes, non earumdem syllabarum, sed
+eorumdem temporum. Interdum quoque rhythmus
+ipse dulcis et tinnulus fertur numeris lege metri
+<pb n="1082A"/>
+solutis: quod metrici magis, quam simplex lector
+intelligunt. A supradicto autem versu usque ad fidem
+libri, parvum comma quod remanet, prosa oratione
+contexitur. Quod si cui videtur incredulum, metra
+scilicet esse apud Hebraeos, et in morem nostri
+Flacci, Graecique Pindari, et Alcaei, et Sappho,
+vel Psalterium, vel Lamentationes Jeremiae, vel omnia
+ferme Scripturarum cantica comprehendi, legat
+Philonem, Josephum, Origenem, Caesariensem Eusebium,
+et eorum testimonio me verum dicere comprobabit.
+Audiant quapropter canes mei, idcirco me
+in hoc volumine laborasse, non ut interpretationem
+antiquam reprehenderem, sed ut ea, quae in illa aut
+obscura sunt, aut omissa, aut certe scriptorum
+vitio depravata, manifestiora nostra interpretatione
+<pb n="1082B"/>
+fierent: qui et Hebraeum [ <hi>Al.</hi> ut qui Hebraeorum]
+sermonem ex parte didicimus, et in Latino pene ab
+ipsis incunabulis inter grammaticos et rhetores et
+philosophos detriti sumus. Quod si apud Graecos,
+post Septuaginta editionem, jam Christi Evangelio
+coruscante, Judaeus Aquila, Symmachus, et Theodotio,
+judaizantes haeretici, sunt recepti, qui multa
+mysteria Salvatoris subdola interpretatione celarunt,
+et tamen in <foreign xml:lang="greek">Ἑξαπλοῖς</foreign>, habentur apud Ecclesias, et
+explanantur ab ecclesiasticis viris: quanto magis ego
+Christianus, de parentibus Christianis natus, et
+vexillum crucis in mea fronte portans, cujus studium
+fuit omissa repetere, depravata corrigere, et
+<pb n="1083A"/>
+sacramenta Ecclesiae puro ac fideli aperire sermone,
+vel a fastidiosis, vel a malignis lectoribus non debeo
+reprobari? Habeant qui volunt veteres libros,
+vel in membranis purpureis auro argentoque descriptos,
+vel uncialibus, ut vulgo aiunt, litteris,
+onera magis exarata, quam codices: dummodo mihi,
+<pb n="1084A"/>
+meisque permittant pauperes habere schedulas, et
+non tam pulchros codices, quam emendatos. Utraque
+editio, et Septuaginta juxta Graecos, et mea
+juxta Hebraeos, in Latinum meo labore translata est.
+Eligat unusquisque quod vult: et studiosum me
+magis, quam malevolum probet.</p>
+</div1>
+
+<div1>
+        <head>INCIPIT LIBER JOB.</head>
+
+<pb n="1083"/>
+<p divs_removed="true">
+          <pb n="1083C"/>[Cap. I.] Vir erat in terra Hus, nomine Job, et
+erat vir ille simplex, et rectus, ac timens Deum, et
+recedens a malo: natique sunt ei septem filii, et
+tres filiae. Et fuit possessio ejus, septem millia
+ovium, et tria millia camelorum, quingenta quoque
+juga boum, et quingentae asinae, ac familia multa
+nimis: eratque vir ille magnus inter omnes orientales.
+Et ibant filii ejus, et faciebant convivium per
+domos, unusquisque in die suo. Et mittentes vocabant
+tres sorores suas, ut comederent et biberent
+cum eis. Cumque in orbem transissent dies convivii,
+mittebat ad eos Job, et sanctificabat illos, consurgensque
+diluculo offerebat holocausta per singulos
+[ <hi>Al.</hi> pro singulis]. Dicebat enim: Ne forte peccaverint
+filii mei, et benedixerint Deo in cordibus suis.
+<pb n="1083D"/>
+Sic faciebat Job cunctis diebus. Quadam autem die,
+cum venissent filii Dei, ut assisterent coram Domino,
+adfuit inter eos etiam Satan. Cui dixit Dominus:
+Unde venis? Qui respondens, ait: Circuivi terram,
+et perambulavi eam. Dixitque Dominus ad eum:
+Numquid considerasti servum meum Job, quod non
+sit ei similis in terra, homo simplex, et rectus, et
+timens Deum, ac recedens a malo? Cui respondens
+Satan, ait: Numquid frustra timet Job Deum?
+nonne tu vallasti eum, ac domum ejus, universamque
+substantiam per circuitum, operibus manuum
+ejus benedixisti, et possessio illius crevit in terra?
+<pb n="1084C"/>
+Sed extende paululum manum tuam, et tange cuncta
+quae possidet, nisi in facie tua [ <hi>Al.</hi> faciem tuam] benedixerit
+tibi. Dixit ergo Dominus ad Satan: Ecce,
+universa quae habet, in manu tua sunt: tantum in
+eum ne extendas manum tuam. Egressusque est
+Satan a facie Domini. Cum autem quadam die filii
+et filiae ejus comederent et biberent vinum in domo
+fratris sui primogeniti, nuntius venit ad Job, qui
+diceret: Boves arabant, et asinae pascebantur juxta
+eos, et irruerunt Sabaei, tuleruntque omnia, et pueros
+percusserunt gladio, et evasi ego solus, ut nuntiarem
+tibi. Cumque adhuc ille loqueretur, venit
+alter, et dixit: Ignis Dei cecidit e coelo, et tactas
+oves puerosque consumpsit, et effugi ego solus, ut
+nuntiarem tibi. Sed et illo adhuc loquente, venit
+<pb n="1084D"/>
+alius, et dixit: Chaldaei fecerunt tres turmas, et invaserunt
+camelos, et tulerunt eos, necnon et pueros
+percusserunt gladio, et ego fugi solus ut nuntiarem
+tibi. Adhuc loquebatur ille, et ecce alius intravit, et
+dixit: Filiis tuis et filiabus vescentibus et bibentibus
+vinum in domo fratris sui primogeniti, repente ventus
+vehemens irruit a regione deserti, et concussit
+quatuor angulos domus, quae corruens oppressit liberos
+tuos, et mortui sunt, et effugi ego solus, ut
+nuntiarem tibi. Tunc surrexit Job, et scidit tunicam
+suam, et tonso capite corruens in terram, adoravit,
+et dixit: Nudus egressus sum de utero matris
+<pb n="1085A"/>
+meae, nudus et [ <hi>Al.</hi> et nudus] revertar illuc: Dominus
+dedit, Dominus abstulit: sit nomen Domini
+benedictum. In omnibus his non peccavit Job neque
+stultum quid contra Deum locutus est.
+
+        </p>
+        
+<p>
+          <head>[Cap. II.]</head> Factum est autem, cum quadam die venissent
+filii Dei, et starent coram Domino, venisset
+quoque Satan inter eos, et staret in conspectu ejus,
+ut diceret Dominus ad Satan: Unde venis? Qui respondens
+ait: Circuivi terram, et perambulavi eam.
+Et dixit Dominus ad Satan: Numquid considerasti
+servum meum Job: quod non sit ei similis in terra,
+vir simplex et rectus, ac timens Deum, et recedens
+a malo, et adhuc retinens innocentiam? Tu autem
+commovisti me adversus eum, ut affligerem illum
+frustra. Cui respondens Satan, ait: Pellem pro pelle,
+<pb n="1085B"/>
+et cuncta quae habet homo, dabit pro anima sua:
+alioquin mitte manum tuam, et tange os ejus et carnem,
+et tunc videbis quod in facie tua benedicat
+tibi. Dixit ergo Dominus ad Satan: Ecce in manu
+tua est, verumtamen animam illius serva. Egressus
+igitur Satan a facie Domini, percussit Job ulcere
+pessimo, a planta pedis usque ad verticem ejus; qui
+testa saniem radebat, sedens in sterquilinio. Dixit
+autem illi uxor sua: Adhuc tu permanes [ <hi>Al.</hi> permanens
+tu] in simplicitate tua? benedic Deo, et
+morere. Qui ait ad illam: Quasi una de stultis locuta
+es. Si bona suscepimus de manu Dei, mala
+quare non suscipiamus? In omnibus his non peccavit
+Job labiis suis. Igitur audientes tres amici Job omne
+malum quod accidisset ei, venerunt singuli de loco
+<pb n="1085C"/>
+suo, Eliphas Themanites, et Baldad Suites, et Sophar
+Naamathites. Condixerant enim, ut pariter venientes
+visitarent eum, et consolarentur. Cumque
+levassent procul oculos suos, non cognoverunt, scissisque
+vestibus sparserunt pulverem super caput
+suum in coelum. Et sederunt cum eo in terra septem
+diebus et septem noctibus, et nemo loquebatur
+ei verbum: videbant enim dolorem esse vehementem.</p>
+<p>
+          <emph>POST HAEC APERUIT JOB OS SUUM, ET MALEDIXIT DIEI
+SUO, ET LOCUTUS EST.</emph>
+</p>
+<div3>
+          <head>[Cap. III.]</head>
+<l> Pereat dies in qua natus sum,</l>
+<l rend="indent(1)">
+<pb n="1086A"/>et nox in qua dictum est: Conceptus est homo.</l> 
+<l>Dies ille vertatur in tenebras,</l>
+<l indent="1">non requirat eum Deus desuper,</l>
+<l indent="1">et non illustret [ <hi>Al.</hi> illustretur] lumine.</l> 
+<l>Obscurent eum tenebrae, et umbra [ <hi>Al.</hi> umbrae] mortis,</l>
+<l indent="1">occupet eum caligo, et involvatur amaritudine.</l> 
+<l>Noctem illam tenebrosus turbo possideat,</l>
+<l indent="1">non computetur in diebus anni,</l>
+<l indent="1">nec numeretur in mensibus.</l> 
+<l>Sit nox illa solitaria</l>
+<l indent="1">nec laude digna:</l>
+<l>Maledicant ei qui maledicunt diei,</l>
+<l indent="1">qui parati sunt suscitare Leviathan.</l> 
+<l>Obtenebrentur stellae caligine ejus:</l>
+<l indent="1">exspectet lucem, et non videat,</l>
+<l indent="1">nec ortum surgentis aurorae:</l>
+<l>Quia non conclusit ostia ventris, qui portavit me,</l>
+<l indent="1">nec abstulit mala ab oculis meis.</l> 
+<l>Quare non in vulva mortuus sum,</l>
+<l indent="1">
+<pb n="1086B"/>egressus ex utero non statim perii?</l> 
+<l>Quare exceptus genibus?</l> 
+<l indent="1">cur lactatus uberibus?</l> 
+<l>Nunc enim dormiens silerem;</l>
+<l indent="1">et somno meo requiescerem:</l>
+<l>Cum regibus et consulibus terrae,</l>
+<l indent="1">qui aedificant sibi solitudines:</l>
+<l>Aut cum principibus, qui possident aurum,</l>
+<l indent="1">et replent domos suas argento:</l>
+<l>Aut sicut abortivum absconditum non subsisterem,</l>
+<l indent="1">vel qui concepti non viderunt lucem. [ <hi>Al.</hi> solem].</l> 
+<l>Ibi impii cessaverunt a tumultu,</l>
+<l indent="1">et ibi requieverunt fessi robore.</l> 
+<l>Et quondam vincti pariter sine molestia,</l>
+<l indent="1">non audierunt vocem exactoris.</l> 
+<l>Parvus et magnus ibi sunt,</l>
+<l indent="1">et servus liber a domino suo.</l> 
+<l>Quare data est misero lux,</l>
+<l indent="1">et vita his, qui in amaritudine animae sunt?</l> 
+<l>
+<pb n="1086C"/>Qui exspectant mortem, et non venit, quasi effodientes thesaurum:</l>
+<l>Gaudentque vehementer</l>
+<l indent="1">cum invenerint sepulcrum.</l> 
+<l>Viro cujus abscondita est via,</l>
+<l indent="1">et circumdedit eum Deus tenebris?</l> 
+<l>Antequam comedam, suspiro:</l>
+<l indent="1">et tanquam inundantes aquae, sic rugitus meus:</l>
+<l>Quia timor, quem timebam, evenit mihi:</l>
+<l indent="1">et quod verebar, accidit.</l> 
+<l>Nonne dissimulavi?</l> 
+<l rend="indent(1)">nonne silui?</l> 
+<l rend="indent(1)">nonne quievi?</l> 
+<l rend="indent(1)">et venit super me indignatio.</l>
+<p>
+            <emph>RESPONDENS AUTEM ELIPHAZ THEMANITES DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. IV.]</head>
+<l> Si coeperimus loqui tibi [ <hi>Al.</hi> tecum], forsitan</l>
+<l indent="1">
+<pb n="1087A"/>moleste accipies,</l>
+<l indent="1">sed conceptum sermonem tenere quis possit</l>
+<l rend="indent(1)">[ <hi>Al.</hi> poterit]?</l> 
+<l>Ecce docuisti multos,</l>
+<l indent="1">et manus lassas roborasti:</l>
+<l>Vacillantes confirmaverunt sermones tui, et genua</l>
+<l indent="1">trementia confortasti [ <hi>Al.</hi> confirmasti]:</l>
+<l>Nunc autem venit super te plaga, et defecisti:</l>
+<l indent="1">tetigit te, et conturbatus es.</l> 
+<l>Ubi est timor tuus, fortitudo tua, patientia tua [ <hi>Al.</hi> </l>
+<l rend="indent(1)">patientia tua, fortitudo tua],</l>
+<l indent="1">et perfectio viarum tuarum?</l> 
+<l>Recordare, obsecro te, quis umquam innocens perierit?</l> 
+<l indent="1">aut quando recti deleti sunt [ <hi>Al.</hi> sint]?</l> 
+<l>Quin potius vidi eos, qui operantur iniquitatem,</l>
+<l indent="1">et seminant dolores, et metunt eos,</l>
+<l>Flante Deo, perisse,</l>
+<l indent="1">et spiritu irae ejus esse consumptos:</l>
+<l>Rugitus leonis, et vox leaenae,</l>
+<l indent="1">
+<pb n="1087B"/>et dentes catulorum leonum contriti sunt.</l> 
+<l>Tigris periit, eo quod non haberet praedam,</l>
+<l indent="1">et catuli leonis dissipati sunt.</l> 
+<l>Porro ad me dictum est verbum absconditum,</l>
+<l indent="1">et quasi furtive suscepit auris mea venas susurri</l>
+<l rend="indent(1)">ejus.</l> 
+<l>In horrore visionis nocturnae,</l>
+<l indent="1">quando solet sopor occupare homines;</l>
+<l>Pavor tenuit me, et tremor,</l>
+<l indent="1">et omnia ossa mea perterrita sunt:</l>
+<l>Et cum spiritus, me praesente, transiret,</l>
+<l indent="1">inhorruerunt pili carnis meae.</l> 
+<l>Stetit quidam, cujus non agnoscebam vultum,</l>
+<l indent="1">imago coram oculis meis,</l>
+<l indent="1">et vocem quasi aurae lenis audivi.</l> 
+<l>Numquid homo, Dei comparatione justificabitur,</l>
+<l indent="1">aut factore suo purior erit vir?</l> 
+<l>Ecce qui serviunt ei, non sunt stabiles:</l>
+<l indent="1">et in angelis suis reperit pravitatem:</l>
+<l>
+<pb n="1087C"/>Quanto magis hi qui habitant domos luteas,</l>
+<l indent="1">qui terrenum habent fundamentum,</l>
+<l indent="1">consumentur velut a tinea?</l> 
+<l>De mane usque ad vesperam succidentur:</l>
+<l indent="1">et quia nullus intelligit, in aeternum peribunt.</l> 
+<l>Qui autem reliqui fuerint, auferentur ex eis:</l>
+<l indent="1">morientur, et non in sapientia.</l> 
+</div3>
+<div3>
+          <head>[Cap. V.]</head>
+<l> Voca ergo, si est qui tibi respondeat,</l>
+<l indent="1">et ad aliquem sanctorum convertere.</l> 
+<l>Vere stultum interficit iracundia,</l>
+<l indent="1">et parvulum occidit invidia.</l> 
+<l>Ego vidi stultum firma radice,</l>
+<l indent="1">et maledixi pulchritudini ejus statim,</l>
+<l>Longe fient filii ejus a salute,</l>
+<l indent="1">et conterentur in porta, et non erit qui eruat.</l> 
+<l>Cujus messem famelicus comedet,</l>
+<l indent="1">et ipsum rapiet armatus,</l>
+<l indent="1">et ebibent sitientes divitias ejus.</l> 
+<l>Nihil in terra sine causa fit,</l>
+<l indent="1">et de humo non oritur dolor.</l> 
+<l>
+<pb n="1088A"/>Homo ad laborem nascitur,</l>
+<l indent="1">et avis ad volatum.</l> 
+<l>Quamobrem ego deprecabor Dominum,</l>
+<l indent="1">et ad Deum ponam eloquium meum:</l>
+<l>Qui facit magna et inscrutabilia,</l>
+<l indent="1">et mirabilia absque numero:</l>
+<l>Qui dat pluviam super faciem terrae,</l>
+<l indent="1">et irrigat aquis universa:</l>
+<l>Qui ponit humiles in sublimi,</l>
+<l indent="1">et moerentes erigit sospitate:</l>
+<l>Qui dissipat cogitationes malignorum,</l>
+<l indent="1">ne possint implere manus eorum quod ceperant.</l> 
+<l>Qui apprehendit sapientes in astutia eorum,</l>
+<l indent="1">et consilium pravorum dissipat:</l>
+<l>Per diem incurrent tenebras,</l>
+<l indent="1">et quasi in nocte sic palpabunt in meridie.</l> 
+<l>Porro salvum faciet [ <hi>Vulg. interserunt</hi> egenum] a</l>
+<l rend="indent(1)">gladio oris eorum,</l>
+<l indent="1">et de manu violenti pauperem.</l> 
+<l>
+<pb n="1088B"/>Et erit egeno spes,</l>
+<l indent="1">iniquitas autem contrahet os suum.</l> 
+<l>Beatus homo, qui corripitur a Deo:</l>
+<l indent="1">increpationem ergo Domini ne reprobes:</l>
+<l>Quia ipse vulnerat, et medetur:</l>
+<l indent="1">percutit, et manus ejus sanabunt.</l> 
+<l>In sex tribulationibus liberabit te,</l>
+<l indent="1">et in septima non tanget te malum.</l> 
+<l>In fame eruet te de morte,</l>
+<l indent="1">et in bello de manu gladii.</l> 
+<l>A flagello linguae absconderis,</l>
+<l indent="1">et non timebis calamitatem cum venerit.</l> 
+<l>In vastitate et fame ridebis,</l>
+<l indent="1">et bestias [ <hi>Al.</hi> bestiam] terrae non formidabis.</l> 
+<l>Sed cum lapidibus regionum pactum tuum,</l>
+<l indent="1">et bestiae terrae pacificae erunt tibi.</l> 
+<l>Et scies quod pacem habeat tabernaculum tuum,</l>
+<l indent="1">et visitans speciem tuam, non peccabis.</l> 
+<l>Scies quoque quoniam multiplex erit semen tuum,</l>
+<l indent="1">et progenies tua quasi herba terrae.</l> 
+<l>
+<pb n="1088C"/>Ingredieris in abundantia sepulcrum,</l>
+<l indent="1">sicut infertur acervus in tempore suo.</l> 
+<l>Ecce, hoc, ut investigavimus, ita est:</l>
+<l indent="1">quod auditum, mente pertracta.</l>
+<p>
+            <emph>RESPONDENS AUTEM JOB, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. VI.]</head>
+<l> Utinam appenderentur peccata mea, quibus</l>
+<l rend="indent(1)">iram merui:</l>
+<l indent="1">et calamitas, quam patior, in statera,</l>
+<l indent="1">quasi arena maris haec gravior appareret:</l>
+<l>Unde et verba mea dolore sunt plena:</l>
+<l indent="1">quia sagittae Domini in me sunt;</l>
+<l>Quarum indignatio ebibit spiritum meum,</l>
+<l indent="1">et terrores Domini militant contra me.</l> 
+<l>Numquid rugiet onager cum habuerit herbam?</l> 
+<l indent="1">aut mugiet bos cum ante praesepe plenum steterit?</l> 
+<l>Aut poterit comedi insulsum, quod non sale conditum?</l> 
+<l indent="1">aut potest aliquis gustare, quod gustatum affert</l>
+<l rend="indent(1)">mortem?</l> 
+<l>
+<pb n="1089A"/>Quae prius tangere nolebat anima mea,</l>
+<l indent="1">nunc prae angustia, cibi mei sunt.</l> 
+<l>Quis det, ut veniat petitio mea:</l>
+<l indent="1">et quod exspecto, tribuat mihi Deus?</l> 
+<l indent="1">et qui coepit, ipse me conterat?</l> 
+<l>Solvat manum suam, et succidat me?</l> 
+<l indent="1">Et haec mihi sit consolatio,</l>
+<l indent="1">ut affligens me dolore, non parcat,</l>
+<l indent="1">nec contradicam sermonibus Sancti.</l> 
+<l>Quae est enim fortitudo mea, ut sustineam?</l> 
+<l indent="1">aut quis finis meus, ut patienter agam?</l> 
+<l>Nec fortitudo lapidum fortitudo mea,</l>
+<l indent="1">nec caro mea aenea [ <hi>Al.</hi> aerea] est.</l> 
+<l>Ecce, non est auxilium mihi in me,</l>
+<l indent="1">et necessarii quoque mei recesserunt a me.</l> 
+<l>Qui tollit ab amico suo misericordiam,</l>
+<l indent="1">timorem Domini derelinquit.</l> 
+<l>Fratres mei praeterierunt me,</l>
+<l indent="1">sicut torrens qui raptim transit in convallibus.</l> 
+<l>Qui timent pruinam, irruet super eos nix,</l>
+<l indent="1">
+<pb n="1089B"/>tempore, quo fuerint dissipati, peribunt:</l>
+<l indent="1">et ut incaluerit [ <hi>Al.</hi> incaluerint], solventur de loco</l>
+<l rend="indent(1)">suo.</l> 
+<l>Involutae sunt semitae gressuum eorum:</l>
+<l indent="1">ambulabunt in vacuum, et peribunt.</l> 
+<l>Considerate semitas Thema [ <hi>Al.</hi> Theman], itinera</l>
+<l rend="indent(1)">Saba [ <hi>Al.</hi> Sabain],</l>
+<l indent="1">et exspectate [ <hi>Al.</hi> spectate] paulisper.</l> 
+<l>Confusi sunt, quia speraverunt [ <hi>Al.</hi> speravi]:</l>
+<l indent="1">venerunt quoque usque ad me, et pudore cooperti</l>
+<l rend="indent(1)">sunt.</l> 
+<l>Nunc venistis:</l>
+<l indent="1">et modo videntes plagam meam, timetis.</l> 
+<l>Numquid dixi: Afferte mihi,</l>
+<l indent="1">et de substantia vestra donate mihi?</l> 
+<l>Vel, Liberate me de manu hostis,</l>
+<l indent="1">et de manu robustorum eruite me?</l> 
+<l>Docete me, et ego tacebo;</l>
+<l indent="1">et si quid forte ignoravi, instruite me.</l> 
+<l>
+<pb n="1089C"/>Quare detraxistis sermonibus veritatis,</l>
+<l indent="1">cum e vobis nullus sit qui possit arguere [ <hi>Al. add.</hi> me]?</l> 
+<l>Ad increpandum tantum eloquia concinnatis,</l>
+<l indent="1">et in ventum verba profertis.</l> 
+<l>Super pupillum irruitis,</l>
+<l indent="1">et subvertere nitimini amicum vestrum.</l> 
+<l>Verumtamen quod coepistis, explete:</l>
+<l indent="1">praebete aurem, et videte an mentiar.</l> 
+<l>Respondete, obsecro, absque contentione:</l>
+<l indent="1">et loquentes id quod justum est, judicate.</l> 
+<l>Et non invenietis in lingua mea iniquitatem,</l>
+<l indent="1">nec in faucibus meis stultitia personabit.</l> 
+</div3>
+<div3>
+          <head>[Cap. VII.]</head>
+<l> Militia est vita hominis super terram:</l>
+<l indent="1">et sicut dies mercenarii dies ejus.</l> 
+<l>Sicut servus desiderat umbram,</l>
+<l indent="1">et sicut mercenarius praestolatur finem operis sui:</l>
+<l>Sic et ego habui menses vacuos,</l>
+<l indent="1">et noctes laboriosas enumeravi mihi.</l> 
+<l>Si dormiero, dico [ <hi>Al.</hi> dicam]: Quando consurgam?</l> 
+<l indent="1">
+<pb n="1089D"/>et rursum exspectabo vesperam,</l>
+<l indent="1">et replebor doloribus usque ad tenebras.</l> 
+<l>Induta est caro mea putredine et sordibus pulveris,</l>
+<l indent="1">
+<pb n="1090A"/>cutis mea aruit, et contracta est.</l> 
+<l>Dies mei velocius transierunt quam a texente tela</l>
+<l rend="indent(1)">succiditur,</l>
+<l indent="1">et consumpti sunt absque ulla spe.</l> 
+<l>Memento quia ventus est vita mea,</l>
+<l indent="1">et non revertetur oculus meus, ut videat bona.</l> 
+<l>Nec aspiciet me visus hominis:</l>
+<l indent="1">oculi tui in me, et non subsistam.</l> 
+<l> Sicut consumitur nubes, et pertransit:</l>
+<l indent="1">sic qui descenderit ad inferos, non ascendet.</l> 
+<l>Nec revertetur ultra in domum suam,</l>
+<l indent="1">neque cognoscet eum amplius locus ejus.</l> 
+<l>Quapropter et ego non parcam ori meo,</l>
+<l indent="1">loquar in tribulatione spiritus mei:</l>
+<l indent="1"> confabulabor cum amaritudine animae meae.</l> 
+<l>Numquid mare sum ego, aut cetus,</l>
+<l indent="1">quia circumdedisti me carcere?</l> 
+<l>Si dixero: Consolabitur me lectulus meus,</l>
+<l indent="1">et revelabor loquens mecum in stratu meo:</l>
+<l>Terrebis me per somnia,</l>
+<l indent="1">
+<pb n="1090B"/>et per visiones horrore concuties.</l> 
+<l>Quam ob rem elegit suspendium anima mea,</l>
+<l indent="1">et mortem ossa mea.</l> 
+<l>Desperavi, nequaquam ultra jam vivam:</l>
+<l indent="1">parce mihi, nihil enim sunt dies mei.</l> 
+<l>Quid est homo, quia magnificas eum?</l> 
+<l indent="1">aut quia ponis [ <hi>Al.</hi> quid appones] erga eum eo</l>
+<l rend="indent(1)">tuum?</l> 
+<l>Visitas eum diluculo,</l>
+<l indent="1">et subito probas illum:</l>
+<l>Usquequo non parcis mihi,</l>
+<l indent="1">nec dimittis me ut glutiam salivam meam?</l> 
+<l>Peccavi, quid faciam tibi, o custos hominum?</l> 
+<l indent="1">quare posuisti me contrarium tibi,</l>
+<l indent="1">et factus sum mihimetipsi gravis?</l> 
+<l>Cur non tollis peccatum meum,</l>
+<l indent="1">et quare non aufers iniquitatem meam?</l> 
+<l>Ecce, nunc in pulvere dormiam:</l>
+<l indent="1">Et si mane me quaesieris, non subsistam.</l>
+<p>
+            <emph>
+              <pb n="1090C"/>RESPONDENS AUTEM BALDAD SUITES, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. VIII.]</head>
+<l> Usquequo loqueris talia,</l>
+<l indent="1">et spiritus multiplex sermones oris tui?</l> 
+<l>Numquid Deus supplantat judicium:</l>
+<l indent="1">et omnipotens subvertit quod justum est?</l> 
+<l>Etiam si filii tui peccaverunt ei,</l>
+<l indent="1">et dimisit eos in manu iniquitatis suae:</l>
+<l>Tu tamen si diluculo consurrexeris ad Deum,</l>
+<l indent="1">et Omnipotentem fueris deprecatus:</l>
+<l>Si mundus et rectus incesseris,</l>
+<l indent="1">statim evigilabit ad te,</l>
+<l indent="1">et pacatum reddet habitaculum justitiae tuae:</l>
+<l>Intantum, ut priora tua fuerint parva,</l>
+<l indent="1">et novissima tua multiplicentur nimis.</l> 
+<l>Interroga enim generationem pristinam,</l>
+<l indent="1">et diligenter investiga patrum memoriam:</l>
+<l>(hesterni quippe sumus, et ignoramus quoniam sicut</l>
+<l rend="indent(1)">umbra dies nostri sunt super terram.)</l>
+<l>Et ipsi docebunt te:</l>
+<l indent="1">
+<pb n="1090D"/>loquentur tibi, et de corde suo proferent eloquia.</l> 
+<l>Numquid virere potest scirpus absque humore?</l> 
+<l indent="1">aut crescere biblus sine aqua;</l>
+<l>
+<pb n="1091A"/>Cum adhuc sit in [ <hi>Al.</hi> adhaesit in] flore, nec carpatur</l>
+<l rend="indent(1)">manu,</l>
+<l indent="1">ante omnes herbas arescit:</l>
+<l>Sic viae omnium qui obliviscuntur Deum,</l>
+<l indent="1">et spes hypocritae peribit:</l>
+<l>Non ei placebit vecordia sua,</l>
+<l indent="1">et sicut tela aranearum fiducia ejus.</l> 
+<l>Innitetur super domum suam, et non stabit:</l>
+<l indent="1">fulciet eam, et non consurget:</l>
+<l>Humectus videtur antequam veniat sol,</l>
+<l indent="1">et in ortu suo germen ejus egreditur [ <hi>Al.</hi> egredietur].</l> 
+<l>Super acervum petrarum radices ejus densabuntur:</l>
+<l indent="1">et inter lapides commorabitur.</l> 
+<l>Si absorbuerit eum de loco suo,</l>
+<l indent="1">negabit eum, et dicet: Non novi [ <hi>Al.</hi> vidi] te.</l> 
+<l>Haec est enim laetitia viae ejus,</l>
+<l indent="1">ut rursum [ <hi>Al.</hi> sursum] de terra alii germinentur.</l> 
+<l>Deus non projiciet simplicem,</l>
+<l indent="1">nec porriget [ <hi>Al.</hi> porrigit] manum malignis:</l>
+<l>
+<pb n="1091B"/>Donec impleatur risu os tuum,</l>
+<l indent="1">et labia tua jubilo.</l> 
+<l>Qui oderunt te, induentur confusione:</l>
+<l indent="1">et tabernaculum impiorum non subsistet.</l>
+        </div3>
+<p>
+          <emph>ET RESPONDENS, AIT:</emph>
+</p>
+<div3>
+          <head>[Cap. IX.]</head>
+<l> Vere scio quod ita sit,</l>
+<l indent="1">et quod non justificetur homo compositus [ <hi>Al.</hi> comparatus]</l>
+<l rend="indent(1)">Deo.</l> 
+<l>Si voluerit contendere cum eo,</l>
+<l indent="1">non poterit ei respondere unum pro mille.</l> 
+<l>Sapiens corde est, et fortis robore:</l>
+<l indent="1">quis restitit [ <hi>Al.</hi> resistet] ei, et pacem habuit?</l> 
+<l>Qui transtulit montes, et nescierunt</l>
+<l indent="1">hi quos subvertit in furore suo.</l> 
+<l>Qui commovet [ <hi>Al.</hi> commovit] terram de loco suo,</l>
+<l indent="1">et columnae ejus concutiuntur.</l> 
+<l>Qui praecipit soli, et non oritur [ <hi>Al.</hi> orietur],</l>
+<l indent="1">et stellas claudit quasi sub signaculo:</l>
+<l>
+<pb n="1091C"/>Qui extendit coelos solus,</l>
+<l indent="1">et graditur super fluctus maris.</l> 
+<l>Qui facit Arcturum, et Oriona, et Hyadas,</l>
+<l indent="1">et interiora austri.</l> 
+<l>Qui facit magna, et incomprehensibilia,</l>
+<l indent="1">et mirabilia, quorum non est numerus.</l> 
+<l>Si venerit ad me, non videbo:</l>
+<l indent="1">si abierit, non intelligam eum.</l> 
+<l>Si repente interroget, quis respondebit ei?</l> 
+<l indent="1">vel quis dicere potest: Cur [ <hi>Al. add.</hi> ita] facis?</l> 
+<l>Deus, cujus nemo irae resistere potest,</l>
+<l indent="1">et sub quo curvantur [ <hi>Al.</hi> turbantur] qui portant</l>
+<l rend="indent(1)">orbem.</l> 
+<l>Quantus ergo sum ego, qui respondeam ei,</l>
+<l indent="1">et loquar verbis meis cum eo?</l> 
+<l>Qui etiam si habuero quidpiam justum, non respondebo,</l>
+<l indent="1">sed meum judicem deprecabor;</l>
+<l indent="1">et cum invocantem exaudierit me,</l>
+<l indent="1">non credo quod audierit [ <hi>Al.</hi> exaudierit] vocem</l>
+<l rend="indent(1)">
+<pb n="1091D"/>meam.</l> 
+<l>In turbine enim conteret me,</l>
+<l indent="1">et multiplicabit vulnera mea etiam sine causa.</l> 
+<l>Non concedit requiescere spiritum meum,</l>
+<l indent="1">et implet me amaritudinibus.</l> 
+<l>Si fortitudo quaeritur, robustissimus est:</l>
+<l indent="1">si aequitas judicii, nemo pro me audet testimonium</l>
+<l rend="indent(1)">dicere.</l> 
+<l>
+<pb n="1092A"/>Si justificare me voluero, os meum condemnabit me:</l>
+<l indent="1">si innocentem ostendere, pravum me comprobabit.</l> 
+<l>Etiam si simplex fuero, hoc ipsum ignorabit anima</l>
+<l rend="indent(1)">mea,</l>
+<l indent="1">et taedebit me vitae meae.</l> 
+<l>Unum est quod locutus sum,</l>
+<l indent="1">et innocentem et impium ipse consumit.</l> 
+<l>Si flagellat, occidat semel,</l>
+<l indent="1">et non de poenis innocentium rideat.</l> 
+<l>Terra data est in manu [ <hi>Al.</hi> manus] impii,</l>
+<l indent="1">vultum judicium ejus operit.</l> 
+<l indent="1">Quod si non ille est, quis ergo est?</l> 
+<l>Dies mei velociores fuerunt cursore:</l>
+<l indent="1">fugerunt, et non viderunt bonum.</l> 
+<l>Pertransierunt quasi naves poma portantes,</l>
+<l indent="1">sicut aquila volans ad escam.</l> 
+<l>Cum dixero: Nequaquam ita loquar:</l>
+<l indent="1">commuto faciem meam, et dolore torqueor.</l> 
+<l>Verebar omnia opera mea,</l>
+<l indent="1">
+<pb n="1092B"/>sciens quod non parceres delinquenti.</l> 
+<l>Si autem et sic impius sum,</l>
+<l indent="1">quare frustra laboravi?</l> 
+<l>Si lotus fuero quasi aquis nivis,</l>
+<l indent="1">et fulserint velut mundissimae manus meae:</l>
+<l>Tamen sordibus intinges me,</l>
+<l indent="1">et abominabuntur me vestimenta mea.</l> 
+<l>Neque enim viro qui similis mei est, respondebo:</l>
+<l indent="1">nec qui mecum in judicio ex aequo possit audiri.</l> 
+<l>Non est qui utrumque valeat arguere,</l>
+<l indent="1">et ponere manum suam in ambobus.</l> 
+<l>Auferat a me virgam suam,</l>
+<l indent="1">et pavor ejus non me terreat.</l> 
+<l>Loquar, et non timebo eum:</l>
+<l indent="1">neque enim possum metuens respondere.</l> 
+</div3>
+<div3>
+          <head>[Cap. X.]</head>
+<l> Taedet animam meam vitae meae,</l>
+<l indent="1">dimittam adversum me eloquium meum,</l>
+<l indent="1">loquar in amaritudine animae meae.</l> 
+<l>Dicam Deo: Noli me condemnare:</l>
+<l indent="1">
+<pb n="1092C"/>indica mihi cur me ita judices?</l> 
+<l>Numquid bonum tibi videtur, si calumnieris [ <hi>Al. add.</hi> me],</l>
+<l indent="1">et opprimas me opus manuum tuarum,</l>
+<l indent="1">et consilium impiorum adjuves?</l> 
+<l>Numquid oculi carnei tibi sunt?</l> 
+<l indent="1">aut sicut videt homo, et tu videbis [ <hi>Al.</hi> vides]?</l> 
+<l>Numquid sicut dies hominis dies tui,</l>
+<l indent="1">et anni tui sicut humana sunt tempora,</l>
+<l>Ut quaeras iniquitatem meam,</l>
+<l indent="1">et peccatum meum scruteris?</l> 
+<l>Et scias quia nihil impium fecerim,</l>
+<l indent="1">cum sit nemo qui de manu tua possit eruere [ <hi>Al.</hi> evadere].</l> 
+<l>Manus tuae plasmaverunt me,</l>
+<l indent="1">et fecerunt me totum in circuitu [ <hi>Al.</hi> gyro]:</l>
+<l indent="1">et sic repente praecipitas me?</l> 
+<l>Memento, quaeso, quod sicut lutum feceris me,</l>
+<l indent="1">et in pulverem reduces me.</l> 
+<l>Nonne sicut lac mulsisti me,</l>
+<l indent="1">
+<pb n="1092D"/>et sicut caseum me coagulasti?</l> 
+<l>Pelle et carnibus vestisti me,</l>
+<l indent="1">et ossibus et nervis compegisti me:</l>
+<l>Vitam et misericordiam tribuisti mihi, et visitatio</l>
+<l rend="indent(1)">tua custodivit spiritum meum.</l> 
+<l>Licet haec celes in corde tuo,</l>
+<l indent="1">tamen scio quia universorum memineris.</l> 
+<l>Si peccavi, et ad horam pepercisti mihi:</l>
+<l indent="1">
+<pb n="1093A"/>cur ab iniquitate mea mundum me esse non pateris?</l> 
+<l>Et si impius fuero, vae mihi est:</l>
+<l indent="1">et si justus, non levabo caput,</l>
+<l indent="1">saturatus afflictione et miseria.</l> 
+<l>Et propter superbiam quasi leaenam capies me,</l>
+<l indent="1">reversusque mirabiliter me crucias.</l> 
+<l>Instauras testes tuos contra me,</l>
+<l indent="1">et multiplicas iram tuam adversus me,</l>
+<l indent="1">et poenae militant in me.</l> 
+<l>Quare de vulva eduxisti me?</l> 
+<l indent="1">qui utinam consumptus essem,</l>
+<l indent="1">ne oculus me [ <hi>Al.</hi> meus] videret.</l> 
+<l>Fuissem quasi non essem,</l>
+<l indent="1">de utero translatus ad tumulum.</l> 
+<l>Numquid non paucitas dierum meorum finietur brevi?</l> 
+<l indent="1">dimitte ergo me, ut plangam paululum dolorem</l>
+<l rend="indent(1)">meum:</l>
+<l>Antequam vadam, et non revertar ad terram tenebrosam,</l>
+<l indent="1">
+<pb n="1093B"/>et opertam mortis caligine:</l>
+<l indent="1">Terram miseriae et tenebrarum,</l>
+<l indent="1"> Ubi umbra mortis, et nullus ordo,</l>
+<l indent="1">et sempiternus horror inhabitans [ <hi>Al.</hi> inhabitat].</l>
+<p>
+            <emph>RESPONDENS AUTEM SOPHAR NAAMATHITES, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XI.]</head>
+<l> Numquid qui multa loquitur, non et audiet?</l> 
+<l indent="1">aut vir verbosus justificabitur?</l> 
+<l>Tibi soli tacebunt homines?</l> 
+<l indent="1">et cum caeteros irriseris, a nullo confutaberis?</l> 
+<l>Dixisti enim: Purus est sermo meus,</l>
+<l indent="1">et mundus sum in conspectu tuo.</l> 
+<l>Atque utinam Deus loqueretur tecum,</l>
+<l indent="1">et aperiet labia sua tibi.</l> 
+<l>Ut ostenderet tibi secreta sapientiae,</l>
+<l indent="1">et quod multiplex esset lex ejus:</l>
+<l>Et intelligeres quod multo minora exigaris a Deo</l>
+<l rend="indent(1)">[ <hi>Al.</hi> ab eo],</l>
+<l indent="1">quam meretur iniquitas tua.</l> 
+<l indent="1">
+<pb n="1093C"/>Forsitan vestigia Dei comprehendes,</l>
+<l indent="1">et usque ad perfectum Omnipotentem reperies?</l> 
+<l rend="indent(1)">[h. Numquid vestigia Dei comprehendes, aut</l>
+<l rend="indent(1)">usque ad perfectum Omnipotentem reperies?]</l>
+<l>Excelsior coelo est, et quid facies?</l> 
+<l indent="1">profundior inferno, et unde cognosces?</l> 
+<l>Longior terra mensura ejus,</l>
+<l rend="indent(1)">et latior mari.</l> 
+<l>Si subverterit omnia, vel in unum coarctaverit.</l> 
+<l indent="1">quis contradicet ei?</l> 
+<l>Ipse enim novit hominum vanitatem;</l>
+<l indent="1">et videns iniquitatem, nonne considerat?</l> 
+<l>Vir vanus in superbiam erigitur,</l>
+<l indent="1">et tamquam pullum onagri se liberum natum putat.</l> 
+<l>Tu autem firmasti cor tuum,</l>
+<l indent="1">et expandisti ad eum manus tuas.</l> 
+<l>Si iniquitatem, quae est in manu tua, abstuleris a te,</l>
+<l indent="1">et non manserit in tabernaculo tuo injustitia:</l>
+<l>Tunc levare poteris faciem tuam absque macula,</l>
+<l indent="1">et eris stabilis, et non timebis.</l> 
+<l indent="1">
+<pb n="1093D"/>Miseriae quoque oblivisceris,</l>
+<l indent="1">et quasi aquarum quae praeterierunt, recordaberis.</l> 
+<l>Et quasi meridianus [ <hi>Al.</hi> medianus] fulgor consurget</l>
+<l rend="indent(1)">tibi ad vesperam,</l>
+<l indent="1">et cum te consumptum putaveris, orieris ut lucifer.</l> 
+<l>
+<pb n="1094A"/>Et habebis fiduciam, proposita tibi spe,</l>
+<l indent="1">et defossus securus dormies.</l> 
+<l>Requiesces, et non erit qui te exterreat:</l>
+<l indent="1">et deprecabuntur faciem tuam plurimi.</l> 
+<l>Oculi autem impiorum deficient,</l>
+<l indent="1">et effugium peribit ab eis,</l>
+<l indent="1">et spes eorum abominatio animae.</l>
+<p>
+            <emph>RESPONDENS AUTEM JOB, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XII.]</head>
+<l> Ergo vos estis soli homines,</l>
+<l indent="1">et vobiscum morietur sapientia:</l>
+<l>Et mihi est cor, sicut et vobis,</l>
+<l indent="1">nec inferior vestri sum:</l>
+<l indent="1">quis enim haec, quae nostis, ignorat?</l> 
+<l>Qui deridetur ab amico suo sicut ego,</l>
+<l indent="1">invocabit Deum et exaudiet [ <hi>Al.</hi> exaudit] eum:</l>
+<l indent="1">deridetur enim justi simplicitas.</l> 
+<l>Lampas contempta apud cogitationes divitum,</l>
+<l indent="1">parata ad tempus statutum [ <hi>Al.</hi> constitutum].</l> 
+<l>Abundant tabernacula praedonum,</l>
+<l indent="1">
+<pb n="1094B"/>et audacter provocant Deum,</l>
+<l indent="1">cum ipse dederit omnia in manibus eorum.</l> 
+<l>Nimirum interroga jumenta, et docebunt te:</l>
+<l indent="1">et volatilia coeli, et indicabunt tibi.</l> 
+<l>Loquere terrae, et respondebit tibi;</l>
+<l indent="1">et narrabunt pisces maris.</l> 
+<l>Quis ignorat quod omnia haec manus Domini fecerit?</l> 
+<l>In cujus manu anima omnis viventis,</l>
+<l indent="1">et spiritus universae carnis hominis.</l> 
+<l>Nonne auris verba dijudicat,</l>
+<l indent="1">et fauces comedentis, saporem?</l> 
+<l>In antiquis est sapientia,</l>
+<l indent="1">et in multo tempore prudentia.</l> 
+<l>Apud ipsum est sapientia et fortitudo,</l>
+<l indent="1">ipse habet consilium et intelligentiam.</l> 
+<l>Si destruxerit, nemo est qui aedificet:</l>
+<l indent="1">et si incluserit hominem, nullus est qui aperiat.</l> 
+<l>Si continuerit aquas, omnia siccabuntur:</l>
+<l indent="1">et si emiserit eas, subvertent terram.</l> 
+<l>
+<pb n="1094C"/>Apud ipsum est fortitudo et sapientia [h. lex]:</l>
+<l indent="1">ipse novit et decipientem,</l>
+<l indent="1">et eum qui decipitur.</l> 
+<l>Adducit consiliarios in stultum finem,</l>
+<l indent="1">et judices in stuporem.</l> 
+<l>Balteum regum dissolvit,</l>
+<l indent="1">et praecingit fune renes eorum.</l> 
+<l>Ducit sacerdotes inglorios,</l>
+<l indent="1">et optimates supplantat:</l>
+<l>Commutans labium veracium,</l>
+<l indent="1">et doctrinam senum auferens,</l>
+<l>Effundit despectionem super principes,</l>
+<l indent="1">eos, qui oppressi fuerant, relevans.</l> 
+<l>Qui revelat profunda de tenebris,</l>
+<l indent="1">et producit in lucem umbra [ <hi>Al.</hi> umbras] mortis.</l> 
+<l>Qui multiplicat gentes et perdit eas,</l>
+<l indent="1">et subversa in integrum restituit [ <hi>Al.</hi> restituet].</l> 
+<l>Qui immutat cor principum populi terrae,</l>
+<l indent="1">et decipit eos ut frustra incedant per invium:</l>
+<l>Palpabunt quasi in tenebris, et non in luce,</l>
+<l indent="1">
+<pb n="1094D"/>et errare eos faciet quasi ebrios [h. ebrium].</l> 
+</div3>
+<div3>
+          <head>[Cap. XIII.]</head>
+<l> Ecce omnia [ <hi>Al. add.</hi> haec] vidit oculus</l>
+<l rend="indent(1)">meus,</l>
+<l indent="1">et audivit auris mea, et intellexi singula.</l> 
+<l>Secundum scientiam vestram et ego novi:</l>
+<l indent="1">nec inferior vestri sum:</l>
+<l>
+<pb n="1095A"/>Sed tamen ad Omnipotentem loquar,</l>
+<l indent="1">et disputare cum Deo cupio:</l>
+<l>Prius vos ostendens fabricatores mendacii,</l>
+<l indent="1">et cultores perversorum dogmatum.</l> 
+<l>Atque utinam taceretis,</l>
+<l indent="1">ut putaremini esse [ <hi>Al.</hi> putarentur inter se] sapientes.</l> 
+<l>Audite ergo correptiones meas,</l>
+<l indent="1">et judicium labiorum meorum attendite.</l> 
+<l>Numquid Deus indiget vestro mendacio,</l>
+<l indent="1">ut pro illo loquamini dolos?</l> 
+<l>Numquid faciem ejus accipitis [ <hi>Al.</hi> accepistis],</l>
+<l indent="1">et pro Deo judicare nitimini?</l> 
+<l>Aut placebit ei quem celare [ <hi>Al</hi> celari] nihil potest?</l> 
+<l indent="1">aut decipietur ut homo, vestris fraudulentiis?</l> 
+<l>Ipse vos arguet,</l>
+<l indent="1">quoniam in abscondito faciem ejus accipitis.</l> 
+<l>Statim ut se commoverit, turbabit vos,</l>
+<l indent="1">et terror ejus irruet super vos.</l> 
+<l>Memoria vestra comparabitur cineri,</l>
+<l indent="1">
+<pb n="1095B"/>et redigentur in lutum cervices vestrae.</l> 
+<l>Tacete paulisper, ut loquar</l>
+<l indent="1">quodcumque [ <hi>Al.</hi> quaecumque] mihi mens suggesserit
+[ <hi>Al.</hi> suggerit].</l> 
+<l>Quare lacero carnes meas dentibus meis,</l>
+<l indent="1">et animam meam porto in manibus meis?</l> 
+<l>Etiam si occiderit me, in ipso sperabo:</l>
+<l>verumtamen vias meas in conspectu ejus arguam</l>
+<l rend="indent(1)">[ <hi>Al. tac.</hi> arguam].</l> 
+<l>Et ipse erit salvator meus:</l>
+<l indent="1">non enim veniet in conspectu ejus omnis hypocrita.</l> 
+<l>Audite sermonem meum,</l>
+<l indent="1">et aenigmata percipite auribus vestris.</l> 
+<l>Si fuero judicatus.</l> 
+<l indent="1">scio quod justus inveniar.</l> 
+<l>Quis est qui judicetur mecum? veniat in judicio</l>
+<l rend="indent(1)">[h. non habet, veniat in judicio].</l> 
+<l indent="1">quare tacens consumor?</l> 
+<l>Duo tantum ne facias mihi,</l>
+<l indent="1">
+<pb n="1095C"/>et tunc a facie tua non abscondar:</l>
+<l>Manum tuam longe fac a me,</l>
+<l indent="1">et formido tua non me terreat.</l> 
+<l>Voca me, et [ <hi>Al. add.</hi> ego] respondebo tibi:</l>
+<l indent="1">aut certe loquar, et tu responde mihi.</l> 
+<l>Quantas habeo iniquitates et peccata?</l> 
+<l indent="1">scelera mea et delicta ostende mihi.</l> 
+<l>Cur faciem tuam abscondis,</l>
+<l indent="1">et arbitraris me inimicum tuum?</l> 
+<l>Contra folium, quod vento rapitur, ostendis potentiam
+tuam,</l>
+<l indent="1">et stipulam siccam persequeris:</l>
+<l>Scribis enim contra me amaritudines,</l>
+<l indent="1">et consumere me vis peccatis [h. et <hi>haereditare facies</hi> </l>
+<l rend="indent(1)"> <hi>me peccata</hi> ] adolescentiae meae.</l> 
+<l>Posuisti in nervo pedem meum,</l>
+<l indent="1">et observasti omnes semitas meas,</l>
+<l indent="1">et vestigia pedum meorum considerasti:</l>
+<l>Qui quasi putredo consumendus sum,</l>
+<l indent="1">et quasi vestimentum, quod comeditur a tinea.</l> 
+<l>
+<pb n="1095D"/>[Cap. XIV.] Homo natus de muliere,</l>
+<l indent="1">brevi vivens tempore, repletur multis miseriis.</l> 
+<l>Qui quasi flos egreditur, et conteritur,</l>
+<l indent="1">et fugit [ <hi>Al.</hi> fugiet] velut umbra, et numquam in</l>
+<l indent="1">eodem statu permanet.</l> 
+<l>Et dignum ducis super hujuscemodi aperire oculos</l>
+<l rend="indent(1)">tuos,</l>
+<l indent="1">et adducere eum tecum in judicium?</l> 
+<l>
+<pb n="1096A"/>Quis potest facere mundum de immundo conceptum</l>
+<l rend="indent(1)">semine?</l> 
+<l indent="1">nonne tu qui solus es?</l> 
+<l>Breves dies hominis sunt,</l>
+<l indent="1">numerus mensium ejus apud te est:</l>
+<l indent="1">constituisti terminos ejus, qui praeteriri non poterunt.</l> 
+<l>Recede paululum ab eo, ut quiescat,</l>
+<l indent="1">donec optata veniat, quasi [ <hi>Al.</hi> sicut] mercenarii</l>
+<l rend="indent(1)">dies ejus.</l> 
+<l indent="1">Lignum habet spem:</l>
+<l indent="1">si praecisum fuerit, rursum virescit,</l>
+<l indent="1">et rami ejus pullulant.</l> 
+<l>Si senuerit in terra radix ejus,</l>
+<l indent="1">et in pulvere mortuus fuerit truncus illius.</l> 
+<l>Ad odorem aquae germinabit,</l>
+<l indent="1">et faciet comam quasi cum primum plantatum est;</l>
+<l>Homo vero cum mortuus fuerit,</l>
+<l indent="1">et nudatus atque consumptus, ubi quaeso est?</l> 
+<l>Quomodo si recedant aquae de mari,</l>
+<l indent="1">
+<pb n="1096B"/>et fluvius vacuefactus arescat:</l>
+<l>Sic homo cum dormierit, non resurget,</l>
+<l indent="1">donec atteratur coelum, non evigilabit,</l>
+<l indent="1">nec consurget de somno suo.</l> 
+<l>Quis mihi hoc tribuat, ut in inferno protegas me,</l>
+<l indent="1">et abscondas me, donec pertranseat furor tuus,</l>
+<l indent="1">et constituas mihi tempus, in quo recorderis</l>
+<l rend="indent(1)">mei?</l> 
+<l>Putasne mortuus homo rursum vivat?</l> 
+<l indent="1">cunctis diebus, quibus nunc milito,</l>
+<l indent="1">exspecto donec veniat immutatio mea.</l> 
+<l>Vocabis me, et ego respondebo tibi:</l>
+<l indent="1">operi manuum tuarum porriges dexteram,</l>
+<l>Tu quidem gressus meos dinumerasti,</l>
+<l indent="1">sed parces [ <hi>Al</hi> parce] peccatis meis.</l> 
+<l>Signasti quasi in sacculo delicta mea,</l>
+<l indent="1">sed curasti iniquitatem meam.</l> 
+<l>Mons cadens defluit,</l>
+<l indent="1">et saxum transfertur de loco suo.</l> 
+<l>
+<pb n="1096C"/>Lapides excavant aquae,</l>
+<l indent="1">et alluvione paulatim terra consumitur:</l>
+<l indent="1">et hominem ergo similiter perdes.</l> 
+<l>Roborasti eum paululum ut in perpetuum transiret:</l>
+<l indent="1">immutabis faciem ejus, et emittes [ <hi>Al.</hi> ut emittas]</l>
+<l rend="indent(1)">eum.</l> 
+<l>Sive nobiles fuerint filii ejus,</l>
+<l indent="1">sive ignobiles, non intelliget.</l> 
+<l>Attamen caro ejus dum vivet dolebit,</l>
+<l indent="1">et anima illius super semetipso [ <hi>Al.</hi> semetipsum]</l>
+<l rend="indent(1)">lugebit.</l>
+<p>
+            <emph>RESPONDENS AUTEM ELIPHAZ THEMANITES, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XV.]</head>
+<l> Numquid sapiens respondebit quasi in</l>
+<l rend="indent(1)">ventum loquens,</l>
+<l indent="1">et implebit ardore stomachum suum?</l> 
+<l>Arguis verbis eum qui non est aequalis tibi [ <hi>Al.</hi> tui],</l>
+<l indent="1">et loqueris quod tibi non expedit.</l> 
+<l>Quantum in te est, evacuasti timorem,</l>
+<l indent="1">et tulisti preces coram Deo.</l> 
+<l>
+<pb n="1096D"/>Docuit enim iniquitas tua [ <hi>Al. tac.</hi> tua] os tuum,</l>
+<l indent="1">et imitaris linguam [ <hi>Al.</hi> verba] blasphemantium.</l> 
+<l>Condemnabit te os tuum, et non ego:</l>
+<l indent="1">et labia tua respondebunt tibi.</l> 
+<l>Numquid primus homo tu natus es,</l>
+<l indent="1">et ante colles formatus?</l> 
+<l>Numquid consilium Dei audisti,</l>
+<l indent="1">et inferior te erit ejus sapientia?</l> 
+<l>
+<pb n="1097A"/>Quid nosti quod ignoremus?</l> 
+<l indent="1">quid intelligis quod nesciamus?</l> 
+<l>Et senes et antiqui sunt in nobis,</l>
+<l indent="1">multo [ <hi>Al.</hi> multi] vetustiores quam patres tui.</l> 
+<l>Numquid grande est ut consoletur te Deus?</l> 
+<l indent="1">sed verba tua prava hoc prohibent.</l> 
+<l>Quid te elevat cor tuum,</l>
+<l indent="1">et quasi magna cogitans, attonitos habes oculos?</l> 
+<l>Quid tumet contra Deum spiritus tuus,</l>
+<l indent="1">ut proferas de ore tuo hujuscemodi sermones?</l> 
+<l>Quid est homo, ut immaculatus sit,</l>
+<l indent="1">et ut justus appareat natus de muliere?</l> 
+<l>Ecce inter sanctos ejus nemo immutabilis,</l>
+<l indent="1">et coeli non sunt mundi in conspectu ejus.</l> 
+<l>Quanto magis abominabilis et inutilis homo,</l>
+<l indent="1">qui bibit quasi aquas iniquitatem!</l> 
+<l>Ostendam tibi, audi me:</l>
+<l indent="1">quod vidi, narrabo tibi.</l> 
+<l>Sapientes confitentur,</l>
+<l indent="1">et non abscondunt patres suos.</l> 
+<l>
+<pb n="1097B"/>Quibus solis data est terra,</l>
+<l indent="1">et non transivit alienus per eos.</l> 
+<l>Cunctis diebus suis impius superbit,</l>
+<l indent="1">et numerus annorum incertus est tyrannidi ejus.</l> 
+<l>Sonitus terroris semper in auribus illius:</l>
+<l indent="1">et cum pax sit, ille [ <hi>Al. add.</hi> semper] insidias</l>
+<l rend="indent(1)">suspicatur.</l> 
+<l>Non credit quod reverti possit de tenebris ad</l>
+<l rend="indent(1)">lucem,</l>
+<l indent="1">circumspectans undique gladium.</l> 
+<l>Cum se moverit ad quaerendum panem,</l>
+<l indent="1">novit quod paratus sit in manu ejus tenebrarum</l>
+<l rend="indent(1)">dies.</l> 
+<l>Terrebit eum tribulatio,</l>
+<l indent="1">et angustia vallabit eum,</l>
+<l indent="1">sicut regem qui praeparatur ad praelium.</l> 
+<l>Tetendit enim adversus Deum manum suam</l>
+<l indent="1">et contra Omnipotentem roboratus est.</l> 
+<l>Cucurrit adversus eum erecto collo,</l>
+<l indent="1">et pingui cervice armatus est.</l> 
+<l>
+<pb n="1097C"/>Operuit faciem ejus crassitudo,</l>
+<l indent="1">et de lateribus ejus arvina dependet.</l> 
+<l>Habitabit in civitatibus desolatis,</l>
+<l indent="1">et in domibus desertis, quae in tumulos sunt redactae.</l> 
+<l>Non ditabitur, nec perseverabit substantia ejus,</l>
+<l indent="1">nec mittet in terra radicem suam.</l> 
+<l>Non recedet de tenebris:</l>
+<l indent="1">ramos ejus arefaciet flamma,</l>
+<l indent="1">et auferetur spiritus oris sui.</l> 
+<l>Non credat frustra errore deceptus,</l>
+<l indent="1">quod aliquo pretio redimendus sit.</l> 
+<l>Antequam dies ejus impleantur, peribit:</l>
+<l indent="1">et manus ejus arescent.</l> 
+<l>Laedetur quasi vinea in primo flore botrus ejus,</l>
+<l indent="1">et quasi oliva projiciens [ <hi>Al.</hi> projicient] florem</l>
+<l rend="indent(1)">suum.</l> 
+<l>Congregatio enim hypocritae sterilis,</l>
+<l indent="1">et ignis devorabit tabernacula eorum,</l>
+<l indent="1">
+<pb n="1097D"/>qui munera libenter accipiunt.</l> 
+<l>Concepit dolorem, et peperit iniquitatem,</l>
+<l indent="1">et uterus ejus praeparat dolos.</l>
+        </div3>
+<p>
+          <emph>RESPONDENS AUTEM JOB, DIXIT:</emph>
+</p>
+<div3>
+          <head>[Cap. XVI.]</head>
+<l> Audivi frequenter talia,</l>
+<l indent="1">consolatores onerosi omnes vos estis.</l> 
+<l>Numquid habebunt finem verba ventosa?</l> 
+<l indent="1">aut aliquid tibi molestum est si loquaris?</l> 
+<l>
+<pb n="1098A"/>Poteram et ego similia vestri loqui:</l>
+<l indent="1">atque utinam esset anima vestra pro anima mea:</l>
+<l>Consolarer et ego vos sermonibus,</l>
+<l indent="1">et moverem caput meum super vos.</l> 
+<l>Roborarem vos ore meo:</l>
+<l indent="1">et moverem labia mea, quasi parcens vobis.</l> 
+<l>Sed quid agam?</l> 
+<l indent="1">Si locutus fuero, non quiescet dolor meus:</l>
+<l indent="1">et si tacuero, non recedet a me.</l> 
+<l>Nunc autem oppressit me dolor meus.</l> 
+<l indent="1">et in nihilum redacti sunt omnes artus mei.</l> 
+<l>Rugae meae testimonium dicunt contra me,</l>
+<l indent="1">et suscitatur falsiloquus adversus faciem meam</l>
+<l rend="indent(1)">contradicens mihi.</l> 
+<l>Collegit furorem suum in me,</l>
+<l indent="1">et comminans mihi, infremuit contra me dentibus</l>
+<l rend="indent(1)">suis:</l>
+<l indent="1">hostis meus terribilibus oculis me intuitus est.</l> 
+<l>Aperuerunt super me ora sua,</l>
+<l indent="1">exprobrantes percusserunt maxillam meam.</l> 
+<l indent="1">
+<pb n="1098B"/>satiati sunt poenis meis.</l> 
+<l>Conclusit me Deus apud iniquum,</l>
+<l indent="1">et manibus impiorum me tradidit.</l> 
+<l> Ergo ille quondam opulentus,</l>
+<l indent="1">repente contritus sum?</l> 
+<l>Tenuit cervicem meam, et confregit me,</l>
+<l indent="1">et posuit me sibi quasi in signum.</l> 
+<l>Circumdedit me lanceis suis,</l>
+<l indent="1">convulneravit lumbos meos, et non pepercit,</l>
+<l indent="1">et effudit in terra viscera mea [h. fel meum].</l> 
+<l>Concidit me vulnere super vulnus,</l>
+<l indent="1">irruit in me quasi gigas.</l> 
+<l>Saccum consui super cutem meam,</l>
+<l indent="1">et operui cinere carnem meam.</l> 
+<l>Facies mea intumuit a fletu,</l>
+<l indent="1">et palpebrae meae caligaverunt.</l> 
+<l>Haec passus sum absque iniquitate manus meae,</l>
+<l indent="1">cum haberem mundas ad Deum preces.</l> 
+<l>Terra, ne operias sanguinem meum,</l>
+<l indent="1">
+<pb n="1098C"/>neque inveniat locum in te latendi clamor meus.</l> 
+<l>Ecce enim in coelo testis meus,</l>
+<l indent="1">et conscius meus in excelsis.</l> 
+<l>Verbosi mei amici,</l>
+<l indent="1">ad Deum stillat oculus meus.</l> 
+<l>Atque utinam sic judicetur [ <hi>Al.</hi> judicaretur] vir cum</l>
+<l rend="indent(1)">Deo,</l>
+<l indent="1">quomodo judicatur filius hominis cum collega</l>
+<l rend="indent(1)">suo.</l> 
+<l>Ecce enim breves [ <hi>Al.</hi> brevi] anni transeunt,</l>
+<l indent="1">et semitam, per quam non revertar, ambulabo.</l> 
+</div3>
+<div3>
+          <head>[Cap. XVII.]</head>
+<l> Spiritus meus attenuabitur,</l>
+<l indent="1">dies mei breviabuntur,</l>
+<l indent="1">et solum mihi superest sepulcrum.</l> 
+<l>Non peccavi,</l>
+<l indent="1">et in amaritudinibus moratur oculus meus.</l> 
+<l>Libera me, Domine, et pone me juxta te,</l>
+<l indent="1">et cujusvis manus pugnet contra me.</l> 
+<l>Cor eorum longe fecisti a disciplina,</l>
+<l indent="1">propterea non exaltabuntur.</l> 
+<l indent="1">
+<pb n="1098D"/>Praedam pollicetur sociis,</l>
+<l indent="1">et oculi filiorum ejus deficient.</l> 
+<l>Posuit me quasi in proverbium vulgi,</l>
+<l indent="1">et exemplum sum coram eis.</l> 
+<l>Caligavit [ <hi>Al.</hi> caliginavit] ab indignatione oculus</l>
+<l rend="indent(1)">meus,</l>
+<l indent="1">et membra mea quasi in nihilum redacta sunt.</l> 
+<l>Stupebunt justi [ <hi>Al.</hi> injusti] super hoc,</l>
+<l indent="1">et innocens contra hypocritam suscitabitur.</l> 
+<l>
+<pb n="1099A"/>Et tenebit justus viam suam,</l>
+<l indent="1">et mundis [ <hi>Al.</hi> mundus] manibus addet fortitudinem.</l> 
+<l>Igitur vos omnes convertimini, et venite,</l>
+<l indent="1">et non inveniam in vobis ullum sapientem.</l> 
+<l>Dies mei transierunt;</l>
+<l indent="1">cogitationes meae dissipatae sunt, torquentes cor</l>
+<l rend="indent(1)">meum.</l> 
+<l>Noctem verterunt in diem,</l>
+<l indent="1">et rursum post tenebras spero lucem.</l> 
+<l>Si sustinuero, infernus domus mea est,</l>
+<l indent="1">in tenebris stravi lectulum meum,</l>
+<l>Putredini dixi: Pater meus es,</l>
+<l indent="1">mater mea et soror mea, vermibus.</l> 
+<l>Ubi est ergo nunc praestolatio mea,</l>
+<l indent="1">et patientiam meam quis considerat?</l> 
+<l>In profundissimum infernum descendent omnia mea:</l>
+<l indent="1">putasne, saltem ibi erit requies mihi?</l>
+<p>
+            <emph>RESPONDENS AUTEM BALDAD SUITES, DIXIT:</emph>
+<l>
+<pb n="1099B"/>[Cap. XVIII.] Usque ad quem finem verba jactabitis</l>
+<l rend="indent(1)">[ <hi>Al.</hi> jactatis]?</l> 
+<l indent="1">intelligite prius, et sic loquamur:</l>
+<l>Quare reputati sumus ut jumenta,</l>
+<l indent="1">et sorduimus coram vobis?</l> 
+<l>Qui perdis animam tuam in furore tuo,</l>
+<l indent="1">numquid propter te derelinquetur terra,</l>
+<l indent="1">et transferentur rupes de loco suo?</l> 
+<l>Nonne lux impii exstinguetur,</l>
+<l indent="1">nec splendebit flamma ignis ejus?</l> 
+<l>Lux obtenebrescet in tabernaculo illius,</l>
+<l indent="1">et lucerna, quae super eum est, exstinguetur.</l> 
+<l>Arctabuntur gressus virtutis ejus,</l>
+<l indent="1">et praecipitabit eum consilium suum.</l> 
+<l>Immisit enim in rete pedes suos,</l>
+<l indent="1">et in maculis ejus ambulat.</l> 
+<l>Tenebitur planta illius laqueo,</l>
+<l indent="1">et exardescet contra eum sitis.</l> 
+<l>Abscondita est in terra pedica ejus,</l>
+<l indent="1">
+<pb n="1099C"/>et decipula illius super semitam.</l> 
+<l>Undique terrebunt eum formidines,</l>
+<l indent="1">et involvent cum pedes ejus [ <hi>Al. tacet</hi> ejus].</l> 
+<l>Attenuetur fame robur ejus,</l>
+<l indent="1">et inedia invadat costas illius.</l> 
+<l>Devoret pulchritudinem cutis ejus,</l>
+<l indent="1">consumat brachia illius primogenita mors.</l> 
+<l>Avellatur de tabernaculo suo fiducia ejus,</l>
+<l indent="1">et calcet super eum, quasi rex, interitus.</l> 
+<l>Habitent in tabernaculo illius socii ejus qui non est,</l>
+<l indent="1">aspergatur in tabernaculo ejus sulphur.</l> 
+<l>Deorsum radices ejus siccentur,</l>
+<l indent="1">sursum autem atteratur messis ejus.</l> 
+<l>Memoria illius pereat de terra,</l>
+<l indent="1">et non celebretur nomen ejus in plateis.</l> 
+<l>Expellet eum de luce in tenebras,</l>
+<l indent="1">et de orbe [ <hi>Al.</hi> urbe] transferet eum.</l> 
+<l>Non erit semen ejus neque progenies in populo suo</l>
+<l indent="1">nec ullae reliquiae [ <hi>Al.</hi> requies] in regionibus ejus.</l> 
+<l>In die ejus stupebunt novissimi,</l>
+<l indent="1">
+<pb n="1099D"/>et primos invadet horror.</l> 
+<l>Haec sunt ergo tabernacula iniqui,</l>
+<l indent="1">
+<pb n="1100A"/>et iste locus ejus qui ignorat Deum.</l>
+          </p>
+<p>
+            <emph>RESPONDENS AUTEM JOB, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XIX.]</head>
+<l> Usquequo affligitis animam meam,</l>
+<l indent="1">et atteritis me sermonibus?</l> 
+<l>En, decies confunditis me,</l>
+<l indent="1">et non erubescitis opprimentes me,</l>
+<l>Nempe, etsi ignoravi,</l>
+<l indent="1">mecum erit [ <hi>Al.</hi> est] ignorantia mea.</l> 
+<l>At [ <hi>Al.</hi> Aut] vos contra me erigimini,</l>
+<l indent="1">et arguitis me opprobriis meis [ <hi>Al.</hi> vestris].</l> 
+<l>Saltem nunc intelligite,</l>
+<l indent="1">quia Deus non aequo [ <hi>Al.</hi> in aequo] judicio afflixerit</l>
+<l rend="indent(1)">me,</l>
+<l indent="1">et flagellis suis me cinxerit.</l> 
+<l>Ecce clamabo vim patiens, et nemo audiet:</l>
+<l indent="1">vociferabor, et non est qui judicet.</l> 
+<l>Semitam meam circumsepsit, et transire non possum,</l>
+<l indent="1">et in calle meo tenebras posuit.</l> 
+<l>Spoliavit me gloria mea,</l>
+<l indent="1">
+<pb n="1100B"/>et abstulit coronam de capite meo:</l>
+<l>Destruxit me undique, et pereo,</l>
+<l indent="1">et quasi evulsae arboris [ <hi>Al.</hi> arbori] abstulit spem</l>
+<l rend="indent(1)">meam.</l> 
+<l>Iratus est contra me furor ejus,</l>
+<l indent="1">et sic me habuit quasi hostem suum.</l> 
+<l>Simul venerunt latrones ejus,</l>
+<l indent="1">et fecerunt sibi viam per me,</l>
+<l indent="1">et obsederunt in gyro tabernaculum meum.</l> 
+<l>Fratres meos longe fecit a me,</l>
+<l indent="1">et noti mei quasi alieni recesserunt a me.</l> 
+<l>Dereliquerunt me propinqui [ <hi>Al.</hi> vicini] mei:</l>
+<l indent="1">et qui me noverant, obliti sunt mei.</l> 
+<l>Inquilini domus meae, et ancillae meae,</l>
+<l indent="1">sicut alienum habuerunt me,</l>
+<l indent="1">et quasi peregrinus fui in oculis eorum.</l> 
+<l>Servum meum vocavi, et non respondit [ <hi>Al. add.</hi> mihi],</l>
+<l indent="1">ore proprio deprecabar illum.</l> 
+<l>Halitum [ <hi>Al.</hi> Habitum] meum exhorruit uxor mea,</l>
+<l indent="1">
+<pb n="1100C"/>et orabam filios uteri mei.</l> 
+<l>Stulti quoque despiciebant me,</l>
+<l indent="1">et cum ab eis recessissem, detrahebant mihi.</l> 
+<l>Abominati me sunt quondam [ <hi>Al. tac.</hi> quondam] consiliarii</l>
+<l rend="indent(1)">mei:</l>
+<l indent="1">et quem maxime diligebam, aversatus est me.</l> 
+<l>Pelli meae, consumptis carnibus, adhaesit os meum,</l>
+<l indent="1">et derelicta sunt tantummodo labia circa dentes</l>
+<l rend="indent(1)">meos.</l> 
+<l>Miseremini mei, miseremini mei, saltem vos amici</l>
+<l rend="indent(1)">mei,</l>
+<l indent="1">quia manus Domini tetigit me.</l> 
+<l>Quare persequimini me sicut Deus,</l>
+<l indent="1">et carnibus meis saturamini:</l>
+<l>Quis mihi tribuat ut scribantur sermones mei?</l> 
+<l indent="1">quis mihi det ut exarentur in libro</l>
+<l indent="1">stylo ferreo, et plumbi lamina,</l>
+<l indent="1">vel celte sculpantur in silice?</l> 
+<l>Scio enim quod Redemptor meus vivit,</l>
+<l indent="1">et in novissimo die de terra surrecturus sum:</l>
+<l>
+<pb n="1100D"/>Et rursus circumdabor pelle mea,</l>
+<l indent="1">et in carne mea videbo Deum.</l> 
+<l>
+<pb n="1101A"/>Quem visurus sum ego ipse,</l>
+<l indent="1">et oculi mei conspecturi sunt, et non alius:</l>
+<l indent="1">resposita est haec spes mea in sinu meo.</l> 
+<l>Quare ergo nunc dicitis: Persequamur eum,</l>
+<l indent="1">et radicem verbi inveniamus contra eum?</l> 
+<l>Fugite ergo a facie gladii,</l>
+<l indent="1">quoniam ultor iniquitatum gladius est:</l>
+<l indent="1">et scitote esse judicium.</l>
+<p>
+            <emph>RESPONDENS AUTEM SOPHAR NAAMATHITES, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XX.]</head>
+<l> Idcirco cogitationes meae variae succedunt</l>
+<l rend="indent(1)">sibi,</l>
+<l indent="1">et mens diversa rapitur.</l> 
+<l>Doctrinam, qua me arguis, audiam,</l>
+<l indent="1">et spiritus intelligentiae meae respondebit mihi.</l> 
+<l>Hoc scio a principio, ex quo positus est homo super</l>
+<l rend="indent(1)">terram:</l>
+<l indent="1">quod laus impiorum brevis sit,</l>
+<l indent="1">et gaudium hypocritae ad instar puncti.</l> 
+<l>Si ascenderit usque ad ceolum superbia ejus,</l>
+<l indent="1">
+<pb n="1101B"/>et caput ejus nubes tetigerit:</l>
+<l>Quasi sterquilinium in fine perdetur:</l>
+<l indent="1">et qui eum viderant, dicent: Ubi est?</l> 
+<l>Velut somnium avolans non invenietur,</l>
+<l indent="1">transiet sicut visio nocturna.</l> 
+<l>Oculus, qui eum viderat, non videbit,</l>
+<l indent="1">neque ultra intuebitur eum locus suus.</l> 
+<l>Filii ejus atterentur egestate,</l>
+<l indent="1">et manus illius reddent ei dolorem suum.</l> 
+<l>Ossa ejus implebuntur vitiis adolescentiae ejus,</l>
+<l indent="1">et cum eo in pulvere dormient.</l> 
+<l>Cum enim dulce fuerit in ore ejus malum,</l>
+<l indent="1">abscondet illud sub lingua sua.</l> 
+<l>Parcet illi, et non derelinquet illud,</l>
+<l indent="1">et celabit in gutture suo.</l> 
+<l>Panis ejus in utero illius vertetur</l>
+<l indent="1">in fel aspidum intrinsecus.</l> 
+<l>Divitias quas devoravit, evomet,</l>
+<l indent="1">et de ventre illius extrahet eas Deus.</l> 
+<l>
+<pb n="1101C"/>Caput aspidum suget [ <hi>Al.</hi> surget],</l>
+<l indent="1">occidet eum lingua viperae.</l> 
+<l>(Non videat rivulos fluminis,</l>
+<l indent="1">torrentes mellis, et butyri.)</l>
+<l>Luet quae fecit omnia, nec tamen consumetur:</l>
+<l indent="1">juxta multitudinem adinventionum suarum, sic et</l>
+<l rend="indent(1)">sustinebit.</l> 
+<l>Quoniam confringens nudavit pauperes:</l>
+<l indent="1">domum rapuit, et non aedificavit eam.</l> 
+<l>Nec est satiatus venter ejus:</l>
+<l indent="1">et cum habuerit quae concupierat, possidere non</l>
+<l rend="indent(1)">poterit.</l> 
+<l>Non remansit de cibo ejus,</l>
+<l indent="1">et propterea nihil permanebit de bonis ejus.</l> 
+<l>Cum satiatus fuerit, arctabitur,</l>
+<l indent="1">aestuabit, et omnis dolor irruet in [ <hi>Al.</hi> super] eum.</l> 
+<l>Utinam impleatur venter ejus,</l>
+<l indent="1">ut emittat in eum iram furoris sui,</l>
+<l indent="1">et pluat super illum bellum suum.</l> 
+<l>Fugiet arma ferrea,</l>
+<l indent="1">
+<pb n="1101D"/>et irruet in arcum aereum.</l> 
+<l>Eductus, et egrediens de vagina sua, et fulgurans,</l>
+<l indent="1">in amaritudine sua vadit:</l>
+<l indent="1">et venient super eum horribiles.</l> 
+<l>Omnes tenebrae absconditae sunt in occultis ejus:</l>
+<l indent="1">devorabit eum ignis, qui non succenditur;</l>
+<l indent="1">affligetur relictus in tabernaculo suo.</l> 
+<l>Revelabunt coeli iniquitatem ejus,</l>
+<l indent="1">
+<pb n="1102A"/>et terra consurget adversus eum.</l> 
+<l>Apertum erit germen domus illius,</l>
+<l indent="1">detrahetur in die furoris Dei.</l> 
+<l>Haec est pars hominis impii a Deo,</l>
+<l indent="1">et haereditas verborum ejus a Domino.</l>
+        </div3>
+<p>
+          <emph>RESPONDENS AUTEM JOB, DIXIT:</emph>
+</p>
+<div3>
+          <head>[Cap. XXI.]</head>
+<l> Audite, quaeso, sermones meos,</l>
+<l indent="1">et agite poenitentiam.</l> 
+<l>Sustinete me, et ego loquar;</l>
+<l indent="1">et post mea, si videbitur, verba, ridete.</l> 
+<l>Numquid contra hominem disputatio mea est,</l>
+<l indent="1">ut merito non debeam constristari?</l> 
+<l>Attendite me, et obstupescite,</l>
+<l indent="1">et superponite digitum ori vestro:</l>
+<l>Et ego quando recordatus fuero, pertimesco,</l>
+<l indent="1">et concutit carnem meam tremor.</l> 
+<l>Quare ergo impii vivunt,</l>
+<l indent="1">sublevati sunt, confortatique divitiis?</l> 
+<l>Semen eorum permanet coram eis,</l>
+<l indent="1">
+<pb n="1102B"/>propinquorum turba et nepotum in conspectu eorum.</l> 
+<l>Domus eorum securae sunt et pacatae,</l>
+<l indent="1">et non est virga Dei super illos.</l> 
+<l>Bos eorum concepit, et non abortivit:</l>
+<l indent="1">vacca peperit, et non est privata fetu suo.</l> 
+<l>Egrediuntur quasi greges parvuli eorum,</l>
+<l indent="1">et infantes eorum exsultant lusibus.</l> 
+<l>Tenent tympanum, et citharam,</l>
+<l indent="1">et gaudent ad sonitum organi.</l> 
+<l>Ducunt in bonis dies suos,</l>
+<l indent="1">et in puncto ad inferna descendunt.</l> 
+<l>Qui dixerunt Deo: Recede a nobis,</l>
+<l indent="1">et scientiam viarum tuarum nolumus.</l> 
+<l>Quid est Omnipotens, ut serviamus ei?</l> 
+<l indent="1">et quid nobis prodest si oraverimus illum?</l> 
+<l>Verum tamen quia non sunt in manu eorum bona sua,</l>
+<l indent="1">consilium impiorum longe sit a me.</l> 
+<l>Quoties lucerna impiorum exstinguetur,</l>
+<l indent="1">
+<pb n="1102C"/>et superveniet eis inundatio.</l> 
+<l indent="1">et dolores dividet furoris sui!</l> 
+<l>Erunt sicut paleae ante faciem venti,</l>
+<l indent="1">et sicut favilla quam turbo dispergit.</l> 
+<l>Deus servabit filiis illius dolorem patris:</l>
+<l indent="1">et cum reddiderit, tunc sciet.</l> 
+<l>Videbunt oculi ejus interfectionem suam,</l>
+<l indent="1">et de furore Omnipotentis bibet.</l> 
+<l>Quid enim ad eum pertinet de domo sua post se?</l> 
+<l indent="1">et si numerus mensium ejus dimidietur?</l> 
+<l>Numquid Deum quispiam docebit scientiam:</l>
+<l indent="1">qui excelsos judicat?</l> 
+<l>Iste moritur robustus et sanus,</l>
+<l indent="1">dives [ <hi>Al.</hi> divisus] et felix.</l> 
+<l>Viscera ejus plena sunt adipe,</l>
+<l indent="1">et medullis ossa illius irrigantur.</l> 
+<l>Alius vero moritur in amaritudine animae</l>
+<l indent="1">absque ullis opibus.</l> 
+<l>Et tamen simul in pulvere dormient,</l>
+<l indent="1">et vermes operient eos.</l> 
+<l>
+<pb n="1102D"/>Certe novi cogitationes vestras,</l>
+<l indent="1">et sententias contra me iniquas.</l> 
+<l>Dicitis enim: Ubi est domus principis?</l> 
+<l indent="1">et ubi tabernacula impiorum?</l> 
+<l>Interrogate quemlibet de viatoribus,</l>
+<l indent="1">et haec eadem eum intelligere cognoscetis.</l> 
+<l>Quia in diem perditionis servatur [ <hi>Al.</hi> servabitur]</l>
+<l rend="indent(1)">malus,</l>
+<l indent="1">
+<pb n="1103A"/>et ad diem furoris ducetur.</l> 
+<l>Quis arguet coram eo viam ejus,</l>
+<l indent="1">et quae fecit, quis reddet illi?</l> 
+<l>Ipse ad sepulcra ducetur,</l>
+<l indent="1">et in congerie mortuorum vigilabit:</l>
+<l>Dulcis fuit glareis [ <hi>Al.</hi> gladiis] Cocyti,</l>
+<l indent="1">et post se omnem hominem trahet,</l>
+<l indent="1">et ante se innumerabiles.</l> 
+<l>Quomodo igitur consolamini me frustra,</l>
+<l indent="1">cum responsio vestra repugnare ostensa sit veritati?</l>
+<p>
+            <emph>RESPONDENS AUTEM ELIPHAZ THEMANITES, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXII.]</head>
+<l> Numquid Deo comparari potest homo,</l>
+<l indent="1">etiam cum perfectae fuerit scientiae?</l> 
+<l>Quid prodest Deo si justus fueris?</l> 
+<l indent="1">aut quid ei confers, si immaculatae fuerint viae tuae.</l> 
+<l>Numquid timens te arguet te,</l>
+<l indent="1">et veniet tecum in judicium,</l>
+<l>Et non propter malitiam tuam plurimam,</l>
+<l indent="1">et infinitas iniquitates tuas?</l> 
+<l>
+<pb n="1103B"/>Abstulisti enim pignus fratrum tuorum sine causa,</l>
+<l indent="1">et nudos exspoliasti vestibus.</l> 
+<l>Aquam lasso non dedisti,</l>
+<l indent="1">et esurienti subtraxisti panem.</l> 
+<l>In fortitudine brachii tui possidebas terram,</l>
+<l indent="1">et potentissimus obtinebas eam.</l> 
+<l>Viduas dimisisti vacuas,</l>
+<l indent="1">et lacertos pupillorum comminuisti.</l> 
+<l>Propterea circumdatus es laqueis,</l>
+<l indent="1">et conturbat te formido subita.</l> 
+<l>Et putabas te tenebras non visurum;</l>
+<l indent="1">et impetu aquarum inundantium non oppressum</l>
+<l rend="indent(1)">iri [ <hi>Al.</hi> oppressurum].</l> 
+<l>An non cogitas quod Deus excelsior coelo sit,</l>
+<l indent="1">et super stellarum verticem sublimetur?</l> 
+<l>Et dicis: Quid enim novit Deus?</l> 
+<l indent="1">et quasi per caliginem judicat.</l> 
+<l>Nubes latibulum ejus, nec nostra considerat,</l>
+<l indent="1">et circa cardines coeli perambulat.</l> 
+<l>
+<pb n="1103C"/>Numquid semitam saeculorum custodire cupis [ <hi>Al.</hi> cupit],</l>
+<l indent="1">quam calcaverunt viri iniqui?</l> 
+<l>Qui sublati sunt ante tempus suum,</l>
+<l indent="1">et fluvius subvertit fundamentum eorum:</l>
+<l>Qui dicebant Deo: Recede a nobis:</l>
+<l indent="1">et quasi nihil posset facere Omnipotens,</l>
+<l indent="1">aestimabant eum.</l> 
+<l>Cum ille implesset domos eorum bonis:</l>
+<l indent="1">quorum sententia procul sit a me.</l> 
+<l>Videbunt justi, et laetabuntur,</l>
+<l indent="1">et innocens subsannabit eos.</l> 
+<l>Nonne succisa est erectio eorum,</l>
+<l indent="1">et reliquias eorum devoravit ignis?</l> 
+<l>Acquiesce igitur ei [ <hi>Al. tac.</hi> ei], et habeto pacem:</l>
+<l indent="1">et per haec habebis fructus optimos.</l> 
+<l>Suscipe ex ore illius legem,</l>
+<l indent="1">et pone sermones illius in corde tuo,</l>
+<l>Si reversus fueris ad Omnipotentem, aedificaberis,</l>
+<l indent="1">et longe facies iniquitatem a tabernaculo tuo.</l> 
+<l>
+<pb n="1103D"/>Dabit pro terra silicem,</l>
+<l indent="1">et pro silice torrentes aureos.</l> 
+<l>Eritque Omnipotens contra hostes tuos,</l>
+<l indent="1">et argentum coacervabitur tibi.</l> 
+<l>Tunc super Omnipotentem deliciis afflues,</l>
+<l indent="1">et elevabis ad Deum faciem tuam.</l> 
+<l>Rogabis eum, et exaudiet te,</l>
+<l indent="1">et vota tua reddes.</l> 
+<l>Decernes rem, et eveniet tibi,</l>
+<l indent="1">et in viis tuis splendebit lumen.</l> 
+<l>Qui enim humiliatus fuerit, erit in gloria:</l>
+<l indent="1">et qui inclinaverit oculos, ipse salvabitur.</l> 
+<l>Salvabitur innocens,</l>
+<l indent="1">
+<pb n="1104A"/>salvabitur autem in [ <hi>Al. tac.</hi> in] munditia manuum</l>
+<l rend="indent(1)">suarum.</l>
+        </div3>
+<p>
+          <emph>RESPONDENS AUTEM JOB, AIT:</emph>
+</p>
+<div3>
+          <head>[Cap. XXIII.]</head>
+<l> Nunc quoque in amaritudine est sermo</l>
+<l indent="1">meus,</l>
+<l indent="1">et manus plagae meae aggravata est super gemitum</l>
+<l rend="indent(1)">meum.</l> 
+<l>Quis mihi tribuat ut cognoscam, et inveniam illum,</l>
+<l indent="1">et veniam usque ad solium ejus</l>
+<l>Ponam coram eo judicium,</l>
+<l indent="1">et os meum replebo increpationibus.</l> 
+<l>Ut sciat verba quae mihi respondeat,</l>
+<l indent="1">et intelligam quid mihi loquatur.</l> 
+<l>Nolo multa fortitudine contendat mecum,</l>
+<l indent="1">nec magnitudinis suae mole me premat;</l>
+<l>Proponat aequitatem contra me,</l>
+<l indent="1">et perveniat ad victoriam judicium meum.</l> 
+<l>Si ad orientem iero, non apparet:</l>
+<l indent="1">si ad occidentem, non intelligam eum.</l> 
+<l>
+<pb n="1104B"/>Si ad sinistram, quid agam? non apprehendam eum:</l>
+<l indent="1">si me vertam ad dexteram, non videbo illum.</l> 
+<l>Ipse vero scit viam meam,</l>
+<l indent="1">et probavit me quasi aurum quod per ignem</l>
+<l rend="indent(1)">transit.</l> 
+<l>Vestigia ejus secutus est pes meus;</l>
+<l indent="1">viam ejus custodivi, et non declinavi ex ea.</l> 
+<l>A mandatis labiorum ejus non recessi,</l>
+<l indent="1">et in sinu meo abscondi verba oris ejus.</l> 
+<l>Ipse enim solus est, nemo avertere potest cogitationem</l>
+<l rend="indent(1)">ejus:</l>
+<l indent="1">et anima ejus quodcumque voluit, fecit.</l> 
+<l>Cum expleverit in me voluntatem suam,</l>
+<l indent="1">et alia multa similia praesto sunt ei.</l> 
+<l>Et idcirco a facie ejus turbatus sum,</l>
+<l indent="1">et considerans eum, timore sollicitor [ <hi>Al.</hi> sollicito].</l> 
+<l>Deus mollivit cor meum,</l>
+<l indent="1">et Omnipotens conturbavit me.</l> 
+<l>Non enim perii propter imminentes tenebras,</l>
+<l indent="1">
+<pb n="1104C"/>nec faciem meam operuit caligo.</l> 
+</div3>
+<div3>
+          <head>[Cap. XXIV.]</head>
+<l> Ab Omnipotente non sunt abscondita</l>
+<l rend="indent(1)">tempora:</l>
+<l indent="1">qui autem noverunt eum [ <hi>Al.</hi> Deum], ignorant</l>
+<l rend="indent(1)">dies illius.</l> 
+<l>Alii terminos transtulerunt,</l>
+<l indent="1">diripuerunt greges, et paverunt eos.</l> 
+<l>Asinum pupillorum abegerunt,</l>
+<l indent="1">et abstulerunt pro pignore bovem viduae.</l> 
+<l>Subverterunt pauperum viam,</l>
+<l indent="1">et oppresserunt pariter mansuetos terrae.</l> 
+<l>Alii quasi onagri in deserto egrediuntur ad opus</l>
+<l rend="indent(1)">suum:</l>
+<l indent="1">vigilantes ad praedam, praeparant panem liberis.</l> 
+<l>Agrum non suum demetunt:</l>
+<l indent="1">et vineam ejus, quem vi oppresserint, vindemiant.</l> 
+<l>Nudos dimittunt homines, indumenta tollentes,</l>
+<l indent="1">quibus non est operimentum in frigore.</l> 
+<l>Quos imbres montium rigant:</l>
+<l indent="1">
+<pb n="1104D"/>et non habentes velamen, amplexantur lapides.</l> 
+<l>Vim fecerunt depraedantes pupillos,</l>
+<l indent="1">et vulgum pauperum spoliaverunt.</l> 
+<l>Nudis et incedentibus absque vestitu</l>
+<l indent="1">et esurientibus tulerunt spicas.</l> 
+<l>Inter acervos eorum meridiati sunt,</l>
+<l indent="1">qui, calcatis torcularibus, sitiunt.</l> 
+<l>De civitatibus fecerunt viros gemere,</l>
+<l indent="1">et anima vulneratorum clamavit,</l>
+<l indent="1">et Deus inultum abire non patitur [ <hi>Al.</hi> patiatur].</l> 
+<l>Ipsi fuerunt rebelles lumini,</l>
+<l indent="1">nescierunt vias ejus, nec reversi sunt per semitas</l>
+<l rend="indent(1)">ejus.</l> 
+<l>
+<pb n="1105A"/>Mane primo consurget homicida,</l>
+<l indent="1">interfecit egenum et pauperem;</l>
+<l rend="indent(1)">per noctem vero erit quasi fur.</l> 
+<l>Oculus adulteri observat caliginem,</l>
+<l indent="1">dicens: Non me videbit oculus:</l>
+<l indent="1">et operiet vultum suum.</l> 
+<l>Perfodit in tenebris domos,</l>
+<l indent="1">sicut in die condixerant sibi, et ignoraverunt lucem.</l> 
+<l>Si subito apparuerit aurora, arbitrantur umbram</l>
+<l rend="indent(1)">mortis:</l>
+<l indent="1">et sic in tenebris quasi in luce ambulant.</l> 
+<l>Levis est super faciem aquae:</l>
+<l indent="1">maledicta sit pars ejus in terra,</l>
+<l indent="1">nec ambulet per viam vinearum.</l> 
+<l>Ad nimium calorem transeat ab aquis nivium,</l>
+<l indent="1">et usque ad inferos peccatum illius.</l> 
+<l>Obliviscatur ejus misericordia:</l>
+<l indent="1">dulcedo illius vermes:</l>
+<l indent="1">Non sit in recordatione,</l>
+<l indent="1">sed conteratur quasi lignum infructuosum.</l> 
+<l>
+<pb n="1105B"/>Pavit enim sterilem, quae [ <hi>Al.</hi> et quae] non parit,</l>
+<l indent="1">et viduae bene non fecit.</l> 
+<l>Detraxit fortes in fortitudine sua:</l>
+<l indent="1">et cum steterit, non credet [ <hi>Al.</hi> credit] vitae suae.</l> 
+<l>Dedit ei Deus locum poenitentiae,</l>
+<l indent="1">et ille abutitur eo in superbiam:</l>
+<l indent="1">oculi autem ejus sunt in viis illius.</l> 
+<l>Elevati sunt ad modicum, et non subsistent,</l>
+<l indent="1">et humiliabuntur sicut omnia, et auferentur,</l>
+<l indent="1">et sicut summitates spicarum conterentur.</l> 
+<l>Quod si non est ita, quis me potest arguere esse</l>
+<l rend="indent(1)">mentitum,</l>
+<l indent="1">et ponere ante Deum verba mea?</l>
+<p>
+            <emph>RESPONDENS AUTEM BALDAD SUITES, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXV.]</head>
+<l> Potestas et terror apud eum est,</l>
+<l indent="1">qui [ <hi>Al.</hi> si] facit concordiam in sublimibus suis.</l> 
+<l>Numquid est numerus militum ejus?</l> 
+<l indent="1">et super quem non surget lumen illius?</l> 
+<l>
+<pb n="1105C"/>Numquid justificari potest homo comparatus Deo,</l>
+<l indent="1">aut apparere mundus natus ex muliere?</l> 
+<l>Ecce etiam [ <hi>Al.</hi> enim] luna non splendet,</l>
+<l indent="1">et stellae non sunt mundae in conspectu ejus:</l>
+<l>Quanto magis homo putredo,</l>
+<l indent="1">et filius hominis vermis!</l>
+<p>
+            <emph>RESPONDENS AUTEM JOB, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXVI.]</head>
+<l> Cujus adjutor es? numquid imbecillis</l>
+<l rend="indent(1)">[ <hi>Al.</hi> imbecilli],</l>
+<l indent="1">et sustentas brachium ejus, qui non est fortis?</l> 
+<l>Cui dedisti consilium?</l> 
+<l indent="1">forsitan illi, qui non habet sapientiam,</l>
+<l indent="1">et prudentiam tuam ostendisti plurimam.</l> 
+<l>Quem docere voluisti,</l>
+<l indent="1">nonne eum, qui fecit spiramentum?</l> 
+<l>Ecce gigantes gemunt sub aquis,</l>
+<l indent="1">et qui habitant cum eis [h. habitantes in eis].</l> 
+<l>Nudus est infernus coram illo,</l>
+<l indent="1">et nullum est operimentum perditioni.</l> 
+<l>
+<pb n="1105D"/>Qui extendit aquilonem super vacuum,</l>
+<l indent="1">et appendit terram super nihili.</l> 
+<l>Qui ligat aquas in nubibus suis,</l>
+<l indent="1">ut [h. et] non erumpant pariter deorsum.</l> 
+<l>Qui tenet vultum solii sui,</l>
+<l indent="1">et expandit super illud nebulam suam.</l> 
+<l>Terminum circumdedit aquis,</l>
+<l indent="1">usque dum finiantur lux et tenebrae.</l> 
+<l>Columnae coeli contremiscunt,</l>
+<l indent="1">et pavent ad nutum ejus.</l> 
+<l>In fortitudine illius repente maria congregata sunt,</l>
+<l indent="1">et prudentia ejus percussit superbum.</l> 
+<l>
+<pb n="1106A"/>Spiritus ejus ornavit coelos:</l>
+<l indent="1">et obstetricante manu ejus, eductus est coluber</l>
+<l rend="indent(1)">tortuosus [h. vectis].</l> 
+<l>Ecce, haec ex parte dicta sunt viarum ejus,</l>
+<l indent="1">et cum vix parvam stillam sermonis ejus audierimus,</l>
+<l indent="1">quis poterit tonitrum magnitudinis illius intueri?</l>
+        </div3>
+<p>
+          <emph>ADDIDIT QUOQUE JOB, ASSUMENS PARABOLAM SUAM,
+ET DIXIT:</emph>
+</p>
+<div3>
+          <head>[Cap. XXVII.]</head>
+<l> Vivit Deus, qui abstulit judicium meum,</l>
+<l indent="1">et Omnipotens, qui ad amaritudinem adduxit animam</l>
+<l rend="indent(1)">meam.</l> 
+<l>Quia donec superest halitus in me,</l>
+<l indent="1">et spiritus Dei in naribus meis,</l>
+<l>Non loquentur labia mea iniquitatem,</l>
+<l indent="1">nec lingua mea meditabitur mendacium.</l> 
+<l>Absit a me ut justos esse vos judicem:</l>
+<l indent="1">
+<pb n="1106B"/>donec deficiam, non recedam ab innocentia mea.</l> 
+<l>Justificationem meam, quam coepi tenere, non deseram:</l>
+<l indent="1">nec enim reprehendit [ <hi>Al.</hi> comprehendit] me cor</l>
+<l rend="indent(1)">meum in omni vita mea.</l> 
+<l>Sit ut impius, inimicus meus:</l>
+<l indent="1">et adversarius meus quasi iniquus.</l> 
+<l>Quae enim spes est hypocritae si avare rapiat,</l>
+<l indent="1">et non liberet Deus animam ejus [h. Numquid</l>
+<l rend="indent(1)">liberabit Deus animam ejus]?</l> 
+<l>Numquid clamorem ejus Deus audiet,</l>
+<l indent="1">cum venerit super illum angustia?</l> 
+<l>Aut poterit in Omnipotente delectari,</l>
+<l indent="1">et invocare Deum in omni tempore?</l> 
+<l>Docebo vos per manum Dei</l>
+<l indent="1">quae Omnipotens habeat, nec abscondam.</l> 
+<l>Ecce vos omnes nostis,</l>
+<l indent="1">et ut [ <hi>Al. tac.</hi> ut] quid sine causa vana loquimini,</l>
+<l>Haec est pars hominis impii apud Deum,</l>
+<l indent="1">et haereditas violentorum, quam ab Omnipotente</l>
+<l rend="indent(1)">
+<pb n="1106C"/>suscipient.</l> 
+<l>Si multiplicati fuerint filii ejus, in gladio erunt,</l>
+<l indent="1">et nepotes ejus non saturabuntur pane.</l> 
+<l>Qui reliqui fuerint ex eo, sepelientur in interitu,</l>
+<l indent="1">et viduae illius non plorabunt.</l> 
+<l>Si comportaverit quasi terram [h. pulverem] argentum,</l>
+<l indent="1">et sicut lutum praeparaverit vestimenta.</l> 
+<l>Praeparabit quidem, sed justus vestietur illis:</l>
+<l indent="1">et argentum innocens dividet.</l> 
+<l>Aedificavit sicut tinea domum suam,</l>
+<l indent="1">et sicut custos fecit umbraculum.</l> 
+<l>Dives cum dormierit, nihil secum auferet:</l>
+<l indent="1">aperiet oculos suos, et nihil inveniet.</l> 
+<l>Apprehendet eum quasi aqua inopia,</l>
+<l indent="1">nocte opprimet eum tempestas:</l>
+<l>Tollet eum <hi>ventus</hi> [h. non habet] urens, et auferet,</l>
+<l indent="1">et velut turbo rapiet eum de loco suo.</l> 
+<l>Et mittet super eum, et non parcet:</l>
+<l indent="1">
+<pb n="1106D"/>de manu ejus fugiens [ <hi>Al. tac.</hi> fugiens] fugiet.</l> 
+<l>Stringet super eum manus suas,</l>
+<l indent="1">et sibilabit super illum, intuens locum ejus.</l> 
+</div3>
+<div3>
+          <head>[Cap. XXVIII.]</head>
+<l> Habet argentum, venarum suarum</l>
+<l rend="indent(1)">principia:</l>
+<l indent="1">et auro locus est, in quo conflatur.</l> 
+<l>Ferrum de terra tollitur:</l>
+<l indent="1">et lapis solutus calore in aes vertitur.</l> 
+<l>Tempus posuit tenebris,</l>
+<l indent="1">et universorum finem ipse considerat,</l>
+<l indent="1">lapidem quoque caliginis, et umbram mortis.</l> 
+<l indent="1">Dividit [h. divisit] torrens a populo peregrinante,</l>
+<l indent="1">
+<pb n="1107A"/>eos, quos oblitus est pes egentis hominis, et invios.</l> 
+<l>Terra, de qua oriebatur panis,</l>
+<l indent="1">in loco suo igne subversa est.</l> 
+<l>Locus sapphiri lapides ejus,</l>
+<l indent="1">et glebae illius aurum.</l> 
+<l>Semitam ignoravit avis,</l>
+<l indent="1">nec intuitus est eam oculus vulturis.</l> 
+<l>Non calcaverunt eam filii institorum [h. superbi],</l>
+<l indent="1">nec pertransivit [ <hi>Al. tac.</hi> pertransivit] per eam leaena.</l> 
+<l>Ad silicem extendit manum suam,</l>
+<l indent="1">subvertit a radicibus montes,</l>
+<l>In petris rivos scidit,</l>
+<l indent="1">et omne pretiosum vidit oculus ejus.</l> 
+<l>Profunda quoque fluviorum scrutatus est,</l>
+<l indent="1">et abscondita produxit in lucem.</l> 
+<l>Sapientia vero ubi invenitur,</l>
+<l indent="1">et quis est locus intelligentiae?</l> 
+<l>Nescit homo pretium ejus,</l>
+<l indent="1">nec invenitur in terra suaviter viventium [h. Non</l>
+<l rend="indent(1)">
+<pb n="1107B"/>invenitur in terra viventium].</l> 
+<l>Abyssus dicit: Non est in me:</l>
+<l indent="1">et mare loquitur: Non est mecum.</l> 
+<l>Non dabitur aurum obryzum pro ea,</l>
+<l indent="1">nec appendetur argentum in commutatione ejus.</l> 
+<l>Non conferetur tinctis Indiae coloribus,</l>
+<l indent="1">nec lapidi sardonycho pretiosissimo, vel sapphiro.</l> 
+<l>Non adaequabitur ei aurum vel vitrum,</l>
+<l indent="1">nec commutabuntur pro ea vasa auri.</l> 
+<l>Excelsa et eminentia non memorabuntur comparatione</l>
+<l rend="indent(1)">ejus,</l>
+<l indent="1">trahitur autem sapientia de occultis.</l> 
+<l>Non adaequabitur ei topazium de Aethiopia,</l>
+<l indent="1">nec tincturae mundissimae [h. Non auro mundo]</l>
+<l rend="indent(1)">componentur.</l> 
+<l>Unde ergo sapientia veniet [ <hi>Al.</hi> venit]?</l> 
+<l indent="1">et quis est locus intelligentiae?</l> 
+<l>Abscondita est ab oculis omnium viventium,</l>
+<l indent="1">volucres quoque coeli latet.</l> 
+<l>
+<pb n="1107C"/>Perditio et mors dixerunt:</l>
+<l>Auribus nostris audivimus famam ejus,</l>
+<l>Deus intelligit viam ejus,</l>
+<l indent="1">et ipse novit locum illius.</l> 
+<l>Ipse enim fines mundi intuetur:</l>
+<l indent="1">et omnia, quae sub coelo sunt, respicit.</l> 
+<l>Qui fecit ventis pondus,</l>
+<l indent="1">et aquas appendit in mensura:</l>
+<l>Quando ponebat pluviis legem,</l>
+<l indent="1">et viam procellis sonantibus,</l>
+<l>Tunc vidit illam, et enarravit.</l> 
+<l indent="1">et praeparavit et investigavit,</l>
+<l>Et dixit homini [h. Adam]: Ecce timor Domini, ipsa</l>
+<l rend="indent(1)">est sapientia:</l>
+<l indent="1">et recedere a malo, intelligentia.</l>
+<p>
+            <emph>ADDIDIT QUOQUE JOB, ASSUMENS PARABOLAM SUAM,
+ET DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXIX.]</head>
+<l> Quis mihi tribuat, ut sim juxta menses</l>
+<l rend="indent(1)">pristinos,</l>
+<l indent="1">
+<pb n="1107D"/>secundum dies quibus Deus custodiebat me?</l> 
+<l>Quando splendebat lucerna ejus super caput meum,</l>
+<l indent="1">et ad lumen ejus ambulabam in tenebris;</l>
+<l>Sicut fui in diebus adolescentiae meae,</l>
+<l indent="1">quando secreto Deus [h. <hi>secretum Dei</hi> ] erat in</l>
+<l rend="indent(1)">tabernaculo meo;</l>
+<l>
+<pb n="1108A"/>Quando erat Omnipotens mecum:</l>
+<l indent="1">et in circuitu meo pueri mei;</l>
+<l>Quando lavabam pedes meos butyro,</l>
+<l indent="1">et petra fundebat mihi rivos olei;</l>
+<l>Quando procedebam ad portam civitatis,</l>
+<l indent="1">et in platea parabant cathedram mihi.</l> 
+<l>Videbant me juvenes, et abscondebantur:</l>
+<l indent="1">et senes assurgentes stabant.</l> 
+<l>Principes cessabant loqui,</l>
+<l indent="1">et digitum superponebant ori suo.</l> 
+<l>Vocem suam cohibebant duces,</l>
+<l indent="1">et lingua eorum gutturi suo adhaerebat.</l> 
+<l>Auris audiens beatificabat me,</l>
+<l indent="1">et oculus videns testimonium reddebat mihi.</l> 
+<l>Quod [ <hi>Al.</hi> Eo quod] liberassem pauperem vociferantem,</l>
+<l indent="1">et pupillum, cui non esset adjutor.</l> 
+<l>Benedictio perituri super me veniebat,</l>
+<l indent="1">et cor viduae consolatus sum.</l> 
+<l>Justitia indutus sum, et vestivit [ <hi>Al.</hi> vestivi] me,</l>
+<l indent="1">
+<pb n="1108B"/>sicut vestimento et diademate, judicio meo.</l> 
+<l>Oculus fui caeco,</l>
+<l indent="1">et pes claudo.</l> 
+<l>Pater eram pauperum:</l>
+<l indent="1">et causam quam nesciebam, diligentissime investigabam.</l> 
+<l>Conterebam molas iniqui,</l>
+<l indent="1">et de dentibus illius auferebam praedam.</l> 
+<l>Dicebamque: In nidulo meo moriar,</l>
+<l indent="1">et sicut palma [h. arena] multiplicabo dies.</l> 
+<l>Radix mea aperta est secus aquas,</l>
+<l indent="1">et ros morabitur in messione mea.</l> 
+<l>Gloria mea semper innovabitur,</l>
+<l indent="1">et arcus meus in manu mea instaurabitur.</l> 
+<l>Qui me audiebant, exspectabant sententiam,</l>
+<l indent="1">et intenti tacebant ad consilium meum,</l>
+<l>Verbis meis addere nihil audebant,</l>
+<l indent="1">et super illos stillabat eloquium meum;</l>
+<l>Exspectabant me sicut pluviam,</l>
+<l indent="1">
+<pb n="1108C"/>et os suum aperiebant quasi ad imbrem serotinum;</l>
+<l>Si quando ridebam ad eos, non credebant,</l>
+<l indent="1">et lux vultus mei non cadebat in terram.</l> 
+<l>Si voluissem ire ad eos, sedebam primus:</l>
+<l indent="1">cumque sederem quasi rex, circumstante exercitu,</l>
+<l indent="1">eram tamen moerentium consolator.</l> 
+</div3>
+<div3>
+          <head>[Cap. XXX.]</head>
+<l> Nunc autem derident me juniores tempore,</l>
+<l indent="1">quorum non dignabar patres ponere cum canibus</l>
+<l rend="indent(1)">gregis mei:</l>
+<l>Quorum virtus manuum erat mihi pro nihilo,</l>
+<l indent="1">et vita ipsa putabantur indigni.</l> 
+<l>Egestate et fame steriles,</l>
+<l indent="1">qui rodebant in solitudine, squallentes calamitate</l>
+<l rend="indent(1)">et miseria.</l> 
+<l>Et mandebant herbas, et arborum cortices,</l>
+<l indent="1">et radix juniperorum erat cibus eorum.</l> 
+<l>Qui de convallibus ista rapientes,</l>
+<l indent="1">cum singula reperissent, ad ea cum clamore currebant.</l> 
+<l>
+<pb n="1108D"/>In desertis habitabant torrentium,</l>
+<l indent="1">et in cavernis terrae, vel super glaream.</l> 
+<l>Qui inter hujuscemodi laetabantur [h. inter arbusta</l>
+<l rend="indent(1)">laetabantur],</l>
+<l indent="1">et esse sub sentibus delicias computabant,</l>
+<l>Filii stultorum et ignobilium,</l>
+<l indent="1">
+<pb n="1109A"/>in terra penitus non parentes.</l> 
+<l>Nunc in eorum canticum versus sum,</l>
+<l indent="1">et factus sum eis [ <hi>Al. add.</hi> in] proverbium:</l>
+<l>Abominantur me, et longe fugiunt a me,</l>
+<l indent="1">et faciem meam conspuere non verentur.</l> 
+<l>Pharetram enim suam aperuit, et afflixit me,</l>
+<l indent="1">et frenum posuit in os meum.</l> 
+<l>Ad dexteram orientis calamitates meae illico surrexerunt:</l>
+<l indent="1">pedes meos subverterunt,</l>
+<l indent="1">et oppresserunt quasi fluctibus semitis suis.</l> 
+<l>Dissipaverunt itinera mea,</l>
+<l indent="1">insidiati sunt mihi, et praevaluerunt,</l>
+<l indent="1">et non fuit qui ferret auxilium.</l> 
+<l>Quasi rupto muro, et aperta janua [h. <hi>fracta janua</hi> ],</l>
+<l rend="indent(1)">irruerunt super me,</l>
+<l indent="1">et ad meas miserias devoluti sunt.</l> 
+<l>Redactus sum in nihili:</l>
+<l indent="1">abstulisti quasi ventus desiderium meum:</l>
+<l indent="1">et velut nubes pertransiit salus mea.</l> 
+<l>
+<pb n="1109B"/>Nunc autem in memetipso marcescit anima mea,</l>
+<l indent="1">et possident me dies afflictionis.</l> 
+<l>Nocte os meum perforatur doloribus;</l>
+<l indent="1">et qui me comedunt, non dormiunt.</l> 
+<l>In multitudine eorum consumitur vestimentum meum,</l>
+<l indent="1">et quasi capitio tunicae succinxerunt me.</l> 
+<l>Comparatus sum luto,</l>
+<l indent="1">et assimilatus sum favillae et cineri.</l> 
+<l>Clamo ad te, et non exaudis me:</l>
+<l indent="1">sto, et non respicis me.</l> 
+<l>Mutatus es mihi in crudelem,</l>
+<l indent="1">et in duritia manus tuae adversaris mihi.</l> 
+<l>Elevasti me,</l>
+<l indent="1">et quasi super ventum ponens</l>
+<l indent="1">elisisti me valide,</l>
+<l>Scio enim quia morti trades me,</l>
+<l indent="1">ubi constituta est domus omni viventi.</l> 
+<l>Verumtamen non ad consummationem meam emittis</l>
+<l rend="indent(1)">manum tuam:</l>
+<l indent="1">
+<pb n="1109C"/>et si corruerint, ipse salvabis.</l> 
+<l>Flebam quondam super eo qui afflictus erat,</l>
+<l indent="1">et compatiebatur anima mea pauperi.</l> 
+<l>Exspectabam bona, et venerunt mihi mala:</l>
+<l indent="1">praestolabar lucem, et eruperunt tenebrae.</l> 
+<l>Interiora mea efferbuerunt absque ulla requie,</l>
+<l indent="1">praevenerunt me dies afflictionis.</l> 
+<l>Moerens incedebam, sine furore;</l>
+<l indent="1">consurgens, in turba clamavi.</l> 
+<l>Frater fui draconum,</l>
+<l indent="1">et socius struthionum,</l>
+<l>Cutis mea denigrata est super me,</l>
+<l indent="1">et ossa mea aruerunt prae caumate.</l> 
+<l>Versa est [h. Et fuit] in luctum cithara mea,</l>
+<l indent="1">et organum meum in vocem flentium.</l> 
+</div3>
+<div3>
+          <head>[Cap. XXXI.]</head>
+<l> Pepigi foedus cum oculis meis,</l>
+<l indent="1">ut ne cogitarem quidem de virgine.</l> 
+<l>Quam enim partem haberet Deus in me desuper,</l>
+<l indent="1">et haereditatem Omnipotens de excelsis?</l> 
+<l>Numquid non perditio est iniquo,</l>
+<l indent="1">
+<pb n="1109D"/>et alienatio operantibus injustitiam?</l> 
+<l>Nonne ipse considerat vias meas,</l>
+<l indent="1">et cunctos gressus meos dinumerat?</l> 
+<l>Si ambula vi in vanitate,</l>
+<l indent="1">et festinavit in dolo pes meus:</l>
+<l>Appendat me in statera justa,</l>
+<l indent="1">et sciat Deus simplicitatem meam.</l> 
+<l>Si declinavit gressus meus de via,</l>
+<l indent="1">et <hi>si</hi> [h. non habet] secutum est oculos meos</l>
+<l rend="indent(1)">cor meum,</l>
+<l indent="1">et in manibus meis adhaesit macula.</l> 
+<l>
+<pb n="1110A"/>Seram, et alius comedat:</l>
+<l indent="1">et progenies mea eradicetur.</l> 
+<l>Si deceptum est cor meum super muliere,</l>
+<l indent="1">et si ad ostium amici mei insidiatus sum:</l>
+<l>Scortum sit uxor mea alterius,</l>
+<l indent="1">et super illam incurventur alii.</l> 
+<l>Hoc enim nefas est,</l>
+<l indent="1">et iniquitas maxima.</l> 
+<l>Ignis est usque ad perditionem devorans,</l>
+<l indent="1">et omnia eradicans genimina.</l> 
+<l>Si contempsi subire judicium cum servo meo et</l>
+<l rend="indent(1)">ancilla mea,</l>
+<l indent="1">cum disceptarent adversum me.</l> 
+<l>Quid enim faciam cum surrexerit ad judicandum</l>
+<l rend="indent(1)">Deus?</l> 
+<l indent="1">et cum quaesierit, quid respondebo illi?</l> 
+<l>Numquid non in utero fecit me qui et illum operatus</l>
+<l rend="indent(1)">est:</l>
+<l indent="1">et formavit me in vulva unus [h. et formavit nos</l>
+<l rend="indent(1)">in vulva una]?</l> 
+<l>
+<pb n="1110B"/>Si negavi, quod volebant, pauperibus,</l>
+<l indent="1">et oculos viduae exspectare feci.</l> 
+<l>Si comedi buccellam meam solus,</l>
+<l indent="1">et non comedit pupillus ex ea:</l>
+<l>Quia ab infantia mea crevit mecum miseratio [h.</l>
+<l indent="1">crescere me fecit sicut pater]:</l>
+<l indent="1">et de utero matris meae egressa est mecum.</l> 
+<l>Si despexi [h. aspexi] pereuntem, eo quod non habuerit</l>
+<l rend="indent(1)">indumentum,</l>
+<l indent="1">et absque operimento pauperem:</l>
+<l>Si non benedixerunt mihi latera ejus,</l>
+<l indent="1">et de velleribus ovium mearum calefactus est.</l> 
+<l>Si levavi super pupillum manum meam,</l>
+<l indent="1">etiam cum viderem me in porta superiorem [h.</l>
+<l rend="indent(1)">superiori].</l> 
+<l>Humerus meus a junctura sua cadat,</l>
+<l indent="1">et brachium meum cum suis ossibus confringatur.</l> 
+<l>Semper enim quasi tumentes super me fluctus timui</l>
+<l rend="indent(1)">Deum,</l>
+<l indent="1">
+<pb n="1110C"/>et pondus ejus ferre non potui.</l> 
+<l>Si putavi aurum robur meum,</l>
+<l indent="1">et obryzo dixi: Fiducia mea.</l> 
+<l>Si laetatus sum super multis divitiis meis,</l>
+<l indent="1">et quia plurima reperit manus mea.</l> 
+<l>Si vidi solem [h. lucem] cum fulgeret,</l>
+<l indent="1">et lunam incedentem clare:</l>
+<l>Et laetatum est in abscondito cor meum,</l>
+<l indent="1">et osculatus sum manum meam ore meo.</l> 
+<l>Quae est iniquitas maxima,</l>
+<l indent="1">et negatio contra Deum altissimum.</l> 
+<l>Si gavisus sum ad ruinam ejus qui me oderat,</l>
+<l indent="1">et exultavi, quod invenisset eum malum.</l> 
+<l>Non enim dedi ad peccandum guttur meum,</l>
+<l indent="1">ut expeterem maledicens animam ejus.</l> 
+<l>Si non dixerunt viri tabernaculi mei:</l>
+<l indent="1">Quis det de carnibus ejus ut saturemur?</l> 
+<l>Foris non mansit peregrinus,</l>
+<l indent="1">ostium [h. ostia] meum viatori patuit.</l> 
+<l>Si abscondi quasi homo [h. Adam] peccatum meum,</l>
+<l indent="1">
+<pb n="1110D"/>et celavi in sinu meo iniquitatem meam.</l> 
+<l>Si expavi ad multitudinem nimiam,</l>
+<l indent="1">et despectio propinquorum terruit me:</l>
+<l indent="1">et non magis tacui, nec egressus sum ostium.</l> 
+<l>Quis mihi tribuat auditorem,</l>
+<l indent="1">ut desiderium meum Omnipotens audiat:</l>
+<l indent="1">et librum scribat ipse qui judicat:</l>
+<l>Ut in humero meo portem illum,</l>
+<l indent="1">et circumdem illum quasi coronam mihi?</l> 
+<l>Per singulos gradus meos pronuntiabo illum,</l>
+<l indent="1">et quasi principi offeram eum.</l> 
+<l>
+<pb n="1111A"/>Si adversum me terra mea clamat,</l>
+<l indent="1">et cum ipsa sulci ejus deflent.</l> 
+<l>Si fructus ejus comedi absque pecunia,</l>
+<l indent="1">et animam agricolarum ejus afflixi:</l>
+<l>Pro frumento oriatur mihi tribulus,</l>
+<l indent="1">et pro hordeo spina.</l>
+<p>
+            <emph>FINITA SUNT VERBA JOB.</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXXII.]</head>
+<l> Omiserunt autem tres viri isti respondere</l>
+<l rend="indent(1)">Job,</l>
+<l indent="1">eo quod justus sibi videretur.</l> 
+<l>Et iratus indignatusque Eliu</l>
+<l indent="1">filius Barachel Buzites de cognatione Ram,</l>
+<l indent="1">iratus est autem adversum Job,</l>
+<l indent="1">eo quod justum esse se diceret coram Deo.</l> 
+<l>Porro adversum amicos ejus indignatus est,</l>
+<l indent="1">eo quod non invenissent responsionem rationabilem,</l>
+<l indent="1">sed tantummodo condemnassent Job [h. unde</l>
+<l rend="indent(1)">condemnassent Job].</l> 
+<l>
+<pb n="1111B"/>Igitur Eliu exspectavit Job loquentem:</l>
+<l indent="1">eo quod seniores se essent qui loquebantur.</l> 
+<l>Cum autem vidisset quod tres respondere non possent</l>
+<l rend="indent(1)">[ <hi>Al.</hi> potuissent],</l>
+<l indent="1">iratus est vehementer.</l>
+        </div3>
+<p>
+          <emph>RESPONDENSQUE ELIU FILIUS BARACHEL BUZITES,
+DIXIT:</emph>
+<l>Junior sum tempore,</l>
+<l indent="1">vos autem antiquiores,</l>
+<l indent="1">idcirco, demisso capite, veritus sum</l>
+<l indent="1">indicare vobis [ <hi>Al. add.</hi> ego] meam sententiam.</l> 
+<l>Sperabam enim quod aetas prolixior loqueretur,</l>
+<l indent="1">et annorum multitudo doceret sapientiam.</l> 
+<l>Sed, ut video, Spiritus est in hominibus,</l>
+<l indent="1">et inspiratio Omnipotentis dat intelligentiam.</l> 
+<l>Non sunt longaevi sapientes,</l>
+<l indent="1">nec senes intelligunt judicium.</l> 
+<l>Ideo dicam: Audite me,</l>
+<l indent="1">ostendam vobis etiam ego meam scientiam [ <hi>Al.</hi> </l>
+<l rend="indent(1)">
+<pb n="1111C"/>sapientiam].</l> 
+<l>Exspectavi enim sermones vestros,</l>
+<l indent="1">audivi prudentiam vestram,</l>
+<l indent="1">donec disceptaremini sermonibus.</l> 
+<l>Et donec putabam vos aliquid dicere, considerabam:</l>
+<l indent="1">sed, ut video, non est qui arguere possit Job,</l>
+<l indent="1">et respondere ex vobis sermonibus ejus.</l> 
+<l>Ne forte dicaris [h. forte diceretis]: Invenimus sapientiam,</l>
+<l>Deus projecit eum, et non homo.</l> 
+<l>Nihil locutus est mihi,</l>
+<l indent="1">et ego non secundum sermones vestros respondebo</l>
+<l rend="indent(1)">illi.</l> 
+<l>Extimuerunt, non [ <hi>Al.</hi> et non] responderunt ultra,</l>
+<l indent="1">abstuleruntque a se eloquia.</l> 
+<l>Quoniam igitur exspectavi, et non sunt locuti:</l>
+<l indent="1">steterunt, nec responderunt ultra:</l>
+<l>Respondebo et ego partem meam;</l>
+<l indent="1">et ostendam scientiam meam.</l> 
+<l>
+<pb n="1111D"/>Plenus sum enim sermonibus,</l>
+<l indent="1">et coarctat me spiritus uteri mei.</l> 
+<l>En venter meus quasi mustum absque spiraculo,</l>
+<l indent="1">quod lagunculas novas disrumpit.</l> 
+<l>Loquar et respirabo paululum;</l>
+<l indent="1">aperiam labia mea, et respondebo:</l>
+<l>Non accipiam personam viri,</l>
+<l indent="1">et Deum homini non aequabo.</l> 
+<l>
+<pb n="1112A"/>Nescio enim quamdiu subsistam,</l>
+<l indent="1">et si post modicum tollat me Factor meus.</l> 
+</p>
+<div3>
+          <head>[Cap. XXXIII.]</head>
+<l> Audi igitur, Job, eloquia mea,</l>
+<l indent="1">et omnes sermones meos ausculta.</l> 
+<l>Ecce aperui os meum,</l>
+<l indent="1">loquatur lingua mea in faucibus meis.</l> 
+<l>Simplici corde meo sermones mei,</l>
+<l indent="1">et sententiam [h. scientiam] labia mea puram loquentur.</l> 
+<l>Spiritus Dei fecit me,</l>
+<l indent="1">et spiraculum Omnipotentis vivificavit me.</l> 
+<l>Si potes, responde mihi,</l>
+<l indent="1">et adversus faciem meam consiste.</l> 
+<l>Ecce, et me sicut et te fecit Deus,</l>
+<l indent="1">et de eodem luto ego quoque formatus sum.</l> 
+<l>Verumtamen miraculum meum [h. timor meus] non</l>
+<l rend="indent(1)">te terreat,</l>
+<l indent="1">et eloquentia mea non sit tibi gravis,</l>
+<l>Dixisti ergo in auribus meis,</l>
+<l indent="1">et vocem verborum tuorum audivi:</l>
+<l>
+<pb n="1112B"/>Mundus sum ego, absque delicto immaculatus,</l>
+<l indent="1">et non est iniquitas in me.</l> 
+<l>Quia querelas in me reperit,</l>
+<l indent="1">ideo arbitratus est me inimicum sibi.</l> 
+<l>Posuit in nervo pedes meos,</l>
+<l indent="1">custodivit omnes semitas meas.</l> 
+<l>Hoc est ergo, in quo non es justificatus:</l>
+<l indent="1">respondebo tibi, quia major sit Deus homine.</l> 
+<l>Adversus [h. Cur adversus] eum contendis,</l>
+<l indent="1">quod non ad omnia verba responderit tibi:</l>
+<l>Semel loquitur Deus,</l>
+<l indent="1">et secundo idipsum non repetit.</l> 
+<l>Per somnium in visione nocturna,</l>
+<l indent="1">quando irruit sopor super homines,</l>
+<l indent="1">et dormiunt in lectulo.</l> 
+<l>Tunc aperit aures virorum,</l>
+<l indent="1">et erudiens eos instruit disciplina.</l> 
+<l>Ut avertat hominem ab his quae facit,</l>
+<l indent="1">et liberet eum de superbia:</l>
+<l>
+<pb n="1112C"/>Eruens animam ejus a corruptione:</l>
+<l indent="1">et vitam illius, ut non transeat in gladium.</l> 
+<l>Increpat quoque per dolorem in lectulo,</l>
+<l indent="1">et onnia ossa ejus marcescere facit.</l> 
+<l>Abominabilis ei fit in vita sua panis,</l>
+<l indent="1">et animae illius cibus ante desiderabilis.</l> 
+<l>Tabescet caro ejus;</l>
+<l indent="1">et ossa, quae recta fuerant, nudabuntur,</l>
+<l> Appropinquavit corruptioni anima ejus,</l>
+<l indent="1">et vita illius mortiferis.</l> 
+<l>Si fuerit pro eo angelus loquens unum de millibus</l>
+<l rend="indent(1)">[h. unus de mille],</l>
+<l indent="1">ut annuntiet hominis aequitatem:</l>
+<l>Miserebitur ejus, et dicet: Libera eum,</l>
+<l indent="1">ut [ <hi>Al.</hi> et] non descendat in corruptionem.</l> 
+<l indent="1">inveni in quo ei propitier.</l> 
+<l>Consumpta est caro ejus a suppliciis,</l>
+<l indent="1">revertatur ad dies adolescentiae suae.</l> 
+<l>Deprecabitur Deum, et placabilis ei erit:</l>
+<l indent="1">
+<pb n="1112D"/>et videbit faciem ejus in jubilo,</l>
+<l indent="1">et reddet homini justitiam suam.</l> 
+<l>Respiciet homines [ <hi>Al.</hi> homo], et dicet: Peccavi,</l>
+<l indent="1">et vere deliqui,</l>
+<l indent="1">et ut eram dignus, non recepi.</l> 
+<l>Liberavit animam suam, ne pergeret in interitum,</l>
+<l rend="indent(1)">sed vivens lucem videret.</l> 
+<l>Ecce, haec omnia operatur Deus</l>
+<l indent="1">
+<pb n="1113A"/>tribus vicibus per singulos.</l> 
+<l>Ut revocet animas eorum [h. animam ejus] a corruptione,</l>
+<l indent="1">et illuminet lucem viventium.</l> 
+<l>Attende, Job, et audi me:</l>
+<l indent="1">et [ <hi>Al. tac.</hi> et] tace, dum ego loquar [ <hi>Al.</hi> loquor].</l> 
+<l>Si autem habes quod loquaris, responde mihi,</l>
+<l indent="1">loquere: volo enim, te apparere justum.</l> 
+<l>Quod si non habes, audi me:</l>
+<l indent="1">tace, et docebo te sapientiam.</l>
+<p>
+            <emph>PRONUNTIANS ITAQUE ELIU, ETIAM HAEC LOCUTUS EST:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXXIV.]</head>
+<l> Audite, sapientes, verba mea,</l>
+<l indent="1">et eruditi, auscultate me:</l>
+<l>Auris enim verba probat,</l>
+<l indent="1">et guttur escas gustu dijudicat.</l> 
+<l>Judicium eligamus nobis,</l>
+<l indent="1">et inter nos videamus [ <hi>Al.</hi> eligamus] quid sit melius.</l> 
+<l>Quia dixit Job: Justus sum,</l>
+<l indent="1">
+<pb n="1113B"/>et Deus subvertit judicium meum.</l> 
+<l>In judicando enim me, mendacium est:</l>
+<l indent="1">violenta sagitta mea absque ullo peccato.</l> 
+<l>Quis est vir, ut est Job,</l>
+<l indent="1">qui bibit subsannationem quasi aquam,</l>
+<l>Qui graditur cum operantibus iniquitatem,</l>
+<l indent="1">et ambulat cum viris impiis?</l> 
+<l>Dixit enim: Non placebit vir Deo,</l>
+<l indent="1">etiam si cucurrerit cum eo.</l> 
+<l>Ideo, viri cordati, audite me,</l>
+<l indent="1">absit a Deo impietas,</l>
+<l indent="1">et ab Omnipotente iniquitas.</l> 
+<l>Opus enim hominis reddet ei,</l>
+<l indent="1">et juxta vias singulorum restituet [ <hi>Al. add.</hi> eis].</l> 
+<l>Vere enim Deus non condemnabit frustra,</l>
+<l indent="1">nec Omnipotens subvertet judicium.</l> 
+<l>Quem constituit alium super terram?</l> 
+<l indent="1">aut quem posuit super orbem, quem fabricatus est?</l> 
+<l>Si direxerit ad eum cor suum,</l>
+<l indent="1">
+<pb n="1113C"/>spiritum illius et flatum ad se trahet.</l> 
+<l>Deficiet omnis caro simul,</l>
+<l indent="1">et homo in cinerem revertetur.</l> 
+<l>Si habes ergo intellectum, audi quod dicitur,</l>
+<l indent="1">et ausculta vocem eloquii mei.</l> 
+<l>Numquid qui non amat judicium, sanari potest:</l>
+<l indent="1">et quomodo tu eum, qui justus est, in tantum</l>
+<l rend="indent(1)">condemnas?</l> 
+<l>Qui dicit regi, apostata:</l>
+<l indent="1">qui vocat duces impios.</l> 
+<l>Qui non accipit personas principum:</l>
+<l indent="1">nec cognovit tyrannum, cum disceptaret contra</l>
+<l rend="indent(1)">pauperem:</l>
+<l indent="1">opus enim manuum ejus sunt universi [ <hi>Al.</hi> universa],</l>
+<l>Subito morientur, et in media nocte turbabuntur</l>
+<l rend="indent(1)">populi, et pertransibunt,</l>
+<l indent="1">et auferent violentum absque manu.</l> 
+<l>Oculi enim ejus super vias hominum,</l>
+<l indent="1">
+<pb n="1113D"/>et omnes gressus eorum considerat.</l> 
+<l>Non sunt tenebrae, et non est umbra mortis,</l>
+<l indent="1">ut abscondantur ibi qui operantur iniquitatem.</l> 
+<l>Neque enim ultra in hominis potestate est,</l>
+<l indent="1">ut veniat ad Deum in judicium.</l> 
+<l>Conteret multos innumerabiles,</l>
+<l indent="1">et stare faciet alios pro eis.</l> 
+<l>Novit enim opera eorum:</l>
+<l indent="1">et idcirco inducet noctem, et conterentur.</l> 
+<l>Quasi impios percussit eos in loco videntium.</l> 
+<l>Qui quasi de industria recesserunt ab eo,</l>
+<l indent="1">et omnes vias ejus intelligere noluerunt,</l>
+<l>Ut pervenire facerent ad eum clamorem egeni,</l>
+<l indent="1">
+<pb n="1114A"/>et audiret vocem pauperum.</l> 
+<l>Ipso enim concedente pacem, quis est qui condemnet?</l> 
+<l indent="1">ex quo absconderit vultum, quis est qui contempletur</l>
+<l rend="indent(1)">eum</l>
+<l indent="1">et super gentem et super omnes homines?</l> 
+<l>Qui regnare facit hominem hypocritam propter peccata</l>
+<l rend="indent(1)">populi.</l> 
+<l>Quia ergo ego locutus sum ad Deum,</l>
+<l indent="1">te quoque non prohibebo.</l> 
+<l>Si erravi, tu doce me:</l>
+<l indent="1">si iniquitatem locutus sum, ultra non addam.</l> 
+<l>Numquid a te Deus expetet eam, quia displicuit tibi?</l> 
+<l indent="1">tu enim coepisti loqui, et non ego:</l>
+<l indent="1">quod si quid nosti melius, loquere.</l> 
+<l>Viri intelligentes loquantur mihi,</l>
+<l indent="1">Et vir sapiens audiat me.</l> 
+<l>Job autem [ <hi>Al. tac.</hi> autem] stulte locutus est</l>
+<l indent="1">et verba illius non sonant disciplinam,</l>
+<l>Pater mi, probetur Job usque ad finem:</l>
+<l indent="1">
+<pb n="1114B"/>ne desinas in hominibus iniquitatis [h. iniquitatem].</l> 
+<l>Quia addit super peccata sua blasphemiam,</l>
+<l indent="1">inter nos interim constringatur:</l>
+<l indent="1">et tunc ad judicium provocet sermonibus suis Deum</l>
+<l rend="indent(1)">[h. et tunc multiplicet sermones suos ad Deum].</l>
+        </div3>
+<p>
+          <emph>IGITUR ELIU HAEC RURSUM LOCUTUS EST:</emph>
+</p>
+<div3>
+          <head>[Cap. XXXV.]</head>
+<l> Numquid aequa tibi videtur tua cogitatio,</l>
+<l indent="1">ut diceres: Justior Deo sum.</l> 
+<l>Dixisti enim: Non tibi placet quod rectum est:</l>
+<l indent="1">vel quid tibi proderit, si ego peccavero?</l> 
+<l>Itaque ego respondebo sermonibus tuis</l>
+<l indent="1">et amicis tuis tecum.</l> 
+<l>Suspice coelum et intuere,</l>
+<l indent="1">et contemplare aethera quod altior te sit.</l> 
+<l>Si peccaveris, quid ei [ <hi>Al.</hi> eum] nocebis?</l> 
+<l indent="1">et si multiplicatae fuerint iniquitates tuae [h. errores</l>
+<l rend="indent(1)">
+<pb n="1114C"/>tui], quid facies contra eum?</l> 
+<l>Porro si juste egeris, quid donabis ei?</l> 
+<l indent="1">aut quid de manu tua accipiet?</l> 
+<l>Homini [h. viro], qui similis tui est, nocebit impietas</l>
+<l rend="indent(1)">tua.</l> 
+<l indent="1">et filium [ <hi>Al.</hi> filius] hominis adjuvabit justitia</l>
+<l rend="indent(1)">tua [ <hi>Al.</hi> justitiam tuam].</l> 
+<l>Propter multitudinem calumniatorum clamabunt:</l>
+<l indent="1">et ejulabunt propter vim brachii tyrannorum.</l> 
+<l>Et non dixit: Ubi est Deus, qui fecit me,</l>
+<l indent="1">qui dedit [h. dans] carmina in nocte?</l> 
+<l>Qui docet nos super jumenta terrae,</l>
+<l indent="1">et super volucres coeli erudit [ <hi>Al.</hi> erudiet] nos.</l> 
+<l>Ibi clamabunt, et non exaudiet,</l>
+<l indent="1">propter superbiam malorum.</l> 
+<l>Non ergo [h. verumtamen] frustra audiet Deus,</l>
+<l indent="1">et omnipotens singulorum causas intuebitur,</l>
+<l>Etiam cum dixeris [h. Etiam quia dixisti]: Non considerat:</l>
+<l indent="1">judicare coram illo, et exspecta eum.</l> 
+<l>
+<pb n="1114D"/>Nunc enim non infert furorem [ <hi>Al.</hi> judicium] suum,</l>
+<l indent="1">nec ulciscitur scelus valde.</l> 
+<l>Ergo Job frustra aperit os suum,</l>
+<l indent="1">et absque scientia verba multiplicat.</l>
+<p>
+            <emph>ADDENS QUOQUE ELIU HAEC LOCUTUS EST:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXXVI.]</head>
+<l> Sustine me paululum, et indicabo</l>
+<l indent="1">tibi: adhuc enim habeo quod pro Deo loquar</l>
+<l indent="1">[ <hi>Al.</hi> prodens loquar].</l> 
+<l>Repetam scientiam meam [h. scientia mea] a principio,</l>
+<l indent="1">et operatorem meum probabo justum.</l> 
+<l>Vere enim absque mendacio sermones mei,</l>
+<l indent="1">
+<pb n="1115A"/>et perfecta scientia probabitur tibi.</l> 
+<l>Deus potentes [h. qui corde potentes sunt] non abjicit,</l>
+<l rend="indent(1)">cum et ipse sit potens.</l> 
+<l>Sed non salvat impios, et judicium pauperibus tribuit</l>
+<l rend="indent(1)">[ <hi>Al.</hi> tribuet].</l> 
+<l>Non auferet a justo oculos suos,</l>
+<l indent="1">et reges in solio collocat in perpetuum,</l>
+<l indent="1">et eriguntur [h. non aufert a justo oculos suos, et</l>
+<l rend="indent(1)">a regibus; in solio collocat eos in perpetuum, et</l>
+<l rend="indent(1)">alii eriguntur].</l> 
+<l>Et si fuerint in catenis, et vinciantur funibus paupertatis:</l>
+<l>Indicabit eis opera eorum,</l>
+<l indent="1">et scelera eorum, quia violenti fuerint.</l> 
+<l>Revelabit quoque aurem eorum, ut corripiat:</l>
+<l indent="1">et loquetur, ut revertantur ab iniquitate:</l>
+<l>Si audierint, et observaverint, complebunt dies suos</l>
+<l rend="indent(1)">in bono,</l>
+<l indent="1">et annos suos in gloria:</l>
+<l>Si autem non audierint, transibunt per gladium,</l>
+<l indent="1">
+<pb n="1115B"/>et consumentur in stultitia.</l> 
+<l>Simulatores et callidi provocant iram Dei,</l>
+<l indent="1">neque clamabunt cum vincti fuerint.</l> 
+<l>Morietur in tempestate anima eorum,</l>
+<l indent="1">et vita eorum inter effeminatos.</l> 
+<l>Eripiet [ <hi>Al.</hi> eriget] pauperem de angustia sua,</l>
+<l indent="1">et revelabit in tribulationem aurem ejus.</l> 
+<l>Igitur salvabit te de ore angusto,</l>
+<l indent="1">latissime, et non habentis [h. habente] fundamentum</l>
+<l rend="indent(1)">subter se:</l>
+<l indent="1">requies autem mensae tuae erit plena pinguedine.</l> 
+<l>Causa tua quasi impii judicata est,</l>
+<l indent="1">causam judiciumque recipies.</l> 
+<l>Non te ergo superet ira, ut aliquem [h. temetipsum]</l>
+<l rend="indent(1)">opprimas:</l>
+<l indent="1">nec multitudo donorum inclinet te.</l> 
+<l>Depone magnitudinem [h. tyrannidem] tuam absque</l>
+<l rend="indent(1)">tribulatione, et omnes robustos fortitudine.</l> 
+<l>Ne protrahas noctem,</l>
+<l indent="1">
+<pb n="1115C"/>ut ascendant populi pro eis.</l> 
+<l>Cave ne declines ad iniquitatem:</l>
+<l indent="1">hanc enim coepisti sequi [h. prosecutus] post [ <hi>Al. tac.</hi> </l>
+<l rend="indent(1)">post] miseriam.</l> 
+<l>Ecce, Deus excelsus in fortitudine sua</l>
+<l indent="1">et nullus ei similis in legislatoribus.</l> 
+<l>Quis poterit scrutari viam [ <hi>Al.</hi> vias] ejus?</l> 
+<l indent="1">aut quis ei dicere: Operatus es iniquitatem?</l> 
+<l>Memento quod ignores opus ejus,</l>
+<l indent="1">de quo cecinerunt [ <hi>Al.</hi> ceciderunt] viri.</l> 
+<l>Omnes homines vident [h. viderunt] eum,</l>
+<l indent="1">unusquisque intuetur procul [h. et homo intuebitur</l>
+<l rend="indent(1)">procul].</l> 
+<l>Ecce, Deus magnus vincens scientiam nostram:</l>
+<l indent="1">numerus annorum ejus inaestimabilis.</l> 
+<l>Qui aufert stillas pluviae,</l>
+<l indent="1">et effundit imbres ad instar gurgitum.</l> 
+<l>Qui de nubibus fluunt, quae praetexunt cuncta desuper.</l> 
+<l>Si voluerit extendere nubes quasi tentorium suum,</l>
+<l>Et fulgurare desuper lumine suo,</l>
+<l indent="1">
+<pb n="1115D"/>cardines quoque maris operiet.</l> 
+<l>Per haec [h. Per ha . . . ] enim judicat populos,</l>
+<l indent="1">et dat escas multis mortalibus.</l> 
+<l>In manibus [h. prope] abscondit lucem,</l>
+<l indent="1">et praecipit ei, ut rursus adveniat.</l> 
+<l>Annuntiat de ea amico suo,</l>
+<l indent="1">quod possessio ejus sit, et ad eam possit ascendere.</l> 
+</div3>
+<div3>
+          <head>[Cap. XXXVII.]</head>
+<l> Super hoc expavit cor meum,</l>
+<l indent="1">
+<pb n="1116A"/>et emotum est de loco suo.</l> 
+<l>Audite auditionem in terrore vocis ejus,</l>
+<l indent="1">et sonum [h. meditationem] de ore illius procedentem.</l> 
+<l>Subter omnes coelos ipsa considerat,</l>
+<l indent="1">et lumen illius super terminos [h. altitudinem] terrae.</l> 
+<l>Post eum rugiet sonitus,</l>
+<l indent="1">tonabit voce magnitudinis suae;</l>
+<l indent="1">et non investigabitur, cum audita fuerit vox ejus.</l> 
+<l>Tonabit Deus in voce sua mirabiliter,</l>
+<l indent="1">qui facit [h. faciens] magna et inscrutabilia.</l> 
+<l>Qui praecipit nivi, ut descendat in terram,</l>
+<l indent="1">et hiemis pluviis, et imbri fortitudinis suae.</l> 
+<l>Qui in manu omnium hominum signat,</l>
+<l indent="1">ut noverint singuli opera sua.</l> 
+<l>Ingredietur bestia latibulum,</l>
+<l indent="1">et in antro suo morabitur.</l> 
+<l>Ab interioribus egredietur tempestas, et a Arcturo</l>
+<l rend="indent(1)">[ <hi>Al.</hi> Austro] frigus.</l> 
+<l>Flante Deo, concrescit gelu,</l>
+<l indent="1">
+<pb n="1116B"/>et rursum latissimae funduntur aquae.</l> 
+<l>Frumentum desiderat nubes,</l>
+<l indent="1">et nubes spargunt lumen suum.</l> 
+<l>Quae lustrant per circuitum,</l>
+<l indent="1">quocumque eas voluntas gubernantis duxerit,</l>
+<l indent="1">ad omne quod praeceperit illis</l>
+<l indent="1">super faciem orbis terrarum.</l> 
+<l>Sive in una tribu, sive in terra sua,</l>
+<l indent="1">sive in quocumque loco misericordiae suae</l>
+<l indent="1">eas jusserit inveniri.</l> 
+<l>Ausculta haec, Job:</l>
+<l indent="1">sta, et considera mirabilia Dei.</l> 
+<l>Numquid scis quando praeceperit Deus pluviis,</l>
+<l indent="1">ut ostenderent lucem nubium ejus?</l> 
+<l>Numquid nosti semitas nubium,</l>
+<l indent="1">magnas et perfectas scientias [ <hi>Al.</hi> scientia]?</l> 
+<l>Nonne vestimenta tua calida sunt,</l>
+<l indent="1">cum perflata fuerit terra Austro?</l> 
+<l>Tu forsitan fabricatus es cum eo coelos</l>
+<l indent="1">
+<pb n="1116C"/>qui solidissimi quasi aere fusi sunt?</l> 
+<l>Ostende nobis quid dicamus illi:</l>
+<l indent="1">nos quippe involvimur tenebris.</l> 
+<l>Quis narrabit ei quae loquor?</l> 
+<l indent="1">etiam si locutus fuerit homo, devorabitur:</l>
+<l indent="1">At nunc non vident lucem:</l>
+<l indent="1">subito aer cogetur in nubes,</l>
+<l indent="1">et ventus transiens fugabit eas.</l> 
+<l>Ab aquilone aurum venit,</l>
+<l indent="1">et ad Deum formidolosa laudatio.</l> 
+<l>Digne eum invenire non possumus [h. Omnipotens;</l>
+<l rend="indent(1)"> <hi>digne</hi> invenire eum non <hi>possumus</hi> ]:</l>
+<l indent="1">magnus fortitudine, et judicio, et justitia,</l>
+<l indent="1">et enarrari non potest.</l> 
+<l>Ideo timebunt eum viri,</l>
+<l indent="1">et non audebunt contemplari omnes</l>
+<l indent="1">qui sibi videntur esse sapientes [h. et non contemplabitur</l>
+<l rend="indent(1)">omnes qui corde videntur esse sapientes].</l>
+<p>
+            <emph>
+              <pb n="1116D"/>RESPONDENS AUTEM DOMINUS JOB [ <hi>Al.</hi> AD JOB] DE
+TURBINE, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XXXVIII.]</head>
+<l> Quis est iste involvens sententias</l>
+<l indent="1">sermonibus imperitis?</l> 
+<l>Accinge sicut vir lumbos tuos:</l>
+<l indent="1">interrogabo te, et responde mihi.</l> 
+<l>Ubi eras quando ponebam fundamenta terrae?</l> 
+<l indent="1">indica mihi si habes intelligentiam.</l> 
+<l>
+<pb n="1117A"/>Quis posuit mensuras ejus, si nosti?</l> 
+<l indent="1">vel quis tetendit super eam lineam?</l> 
+<l>Super quo bases illius solidatae sunt?</l> 
+<l indent="1">aut quis dimisit lapidem angularem ejus,</l>
+<l>Cum me laudarent simul astra matutina,</l>
+<l indent="1">et jubilarent omnes filii Dei?</l> 
+<l>Quis conclusit ostiis mare,</l>
+<l indent="1">quando erumpebat quasi de vulva procedens:</l>
+<l>Cum ponerem nubem vestimentum ejus,</l>
+<l indent="1">et caligine illud quasi pannis infantiae obvolverem?</l> 
+<l>Circumdedi illud terminis meis,</l>
+<l indent="1">et posui vectem, et ostia:</l>
+<l>Et dixi: Usque huc venies, et non procedes amplius,</l>
+<l indent="1">et hic confringes tumentes fluctus tuos.</l> 
+<l>Numquid post ortum tuum praecepisti diluculo,</l>
+<l indent="1">et ostendisti aurorae locum suum?</l> 
+<l>Et tenuisti concutiens extrema terrae,</l>
+<l indent="1">et excussisti impios ex ea?</l> 
+<l indent="1">Restituetur [h. Vertetur] ut lutum signaculum,</l>
+<l indent="1">et stabit sicut vestimentum:</l>
+<l>
+<pb n="1117B"/>Auferetur ab impiis lux sua,</l>
+<l indent="1">et brachium excelsum confringetur.</l> 
+<l>Numquid ingressus es profunda maris,</l>
+<l indent="1">et in novissimis abyssi deambulasti?</l> 
+<l>Numquid apertae tibi sunt portae mortis,</l>
+<l indent="1">et ostia tenebrosa vidisti?</l> 
+<l>Numquid considerasti latitudines [ <hi>Al.</hi> latitudinem]</l>
+<l rend="indent(1)">terrae?</l> 
+<l indent="1">indica mihi, si nosti, omnia.</l> 
+<l>In qua via habitet lux,</l>
+<l indent="1">et tenebrarum quis locus sit:</l>
+<l>Ut ducas unumquodque [ <hi>Al</hi> unumquemque] ad terminos</l>
+<l rend="indent(1)">suos,</l>
+<l indent="1">et intelligas semitas domus ejus.</l> 
+<l>Sciebas tunc quod nasciturus esses?</l> 
+<l indent="1">et numerum dierum tuorum noveras [h. nosti]?</l> 
+<l>Numquid ingressus es thesauros nivis,</l>
+<l indent="1">aut thesauros grandinis aspexisti?</l> 
+<l>Quae praeparavi in tempus hostis [ <hi>Al.</hi> hosti],</l>
+<l indent="1">
+<pb n="1117C"/>in diem pugnae et belli?</l> 
+<l>Per quam viam spargitur lux,</l>
+<l indent="1">dividitur aestus [h. urens, id est, ventus] super</l>
+<l rend="indent(1)">terram?</l> 
+<l>Quis dedit vehementissimo imbri cursum,</l>
+<l indent="1">et viam sonantis tonitrui,</l>
+<l>Ut plueret super terram absque homine,</l>
+<l indent="1">in deserto, ubi nullus mortalium commoratur;</l>
+<l>Ut impleret inviam et desolatam [ <hi>Al. tac.</hi> et desolatam],</l>
+<l indent="1">et produceret herbas virentes?</l> 
+<l>Quis est pluviae pater?</l> 
+<l indent="1">vel quis genuit stillas roris?</l> 
+<l>
+<pb n="1118A"/>De cujus utero egressa est glacies?</l> 
+<l indent="1">et gelu de coelo quis genuit?</l> 
+<l>In similitudinem lapidis aquae durantur,</l>
+<l indent="1">et facies abyssi constringitur.</l> 
+<l>Numquid conjungere valebis micantes stellas Pleiadas</l>
+<l rend="indent(1)">[ <hi>Al.</hi> Plyades],</l>
+<l indent="1">aut gyrum Arcturi poteris dissipare?</l> 
+<l>Numquid producis [ <hi>Al.</hi> produces] Luciferum [h. astra]</l>
+<l rend="indent(1)">in tempore suo,</l>
+<l indent="1">et vesperum super filios terrae consurgere facis?</l> 
+<l>Numquid nosti ordinem coeli,</l>
+<l indent="1">et pones rationem ejus in terra?</l> 
+<l>Numquid elevabis in nebula [h. ad nubem] vocem</l>
+<l rend="indent(1)">tuam,</l>
+<l indent="1">et impetus aquarum operiet te?</l> 
+<l>Numquid mittes fulgura, et ibunt,</l>
+<l indent="1">et revertentia dicent tibi: Adsumus?</l> 
+<l>Quis posuit in visceribus hominis [h. ovorum] sapientiam?</l> 
+<l indent="1">vel quis dedit gallo intelligentiam:</l>
+<l>
+<pb n="1118B"/>Quis enarrabit coelorum rationem,</l>
+<l indent="1">et concentum coeli quis dormire faciet?</l> 
+<l>Quando fundebatur [h. funditur] pulvis in terra,</l>
+<l indent="1">et glebae compingebantur [h. compingitur]?</l> 
+<l>Numquid capies leaenae praedam,</l>
+<l indent="1">et animam catulorum ejus implebis,</l>
+<l>Quando cubant in antris, et in specubus [ <hi>Al.</hi> speculis]</l>
+<l rend="indent(1)">insidiantur?</l> 
+<l>Quis praeparat corvo escam suam,</l>
+<l indent="1">quando pulli ejus clamant ad Deum, vagantes,</l>
+<l rend="indent(1)">eo quod non habeant cibos?</l> 
+</div3>
+<div3>
+          <head>[Cap. XXXIX.]</head>
+<l> Numquid nosti tempus partus ibicum</l>
+<l rend="indent(1)">[ <hi>Al.</hi> hircorum] in petris,</l>
+<l indent="1">vel parturientes cervas observasti?</l> 
+<l>Dinumerasti menses conceptus earum,</l>
+<l indent="1">et scisti tempus partus earum?</l> 
+<l>Incurvantur ad fetum, et pariunt,</l>
+<l indent="1">et rugitus emittunt.</l> 
+<l>Separantur filii earum,</l>
+<l indent="1">
+<pb n="1118C"/>pergunt ad pastum;</l>
+<l indent="1">egrediuntur, et non revertuntur ad eas.</l> 
+<l>Quis dimisit onagrum liberum,</l>
+<l indent="1">et vincula ejus [h. eteberi] quis solvit?</l> 
+<l>Cui dedi in solitudine domum,</l>
+<l indent="1">et tabernacula ejus in terra salsuginis.</l> 
+<l>Contemnit multitudinem civitatis,</l>
+<l indent="1">clamorem exactoris non audit [ <hi>Al.</hi> audivit].</l> 
+<l>Circumspicit montes pascuae suae,</l>
+<l indent="1">et virentia quaeque perquirit.</l> 
+<l>Numquid volet rhinoceros servire tibi,</l>
+<l indent="1">aut morabitur ad praesepe tuum?</l> 
+<l>Numquid alligabis rhinocerota ad arandum loro tuo?</l> 
+<l indent="1">
+<pb n="1119A"/>aut confringet glebas vallium post te?</l> 
+<l>Numquid fiduciam habebis in magna fortitudine ejus,</l>
+<l indent="1">et derelinques ei labores tuos?</l> 
+<l>Numquid credes ei quod sementem reddat tibi,</l>
+<l indent="1">et aream tuam congreget?</l> 
+<l>Penna struthionum similis est pennis herodii, et</l>
+<l rend="indent(1)">accipitris [h. Ciconiae et milvi].</l> 
+<l>Quando derelinquit in terra ova sua,</l>
+<l indent="1">tu forsitan in pulvere calefacies ea [h. derelinquit</l>
+<l rend="indent(1)">enim in terra ova sua, et in pulvere calefiunt]?</l> 
+<l>Obliviscitur quod pes conculcet ea,</l>
+<l indent="1">aut bestiae agri conterant.</l> 
+<l>Duratur ad filios suos quasi non sint sui,</l>
+<l indent="1">frustra laboravit, nullo timore cogente.</l> 
+<l>Privavit enim eam Deus sapientia,</l>
+<l indent="1">nec dedit illi intelligentiam.</l> 
+<l>Cum tempus fuerit, in altum alas erigit:</l>
+<l indent="1">deridet equum et ascensorem ejus.</l> 
+<l>Numquid praebebis equo fortitudinem,</l>
+<l indent="1">aut circumdabis collo ejus hinnitum [h. aut induisti</l>
+<l rend="indent(1)">
+<pb n="1119B"/>collum ejus cervicositate]?</l> 
+<l>Numquid suscitabis eum quasi locustas?</l> 
+<l indent="1">gloria narium ejus terror.</l> 
+<l>Terram ungula fodit,</l>
+<l indent="1">exsultat audacter:</l>
+<l indent="1">in occursum pergit armatis.</l> 
+<l>Contemnit pavorem, nec cedit gladio.</l> 
+<l>Super ipsum sonabit pharetra,</l>
+<l indent="1">vibrabit hasta et clypeus.</l> 
+<l>Fervens et fremens sorbet terram,</l>
+<l indent="1">nec reputat tubae sonare clangorem.</l> 
+<l>Ubi audierit buccinam, dicet [ <hi>Al.</hi> dicit]: Vah!</l> 
+<l indent="1">procul odoratur bellum,</l>
+<l indent="1">exhortationem ducum, et ululatum exercitus.</l> 
+<l>Numquid per sapientiam tuam plumescit accipiter,</l>
+<l indent="1">expandens alas suas ad austrum?</l> 
+<l>Numquid ad praeceptum tuum elevabitur aquila,</l>
+<l indent="1">et in arduis ponet nidum suum?</l> 
+<l>In petris manet, et in praeruptis silicibus commoratur,</l>
+<l indent="1">
+<pb n="1119C"/>atque inaccessis rupibus.</l> 
+<l>Inde contemplantur escam,</l>
+<l indent="1">et de longe oculi ejus prospiciunt.</l> 
+<l>Pulli ejus lambent sanguinem:</l>
+<l indent="1">et ubicumque cadaver fuerit, statim adest.</l>
+<p>
+            <emph>ET ADJECIT DOMINUS, ET LOCUTUS EST AD JOB:</emph>
+<l rend="indent(1)">[h. Et respondit Dominus ad Job, et dixit:</l>
+<l>Numquid qui contendit cum Deo [h. Omnipotente],</l>
+<l rend="indent(1)">tam facile conquiescit?</l> 
+<l indent="1">utique qui arguit Deum, debet respondere ei.</l>
+          </p>
+<p>
+            <emph>RESPONDENS AUTEM JOB DOMINO, DIXIT:</emph>
+<l>Qui leviter locutus sum, respondere quid possum?</l> 
+<l indent="1">[h. Qui vilis sum, respondere quid possum]?</l> 
+<l indent="1">manum meam ponam super os meum.</l> 
+<l>Unum locutus sum, quod utinam non dixissem;</l>
+<l indent="1">et alterum [h. duo], quibus ultra non addam.</l>
+          </p>
+<p>
+            <emph>RESPONDENS AUTEM DOMINUS JOB DE TURBINE DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XL.]</head>
+<l> Accinge sicut vir lumbos tuos:</l>
+<l indent="1">
+<pb n="1119D"/>interrogabo te, et indica mihi.</l> 
+<l>Numquid irritum facies judicium meum:</l>
+<l indent="1">et condemnabis me, ut tu justificeris?</l> 
+<l>
+<pb n="1120A"/>Et si habes brachium sicut Deus,</l>
+<l indent="1">et si voce simili tonas?</l> 
+<l>Circumda tibi decorem,</l>
+<l indent="1">et in sublime erigere, et esto gloriosus,</l>
+<l indent="1">et speciosis induere vestibus.</l> 
+<l>Disperge superbos furore tuo,</l>
+<l indent="1">et respiciens omnem arrogantem humilia.</l> 
+<l>Respice cunctos superbos, et confunde eos,</l>
+<l indent="1">et contere impios in loco suo.</l> 
+<l>Absconde eos in pulvere simul,</l>
+<l indent="1">et facies eorum demerge in foveam:</l>
+<l>Et ego confitebor quod salvare te possit dextera tua.</l> 
+<l>Ecce, Behemoth, quem feci tecum,</l>
+<l indent="1">fenum quasi bos comedet.</l> 
+<l>Fortitudo ejus in lumbis ejus,</l>
+<l indent="1">et virtus illius in umbilico ventris ejus,</l>
+<l> Stringit [ <hi>Al.</hi> Constringit] caudam suam quasi cedrum,</l>
+<l indent="1">nervi testiculorum ejus perplexi sunt.</l> 
+<l>Ossa ejus velut fistulae aeris,</l>
+<l indent="1">
+<pb n="1120B"/>cartilago illius quasi laminae ferreae.</l> 
+<l>Ipse principium est viarum Dei,</l>
+<l indent="1">qui fecit eum, applicabit gladium ejus [h. suum].</l> 
+<l>Huic montes herbas ferunt:</l>
+<l indent="1">omnes bestiae agri ludent ibi.</l> 
+<l>Sub umbra dormit</l>
+<l indent="1">in secreto calami, et in locis humentibus.</l> 
+<l>Protegunt umbrae umbram ejus,</l>
+<l indent="1">circumdabunt [h. circ . . . . ] eum salices torrentis.</l> 
+<l>Ecce, absorbebit fluvium, et non mirabitur [h. et</l>
+<l rend="indent(1)">non <hi>festinabit</hi> ].</l> 
+<l indent="1">habet fiduciam quod influat Jordanis in os ejus,</l>
+<l>In oculis ejus quasi hamo capiet eum,</l>
+<l indent="1">et in sudibus perforabit nares ejus.</l> 
+<l>An extrahere poteris Leviathan hamo,</l>
+<l indent="1">et fune ligabis linguam ejus?</l> 
+<l>Numquid pones circulum in naribus ejus,</l>
+<l indent="1">et [ <hi>Al.</hi> aut] armilla perforabis maxillam ejus?</l> 
+<l>Numquid multiplicabit ad te preces,</l>
+<l indent="1">
+<pb n="1120C"/>aut loquetur tibi mollia?</l> 
+<l>Numquid feriet tecum pactum,</l>
+<l indent="1">et accipies eum servum sempiternum?</l> 
+<l>Numquid illudes ei quasi avi [h. passeri],</l>
+<l indent="1">aut ligabis cum [ <hi>Al.</hi> eum] aucillis [h. puellis] tuis?</l> 
+<l>Concident eum amici,</l>
+<l indent="1">divident eum negotiatores?</l> 
+<l>Numquid implebis sagenas [h. tabernacula] pelle ejus,</l>
+<l indent="1">et gurgustium piscium capite illius?</l> 
+<l>Pone super eum manum tuam:</l>
+<l indent="1">memento belli, nec ultra addas <hi>loqui</hi> [h. non habet].</l> 
+<l>Ecce, spes ejus frustrabitur eum,</l>
+<l indent="1">et videntibus cunctis praecipitabitur.</l> 
+</div3>
+<div3>
+          <head>[Cap. XLI.]</head>
+<l> Non quasi crudelis suscitabo eum?</l> 
+<l indent="1">quis enim resistere potest [ <hi>Al.</hi> poterit] vultui meo?</l> 
+<l>Quis ante dedit mihi, ut [h. et] reddam ei:</l>
+<l indent="1">omnia quae sub coelo sunt, mea sunt.</l> 
+<l>Non parcam ei,</l>
+<l indent="1">et verbis potentibus, et ad deprecandum compositis.</l> 
+<l>
+<pb n="1120D"/>Quis revelabit faciem indumenti ejus?</l> 
+<l indent="1">et in medium oris ejus quis intrabit?</l> 
+<l>Portas vultus ejus quis aperiet?</l> 
+<l indent="1">
+<pb n="1121A"/>per gyrum dentium ejus formido.</l> 
+<l>Corpus illius quasi scuta fusilia,</l>
+<l indent="1">compactum squamis se prementibus.</l> 
+<l>Una uni conjungitur,</l>
+<l indent="1">et ne spiraculum quidem incedit per eas:</l>
+<l>Una alteri adhaerebit,</l>
+<l indent="1">et tenentes se nequaquam separabuntur.</l> 
+<l>Sternutatio ejus splendor ignis [h. luminis],</l>
+<l indent="1">et oculi ejus, ut palpebrae diluculi.</l> 
+<l>De ore ejus lampades procedunt,</l>
+<l indent="1">sicut taedae ignis accensae.</l> 
+<l>De naribus ejus procedit fumus,</l>
+<l indent="1">sicut ollae succensae atque [ <hi>Al.</hi> aquae] ferventis.</l> 
+<l>Halitus ejus prunas ardere facit [h. prunae at . . . . s.],</l>
+<l indent="1">et flamma de ore ejus egreditur.</l> 
+<l>In collo ejus morabitur fortitudo,</l>
+<l indent="1">et faciem ejus praecedit egestas [h. . . . . as.].</l> 
+<l>Membra carnium ejus cohaerentia sibi,</l>
+<l indent="1">mittet contra [h. super] eum fulmina,</l>
+<l indent="1">et ad locum alium non ferentur [h. feretur].</l> 
+<l>
+<pb n="1121B"/>Cor ejus indurabitur quasi lapis,</l>
+<l indent="1">et stringetur quasi malleatoris incus [ <hi>Al.</hi> incude].</l> 
+<l>Cum sublatus fuerit, timebunt angeli [h. dii],</l>
+<l indent="1">et territi purgabuntur.</l> 
+<l>Cumque apprehenderit eum gladius, subsistere non</l>
+<l rend="indent(1)">poterit,</l>
+<l indent="1">neque hasta, neque thorax.</l> 
+<l>Reputabit enim quasi paleas ferrum,</l>
+<l indent="1">et quasi lignum putridum, aes.</l> 
+<l>Non fugabit eum vir sagittarius,</l>
+<l indent="1">in stipulam versi sunt ei lapides fundae.</l> 
+<l>Quasi stipulam aestimabit malleum,</l>
+<l indent="1">et deridebit [ <hi>Al.</hi> derisit] vibrantem hastam.</l> 
+<l>Sub ipso erunt [h. non habet, erunt] radii solis,</l>
+<l indent="1">sternet sibi aurum quasi lutum.</l> 
+<l>Fervescere faciet quasi ollam profundum,</l>
+<l indent="1">mare ponet quasi cum unguenta bulliunt.</l> 
+<l>Post eum lucebit semita,</l>
+<l indent="1">aestimabit abyssum quasi senescentem.</l> 
+<l>
+<pb n="1121C"/>Non est super terram potestas, quae comparetur [h.</l>
+<l rend="indent(1)">super terram quod comparetur] ei;</l>
+<l indent="1">Qui factus est, ut nullum timeret.</l> 
+<l>Omne sublime videt,</l>
+<l indent="1">ipse est rex super universos filios superbiae [h . . . . ].</l>
+<p>
+            <emph>RESPONDENS AUTEM JOB DOMINO, DIXIT:</emph>
+</p>
+        </div3>
+<div3>
+          <head>[Cap. XLII.]</head>
+<l> Scio quia omnia potes</l>
+<l indent="1">et nulla te latet cogitatio.</l> 
+<l>Quis est iste, qui celat consilium absque scientia?</l> 
+<l indent="1">ideo insipienter locutus sum,</l>
+<l indent="1">et quae ultra modum excederent scientiam meam.</l> 
+<l>Audi et ego loquar:</l>
+<l indent="1">interrogabo te, et responde mihi.</l> 
+<l>
+<pb n="1122A"/>Auditu auris audivi te,</l>
+<l indent="1">nunc autem oculus meus videt te.</l> 
+<l>Idcirco ipse me reprehendo,</l>
+<l indent="1">et ago poenitentiam in favilla et cinere.</l>
+        </div3>
+<p>
+          <emph>POSTQUAM [h. Et fuit postquam] AUTEM LOCUTUS EST
+DOMINUS VERBA HAEC AD JOB, DIXIT AD ELIPHAZ
+THEMANITEN:</emph>
+        </p>
+<p>Iratus est furor meus in te, et in duos amicos tuos,
+quoniam non estis locuti coram me rectum, sicut
+servus meus Job. Sumite igitur vobis septem tauros,
+et septem arietes, et ite ad servum meum Job, et
+offerte holocaustum pro vobis: Job autem servus
+meus orabit pro vobis; faciem ejus suscipiam, ut
+non vobis imputetur stultitia: neque enim locuti estis
+ad me recta, sicut servus meus Job.</p>
+<p>
+          <emph>
+            <pb n="1122B"/>ABIERUNT ERGO ELIPHAZ THEMANITES, ET BALDAD
+SUITES, ET SOPHAR NAAMATHITES.</emph>
+        </p>
+<p>Et fecerunt sicut locutus fuerat ad eos [ <hi>Al. tac.</hi> ad
+eos] Dominus, et suscepit Dominus faciem Job. Dominus
+quoque conversus est ad poenitentiam [h. Dominus
+quoque convertit captivitatem] Job, cum oraret
+ille pro amicis suis. Et addidit Dominus omnia
+quaecumque fuerant Job, duplicia. Venerunt autem
+ad eum omnes fratres sui, et universae sorores suae,
+et cuncti qui noverant eum prius, et comederunt cum
+eo panem in domo ejus: et moverunt super eum
+caput, et consolati sunt eum super omni malo quod
+intulerat Dominus super eum; et dederunt ei, unusquisque
+ovem unam, et inaurem auream unam. Dominus
+autem benedixit novissimis Job magis quam
+<pb n="1122C"/>
+principio ejus. Et facta sunt ei quatuordecim millia
+ovium, et sex millia camelorum, et mille juga boum,
+et mille asinae. Et fuerunt ei septem filii, et filiae
+tres. Et vocavit nomen unius Diem, et nomen secundae
+Cassiam [ <hi>Al.</hi> Cassiae], et nomen tertiae Cornustibii.
+Non sunt autem inventae mulieres speciosae
+sicut filiae Job in universa terra: deditque eis pater
+suus haereditatem inter fratres earum. Vixit autem
+Job post haec, centum quadraginta annis, et vidit
+filios suos, et filios filiorum suorum usque ad quartam
+generationem, et mortuus est senex et plenus dierum.</p>
+<p>
+          <emph>
+            <pb n="1121"/> <hi>Explicit liber Job</hi>.</emph>
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

@@ -1,0 +1,2765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>Contra mendacium [CSEL]</title>  
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date></author>
+              </titleStmt>
+               
+
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1900</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 41</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru1swiengoog#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Iosephus Zycha</name>; <addName xml:lang="de">Joseph Zycha</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>August.CoMendaCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL41.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0040.stoa029.opp-lat1"/>
+
+          <div1 n="1" subtype="section"><head>X. AD CONSENTIVM CONTRA MENDACIVM. – § 1</head>
+
+<p><milestone n="1" unit="altchapter"/>Multa mihi legenda misisti, Consenti frater carissime, <lb/>
+            multa mihi legenda misisti. quibus rescripta dum praeparo et <lb/>
+            aliis atque aliis magis urgentibus occupationibus distrahor, <lb n="5"/>
+            emensus est annus atque in eas me detrusit angustias, ut quomodocumque <lb/>
+            rescriberem, ne arridente iam tempore nauigandi <lb/>
+            perlatorem remeare cupientem diutius detinerem. itaque omnibus, <lb/>
+            quae mihi Leonas dei famulus abs te adtulit, et mox ut ea <lb/>
+            sumpsi et postea cum haec dictare iam uellem euolutis atque <lb n="10"/>
+            perlectis et quanta potui consideratione perpensis ualde sum tuo <lb/>
+            delectatus eloquio et sanctarum memoria scripturarum ingeniique <lb/>
+            sollertia et dolore, quo neglegentes catholicos mordes, et
+
+<app> 2 Sci Augustini contra mendacium liber 1 <hi>fol</hi>. 96h <hi>R</hi> Item liber beati <lb/>
+            Augustini aduersus Consentium contra mendacium <hi>fol. 43 T</hi> Contra <lb/>
+            mendacium <hi>fol. 95* M Titulo uacuum spatium rel. in</hi> qp Contra Consentium <lb/>
+            <hi>fol. 51* Ch Codex 0 ab initio mutilus</hi> Incipit contra mendacium <lb/>
+            ad Consentiam <hi>fol. 124- P</hi> Incipit liber sci Augustini ad Consentium <lb/>
+            contra mendacium <hi>fol. 70b P</hi> Incipit liber aci Augustini contra mendacium <lb/>
+            ad Consentium <hi>fol. 67 L</hi> Aurelii Augustini doctoris contra mendatium <lb/>
+            liber incipit ad Consentium <hi>fol</hi>. 254 p Augustinus de mendacio <lb/>
+            ad Consentium <hi>fol. 43b V</hi> Incipit eiusdem ad Consentiam contra mendatium <lb/>
+            <hi>fol</hi>. 13h 1 3 multis <hi>ChFL</hi> micbi <hi>LfC</hi> karissime <hi>BC</hi> <lb/>
+            4 multa-misisti <hi>om. TChFLPVcpy</hi> rescripta dum] rescriptum <hi>V</hi> <lb/>
+            5 atquae cp magis <hi>om. V</hi> urgnentibus <hi>Ofepy</hi> surgentibus <hi>FLW</hi> <lb/>
+            distraho. remensns <hi>CR</hi> 6 atque emensus <hi>V est om. V</hi> atque <lb/>
+            <hi>om. V</hi> eas- <hi>Ch</hi> detrusit me y construsit <hi>Ji LP</hi> construxit <hi>RTCh</hi> <lb/>
+            8 latorem <hi>VW</hi> detinere <hi>MRC</hi> 10 sum.si <hi>T</hi> post y cum] <lb/>
+            qa4 <hi>V</hi> haec] ea <hi>R</hi> euolutis (i <hi>ex</hi> a) <hi>T</hi> 11 potu <hi>V</hi> sum tuo] <lb/>
+            sumptuoso <hi>V</hi> stip tuo cp 12 dilectatus <hi>TCh</hi> de.lectatus cp delectatus <lb/>
+            eum <hi>V</hi> 13 dolore uel liuore <hi>V</hi> neclegentes y </app> <lb/>
+             
+<pb n="470"/>
+            zelo, quo aduersus etiam latentes haereticos frendes. sed non <lb/>
+            mihi persuadetur eos de latebris suis nostris esse mendaciis <lb/>
+            eruendos. ut quid enim eos tanta cura uestigare atque indagare <lb/>
+            conamur, nisi ut captos in apertumque productos aut etiam <lb/>
+            ipsos ueritatem doceamus aut certe ueritate conuictos nocere<lb n="5"/>
+            aliis non sinamus? ad hoc ergo, ut eorum mendacium deleatur <lb/>
+            siue caueatur, dei autem ueritas augeatur. quomodo igitur <lb/>
+            mendacio mendacia recte potero persequi? an et latrocinio <lb/>
+            latrocinia et sacrilegio sacrilegia et adulterio sunt adulteria <lb/>
+            persequenda? si autem ueritas dei in meo mendacio<lb n="10"/>
+            abundabit, numquidnam et nos dicturi sumus: faciamus <lb/>
+            mala, ut ueniant bona? quod uides quemadmodum detestetur <lb/>
+            apostolus. quid est enim aliud 'mentiamur, ut haereticos <lb/>
+            mendaces ad ueritatem adducamus', nisi : faciamus mala. <lb/>
+            ut ueniant bona? an aliquando bonum est mendacium uel<lb n="15"/>
+            aliquando mendacium non est malum? cur ergo scriptum est: <lb/>
+            odisti, domine, omnes, qui operantur iniquitatem; <lb/>
+            perdes omnes qui loquuntur mendacium? non enim <lb/>
+            aliquos excepit aut indefinite dixit (perdes loquentes mendacium', <lb/>
+            ut quosdam, non omnes intellegi sineret, sed uniuersalem<lb n="20"/>
+            sententiam <sic>protulitdicens</sic>: perdes omnes qui
+
+<app> 10 Rom. 8, 7. 8 17 Ps. 5, 6. 7 </app>
+
+<app> 1 quod p etiam <hi>om. V</hi> frendea. led] frendisset <hi>TCh1</hi> 2 eoa <lb/>
+            <hi>om. V</hi> eruendos mendaciis f mendatiia <hi>BlP*</hi> mendatiia se p 3 seruandos <lb/>
+            <hi>TCh</hi> tanta cura eos <hi>FL</hi> inuestigare (in <hi>8. I) RxFL V</hi> <lb/>
+            atquae 11 aмque <hi>Ch</hi> 4 ut nisi <hi>Y</hi> captus <hi>TCh</hi> productus <hi>Ch</hi> <lb/>
+            5 conuictus <hi>Ch</hi> conuinctos <hi>C</hi> 6 aliis] illis P ad] ob T1 ab <hi>PCĂ</hi>. <lb/>
+            at <hi>R</hi> ergo <hi>om. W</hi> 7 autem <hi>om. Y</hi> igitur <hi>om</hi>. 7 8 mendatia <lb/>
+            mendatio 7 mendatio <hi>(semper fere</hi> t) <hi>Rn</hi> mendacium <hi>V</hi> mendacia <lb/>
+            <hi>om. V</hi> rectg <hi>R</hi> persequi (i <hi>8. ras.) Ch</hi> 9 sacrilegia om. s1 <lb/>
+            adulteria sunt p adulteria <hi>om. V</hi> 11 et habundabit <hi>TCh</hi> habnndabit <lb/>
+            iZYr habundauit <hi>B3</hi> habundauerit <hi>V</hi> numquidnam et] numquin <lb/>
+            nanet <hi>Ch</hi> numquidnfin <hi>T</hi> numquid <hi>Y</hi> 12 queinammodum cp quomodo <hi>L</hi> <lb/>
+            detestatur <hi>V</hi> 13 apostulus <hi>M</hi> 15 uel aliquando mendacium om. » <lb/>
+            16 quur <hi>TC</hi> 17 domino <hi>om. FL</hi> 18 perdes (des 8. <hi>I. nt. ree.) Ch</hi> <lb/>
+            locuntnr <hi>(semper fere</hi> c) <hi>!{'RTYx(</hi> mendatium <hi>(semper fere</hi> t) <hi>P</hi> 19 indifinite <lb/>
+            T indefinite <hi>(init</hi>. in <hi>s. 1.) R</hi> 20 siniret <hi>Ch</hi> 21 dicens om. <hi>FL</hi> </app> <lb/>
+             
+<pb n="471"/>
+            loquuntur mendacium. an quia non dictum est: perdes omnes <lb/>
+            qui loquuntur omne mendacium uel qui loquuntur quodcumque <lb/>
+            mendacium, ideo putandum est locum alicui <choice><note>relaxatuni</note><corr>relaxatum</corr></choice> <lb/>
+            esse mendacio? ut scilicet sit aliquod mendacium, quod qui <lb/>
+            loquuntur non eos deus perdat, sed eos omnes perdat, qui <lb n="5"/>
+            loquuntur iniustum mendacium, non quodcumque mendacium, <lb/>
+            quia inuenitur et iustum, quod utique laudis debet esse, non <lb/>
+            criminis? 
+</p>
+          
+</div1>
+
+<div1 n="2" subtype="section"><head>§ 2</head>
+
+<p><milestone n="2" unit="altchapter"/> Nonne cernis, quantum adiuuet haec disputatio <lb/>
+            eos ipsos, quos pro magna uenatione mendaciis nostris <lb n="10"/>
+            capere molimur? Priscillianistarum est enim, sicut ipse monstrasti, <lb/>
+            ista sententia: cui comprobandae adhibent testimonia <lb/>
+            de scripturis exhortantes suos ad mentiendum tamquam exemplis <lb/>
+            patriarcharum, prophetarum, apostolorum, angelorum, non <lb/>
+            dubitantes addere etiam ipsum dominum <choice><note>Chnstum</note><corr>Christum</corr></choice> nec se <lb n="15"/>
+            aliter arbitrantes ueracem suam ostendere falsitatem, nisi <lb/>
+            ueritatem dicant esse mendacem. redarguenda sunt ista, non <lb/>
+            imitanda; nec in eo malo debemus Priscillianistarum esse <lb/>
+            participes, in quo ceteris haereticis conuincuntur esse peiores. <lb/>
+            ipsi enim soli uel certe maxime ipsi reperiuntur ad occultandam <lb n="20"/>
+            suam quam putant ueritatem dogmatizare mendacium <lb/>
+            atque hoc tam magnum malum ideo iustum existimare, quia
+
+<app> 1 an quia] in qua <hi>V</hi> 2 omne-loquuntur <hi>om. V</hi> omne] iniustum <hi>FL</hi> <lb/>
+            quocumque <hi>TCh</hi> quodcunque <hi>L</hi> quodcumquae o 3 ideoque <hi>V</hi> esse <lb/>
+            relaxatum 7 4 scilicet sit] licet sit <hi>(in mg. m. 2) V</hi> 5 loquntur <hi>T</hi> <lb/>
+            perdat <hi>om. FL</hi> 6 non] si p1 non-mendacium <hi>om. W</hi> quodcunque <lb/>
+            (n <hi>semper) L</hi> 7 iniustum <hi>ilfCTP?1</hi> debet <hi>ex</hi> habet <hi>Ch</hi> <lb/>
+            non] in <hi>T</hi> 9 cernitis tp 10 uen?ratione y 11 molimor <hi>Ch</hi> priscilianistarura <lb/>
+            <hi>OkTlcp</hi> priscillanistarum p1 12 ista] ipsa <hi>FL</hi> conprobandae <lb/>
+            9 probande <hi>V</hi> probandae <hi>T</hi> cllprobandae P testimonium <lb/>
+            <hi>FL</hi> 18 eiortantes <hi>TJrpp</hi> exhortantes (t <hi>s. I) R om. V</hi> ad mentiendum <lb/>
+            suos <hi>V</hi> 15 etiam addere <hi>V</hi> dum ipsum dum xpm <hi>C</hi> 16 alter <hi>Ch</hi> <lb/>
+            autem <foreign xml:lang="grc">β</foreign> 18 imitenda <hi>Chl</hi> esse priscillianistarum <hi>V</hi> priscianistarum <lb/>
+            91 priscilianistarum <hi>Oh'f'2T</hi> 19 nonuincuntur cpt 20 enim <lb/>
+            <hi>s. l. Ch</hi> ipsi maxime certe <hi>V</hi> repperiuntur <hi>T</hi> 21 dogmatizarem <hi>M</hi> <lb/>
+            dogmanizare <hi>T</hi> 22 estimere <hi>V ,</hi> </app> <lb/>
+             
+<pb n="472"/>
+            dicunt in corde retinendum esse, quod uerum est, ore autem <lb/>
+            ad alienos proferre falsum nullum esse peccatum et hoc esse <lb/>
+            scriptum: qui loquitur ueritatem in corde suo; tamquam <lb/>
+            hoc satis sit ad iustitiam, etiamsi loquatur quisque in <lb/>
+            ore mendacium, quando non proximus, sed alienus hoc audit. <lb n="5"/>
+            propterea etiam putant apostolum Paulum, cum dixisset: deponentes <lb/>
+            mendacium loquimini ueritatem, statim <lb/>
+            addidisse: unusquisque cum proximo suo, quia sumus <lb/>
+            inuicem membra, ut uidelicet cum eis, qui nobis in societate <lb/>
+            ueritatis proximi non sunt neque, ut ita dicam, commembres<lb n="10"/>
+            nostri sunt, loqui liceat oporteatque mendacium. 
+</p>
+          
+</div1>
+
+<div1 n="3" subtype="section"><head>§ 3</head>
+
+<p>Quae sententia sanctos martyres exhonorat, immo uero <lb/>
+            aufert sancta omnino <sic>martylia</sic>. iustius enim sapientiusque <lb/>
+            facerent secundum istos, si persecutoribus suis non se confiterentur <lb/>
+            esse christianos nec eos sua confessione facerent<lb n="15"/>
+            homicidas, sed potius mentiendo et negando quod erant, et <lb/>
+            ipsi <choice><note>salnum</note><corr>saluum</corr></choice> haberent carnis commodum cordisque propositum <lb/>
+            et illos conceptum animo scelus inplere non sinerent. non <lb/>
+            enim proximi eorum erant in fide christiana, ut cum eis <lb/>
+            deberent loqui ueritatem in ore suo, quam loquebantur in<lb n="20"/>
+            corde suo, sed ipsius ueritatis insuper inimici. si enim Iehu, <lb/>
+            quem sibi inter ceteros ad exemplum mentiendi prudenter <lb/>
+            uidentur intueri, seruum Bahalis se esse mentitus est, ut
+
+<app> 3 Ps. 14, 2 6 Eph. 4, 25 21 cf. IV Eeg. cap. 10 </app>
+
+<app> 1 quo <hi>Ch</hi> orę <hi>Ch</hi> 2 falsum <hi>post</hi> esse <hi>Ch</hi> falsum esse nullum <hi>C</hi> <lb/>
+            hoc <hi>om. Ch</hi> 4 oc <hi>C</hi> etiamsi] si <hi>V</hi> 5 alienos <hi>ChT1</hi> 6 proptere* <lb/>
+            hoc cp putant etiam <hi>bd</hi> 8 addidisse (di <hi>alt. 8. I.) R</hi> quia] quoniam <lb/>
+            7 9 menbra <hi>T</hi> 10 ueritas <hi>T1</hi> ueritatis (tis 8. <hi>I.) Ch</hi> coomembres <lb/>
+            <hi>R</hi> 12 sentia <hi>Ch</hi> sententia. <hi>R</hi> scorfl <hi>TCh</hi> martires <hi>ChV</hi> <lb/>
+            exonorat <hi>R</hi> inhonorat <hi>V</hi> uero] omnino <hi>V</hi> 13 omnino sancta 'r <lb/>
+            14 persequtoribus <hi>V</hi> confiteretur <hi>RM</hi> 16 omicidas <hi>Tl</hi> set <hi>C</hi> <lb/>
+            17 ipsum <hi>V</hi> commodum carnis g comodum o propositam <hi>ChT1</hi> <lb/>
+            18 concepto R2 concepta <hi>ChTL</hi> animo.. <hi>Ch</hi> scelos <hi>ChT1</hi> scaelus JB <lb/>
+            19 ut <hi>om. TCh</hi> loqui eis ueritatem deberent f 20 hore <hi>C</hi> 21 inimici <lb/>
+            ueritatis ueritatem celarent <hi>V</hi> insuper <hi>om. V</hi> lehu] ieu <lb/>
+            <hi>MChRC1</hi> iesu TF1 eum P ille <hi>FL</hi> hieu p iheu TF2 23 uidentor] noluerunt <lb/>
+            <hi>V</hi> baalis <hi>Vbd</hi> </app> <lb/>
+             
+<pb n="473"/>
+            seruos eius occideret, quanto iustius secundum istorum per <lb/>
+            <sic>uersitatem</sic> tempore persecutionis seruos daemonum se mentirentur <lb/>
+            serui Christi, ne serui daemonum seruos occiderent <lb/>
+            Christi, et sacrificarent idolis, ne interficerentur homines, si <lb/>
+            sacrificauit ille Bahali, ut interficeret homines? quid enim eis <lb n="5"/>
+            obesset secundum egregiam doctrinam mendaciloquorum, si <lb/>
+            diaboli cultum mentirentur in corpore, quando dei cultus <choice><note>sernabatur</note><corr>seruabatur</corr></choice> <lb/>
+            in corde? sed non sic intellexerunt apostolum martyres <lb/>
+            ueri, martyres sancti. uiderunt quippe tenueruntque <lb/>
+            quod dictum est: corde creditur ad iustitiam, ore confessio <lb n="10"/>
+            fit ad salutem, et: in ore eorum non est <sic>inu</sic> <lb/>
+            en t U III mend <sic>acium</sic>, ac sic inreprehensibiles abierunt, <lb/>
+            ubi temptari a mendacibus ulterius non cauebunt, quia mendaces <lb/>
+            amplius in suis caelestibus coetibus uel alienos uel <lb/>
+            proximos non habebunt. illum uero Iehu mendacio inpio et <lb n="15"/>
+            sacrificio sacrilego occidendos inpios et sacrilegos inquirentem <lb/>
+            non imitarentur, nec si de illo qualis fuisset eadem scriptura <lb/>
+            tacuisset. cum uero scriptum sit eum rectum cor non habuisse <lb/>
+            cum deo, quid ei profuit, quod pro nonnulla oboedientia, <lb/>
+            quam de domo Achab omnino delenda pro cupiditate suae <lb n="20"/>
+            dominationis exhibuit, aliquantam mercedem transitoriam regni
+
+<app> 10 Eom. 10, 10 11 Apoc. 14, 5 </app>
+
+<app> 1 iustius] plus <hi>V</hi> 2 seruus <hi>TCh</hi> se—daemonum <hi>om. MRC</hi> <lb/>
+            si <hi>TCh</hi> se mentirentur <hi>om</hi>. W mentientur <hi>Ck</hi> 3 Cbristi-daemonum <lb/>
+            <hi>om. W</hi> seruus <hi>Ch</hi> domonum <hi>Ch</hi> occiderent (nt 8. <hi>I.) R</hi> <lb/>
+            4 hidolis <hi>V</hi> 5 baali <hi>CVbd</hi> interflcere <hi>ChT1</hi> interficerent W 6 mendacilocorum <lb/>
+            <hi>11T</hi> mendacium <hi>V</hi> 7 diabuli <hi>M</hi> mentirent <hi>RM</hi> <lb/>
+            corpore] ore <hi>V</hi> 8 apostoli <hi>FL</hi> martyres ueri <hi>om. RMC</hi> 10 dictum] <lb/>
+            scriptum <hi>T$&gt;d</hi> ore autem <hi>TCK1</hi> 12 bac <hi>R</hi> 13 ualebunt <hi>ex</hi> <lb/>
+            cauebunt cp quia (i 8. <hi>I.)</hi> tp mendacibus <hi>V</hi> 14 coelestibuB <hi>T</hi> <lb/>
+            cetibus <hi>L</hi> 15 proximus <hi>Ch</hi> Iehu] ieu <hi>RMTChPf</hi> iheu <hi>ff""2FL</hi> <lb/>
+            hieu p hiesum <hi>V</hi> iesu TT1 16 sacrilegio <hi>R</hi> occidendo <hi>T</hi> impius <lb/>
+            <hi>ChT1</hi> 17 imitati sunt <hi>V</hi> 18 tacuisse <hi>Ch</hi> tacuit <hi>V</hi> abuisse Tt <lb/>
+            19 ei 8. <hi>l. R</hi> quod cfi W nonnulla (non <hi>8. I.) M</hi> nulla <hi>R7</hi> <lb/>
+            20 quod <hi>T</hi> demo <hi>Ch</hi> acab <hi>ChT1</hi> cupiditato <hi>Ch</hi> 21 dominationes <lb/>
+            <hi>V</hi> exibuit p temporalis regni 7 </app> <lb/>
+             
+<pb n="474"/>
+            temporalis accepit? ad sententiam potius ueridicam martyrum <lb/>
+            defendendam te, frater, exhortor, ut sis aduersus mendaces <lb/>
+            non mendacii doctor, sed ueritatis assertor. nam diligentius. <lb/>
+            obsecro, adtende, quod dico, ut inuenias quam sit cauendum. <lb/>
+            quod zelo quidem laudabili aduersus inpios, ut possint conprehendi<lb n="5"/>
+            et corrigi uel uitari, sed tamen incautius docendum <lb/>
+            putatur. 
+</p>
+          
+</div1>
+
+<div1 n="4" subtype="section"><head>§ 4</head>
+
+<p><milestone n="3" unit="altchapter"/> Mendaciorum genera multa sunt, quae quidem omnia <lb/>
+            uniuersaliter odisse debemus. nullum est enim mendacium, <lb/>
+            quod non sit contrarium <choice><note>ucritati</note><corr>ueritati</corr></choice>. nam sicut lux et tenebrae,<lb n="10"/>
+            pietas et inpietas, iustitia et iniquitas, peccatum et recte <lb/>
+            factum, sanitas et inbecilitas, uita et mors, ita inter se sunt <lb/>
+            ueritas mendaciumque contraria. unde quanto amanus istam. <lb/>
+            tanto illud odisse debemus. uerumtamen sunt quaedam mendacia, <lb/>
+            quae credere nihil obsit, quamuis etiam tali mentiendi<lb n="15"/>
+            genere fallere uoluisse mentienti sit noxium, non credenti. <lb/>
+            tamquam si frater ille seruus dei Fronto in his, quae tibi <lb/>
+            indicauit — quod absit — aliqua mentiretur, sibi nocuisset <lb/>
+            profecto, non tibi, quamuis tu omnia credidisses sine tua iniquitate <lb/>
+            narranti, quoniam siue illa ita gesta sint sine non ita,<lb n="20"/>
+            non habent tamen aliquid, quod si quis crediderit ita esse <lb/>
+            gestum, etiamsi non ita sit gestum, regula ueritatis et doctrina <lb/>
+            salutis aeternae iudicetur esse culpandus. si autem hoc quisque <lb/>
+            mentiatur, quod si quis crediderit aduersus doctrinam <lb/>
+            Christi haereticus erit, tanto est nocentior mentiens, quanto
+
+<app>1 sentie <hi>Ch</hi> potius <hi>om. V</hi> ueraedicam <hi>TCh</hi> ueredicam P <lb/>
+            2 defendam <hi>Ch</hi> deferendam <hi>V</hi> exortor T1 3 asertor <hi>V</hi> 4 adtende Ifl <lb/>
+            5 laudabilia <hi>W</hi> impius <hi>Ch</hi> 7 putatur multa genera mendaciorum <lb/>
+            <hi>RMOWI</hi> 9 odisse] ostendisse <hi>V</hi> enim est <hi>V</hi> enim mendacium est <foreign xml:lang="grc">β</foreign> <lb/>
+            10 ueritati contrarium <hi>V</hi> ueritatis <hi>C</hi> 11 rectum <hi>TCh</hi> 13 et <lb/>
+            mendacium <hi>V</hi> quando <hi>TCh</hi> 14 tanto <hi>ex</hi> toto m. <hi>2 B</hi> uernntamen <lb/>
+            (n <hi>semper) L</hi> 15 nichil <hi>(semper</hi> ch) <hi>llr</hi> 16 mentiendi <hi>T</hi> 17 hiis <foreign xml:lang="grc">β</foreign> <lb/>
+            iis <hi>bd</hi> 18 non mentiretur <hi>V</hi> sibi <hi>om. TCh</hi> nocuisse <hi>TCh</hi> <lb/>
+            19 tua <hi>TCh</hi> creddisses <hi>Ch</hi> 21 tamen] tale <hi>TCh</hi> ita crediderit <hi>V</hi> <lb/>
+            22 etiamsi (si <hi>s. l.) M</hi> ut regula <hi>FL</hi> 23 interne <hi>V</hi> culpandus <lb/>
+            esse <hi>V</hi> 24 mentiatur] nuntiat <hi>V</hi> 25 hereticos <hi>Ch</hi> nocentior est 17 <lb/>
+            nOllcentior <hi>T</hi> </app> <lb n="25"/>
+             
+<pb n="475"/>
+            miserior credens. uide ergo, quale sit, si aduersus doctrinam <lb/>
+            Christi mentiti fuerimus, quod quisquis crediderit interibit, <lb/>
+            ut inimicos eiusdem doctrinae capiamus, quos ad ueritatem, <lb/>
+            dum nos ab ea recedimus, adducamus, immo uero cum mendaces <lb/>
+            mentiendo capimus, mendacia peiora doceamus. aliud <lb n="5"/>
+            est enim quod dicunt, quando mentiuntur, aliud quando <lb/>
+            falluntur. nam cum haeresim suam docent, ea dicunt, in quibus <lb/>
+            falluntur; quando autem se dicunt sentire, quod non <lb/>
+            sentiunt, uel non sentire quod sentiunt, ea dicunt, in quibus <lb/>
+            mentiuntur. quod eis quisquis credit, etsi eos non inuenit, <lb n="10"/>
+            ipse non perit. a regula quippe catholica non recedit, qui <lb/>
+            haereticum catholica dogmata mendaciter profitentem catholicum <lb/>
+            credit. ac per hoc non est ei perniciosum, quia in hominis <lb/>
+            mente, de qua latente non potest iudicare, non in dei fallitur <lb/>
+            fide, quam debet insitam custodire. porro autem, quando <lb n="15"/>
+            haeresim suam docent, quisquis eis crediderit putando ueritatem, <lb/>
+            erit particeps ut erroris ita damnationis illorum. sic <lb/>
+            fit, ut, cum illi sua nefaria dogmata fabulantur, in quibus <lb/>
+            mortifero errore falluntur, tunc quisquis crediderit, pereat, <lb/>
+            nos autem quando catholica dogmata praedicamus, in quibus <lb n="20"/>
+            rectam fidem tenemus, tunc si crediderit, inueniatur quicumque <lb/>
+            perierat; quando uero, cum sint Priscillianistae, ut sua <lb/>
+            uenena non prodant, nostros se esse mentiuntur, quisquis <lb/>
+            nostrum eis credit etiam illis latentibus ipse catholicus
+
+<app>1 qualeg z&gt; 3 doctrini <hi>W</hi> quod <hi>VMłp 4</hi> adducimus <hi>V</hi> 5 docemua <lb/>
+            <hi>V</hi> 6 enim est <hi>V</hi> quo <hi>ChT1</hi> dictum 3 mentitur <hi>RM</hi> <lb/>
+            7 beresem <hi>TCh</hi> heresim JR-f 9 quod non sentiunt uel non sentire quod <lb/>
+            sentiunt ea dicunt <hi>sqq. MC</hi> 10 quisquis eis <hi>FL</hi> eius <hi>TCh</hi> 11 peribit <lb/>
+            <hi>V</hi> 12 catholicum dogma <hi>FL</hi> proferente P 13 hac <hi>T</hi> pernitiosum <lb/>
+            <hi>TVy</hi> 14 de om. <hi>V</hi> de qua latente non] de qualitate <lb/>
+            nemo <hi>C</hi> latent <hi>V</hi> late ne R 16 heresim <hi>TLf</hi> 17 error ista <hi>TiCh</hi> <lb/>
+            et damnationis <hi>bd</hi> dampnationis <hi>V</hi> illorum] eoram P sicj sit <hi>T</hi> <lb/>
+            18 ut] aut (a a. <hi>I.) T</hi> in—falluntur <hi>om. TCh</hi> 19 errore mortifero <hi>Y</hi> <lb/>
+            20 qui <hi>Chl</hi> 21 ei. cp crediderit <hi>ex</hi> dederit <hi>Ch</hi> inuenitnr <hi>FL</hi> <lb/>
+            quaecumque 'fit 22 priscilianistae <hi>M</hi> 23 non <hi>(del. assign.) f om. V</hi> <lb/>
+            nostris <hi>T</hi> 24 credit eis <hi>V</hi> credito <hi>B</hi> in illis <hi>R</hi> catholicus <lb/>
+            ipse T </app> <lb/>
+             
+<pb n="476"/>
+            perseuerat; nos contra ut ad eorum perueniamus indaginem, si <lb/>
+            Priscillianistas nos esse mentimur, quia eorum tamquam nostra <lb/>
+            sumus dogmata laudaturi, quisquis ea crediderit, ant confirmabitur <lb/>
+            apud eos aut transferetur ad eos interim statim. quid <lb/>
+            autem hora superuentura pariat, utrum inde postea liberentur<lb n="5"/>
+            uera dicentibus nobis, qui decepti sunt fallentibus nobis, et <lb/>
+            utrum audire uelint docentem, quem sic experti sunt mentientem, <lb/>
+            quis nouerit certum? quia hoc esse ignoret incertum? <lb/>
+            ex quo colligitur perniciosius aut, ut mitius loquar, periculosius <lb/>
+            mentiri catholicos, ut haereticos capiant, quam mentiuntur<lb n="10"/>
+            haeretici, ut catholicos lateant, quoniam quisquis credit <lb/>
+            catholicis mentiendo temptantibus, aut efficitur aut confirmatur <lb/>
+            haereticus, quisquis autem credit haereticis mentiendo <lb/>
+            sese occultantibus, non desinit esse catholicus. quod ut fiat <lb/>
+            planius, aliqua exempli gratia proponamus et ex eis potissimum<lb n="15"/>
+            scriptis, quae mihi legenda misisti. 
+</p>
+          
+</div1>
+
+<div1 n="5" subtype="section"><head>§ 5</head>
+
+<p>Ecce constituamus ante oculos callidum exploratorem <lb/>
+            accedere ad eum, quem Priscillianistam esse praesenserit, et <lb/>
+            Dictinii episcopi uel cogniti uitam uel incogniti famam laudare <lb/>
+            mendaciter; est hoc tolerabilius adhuc, quia ille putatur fuisse<lb n="20"/>
+            catholicus atque ex illo errore correctus. deinde Priscillianum <lb/>
+            — hoc enim sequitur in arte mentiendi — uenerabiliter
+
+<app> 19 Dictinii Libra </app>
+
+<app> 1 ad <hi>om. ChT1</hi> ut indaginem (ut <hi>exp. m. 2) T</hi> ut indaginem <hi>Ch</hi> <lb/>
+            2 mentitur <hi>R</hi> mentiamur <hi>LFy1</hi> nostra <hi>TCh</hi> 3 eos <hi>V</hi> 4 apnt <hi>RT</hi> <lb/>
+            statim aut transferetur ad eos interim <hi>V</hi> interim] interitu P quit F <lb/>
+            5 ora <hi>T</hi> 6 falsantibus <hi>V</hi> 7 uelint audire f dicentem <hi>T om. P</hi> <lb/>
+            quem- aic] qui <hi>FL</hi> 8 eese hoc <hi>TCh</hi> ignoret esse P 9 pernitiosius <lb/>
+            o 10 mentire <hi>TCh</hi> hereticos (e <hi>pro</hi> ae <hi>semper fere omnes eodd.)</hi> <lb/>
+            11 catholicus R chatholicos <hi>T</hi> credit-autem <hi>om</hi>. 'P 13 hereticos <lb/>
+            <hi>ChT1</hi> hereticos <hi>T</hi> mentiendos <hi>R</hi> mentiendo? <foreign xml:lang="grc">φ</foreign> 14 sese] esse <hi>R</hi> <lb/>
+            se <hi>V</hi> desi»nit <hi>T</hi> catholicos <hi>ChT1</hi> 15 panius Tl aliquo <hi>V</hi> <lb/>
+            aliqua (li s. <hi>l.)</hi> 9 proonamus <hi>V</hi> 16 scriptus <hi>Chl</hi> scriptQ <hi>V</hi> quem <hi>Jft</hi> <lb/>
+            misisti legenda y 17 exploratorem callidum <hi>V</hi> 18 quaem y priscilianistam <lb/>
+            M'P 19 dictynii <hi>WRMCh</hi> dictuni <hi>V</hi> dictinii <hi>TPFLC</hi> <lb/>
+            20 mendatiter <hi>TCh</hi> 21 errore-sequitur <hi>om. T</hi> priscilianum M <lb/>
+            22 artem <hi>TCh</hi> </app> <lb/>
+             
+<pb n="477"/>
+            commemoraturus est, hominem inpium et detestabilem et pro <lb/>
+            suis nefariis sceleribus criminibusque damnatum. in qua eius <lb/>
+            uenerabili commemoratione si forte ille, cui retia tenduntur <lb/>
+            huius modi, <choice n="0.94"><note n="37">firmus</note><corr n="2">fimus</corr></choice> Priscillianista non fuerat, hac eius praedicatione <lb/>
+            firmabitur. cum autem ad cetera explorantis sermo <lb n="5"/>
+            processerit et dicentis misereri se eorum, quos tantis errorum <lb/>
+            tenebris tenebrarum auctor inuoluerit, ut honorem animae <lb/>
+            suae et claritatem diuinae prosapiae non agnoscant, tum <lb/>
+            deinde Dictinii librum, cuius nomen est Libra, eo quod <sic>petractatis</sic> <lb/>
+            duodecim quaestionibus uelut unciis explicatur, tantis <lb n="10"/>
+            extulerit laudibus, ut talem Libram, qua horrendae blasphemiae <lb/>
+            continentur, multis librarum auri milibus pretiosiorem esse <lb/>
+            testetur, nempe haec astutia mentientis animam credentis <lb/>
+            interficit aut iam interfectam in eadem morte demergit ac <lb/>
+            deprimit. sed, inquies, postea liberabitur. quid? si non fiat, <lb n="15"/>
+            siue aliquo interueniente inpedimento, ne coepta conpleantur, <lb/>
+            siue obstinatione mentis haereticae rursus eadem negantis, <lb/>
+            etiamsi aliqua iam coeperat confiteri? praesertim quia, si <lb/>
+            cognouerit se ab alieno fuisse temptatum, eo ipso audacius <lb/>
+            illa, quae sentit, studebit occultare mendacio, quando id inculpate <lb n="20"/>
+            fieri multo certius didicerit etiam ipsius sui temptatoris <lb/>
+            exemplo. hoc quippe in homine, quod ueritatem tegendam
+
+<app> 1 commemoratus <hi>FLV$hominum Ch</hi> 3 cQmemoratione <hi>Ch</hi> <lb/>
+            4 huiua modi] qui usque modo (q <hi>et</hi> que <hi>add. m. 2) T</hi> uiusmodi <hi>Ch</hi> <lb/>
+            prescillianista <hi>T</hi> pristiliaxiista (c <hi>M) MCh</hi> 5 autem] hoc <hi>W ad]</hi> <lb/>
+            a <hi>ChT1</hi> de <hi>C</hi> 6 processerit <hi>om. RMC</hi> misereris <hi>RP</hi> se <hi>om. RP</hi> <lb/>
+            quos] post <hi>TCh</hi> tanto <hi>P</hi> 7 actor <hi>V</hi> 8 diuinae <hi>om. P</hi> <lb/>
+            prosepiae <hi>RM</hi> prosapientia <hi>P</hi> agnoscunt <hi>ChT1</hi> tunc <hi>TCh</hi> <lb/>
+            9 dictynii <hi>WRTP</hi> dictuni <hi>V</hi> libraę &lt;p pertractis <hi>W</hi> 10 uel* et <hi>T</hi> <lb/>
+            ueluti <hi>V</hi> uncis <hi>C</hi> unicus P unci#is <hi>T</hi> 11 librum 7 quo y <lb/>
+            12 praetiosiorem <hi>Rf</hi> pretiosior <hi>T</hi> preciosior <hi>Ch</hi> 14 eandem r mortem <lb/>
+            Ry deprimit ac demergit p hac <hi>T</hi> 16 siue] aut <hi>Y</hi> cepta <lb/>
+            <hi>RChLy</hi> 17 in obstinatione <hi>T</hi> 18 aliquam <hi>MC</hi> ceperat <hi>TCh</hi> ceperant <lb/>
+            <hi>V</hi> praesertim <hi>om. V</hi> 19 alie non <hi>M</hi> alieno non <hi>C</hi> 20 illa] <lb/>
+            ea 7 sentitis <hi>TM</hi> id <hi>om. V</hi> 22 exemplo <hi>ante</hi> ipsiuo <hi>in bd</hi> <lb/>
+            exempla <hi>TCh2</hi> quodj quoad <hi>V</hi> qui <hi>bd</hi> </app> <lb/>
+             
+<pb n="478"/>
+            putat esse mentiendo, qua tandem fronte culpabimus et damnare <lb/>
+            audebimus, quod docemus? . 
+</p>
+          
+</div1>
+
+<div1 n="6" subtype="section"><head>§ 6</head>
+
+<p>Remanet igitur, ut, quod sentiunt Priscillianistae secundum <lb/>
+            haeresis suae nefariam falsitatem de deo, de anima. de <lb/>
+            corpore, de ceteris rebus, non dubitemus ueraci pietate damnare;<lb n="5"/>
+            quod autem sentiunt, ut ueritas occultetur, esse mentiendum, <lb/>
+            sit nobis et illis — quod absit — dogma commune. <lb/>
+            hoc tam magnum malum est, ut etiamsi conatus hic noster. <lb/>
+            quo eos per mendacium capere cupimus et mutare. ita prosperetur, <lb/>
+            ut eos capiamus atque mutemus, nullis lucris conpensentur<lb n="10"/>
+            haec damna, quibus et nos cum ipsis pro eorum <lb/>
+            correctione deprauamur. per hoc namque mendacium et nos <lb/>
+            erimus ex ea parte peruersi et ipsi semicorrecti, quandoquidem <lb/>
+            istuc, quod putant esse pro ueritate mentiendum, non in eis <lb/>
+            corrigimus, quia idem nos didicimus et docemus et fieri oportere<lb n="15"/>
+            praecipimus, ut ad eos emendandos peruenire possimus. <lb/>
+            quos tamen non emendamus, quibus mendum, quo uerum <lb/>
+            tegendum existimant, non auferimus, sed nos potius inmendamur, <lb/>
+            cum per tale mendum eos quaerimus nec inuenimus. <lb/>
+            quemadmodum eis conuersis credere ualeamus, quibus <sic>peruer</sic><lb n="20"/>
+            sis mentiti sumus, ne forte, quod ut caperentur sunt passi. <lb/>
+            faciant capti, non solum quia facere consuerunt, sed quia et <lb/>
+            in nobis, ad quos ueniunt, hoc inueniunt.
+
+<app> 1 mentiendum <hi>V</hi> quo <hi>Tl</hi> fronte tandem <hi>V</hi> 3 priscilianistae <hi>BM</hi> <lb/>
+            4 nefarie <hi>V</hi> animo <hi>FL</hi> 5 et de ceteris <hi>bd</hi> 6 ut (s. <hi>I. m. 2) Chz</hi> <lb/>
+            8 tam] tamen <hi>FL</hi> hic noster conatas P noster hic <hi>V</hi> 9 prosperatur <lb/>
+            <hi>FL</hi> 10 mutemus <hi>m. 2 pro</hi> sumus p 11 ipsis] illis Y <lb/>
+            illorum <hi>bd</hi> 12 correctiong <hi>Ch</hi> correptione* <hi>T</hi> correptione y deprauamus <lb/>
+            '(q&gt; nanque <hi>LV</hi> 13 illi pfcrf semicorecti 71 14 isto,ł <lb/>
+            <hi>ChFLTVfiytobd</hi> pro ueritate <hi>om</hi>. y ueritate* <hi>T</hi> 15 (Jiditimus c <lb/>
+            dicimus <hi>Vfob</hi> 17 mendum] mentiendum <hi>RTChfo</hi> mendacium <hi>FLY</hi> <lb/>
+            uero <hi>TCh</hi> 18 existimamus <hi>FL</hi> existimat <hi>M</hi> inmendamnr] inemendamur <lb/>
+            <hi>FL</hi> emmendamur P emendemus <hi>V</hi> 19 cum] dum <hi>Y</hi> talem <lb/>
+            <hi>TOll</hi> mendendum <hi>R</hi> mendacium <hi>FLVfa</hi> eos s. Z. 22 20 quemammodum <lb/>
+            &lt;p 22 fatiant <hi>Ch</hi> que (e <hi>ex</hi> i) <hi>T</hi> consueuerunt <lb/>
+            <hi>bd</hi> </app> 
+<pb n="479"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="7" subtype="section"><head>§ 7</head>
+
+<p><milestone n="4" unit="altchapter"/> Et quod est miserabilius, etiam ipsi iam quasi <lb/>
+            nostri effecti, quemadmodum nobis credant, reperire non <choice><note>poasunt</note><corr>possunt</corr></choice>. <lb/>
+            si enim suspicentur etiam ipsa catholica dogmata nos mendaciter <lb/>
+            loqui, ut nescio quid aliud occultemus, quod uerum <lb/>
+            putamus, certe talia suspicanti dicturus es: hoc tunc ideo <lb n="5"/>
+            feci, ut caperem te. sed quid respondebis dicenti: unde igitur <lb/>
+            <choice><note>ecio</note><corr>scio</corr></choice>, utrum etiam nunc id facias, ne capiaris a me? an uero <lb/>
+            cuiquam persuaderi potest hominem non mentiri, ne capiatur <lb/>
+            qui mentitur, ut capiat? uidesne, quo tendat hoc malum? ut <lb/>
+            scilicet non solum nos illis ipsique nobis, sed omnis frater <lb n="10"/>
+            omni fratri non inmerito uideatur esse suspectus. atque ita, <lb/>
+            dum per mendacium tenditur, ut doceatur fides, id agitur <lb/>
+            potius, ut nulli habenda sit fides. si enim et contra deum <lb/>
+            loquimur, cum mentimur, quid tantum mali poterit in ullo <lb/>
+            mendacio reperiri, quod tamquam scelestissimum omni modo <lb n="15"/>
+            deuitare debeamus? 
+</p>
+          
+</div1>
+
+<div1 n="8" subtype="section"><head>§ 8</head>
+
+<p><milestone n="5" unit="altchapter"/> Sed nunc aduerte, quam tolerabilius Priscillianistae <lb/>
+            in nostra comparatione mentiantur, quando ae fallaciter loqui <lb/>
+            sciunt, quos nostro mendacio liberandos putamus ab eis falsis, <lb/>
+            in quibus errando falluntur. Priscillianista dicit, quod anima <lb n="20"/>
+            sit pars dei et eiusdem cuius est ille naturae atque substantiae. <lb/>
+            magna haec est et detestanda blasphemia. sequitur enim, ut <lb/>
+            dei natura captiuetur, decipiatur, fallatur, conturbetur atque
+
+<app> 1 est miserabilius est <hi>V</hi> mirabilius <hi>T</hi> ipsi <hi>om. FL</hi> quasi <lb/>
+            iam <hi>TCh</hi> 2 quemammodum <hi>RMrp</hi> a nobis <hi>FL</hi> credantur <hi>L</hi> <lb/>
+            repperire <hi>(semper</hi> pp) <hi>RT</hi> 3 suspicantur <hi>V</hi> ipsam catholicam <lb/>
+            dogmatam <hi>TCh</hi> ipsi <hi>LF</hi> 5 putemus <hi>TFL$l</hi> putamus <hi>Ch</hi> putent <hi>V</hi> <lb/>
+            talia] alia <hi>PFLTt</hi> suspicatis V est <hi>R</hi> es* y 6 feciunt <hi>R</hi> ut <lb/>
+            <hi>om. R</hi> ducenti P 7 scis <hi>T</hi> id <hi>om. FL</hi> ne] ut <hi>V om</hi>. T <lb/>
+            capiar <hi>V</hi> me] te <hi>V</hi> 8 persuadere <hi>V</hi> mentiri non <hi>V</hi> igmentiri <lb/>
+            T 9 quo tendat] contendat P 10 et omnia <hi>V</hi> 12 agi <hi>MCh$yl/</hi> <lb/>
+            13 nulli (i in <hi>ras.) R</hi> 14 cum mentimur] commentimur <hi>ChT1</hi> in <lb/>
+            tillo] nullo P in <hi>om. FL</hi> nullo <hi>TCh</hi> illo y 15 repperiri <hi>M</hi> <lb/>
+            16 debemus <hi>V</hi> 17 quod <hi>V</hi> priscilianistae <hi>(semper</hi> 1) <hi>M</hi> 18 se <lb/>
+            <hi>om. T</hi> 19 liberandus <hi>Ch</hi> 20 errendo <hi>R'</hi> anuna <hi>V</hi> 21 sit <hi>om.. V</hi> <lb/>
+            est <hi>om. V</hi> 22 est ct detestanda hec <hi>V</hi> </app> <lb/>
+             
+<pb n="480"/>
+            <sic>turpetur</sic>, damnetur atque crucietur. at si hoc et ille dicit, <lb/>
+            qui de tanto malo liberare cupit hominem per mendacium, <lb/>
+            uideamus, quid intersit inter utrumque blasphemum. plurimum <lb/>
+            inquis; nam hoc Priscillianista dicit ita etiam credens, catholicus <lb/>
+            autem non ita credens, quamuis ita loquens. ille ergo<lb n="5"/>
+            blasphemat nesciens, iste autem sciens; ille contra scientiam, <lb/>
+            iste contra conscientiam; ille habet caecitatem falsa sentiendi, sed <lb/>
+            in eis habet saltem uoluntatem uera dicendi; iste latens <lb/>
+            uidet uera et uolens loquitur falsa. sed ille, inquies, hoc <lb/>
+            docet, ut erroris sui faciat furorisque participes; iste autem<lb n="10"/>
+            hoc dicit, ut ab illo errore ac furore liberet homines. iam <lb/>
+            quidem supra ostendi, quantum et hoc noceat, quod creditur <lb/>
+            profuturum; uerum interim si appendamus in his duobus <lb/>
+            mala praesentia — quoniam futura bona, quae catholicus de <lb/>
+            corrigendo haeretico inquirit, incerta sunt — quis peccat<lb n="15"/>
+            grauius: utrum qui hominem decipit nesciens, an qui deum <lb/>
+            blasphemat sciens? profecto quid sit peius intellegit, qui <lb/>
+            homini deum sollicita pietate praeponit. huc accedit, quia. <lb/>
+            si blasphemandus est deus, ut ad eum laudandum homines <lb/>
+            adducamus, procul dubio non solum ad laudandum, uerum<lb n="20"/>
+            etiam ad blasphemandum deum exemplo et doctrina nostra <lb/>
+            homines inuitamus, quoniam quos ad dei laudes per dei <lb/>
+            blasphemias molimur adducere, utique si adduxerimus, non <lb/>
+            solum laudare discent, uerum etiam blasphemare. haec illis <lb/>
+            beneficia conferimus, quos non ignoranter, sed scienter
+
+<app> 1 turpetur] turbetur <hi>T</hi> dominetur <hi>T</hi> ad <hi>MTCh</hi> hoc et ille] <lb/>
+            ille hoc <hi>V</hi> 2 quod <hi>T</hi> 3 uidiamus <hi>Ch</hi> utrunque <hi>L</hi> 4 ita ex <lb/>
+            ata cp catholicus—credens <hi>om. V</hi> 6 ille autem <hi>L</hi> 8 saltem habet <foreign xml:lang="grc">β</foreign> <lb/>
+            saltim <hi>MOnTI</hi> ueritatem &lt;p. 9 et uera 7 ille <hi>om. y</hi> 10 docet <lb/>
+            ut] docetur <hi>ChT1</hi> ęţ ut ip 11 errore illo y 12 hostendi <hi>P</hi> <lb/>
+            quantum] quam <hi>T</hi> oc <hi>ChT1</hi> nocet <hi>V</hi> 13 ut in <hi>TCh</hi> is <hi>M</hi> <lb/>
+            14 mala s. <hi>Z. R</hi> bona <hi>futura$bd</hi> 17 intellegi <hi>in ras. TCh</hi> 18 solita <lb/>
+            <foreign xml:lang="grc">β</foreign> proponit <hi>TChL<foreign xml:lang="grc">β</foreign>accedit om. V</hi> quia si] quasi <hi>P</hi> <lb/>
+            19 si <hi>om. TV</hi> 21 ad] a <hi>ChT1</hi> 22 a <hi>ChT</hi> 23 blaphemas <hi>Ch</hi> <lb/>
+            mollimur 22 non] nos <hi>Ch</hi> 24 blaspemare <hi>My</hi> haec] nec V <lb/>
+            25 ignoramus <hi>V</hi> sed] si <hi>V</hi> </app> <lb n="25"/>
+             
+<pb n="481"/>
+            blasphemando ab haereticis liberamus. et cum apostolus homines <lb/>
+            tradiderit etiam ipsi satanae, ut discerent non blasphemare, <lb/>
+            nos conamur homines eruere satanae, ut discant <lb/>
+            non per ignorantiam, sed per scientiam blasphemare, nobisque <lb/>
+            ipsis, magistris eorum, hoc tam magnum inportamus exitium, <lb n="5"/>
+            ut propter haereticos capiendos prius efficiamur, quod certum <lb/>
+            est, dei blasphematores, quo possimus propter eos, quod <choice><note>incertura</note><corr>incertum</corr></choice> <lb/>
+            est, liberandos ueritatis eius esse doctores? 
+</p>
+          
+</div1>
+
+<div1 n="9" subtype="section"><head>§ 9</head>
+
+<p>Cum igitur blasphemare deum doceamus nostros, ut eos <lb/>
+            Priscillianistae credant suos, uideamus, quid mali dicant ipsi, <lb n="10"/>
+            quando propterea mentiuntur, ut eos nostros esse credamus. <lb/>
+            anathematizant Priscillianum et ad nostrum arbitrium detestantur; <lb/>
+            dicunt animam creaturam dei esse, non partem; exsecrantur <lb/>
+            Priscillianistarum falsa martyria; catholicos episcopos, a <lb/>
+            quibus illa haeresis nudata, oppugnata, prostrata est, magnis <lb n="15"/>
+            efferunt laudibus et cetera huius modi. ecce ipsi uera dicunt, <lb/>
+            quando mentiuntur, non quo simul possit hoc ipsum uerum <lb/>
+            esse, quod mendacium est, sed in alio quando mentiuntur, <lb/>
+            in alio uera dicunt; quando enim nostros se esse mentiuntur, <lb/>
+            de fide catholica uera dicunt. ac per hoc ipsi, ne Priscillianistae <lb n="20"/>
+            inueniantur, loquuntur mendaciter uera; nos autem, ut <lb/>
+            eos inueniamus, non solum mendaciter loquimur, ut ad illos <lb/>
+            pertinere credamur, sed etiam falsa loquimur, quae ad illorum
+
+<app> 2 cf. I Tim. 1, 20 </app>
+
+<app> 1 tradiderit homines <hi>L</hi> 2 etiam <hi>om. Y</hi> sathane <hi>Y</hi> discant y <lb/>
+            3 aeruire <hi>Y</hi> eathane <hi>Y</hi> ut] et ut <hi>T</hi> 5 exitum <hi>MBl</hi> 6 priuseoa <lb/>
+            <hi>om. FL</hi> 7 quam <hi>Y</hi> eos <hi>om. T</hi> quos <hi>L</hi> 8 liberandos <lb/>
+            prius efficiamur blasphemi§ quam ueritatis <hi>sqq. FL</hi> eius esse <hi>om. L</hi> <lb/>
+            9 deum blasphemare <hi>Y</hi> 10 priscilliani <hi>FL</hi> quod <hi>M</hi> discant <hi>FL</hi> <lb/>
+            12 anathematizent <hi>T</hi> anathemazaent <hi>Ch</hi> priscilianum tp nostrom <hi>Chl</hi> <lb/>
+            13 dei esse creaturam Y execrantur <hi>TV$14</hi> priscillyanistarum <hi>Ch</hi> <lb/>
+            priscilianistarum <hi>B</hi> prisciillianistarum fl eps <hi>Ch</hi> 15 est <hi>om. V</hi> <lb/>
+            17 ipsi mentiuntur <hi>Y</hi> non-mentiuntnr <hi>om. V</hi> ipsum <hi>om. T</hi> <lb/>
+            18 mendum <hi>MCh</hi> mentiendum &lt;p alio falsa <hi>FL</hi> 19 alium uerum &lt;p <lb/>
+            nero <hi>ChT</hi> quando-dicunt <hi>om. F</hi> nostros] de nostro <hi>T</hi> de nostros <lb/>
+            <hi>Ch</hi> 20 edicunt uera <hi>V</hi> hac <hi>Ch</hi> ne <hi>om. T</hi> prisciilianistae ip <lb/>
+            21 ut inueniantur (ut <hi>8. I.) T</hi> inueniatur <hi>P</hi> locuntur Tlf 22 illo <hi>Ch</hi> </app>
+
+<app> XXXXI Aug. Sect. V pari III. </app>
+
+<app> 31 </app> <lb/>
+             
+<pb n="482"/>
+            errorem pertinere cognouimus. itaque illi quando nostri putari <lb/>
+            uolunt, et falsum est ex parte et uerum est ex parte, quod <lb/>
+            dicunt — falsum est enim eos nostros esse, uerum est autem <lb/>
+            animam partem dei non esse — nos uero quando ad eos <lb/>
+            pertinere putari <choice><note>uolnmus</note><corr>uolumus</corr></choice>, falsum est utrumque, quod dicimus,<lb n="5"/>
+            et Priscillianistas nos esse et animam partem dei esse. itaque <lb/>
+            illi deum laudant, non blasphemant, quando se occultant; et <lb/>
+            quando se non occultant, sed sua proferunt, blasphemare se <lb/>
+            nesciunt. ideo si ad fidem catholicam conuertantur, <choice><note>consolaotur</note><corr>consolantur</corr></choice> <lb/>
+            semet ipsos, quia possunt dicere, quod apostolus, qui<lb n="10"/>
+            cum inter cetera dixisset: prius fui blasphemus, misericordiam, <lb/>
+            inquit, consecutus sum, quia ignorans feci. <lb/>
+            nos contra, ut se nobis aperiant, si hoc quasi iustum mendacium <lb/>
+            fallendis eis capiendisque proferimus, profecto et ad <lb/>
+            blasphematores Priscillianistas pertinere nos dicimus et, ut<lb n="15"/>
+            nobis credant, sine excusatione ignorantiae blasphemamus. <lb/>
+            neque enim catholicus, qui blasphemando uult haereticus <lb/>
+            credi, potest dicere: ignorans feci. 
+</p>
+          
+</div1>
+
+<div1 n="10" subtype="section"><head>§ 10</head>
+
+<p><milestone n="6" unit="altchapter"/> Semper, frater, in talibus causis cum timore recolendum <lb/>
+            est: quicumque me negauerit coram hominibus,<lb n="20"/>
+            negabo eum coram patre meo, qui in caelis <lb/>
+            est. an uero Christum coram hominibus non negat, qui eum <lb/>
+            coram Priscillianistis negat, ut eos latentes blasphemo mendacio <lb/>
+            nudet et capiat? quis autem dubitat, obsecro te, negari <lb/>
+            Christum, cum, sicuti est uerus, ita non esse dicitur et, sicut<lb n="25"/>
+            eum Priscillianista credit, ita esse dicitur?
+
+<app>11 I Tim. 1, 13 20 Matth. 10, 33 </app>
+
+<app> 1 errore <hi>Ch</hi> 2 <hi>pr</hi>. ex <hi>a. I. R</hi> 5 utrunque <hi>V</hi> 6 priAcilianistas 7 <lb/>
+            illi itaque <hi>bd</hi> 7 blaphemant <hi>V</hi> et-occultant <hi>om. V</hi> 8 cum sua <hi>V</hi> <lb/>
+            9 conuertuntur <foreign xml:lang="grc">β</foreign> 11 inte <hi>Ch</hi> inter <hi>s. Z. R</hi> »diiieaet « fuit ? <lb/>
+            12 inquitj in quid <foreign xml:lang="grc">β</foreign> <hi>om. RV</hi> coneequtus <hi>V</hi> qui <hi>R*</hi> 13 iutum F <lb/>
+            14 eis <hi>om</hi>. If 15 priscilianistas y 17 qng <hi>T</hi> que <hi>Ch</hi> hereticos <hi>ChT1</hi> <lb/>
+            20 quicunque <hi>VL</hi> negauerit me Fy 21 qui in caelis est om. V <lb/>
+            23 negant <hi>R</hi> blasphemia <hi>V</hi> mendacii <hi>V</hi> 24 qui <hi>T</hi> dubitat <lb/>
+            <hi>om. V</hi> te] non <hi>V</hi> negat <hi>V</hi> negare <hi>TCh</hi> 25 sicut. <hi>R</hi> <lb/>
+            ita nQŞ 9 26 eumj cum <hi>P om. FL</hi> priscilianieta <hi>R</hi> </app><lb/>
+             
+<pb n="483"/>
+            
+</p>
+
+</div1>
+
+<div1 n="11" subtype="section"><head>§ 11</head>
+
+<p>Sed occultos lupos, inquies, indutos pellibus ouium <lb/>
+            et dominicum gregem latenter grauiterque uastantes aliter <lb/>
+            inuenire non possumus. unde ergo innotuerunt Priscillianistae, <lb/>
+            priusquam huius mendacii fuisset excogitata uenatio? unde <lb/>
+            ad ipsius auctoris illorum profecto astutioris et ideo tectioris <lb n="5"/>
+            cubile peruentum est? unde tot tantique manifestati atque <lb/>
+            damnati et ceteri innumerabiles partim correcti, partim uelut <lb/>
+            correcti et ecclesia miserante conlecti sunt? multas enim uias <lb/>
+            dat dominus, quando miseretur, quibus ad eorum perueniatur <lb/>
+            indaginem: quarum duae sunt aliis feliciores, ut uel ab eis, <lb n="10"/>
+            quos seducere uoluerunt, aut ab eis, quos iam seduxerant, <lb/>
+            resipiscentibus conuersisque monstrentur. quod facilius fit, si <lb/>
+            nefarius eorum error non mendacibus captationibus, sed ueracibus <lb/>
+            disputationibus euertatur. quibus conscribendis operam <lb/>
+            te oportet inpendere, quoniam dominus donauit, ut possis. <lb n="15"/>
+            quae scripta salubria, quibus eorum peruersitas insana destruitur, <lb/>
+            cum magis magisque innotuerint et a catholicis uel <lb/>
+            antistitibus, qui loquuntur in populis, uel a quibusque studiosis <lb/>
+            zelo dei plenis fuerint usquequaque diffusa, haec erunt <lb/>
+            sancta retia, quibus capiantur ueraciter, non mendaciter inquirantur. <lb n="20"/>
+            sic enim capti aut ultro quid fuerint fatebuntur et <lb/>
+            alios, quos in sua mala societate nouerunt, uel concorditer <lb/>
+            1 cf. Matth. 7, 15 <lb/>
+            1 hoccultus <hi>Ch</hi> inquies lupos <hi>V</hi> indutus <hi>Ch</hi> 2 latentes <sic>cp</sic> <lb/>
+            <sic>graaiterque</sic> uastantes aliter <hi>om</hi>. <sic>If</sic> 3 pricillianistae 9 4 esset <hi>T <lb/>
+            unde (de 8. I.)</hi> &lt;p <hi>5 actoris V</hi> eorum P astutioris] aut <sic>institutoris</sic> <lb/>
+            <hi>V</hi> ideo] inde <hi>TCh</hi> 6 <sic>toUantiqui</sic> &lt;p tantique] antiqui <hi>FL</hi> <lb/>
+            7 dampnati <hi>V</hi> parti <hi>V</hi> incorrecti <hi>B</hi> correpti <sic>tp</sic> 8 correpti &lt;p <lb/>
+            et in ecclesiam miserantem <hi>bd</hi> <choice><note>conlectij</note><corr>conlecti</corr></choice> correcti <hi>V</hi> enim habet <lb/>
+            (habet <hi>a. I.)</hi> y 9 dat <hi>om</hi>. y 10 uel <hi>om. V</hi> 11 quose ducere V <lb/>
+            ne duxerant <hi>V</hi> 12 resipisentibus y fit] sit ii sine farius <hi>V</hi> <lb/>
+            13 error eorum <hi>FL</hi> aptationibus 9 14 operam te] operanter <hi>T</hi> <lb/>
+            operante <hi>Ch ? </hi> 16 quae] querere <hi>V</hi> scribta <hi>T</hi> 18 antistibus T1^ <lb/>
+            antestitibus <hi>RP</hi> atestitibus <hi>V</hi> <choice n="0.31"><note n="13">locantur</note><corr n="28">locuntur</corr></choice> <sic>Tn</sic> in populis <hi>om. V</hi> <lb/>
+            19 qui zelo <hi>V</hi> pleno <hi>R</hi> pleni <hi>V</hi> fuerunt o diffusa <hi>(in mg</hi>. <lb/>
+            perfecta) y 20 sancta <hi>om. V</hi> in quibus <sic>wT</sic> nomendaciter <hi>Ch</hi> <lb/>
+            22 uel-corrigent <hi>om. TCh</hi> <lb/>
+            31* <lb/>
+             
+<pb n="484"/>
+            corrigent uel misericorditer prodent; aut, si eos pudebit fateri. <lb/>
+            quod diuturna simulatione texerunt, occulta dei manu medicante <lb/>
+            sanabuntur. 
+</p>
+          
+</div1>
+
+<div1 n="12" subtype="section"><head>§ 12</head>
+
+<p>Sed multo facilius, inquies, eorum latibula penetramus, <lb/>
+            si quod sunt nos esse mentiamur. hoc si liceret aut expediret,<lb n="5"/>
+            potuit Christus praecipere ouibus suis, ut lupinis amictae <lb/>
+            pellibus ad lupos uenirent et eos huius artis fallaciis <choice><note>innenirent</note><corr>inuenirent</corr></choice>: <lb/>
+            quod eis non dixit nec quando eas in medium <lb/>
+            luporum se missurum esse praedixit. sed dices: non erant <lb/>
+            tunc inquirendi, cum essent apertissimi lupi, sed eorum<lb n="10"/>
+            morsus et saeuitia perferenda. quid? cum tempora posteriora <lb/>
+            praenuntians in uestitu ouium dixit rapaces lupos esse uenturos, <lb/>
+            nonne ibi erat locus, ut haec moneret et diceret: et <lb/>
+            uos, ut eos inueniatis, adsumite uestitum luporum, intrinsecus <lb/>
+            autem oues manete? non hoc ait. sed cum dixisset: multi<lb n="15"/>
+            ad uos uenient in uestitu ouium, intrinsecus <choice n="5.61"><note n="1">antem</note><corr n="17824">autem</corr></choice> <lb/>
+            sunt lupi rapaces, non addidit: ex mendaciis uestris. <lb/>
+            sed: ex fructibus eorum cognoscetis eos. ueritate <lb/>
+            sunt cauenda, ueritate capienda, ueritate occidenda mendacia. <lb/>
+            absit, ut blasphemias ignorantium scienter blasphemando uincamus,<lb n="20"/>
+            absit, ut mala fallacium imitando caueamus. quomodo <lb/>
+            enim cauebimus, si, ut caueamus, habebimus? si enim, ut
+
+<app> 8 cf. Matth. 10, 16 15 Matth. 7, 15. 16 </app>
+
+<app> 1 corrigent <hi>Vbd:</hi> corrigunt <hi>RMFLPfa om</hi>. 9 uel miaericorditer <lb/>
+            <hi>om. V&lt;p</hi> prodent <hi>Vbd:</hi> produnt <hi>RMTChPFLfyy</hi> 2 manu dei <hi>bd</hi> <lb/>
+            meditante (J1 3 sanabuntur <hi>bd:</hi> sanantur <hi>WMChPFLVT2Py®</hi> sonan. <lb/>
+            tuT Tt sanatur <hi>R</hi> 5 si <hi>om. ChT1</hi> si quo deus non esae sentiamur P <lb/>
+            quod sunt] dens <hi>V</hi> quo <hi>R</hi> nos] non <hi>V</hi> si liceret] scilicet <hi>F</hi> <lb/>
+            7 lupos <hi>ex</hi> lupus 9 ad eos <foreign xml:lang="grc">β</foreign> huius] su§ <hi>FL</hi> 8 quos <hi>Ch</hi> ..eis <hi>M</hi> <lb/>
+            eos <hi>V</hi> medio <hi>V</hi> 9 dicis <hi>F</hi> erant (a in ras.) <hi>T</hi> erant Ch <lb/>
+            11 quit <hi>V</hi> qui <hi>L</hi> 12 prenuntiens <hi>Ch</hi> in] cura <hi>Y</hi> 13 haec moneret <lb/>
+            et <hi>om. FL</hi> et uos-p. 499, <hi>14</hi> niam ita ut <hi>desunt in cod. M</hi> <lb/>
+            14 ut <hi>(ex</hi> e) <hi>Ch</hi> eos] uos <hi>T</hi> asum*ite <hi>TCh</hi> assummite <hi>P</hi> instrinsecus <lb/>
+            <hi>Ch</hi> 15 autem-intrinsecus <hi>om</hi>. Fl 16 in«trinsecus <hi>Ch</hi> <lb/>
+            18 agnoscetis Y 19 sunt <hi>om. V</hi> occidenda] capienda o occidenda <lb/>
+            sunt F 21 fallatium P fallacia <hi>R</hi> </app> <lb/>
+             
+<pb n="485"/>
+            capiatur qui blasphemat nesciens, blasphemabo sciens, peius <lb/>
+            est quod facio quam quod capio; si, ut <sic>iaueniatur</sic> qui <lb/>
+            Christum negat nesciens, ego <choice><note>Cbristum</note><corr>Christum</corr></choice> negabo sciens, ad <lb/>
+            perditionem me secuturus est, quem sic inuenero: si quidem, <lb/>
+            ut illum inueniam, prior pereo. <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="13" subtype="section"><head>§ 13</head>
+
+<p>An forte qui eo modo Priscillianistas inuenire molitur, <lb/>
+            ideo non negat Christum, quia ore depromit, quod corde non <lb/>
+            credit? quasi uero — quod et paulo ante iam dixi — cum <lb/>
+            dictum esset: corde creditur ad iustitiam, incassum <lb/>
+            est additum: ore confessio fit ad salutem. nonne paene <lb n="10"/>
+            omnes, qui Christum coram persecutoribus negauerunt, quod <lb/>
+            de illo credebant, corde tenuerunt et tamen ore ad salutem <lb/>
+            non confitendo perierunt, nisi qui paenitentia reuixerunt? quis <lb/>
+            ita uanescat, ut existimet apostolum Petrum hoc habuisse in <lb/>
+            corde quod in ore, quando Christum negauit? nempe in illa <lb n="15"/>
+            negatione intus ueritatem tenebat et foras mendacium proferebat. <lb/>
+            cur ergo lacrimis diluit, quod ore negauerat, si saluti <lb/>
+            sufficiebat, quod corde credebat? cur loquens in corde suo <lb/>
+            ueritatem tam amaro fletu puniuit mendacium, quod ore <lb/>
+            <sic>depromsit</sic>, nisi quia magnam uidit esse perniciem, quod <choice n="0.29"><note n="283">corda</note><corr n="684">corde</corr></choice> <lb n="20"/>
+            quidem credidit ad iustitiam, sed ore non confessus est ad <lb/>
+            salutem? 
+</p>
+          
+</div1>
+
+<div1 n="14" subtype="section"><head>§ 14</head>
+
+<p>Quapropter illud, quod scriptum est: qui loquitur <lb/>
+            ueritatem in corde suo, non sic accipiendum est, quasi
+
+<app>9 Rom. 10, 10 14 cf. Matth. 26, 69 sqq. 23 Ps. 14, 2 <lb/>
+            1 blasphemabo] blaephemo <hi>V</hi> blasphemando <hi>F</hi> blasphemIW40 <hi>L</hi> 2 facioj <lb/>
+            ago (a <hi>ex</hi> e) <hi>P, bd</hi> ei ut] sicut <hi>TCh</hi> si utique <hi>FP</hi> 8 nesciens <lb/>
+            negat <hi>V</hi> 4 sequuturua <hi>Y</hi> 5 illo <hi>Ch</hi> 7 depromitur <hi>V</hi> 8 iam <hi>om. V</hi> <lb/>
+            cum] quam <hi>TCh</hi> 9 sine causa esset in causl S additum <hi>W</hi> incasum T1 <lb/>
+            10 additum est <hi>V</hi> ore autem <hi>TVChJ</hi> nonnae rp poene <hi>RT</hi> <lb/>
+            pone P 11 persequutoribus <hi>V</hi> 13 nisi-reuixerunt <hi>om. V</hi> quia <hi>FL</hi> <lb/>
+            pcr <hi>paenitentiam pM</hi> 14 euanescat <hi>{3y2bd</hi> ...hoc <hi>Ch</hi> 16 foris <lb/>
+            <hi>$r;bd</hi> 17 quur 1'1 doluit <hi>T</hi> saluti. &lt;p 18 credebat] tenebat <hi>TCh</hi> <lb/>
+            ueritatcm in corde suo p 20 deprompsit <hi>ChFVyybd</hi> uidit magnam p <lb/>
+            pernitiem <hi>R</hi> 21 credidit <hi>(pr</hi>. di s. <hi>I.)</hi> I? confisus (i <hi>ex</hi> u) <hi>Ch</hi> <lb/>
+            24 sic <hi>om</hi>. <foreign xml:lang="grc">φ</foreign> </app><lb/>
+             
+<pb n="486"/>
+            retenta in corde ueritate loquendum sit in ore mendacium. <lb/>
+            sed ideo dictum est, quia fieri potest, ut loquatur quisque <lb/>
+            ore ueritatem, quae nihil ei prosit, si eam in corde non teneat, <lb/>
+            id est, si quod loquitur ipse non credat. sicut haeretici, <lb/>
+            maximeque idem Priscillianistae faciunt, cum catholicam ueritatem<lb n="5"/>
+            non quidem credunt, sed tamen loquuntur, ut nostri <lb/>
+            esse credantur. loquuntur ergo ueritatem in ore suo, non in <lb/>
+            corde suo. propterea distinguendi erant ab illo, de quo dictum <lb/>
+            est: qui loquitur ueritatem in corde suo. hanc autem <lb/>
+            ueritatem catholicus sicut in corde loquitur, quia ita credit,<lb n="10"/>
+            ita et in ore debet, ut ita praedicet; contra istam uero nec <lb/>
+            in corde nec in ore habeat falsitatem, ut et corde credat ad <lb/>
+            iustitiam et ore confessionem faciat ad salutem. nam et in <lb/>
+            illo psalmo, cum dictum esset: qui loquitur ueritatem in <lb/>
+            corde suo, mox etiam hoc additum est: qui non egit<lb n="15"/>
+            dolum in lingua sua. 
+</p>
+          
+</div1>
+
+<div1 n="15" subtype="section"><head>§ 15</head>
+
+<p>Et illud, quod ait apostolus: deponentes mendacium <lb/>
+            loquimini ueritatem unusquisque cum proximo suo. <lb/>
+            quia sumus inuicem membra, absit, ut sic <choice><note>intellegamas</note><corr>intellegamus</corr></choice>, <lb/>
+            tamquam loqui mendacium permiserit cum eis, qui nondum<lb n="20"/>
+            sunt nobiscum membra corporis Christi. sed ideo dictum est, <lb/>
+            quia unusquisque nostrum hoc debet quemque deputare, quod <lb/>
+            eum uult fieri, etiam si nondum factus est. sicut dominus <lb/>
+            alienigenam Samaritanum proximum eius ostendit, cum quo <lb/>
+            misericordiam fecit. proximus ergo habendus est, non alienus.
+
+<app> 9 Ps. 14, 2 15 Ps. 14, 2. 3 17 Eph. 4, 25 23 cf. Luc- <lb/>
+            10, 30 sqq. </app>
+
+<app> 1 retenta] remota <hi>FL</hi> ueritatem <hi>TCh*</hi> 3 ueritatem ore <hi>V</hi> <lb/>
+            4 credit 7 5 iidem <hi>bd cum voce</hi> faciunt <hi>incipit codex 0</hi> 6 locuntur <lb/>
+            <hi>TOPt</hi>? 7 locuntur <hi>RChOr</hi> 8 distinguendu t»1 10 catholicos <lb/>
+            <hi>Ch</hi> 11 debet habere <hi>V</hi> istam uero <hi>om. V</hi> 12 habeat (t s. <hi>I) </hi>? <lb/>
+            13 in ore <hi>FL</hi> confessione <hi>T</hi> saluntem <hi>Ch</hi> in om. &lt;p 15 hoc <lb/>
+            <hi>om. V</hi> 17 apostolus ait <hi>Chfiobd</hi> agit <hi>Ch</hi> 18 com <hi>Ch</hi> SilO <lb/>
+            <hi>om</hi>. T 19 sic] ita <hi>V</hi> 20 nundum <hi>ChV</hi> 21 membra nobiscum F <lb/>
+            nobis sunt <hi>7</hi> comembra 7 22 debet] habet <hi>V</hi> quenque <hi>L r</hi> <lb/>
+            reputare <hi>0</hi> diu putare <hi>P</hi> 24 aligenam <hi>Chh1</hi> samaritanam Ch </app> <lb n="25"/>
+             
+<pb n="487"/>
+            cum quo id agendum est, ne remaneat alienus; et si propter <lb/>
+            id, quod nondum est, fidei nostrae sacramentique particeps <lb/>
+            factus, aliqua illi occultanda sunt uera, non tamen ideo dicenda <lb/>
+            sunt falsa. 
+</p>
+          
+</div1>
+
+<div1 n="16" subtype="section"><head>§ 16</head>
+
+<p>Fuerunt enim etiam temporibus apostolorum, qui ueritatem <lb n="5"/>
+            non ueritate, id est non ueraci animo praedicarent: <lb/>
+            quos dicit apostolus Christum adnuntiasse non caste, sed per <lb/>
+            inuidiam et contentionem. ac per hoc etiam tunc nonnulli <lb/>
+            tolerati sunt adnuntiantes non casto animo <choice><note>uentatem</note><corr>ueritatem</corr></choice>; non <lb/>
+            tamen ulli laudati sunt tamquam adnuntiantes casto animo <lb n="10"/>
+            falsitatem. denique de illis dicit: siue occasione <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> ueritate <lb/>
+            Christus adnuntietur; nullo modo autem diceret, ut <lb/>
+            postea Christus adnuntietur, prius negetur. 
+</p>
+          
+</div1>
+
+<div1 n="17" subtype="section"><head>§ 17</head>
+
+<p>Quocirca multis quidem modis possunt latentes haeretici <lb/>
+            uestigari nec catholica fide uituperata nec haeretica inpietate <lb n="15"/>
+            laudata. 
+</p>
+          <p><milestone n="7" unit="altchapter"/>Sed si aliter omnino non posset educi de cauernis <lb/>
+            suis haeretica inpietas, nisi a tramite ueritatis lingua catholica <lb/>
+            deuiaret, tolerabilius illa occultaretur, quam ista praecipitaretur; <lb/>
+            tolerabilius in suis foueis delitiscerent uulpes, quam <lb n="20"/>
+            propter illas capiendas in blasphemiae foueam caderent uenatores; <lb/>
+            tolerabilius perfidia Priscillianistarum ueritatis uelamine <lb/>
+            tegeretur, quam fides catholicorum. ne a Priscillianistis mentientibus <lb/>
+            laudaretur, a catholicis credentibus negaretur. nam
+
+<app> 5 cf. Phil. 1, 15 11 Phil. 1, 18 </app>
+
+<app> 2 participes <hi>T</hi> 3 non ideo <hi>Ch</hi> 4 falsa sant <hi>V</hi> 5 non ueritatein <hi>TCh</hi> <lb/>
+            6 ueraci] uero <hi>Y</hi> predicauerunt <hi>V</hi> 7 predicasse <hi>V</hi> per <hi>8. I. w</hi> <lb/>
+            8 inuidiam] immundiciam <hi>V</hi> hac <hi>R</hi> ac <hi>Ch</hi> atque <hi>V</hi> tunc <hi>om. V</hi> <lb/>
+            9 tol-erati <hi>T</hi> non <hi>fin.]</hi> nulli <hi>V</hi> 10 ulli <hi>om. V</hi> 11 <hi>fin</hi>. sine (ue 8. <hi>l.) R</hi> <lb/>
+            12 nallo-adnuntietur <hi>om</hi>. &lt;p 14 multis quidem multis modis <hi>TCh</hi> <lb/>
+            quidem <hi>om. V</hi> heretici latentes P 15 inuestigari <hi>FLV</hi> 17 etsi p <lb/>
+            non posset omnino <hi>TCh</hi> posse*t <hi>P</hi> educe <hi>Chl</hi> educi. &lt;p cabernis <lb/>
+            <hi>0</hi> eauer... <hi>Ch</hi> 18 impietate <hi>0</hi> ueritatis] pietatis <hi>TChOVv</hi> <lb/>
+            19 tolerabili.us <hi>Ch</hi> 20 delitescerent <hi>TChFLVfyobd</hi> 2*1 cupiendas 01 <lb/>
+            fouea 9 22 priscilianistarum <hi>B</hi> uelamino <hi>Ch</hi> 23 catholica 3 <lb/>
+            ne] ut (ut 8. <hi>ezp</hi>. ne) ? </app> <lb/>
+             
+<pb n="488"/>
+            si propterea iusta sunt non qualiacumque, sed blasphema <lb/>
+            mendacia, quia hoc animo fiunt, ut occulti haeretici detegantur <lb/>
+            poterunt isto modo, si eodem animo fiant, casta esse <lb/>
+            adulteria. quid? si enim ex numero Priscillianistarum inpudicarum <lb/>
+            aliqua femina iniciat oculum in catholicum Ioseph<lb n="5"/>
+            eique promittat prodituram se latebras eorum, si ab illo <lb/>
+            inpetrauerit stuprum, certumque sit eam, si ei consensum <lb/>
+            fuerit, quod pollicita est inpleturam, faciendumne censebimus? <lb/>
+            an intellegemus nequaquam tali pretio merces eius modi conparandas? <lb/>
+            cur ergo non emimus capiendos haereticos carne in<lb n="10"/>
+            adulterium . defluente et emendos putamus ore in blasphemia <lb/>
+            fornicante? aut enim licebit utrumque pari ratione defendere, <lb/>
+            ut ideo haec non esse dicantur iniusta, quia <sic>oa</sic> facta sunt <lb/>
+            intentione, qua conprehenderentur iniusti, aut, si sana doctrina <lb/>
+            nec propter inueniendos haereticos uult nos cum feminis inpudicis<lb n="15"/>
+            saltem corpore, non mente misceri, profecto nec <lb/>
+            propter inueniendos haereticos uult a nobis saltem uoce, non <lb/>
+            mente aut inmundam haeresim praedicari aut castam catholicam <lb/>
+            blasphemari, quia et ipsum mentis imperium, cui debet <lb/>
+            omnis inferior motus hominis oboedire, digno non carebit<lb n="20"/>
+            obprobrio, quando fit, quod fieri non oportet seu membro <choice n="0.01"><note n="15">sen</note><corr n="1040">seu</corr></choice> <lb/>
+            uerbo. quamquam etiam cum uerbo fit, membro fit, quoniam <lb/>
+            lingua membrum est, qua fit uerbum; nec ullum factum
+
+<app>1 non] in <hi>T</hi> ee o 3 potuerunt <hi>FL</hi> pot.erunt <hi>P</hi> potrant T1 <lb/>
+            4 enim si P 5 oculum <hi>om. V</hi> ioseph catholicum <hi>V</hi> 6 prndituram <lb/>
+            se <hi>TVCh</hi> 7 ea <hi>T</hi> ei <hi>om. V</hi> concessum y 8 pollicitum 7 <lb/>
+            impletura <hi>T</hi> 9 intellegimus P praetio <hi>R</hi> mentes f huira <lb/>
+            modi <hi>V</hi> 10 quur <hi>P</hi> non emimusj nonne minus <hi>V</hi> nenimus P non <lb/>
+            ernimus <hi>d</hi> 11 adulterum <hi>Ch</hi> adulteria. <hi>R</hi> et emendos] quA cfliendOli <lb/>
+            <hi>V</hi> et eruendos <hi>d</hi> 12 ratione. q defendere] facere <hi>in ras</hi>. r <lb/>
+            13 inusta <hi>Tl</hi> qui <hi>T1</hi> 14 deprehenderentur <hi>fibd</hi> 15 uul <hi>P</hi> nos— <lb/>
+            uult <hi>om. L</hi> cum multi inpudicis salytem o 16 satem <hi>Chx</hi> saltim Vfc <lb/>
+            miseri y ne <foreign xml:lang="grc">β</foreign> 17 inueniendus <hi>Ch</hi> uult (t 8. <hi>l.)</hi> f saltim I7 <lb/>
+            salutem m 18 heresem <hi>RTOhFf.r'f</hi> praedicare <hi>FL</hi> cautam <hi>FL</hi> <lb/>
+            castam et catholicam <hi>(w tng</hi>. fidem) 9 fidem castam et catholicam <hi>V</hi> <lb/>
+            19 quia <hi>om. L</hi> et <hi>om</hi>. 9 20 hoboedire &lt;p 22 membro fit om. 9 <lb/>
+            quia p 23 uerbum membro fit p </app> <lb/>
+             
+<pb n="489"/>
+            nostrum membro ullo paritur, nisi quod prius corde concipitur, <lb/>
+            uel potius intus cogitando et consentiendo iam partum foras <lb/>
+            editur faciendo per membrum. non itaque animus a facto <lb/>
+            excusatur, quando dicitur aliquid non ex animo fieri, quod <lb/>
+            tamen non fieret, nisi animus faciendum esse decerneret. <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="18" subtype="section"><head>§ 18</head>
+
+<p>Interest quidem plurimum, qua causa, quo fine, qua <lb/>
+            intentione quid fiat; sed ea, quae constat esse peccata, nullo <lb/>
+            bonae causae obtentu, nullo quasi bono fine, nulla uelut bona <lb/>
+            intentione facienda sunt. ea quippe opera hominum, sicut <lb/>
+            causas habuerint bonas seu malas, nunc sunt bona, nunc mala, <lb n="10"/>
+            quae non sunt per se ipsa peccata: sicut uictum praebere <lb/>
+            pauperibus bonum opus est, si fit causa misericordiae cum <lb/>
+            recta fide; sicut concubitus coniugalis, quoniam fit causa <lb/>
+            generandi, si ea fide fiat, ut gignantur regenerandi. haec atque <lb/>
+            huius modi secundum suas causas opera sunt bona uel mala, <lb n="15"/>
+            quia eadem ipsa, si habent causas malas, in peccata uertuntur: <lb/>
+            uelut si iactantiae causa pauper pascitur; aut lasciuiae <lb/>
+            causa cum uxore concumbitur; aut filii generantur, non ut <lb/>
+            deo, sed ut diabolo nutriantur. cum uero iam opera ipsa <lb/>
+            peccata sunt, sicut furta, stupra, blasphemiae uel cetera talia, <lb n="20"/>
+            quis est, qui dicat causis bonis esse facienda, ut uel peccata <lb/>
+            non sint uel, quod est absurdius, iusta peccata sint? quis est, <lb/>
+            qui dicat: ut habeamus, quod demus pauperibus, faciamus <lb/>
+            furta diuitibus aut testimonia falsa uendamus, maxime si non <lb/>
+            inde innocentes laeduntur, sed nocentes potius damnaturis
+
+<app> 1 membro] uerbo <hi>V</hi> pariturj portenditur <hi>V</hi> 2 paratum <hi>V</hi> 3 faciendum <lb/>
+            <hi>V</hi> mentiendo ro membrum] uerbum <hi>V</hi> non iam <hi>T</hi> factu <hi>R</hi> <lb/>
+            4 non <hi>om</hi>. S qUlfood <hi>Ch</hi> 5 discerneret <hi>Y</hi> 7 quid] quod <hi>P</hi> et <lb/>
+            ea <hi>Y</hi> 8 optentu P 9 fatienda <hi>Ch</hi> sicut] seu <hi>V</hi> 10 habuerunt cp <lb/>
+            nunc <hi>pr</hi>. (c <hi>s. I.)</hi> 9 non <hi>P</hi> 11 pauperibus praebere 9 13 qlloniam] <lb/>
+            <hi>quando$ybd</hi> cum <hi>V</hi> 15 uiusmodi <hi>Ch</hi> huiusmodo <hi>T</hi> 16 malas causas <lb/>
+            <hi>V$bd</hi> uertantur <hi>Y</hi> 17 uelud <hi>Y</hi> si <hi>om. B</hi> si. <hi>T pascatur FL</hi> <lb/>
+            aut (a <hi>m. 2 add.)</hi> y 18 com <hi>Ch</hi> concombitur <hi>Ch</hi> concubitur Yep <lb/>
+            19 diabulo <hi>Ch</hi> a diabulo <hi>T</hi> 20 uel cetera <hi>sqq. usque ad pag. 491, 14</hi> <lb/>
+            perueniret <hi>desunt in V</hi> 23 abeamus <hi>0</hi> 24 aut] an <hi>P</hi> 2o innocentes <lb/>
+            (s <hi>ex</hi> r) <hi>T</hi> ledunt P laedantur f <lb/>
+            .. </app> <lb n="25"/>
+             
+<pb n="490"/>
+            iudicibus eruuntur? duo enim bona fiunt huius uenditione <lb/>
+            mendacii, ut et pecunia sumatur, unde inops alatur, et iudex <lb/>
+            fallatur, ne homo puniatur. testamenta etiam si possumus. <lb/>
+            cur non uera supprimimus et falsa <choice><note>aubponimus</note><corr>subponimus</corr></choice>, ut hereditates <lb/>
+            uel legata non habeant indigni, qui nihil ex eis operantur<lb n="5"/>
+            boni, sed hi potius, a quibus esurientes pascuntur, nudi <lb/>
+            uestiuntur, peregrini suscipiuntur, captiui redimuntur, ecclesiae <lb/>
+            construuntur? cur enim non fiant illa mala propter haec bona. <lb/>
+            si propter haec bona nec illa sunt mala? iam uero si aliquae <lb/>
+            inmundae et diuites feminae uideantur amatores et stupratores<lb n="10"/>
+            suos insuper ditaturae, cur non et has partes atque artes <lb/>
+            suscipiat uir misericors, quibus pro tam bona causa utatur. <lb/>
+            ut habeat, unde indigentibus largiatur, nec audiat apostolum <lb/>
+            dicentem: qui furabatur, iam non furetur; magis <lb/>
+            autem laboret operans manibus suis bonum, u t<lb n="15"/>
+            habeat unde tribuere cui opus est? si quidem non <lb/>
+            solum ipsum furtum, uerum etiam falsum testimonium et <lb/>
+            adulterium et omne opus malum non erit malum, sed bonum, <lb/>
+            si ea causa perpetretur, ut sit, unde fiat bonum. quis ista <lb/>
+            dicat, nisi qui res humanas omnesque conatur mores legesque<lb n="20"/>
+            subuertere? quod enim sceleratissimum facinus, quod turpissimum <lb/>
+            flagitium, quod inpiissimum sacrilegium non dicatur <lb/>
+            posse fieri recte atque iuste nec inpune tantum, uerum <lb/>
+            etiam gloriose, ut in eo perpetrando non solum supplicia nulla <lb/>
+            timeantur, sed sperentur et praemia, si semel concesserimus
+
+<app> 14 Eph. 4, 28 </app>
+
+<app> 1 eruuntar] eeruuntur <hi>Ch</hi> seruantur (a <hi>in ras.) T</hi> bona ex dona ? <lb/>
+            uiua <hi>Ch</hi> 2 et <hi>om. P</hi> summatur <hi>ChT1</hi> inobs m 3 etiam] enim S <lb/>
+            pcssimus <hi>b</hi> 4 qaur <hi>OPT1</hi> legata uel hereditates i 6 hii <hi>TCk</hi> <lb/>
+            hi potius] hpotius <hi>P</hi> exnrientes tp1 eentea P 7 eclesiae <hi>Ch</hi> 8 qanr <lb/>
+            <hi>PO</hi> 9 ai-bona <hi>otn. Hji1</hi> haec <hi>Otll. T</hi> 10 atrupratores <hi>TO</hi> 11 ditaturac <lb/>
+            <hi>R</hi> quur <hi>(sic Bempe-r) 0</hi> 12 suscipiator <hi>B</hi> uir om. Br <lb/>
+            15 ut <hi>ex</hi> et o 16 tribuat <hi>RLfJVb</hi> quidem in hoc y 19 quis est <lb/>
+            adicat <hi>P</hi> qui <hi>T</hi> ita <hi>TCh</hi> 20 omnesqui <hi>TCh</hi> mores conatur <foreign xml:lang="grc">β</foreign> <lb/>
+            legisque <hi>ChT1</hi> 22 sacrilegum P 24 etiam <hi>om. RW</hi> ut] et f <lb/>
+            25 timeantnr] mereantur <hi>FL</hi> </app> <lb n="25"/>
+             
+<pb n="491"/>
+            in omnibus malis operibus hominum ideo non quid fiat, sed <lb/>
+            quare fiat esse quaerendum, ut, quaecumque propter bonas <lb/>
+            causas facta <choice><note>inueninntur</note><corr>inueniuntur</corr></choice>, nec ipsa mala esse iudicentur? at <lb/>
+            si iustitia merito punit furem, etiam qui dixerit et ostenderit <lb/>
+            ideo se subtraxisse superflua diuiti, ut praeberet necessaria <lb n="5"/>
+            pauperi; si merito punit falsarium, etiam qui se ideo testamentum <lb/>
+            alienum corrupisse docuerit, ut ille heres esset, qui <lb/>
+            facturus inde fuerat elemosynas largas, non ille, qui nullas; <lb/>
+            si merito <choice><note>puuit</note><corr>punit</corr></choice> adulterum, etiam qui demonstrauerit misericordia <lb/>
+            se fecisse adulterium, ut per illam, cum qua fecit, de <lb n="10"/>
+            morte hominem liberaret; postremo, ut ad rem, de qua quaestio <lb/>
+            est, propius accedamus, si merito punit eum, qui feminae <lb/>
+            alicui Priscillianistarum turpitudinis consciae propterea se <lb/>
+            adulterino concubitu miscuit, ut ad eorum latebras perueniret: <lb/>
+            obsecro te, cum dicat apostolus: nec exhibeatis membra <lb n="15"/>
+            uestra arma iniquitatis peccato et ideo nec manus <lb/>
+            nec corporis genitalia nec alia membra flagitiis exhibere debeamus, <lb/>
+            ut Priscillianistas inuenire possimus, quid nos lingua, <lb/>
+            quid totum os nostrum, quid organum uocis offendit, ut haec <lb/>
+            exhibeamus arma peccato tantoque peccato, ubi deum nostrum, <lb n="20"/>
+            ut Priscillianistas adprehensos ab ignorantiae blasphemiis <lb/>
+            eruamus, sine excusatione ignorantiae blasphememus? 
+</p>
+          
+</div1>
+
+<div1 n="19" subtype="section"><head>§ 19</head>
+
+<p><milestone n="8" unit="altchapter"/> Dicet aliquis: ergo aequandus est fur quilibet ei <lb/>
+            furi qui misericordiae uoluntate furatur? quis hoc dixerit? sed
+
+<app> 15 Rom. 6, 13 </app>
+
+<app> 1 <hi>alt</hi>. omninum <hi>Ch</hi> omnium <hi>T</hi> ideo <hi>om</hi>. &lt;p non] num <hi>P</hi> 3 esset <hi>P</hi> <lb/>
+            indicemua <hi>0</hi> indicentur cp t 4 ponit Tl 5 se ideo y 6 falsarium- 9 <lb/>
+            panit <hi>om. P</hi> 8 aelimosinas <hi>T</hi> elimosinas <hi>Ch,3</hi> aelemosinas B elemosinas <lb/>
+            <hi>FLf</hi> nullus o1 . 9 punit et <hi>FL</hi> adulterium <hi>TChLOPp</hi> <lb/>
+            per (8. <hi>I.)</hi> misericordiam i 10 se s. Z. cp 11 liberauit <hi>P</hi> 12 <hi>cum <lb/>
+            ttocibus</hi> punit eum <hi>codex P finitur fol. 129b</hi> faeminae cp 13 turpitudines <lb/>
+            <hi>Ch</hi> 15 dicit T ne <hi>FL V</hi> 17 nec corporis nec (nec <hi>init</hi>. <lb/>
+            u. <hi>add. m. 2)</hi> genitalia membra v 18 possimus (i <hi>ex</hi> u) cp 19 uocis <lb/>
+            (c <hi>ex</hi> t) <hi>T</hi> ut <hi>om. 0</hi> 20 iniquitatis peccato <hi>V</hi> ubi] ut Vcp2 <lb/>
+            21 blasphemii <hi>T</hi> blasphemaemus <hi>Ch</hi> 22 seruamus <hi>T</hi> seruemus <hi>FLV$b</hi> <lb/>
+            23 dicit <hi>V</hi> 24 furaptur cp </app> <lb/>
+             
+<pb n="492"/>
+            horum duorum non ideo est quisquam bonus, quia peior est <lb/>
+            unus. peior est enim, qui concupiscendo quam qui miserando <lb/>
+            furatur; sed si furtum omne peccatum est, ab omni furto est <lb/>
+            abstinendum. quis enim dicat esse peccandum, etiamsi aliud <lb/>
+            sit damnabile, aliud ueniale peccatum? nunc autem quaerimus. <lb n="5"/>
+            si hoc aut illud quisque fecerit, quis non peccabit siue peccabit, <lb/>
+            non quis grauius leuiusue peccabit. nam et ipsa furta <lb/>
+            leuius utique puniuntur lege quam stupra; sunt autem utraque <lb/>
+            peccata, quamuis alia leuiora, alia grauiora, ita ut leuius <lb/>
+            habeatur furtum, quod concupiscendo, quam stuprum, quod<lb n="10"/>
+            subueniendo committitur. in suo quippe genere aliis eiusdem <lb/>
+            generis peccatis leuiora fiunt, quae bono animo uidentur admitti, <lb/>
+            cum tamen et ipsa alterius generis peccatis ipso <sic>auc</sic> <lb/>
+            genere leuioribus inueniantur esse grauiora. grauius est <choice><note>eniin</note><corr>enim</corr></choice> <lb/>
+            auaritia quam misericordia furtum facere, itemque stuprum<lb n="15"/>
+            grauius est luxuria quam misericordia perpetrare, et tamen <lb/>
+            grauius est adulterare misericordia quam furari auaritia. neque <lb/>
+            nunc agitur, quid sit leuius siue grauius, sed quae sint <lb/>
+            peccata uel non sint. nemo enim dixerit debuisse peccari, ubi <lb/>
+            constat esse peccatum; sed debere dicimus, si ita uel ita<lb n="20"/>
+            peccatum est, ignosci uel non ignosci. 
+</p>
+          
+</div1>
+
+<div1 n="20" subtype="section"><head>§ 20</head>
+
+<p><milestone n="9" unit="altchapter"/> Verum, quod fatendum est, ita humanos animos <lb/>
+            quaedam conpensatiua peccata perturbant, ut etiam putentur <lb/>
+            debere laudari, ac potius recte facta dicantur. quis enim
+
+<app> 1 orum <hi>V</hi> 2 quam] quia <hi>V1</hi> 4 abstinendum est <hi>FLVfa obstinen-</hi> <lb/>
+            dum <hi>Tl</hi> dampnabile aliud sit <hi>V</hi> 5 aliud ueniale <hi>in mg. R</hi> tunc 9 <lb/>
+            6 si <hi>om</hi>. cp fecerit quia <hi>V</hi> quia T peccauit TIJI <hi>peccauit RTChrft</hi> <lb/>
+            7 quis non <hi>TCh</hi> leuiusque ex lenitas m. 2 <hi>V, om. Ch</hi> peccauit <lb/>
+            <hi>Chff</hi> 8 lege puniuntur <hi>FL</hi> poniuntur <hi>Ch</hi> quam stupra in mg. <hi>Ch</hi> <lb/>
+            9 liuiora <hi>Ch</hi> grauiora non tamen ita T 10 concupiscitur <hi>B</hi> concupiscendum <lb/>
+            <hi>ChTl</hi> 11 eiudem f 12 ammitti <hi>BTCh</hi> amitti 01 <lb/>
+            13 peccata <hi>V</hi> 14 leuioribus] grauioribus P? greuiora <hi>Ch</hi> 15 misericordiam <lb/>
+            <hi>Ch</hi> itaque <hi>RT</hi> 18 agimus (mus 8. <hi>I.)</hi> T 19 uel] que <hi>V</hi> <lb/>
+            peccare <hi>FL</hi> 20 constaijt (t <hi>supra</hi> ij) <hi>Ch</hi> sed (d s. <hi>l.)</hi> &lt;p 21 non <lb/>
+            <hi>om. T</hi> 22 umanos <hi>Ch</hi> 23 uel perconturbant P 24 ac] hac P aut 7 <lb/>
+            recta Z1 enim ţųilJ1 o </app> <lb/>
+             
+<pb n="493"/>
+            dubitet esse grande peccatum, si pater filias suas prostituat <lb/>
+            fornicationibus inpiorum? et tamen extitit causa, qua hoc uir <lb/>
+            iustus debere se facere existimaret, quando Sodomitae nefario <lb/>
+            libidinis inpetu hospitibus eius inruebant. ait enim: sunt <lb/>
+            mihi duae filiae, quae non cognouerunt uirum; <lb n="5"/>
+            producam illas ad uos, et utimini eis, quomodo <lb/>
+            placuerit uobis; tantum in uiros istos ne faciatis <lb/>
+            iniquum, propterea quia intrauerunt sub tectum <lb/>
+            tignorum meorum. quid hic dicemus? nonne ita illud <lb/>
+            scelus, quod Sodomitae hospitibus illius uiri iusti facere conabantur, <lb n="10"/>
+            horremus, ut quidquid fieret ne hoc fieret, arbitremur <lb/>
+            fuisse faciendum? mouet etiam maxime persona facientis, quae <lb/>
+            merito iustitiae liberabatur a Sodomis, ut, quoniam minus <lb/>
+            malum est feminas quam uiros perpeti stuprum, etiam hoc <lb/>
+            ad iustitiam iusti illius pertinuisse dicatur, quod in filiabus <lb n="15"/>
+            hoc maluit fieri quam in hospitibus suis, non tantum id <choice n="0.06"><note n="9">nolens</note><corr n="138">uolens</corr></choice> <lb/>
+            animo, uerum et offerens uerbo et, si illi assensi fuissent, <lb/>
+            inpleturus et facto. sed si hanc peccatis aperuerimus uiam, <lb/>
+            ut committamus minora, ne alii maiora committant, lato <lb/>
+            limite, immo nullo limite, sed conuulsis et remotis omnibus <lb n="20"/>
+            terminis infinito spatio cuncta intrabunt atque regnabunt. <lb/>
+            quando enim fuerit definitum peccandum esse homini minus, <lb/>
+            ne alius peccet amplius, profecto et furtis nostris stupra <lb/>
+            cauebuntur aliena et incesta stupris et si qua inpietas uisa <lb/>
+            fuerit etiam peior incestis, incesta quoque facienda dicentur
+
+<app> 4 Gen. 19, 8 </app>
+
+<app> 1 grande esse P pater] mater <hi>V</hi> suas <hi>om. V</hi> 2 stitit <hi>Ch</hi> exstitit <lb/>
+            (I: 8. <hi>I.) T</hi> existit <hi>0</hi> 3 se <hi>om</hi>. ff estimaret <hi>V</hi> nefariae 9 <lb/>
+            nefarie <hi>V</hi> 4 ospitibus <hi>TChy</hi> ait <hi>ex</hi> aut &lt;p; ait—498, <hi>15</hi> indicauit <lb/>
+            <hi>om. Y</hi> 6 producamu <hi>T</hi> illam 91 illas ęt O 7 nobis <hi>om. TCh</hi> <lb/>
+            8 tictum <hi>ChT1</hi> 10 quo <hi>R</hi> ospitibus <hi>T illia 0</hi> 11 quicquid To <lb/>
+            12 fuiase] esse <hi>FL</hi> monet o1 personA <hi>0</hi> 13 liberatur 7 a somis <lb/>
+            <hi>Tx</hi> 16 ospitibus <hi>Ch</hi> 17 offerens et P 18 si <hi>om. Ch</hi> aperimus <lb/>
+            T apperuerimos <hi>RTFLOfi</hi> 19 ut] et <hi>TOt</hi>. commitant <hi>Tl</hi> <lb/>
+            20 et] atque p 21 rigabunt (i <hi>ex</hi> e) <hi>T</hi> 22 peccando f 23 et] a <hi>FL</hi> <lb/>
+            24 cauebnnt <hi>T</hi> 25 dicetur o </app> <lb n="25"/>
+             
+<pb n="494"/>
+            a nobis, si eo modo agi potuerit, ut illa inpietas non committatur <lb/>
+            ab aliis: et in singulis quibusque generibus peccatorum <lb/>
+            et furta pro furtis et stupra pro stupris et incesta pro <lb/>
+            incestis et sacrilegia pro sacrilegiis facienda putabuntur, nostra <lb/>
+            pro alienis, non solum minora pro maioribus, uerum etiam si<lb n="5"/>
+            ad ipsa summa et pessima ueniatur, pauciora pro pluribus, si <lb/>
+            se ita rerum uerset incursus, ut aliter alii non se abstineant <lb/>
+            a peccatis, nisi minus aliquanto, sed tamen peccantibus nobis, <lb/>
+            ita ut omnino ubi dixerit inimicus, qui habuerit huius modi <lb/>
+            potestatem: nisi tu sceleratus fueris, ego sceleratior, aut: nisi<lb n="10"/>
+            tu hoc scelus feceris, ego talia plura faciam, scelus nobis <lb/>
+            uideamur admittere, si uelimus ab scelere temperare. hoc <lb/>
+            sapere quid est nisi desipere uel potius insanire? a mea quippe <lb/>
+            iniquitate, non ab aliena siue in me siue in aliis perpetrata <lb/>
+            mihi est cauenda damnatio; anima enim, quae peccauerit,<lb n="15"/>
+            ipsa morietur. 
+</p>
+          
+</div1>
+
+<div1 n="21" subtype="section"><head>§ 21</head>
+
+<p>Si ergo peccare, ne grauius uel in nos uel in quoslibet <lb/>
+            alii peccent, procul dubio <choice n="0.00"><note n="352">noli</note><corr n="65020">non</corr></choice> debemus, considerandum est in <lb/>
+            eo, quod fecit Loth, utrum exemplum sit, quod imitari. an <lb/>
+            potius quod uitare debeamus. magis enim uidetur intuendum<lb n="20"/>
+            et notandum, cum tam horrendum malum ex inpietate <choice><note>ftagitiosissima</note><corr>flagitiosissima</corr></choice> <lb/>
+            Sodomitarum suis inpenderet hospitibus, quod cuperet <lb/>
+            depellere nec ualeret, sic etiam iusti animum potuisse <lb/>
+            turbari, ut uellet facere, quod non humani timoris nebulosa <lb/>
+            tempestas, sed diuini iuris tranquilla serenitas, si consulatur<lb n="25"/>
+            a nobis, faciendum non esse clamabit et iubebit potius, ut <lb/>
+            sic nostra peccata caueamus, ne ullorum prorsus alienorum
+
+<app> 15 Ez. 18, 4 </app>
+
+<app> 1 potuerint fabd illa] ea {J <hi>2 al«iis T illis y</hi> 3 fortis (a. o <lb/>
+            <hi>add</hi>. v) c 5 alienis] elyraosinis <hi>TCh</hi> 8 aliquando <hi>T</hi> 9 ita (i er <lb/>
+            u) o ut] aut <hi>0</hi> abuerit <hi>ChTx</hi> 10 aut] et <hi>TCh</hi> tu nisi <foreign xml:lang="grc">β</foreign> <lb/>
+            11 alia perplura y 12 ammittere <hi>TCh</hi> amittere <hi>B</hi> 14 alios <hi>bd</hi> <lb/>
+            perpetua <hi>TCh</hi> 17 negauiua <hi>ChT1</hi> 19 lot R1 20 debeamua an <lb/>
+            potius quod nitare <hi>FL</hi> 22 ospitibus <hi>T</hi> 23 debellere <hi>Ch</hi> ai T* <lb/>
+            potuisse <hi>om. FL</hi> 24 faceret <hi>Ch</hi> quod <hi>om. Ch</hi> non om. <hi>0</hi> <lb/>
+            umani <hi>Ch</hi> 25 consolatur <hi>Ch TI</hi> 27 peccata nostra P illorum 71 </app> <lb/>
+             
+<pb n="495"/>
+            peccatorum timore peccemus. aliena quippe ille uir iustus <lb/>
+            timendo peccata, quae nisi consentientes inquinare non possunt, <lb/>
+            perturbatus non adtendit suum, quo uoluit subdere filias libidinibus <lb/>
+            inpiorum. haec quando in scripturis sanctis legimus, <lb/>
+            non ideo, quia facta credimus, etiam facienda credamus, ne <lb n="5"/>
+            uiolemus praecepta, dum passim sectamur exempla. an uero, <lb/>
+            quia iurauit Dauid se occisurum esse Nabal et clementia consideratiore <lb/>
+            non fecit, propterea illum imitandum esse dicemus, <lb/>
+            ut temere iuremus nos esse facturos, quod non esse faciendum <lb/>
+            postea uideamus? sed sicut illum timor, ut prostituere filias <lb n="10"/>
+            uellet, sic istum, ut temere iuraret, ira turbauit. denique si <lb/>
+            de ambolus interrogando, ut dicerent cur haec fecerint, fas <lb/>
+            nobis esset inquirere, posset ille respondere: timor et tremor <lb/>
+            uenerunt super me et contexerunt me tenebrae, <lb/>
+            posset etiam iste: turbatus est prae ira oculus <lb n="15"/>
+            meus, ut non miraremur uel illum in timoris tenebris uel <lb/>
+            istum oculo turbato non uidisse, quod uidendum fuit, ne <lb/>
+            facerent quod faciendum non fuit. 
+</p>
+          
+</div1>
+
+<div1 n="22" subtype="section"><head>§ 22</head>
+
+<p>Et sancto quidem Dauid iustius dici potuit, quod nec <lb/>
+            irasci debuerit, quamuis ingrato et reddenti mala pro bonis, <lb n="20"/>
+            sed etsi ut homini ira subrepsit, non utique tantum debuit <lb/>
+            praeualere, ut se facturum iuraret, quod aut saeuiendo faceret <lb/>
+            aut peierando non faceret; illi autem inter Sodomitarum
+
+<app>6 cf. I Reg. 25, 22 sqq. 13 Ps. 54, 6 15 Ps. 6, 8 </app>
+
+<app> 1 uir ille y 2 quae nisi] quemsi <hi>T</hi> 3 quo] quod <hi>R</hi> qui <hi>T</hi> <lb/>
+            4 sanctis quando in scripturis p 5 etiam facienda credamus <hi>om. rr</hi> <lb/>
+            etiam] sed iam <hi>TCh</hi> 6 paasim] possimus (us <hi>s. I. m. 2) T</hi> 7 se <lb/>
+            <hi>om. R</hi> clementiae <hi>TCh</hi> clementi <hi>FL$j</hi> Iconsideratione <hi>FL2t*fiyb</hi> <lb/>
+            8 propter rp mitandum <hi>Ch</hi> 9 facturus <hi>ChT1</hi> 10 filias prostituere <foreign xml:lang="grc">β</foreign> <lb/>
+            11 uelet <hi>Tl</hi> uel et <hi>Ch</hi> timere <hi>T</hi> turbabit <hi>TCh</hi> 12 discerent <hi>JtO1</hi> <lb/>
+            fiecerint « 14 uenit m 15 etiam <hi>dicere pM</hi> istae 0 oculos <hi>Tl</hi> <lb/>
+            16 meos <hi>ChT1</hi> miraretur <hi>TCh</hi> 17 oculum <hi>ChT1</hi> non <hi>ex</hi> in <lb/>
+            <hi>m. 2</hi> P uidisset <hi>Tl</hi> uidissed <hi>Ch</hi> fu.it <hi>Ch</hi> 19 istius <hi>. T</hi> potest ffi <lb/>
+            20 irasci quidem <hi>F</hi> debuerat o <hi>debuit pbd</hi> redenti cl 21 set ff <lb/>
+            et <hi>om. T</hi> et sicut <hi>RT</hi> et ut si <hi>0</hi> 23 perierando <hi>0</hi> ille <hi>R1</hi> <lb/>
+            libidinosas insanias Sodomitarum <hi>bd</hi> </app> <lb/>
+             
+<pb n="496"/>
+            libidinosas insanias constituto quia auderet dicere: etiamsi tui <lb/>
+            hospites in tua domo, quo eos intrare humanitate <choice><note>aiolentissima</note><corr>uiolentissima</corr></choice> <lb/>
+            conpulisti, ab inpudicis apprehensi et oppressi muliebria patiantur, <lb/>
+            nihil timeas, nihil cures, non expauescas, non horrescas, <lb/>
+            non contremescas? quis haec uel illorum sceleratorum socius<lb n="5"/>
+            hospiti pio dicere auderet? sed plane rectissime diceretur: <lb/>
+            age quidquid potes, ne fiat, quod merito times, sed non te <lb/>
+            timor iste conpellat, ut facias, quod in se filiae tuae fieri si <lb/>
+            uoluerint, facient cum Sodomitis te auctore nequitiam; si <lb/>
+            autem noluerint, patientur a Sodomitis te auctore uiolentiam. <lb n="10"/>
+            noli facere magnum scelus tuum, dum maius horrescis alienum: <lb/>
+            quantumlibet enim distet inter tuum et alienum, hoc erit <lb/>
+            tuum, illud alienum. nisi forte pro defensione huius uiri in <lb/>
+            eas se q'Q.ispiam coartet angustias, ut dicat: quoniam accipere <lb/>
+            quam facere praestat iniuriam, hospites autem illi non erant<lb n="15"/>
+            utique facturi iniuriam, sed passuri, maluit uir iustus filias <lb/>
+            suas iniuriam pati quam hospites suos eo iure, quo filiarum <lb/>
+            dominus erat et nouerat non eas peccare, si id fieret, quia <lb/>
+            peccantes potius, quibus non consentirent, sine peccato proprio <lb/>
+            sustinerent. denique non se ipsae stuprandas quamuis pro<lb n="20"/>
+            masculis feminas pro illis hospitibus obtulerunt, ne reas <lb/>
+            faceret non perpessio libidinis alienae, sed suae consensio <lb/>
+            uoluntatis. nec pater earum hoc in se fieri permittebat, cum <lb/>
+            hoc facere conarentur, quibus hospites non prodebat, quamuis <lb/>
+            minus mali esset, quod in uno, quam si fieret in duobus, sed
+
+<app>1 insidias (3. <hi>I. m</hi>. 2 l insanias) r dicere hoc <hi>FL</hi> 2 ospites Ch <lb/>
+            quae m qua [J nmanitate <hi>Ch</hi> 3 a 0' apprebensi. ? obpresei <lb/>
+            &lt;3o patiuntur <hi>0</hi> 4 horescas <hi>R</hi> 5 contremiscas <hi>FLfiтbd</hi> <lb/>
+            scaelestorum tp 6 hospiti pio] hospiti <hi>L</hi> hospitio FOf oapiti pio <hi>Ck</hi> <lb/>
+            planae <hi>Ch</hi> dicerentur <hi>R</hi> 7 agi <hi>Ch</hi> quicquid <hi>RT,</hi> 8 filiac <lb/>
+            tuae <hi>om. f</hi> 9 cum] eum <hi>R</hi> et te (s. <hi>I.)</hi> auctore, 10 patienter <hi>T</hi> <lb/>
+            uiolantiam <hi>TCh</hi> 11 scaelus e 12 quantum enim libet 0 enim <lb/>
+            <hi>om. Rji</hi> in hoc <hi>T</hi> 14 coartat <hi>Ch</hi> coarctet <hi>b</hi> dicat (t <hi>8. exp</hi>. s) 9 <lb/>
+            acipere <hi>Ch</hi> 15 fecere <hi>T</hi> illi autem 7 17 iurę <hi>Ch</hi> 18 eas non  <lb/>
+            20 ipse <hi>RLy</hi> 21 ospitibus <hi>Ch</hi> reos <hi>RW</hi> res 9 eas faceret <hi>fibd</hi> <lb/>
+            22 consentit p 24 faceret <hi>Rl</hi> ospites <hi>Chy</hi> 25 set <hi>Ch</hi> </app> <lb n="25"/>
+             
+<pb n="497"/>
+            quantum poterat resistebat, ne ipsum quoque ullus proprius <lb/>
+            macularet assensus, quem <choice><note>libidinosua</note><corr>libidinosus</corr></choice> furor etiamsi praeualuisset <lb/>
+            corporis uiribus, tamen non consentientem non maculasset <lb/>
+            alienus. in filiabus autem non peccantibus nec ipse peccabat, <lb/>
+             quia non eas peccare si opprimerentur inuitae, sed peccantes <lb n="5"/>
+            ferre faciebat: tamquam si ab inprobis ut sui serui caederentur <lb/>
+            offerret, ne hospites eius paterentur caedis iniuriam. de qua re <lb/>
+            non disputabo, quia longum est, utrum uel dominus iure suae <lb/>
+            potestatis recte sic utatur in seruo, ut seruum suum caedi <lb/>
+            faciat innocentem, ne amicus eius etiam ipse innocens in domo <lb n="10"/>
+            eius a uiolentis inprobis uapulet. sed certe Dauid nullo modo <lb/>
+            recte dicitur iurare debuisse se esse facturum, quod postea <lb/>
+            cerneret se facere non debere. unde constat, quod non omnia, <lb/>
+            quae a sanctis uel iustis uiris legimus facta, transferre debemus <lb/>
+            in mores, sed etiam hinc discere, quam late pateat et ad <lb n="15"/>
+            quos usque perueniat, quod apostolus ait: fratres, etsi <lb/>
+            praeoccupatus fuerit homo in aliquo delicto, uos <lb/>
+            qui spiritales estis, instruite huius modi in spiritu <lb/>
+            lenitatis, intendens te ipsum, ne et tu tempteris. <lb/>
+            praeoccupationes enim sunt istae, in quibus delinquitur, dum, <lb n="20"/>
+            quid faciendum sit, aut ad horam non uidetur aut et qui <lb/>
+            uiderit uincitur, ut scilicet fiat peccatum, cum uel latet ueritas <lb/>
+            uel conpellit infirmitas. 
+</p>
+          
+</div1>
+
+<div1 n="23" subtype="section"><head>§ 23</head>
+
+<p><milestone n="10" unit="altchapter"/> In omnibus autem actibus nostris maxime etiam <lb/>
+            bonos turbant conpensatiua peccata, ita ut nec peccata existimentur, <lb n="25"/>
+            si habeant tales causas, propter quas fiant, et in
+
+<app> 16 Gal. 6, 1 </app>
+
+<app> 2 p»»ualuisset <hi>Ch</hi> 3 non om. <hi>T</hi> sentientem <hi>Ch</hi> maculas sed <lb/>
+            alienus f <hi>7 eius cedis (cedis 8. I.)</hi> y <hi>parentur ChT1</hi> caedis <lb/>
+            <hi>om. Fhr</hi> 8 iurę <hi>ChRL</hi> 9 recte git utatur 9 10 faceat <hi>Ch</hi> domo <lb/>
+            <hi>ex</hi> domu 9 12 se a. Z. &lt;p 13 deberet &lt;p quod] quia 7 14 a <lb/>
+            iustis fi 15 et Į II quo. usque 9 17 homo <hi>om</hi>. <foreign xml:lang="grc">β</foreign> 19 laenitatis <hi>0</hi> <lb/>
+            temteris <hi>ChOy</hi> 21 quid <hi>om. T</hi> ad <hi>om. Thora. T</hi> oram fi <lb/>
+            et <hi>om</hi>. P 22 ue.l.it et neritas <hi>T</hi> 23 conpellit (i <hi>ex</hi> a) f 25 bonus <hi>Ch</hi> <lb/>
+            perturbant <foreign xml:lang="grc">β</foreign> ita <hi>om</hi>. f </app>
+
+<app> XXX XI Anj. Sect. V para 111. </app>
+
+<app> 32 </app> <lb/>
+             
+<pb n="498"/>
+            quibus uideatur peccari potius, si non fiant. et praecipue de <lb/>
+            mendaciis hoc in hominum opinione praeualuit, ut peccata <lb/>
+            non putentur illa mendacia, quin immo et recte facta esse <lb/>
+            credantur, quando quisque pro eius cui falli expedit utilitate <lb/>
+            mentitur, aut ne aliis noceat, qui nociturus uidetur, nisi mendaciis<lb n="5"/>
+            euitetur. ad haec mendaciorum genera defendenda <choice><note>plnlima</note><corr>plurima</corr></choice> <lb/>
+            de scripturis sanctis suffragari putantur exempla. non <lb/>
+            autem hoc est occultare ueritatem, quod est proferre mendacium. <lb/>
+            quamuis enim omnis qui mentitur <choice><note>nelit</note><corr>uelit</corr></choice> celare quod <lb/>
+            uerum est, non tamen omnis, qui uult quod uerum est celare. <lb n="10"/>
+            mentitur. plerumque enim uera non mentiendo occulimus. sed <lb/>
+            tacendo. neque enim mentitus est dominus, ubi ait: multa <lb/>
+            habeo uobis dicere, sed non potestis illa portare <lb/>
+            modo. uera tacuit, non falsa locutus est, quibus ueris audiendis <lb/>
+            eos minus idoneos iudicauit. quodsi eis hoc ipsum non<lb n="15"/>
+            indicasset, id est non eos posse portare, quae dicere noluit. <lb/>
+            occultaret quidem nihilominus aliquid ueritatis, sed posse hoc <lb/>
+            recte fieri forsitan nesciremus aut non tanto firmaremur <lb/>
+            exemplo. unde qui asserunt esse aliquando mentiendum, non <lb/>
+            conuenienter commemorant Abraham hoc fecisse de Sarra,<lb n="20"/>
+            quam sororem suam dixit. non enim dixit: non est uxor mea, <lb/>
+            sed dixit: soror mea est, quod erat reuera tam propinqua <lb/>
+            genere, ut soror non mendaciter diceretur. quod et postea iam <lb/>
+            sibi ab illo qui abduxerat ea reddita confirmauit, respondens <lb/>
+            illi et dicens: et uere soror mea est de patre, non de
+
+<app> 7 cf. Quaest. de Leu. LXVni 12 loh. 16, 12 22 Gen. 20, 2 <lb/>
+            25 Gen. 20, 12 </app>
+
+<app> 1 hoc de inendatiis ji 2 in <hi>ante</hi> opinione <hi>in</hi> p oppinione <hi>T</hi> <lb/>
+            4 quisque] quis y 5 quo <hi>T</hi> 8 est <hi>alt. om. T</hi> 9 uellit <hi>TCh</hi> quodcelare <lb/>
+            <hi>om. R</hi> 10 uult celare quod est uerum 7 11 occultamas Y <lb/>
+            13 illa <hi>om. Tv</hi> 14 non <hi>om</hi>. <foreign xml:lang="grc">β</foreign> loquutus <hi>T</hi> 15 id.oneos <hi>Ch</hi> idoneus <lb/>
+            o1 iudicabat <hi>FL</hi> quidsi <hi>V</hi> 16 eos non Fj5 pose <hi>Ch</hi> <lb/>
+            17 occultare F71 quidem] tamen y nihilhominus <hi>B</hi> sed <hi>er</hi> i <lb/>
+            recte hoc P 19 unde-499, 17 nuncupari <hi>om. V</hi> aliquando esse <hi>fibd</hi> <lb/>
+            20 sara <hi>TaFLfcbd</hi> 22 dixit <hi>om</hi>. <foreign xml:lang="grc">β</foreign> sorror <hi>el,</hi> reuera erat % <lb/>
+            propinquo <hi>FL</hi> 24 sibi] si <hi>T om. Ch</hi> confinnauit] cuncta firmabit <lb/>
+            0 25 uera e1 et non y </app> <lb n="25"/>
+             
+<pb n="499"/>
+            matre, hoc est de paterno genere, non de <choice><note>raaterno</note><corr>materno</corr></choice> aliquid <lb/>
+            ergo ueri tacuit, non falsi aliquid dixit, quando tacuit uxorem, <lb/>
+            dixit sororem. hoc et filius eius fecit Isaac; nam et ipsum <lb/>
+            nouimus propinquam suam coniugem fuisse sortitum. non est <lb/>
+            ergo mendacium, cum silendo absconditur uerum, sed cum <lb n="5"/>
+            loquendo promitur falsum. 
+</p>
+          
+</div1>
+
+<div1 n="24" subtype="section"><head>§ 24</head>
+
+<p>Iacob autem quod matre fecit auctore, ut patrem fallere <lb/>
+            uideretur, si diligenter et fideliter adtendatur, non est mendacium, <lb/>
+            sed mysterium. quae <sic>ai</sic> mendacia dixerimus, omnes <lb/>
+            etiam parabolae ac figurae significandarum quarumque rerum, <lb n="10"/>
+            quae non ad <choice><note>propnetatem</note><corr>proprietatem</corr></choice> accipiendae sunt, sed in eis aliud <lb/>
+            ex alio est intellegendum, dicentur esse mendacia: quod absit <lb/>
+            omnino. nam qui hoc putat, tropicis etiam tam multis locutionibus <lb/>
+            omnibus potest hanc inportare calumniam, ita ut et <lb/>
+            ipsa quae appellatur metaphora, hoc est de re propria ad rem <lb n="15"/>
+            non propriam uerbi alicuius usurpata translatio, possit ista <lb/>
+            ratione mendacium nuncupari. cum enim dicimus "fluctuare <lb/>
+            segetes, gemmare uites, floridam iuuentutem, niueam canitiem", <lb/>
+            procul dubio fluctus, gemmas, florem, niuem quia in his <lb/>
+            rebus non inuenimus, in quas haec uerba aliunde transtulimus, <lb n="20"/>
+            ab istis mendacia putabuntur. et petra Christus et cor
+
+<app> 3 cf. Gen. 26. 7; 24 21 cf. I Cor. 10, 4 Ez. 36, 26 </app>
+
+<app> 1 de <hi>fin. om. IlLO</hi> 3 fecit] dixit p isaac fecit <hi>FL</hi> ysaac <hi>TL</hi> <lb/>
+            4 coniungem &lt;p <hi>cum uoce</hi> non <hi>inc. cod. Chaltenhamensis = B</hi> 5 siiencio <lb/>
+            <hi>B</hi> com <hi>ChB</hi> 6 conloquendo <hi>T1</hi> ptitur <hi>Ch</hi> promittitur P <lb/>
+            pro <hi>T</hi> 8 mendatium <hi>B</hi> 9 misterium <hi>Tjlo</hi> mendatio <hi>B</hi> 10 parabole <lb/>
+            <hi>B</hi> significandarumqye rerum » quarumcumque <hi>$bd</hi> 11 que <hi>B</hi> <lb/>
+            sunt accipiendae y accipienda <hi>B</hi> 12 est <hi>om. B</hi> esse <hi>om. T</hi> <lb/>
+            13 trophicis <hi>BChT1</hi> loquutionibus <hi>B</hi> 14 omnibus <hi>om. B cum<lb/>
+             syllaba</hi> niam <hi>inc. cod. M fol. 103</hi>. ita ut nec ipsa <hi>(bis pos.) B</hi> ista cp <lb/>
+            et] nec <hi>WRTFLOBo1</hi> hec P 15 metafora <hi>RTOLMChBy</hi> methafora <hi>P</hi> <lb/>
+            re <hi>om. F</hi> propria] probis <hi>T</hi> 16 translatio] locutio 7 17 noncu. <lb/>
+            pari 7 euim] autem <hi>V</hi> fiucturae Tl flucture <hi>Ch</hi> 18 saegetes <hi>Ch</hi> <lb/>
+            segetas <hi>B</hi> gemmare uites <hi>om. V</hi> conitiem Tl 19 lfores <hi>V</hi> <lb/>
+            niues <hi>V</hi> quia] quam 7 que 0 20 stranstulimus y transtullimus tp <lb/>
+            21 histis <hi>Ch</hi> paetra <hi>Ch</hi> </app>
+
+<app> 32* </app> <lb/>
+             
+<pb n="500"/>
+            lapideum iudaeorum, item leo Christus et leo diabolus <lb/>
+            et innumerabilia talia dicentur esse mendacia. quid? quod haec <lb/>
+            tropica locutio usque ad eam peruenit, quae appellatur antiphrasis, <lb/>
+            ut dicatur abundare quod non est, dicatur dulce <lb/>
+            quod acidum est, lucus, quod non luceat, parcae, quod non<lb n="5"/>
+            parcant. unde illud est in scripturis sanctis: si non in <lb/>
+            faciem benedixerit tibi, quod diabolus ait domino de <lb/>
+            sancto Iob et intellegitur &lt;maledixerit&gt;. quo uerbo et Nabuthei <lb/>
+            fictum crimen a calumniantibus nominatum est. dictum est <lb/>
+            enim, quod benedixerit regi, hoc est maledixerit. hi omnes<lb n="10"/>
+            modi locutionum mendacia putabuntur, si locutio uel actio <lb/>
+            figurata in mendacio deputabitur. si autem non est mendacium, <lb/>
+            quando ad intellegentiam ueritatis aliud ex alio significantia <lb/>
+            referuntur, profecto non solum id quod fecit aut dixit <lb/>
+            Iacob patri, ut benediceretur, sed neque illud quod Ioseph<lb n="15"/>
+            uelut inludendis locutus est fratribus nec quod Dauid simulauit <lb/>
+            insaniam nec cetera huius modi mendacia <choice n="0.72"><note n="13">iudicanda</note><corr n="5">indicanda</corr></choice> <lb/>
+            sunt, sed locutiones actionesque propheticae ad ea, quae uera <lb/>
+            sunt intellegenda, referendae. quae propterea figuratis uelut <lb/>
+            amictibus obteguntur, ut sensum pie quaerentis exerceant et
+
+<app> 1 cf Apoc. 5, 5 cf. I Petro 5, 8 6 Iob. 2, 5 8 cf. III Reg. <lb/>
+            20 (21), 13 15 cf. Gen. cap. 42 16 cf. I Reg. 21, 13 </app>
+
+<app> 1 iudeorum <hi>RTf</hi> item] et <hi>B</hi> et <hi>om</hi>. &lt;p 2 innumirabilia Ch <lb/>
+            quidquid <hi>B</hi> quicquid <hi>W</hi> 3 tropida <hi>ChT1</hi> loquutio <hi>B V</hi> antifrasis <lb/>
+            <hi>RMTOnFLO YiCP</hi> ANT&lt;J&gt;PASIS <hi>B</hi> 4 habundare <hi>TV</hi> et dicatur <lb/>
+            <hi>V</hi> 5 luce.at <hi>0</hi> parc.ae <hi>B</hi> parcite <hi>B</hi> quę 791 6 parcat <hi>YB</hi> <lb/>
+            portant cpl 7 farciem o domino <hi>om. FL</hi> 8 quod, et] ei <hi>V</hi> <lb/>
+            nabutaei <hi>B om. V</hi> 9 criminaca lumniantibus 91 nominatum est a <lb/>
+            calumpniantibus <hi>V</hi> 10 regi <hi>om. V</hi> hii <hi>BTB</hi> 11 modi locutionum] <lb/>
+            modolationum <hi>B</hi> loquutionum <hi>BY</hi> loquutio <hi>BV</hi> uel actio om. f <lb/>
+            12 in mendacia <hi>TB</hi> 13 ad <hi>om. T</hi> alia ex aliis <hi>FL</hi> 15 patri <hi>om. FL</hi> <lb/>
+            iosep 0 16 uelud <hi>V</hi> inludena <hi>in ras. T</hi> loquutus <hi>BY</hi> fratribus <lb/>
+            locutus est 7 nec] ne <hi>TCTtVp aeque bd</hi> simulabit <hi>O1</hi> 17 nec| <lb/>
+            et <hi>B</hi> ne <hi>0</hi> huiusmodatia <hi>B</hi> 18 sed neque <hi>V</hi> loquutiones <hi>BV</hi> <lb/>
+            prophetiae <hi>B</hi> ad-referendae om. <hi>V</hi> 19 referandae <hi>B quae-601,11</hi> <lb/>
+            planius <hi>om. B</hi> uelud <hi>V</hi> uel <hi>Chl</hi> 20 <hi>pig Ch om. V</hi> inquirentis <lb/>
+            <hi>V</hi> </app> <lb n="20"/>
+             
+<pb n="501"/>
+            ne nuda ac prompta uilescant. quamuis quae aliis locis aperte <lb/>
+            ac manifeste dicta didicimus, cum ea ipsa de abditis eruuntur, <lb/>
+            quodam modo in nostra cognitione renouantur et renouata <lb/>
+            dulcescunt. nec inuidentur discentibus, quod his modis obscurantur, <lb/>
+            sed commendantur magis, ut quasi subtracta desiderentur <lb n="5"/>
+            ardentius et inueniantur desiderata iucundius. tamen <lb/>
+            uera, non falsa dicuntur, quoniam uera, non falsa significantur <lb/>
+            seu uerbo seu facto. quae significantur enim, utique ipsa <lb/>
+            dicuntur. putantur autem mendacia, quoniam non ea quae <lb/>
+            uera significantur, dicta intelleguntur, sed ea, quae falsa sunt, <lb n="10"/>
+            dicta esse creduntur. hoc ut exemplis fiat planius, id ipsum, <lb/>
+            quod Iacob fecit, adtende. haedinis certe pellibus membra <lb/>
+            contexit. si causam proximam requiramus, mentitum <lb/>
+            putabimus; hoc enim fecit, ut putaretur esse qui non erat; <lb/>
+            si autem hoc factum ad illud propter quod significandum <lb n="15"/>
+            reuera factum est referatur, per haedinas pelles peccata, per <lb/>
+            eum uero, qui eis se operuit, ille significatus est, qui non <lb/>
+            sua, sed aliena peccata portauit. uerax ergo significatio nullo. <lb/>
+            modo mendacium recte dici potest. ut autem in facto, ita et in <lb/>
+            uerbo. nam cum ei pater dixisset: qui es tu, fili? ille <lb n="20"/>
+            respondit: ego Esau primogenitus tuus. hoc si referatur
+
+<app> 12 cf. Gen. 27, 16 20 Gen. 27, 18. 19 </app>
+
+<app> 1 promta <hi>MTCh</hi> prolata in <hi>ras. T</hi> a.perte <hi>Ch</hi> 2 dicta <hi>om. Ch</hi> <lb/>
+            dicimus y de] die <hi>T</hi> geruantar y 3 in nostra quodam modo <lb/>
+            cognitione fftrf cogitatione <hi>T</hi> 4 descendentibus <hi>TOni:;</hi> commedantur <lb/>
+            <hi>Ch</hi> ea desiderentur rp 6 iocandiuB <hi>FLfr&lt;pd</hi> 7 dicentur p <lb/>
+            8 utique enim <hi>Eug</hi> ipsa utique YSr 9 dicentur P1 10 significantur <lb/>
+            aera P uere <hi>FL</hi> significant- <hi>T</hi> 11 hoc autem <hi>FL</hi> ut <hi>om</hi>. y <lb/>
+            fiant <hi>TCh</hi> id] hoc <hi>0</hi> nam id <hi>B</hi> ad <hi>T</hi> 12 fecit iacob <hi>FL</hi> adtendae <lb/>
+            <hi>B</hi> atende &lt;p haedinis] et in his <hi>0</hi> dinis <hi>T</hi> aedinis <hi>BCh</hi> hedinis <lb/>
+            Vj certe] quippe P 13 proiimam] propriam <hi>FL</hi> requirimus <hi>LF</hi> <lb/>
+            mendacium <hi>FL</hi> 14 enim] autem <hi>FL</hi> quod <hi>B</hi> 16 reuera om. T <lb/>
+            aedinas <hi>M</hi> edinas <hi>Tl</hi> 17 quia <hi>(Jh,</hi> eis 96 (i <hi>et</hi> se <hi>a. l. m. 2) 0</hi> <lb/>
+            18 portabit T1 <hi>voce</hi> portauit <hi>fin. cod. B</hi> mendacium nullo <lb/>
+            modo <hi>V</hi> 19 recte <hi>om. V</hi> 21 ego ow. <hi>01</hi> ego sum <hi>FVafabd</hi> <lb/>
+            esau <hi>om. FL</hi>. </app> <lb/>
+             
+<pb n="502"/>
+            ad duos illos geminos, mendacium uidebitur; si autem ad <lb/>
+            illud, propter quod significandum ista gesta, dicta, conscripta <lb/>
+            sunt, ille est hic intellegendus in corpore suo, quod est eius <lb/>
+            ecclesia, qui de hac re loquens ait: cum uideritis Abraham <lb/>
+            et Isaac et Iacob et omnes prophetas in regno<lb n="5"/>
+            dei, uos autem expelli foras. et uenient ab oriente <lb/>
+            et occidente et aquilone et austro, et accumbent <lb/>
+            in regno dei. et ecce sunt nouissimi qui erant <lb/>
+            primi, et sunt primi qui erant nouissimi. sic enim <lb/>
+            quodam modo minor maioris primatum frater abstulit atque<lb n="10"/>
+            in se transtulit fratris. cum igitur tam uera tamque <choice><note>signiScentur</note><corr>significentur</corr></choice> <lb/>
+            ueraciter, quid hic debet putari factum dictumue mendaciter? <lb/>
+            cum enim quae significantur, non utique non sunt <lb/>
+            in ueritate, sed sunt seu praeterita seu praesentia <choice n="0.01"><note n="15">sen</note><corr n="1040">seu</corr></choice> futura, <lb/>
+            procul dubio uera significatio est nullumque mendacium. sed<lb n="15"/>
+            nimis longum est in hac significatione prophetica enucleate <lb/>
+            cuncta rimari, in quibus palmam ueritas habet, quia ut signi- <lb/>
+            <sic>Scando</sic> praenuntiata sunt, ita consequendo claruerunt. 
+</p>
+          
+</div1>
+
+<div1 n="25" subtype="section"><head>§ 25</head>
+
+<p><milestone n="11" unit="altchapter"/> Neque id isto sermone suscepi, quod ad te magis <lb/>
+            pertinet, qui Priscillianistarum latebras aperuisti, quantum ad<lb n="20"/>
+            eorum adtinet dogmata falsa atque peruersa, ne ita inuestigata <lb/>
+            uideantur, quasi docenda fuerint et non redarguenda. magis <lb/>
+            ergo fac, ut expugnata iaceant, quae fecisti ut prodita pateant, <lb/>
+            ne, dum uolumus ad indaginem hominum fallacium peruenire, <lb/>
+            ipsas falsitates sinamus tamquam insuperabiles permanere,
+
+<app> 4 Luc. 13, 28-30 </app>
+
+<app> 1 uos <hi>pro</hi> duos <hi>ChTx</hi> 2 quod om. <hi>T</hi> gesta <hi>om. FL</hi> dicto o <lb/>
+            <hi>dictaque$bd</hi> 4 de—ait in <hi>mg. 0</hi> 5 et <hi>om. TEug</hi> ysaac <hi>V</hi> isahac <lb/>
+             6 uos-dei <hi>om</hi>. 9 origente <hi>0</hi> 8 et <hi>om</hi>. <foreign xml:lang="grc">β</foreign> 11 <hi>tamquam filL T</hi> <lb/>
+            13 non <hi>fin. om. 'IV nunc FL</hi> 14 sed sunt] adsunt (8. 4 <hi>add</hi>. t) m <lb/>
+            16 propheticae <hi>RTMCh</hi> prophetice <hi>0</hi> prophetice o1 prophetia ©* nucleatim <lb/>
+            B nucleate <hi>MCh</hi> nucleate <hi>0</hi> enucleanda <hi>V nugcleate</hi> ,2 17 conctari<lb/>
+             magis <hi>V</hi> significanda <hi>FL</hi> 18 pronuntiata <hi>V</hi> consequenda <hi>Y</hi> <lb/>
+            19 id] enim ad <hi>V</hi> istud <hi>V</hi> sermonS <hi>V</hi> suscipi <hi>TCh</hi> 20 operuisti<lb/>
+             <hi>T</hi> 21 domata <hi>TChV</hi> dommata <hi>01</hi> 22 ut quasi <hi>V</hi> fuerint <lb/>
+            <hi>s. Z. M</hi> fuerit <hi>Chx</hi> 24 fallatium <hi>Ch om. FL</hi> </app> <lb n="25"/>
+             
+<pb n="503"/>
+            cum potius debeamus et in latentium cordibus destruere <lb/>
+            falsitates quam parcendo falsitatibus inuenire fallaces. porro <lb/>
+            inter illa dogmata eorum, quae subuertenda sunt, etiam hoc <lb/>
+            est utique quod dogmatizant, ad occultandam religionem religiosos <lb/>
+            debere mentiri, in tantum ut non solum de aliis rebus <lb n="5"/>
+            ad doctrinam religionis non pertinentibus, sed de ipsa quoque <lb/>
+            religione mentiendum sit, ne patescat alienis, ut uidelicet <lb/>
+            negandus sit Christus, quo possit inter inimicos suos latere <lb/>
+            <choice><note>christianus</note><corr>Christianus</corr></choice>. etiam hoc, obsecro te, dogma inpium nefariumque <lb/>
+            <sic>subuerte</sic>, propter quod astruendum argumentantes de scripturis <lb n="10"/>
+            colligunt testimonia, quibus uideantur non solum ignoscenda <lb/>
+            uel toleranda, uerum et honoranda mendacia. ad te igitur pertinet, <lb/>
+            sectam detestabilem cum refellis, sic accipienda monstrare <lb/>
+            ista testimonia scripturarum, ut uel doceas non esse quae <lb/>
+            putantur esse mendacia, si eo modo intellegantur, quo intellegenda <lb n="15"/>
+            sunt, uel imitanda non esse etiam quae manifestum est <lb/>
+            esse mendacia, uel certe ad extremum de his saltem rebus, quae <lb/>
+            ad doctrinam religionis pertinent, nullo modo esse mentiendum. <lb/>
+            sic enim uere funditus euertuntur, dum euertitur, ubi delitiscunt: <lb/>
+            ut eo ipso minime sectandi et maxime cauendi iudicentur, <lb n="20"/>
+            quo se ad occultandam haeresim suam profitentur esse <lb/>
+            mendaces. hoc in eis est primitus expugnandum, hoc eorum <lb/>
+            uelut idoneum munimentum ueritatis ictibus feriendum atque <lb/>
+            deiciendum. nec eis quam non habebant, alia latebra, quo
+
+<app> 1 debeamus] habeaDJus <hi>V</hi> 2 inueniri  7 4 docmatizant <hi>TCI,</hi> <lb/>
+            occultanda <hi>Tl</hi> occultandum <hi>T2;</hi> religionem-tantum <hi>om. T</hi> religiosuB <lb/>
+            <hi>ChFL</hi> 6 religionis <hi>om. FL</hi> sed (d <hi>m. 2 8. I.) R</hi> 7 uidaelicet <lb/>
+            <hi>Ch</hi> 8 suos <hi>om</hi>. P 9 christianos <hi>TCh</hi> 10 porter <hi>Ch</hi> adstruendum <lb/>
+            o 12 uel toleranda om. 7 tolleranda tp 14 ista <hi>om. V</hi> <lb/>
+            non-imitnnda <hi>om. V</hi> 15 esse <hi>om. FLf</hi> intelleguntur o 16 manifesta <lb/>
+            sunt <hi>V</hi> 17 extremum] ultimum <hi>FL</hi> his (s a. <hi>I.)</hi> q:&gt; saltim <lb/>
+            <hi>ChO1 om. V</hi> 19 sic-dum <hi>om</hi>. 'P delictiscunt <hi>M</hi> dilictiscunt <hi>C/i</hi> <lb/>
+            delitescunt <hi>FLVfaybd</hi> 20 et] sed <hi>V</hi> 21 occulendam <hi>MVo</hi> heresim <lb/>
+            <hi>RTFLOf</hi> mendaces esse profitentur <hi>V</hi> se esse P 23 uelud <hi>V</hi> <lb/>
+            momentum <hi>T</hi> mumentum <hi>Ch</hi> munimen <hi>FL</hi> hictibus <hi>T</hi> 24 que <hi>V</hi> <lb/>
+            habeant <hi>0</hi> habent <foreign xml:lang="grc">β</foreign> latrebra <hi>T</hi> </app> <lb/>
+             
+<pb n="504"/>
+            confugiant, est praebenda, ut, si forte ab his produntur, quos <lb/>
+            conati fuerint seducere nec potuerint, dicant: temptare illos <lb/>
+            uoluimus, quoniam nos prudentes catholici docuerunt ad inueniendos <lb/>
+            haereticos id esse faciendum. sed aliquanto commendatius <lb/>
+            oportet ut dicam, cur ista mihi uideatur tripertita ratio<lb n="5"/>
+            disputandi aduersus eos, qui patronas mendaciis suis scripturas <lb/>
+            uolunt adhibere diuinas: ut prius ostendamus nonnulla, <lb/>
+            quae ibi putantur esse mendacia, non esse quod putantur, si <lb/>
+            recte intellegantur; deinde, si qua ibi mendacia manifesta <lb/>
+            sunt, imitanda non esse; tertio contra omnes omnium opiniones,<lb n="10"/>
+            quibus uidetur ad uiri boni officium pertinere aliquando <lb/>
+            mentiri, omni modo tenendum in doctrina religionis nullo <lb/>
+            modo esse mentiendum. haec enim tria tibi exequenda paulo <lb/>
+            ante commendaui et quodam modo iniunxi. 
+</p>
+          
+</div1>
+
+<div1 n="26" subtype="section"><head>§ 26</head>
+
+<p><milestone n="12" unit="altchapter"/> Ad ostendenda ergo quaedam, quae putantur in<lb n="15"/>
+            scripturis esse mendacia, non ea esse quod putantur, si recte <lb/>
+            intellegantur, non tibi parum aduersus istos ualere uideatur, <lb/>
+            quod non de apostolicis, sed de propheticis litteris inueniunt <lb/>
+            uelut exempla mentiendi. illa quippe omnia, quae nominatim <lb/>
+            commemorant, ubi sit quisque mentitus, in eis libris leguntur,<lb n="20"/>
+            in quibus non solum dicta, <choice n="0.00"><note n="4">aerum</note><corr n="2510">uerum</corr></choice> etiam facta multa <lb/>
+            figurata conscripta sunt, quia et figurate gesta sunt. in figuris <lb/>
+            autem quod uelut mendacium dicitur, bene intellectum uerum
+
+<app> 1 fugiant <hi>FL</hi> configiant <hi>Ch</hi> esse <hi>V</hi> ut puta f iis p 2 quonati <lb/>
+            <hi>Tl</hi> fuerant <hi>V</hi> potuerant <hi>V</hi> illos] eos <hi>V</hi> 3 nos OIR. <lb/>
+            <hi>FLOpbd</hi> 4 esse] etiam T aliquando <hi>V</hi> commentatius <hi>T</hi> commendaciu9 <lb/>
+            <hi>SM</hi> comodatius <hi>0</hi> 5 dicam cur] dicantur P quor <hi>BJlO</hi> <lb/>
+            tripartita <hi>Rbd</hi> 6 patronos <hi>V</hi> auis uolunt adhibere diuinas soripturas <lb/>
+            <hi>bd</hi> 10 contra contra <hi>V</hi> ominum <hi>Ch</hi> hominum <hi>TFL</hi> oppiniones <lb/>
+            <hi>TCh</hi> 11 pertinere officium <hi>V</hi> 12 tenendum] uidendum <hi>Y</hi> <lb/>
+            doctrinam 9 13 exsequenda <hi>ChOVMbd</hi> 14 coniunxi <hi>T</hi> 16 quod— <lb/>
+            intellegantur <hi>om. 0</hi> quod] que <hi>Ky</hi> 18 sed <hi>om. V</hi> inueniuntur r <lb/>
+            19 uelud <hi>V</hi> ille <hi>T'</hi> iJlę <hi>T1</hi> 20 commemorantur <hi>V</hi> legentur P <lb/>
+            21 multa facta <hi>V</hi> 22 figurate &lt;p conscribta <hi>Ch</hi> figuratae <hi>JlGIt</hi> <lb/>
+            figurat.e <hi>T</hi> gesta <hi>om. V</hi> 23 mentiendum <hi>TV</hi> mendam <hi>MCh?b</hi> <lb/>
+            mundtt N </app> <lb/>
+             
+<pb n="505"/>
+            inuenitur. apostoli uero in epistulis suis aliter locuti sunt <lb/>
+            aliterque conscripti actus apostolorum iam uidelicet reuelato <lb/>
+            testamento nouo, quod illis figuris propheticis uelabatur. <choice n="0.00"><note n="2">dentque</note><corr n="1505">denique</corr></choice> <lb/>
+            in tot epistulis apostolicis atque in ipso tam grandi libro, <lb/>
+            in quo actus eorum canonica ueritate narrantur, non inuenitur <lb n="5"/>
+            talis aliquis mentiens, ut de illo ab istis ad mentiendi licentiam <lb/>
+            proponatur exemplum, quandoquidem illa Petri et <choice><note>Bamabae</note><corr>Barnabae</corr></choice> <lb/>
+            simulatio, qua gentes iudaizare cogebant, merito reprehensa <lb/>
+            atque correcta est, et ne tunc noceret et ne posteris ad imitandum <lb/>
+            ualeret. cum enim uidisset apostolus Paulus, quia <lb n="10"/>
+            non recte ingrediuntur ad ueritatem euangelii, <lb/>
+            dixit Petro coram omnibus: si tu, cum sis iudaeus, <lb/>
+            gentiliter et non iudaice uiuis, quomodo gentes <lb/>
+            cogis iudaizare? id autem quod ipse fecit, ut quasdam <lb/>
+            obseruationes legitimas iudaica consuetudine retinendo et <lb n="15"/>
+            agendo non se inimicum legi prophetisque monstraret, absit, <lb/>
+            ut mendaciter eum fecisse credamus. de hac quippe re satis <lb/>
+            est eius nota sententia, qua fuerat constitutum nec iudaeos, <lb/>
+            qui tunc in Christum credebant, prohibendos esse a paternis <lb/>
+            traditionibus nec ad eas gentiles, cum christiani <lb n="20"/>
+            fierent, esse cogendos, ut <sic>iUa</sic> sacramenta, quae diuinitus praecepta <lb/>
+            esse constaret, non tamquam sacrilegia fugerentur <lb/>
+            nec tamen putarentur sic necessaria iam nouo testamento <lb/>
+            reuelato, tamquam sine his quicumque conuerterentur ad <lb/>
+            deum salui esse non possent. erant enim qui hoc putabant
+
+<app> 10 cf. Gal. 2, 14 12 Gal. 2, 14. 15 </app>
+
+<app> 1 epistolifl <hi>RTMFLOVflfybd</hi> suis <hi>om. V</hi> loquuti <hi>V</hi> 3 propheticis <lb/>
+            figuris P 4 aepostolis <hi>Chx</hi> 5 narratur T declarantur <hi>in ras</hi>. T <lb/>
+            6 aliquis talis P licenciam <hi>T</hi> 7 propanatur <hi>Ch</hi> 9 <hi>pr</hi>. et om. <hi>V</hi> <lb/>
+            10 quia] quod <hi>V</hi> 11 ingrederentur y ingredirentur <hi>V</hi> 12 com <hi>Ch</hi> <lb/>
+            sia s. Z. <hi>0</hi> iudeus sis <hi>FL</hi> iudena <hi>RM</hi> 13 iudaicae <hi>BM</hi> 15 legitima <lb/>
+            <hi>TChO'</hi> iudeica <hi>O</hi>. 16 non] ne T legis <hi>Eug</hi> 17 re quippe (3 <lb/>
+            18 eius <hi>om. V</hi> iudeos <hi>T</hi> 19 prohibendo <hi>T</hi> 20 eos <hi>Chfl</hi> com <hi>Ch</hi> <lb/>
+            21 esse <hi>om. V</hi> coagendos <hi>V</hi> 22 sagrilegia <hi>Ch</hi> fogerentor--necessaria <lb/>
+            <hi>om. T</hi> 24 reuelata <hi>TCh</hi> hiis <foreign xml:lang="grc">β</foreign> iis <hi>bd</hi> 25 errant <hi>Ch</hi> </app> <lb n="25"/>
+             
+<pb n="506"/>
+            atque praedicabant, quamuis iam recepto Christi euangelio. <lb/>
+            et eis simulate consenserant Petrus et <choice><note>Barnabus</note><corr>Barnabas</corr></choice> ideoque <lb/>
+            cogebant gentes iudaizare. id erat enim cogere, sic ea <choice><note>necessana</note><corr>necessaria</corr></choice> <lb/>
+            praedicare, tamquam et recepto euangelio nulla sine illis <lb/>
+            salus esset in Christo. hoc en-or quorundam putabat, hoc<lb n="5"/>
+            timor Petri simulabat, hoc libertas Pauli redarguebat. quod <lb/>
+            ergo ait: omnibus omnia factus sum, ut omnes lucri <lb/>
+            facerem, conpatiendo id fecit, non mentiendo. fit enim quisque <lb/>
+            tamquam ille, cui uult subuenire, quando tanta misericordia <lb/>
+            subuenit, quanta sibi subueniri uellet, si esset ipse in eadem<lb n="10"/>
+            miseria constitutus. itaque fit tamquam ille, non quia fallit <lb/>
+            illum, sed quia se cogitat sicut illum. unde illud est eius <lb/>
+            apostoli, quod iam supra commemoraui: fratres, si praeoccupatus <lb/>
+            fuerit homo in aliquo delicto, uos qui <lb/>
+            spiritales estis, instruite huius modi in spiritu<lb n="15"/>
+            mansuetudinis, intendens te ipsum, ne et <choice><note>tn</note><corr>tu</corr></choice> tempteris. <lb/>
+            nam si propterea quia dixit: factus sum <choice><note>iudaeia</note><corr>iudaeis</corr></choice> <lb/>
+            tamquam iudaeus et his qui sub lege erant tamquam <lb/>
+            sub lege. ideo putandus est mendaciter suscepisse <lb/>
+            legis ueteris sacramenta, debuit et gentium idololatriam eodem<lb n="20"/>
+            modo mentiendo suscipere, quia dixit etiam his, qui sine <lb/>
+            lege erant, tamquam sine lege se factum, ut eos lucri <lb/>
+            faceret: quod utique non fecit. non enim alicubi sacrificauit
+
+<app> 7 I Cor. 9, 22 13 Gal. 6, 1 17 I Cor. 9, 20 </app>
+
+<app> 1 predicabant <hi>RM</hi> recepto iam p iam <hi>om</hi>. 7 pcepto <hi>0</hi> rect'pto M <lb/>
+            euangelio xpi 7 euangelico <hi>Ch</hi> 3 enim erat <hi>FL Eug</hi> 4 cepto <hi>V</hi> <lb/>
+            5 saluus <hi>Ch</hi> salo <hi>V</hi> esse <hi>R</hi> 7 omnia omnibus p 9 tamquern Ch <lb/>
+            sicut p quando eidem tantum subuenit quantum <hi>V</hi> 10 <hi>alt</hi>. subuenire <hi>V</hi> <lb/>
+            ipse essot ţr 11 n)iseri(Qr4ia <hi>Ch</hi> constituit <hi>Ch</hi> 12 sicut illum <lb/>
+            <hi>om. 0</hi> eiusdem <hi>VFL</hi> 13 et <hi>ai$bd Eug</hi> 14 delicto aliquo <hi>V</hi> <lb/>
+            alico <hi>Ch</hi> dilicto <hi>Ch</hi> 15 estis <hi>om. V1</hi> uiusmodi <hi>Ch</hi> 16 mansoetudinis] <lb/>
+            lenitatis <foreign xml:lang="grc">β</foreign> temptaris 91 17 et dixit <hi>TOIx</hi> 18 erant <lb/>
+            <hi>om. p</hi> erant-lege <hi>repetuntur in JRM</hi> 19 lege essem <hi>V</hi> mendaciter <lb/>
+            <hi>om. 0</hi> 20 idololatriam <hi>bd:</hi> idolatriam <hi>codd</hi>. 21 mentiendoJ <lb/>
+            mouendo <hi>0</hi> suscipere mentiendo <hi>Fj3</hi> qui <hi>Eug</hi> iis <hi>bd</hi> 22 s eom. <hi>B</hi> <lb/>
+            lucrifaccregt o 23 quo <hi>Ch</hi> </app> <lb/>
+             
+<pb n="507"/>
+            idolis aut adorauit illa figmenta, ac non potius libere tamquam <lb/>
+            martyr Christi detestanda et uitanda monstrauit. de <lb/>
+            nullis igitur apostolicis actibus siue sermonibus isti proferunt <lb/>
+            imitanda exempla mentiendi. de propheticis ergo factis seu <lb/>
+            dictis ideo sibi uidentur habere, quod proferant, quia figuras <lb n="5"/>
+            praenuntiatiuas putant esse mendacia, eo quod mendaciis sunt <lb/>
+            <choice><note>aliquaudo</note><corr>aliquando</corr></choice> similia. sed cum referuntur ad eas res, propter <lb/>
+            quas significandas ita facta uel dicta sunt, reperiuntur significationes <lb/>
+            esse ueraces, ac per hoc nullo modo esse mendacia. <lb/>
+            mendacium est quippe falsa significatio cum uoluntate fallendi. <lb n="10"/>
+            non est autem falsa significatio, ubi, etsi aliud ex <lb/>
+            alio significatur, uerum est tamen quod significatur, si recte <lb/>
+            intellegatur. 
+</p>
+          
+</div1>
+
+<div1 n="27" subtype="section"><head>§ 27</head>
+
+<p><milestone n="13" unit="altchapter"/> Sunt quaedam eius modi etiam saluatoris in <lb/>
+            euangelio, quia et ipse dominus prophetarum propheta esse <lb n="15"/>
+            dignatus est. talia sunt illa, ubi de muliere, quae fluxum <lb/>
+            sanguinis patiebatur, ait: quis me tetigit? et de Lazaro: <lb/>
+            ubi posuistis eum? sic quippe interrogauit quasi nesciens <lb/>
+            quod utique sciebat. ac per hoc nescire se <choice n="0.54"><note n="90">fingit</note><corr n="75">finxit</corr></choice>, ut aliquid <lb/>
+            aliud illa uelut ignorantia sua significaret. quae significatio <lb n="20"/>
+            quoniam uerax erat, mendacium profecto non erat. eos namque <lb/>
+            significabant siue illa fluxum sanguinis patiens <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> ille <lb/>
+            mortuus quadriduanus, quos etiam qui <choice><note>cuucta</note><corr>cuncta</corr></choice> sciebat quodam <lb/>
+            modo nesciebat. nam et illa typum gerebat plebis gentium, <lb/>
+            unde praemissa fuerat prophetia: populus, quem non
+
+<app> 17 Lnc. 8. 45 18 Ioh. 11, 34 25 Ps. 17, 44 </app>
+
+<app> 1 figmenta illa <hi>V</hi> ficmenta <hi>TCh</hi> liber.tam quas <hi>TCh1</hi> 2 uita <lb/>
+            Jemonstrauit <hi>0</hi> 3 siue] seu 7 proferent <hi>V</hi> 4 mentienda <hi>Chx</hi> <lb/>
+            pro propheticis f 6 praenuntiati <hi>Chx</hi> praenuntiabus <hi>(a</hi>. b <hi>scr</hi>. t) <hi>0</hi> <lb/>
+            putantes se* 'P eo-mendacia <hi>om. V1</hi> quod non B quidem <hi>V</hi> <lb/>
+            aliquando snnt <hi>F</hi> sint <hi>MChfabd</hi> 7 simillima <hi>0</hi> 8 ista <hi>V</hi> <lb/>
+            9 mendacia] mendaces <hi>FL</hi> 10 quippe est <hi>FL</hi> significatio falsa <hi>V</hi> <lb/>
+            12 uerum-significatur <hi>iterantur in</hi> If 15 et <hi>om. FLO</hi> 16 quae <lb/>
+            <hi>om. ChlTl</hi> 18 hubi <hi>Ch</hi> 19 sciebat) nouerat p hac <hi>0</hi> fixit <hi>TIChl</hi> <lb/>
+            20 significao <hi>fin. Tl</hi> 23 quatriduanus <hi>F LOVT'r'Pbd</hi> quicumque sciebat <lb/>
+            « 24 tipum p 25 premissa <hi>EM</hi> promissa <hi>TV</hi> non <hi>om. 0</hi> </app> <lb n="25"/>
+             
+<pb n="508"/>
+            cognoui, seruiuit mihi, et Lazarus remotus a uiuentibus <lb/>
+            tamquam ibi iacebat per significatiuam similitudinem, ubi ille, <lb/>
+            cuius uox est: proiectus sum a facie oculorum tuorum. <lb/>
+            et ideo, tamquam nesciretur a Christo et illa, quae <lb/>
+            fuerit, et iste, ubi positus fuerit, uerbis interrogantis est<lb n="5"/>
+            figuratum et omne uitatum ueraci significatione mendacium. 
+</p>
+          
+</div1>
+
+<div1 n="28" subtype="section"><head>§ 28</head>
+
+<p>Hinc est etiam illud, quod commemorasti eos dicere <lb/>
+            'dominum Iesum, posteaquam resurrexit, ambulasse in itinere <lb/>
+            cum duobus discipulis, et propinquantibus eis castello, quo <lb/>
+            ibant, illum longius se ire finxisse', ubi euangelista dicens:<lb n="10"/>
+            ipse autem se finxit longius ire, etiam ipsum uerbum <lb/>
+            posuit, quo mendaces nimium delectantur, ut inpune mentiantur: <lb/>
+            quasi mendacium sit omne quod fingitur, cum ueraciter aliud <lb/>
+            ex alio significandi causa tam multa fingantur. si ergo nihil <lb/>
+            aliud significasset Iesus in eo, quod longius ire se finxit, merito<lb n="15"/>
+            iudicaretur esse mendacium. porro autem si bene <choice><note>intellogatur</note><corr>intellegatur</corr></choice> <lb/>
+            et ad id, quod uoluit significare, referatur, inuenitur esse <lb/>
+            mysterium. alioquin erunt cuncta mendacia, quae propter <lb/>
+            quandam rerum significandarum similitudinem, cum gesta non <lb/>
+            sint, tamquam gesta narrantur. unde est illa de duobus unius<lb n="20"/>
+            hominis filiis, maiore, qui mansit apud patrem suum, et <lb/>
+            minore, qui longe peregrinatus est, tam prolixa narratio. in <lb/>
+            quo genere fingendi humana etiam dicta uel facta inrationalibus <lb/>
+            animantibus et rebus sensu carentibus homines
+
+<app>8 Ps. 30, 23 11 Luc. 24, 28 20 ef. Luc. 15, 11-32 </app>
+
+<app>1 mihi inaudita auris obediuit mihi <hi>V</hi> 3 faciae <hi>Rm</hi>. conspectu 7 <lb/>
+            5 <hi>pr</hi>. fuerat <hi>0</hi> interrogatiuiB <hi>V</hi> 6 omne mendacium <hi>FL</hi> mendaciani <lb/>
+            <hi>om. FL</hi> 7 commemoinQrasti <hi>Ch</hi> 8 Iesum] nrm <hi>T</hi> snrrexit <hi>V</hi> <lb/>
+            9 discipolis <hi>Ch</hi> appropinquantibus <hi>FL</hi> quo. <hi>T</hi> 10 ire ae 70 <lb/>
+            se <hi>om. R</hi> ire <hi>Ch</hi> hubi <hi>Ch</hi> 11 fixit <hi>ChT1</hi> 12 posuit om. <hi>V</hi> <lb/>
+            mentiantur-omne om. o 13 sit <hi>om. Eug</hi> 14 causa] gratia P tam <lb/>
+            <hi>om</hi>. p 15 significaset <hi>Ch</hi> Iesus] is (8. <hi>I. m. 2) T</hi> se ire j3 <hi>Emg</hi> <lb/>
+            ire <hi>Ch</hi> 17 referatnr (re in <hi>ras )</hi> &lt;p efiPeratur <hi>V</hi> 18 misteriun <hi>MM</hi> <lb/>
+            cunta cp 20 gesta sint y et illa <hi>Eug</hi> 21 mansit] nam sit <hi>T</hi> <lb/>
+            23 umana <hi>Ch</hi> homana. <hi>T</hi> facta uel <hi>dicta pbtl</hi> inrationabilibos <lb/>
+            <hi>MTFLfaf</hi> inrationabiliua <hi>01</hi> </app><lb/>
+             
+<pb n="509"/>
+            addiderunt, ut eius modi fictis narrationibus, sed ueracibus significationibus <lb/>
+            quod uellent commendatius intimarent. nec apud <lb/>
+            auctores tantum saecularium litterarum, ut apud Horatium, <lb/>
+            mus loquitur muri et mustela uulpeculae, ut per narrationem <lb/>
+            fictam ad id, quod agitur, uerax significatio referatur: unde et <lb n="5"/>
+            Aesopi tales fabulas ad eum finem relatas nullus tam ineruditus <lb/>
+            fuit, qui putaret appellanda mendacia. sed in litteris <lb/>
+            quoque sacris, sicut in libro Iudicum, ligna sibi regem requirunt <lb/>
+            et loquuntur ad oleam et ad ficum et ad uitem et ad <lb/>
+            rubum. quod totum utique fingitur, ut ad rem, quae intenditur, <lb n="10"/>
+            ficta quidem narratione, non mendaci tamen, sed ueraci <lb/>
+            significatione ueniatur. haec dixi propter id, quod scriptum <lb/>
+            est de Iesu: et ipse se finxit longius ire, ne quisquam <lb/>
+            ex hoc uerbo, sicut Priscillianistae, licitum uolens habere <lb/>
+            mendacium insuper etiam Christum contendat fuisse mentitum. <lb n="15"/>
+            quisquis autem uult intellegere illud fingendo quid praefigurauerit, <lb/>
+            adtendat, quid agendo perfecerit. longius namque postea <lb/>
+            profectus super omnes caelos non tamen deseruit discipulos <lb/>
+            suos. propter hoc significandum futurum diuinitus factum <lb/>
+            ad praesens illud est humanitus fictum. et ideo significatio <lb n="20"/>
+            uerax in illa est fictione praemissa, quia in hac profectione
+
+<app> 3 cf. Horat. sat. II 6, 79 sqq. 4 Hor. Ep. I 7, 29 sqq. 6 Aesopi <lb/>
+            fab. 8 cf. Iud. 9, 8-15 13 Luc. 24, 28 </app>
+
+<app> 1 factis f1 ueratibus <hi>Ch</hi> 2 commendacius <hi>T'Ų</hi> intimaret <hi>Ch*</hi> <lb/>
+            3 oratium <hi>TRChFLa</hi> orbtium <hi>0</hi> horascium <hi>V</hi> 4 loquitur muri (8. ri <lb/>
+            <hi>add</hi>. s) tp mustella <hi>L</hi> mustelf <hi>B</hi> uulpae culae 'P uulpiculae <hi>Eug</hi> <lb/>
+            5 uera <hi>$bd</hi> refereratur <hi>T</hi> 6 ysopi <hi>MChRTLFOW</hi> esopi Fpy <lb/>
+            ales <hi>VW</hi> reuelata <hi>V</hi> tam <hi>om. Y</hi> eruditus <hi>Y</hi> 8 iudicium <hi>Y</hi> <lb/>
+            9 <hi>locuntur RTOy</hi> 10 rubrum <hi>V</hi> utique totum <hi>bd</hi> 11 fictam <hi>TCl</hi>. <lb/>
+            narrationS <hi>TCh</hi> uerati <hi>Ch</hi> uera r 12 id <hi>om. Eug</hi> 13 est <hi>om. Ch</hi> <lb/>
+            de] in <hi>V</hi> lesu] deo <hi>RMW</hi> se s. <hi>I. Ch om. V</hi> ne <hi>om</hi>. 91 <lb/>
+            14 priscilianistae <hi>0</hi> licidum <hi>Ch</hi> uolunt <hi>Eug</hi> 16 praefigurarit <lb/>
+            <hi>MVQbd</hi> 18 est super <hi>FL</hi> celus <hi>Ch</hi> discipolos <hi>Ch</hi> 19 futurum <lb/>
+            <hi>om. FL</hi> 20 est illud <hi>FL</hi> est <hi>om. V</hi> umanitus <hi>Ch</hi> fictum] <lb/>
+            factum <hi>Vtpl</hi> et <hi>om. 0</hi> 21 finctione <hi>TChV</hi> perfectione <hi>TOft</hi> <lb/>
+            perfinctione <hi>V</hi> </app> <lb/>
+             
+<pb n="510"/>
+            illius est significationis ueritas subsecuta. ille igitur contendat <lb/>
+            Christum mentitum esse fingendo, qui negat eum quod significauit <lb/>
+            inpleuisse faciendo. 
+</p>
+          
+</div1>
+
+<div1 n="29" subtype="section"><head>§ 29</head>
+
+<p><milestone n="14" unit="altchapter"/> Quia ergo non inueniunt mendaces haeretici in <lb/>
+            testamenti noui litteris imitanda exempla mendacii, copiosissimos<lb n="5"/>
+            se esse existimant in hac disputatione, qua opinantur <lb/>
+            esse mentiendum, cum de ueteribus propheticis libris, quia <lb/>
+            non ibi apparet nisi intellegentibus paucis quo referantur <lb/>
+            significatiua dicta et facta ueracia, multa sibi uidentur inuenire <lb/>
+            ac proferre mendacia. sed habere cupientes quibus se<lb n="10"/>
+            tueantur uelut imitanda exempla fallendi, se ipsos fallunt, et <lb/>
+            mentitur eorum iniquitas sibi. illae autem personae, quas <lb/>
+            credendum ibi non est prophetare uoluisse, si quid faciendo <lb/>
+            uel dicendo finxerunt uoluntate fallendi, quamuis ex ipsis <lb/>
+            quoque factis earum sine dictis aliquid propheticum possit<lb n="15"/>
+            exsculpi, per illius omnipotentiam praeseminatum atque dispositum, <lb/>
+            qui bene uti nouit etiam malis hominum, tamen, <lb/>
+            quantum ad ipsas adtinet, sine dubitatione mentitae sunt. <lb/>
+            sed non ideo debent imitanda existimari, quia in eis reperiuntur <lb/>
+            libris, qui sancti et diuini merito nominantur. habent<lb n="20"/>
+            enim conscripta et mala hominum et bona, illa uitanda, ista <lb/>
+            sectanda, et quaedam ita posita, ut de illis etiam sit prolata <lb/>
+            sententia, quaedam uero tacito ibi iudicio nobis iudicanda <lb/>
+            permissa, quoniam non solum nos nutriri manifestis, uerum <lb/>
+            et exerceri oportebat obscuris. <lb n="25"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="30" subtype="section"><head>§ 30</head>
+
+<p>Cur autem isti <choice><note>hnitandam</note><corr>imitandam</corr></choice> sibi Thamar existimant
+
+<app>12 cf. Ps. 26, 12 26 cf. Gen. 38, 14 sqq. </app>
+
+<app> 1 subsequuta <hi>Y</hi> ille <hi>L</hi> 2 qui. <hi>L</hi> significabit O1 S implesse <lb/>
+            r 4 Qui p <hi>5 imitanda esse FL 6 esse se 0 7 raendacium V</hi> <lb/>
+            9 significantia <hi>FLf. et]</hi> uel <hi>TChQbd</hi> ueratia <hi>RT</hi> 10 se tueantnrj <lb/>
+            seruentur <hi>V</hi> 11 fallendis <hi>RM</hi> 12 ille <hi>jRMy</hi> 14 uel—fallendi <hi>om</hi>. » <lb/>
+            15 eorum JB 16 exculpi <hi>TFLOVfty</hi> 18 atimet <hi>V</hi> 19 existimari <lb/>
+            imitanda ji imitande <hi>Zy innitande FY inmitanda m repperiuntar RMO</hi> <lb/>
+            22 ita (i <hi>ex</hi> u) &lt;p etiam <hi>om. FL</hi> prolata sit <hi>Ch$bd</hi> 24 pennissassunt <lb/>
+            o 25 et <hi>om. VB</hi> 26 quur <hi>0</hi> ista <hi>0 om</hi>. 7 imitanda M <lb/>
+            amar cp1 </app> <lb/>
+             
+<pb n="511"/>
+            mentientem et imitandum ludam non existimant fornicantem? ibi <lb/>
+            enim utrumque legerunt: et nihil horum scriptura illa siue <lb/>
+            culpauit siue laudauit, sed tantummodo utrumque narrauit et <lb/>
+            iudicandum nobis utrumque dimisit; sed mirum, si aliquid <lb/>
+            horum imitandum inpune permisit. quod enim Thamar non <lb n="5"/>
+            meretricandi libidine, sed concipiendi uoluntate mentita sit, <lb/>
+            nouimus. uerum et <sic>fomicatio</sic>, etiamsi Iudae talis non fuit. <lb/>
+            potest esse cuiuspiam, qua faciat, ut homo liberetur, sicut <lb/>
+            illius mendacium fuit, ut homo conciperetur. numquid propterea <lb/>
+            etiam fornicandum est, si propter illud putatur fuisse <lb n="10"/>
+            mentiendum? non de solo itaque mendacio, sed de omnibus <lb/>
+            operibus hominum, in quibus existunt uelut conpensatiua <lb/>
+            peccata, considerandum est, quam sententiam proferre debeamus, <lb/>
+            ne aperiamus aditum non tantum paruis quibusque <lb/>
+            peccatis. uerum etiam sceleribus cunctis, nullumque remaneat <lb n="15"/>
+            facinus, flagitium, sacrilegium, in quo causa non possit existere, <lb/>
+            qua recte uideatur esse faciendum, uniuersamque uitae probitatem <lb/>
+            opinio ista subuertat. 
+</p>
+          
+</div1>
+
+<div1 n="31" subtype="section"><head>§ 31</head>
+
+<p><milestone n="15" unit="altchapter"/> Nihil autem iudicandus est dicere, qui dicit aliqua <lb/>
+            iusta esse mendacia, nisi aliqua iusta esse peccata ac per hoc <lb n="20"/>
+            aliqua iusta esse, quae iniusta sunt: quo quid absurdius dici <lb/>
+            potest? unde enim est peccatum, nisi quia iustitiae contrarium <lb/>
+            est? dicantur ergo alia magna, alia parua esse peccata, quia <lb/>
+            uerum est nec auscultandum Stoicis, qui omnia paria esse contendunt; <lb/>
+            dicere autem quaedam iniusta, quaedam iusta esse
+
+<app> 24 cf. Cic. Ac. post. </app>
+
+<app> 1 iudam imitandum <hi>V</hi> 2 utrunque <hi>LV</hi> siue illa ? illa <hi>om. V</hi> <lb/>
+            3 utrumque <hi>om. V</hi> 4 sit ? 6 meretri candi (t 8. <hi>I.)</hi> o 7 et <hi>om. V</hi> <lb/>
+            etsi <hi>FL</hi> indg ctiam <hi>FL</hi> iude etiamsi <hi>V</hi> 8 esse] enim <hi>W</hi> fecit <hi>V</hi> <lb/>
+            10 etiam <hi>om. V</hi> putaatur If 11 utique <hi>FL$omnibus</hi> quibus <lb/>
+            hominum operibus p 12 operibus <hi>om</hi>. o in quibus <hi>om</hi>. p 14 quibus <lb/>
+            <hi>M</hi> quibasdã (dfi s. <hi>I.) </hi>? 16 ezsistere <hi>M</hi> 18 oppinio <hi>T</hi> 19 es <hi>B</hi> <lb/>
+            20 peccata-esse <hi>om. FL</hi> *ac 9 21 aliqua <hi>om</hi>. y 22 est contrarium y <lb/>
+            24 ascultandum <hi>V</hi> stoycis <hi>FL</hi> sthoicis <hi>V</hi> histoicis <hi>01</hi> 25 iusta <hi>Fy</hi> <lb/>
+            ._iusta <hi>T</hi> iniusta <hi>TVy</hi> </app><lb n="25"/>
+             
+<pb n="512"/>
+            peccata, quid est aliud quam dicere quasdam esse iniustas, quas <lb/>
+            dam iustas iniquitates? cum dicat apostolus <choice><note>Johannes</note><corr>Iohannes</corr></choice>: omnis. <lb/>
+            qui facit peccatum, iniquitatem facit; peccatum <lb/>
+            iniquitas est. non igitur potest iustum esse peccatum, nisi <lb/>
+            cum peccati nomen in alia re ponimus, in qua quisque non<lb n="5"/>
+            peccat, sed aut facit aliquid aut patitur pro peccato. nam et <lb/>
+            sacrificia pro peccatis peccata appellata sunt et poenae peccatorum <lb/>
+            dicuntur aliquando peccata. haec plane possunt intellegi <lb/>
+            iusta peccata, cum iusta dicuntur sacrificia uel iusta supplicia. <lb/>
+            ea uero, quae contra legem dei fiunt, iusta esse non possunt. <lb n="10"/>
+            dictum est autem deo: lex tua ueritas, ac per hoc quod <lb/>
+            est contra ueritatem, iustum esse non potest. quis autem <lb/>
+            dubitet contra ueritatem esse omne mendacium? nullum igitur <lb/>
+            iustum potest esse mendacium. item cui non clareat ex ueritate <lb/>
+            esse omne, quod iustum est? clamat autem Iohannes:<lb n="15"/>
+            omne mendacium non est ex ueritate. omne ergo <lb/>
+            mendacium non est iustum. quapropter quando nobis de <lb/>
+            scripturis sanctis mentiendi proponuntur exempla, aut mendacia <lb/>
+            non sunt, sed putantur esse, dum non intelleguntur, <lb/>
+            aut, si mendacia sunt, imitanda non sunt, quia iusta esse<lb n="20"/>
+            non possunt. 
+</p>
+          
+</div1>
+
+<div1 n="32" subtype="section"><head>§ 32</head>
+
+<p>Sed quod scriptum est bene deum fecisse cum hebraeis
+
+<app> 2 I Ioh. 3, 4 11 Ps. 118, 142 16 I Ioh. 2, 21 22 cf. Ex. <lb/>
+            1, 17 sqq. </app>
+
+<app> 1 esse iniustas <hi>om. Ff</hi> iniustas] iustas <hi>T</hi> 2 iniustas <hi>T</hi> esse <lb/>
+            iniquitates <hi>V</hi> iohannes apostolus 7 omnis <hi>om. V</hi> 3 facit et <lb/>
+            iniquitatein <hi>bd</hi> et iniquitatem <hi>TFLOVft</hi> iniquitatem-peccatum OJII. m <lb/>
+            et peccatum <hi>FLV$4</hi> ergo <hi>pro</hi> igitur <hi>bd</hi> Qipp peccatum m 5 reponimus <lb/>
+            <hi>Fp</hi> 6 sed aut] set ut <hi>T</hi> sed <hi>F</hi> peccato-pro om. <hi>Y</hi> <lb/>
+            7 sunt appellata <hi>Y</hi> paenae <hi>M</hi> poene &lt;p pene <foreign xml:lang="grc">β</foreign> 8 dicentur p planae <lb/>
+            <hi>M</hi> plene <hi>TO</hi> 9 peccata (ta 8. <hi>I.)</hi> f dicentur p 10 dei legem <foreign xml:lang="grc">β</foreign> <lb/>
+            11 ac cp quod est] quidem y 12 iustum-autem <hi>om. y</hi> 13 omne <lb/>
+            esse F mendacium omne <hi>(ibd</hi> igitur] ergo <hi>bd</hi> 14 esse potest <hi>bd</hi> <lb/>
+            16 ergo] igitur y 17 de scripturis sanctis nobis p 18 ponuntur <lb/>
+            <hi>RTFLOVfy</hi> 19 sed-non sunt <hi>om. T</hi> 22 qaod] cum <hi>F</hi> deum <lb/>
+            bene <hi>F</hi> fecisse deum p ebraeis <hi>M</hi> haebraeis <hi>T</hi> hebreis <hi>OV,</hi> </app> <lb/>
+             
+<pb n="513"/>
+            obstetricibus et cum Raab Hiericuntina meretrice, non ideo <lb/>
+            factum est, quia mentitae sunt, sed quia in homines dei <lb/>
+            misericordes fuerunt. non est itaque in eis remunerata fallacia, <lb/>
+            sed beniuolentia, benignitas mentis, non iniquitas mentientis. <lb/>
+            sicut enim mirum absurdumque non esset, si alio prius tempore <lb n="5"/>
+            commissa ab eis aliqua opera mala deus propter posteriora <lb/>
+            bona uellet ignoscere, ita mirandum non est, quod uno <lb/>
+            tempore in una causa deus utrumque conspiciens, id est <lb/>
+            factum misericorditer factumque fallaciter, et bonum <sic>remunerauit</sic> <lb/>
+            et propter hoc bonum malum illud ignouit. si enim <lb n="10"/>
+            peccata, quae propter carnis concupiscentiam, non propter <lb/>
+            misericordiam fiunt, propter posteriora opera misericordiae <lb/>
+            dimittuntur, cur non merito misericordiae dimittuntur, quae <lb/>
+            propter ipsam misericordiam committuntur? grauius est enim <lb/>
+            peccatum, quod animo nocentis quam quod animo subuenientis <lb n="15"/>
+            efficitur. ac per hoc si illud deletur opere misericordiae <lb/>
+            postea subsequente, cur hoc, quod est leuius, non <lb/>
+            deletur ipsa hominis misericordia et praecedente, ut peccet, <lb/>
+            et comitante, cum peccat? ita quidem uideri potest. uerumtamen <lb/>
+            aliud est dicere: peccare quidem non debui, sed opera <lb n="20"/>
+            misericordiae faciam, quibus deleam, quod ante peccaui, et <lb/>
+            aliud est dicere: peccare debeo, quia non possum aliter <lb/>
+            misereri, aliud est, inquam, dicere: quia iam peccauimus.
+
+<app> 1 cf. Ios. cap. 2; 6, 25 sqq. </app>
+
+<app> 1 obstitricibus <hi>V</hi> rahab <hi>T</hi> hiericuntina <hi>MO</hi> hierccuntina <hi>liF</hi> <lb/>
+            iherichuntina <hi>L</hi> ierichontina <hi>V</hi> iericontina py iericuntina 7 2 factum] <lb/>
+            dictum 3 4 beneuolentia <hi>TFLbd</hi> benigne <hi>Y</hi> 5 prius <hi>om</hi>. f <lb/>
+            6 aliqua <hi>om. V</hi> maia opera p 7 opera <hi>bona tTOVfbdEug</hi> bona <lb/>
+            opera <hi>FL$</hi> agnoscere <hi>01</hi> 8 una in <hi>V</hi> utrunque <hi>L</hi> 9 misericordie <lb/>
+            <hi>FL</hi> fallacie <hi>FL</hi> remunerabit <hi>Ol</hi> 10 illa <hi>T</hi> 11 concupiscentiam <lb/>
+            carnis p 12 misericordiae opera <hi>V</hi> tempora misericordiae <lb/>
+            <hi>Eug</hi> 13 cur-dimittuntur <hi>om. T</hi> quur <hi>0</hi> peccata dimittuntur <lb/>
+            <hi>FL</hi> 14 enim <hi>om</hi>. p 16 efficiatur <hi>W</hi> si <hi>om. Vf</hi> opera <lb/>
+            <hi>MMTFVLlW Eug</hi> 17 subsequenti <hi>V</hi> quur <hi>0</hi> 18 peccent <hi>T</hi> <lb/>
+            19 comittante o peccatur <hi>Y</hi> ueruntamen <hi>L</hi> 23 miseri f est <lb/>
+            <hi>om. V</hi> peccabimus <hi>Ol</hi> </app>
+
+<app> XXXXI Ang. Sect. V pan III. </app>
+
+<app> 33 </app> <lb/>
+             
+<pb n="514"/>
+            benefaciamus, et aliud est dicere: peccemus, ut benefaciamus. <lb/>
+            ibi dicitur: faciamus bona, quia fecimus mala, hic autem: <lb/>
+            faciamus mala, ut ueniant bona. ac per hoc ibi exhaurienda <lb/>
+            est sentina peccati, hic cauenda est doctrina peccandi. <lb/>
+            <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="33" subtype="section"><head>§ 33</head>
+
+<p>Restat itaque, ut intellegamus illis mulieribus, uel in <lb/>
+            Aegypto uel in Iericho, pro humanitate et misericordia redditam <lb/>
+            fuisse mercedem utique temporalem, quae quidem <lb/>
+            et ipsa aeternum aliquid etiam illis nescientibus prophetica <lb/>
+            significatione figuraret. utrum autem sit aliquando uel<lb n="10"/>
+            pro cuiusquam salute mentiendum, cum quaestio sit, in <lb/>
+            qua dissoluenda etiam doctissimi fatigantur, ualde illarum <lb/>
+            <choice><note>mnliercularum</note><corr>muliercularum</corr></choice> in illis populis <sic>constitutamm</sic> et illis moribus <lb/>
+            adsuetarum excedebat modum. itaque hanc earum ignorantiam, <lb/>
+            sicut aliarum rerum, quas pariter nesciebant, sed sciendae<lb n="15"/>
+            sunt a filiis non huius saeculi, sed futuri, dei patientia <lb/>
+            sustinebat, qui tamen eis pro humana benignitate, quam <lb/>
+            famulis eius inpenderant, quamuis caeleste aliquid significantia <lb/>
+            praemia terrena reddebat. et Raab quidem ex Iericho <lb/>
+            liberata in dei populum transitum fecit, ubi proficiens posset <lb n="20"/>
+            ad aeterna et inmortalia munera peruenire, quae nullo sunt <lb/>
+            quaerenda mendacio. 
+</p>
+          <p><milestone n="16" unit="altchapter"/>Tunc tamen, quando illud opus bonum et pro suae <lb/>
+            uitae condicione laudabile Israhelitis exploratoribus praestitit, <lb/>
+            nondum erat talis, ut ab ea exigeretur: sit in ore uestro
+
+<app> 3 Rom. 3, 8 25 Matth. 5, 37 </app>
+
+<app> 1 peccabimus <hi>FL</hi> ut] et <foreign xml:lang="grc">β</foreign> 2 dicimus <hi>Eug</hi> qui <hi>V</hi> hi.c <hi>T</hi> <lb/>
+            3 ibi <hi>om. V</hi> exaurienda <hi>RMVO</hi> exorienda <hi>T</hi> 4 sentina] sententia <lb/>
+            <hi>RTV</hi> 7 aegipto <hi>M</hi> egipto <hi>V</hi> egypto 'P hierico <hi>M</hi> gericho <hi>BT</hi> <lb/>
+            iherico <hi>F</hi> ihericho <hi>L</hi> ierico <foreign xml:lang="grc">β</foreign> 8 quae-figuraret <hi>om. V</hi> 13 in OWl. <hi>V</hi> <lb/>
+            14 excedit <hi>V</hi> itque <hi>M</hi> 15 nesciebatis <hi>T</hi> siendae <hi>M</hi> 16 patientia <lb/>
+            <hi>T</hi> 17 sustinebant (n 8. <hi>I) T</hi> eis <hi>om. Y</hi> benignitate <lb/>
+            humana <hi>bd</hi> humana <hi>om. FL</hi> humanitat fj1 19 rahab <hi>V</hi> hierico <lb/>
+            <hi>MF</hi> hiericho <hi>RLO</hi> iericho (h 8. <hi>I.)</hi> &lt;p 20 liberata in <hi>om. Y</hi> populo F <lb/>
+            fecit] significauit <hi>V</hi> possit <hi>V</hi> 21 aetema. &lt;p nullius (i <hi>8. l. <lb/>
+             m. 2) T</hi> 23 uite sue f auauitate <hi>T</hi> 25 ut ab] ut <hi>V</hi> ut hab f </app><lb n="25"/>
+             
+<pb n="515"/>
+            est est, non non. obstetrices autem illae quamuis Hebraeae <lb/>
+            si secundum carnem tantummodo sapuerunt, quid aut <lb/>
+            quantum est quod eis profuit remuneratio temporalis, quia <lb/>
+            fecerunt sibi domos, nisi proficiendo pertinuerunt ad eam <lb/>
+            domum, de qua deo cantatur: beati, qui habitant in <lb n="5"/>
+            domo tua; in saecula saeculorum laudabunt te? <lb/>
+            multum autem fatendum est propinquare iustitiae et quamuis <lb/>
+            re ipsa nondum, iam tamen spe atque indole animum esse <lb/>
+            laudandum, qui numquam nisi hac intentione mentitur, qua <lb/>
+            uult prodesse alicui, nocere autem nemini. sed nos cum quaerimus, <lb n="10"/>
+            sitne boni hominis aliquando mentiri, non de homine <lb/>
+            quaerimus adhuc ad Aegyptum uel ad Iericho uel ad Babyloniam <lb/>
+            pertinente uel adhuc ad ipsam Hierusalem terrenam, <lb/>
+            quae seruit cum filiis suis, sed de ciue illius ciuitatis, <lb/>
+            quae sursum est libera mater nostra aeterna in caelis. et <lb n="15"/>
+            respondetur quaerentibus nobis: omne mendacium non <lb/>
+            est ex ueritate. filii autem illius ciuitatis filii sunt utique <lb/>
+            ueritatis; eius ciuitatis filii sunt, de quibus scriptum est in <lb/>
+            ore eorum non inuentum esse mendacium; eius ciuitatis <lb/>
+            est filius, de quo item scriptum est: uerbum suscipiens <lb n="20"/>
+            filius a perditione longe aberit; exc.ipiens <lb/>
+            autem excepit illud sibi, et nihil falsi ex eius <lb/>
+            ore procedit. his filiis supernae Hierusalem et <choice><note>sauctae</note><corr>sanctae</corr></choice>
+
+<app>5 Pa. 83, 5 13 cf. Gal. 4, 25. 26 16 I Ioh. 2, 21 18 Apoc. <lb/>
+            14, 5 20 Prou. 24, 23 (29, 27) </app>
+
+<app> 1 quanuis <hi>V</hi> hebreae &lt;p haebreae <hi>0</hi> 2 saperent <hi>0</hi> 3 est om. p <lb/>
+            proficit 3 4 dom' <hi>V</hi> nisi] sipj 9 non pertinuerunt Vo pertinuerint <lb/>
+            <hi>MFbd</hi> ad illam <hi>V</hi> 5 deo cantatur] dictum est <hi>FL</hi> <lb/>
+            6 tua domine <hi>V</hi> 8 iam tunc <foreign xml:lang="grc">β</foreign> animam (a <hi>fin. in ras.) R</hi> 9 in <lb/>
+            hac <foreign xml:lang="grc">β</foreign> quia <hi>V</hi> 11 sitne] sit debeant <hi>V</hi> ne sit <hi>T</hi> 12 ad <hi>om. T</hi> <lb/>
+            egyptum f hiericum <hi>MrpRTOW</hi> uel] aut <hi>s. Z. m. 2 T</hi> babiloniam <lb/>
+            <hi>MLVIf</hi> 13 pertinentg <hi>T</hi> 15 libera quae est mater <hi>FL</hi> <lb/>
+            caelis] saeculis <hi>FL</hi> 16 nobis quaerentibus <hi>FL</hi> 17 filiis &lt;p 18 ueritatis] <lb/>
+            ciuitatis <hi>FL</hi> 19 est inuentum <hi>TVftbd</hi> ęşţ inuentum <hi>F</hi> eius <lb/>
+            est <hi>0</hi> 20 est <hi>om. 0</hi> filius est <hi>Mbd</hi> 21 suscipiens o 22 ez. <lb/>
+            cipit <hi>TV</hi> illa Fo1 ex <hi>om. T ore</hi> eius V<foreign xml:lang="grc">βφγ</foreign> 23 processit <hi>T</hi> <lb/>
+            hi filii <hi>0</hi> et superne <hi>V</hi> </app>
+
+<app> 33* </app> <lb/>
+             
+<pb n="516"/>
+            ciuitatis aeternae si quando ut hominibus obrepit qualecumque <lb/>
+            mendacium, poscunt humiliter ueniam, non inde quaerunt <lb/>
+            insuper gloriam. 
+</p>
+          
+</div1>
+
+<div1 n="34" subtype="section"><head>§ 34</head>
+
+<p><milestone n="17" unit="altchapter"/> Sed dicet aliquis: ergone obstetrices illae atque <lb/>
+            Raab melius fecissent, si nullam misericordiam praestitissent<lb n="5"/>
+            nolendo mentiri? immo uero illae mulieres Hebraeae, si essent <lb/>
+            tales, de qualibus quaerimus, utrum sit eis aliquando mentiendum, <lb/>
+            nec aliquid falsi dicerent et foeda ministeria de <lb/>
+            paruulis occidendis liberrime recusarent. sed, inquies, ipsae <lb/>
+            morerentur. at uide, quid sequatur. morerentur enim caelestis<lb n="10"/>
+            habitationis incomparabiliter ampliore mercede, quam domus <lb/>
+            illae quas sibi fecerunt in terra esse potuerunt; morerentur <lb/>
+            futurae in aeterna felicitate, mortem perpessae pro innocentissima <lb/>
+            ueritate. quid illa in Iericho? numquid hoc posset? <lb/>
+            nonne si quaerentes ciues mentiendo non falleret, uerum<lb n="15"/>
+            dicendo latentes hospites proderet? an posset interrogantibus <lb/>
+            dicere: scio ubi sint, sed deum timeo, non eos prodo? posset <lb/>
+            hoc quidem dicere, si iam esset uera Israhelitis, in qua <lb/>
+            dolus non esset: quod futura erat per misericordiam dei <lb/>
+            transiens ad ciuitatem dei. uerum illi hoc audito, inquies, illam<lb n="20"/>
+            perimerent, domum scrutarentur. sed numquid consequens <lb/>
+            erat, ut illos etiam quos diligenter occultauerat inuenirent? <lb/>
+            prospexerat enim cautissima mulier et ibi eos posuerat, ubi <lb/>
+            latere potuissent, etiamsi ei mentienti creditum non fuisset. <lb/>
+            ita et illa, si tamen a suis ciuibus esset occisa pro
+
+<app> 18 cf. Ioh. 1, 48 </app>
+
+<app> 1 aeternae <hi>om</hi>. y 3 gloriam] ieraaalS suynll <hi>V</hi> 4 ergo p 5 rahab <hi>0</hi> <lb/>
+            6 nolentes <hi>FL</hi> haebreae <hi>T</hi> hebreae !f eesen <hi>Bl</hi> 7 de ovt. <hi>V</hi> <lb/>
+            quales <hi>Y</hi> 8 neç ip falli p et <hi>om. cp</hi> 9 occidendis OIJI. <hi>V</hi> <lb/>
+            ipse O-f 10 moreremur 0 morirentur F1 et <hi>VftRTFLyW</hi> uides <lb/>
+            <hi>BMFL-fyW</hi> si enim morerentnr <hi>V</hi> morerentur (8. o <hi>add</hi>. e) T <lb/>
+            11 habitationes <hi>V</hi> quandomus <hi>01</hi> 14 hierico <hi>RLFOMW</hi> ierico a <lb/>
+            16 menciendo <hi>T</hi> 16 ospites <hi>T</hi> 17 sunt <hi>TFLVfaPbd</hi> 18 uere <hi>T</hi> <lb/>
+            israhelita <hi>V</hi> israhelites cp 21 nunquid <hi>L</hi> 22 inueniret p 23 prosperat <lb/>
+            cp et <hi>om. M</hi> 25 si pro misericordiae opere a suis ciuibus <lb/>
+            fuisset (t 8. <hi>Z. m</hi>. 2) occisa <hi>0</hi> opere misericordiae p misericordi <lb/>
+            <hi>MFLfyW</hi> misericordia <hi>V</hi> </app> <lb n="25"/>
+             
+<pb n="517"/>
+            misericordiae opere, uitam istam faeneam <choice><note>pretiosain</note><corr>pretiosa</corr></choice> conspectu <lb/>
+            domini morte finisset, et erga illos eius beneficium inane <lb/>
+            non fuisset. sed, inquies, quid? si et ad illum locum, ubi <lb/>
+            eos occultauerat, hi, a quibus quaerebantur, perscrutando <lb/>
+            omnia <choice><note>perueniasent</note><corr>peruenissent</corr></choice>? isto modo dici potest: quid? si mulieri <lb n="5"/>
+            uilissimae atque turpissimae non solum mentienti, uerum <lb/>
+            etiam peieranti credere noluissent? nempe etiam sic consecutura <lb/>
+            fuerant, quae timendo mentita est. et ubi ponimus uoluntatem <lb/>
+            ac potestatem dei? an forte non poterat et illam nec <lb/>
+            ciuibus suis mentientem nec homines dei prodentem et illos <lb n="10"/>
+            suos ab omni pernicie custodire? a quo enim et post mulieris <lb/>
+            mendacium custoditi sunt, ab eo potuerunt, etsi illa mentita <lb/>
+            non esset, utique custodiri. nisi forte obliti sumus hoc fuisse <lb/>
+            in Sodomis factum, ubi masculi in masculos nefanda libidine <lb/>
+            accensi nec ostium domus, in qua erant quos quaerebant, <lb n="15"/>
+            inuenire potuerunt, quando uir iustus in causa omnino simillima <lb/>
+            pro suis hospitibus mentiri noluit, quos esse angelos <lb/>
+            nesciebat et uim morte peiorem ne paterentur timebat. et <lb/>
+            certe poterat talia respondere quaerentibus, qualia in Iericho <lb/>
+            mulier illa respondit. nam prorsus similiter et illi interrogando <lb n="20"/>
+            quaesierunt. sed homo iustus noluit pro corporibus hospitum <lb/>
+            animam suam suo mendacio maculari, pro quibus uoluit
+
+<app> 1 cf. Ps. 115, 6 (15) 22 cf. Gen. 19, 5 sqq. </app>
+
+<app> 1 opere <hi>om. V</hi> faeneam] foeniam <hi>T</hi> femineam <hi>V</hi> feneam <hi>L</hi> finien- <lb/>
+            <hi>dam$bd erasum</hi> in y 2 finissent <hi>0</hi> et-fuisset <hi>om. o</hi> 3 inquies] <lb/>
+            <hi>dices 0 ad om. 0 4 hii T ii bd</hi> perscrutantur p 5 mulieris 3 <lb/>
+            6 uilissimae atque turpissimae] uiri isti <hi>V</hi> menciendi <hi>T</hi> 7 perieranti <lb/>
+            0 siconsecutura <hi>M</hi> sicut secutura <hi>LF1</hi> si consequuti <hi>V</hi> 9 hac <hi>T</hi> <lb/>
+            et <hi>V</hi> potestatem] nolnntatem <hi>T</hi> poterant <hi>V</hi> illa <hi>T</hi> 10 suis <lb/>
+            om. <hi>V</hi> 11 ab <hi>om</hi>. F1 omni] homini <hi>T om</hi>. F1 pernici.e <hi>T</hi> <lb/>
+            mulieres cpt 13 fuisse <hi>om</hi>. 9 15 in qua erant] inquirentes <hi>V</hi> <lb/>
+            quam V 17 ospitibus cpt noluit s. Z. m. 2 y angelos esse V <lb/>
+            18 nim] ne in F <hi>mortS It peiore V necarentur F</hi> timebant <lb/>
+            0 19 talia (t <hi>m. 2 s. I.) 0</hi> quaerentibus <hi>om. W</hi> hiericho <lb/>
+            <hi>RTO</hi> hierico <hi>M</hi> ierico &lt;p 20 prorsus similiter] pro suis hospitibus <hi>V</hi> <lb/>
+            21 corribus <hi>V</hi> 22 suam] sari p </app> <lb/>
+             
+<pb n="518"/>
+            corpora filiarum alienae libidinis iniquitate uim perpeti. faciat <lb/>
+            ergo homo etiam pro temporali hominum salute quod potest: <lb/>
+            cum autem ad hunc articulum uentum fuerit, ut tali saluti <lb/>
+            consulere nisi peccando non possit, iam se existimet non <lb/>
+            habere quid faciat, quando id reliquum esse perspexerit quod<lb n="5"/>
+            non recte faciat. proinde Raab in <choice><note>Jericho</note><corr>Iericho</corr></choice>, quia peregrinos <lb/>
+            homines dei suscepit hospitio, quia in eorum susceptione <lb/>
+            periclitata est, quia in eorum deum credidit, quia diligenter <lb/>
+            eos ubi potuit occultauit, quia per aliam uiam remeandi consilium <lb/>
+            fidelissimum dedit, etiam supernae Hierusalem ciuibus<lb n="10"/>
+            imitanda laudetur. quod autem mentita est, etiamsi aliquid <lb/>
+            ibi propheticum intellegenter exponitur, non tamen imitandum <lb/>
+            sapienter proponitur, quamuis deus illa bona memorabiliter <lb/>
+            honorauerit, hoc malum clementer ignouerit. 
+</p>
+          
+</div1>
+
+<div1 n="35" subtype="section"><head>§ 35</head>
+
+<p>Quae cum ita sint, quoniam nimis longum est omnia<lb n="15"/>
+            pertractare, quae in illa Libra Dictinii sunt posita uelut imitanda <lb/>
+            exempla mentiendi, ad hanc regulam mihi uidentur non <lb/>
+            solum ista, uerum etiam si qua sunt talia redigenda, ut aut <lb/>
+            quod creditur, ostendatur non esse mendacium — siue <choice><note>nbi</note><corr>ubi</corr></choice> <lb/>
+            tacetur uerum nec dicitur falsum; siue ubi significatio uerax<lb n="20"/>
+            aliud ex alio uult intellegi, quod genus figuratorum uel dictorum <lb/>
+            uel factorum abundat in propheticis litteris — aut quae <lb/>
+            conuincuntur esse mendacia, non esse imitanda monstrentur
+
+<app> 1 iniquitatem <hi>cp.W</hi> et uim <hi>V</hi> uim] uiri p 2 etiam hoc <hi>F</hi> <lb/>
+            potest (te s. <hi>I.) V</hi> 3 huc 22?1 uentum] rtitQ <hi>01</hi> ujtali (a. i <hi>add</hi>. <lb/>
+            t) cp salute <hi>T</hi> 4 consuli <hi>V</hi> posit <hi>R</hi> 5 quit <hi>T</hi> quod <hi>LFT</hi> <lb/>
+            facit RM relicum <hi>RMTO</hi> prospexerit <hi>V</hi> 6 rahab <hi>OY raab</hi> <lb/>
+            meretrii y hiericho <hi>RTO</hi> hierico Mcp 7 hospicio <hi>T</hi> 8 pereclitata <lb/>
+            <hi>M</hi> eorum aduentu <hi>FL</hi> 10 fldeliasimum <hi>om. FL</hi> superna <hi>T</hi> <lb/>
+            hyeruealem cp ierusalem <hi>FLVfrbd</hi> 11 autem] hoc <hi>W</hi> 12 prophaeticum <lb/>
+            &lt;p intellegendfl <hi>W</hi> imponitur <hi>V</hi> ponitur <hi>W</hi> non—proponitur <lb/>
+            <hi>om</hi>. (p 13 proonitur <hi>V</hi> ponitur <hi>T</hi> 14 ignorauerit <hi>RO'r1 W</hi> <lb/>
+            15 sunt <hi>T</hi> longum est nimis <hi>V</hi> nimis <hi>om. T</hi> 16 dictynii <hi>T</hi> <lb/>
+            dyptini <hi>0</hi> dictimi <hi>V</hi> dictyjnii 9 18 etiam alia si y alia <hi>V</hi> 19 esse <lb/>
+            creditur <hi>TFLOVftybd</hi> 20 nec (c 8. <hi>1.)</hi> &lt;p 21 alitit <hi>V</hi> 22 habundat <lb/>
+            <hi>TV</hi> aut quae] atque <foreign xml:lang="grc">β</foreign> </app> <lb/>
+             
+<pb n="519"/>
+            et si qua nobis ut alia peccata subrepserint, non eis tribuendam <lb/>
+            iustitiam, sed ueniam postulandam. hoc quidem mihi <lb/>
+            uidetur; et ad istam sententiam me superius disputata conpellunt. <lb/>
+            </p>
+          
+</div1>
+
+<div1 n="36" subtype="section"><head>§ 36</head>
+
+<p><milestone n="18" unit="altchapter"/> Verum quia homines sumus et inter homines <lb n="5"/>
+            uiuimus — fateorque me nondum esse in eorum numero, <lb/>
+            quos conpensatiua peccata non turbant — saepe me in rebus <lb/>
+            humanis uincit sensus humanus nec resistere ualeo, cum <lb/>
+            mihi dicitur: ecce graui morbo periclitatur aegrotus, cuius <lb/>
+            iam uires ferre non possint, si ei mortuus unicus et carissimus <lb n="10"/>
+            filius nuntietur. a te quaerit an uiuat, quem uitam <lb/>
+            finisse tu nosti. quid respondebis, quando quidquid aliud <lb/>
+            dixeris praeter unum de tribus: aut mortuus est aut uiuit <lb/>
+            aut nescio, nihil aliud credit ille quam mortuum, quod te <lb/>
+            intellegit timere dicere et nolle mentiri? tantundem ualet, <lb n="15"/>
+            etiamsi omni modo tacueris. ex illis autem tribus duo falsa <lb/>
+            sunt 'uiuit* et '<sic>neseio</sic>* nec abs te dici possunt nisi mentiendo. <lb/>
+            illud autem unum uerum, id est mortuum esse, si dixeris et <lb/>
+            perturbati hominis mors fuerit subsecuta, abs te occisus esse <lb/>
+            clamabitur. et quis ferat homines exaggerantes quantum sit <lb n="20"/>
+            mali salubre mendacium deuitari et homicidam diligi ueritatem? <lb/>
+            moueor his oppositis uehementer, sed mirum, si etiam <lb/>
+            sapienter. cum enim proposuero ante qualescumque oculos <lb/>
+            cordis mei intellegibilem illius pulchritudinem, de cuius falsi <lb/>
+            nihil ore procedit, quamuis ubi radians magis magisque <lb n="25"/>
+            clarescit ueritas, ibi palpitans mea reuerberatur infirmitas, <lb/>
+            tamen sic amore tanti decoris accendor, ut cuncta quae inde
+
+<app> 1 vt <hi>B</hi> subrepser (ps 8. <hi>I.) 0</hi> tribuenda <hi>T</hi> 2 mihi quidem <hi>V</hi> <lb/>
+            5 uerumtamen y 8 ne <hi>M</hi> 9 pereclitatur <hi>MT</hi> . 10 ferri <hi>Y</hi> ferro 91 <lb/>
+            11 nuntietur] minuitur (5 uita <hi>T</hi> 12 quicquid <hi>TOVrr</hi> 14 illae 9 <lb/>
+            <hi>om. JFLV</hi> 15 intelligit <hi>T</hi> temere p et <hi>om. FL</hi> tantumdem <hi>T</hi> <lb/>
+            18 si <hi>om. RM</hi> 19 subaequuta <hi>V</hi> 20 f.erat <hi>Ch</hi> ferit V1 exagerantes <lb/>
+            <hi>Ch</hi> 21 deuitare <hi>V</hi> omicidam <foreign xml:lang="grc">β</foreign> diligere <hi>V</hi> 24 intelligibilem <lb/>
+            <hi>T</hi> falsi <hi>om. Chl</hi> 25 ore <hi>ante</hi> falsi <hi>legitur</hi> in <hi>bd</hi> 26 uitas <hi>V1</hi> <lb/>
+            ubi <hi>M$palpans FL</hi> reuerbaeretur <hi>Ch</hi> 27 ascendor <hi>0</hi> me inde <lb/>
+            me <hi>T</hi> me inde g inde] in F1 </app> <lb/>
+             
+<pb n="520"/>
+            me reuocant humana contemnam. sed multum est, ut iste in <lb/>
+            tantum perseueret affectus, ne in temptatione desit effectus. <lb/>
+            nec me mouet contemplantem luminosum bonum, in quo <lb/>
+            mendacii tenebrae nullae sunt, quod nobis mentiri nolentibus <lb/>
+            et hominibus uero audito morientibus homicida dicitur <choice><note>neritas</note><corr>ueritas</corr></choice>. <lb n="5"/>
+            numquid enim, si stuprum expetat inpudica et te non consentiente <lb/>
+            saeuo. amore perturbata moriatur, homicida erit et <lb/>
+            castitas? an uero, quia legimus: Christi bonus odor <lb/>
+            sumus in omni loco, et in his qui salui fiunt et in <lb/>
+            his qui pereunt, aliis quidem odor uitae in uitam,<lb n="10"/>
+            aliis autem odor mortis in mortem. etiam odorem <lb/>
+            Christi pronuntiabimus homicidam? sed quia homines sumus <lb/>
+            et nos in huius modi quaestionibus et contradictionibus plerumque <lb/>
+            superat aut fatigat sensus humanus, ideo mox et ille <lb/>
+            subiecit: et ad haec quis idoneus? <lb n="15"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="37" subtype="section"><head>§ 37</head>
+
+<p>Huc accedit — ubi miserabilius eiulandum est — quod <lb/>
+            si concesserimus pro salute illius aegri de uita filii eius fuisse <lb/>
+            mentiendum, ita paulatim minutatimque subcrescit hoc <choice n="0.09"><note n="137">malam</note><corr n="1339">malum</corr></choice> <lb/>
+            et breuibus accessibus ad tantum aceruum mendaciorum sceleratorum <lb/>
+            sensim subintrando perducitur, ut numquam possit<lb n="20"/>
+            penitus inueniri, ubi tantae pesti per minima additamenta in <lb/>
+            inmensum conualescenti possit obsisti. unde prouidentissime <lb/>
+            scriptum est: qui modica spernit, paulatim decidit
+
+<app> 8 II Cor. 2, 15. 16 15 II Cor. 2, 16 23 Eccli. 19, 1 </app>
+
+<app> 1 huinana <hi>0</hi> umana <hi>Ch</hi> contempnam <hi>0</hi> contempnant <hi>T</hi> 2 perseueraret <lb/>
+            <hi>TCh</hi> uel donec ne (ne <hi>in mg. m. 2) V</hi> affectus <hi>T</hi> <lb/>
+            3 me mouet] comouet <hi>V</hi> 4 mentiri <hi>om. 0</hi> 5 <hi>cum ttoce</hi> morientibus <lb/>
+            <hi>codex 0 finitur</hi> dicatur Y 6 nunquid <hi>L</hi> enim <hi>om. Y</hi> ad <lb/>
+            stuprum te expectat <hi>V</hi> 7 amore] animo <hi>FL V</hi> ornicida <hi>Ch</hi> 9 TOamus <lb/>
+            <hi>Ch</hi> in <hi>om. V iis$bd</hi> saIni-qui <hi>om. V</hi> 11 in] ad <hi>V</hi> <lb/>
+            morte <hi>TCh</hi> hodorem <hi>TCh</hi> 12 pronuntiauimuB <hi>TCh</hi> 13 in om. <hi>V</hi> <lb/>
+            quescionibua <hi>Ch</hi> et contradictionibus <hi>om</hi>. f plerunque <hi>V</hi> 14 srasus <lb/>
+            8. <hi>I. M</hi> 15 quid p 16 heiulandum <hi>MTClrpft</hi> est om. <hi>TCIt</hi> <lb/>
+            17 consenserimus <hi>V</hi> iliius <hi>om. Y</hi> 18 succrescit <hi>ChFLVfrebd</hi> <lb/>
+            19 acces»»»sibua <hi>Ch</hi> acerbum <hi>TCh</hi> 22 coualescenti <hi>Ch</hi> 23 modica <lb/>
+            spemit] spernit minima <hi>FL</hi> </app> <lb/>
+             
+<pb n="521"/>
+            quid? quod uitae huius tales amatores, ut eam non dubitent <lb/>
+            praeponere ueritati, ne homo moriatur, immo ut homo quandoque <lb/>
+            moriturus aliquanto serius moriatur, non tantum mentiri, <lb/>
+            sed etiam peierare nos uolunt? ut uidelicet, ne aliquanto <lb/>
+            citius transeat uana salus hominis, nomen domini dei nostri <lb n="5"/>
+            accipiamus in uanum. et sunt in eis docti, qui etiam regulas <lb/>
+            figant finesque constituant, quando debeat, quando non debeat <lb/>
+            peierari. Q ubi estis, fontes lacrimarum? et quid faciemus? quo <lb/>
+            ibimus? ubi nos occultabimus ab ira ueritatis, si non solum <lb/>
+            neglegimus cauere mendacia, sed audemus insuper docere <lb n="10"/>
+            periuria? uiderint enim assertores defensoresque mendacii, <lb/>
+            quale genus uel qualia genera mentiendi eos iustificare delectet: <lb/>
+            saltem in dei cultu concedant non esse mentiendum; <lb/>
+            saltem sese a periuriis blasphemiisque contineant; saltem ubi <lb/>
+            dei nomen, ubi deus testis, ubi dei sacramentum interponitur, <lb n="15"/>
+            ubi de diuina religione sermo promitur siue conseritur, nemo <lb/>
+            mentiatur, nemo laudet, nemo doceat et praecipiat, nemo <lb/>
+            iustum dicat esse mendacium; de ceteris mendaciorum generibus <lb/>
+            eligat sibi, quod putat esse mitissimum atque innocentissimum <lb/>
+            mentiendi genus, cui placet esse mentiendum. hoc <lb n="20"/>
+            scio, quod etiam qui docet oportere mentiri, uerum docere <lb/>
+            se uult uideri. nam si falsum est quod docet, quis falsae <lb/>
+            uelit studere doctrinae, ubi et fallit docens et fallitur discens?
+
+<app> 1 quidqd <hi>Ml</hi> sunt amatores <hi>V</hi> amores <hi>TCh</hi> 2 proponere <hi>T</hi> <lb/>
+            immo-moriatur <hi>om. FL</hi> 3 aliquando <hi>TCh Vp 4</hi> aliquando <hi>T</hi> <lb/>
+            5 ominis <hi>Ch</hi> domini <hi>om</hi>. p dei <hi>om. Y</hi> nostri <hi>om. FLf</hi> 7 fingant <lb/>
+            <hi>TFp</hi> 8 peierare <hi>VfrFL</hi> o <hi>om. V</hi> 9 hoccultabimus <hi>Ch</hi> <lb/>
+            10 necglegimus co negglegamus <hi>Y</hi> insuper] super <hi>Y</hi> dicere. <hi>T</hi> <lb/>
+            11 peioria <hi>Ch</hi> peiora <hi>T</hi> uderunt Qt etenim <hi>T</hi> assartores c1 <lb/>
+            assertatoreB p 12 delectent <hi>T</hi> 13 saltem <hi>om. V</hi> saltem-mentiendum <lb/>
+            <hi>in mg. Ch</hi> cultum <hi>FL</hi> mendacium <hi>V</hi> 14 saltim <hi>YT</hi> <lb/>
+            ae y peiuriis <hi>Ch</hi> et blasphemiis f 15 ubi <hi>pr. om. r</hi> interponimas <lb/>
+            <hi>V</hi> 16 hubi <hi>Ch</hi> ubi-promitur om. <hi>B</hi> sine] vel <hi>V</hi> <lb/>
+            17 menti?ijatur <hi>Ch</hi> laudat <hi>TCh</hi> 18 mendacium esse <hi>TCh</hi> ceteras <lb/>
+            <hi>M</hi> 19 pntate <hi>M</hi> putet Vf esse <hi>in raa. M</hi> 20 mentidi <hi>Ch</hi> <lb/>
+            mentiri <hi>in ras. T</hi> illa cui f 21 docere] dicere <hi>T</hi> 22 se <hi>ex</hi> si <hi>Ch</hi> <lb/>
+            23 dicens <hi>TCh</hi> </app> <lb/>
+             
+<pb n="522"/>
+            si autem, ut aliquem possit inuenire discipulum, docere se <lb/>
+            asserit uerum, cum doceat esse mentiendum, quomodo erit <lb/>
+            illud ex ueritate mendacium Iohanne apostolo reclamante: <lb/>
+            omne mendacium non est ex ueritate? non est igitur <lb/>
+            uerum aliquando esse mentiendum; et quod non est uerum,<lb n="5"/>
+            nemini est omnino suadendum. 
+</p>
+          
+</div1>
+
+<div1 n="38" subtype="section"><head>§ 38</head>
+
+<p><milestone n="19" unit="altchapter"/> Sed agit partes suas infirmitas et causam uincibilem <lb/>
+            fauentibus turbis se habere proclamat, ubi contradicit <lb/>
+            et dicit: quomodo apud homines, qui procul dubio, si fallantur, <lb/>
+            auertuntur a pernicie uel aliena uel sua, periclitantibus<lb n="10"/>
+            subuenitur hominibus, si nos humanus ad mentiendum non <lb/>
+            inclinet affectus? si patienter me audiat turba mortalitatis, <lb/>
+            turba infirmitatis, respondebo aliquid pro negotio ueritatis. <lb/>
+            certe pia, uera, sancta castitas nonnisi ex ueritate est: et <lb/>
+            quisquis aduersus eam facit, profecto aduersus ueritatem<lb n="15"/>
+            facit. cur ergo et, si non possit aliter periclitantibus subueniri, <lb/>
+            non committo stuprum, quod ideo. est contrarium <lb/>
+            ueritati, quia contrarium est castitati, et ut periclitantibus <lb/>
+            subueniatur, loquor mendacium, quod ipsi apertissime est <lb/>
+            contrarium ueritati? quid nos tantum promeruit castitas et<lb n="20"/>
+            offendit ueritas? cum omnis ex ueritate sit castitas et sit <lb/>
+            non corporis, sed mentis castitas ueritas atque in mente <lb/>
+            habitet etiam corporis castitas. postremo, quod et paulo <lb/>
+            ante dixi et iterum dico, quisquis mihi pro persuadendo
+
+<app> 4 I Ioh. 2, 21 </app>
+
+<app> 1 ut] aut <hi>Ch</hi> discipolum <hi>Ch</hi> 2 quomodo ex ueritate ulla mendacium <lb/>
+            erit <foreign xml:lang="grc">β</foreign> 3 illum <hi>Ch</hi> ulla <hi>Mf om</hi>. <foreign xml:lang="grc">β</foreign> apostolo <hi>om. V</hi> 4 est <lb/>
+            <hi>fin. om. T</hi> igitur] ergo <hi>bd</hi> 5 esse om. <hi>V</hi> non <hi>om. TCh</hi> <lb/>
+            6 omnino est 7 7 ait <hi>Y</hi> inuincibilem <hi>bd</hi> 8 fatentibus <hi>T</hi> contradit <lb/>
+            <hi>Ch</hi> dicit (c <hi>8. I.) T</hi> 9 aput <hi>Ch</hi> falluntur <hi>Vfebd</hi> 10 pereclitantibus <lb/>
+            <hi>Y</hi> 12 audeant <hi>Ch</hi> turba mortalitatis <hi>8. I. m</hi>. 2 T <lb/>
+            14 certe] crede <hi>V</hi> 16 quur <hi>M</hi> ei* &lt;p periclinantibus <hi>Y</hi> subuenire <lb/>
+            <hi>T</hi> 17 cdmitto (x s. <hi>I.)</hi> &lt;p contrarium est <hi>V</hi> 18 si ut (si <lb/>
+            <hi>s. I.) f</hi> 19 contrarium est <hi>FLVji</hi> 20 apud nos <hi>b</hi> castitatis <hi>R</hi> <lb/>
+            21 ueritaa <hi>ex</hi> uitas <hi>m. 2 V</hi> 22 atque in mente] autem in corpore <lb/>
+            atque in mente <hi>V</hi> 23 etiam corporis castitas om. <hi>V</hi> 24 dico iteram T <lb/>
+            pro <hi>om. Chf</hi> persuadenda If&gt;1 suadendo <hi>T</hi> </app> <lb/>
+             
+<pb n="523"/>
+            et defendendo ullo mendacio contradicit, quid dicit, si uerum <lb/>
+            non dicit? si autem propterea est audiendus, quoniam uerum <lb/>
+            dicit, quomodo me uult facere uerum dicendo mendacem? <lb/>
+            quomodo mendacium patronam sibi adhibet ueritatem? an <lb/>
+            aduersario suo uincit, ut a se ipsa uincatur? quis hanc absurditatem <lb n="5"/>
+            ferat? nullo modo igitur dixerimus eos, qui asserunt <lb/>
+            aliquando esse mentiendum, id asserendo esse ueraces, <lb/>
+            ne, quod est absurdissimum et stultissimum credere, ueritas <lb/>
+            nos doceat esse mendaces. quale est enim, ut esse adulterandum <lb/>
+            nemo discat a castitate, deum offendendum nemo discat <lb n="10"/>
+            a pietate, cuiquam nocendum nemo discat a benignitate et <lb/>
+            esse mentiendum discamus a ueritate? porro si hoc non docet <lb/>
+            ueritas, non est uerum; si non est uerum, non est discendum; <lb/>
+            si non est discendum, numquam est igitur mentiendum. <lb/>
+            
+</p>
+
+</div1>
+
+<div1 n="39" subtype="section"><head>§ 39</head>
+
+<p>Sed perfectorum est, ait aliquis, solidus cibus. <lb n="15"/>
+            multa enim secundum ueniam relaxantur infirmitati, quamuis <lb/>
+            sincerissimae nequaquam placeant ueritati. dicat hoc quisquis <lb/>
+            non metuit, quae consequentia metuenda sunt, si fuerint <lb/>
+            aliquo modo aliqua permissa mendacia. nullo modo tamen in <lb/>
+            tantum sunt permittenda conscendere, ut ad periuria <sic>blasphemiasque</sic> <lb n="20"/>
+            perueniant; nec aliquam causam prorsus oportet <lb/>
+            obtendi, cur debeat peierari uel, quod est execrabilius, cur <lb/>
+            deus debeat blasphemari. non enim quia per mendacium <lb/>
+            blasphematur, ideo non blasphematur. potest quippe hoc <lb/>
+            modo dici non peierari, quia per mendacium peieratur. quis
+
+<app> 15 Hebr. 5, 14 </app>
+
+<app> 1 mihi contradicit <hi>V</hi> 2 si-dicit <hi>in mg</hi>. <foreign xml:lang="grc">β</foreign> est <hi>om. T</hi> audienda <foreign xml:lang="grc">β</foreign> <lb/>
+            uerum (r 8. <hi>exp</hi>. 1) a 3 mendacium <hi>V</hi> 4 patronum <hi>V</hi> adhibebit <hi>V</hi> <lb/>
+            5 ipso <hi>FL</hi> 6 ergo <hi>pro</hi> igitur <hi>post</hi> nullo <hi>praeb. bd</hi> 7 <hi>pr</hi>. esse <hi>om. V</hi> <lb/>
+            8 absurdum est <hi>V</hi> doceat ueritas <hi>V</hi> 9 nos om. <hi>V</hi> esse mendaces <lb/>
+            doceat p quale. <hi>Ch</hi> esse] esset <hi>V</hi> adhulterandum <hi>V</hi> 10 a <lb/>
+            castitate-discat <hi>om</hi>. q; 11 et <hi>om. V</hi> 12 tion docet (s. ti <hi>add</hi>. n) 9 <lb/>
+            15 ait] ut <hi>V</hi> 17 placent <hi>V</hi> quiquis <hi>V</hi> 18 consequentia cp si <lb/>
+            autem <hi>V</hi> fuerunt cp1 21 neque o obportet <hi>ChT1</hi> 22 optendi <hi>M</hi> <lb/>
+            obtundi <hi>V</hi> eisecrabilius <hi>TMChV$24</hi> ideo <hi>om. V</hi> ideo-blasphematur <lb/>
+            <hi>om. T</hi> hoc modo quippe dici potest <hi>V</hi> 25 peiuratur ipl </app> <lb n="25"/>
+             
+<pb n="524"/>
+            enim per ueritatem possit esse periurus? sic etiam per ueritatem <lb/>
+            nullus potest esse blasphemus. sane mitius falsum iurat, qui <lb/>
+            falsum nescit esse et uerum putat esse quod iurat: sicut et <lb/>
+            Saulus excusabilius blasphemauit, quia ignorans fecit. ideo <lb/>
+            autem peius est blasphemare quam peierare, quoniam peierando<lb n="5"/>
+            falsae rei adhibetur testis deus, blasphemando autem <lb/>
+            de ipso falsa dicuntur deo. tanto est autem quisque inexcusabilior <lb/>
+            siue periurus siue blasphemus, quanto magis ea, quae <lb/>
+            peierando uel blasphemando asserunt, falsa nouerunt esse uel <lb/>
+            credunt. quisquis itaque dicit pro periclitantis hominis temporali<lb n="10"/>
+            salute uel uita esse mentiendum, nimis ipse ab itinere <lb/>
+            exorbitat aeternae salutis et uitae, si dicit in ea causa etiam <lb/>
+            iurandum per deum uel etiam blasphemandum deum. 
+</p>
+          
+</div1>
+
+<div1 n="40" subtype="section"><head>§ 40</head>
+
+<p><milestone n="20" unit="altchapter"/> Sed aliquando nobis ipsius quoque salutis aeternae <lb/>
+            periculum opponitur, quod nostro mendacio, si aliter non<lb n="15"/>
+            potest, depellendum esse clamatur: uelut si quisquam baptizandus <lb/>
+            in potestate sit inpiorum atque infidelium constitutus, <lb/>
+            ad quem perueniri non possit, ut lauacro regenerationis abluatur, <lb/>
+            nisi deceptis mentiendo custodibus. ab hoc inuidiosissimo <lb/>
+            clamore, quo cogimur non pro cuiusquam opibus uel honoribus<lb n="20"/>
+            in hoc saeculo transcurrentibus, non pro ipsa huius temporis <lb/>
+            uita, sed pro aeterna hominis salute mentiri, quo confugiam, <lb/>
+            nisi ad te, ueritas? et mihi abs te proponitur castitas. cur
+
+<app> 4 cf. I Tim. 1, 13 </app>
+
+<app> 1 possit per ueritatem <hi>V</hi> peiurua c si* <hi>fb</hi> 3 esse nescit T <lb/>
+            4 ignorans (n 8. <hi>I.)</hi> &lt;p fecit <hi>om. Ch</hi> 5 est <hi>om. TCh</hi> pegerare qp <lb/>
+            6 falsa ęręi <hi>Ch</hi> deus testis <hi>V</hi> 7 deo falsa dicuntur <hi>V</hi> dicuntur <lb/>
+            falsa p deum <hi>TCh</hi> autem est <hi>V</hi> quisquis <hi>V</hi> inexcusabilius <lb/>
+            quisque <hi>F</hi> inexcusabilior quisque <hi>L inexcusabilius RMChVftyb</hi> inetcnsabilits <lb/>
+            <hi>T</hi> 9 asserit <hi>V</hi> nouerit <hi>V</hi> noQuerunt cp 10 credit <hi>V</hi> <lb/>
+            credyijt IfI ita <hi>V</hi> hominis] omnis <hi>T</hi> salute temporali <hi>bd</hi> 11 ipse <lb/>
+            <hi>om. V</hi> 12 exorbitat at <hi>T</hi> sij et <hi>V</hi> 13 iurando <hi>T</hi> iurandd Ch <lb/>
+            15 opponimus <hi>V</hi> apponitur cp mendacio (0 <hi>ex</hi> um) <hi>T</hi> 18 ad quem] <lb/>
+            atque <hi>V</hi> generationis <hi>Ch</hi> ablvatur (v <hi>8. I.)</hi> y 19 mentiendo (0 <lb/>
+            <hi>s. ras.)</hi> &lt;p inuidiosissimil <hi>TCh</hi> 20 quo <hi>om. V</hi> opibus <hi>V</hi> 21 uios <lb/>
+            <hi>Ch</hi> OHt. <hi>V</hi> 22 sed (d 8. <hi>I.) rp</hi> quod <hi>Ch</hi> quo* <hi>T</hi> 23 ad te] adite Ch </app> <lb/>
+             
+<pb n="525"/>
+            enim si custodes isti, ut nos ad baptizandum hominem admittant, <lb/>
+            stupro inlici possunt, non facimus contraria castitati et, si <lb/>
+            mendacio decipi possunt, facimus contraria ueritati? cum <lb/>
+            procul dubio nulli esset fideliter amabilis castitas, si non eam <lb/>
+            praeciperet ueritas. proinde ut perueniatur ad hominem baptizandum, <lb n="5"/>
+            fallantur mentiendo custodes, si hoc iubet ueritas. <lb/>
+            sed quomodo iubeat ueritas, ut homo baptizetur, esse mentiendum, <lb/>
+            si non iubet castitas, ut homo baptizetur, esse <lb/>
+            moechandum? cur autem hoc non iubet castitas, nisi quia <lb/>
+            hoc non docet ueritas? si ergo nisi quod ueritas docet, facere <lb n="10"/>
+            non debemus, cum ueritas doceat nec propter hominem baptizandum <lb/>
+            facere quod contrarium est castitati, quomodo nos <lb/>
+            docebit facere propter hominem baptizandum, quod ipsi est <lb/>
+            contrarium ueritati? sed sicut oculi ad intuendum solem <lb/>
+            parum firmi ea tamen, quae a sole inlustrantur, libenter intuentur, <lb n="15"/>
+            sic animae iam ualentes delectari pulchritudine castitatis <lb/>
+            non tamen continuo per se ipsam considerare ueritatem, <lb/>
+            unde lucet castitas, possunt, ut cum uentum fuerit ad aliquid <lb/>
+            faciendum quod aduersum est ueritati, ita refugiant et <sic>exhorreant</sic>, <lb/>
+            quemadmodum refugiunt et exhorrent, si faciendum <lb n="20"/>
+            aliquid proponatur quod aduersum est castitati. ille autem <lb/>
+            filius, qui uerbum suscipiens a perditione longe
+
+<app> 22 cf. Prou. 24, 23 (29, 27) </app>
+
+<app> 1 isti uųt &lt;p ammittant <hi>RMTCkVy1</hi> 2 stuprum <hi>V</hi> inlicito <lb/>
+            (to 8. <hi>I.) T</hi> illi <hi>V</hi> poscunt <hi>V</hi> faciamus <hi>TFL</hi> castitati-con- <lb/>
+            <hi>traria in mg</hi>. p <hi>4 esse Ch si] sed V</hi> praeciperet eam 0 5 preceperit <lb/>
+            <hi>Y</hi> 6 custodes-quomodo <hi>om</hi>. &lt;p 7 ueritas] castitas <hi>V</hi> <lb/>
+            baptizaetur <hi>Ch</hi> esse-baptizetur <hi>om. V</hi> mentiendum-esse <hi>om. <foreign xml:lang="grc">Τβ</foreign></hi> <lb/>
+            8 si-moechandum <hi>om. S</hi> ai* &lt;p non] nos Q iubeat r <lb/>
+            9 moecandum <hi>M</hi> mochandum cp1 mecbandum <hi>L</hi> hoc <hi>om. V</hi> quia] <lb/>
+            quod <hi>T</hi> 10 non <hi>om. T</hi> 11 debebamus <hi>V</hi> docet cp doceat <lb/>
+            ueritas p 12 quod-facere <hi>om. T</hi> 13 baptizandum hominem pM <lb/>
+            hominem nos docebit facere <foreign xml:lang="grc">β</foreign> contrarium est <hi>FIJp</hi> 14 sed] et <hi>Y</hi> <lb/>
+            intuenda (dQ s. <hi>I.)</hi> &lt;p 15 sunt firmi <hi>V</hi> ea] et <hi>V</hi> libentur <hi>Ch</hi> <lb/>
+            16 nolentes <hi>V</hi> pulcritudine <hi>MCh</hi> pnlchrituding <hi>T</hi> 18 ut <hi>om. V</hi> <lb/>
+            19 auersum <hi>M</hi> exorreant <hi>RMTy</hi> 20 quemammodum &lt;p eiorrent <lb/>
+            <hi>JRM</hi> si <hi>ex</hi> se <hi>Ch</hi> aliquid faciendum <hi>Y</hi> 22 suscipiens nerbum <foreign xml:lang="grc">β</foreign> </app> <lb/>
+             
+<pb n="526"/>
+            aberit, et nihil falsi ex eius ore procedit, tam sibi <lb/>
+            clausum deputat, si ad subueniendum homini per mendacium <lb/>
+            quam si per stuprum transire cogatur. et pater exaudit orantem, <lb/>
+            ut ualeat sine mendacio subuenire, cui uult pater ipse, <lb/>
+            cuius inscrutabilia sunt iudicia, subueniri. talis igitur filius<lb n="5"/>
+            ita obseruat a mendacio, sicut a peccato. nam et aliquando <lb/>
+            mendacii nomen pro peccati nomine ponitur. unde illud est: <lb/>
+            omnis homo mendax. sic enim dictum est, tamquam diceretur: <lb/>
+            omnis homo peccans. et illud: si autem ueritas <lb/>
+            dei in meo mendacio abundauit. ac per hoc cum mentitur<lb n="10"/>
+            ut homo, peccat ut homo, et ea sententia tenebitur, <lb/>
+            qua dictum est: omnis homo mendax, et: si <choice n="0.02"><note n="1">digerimus</note><corr n="34">dixerimus</corr></choice> <lb/>
+            quia peccatum non habemus, nos ipsos seducimus, <lb/>
+            et ueritas in nobis non est. cum uero nihil <lb/>
+            falsi ex eius ore procedit, secundum eam gratiam sic erit,<lb n="15"/>
+            de qua dictum est: qui natus est ex deo, non peccat. <lb/>
+            haec enim natiuitas si sola esset in nobis, nemo peccaret; et <lb/>
+            quando sola erit, nemo peccabit. nunc autem adhuc trahimus, <lb/>
+            quod corruptibiles nati sumus, quamuis secundum id, quod <lb/>
+            renati sumus, si bene ambulamus, de die in diem <sic>renouamur</sic><lb n="20"/>
+            interius. cum uero et corruptibile hoc induerit <lb/>
+            incorruptionem, uita totum absorbebit, et nullus mortis <lb/>
+            aculeus remanebit; aculeus autem mortis est peccatum. 
+</p>
+          
+</div1>
+
+<div1 n="41" subtype="section"><head>§ 41</head>
+
+<p><milestone n="21" unit="altchapter"/> Aut ergo cauenda mendacia recte agendo aut <lb/>
+            confitenda sunt paenitendo; non autem, cum abundent
+
+<app> 5 cf. Rom. 11, 33 8 Ps. 115, 11 9 Rom. 3, 7 12 I Ioh. 1, 8 <lb/>
+            16 I Ioh. 3, 9 20 cf. II Cor. 4, 16 21 cf. I Cor. 15, 53—56 <lb/>
+            1 abuit <hi>in raa. T</hi> ore eius <hi>Fp</hi> sibi <hi>om. Y</hi> 2 closam Ch <lb/>
+            3 strapum o1 trasire &lt;p pator ? 4 ealeat 91 <hi>mendatio B</hi> <lb/>
+            5 subuenire <hi>V</hi> igitur] ergo <hi>bd</hi> 6 se (s. <hi>I.)</hi> obseruat <hi>F</hi> obseruat Be <hi>V</hi> <lb/>
+            sicut] quasi <hi>F</hi> 7 unde] ut <hi>V est</hi> illud <hi>V$10</hi> habundauit <hi>JITChV</hi> <lb/>
+            hac <hi>Ch</hi> co <hi>ChT1</hi> 11 omo <hi>Ch</hi> ut <hi>om. V</hi> sentia <hi>Chl</hi> 12 quod <lb/>
+            <hi>BMo</hi> quia <hi>V</hi> 14 nihil <hi>om. V</hi> 16 ex <hi>om. V</hi> 17 soleet V et <lb/>
+            <hi>om. TCh</hi> 18 <hi>cum uoce</hi> peccabit <hi>Jinitur codex V fol. 60*</hi> traimns <lb/>
+            <hi>ChTuo</hi> 21 et <hi>om</hi>. <foreign xml:lang="grc">β</foreign> 22 obsorbebit <hi>TlChy</hi> 23 peccatum est 7 <lb/>
+            25 confitendo p paenitentia <hi>RT</hi> habundent <hi>BMTChft</hi> abundant <hi>FL</hi> </app> <lb n="25"/>
+             
+<pb n="527"/>
+            infeliciter uiuendo, augenda sunt et docendo. sed eligat qui hoc <lb/>
+            putat, unde subueniat periclitanti homini, ad quamlibet salutem <lb/>
+            qualiacumque mendacia, dum tamen et apud tales obtineamus <lb/>
+            nulla causa nos ad peierandum et blasphemandum <lb/>
+            oportere perduci. ista saltem scelera uel ampliora stupris <choice><note>vel</note><corr>uel</corr></choice> <lb n="5"/>
+            certe non minora iudicemus. namque cogitandum est saepissime <lb/>
+            homines, de quorum adulterio suspicantur, ad iusiurandum <lb/>
+            prouocare coniuges suas: quod utique non facerent, nisi crederent <lb/>
+            etiam illas, quae non timuerunt perpetrare adulterium, <lb/>
+            timere posse periurium, quia et reuera nonnullae inpudicae, <lb n="10"/>
+            quae non timuerunt inlicito concubitu uiros fallere, eisdem. <lb/>
+            uiris, quos fefellerant, timuerunt deum testem fallaciter adhibere. <lb/>
+            quid igitur causae est. ut homo castus et religiosus homini <lb/>
+            baptizando nolit adulterio subuenire et periurio uelit, quod <lb/>
+            solent et adulteri formidare? porro, si nefas est hoc agere <lb n="15"/>
+            peierando, quanto potius blasphemando! absit ergo, ut <choice><note>christianus</note><corr>Christianus</corr></choice> <lb/>
+            neget atque blasphemet Christum, quo possit alium facere <lb/>
+            christianum, et pereundo quaerat inueniendum, quem si talia <lb/>
+            doceat, perdat inuentum. sic ergo librum, cui nomen est <lb/>
+            Libra, te oportet refellere atque destruere, ut caput illud, <lb n="20"/>
+            quo dogmatizant occultandae religionis causa esse mentiendum, <lb/>
+            prius esse noueris amputandum, ita ut illa testimonia, <lb/>
+            quibus sanctos libros mendaciis suis patronos adhibere moliuntur, <lb/>
+            partim non esse mendacia, partim etiam quae sunt, non
+
+<app> 1 augendo p dicendo <hi>FL</hi> 3 qu*acumque <hi>T</hi> et <hi>om. T</hi> optineamns <lb/>
+            <hi>FL</hi> 4 nos causa <foreign xml:lang="grc">β</foreign> causa <hi>om. T</hi> pegerandura f 5 oporteret <lb/>
+            <hi>B</hi> oportore f saltim <hi>ChF</hi> scelere <hi>T</hi> 6 mira <hi>T</hi> 7 quarum <hi>W</hi> <lb/>
+            adulterium <hi>Ch</hi> 8 prouocaret <hi>R</hi> uxores <hi>FL</hi> 9 non <hi>om. T</hi> <lb/>
+            11 concubito 91 12 fefellerant (an ex e) <hi>Ch</hi> 13 relegiosus <hi>i2</hi> relegiosos <lb/>
+            <hi>Ch</hi> 14 adulterium <hi>T</hi> adaulterium <hi>Ch</hi> 15 porręo <hi>Ch</hi> 18 pereundo] <lb/>
+            perierando <hi>L</hi> perendo <hi>Fx</hi> inueniendo <hi>TCh</hi> 19 docet <hi>FL</hi> <lb/>
+            si <hi>T cum uoce</hi> ergo <hi>codex M fol. 116 finitur</hi> 20 autque <hi>Ch</hi> aut <lb/>
+            quae <hi>T</hi> ut <hi>otn. TCh</hi> cupit, <hi>T</hi> illud <hi>om. &lt;p</hi> 21 quod docmatizant <lb/>
+            p relegiones <hi>TCh</hi> esse <hi>om</hi>. P 22 prius fł.ų.ţ <hi>Ch</hi> noueris <lb/>
+            ease r 23 scs <hi>TCh</hi> libris <hi>T</hi> suis <hi>om</hi>. pl patronus <hi>T'Ch</hi> <lb/>
+            adibere <hi>(Jh</hi> </app> <lb/>
+             
+<pb n="528"/>
+            esse imitanda demonstres et, si tantum sibi usurpat <choice><note>infirmitaa</note><corr>infirmitas</corr></choice>, <lb/>
+            ut ei uenialiter aliquid permittatur quod inprobat ueritas, <lb/>
+            tamen ut inconcusse teneas et defendas in diuina religione <lb/>
+            numquam omnino esse mentiendum; latentes uero sicut nec <lb/>
+            adulteros per adulteria nec homicidas per homicidia nec maleficos<lb n="5"/>
+            per maleficia, ita nec mendaces per mendacia nec <sic>blasphemos</sic> <lb/>
+            per blasphemias esse quaerendos secundum ea, quae <lb/>
+            tam multa in hoc uolumine disputauimus, ut uix ad eius <lb/>
+            terminum, quem loco isto fiximus, ueniremus.
+
+<app> 1 usarbat <hi>Ch</hi> 2 aliquid uenialiter <hi>Jibd</hi> 3 inconcussione <hi>T</hi> et] <lb/>
+            set <hi>Ch</hi> diuine <hi>Ch</hi> 4 homnino <hi>Ch</hi> 5 adulterus <hi>Ch</hi> adulteri* <hi>Ch</hi> <lb/>
+            adulterium (um 8. <hi>I.) T</hi> omicidaa <hi>Ch</hi> omicidia <hi>Ch</hi> malificus <hi>Ch</hi> <lb/>
+            6 malifitia <hi>Ch</hi> plasphemus <hi>Ch</hi> 7 querendos <hi>RTL</hi> quorendus <hi>Ch</hi> <lb/>
+            8 uolumine <hi>Ch</hi> 9 fiximus] fecimus <hi>FL</hi> ueneremua <hi>Chl</hi> Explicit <lb/>
+            contra mendacium sci Augustini epi. Item eiusdem incipit de mendacio <lb/>
+            <hi>fol. 136* R</hi> Explicit <hi>fol. 66b T subacrtptio abest</hi> a <hi>cod. F fol</hi>. 89* Explicit <lb/>
+            liber contra mendacium <hi>fol. 7sb L</hi> Explicit <hi>fol</hi>. 26h T Explicit <lb/>
+            liber contra mendatium <hi>fol</hi>. 33' p Hic terminatur liber contra mendacium <lb/>
+            <hi>Ch</hi> Finit liber ad Consentium contra mendacium <hi>lol. 28sb</hi> cp; <hi>subscriptio<lb/>
+             abest a codice W fol. 19</hi>. </app> 
+<pb n="529"/>
+            
+</p>
+        
+
+</div1>
+
+</body>
+</text>
+</TEI>

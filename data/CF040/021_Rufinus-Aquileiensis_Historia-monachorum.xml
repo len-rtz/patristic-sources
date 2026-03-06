@@ -1,0 +1,4058 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Historia monachorum</title>
+              <author ref="http://viaf.org/viaf/77679446">Rufinus Aquileiensis<date>345-411</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1849</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 21</title>
+           <idno>RufAqu.HisMon</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Prologus.</head>
+<p> <emph>115-116</emph> Benedictus, Deus, qui vult omnes salvos fieri, et ad agnitionem veritatis venire <note>(1. Tim. 2.)</note>:
+qui etiam nostrum iter direxit ad Aegyptum, et ostendit nobis mirabilia magna ad posteritatis memoriam
+profutura: ex quibus non solum nobis caussa salutis oriretur, verum ex historia exemplum salutis, atque
+doctrina pietatis aptissima conderetur, quae virtutis iter agere volentibus, gestorum praecedentium fide amplissimum
+tramitem pandat.</p>
+<p>Quamvis ad tantarum rerum narrationem minus idonei simus, nec dignum videatur, ingentium rerum
+exiguos ac parvos fieri auctores, praecelsasque virtutes humili narrare sermone: tamen quoniam fratrum
+caritas, eorum qui in monte sancto Oliveti commanent, hoc a nobis <emph>117-118</emph> frequenter exposcit, ut
+Aegyptiorum monachorum vitam, virtutesque animi, et cultum pietatis, atque abstinentiae robur, quod in
+eis coram vidimus, explicemus: precibus ipsorum qui hoc imperant, juvandum me credens, aggrediar, non
+tam ex stylo laudem requirens, quam ex narratione rerum aedificationem futuram legentibus sperans, dum
+gestorum unusquisque inflammatus exemplis, horrescere quidem saeculi illecebras, sectari vero quietem,
+et ad pietatis exercitia invitatur.</p>
+<p>Vidi ergo, et vere vidi thesaurum Christi in humanis absconditum vasculis, quemque thesaurum repertum
+<pb n="0389"/>
+nolui tamquam invidus occultare, sed quasi pro multis inventum proferre in medium, et facere communem:
+certus quod quanto plures ex eo fuerint ditati, tanto mihi amplius acquiretur. Ego enim locupletior
+fiam, cum aliorum salus ministerii mei fuerit quaesita mercimonio.</p>
+<p>In principio ergo narrationis nostrae adesse nobis precamur gratiam Domini nostri Jesu Christi; cujus
+virtute omnia haec pietatis exercitia apud Aegypti monachos habentur. Vidimus enim apud eos multos patres
+caelestem vitam in terra positos agentes, et novos quosdam prophetas tam virtutibus animi, quam vaticinandi
+officio suscitatos, quibus ad testimonium meritorum, nec signorum quidem ac prodigiorum deerat
+efficacia: et merito. Cur enim hi, qui nihil terrenum, nihil carnale cupiunt, non accipiant caelestium
+potestatem? Nonnullos namque eorum ita ab omni malitiae cogitatione ac suspicione vidimus defaecatos,
+ut nec si aliquid mali adhuc gereretur in saeculo, meminissent. Tanta in eis inerat tranquillitas animi, tantusque
+inoleverat eis bonitatis affectus, ut merito de eis dictum sit: <hi>Pax multa diligentibus nomen tuum,
+Domine <note>(Psal. 118.)</note>
+          </hi>.</p>
+<p> Commanent autem per eremum dispersi et separati cellulis, sed caritate connexi. Ob hoc autem dirimuntur
+habitaculis, ut silentii quiete et intentione mentis divina sectantes, nec vox aliqua, nec occursus
+ullus, aut sermo aliquis otiosus obturbet. Intentis ergo suo quisque loco animis, velut boni patris Christi
+exspectant adventum: aut tamquam miles paratus in castris imperatoris praesentiam, vel ut fideles servi
+adventantem dominum sustinent, libertatem sibi pariter et munera largiturum. Omnes ergo hi nullam cibi
+aut indumenti, aut illius horum sollicitudinem gerunt. Sciunt enim, quia, sicut scriptum est, <hi>haec omnia
+Gentes cogitant <note>(Matth. 6.)</note>
+          </hi>. Ipsi vero justitiam et regnum Dei requirunt: et haec omnia secundum promissionem
+Salvatoris apponuntur eis.</p>
+<p>Denique plurimi eorum, si in aliquo forte necessariis ad usus corporis eguerint, non ad humana perfugia,
+sed ad Deum versi, et ab ipso tamquam a patre poscentes, quae poposcerint illico consequuntur. Tanta
+namque in eis fides est, quae etiam montibus, ut transferantur, valeat imperare. Unde et nonnulli eorum,
+irruptiones fluvii in perniciem vicinarum regionum concitatas, orationibus represserunt <note>(Vid. infra cap.
+9, de Patermutio; cap. 2, de Ammone, cap. 11, de Heleno.)</note> Et pede <emph>119-120</emph> incedentes alvei ejus profunda
+digressi sunt, immanesque ejus bestias peremerunt, et plurima atque innumera signa, quae ab Apostolis
+et Prophetis antiquitus gesta fuerant, consummaverunt, ut dubitari non debeat, ipsorum meritis
+adhuc stare mundum.</p>
+<p>Sed illud valde mirum est, cum semper optima quaeque rara sint et difficilia, in illis tamen utrumque
+pariter convenisse, ut et numero immensi sint, et virtutibus incomparabiles. Sunt enim alii in suburbanis
+locis, alii per rura, plures autem et egregii per eremum dispersi, et velut quidam caelestis exercitus in procinctu
+positus, atque in tabernaculis degens, ad obedientiam praeceptorum regi semper intentus, armis orationum
+pugnans, et scuto fidei ab inimico insidiante protectus, regnum sibi caeleste conquirit. Sunt ergo ornati
+moribus, quieti, lenes, tranquilli, et caritatis vinculo velut quadam germanitate constricti. Ad aemulationem
+vero virtutum certamen ingens exercent et agones. Studet enim unusquisque clementior altero,
+benignior, humilior ac patientior inveniri. Si quis autem sapientior caeteris fuerit, hic ita communis erga
+omnes et mediocris existit, ut secundum mandatum Domini omnium minimus, et omnium servus esse videatur.</p>
+<p>Quia ergo Dei munere donatum mihi est, ut viderem eos, et interessem conversationi eorum, de singulis
+jam nunc, quae ad memoriam Dominus reduxerit, enarrare tentabo; ut hi, qui non viderunt eos in corpore,
+opera eorum discentes, vitamque perfectam lectionis indicio colligentes, ad imitationem sancti operis invitentur,
+et perfectae sapientiae palmam vel patientiae requirant.
+</p>
+      </div1>
+
+<div1>
+        <head>HISTORIA MONACHORUM.</head>
+<div2>
+          <head>CAPUT PRIMUM. DE SANCTO JOANNE.</head>
+<pb n="0391A"/>
+<p>Primum igitur tamquam vere fundamentum nostri
+Operis ad exemplum bonorum omnium sumamus
+Joannem, qui vere etiam solus satis superque sufficiat
+religiosas et Deo devotas mentes ad virtutum
+culmen erigere, et ad perfectionis fastigia concitare.</p>
+<p>Hunc enim vidimus <note>(Pallad. cap. 43.)</note> in Thebaidis
+partibus in eremo, quae adjacet civitati Lyco, in rupe
+quadam montis ardui commanentem. Ascensus ad
+eum difficilis, aditus monasterii ejus obstructus et
+clausus, ita ut a quadragesimo aetatis suae anno usque
+ad nonagesimum, quem tunc gerebat, cum eum
+vidimus, monasterium ejus nullus intraverit. Advenientibus
+vero per fenestram se videndum praebebat,
+<pb n="0391B"/>
+et inde eis, vel verbum Dei ad aedificationem, vel, si
+qua fuisset consolatio, responsa reddebat. Mulierum
+tamen illuc nulla, nec ad conspectum quidem ejus
+accessit, sed et viri raro, et certis quibusque temporibus.
+Cellam sane hospitalem extrinsecus fieri permisit,
+in qua adventantes e longinquis regionibus paululum
+requiescerent, ipse vero intrinsecus solus, soli
+Deo vacans <hi>[Ant. vocans]</hi>, non diebus, non noctibus
+a colloquiis Dei et oratione cessabat: divinum illud,
+et quod super omnem mentem est, tota mentis puritate
+consectans. Quanto enim se ab humanis curis et
+colloquiis sequestrabat, tanto illi vicinior et propinquior
+Deus erat. In tanta denique <emph>121</emph> mentis sinceritate
+profecerat, ut non solum eorum quae praesentia
+<pb n="0391C"/>
+erant, scientiam consequeretur a Domino, verum
+et eorum quae futura erant praescientiam mereretur.
+Evidenter namque ei Dominus prophetiae gratiam
+contulit: ita ut non tantum civibus et provincialibus
+suis, si forte percontarentur, futura praediceret,
+sed et Imperatori Theodosio, vel quos belli exitus
+habiturus esset, vel quibus modis victoriam caperet
+de tyrannis, sed et quot irruptiones passurus
+esset gentium barbararum, saepe praedixit.</p>
+<p>
+            <pb n="0392A"/>Quodam etiam tempore <note>(Pallad. cap. 43.)</note>, cum
+gens Aethiopum Romanum militem circa Cyrenem <hi>[Syenem Pall.]</hi> 
+ (quae prima est ex Aethiopiae partibus
+Thebaidis civitas) incursaret, et strages plurimas
+nostrorum dedisset, praedamque duxisset, venienti
+ad se Romano duci, et metuenti confligere cum eis,
+quod exiguus ei erat militum numerus, et hostis contra
+se innumera multitudo, Joannes statutum designans
+diem: Perge, inquit, securus, die enim qua
+dixi, et hostem prostrabis, et spolia capies, praedamque
+revocabis. Quod cum fuisset impletum, etiam
+apud Augustum, quia carus ei acceptusque futurus
+esset, praedixit. Sed haec apud illum prophetiae gratia
+ita habebatur, ut magis hoc illorum qui percontabantur,
+quam suis meritis adscriberet. Dicebat
+<pb n="0392B"/>
+enim non pro se haec, sed pro illis qui audiunt, a
+Domino praenuntiari.</p>
+<p>Aliud quoque valde mirum <note>(Pallad. cap. 43.)</note> per
+eum Dominus ostendit. Tribunus quidam ad agendum
+militem pergens, venit ad eum, et obsecrare
+eum coepit, ut permitteret conjugem suam venire ad
+se, multa namque eam dicebat pertulisse pericula ob
+hoc tantum, ut faciem ejus videret. Tunc ille negat
+sibi umquam moris fuisse videndi mulieres, et praecipue,
+ex quo in illius rupis se monasterio conclusisset.
+Tribunus persistit obsecrando, et confirmare
+coepit, quod nisi videret eum, esset sine dubio ex
+multa tristitia peritura. Cumque iterum ac saepius
+eadem precaretur, et caussam <emph>122</emph> mortis eum suae
+conjugis confirmaret futurum, atque inde interitum,
+<pb n="0392C"/>
+unde salutem speraverat, accepturam: tam fidem
+quam importunitatem ejus aspiciens senior: Vade,
+inquit, videbit me conjux tua hac nocte; non tamen
+veniet huc, sed in domo sua, atque in lecto suo manebit.
+Post haec verba ascendit vir, ambiguitatem
+responsi in pectore suo versans. Cumque haec etiam
+conjugi nuntiasset, simili nihilominus etiam mulier
+sermonis incerto fatigabatur. Sed ubi somni tempus
+advenit, adest homo Dei per visum, et assistens mulieri:
+<pb n="0393A"/>
+Fides, inquit, tua magna est, o mulier, et ideo
+veni desiderio tuo satisfacere: te tamen moneo, non
+ut faciem corporalem servorum Dei desideres, sed
+ut gesta et actus per spiritum contempleris. Spiritus
+enim est qui vivificat, nam caro non prodest quidquam <note>(Joan. 6.)</note>.
+Ego autem non quasi justus, aut
+propheta, ut putas, sed pro fide vestra intercessi pro
+vobis apud Dominum, et concessit tibi omnium morborum
+(quos in corpore tuo pateris) sanitatem. Eris
+ergo ex hoc sana et tu, et vir tuus, et benedicetur
+omnis domus vestra. Sed et vos memores estote beneficii
+a Deo vobis collati, et timete Dominum semper,
+nec amplius quam stipendiis vestris debetur, aliquid
+requiratis. Sufficiat ergo tibi hoc, quod vidisti
+me in somnis, et amplius non requiras. Evigilans
+<pb n="0393B"/>
+autem mulier, indicavit viro suo quae vidit, quaeque
+audierit, sed et habitum viri et vultum, atque omnia
+signa ejus exposuit. Super quo miratus vir ejus, regressus
+ad hominem Dei, gratias refert Deo; et accepta
+ab eo benedictione, perrexit in pace.</p>
+<p>Alio quoque tempore <note>(Pallad. cap. 43.)</note> praepositus
+quidam militum venit ad eum, cujus uxor gravida, ab
+eo relicta est in domo sua. At illa ipsa die qua ille
+ad beatum Joannem venerat, partum edens, periclitabatur.
+Tunc sanctus homo Dei: Si scires, inquit,
+donum Dei, quia tibi hodie natus est filius, ageres
+Domino gratias. Sed scito matrem pueri periclitatam;
+aderit tamen Dominus, et invenies eam sanam: festina
+ergo, et redi, et invenies <emph>123</emph> puerum septem
+dierum, et vocabis nomen ejus Joannem: hic nutriatur
+<pb n="0393C"/>
+in domo tua absque ulla contaminatione Gentili
+septem annis; quibus peractis, trade eum monachis
+erudiendum sanctis et caelestibus disciplinis.</p>
+<p>Multis praeterea ad se venientibus <note>(Pallad. cap.
+43.)</note>, sive provincialibus, sive peregrinis, cum res
+poposcisset, occulta cordis eorum indicabat, et si
+quid forte peccati ab eis in occulto fuisset admissum,
+secretius corripiens arguebat, et ad emendationem
+ac poenitentiam provocabat. Nili quoque
+fluminis sive abundantiam aquarum, sive penuriam
+futuram esse praedicebat <hi>[Al. praedicabat]</hi>. Sed et
+si forte ex offensa hominum plaga aliqua et correptio
+a Deo immineret, similiter praemonebat,
+et si quid caussae esset, pro qua introduceretur
+castigatio, designabat. Sanitates quoque et curas
+<pb n="0393D"/>
+corporum, ita deposcentibus conferebat, ut omnem
+ex hoc jactantiam fugeret. Non enim permittebat ad
+se incommodantes <hi>[Forte leg. incommodatos]</hi> deferri,
+sed benedicens oleum dabat, ex quo peruncti, sani
+fierent a quacumque infirmitate tenerentur.</p>
+<p>Senatoris cujusdam <note>(Pallad. cap. 43.)</note> aliquando
+uxor excaecata est: haec deprecabatur virum suum,
+<pb n="0394A"/>
+ut eam perduceret ad hominem Dei. Cui cum responderet
+vir suus, non ei esse moris videndi mulieres,
+rogat ut indicaret ei tantummodo imbecillitatis suae
+caussam, et deprecaretur ut orationem faceret pro
+se. Cumque legationem pertulisset ad eum vir ejus,
+orans et benedicens oleum, mittit ad eam. Ex quo
+per triduum contingens oculos suos, visum recepit,
+et Deo gratias egit. Sed multa sunt ejus gesta quae
+enarrare longum est. Unde omissis his interim quae
+auditu comperimus, ad ea quae oculis nostris inspeximus,
+veniamus.</p>
+<p> Septem fuimus simul comitantes <note>(Pallad. cap.
+43.)</note>, qui ad eum venimus: cumque salutassemus
+eum, omnique nos laetitia suscepisset, unumquemque
+nostrum gratifice alloquitur, et rogatus est a nobis,
+<pb n="0394B"/>
+ut orationem simul et benedictionem daret (hic
+enim mos est apud Aegyptum, ut ubi advenerint
+fratres, statim per orationem sibi invicem confoederentur).
+Interrogabat ergo, si quis in nobis esset
+clericus? Et ut omnes negavimus, respiciens ad singulos,
+intellexit esse inter nos quemdam, qui hujus
+erat ordinis, sed latere <emph>124</emph> cupiebat; erat enim
+diaconus: et hoc praeter unum solum qui ei fidus
+erat, etiam ipsi itineris comites ignorabant. Visurus
+enim tales ac tantos viros humilitatis gratia celare
+voluit gradus sui honorem, ut inferior inveniretur
+in ordine his, quibus se inferiorem esse meritis judicabat.
+Sanctus ergo Joannes ut eum vidit, et quidem
+cum esset adolescentior ceteris, digito ostendens
+eum: Hic, inquit, diaconus est. Et cum adhuc
+<pb n="0394C"/>
+negare tentaret, apprehendens eum manu sua osculatur,
+et dixit: <hi>Noli, fili,</hi> negare gratiam Dei, ne
+incurras pro bono malum, pro humilitate mendacium.
+Cavendum namque est omnimodis mendacium,
+sive pro malo, sive etiam pro bono proferri videatur;
+quia omne mendacium non est a Deo, sed sicut Salvator
+dicit, a malo est <note>(Matth. 5; Joan. 8.)</note>. At ille
+his auditis acquievit, blandamque ejus correptionem
+aequanimiter tulit: et cum orationem Domino obtulissemus,
+post finem unus ex fratribus nostris tertiano
+typo gravissime vexabatur, et rogabat hominem
+Dei, ut ab eo curaretur; qui ait ad eum: Rem
+tibi necessariam cupis abjicere; ut enim corpora nitro
+vel aliis hujusmodi lenimentis abluuntur a sordibus:
+ita animae languoribus, aliisque hujusmodi castigationibus
+<pb n="0394D"/>
+purificantur. Et posteaquam de his nobis
+multa per doctrinam mysticam disseruit, benedicens
+tamen oleum dedit ei, quo perunctus aeger
+omnem continuo abundantiam fellis evomuit, et sanissimus
+redditus, pedibus suis ad diversorium rediit.
+Post haec jubet officia erga nos humanitatis
+atque hospitalitatis expleri, et corporis curam geri:
+<pb n="0395A"/>
+et ipse vero sui negligens, nostri sollicitus erat. Jam
+enim continuo usu et jugi consuetudine recipere cibum
+nisi in vespera poterat, et hunc exiguum: erat
+enim attenuatus, et aridi corporis, prae abstinentia:
+capilli ejus et barba quasi ex languore nimio rara et
+tenuis, utpote quam nullus sufficiens cibus enutriret,
+nec laetior aliquis humor infunderet. Observabat enim
+etiam tunc, cum jam nonagenariam, ut supra diximus,
+ageret aetatem, ut nullum per ignem paratum
+sumeret cibum. Igitur post hospitalitatis officia, regressus
+adsedere nos jubet, et tunc demum unde vel
+cur advenerimus, inquirit, cum jam nos laetos, et
+omni cum gaudio <emph>125</emph> tamquam natos proprios
+suscepisset: cumque respondissemus quod de Jerosolymis
+ad eum utilitatis et profectus animae nostrae
+<pb n="0395B"/>
+caussa venerimus, ut ea quae olim ad auditum nostrum
+fama pertulerat, ipsi nunc oculis cerneremus
+(quoniam quidem tenacius solent inhaerere memoriae
+ea quae oculus viderit, quam quae auris audierit), tunc
+beatus Joannes vultu placidissimo, et quasi subridens,
+ex abundantia laetitiae hoc modo respondit ad
+nos: Miror, inquit, admodum, dulcissimi filii, laborem
+vos tanti itineris suscepisse, cum nihil ad haec
+dignum in nobis videre possitis: homines enim sumus
+humiles et exigui, nihil habentes in nobis quod
+vel expeti debeat vel mirari. Et tamen etiamsi esset
+aliquid in nobis secundum opinionem vestram, numquid
+tale, quale legitis in prophetis Dei et Apostolis?
+Qui utique ob hoc in omnibus Dei Ecclesiis recitantur,
+ut exempla vitae hominibus, non de longinquis
+<pb n="0395C"/>
+et peregrinis locis quaerantur, sed domi unusquisque
+et apud se habeat quod debeat imitari. Unde plurimum
+miror intentionem vestri laboris ac studii, quod
+profectus animae vestrae caussa tantas superare regiones,
+tantosque labores adire voluistis, cum nos
+eousque pigritia desidiaque constringat, ut nec cellulas
+nostras progredi audeamus. Verumtamen quoniam
+putatis esse in nobis aliquid, ex quo proficere
+debeatis, hoc primum vobis indicandum est, ut hoc
+ipsum quod venistis ad nos, et tantum laborem videndi
+nos, suscepistis, ne jactantiae alicujus habeat
+prospectum, ut non tam proficere ad animi virtutem,
+quam praeferre se et jactare unusquisque vestrum
+velit, pro eo quod viderit eos, qui apud alios ex auditu
+solo cogniti videantur.</p>
+<p>
+            <pb n="0395D"/> Grave est jactantiae vitium, et periculosum nimis,
+et quod de ipso etiam perfectionis fastigio dejiciat
+animas; et ideo hoc vos primo omnium cavere
+volo. Est autem species mali hujus duplex quaedam.
+Nonnullis enim accidit in ipsis statim initiis conversionis
+suae, cum parum aliquid vel abstinentiae impenderint,
+vel pecuniae in pauperes pie erogaverint;
+et cum de ea ita sentire debeant, quasi quod impediret
+<pb n="0396A"/>
+abjecerint, ita agunt et ita sentiunt, quasi eminentiores
+sint illis, quibus aliquid largiti sunt. Alia
+vero <emph>126</emph> est jactantiae species, cum quis ad summam
+virtutem perveniens, non totum Deo, sed suis
+laboribus ac studiis deputat: et dum ab hominibus
+gloriam quaerit, perdit eam quae a Deo est. Propter
+quod, filioli, omni genere fugiamus jactantiae vitium,
+ne forte incurramus lapsum, quem diabolus incurrit.</p>
+<p>Tunc praeterea cordi nostro et cogitationibus praecipua
+adhibenda est diligentia. Observandum namque
+est, ne qua cupiditas, ne qua voluntas prava, ne quod
+desiderium vanum, et quod non est secundum Deum,
+radices in corde nostro defigat. Ex hujusmodi enim
+radicibus continuo pullulant vanae et inutiles cogitationes,
+et in tantum molestae sunt, ut nec orantibus
+<pb n="0396B"/>
+nobis cessent, nec in conspectu Dei consistentibus
+nobis, et preces pro salute nostra offerentibus, erubescant;
+sed rapiant a nobis captivam mentem, et
+cum corpore stare videamur in oratione, sensu et
+cogitatione evagamur et abducimur per diversa. Si
+quis ergo est, qui se putat renuntiasse mundo et
+operibus diaboli, non sufficit in ore renuntiasse, ut
+possessiones et praedia, ceteraque saeculi negotia
+dereliquerit, nisi etiam propriis vitiis renuntiaverit,
+et inutiles ac vanas abjecerit voluptates. Haec enim
+sunt de quibus Apostolus dicit: <hi>Desideria vana et nociva,
+quae mergunt hominem in interitum <note>(2. Tim. 6.)</note>
+            </hi>.
+Hoc est ergo renuntiasse diabolo et operibus ejus.
+Diabolus enim per alicujus vitii occasionem, et pravae
+voluntatis aditum irrepit in cor nostrum, quia vitia
+<pb n="0396C"/>
+ex parte ipsius sunt, sicut virtutes ex Deo sunt. Si
+ergo sunt vitia in corde nostro, cum venerit princeps
+eorum diabolus, quasi proprio auctori dant locum, et
+introducunt eum velut ad possessionem suam. Et
+inde est quod numquam hujusmodi corda pacem habere
+possunt, numquam quietem; sed semper conturbantur,
+semper tenentur, et nunc vana laetitia,
+nunc inutili tristitia deprimuntur: habent enim intra
+se habitatorem pessimum, cui introeundi ad se locum
+per passiones suas et vitia fecerunt. Econtra vero
+mens, quae vere renuntiavit mundo, hoc est, quae abscidit
+et amputavit a se omne vitium, et nullum introeundi
+ad se diabolo aditum dereliquit: quae iracundiam
+cohibet, furorem reprimit, mendacium fugat,
+exsecratur invidiam, et non solum <emph>127</emph> non
+<pb n="0396D"/>
+detrahere, sed nec male quidem sentire aut suspicari
+se de proximo suo patitur, quae fratris gaudia sua
+ducit, et tristitiam ejus, suam tristitiam deputat. Quae
+ergo haec et horum similia observat mens, Spiritui
+Sancto aperit in se locum, qui cum ingressus fuerit,
+et illuminaverit eam, semper ibi jam gaudia, semper
+laetitia, semper caritas, patientia, longanimitas, bonitas <note>(Gal. 5.)</note>,
+et omnes qui sunt fructus Spiritus,
+oriuntur. Et hoc erat quod dicebat Dominus in Evangelio:
+<pb n="0397A"/> <hi>Non potest arbor bona malos fructus facere,
+neque arbor mala fructus bonos facere 
+ <note>(Matth. 7. et
+12.)</note>
+            </hi>. Ex fructibus enim arbor cognoscitur.</p>
+<p>Sunt autem nonnulli, qui videntur saeculo renuntiasse,
+et curam non habent ad munditiam cordis,
+neque ut vitia et passiones resecent ex anima sua,
+moresque componant: sed hoc tantum student ut
+videant aliquem sanctorum Patrum, et audiant ab eis
+aliqua verba, quae narrantes aliis glorientur se ab
+illo vel illo didicisse, et sicubi forte vel audiendo vel
+discendo parum aliquid scientiae conquisierint, continuo
+doctores fieri volunt, et docere non ea quae
+egerint, sed ea quae audierint et viderint, et despiciunt
+ceteros. Affectant ipsi ad sacerdotium, atque
+immergere se conantur ad clerum, nescientes quia
+<pb n="0397B"/>
+minoris condemnationis est, si quis ipse virtutibus
+polleat, alios tamen docere non audeat, quam si quis
+ipse passionibus et vitiis prematur, et alios de virtutibus
+doceat. Sic ergo, filioli mei, neque fugiendum
+omnimodis dicimus clericatum vel sacerdotium, neque
+rursus omnimodis expetendum, sed danda opera
+est, ut vitia quidem a nobis depellantur, et virtutes
+animae conquirantur. Dei autem judicio relinquendum
+est, quem velit, et si velit assumere sibi ad ministerium
+vel sacerdotium. Non enim qui seipsum
+ingesserit, sed quem Dominus assumserit, ille probatus
+est <note>(2. Cor. 10.)</note>.</p>
+<p>Monachi autem illud opus est praecipuum, ut orationem
+puram offerat Deo, nihil habens in conscientia
+reprehensibile, sicut et Dominus dicit in Evangelio:
+<pb n="0397C"/> <hi>Cum steteritis ad orationem, remittite fratribus
+vestris, si quid habetis contra eos, ex cordibus vestris:
+nisi enim remiseritis fratribus vestris, nec vobis remittet
+Pater vester, qui in coelis est 
+ <note>(Matth. 6. Marc. 11.)</note>
+            </hi>.
+Si ergo mundo (ut supra diximus) corde astiterimus
+ante Deum, <emph>128</emph> et liberi ab omnibus his vitiis et
+passionibus quae supra memoravimus; poterimus,
+inquantum possibile est, etiam Deum videre, et orantes,
+oculum cordis nostri in ipsum dirigere, et videre
+invisibilem mente, non corpore: intellectu
+scientiae, non carnis aspectu. Nemo enim se putet
+posse ipsam (sicut est) divinam substantiam contueri,
+ita ut speciem sibi aliquam aut imaginem fingat
+in corde corporeae alicujus imaginis similem.
+Nulla forma in Deo cogitetur, nulla circumscriptio,
+<pb n="0397D"/>
+sed sensus, et mens quae sentiri quidem possit, et
+perstringere mentis affectum, non tamen comprehendi,
+aut describi, aut enarrari valet. Et ideo <note>(Pallad. cap. 43.)</note> 
+ oportet cum omni reverentia et
+metu accedere ad Dominum, et ita in eum librare
+mentis intuitum, ut omne quidquid potest splendoris,
+claritatis, fulgoris, majestatis mens humana concipere,
+super haec omnia esse eum sentiat semper; et
+<pb n="0398A"/>
+hoc diximus, si pura mens fuerit, nec ullis pravae
+voluntatis sordibus occupata. Et ideo in hoc maxime
+oportet operam dare eos qui renuntiare saeculo, et
+Deum sequi videntur, sicut scriptum est: <hi>Vacate, et
+cognoscite, quoniam ego sum Dominus <note>(Psal. 45.)</note>
+            </hi>. Si
+ergo cognoverit Deum, inquantum homini possibile
+est, tunc demum etiam reliquorum quae sunt, scientiam
+capiet, et mysteria Dei agnoscet, et quanto purior
+in eo fuerit mens, tanto plura ei revelat Deus,
+et ostendit ei secreta sua. Amicus enim jam efficitur
+Dei, sicut illi, de quibus dicebat Salvator: <hi>Jam non
+dico vos servos, sed amicos <note>(Joan. 15.)</note>
+            </hi>: et omne quidquid
+petierit ab eo, tanquam amico caro, praestat ei
+Deus. Ipsae quoque virtutes Angelicae, et cuncta mysteria
+divina, tanquam amicum Dei diligunt eum, et
+<pb n="0398B"/>
+obsequuntur ejus petitionibus. Et hic est, quem a
+caritate Dei (quae est in Christo Jesu) neque mors
+separat, neque vita, neque Angeli, neque principatus,
+neque potestates, neque alia creatura <note>(Rom. 8.)</note>.
+Et ideo, carissimi, quandoquidem hoc elegistis, ut
+Deo placeatis, et ad caritatem ejus perveniatis, date
+operam alieni effici ab omni jactantia, ab omni vitio
+animi, ab omnibus deliciis corporalibus. Delicias
+autem corporales non solum illas putetis, quibus homines
+saeculi fruuntur; sed abstinenti deliciae credendae
+sunt, omne quidquid cum cupiditate sumserit,
+etiamsi vile illud sit, et quod in usu esse abstinentibus
+solet. <emph>129</emph> Aqua denique ipsa vel panis, si cum
+cupiditate sumatur, id est, non ut necessitati corporis,
+sed ut animi desiderio satisfaciat, hoc etiam
+<pb n="0398C"/>
+abstinenti deliciarum vitio ducitur. Oportet enim in
+omnibus consuescere, animam vitio carere. Ideo
+denique Dominus docere volens animam desideriis et
+voluptatibus suis resistere, dicebat: <hi>Intrate per angustam
+portam, quia lata est et spatiosa via, quae ducit
+ad mortem <note>(Matth. 7.)</note>
+            </hi>; angusta autem et arcta via
+est, quae ducit ad vitam. Lata est ergo via animae,
+cum qualicumque desiderio suo satisfecerit: angusta
+vero est, cum voluptatibus suis repugnat. Multum
+tamen prodest ad haec obtinenda secretior habitatio,
+et conversatio solitaria, quia interdum per occasionem
+adventantium fratrum, et euntium ac redeuntium
+frequentiam, abstinentiae et parsimoniae fraena
+laxantur, et per hujusmodi occasiones venitur paulatim
+in consuetudinem et usum deliciarum, et sic
+<pb n="0398D"/>
+interdum etiam perfecti jam viri capiuntur. Ideo denique
+et David dicebat: <hi>Ecce elongavi fugiens, et
+mansi in solitudine. Exspectabam eum, qui salvum me
+faceret e pusillo animo et tempestate <note>(Psal. 54.)</note>
+            </hi>.</p>
+<p>Postquam autem <note>(Pallad. cap. 44.)</note> multa nobis
+sanctus Joannes de jactantiae vitio, aliisque quamplurimis
+utiliter disseruit, ad ultimum intulit dicens:
+Retexam autem vobis, quid etiam nuper cuidam ex
+<pb n="0399A"/>
+fratribus nostris acciderit, ut cautiores vos praecedentia
+exempla constituant.</p>
+<p>Erat quidam apud nos monachus in hac vicina
+eremo commanens, cui habitaculum spelunca erat:
+vir summae abstinentiae, quotidianum victum labore
+manuum quaerens, in orationibus diu noctuque persistens,
+cunctisque animi virtutibus florens. Sed hic
+laetis successibus elatus, confidere quasi in profectibus
+suis coepit, et non Deo totum, sed sibimetipsi quod
+profecerat, deputare. Hanc autem intuens animi
+praesumtionem tentator, continuo accedit, et laqueos
+parat. Quadam namque die ad vesperam, fingit speciem
+decorae mulieris oberrantis per eremum, quae
+velut fessa post nimium laborem, accedens ad ostium
+speluncae monachi, lassabundam simulans ac fatigatam,
+<pb n="0399B"/>
+intrinsecus semetipsam projecit, atque advoluta
+genibus viri, ut sui misereatur exorat. Nox
+enim me infelicem, inquit, in eremo latitantem comprehendit:
+jube me requiescere in angulo cellulae
+tuae, ne forte efficiar nocturnis bestiis praeda. At ille
+primo miserationis obtentu, recepit eam intra speluncam,
+requirens quae <emph>130</emph> ei caussa errandi per
+eremum fuerit? Illa caussam fingit satis accurate, et
+interim venena blandimentorum, atque illecebrae virus,
+per omnem textum narrationis interserit, nunc
+se miserandam, nunc etiam defensione dignam
+ostendens: elegantia et suavitate sermonis inclinat
+animum hominis, et in affectum sui illecebroso amore
+deflectit. Hinc jam inter blandiora colloquia, jocus
+risusque miscentur, manus etiam procax ad mentum
+<pb n="0399C"/>
+barbamque, quasi venerandi specie protendit, tum
+vero palpare cervicem mollius, collumque levigare.
+Quid multa? Ad ultimum captivum ducit militem
+Christi. Continuo enim perturbari intra semetipsum,
+et libidinis fluctibus aestuare coepit, nequaquam laborum
+praeteritorum, nequaquam professionis ac
+propositi sui memor. Paciscitur cum cordis sui concupiscentia,
+et intra arcana cogitationum suarum
+foedus cum falsa voluptate componit. Inclinat stultus
+latera sua, et efficitur <hi>sicut equus et mulus, quibus
+non est intellectus <note>(Psal. 31.)</note>
+            </hi>. Atque ubi obscoenos
+jam conabatur inire complexus, illa ululatum teterrimum
+dirae vocis emittens, umbra ut erat tenuis, per
+manus amplectentis elabitur, ipsum quoque dedecorosis
+motibus inanes auras sectantem, foedissima
+<pb n="0399D"/>
+cum irrisione deseruit. Tunc praeterea multitudo
+daemonum in aere ad hoc ipsum spectaculum congregata,
+clamore ingenti, cum cachinno exprobrationis
+elato: O, inquiunt, qui te usque ad caelum extollebas,
+quomodo demersus es usque ad infernum?
+Disce ergo, quia qui se extollit, humiliabitur <note>(Luc.
+14. et 18.)</note>. Tunc ille velut amens effectus, et deceptionis
+suae pudorem non ferens, gravius a semetipso
+decipitur, quam fuerat a daemonibus deceptus.
+Cum enim debuerit reparare semetipsum, et renovare
+certamen, ac satisfactione sui, lacrymis et humilitatis
+fructibus, prioris elationis culpam delere, hoc non
+<pb n="0400A"/>
+fecit, sed desperans semetipsum (sicut Apostolus
+dixit) <hi>tradidit se omni impudicitiae et iniquitati <note>(Ephes.
+4.)</note>
+            </hi>. Regressus est enim ad vitam saecularem, praeda
+daemonum factus. Refugit namque conspectus omnium
+sanctorum, ne quis posset eum salutaribus
+monitis de praecipitio revocare. Si enim reddere semetipsum
+priori vitae abstinentiae voluisset, recuperasset
+sine dubio et locum et gratiam suam.</p>
+<p>Denique audite <note>(Pallad. cap. 45.)</note> quid et de alio
+viro gestum sit, similiter quidem tentato, sed non
+simili exitu tentationis effuso. Fuit quidam vir in hac
+proxima civitate, vitam turpissimam per omne facinus
+ducens, <emph>131</emph> ita ut opinatissimus in flagitiis haberetur.
+Hic aliquando Dei miseratione compunctus
+ad poenitentiam convertitur, et intra sepulcrum se
+<pb n="0400B"/>
+quoddam concludens, priorum scelerum pollutiones lacrymarum fontibus diluebat, diebus ac noctibus in
+faciem prostratus, et ne allevare quidem ausus oculos
+ad caelum, neque vocem emittere, et nomen Dei
+nominare, sed in solis gemitibus et fletibus perdurabat,
+et tanquam vivens sepultus, de inferno jam quodammodo
+mugitum cordis gemitumquer edebat. Cumque
+in his posito eo septimana una transisset, noctu
+veniunt ad eum daemones in sepulcro clamantes et
+dicentes: Quid est quod agis, o impurissime et flagitiosissime?
+Posteaquam omni spurcitia, omnique
+impuritate satiatus es, nunc vis castus et religiosus
+procedere? Et posteaquam consenuisti in sceleribus,
+nec jam sufficiunt vires ad facinora delenda, nunc
+Christianus videri vis, et pudicus, et poenitens? quasi
+<pb n="0400C"/>
+vero alius tibi jam ullus possit dari locus satiato in
+malis, nisi ille, qui tibi nobiscum debetur. Unus ex
+nobis es, alius jam esse non poteris. Redi ergo magis,
+redi ad nos: et quod superest tibi tempus, in
+perfruenda voluptate non perdas; praeparamus affluentes
+delicias, praeparamus scorta nobilissima, et
+cuncta talia quae florem tibi possint reparare gratissimae
+juventutis. Quid temetipsum vanis et inanibus
+conficis cruciatibus? Quid temetipsum ante tempus
+suppliciis tradis? Quid enim aliud es passurus in inferno,
+nisi hoc quod nunc tibi ipsi conquiris? Si te
+poena delectat, exspecta paululum, et invenies paratam:
+nunc interim fruere muneribus nostris, quae
+dulcia semper et grata duxisti. Haec et hujusmodi
+plura exprobrantibus eis, ille jacebat immobilis, nec
+<pb n="0400D"/>
+auditum quidem suum convertens ad eos, nec ullo
+penitus sermone respondens. Cumque illi saepius eadem
+repeterent, et alia duriora, nec ille omnino moveretur,
+in furorem prolapsi daemones, ubi viderunt
+verba contemni, verberibus eum conficere aggressi
+sunt, multisque suppliciis excruciatum seminecem
+reliquerunt. Nec tamen in tot tantisque cruciatibus
+moveri saltem potuit loco, in quo orationis caussa
+jacuerat. Postera die quidam suorum requirentes
+eum, humanitatis dumtaxat <emph>132</emph> gratia, inveniunt
+poenis incredibilibus affectum, et caussam percontantes,
+cum didicissent, rogabant, ut curae gratia reportari
+se ad domum propriam pateretur. Abnegat, et in
+<pb n="0401A"/>
+eodem permanet loco. Tunc vero et sequenti nocte
+repetentes daemones gravioribus eum verberibus
+cruciabant. Sed nec sic quidem moveri voluit loco:
+melius esse dicens, mortem subire, quam ultra daemonibus
+obedire. Nihilo minus tertia nocte multitudo
+convenit daemonum, et absque ulla miseratione irruentes
+in eum, omnibus poenis cruciatibusque conficiunt.
+Cumque jam corpus defecisset in suppliciis,
+extremus tamen spiritus obsistebat imperio daemonum.
+Quod ubi impii perviderunt, exclamantes voce
+magna: Vicisti, inquiunt, vicisti; et mox velut virtute
+quadam caelitus fugati, praecipites abscedunt,
+nec ultra quidquam ei suae artis aut sceleris intendunt.
+Ipse vero intantum virtutibus animi profecit,
+et ita ornatus moribus effectus est, ac totius divinae
+<pb n="0401B"/>
+gratiae repletus virtute, ut omnis haec regio quasi e
+caelo eum lapsum videret, et unum esse ex numero
+crederet Angelorum, omnes paene simul atque uno
+ore dicentes: <hi>Haec est mutatio dexterae Excelsi <note>(Psal.
+76.)</note>
+            </hi>. Quanti exemplo ejus, qui jam semetipsos desperaverant,
+rursus ad spem salutis regressi sunt, et
+emendationem sui, quam prius desperaverant, praesumserunt?
+Quanti admiratione ejus, de ipso jam inferno
+peccatorum retracti sunt, et ad virtutis indolem
+reparati? Illo namque tanta immutatione converso,
+omnibus omnia visa sunt possibilia. Non solum
+enim emendatio morum florebat in eo et assumtio
+virtutum, verum et gratia Dei plurima ei collata
+est. Signa enim et prodigia, quae ab eo facta sunt,
+quantum apud Dominum haberet meritum, testabantur.
+<pb n="0401C"/>
+Sic humilitas et conversio bonorum omnium
+materiam praebat: elatio et desperatio, interitus et
+mortis est caussa.</p>
+<p>Ad effugienda vero <note>(Pallad. cap. 46.)</note> pericula lapsuum,
+et conquirendam Dei gratiam, atque ipsius
+divinitatis evidentiorem notitiam capiendam, plurimum
+prodest secretior conversatio, et eremi interioris
+habitatio. Quod vos non tam verbis, quam rebus
+ipsis et exemplis melius docere puto.</p>
+<p>Fuit quidam monachus, qui in <emph>133</emph> eremo hac,
+quae prae caeteris interior est, habitabat. Hic dum
+plures annos in abstinentia perdurasset, et provectus
+tempore, prope jam ad senilem venisset aetatem,
+omni virtutum flore adornatus, ac totius continentiae
+magnitudine sublimatus: cum orationibus et hymnis
+<pb n="0401D"/>
+sedule Deo serviret, tamquam emerito militi suo Dominus
+remunerationes parat, utpote qui in corpore
+adhuc positus, adinstar Angelorum incorporeae vitae
+fungeretur officiis, et dignum judicans annonam caelestem
+praebere in deserto ei, qui caelestem Regem
+pervigilibus praestolabatur excubiis.</p>
+<p>Volens ergo Deus <note>(Pallad. cap. 46.)</note> etiam in hoc
+saeculo remunerare ejus fidele propositum, ad providentiae
+suae sollicitudinem quotidiani victus ejus revocat
+curam. Ut enim ei cibi usum poposcisset naturae
+necessitas, ingrediens speluncam suam inveniebat
+mensae panem superpositum, mirae suavitatis,
+mirique candoris: ex quo refectus, et gratias divinae
+praestantiae referens, rursus ad hymnos et orationes
+<pb n="0402A"/>
+convertebatur. Ad quem divinae etiam revelationes,
+multaeque de futuris rebus a Deo praemonitiones fiebant.
+In his ergo talibus ac tantis profectibus positus,
+quia gloriari quasi de meritis suis caepit, et caelestis
+beneficii munus vitae suae debitum dixit: continuo
+subintrat eum parva quaedam desidia animi, tam
+parva, quam nec posset advertere. Post haec crevit
+major negligentia, ita ut tardior jam fieret ad hymnos,
+sed et ad orationem pigrius surgeret: Psalmi
+quoque ipsi non ea, qua prius vigilantia ab ipso canerentur,
+sed ubi parum quid exhibitum fuisset soliti
+ministerii, anima ejus, quasi nimio labore fatigata,
+requiescere festinabat: quia sensus ejus reprobus
+effectus, de sublimioribus ad inferiora ceciderat,
+et cogitationes suae per diversa eum praecipitia rapiebant.
+<pb n="0402B"/>
+Erat enim jam in corde ejus clandestina
+quaedam turpis ac nefanda cogitatio, consuetudo tamen
+prior; velut si decursus aquae, etiam cessante
+remigio, adhuc priore impetu navigium ferat: ita et
+vetus institutio ad consueta hominem officia trahebat.
+Ob quam caussam et stare adhuc in suo statu
+videbatur. Hic ergo cum post orationes cibum solito
+requisisset ad vesperam, ingressus locum eum, in
+quo refici <emph>134</emph> consueverat, invenit solito panem
+mensae superpositum, ex quo refectus, nihil de eorum
+quae in corde suo versabantur, emendatione curavit,
+neque immutationis suae damna persensit, sed
+spernentem se minima, paulatim casurum non intellexit.
+Interea, cum gravi jam libidinis incendio stimularetur,
+et inflammatus turpi concupiscentia raperetur
+<pb n="0402C"/>
+rursus ad saeculum, illa interim die cohibuit
+se, et solita hymnorum et orationum ministeria ex
+more persolvit, atque ingressus, ut cibum sumeret,
+panem quidem invenit mensae superpositum, sed aliquantulo
+sordidiorem. Admiratus est, et tristis effectus:
+intellexit enim, quod ipsum respiceret hoc
+genus monstri: tamen cibo sumto refectus est. Post
+diem tertium triplicatis urgeri stimulis coepit: occupaverat
+enim cogitationes ejus quasi jam praesentis
+et secum positae, secumque accumbentis imago mulieris,
+quam et complecti sibi videbatur, et ad turpes
+usus habere substratam. Processit tamen et sequenti
+die ad solita psallendi et orandi officia, sed stabat
+vagus oculis, et mente captivus. Cumque solito ingressus
+ad vesperam requireret cibum, panem quidem
+<pb n="0402D"/>
+invenit super mensam, sed sordidissimum ac
+aridissimum, et quasi a muribus vel canibus undique
+corrosum. Tunc ille ut hoc vidit, ingemuit, et lacrymas
+fudit, sed non ita ex corde, nec ita uberes, quae
+possent flammam tanti ignis extinguere. Verumtamen
+sumit cibum, sed neque quantum volebat, neque
+qualem solebat: cum interim cogitationes eum
+tanquam cohors barbarica undique circumvallant, et
+omni ex parte in eum tela jaculantur, ac vinctum
+captivumque eum ad saeculum retrahunt. Exsurgens
+ergo, coepit iter agere noctu per eremum, et tendere
+ad civitatem: sed ubi dies facta est, civitas quidem
+longe adhuc aberat. Ipse vero cum rapidissimo aestu
+coqueretur, et fatigaretur in eremo, undique versus,
+<pb n="0403A"/>
+considerare oculis coepit et requirere, sicubi esset in
+vicino monasterium: et cum conspexisset fratrum
+quorundam cellulam, tendebat illuc, ut apud eos requiesceret:
+quem ubi adesse senserunt servi Dei,
+continuo procurrunt inobviam, et velut Angelum
+Dei excipientes adorant, pedes lavant, ad orationem
+invitant, mensam ponunt, atque omnia secundum
+divinum mandatum complent caritatis <emph>135</emph> 
+ officia. Verum ubi refectus est, et paululum
+requievit, ex more quasi ab eruditissimo et opinatissimo
+patre coeperunt verbum aedificationis expetere,
+ac monita salutis inquirere. Interrogaverunt
+quoque eum, quomodo quis diaboli laqueos possit
+effugere, aut si quando turpes injecerit animo cogitationes,
+quomodo depelli possint et abjici. Tum ille,
+<pb n="0403B"/>
+ut compulsus est monita fratribus dare, et salutis
+eos viam docere, ac de insidiis daemonum (quas
+servis Dei intendunt) facere sermonem, illos quidem
+plene et sufficienter edocuit, sibi vero ipsi stimulos
+compunctionis incendit, et in semetipsum regressus
+ait: Quomodo ego alios moneo, et ipse decipior?
+aut quomodo alios corrigo, qui meipsum non emendo?
+Age ergo, miser, facito ipse prior, quae facere
+alios doces. Cumque hujusmodi increpationibus uteretur
+adversus semetipsum, et intellexisset se miserabiliter
+supplantatum, valedicens fratribus, continuo
+se rapidissimo cursu in eremum dedit. et ad
+speluncam de qua discesserat rediit: prosternens se
+Domino in oratione, dicens: <hi>Nisi Dominus adjuvisset
+me, paulominus habitasset in inferno anima mea</hi> 
+<pb n="0403C"/> <note>(Psal. 93.)</note>.
+Et iterum: Paulominus fui in omni malo:
+et <hi>paulominus consummaverunt me in terra <note>(Psal. 118.)</note>
+            </hi>.
+In hoc vero completum est, quod ait Scriptura: <hi>Frater fratrem adjuvans exaltabitur, ut civitas munita
+et fortis. 
+ Frater qui adjuvat fratrem, quasi civitas
+firma, et judicia quasi vectes urbium <note>(Prov. 18.)</note>
+            </hi>. Post
+haec ergo permansit omni vita sua in luctu et lacrymis,
+videns divinitus sibi concessum caelestis mensae
+beneficium perdidisse: coepit enim in labore rursus
+et sudore vultus sui manducare panem suum. Conclusit
+autem se intra speluncam, atque in cilicio et
+cinere jacens, tandiu lugens flensque permansit in
+orationibus, donec assistens ei Angelus Domini, diceret
+ei: Suscepit Dominus poenitentiam tuam, et
+repropitiatus est tibi: sed cave ne ultra elatus decipiaris.
+<pb n="0403D"/>
+Venient autem ad te fratres, quos tu ipse
+docuisti, deferentes tibi benedictiones, quas suscipere
+ne recuses, et sumens cum eis cibum, age
+gratias Deo tuo.</p>
+<p>Haec autem locutus sum vobis, filioli <emph>136</emph> mei,
+ut sciretis, et quanta sit in humilitate firmitas, et in
+elatione ruina quam maxima. Ideo denique et Salvator
+noster primam beatitudinem de humilitate nos
+docuit, dicens: <hi>Beati pauperes spiritu, quoniam ipsorum
+est regnum coelorum <note>(Matth. 3.)</note>
+            </hi>. Simul et hujusmodi
+<pb n="0404A"/>
+exempla dicens, ut cautiores sitis, ne a
+daemonibus in cogitationum subtilitate seducamini.
+Propterea enim et forma hujusmodi inter monachos
+observatur, ut si quis ad eos veniat sive vir ille seu
+mulier sit, sive senex sive juvenis, sive ignotus sive
+notus, ante omnia ut oratio fiat, ut nomen Domini
+invocetur: quia si fuerit aliqua transformatio daemonis,
+continuo oratione facta, diffugiet. Si vero in cogitatione
+vestra suggesserint ipsi daemones aliquid,
+unde laudari debeatis et extolli, non acquiescatis eis,
+sed tunc magis vosmetipsos humiliate in conspectu
+Domini, et pro nihilo ducite, cum vobis illi aliquid
+de sectanda laude suggesserint. Denique etiam me
+frequenter daemones noctibus seduxerunt, et neque
+orare, neque requiescere permiserunt, phantasias
+<pb n="0404B"/>
+quasdam per noctem totam sensibus meis et cogitationes
+suggerentes. Mane vero velut cum quadam
+illusione, prosternebant se ante me dicentes: Indulge
+nobis, Abba, quia laborem tibi incussimus tota
+nocte. Ego vero respondi ad eos: <hi>Discedite a me
+omnes qui operamini iniquitatem <note>(Psal. 6.)</note>
+            </hi>, et non
+tentetis servum Domini. Et vos ergo, filioli, quietem
+silentiumque diligite, et scientiae operam date. atque
+exercete vosmetipsos, ut frequenti collatione mentem
+vestram puram exhibeatis Deo, ne orationes
+vestrae impediantur apud Deum. Quamvis enim et
+illi bonum opus agant, et sit in illis probabilis conscientia,
+qui inter saeculares positi exercentur in
+operibus bonis, et occupant semetipsos actibus religiosis
+et sanctis, vel hospitalitatem sectantes, vel
+<pb n="0404C"/>
+caritatis ministeriis obsequendo, vel misericordias ac
+visitationes, aliaque hujusmodi opera explendo, in
+quibus alii quidem boni semper aliquid conferant;
+semetipsos tamen castos servant. Sunt ergo isti probabiles,
+et valde probabiles, qui in bonis actibus placent
+Deo, et sunt operarii inconfusibiles mandatorum
+Dei <note>(2. Tim. 2.)</note>. Sed tamen haec <emph>137</emph> omnia
+terrenos habent actus, et erga materias corruptibiles
+arguuntur. Qui vero in exercitio mentis desudat,
+et spiritales intra semetipsum excolit sensus,
+longe illis superior judicandus est. Locum namque
+intra semetipsum praeparat, ubi Spiritus Sanctus habitet,
+et oblivionem quodammodo capiens terrenorum,
+sollicitudinem gerit de caelestibus et aeternis.
+Constituit enim semetipsum semper ante conspectum
+<pb n="0404D"/>
+Dei, et omnes praesentium rerum sollicitudines post
+tergum jaciens, solo divini desiderii calore constringitur,
+et in laudibus Dei positus, et hymnis et Psalmis
+die ac nocte non potest satiari.</p>
+<p>Haec et multa alia his similia <note>(Pallad., cap. 46.)</note> 
+beatus Joannes per triduum continuum loquens ad
+nos, animas nostras refecit et innovavit. Ut autem
+coepimus velle ab eo proficisci, datis nobis benedictionibus,
+Pergite, inquit, in pace, o filioli: hoc tamen
+scire vos volo, quod hodierna die victoriae
+<pb n="0405A"/>
+religiosi Principis Theodosii Alexandriae nuntiatae
+sunt de Eugenio Tyranno. Necesse est ergo, et ipsum
+Theodosium non multo post propria morte vitam finire.
+Cumque profecti ab eo fuissemus, haec ita gesta
+ad esse ( <hi>sic</hi> ) fidem comperimus, ut ipse praedixerat. Post
+dies autem paucos insecuti sunt nos quidam fratres,
+annuntiantes nobis, quod ipse sanctus Joannes in
+pace requieverit. Obitus autem illius talis quidem
+fuerat. Per triduum, inquiunt, nullum ad se introire
+permisit, et positis genibus in oratione reddidit
+spiritum, atque ita perrexit ad Dominum, cui
+est gloria in saecula saeculorum, Amen.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT II. DE HOR.</head>
+<p>
+            <pb n="0405B"/>Vidimus et alium apud Thebaidem venerabilem
+virum, Hor nomine <note>(Pallad. cap. 9. Or dicitur.)</note>: hic
+multorum erat monasteriorum pater, qui habitu
+ipso, honoris videbatur <emph>138</emph> angelici, nonaginta
+jam agens aetatis annos, barba prolixa, et claritatis
+canitie splendida, vultu et aspectu ita laetus, ut plus
+aliquid habere quam in hominis natura est, visio
+ipsa videretur. Hic prius in ultima cremo plurimis
+abstinentiae laboribus exercitatus, postremo in vicino
+urbis monasterium instituit.</p>
+<p>In adjacentibus autem habitationis suae locis diversi
+generis arborum silvas ipse per se plantaria
+ponendo conseruit, in quibus, ut nobis a plurimis
+sanctis patribus affirmatum est, ante illius adventum
+nullum omnino virgultum fuit. Ob hoc autem
+plantavit hanc silvam, ut ibi fratres, quos inibi congregare
+<pb n="0405C"/>
+cupiebat, non haberent necessitatem, ligni
+gratia longius evagandi, habens curam et in his
+quae ministerio corporis necessaria sunt, sed praecipue
+salutis eorum ac fidei. Ipse tamen cum esset in
+eremo, herbis pascebatur, et radicibus quibusdam,
+et haec ei dulcia videbantur. Aquam vero si quando
+invenisset, bibebat, orationibus et hymnis occupans
+omne diei tempus ac noctis. Ut autem ad maturam
+pervenerat aetatem, apparuit ei Angelus Domini in
+eremo per visum, dicens: Eris in gentem magnam,
+et multus tibi populus credetur, et erunt per te quae
+salvanda sunt multa millia hominum. Quantoscunque
+autem in hac vita positus converteris ad salutem,
+super tantos principatum accipies in futuro; et nihil
+<pb n="0405D"/>
+verearis: numquam enim aliquid tibi deerit eorum
+stipendiis, quae ad usum corporis requiruntur, quoties
+<pb n="0406A"/>
+haec poposceris a Deo. Haec cum audisset. ad
+viciniora loca accedit, et primo solus sub parvo tugurio,
+quod sibi ipse construxerat, habitare coepit,
+oleribus compositis vescens solis, interdum etiam
+post continuata jejunia. Literas primo ignoravit:
+cum autem de eremo ad haec quae supra diximus, viciniora
+habitaculis <emph>139</emph> loca accessisset, data est
+ei divinitus gratia. Et cum a fratribus oblatus ei
+fuisset codex, quasi olim jam sciens litteras, legere
+coepit. Collata est ei adversus daemones etiam virtus,
+ita ut multi ex his, quos urgebant daemones, etiam
+inviti ad eum raperentur, protestantes summo cum
+clamore de meritis ejus. Sed et alias quamplurimas
+sanitates operabatur.</p>
+<p>Congregabantur interim ad eum plurimae multitudines
+<pb n="0406B"/>
+monachorum, inter quos cum etiam nos advenissemus,
+visis nobis, laetissimus redditur. Cumque
+salutans nos, orasset more sibi solito, pedes
+hospitum propriis manibus lavat, et docere nos ex
+Scripturis, quae ad aedificationem vitae ac fidei pertinent,
+coepit. Erat enim ei docendi gratia a Deo collata.
+Cum itaque plurima nobis Scripturarum capitula sapienter
+disseruisset, rursus ad orationem convertebatur.
+Consuetudo autem erat ei non prius corporalem
+cibum sumere, quam spiritalem Christi Communionem
+acciperet. Quo accepto, post gratiarum actionem
+adhortari nos etiam ad reficiendum coepit.
+ipse tamen sedens nobiscum, nunquam cessabat aliquid
+de studiis spiritalibus commonere. Narrabat
+ergo nobis tale aliquid: Scio hominem, inquit,
+<pb n="0406C"/>
+quemdam in eremo, per tres continuos annos nullum
+sumsisse terrenum cibum: Angelus enim Dei tertia
+quaque die escam deferebat ei caelestem, et haec ei
+cibus erat et potus. Et iterum scio hujusmodi hominem,
+quia venerunt ad eum daemones in specie coelestis
+militiae, et habitu Angelorum, currus igneos
+agentes, plurimo apparatu, tamquam magnum aliquem
+regem deducentes, isque qui ceteris ut rex haberi
+videbatur, dicebat ad eum: Implesti omnia, o
+homo, superest ut adores me, et transferam te sicut
+Eliam. Sed monachus audiens dicebat in corde
+suo, Quid est hoc? Quotidie ego Salvatorem, qui
+est Rex meus, adoro: hic si esset ille, quomodo a
+me hoc exposceret, quod indesinenter me facere sciret?
+Et post haec respondit ad ipsum: Ego habeo
+<pb n="0406D"/>
+meum Regem, <emph>140</emph> quem quotidie sine intermissione
+adoro: tu autem non es rex meus. Et continuo
+<pb n="0407A"/>
+inimicus ad haec verba nusquam comparuit. Verum
+haec ille quasi de alio nobis narrans sua gesta, sub
+alterius persona memorabat. Patres tamen qui aderant,
+ipsi nobis affirmabant, quod ipse esset, qui
+haec vidisset et audivisset.</p>
+<p>Erat ergo hic magnificus pater, qui inter caetera
+bona etiam hoc praestabat advenientibus fratribus,
+et cum ipso habitare volentibus. Faciebat convocari
+fratres qui secum erant, et in una die advenienti fratri
+cellulam aedificabat. Erat in hoc opere magna
+alacritas fratrum, unoquoque eorum festinante lateres
+convehere, aut lutum porrigere, aut aquam infundere,
+aut ligna deferre. Ubi vero perfecta fuisset,
+ipse eam omnibus utensilibus vel necessariis instructam
+tradebat fratri.</p>
+<p>
+            <pb n="0407B"/>Hic aliquando cum falsus quidam frater ad se venisset,
+et ut videretur nudus, vestimenta sua occultasset,
+arguit eum coram omnibus, et in medium quae
+occultaverat protulit: et ita pertimuere omnes, ut de
+reliquo nemo auderet coram ipso fallere. Tanta erat
+in eo virtus animi, et tanta divinae gratiae magnitudo,
+quam abstinentiae labore et fidei puritate quaesierat.
+Multitudines autem fratrum cum ipso positae,
+tanta gratia erant repletae, ut cum ad ecclesiam
+convenirent, chori Angelorum vestibus ac mentibus
+resplendentes, ad imitationem Virtutum caelestium,
+in hymnis et laudibus Dei pervigiles viderentur.</p>
+</div2>
+
+<div2>
+          <head>CAPUT III. DE AMMONE.</head>
+<p>
+            <pb n="0407C"/>Vidimus autem in Thebaide <note>(Pallad., cap. 48.)</note> 
+etiam alium virum, nomine Ammonem, patrem trium
+millium circiter monachorum, qui Tabennensii appellantur,
+ingentis abstinentiae viros, quibus usus est
+indui colobiis quasi saccis lineis, et pelle confecta
+a collo post tergum et latus descendente contegi;
+cucullis etiam caput operiri, maxime cum ad cibum
+ventum fuerit, eisque etiam faciem velant, ne alius
+alium parcius cibum sumentem deprehendat. <emph>141</emph> 
+Est autem eis et in capiendo cibo summum silentium,
+ita ut nec putetur in eo loco esse aliquis hominum,
+ubi sedetur ad mensas, et omnis eorum
+conversatio ita est in multitudine posita, quasi esset
+in solitudine, dum ita latet uniuscujusque abstinentia,
+<pb n="0408A"/>
+ut ab alio deprehendi non possit. Sedent ergo ad
+mensam contingentes magis quam sumentes cibos,
+ut nec defuisse mensis, nec tamen ventri satisfecisse
+videantur. Major quippe est continentiae virtus, his
+abstinere quae in oculis habentur et in manibus.</p>
+</div2>
+
+<div2>
+          <head>CAPUT IV. DE BENO.</head>
+<p>Vidimus et alium senem <note>(Pallad., cap. 49.)</note> mansuetudine
+omnes homines praecellentem, Benum nomine,
+de quo asserebant fratres qui cum ipso erant,
+quod neque juramentum umquam, neque mendacium
+de ore ejus processerit, neque ullus hominum iratum
+viderit eum aliquando, aut sermonem superfluum
+otiosumque proferentem, sed erat vita ejus in summo
+<pb n="0408B"/>
+silentio, moresque tranquilli, et per omnia quasi
+angelici ordinis vir: humilitas quoque immensa, et
+in omnibus pro nihilo semetipsum ducens. Denique
+nobis multum rogantibus, ut aliquem sermonem ab
+eo aedificationis audiremus, vix impetrare potuimus,
+ut pauca nobis de mansuetudine loqueretur.</p>
+<p>Hic aliquando, cum bestia quaedam, quae hippopotamus
+appellatur, regionem illi proximam vicinamque
+vastaret, rogatus ab agricolis venit ad locum:
+et cum immanem belluam pervidisset, ait ad eam:
+Praecipio tibi in nomine Jesu Christi, ne ultra vastes
+hanc terram. Tum illa, quasi Angelo persequente,
+effugata, nusquam omnino comparuit. Simili modo
+etiam crocodylum ab eo alio tempore fugatum perhibebant.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT V. DE OXYRYNCHO CIVITATE. <hi>(Deest hoc caput in Palladio)</hi>.</head>
+
+<pb n="0408C"/>
+<p>Venimus autem et ad civitatem quamdam Thebaidis,
+nomine Oxyrynchum, in qua tanta religionis <emph>142</emph> 
+ deprehendimus bona, ut ea nemo digne valeat
+enarrare. Repletam namque eam monachis intrinsecus
+vidimus, et extrinsecus omni ex parte circumdatam.
+Aedes publicae (si qua in ea fuerant) et
+templa superstitionis antiquae, habitationes nunc
+erant monachorum, et per totam civitatem multo
+plura monasteria quam domus videbantur. Sunt autem
+in ipsa urbe, quia est ampla valde et populosa,
+<pb n="0409A"/>
+duodecim ecclesiae, in quibus publicus agitur populi
+conventus, exceptis monasteriis, in quibus per singula
+orationum domus sunt. Sed nec portae ipsae,
+nec turres civitatis, aut ullus omnino angulus ejus
+monachorum habitationibus vacat, quique per omnem
+partem civitatis, die ac nocte hymnos ac laudes
+Deo referentes, urbem totam, quasi unam Dei ecclesiam
+faciunt. Nullus enim ibi invenitur aut haereticus,
+aut paganus, sed omnes cives Christiani, omnes
+Catholici, ut nihil omnino differat, si Episcopus in
+platea orationem, aut in ecclesia faciat. Ipsi quoque
+magistratus et principales civitatis, et reliqui cives
+studiose per singulas portas statuunt, qui observent,
+ut sicubi apparuerit peregrinus aut pauper, certatim
+ad eum qui praeoccupaverit adductus, quae sunt necessaria
+<pb n="0409B"/>
+consequatur.</p>
+<p>De his autem qui erga nos, ab ipsis populis gesta
+sunt, videntibus transire nos per civitatem suam, et
+velut Angelis occurrentibus, atque honorem deferentibus,
+quomodo enarrem? Aut de ipsis monachis et
+virginibus, quorum innumerae multitudines (ut supra
+diximus) in illa urbe habentur? Requirentes
+enim a sancto Episcopo loci illius, viginti millia virginum,
+et decem millia monachorum inibi haberi comperimus.
+Quorum omnium affectum erga nos et honorem,
+quem exhibebant, vobis exponere, nec sermo
+sufficit, nec verecundia permittit, quomodo palliola
+nostra scinderentur, unoquoque nos sibi rapiente, et
+ad se adducere cupiente.</p>
+<p> <emph>143</emph> Vidimus quoque ibi plurimos sanctorum patrum
+<pb n="0409C"/>
+diversas Dei gratias habentes, alios in verbo
+Dei, alios in abstinentia, alios in signis et virtutibus
+ministrantes.</p>
+</div2>
+
+<div2>
+          <head>CAPUT VI. DE THEONE.</head>
+<p>Vidimus et alium <note>(Pallad., cap. 50.)</note> non longe
+ab urbe ad eam partem, quae mittit ad eremum, nomine
+Theonem, virum sanctum, intra cellulam suam
+clausum solitarium, qui perhibebatur triginta annis
+silentii habuisse continentiam: quique tam multas
+virtutes faciebat, ut Propheta apud illos haberetur.
+Conveniebat namque ad eum per dies singulos infirmorum
+plurima multitudo, ad quos ille per fenestram
+manum proferens, et uniuscujusque capiti superponens,
+<pb n="0409D"/>
+ac benedicens eos sanos ab omni aegritudine
+remittebat. Hic etiam ipso visu tam honorabilis erat,
+tantumque reverentiae gerebat in vultu, ut inter homines
+Angelus videretur: ita laetus oculis, et plenus
+totius gratiae apparebat.</p>
+<p>Huic cum parvum ante tempus, ut comperimus,
+noctu latrones supervenissent, aurum se apud eum
+inventuros credentes, oratione sola ita eos vinxit,
+ut foribus ejus affixi, movere se omnino non possent.
+Mane vero cum ad eum turbae more solito convenissent,
+<pb n="0410A"/>
+et viderent ad januas ejus latrones, volebant
+eos igni tradere. At ille rerum necessitate compulsus,
+unum eis solum locutus est verbum: Sinite, inquit,
+eos illaesos abire, alioquin gratia a me fugiet
+sanitatum. Populi vero, ut audierunt haec, contradicere
+non audentes, dimiserunt eos. Latrones vero videntes
+quod secum est gestum, abjecta scelerum voluntate,
+et praeteritorum multorum paenitudinem gerentes,
+ad monasteria vicina confugiunt, atque ibi
+emendatioris vitae formam modumque suscipiunt.</p>
+<p>Erat autem supradictus vir eruditus non solum
+Aegyptiorum et Graecorum lingua, sed etiam Latinorum,
+ut et ab eo ipso, et ab his qui ei aderant, didicimus.
+Sed et ipse revelare cupiens, et consolari
+peregrinationis nostrae laborem, in tabella scribens
+<pb n="0410B"/>
+ad <emph>144</emph> nos gratiam doctrinamque sui sermonis
+ostendit. Erat autem ejus cibus absque ignis opere.
+Dicebant autem, quod et noctibus ad eremum progrediens,
+comitatu uteretur plurimo eremi bestiarum.
+Ipse vero hauriens aquam de puteo suo, et praebens
+eis pocula, obsequii earum remunerabat laborem.
+Hujus autem rei manifestum dabatur indicium, quod
+vestigia bubalorum, caprarumque et onagrorum, circa
+ejus cellulam plurima deprehendebantur.</p>
+</div2>
+
+<div2>
+          <head>CAPUT VII. DE APOLLONIO.</head>
+<p>Vidimus et alium sanctum virum nomine Apollonium <note>(Pallad., cap. 52. dicitur Apollo.)</note>,
+apud
+Thebaidam, in finibus Hermopolis, ad quam civitatem
+<pb n="0410C"/>
+Salvatorem, cum Maria et Joseph de Judeae
+finibus venisse, tradunt, secundum Prophetiam
+Esaiae, dicentis: <hi>Ecce Dominus sedet super nubem
+levem, et veniet in Aegyptum, et commovebuntur manufacta
+Aegyptiorum a facie ejus, et cadent in terram <note>(Esai. 19.)</note>
+            </hi>.
+Vidimus ergo ibi etiam et templum ipsum,
+in quod ingresso Salvatore, corruisse omnia idola
+in terram, et comminuta esse, memorabant.</p>
+<p>Vidimus ergo supradictum virum, et in vicina
+eremo sub monte quodam habentem monasteria:
+erat enim pater monachorum circiter quingentorum,
+et famosissimus in omnibus Thebaidae finibus habebatur.
+Opera enim magna erant ei, et virtutes multas
+signaque plurima et prodigia faciebat per eum
+Deus. A pueritia namque in abstinentia nutritus. ubi
+<pb n="0410D"/>
+ad maturam pervenit aetatem, gratia Dei semper
+cum ipso crevit. Erat enim annorum fere octoginta,
+cum eum vidissemus in monasteriorum congregatione
+florentem: sed et ipsi qui videbantur ejus
+esse discipuli, ita perfecti erant, et magnifici, ut
+omnes paene possent signa facere. Quindecim ergo
+annorum secessisse eum ad eremum, ferebant, atque
+ibi cum quadraginta annis fuisset in exercitiis spiritualibus
+conversatus, aiebant vocem Dei ad eum delatam
+dixisse: Apolloni, per te perdam sapientiam
+<pb n="0411A"/>
+sapientium in Aegypto, et intellectum prudentium reprobabo. <emph>145</emph> 
+ Perdes autem mihi et eos qui inter
+ipsos sunt sapientes Babylonis, et omnem culturam
+daemonum subrues. Perges ergo nunc ad loca habitabilia:
+generabis enim mihi populum substantialem,
+et perfectum aemulatorem operum bonorum. At
+ille respondens ait: Aufer a me, Domine, jactantiam,
+ne forte elatus super fratres meos, cadam ab
+omnibus bonis tuis. Respondit ad eum rursus divina
+vox: Mitte manum tuam ad cervices tuas, et quod
+comprehenderis constringe, et sub arena obrue. At
+ille sine mora injecta manu ad cervices suas, apprehendit
+quasi parvulum quemdam Aethiopem, et continuo
+submersit eum sub arena clamantem et dicentem:
+Ego sum superbiae daemon. Post haec vox ad
+<pb n="0411B"/>
+eum facta est a Deo dicens: Perge nunc: omnia enim
+quaecumque a Deo poposceris, consequeris. Ille ergo
+post haec perrexit ad ea loca, in quibus homines habitabant.
+Temporibus autem Juliani tyranni haec fiebant.</p>
+<p>Fuit autem in locis illis spelunca quaedam eremo
+vicina, in qua habitare coepit, indesinenter die ac
+nocte orationibus vacans, easque centum (ut aiebant)
+per diem, totidemque noctis tempore curvans
+genua consignabat Deo. Cibo autem magis caelesti,
+quam humano utebatur. Indumentum ejus stupeum
+collobium erat, quod apud illos lebetes appellatur,
+et linteum quod collum et caput obvolveret. Quae tamen
+indumenta ferebant permansisse ei in deserto
+numquam veterata. Erat ergo in vicino eremi loco,
+<pb n="0411C"/>
+in virtute Spiritus degens, signa et sanitates miras
+efficiens, quas enarrare pro sui immensitate (sicut
+ab his qui cum ipso erant, senioribus comperimus)
+vox nulla sufficiet. Fama autem magnifica de eo pervulgata,
+cum in admiratione omnium quasi propheta
+aliquis aut Apostolus haberi caepisset, vicinis e regionibus
+monachi diversis ex locis conveniebant ad
+eum, et tanquam pio patri magna munera, suas singuli
+quique animas offerebant. At ille unumquemque
+eorum tota religione suscipiens, alios ad bene operandum,
+alios ad bene intelligendum provocabat: sed <emph>146</emph> 
+ et ipse prius ea ostendebat exemplis, quae verbis
+docere cupiebat. Aliis quidem diebus unumquemque
+apud semetipsum exercere abstinentiam, quam posset
+sinebat; die vero Dominica, gratia caritatis, secum
+<pb n="0411D"/>
+omnes cibum sumere hortabatur, cum tamen ipse
+solitis abstinentiae observationibus deserviret, herbis
+solummodo aut oleribus utens, nec usum, aut ministerium
+ignis admittens.</p>
+<p>Hic cum audisset, Juliani (ut supra diximus)
+temporibus fratrem quemdam militia comprehensum
+detineri in carcere, venit ad eum cum fratribus consolandi
+gratia, et ut moneret eum in necessitate tenere
+<pb n="0412A"/>
+constantiam, atque imminentia contemnere ac
+deridere pericula: Tempus enim, ait, certandi adest,
+in quo fidelium mentes tentationibus probandae sunt
+et noscendae. Cumque his et aliis verbis roboraret
+animos adolescentis, supervenit centurio, et indignatus
+est, cur introire ausus sit: claves extrinsecus
+carceris imposuit, ipsumque et omnes quicunque venerant
+pariter conclusit, quo scilicet etiam ipsi similiter
+ad militiae detinerentur officium: constituensque
+custodes quamplurimos, abscessit. Medio autem
+noctis astare visus est Angelus ingenti luce resplendens,
+et obstupefactis perterritisque custodibus, carceris
+claustra patefecit. Tunc vero ipsi custodes advoluti
+pedibus sanctorum, rogabant eos decedere,
+dicentes, melius sibi esse mori pro eis, quam divinae
+<pb n="0412B"/>
+virtuti obsistere, quae eorum curam gerebat. Mane
+vero etiam ipse centurio eum principalibus viris festinus
+ad carcerem venit, rogans ut discederent omnes
+qui teneri videbantur. Dicebat enim, domum
+suam terraemotu magno concidisse, et electos quosque
+famulorum suorum peremisse. Sancti vero, his
+auditis, hymnum Deo laudesque cecinerunt, et regressi
+ad eremum, erant in unum positi, secundum
+Apostolorum exemplum habentes animam unam et
+cor unum <note>(Act. 4.)</note>.</p>
+<p>Pater autem senior docebat eos, ut quotidie proficerent
+in virtutibus, et insidias diaboli, quas per
+cogitationes inferret hominibus, in initiis statim retunderent.
+Sic enim aiebat, [ <hi>Al.</hi> infringatur] confringatur <emph>147</emph> 
+ caput serpentis, et omne ejus corpus
+<pb n="0412C"/>
+emortuum reddetur. Ob id enim mandat nobis Deus
+observare caput serpentis, ut omnino statim ab initio
+nec recipiamus malas et sordidas cogitationes in
+corde nostro. Quanto ergo magis diffundi non convenit
+in sensibus nostris cogitationum phantasias,
+quas etiam initio recipi vetat? Sed et illud monebat,
+ut in virtutibus alter alterum vincat, nec patiatur
+se unusquisque inferiorem proximo suo fieri.
+Hinc autem, dicebat, scietis vos proficere in virtutibus,
+si nulla vobis passio fuerit erga mundana desideria.
+Hoc enim est initium donorum Dei. Quod si
+etiam ad hoc venerit quis vestrum, ut et signa et
+mirabilia faciat, non extollatur pro hoc, neque in
+cogitatione sua erigatur tamquam caeteris praelatus,
+sed nec hoc ipsum hominibus debet ostendere, quod
+<pb n="0412D"/>
+donum gratiae hujus acceperit, alioquin seducet seipsum,
+et ipse decipietur, et gratiam perdet.</p>
+<p>Habebat ergo hanc magnificam verbi Dei doctrinam,
+sicuti et nos ipsi ex parte fruiti sumus, sed
+majorem habebat in operibus gratiam. Omne enim
+quidquid petisset a Deo, sine mora consequebatur:
+sed et revelationes ei plurimae ostendebantur. Denique
+seniorem fratrem suum, qui et ipse in eremo
+<pb n="0413A"/>
+defunctus est, cum quo plurimo tempore egerat vitam
+perfectam, vidit in somnis in sede Apostolica
+residentem, atque unum ex ipsis effectum, haereditatem
+sibi virtutum et gratiae reliquisse. Cumque
+etiam pro semetipso oraret, ut velocius eum Dominus
+assumeret, et cum ipso sibi requiem praestaret
+in caelis, responsum est ei a Domino Salvatore, parum
+adhuc temporis debere eum conversari, donec
+vitae et conversationis ejus plurimi aemulatores existant:
+populos namque ei plurimos credendos esse
+monachorum, et exercitum quemdam piorum, ut per
+haec dignam pro talibus meritis remunerationem inveniat
+apud Deum. Haec autem ut vidit, ita gesta
+sunt. Convenerunt enim ex omni loco monachi, fama
+et doctrina ejus invitati, et praecipue exemplis ejus
+<pb n="0413B"/>
+quamplurimi saeculo abrenuntiantes, conventum
+quemdam magnificum fecerunt apud <emph>148</emph> eum in
+supradicto montis loco, communem vitam mensae
+unius unanimiter conservantes. Hunc ergo tamquam
+vere caelestem quemdam et angelicum cernebamus
+exercitum, in omnibus virtutibus adornatum. Nullus
+sane in eis sordidis utebatur indumentis, sed splendore
+vestium pariter atque animorum nitebant, ita
+ut etiam, secundum Scripturam, laetaretur eremus
+sitiens, et multi filii ejus viderentur in deserto. <note>(Esai. 35.)</note> 
+ Quae quamvis de Ecclesia dicta sint, tamen
+in Aegypti desertis, haec etiam historica relatione
+completa sunt. Ubi tantae per urbes multitudines
+veniunt ad salutem, quantas Aegypti deserta
+protulerunt. Quanti populi habentur in urbibus,
+<pb n="0413C"/>
+tantae paene habentur in desertis multitudines monachorum.
+Unde mihi videtur etiam Apostoli dictum
+in eis esse completum: <hi>Quod ubi abundavit peccatum,
+ibi superabundavit gratia <note>(Rom. 5.)</note>
+            </hi>. Abundavit enim
+aliquando immundus idolorum cultus in Aegypto,
+sicut in nullo umquam gentium. Canes enim et
+simias atque alia portenta venerati sunt. Allia quoque
+et caepas, et nonnulla olerum, Deos credebant,
+sicut ab ipso patre Apollonio narrante didicimus,
+caussam enim nobis priscae eorum superstitionis hoc
+modo exponente: Bovem quidem Deum crediderunt
+aliquando Aegyptii, pro eo quod per ipsum rura excolentes
+victum cibumque capiebant. Sed et aquam
+Nili, pro eo quod universas rigabat Aegypti regiones,
+venerabantur. Colebant quoque et terram, utpote
+<pb n="0413D"/>
+uberiorem caeteris terris. Canes etiam, ut supra
+diximus, et simias, ac diversa herbarum genera
+atque olerum colebant, pro eo quod occasionem sibi
+salutis per haec venisse opinabantur temporibus Pharaonis.
+Circa haec enim singula occupatio eis exorta
+videbatur, cum ille patres nostros persequens submersus
+est, et unusquisque id per quod occupari
+visus est uti ne Pharaonem sequeretur, hoc sibi reputavit
+Deum, dicens: Quia hoc mihi Deus fecit
+hodie, ut non sequerer Pharaonem, et simul cum eo
+demergerer.</p>
+<p>
+            <pb n="0414A"/>Haec ergo erant verba sancti Apollonii. Sed multo
+magis illa scribi oportet, quae in operibus et virtutibus
+habuit. Erant aliquando in circuitu ejus <emph>149</emph> 
+positi decem circiter Gentilium vici, apud quos daemoniaca
+superstitio summo studio colebatur. Templum
+enim erat ibi amplissimum, atque in eo simulacrum,
+quod moris erat circumferri a sacerdotibus
+bacchantium ritu, cum reliqua multitudine circumeuntibus,
+et quasi pro aquis pluvialibus profana mysteria
+pergentibus. Contigit autem sub eo tempore,
+quo hujusmodi ab eis orgia gerebantur, iter agere
+beatum Apollonium per ipsa loca, cum aliquantis
+fratribus. Et cum vidisset infelicium turbas, quasi
+daemone quodam agi, baccharique per campos, miseratus
+errorem eorum, fixis genibus invocavit Dominum
+<pb n="0414B"/>
+et Salvatorem nostrum, et omnes eos qui
+caerimoniis daemoniacis agebantur, cum simulacro
+suo stare fecit immobiles, ne progredi omnino usquam
+possent. Atque ita per totam diem rapidissimis
+adusti aestibus permanserunt, ignorantes unde eis
+haerere uno in loco immobiliter contigisset. Tunc
+sacerdotes eorum dicebant, esse quemdam Christianum
+in regionibus vicinae eremi commanentem,
+Apollonium nomine, et ipsius esse haec opera, qui
+nisi esset exoratus, sibi periculum permansurum. Ut
+autem ad rei tantae miraculum convenerunt undique
+qui audierant, et percontantes, quae tanti caussa existeret
+monstri, ignorare se penitus fatebantur: suspicionem
+tamen dari sibi dicunt supradicti viri, quem
+et exorari pro se deposcunt. Tunc quidam ex illis,
+<pb n="0414C"/>
+vere eos opinari aiunt; nam et vidisse se eum in illo
+itinere praetereuntem confirmabant, et tamen adhibere,
+quae putabant prodesse, auxilia non morantur.
+Adducunt boves, quorum virtute videretur posse moveri
+simulacrum. Sed cum nec sic quidem aliquid profecissent,
+omni auxilio frustrati, legatos ad hominem
+Dei mittunt, pollicentes, ut si eos resolvat his
+vinculis, pariter quoque erroris in eis vincula dissolveret.
+Haec ubi nunciata sunt ei, sine mora descendit
+ad eos, et oratione sola ad Deum fusa, omnes resolvit.
+At illi sine dilatione unanimiter omnes confugiunt
+ad eum, salutari Deo nostro credentes, et gratias
+referentes. Simulacrum vero quod erat ligneum,
+continuo tradunt igni. Ipsi autem secuti hominem
+Dei, atque edocti ab eo fidem Domini, Ecclesiae Dei
+<pb n="0414D"/>
+sociati sunt. Plurimi vero ex ipsis cum ipso <emph>150</emph> 
+permanserunt, et etiam nunc in monasteriis degunt.
+Facti tamen hujus mirabilis fama ubique diffusa est,
+et multi pro hoc ad fidem Domini convertebantur,
+ita ut in omnibus illis regionibus nullus jam poene
+Gentilium remanserit.</p>
+<p>Post aliquantum autem temporis, certamen erat
+de finibus inter duos vicos. Hoc cum nuntiatum fuisset
+homini Dei, festinans descendit ad eos pacis
+gratia. Sed illi furore contentionis incensi, nullo
+genere ad pacis consilium flectebantur, maxime
+<pb n="0415A"/>
+quod unius partis populus plurimum fiduciae in viribus
+cujusdam latronis gerebat, qui ipsius certaminis
+signifer videbatur. Hunc cum videret Apollonius paci
+resistentem, dicit ad eum: Si mihi, o amice, acquiescere
+volueris ad pacem, rogabo Deum meum, et
+remittet tibi peccata tua. At ille cum audisset, nihil
+omnino distulit, sed genibus ejus provolutus supplicabat
+ei. Tunc deinde conversus ad turbas, quae
+eum secutae fuerant, fecit omnes cum pace decedere.
+Quibus secedentibus, ipse permansit cum homine
+Dei, expetens ab eo promissum. Tunc vero Apollonius
+assumens eum, et cum ipso iter agens ad monasteria,
+docebat eum mutare debere ordinem vitae,
+et patienter a Deo quaerere misericordiam, promissionem
+ex fide exspectare, omnia enim possibilia
+<pb n="0415B"/>
+dicebat esse credenti <note>(Marc. 9.)</note>. Cumque noctis tempore
+simul in monasterio requievissent, per visum
+ambo vident se esse in caelis, et assistere ante tribunal
+Christi: vident etiam Angelos Dei, et Sanctos
+quosque adorantes Dominum: et cum haec videntes,
+etiam ipsi adorassent Deum, vox Dei defertur ad eos,
+dicens: Licet nulla sit communio luci et tenebris,
+nec sit aliqua portio fideli cum infideli <note>(I Cor. 6.)</note>;
+tamen donatur tibi salus istius, pro quo supplicasti,
+Apolloni. Sed et alia multa cum audissent in caelesti
+visione positi, quae neque sermo enarrare sufficit,
+neque auris audire, surrexerunt a somno, et quae
+viderant fratribus indicarunt. Admiratio autem ingens
+esse coepit, cum unum atque idem somnium
+uterque narraret. Permansit autem cum fratribus
+<pb n="0415C"/>
+latro ille jam sanctus, vitam suam moresque ad
+omnem innocentiam pietatemque commutans,
+tamquam in agnum conversus ex lupo, ut in eo
+plenissime compleri videretur prophetia Esaiae <emph>151</emph> 
+ dicentis: <hi>Lupi cum agnis pascentur, et leo et
+bos simul paleis pascentur <note>(Esai. 11.)</note>
+            </hi>. Vidimus ibi
+quosdam etiam gentis Aethiopum viros cum monachis
+viventes, et multos ex ceteris monachis in observantia
+religionis et virtute animi praecellentes, ut
+et in ipsis compleri videatur Scriptura, quae dicit: <hi>Aethiopia praeveniet manus ejus Deo 
+ <note>(Psal. 67.)</note>
+            </hi> </p>
+<p>Adhuc autem in gestis sancti Apollonii ferebatur
+hoc. Lis quodam tempore dicebatur exorta inter
+duos vicos, quorum unus Christianus, alter Gentilium
+fuit. Procedunt ex utraque parte armatorum
+<pb n="0415D"/>
+turbae plurimae. Accidit autem ut sanctus Apollonius
+superveniret. Cumque eos hortaretur ad pacem,
+quidam eorum qui inter Gentiles quasi caput erat et
+caussa belli illius, homo truculentus et ferus, obsistebat
+ei vehementer, dicens, non se permittere fieri
+pacem, usque ad mortem suam. Tunc ille: Fiat (inquit)
+<pb n="0416A"/>
+ut optas, nullus enim alius praeter te perimetur;
+sed et congruum honori tuo tibi sepulcrum fiet,
+non terra, sed bestiarum ac vulturum ventres. Et
+continuo sermo ejus efficitur verus, nullus enim alius
+ex utraque parte nisi solus ipse cecidit. Quem cum
+sub arena obruissent, mane regressi invenerunt a
+bestiis effossum laniatumque, atque a vulturibus devoratum.
+Cumque omnes admirationem habuissent,
+quod sermo hominis Dei ita fuisset impletus,
+conversi sunt omnes ad fidem Salvatoris Domini, et
+Apollonium prophetam Dei praedicabant.</p>
+<p>Sed et hoc nos non effugiat, quod ab eo primis adhuc
+diebus (quibus in spelunca habitare cum paucis
+fratribus coeperat) factum didicimus. Dies sanctus
+aderat Paschae, et cum solemnitas vigiliarum Sacramentorumque
+<pb n="0416B"/>
+intra speluncam fuisset expleta, atque
+ex his quae fuerant apud eos refectio pararetur
+(erant autem eis pauci tantummodo et sicci panes,
+atque olera ex his quae sale aspersa reponi apud eos
+solent), tum Apollonius fratres qui secum erant alloqui
+ita coepit: Si est in nobis fides, et vere fideles <emph>152</emph> 
+ sumus famuli Christi, petat unusquisque nostrum
+a Deo, si quid quasi in die festo sumere libenter
+habet. At illi ipsi potius (qui eos aetate et meritis
+praecelleret) haec a Deo poscenda permittunt,
+semetipsos inferiores hujus gratiae indicantes. Tum
+ille cum omni alacritate orationem fudit ad Deum:
+qua expleta, cum omnes respondissent, Amen: ecce
+repente ante fores speluncae astare vident homines
+quosdam sibi penitus ignotos, quique tam multas
+<pb n="0416C"/>
+copias rerum omnium, quae ad usus dumtaxat ciborum
+pertinent, detulerunt, ut neque tam multa, neque tam
+diversa, tam facile quisquam viderit. In quibus erant
+quaedam quae omnino in Aegypti regionibus nunquam
+visa sunt pomorum genera, et magnitudo incredibilis
+uvae, nuces, ficus, mala quoque punica, et
+ante tempus omnia, favi, atque mellis, et lactis copia.
+ Nicolai etiam ingentes, et panes calidi et mundissimi,
+qui tamen peregrinae esse viderentur provinciae.
+Viri vero qui haec detulerant, statim ut tradiderunt,
+quasi festinanter ad eum, a quo missi fuerant,
+redire cupientes, mox discedunt. Tum ipsi monachi
+gratias Domino referentes, ex his quae sibi fuerant
+delata, vesci coeperunt. Quorum copia tanta fuit,
+ut usque ad diem Pentecostem quotidie ministrata
+<pb n="0416D"/>
+sufficerent; certi quod haec sibi a Deo solemnitatis
+gratia missa sint.</p>
+<p>Comperimus etiam hoc, quod quidam ex fratribus,
+cui deerat humilitatis et mansuetudinis gratia,
+poposcit ab eo ut peteret a Domino, ut et sibi
+donaretur hoc munus: orante illo, tanta in eum
+<pb n="0417A"/>
+gratia mansuetudinis et humilitatis advenit, ut omnes
+fratres stuperent de tranquillitate animi ejus
+et modestia, in quo prius nihil horum viderant.</p>
+<p>Orta est aliquando fames apud Thebaidam. Scientes
+autem habitatores terrae illius, quod monachi, qui
+cum Apollonio Domino serviebant, frequenter etiam
+sine cibo per gratiam Domini pascebantur, omnes
+simul cum <emph>153</emph> uxoribus et filiis pergunt ad eum,
+cibum simul benedictionemque poscentes. At ille nihil
+dubitans, proferre coepit ex his, quae ad usum
+fratrum reposita erant, et dare singulis copiose.
+Cum vero tres solae panum sportae remansissent, fames
+autem populos vehementer urgeret, jubet proferri
+in medium sportas, quae solae superfuerant,
+unius diei victum monachis praebiturae, et in auditu
+<pb n="0417B"/>
+totius populi, qui famis necessitate confluxerat, elevatis
+ad Deum manibus ait: Numquid non valet manus
+Domini multiplicare haec? Sic dicit Spiritus
+Sanctus: Non deficiet panis in sportis his, donec
+satiemur omnes de frugibus novis: et ut plurimi ex
+his, qui tunc in praesenti fuerant, confirmabant,
+quatuor continuis mensibus nec cessatum est umquam
+erogari panis ex sportis, neque deesse potuit
+aliquando. Similiter autem et alio tempore fecisse
+eum de frumenti et olei specie perhibebant. Quibus
+virtutibus motus diabolus dixisse ad eum fertur:
+Numquid Helias es tu, aut alius aliquis Prophetarum
+vel Apostolorum, quod haec facere ausus es? At
+ille respondens ei, dixit: Quid enim? Nonne et Prophetae
+et Apostoli homines erant, qui nobis et fidem
+<pb n="0417C"/>
+suam et gratiam tradiderunt? Aut tunc Deus praesens
+erat, nunc vero absens est? Absit: Deus omnipotens
+est, et quae potest, semper potest. Si ergo Deus
+bonus est: tu, diabole, quare tam malus es? Haec,
+ut supra jam diximus, a senioribus, viris religiosis,
+et sanctis per eum gesta esse, fida narratione comperimus.
+Et quamvis eorum fidelis sit habenda relatio,
+majorum tamen fidem rerum per eum
+praestitit Dominus etiam hoc quod nos ipsi oculis
+nostris inspeximus. Plenas enim sportas panibus deferri
+vidimus ad vacuas mensas: et cum replerentur
+panibus mensae, atque ad omnem satietatem consumerentur,
+plenae nihilominus recolligebantur.</p>
+<p>Aliud quoque quod apud eum mirum vidimus, non
+silebo. Tres eramus nos fratres, cum venimus ad
+<pb n="0417D"/>
+eum, et ecce longe adhuc nobis positis ab ejus
+monasterio, occurrerunt nobis fratres, qui ab
+ipso ante triduum audierant de adventu nostro;
+occurrerunt autem nobis cum psalmis. Hoc enim
+est eis moris facere in adventu omnium monachorum.
+Et adorantes in facies suas usque ad terram,
+osculabantur nos, <emph>154</emph> atque ostendentes nos,
+sibi invicem dicebant: Isti sunt fratres, de quorum
+adventu ante triduum nobis pater Apollonius praedixerat,
+dicens, post triduum affuturos tres fratres
+de Jerosolymis venientes. Alii ergo ex fratribus praecedebant
+nos, alii sequebantur: utraque tamen turma
+psallebat. Ubi autem appropinquare jam coepimus,
+audita voce psalmi, etiam ipse sanctus Apollonius
+<pb n="0418A"/>
+procedit in occursum. Et ut vidit nos, statim
+prior adoravit usque ad terram, et surgens osculo
+nos suscepit. Ubi autem ingressi sumus monasterium,
+oratione prius (ut moris est) data, pedes nostros
+propriis manibus lavat, et caetera quae ad requiem
+corporis pertinent adimplevit. Haec autem facere ei
+moris erat omnibus adventantibus. Consuetudo autem
+erat apud eum, ut fratres qui cum ipso erant,
+non prius cibum sumerent, quam Communionem
+Dominicam perciperent circa horam diei nonam, et
+post hoc interdum sic usque ad vesperam permanebant,
+dum verbum Dei audientes, de mandatis Domini
+adimplendis sine intermissione docebantur.
+Post haec, jam cibo sumto, alii ipsorum ad eremum
+secedebant, per totam noctem Scripturas divinas
+<pb n="0418B"/>
+memoriter recolentes, alii in eodem loco ad quem
+convenerant permanebant, et usque ad lucem in
+hymnis et laudibus Dei pervigiles perdurabant,
+sicut et ego ipse praesens vidi. Aliquanti vero ex
+ipsis circa horam nonam, cum descendissent
+de monte, percepta gratia Domini statim discedebant,
+solo hoc spiritali cibo contenti: et hoc faciebant
+per plurimos dies. Supra modum autem laetitia
+et gaudium inerat eis, et tanta exultatio, quanta haberi
+ab ullo hominum non possit in terris. Nullus in
+eis tristis omnino inveniebatur, sed et si aliquis visus
+fuisset aliquantulum moestior, statim pater Apollonius
+caussam moestitiae perquirebat. Frequenter
+autem, etiam si aliquis occultare voluisset, ipse
+enuntiabat quid lateret in corde, ita ut is qui patiebatur
+<pb n="0418C"/>
+agnosceret. Monebat ergo eos dicens, non
+oportere prorsus inesse tristitiam his quibus salus
+in Deo est, et spes in regno caelorum. Tristentur, aiebat,
+Gentiles, et lugeant Judaei, plangant sine cessatione
+peccatores: justi vero laetentur. Nam si hi qui
+terrena diligunt, super fragilibus et caducis rebus
+laetantur; nos qui tantae <emph>155</emph> gloriae spem, et aeternitatis
+habemus exspectationem, cur non omni exultatione
+laetemur? Aut non et Apostolus nos ita monet dicens: <hi>Semper gaudete, sine intermissione orate, in omnibus
+gratias agite 
+ <note>(1. Thes. 5.)</note>
+            </hi>? Sed quis possit doctrinam
+ejus, et verborum gratiam sufficienter exponere?
+Unde silere de his melius censeo, quam parum
+digne proloqui.</p>
+<p>Multa enim nobis beatus Apollonius etiam secretius
+<pb n="0418D"/>
+de ratione abstinentiae, et conversationis integritate,
+multa etiam de hospitalitatis studio disserebat,
+et praecipiebat attentius, ut adventantes fratres
+quasi Domini suscipiamus adventum. Nam et adorari
+fratres adventantes, propterea (inquit) traditio habetur,
+ut certum sit in adventu eorum adventum
+Domini Jesu haberi, qui dicit: <hi>Hospes fui, et suscepistis
+me <note>(Matth. 25.)</note>
+            </hi>. Sic enim et Abraham suscepit
+eos qui homines quidem videbantur <note>(Gen. 18.)</note>, Dominus
+autem in eis intelligebatur. Interdum autem etiam
+contra voluntatem cogere fratres ad corporalem
+requiem, sancti Lot exemplum proponebat, qui Angelos
+vi compulsos ad hospitium domus suae perduxit <note>(Ibid. 19.)</note>.
+Sed et hoc monebat (ut si fieri
+<pb n="0419A"/>
+posset), quotidie monachi communicarent Mysteriis
+Christi, ne forte qui se longe facit ab his, longe fiat
+a Deo; qui autem frequentius haec suscepit, frequentius
+ipsum videatur suscipere Salvatorem, quia et
+ipse Salvator ita dicit: <hi>Qui manducat carnem meam,
+et bibit sanguinem meum, in me manet, et ego in eo <note>(Joan. 6.)</note>
+            </hi>.
+Sed et ipsa commemoratio Dominicae passionis,
+cum assidue fit a monachis, plurimum utilitatis
+eis confert ad exemplum patientiae. Sed et commonitio
+datur per haec, ut studeat unusquisque ita
+semper paratus inveniri, ne indignus Dominicis Mysteriis
+habeatur. Addebat autem his, quod etiam
+remissio peccatorum per haec credentibus detur.</p>
+<p>[ Jejunia sane legitima id est quarta et sexta
+feria, monebat non esse solvenda, nisi grandis
+<pb n="0419B"/>
+aliqua necessitas fieret, quia quarta feria Judas
+de traditione Domini cogitaverat, et sexta feria
+crucifixus sit Salvator. Videbitur ergo qui his diebus
+sine aliqua necessitate solvit statuta jejunia, vel cum
+tradente tradere Salvatorem, vel cum crucifigentibus
+crucifigere.] <emph>156</emph> Dicebat ergo, ut si forte in
+diebus supradictis supervenerit aliquis fratrum, si
+quidem ante horam nonam itineris caussa velit reficere,
+ponendam ei esse mensam soli: quod si nolit,
+non eum esse cogendum: communis namque hujus
+observantiae traditio est. Culpabat sane valde eos,
+qui vel comam capitis nutriunt, vel ferrum in collo
+circumferunt, vel aliquid tale, quod ad sustentationem
+hominum fieri videatur, gerunt. Certum est
+enim, inquit, quod isti ab hominibus laudem quaerunt,
+<pb n="0419C"/>
+et ostentationis caussa haec faciant, cum mandatum
+sit, etiam jejunia ipsa in occulto esse celebranda,
+ut Deo soli sint cognita, qui videt quod in
+occulto fit, et reddit in palam. Sed ut videtur, isti
+non sunt contenti ejus testimonio et remuneratione,
+qui videt in occulto, sed manifestari isti apud homines
+volunt <note>(Matth. 6.)</note>. Omnis enim abstinentiae ratio
+in occulto habenda est, et ut corpus jejuniis fatigetur,
+et tamen non apud homines jactantia, sed Domini
+retributio quaeratur.</p>
+<p>Haec et multa alia nobis de conversatione monachorum
+per totam disserens dierum septimanam, et
+fidem doctrinae gestorum suorum auctoritate confirmans,
+ubi proficisci coepimus ab eo, producens nos,
+aliquantulum monebat, dicens: Ante omnia, dilectissimi,
+<pb n="0419D"/>
+pacem habetote inter vos: nolite ab invicem
+separari. Tunc conversus ad fratres, qui simul cum
+eo producentes nos, aderant, dixit: Quis vestrum,
+fratres, promptus est deducere eos usque ad vicina
+patrum monasteria? Et cum paene omnes promptissime
+semetipsos obtulissent, et progredi nobiscum
+vellent, ipse sanctus pater Apollonius elegit ex omnibus
+<pb n="0420A"/>
+tres, qui et Graecam linguam [ <hi>Palladius interserit</hi> 
+et Romanam] et Aegyptiam bene nossent, ut
+sicubi necessarium fuisset, interpretarentur nobis,
+quique et in collocutionibus suis aedificare nos possent.
+Mittens ergo eos nobiscum praecepit, ne prius
+a nobis discederent, quam omnes patres, atque
+omnia quae vellemus monasteria videremus; quamvis
+omnes circuire nemo sufficiat. Benedicens ergo nos
+dimisit; atque in haec verba benedictionem dedit: <hi>Benedicat vos Dominus ex Sion, et videatis quae bona
+sunt Jerusalem, omnibus diebus vitae vestrae 
+ <note>(Psal. 127.)</note>
+            </hi>.
+<emph>157</emph> </p>
+        </div2>
+
+<div2>
+          <head>CAPUT VIII. DE AMMONE.</head>
+<p>Quae audivimus <note>(Pallad., cap. 52 circa finem)</note> de
+<pb n="0420B"/>
+Ammone quodam sancto viro, cujus etiam locum in
+quo habitaverat, vidimus in deserto, omittenda non
+credidi. Igitur digressi a beato Apollonio, cum progrederemur
+ad partem deserti contra Meridianum,
+vidimus per arenam vestigia tractus draconis ingentis,
+cujus tanta magnitudo apparebat, quasi trabes
+aliqua per arenam ducta videretur. Quod ut vidimus,
+ingenti terrore perculsi sumus. Fratres
+autem qui nos deducebant, hortabantur nos nihil
+omnino formidare, sed magis fiduciam capere, et per
+vestigium sequi draconem: Videbitis enim, inquiunt,
+quantum valeat fides, cum a nobis eum videritis
+extingui. Multos enim et dracones, et angues, et
+cornutas manibus nostris peremimus, sic enim
+scriptum legimus: Quia credentibus in se concedit
+<pb n="0420C"/>
+Salvator calcare super serpentes et scorpiones, et
+super omnem virtutem inimici <note>(Luc. 10.)</note>. Sed illis
+haec dicentibus, nos prae infidelitatis fragilitate magis
+magisque metuebamus, et rogabamus eos ne vellent
+sequi draconis vestigia, sed potius ut recto itinere
+pergeremus. Unus tamen ex ipsis alacritate impatiens
+insecutus est draconem. Et cum non longe invenisset
+ejus speluncam, clamabat nos ut iremus
+ad eum, et videremus exitum rei. Quidam tamen ex
+fratribus occurrit nobis, qui in vicina eremo habitabat,
+et prohibuit nos sequi draconem, dicens, non
+posse nos nec aspectum ejus tolerare, praecipue quia
+tale aliquid in usu non habuimus videndi: se vero
+dicebat frequenter vidisse ipsam bestiam vastitatis
+incredibilis, et habere in longitudine quindecim cubitos.
+<pb n="0420D"/>
+Cumque nos ad locum dehortatus esset accedere,
+ipse properans, fratrem qui illic nos opperiebatur
+paratus ad perimendam bestiam, abstraxit,
+secumque revocavit, et nolentem discedere nisi extingueret
+eam, multa prece deflexit. Qui cum venisset
+ad nos, ignaviam nostram infidelitatemque redarguit.</p>
+<p>
+            <pb n="0421A"/>Pervenientes autem ad cellulam illius, cum multa
+dilectione suscepti <emph>158</emph> ab eo requievimus. Ille
+vero narrabat nobis, quod in illo loco ubi ipse commanebat,
+quidam fuit vir sanctus, cujus ipse esset
+discipulus, Ammon nomine <note>(Pallad., cap. 53, dicitur
+Amun)</note>, per quem plurimas virtutes fecisset Dominus.
+Inter caetera igitur etiam hoc de eo narrabat.</p>
+<p>Frequenter, inquit, veniebant ad eum latrones
+panem, quo solo vescebatur, auferentes ei, et si quid
+erat quod ad victum suum continentissimum repositum
+videbatur. Cumque frequenter ab his molestiam
+pateretur, quadam die processit ad eremum, et inde
+rediens duos dracones ingentes secum comitari jussit,
+atque ad ostium monasterii sui manere eis praecepit,
+ingressumque servare. Veniunt ex more latrones, videntes
+<pb n="0421B"/>
+[ <hi>L.</hi> nescientes] qui essent custodes in limine,
+et ut viderunt dracones, exanimes et amentes effecti,
+obmutuerunt, et statim conciderunt. Quod ubi senior
+sensit, egressus invenit eos semineces, et accedens
+atque erigens, increpabat eos, dicens: Cernitis quantum
+vos duriores bestiis estis: illae enim nobis
+propter Deum obediunt, vos autem nec Deum timetis,
+nec vitam servorum Dei inquietare erubescitis. Verumtamen
+introducens eos in cellam, posuit eis mensam,
+et jubet ut perciperent cibum. Illi vero corde
+compuncti, et ab omni mentis suae immanitate conversi,
+multis qui prius Domino servire coeperant,
+in brevi meliores fiunt. In tantum enim per poenitentiam
+profecerunt, ut post non multum temporis,
+etiam ipsi eadem facerent signa, easdemque
+<pb n="0421C"/>
+virtutes.</p>
+<p>Alio praeterea tempore immanissimo quodam dracone
+vicinas vastante regiones, et plurimos perimente,
+venerunt habitatores loci illius ad supradictum
+patrem, orantes eum, ut de regionibus suis
+perimeret bestiam; simul etiam, ut ad misericordiam
+flecterent senem, puerum quemdam pastoris filium
+secum deferunt, qui solo visu draconis exterritus
+mente exciderat, et ab solo halitu bestiae exanimis
+portabatur ac turgens. Tunc ille puerum quidem
+perungens oleo, restituit sanum. Semetipsum vero
+ad necem draconis instigans, illis interim, quasi qui
+nihil eos posset juvare, promittere nihil voluit. Mature
+autem surgens abiit ad <emph>159</emph> digressus bestiae,
+et fixit genua sua in terram deprecans Dominum.
+<pb n="0421D"/>
+Tunc bestia cum ingenti impetu venire super eum
+coepit, teterrimis flatibus, ac sibilis stridoribusque
+praemissis. At ille nihil horum metuens, conversus
+ad draconem dixit: Perimat te Christus Filius Dei,
+qui perempturus est cetum magnum. Et ubi haec senior
+dixit, statim dirissimus draco omne simul cum
+spiritu evomens venenum, disruptus crepuit medius.
+Cum autem convenissent finitimi habitatores, et cum
+facto miraculo obstupescerent, foetoris vehementiam
+<pb n="0422A"/>
+non ferentes, congregaverunt super eum arenae moles
+immensas, astante tamen ibidem patre Ammone,
+quia nec sic quidem, cum mortua fuisset bestia, sine
+ipso appropinquare ei audebant.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT IX. DE COPRETE PRESBYTERO ET PATERMUTIO.</head>
+<p>Erat quidam presbyter, Copres nomine <note>(Pallad.,
+cap. 54)</note>, in ipsa eremo habens monasterium, vir
+sanctus annorum circiter octoginta, et ipse multas
+virtutes faciens, languores curans, et efficiens sanitates,
+sed et daemones fugans, et multa mirabilia
+faciens. Ex quibus nonnulla etiam in nostri praesentia
+effecit. Is ergo cum vidisset nos, et osculo salutasset,
+atque ex more post orationem etiam pedes
+<pb n="0422B"/>
+lavisset, requirebat a nobis, quae gererentur in saeculo.
+Nos autem rogabamus eum, ut ipse magis nobis
+de suis gestis aliqua narraret, et ex quibus actibus,
+quibusve meritis Dominus ei tantam gratiam contulisset,
+exponeret. At ille nihil dedignatus est, et suae
+vitae, et priorum suorum narrare nobis ordinem coepit,
+quos tamen longe illustriores fuisse perhibebat,
+seque ipsorum exempla vix parva sectari. Dicebat
+ergo: Nihil magni est, o filioli, quod in nobis videtis,
+ad comparationem sanctorum patrum.</p>
+<p>Erat enim quidam ante nos vir nobilissimus, Pater
+nomine Mutius Hic fuit primus in hoc loco monachus,
+et in omni hac eremo viam salutis omnibus
+nobis primus ostendit. Hic autem <emph>160</emph> primo Gentilis
+fuit, latronum maximus, et sepulcrorum violator,
+<pb n="0422C"/>
+atque in omnibus flagitiis opinatissimus; ad
+quem tali ex modo occasio salutis advenit. Nocte
+quadam ad domum cujusdam virginis Deo sacratae
+exspoliandi caussa perrexit, cumque machinis quibusdam,
+quae hujusmodi artificibus satis notae sunt,
+domus ejus tecta conscendisset, quaerens quali arte,
+vel quo aditu ad penetralia ejus irreperet, difficultate
+perpetrandi operis innexus, plurimum noctis tempus
+in tectis positus, sine ullo transegit effectu. Post
+multos vero animi conatus frustra adhibitos, veluti
+fessus, somno opprimitur, et per visum assistere sibi
+videt quemdam regio habitu, dicentem: Desine jam
+ab his flagitiis, et ab effusione humani sanguinis
+cessa, atque ab exsecrabilibus furtis ad laborem
+religiosum converte vigilias, et suscipe coelestem
+<pb n="0422D"/>
+angelicamque militiam, atque ex hoc jam animi virtutibus
+vive: et ego te hujus militiae ducem atque
+principem faciam. At ille cum gratulanter, quae sibi
+offerebantur, audisset, ostenditur ei exercitus monachorum,
+et principatum super eos jubetur tenere.
+In his evigilans, astantem videt sibi virginem, et
+requirentem, quis, aut unde, vel cur illuc advenisset.
+At ille quasi amens effectus, nihil ei respondit, sed
+tantum ut Ecclesiam sibi ostenderet rogat. Illa vero
+<pb n="0423A"/>
+cum intellexisset, esse in se aliquid operis divini
+hominem perducit ad Ecclesiam, ac Presbyteris offert.
+Ad quorum ille vestigia proruens, rogabat
+Christianum se fieri, et illico sibi poenitentiam dari.
+Presbyteri vero, qui cognoscebant virum hunc esse
+omnium flagitiorum principem, mirabantur si haec
+vera loqueretur. Et cum perseverantia ( <hi>sic</hi> ) sui fidem rei
+fecisset, monent eum, ut si haec vellet, illa penitus
+omitteret. Dehinc cum religionis initia suscepisset,
+orat sibi praecepta dari, quibus viam salutis deberet
+incedere. At illi tres ei primi Psalmi versiculos tradunt.
+Quibus ille diligenter consideratis, sufficere
+sibi ait eos ad viam salutis, et scientiam pietatis.
+Tribusque diebus permanens apud eos, ad eremum
+proficiscitur, <emph>161</emph> ubi plurimo tempore demoratus,
+<pb n="0423B"/>
+et die ac nocte in oratione cum lacrymis perdurans,
+cibum ex radicibus accipiebat herbarum.</p>
+<p>Regressus autem ad Ecclesiam, tres versiculos
+Psalmi, quos a Presbyteris perceperat, non solum
+verbis, sed et rebus atque operibus reddidit. Presbyteri
+vero mirabantur, quod subito conversus, acerrimam
+statim ingerit sibi abstinentiam: et instruentes
+eum plenius divinis Scripturis, hortabantur secum
+demorari. At ille ne videretur esse inobediens, unam
+apud eos exigens hebdomadam, rursus pergit ad
+eremum, atque ibi per septem continuos annos in
+omni abstinentia degens, plenitudinem gratiae consequitur
+a Domino, ita ut poene omnes Scripturas memoriter
+teneret. Panem vero Dominica tantum die
+sumebat: et hunc divinitus delatum. Nam cum oraret,
+<pb n="0423C"/>
+surgens ab oratione inveniebat panem positum,
+quem nemo hominum detulerat. Hunc ubi cum gratiarum
+actione sumsisset, sufficiebat usque ad alteram
+Dominicam diem.</p>
+<p>Post multum vero temporis iterum regressus a
+deserto, exemplo abstinentiae suae quamplurimos ad
+imitationem sui invitavit: inter quos accessit ad eum
+adolescens quidam, cupiens ejus esse discipulus. Cui
+ille cum habitum monachorum, hoc est lebetam,
+et cucullam, ac melotem, quae est caprina pellis,
+imposuisset, docere eum de caeteris monachorum
+institutionibus coepit. Multa tamen cum sollicitudine
+curabat, sicubi Christianorum quis fuisset defunctus,
+ut sepeliret eum. Quem cum vidisset adolescens ille
+discipulus suus summa cum diligentia mortuis indumenta
+<pb n="0423D"/>
+aptantem, dicit ad eum: Vellem, ut et me
+mortuum ita indueres ac sepelires, magister. At ille
+ait: Ita faciam, fili mi, et tam copiose te induam,
+donec dicas, Sufficit. Post non multum vero temporis
+defunctus est adolescens, et praedictus sermo completur.
+Cum enim plurima ei circumdedisset indumenta,
+ait ad eum coram omnibus: Sufficiunt tibi
+haec ad sepulturam, filiole, an adhuc vis, ut aliquid
+addamus? Tunc defunctus vocem cunctis audientibus
+emisit, obvelata jam facie, vultuque constricto, et
+dixit: <emph>162</emph> Sufficit, pater, implesti quod promiseras.
+Obstupuerunt autem, qui praesentes aderant, et
+<pb n="0424A"/>
+admirati sunt valde super tam mirabili facto ejus. At
+ille, sepulto adolescente, continuo ad eremum rediit,
+summo studio jactantiam declinans.</p>
+<p>Quodam autem tempore iterum de eremo venit ad
+visitandos fratres, quos ipse instituerat. Et cum
+quidam ex eis in extremis ageret, revelatum est ei
+a Domino, quod esset moriturus. Hora autem jam
+erat ad vesperam declinans: festinabat ergo, ut eum
+videre posset. Vicus autem ubi decumbebat aeger,
+longo adhuc aberat spatio, et nolens noctu introire
+vicum, simul et Salvatoris sermonem intra semetipsum
+meditans, quo dixit: <hi>Ambulate, dum adhuc lucet,
+ne vos tenebrae comprehendant <note>(Joan. 12.)</note>
+            </hi>, et, <hi>Qui ambulat
+in luce, non offendit <note>(Joan. 11.)</note>
+            </hi>. Et cum videret
+jam solem demergi, ait ad eum: In nomine Domini
+<pb n="0424B"/>
+nostri Jesu Christi sta paulisper in itinere tuo, et exspecta
+me donec ad vicum perveniam. At ille cum
+aliqua jam mergi coepisset ex parte, restitit, nec prius
+occubuit, quam homo Dei perveniret ad vicum. Hoc
+autem manifestum factum est omnibus illis qui ibidem
+consistebant. Stantes enim et intuentes moras
+solis in occasum, mirabantur omnes quid sibi vellet
+hoc, quod tot horis in occasum suum non descenderet
+sol. Videntes autem Patrem-Mutium de eremo
+venientem, quaerebant ab eo, quid hoc esset signi,
+quod ostenderat sol. At ille respondit eis: Non meministis
+vocem Domini et Salvatoris nostri dicentem: <hi>Si habueritis fidem sicut granum sinapis, majora horum
+signa facietis 
+ <note>(Matth. 17.)</note>
+            </hi>? At illi cum intellexissent,
+ad ejus fidem solem stetisse, timore magno
+<pb n="0424C"/>
+exterriti sunt, plurimique eorum junxerunt se ei
+discipulos, et sequi eum coeperunt. Cum ergo ingressus
+fuisset domum illius fratris, pro quo festinaverat,
+et invenisset eum jam defunctum, oratione
+facta, accedens ad lectulum, osculatus est eum, et
+ait: Quid magis desiderii habes, frater, abire, et
+esse cum Christo, an permanere in carne? Tunc ille,
+recuperato spiritu, paululum resedit, et ait ad eum:
+Quid me revocas, pater? melius enim est mihi redire,
+et esse cum Christo: permanere <emph>163</emph> autem in
+carne, mihi necessarium non est: cui dixit: Dormi
+ergo in pace, fili, et ora pro me. At ille continuo
+reclinans se in lectulo, dormivit. Hi autem qui aderant,
+obstupuerunt, dicentes: Vere Dei homo est
+hic. Tunc ille induit adolescentem, ut sibi moris
+<pb n="0424D"/>
+erat, satis decore, et totam noctem psalmis hymnisque
+pervigilem ducens, honeste juvenem tradidit sepulturae.</p>
+<p>Alium autem fratrem cum visitasset decumbentem,
+ubi vidit eum quietem mortis difficulter accipere,
+et graviter conscientiae suae metu redargui,
+ait ad eum: Cur imparatus es, fili, ad profectionem?
+accusatrix, ut video, ignaviae tuae tecum pergit conscientia.
+Tunc ille exorabat eum, dicens: Obsecro te,
+pater, intercede pro me apud Deum, ut mihi parvi
+temporis spatium largiatur, quo possim emendare
+vitam meam. At ille dixit ad eum: Nunc spatium
+<pb n="0425A"/>
+poenitentiae requiris, ubi vitae tempus implesti? Quid
+faciebas in omni hoc vitae tuae tempore? Non potuisti
+vulnera tua curare? Quinimo et recentiora
+semper addebas. At ille cum permaneret exorans,
+ait ad eum senex: Si ultra non addas malis tuis mala,
+orabimus pro te Deum. Bonus est enim et patiens,
+et indulget tibi parum aliquid temporis vitae, ut omnia
+debita tua persolvas. Et cum post haec orasset
+Deum, surgens de oratione, ait ad eum: Ecce tres
+annos Dominus tibi concessit in hac vita; tantum,
+ut ex animo ad poenitentiam convertaris. Et apprehensa
+manu ejus, elevavit eum de lecto. At ille surgens,
+sine aliqua dilatione secutus est eum in desertum.
+Et ubi completi sunt tres anni, postea revocabat
+eum ad locum unde eum assumserat, jam non
+<pb n="0425B"/>
+quasi hominem, sed quasi Angelum ex homine Deo
+consignans, ita ut omnes mirarentur de conversatione
+ejus. Cumque convenissent ad eum fratres
+plurimi, statuit eum in medio, atque ex ipso materiam
+sumens, per totam noctem doctrinam de fructibus
+poenitentiae et conversionis ejus produxit ad
+fratres. Ipso vero sermonem faciente, quasi dormitare
+frater ille coepit paululum, et continuo in perpetuum
+quievit. Tunc facta oratione super eum, et omnibus
+quae ad sepulturam pertinent ex more completis, ad
+eremum properanter abscedit.</p>
+<p>Frequenter autem et Nilum fluvium hunc immanem
+pedibus transivit, <emph>164</emph> aquam usque ad genua
+habens.</p>
+<p>Alio tempore clausis ostiis, fratribusque in superioribus
+<pb n="0425C"/>
+solariis sedentibus, ipse ingressus est ad eos,
+et frequenter ad quemcumque locum voluit, quamvis
+longe positum, intra momentum temporis evectus
+est.</p>
+<p> Nam primo adhuc tempore conversionis suae
+cum esset in eremo, et hebdomadam jejunasset,
+aiunt, occurrisse ei hominem in deserto, habentem
+panes et aquam, qui exhortatus est eum
+accipere cibum, qui de coelo ei fuerat destinatus.</p>
+<p>In alio quoque tempore daemon assistens, thesauros
+auri plurimos, quos Pharaonis fuisse perhibebat,
+ostendit ei sub terram demersos. Cui respondisse
+fertur Patermutius: <hi>Pecunia tua tecum sit in interitum
+et perditionem <note>(Act. 8.)</note>
+            </hi>. Haec ergo, et his similia
+plurima effecit per eum Dominus.</p>
+<p>
+            <pb n="0425D"/>Sed et alii nihilominus fuerunt ante nos multi patres,
+quorum praesentia dignus non fuit mundus, signa
+coelestia et prodigia facientes. Quid ergo miramini,
+si nos parvi homines parva faciamus, claudos et
+caecos curantes, quod et medici ex arte facere possunt?</p>
+<p>Et cum haec nobis <note>(Pallad. cap. 54.)</note> senex Copres
+enarraret, unus ex fratribus nostris, quasi incredulitate
+eorum quae dicebantur, taediare coepit, et
+prae taedio dormitare. Cumque somno fuisset oppressus,
+<pb n="0426A"/>
+vidit per visum librum aureis litteris scriptum
+in manibus senis Copretis, ex quo narratio ejus
+deduci videbatur, et assistentem quemdam clarissimi
+aspectus virum, canitie venerandum, comminatione
+sibi magna dicentem: Cur non audis intente quae
+recitantur, sed incredulus dormitas? At ille conturbatus
+evigilat, et statim nobis secretius Latino sermone
+quae viderat enarrabat.</p>
+<p>Inter haec autem vidimus rusticanum quemdam
+accessisse ad ostium senis, habentem vas arena plenum,
+et exspectantem donec senex sermonem suae
+narrationis expleret. Nos ergo videntes eum, interrogavimus
+Presbyterum, quid sibi vellet rusticanus
+ille stans, et arenam tenens in vase. Respondit ad
+nos senior, dicens: Non quidem oportebat me, o filioli,
+<pb n="0426B"/>
+hoc vobis prodere, ne videamur in Dei opere
+gloriari, et merces laboris nostri pereat; tamen pro
+aedificatione vestra et utilitate, qui tam longo itinere
+venistis ad nos, non patiar etiam hoc abscondi a vobis,
+sed enarrabo opera Domini, quae dignatus est
+implere per nos.</p>
+<p>Terra regionis hujus, quae in vicino <emph>165</emph> nobis
+posita colitur, sterilis valde et infructuosa fuit ita,
+ut si quando a colentibus semina ex necessitate suscepit,
+duplicata vix redderet. Vermes enim quidam
+nascebantur in ipsis germinum culmis, et ascendentem
+segetem succidebant. Erant enim agricolae loci
+ipsius Gentiles. Hos cum docuissemus Deum credere,
+et fidem Christi recipere, Christiani jam facti
+veniunt ad nos, rogantes ut oraremus Dominum pro
+<pb n="0426C"/>
+segetibus ipsorum. Et cum diceremus eis, nos quidem
+oraturos, sed fidem ipsorum requiri apud Deum,
+quae hoc percipere mereatur; illi ex arena hac quae
+calcatur a nobis, sinus suos replentes obtulerunt nobis
+rogantes, ut in nomine Domini benediceremus.
+Et ego aio ad eos: Secundum fidem vestram fiat vobis.
+Tunc illi auferentes arenam secum, miscuerunt
+seminibus quae seminaturi erant, et sparserunt per
+agros suos, et tantum fructum collegerunt, quantum
+nulla usquam potuit Aegypti terra colligere. Ex eo
+ergo consuetudo est eis, bis per annos singulos venire
+ad nos, et eadem exspectare a nobis.</p>
+<p>Sed et illud non celabo a vobis, quod mihi Dominus
+ad gloriam nominis sui praestitit. Descenderam
+aliquando ad civitatem, et inveni ibi virum quemdam
+<pb n="0426D"/>
+doctorem Manichaeorum seducentem populos:
+cum hoc habui conflictum sermonis. Sed quia erat
+versutus nimis, et concludere eum verbis non poteram,
+veritus ne auditorum turbae laederentur, si ille
+quasi superior abscessisset in verbis, audientibus
+turbis, dixi: Accendite ignem plurimum in medio
+plateae, et ambo intremus in flammam: si quis nostrum
+ex ea non fuerit adustus, hujus vera fides esse
+credatur. Quod cum dixissem, valde placuit populo,
+et continuo ignis accenditur plurimus. Tunc ego apprehendens
+<pb n="0427A"/>
+eum, coepi mecum pertrahere ad ignem.
+Et ille non, inquit, ita; sed unusquisque nostrum
+singulariter ingrediatur: primus tamen tu debes intrare,
+qui hoc proposuisti. Et ego in nomine Christi
+consignans memetipsum, medias flammas ingressus
+sum; flamma vero huc illucque dispergi ac fugere
+penitus a me coepit. Steti <emph>166</emph> in medio ignis dimidia
+fere hora, et in nomine Domini in nullo penitus
+laesus sum. Videntes autem populi cum ingenti admiratione
+acclamaverunt, et benedixerunt Deum,
+dicentes: <hi>Mirabilis Deus in sanctis suis <note>(Psal. 67.)</note>
+            </hi>.
+Coeperunt etiam perurgere Manichaeum, ut introiret
+in ignem: at ille reluctari coepit, et subtrahere
+se. Tunc comprehendentes eum turbae injecerunt in
+medium ignis, et statim circumdans eum flamma, atque
+<pb n="0427B"/>
+adurens semiustum reddidit. Et illum quidem
+cum dedecore ex urbe populus ejecit, clamans et dicens:
+Vivus ardeat seductor. Me vero assumentes
+secum, et benedicentes Dominum, ad ecclesiam perducunt.</p>
+<p>Alio quoque tempore dum transirem juxta templum
+quoddam, vidi ibi sacrificare Gentiles, et aio
+ad eos: Cur vos cum sitis homines rationabiles, immolatis
+mutis et insensibilibus simulacris? Nonne
+enim vos multo magis sine sensu estis, quam illi
+quibus immolatis? Ad hunc sermonem Dominus aperuit
+eis intellectum, et relinquentes errorem suum
+quem agebant, secuti sunt me, et crediderunt Salvatori
+nostro Deo.</p>
+<p>
+            <pb n="0427C"/>Fuit mihi aliquando hortulus monasterio vicinus,
+in quo propter adventantes fratres olera colere videbamur.
+Quidam autem Gentilis ingressus est nocte,
+et furatus est olera. Quae cum pertulisset ad domum
+suam, igni apposuit ut coqueret. Cumque tribus horis
+continuis ingenti igne suggesto, neque fervere,
+neque molliri, aut calefieri aliquatenus potuissent,
+sed permansissent eadem viriditate qua missa sunt,
+et neque aqua quidem ipsa vel leviter calefieri potuisset,
+in semetipsum regressus ille qui furatus est,
+erepta rursus de foco olera reportabat ad nos, et prosternens
+se ante pedes nostros rogare coepit, ut peccati
+sui veniam mereretur, et fieret Christianus; quod
+et impetravit.</p>
+<p>Accidit autem eadem die hospites venire ad nos plurimos
+<pb n="0427D"/>
+fratrum, quibus opportune olera ipsa parata
+sunt: gratias ergo referentes Domino pro mirabilibus
+suis, duplicem laetitiam gessimus, et pro salute
+hominis, et pro beneficiis divinis.
+<emph>167</emph> </p>
+        </div2>
+
+<div2>
+          <head>CAPUT X. DE SYRO ABBATE, ISAIA, PAULO, ET ANUPH.</head>
+
+<pb n="0428A"/>
+<p>Addebat et adhuc <note>(Pallad. cap. 55. 56. 57. 58.)</note> 
+etiam haec: Abbas, inquit, Syrus, aliquando, et
+Isaias, et Paulus occurrerunt sibi invicem ad ripam
+fluminis. Erant autem viri isti justi, summae abstinentiae
+et totius religionis. Hi pergebant visitare
+quemdam nomine Anuph. Aberat autem monasterium
+ad quod ibant mansionibus tribus. Cum ergo
+vellent transire fluvium, nec esset copia transmeandi,
+aiunt inter semetipsos: Petamus a Domino gratiam,
+ut ne impediatur nobis boni operis iter. Et conversi
+ad abbatem Syrum, Tu, aiunt, praecipue pete
+a Domino: scimus enim audiri te, quia praestabit
+<pb n="0428B"/>
+tibi quae petes. At ille cohortatus etiam ipsos secum
+genua figere, in oratione prostravit se in faciem coram
+Domino. Et cum completa oratione, surrexissent,
+ecce vident appelli navigium ad ripam fluminis
+paratum, ad iter quod acturi erant expeditum.
+Hoc ascendentes adversus fluminis cursum ita velociter
+ferri ceperunt, ut inter horam unam, totius
+itineris (quod acturi per triduum erant) conficerent
+spatium. Cumque applicuissent ad terram, Isaias ait:
+Dominus mihi ostendit virum ad quem properamus,
+occurrentem nobis, et uniuscujusque nostrum secreta
+cordis aperientem. Sed Paulus ait: Et mihi ostendit
+Dominus, quod post triduum educat eum de hoc
+mundo.</p>
+<p>Cum ergo iter, quod ducit ad monasterium, de
+<pb n="0428C"/>
+flumine incedere coepissent, progressique essent
+paululum, occurrit eis supradictus vir, ad quem visitandum
+pergebant, et salutans eos ait: Benedictus
+Dominus, qui vos mihi et nunc in corpore, et ante
+jam ostendit in spiritu. Et tunc coepit de uniuscujusque
+eorum meritis, quae habebant apud Deum,
+atque actibus memorare. Tunc Paulus ait, Quoniam
+et nobis Dominus ostendit, quod post triduum te de
+hoc mundo assumat, petimus a te, ut etiam de tuis
+nobis virtutibus et actibus, quibus Domino placuisti,
+enarres, nec verearis jactantiae notam. Abscessurus
+enim de hoc mundo, ad imitationem posteris gestorum
+tuorum memoriam derelinque. Tunc ille, Nihil,
+inquit, magnum fecisse memini, hoc tamen custodivi,
+ex quo nomen Salvatoris nostri in persecutione confessus
+<pb n="0428D"/>
+sum, ne <emph>168</emph> post confessionem veritatis
+mendacium de ore meo procederet, neque post amorem
+caelestium terrenum aliquid amarem, sed nec
+gratia Domini in his defuit mihi. Numquam enim me
+fecit egere aliquo terreno, omnem quem desideravi
+<pb n="0429A"/>
+cibum, Angelorum mihi deferens ministerio. Nihil a
+me occultavit Dominus eorum quae geruntur in terris:
+numquam defuit cordi meo lux ejus, per quam
+suscitatus somnum corporis non requirebam, desiderium
+habens semper videndi eum. Sed et Angelum
+suum assistere mihi semper fecit, edocentem
+me de singulis quibusque virtutibus mundi. Lux
+mentis meae numquam extincta est. Omne quod petii
+a Domino, sine mora consecutus sum. Ostendit mihi
+frequenter multitudines Angelorum assistentium
+sibi; vidi et coetus justorum, congregationesque martyrum,
+monachorum conventus, omniumque Sanctorum,
+eorum dumtaxat, quorum opus non est aliud,
+nisi laudare semper et benedicere Dominum in simplicitate
+cordis et fidei. Vidi econtrario Satan, et
+<pb n="0429B"/>
+angelos ejus aeternis ignibus tradi, et rursus justos
+aeterna laetitia perfrui. Cumque haec et multa alia his
+similia per totum triduum enarrasset eis, tradidit spiritum.
+Et continuo vident ipsi ab Angelis suscipi
+ejus animam, atque ad caelos ferri, ita ut vocem
+hymnorum audirent etiam ipsi, quibus una cum Angelis
+anima ejus abscedens Dominum collaudabat.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XI. DE HELENO.</head>
+<p>Fuit et alius vir sanctus, Helenus nomine <note>(Palladio
+cap. 59. Hellen dicitur)</note>: hic a pueritia in servitio
+Domini, cum omni continentia et castissimis institutionibus
+enutritus, ad summa merita pervenerat. Denique
+cum adhuc puer esset in monasterio, si necessarius
+fuisset ignis, ut e vicino peteretur, ardentes
+<pb n="0429C"/>
+prunas vestimento ferebat illaeso. Quod admirantes
+omnes qui aderant fratres, studium animi
+vitaeque ejus ac meriti imitari cupiebant. Huic quodam
+tempore cum solus esset in eremo, desiderium
+vescendi mellis exortum est: et conversus vidit in
+saxo favum mellis inhaerentem, et intelligens inimici
+hanc esse fallaciam, continuo semetipsum increpans,
+ait: Discede a me, deceptrix et illecebrosa
+concupiscentia. Scriptum est enim, <hi>Spiritu ambulate,
+et concupiscentias carnis ne perfeceritis <note>(Gal. 5.)</note>
+            </hi>. Et
+statim derelinquens etiam locum <emph>169</emph> ipsum, discessit,
+et abiit in desertum, atque ibi tamquam pro
+concupiscentia carnis punienda, jejuniis semetipsum
+coepit affligere. Tertia autem septimana jejunii sui
+videt in deserto jacere diversa poma sparsa: et intelligens
+<pb n="0429D"/>
+dolos inimici, ait: Non manducabo, neque
+contingam, ne fratrem meum, hoc est animam meam
+scandalizem. Scriptum est enim, <hi>Quia non in cibo
+solo vivit homo, sed in omni verbo Dei <note>(Matth. 4.)</note>
+            </hi>.
+Cumque et sequenti septimana jejunaret, paululum
+in somno deductus est, et ecce Angelus Domini
+astitit ei per visum, dicens: Surge jam, et quae tibi
+apposita inveneris, nihil dubitans vescere. Surgens
+autem, vidit aquae fontem lenibus repletum fluentis,
+ejusque ripas in circuitu herbis quibusdam teneris
+odoratisque praetextas. Et accedens decerpere coepit
+<pb n="0430A"/>
+et edere, similiter et ex fonte poculum sumere.
+Confirmabat autem, se numquam in omni vita sua
+tantae dulcedinis aliquid et tantae suavitatis hausisse.
+Invenit autem in ipso loco etiam speluncam quandam,
+intra quam aliquandiu requievit. Et cum reficiendi
+corpusculi tempus et necessitas adfuisset, per
+Dei nihilominus gratiam, nihil deerat eorum quae
+poscebat a Domino.</p>
+<p>Quodam vero tempore pergebat ad visitandos fratres
+incommodos, quibus etiam quae necessaria erant
+ad refectionem corporis deferebat. Et cum in itinere
+eorum quae portabat onere gravaretur, vidit eminus
+onagros transire per desertum, et exclamavit, dicens:
+In nomine Domini nostri Jesu Christi, veniat
+huc unus ex vobis, et suscipiat sarcinam meam. Et
+<pb n="0430B"/>
+ecce unus ex omni grege, tota cum mansuetudine
+pergit ad eum. Tunc ille praebenti se sponte, et onus
+imponit, et ipsi insedit, et cum omni velocitate ab
+eo ad cellulas fratrum, quo pergebat, evectus est.</p>
+<p>Alio rursus tempore Dominica die venit ad quoddam
+monasterium fratrum, et cum vidisset eos non
+agentes solemnitatem diei, caussam requirit. Cum
+autem dixissent, pro eo quod Presbyter non adesset,
+qui trans flumen maneret: propter metum enim crocodili
+transire nullus audebat. Tunc ille dixit: Si vultis,
+ego vadam, et adducam eum ad vos. Et continuo
+ad ripam fluminis pergit: ubi cum nomen Domini
+invocasset, praesto fuit bellua, et quae solebat adesse
+ad perniciem hominum, adfuit tunc ad vehiculum
+justi, tergo quoque suo suscipiens <emph>170</emph> eum, cum
+<pb n="0430C"/>
+omni metu subjecta, usque ad partem ripae ulterioris
+evexit. Adiit continuo Helenus Presbyterum, et
+exorare eum coepit, ut veniret ad fratres: erat enim
+indutus vilissimo et abjectissimo indumento. Super
+quo miratus Presbyter, quis aut unde esset, vel quid
+sibi vellet, inquirit. Ubi vero cognovit esse hominem
+Dei, sequi eum coepit ad flumen. Et cum caussaretur
+non inveniri navigium, quo transiri posset, tunc
+abbas Helenus dixit ad eum: Nihil verearis, pater;
+ego jam nunc parabo vehiculum. Et exclamans voce
+magna, adesse bestiam jubet. Quae statim voce ejus
+audita affuit, ac dorsum suum ad vehendum placide
+praeparavit: prior ipse conscendens invitat et presbyterum,
+dicens: Ascende, nihil formidans. At ille,
+visa bellua, exterritus, retrocedere ac refugere caepit.
+<pb n="0430D"/>
+Omnes autem qui aderant, stupor ingens et metus
+apprehendit, videntes hominem Dei crocodilo
+evectum fluminis alveum transmeare. Qui ubi descendit,
+secum pariter in sicum educit etiam belluam,
+dicens ad eam: Melior est tibi mors, quam tot
+scelerum et tot homicidiorum involvi reatu. At ille
+statim corruens exspiravit.</p>
+<p>Interea per triduum in monasterio sanctus Helenus
+permanens, docebat fratres spiritalem doctrinam,
+ita ut etiam nonnullorum cogitationes cordis, et secreta
+consilia proferret in medium, et alium quidem
+<pb n="0431A"/>
+proderet spiritu fornicationis urgeri, alium spiritu
+iracundiae, alium vero cupiditate pecuniae, nonnullos
+ autem jactantiae ac spiritu superbiae illudi. Alterius
+vero mansuetudinis, alterius justitiae, alterius
+patientiae testimonium dabat, et sic ex utraque parte
+aliorum vitia, aliorum virtutes animi exaggerans, ad
+omnes eos profectus mirabiliter excolebat. Agnoscentes
+vero singuli quique, ita agi inter semetipsos,
+ut ille annuntiaverat, corde compuncti emendabantur.
+Profecturus autem ait ad eos: Praeparate olera ad
+adventum fratrum. Et illis praeparantibus, continuo
+supervenerunt fratres, quibus honorifice susceptis,
+ipse contendit ad eremum.</p>
+<p>Rogabat autem eum quidam de fratribus, ut
+permitteret eum secum degere in eremo. Cumque
+<pb n="0431B"/>
+respondisset ei, grave esse negotium et plurimum
+laboris, obsistere tentationibus daemonum;
+eo contentiosius juvenis persistebat, promittens
+se cuncta tolerabiliter perlaturum, tantum <emph>171</emph> 
+ ut praeberet ei copiam consortii sui. Et cum
+permisisset, secutus est eum ad eremum, quem
+ille in vicina sibi spelunca habitare jubet. Tunc daemones
+advolant per noctem: primum foedis et turpibus
+eum cogitationibus exagitant, post haec vero
+etiam violenter irruere et necare eum aggrediuntur.
+Effugiens autem juvenis, et pervolans ad cellulam
+sancti Heleni, quibus malis urgeretur, exponit. Tunc
+senior consolatus est eum paucis verbis, et de virtute
+fidei ac patientiae commonens, statim revocat
+ad speluncam, de qua effugerat, et tamquam sulcum
+<pb n="0431C"/>
+quemdam per arenam extra cellulam juvenis, digito
+suo ducens, praecepit in nomine Domini, ne audeant
+daemones statutum transgredi limitem: et ita verbi
+ejus virtute adolescens permansit de reliquo securus.</p>
+<p>Ferebatur de eo, quod et ipse adolescens in eremo
+positus, coelestes saepe percepisset cibos, et fratribus
+ad se venientibus, cum nihil habuisset quod apponeret,
+affuisse quemdam adolescentem panes ei
+et quae erant necessaria deferentem, eaque cum ante
+speluncam ejus deposuisset, ultra nusquam comparuisse;
+dixisse vero eum ad fratres: Benedicamus
+Dominum, qui praeparavit nobis mensam in deserto.</p>
+<p>Haec, et alia plurima de sanctorum Patrum vita et
+conversationibus enarrans nobis pater Copres, et
+<pb n="0431D"/>
+cum omni affectu instruens; post aedificationem
+vero sermonum, introducit nos in hortulum suum,
+ostendit nobis arbores palmarum, aliorumque pomorum,
+quas ipse plantaverat, et dicebat: Haec me
+in eremo plantare rusticanorum fides admonuit. Ut
+enim vidi eos tantam fidem habere, ut arenam sub
+nostris vestigiis colligentes, per agros suos spargerent,
+et terram sterilem ad totius fecunditatis verterent
+ubertatem, pudor, inquam, est, si nos inferiores
+<pb n="0432A"/>
+his inveniamur in fide, quorum fides per nos
+consignata est Deo.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XII. DE ELIA.</head>
+<p>Vidimus et alium senem <note>(Pallad. cap. 51, et de
+alio Elia c. 3.)</note> venerabilem, Eliam nomine, in finibus
+civitatis Antinoo, quae est metropolis Thebaidis,
+centum fere jam et decem (ut dicebatur) annorum, super
+quem dicebant, quod vere spiritus Eliae in eo requievisset.
+Multa enim de eo et magnifica referebantur.
+Septuaginta namque annos <emph>172</emph> in solitudine vastissima
+eum transegisse perhibebant; cujus deserti
+horrorem terroremque nullus sermo digne poterit
+exponere. Illic ergo sedebat senior tota hac aetate,
+<pb n="0432B"/>
+humanae habitationis nesciens loca. Semita autem
+erat angusta et scrupea, quae ad eum ducebat, quae
+vix inveniri a commeantibus posset. Locus vero ipse
+in quo sedebat, spelunca erat terribilis quaedam, et
+intuentibus plurimum horroris incutiens. Ipse autem
+trementibus jam membris prae matura quatiebatur
+aetate. Incessabiliter tamen per singulos dies signa
+faciebat, et advenientes ad se quacumque incommoditate
+constrictos, omnimodis resolvebat. Cuncti
+vero patres confirmabant, quod nullus omnino meminisset
+quando hic secessisset ad eremum. Cibus
+ei erat panis exiguus, et paucissimae olivae, usque ad
+ultimam senectutem. Nam in juventute septimanas
+frequenter jejunasse perhibebatur.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XIII. DE PITHYRIONE.</head>
+
+<pb n="0432C"/>
+<p>Interea <note>(Pallad. cap. 74.)</note> redeuntes ex Thebaide,
+vidimus montem quemdam praeruptum fluvio imminentem,
+elatione minacis saxi, aspectu etiam ipso terribilem,
+in quo erant per ipsa praecipitia speluncae difficilis
+adscensus. In his monachorum plurimi commanebant,
+quorum pater erat nomine Pithyrion. Hic et
+ex discipulis beati Antonii fuit, et post illius obitum
+cum sancto habitaverat Ammone. Post hujus quoque
+abscessum in hoc se constituerat monte: sed et
+tanta in eo erat virtutum copia, tantaque gratia sanitatum,
+et potestas adversus daemones, ut duorum
+merito summorum virorum solus haereditatem consecutus
+duplicem videretur. Hic ergo multos monitis
+<pb n="0432D"/>
+aedificans, multaque doctrina instruens, praecipue
+tamen de discretione spirituum nos docebat dicens,
+esse quosdam daemones, qui certis quibusque vitiis
+obsequantur, quique cum affectus animae passibiliter
+et vitiose viderint moveri, convertunt eos ad omne
+facinus malum. Si quis ergo est, qui vult daemonibus
+dominari, prius vitiis suis et passionibus dominetur.
+Quodcumque enim vitium propriae passionis abjeceris,
+hujus vitii daemonem poteris etiam de obsessis
+<pb n="0433A"/>
+corporibus effugare. Et ideo conandum est paulatim
+propria vitia superare, ut possimus etiam daemones
+superare, qui hujusmodi vitiis obsequuntur.
+Hic secundo reficiebatur <emph>173</emph> in septimana, pulticulas
+accipiens ex farina, nec poterat jam accipere
+aliam escam, neque aetate, neque consuetudine
+permittente.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XIV. DE PATRE EULOGIO.</head>
+<p>Vidimus et alium <note>(Pallad. c. 75. et de alio Eulogio
+c. 26.)</note> sanctum patrem, Eulogium nomine, qui
+in offerendis Sacramentis tantum gratiae acceperat a
+Domino, ut uniuscujusque accedentium ad altare
+Dei merita culpasque cognosceret. Denique ex monachis
+<pb n="0433B"/>
+quosdam volentes accedere ad Communionem,
+retinebat dicens: Quomodo ausi estis accedere
+ad Sacramenta divina, cum mens vestra et propositum
+sit in malo? Denique aiebat: Tu hac nocte
+habuisti cogitationes fornicandi. Tu vero dixisti in
+corde tuo: Nihil interest, sive justus ad Sacramenta,
+sive peccator accedat. Et alius dubitationem habuit
+in corde suo, dicens: Quid enim me sanctificare
+Communio potest? Hos ergo singulos removebat a
+communione Sacramenti, et dicebat eis: Secedite
+paululum, et agite poenitentiam, ut purificati per
+satisfactionem et lacrymas, digni habeamini communione
+Christi.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XV. DE APELLEN PRESBYTERO ET JOANNE.</head>
+
+<pb n="0433C"/>
+<p>Vidimus et alium Presbyterum <note>(Pallad. cap. 60.
+et 61.)</note> in vicina regione nomine Appellen, virum
+justum. Hic faber erat ferri, et quae necessaria erant
+fratribus operabatur. Quodam autem tempore, cum
+ad fabrilia opera vigilaret in silentio noctis, conversus
+diabolus in formam mulieris speciosae, venit
+ad eum tamquam aliquid operis ei deferens. Tum ille
+arreptum manu nuda de fornace ferrum candens, in
+faciem ejus injecit. At illa clamans et ululans aufugit,
+ita ut omnes fratres, qui in circuitu commanebant,
+ululatum ejus fugientis audirent, et ex eo jam
+vir ille in usu habuit, ferrum candens manu nuda
+tenere, nec laedi. Ad hunc ergo cum venissemus,
+et humanissime nos suscepisset, poscebamus ab eo,
+<pb n="0433D"/>
+ut nobis vel de suis gestis, vel de eorum quos praecipuos
+in conversatione sancta sciret, virtutibus loqueretur.
+Tunc ille:</p>
+<p>Est, inquit, in hac eremo vicina frater quidam
+nomine Joannes, aetate provectus, vita et moribus,
+atque abstinentia cunctos praecellens. Hic primum
+cum accessisset ad eremum, tribus continuis annis,
+sub cujusdam saxi rupe stans, semper <emph>174</emph> oravit,
+ita ut numquam omnino resederit, neque jacuerit.
+Somni autem tantum caperet, quantum stans capere
+<pb n="0434A"/>
+potuit. Cibum vero numquam sumserat nisi die Dominica.
+Presbyter enim tunc veniebat ad eum, et
+offerebat pro eo sacrificium, idque ei solum Sacramentum
+erat et victus.</p>
+<p>Huic quodam die satanas subripere volens, transfiguravit
+se in presbyterum, qui venire ad eum solebat,
+et praeveniens horam solitam, simulabat se Sacramentorum
+gratia venisse. At ille vigilanter intelligens
+diaboli fraudem, cum indignatione quadam ait
+ita ad eum: O omnis doli omnisque fraudis pater,
+inimice omnis justitiae, non desinis seducendo animas
+Christianas, sed et ausus es etiam ad ipsa te
+immergere terrifica et sacrosancta mysteria. At ille
+respondit ei: Putavi, inquit, quod possim te lucrifacere:
+sic enim et alium quemdam ex vestris decepi,
+<pb n="0434B"/>
+ita ut mente excederet, et perderet sensum.
+Quem cum credentem mihi, insanum reddidissem,
+tot justi orantes pro eo, vix eum et in loco et sanitati
+restituere potuerunt. Et haec cum dixisset daemon,
+aufugit ab eo.</p>
+<p>Erat autem supradictus vir persistens in opere
+coepto, atque in oratione perdurans. Pedes vero
+ejus, ex eo quod multo tempore immobiles fuerant,
+disrumpebantur, ita ut sanies ex eis proflueret. Tres
+autem cum complerentur anni, affuit Angelus Domini,
+et ait ad eum: Dominus Jesus Christus, et
+Spiritus sanctus suscepit orationes tuas, et corporis
+tui cicatrices sanat, et caelestis cibi, id est verbi et
+scientiae suae tibi abundantiam donat. Et contingens
+os ejus ac pedes, et ab ulceribus eum sanum reddidit,
+<pb n="0434C"/>
+et repletum scientiae et doctrinae gratia, cibi famem
+sentire non fecit. Jubet autem transire eum
+ad alia loca, et eremum circumeuntem visitare etiam
+alios fratres, et aedificare eos in verbo et doctrina
+Domini. Dominica autem die ad eumdem semper revertebatur
+locum, simili modo Sacramentorum gratia,
+reliquis vero diebus etiam opus manuum faciebat
+et operabatur, jumentorum cingula ex palmarum
+foliis texens, ut in illis locis haberi moris est.</p>
+<p>Quodam vero tempore claudus aliquis ire ad ipsum
+voluit, ut ab eo curaretur. Contigit autem ut animal,
+quod ascensurus erat, cingulum manibus hominis
+Dei factum haberet. Cum ergo imponeretur
+supra jumentum, statim ut <emph>175</emph> contigerunt pedes
+ejus illud cingulum, sanus effectus est. Sed et quibuscumque
+<pb n="0434D"/>
+aegris benedictum panem misit, statim
+ut ex eo perceperunt sanati sunt. Et alias multas
+virtutes et sanitates per eum Dominus implevit.</p>
+<p>Habuit autem et hanc gratiam super omnes patres
+et caeteros homines, ut uniuscujusque fratrum
+de vicinis monasteriis conversatio ei revelaretur, ita
+ut scriberet ad patres ipsorum, et commoneret quod
+illi et illi segniter agerent, nec rectum in timore
+Dei propositum gerunt: illi vero et illi in fide et
+animi virtute proficiunt. Sed et ad ipsos fratres
+<pb n="0435A"/>
+scribebat, aliis quidem quod multum taediosi essent
+erga fratres, et pusillo animo erga patientiam, aliis
+vero quod bene, constanter et sollicite agerent, et
+sufficienter consolarentur fratres. Et quid huic meriti
+pro virtutibus, quid vero illi correptionis immineret
+a Domino pro ignavia praedicabat, et ita eorum
+qui absentes erant, actus et caussas, ac merita,
+vel negligentiam describebat, ut audientes hi de
+quibus dicebatur, conscientia convicti negare non
+possent.</p>
+<p>Docebat autem omnes, ut a visibilibus et corporeis
+rebus animos ad invisibilia et incorporea transferrent.
+Tempus enim, inquit, est ut ad hujusmodi
+studia transeamus: neque enim semper pueri, et
+semper infantes esse debemus, sed aliquando jam ad
+<pb n="0435B"/>
+spiritalia et altiora conscendere, et virorum sensus
+capere, atque ad perfectiorem subire intelligentiam,
+ut possimus virtutibus animi enitescere. Sed et
+multa alia de hoc viro sanctus homo Dei Apelles
+narratione nobis fidelissima commendavit, quae cuncta
+conscribere et longum videtur, et pro magnitudine
+sui, nonnullis audientium vix credibile.
+<emph>176</emph> </p>
+        </div2>
+
+<div2>
+          <head>CAPUT XVI. DE PAPHNUTIO.</head>
+<p>Vidimus et monasterium <note>(Pallad. c. 62.)</note> sancti
+Paphnutii hominis Dei, qui nominatissimus in illis
+locis anachoretes, et ultimus habitator fuerat deserti
+in regionibus Heracleos, splendidae apud Thebaidam
+urbis.</p>
+<p>
+            <pb n="0435C"/>De hoc ergo <note>(Pallad. c. 63.)</note> fidelissima patrum
+narratione comperimus, quod cum fuisset vitae Angelicae,
+quodam tempore oraverit Deum, ut sibi
+ostenderet, cui sanctorum similis haberetur. Assistens
+vero Angelus respondit ei, quod similis esset
+symphoniaco cuidam, qui in vico illo cantandi arte
+victum quaereret. Tunc ille obstupefactus novitate
+responsi, cum omni properatione pergens ad vicum,
+perquirit hominem. Et cum invenisset, studiosissime
+percontatur ab eo, quidnam sancti et religiosi
+operis gestum sit ei, omnesque actus ejus curiosius
+discutit. At ille respondit quod res erat, se esse indignissimae
+<pb n="0436A"/>
+vitae hominem peccatorem, atque ante
+non multum temporis, ex latrone ad istud quod
+nunc exercere videretur, foedum artificium devolutum.
+Paphnutius eo magis instabat, requirens, si
+quid ei forte, vel inter latrocinia pii operis fuisset
+admissum. Nihil, inquit, mihi conscius sum boni:
+hoc tamen scio, quod cum inter latrones essem, capta
+est aliquando a nobis virgo Deo consecrata:
+cujus cum ceteri collegae mei latrones cuperent eripere
+pudorem, objeci me in medium et eripui de
+contaminatione latronum, et nocte deducens eam
+usque ad vicum, domui suae restitui intactam.</p>
+<p>Alio quoque tempore <note>(Pallad. c. 63.)</note> inveni mulierem
+honestae formae in eremo oberrantem. Haec
+cum interrogaretur a me cur aut quomodo in haec
+<pb n="0436B"/>
+loca advenisset? <emph>177</emph> respondit: Nihil me interroges
+infelicissimam mulierem, nec caussas requiras,
+sed si ancillam placet habere, abducito quo vis.
+Mihi enim infelici est maritus, qui debiti fiscalis gratia
+saepe suspensus et flagellatus, ac poenis omnibus
+cruciatus servatur in carcere, nec aliam ob caussam
+producitur, nisi ut tormenta patiatur. Tres autem
+nobis filii fuerunt, qui jam pro ejusdem debiti necessitate
+distracti sunt. Ego quoque miserrima, quia
+ad similes paenas inquiror, de loco ad locum fugitans,
+inedia miseriaque confecta, per haec nunc latitans
+oberro loca, triduum hoc jam sine cibo ducens.
+Ego ubi haec audivi, miseratus adduxi eam ad
+speluncam, et reficiens animam ejus fame collapsam,
+dedi etiam trecentos ei solidos, pro quibus se ac
+<pb n="0436C"/>
+maritum, et filios non solum servituti, sed et suppliciis
+asserebat obnoxios: et revocata ea ad civitatem,
+omnes eos data pecunia liberavit. Tunc pater
+Paphnutius, Ego, inquit, nihil tale feci: tamen
+credo etiam ad te pervenisse, quod celebre Paphnutii
+nomen inter monachos habeatur. Fuit enim mihi
+non mediocris studii, ut vitam meam in hujusmodi
+excolerem disciplinis. Deus igitur de te mihi revelavit,
+quia nihilominus apud ipsum meriti habeas
+quam ego. Quia ergo, frater, vides te non minimo
+loco haberi apud Deum, non negligas animam tuam.
+At ille statim fistulas quas manu gerebat abjiciens,
+<pb n="0437A"/>
+secutus est eum ad eremum, et artem musicam in
+spiritualem commutans vitae mentisque harmoniam,
+per integrum triennium arctissimae se tradidit abstinentiae,
+in Psalmis et orationibus semetipsum die
+noctuque exercens, atque iter caeleste animi virtutibus
+agens, inter sanctorum Angelicos choros reddidit
+spiritum.</p>
+<p>Posteaquam Paphnutius <note>(Pallad. c. 64.)</note> praedictum
+symphoniacum omni exercitio virtutum consummatum
+praemisit ad Dominum, ipse acrioribus
+semetipsum studiis, quam prius exercuerat, agens,
+iterum Domino supplicabat, ut sibi ostenderet, quis
+sibi similis esset super terram. Fit ergo iterum vox
+Domini ad eum dicens: Similem te esse nosce primario
+vici illius, qui est in proximo. Quibus auditis
+<pb n="0437B"/>
+Paphnutius, sine mora ad eum properans, pulsat ad
+ostium domus ejus. Ille vero, cui moris erat suscipere <emph>178</emph> 
+ hospites, occurrit ei, atque introduxit in
+domum suam, lavans quoque pedes ejus, apposuit
+mensam, agitque convivium. Inter epulas vero percontari
+Paphnutius coepit ab hospite, qui actus ei,
+quod studium, cujusque operis haberet exercitia?
+Ille vero cum de se humilia responderet, et latere in
+bonis quam publicari mallet, perurgebat Paphnutius
+dicens, revelatum sibi esse a Domino, quod dignus
+esset consortii monachorum. At ille eo magis humiliora
+de seipso sentiens, aiebat: Ego quidem in
+nullo mihi sum boni alicujus conscius, verum quia
+verbum Dei factum est ad te, eum quem nihil latet,
+celare non possum. Haec ergo quae mihi in medio
+<pb n="0437C"/>
+multorum posito in usu sunt, loquar. Triginta jam
+completi sunt anni, quod continentiae consensum habere
+me cum conjuge mea nullus agnovit. Suscepi
+autem ex ea tres filios, horum enim caussa solummodo
+cognita est mihi uxor, nec praeter eam alia,
+nec ipsa ultra jam cognita. Suscipere hospites numquam
+cessavi, sed ita, ut neminem ante me paterer
+advenienti occurrere peregrino. Non dimisi umquam
+de domo mea hospitem sine viatico: pauperem nullum
+despexi, sed quae necessaria fuerant praebui. Si
+in judicio sedi, nec filii mei personam contra justitiam
+accepi. Alieni laboris fructus nunquam introierunt
+in domum meam. Litem si vidi, nunquam praeterii,
+donec reconciliarem dissidentes ad pacem.
+Nemo umquam deprehendit in culpa famulos meos:
+<pb n="0437D"/>
+numquam greges mei laeserunt fruges alienas: volentem
+seminare in rure meo numquam prohibui,
+nec uberiora mihi novalia elegi, steriliora illis dereliqui.
+Quantum in me fuit, numquam permisi ut potentior
+infirmum premeret. Semper studui in vita
+mea, ut neminem contristarer. In judicio si fui caput,
+neminem condemnavi, sed dissidentes revocare
+in concordiam studui. Haec interim mihi vitae
+institutio, Deo donante, hactenus fuit.</p>
+<p>Audiens autem haec beatus Paphnutius, caput
+ejus exosculans, benedixit eum dicens: <hi>Benedicat te
+Dominus ex Sion, et videas quae bona sunt in Jerusalem <note>(Psal. 127.)</note>
+            </hi>.
+Quia ergo bene haec et convenienter
+implesti, illud tibi deest, quod bonorum
+<pb n="0438A"/>
+omnium summum est, ut omittens cuncta, ipsam
+veram jam sequaris Dei sapientiam, et secretiores <emph>179</emph> 
+ inquiras thesauros, ad quos non aliter poteris
+pervenire, nisi abneges teipsum et tollas crucem
+tuam, et sequaris Christum. At ille cum audisset
+haec, nihil moratus, nec omnino aliquid in domo sua
+ordinans, secutus est virum Dei, pergens cum ipso
+ad desertum. Cumque venisset ad flumen, nusquam
+ad transmeandum reperto navigio, Paphnutius praecepit
+intrare secum pedibus fluvium, cum in illis locis
+profunda habebatur altitudo. Transierunt ergo pariter
+fluvium, ita ut aqua eis vix ad latera perveniret.
+Ubi vero venerunt ad desertum, collocat hominem
+Paphnutius in cellula quadam, haud procul a suo
+monasterio posita, et conversationis spiritualis ordinem
+<pb n="0438B"/>
+tradidit, perfectorumque studiorum exercitia
+docuit, scientiae quoque secretiora concredit. Cumque
+eum in omnibus instruxisset, semetipsum denuo
+majoribus exercitiis dedit, exiguos priores deputans
+labores, quibus conferri poterat is, qui saeculi
+videbatur actibus occupatus. Hoc enim sibi dicebat:
+Si isti, qui sunt in saeculo, tantum boni operis faciunt,
+quantum nos studere debemus, plus vel amplius
+in abstinentiae labore eos antecedere? Tempore
+autem aliquanto in his transacto, et ad scientiae
+perfectionem eo perducto, quem perfectum jam in
+operibus assumserat, quadam die Paphnutius sedens
+in cellula sua, videt animam ejus inter Angelorum
+choros assumtam, dicentium: <hi>Beatus quem elegisti,
+et assumsisti: habitabit in tabernaculis tuis <note>(Psal. 64.)</note>
+            </hi>.
+<pb n="0438C"/>
+Et cum haec audisset, agnovit assumtum esse ex hoc
+mundo virum. Tunc vero Paphnutius persistebat in
+jejuniis et orationibus, semetipsum ad majora et
+perfectiora extendens.</p>
+<p>Et rursus orabat Dominum <note>(Pallad. c. 65.)</note>, ut
+sibi ostenderet, cui similis haberetur inter homines.
+Rursus ei divina vox respondit, dicens: Similis es
+negotianti ei, quem videris ad te venientem, sed et
+exsurge velociter, et occurre ei. Adest enim vir cui
+te similem indicavi. Et Paphnutius sine mora descendens,
+occurrit cuidam negotiatori Alexandrino viginti
+millibus solidorum mercimonia tribus navibus
+deferenti ex Thebaide. Et quoniam erat religiosus,
+et bonorum operum studium gerens, decem leguminum
+saccos pueris suis impositos, ad monasterium
+<pb n="0438D"/>
+Dei hominis deferebat: et haec ei caussa adeundi
+Paphnutium <emph>180</emph> fuit. At ille continuo ut eum vidit:
+Quid agis, inquit, o pretiosissima et Deo digna
+anima? Quid tibi cum terrenis est labor, cui sors et
+societas cum caelestibus data est? Relinque haec illis,
+qui de terra sunt et de terra cogitant: tu autem
+regni Dei, ad quod vocatus es, negotiator efficere, et
+sequere Salvatorem, a quo paulo post assumendus
+es. At ille nihil omnino differens, praecepit pueris
+suis ut omnia quae superessent (multa enim jam
+ipse per se distribuerat) pauperibus erogarent. Ipse
+vero sequens sanctum Paphnutium ad desertum, in
+eodem ab eo constitutus est loco, ex quo et priores
+ad Dominum fuerunt assumpti. Qui similiter ab eo
+<pb n="0439A"/>
+de omnibus instructus, in exercitiis spiritualibus et
+divinae sapientiae studiis permanebat. Brevi autem
+tempore consummato, etiam hic translatus est ad
+congregationem justorum.</p>
+<p>Et non multo post <note>(Pallad. c. 65.)</note> cum etiam ipse
+Paphnutius in ipsis summae abstinentiae exercitiis et
+laboribus vitam poneret, astitit ei Angelus Domini,
+dicens ad eum: Veni jam, benedicte, et ingredere
+ea, quae tibi debentur aeterna tabernacula. Ecce enim
+adsunt Prophetae, qui te in suum suscipiant chorum.
+Hoc autem tibi prius idcirco non revelavi, ne forte
+elatus, damnum aliquod tui laboris incurreres. Et
+unam post haec in corpore adhuc positus diem ducens,
+cum quidam Presbyteri ad eum visitandum venissent,
+omnia eis quae sibi Dominus revelaverat,
+<pb n="0439B"/>
+nota fecit, dicens ad eos, nullum in hoc saeculo debere
+despici, etiam si latro sit aliquis, aut in scena
+positus, etiam si cultum ruris exerceat, et conjugio
+videatur adstrictus, etiam si negotiator dicatur, et
+mercimoniis serviat, tamen in omni ordine humanae
+vitae sunt animae Deo placentes, et habentes actus
+aliquos occultos, quibus delectatur Deus: unde
+constat, non tantum professionem vitae, aut habitus
+speciem Deo esse placitam, quantum sinceritatem,
+atque affectionem mentis, operumque probitatem. Et
+cum similia de singulis quibusque disseruisset, tradidit
+spiritum. Evidenter autem Presbyteri qui aderant,
+omnes fratres viderunt eum ab Angelis suscipi,
+hymnum canentibus et collaudantibus Deum.
+<emph>181</emph> </p>
+        </div2>
+
+<div2>
+          <head>CAPUT XVII. DE MONASTERIO ABBATIS ISIDORI.</head>
+
+<pb n="0439C"/>
+<p>Vidimus et apud Thebaidam <note>(Pallad. cap. 71.)</note> etiam
+Isidori nominatissimum monasterium, amplissimis
+spatiis circumseptum muroque circumdatum, in quo
+habitantibus viris, larga praebebantur habitacula. Intrinsecus
+putei plures, horti irrigui, omnium quoque
+pomorum arborumque paradisi, et quaecumque necessaria
+usibus erant, sufficienter, imo et abundanter
+provisa; ob hoc ut nulli monachorum habitantium
+intrinsecus necessitas ulla fieret exeundi foras ad
+aliquid requirendum. Senior quidam vir gravis, et
+de primis electus ad januam sedens, hoc habebat
+officii, ut adventantes ea lege suscipiat, qua ingressi
+ultra non exeant. Si ergo semel ingredi placuerit,
+<pb n="0439D"/>
+stat immobilis lex: sed quod est admirabilius, ingressos
+non jam legis necessitas, sed vitae beatitudo
+retinet, ac perfectio. Hic ergo senior in janua, ubi
+ipse commanet, adhaerentem sibi habebat hospitalem
+<pb n="0440A"/>
+cellulam, in qua adventantes hospitio recipiat, et
+omni humanitate refoveat. Ut ergo et nos ab eo
+suscepti sumus, introeundi nobis quidem copia nulla
+fuit, ab ipso autem didicimus, quae institutionum
+beatitudo gereretur intrinsecus. Duos aiebat esse
+solos seniores viros, quibus permissa est egrediendi
+ingrediendique libertas, qui opera fratrum dispensare,
+et quae necessaria sunt inferre curarent; ceteros
+vero ita esse in silentio et quiete, orationibus
+et religiosis studiis operam dantes, atque animi virtutibus
+pollentes, ut omnes signa faciant: et quod
+vere omnium mirificum signum sit, nullus eorum
+aegritudinem cujusquam infirmitatis incurrit, sed
+cum unicuique vitae finis affuerit, omnimodis praenoscens,
+et indicans ceteris fratribus suis de suo
+<pb n="0440B"/>
+exitu, atque omnibus vale dicens, ad hoc ipsum recubans,
+spiritum laetus emittit.
+<emph>182</emph> </p>
+        </div2>
+
+<div2>
+          <head>CAPUT XVIII. DE SERAPIONE PRESBYTERO. <note>(Deest hic Palladio.)</note> </head>
+<p>Sed et in regione Arsenoite Serapionem quemdam
+Presbyterum vidimus multorum monasteriorum patrem,
+sub cujus cura plura et diversa monasteria,
+quasi decem millium habebantur monachorum, qui
+omnes ex laboribus propriis, quos praecipue messis
+tempore, mercede manuum conquirebant, partem
+plurimam ad supradictum patrem conferentes, in
+usus pauperum destinabant. Hoc autem moris erat
+<pb n="0440C"/>
+non solum ipsis, sed et omnibus poene Aegyptiis monachis,
+ut messia tempore elocent ad metendum
+operam suam, atque ex ea mercede octogenos unusquisque
+modios frumenti plus minus conquireret, et
+horum partem plurimam pauperum usibus offerant;
+unde non solum regionis ipsius indigentes alantur,
+sed et Alexandriam naves frumento onustae dirigantur,
+vel in carcerem conclusis, vel reliquis peregrinis
+atque egentibus prorogandae. Neque enim intra
+Aegyptum sufficiunt pauperes, qui possint misericordiae
+eorum fructus et largitates absumere.</p>
+<p>Vidimus autem et in regionibus Mempheos, et Babylonis
+innumeras multitudines monachorum, apud
+quos et diversas virtutum gratias ac morum ornamenta
+perspeximus. Ibi autem tradunt esse loca, in
+<pb n="0440D"/>
+quibus Joseph fertur recondidisse frumenta, quos et
+thesauros Joseph vocant; alii vero Pyramidas, quas
+dicunt ipsas esse, in quibus, ut putant, frumenta
+tunc congregata sunt.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XIX. DE APOLLONIO MONACHO ET MARTYRE.</head>
+
+<pb n="0441A"/>
+<p>Tradebant ergo seniores <note>(Pallad. cap. 66.)</note>, horum
+fuisse quendam persecutionis tempore monachum,
+nomine Apollonium, qui cum vitam magnificam egisset
+inter fratres, etiam diaconus ordinatus est. Tempore
+ergo persecutionis erat ei <emph>183</emph> studium singulos
+quosque circuire fratres, et cohortari eos ad
+martyrium. Cumque fuisset etiam ipse comprehensus,
+et in carcerem trusus, Gentilium plurimi tamquam
+insultantes veniebant ad eum, et verbis blasphemis
+et impiis confutabant.</p>
+<p>Inter quos fuit quidam Philemon nomine choraula
+famosissimus, et omni populo amabilis. Qui cum
+<pb n="0441B"/>
+multis eum fatigaret injuriis, impium, et scelestum,
+et seductorem eum vocans, multorumque mortalium
+deceptorem, dignumque esse ab omnibus
+odio haberi: cumque haec et multa alia adversus
+eum graviora loqueretur, respondit ei Apollonius,
+dicens: Misereatur tibi Dominus, fili mi, et nihil tibi
+horum quae locutus es, reputet ad peccatum. Haec
+cum audisset Philemon corde compunctus est, vimque
+verborum ejus supra humanum morem in sua mente
+persensit intantum, ut Christianum se repente fateretur.
+Et inde statim pervolat ad tribunal judicis,
+atque in conspectu totius populi proclamans, Injuste,
+inquit, agis, o judex iniquitatis, viros religiosos, et
+Deo amabiles puniens, nihil enim mali Christiani
+vel faciunt, vel docent. At ille haec audiens, primo
+<pb n="0441C"/>
+quidem putabat, utpote loci illius hominem, joci aliquid
+proponere. Sed cum vidisset haec eum sedule
+prosequentem, et cum omni constantia asserentem:
+Insanis, inquit, Philemon, et mente captus es subito.
+At ille, Ego, inquit, non insanio, sed tu injustissimus
+atque insanissimus judex es, qui tot justos
+injuste perimis viros. Ego enim Christianus sum,
+quod est hominum genus optimum. Tunc ille coram
+populo caepit eum primo plurimis blandimentis revocare
+velle in id quod eum noverat; sed ut immobilem
+vidit, omnia intendit in eum genera tormentorum.
+Cognito vero, quod ex verbis Apollonii haec facta ei
+fuerit permutatio, correptum etiam Apollonium gravioribus
+subdidit tormentis, et deceptoris in eum
+crimen exaggerat. Apollonius vero dixit ad eum:
+<pb n="0441D"/>
+Utinam et tu, judex, et omnes qui assistunt, et audiunt
+me, hunc meum quem dicis errorem deceptionemque
+sequeremini. At ille ubi haec audivit <emph>184,</emph> 
+et ipsum, et Philemonem ignibus tradi in conspectu
+populi jussit. Illi vero postquam ingressi sunt flammas,
+beatus Apollonius, cunctis audientibus, clamabat
+ad Dominum, dicens: <hi>Non tradas, Domine, bestiis
+animas confitentium tibi <note>(Psal. 73.)</note>
+            </hi>: <hi>sed ostende nobis
+<pb n="0442A"/>
+evidenter salutare tuum <note>(Psal. 84.)</note>
+            </hi>. Igitur, ubi haec in
+auditu populi et judicis ad Dominum locutus est
+Apollonius, repente nubes repleta rore circumdedit
+viros, et flammas accensi ignis extinxit: super quo
+stupefacti et judex, et populus, una omnes voce
+clamare coeperunt: Magnus, et unus est Deus Christianorum,
+solus immortalis est. Sed haec cum fuissent
+Praefecto Alexandriae nuntiata, semetipso truculentior
+redditur, et electis quibusdam de officio suo
+crudelissimis, et saevissimis, non tam hominibus,
+quam bestiis, mittit, qui et ipsum judicem, qui mirabilibus
+divinis crediderat, et eos per quos virtus Dei
+apparuerat, vinctos Alexandriam adducerent. Igitur
+cum adducerentur omnes pariter vincti, affuit gratia
+Dei in verbo, et coepit Apollonius eos, qui se vinctos
+<pb n="0442B"/>
+ducebant, fidem Dei docere. Quique cum Dei misericordiam
+credidissent, et fidem Dei tota cordis firmitate
+recepissent, semetipsos cum his, quos exhibere
+venerant, vinctos offerunt judici, et Christianos se
+esse pariter profitentur. Quos cum Praefectus in fide
+Domini pertinaces et immobiles pervidisset, universos
+pariter jubet in profundum maris demergi, ignorans
+impius quid ageret. Hoc enim sanctis non mors,
+sed Baptismus fuit. Sed et horum corpora, Dei sine
+dubio providentia, integra illibataque maris unda
+reportavit ad littus, quaeque ab his, qui obsequii
+caussa simul venerant suscepta, ac revocata sub uno
+sepulcri domicilio collocata sunt: a quibus usque ad
+praesens tempus, virtutes multae, et signa miranda
+omnibus consummantur, sed et vota omnium atque
+<pb n="0442C"/>
+orationes suscipiuntur ab eis, et cum fructu petitionis
+implentur, quo etiam et nos dignatus est Dominus
+adducere, et vota nostra orationesque complere.
+<emph>185</emph> </p>
+        </div2>
+
+<div2>
+          <head>CAPUT XX. DE DIOSCORO PRESBYTERO.</head>
+<p>Vidimus et alium <note>(Pallad. cap. 68.)</note> venerabilem
+patrem apud Thebaidam, Dioscorum nomine, presbyterum,
+habentem in monasterio suo centum fere
+monachos, quem tempore eo quo acceditur ad Sacramenta,
+summam curam summamque perspeximus
+adhibere diligentiam, ne quis eorum qui accedunt,
+in aliquo deferrent conscientiae maculam, in tantum
+ut etiam de his eos commoneret, quae accidere per
+somnia hominibus solent, vel per phantasias mulierum
+<pb n="0442D"/>
+apparentium, vel etiam per naturalis humoris
+abundantiam. Dicebat ergo: Siquidem absque mulierum
+phantasiis tale aliquid eveniat, non esse peccatum,
+congenitus enim humor in corpore, ubi propria
+repleverit conceptacula, suis necesse est, ut meatibus
+egeratur, et ideo non trahitur ad peccatum. Ubi
+vero visus mulierum, et blandimenta carnis occurrunt,
+in hoc jam desideriis animae et erga hujusmodi
+<pb n="0443A"/>
+cogitationes atque illecebras occupatae dari confirmabat
+indicia. Debere ergo monachos, aiebat, omni
+genere a cogitationibus suis repellere hujusmodi simulacra,
+nec indulgere omnino in haec diaboli blandimenta
+sensus suos, alioquin nihil videbitur interesse
+inter eos et illos qui in saeculo vivunt. Sed
+laborandum est monachis, ut etiam naturalem humorem
+per multam jejuniorum abstinentiam et frequentes
+orationes doment ac superent: fluxamque
+ejus labem, orationis et jejunii continuatione restringant.
+Denique aiebat, et hi qui in deliciis vivunt, si
+forte corporis sui aegritudo deposcat, ab omnibus
+quae noxia esse judicaverit medicus, abstinebunt; cur
+non hoc multo magis monachus faciat, cui animae et
+spiritus sanitas expetenda est?</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXI. DE MONACHIS IN NITRIA COMMORANTIBUS.</head>
+
+<pb n="0443B"/>
+<p>Veniemus autem <note>(Pallad. cap. 69.)</note> et ad Nitriae
+famosissimum in omnibus Aegypti monasteriis <emph>186</emph> 
+locum, qui quadraginta fere millibus abest ab Alexandria,
+ex nomine vici adjacentis, in quo nitrum colligitur,
+Nitriae vocabulum trahens, prospiciente hoc,
+credo, tunc jam divina providentia, quod in illis locis
+peccata hominum, tamquam sordes abluenda essent et
+abolenda. In hoc igitur loco quinquaginta fere, aut non
+multo minus cernuntur vicina sibi, et sub uno posita
+patre tabernacula, in quibus aliqui plures simul,
+aliqui pauci, nonnulli etiam singulares habitant, et
+mansione quidem aliqui divisi, animo autem et fide et
+caritate conjuncti et inseparabiles manent.</p>
+<p>
+            <pb n="0443C"/>Huic ergo cum appropinquaremus loco, ubi peregrinos
+fratres advenire senserunt, continuo velut
+examen apum, singuli quique ex suis cellulis proruunt,
+atque in obviam nobis laeto cursu et festina
+alacritate contendunt, portantes secum quamplurimi
+ipsorum urceos aquae et panes, secundum quod Propheta
+<pb n="0444A"/>
+corripiens quosdam, dicit: <hi>Quia non existis
+filiis Israel in obviam, cum pane et aqua <note>(2 Esdr. 13.)</note>
+            </hi>.
+Tunc deinde susceptos nos adducunt primo cum
+Psalmis ad Ecclesiam, lavant pedes, ac singuli quique
+linteis quibus utebantur, abstergunt, quasi viae
+laborem levantes, re autem vera vitae humanae
+aerumnas mysticis traditionibus abluentes.</p>
+<p>Quid ergo nunc de humanitate eorum, quid de officiis,
+quid de caritate loquar, cum omnes gestirent
+nos ad suam quisque introducere cellulam, et non ea
+solum, quae hospitalitati debentur explere, sed insuper
+aut de humilitate, qua ipsi pollebant, docere, aut
+de mansuetudine atque aliis hujusmodi bonis, quae
+apud illos, velut ad hoc ipsum de saeculo sequestratos,
+diversa quidem gratia, una tamen eademque
+<pb n="0444B"/>
+doctrina discuntur. Nusquam sic vidimus florere caritatem,
+nusquam sic vidimus opus fervere misericordiae,
+et studium hospitalitatis impleri. Scripturarum
+vero divinarum meditationes et intellectus, atque
+scientiae divinae nusquam tanta <emph>187</emph> vidimus exercitia,
+ut singulos paene eorum oratores credas in
+divina esse sapientia.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXII. DE LOCO QUI DICITUR <hi>Cellia.</hi> </head>
+<p>Post hunc vero <note>(Pallad. cap. 69.)</note> alius est locus
+in deserto interiori, decem fere ab hoc millibus distans,
+quem locum pro multitudine dispersarum in
+eremo cellularum, Cellia nominaverunt. Ad hunc
+locum hi, qui ibi prius fuerunt imbuti, et secretiorem
+<pb n="0444C"/>
+jam depositis indumentis ducere volunt vitam,
+secedunt: eremus enim est vasta, et cellulae tanto
+inter se spatio diremptae, ut neque in conspectu sibi
+invicem, neque in vocis auditu sint positae.</p>
+<p>Singuli per cellulas commanent, silentium ingens
+et quies magna inter eos est: die tantum Sabbati et
+Dominica in unum ad Ecclesiam coeunt, et ibi semetipsos
+<pb n="0445A"/>
+invicem tamquam coelo redditos vident. Si quis
+forte in conventu illo defuerit, intelligunt statim
+eum corporis aliqua inaequalitate detentum, et ad visitandum
+eum non <emph>188</emph> omnes quidem simul, diversis
+tamen temporibus omnes abeunt, portantes
+unusquisque secum, si quid apud se est, quod aegro
+possit gratum videri. Aliam vero ob caussam nullus
+audet proximi sui obturbare silentium, nisi forte
+quis possit in verbo instruere, et velut athletas in
+agone positos sermonis consolatione perungere.
+Multi ipsorum a tribus et quatuor millibus ad Ecclesiam
+coeunt: ita longo a semetipsis spatio habitationis
+eorum cellulae dirimuntur: sed caritas in eis
+tanta est, et tanto inter semetipsos et erga omnes
+fratres constringuntur affectu, ut in admiratione et
+<pb n="0445B"/>
+exemplo sint omnibus. Unde et si quis forte voluerit
+habitare cum eis, ubi intellexerint, unusquisque cellulam
+offert suam.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIII. DE AMMONIO.</head>
+<p>Vidimus quemdam apud eos venerabilem patrem,
+Ammonium nomine, virum in quem Deus omnem
+plenitudinem spiritualium contulerat gratiarum. Caritatis
+in eo gratiam, cum videres, nihil tale usquam
+<pb n="0446A"/>
+vidisse <emph>189</emph> te diceres. Sed et si humilitatem considerares,
+longe eum in hoc dono potentiorem ceteris
+aestimares. Et rursus si patientiam, si mansuetudinem,
+si benignitatem, in singulis eum virtutibus
+ita praecellere judicares, ut quid cui praeferre debeas,
+ignorares. Donum vero sapientiae et scientiae tantum
+ei contulerat Dominus, ut nullum fere ex omnibus
+patribus ita penetrasse aulas totius scientiae crederes:
+sed nec ita aliquem receptum esse intra cubiculum
+sapientiae Dei, omnes qui eum viderant, fatebantur.
+ Huic erant duo fratres, Eusebius et Euthymius:
+nam Dioscorus, qui major natu in eis fuerat,
+ ad Episcopatus officium raptus est. Hi ergo
+fratres erant ei non solum carne, sed etiam vita atque
+institutione et tota animi virtute germani: qui
+<pb n="0446B"/>
+omnes simul eos, qui in illis locis habitabant fratres,
+tamquam si nutrix foveat filios suos, ita unumquemque
+instruentes consolabantur, et docentes ad
+summam perfectionem nitebantur educere.</p>
+<p>Vidimus ergo supradictum hominem Dei Ammonium
+ habentem monasterium inter eos muro circumdatum,
+quod in illis locis ex lateribus coctis
+fieri facile solet amplum, et omnibus necessariis instructum,
+in quo etiam puteum ipse foderat. Venit
+autem quidam frater, salvari apud eum volens, adiitque
+<pb n="0447A"/>
+eundem Ammonium rogans, sicubi esset cellula
+vacans, in qua habitare posset. Tunc illei, Ego, inquit,
+inquiram, sed donec inveniam, hic esto in hoc
+monasterio: ego enim jam nunc egrediar, ut requiram.
+Et relinquens ei omnia pariter cum monasterio,
+ipse <emph>190</emph> procul ab eo loco parvissimam cellulam
+reperit, atque in ea se constituit, fratrique qui nuper
+advenerat, nec intelligenti, ex integro cum omnibus,
+quae in eo fuerant, cessit monasterio. Sed et si plures
+fuissent, qui forte venientes salvari cuperent,
+supradictus vir fratribus congregatis omnibus, cum
+alacritate juvantibus sub die una monasterium construebat.
+Et cum singulis quibusque explevisset numerum
+monasteriorum, invitabantur hi, qui mansuri
+erant ad Ecclesiam quasi refectionis gratia, quibus
+<pb n="0447B"/>
+inibi occupatis, unusquisque fratrum de cellulis suis
+proferentes, quae necessaria erant, singulorum novas
+cellulas instruebant, ita ut ex collatione caritatis,
+nihil omnino, vel utensilium, vel quae ad victum requiruntur
+deesset, nec tamen manifesta fieret uniuscujusque
+oblatio. Regressi ergo ad vesperam, in quibus
+fuerant cellulae praeparatae, inveniebant posita
+omnia quae ad usus erant necessaria, et ita instructa
+habitacula, ut nihil prorsus deesse perspicerent.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIV. DE DIDYMO. <note>(Deest hic Palladio de Didymo caeco.)</note> </head>
+<p>Vidimus quemdam <note>(Pallad. cap. 4.)</note> inter eos ex senioribus
+virum bonum, nomine Didymum, in quo multa
+<pb n="0448A"/>
+erat Domini gratia, quam in eo etiam vultus ipse indicabat.
+Hic scorpiones et cerastas, id est bestias quas
+cornutas vocant, et angues, qui in illis locis prae fervore
+solis acerrimi habentur, tamquam terrae quosdam
+vermiculos pedibus conculcabat, et ita extinguebat,
+ut nihil ab eis omnino pateretur.
+<emph>191</emph> </p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXV. DE CRONIO. <note>(Pallad. cap. 25 et 89 de Croniis qui noti fuere Antonio.)</note> </head>
+<p>Vidimus apud eos et alium summae antiquitatis
+patrem, Cronium nomine in senectute bona, et perfecta
+aetate durantem: centum namque, et decem
+aetatis agebat annos. Hic ex discipulis adhuc beati
+<pb n="0448B"/>
+Antonii supererat: cujus inter ceteras animi virtutes
+humilitatis gratiam vidimus immensam.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXVI. DE ORIGENE.</head>
+<p>Erat autem et alius adhuc ex discipulis Antonii,
+Origenes nomine, vir per omnia magnificus, et summae
+prudentiae, cujus sermo et narratio de virtutibus
+optimi magistri, hominis Dei, aedificabat omnes audientes,
+et inflammabat vehementer, ita ut <emph>192</emph> 
+oculis cerni, quae ab eo narrabantur, putares.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXVII. DE EVAGRIO.</head>
+<p>Vidimus ibi <note>(Pallad. cap. 86.)</note> et sapientissimum
+<pb n="0449A"/>
+virum, ac per omnia mirabilem, Evagrium nomine:
+cui inter ceteras animi virtutes tanta concessa
+est gratia discernendorum spirituum, et purgandarum
+(sicut Apostolus dicit) cogitationum, ut
+nullus alius putaretur ex fratribus ad tantam subtilium
+et spiritualium rerum scientiam pervenisse. Cui
+quamvis rebus ipsis, et experimentis, et (quod est
+super omnia) per gratiam Dei magna collata fuerit
+intelligentia; accessit tamen et hoc, ut multo tempore
+instructus fuerit a beato Macario, quem famosissimum
+in Dei gratia, signisque et virtutibus insignem
+fuisse, omnibus notum est.</p>
+<p> <emph>193</emph> Hic ergo Evagrius incredibilis erat abstinentiae,
+super omnia tamen monebat fratres, si qui
+forte studium gererent, vel humiliandi corporis, vel
+<pb n="0449B"/>
+phantasias ab eo daemonum propellendi, ne in bibenda
+aqua largiore mensura uterentur; dicebat
+enim: Quia si aqua multa corpus infundatur, majores
+phantasias generat, et largiora receptacula daemonibus
+praebet. Sed et multa alia de abstinentia,
+summa cum deliberatione edocebat. Ipse autem non
+solum aqua parcissima utebatur, sed et pane penitus
+abstinebat. Alii vero qui in illis locis morabantur
+fratres, pane solo et sale contenti erant, ita ut in illa
+omni multitudine, vix invenires aliquem, qui oleo
+saltem uteretur. Plures autem in eis nec jacentes
+somnum, sed sedentes, et (ut ita dicam) in meditatione
+divinorum verborum positi capiebant.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXVIII. DE DUOBUS MACARIIS, ET PRIMO, DE MACARIO AEGYPTIO, SEU SENIORE.</head>
+
+<pb n="0449C"/>
+<p>Narrabant autem <note>(Pallad. cap. 19 et 20.)</note> nobis
+quidam ex patribus qui ibi erant, quod in locis illis
+<pb n="0450A"/>
+duo Macarii, quasi duo coeli luminaria refulsissent, ex
+quibus unus Aegyptius genere, et discipulus beati Antonii
+fuit, alius Alexandrinus. Quibus ut vocabula nominis,
+ita virtutes animi et coelestium gratiarum magnificentia
+concordabat. Uterque enim Macarius,
+uterque abstinentiae exercitiis et virtutibus animi
+aequaliter pollens, hoc solo alius praecellens, quod
+quasi hereditatem gratiarum et virtutum B. Antonii
+possidebat.</p>
+<p>Hinc denique ferunt, aliquando cum homicidium
+in locis vicinis fuisset admissum, et innocenti cuidam
+impingeretur crimen admissi, confugisse ad
+ejus cellulam eum, qui calumniam patiebatur ( <hi>Deest
+hoc Palladio</hi> ); affuisse etiam eos, qui perurgebant,
+allegantes et dicentes periclitari seipsos, nisi comprehensum
+<pb n="0450B"/>
+legibus traderent homicidam. Is vero cui
+crimen impingebatur, cum sacramentis <emph>194</emph> affirmabat,
+conscium se non esse sanguinis illius. Et cum
+diu ab utraque parte certamen haberetur, interrogabat
+sanctus Macarius ubi sepultus esset, qui dicebatur
+occisus. Cumque designassent locum, cum omnibus
+qui ad perurgendum hominem venerant, pergit
+ad sepulcrum, atque ibi fixis genibus invocato Christi
+nomine, ait ad eos qui astabant: Nunc Dominus
+ostendet, si vere reus est hic, qui perurgetur a vobis.
+Et elevata voce, ex nomine clamat defunctum. Cumque
+ei de sepulcro vocatus respondisset, ait ad
+eum: Per fidem Christi te obtestor, ut dicas si ab
+hoc homine, qui calumniam patitur, occisus es. Tunc
+ille de sepulcro clara voce respondit, dicens, non se
+<pb n="0450C"/>
+esse ab eo interfectum. Et cum stupefacti omnes decidissent
+ad terram, ac pedibus ejus advolverentur,
+rogare caeperunt, ut interrogaret eum a quo esset occisus.
+Tunc ille: Hoc, inquit, non interrogabo: sufficit
+<pb n="0451A"/>
+enim mihi, ut innocens liberetur, non est autem
+meum, ut reus prodatur.</p>
+<p>Aliud quoque <note>(Pallad. cap. 19.)</note> ejus genus miraculi
+ferebatur. Cujusdam in vicino oppido patris familias
+virgo filia per phantasias magicas videbatur
+hominibus in equinum animal versa, ut putaretur
+equa esse, et non puella. Hanc adduxerunt ad eum.
+Tunc ille perconctatus, quid vellent? aiunt parentes
+ejus: Equa haec quam vident oculi tui, puella virgo
+et filia nostri fuit, sed homines pessimi, magicis artibus
+in animal hoc quod vides mutaverunt eam.
+Rogamus ergo, ut ores Dominum, ut commutet eam
+in hoc quod fuit. At ille ait: Ego hanc quam ostenditis
+mihi puellam video, nihil in se pecudis habentem:
+hoc autem quod dicitis, non est in ejus corpore,
+<pb n="0451B"/>
+sed in oculis intuentium. Phantasiae enim
+daemonum sunt istae, non veritas rerum. Et cum introduxisset
+eam, cum parentibus suis intra cellulam,
+fixis genibus orare Dominum caepit, simulque et parentes
+rogat secum Domino supplicare, et post hoc
+perungens eam oleo in nomine Domini, <emph>195</emph> omni
+fallacia visus expulsa, virginem videri omnibus, ut
+etiam sibi videbatur, effecit.</p>
+<p>Alia quoque ( <hi>Deest hoc Palladio</hi> ) minor puella ad
+eum deducta est, cujus obseoena corporis ita omni
+ex parte computruerant, ut consumptis carnibus,
+interiora quoque et secreta naturae nudarentur, ac
+vermium ebulliret inde innumera multitudo, ita ut
+nec accedere quidem quisquam ad eam posset prae
+foetoris horrore. Haec cum allata a parentibus, et projecta
+<pb n="0451C"/>
+fuisset ante fores ejus, miserans virginis cruciatus:
+Aequo animo, inquit, esto, filia, haec tibi ad
+salutem Dominus, non ad interitum dedit: unde providendum
+est magis, ut sanitas tua nullum tibi periculum
+conferat. Et cum institisset orationibus per
+septem continuos dies, et oleum benedicens, in nomine
+Domini perungeret membra ejus, ita eam
+sanam reddidit, ut muliebris in ea naturae nulla
+forma, nulla species appareret, sed esset ei inter
+<pb n="0452A"/>
+viros conversatio, absque femineae suspicionis obstaculo.</p>
+<p>Aiebant praeterea ( <hi>Deest hoc Palladio</hi> ), aliquando
+venisse ad eum haereticum quemdam hieracitam, quod
+genus haereseos invenitur apud Aegyptum. Hic cum
+per multam loquendi artem plurimos fratrum qui
+habitabant in eremo, conturbaret, ausus est etiam
+coram ipso fidei suae asserere pravitatem. Cui cum
+resisteret senior, et contradiceret ille, verba simplicia
+argumentis callidis eludebat. Sed cum videret
+sanctus fidem fratrum periclitari, Quid opus est,
+inquit, nos verbis contendere ad subversionem audientium.
+Exeamus ad sepulcra fratrum, qui nos
+praecesserunt in Domino: et cui nostrum concesserit
+Dominus <emph>196</emph> suscitare mortuum de sepulcro, sciant
+<pb n="0452B"/>
+omnes, quia illius fides probatur a Deo. Sermo hic
+omnibus qui aderant fratribus placuit. Processerunt
+ad sepulcra, et hortatur Macarius hieracitam, ut
+evocaret mortuum in nomine Domini. At ille, Tu,
+inquit, domine, qui proposuisti, prior evoca. Et Macarius
+prosternens se in orationem ante Dominum,
+ubi sufficienter oravit, elevatis sursum oculis suis,
+ait ad Dominum: Tu, inquit, Domine, quis ex duobus
+nobis rectam fidem teneat, ostende, elevato
+mortuo hoc. Et cum haec dixisset, fratris cujusdam
+nomen, qui nuper fuerat sepultus, evocavit. Cui ille
+cum de tumulo respondisset, accedentes fratres continuo,
+quae superposita fuerant, auferunt, et eductum
+eum de sepulcro, resolutis fasciolis quibus constrictus
+erat, exhibuerunt viventem. Hieracita vero,
+<pb n="0452C"/>
+ubi haec vidit, obstupefactus in fugam vertitur. Quem
+fratres quoque omnes insequentes, extra terminos
+terrae illius exturbaverunt.</p>
+<p>Multa etiam et alia ferebantur de eo, quae nimis
+prolixa sunt ad scribendum: sed ex his paucis, etiam
+cetera ejus opera noscuntur.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIX. DE MACARIO ALEXANDRINO SEU JUNIORE.</head>
+<p>Alius vero <note>(Pallad. cap. 19 et 20.)</note> sanctus Macarius
+<pb n="0453A"/>
+magnificas etiam virtutes consummavit, de quibus
+et alii nonnulla scripserunt, quae sufficere possint ad
+virtutum ejus magnitudinem contuendam, et ideo
+nos ea compendio praeterimus.</p>
+<p>Ferebant tamen eum amatorem fuisse eremi super
+omnes ceteros, ita ut etiam ultima et inaccessibilia
+deserti perscrutatus sit loca, usquequo inveniret <emph>197</emph> 
+ locum quemdam in ultimis eremi constitutum,
+diversis pomiferis arboribus consitum, et omnibus
+bonis repletum: ubi etiam duos fratres invenisse ferebatur,
+quos cum rogaret, ut paterentur ad se deduci
+illuc monachos, ut ibi habitarent, quoniam quidem
+locus ille et amoenus esset, et abundans in omnibus
+necessariis; responderunt, non posse adduci
+illuc plures, ne forte venientes per eremum a daemonibus
+<pb n="0453B"/>
+deciperentur. Multos enim aiebant esse daemones
+in deserto, ac monstra, quorum molestias et
+calliditates ferre multitudo insueta non posset. Regressus
+tamen ad fratres, cum indicasset de opportunitate
+loci, multorum inflammati sunt animi, ut
+pergerent illuc cum eo. Sed ubi patres reliqui senserunt
+animos juvenum concitatos, represserunt eos
+salubriore consilio, dicentes: Locus iste si vere, ut
+jactatur, a Jamne et Mambre consitus est, non aliud
+de eo credendum est, nisi quod diaboli opere ad
+deceptionem nostram praeparatus sit. Si enim vere,
+ut perhibent, deliciosus est et abundans; quid sperabimus
+in futuro saeculo, si hic deliciis fruimur? Et
+haec atque alia hujusmodi dicentes, juvenum ferventes
+animos represserunt.</p>
+<p>
+            <pb n="0453C"/>Locus autem <note>(Joan. libell. III, num. 15.)</note>, in
+quo habitabat ipse sanctus Macarius, Scithium appellatur.
+Est autem in eremo vastissima positus, diei
+et noctis iter habens de Nitriae monasteriis; et hoc
+nulla semita, neque terrenis aliquibus colligitur vel
+monstratur indiciis, sed stellarum signis et cursibus
+pergitur. Aqua raro invenitur, et sicubi inventa fuerit,
+odoris quidem dirissimi est, et quasi bituminea,
+sed saporis innoxii. Sunt ergo ibi viri valde perfecti
+(nec enim patitur tam terribilis locus, nisi perfecti
+propositi habitatores summaeque constantiae) caritatis
+tamen inter se et erga omnes, si qui forte ad eos
+accesserunt, summum studium gerunt.</p>
+<p>Fertur denique <note>(Pallad. cap. 20.)</note> cum sancto
+Macario uvam quis aliquando detulisset, ille qui secundum
+<pb n="0453D"/>
+caritatem, non quae sua sunt, sed quae alterius
+cogitaret <note>(1. Cor. 10.)</note>, ad alium fratrem detulit
+eam, qui quasi infirmior videbatur. Tunc ille gratias
+egit Deo pro fratris officio, sed et ipse nihilominus
+plus de proximo, quam de semetipso cogitans, ad
+alium pertulit, et ille item ad alium, et sic <emph>198</emph> 
+per omnes cellulas, quae longe a semetipsis per eremum
+dispersae erant, uva circumlata est, ignorantibus
+eis, quis eam primo misisset; ad ultimum ipsi
+defertur, qui eam miserat. Gratulatus est autem sanctus
+Macarius, quod tantam viderat in fratribus continentiam,
+tantamque caritatem, ad acriora semetipsum
+spiritalis vitae extendit exercitia.</p>
+<p>Ad fidem namque confirmatum nobis de eo est ab
+<pb n="0454A"/>
+his, qui ex ore ejus audierant, quod quodam tempore
+noctis daemon ad ostium cellulae ejus pulsaverit, dicens:
+Surge, abba Macari, et eamus ad collectam,
+ubi fratres ad vigilias congregantur. Sed ille, qui
+gratia Dei repletus falli non poterat, intellexit diaboli
+esse fallaciam, et ait: O mendax et veritatis inimice!
+quid enim tibi consortii, quid societatis est cum collecta
+et congregatione sanctorum? At ille: Latet
+ergo te, inquit, o Macari, quod sine nobis nulla collecta
+agitur, nullaque congregatio monachorum?
+Veni denique, et videbis opera nostra. Tunc ille, <hi>Imperet,</hi> 
+ inquit, <hi>tibi Dominus <note>(Judae 9.)</note>
+            </hi>, daemon immunde.
+Et conversus ad orationem, petiit a Domino,
+ut sibi ostenderet, si hoc verum esset, quod
+gloriatus est daemon. Abiit ergo ad collectam, ubi a
+<pb n="0454B"/>
+fratribus vigiliae celebrantur, et iterum in oratione
+Dominum deprecatur, ut sibi veritatem verbi hujus
+ostendat. Et ecce vidit per totam Ecclesiam, quasi
+parvulos quosdam puerulos Aethiopes tetros discurrere
+huc atque illuc, et velut volitando deferri. Moris
+est autem inibi, sedentibus cunctis, ab uno dici
+Psalmum, ceteris, vel audientibus, vel respondentibus.
+Discurrentes ergo illi Aethiopes pueruli, singulis
+quibusque sedentibus alludebant, et si cui duobus
+digitulis oculos compressissent, statim dormitabat:
+si cui vero in os immersissent digitum, oscitare eum
+faciebant. Ubi vero post Psalmum ad orandum se
+projecissent fratres, percurrebant nihilominus singulos,
+et ante alium jacentem in oratione, quasi mulierum
+specie ferebantur, ante alium quasi aedificantes
+<pb n="0454C"/>
+atque portantes aliquid, ac diversa quaeque agentes
+apparebant. Et quaecumque daemones quasi ludendo
+formassent, haec orantes illi in cordis sui cogitatione
+versabant: a nonnullis tamen, ubi aliquid horum <emph>199</emph> 
+ agere caepissent, quasi vi quadam repulsi, praecipites
+dejiciebantur, ita ut nec stare quidem prorsus,
+aut transire juxta eos auderent: aliis vero etiam
+infirmis fratribus supra cervices, et dorsa ludebant,
+quia non erant in oratione sua intenti. Haec cum vidisset
+sanctus Macarius, ingemuit graviter, et lacrymas
+profundens ad Dominum, <hi>Respice,</hi> ait, <hi>Domine,
+et ne sileas, neque mitigeris, Deus <note>(Psal. 82.)</note>
+            </hi>. <hi>Exsurge,
+ut dispergantur inimici tui, et ut fugiant a facie
+tua; quoniam anima nostra repletur illusionibus <note>(Psal.
+67.)</note>
+            </hi>. Post orationem tamen examinandae veritatis gratia
+<pb n="0454D"/>
+seorsum evocatis singulis quibusque fratribus,
+ante quorum faciem viderat daemones diverso habitu
+et variis imaginibus ludentes, requirit ab eis, si in
+oratione, vel aedificandi cogitationes habuerint, vel
+iter agendi, vel alia diversa, quae unicuique imaginata
+per daemones viderat: et singuli eorum ita confitebantur
+in corde suo fuisse, ut ille arguebat: et tunc
+intellectum est, quod omnes vanae et superfluae cogitationes,
+quas vel psalmorum, vel orationum tempore
+unusquisque conceperit, ex illusione daemonum
+fiant: ab his autem qui omni custodia cor suum servant,
+tetri repelluntur Aethiopes. Deo enim conjuncta
+mens, et in ipso, tempore praecipue orationis
+intenta, nihil alienum, nihil superfluum recipit.</p>
+<p>
+            <pb n="0455A"/>Aliud quoque multo terribilius addebat, quod vidisset
+eo tempore, quo fratres accedebant ad sacramenta.
+Ubi porrexissent ad suscipiendum palmas,
+in nonnullorum manibus praevenientes Aethiopes,
+carbones deponere, Corpus autem, quod tradi Sacerdotis
+manibus videbatur, redire ad altare; aliis vero
+quos meliorum merita juvabant, extendentibus manus
+ad altare, longe recedere daemones, et cum ingenti
+metu refugere: Angelum enim Domini assistere
+cernebat altari, qui cum sacerdotis manu suam quoque
+manum in Sacramentorum distributione superponeret.
+Ex hoc jam permansit <emph>200</emph> ei a Deo gratia
+ista, ut in vigiliis fratrum, psalmorum et orationis
+tempore si quis aliud aliquid secundum illusionem
+daemonum in corde cogitasset, agnosceret, et accedentium
+<pb n="0455B"/>
+ad altare, vel indignitates eum, vel merita
+non laterent.</p>
+<p>Quodam autem tempore <note>(Palladius cap. 19. et 20.
+Joan. libello III, n. 15.)</note> ambo Macarii homines Dei,
+cum fratris cujusdam videndi gratia iter agerent,
+ascenderunt navigium, quo fluvius transiri solet, in
+quo navigio erant simul quidam tribuni, divites homines
+et praepotentes, equos plurimos ac pueros, et
+multa secum ministeria habentes. Horum unus, cum
+videret in ultima navigii parte vilibus indumentis,
+atque ad omnia expeditos jacere monachos, ait ad
+eos: Beati estis vos, qui huic saeculo illuditis, et nequaquam
+ex eo requiritis, nisi indumentum vilissimum
+et parcissimum victum. Tunc unus de Macariis
+respondit ad eum: Vere quidem, ut dicis, qui Deum
+<pb n="0455C"/>
+sequuntur, illudunt mundo; sed miseremur vestri,
+quod vobis econtrario mundus illudit. Tunc ille compunctus
+super hunc sermonem, statim ut pervenit ad
+domum suam, derelictis omnibus, vel distractis quae
+habebat, et pauperibus datis, ipse Deum sequi coepit,
+et ad monachorum exercitia properavit.</p>
+<p>Sed et multa, ut diximus, alia de operibus sancti
+Macarii Alexandrini mirabilia feruntur, ex quibus
+nonnulla in XI libro Ecclesiasticae historiae inserta,
+qui requirit inveniet.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXX. DE AMMONE, PRIMO NITRIAE MONACHO.</head>
+<p>Initium sane <note>(Pallad. c. 8. Supra in Vita sancti
+Antonii c. 32.)</note> habitationis monasteriorum, quae in
+<pb n="0455D"/>
+Nitria sunt, sumptum tradebant ab Ammone quodam,
+cujus animam (cum exisset de corpore) vidit
+ferri ad coelum sanctus Antonius, sicut refert scriptura
+illa, quae Vitam describit beati Antonii. Hic igitur
+<pb n="0456A"/>
+Ammon locupletibus et generosis parentibus natus
+est, a quibus invitus <emph>201</emph> ad nuptias cogebatur.
+Et cum vim parentum non posset effugere, accepta
+virgine, cum intra nuptiales thalamos convenissent,
+et data eis essent cubiculi secreta silentia, alloquitur
+puellam de pudicitia, et de conservanda virginitate
+coepit cohortari, dicens: Quia corruptio sine dubio
+invenit corruptionem, incorruptio vero incorruptionem
+sperat. Multo ergo melius est, si uterque nostrum
+in virginitate perduret, quam ut alter corrumpatur
+ex altero. Acquiescit ei virgo, silentio tegitur incorruptionis
+thesaurus. Cumque plurimo tempore solius
+Dei contenti testimonio, spiritu magis essent, quam
+carne sanguineque conjuncti, post obitum amborum
+parentum, ille quidem, ad vicinum deserti secedit
+<pb n="0456B"/>
+locum, virgo vero intra domum residens, in brevi et
+ipsa multitudines virginum, et ille multitudines congregat
+monachorum.</p>
+<p>Cumque jam secretus sederet in eremo, adolescens
+quidam, qui morsu canis rabidi in rabiem versus est,
+multis vinctus catenis ad eum deducitur, prosequentibus
+eum parentibus suis, et rogantibus pro eo. At
+ille dixit eis: Quid mihi molesti estis, o homines?
+supra merita mea est, quod petitis; sed tamen hoc
+vobis indicare possum, quod in manibus vestris est
+ejus sanitas. Reddite viduae bovem suum, quem furati
+estis, et sanus reddetur vobis filius vester. At illi
+extimuerunt quidem valde, quod ea quae secrete gesta
+sunt, non latuerunt hominem Dei. Gavisi sunt tamen,
+quod hanc eis viam salutis ostendit, et sine mora, ut
+<pb n="0456C"/>
+reddiderunt direpta, orante homine Dei, etiam juveni
+sanitas redditur.</p>
+<p>Alio quoque tempore, cum venissent ad eum quidam,
+probare volens animos ipsorum, dicit dolium
+sibi esse necessarium, ubi aquam pro advenientibus
+congregaret. Et cum polliciti fuissent perlaturos se,
+unus ex ipsis grave sibi duxit, dicens, periclitari posse
+camelum suum, si ei tam grave onus imponeret. Et
+ait ad alterum: Tu si vis aut potes, defer, ego camelo
+meo parco ne moriatur. Tunc alter: Mihi, inquit, <emph>202</emph> 
+ ut ipse nosti camelus non est, sed asinus. Numquid
+potest quod camelus portare non valet, asinus
+portare? At ille: Facito, inquit, ut voles; tu videris:
+ego enim non interimam camelum meum. Tunc
+ille: Ego, inquit, imponam asino meo pondus, quod
+<pb n="0456D"/>
+tu camelo tuo onerosum dicis, et merita hominis Dei
+facient, quod impossibile est esse possibile. Et ita
+impositum dolium asino suo, perrexit usque ad monasterium
+hominis Dei, ita ut nec sentiret asinus se
+<pb n="0457A"/>
+aliquid oneris portare. Quem ut vidit Ammon, Bene
+fecisti, inquit, in asino deferens dolium; collegae enim
+tui camelus mortuus est. Et regressus invenit ita
+gestum, ut praedixerat famulus Dei.</p>
+<p>Sed et multa alia per eum signa Dominus ostendit.
+Nam et fluvium Nilum cum transire vellet, et
+exuere se erubesceret, virtute Dei subito in alteram
+ripam translatus dicitur. Beatus autem Antonius, in
+summa admiratione vitae ejus justitiam atque animi
+virtutes habuisse memoratur.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXI. DE PAULO SIMPLICE.</head>
+<p>Fuit quidam <note>(Palladius, cap. 28.)</note> inter discipulos
+sancti Antonii, Paulus nomine, cognominatus Simplex.
+Hic initium conversionis suae hujusmodi habuit.
+<pb n="0457B"/>
+Cum uxorem suam oculis suis, cum adultero cubantem
+vidisset, nulli quidquam dicens, egressus est domum,
+et moestitia animi tactus, in eremum semetipsum
+dedit, ubi cum anxius oberraret, ad monasterium
+pervenit Antonii, ibique ex loci admonitione et
+opportunitate consilium capit. Cumque adisset Antonium,
+ut iter ab eo salutis inquireret, ille intuens
+hominem simplicis naturae esse, respondit ei, ita demum
+eum posse salvari, si his quae a se dicerentur,
+obediret. Tunc ille omnia quaecumque sibi praeciperet
+facturum se esse respondit. Ut ergo promissionem
+ejus probaret Antonius, ante fores cellulae stanti:
+Hic, inquit, exspecta me orans, donec egrediar. Et
+egrediens Antonius, mansit intrinsecus <emph>203</emph> per
+totam diem et per totam noctem; per fenestram tamen
+<pb n="0457C"/>
+ex occulto frequentius respiciens videbat eum
+indesinenter orantem, et nusquam prorsus moveri,
+sed stare in aestu diei et rore noctis, et ita esse mandati
+memorem, ut ne parum quidem loco moveretur.</p>
+<p>Egressus autem die postero Antonius, instituere
+eum et docere coepit de singulis, quomodo opere
+manuum solitudinem solaretur: et digitis quidem
+corporis opus carnale, cognitione vero mentis et
+animi intentione operaretur quae Dei sunt. Cibum
+quoque in vesperam ei sumere praecepit; sed observare,
+ne unquam ad saturitatem usque perveniret,
+et praecipue in potu: confirmans, non minus per
+aquae abundantiam phantasias fieri animi, quam
+per vinum calorem corporis crescere. Et ubi plene
+eum qualiter se in singulis agere deberet, instruxit, in
+<pb n="0457D"/>
+vicino ei, hoc est, tribus a se millibus cellulam constituit,
+ibique eum exercere, quae didicerat jubet,
+ipse tamen frequentius visitans gratulabatur, deprehendens
+eum in his, quae sibi tradita fuerant, tota
+intentione et sollicitudine permanentem.</p>
+<p>
+            <pb n="0458A"/>Quadam autem die, cum venissent ad sanctum Antonium
+fratres, magni quidem et perfecti viri, accidit
+etiam Paulum adesse pariter cum eis. Et cum
+sermo de rebus profundis et mysticis haberetur, cumque
+de Prophetis et Salvatore plurima tractarentur,
+Paulus ex simplicitate animi interrogat, si Christus
+prius fuerit, an Prophetae? Beatus vero Antonius,
+cum pro eo quod tam absurde interrogaverat, quasi
+erubuisset, blando nutu, ut erga simpliciores solebat,
+silere atque abire eum jubet. Et ille, quia omne
+quodcumque ab eo dictum fuisset tamquam praeceptum
+Dei servare instituerat, abscedens ad cellulam
+suam, tamquam mandato accepto, silentium gerere
+instituit, nec omnino aliquid loqui. Quod cum comperisset
+Antonius, mirari coepit, unde haec illi observantia
+<pb n="0458B"/>
+placuisset, quam a se sciebat non esse mandatam.
+Cumque jussisset eum loqui, et cur sileret indicare,
+dixit ei Paulus, Tu Pater, dixisti, ut irem et
+silerem. Et obstupefactus Antonius, ita ab eo sermonem,
+quem ille negligenter protulerat, observatum:
+Omnes, inquit, nos iste condemnat: cum enim nos
+de caelo nobis non audiamus <emph>204</emph> loquentem, ab
+isto qualiscumque sermo, qui ex ore nostro ceciderit,
+observatur.</p>
+<p>Multa tamen et sanctus Antonius eum docere volens
+de obedientia, praecipere ei solitus erat etiam,
+quae ratio et caussa non posceret, in quibus ejus animus
+erga obedientiam probaretur. Haurire namque
+aliquando eum aquam jussit ex puteo, et in terram
+tota die effundere; et contextas sportellas resolvere,
+<pb n="0458C"/>
+ac denuo contexere, et vestimentum dissuere atque
+iterum resuere, et rursus resolvere, et in pluribus
+hujusmodi exercitiis ab eo memoratur imbutus, ut
+in nullo prorsus etiam eorum, quae contra rationem
+imperari jubebantur, disceret contradicere, et ita
+per haec omnia informatus, brevi ad perfectionem
+venit. Ex cujus exemplo docebat beatus Antonius,
+quod si quis velit ad perfectionem velociter pervenire,
+non sibi ipse fieret magister, nec propriis voluntatibus
+obediret, etiam si rectum videatur esse quod vellet,
+sed secundum mandatum Salvatoris observandum
+esse, ut ante omnia unusquisque abneget semetipsum
+sibi, et renuntiet propriis voluntatibus, quia
+et Salvator ipse dixit: <hi>Ego veni, non ut faciam voluntatem
+meam, sed ejus qui misit me <note>(Matth. 16.)</note>
+            </hi>. Et
+<pb n="0458D"/>
+utique voluntas Christi non erat contraria voluntati
+Patris; sed qui venerat obedientiam docere, non inveniretur
+obediens, si propriam faceret voluntatem <note>(Joan. 6.)</note>.
+Quanto ergo magis nos non judicabimur
+inobedientes, si faciamus proprias voluntates? Denique
+<pb n="0459A"/>
+supradictus Paulus exemplo nobis est, qui obedientiae
+et simplicitatis merito in tantum spiritualium
+gratiarum culmen ascendit, ut multo plures et potentiores
+virtutes per ipsum Dominus, quam per secundum
+Antonium faceret.</p>
+<p>Et quoniam pro affluentia gratiarum multi ad eum
+ex omnibus terrae partibus confluebant, ut curarentur
+ab eo, verens beatus Antonius ne molestia multitudinis
+fugaretur, in interiori eremo, quo accedi
+facile ab aliquo non posset, commanere eum fecit, ut
+venientes magis ipse susciperet Antonius. Si quos
+vero ipse non potuisset curare, hos ad Paulum
+tamquam prolixiorem sanitatum gratiam habentem
+mittebat, et ab illo curabantur. Tantam autem ejus
+simplicitatis apud Domini <emph>205</emph> fiduciam fuisse tradunt,
+<pb n="0459B"/>
+ut quodam tempore cum quidam rabiem patiens
+in modum canis laniaret omnem qui ad se ausus
+fuisset accedere, et perductus ad eum fuisset, insistebat
+orationi, ut daemonem qui eum urgebat, fugaret.
+Et cum mora fieret, nec celer sequeretur effectus,
+quasi infantum more indignatus ad Dominum
+dixisse fertur: Vere non manducabo hodie, si eum
+non curaveris, et continuo quasi delicioso domino
+satisfactum est a Deo; et statim curatus est rabidus.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXXII. DE PIAMMONE PRESBYTERO. <note>(Pallad., cap. 72 de Ammona presbytero qui hic Piammon.)</note> </head>
+<p>Non autem mihi videtur dignum, etiam eremi habitatores,
+quae Porthenio mari adjacet, et vicina est
+<pb n="0459C"/>
+oppido quod dicitur Diolco, silentio praeterire. In
+quo vidimus quemdam Presbyterum, admirabilem,
+nomine Piammonem, totius humilitatis et benignitatis
+virum, habentem etiam revelationum gratiam. Denique
+quodam tempore, cum Domino sacrificium offerret,
+vidit angelum Domini stantem juxta altare, et
+uniuscujusque monachorum accedentium ad altare
+scribentem nomina in libro quem tenebat in manibus,
+quorumdam tamen nomina non scribentem.
+Cumque diligenter observaret senior, qui
+essent quorum nomina non scripsisset, posteaquam
+sunt completa mysteria, unumquemque eorum seorsum
+vocans, percontatur, quid eis in occulto peccati
+fuisset admissum: et invenit ex confessione unumquemque
+eorum mortalis peccati obnoxium. Tunc
+<pb n="0459D"/>
+hortatur eos agere poenitentiam, et semetipsum cum
+eis ante Dominum prosternens, die ac nocte tamquam
+ipse in eorum peccatis esset obnoxius, flebat, et tam
+<pb n="0460A"/>
+diu permansit cum eis in poenitentia et lacrymis, donec
+iterum videret eumdem Angelum stantem, et
+scribentem nomina accedentium. Et posteaquam omnium
+scripsit, tunc etiam illos ex nominibus <emph>206</emph> 
+evocantem, atque ad reconciliationem altaris invitantem.
+Ubi hoc vero senior vidit, intellexit eorum
+susceptam esse poenitentiam: et sic eos altari tota
+cum gratulatione restituit.</p>
+<p>Hunc etiam quodam tempore ferebant a daemonibus
+ita verberatum, ut stare, aut moveri omnino loco
+non posset. Et cum dies adesset Dominica, et res
+posceret offerri sacrificium, jussit se fratrum manibus
+ad altare portari. Ubi cum in oratione jacuisset,
+astantem continuo vidit Angelum Domini, qui astare
+solebat altari, et porrigentem sibi manum, atque
+<pb n="0460B"/>
+elevantem se de terra, statim dolor omnis ita ab eo
+discessit, ut solito sanior redderetur.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXIII. DE JOANNE.</head>
+<p>Erat in ipsis locis <note>(Pallad. cap. 73.)</note> vir sanctus,
+ac totius gratiae dono repletus, Joannes nomine, in
+quo tanta erat consolationis gratia, ut quacumque
+moestitia, quocumque taedio oppressa fuisset anima,
+paucis ejus sermonibus, alacritate et laetitia repleretur.
+Sed et sanitatum gratia plurima ei a Domino
+donata est.</p>
+</div2>
+      </div1>
+
+<div1>
+        <head>EPILOGUS. <hi>De periculis itineris ad eremos.</hi> </head>
+<p divs_removed="true">In aliis quoque <note>(Pallad. cap. 150.)</note> quam plurimis
+locis Aegypti, sparsim vidimus sanctos Dei, virtutes
+<pb n="0460C"/>
+multas et mirabilia facientes et totius gratiae Dei plenos,
+sed et paucos ex multis memoravimus. De omnibus
+vero explicare, supra vires nostras est.
+
+        </p>
+        <div3 moved_from_p="true">
+            <head>1.</head>
+          <p>
+ Nam de his qui in superiore Thebaida, id est,
+circa ipsam sienem habitare dicuntur, auditu solo
+comperimus, quod his paene omnibus, quos vidimus,
+celsiores illi et magnificentiores habebantur. Accedere
+vero ad ipsos pro itineris periculo nequivimus:
+quia quamvis omnia illarum partium loca latronibus
+incursentur, illa tamen <emph>207</emph> quae ultra civitatem Lyco
+sunt, etiam barbaros patiuntur. Et ideo nullus nobis
+ad eos accessus fuit, quia revera nec eos quos superius
+memoravimus, absque periculo vidimus.</p>
+        </div3>
+<p>Septies namque in hoc itinere periclitati sumus, in
+octavo autem, sicut scriptum est, <hi>Non obtinuit nos
+<pb n="0460D"/>
+malum <note>(Job. 1)</note>
+          </hi>, Deo nos in omnibus protegente.</p>
+<p>Denique semel per quinque dies ac noctes incedentes
+per eremum, siti ac lassitudine periclitati sumus.</p>
+<pb n="0461A"/>
+
+<div3>
+          <head>2. </head>
+          <p>
+Alio quoque tempore incurrimus locum, in
+quo est convallis quaedam, humorem ex semetipso
+gignens salsum, quem continuo calor solis velut hiemalis
+pruina in glaciem, ita in salem stringit, et
+tamquam sudes acutas, ex ipso sale efficit: atque
+ita omnia illa exasperantur loca, ut non solum nudos
+pedes, ut habebamus nos, sed et calceamentis
+munitos terebret ac secet. In his ergo inventi, magno
+cum periculo vix evasimus.</p>
+        </div3>
+<div3>
+          <head>4.</head>
+          <p>
+ Tertio cum nihilo minus per eremum pergeremus,
+incurrimus vallem quamdam, humorem ex semetipsa
+similiter quidem gignentem, sed intra semetipsam
+eum servantem, cujus solum saxis et foetido
+coeno repletum transire cupientes, usque ad latera
+descendimus. Cumque paene ibidem in eadem mergeremur,
+<pb n="0461B"/>
+exclamantes ad Dominum, vocem Psalmi
+protulimus, dicentes: <hi>Salvum me fac, Deus, quoniam
+intraverunt aquae usque ad animam meam. Infixus sum
+in limo profundi, et non est substantia <note>(Psalm. 16.)</note>
+          </hi>.</p>
+        </div3>
+<div3>
+          <head>4.</head>
+          <p>
+ Quartum periculum pertulimus in aquis quibusdam,
+quae ex inundatione Nili remanserant, in quibus
+triduo continuo afflicti, vix evadere potuimus.
+</p>
+          <p>5 <emph>208</emph> Quintum periculum fuit nobis a latronibus,
+cum secus mare iter ageremus, qui per decem millia
+passuum insequentes nos, quos perimere ferro non
+poterant, poene exanimes reddiderunt per fugam.</p>
+<pb n="0462A"/>
+</div3>
+<div3>
+          <head>6. </head>
+          <p>
+Sextum discrimen nobis in ipso flumine Nilo
+fuit, in quo navigantes, poene submersi sumus.</p>
+        </div3>
+<div3>
+          <head>7.</head>
+          <p>
+ Septimum, in stagno, quod Mariae vocabulo
+appellatur, vento saeviente, in insulam quamdam
+ejecti sumus, hieme gravissima super nos et tempestate
+fervente. Erat enim tempus, quo Epiphaniorum
+dies celebrantur.</p>
+        </div3>
+<div3>
+          <head>8.</head>
+          <p>
+ Octavum autem fuit, quod cum ad Nitriae monasteria
+veniremus, locum quemdam incidimus, in
+quo refluentis Nili aqua residens, velut stagnum
+quoddam effecerat, in quo multae bestiae praecipue
+crocodili plurimi erant. Qui cum tempore solis exissent,
+resoluti circa oram stagni jacebant, ita ut ignorantibus
+nobis mortui viderentur. Et cum accederemus
+ad videndam mirandamque magnitudinem bestiarum,
+<pb n="0462B"/>
+quas exanimes putabamus, continuo ut sonitum
+pedum senserunt, excitati, irruere et insectari
+nos vehementer coeperunt. Nos autem cum magno
+clamore et gemitu nomen Christi Domini invocavimus,
+cujus misericordia affuit, et bestiae quae contra
+nos insurrexerant, quasi ab Angelo repellente, in stagnum
+protinus projectae sunt, nos autem cursu intento
+ad monasteria festinavimus, gratias agentes Deo
+nostro, qui nos de tantis periculis liberavit, et tanta
+nobis ostendit mirabilia. Ipsi gloria et honor in saecula
+saeculorum. Amen.
+
+</p>
+        </div3>
+      </div1>
+</body>
+  </text>
+</TEI>

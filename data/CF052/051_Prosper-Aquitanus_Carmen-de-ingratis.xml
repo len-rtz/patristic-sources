@@ -1,0 +1,1305 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Carmen de ingratis</title>
+              <author ref="http://viaf.org/viaf/52485706">Prosper Aquitanus<date>390-463</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 51</title>
+           <idno>ProAqu.CaDeIn2</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Praefatio.</head>
+<l>
+<pb n="0091A"/> <emph>105</emph> Unde voluntatis sanctae subsistat origo,</l>
+<l rend="indent">Unde animis pietas insit, et unde fides:</l>
+<l>Adversum ingratos falsa et virtute superbos,</l>
+<l rend="indent">Centenis decies versibus excolui.</l> 
+<l>
+<pb n="0092A"/>Quos si tranquilla studeas cognoscere cura,</l>
+<l rend="indent">Tutus ab adverso turbine, lector, eris,</l>
+<l>Nec libertate arbitrii rapiere rebellis,</l>
+<l rend="indent">Ulla nec audebis dona negare Dei.</l> 
+<l>
+<pb n="0093A"/>Sed bona quae tibi sunt, operante fatebere
+Christo,</l>
+<l>
+<pb n="0094A"/>Non esse ex merito sumpta, sed ad meritum.</l> 
+</div1>
+
+<div1>
+        <head> <hi>PARS PRIMA.</hi> </head>
+<pb n="0093"/>
+
+
+<p>ARGUMENTUM</p>
+<p>Principio declarat sanctus Prosper sibi in animo esse impendens Ecclesiae periculum ab occultis gratiae hostibus,
+quorum opera Pelagianorum haeresis exstincta revivisceret, hoc carmine propulsare. Mox aperit quale fuerit dogma
+Pelagii, et quanto cum studio ab Ecclesiae praesulibus improbatum, conciliorum et sedis apostolicae auctoritate damnatum,
+a SS. doctoribus confulatum, potissimumque a D. Augustino, cujus praestantissimi viri, et uberioribus gratiae
+dotibus a Deo cumulati in hoc certamine industria et lumen prae omnibus enituerit. Verum cum per Semipelagianos
+occultissimum hujus haereseos venenum rursum emergat, posse Pelagianos ab eis jure suo postulare, ut cum ipsorum
+sententiam probent, in gratiam recipiantur: aut ab Ecclesia flagitare, ut vel quod illi in Ecclesia impune docent, docere
+itidem permittantur, vel etiam illi una secum foras pellantur.
+<l>
+<pb n="0093B"/> <emph>115</emph>  CONGENITAE in Christo gentis mihi castus ab alto</l>
+<l>Insinuatus amor, proprias excedere vires</l>
+<l>Me jubet, atque pias accendere carmine mentes.</l> 
+<l>Ne post confectum celebris victoria bellum,</l>
+<l>Securos animos incauta pace resolvat:</l>
+<l>Ceu metus eliso jam nullus ab hoste supersit,</l>
+<l>Nec caput attriti virosum palpitet anguis.</l> 
+<l rend="indent">Unde igitur commenta mali sopita resurgant,</l>
+<l>Quemve ipso de fine dolum nova promat origo,</l>
+<l>Da fari, Pater omnipotens, artemque malignam</l>
+<l>
+<pb n="0094B"/>Pandere, prostratus qua rursum nititur error.</l> 
+<l n="1" indent="1"> DOGMA quod antiqui satiatum felle draconis,</l>
+<l>Pestifero vomuit coluber sermone Britannus,</l>
+<l> <emph>117</emph> Hac primos homines cretos ditione ferebat;</l>
+<l>Ut seu praescriptum mandatum transgrederentur,</l>
+<l n="5">Sive inculpati, servata lege, manerent,</l>
+<l>Mortem istam prorsus, qua carnem vita relinquit,</l>
+<l>Oppeterent; quae non peccato parta, sed ipso</l>
+<l>Instituente Deo, comes esset fixa creatis.</l> 
+<l>Progenitos igitur nullum traxisse reatum</l>
+<l n="10">De patribus, neque dissimiles nunc nascier illo</l>
+<l>
+<pb n="0095A"/>Ortu primorum, qui libertate male usi</l>
+<l>Peccarunt, forma nocui, non semine proli.</l> 
+<l>Posse autem insontes omnes virtutis in arce</l>
+<l>Vitam agere, et menti ingenitum servare decorem:</l>
+<l n="15">Arbitrio quoniam subsistat recta volentis.</l> 
+<l>Naturalis honos, Lexque insita cordibus intus</l>
+<l>Hoc moneat, quod scripta foris: cui gratia Christi</l>
+<l>Addita perfugium lapsis generaliter in se</l>
+<l>Condiderit, sacro si vellent fonte novari:</l>
+<l n="20">Ut sponte attractum venia solvente reatum,</l>
+<l>Sponte sua in vires proprias natura rediret;</l>
+<l>Quoque per errores esset spoliata vigore,</l>
+<l>Hunc servare semel posset purgata receptum.</l> 
+<l>Tam dives vero hoc donum baptismatis esse,</l>
+<l n="25">Et tam multa homini conferri foedere in isto,</l>
+<l>
+<pb n="0096A"/>Ut parvis etiam, vitioque carentibus omni</l>
+<l>Congruat, ut qui sunt geniti bene, sint meliores,</l>
+<l>Naturaeque bonum adjecto illustretur honore.</l> 
+<l> <emph>119</emph> Nullum autem ex cunctis exsortem muneris hujus,</l>
+<l n="30">Judicio genitum esse Dei; sed quemque mereri</l>
+<l>Libertate sua, ut capiat promissa vocantis,</l>
+<l>Quae sint aversis indebita, debita rectis.</l> 
+<l rend="indent"> TALIA cum demens late diffunderet error,</l>
+<l>Commentisque rudes traheret lethalibus aures,</l>
+<l n="35">Affuit; exhortante Deo, provisa per orbem</l>
+<l>Sanctorum pia cura Patrum, non dispare motu</l>
+<l>Conficiens diros jaculis coelestibus hostes.</l> 
+<l>Iisdem namque simul decretis Spiritus unus</l>
+<l>Intonuit. Pestem subeuntem prima recidit</l>
+<l n="40">
+<pb n="0097A"/>Sedes ROMA Petri; quae pastoralis honoris</l>
+<l>Facta caput mundo, quidquid non possidet armis,</l>
+<l>Relligione tenet. Non segnior inde ORIENTIS</l>
+<l>Rectorum cura emicuit: captumque nefandi</l>
+<l>Dogmatis auctorem constrinxit lege benigna</l>
+<l n="45">Commentum damnare suum; nisi corpore Christi</l>
+<l>Abjungi et sancto mallet grege dissociari.</l> 
+<l>Lene quidem hoc, nimiumque malos tolerasse videtur</l>
+<l>Judicium: sed sancta fides examine in illo</l>
+<l>Vicit oborturam diro de semine prolem.</l> 
+<l n="50">Prospectum namque est divino et munere cautum,</l>
+<l> <emph>121</emph> Ut licet instantem declinans bestia poenam,</l>
+<l>Perfidiae secum sensus tenuisset eosdem;</l>
+<l>
+<pb n="0098A"/>Ipsa tamen proprium germen damnando necaret,</l>
+<l>Ore malam exstinguens sobolem, quam protulit ore.</l> 
+<l n="55">Tunc etiam Bethlei praeclari nominis hospes,</l>
+<l>Hebraeo simul et Graio, Latioque venustus</l>
+<l>Eloquio, morum exemplum, mundique magister</l>
+<l>HIERONYMUS, libris valde excellentibus hostem</l>
+<l>Dissecuit, noscique dedit quo turbine veram</l>
+<l n="60">Vellent exortae lucem obscurare tenebrae.</l> 
+<l rend="indent">Quid loquar, et curam magna quam gessit in urbe</l>
+<l>Constantinopoli, docto bonus ore sacerdos</l>
+<l>ATTICUS, antiqua legatos haereticorum</l>
+<l>Confutando fide? De qua tunc impia corda,</l>
+<l n="65">Quamvis se obducta tegerent velamine forma</l>
+<l>
+<pb n="0099A"/>Judicii, et tacitae tulerant tormenta repulsae.</l> 
+<l rend="indent">Praetereo quanto fuerit bene mota tumultu</l>
+<l>Clara EPHESOS, non passa suis consistere tectis</l>
+<l> <emph>123</emph> Vasa irae, et morbi flatus, et semina mortis:</l>
+<l n="70">Quaque fide tellus etiam TRINACRIA fervens,</l>
+<l>Agmen vipereum propriis exegerit oris.</l> 
+<l rend="indent">
+<pb n="0100A"/> TU causam fidei flagrantius, AFRICA, nostrae</l>
+<l>Exsequeris; tecumque suum jungente vigorem</l>
+<l>Juris apostolici solio, fera viscera belli</l>
+<l n="75">Conficis, et lato prosternis limite victos.</l> 
+<l rend="indent">Convenere tui de cunctis urbibus almi</l>
+<l>Pontifices, geminoque senum celeberrima coetu</l>
+<l>
+<pb n="0101A"/> <emph>125</emph> Decernis quod Roma probet, quod regna sequantur.</l> 
+<l rend="indent">Nec sola est illic synodorum exerta potestas;</l>
+<l n="80">Ceu quos non possent ratione evincere nostri,</l>
+<l>Vi premerent: discussae artes, virusque retectum est</l>
+<l>Haeretici sensus; nullumque omnino relictum,</l>
+<l>Docta fides quod non dissolveret argumentum.</l> 
+<l>Condita sunt, et scripta manent, quae de cataractis</l>
+<l n="85">Aeterni fontis fluxere undante meatu,</l>
+<l>Et tercentenis procerum sunt edita linguis:</l>
+<l>Sic moderante suam legem bonitate severa.</l> 
+<l>Ut qui damnato vellent de errore reverti,</l>
+<l>
+<pb n="0102A"/>Acciperent pacem, pulsis qui prava tenerent.</l> 
+<l n="90" indent="1">An alium in finem posset procedere sanctum</l>
+<l>Concilium, cui dux AURELIUS, ingeniumque</l>
+<l>AUGUSTINUS erat? quem Christi gratia cornu</l>
+<l> <emph>127</emph> Uberiore rigans, nostro lumen dedit aevo</l>
+<l>Accensum vero de lumine: nam cibus illi,</l>
+<l n="95">Et vita, et requies Deus est; omnisque voluptas</l>
+<l>Unus amor Christi est, unus Christi est honor illi.</l> 
+<l>Et dum nulla sibi tribuit bona, fit Deus illi</l>
+<l>Omnia, et in sancto regnat Sapientia templo.</l> 
+<l rend="indent">Istius ergo inter cunctos, qui de grege sancto</l>
+<l n="100">
+<pb n="0103A"/>Insanas pepulere feras, industria major,</l>
+<l>Majus opus, totum praestantius imbuit orbem.</l> 
+<l>Nam quocumque gradum convertit callidus hostis,</l>
+<l>Quaque per ambages anceps iter egit opertas,</l>
+<l>Hujus ab occursu est praeventus, mille viarum</l>
+<l n="105">Insidiis aditum non repperientibus ullum.</l> 
+<l>Cumque foris rabies avidorum exclusa luporum</l>
+<l>Frenderet, inque omnes mendacia verteret artes:</l>
+<l>Ne mentes ullarum ovium corrumpere posset,</l>
+<l>Neu dubia obliquis turbaret corda querelis;</l>
+<l n="110">Istius ore viri fecit Deus; istius ore</l>
+<l>Flumina librorum mundum effluxere per omnem,</l>
+<l>
+<pb n="0103B"/>Quae mites humilesque bibunt, campisque animorum</l>
+<l>Certant vitalis doctrinae immittere rivos.</l> 
+<l rend="indent"> JAMQUE procellosae disjecto turbine noctis,</l>
+<l n="115">Heu! nova bella, novi partus oriuntur in ipso</l>
+<l>Securae matris gremio: quae crescere natis</l>
+<l>Visa sibi, discors horret consurgere germen,</l>
+<l>Degeneres pavitans inimico ex semine foetus,</l>
+<l>In quibus ante diu, specie fallente, benignus</l>
+<l n="120">Errarat genitricis amor, cum obducta decoris</l>
+<l>Moribus, externae stirpis tegeretur origo.</l> 
+<l>Sic VERIS subeunt falsa, et descrimine caeco,</l>
+<l>
+<pb n="0104A"/>Fronte placent, quae fine latent; sic laudis amore</l>
+<l>Virtutum studium corrumpitur, atque ab honesto</l>
+<l n="125">Principio in vitium exitur plerumque tumoris:</l>
+<l>Quo quidam inflantur nunc turpiter, atque perempti</l>
+<l> <emph>129</emph> Dogmatis exstinctas tentant animare favillas;</l>
+<l>Dum libertatem arbitrii, affectumque volendi</l>
+<l>In naturalis motus virtute locantes,</l>
+<l n="130">Tam bona quemque docent sectari posse suopte</l>
+<l>Ingenio, quam posse subest cuique in mala ferri.</l> 
+<l rend="indent"> QUOD qui confirmas, quinam distabis ab illis,</l>
+<l>
+<pb n="0104B"/>Qui dicunt, nullo peccati vulnere laesum</l>
+<l>Naturale bonum, cumque illo lumine nasci</l>
+<l n="135">Nunc omnes homines, quod primis ingeneratum est?</l> 
+<l>An vero excerpis quaedam, quae parte recisa</l>
+<l>Suscipias, cordisque sinu purgata recondas?</l> 
+<l>Dic igitur quidnam inde probes, quid vero refutes,</l>
+<l>Et de damnatis quid sit quod crimine solvas.</l> 
+<l n="140">An dextram pacis palam dare te pudet hosti?</l> 
+<l>Nec tutum est ulla pulsos ex parte tueri</l>
+<l>Simpliciter? Quos non dubitas excludere templo,</l>
+<l>Pelle animo. Nova te discordia dividit abs te:</l>
+<l>
+<pb n="0105A"/>Corde foves, quod in ore premis: conjungere amicis</l>
+<l n="145">Mentibus, et tecum cupidis componere foedus</l>
+<l>Lege tua; jam parce minis, et congrue pactis.</l> 
+<l rend="indent"> ECCE pererratis terrarum finibus adsunt,</l>
+<l>Implentesque tuas lacrymosis questubus aures</l>
+<l>Incipiunt: Pulsi mundo, nullaque recepti</l>
+<l n="150">Sede vagi, tandem fama exhortante redimus,</l>
+<l>Quaeque placent vobis amplectimur: edita nobis</l>
+<l>Doctrinae vestrae est pietas; nihil inficiando</l>
+<l>Discutimus: liceat vobiscum jungere sensum.</l> 
+<l>Immortalem hominem factum si creditis, et nos</l>
+<l n="155">Credimus, inciderit mortem peccando, suamque</l>
+<l>Progeniem culpa et letho devinxerit omnem:</l>
+<l>Nullus non egeat sacro baptismate Christi,</l>
+<l>
+<pb n="0105B"/>Infantesque etiam purgentur fonte lavacri:</l>
+<l>Dum nostri decus arbitrii, lumenque creatum</l>
+<l n="160">Principio, quod sponte potest insistere rectis,</l>
+<l>Manserit illaesum, nec viribus absit ab illis,</l>
+<l>Quas, condente Deo, generaliter omnis in Adam</l>
+<l>Suscepit natura hominis, nec suppetat ulli</l>
+<l>De non accepta arbitrii virtute querela:</l>
+<l n="165">Cum sine delectu seu Lex, seu Gratia Christi</l>
+<l>Omnem hominem salvare velit: donumque vocantis</l>
+<l>Sic sit propositum, ut nullus non possit ad illud</l>
+<l>Libertate sua, proprioque vigore venire:</l>
+<l>
+<pb n="0106A"/>Sitque salus dignis salvari ex fonte volendi.</l> 
+<l n="170">Haec si vestra fides, vestra est doctrina, remotis</l>
+<l>Quae vestro exemplo rejecimus, addite sanctis</l>
+<l>Nos gregibus, tandemque boni deffendite vestros.</l> 
+<l rend="indent"> TALIA submissus si defleat hostis apud te,</l>
+<l>Quid referes? quo te affectu comperta movebunt?</l> 
+<l n="175">Consultas, trepidas, nutas, cunctaris et haeres,</l>
+<l>Quove anceps se praecipitet sententia volvis.</l> 
+<l>Injustum est animis cognatis non dare pacem:</l>
+<l>Et quos una fides, eadem sapientia nectit,</l>
+<l>His communem aditum sanctorum ad sancta negare.</l> 
+<l n="180">Jungere sed foedus cum talibus, et violare</l>
+<l>Sanctorum decreta Patrum, regumque piorum</l>
+<l>Scriptas lege Dei leges contemnere, multum</l>
+<l>
+<pb n="0106B"/>Hostile est, nimiumque audax et perniciosum.</l> 
+<l rend="indent"> ERGO Petri solium Romam, et Carthaginis aliae</l>
+<l n="185">Concilium repetant humiles, eademque perorent,</l>
+<l>Quae frustra hic trepido sunt deplorata favori.</l> 
+<l>Sed cum mille senum prudentia pervigil (olim</l>
+<l>Perspectum notumque tenens, quod tota nefandae</l>
+<l> <emph>133</emph> Haereseos summa exigua sub parte tegatur,</l>
+<l n="190">De qua plena mali labes renovetur et omne</l>
+<l>Commenti corpus per singula membra resurgat);</l>
+<l>Antiquas adhibentem artes rejecerit hostem,</l>
+<l>
+<pb n="0107A"/>Limitibusque suis steterit censura salubris:</l>
+<l>Numquid non justus poterit dolor abdita cordis</l>
+<l n="195">Rumpere, et in tales miseros excire querelas,</l>
+<l>Ut dicant: Quaenam ista, Patres, in cordibus almis</l>
+<l>Justitia est? quo fine graves, quo fine severi,</l>
+<l>Claudere terrarum nobis persistitis orbem?</l> 
+<l>Nosne sumus toto mundo, quorum undique vobis</l>
+<l n="200">Sit suspecta fides, quos non tolerare queatis,</l>
+<l>Si nostra a vestro vel syllaba dissonet ore?</l> 
+<l>Non verbis jam nos argumentisve tuemur;</l>
+<l>Judicium exemplo petimus. Quod pace manente,</l>
+<l>Libera multorum vox astruit, hoc sine bello</l>
+<l n="205">Cedatur nobis. Non nostra inventa fovemus,</l>
+<l>Nec primis studiis insistimus: ecce recisum est</l>
+<l>
+<pb n="0107B"/>Unde olim certamen erat, vestrisque reversi</l>
+<l>Cedimus, et quaecumque illis placuere, probamus.</l> 
+<l>Quid superest culpae? Quo nos decet usque repelli?</l> 
+<l n="210">
+<pb n="0108A"/>Si vero haec etiam, quae nos pia ducimus, absunt</l>
+<l>A veris, et vestra illis bene cura repugnat;</l>
+<l>Cur extra invidiam poenamque erroris habentur</l>
+<l>Qui damnata docent, et per clara oppida tuti,</l>
+<l> <emph>135</emph> His magnos implent populos, quae nos perhibentes</l>
+<l n="215">Plectimur, et nulla sinimur consistere terra?</l> 
+<l rend="indent">Haec in pontificum sancto deprompta senatu,</l>
+<l>Quam curam exigerent, et quae decreta moverent,</l>
+<l>Perspicis. An quoniam culpa securus operta</l>
+<l>Non premeris synodo, nec te poenae metus urget,</l>
+<l n="220">Spernis propositi speciem terroris, et isthaec,</l>
+<l>Plena velut vanis simulacris somnia rides?</l> 
+<l>Ergo gerendorum eventu, et fine remoto,</l>
+<l>
+<pb n="0108B"/>Haec tantum in medium quae jam sunt gesta vocemus:</l>
+<l>Ut facile ex illis quale hoc sit discutiatur,</l>
+<l n="225">Quod disceptantes dudum in diversa movemur.</l>
+        </p>
+</div1>
+
+<div1>
+        <head> <hi>PARS SECUNDA.</hi> </head>
+<pb n="0107"/>
+
+
+<p>ARGUMENTUM</p>
+<p>Praecipua Pelagii dogmata, vel ipsis fatentibus Semipelagianis, ab Ecclesia damnata, percurrit. Tum proponit illorum
+doctrinam, cujus duae partes sunt. Una est, universis prorsus hominibus offerri gratiam a Deo, qui vult omnes homines
+salvos fieri. Altera liberum arbitrium in causa esse cur unus gratiam amplectatur, alter respuat; unus perseveret, alter
+non perseveret, eo quod gratiae opem sibi comparare neglexerit, quod omnes possunt, cum ex primigeniae integritatis
+reliquiis satis virium in natura residuum fuerit ad opem Dei desiderandam et postulandam. Primam partem de gratia
+omnibus oblata per quam salvi esse possint, refellit tum exemplo eorum infidelium qui de fidei mysteriis nihil umquam
+audierunt, quosque adeo certum est non potuisse nec gratiae nec salutis esse participes; tum hac ratione, quod si Deus
+omnes penitus homines, nemine excepto, salvos fieri vellet, omnes salvarentur, cum haud dubie impleatur quidquid
+vult Omnipotens. Ut autem alteram partem confutet, duo facit. Primum quidem, qua ratione in animis nostris gratia
+<pb n="0109"/>
+operetur explanat, nempe non consilio tantum benignoque hortatu docens, suadensque, sed mutans intus mentem,
+faciensque insuperabiliter ut velit. Deinde vero demonstrat ante gratiam illam quae velle et operari in nobis operatur,
+neminem posse seipsum praeparare ad gratiam, quoniam fides, quae prima datur per quam caetera impetrentur, gratuitum
+Dei donum est, neque ante illam quidquam agere homo potest, quo ipsam emereatur, cum omnia etiam probitatis
+opera nisi ex semine verae fidei oriantur, peccata sint.
+<l n="226" indent="1">
+<pb n="0109A"/> INTER multa suis quae tradidit haeresiarches</l>
+<l>(Quod cognoscis), ait, naturam quae bona facta est,</l>
+<l>Nullis cum vitiis in quoquam omnino creari,</l>
+<l> <emph>137</emph> Nec cuiquam primi culpam nocuisse parentis,</l>
+<l n="230">Et quoniam tales nascantur nunc quoque, qualis</l>
+<l>Ille fuit nostri generis pater ante reatum:</l>
+<l>Posse hominem sine peccato decurrere vitam,</l>
+<l>Si velit, ut potuit nullo delinquere primus</l>
+<l>Libertate sua. Nempe haec damnata fareris</l>
+<l n="235">Conciliis, mundique manu. Connectit et illud</l>
+<l>Idem auctor, quod lex ita sanctos miserit olim</l>
+<l>Coelorum in regnum, sicut nunc gratia mittit.</l> 
+<l>Hoc quoque judicio sancto scis esse peremptum.</l> 
+<l rend="indent">
+<pb n="0109B"/>Objectum est aliud ipsum dixisse magistrum:</l>
+<l n="240">Quod meritis hominum tribuatur gratia Christi,</l>
+<l>Quantum quisque Dei donis se fecerit aptum.</l> 
+<l>Sed nimis adversum hoc fidei, nimiumque repugnans</l>
+<l>Esse videns, dixit se non ita credere, et illos</l>
+<l>Damnari dignos quorum mens ista teneret.</l> 
+<l n="245">Quo cernis, cum judicibus damnantibus ista</l>
+<l>Consensisse reum, nec quemquam hoc posse tueri,</l>
+<l>Quae tamen ipse suis rursum excoluisse libellis</l>
+<l>Detegitur, reprobum in sensum fallendo reversus.</l> 
+<l rend="indent"> NUNC igitur, quoniam quid nostris displicuisset</l>
+<l n="250">
+<pb n="0110A"/>Ostensum est, quam sana fides sit vestra patescat.</l> 
+<l rend="indent">Gratia qua Christi populus sumus, hoc cohibetur</l>
+<l>Limite vobiscum, et formam hanc ascribitis illi,</l>
+<l>Ut cunctos vocet illa quidem, invitetque; nec ullum</l>
+<l>Praeteriens, studeat communem afferre salutem</l>
+<l n="255">Omnibus, et totum peccato absolvere mundum.</l> 
+<l>Sed proprio quemque arbitrio parere vocanti,</l>
+<l>Judicioque suo, mota se extendere mente</l>
+<l>Ad lucem oblatam, quae se non subtrahat ulli,</l>
+<l>Sed cupidus recti juvet, illustretque volentes.</l> 
+<l n="260">Hinc adjutoris Domini bonitate magistra,</l>
+<l>Crescere virtutum studia, ut quod quisque petendum</l>
+<l>
+<pb n="0110B"/> <emph>139</emph> Mandatis didicit, jugi sectetur amore.</l> 
+<l>Esse autem edoctis istam communiter aequam</l>
+<l>Libertatem animis, ut cursum explere beatum</l>
+<l n="265">Persistendo queant; finem effectumque petitum</l>
+<l>Dante Deo, ingeniis qui numquam desit honestis.</l> 
+<l>Sed quia non idem est cunctis vigor, et variarum</l>
+<l>Illecebris rerum trahitur dispersa voluntas;</l>
+<l>Sponte aliquos vitiis succumbere, qui potuissent</l>
+<l n="270">A lapsu revocare pedem, stabilesque manere.</l> 
+<l rend="indent"> JAM quia summatim, ut potuit, sententia vestra</l>
+<l>Decursa est: Dic unde probes quod gratia Christi</l>
+<l>
+<pb n="0111A"/>Nullum omnino hominem de cunctis qui generantur</l>
+<l>Praetereat, cui non regnum vitamque beatam</l>
+<l n="275">Impertire velit? Nec enim vel tempore nostro</l>
+<l>Omnibus in terris jam certum est insinuatum</l>
+<l>Christi evangelium: ne dicam exordia doni</l>
+<l>Non potuisse simul toto decurrere mundo.</l> 
+<l>Illa quidem ad cunctos ferri sunt jussa: sed uno</l>
+<l n="280">Tempore non agitur, quod tempore dicitur uno.</l> 
+<l>Dumque suis aditus Domino pandente ministris,</l>
+<l>Crescunt primitiae, fuerint omnino necesse est</l>
+<l>Quaedam terrarum partes, ubi gratia nondum</l>
+<l>Corda hominum tenebris absolverat impietatis,</l>
+<l n="285">Et dira innumeri demersi nocte peribant,</l>
+<l>Cum multae accepto fulgerent lumine mentes.</l> 
+<l rend="indent">
+<pb n="0111B"/> AN bonitas divina quidem non destitit omnes</l>
+<l>Velle vocare homines, sed non simul apta fuerunt</l>
+<l>Corda, quibus possent conferri dona salutis;</l>
+<l n="290">Dum morum obsistit feritas truculenta magistris,</l>
+<l>Difficilesque aditu transcurrit gratia gentes:</l>
+<l>Ut quoniam lucem offerri voluisset, et ipsis</l>
+<l>
+<pb n="0112A"/>Demonstrare Deus; sua quemque adversa voluntas,</l>
+<l>Arguat, et culpa obstringat, quia lumine primo</l>
+<l n="295">Per vitia oppresso, sit facta indigna secundo?</l> 
+<l> <emph>141</emph> Quod si firmatur, nequidquam plectimus illos,</l>
+<l>Qui nullum innatum vitium nascentibus aiunt,</l>
+<l>Incolumique omnes cum libertate creari:</l>
+<l>Gratia quos Christi meritorum examine justo</l>
+<l n="300">Eligat, et dignos vita vocet, accipiatque.</l> 
+<l>Namque utrumque simul sapitis, qui dicitis, Omnes</l>
+<l>Omnibus oblatum potuisse apprendere munus,</l>
+<l>Naturae quoniam non sit detracta facultas,</l>
+<l>Nec sine justitia pereant qui mentis honorem</l>
+<l n="305">
+<pb n="0112B"/>Sordibus obruerint vitiorum, ut lumen ab alto</l>
+<l>Emissum indigna nollet requiescere sede.</l> 
+<l>Sic, quod nascendo est unum, distare volendo;</l>
+<l>Ut meritum ad paucos, naturaque spectet ad omnes.</l> 
+<l rend="indent"> SED tamen haec aliqua si vis ratione tueri,</l>
+<l n="310">
+<pb n="0113A"/>Et credi tam stulta cupis, jam pande quid hoc sit,</l>
+<l>Quod bonus omnipotensque Deus, non omnia subdit</l>
+<l>Corda sibi, pariterque omnes jubet esse fideles?</l> 
+<l>Nam si nemo usquam est quem non velit esse redemptum:</l>
+<l>Haud dubie impletur quidquid vult summa potestas.</l> 
+<l n="315">Non omnes autem salvantur, magnaque pars est</l>
+<l>Quae sedet in tenebris mortis, nec vivificatur.</l> 
+<l>An varii motus animorum talia gignunt,</l>
+<l>Libertasque facit causam non omnibus unam?</l> 
+<l>Ergo hominis valida arbitrio divina voluntas,</l>
+<l n="320">Aut etiam invalida est, operis cui finis in illo est.</l> 
+<l>Quem frustra juvisse velit, nisi praeferat ille</l>
+<l>
+<pb n="0113B"/>Affectum cujus comitetur gratia cursum.</l> 
+<l rend="indent"> AT si, dimota certandi nube, serenis</l>
+<l>Quae sunt vera oculis mecum intueare modeste,</l>
+<l n="325">Et vetera exemplis manifestis plena videbis</l>
+<l>Saecula, et in nostro cognosces tempore multa</l>
+<l>Quae doceant virtute Dei conversa malorum</l>
+<l>Corda, quibus recti nihil umquam insederat, et quae</l>
+<l>Nullum justitiae signum sensumve gerebant.</l> 
+<l n="330"> <emph>143</emph> Namque ut nunc saevas gentes et barbara regna,</l>
+<l>Ignoti prius aut spreti nova gratia Christi</l>
+<l>
+<pb n="0114A"/>Attrahit, et terra templum sibi condit in omni:</l>
+<l>Sic prius immites populos urbesque rebelles,</l>
+<l>Vincente obstantes animos pietate, subegit.</l> 
+<l n="335">Non hoc consilio tantum hortatuque benigno</l>
+<l>Suadens atque docens, quasi normam Legis haberet</l>
+<l>Gratia; sed mutans intus mentem, atque reformans,</l>
+<l>Vasque novum ex fracto fingens, virtute creandi.</l> 
+<l>Non istud monitus Legis, non verba prophetae,</l>
+<l n="340">Non praestata sibi praestat natura; sed unus</l>
+<l>Quod fecit, reficit. Percurrat Apostolus orbem;</l>
+<l>Praedicet, hortetur, plantet, riget, increpet, instet,</l>
+<l>Quaque viam verbo reseratam invenerit, intret:</l>
+<l>
+<pb n="0114B"/>Ut tamen his studiis auditor promoveatur,</l>
+<l n="345">Non doctor, neque discipulus, sed gratia sola</l>
+<l>Efficit, inque graves adolet plantaria fructus.</l> 
+<l rend="indent">Haec semen fidei radicem affigere menti.</l> 
+<l>Eque sinu cordis validum jubet edere germen.</l> 
+<l>Haec maturandam segetem servatque fovetque;</l>
+<l n="350">Ne lolium et tribuli, et vanae dominentur avenae:</l>
+<l>Ne ventus frangat, torrens trahat, aestus adurat:</l>
+<l>Neu cum se nimium laeta et praefortis in altum</l>
+<l>Extulerit, turpi procumbat strata ruina.</l> 
+<l rend="indent"> ET nos ista, inquis, sentimus de bonitate</l>
+<l n="355">Ac virtute Dei: quae ni foveatque regatque</l>
+<l>
+<pb n="0115A"/>Quos vocat, et tutos peccato praestet ab omni;</l>
+<l>Non sua servabit quemquam prudentia, nec se</l>
+<l>Perficiet solis naturae viribus ullus.</l> 
+<l>Sed quia jam in nobis et velle et nolle creatum est,</l>
+<l n="360">Arbitriique sui quo vult intendere motus</l>
+<l> <emph>145</emph> Libertas accita potest, patuitque per aurem</l>
+<l>Judicio cordis, quo mundum proposuisset</l>
+<l>Consilio servare Deus: mens excita longum</l>
+<l>Excutiat somnum; seque illi subdat et aptet,</l>
+<l n="365">Qui cupidam et fidam promissa in gaudia ducat.</l> 
+<l rend="indent"> Hoc est nobiscum quod te sentire ferebas?</l> 
+<l>Haec sincera fides? Haec Christi gratia tecum est?</l> 
+<l>Cujus opus, fixo distinctum limite, totum</l>
+<l>
+<pb n="0115B"/>Extra hominem statuis clausa penitus fore mentis:</l>
+<l n="370">Vixque Deum sensus carnis permittis adire,</l>
+<l>Per quos sumpta foris animus dijudicet intus,</l>
+<l>Seque ferat quoquo librata examina pondus</l>
+<l>Presserit arbitrii: veluti cum voce loquentis,</l>
+<l>Aut rerum actarum specie, quas vidimus, aut quas</l>
+<l n="375">
+<pb n="0116A"/>Legimus, exoritur secreta cordis in aula,</l>
+<l>Nunc amor, aut odium, nunc spes, metus, ira, dolorque:</l>
+<l>Nec tamen hos motus scriptor, narrator, et auctor</l>
+<l>Insevere animo (quamvis forte hoc quoque vellent);</l>
+<l>Sed de perceptis mens judex sponte movetur,</l>
+<l n="380">Et pro more suo, quantum se exercuit istis,</l>
+<l>Transit in affectum quem confirmaverit ex se,</l>
+<l>Illa volendo sequens, istis nolendo resistens.</l> 
+<l rend="indent">At vero Omnipotens hominem cum gratia salvat,</l>
+<l>Ipsa suum consummat opus; cui tempus agendi</l>
+<l n="385">Semper adest quae gesta velit: non moribus illi</l>
+<l>
+<pb n="0116B"/>Fit mora, non causis anceps suspenditur ullis.</l> 
+<l>Nec quod sola potest, cura officioque ministri</l>
+<l>Exsequitur, famulisve vicem committit agendi.</l> 
+<l> <emph>147</emph> Qui quamvis multa admoveant mandata vocantis;</l>
+<l n="390">Pulsant, non intrant animas. Deus ergo sepultos</l>
+<l>Suscitat, et solvit peccati compede vinctos.</l> 
+<l>Ille obscuratis dat cordibus intellectum;</l>
+<l>
+<pb n="0117A"/>Ille ex injustis justos facit, indit amorem</l>
+<l>Quo redametur amans, et amor quem conserit ipse est.</l> 
+<l n="395">Hunc itaque affectum, quo sumunt mortua vitam,</l>
+<l>Quo tenebrae fiunt lumen, quo immunda nitescunt,</l>
+<l>Quo stulti sapere incipiunt, aegrique valescunt,</l>
+<l>Nemo alii dat, nemo sibi, non littera Legis,</l>
+<l>Nec naturalis sapientia, quae semel acta</l>
+<l n="400">In praeceps, labi novit, consurgere nescit.</l> 
+<l rend="indent">Et licet eximias studeat pollere per artes.</l> 
+<l>Ingeniumque bonum generosis moribus ornet;</l>
+<l>Caeca tamen finem ad mortis per devia currit,</l>
+<l>Nec vitae aeternae veros acquirere fructus</l>
+<l n="405">
+<pb n="0117B"/>De falsa virtute potest, vanamque decoris</l>
+<l>Occidui speciem, mortali perdit in aevo.</l> 
+<l>Omne etenim probitatis opus, nisi semine verae</l>
+<l>Exoritur fidei, peccatum est, inque reatum</l>
+<l>Vertitur, et sterilis cumulat sibi gloria poenam.</l> 
+<l n="410" indent="1"> USQUE adeo donum est quod credimus, et data gratis</l>
+<l>Gratia, non merita ditat mercede vocatos:</l>
+<l>Nec justorum operum discernit facta; sed omnes</l>
+<l>Sola ex immundis mundos facit, utque lege item</l>
+<l>Lectus amet, non hoc studio, sed munere sumit.</l> 
+<l n="415">Nam si spectatrix meritorum est gratia, et illis</l>
+<l>Se tribuit, quorum est animus purgatior, et quos</l>
+<l>Per libertatem arbitrii sibi repperit aptos,</l>
+<l>
+<pb n="0117C"/>Insontes tantum, justosque assumere solos</l>
+<l>Debuit, et veri cupidos, ac recta volentes.</l> 
+<l n="420">Perversos autem, et scelerum assuetudine turpes</l>
+<l>
+<pb n="0118A"/>Deturbare procul, lucemque negare tenebris.</l> 
+<l>Atqui Salvator mundi non praemia justis</l>
+<l>Solvere, nec sanis venit conferre medelam:</l>
+<l>Sed quod dispersum exciderat, fractum atque jacebat,</l>
+<l n="425"> <emph>149</emph> Quaerere, et inventum reparare, ac reddere curae.</l> 
+<l> DENIQUE ne quisquam ex morum splendore putetur</l>
+<l>Censeri, aut fidei merito ad bona summa vocari,</l>
+<l>Ceu non divino sit munere mentibus ipsa</l>
+<l>Inspirata fides; recole innumerabile vulgus</l>
+<l n="430">Retro senum et juvenum, qui caeca turpiter usi</l>
+<l>
+<pb n="0118B"/>Libertate animi, per cultus daemoniorum,</l>
+<l>Per magicas artes, per amorem rapta tenendi,</l>
+<l>Per stupra, per caedes vitam duxere nefandam:</l>
+<l>Et tamen incumbente obito, jam limite in ipso</l>
+<l n="435">Extremi flatus, miserantem nocte remota</l>
+<l>Cognovere Deum; purgatorisque lavacri</l>
+<l>Munere, nulla mali linquentis signa prioris,</l>
+<l>Exempti mundo mutarunt tartara coelo.</l> 
+<l>Quae merita hic numeras? Si praecedentia cernas,</l>
+<l n="440">Impia; si quaeris post addita, nulla fuerunt.</l> 
+<l rend="indent"> SI vero merito ascribis, voluisse renasci:</l>
+<l>Nempe utero fidei parta est tam recta voluntas.</l> 
+<l>Porro fidem quis dat, nisi gratia? sic bene velle</l>
+<l>Gratia dat tribuendo fidem quae credita poscat,</l>
+<l n="445">
+<pb n="0118C"/>Quaeque voluntatis meritum creet, ipsaque solo</l>
+<l>Nascatur spirante Deo, mentemque reformans,</l>
+<l>De cinere algenti sopitum suscitet ignem.</l> 
+<l>
+<pb n="0119A"/>Ergo voluntatis genitrix, operumque creatrix</l>
+<l>Non est ex merito: quoniam quod non fit ab illa,</l>
+<l n="450">Non bene fit: QUEM non recto via limite ducit;</l>
+<l>Quanto plus graditur, tanto longinquius errat.</l> 
+<l>Sive igitur meritum, credens exsistere posse</l>
+<l>Ante fidem, donas virtutibus impietatis;</l>
+<l>Sive illam vis esse tuam, non munere dantis</l>
+<l n="455">Sumptam, sed genitam de libertate volendi;</l>
+<l>Nullam habet in vobis salvatrix gratia sedem,</l>
+<l>Inflato exclusa arbitrio, quod fronte superba</l>
+<l>Erigitis, spatio ut gravius majore ruatis.</l> 
+<l rend="indent"> DIVINORUM operum quod ponitis in redimendis</l>
+<l n="460">Principium? Mandata Dei facere ante lavacrum,</l>
+<l>Nosse et amare Deum, promissis credere Christi,</l>
+<l>
+<pb n="0119B"/> <emph>151</emph> Quaerere, pulsare, et petere, proprium omnibus esse</l>
+<l>Asseritis, qui se studeant aptare vocanti.</l> 
+<l>Anne ab aquis divina manus renovare receptos</l>
+<l n="465">Incipit, et vitae causa est sua cuique voluntas;</l>
+<l>Ut merces operum sit gratia judiciumque</l>
+<l>De pretio, quo quod donum perhibetur ematur?</l> 
+<l>An vero auxilium verbo Deus inchoat, et se</l>
+<l>Voce ministrorum mundo declarat in omni:</l>
+<l n="470">Ut pulsante aures sermone illecta voluntas,</l>
+<l>Judicio praecurrat opem, nec gratia jam sit</l>
+<l>Gratia; quae legis fungens vice, jure monentis</l>
+<l>
+<pb n="0120A"/>Solum agat, atque agro cum plantatore ministret,</l>
+<l>Terraque seminibus det, non Deus, incrementum;</l>
+<l n="475">Ubere ceu gleba subsistat, et arte colentis</l>
+<l>Exoritura seges; neque quidquam cordis in arvo</l>
+<l>Praesulcet divina manus, quo temperet aequor</l>
+<l>Edomitum, faciatque satis gaudere novales?</l> 
+<l>Talibus assumptis inimico ex dogmate, nonne</l>
+<l n="480">Perspicuum est quantum damnatos confoveatis?</l> 
+<l>Dum cuique, ad verae capienda exordia vitae,</l>
+<l>Naturam affectum fidei conferre docetis;</l>
+<l>Dumque aliud non est vobiscum gratia quam Lex,</l>
+<l>Quamque propheta monens, et quam doctrina ministri.</l> 
+<l n="485">
+<pb n="0120B"/>Scilicet ut tale arbitrium generaliter insit</l>
+<l>Semine damnato genitis in corpore mortis,</l>
+<l>Quale habuit nondum peccati lege subactus</l>
+<l>Primus homo; et nullum in prolem de vulnere vulnus</l>
+<l>Transierit, nisi corpoream per conditionem:</l>
+<l n="490">Quae sic exterius respondeat, ut nihil intus</l>
+<l>Imminuat, teneatque suum substantia mentis</l>
+<l>Splendorem; et nulla poenali nocte prematur.</l> 
+<l rend="indent"> ADDITE quod superest tumidi, ruituraque vani</l>
+<l>
+<pb n="0121A"/> <emph>153</emph> Congerite, et causis causas aptate sequentes.</l> 
+<l n="495">Et quia nil primae periit virtutis apud vos,</l>
+<l>Dicite ab illaesis animis procedere veram</l>
+<l>Justitiam, regno dignam, coeloque locandam:</l>
+<l>Ut frustra Christus sit mortuus. Edite multos</l>
+<l>Arte et sponte sua sanctos ab origine mundi,</l>
+<l n="500">Absque Deo placuisse Deo: decretaque Legis</l>
+<l>Tunc data, cum pejor mos et corruptior aetas</l>
+<l>Terrore instanti et formidine mortis egeret.</l> 
+<l>Dicite plectentes apices, mortisque ministros</l>
+<l>Hoc explesse operis quod gratia vivificatrix.</l> 
+<l n="505" indent="1">Nunc agite, et quoniam fuerit sine lege voluntas</l>
+<l>Libera, quam scripti munibat pagina cordis;</l>
+<l>
+<pb n="0121B"/>Sic vitam aeternam acquiri potuisse, vacante</l>
+<l>Hac ope quae legem supereminet, ut sine lege</l>
+<l>Ex naturali potuit virtute capessi:</l>
+<l n="510">Nunc autem studiis vergentibus in mala multa,</l>
+<l>Crevisse auxilium; non quo cessante, salutem</l>
+<l>Non caperet per difficiles natura labores;</l>
+<l>Sed quo conatus operum affectusque juvante,</l>
+<l>Propositam citius ferret mens libera palmam.</l> 
+<l n="515">Dicite, cum infantes renovantur, non renovari</l>
+<l>Insontes animas, et sola carne renasci</l>
+<l>
+<pb n="0122A"/>Exterius lotos, non exsistentibus illis</l>
+<l>Interius maculis: quoniam licet edere rectae</l>
+<l>Signa voluntatis nequeant, tamen hoc magis omni</l>
+<l n="520">Sorde vacent, super auctoris quod conditionem</l>
+<l>De proprio nihil addiderint quod fons aboleret.</l> 
+<l rend="indent"> HAEC si non vestris spirant de cordibus, et vos</l>
+<l>Non cum damnatis eadem ratis extulit alto</l>
+<l>Mergendos pelago, submittite vela tumoris,</l>
+<l n="525">Nobiscumque humiles placido consistite portu.</l> 
+<l>Edite constanter naturae vulnera victae,</l>
+<l>Exutam virtute animam, caecataque cordis</l>
+<l> <emph>155</emph> Lumina, et in poenam propriam jaculis superatis</l>
+<l>
+<pb n="0122B"/>Armatum arbitrium, numquam consurgere posse,</l>
+<l n="530">Inque novis lapsus semper nitendo revolvi:</l>
+<l>Cui sua sit laqueus sapientia, morsque subactum</l>
+<l>Detineat, nisi vera salus ex munere Christi</l>
+<l>Adsit, et oppressam dignetur gratia mentem.</l> 
+<l rend="indent"> AN vestrum sublimem animum pudet ista fateri,</l>
+<l n="535">
+<pb n="0123A"/>Ne sub tam multis morbis sit vilior aeger?</l> 
+<l>Cum nihil ex omni majorum dote supersit</l>
+<l>Quo medici mereatur opem, et mercede valescat.</l> 
+<l>Ergo in castra gradum revocate hostilia, et illis</l>
+<l>Addite vos, quorum ingenio et fallacibus armis</l>
+<l n="540">Luditis, ejusdem vibrantes spicula linguae.</l> 
+<l>Exsultate bonis naturae, et mentis honorem</l>
+<l>Omnibus a saeculis illaesum stare docete.</l> 
+<l>Neu vos in totum retegatis dogmate nudo,</l>
+<l>Corporeo tantum decurrere tramite poenam</l>
+<l n="545">Peccati perhibete, animi nihil imminuentem.</l> 
+<l>Vulnere transfixos absolvite crimine, et ipsam</l>
+<l>Justitiam accusate Dei, transire sinentis</l>
+<l>Supplicium, quo non vultis transire reatum.</l> 
+<l rend="indent">
+<pb n="0123B"/> SED non injustus Deus est: manifestaque Pauli</l>
+<l n="550">Vox docet, uno omnes homines cecidisse
+ruente;</l>
+<l>
+<pb n="0124A"/>In quo tota simul series prostrata nepotum</l>
+<l>Deperiit, nec habet quisquam quo surgere possit</l>
+<l>Ad vitam, sacro nisi rursum nascitur ortu.</l> 
+<l>Quotquot enim summo justos numeratis ab aevo,</l>
+<l n="555">Hac ope non dubium est salvatos, quam modo toto</l>
+<l>Latius Omnipotens exercet gratia mundo.</l> 
+<l> <emph>157</emph> HAEC, sicut dictum est, non judex est meritorum,</l>
+<l>Quae nisi plena malis non invenit: et nisi donet</l>
+<l>Quae bona sunt, nihil efficiet bene caeca voluntas.</l> 
+<l n="560">Haec ut cujusquam studio affectuque petatur,</l>
+<l>Ipsa agit, et cunctis dux est venientibus ad se:</l>
+<l>
+<pb n="0124B"/>Perque ipsam nisi curratur, non itur ad ipsam.</l> 
+<l>Ergo ad iter per iter ferimur: sine lumine lumen</l>
+<l>Nemo videt: vitam sine vita inquirere mors est.</l>
+        </p>
+</div1>
+
+<div1>
+        <head> <hi>PARS TERTIA.</hi> </head>
+<pb n="0123"/>
+
+
+<p>ARGUMENTUM</p>
+<p>Argumenta Semipelagianorum et querelae propulsantur. Duo praesertim opponebant. Primum quidem, tolli liberum
+arbitrium, nec vitiis poenam deberi aut praemia virtuti si vel natura peccato corrupta nonnisi malum velit, vel gratiae
+opus sit in homine quidquid bene agat, et quidem ejus gratiae quae velle det et currere. Respondet sanctus Prosper,
+objectione illa peccati originalis fidem everti, per quod libertas nobis in Adam concessa deleta est, nosque concupiscentiae
+dominantis jugo subditi, a qua semper in malum rapimur, licet idem volentes faciamus. Voluntatem nostram
+ab illa servitute liberari non posse, nisi quantum Christi salvatrice gratia liberatur, per quam libertas pristina non tollitur,
+sed reparatur. Christum hanc gratiam nemini debere, sed gratis quibus vult largiri: ut apparet in parvulis a baptismo
+mox hinc migrantibus, cum tot alii non percepto baptismate pereant, neque hujus discriminis ulla ratio afferri
+possit, praeter inscrutabile Dei judicium. Objiciebant praeterea Pelagianorum reliquiae: Nisi gratia omnibus detur, peccati
+reos non fore quos gratia neglexerit, utpote quibus recta gerendi non data fuerit virtus. Respondet. Eorum esse
+sic argumentari, qui peccatum originale non agnoscunt. Cum enim, auctore Apostolo, per unius delictum in condemnationem
+justissimam universa hominum massa defluxerit, neminem queri posse se Dei gratia non liberari; quando
+quidem omnes a Deo deseri meruerint, neque ipsius justitia reprehendi posset, si neminem ab illa perditione liberasset.
+Non esse perscrutandum, cur de tota hominum genere pars una eligatur, altera rejecta, cum eadem causa omnes
+implicet: eo quod Deus arcanum illud nostrae cognitioni subduxerit, ut tot alia multo leviora; satisque sit eum cunctorum
+bonorum auctorem cognoscere, judiciorumque ipsius altitudinem submisse venerari, quae ita ignota sunt hominibus
+et inscrutabilia, ut iniqua esse non possint.
+<l n="565">
+<pb n="0123D"/> Hic vanam insano profertis corde querelam:</l>
+<l>
+<pb n="0124D"/>Omne opus arbitrii sublatum vociferantes,</l>
+<l>
+<pb n="0125A"/>Currere currentum si non, et velle volentum est:</l>
+<l> <emph>159</emph> Nec vitiis poenam deberi, aut praemia laudi,</l>
+<l>Si vel naturam obstrictam mala velle necesse est,</l>
+<l n="570">Vel nostro ascribi nequeunt bene gesta labori.</l> 
+<l rend="indent"> NUMQUID non eadem sapiunt, eademque perorant</l>
+<l>Vestri illi, quorum ructatis verba, magistri?</l> 
+<l>Sed quia consimili cognata superbia questu</l>
+<l>Prosilit, et vobis nunc respondetur et illis.</l> 
+<l n="575" indent="1">Inviolata Dei quondam et sublimis imago</l>
+<l>In primo cuncti fuimus patre, dum nemore almo</l>
+<l>Degit, et edicto parens cavet arbore ab una.</l> 
+<l>At postquam rupta mandati lege, superbum</l>
+<l>
+<pb n="0125B"/>Consilium mixtum invidiae de fonte recepit,</l>
+<l n="580">Corruit, et cuncti simul in genitore cadente</l>
+<l>Corruimus: transcurrit enim virosa per omnes</l>
+<l>
+<pb n="0126A"/>Peccati ebrietas, corrupti et cordis in alva</l>
+<l>Persistit, cruda fervet carbunculus esca.</l> 
+<l>Hinc animi vigor obtusus, caligine tetra</l>
+<l n="585">Induitur, nec fert divinae fulgura lucis</l>
+<l>Lumen iners: hinc arbitrium per devia lapsum</l>
+<l>Claudicat, et caecis conatibus inque ligatis</l>
+<l>Motus inest, non error abest. Manet ergo voluntas</l>
+<l>Semper amans aliquid quo se ferat, et labyrintho</l>
+<l n="590">Fallitur, ambages dubiarum ingressa viarum:</l>
+<l>Vana cupit, vanis tumet et timet; omnimodaque</l>
+<l> <emph>161</emph> Mobilitate ruens in vulnera vulnere surgit.</l> 
+<l rend="indent"> HOC itaque arbitrium cum sanat gratia, tolli</l>
+<l>Dicitis, et perimi vita aspirante putatis.</l> 
+<l n="595">Quid mirum rabido si corde phreneticus aeger</l>
+<l>
+<pb n="0126B"/>Morbum amat, et pellit medicum? Cognoscite tandem</l>
+<l>Antiqui commenta doli, et desuescite captas</l>
+<l>
+<pb n="0127A"/>Aures vipereo rursum praebere susurro.</l> 
+<l>Parcite de fractis praecerpere noxia poma</l>
+<l n="600">Arbitrii ramis: non haec vos esca reformat,</l>
+<l>Nec speciem angelici nutrit cibus ille decoris.</l> 
+<l>Sed vetitorum avidos, et tetra bile tumentes,</l>
+<l>De fastiditae procul abripit arbore vitae.</l> 
+<l>Hujus ope et fructu vescendum est, ut revalescens</l>
+<l n="605">Languida mens, etiam propriis bene viribus uti</l>
+<l>Possit, et in Christo inveniat quod perdidit in se.</l> 
+<l rend="indent"> NON igitur, quisquis terreni veste parentis</l>
+<l>Exueris, priscum naturae perdis honorem,</l>
+<l>Sed recipis: sic acquirens quibus ante carebas,</l>
+<l n="610">Ut tua sint, si collatis utare modeste,</l>
+<l>Et quod habes, hoc te acceptum fatearis habere.</l> 
+<l>Fons igitur meriti est lucis Pater; inde quod in nos</l>
+<l>
+<pb n="0127B"/>Fluxerit, hoc nobis majorum est causa bonorum,</l>
+<l>Dum largitori sua reddimus, aeque relatis</l>
+<l n="615">Augemur, nostrumque bonum fit gloria dantis.</l> 
+<l rend="indent"> SED qui judicium arbitrii, meritumque tueris,</l>
+<l>Quique hominum studiis ascribis dona vocantis:</l>
+<l>Infantum discerne animos, et dissere quales</l>
+<l>Affectus, qualesque habeant haec pectora motus.</l> 
+<l n="620" indent="1">Da teneris mores, et libertate volendi</l>
+<l>Instrue, vix aurae tenuis lactisque capaces.</l> 
+<l>Nulla tibi arbitrii respondent signa, nec ullis</l>
+<l>Dissociare pares meritis potes: omnibus una est</l>
+<l>Natura, et pariter nequeunt bona vel mala velle.</l> 
+<l n="625">Et tamen ex istis miseratrix gratia quosdam</l>
+<l>
+<pb n="0127C"/>Eligit, et rursum genitos baptismate transfert</l>
+<l>In regnum aeternum, multis in morte relictis,</l>
+<l>Quorum causa fuit similis de vulnere eodem.</l> 
+<l rend="indent"> NEC meritis istud poteris aptare parentum:</l>
+<l n="630">
+<pb n="0128A"/> <emph>163</emph> Ceu pia profuerit redimendis cura honorum,</l>
+<l>Abstuleritque aliis aliena ignavia vitam;</l>
+<l>Cum videas multos sanctis genitoribus ortos,</l>
+<l>Nullo salvari studio potuisse suorum:</l>
+<l>Expositisque aliis ob turpia crimina matrum,</l>
+<l n="635">Missam externorum curam, quae stercore raptos</l>
+<l>Per fontem vitae coelesti traderet aulae.</l> 
+<l rend="indent">Quid si diversum hunc finem, quo gratia Christi</l>
+<l>Unum alio pereunte legit, donatque salute,</l>
+<l>In geminis etiam videas? quod dividis uno</l>
+<l n="640">Tempore conceptos atque uno tempore natos,</l>
+<l>Non ullos potes arbitrii praetendere motus.</l> 
+<l>Cessat opus, cessat meritum, nihil editur impar.</l> 
+<l>
+<pb n="0128B"/>Sed Deus et tales discernit, quo mage Christi</l>
+<l>Excellat bonitas, quae sola est causa vocatis</l>
+<l n="645">Et fidei et meriti: quoniam Sapientia dives</l>
+<l>Hoc etiam tribuit multis, ut sancta operatis,</l>
+<l>In finem vitae, fieret de munere merces.</l> 
+<l rend="indent"> NON autem recte, nec vere dicitur, illos</l>
+<l>Qui sunt exsortes divini muneris, et quos</l>
+<l n="650">Gratia neglexit degentes mortis in umbra,</l>
+<l>Peccati non esse reos, quia recta gerendi</l>
+<l>Non data sit virtus. Naturae compede vinctos</l>
+<l>Procubuisse negant, nec ab uno germine credunt</l>
+<l>Omnigenam prolem cum poena et crimine nasci.</l> 
+<l n="655">Quod qui non renuit, videt hujus pondera culpae</l>
+<l>Tam valida pariter miseris incumbere mole,</l>
+<l>
+<pb n="0128C"/>Ut si nulla etiam cumulent mala, sit tamen unum hoc</l>
+<l>Sufficiens scelus, ad mortem nascendo luendam.</l> 
+<l rend="indent">
+<pb n="0129A"/> HANC igitur legem quam per se nemo resolvit,</l>
+<l n="660">Si merito et juste positam, impositamque fatemur:</l>
+<l>Cur querimur quod non omnes salvantur ab illa?</l> 
+<l>Cum si progeniem super omnem irrupta maneret,</l>
+<l>De cunctis juste damnatis non quereremur,</l>
+<l>An quod de toto ferretur, non toleratur</l>
+<l n="665">De parte? et melius foret omnia debita cogi,</l>
+<l>Quam summa ex solida clementer multa remitti?</l> 
+<l>Quis vero exemptus squallenti carcere, pulset</l>
+<l>Invidia miserantis opem, quia non simul omnes</l>
+<l>In lucem veram tenebris eduxerit iisdem?</l> 
+<l n="670"> <emph>165</emph> Cum poenam qua mersus erat, non experiatur</l>
+<l>Quam misere ferat addictus, nisi liber ab illa.</l> 
+<l rend="indent">
+<pb n="0129B"/>Denique tunc illum socialem mente benigna</l>
+<l>Concipit affectum, quo submissa prece Christum</l>
+<l>Conciliet miseris, sueta qui nocte gravati</l>
+<l n="675">Nulla gerunt vota effugii. TANTUM nocet error,</l>
+<l>Ut juvet errare; et veteris contagia morbi</l>
+<l>Tam blande obrepunt, ut quo languetur ametur.</l> 
+<l>Unde ergo haec oritur querimonia? Non movet illos</l>
+<l>
+<pb n="0130A"/>Talis cura, quibus necdum est sua poena dolori,</l>
+<l n="680">Et qui se nulla credunt a luce relictos.</l> 
+<l>Qui vero tenebris exempti in lumine vivunt,</l>
+<l>Gaudent, et quantum sibi sit bonitate vocantis</l>
+<l>Dimissum, ex illis discunt qui debita solvunt.</l> 
+<l rend="indent"> Vos igitur soli queruli, solique superbi:</l>
+<l n="685">Vos soli INGRATI, quos urit gratia, cujus</l>
+<l>Omne opus arbitrio vultis subsistere vestro:</l>
+<l>Et quod non cuncti mortales atria vitae</l>
+<l>Ingrediuntur, ita ex ipsis pendere putatis,</l>
+<l>Ut tam ex judicio constet cujusque quod intrat,</l>
+<l n="690">Quam quod non intrat, ceu par in utrumque facultas</l>
+<l>Suppetat; et tam sit proprium bona quam mala velle.</l> 
+<l rend="indent">
+<pb n="0130B"/>I procul, insana impietas, artesque malignas</l>
+<l>Aufer, et auctorem comitare exclusa Britannum:</l>
+<l>Nos humiles tenuesque sumus grex parvus, et altis.</l> 
+<l n="695">Inniti metuens, quia sufficientia nostra</l>
+<l>Ex Christo est; si quid recti sapimus, volumusque,</l>
+<l>Illi debemus qui vincula nostra resolvit,</l>
+<l>
+<pb n="0131A"/> <emph>167</emph> Proque malis bona restituit, non inveniendo</l>
+<l>Quod merito legeret, sed donans quo legeretur,</l>
+<l n="700">Ut de perceptis prodiret causa merendi;</l>
+<l>Deque datis in danda, gradus industria crescens</l>
+<l>Scanderet, atque bonum fieret Deus omnibus unum.</l> 
+<l rend="indent"> CUR vero humani generis de germine toto</l>
+<l>Pars quaedam in Christo rursum generanda legatur,</l>
+<l n="705">Pars pereat, cum causa eadem simul implicet omnes,</l>
+<l n="706" indent="1">Nec discernantur merito, qui munere distant;</l>
+<l>Non satis audemus scrutari, nec per opertas</l>
+<l>Ire vias, callesque gradu pulsare remotos.</l> 
+<l>
+<pb n="0131B"/>Multa etenim bene tecta latent, nescitaque prosunt</l>
+<l n="710">Dum mansueta fides quaedam dilata modeste</l>
+<l>Sustinet, et nullo ignorat non edita damno.</l> 
+<l rend="indent">Sic quando electum ex cunctis populum Deus unum</l>
+<l>Leges, sacris, templo, unguento, signisque fovebat;</l>
+<l>Quod fuit occultum, mundique in fine retectum est,</l>
+<l n="715">Non oberat nescire omnes quandoque vocandas</l>
+<l>In regnum aeternum gentes, totumque per orbem</l>
+<l>Donandum quod spes parvae tunc plebis habebat.</l> 
+<l rend="indent">Sic postrema dies qua mundi clauditur aetas</l>
+<l>
+<pb n="0132A"/>Notitiae nostrae non est data; nec tamen hujus</l>
+<l n="720">Secreti impatiens sanctorum turba laborat.</l> 
+<l rend="indent">Ipsa quoque humani generis carnalis origo,</l>
+<l>Quam multas vario circumtegit ordine causas?</l> 
+<l>Cumque omnes de fermento producat eodem</l>
+<l>Una manus, nec diversis elementa parentum</l>
+<l n="725">Principiis coeant: limo procedit ab uno</l>
+<l>Dispar opus, mutat numeros per vascula fictor,</l>
+<l>Materiamque unam discernit jure creantis.</l> 
+<l>Ergo eadem natura animae, naturaque carnis</l>
+<l>Diversis mundum sub conditionibus intrat.</l> 
+<l n="730">His regnare datum est, illos servire necesse est:</l>
+<l>Hos decor, et vires validae, viridisque senectus</l>
+<l> <emph>169</emph> Suscipit, hos species inhonora, et debile corpus:</l>
+<l>
+<pb n="0132B"/>His viget ingenium praeclaris artibus aptum,</l>
+<l>Horum tarda premit gelidus praecordia sanguis:</l>
+<l n="735">Quosdam nec licitus calor incitat ad generandum.</l> 
+<l>Ast alii insanum nequeunt frenare furorem:</l>
+<l>Hunc mitem et placidum tranquilla modestia comit,</l>
+<l> [ <hi>Supple hic</hi> Asperitas istum genii intractabilis urget.]</l>
+<l rend="indent">His et mille modis semen variantibus unum,</l>
+<l>Impariles subeunt distincta exordia formas.</l> 
+<l n="740">Nec tamen haec inter tam compugnantia quisquam</l>
+<l>
+<pb n="0133A"/>Arguit auctorem, qui secum continet hujus</l>
+<l>Legem operis, dum judicio placita explicat aequo,</l>
+<l>Et rerum causas obscurat justa potestas.</l> 
+<l rend="indent">Si terrenum igitur figmentum, addictaque morti</l>
+<l n="745">Progenies, ita dissimili producitur ortu,</l>
+<l>Ut cum operis species pateat, tamen edita non sit</l>
+<l>Norma voluntatis de qua venit hic modus impar;</l>
+<l>Quid mirum si consilii super omnia magni</l>
+<l>Arcanum latet, et placito subducitur alto?</l> 
+<l n="750">Quod dum vana fluunt mundi, dum in corpore mortis</l>
+<l>Vivitur, et positi expletur certamen agonis,</l>
+<l>Non cognoscendum texit Deus, utiliusque</l>
+<l>
+<pb n="0133B"/>Duxit ad examen quaedam velare piorum.</l> 
+<l rend="indent"> NON ergo instamus clausis, nec operta procaci</l>
+<l n="755">Urgemus cura, satis est opera Omnipotentis</l>
+<l>Cernere, et auctorem cunctorum nosse bonorum;</l>
+<l rend="indent">Quo sine nil rectum mens inchoat. Audeat amens</l>
+<l>
+<pb n="0134A"/>Impietas tumido arbitrio subnectere causas</l>
+<l>Divinorum operum: nos cum manifesta videmus</l>
+<l n="760">Dona Dei, quorum est fons unus, summa voluntas;</l>
+<l>Cum Paulo tremuisse juvat, stupidumque modeste</l>
+<l> <emph>171</emph> Invictum ad solium Christi suspendere nutum:</l>
+<l>Cujus judicium sic inscrutabile et altum</l>
+<l>Dicimus, ut verax prorsus fateamur et aequum.</l> 
+<l n="765">Nam meritum ad mortem subeundam sufficit unum;</l>
+<l>Ad vitam, nisi quod donarit gratia, nullum.</l> 
+<l rend="indent"> TU vero, o nova gens, veteris quae stirpe oleastri</l>
+<l>
+<pb n="0134B"/>Velleris, et sacrae ramis inolescis olivae,</l>
+<l>Quaerere formatae sentis te frondis honorem</l>
+<l n="770">Non studio coepisse tuo, sed jure potentis</l>
+<l>Agricolae insertam fecundo vivere ligno:</l>
+<l>Vince superborum flatus, et vana furentum</l>
+<l>Turbinibus stabili fortis pietate resiste:</l>
+<l>Nec tibi fallacis subrepat imago decoris,</l>
+<l n="775">Nullum ex his errare putes. Licet in cruce vitam</l>
+<l>
+<pb n="0135A"/>Ducant, et jugi afficiant sua corpora morte,</l>
+<l>Abstineant opibus, sint casti, sintque benigni,</l>
+<l>Terrenisque ferant animum super astra relictis:</l>
+<l>Si tamen haec propria virtute capescere quemquam</l>
+<l n="780">Posse putant, sitve ut dignus labor iste juvari,</l>
+<l>Ingenium meruisse aiunt bona vera petentis:</l>
+<l>Crescere quo cupiunt, minuuntur; proficiendo</l>
+<l>Deficiunt; surgendo cadunt; currendo recedunt.</l> 
+<l>Unde etenim vane frustra splendescere quaerunt.</l> 
+<l n="785">Inde obscurantur: quoniam sua, laudis amore,</l>
+<l>Non quae sunt Christi quaerunt, nec fit Deus illis</l>
+<l>Principium, et capiti non dant in corpore regnum.</l> 
+<l>Non horum templo est Christus petra fundamentum;</l>
+<l>
+<pb n="0135B"/> <emph>173</emph> Sed super instabilem arbitrii nutantis arenam</l>
+<l n="790">
+<pb n="0136A"/>Assurgunt, foeda lapsuri mole tumoris.</l> 
+<l rend="indent">Isti quem quidam reprobarunt aedificantes,</l>
+<l>Nunc etiam reprobant lapidem, pariesque sine ipso</l>
+<l>Tertius esse volunt, quem nullo foedere nectat</l>
+<l>Angulus, et quem nulla habeat compago ligatum:</l>
+<l n="795">Hi thalamum ad sponsi non perducuntur, et intrant</l>
+<l>Libertate sua: quae Christi gratia confert,</l>
+<l>Non acceperunt, et habent: non attrahit illos</l>
+<l>Vis Patris ad Verbum, sed sponte et praepote cursu</l>
+<l>Praeveniunt cessantis opem: nec ad omne gerendum</l>
+<l n="800">
+<pb n="0136B"/>Ejus egent, sine quo sibi plurima posse videntur.</l>
+        </p>
+</div1>
+
+<div1>
+        <head> <hi>PARS QUARTA.</hi> </head>
+<pb n="0135"/>
+
+
+<p>ARGUMENTUM</p>
+<p>Semipelagianorum doctrinam cum haeresi Pelagiana comparat, ostendens Pelagianum dogma periculosius ab iis statui,
+quia occultius et speciosius quam ab ipso Pelagio, quem damnare videbantur. Potissimum illorum fundamentum destruit
+de primae integritatis reliquiis, quas in hominis natura superesse opinabantur; docetque, quod ad veri boni appetitionem
+spectat, nihil in natura sanum remansisse: primi enim parentis vulnere ita mentem esse perculsam, ut ne quidem
+oculos in altum possit extollere, nec suam agnoscere calamitatem: si quid vero donorum naturalium illi superest, ad
+temporalem demum vitam (quae tota est damnationis et prenae) excolendam pertinere, non ad aeternam acquirendam,
+nec ad virtutis adjumentum, sed ad majorem superbiam. Alioquin si vigor pristinus et antiquae libertatis vis in nobis
+remaneat. Christum gratis mortuum esse, cum unumquemque sua voluntas reconciliare Deo possit. Caeterum ex ineffabili
+Dei humilitate, qua tam indigna pati dignatus est, agnoscere debere hominem captivum, quo carcere clausus, quove
+morbo obsessus sit, cui eripiendo nonnisi mors medici succurri potuerit, dum scilicet se imis miscuit ut nos summis
+insereret, et sic per illum possemus quidquid possumus. Postremo illorum insaniam detestatus qui sanctis obtinendae
+coronae causam auferri causabantur, nisi in eis reperiantur bona quae proprio ipsorum arbitrio accepta referri possint,
+pia ad Deum invocatione, ut ad unicum bonorum nostrorum omnium fontem, Carmen concludit.
+<l n="801">
+<pb n="0135D"/> <emph>175</emph> Quid prodest verbis commentum Pelagianum</l>
+<l>
+<pb n="0136D"/>Respuere, et sola damnatos plectere voce?</l> 
+<l>Cum paucis squalida sublatis de cute nervis,</l>
+<l>
+<pb n="0137A"/>Intima viperei foveantur viscera sensus?</l> 
+<l n="805">O bene quod diri erroris malus ille magister</l>
+<l>Nullo praelevit lethalia pocula melle:</l>
+<l>Sed non ambigua infectum feritate venenum</l>
+<l>Protulit, et gustu virus detexit amaro!</l> 
+<l>Nam si argumenti primordia non onerasset</l>
+<l n="810">His quae discipuli dempserunt callidiores,</l>
+<l>Innumeras dubio cepisset plasmate mentes;</l>
+<l>Quae dum multa vident informia limine in ipso,</l>
+<l>Horrida terrificae declinant atria mortis.</l> 
+<l>Nec jam illis possunt attriti illudere fures,</l>
+<l n="815">Quorum quo tendant artes, atque unde oriantur,</l>
+<l>Non dubiis promptum est cuivis cognoscere signis.</l> 
+<l rend="indent">
+<pb n="0137B"/> NON igitur cum damnatis sentire videntur,</l>
+<l>Cum dicunt mortem in cunctos transisse per unum</l>
+<l>Primum hominem, cujus crimen resperserit omnes</l>
+<l n="820">Nec quemquam in vitam aeternam nisi fonte renatum</l>
+<l>Venturum: infantesque reos hoc munere solvi,</l>
+<l>
+<pb n="0138A"/>Quos prima ad mortem generaliter edat origo.</l> 
+<l>Sed cum damnatis sapiunt, damnataque promunt,</l>
+<l>Cum dicunt, nihil esse animis per vulnus avitum</l>
+<l n="825"> <emph>177</emph> Detractum decoris, splendoremque omnibus illum</l>
+<l>Nunc talem innasci, qualis fuit ante ruinam.</l> 
+<l>Hinc libertatem arbitrii discernere sano</l>
+<l>Posse oculo cordis, quidquid sit rite gerendum,</l>
+<l>Nec solum ad vitae praesentis commoda solers</l>
+<l n="830">Sufficere ingenium, quo se tueatur et ornet;</l>
+<l>Sed summis etiam mentem aptam percipiendis</l>
+<l>Aeternisque bonis, sponte ad coelestia ferri:</l>
+<l>Perque viam ad Christum, quam fecerit ipsa, venire.</l> 
+<l rend="indent">
+<pb n="0138B"/>Hinc hominem multa recti assuetudine firmum</l>
+<l n="835">Posse repugnare adversis, nec cedere poenis,</l>
+<l>Quas superandae animae per carnem admoverit hostis,</l>
+<l>Auxilio abscedente Dei, qui deserat apte</l>
+<l>Utiliterque suos, ut de certamine agonis</l>
+<l>Quaesitas referant palmas: ne nulla piorum</l>
+<l n="840">
+<pb n="0139A"/>Sint merita, et verae priventur laudis honore;</l>
+<l rend="indent">Si quod naturae sensu noluntque, voluntque,</l>
+<l>Praeceptisque tenent legalibus insinuatum,</l>
+<l>Divini auxilii manus hoc operetur in illis:</l>
+<l>Ceu solis Christi famulis virtute carere</l>
+<l n="845">Sit dignum, et non posse probos apprendere mores,</l>
+<l>Quos plerumque habeant etiam simulacra colentes.</l> 
+<l rend="indent"> TALIA lingua procax cum verbis fundit ineptis,</l>
+<l>Effuge, tu nova gens, hostiles effuge sensus,</l>
+<l>Et procul a laqueis sapiens abjungere mortis.</l> 
+<l n="850">Christus enim tua justitia est, quo te duce oportet</l>
+<l>Currere, ne cursus, Christo sine, sit vagus error.</l> 
+<l>
+<pb n="0139B"/>Nemo etenim, nemo est, qui non cum vulnere primi</l>
+<l>Sit patris genitus: quo vulnere mens prius intus</l>
+<l>Percussa est, quam membra foris, cum mente receptum est</l>
+<l n="855">Quod regione poli disjecta superbia suasit.</l> 
+<l>
+<pb n="0140A"/>Sic animus, cui lumen erat de lumine summo,</l>
+<l>Arbitrium involvit tenebris; et luce relicta,</l>
+<l> <emph>179</emph> Consilio legit tetrae nigrescere noctis.</l> 
+<l>Nec jam captivos oculos extollere in altum</l>
+<l n="860">Sponte potest: quoniam hoc etiam spoliante tyranno</l>
+<l>Perdidit, ut quanto jaceat sub vulnere norit.</l> 
+<l rend="indent"> SI quid enim de principiis felicibus illi,</l>
+<l>Et vita exsilii superest prudenter agenda,</l>
+<l>Hoc sanum, et quo nil fuerit sublimius in se</l>
+<l n="865">Credit, amatque suum mundi sapientia sensum,</l>
+<l>Innumeras sese claram mirata per artes:</l>
+<l>Quod conjecturis sublimibus abdita quaerit,</l>
+<l>Quod meminit recte, sapit acriter, aestimat apte:</l>
+<l>Quod studium fandi excoluit, quod legibus urbes</l>
+<l n="870">
+<pb n="0140B"/>Instituit, moresque feros ratione recidit,</l>
+<l>Ut poenae metus officio certarit amoris.</l> 
+<l rend="indent">Jam cum exercetur numeris, ad sidera coeli</l>
+<l>Per cursus noscenda suos, et scire videtur</l>
+<l>Defectus solis varios, lunaeque labores,</l>
+<l n="875">
+<pb n="0141A"/>Quam speciosa sibi est, et quam vanescit in ipsis?</l> 
+<l rend="indent"> QUAE licet ex primo naturae habeantur honore;</l>
+<l>Non tamen ad veram possunt perducere vitam.</l> 
+<l>(Denique ab his praeceps in multas relligiones</l>
+<l> <emph>181</emph> Decidit, et factis haesit factore relicto.)</l>
+<l n="880">Nam si nunc etiam illaesis vigor ille maneret,</l>
+<l>In quo insons natura fuit; sua quemque voluntas</l>
+<l>Conciliare Deo, poenaque absolvere posset:</l>
+<l>Nequidquam Christus mortem moriendo piaret,</l>
+<l>Peccatum et mundi sanguis non tolleret Agni,</l>
+<l n="885">Nec genus humanum generari rursus egeret</l>
+<l>Conditione nova: quoniam sapientia sana,</l>
+<l>Sana fides, sanum arbitrium, mens libera morbo,</l>
+<l>
+<pb n="0141B"/>Vitam agerent dignam summorum participatu.</l> 
+<l rend="indent"> SED prostrata semel, quanto natura profundo</l>
+<l n="890">Immersa, et quantae sit mole oppressa ruinae;</l>
+<l>
+<pb n="0142A"/>Verbum homo fit, rerumque sator sub conditione</l>
+<l>Servilis formae dignatur virgine nasci.</l> 
+<l>Inque infirmorum cunctos descendere sensus.</l> 
+<l>Vexatur virtus, sapientia ludificatur:</l>
+<l n="895">Justitia injustos tolerat, clementia saevos:</l>
+<l>Gloria contemptum subit, et tormenta potestas:</l>
+<l>Inque crucis poenam nulli violabilis usquam</l>
+<l>Vita agitur: cujus perimatur morte peremptor -</l>
+<l>Justo ut pro injustis effuso sanguine, sit mors</l>
+<l n="900">Unius insontis multorum vita reorum.</l> 
+<l rend="indent">Hoc igitur pretio captivi cum redimuntur,</l>
+<l>Agnoscant quali conclusi carcere, quove</l>
+<l>Obsessi fuerint morbo; quibus eripiendis</l>
+<l>Succurri haud aliter potuit quam morte medentis.</l> 
+<l n="905">
+<pb n="0142B"/>Et quia de magnis opibus nonnulla supersunt,</l>
+<l>Quae decorent nudos, et quae solentur egenos:</l>
+<l>Non ita pro summis oblectent ultima lapsos,</l>
+<l>
+<pb n="0143A"/>Ut de supplicio tumeant, atque ordine verso,</l>
+<l> <emph>183</emph> Quo sunt effecti miseri, sint inde superbi.</l> 
+<l n="910">Aut cum hebetes visus, longa ex caligine tandem,</l>
+<l>[ <hi>Deest hic aliquid, in hunc sensum:</hi> In coelum attollunt, et vera luce fruuntur;]</l>
+<l>Naturae hoc potius, libertatique volendi,</l>
+<l>Quam Christo tribuant: ne scilicet evacuetur</l>
+<l>Arbitrii virtus, si desit recta legendi.</l> 
+<l n="915" indent="1">Hoc patribus primis mortis sator insinuatus</l>
+<l>Consilio est: hac arte omnes prostravit in uno,</l>
+<l>Dum suadet multo praestantius esse, quod ipsis</l>
+<l>(Non tribuente licet Domino) sponderet habendum</l>
+<l>
+<pb n="0143B"/>Prudens libertas, vetitoque instructa cupido:</l>
+<l n="920">Quae nunc per veteris serpens vestigia fraudis,</l>
+<l>Deceptos simili studet inflammare furore:</l>
+<l>Ut quoniam pulchrum est veris impendere curam,</l>
+<l>Justitiaeque avidos bona nosse et velle salubre est:</l>
+<l>Suadeat ingenio cujusque hoc lucis inesse</l>
+<l n="925">Ut naturali mens vivida mobilitate,</l>
+<l>
+<pb n="0144A"/>Non spirante Deo, Christi exardescat amore,</l>
+<l>Utque ita salvatrix nil gratia conferat istis,</l>
+<l>Sed referat; pretioque bonos, non munere ditet.</l> 
+<l> HIS de seminibus multo jam plura oriuntur,</l>
+<l n="930">Et frumenta inter primo turgentia lacte,</l>
+<l>Spinis fulta subit seges horrida zizaniorum.</l> 
+<l rend="indent">Sed nos qui Domini semen sumus, agricolaeque</l>
+<l>Stamus ope, et supera perflati vivimus aura,</l>
+<l>Viperei calicis gustum procul excutiamus:</l>
+<l n="935">Divinique operis constanter confiteamur</l>
+<l>Figmentum nos esse novum, quod prorsus ab illa</l>
+<l>Stirpe vetustatis discretum est, atque recisum,</l>
+<l>Et jam sit penitus carnalis originis exsors,</l>
+<l> <emph>185</emph> Qui membrum est Christi, capitisque in
+corpore vivit:</l>
+<l n="940">
+<pb n="0144B"/>A quo subjectos vigor omnis manat in artus;</l>
+<l>Et sic quaeque suo vegetantur in ordine partes,</l>
+<l>Ut quod agunt, et dispositis quod motibus explent,</l>
+<l>Ex illo possint, qui summa atque ultima pacans,</l>
+<l>Ut nos insereret summis, se miscuit imis.</l> 
+<l n="945"> CONTICEANT igitur qui dicunt esse cavendum</l>
+<l>
+<pb n="0145A"/>Ne desit sanctis sumendae causa coronae,</l>
+<l>Si non ipsorum bona repperiantur in illis.</l> 
+<l>Hoc etenim tumida nimis impietate docentes,</l>
+<l>Quid nisi justitia nos et virtute, Deoque,</l>
+<l n="950">Dispoliare volunt: ne lux in nocte coruscet,</l>
+<l>Languida ne in vires redeant, ne mortua vivant.</l> 
+<l>Sed nobis summo verorum a fonte bonorum</l>
+<l>Haurire haec, supero et semper splendore nitere,</l>
+<l>Gloria sit; non spes in feni flore caduco.</l> 
+<l n="955">Sicut enim palmes nullos valet edere fructus</l>
+<l>Non in vite manens, quae de radice ministra</l>
+<l>Succum agat in frondes, et musto compleat uvas:</l>
+<l>Sic infecundi virtutum, et fruge carentes</l>
+<l>Perpetui cibus ignis erunt: qui vite relicta</l>
+<l n="960">Audent effusa de libertate comarum</l>
+<l>
+<pb n="0145B"/>Fidere, ne Christi sint ubertate feraces:</l>
+<l>Et mage se credunt propriis excellere posse,</l>
+<l>Quam si virtutum placitarum sit Deus auctor.</l> 
+<l>Viles ergo putent se deformesque futuros,</l>
+<l n="965">Cum transformatis fiet Deus unica sanctis</l>
+<l>Gloria: corporei nec jam pressura laboris</l>
+<l>Conteret incertos, sed in omnibus omnia semper</l>
+<l>Christus erit. Quod si pulchrum et super omnia magnum est,</l>
+<l>Cur pudet hac etiam fletus in valle potentes</l>
+<l n="970">Esse Deo, minimumque operis mortalis habere,</l>
+<l>
+<pb n="0146A"/>Quod non est nisi peccatum quo discrucietur</l>
+<l>Libertas: ad quam solam male gesta recurrunt?</l> 
+<l> <emph>187</emph> Et tamen in sanctos animum cum intendimus actus,</l>
+<l>Cum desideriis carnis mens casta repugnat,</l>
+<l n="975">Cum tentatori non cedimus, et per acerbas</l>
+<l>Vexati poenas, illaeso corde manemus;</l>
+<l>Libertate agimus; sed libertate redempta,</l>
+<l>Cui Deus est rector, summoque ex lumine lumen,</l>
+<l>Vita, salus, virtus, sapientia: gratia Christi est,</l>
+<l n="980">Qua currit, gaudet, tolerat, cavet, eligit, instat,</l>
+<l>Credit, sperat, amat, mundatur, justificatur.</l> 
+<l rend="indent">Si quid enim recti gerimus, Domine, auxiliante</l>
+<l>Te gerimus; tu corda moves; tu vota petentis</l>
+<l>
+<pb n="0146B"/>Quae dare vis, tribuis, servans largita, creansque</l>
+<l n="985">De meritis merita, et cumulans tua dona coronis.</l> 
+<l>Non autem hoc curam minui, studiumque resolvi</l>
+<l>Virtutum, aut opus ingenii torpere putandum est,</l>
+<l>Quod bona sanctorum tua sunt, et quidquid in illis</l>
+<l>Aut sanum, aut validum est, de te viget: ut videatur</l>
+<l n="990">Nil actura hominis, te cuncta gerente, voluntas:</l>
+<l>Quae sine te quid agit, nisi quo procul exsulet a te?</l> 
+<l>Praecipites semper calles, et devia motu</l>
+<l>
+<pb n="0147A"/>Ingressura suo: nisi fessam, tu bone, et aegram</l>
+<l>Suscipias, referas, foveas, tuearis, honestes.</l> 
+<l n="995" indent="1">Tunc fiet cursus velox, oculique videntes,</l>
+<l>Libera libertas, sapiens sapientia, justum</l>
+<l>Judicium, et fortis virtus, et sana facultas.</l> 
+<l rend="indent">Hujus opis semper, Pater, indigeamus: ab ipsa</l>
+<l>
+<pb n="0148A"/>Prodeat arbitrium nostrum, nihil hac sine sensus</l>
+<l n="1000">Corporei possint, opus ut servile quiescat.</l> 
+<l> <emph>189</emph> Et tua dum in nobis agitur, non nostra voluntas,</l>
+<l>Legitima in sanctis ducamus sabbata festis.</l> 
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

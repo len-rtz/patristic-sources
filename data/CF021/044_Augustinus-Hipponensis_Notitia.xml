@@ -1,0 +1,121 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Notitia</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 44</title>
+           <idno>AugHip.Notiti10</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Notitia</head>
+
+<p>Pelagianorum est haeresis, hoc tempore omnium recentissima a Pelagio monacho exorta.
+Quem magistrum Coelestius sic secutus est, ut sectatores eorum Coelestiani etiam nuncupentur.
+Hi Dei gratiae, qua praedestinati sumus in adoptionem filiorum per Jesum Christum
+in ipsum <note>(Ephes. I, 5)</note>, et qua eruimur de potestate tenebrarum, ut in eum credamus atque
+in regnum ipsius transferamur <note>(Coloss. I, 13)</note>, propter quod ait, <hi>Nemo venit ad me, nisi
+fuerit ei datum a Patre meo <note>(Joan. VI, 66)</note>
+          </hi>, et qua diffunditur charitas in cordibus nostris <note>(Rom. V, 5)</note>,
+ut fides per dilectionem operetur <note>(Galat. V, 6)</note>, in tantum inimici sunt, ut sine
+hac posse hominem credant facere omnia divina mandata: cum si hoc verum esset, frustra
+Dominus dixisse videretur, <hi>Sine me nihil potestis facere <note>(Joan. XV, 5)</note>
+          </hi>. Denique Pelagius a
+fratribus increpatus, quod nihil tribueret adjutorio gratiae Dei ad ejus mandata facienda,
+correptioni eorum hactenus cessit, ut non eam libero arbitrio praeponeret; sed infideli calliditate
+supponeret, dicens, ad hoc eam dari hominibus, ut quae facere per liberum jubentur
+arbitrium, facilius possint implere per gratiam. Dicendo utique, Ut facilius possint; voluit
+credi, etiamsi difficilius, tamen posse homines sine gratia divina facere jussa divina. Illam
+vero gratiam Dei, sine qua nihil boni possumus facere, non esse dicunt nisi in libero arbitrio,
+quod nullis suis praecedentibus meritis ab illo accepit nostra natura, ad hoc tantum
+ipso adjuvante per suam legem atque doctrinam, ut discamus quae facere, et quae sperare
+debeamus, non autem ad hoc ut per donum Spiritus sui, quae didicerimus esse facienda, faciamus.
+Ac per hoc divinitus nobis dari scientiam confitentur, qua ignorantia pellitur; charitatem
+autem dari negant qua pie vivitur: ut scilicet cum sit Dei donum scientia quae sine
+charitate inflat, non sit Dei donum ipsa charitas, quae ut scientia non inflet, aedificat <note>(I Cor.
+VIII, 1)</note>. Destruunt etiam orationes, quas facit Ecclesia, sive pro infidelibus et doctrinae Dei
+resistentibus, ut convertantur ad Deum; sive pro fidelibus, ut augeatur in eis fides, et perseverent
+in ea. Haec quippe non ab ipso accipere, sed a se ipsis homines habere contendunt,
+gratiam Dei qua liberamur ab impietate, dicentes secundum merita nostra dari. Quod quidem
+Pelagius in episcopali judicio Palaestino damnari metuens, damnare compulsus est; sed
+in posterioribus suis scriptis hoc invenitur docere. In id etiam progrediuntur, ut dicant
+vitam justorum in hoc saeculo nullum omnino habere peccatum, et ex his Ecclesiam Christi
+in hac mortalitate perfici, ut sit omnino sine macula et ruga <note>(Ephes. V, 27)</note>; quasi non sit
+Christi Ecclesia, quae toto terrarum orbe clamat ad Deum, <hi>Dimitte nobis debita nostra <note>(Matth.
+VI, 12)</note>
+          </hi>. Parvulos etiam negant, secundum Adam carnaliter natos, contagium mortis antiquae
+prima nativitate contrahere. Sic enim eos sine ullo peccati originalis vinculo asserunt nasci,
+ut prorsus non sit quod eis oporteat secunda nativitate dimitti: sed eos propterea baptizari,
+ut regeneratione adoptati admittantur ad regnum Dei, de bono in melius translati, non ista
+renovatione ab aliquo malo obligationis veteris absoluti. Nam etiamsi non baptizentur, promittunt
+eis extra regnum quidem Dei, sed tamen aeternam et beatam quamdam vitam
+suam. Ipsum quoque Adam dicunt, etiamsi non peccasset, fuisse corpore moriturum,
+neque ita mortuum merito culpae, sed conditione naturae. Objiciuntur eis et alia nonnulla,
+sed ista sunt maxime, ex quibus intelliguntur etiam illa vel cuncta, vel pene cuncta
+pendere.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

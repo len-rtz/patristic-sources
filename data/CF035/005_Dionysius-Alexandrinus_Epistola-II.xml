@@ -1,0 +1,735 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Epistola II</title>
+              <author ref="http://viaf.org/viaf/287805725">Dionysius Alexandrinus<date>190-264</date> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1844</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 5</title>
+           <idno>DioAle.EpiIi</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Ex primo libro,</head>
+<div3>
+          <head>1.</head>
+          <p>
+ Non enim erat tempus, quando Deus non erat
+Pater.
+</p>
+          <p>Et in sequentibus (inquit Athanasius) profitetur Christum
+semper esse, ut pote verbum et sapientiam et virtutem.</p>
+        </div3>
+<div3>
+          <head>2.</head>
+          <p>
+ Neque vero Deus cum haec non peperisset
+<pb n="0119A"/>
+postea Filium genuit: sed quia Filius non a se ipso,
+verum a Patre habet esse.
+</p>
+          <p>Et post pauca de ipso Filio dicit:</p>
+        </div3>
+<div3>
+          <head>3.</head>
+          <p>
+ Cum sit splendor lucis aeternae, prorsus et
+ipse aeternus est. Luce enim semper existente
+manifestum est et splendorem semper exsistere: eo
+quippe lux esse intelligitur, quod splendeat, ac
+fieri nequit ut lux non luceat. Rursum enim ad
+exempla veniamus. Si sol est, est quoque splendor,
+est et dies: horum si nihil est, multum abest ut sol
+adsit. Quod si sol aeternus esset, dies quoque numquam
+deficeret. Nunc autem (neque enim ita se res
+<pb n="0119B"/>
+habet) dies sole incipiente incipit, ac desinente desinit.
+Deus autem aeterna lux est, quae neque incoepit,
+neque deficiet unquam. Ipsi ergo praelucet
+ac coexsistit aeternus splendor, qui sine initio exsistens
+et semper genitus, ante eum emicat, quique
+est ea sapientia, quae dicit, <hi>Ego eram qua gaudebat:
+et delectabar quotidie ante faciem ejus omni tempore <note>(Prov. VIII, 30)</note>
+          </hi>.
+</p>
+          <p>Et paulo post sermonem de eodem sic prosequitur:</p>
+        </div3>
+<div3>
+          <head>4.</head>
+          <p>
+ Cum ergo aeternus sit Pater, aeternus est et Filius,
+lumen de lumine. Ubi enim est genitor, est
+et proles. Si autem proles non est, quomodo et
+cujus potest esse genitor? Atqui ambo sunt, et
+semper sunt. Cum igitur Deus sit lux, Christus est
+splendor. Cum autem Spiritus sit, <hi>Spiritus</hi> enim,
+inquit, <hi>est Deus <note>(Joan. IV, 24)</note>
+          </hi>; congruenter rursum
+Christus vapor dicitur: <hi>Est enim,</hi> inquit, <hi>vapor
+virtutis Dei <note>(Sap., VII, 25)</note>
+          </hi>.
+</p>
+          <p>Rursumque dicit:</p>
+        </div3>
+<div3>
+          <head>5.</head>
+          <p>
+ Solus autem Filius semper coexsistens Patri,
+et plenus eo qui est, ipse etiam est, cum sit ex
+Patre <note>(ex Athan., ibid., n. 17)</note>.
+<pb n="0118"/>
+</p>
+        </div3>
+<div3>
+          <head>1. </head>
+ <foreign xml:lang="greek">Οὐ γὰρ ἦν ὅτε ὁ Θεὸς οὐκ ἦν Πατήρ.</foreign>
+<p> <foreign xml:lang="greek">Καὶ τοῦτο οἶδεν</foreign> (ait Athanasius statim post) <foreign xml:lang="greek">ἐν τοῖς, ἑξῆς ἀεἱ τὸν
+Χριστὸν εἶναι, λόγον ὄντα, καί σοφίαν, καὶ δύναμιν.</foreign>
+          </p>
+        </div3>
+<div3>
+          <head>2.</head>
+ <foreign xml:lang="greek">Οὐ γὰρ δὴ τούτων ἄγονος ὢν Θεὸς, εἶτα ἐπαιδοποιήσατο,
+<pb n="0120A"/>
+ἀλλ' ὅτι μὴ παρ' ἑαυτοῦ ὁ Υἱὸς, αλλ' ἐκ τοῦ
+Πατρὸς ἔχει τὸ εἶναι.</foreign>
+<p> <foreign xml:lang="greek">Καὶ μετ' ὀλίγα</foreign> (pergit dicere Athanasius) <foreign xml:lang="greek">πάλιν περὶ τοῦ αὐτοῦ
+φησιν·</foreign>
+          </p>
+        </div3>
+<div3>
+          <head>3.</head>
+ <foreign xml:lang="greek">Ἀπαύγασμα δὲ ὢν φωτὸς ἀϊδίου, πάντως καὶ αὐτὸς
+ἀΐδιός ἐστιν. ὄντος γὰρ ἀεὶ τοῦ φωτὸς, δῆλον ὡς ἔστιν
+ἀεὶ τὸ ἀπαύγασμα. τούτῳ γὰρ, καὶ ὅτι φῶς ἐστι, τῷ
+καταυγάζειν νοεῖται, καὶ φῶς οὐ δύναται μὴ φωτίζον εἶναι.
+πάλιν γὰρ ἔλθωμεν ἐπὶ τὰ παραδείγματα. εἰ ἔστιν
+ἥλιος, ἔστιν ἡμέρα· εἰ τοιούτων μηδέν ἐστι, πολύ γε δεῖ
+καὶ παρεῖναι ἥλιον εἰ μὲν οὖν ἀΐδιος ὁ ἥλιος, ἄπαυστος
+ἂν ἦν καὶ ἡ ἡμέρα νῦν δὲ, οὐ γὰρ ἔστιν, ἀρξαμένου τε
+ἢρξατο, καὶ παυομένου παύεται. ὁ δέ γε Θεὸς αἰώνιόν
+<pb n="0120B"/>
+ἐστι φῶς, οὔτε ἀρξάμενον, οὔτε λῆξόν ποτε. οὐκοῦν αἰώνιον
+πρόκειται, καὶ σύνεστιν αὐτῷ τὸ ἀπαύγασμα ἄναρχον
+καὶ ἀειγενὲς, προφαινόμενον αὐτοῦ, ὅπερ ἐστὶν ἡ
+λέγουσα σοφία, Ἐγὼ ἢμην ᾗ προσέχαιρε· καθ' ἡμέραν
+δὲ εὐφραινόμην ἐν προσώπῳ αὐτοῦ ἐν παντὶ καιρῷ.</foreign>
+<p> <foreign xml:lang="greek">Καὶ αὖθις ἐπάγει μετ' ὀλίγα</foreign> (inquit Athanasius), <foreign xml:lang="greek">περὶ τοῦ αὐτοῦ λέγων·</foreign>
+          </p>
+        </div3>
+<div3>
+          <head>4.</head>
+ <foreign xml:lang="greek">Ὄντος οὖν αἰωνίου τοῦ Πατρὸς, αἰώνιος ὁ Υἱός
+ἐστι, φῶς ἐκ φωτὸς ὤν· ὄντος γὰρ γονέως, ἔστι καὶ τέκνον·
+εἰ δὲ μὴ τέκνον εἴη, πῶς καὶ τίνος εἶναι δύναται γονεὺς;
+ἀλλ' εἰσὶν ἄμφω, καὶ εἰσὶν ἀεί.</foreign>
+<p> <foreign xml:lang="greek">Εἶτα πάλιν προστίθησι ταῦτα</foreign> (Athanasius ait):</p>
+<p> <foreign xml:lang="greek">Φωτὸς μὲν οὖν ὄντος τοῦ Θεοῦ. ὁ Χριστός ἐστιν ἀπαύγασμα.
+πνεύματος δὲ ὄντος· Πνεῦμα, γὰρ, φησὶν, ὁ Θεὸς·
+ἀναλόγως πάλιν ὁ Χριστὸς ἀτμὸς λέγεται· Ἀτμὸς, γάρ,
+φησὶν, ἐστι τῆς τοῦ Θεοῦ δυνάμεως.</foreign>
+          </p>
+<p> <foreign xml:lang="greek">Καὶ ἐκ τοῦ δευτέρου</foreign> (inquit Athanasius) <foreign xml:lang="greek">πάλιν φησί</foreign>
+          </p>
+        </div3>
+<div3>
+          <head>5.</head>
+          <p>
+ <foreign xml:lang="greek">Μόνος δὲ ὁ Υἱὸς ἀεὶ συνὼν τῷ Πατρὶ, καὶ τοῦ ὄντος
+πληρούμενος, καὶ αὐτὸς ἔστιν, ὢν ἐκ τοῦ Πατρός.</foreign> Haec
+excitata sunt serie continua a <hi>S. Athanasio in Epistola
+de Sententia Dionysii,</hi> num. 15, p. 253, <hi>ed. Benedictin.</hi> 
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>Ex eodem libro primo.</head>
+
+<pb n="0119"/>
+<div3>
+          <head>6. </head>
+<p>
+            <pb n="0119D"/>Caeterum ubi res factas et opificia quaedam
+consideranda dixi, hujusmodi rerum velut minus
+idonearum cursim protuli exempla, quando dixi:
+Neque planta id est quod agricola, neque scapha id
+quod navium faber <note>(ex Athan., ibid., n. 18)</note>. Deinde
+congruis et naturae rei accommodatioribus
+magis sum immoratus, ac pluribus explicui quae
+veriora erant, variis excogitatis argumentis, quae
+<pb n="0121A"/>
+ et tibi in alia epistola exposui; in quibus mendacii
+convici etiam illud quod adversum me proferunt
+crimen, me scilicet non asserere Christum esse Deo
+consubstantialem. Tametsi enim me nusquam in
+Scripturis sacris hoc vocabulum vel invenisse vel
+legisse dico, alia tamen argumenta quae subinde
+adjunxi, quaeque illi tacuerunt, ab hac intelligentia
+nihil discrepant. Etenim prolem humanam, quae
+certe ejusdem generis est atque genitor, in exemplum
+attuli; dixique revera parentes hoc solum distingui
+a filiis, quod ipsi non sint filii; aut certe
+necessario futurum esse, ut neque parentes essent,
+neque filii. Epistolam autem, ut praedixi, propter
+praesentem rerum conditionem, penes me non
+habeo: alioquin ipsa tibi quae tunc scripsi verba,
+<pb n="0121B"/>
+imo et epistolae totius exemplum misissem, mittamque
+siquando mihi ejus copia fuerit. Memini
+porro plurimas ex rebus inter se cognatis similitudines
+adjecisse. Etenim plantam, sive ex semine
+sive ex radice succrescentem, aliam esse dixi ab
+eo unde pullulavit, tametsi ejusdem omnino sit
+naturae: similiter et fluvium e fonte manantem
+aliam formam ac nomen accipere, neque enim fontem
+fluvium, aut fluvium fontem appellari, sed
+haec duo esse; ac fontem quidem quasi patrem esse,
+fluvium vero esse aquam ex fonte. Verum haec quidem
+et similia, quae scripta sunt, se non videre
+quasi caecutientes dissimulant: duabus autem voculis
+incompositis, quasi lapidibus, eminus me
+conantur impetere: non advertentes rebus ignoratis
+<pb n="0121C"/>
+et quae ut intelligantur interpretatione indigent,
+plerumque non modo aliena, sed et contraria exempla
+lucem afferre.</p>
+        </div3>
+<pb n="0120D"/>
+
+<div3>
+          <head>6. </head>
+          <p>
+ <foreign xml:lang="greek">Πλὴν ἐγὼ γενητά τινα φήσας νοεῖσθαι, τῶν μὲν
+τοιούτων ὡς ἀχρειοτέρων ἐξ ἐπιδρομῆς εἶπον παραδείγματα·
+ἐπεὶ μήτε τὸ φυτὸν ἔφην</foreign> (adderem <foreign xml:lang="greek">τὸ αὐτὸ εἶναι)
+τῷ γεωργῷ, μήτε τῷ ναυπηγῷ τὸ σκάφος. Εἶτα τοῖς
+ἱκνουμένοι καὶ προσφυεστέροις ἐνδιέτριψα· καὶ πλέον
+διεξῆλθον περὶ τῶν ἀληθεστέρων, ποικίλα προσεπεξευρὼν
+τεκμήρια, ἅπερ καὶ σοι δι' ἄλλης ἐπιστολῆς ἔγραψα· ἐν
+οἷς ἤλεγξα, καὶ ὃ προφέρουσιν ἔγκλημα κατ' ἐμοῦ ψεῦδος
+<pb n="0122A"/>
+ὂν, ὡς οὐ λέγοντος τὸν Χριστὸν ὉΜΟΟΥΣΙΟΝ εἶναι τῷ
+Θεῷ. εἰ γὰρ καὶ τὸ ὄνομα τοῦτό φημι μὴ εὑρηκέναι, μηδ'
+ἀνεγνωκέναι που τῶν ἁγίων Υραφῶν, ἄλλα γε τὰ ἐπιχειρήματα
+μου τὰ ἑξῆς, ἃ σεσιωπήκασι, τῆς διανοίας ταύτης
+οὐκ ἀπᾴδει. καὶ γὰρ ἀνθρωπείαν γονὴν παρεθέμην,
+δῆλον ὡς οὖσαν ὁμογενῆ· φήσας πάντως τοὺς γονεῖς μόνον
+ἑτέρους εἶναι τῶν τέκνον, ὅτι μὴ αὐτοὶ εἶεν τὰ τέκνα,
+ἢ μήτε γονεῖς ἀναγκαῖων ὑπάρχειν εἶναι μήτε τέκνα.
+καὶ τὴν μὲν ἐπιστολὴν, ὡς προεῖπον, διὰ τὰς περιστάσεις
+οὐκ ἔχω προκομίσαι, εἰ δ' οἶν αὐτά σοι τὰ τότε ῥήματα,
+μᾶλλον δὲ καὶ πάσης ἂν ἔπεμψα τὸ ἀντίγραφον·
+ὅπερ ἄν εὐπορήσω, ποίησω. οἶδα δὲ καὶ μέμνημαι,
+πλείονα προςθεὶς τῶν συγγενῶν ὁμοιώματα· καὶ γὰρ
+καὶ φυτὸν εἶπον ἀπὸ σπέρματος, ἢ ἀπὸ ῥίζης ἀνελθὸν,
+ἕτερον εἶναι τοῦ ὅθεν ἐβλάστησε, καὶ πάντως ἐκείνῳ καθέστηκεν
+<pb n="0122B"/>
+ὁμοφυές. καὶ ποταμὸν ἀπὸ πηγῆς ῥέοντα, ἕτερον
+σχῆμα καὶ ὄνομα μετειληφέναι, μήτε γὰρ τὴν πηγὴν
+ποταμὸν, μήτε τὸν ποταμὸν πηγὴν λέγεσθαι, καὶ ἀμφότερα
+ὑπάρχειν, καὶ τὴν μὲν πηγὴν οἱονεὶ πατέρα εἶναι,
+τὸν δὲ πατερα εἶναι ἐκ τῆς πηγῆς ὕδωρ. ἀλλὰ ταῦτα μὲν
+καὶ τὰ τοιαῦτα μηδὲ ὁρᾷν γεγραμμένα, ἀλλ' οἱονεὶ τυφλώττειν
+ὑποκρίνονται. τοῖς δὲ δυσὶ ῥηματίοις ἀσυνθέτοις,
+καθάπερ λίθοις, μακρόθεν ἐπιχειροῦσί με βάλλειν·
+ἀγνοοῦντες ὡς τῶν ἀγνοουμένων, καὶ προ οὐ μόνον ἀλλοῖα
+πολλάκις, ἀλλὰ καὶ ὑπεναντία τεκμήρια γίνεται τῶν
+ἐπιζητουμένων δηλώματα.</foreign> <note>(Haec adducuntur a <hi>S. Athanasio</hi> 
+in <hi>Ep. de Sententia Dionysii,</hi> num. XVIII, p.
+255.)</note>
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>Ex eodem libro primo.</head>
+
+<pb n="0121"/>
+<div3>
+          <head>7. </head>
+<p>
+            <pb n="0121C"/>Superius dictum est Deum esse fontem bonorum
+omnium, Filius vero dictus est fluvius
+ab ipso emanans: verbum quippe est mentis emanatio,
+et, ut humano more loquar, ex corde per
+os emittitur. Mens vero, quae per linguam prosilit,
+<pb n="0123A"/>
+ alia est à verbo quod in corde existit. Hoc enim
+postquam illam praemisit, remanet, estque quale
+antea erat: illa vero praemissa avolat et circumquaque
+fertur; et sic utrumque in utroque est, tametsi
+aliud ab altero, et unum sunt, licet duo
+sint: sic namque Pater et Filius unum esse et in
+se invicem esse dicti sunt.</p>
+        </div3>
+<pb n="0122C"/>
+
+<div3>
+          <head>7. </head>
+          <p>
+ <foreign xml:lang="greek">Προείρηται μὲν οὖν, ὅτι πηγὴ τῶν ἀγαθῶν ἁπάντων
+ἐστὶν ὁ Θεός. ποταμὸς δὲ ὑπ'</foreign> (for. <foreign xml:lang="greek">ἀπ') αὐτοῦ προχεόμενος,
+ὁ Υἱὸς ἀναγέγραπται· ἀπόῤῥοια γὰρ νοῦ λόγος,
+καὶ ὡς ἐπ' ἀνθρώπων εἰπεῖν, ἀπο καρδίας διὰ στόματος
+ἐξοχετεύεται, ἕτερος γενόμενος τοῦ ἐν καρδίᾳ
+<pb n="0124A"/>
+λόγου, ὁ διὰ γλώσσης νοῦς προπηδῶν. ὁ μὲν γὰρ ἔμεινε
+προπέμψας, καὶ ἔστιν οἷος ἦν. ὁ δὲ ἐξέπτη προπεμφθεὶς,
+καὶ φέρεται πανταχοῦ. καὶ οὕτως ἐστὶν ἑκάτερος ἐν
+ἑκατέρῳ ἕτερος ὢν θατέρου· καὶ ἕν εἰσιν, ὄντες δύο.
+οὕτω γὰρ καὶ ὁ Πατὴρ καὶ ὁ Υἱὸς ἓν, καὶ ἐν ἀλλήλοις
+ἐλέχθησαν εἶναι.</foreign> <note>(Allata haec a S. Athanasio in Epist.
+de Sententia Dionysii, n. XXIII, p. 259.)</note> 
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>Ex secundo libro.</head>
+
+<pb n="0123"/>
+<div3>
+          <head>8. </head>
+<p>
+            <pb n="0123A"/>Singula nomina a me prolata se invicem nec
+separari queunt, nec dividi <note>(ex Athanas. ibid.,
+n. 17)</note>. Patrem dixi, et prius quam Filii mentionem
+facerem, jam eum in Patre significavi. Filium adjunxi,
+ac Pater, etiamsi eum non prius nominassem,
+<pb n="0123B"/>
+jam omnino in Filio comprehensus fuerat.
+Spiritum sanctum addidi: sed simul unde et per
+quem processerit subtexui. Illi autem ignorant,
+neque Patrem, qua <hi>pater</hi> est, a Filio alienari
+posse: nam illud nomen causa est evidens
+cohaerentiae et conjunctionis: neque Filium a Patre
+separari; hoc namque vocabulum <hi>pater</hi> communicationem
+indicat. Est et in manibus illorum Spiritus,
+qui neque a mittente, neque a ferente divelli
+potest. Quomodo igitur ego, qui talibus utor nominibus,
+illa a se invicem separata et omnino divisa
+existimem?</p>
+        </div3>
+<p>Paucis interjectis addit:</p>
+<div3>
+          <head>9.</head>
+          <p>
+ Ita quidem unitatem indivisibilem in Trinitatem
+dilatamus, et rursum Trinitatem quae minui
+nequit, in unitatem contrahimus.
+<pb n="0124A"/>
+</p>
+        </div3>
+<div3>
+          <head>8. </head>
+ <foreign xml:lang="greek">Τῶν ὑπ' ἐμοῦ λεχθέντων ὀνομάτων ἕκαστον ἀχώριστόν
+ἐστι καὶ ἀδιαίρετον τοῦ πλησίον· Πατέρα εἶπον,
+καὶ πρὶν ἐπαγάγω τὸν Υἱὸν, ἐσήμανα καὶ τοῦτον ἐν τῷ
+Πατρί Υἱὸν ἐπήγαγον· εἰ καὶ μὴ προειρήκειν τὸν Πατέρα,
+πάντως ἂν ἐν τῷ Υἱῷ προείληπτο. ἅγιον Πνεῦμα προσέθηκα·
+<pb n="0124B"/>
+ἀλλ' ἅμα καὶ πόθεν καὶ διὰ τίνος ἧκεν ἐφήρμοσα.
+οἱ δὲ οὐκ ἴσασιν ὅτι μήτε ἀπηλλοτρίωται Πατὴρ Υἱοῦ, ἧ
+πατὴρ, προκαταρκτικὸν γάρ ἐστι τῆς συναφείας τὸ ὄνομα.
+οὔτε ὁ Υἱὸς ἀπῴκισται τοῦ Πατρός· ἡ γὰρ ΠΑΤΗΡ προσηγορία
+δηλοῖ τὴν κοινωνίαν ἔν τε ταῖς χερσὶν αὐτῶν ἐστι
+τὸ Πνεῦμα, μήτε τοῦ πέμποντος, μήτε τοῦ φέροντος, δυνάμενον
+στέρεσθαι· πῶς οὖν ὁ τούτοις χρώμενος τοῖς
+ὀνόμασι, μεμερίσθαι ταῦτα καὶ ἀφωρίσθαι παντελῶς ἀλλήλων
+οἴομαι;</foreign>
+<p> <foreign xml:lang="greek">Καὶ μετ' ὀλίγα</foreign> (inquit Athanasius), <foreign xml:lang="greek">ἐπάγει λέγων'</foreign>
+          </p>
+        </div3>
+<div3>
+          <head>9.</head>
+ <foreign xml:lang="greek">Οὕτω μὲν ἡμεῖς εἴς τε τὴν ΤΡΙΑΔΑ τὴν μονάδα
+πλατύνομεν ἀδιαίρετον, καὶ τὴν ΤΡΙΑΔΑ πὰλιν ἀμείωτον
+εἰς τὴν μονάδα συγκεφαλαιούμεθα.</foreign> <note>(Adducuntur haec ab
+Athanasio, ubi supra, n. XVII, p. 254.)</note> 
+</div3>
+      </div1>
+
+<div1>
+        <head>Ex eodem libro secundo.</head>
+
+<pb n="0123"/>
+<div3>
+          <head>10. </head>
+<p>
+            <pb n="0123B"/>Si quis autem calumniator, eo quod Deum
+omnium factorem et creatorem dixi, putet me etiam
+Christi creatorem dixisse, advertat me prius Patrem
+ipsum appellasse; quo in vocabulo simul enuntiatus
+est et Filius <note>(ex Athanas., ibid., n. 20)</note>.
+Postquam enim Patrem dixi factorem, subdidi:
+Neque pater eorum est, quorum est factor, si proprie
+is pater esse intelligatur qui genuit (latitudinem
+<pb n="0123D"/>
+enim vocabuli hujus, <hi>pater,</hi> in sequentibus
+expendemus): neque factor pater, si solus opifex
+factor dicatur. Apud Graecos enim qui sapientes
+sunt, suorum librorum factores vocantur. Apostolus
+quoque ait: <hi>Factor legis <note>(Rom., II, 13; Jac., IV,
+12)</note>
+            </hi>. Rerum etiam intrinsecarum, cujusmodi sunt
+<pb n="0125A"/>
+ virtus et vitium, factores nuncupantur, quemadmodum
+dixit Deus: <hi>Expectavi ut faceret judicium,
+fecit autem iniquitatem <note>(Isa., 5, 7)</note>
+            </hi>.</p>
+        </div3>
+<pb n="0124B"/>
+
+<div3>
+          <head>10. </head>
+ <foreign xml:lang="greek">Ἐὰν δέ τις τῶν συκοφαντῶν, ἐπειδὴ τῶν ἁπάντων
+ποιητὴν τὸν Θεὸν καὶ δημιουργὸν εἶπον, οἴηταί με καὶ
+τοῦ Χριστοῦ λέγειν, ἀκουσάτω μου πρότερον Πατέρα
+φήσαντος αὐτὸν, ἐν ᾧ καὶ ὁ υἱὸς προσγέγραπται· μετὰ
+γὰρ τὸ εἰπεῖν Πατέρα ποιητὴν ἐπαγήοχα· Καὶ οὔτε πατήρ
+ἐστιν ὧν ποιητὴς, εἰ κυρίως ὁ γεννήσας ΠΑΤΗΡ ἀκοὺοιτο·
+τὴν γὰρ πλατύτητα τῆς τοῦ ΠΑΤΡΟΣ προσηγορίας ἐν τοῖς
+ἑξῆς ἐπεξεργασόμεθα. οὔτε ποιητὴς ὁ πατὴρ, εἰ μόνος ὁ
+<pb n="0124D"/>
+χειροτέχνης ποιητὴς λέγοιτο. παρ' Ἕλλησι γὰρ ποιηταὶ
+καὶ τῶν ἰδίων καλοῦνται λόγων οἱ σόφοι. καὶ  « ποιητὴς, »  ὁ
+Ἀπόστολος εἶπε,  « νόμου. »  καὶ τῶν ἐγκαρδίων γὰρ, ἀρετῆς
+ἢ κακίας ποιηταὶ καθίστανται, ὡς εἶπεν, ὁ Θεος· Ἒμεινα
+<pb n="0126A"/>
+τοῦ ποιῆσαι κρίσιν, ἐποίησε δὲ ἀνομίαν.</foreign> <note>(Adducta haec a
+S. Athanasio, ubi supra, n. XX, p. 257.)</note> 
+</div3>
+      </div1>
+
+<div1>
+        <head>Addit Athanasius, n. 21, Dionysium, <hi>Quod Deum Christi factorem dixisset,</hi> reprehendentibus, diversa responsa dedisse, quibus se purgaret, dicens.</head>
+
+<pb n="0125"/>
+<div3>
+          <head>11. </head>
+<p>
+            <pb n="0125A"/>Neque sic reprehendendum esse hoc dictum;
+se enim factoris nomine usum esse dicit propter
+carnem quam verbum assumpserat, quae utique
+facta est. Quod si quis illud de Verbo dictum fuisse
+suspicetur, et id quoque remota contentione audiendum
+erat. Sicut enim Verbum rem factam
+esse non sentio; ita nec Deum factorem, sed patrem
+ejus dico. Sed et si quando de Filio disserens,
+obiter Deum factorem dixero, neque defensione
+<pb n="0125B"/>
+careat haec locutio. Nam sapientes apud Graecos
+librorum suorum factores se nuncupant, tametsi
+iidem librorum suorum patres sunt. Divina autem
+Scriptura motuum qui ex corde prodeunt, nos
+factores vocat, cum nos factores legis et judicii
+et justitiae dicit.</p>
+        </div3>
+<pb n="0126A"/>
+
+<div3>
+          <head>11. </head>
+ <foreign xml:lang="greek">Μηδ' οὕτως ἐπιλήψιμον εἶναι τὸν λόγον· εἰρηκέναι
+γὰρ ποιητήν φησι διὰ τὴν σάρκα, ἣν ἀνέλαβε, γενητὴν
+οὖσαν αὐτὴν, ὁ Λόγος. Εἰ δὲ καὶ περὶ τοῦ λόγου τις ὑπονοήσοι
+τοῦτο λελέχθαι, καὶ οὔτως ἔπρεπεν αὐτοὺς ἀφιλονείκως
+ἀκοῦσαι. ὡς γὰρ οὐ ποίημα φρονῶ τὸν Λόγον,
+καὶ οὐ ποιητὴν, ἀλλὰ πατέρα τὸν Θεὸν αὐτοῦ λέγω. καὶ
+κᾂν ἐξ ἐπιδρομῆς εἴπω ποιητὴν τὸν Θεὸν διηγούμενος
+περὶ τοῦ Υἱοῦ, ἀλλὰ καὶ οὕτως ἀπολογήσασθαι δυνατόν.
+ποιητὰς γὰρ τῶν ἰδίων λόγων Ἑλλήνων μὲν οἱ σοφοί φασι,
+<pb n="0126B"/>
+καίτοι πατέρας ἑαυτοὺς ὄντας τῶν ἰδίων λόγων. ἡ δὲ
+θεία Γραφὴ καὶ τῶν ἀπὸ καρδίας κινημάτων ποιητὰς
+ἡμᾶς διαγορεύει, ποιητὰς νόμου καὶ κρίσεως καὶ δικαιοσύνης
+λέγουσα.</foreign>
+</div3>
+      </div1>
+
+<div1>
+        <head>Ex eodem libro secundo.</head>
+
+<pb n="0125"/>
+<div3>
+          <head>12. </head>
+<p>
+            <pb n="0125B"/> <hi>In principio erat Verbum</hi>: sed non erat
+Verbum quod Verbum produxerit <note>(ex Athan., ibid.,
+n. 25)</note>: <hi>Verbum</hi> enim <hi>erat apud Deum <note>(Joan., I)</note>
+            </hi>.
+Dominus sapientia est: non erat igitur sapientia
+qui sapientiam produxit; <hi>Ego</hi> enim <hi>eram,</hi> inquit, <hi>qua delectabatur 
+ <note>(Prov. VIII, , 30)</note>
+            </hi>. Veritas est Christus: <hi>Benedictus autem,</hi> 
+ ait <hi>Deus</hi> veritatis.</p>
+        </div3>
+<pb n="0126B"/>
+
+<div3>
+          <head>12. </head>
+ <foreign xml:lang="greek">Ἐν ἀρχῇ ἦν ὁ Λόγος· ἀλλ' οὐκ ἦν λόγος ὁ τὸν Λόγον
+προέμενος· Ἦν, γὰρ, ὁ Λόγος πρὸς τὸν Θεόν· σοφία
+γεγένηται ὁ Κύριος· οὐκ ἦν οὖν σοφία ὁ τὴν σοφίαν ἀνείς·
+Ἐγὼ, γὰρ, ἤμην, φησὶν, ᾗ προσέχαιρεν. ἀλήθειά ἐστιν ὁ
+Χριστός· Εὐλόγητος δὴ, φησὶν, ὁ Θεὸς τῆς ἀληθείας.</foreign> <note>(Profert haec S. Athanasius, ubi supra, n. XXI, p.
+260.)</note> 
+</div3>
+      </div1>
+
+<div1>
+        <head>Ex tertio libro.</head>
+
+<pb n="0125"/>
+<div3>
+          <head>13. </head>
+<p>
+            <pb n="0125C"/>Vita ex vita genita est, quemadmodum e
+fonte flumen emanavit, et ex inextincto lumine
+splendidum lumen accensum est <note>(ex Athan., ibid.,
+n. 18)</note>.</p>
+        </div3>
+<pb n="0126C"/>
+
+<div3>
+          <head>13. </head>
+ <foreign xml:lang="greek">Ζωὴ ἐκ ζωῆς ἐγεννήθη· καὶ ὥσπερ ποταμὸς ἀπὸ
+πηγῆς ἔῤῥευσε· καὶ ἀπὸ ἀσβέστου λαμπρὸν φῶς ἀνήφθη.</foreign>
+<p> <note>(Adducuntur haec a S. Athanasio Ep. de Sententia
+Dionysii, n. XVIII. p. 256.)</note> </p>
+</div3>
+      </div1>
+
+<div1>
+        <head>Ex libro quarto.</head>
+
+<pb n="0125"/>
+<div3>
+          <head>14. </head>
+<p>
+            <pb n="0125C"/>Sicut mens nostra eructat a seipsa verbum <note>(Athanas., ibid., n. 23)</note>,
+ut ait Propheta: <hi>Eructavit
+cor meum verbum bonum <note>(Psal. XLIV, 2)</note>
+            </hi>, estque
+utrumque alterum ab altero, proprium et ab
+altero disctinctum obtinens locum, cum illud quidem
+in corde, istud vero in lingua et ore commoretur
+et moveatur: neque tamen inter se distant,
+<pb n="0125D"/>
+aut se invicem privantur; neque mens sine
+verbo est, neque verbum sine mente: sed mens
+verbum facit et in ipso apparet, ac verbum exhibet
+mentem in qua factum est. Et mens quidem
+est quasi verbum immanens, verbum vero mens
+prosiliens. Mens in verbum transit: verbum autem
+mentem in circumstantes auditores transmittit:
+sicque mens per verbum in auditorum animis
+insidet, simul ingressa cum verbo. Ac mens
+quidem est quasi pater verbi in seipsa existens;
+<pb n="0127A"/>
+verbum autem velut filius mentis, ne ante ipsam
+neque extra ipsam factum esse potest, sed cum
+ipsa existit, a qua germen et originem sumpsit.
+eodem quoque modo Pater maximus et mens universalis
+ante omnia Filium habet Verbum ac sermonem
+sui ipsius interpretem et angelum.</p>
+        </div3>
+<pb n="0126C"/>
+
+<div3>
+          <head>14. </head>
+ <foreign xml:lang="greek">Ὡς γὰρ ὁ ἡμέτερος νοῦς ἐρεύγεται μὲν ἀφ' ἑαυτοῦ
+τὸν λόγον, ὡς εἶπεν ὁ προφήτης, Ἐξηρεύξατο ἡ καρδία
+μου λόγον ἀγαθόν· καὶ ἔστι μὲν ἑκάτερος ἕτερος θατέρου,
+ἴδιον καὶ τοῦ λοιποῦ κεχωρισμένον εἰληχὼς τόπον, ὁ μὲν
+ἐν τῇ καρδίᾳ, ὁ δὲ ἐπὶ τῆς γλώττης καὶ τοῦ στόματος
+οἰκῶν τε καὶ κινούμενος· οὐ μὴν διεστήκασιν, οὐδὲ καθάπαξ
+ἀλλήλων στέρονται, οὐδέ ἐστιν οὔτε ὁ νοῦς ἄλογος
+<pb n="0126D"/>
+οὔτε ἄνους ὁ λόγος· ἀλλ' ὅγε νοῦς ποιεῖ τὸν λόγον ἐν
+αὐτῷ φανεὶς, καὶ ὁ λόγος δείκνυσι τὸν νοῦν, ἐν αὐτῷ γενόμενος.
+καὶ ὁ μὲν νοῦς ἐστιν οἶον λόγος ἐγκείμενος· ὁ δὲ λόγος
+νοῦς προπηδῶν· καὶ μεθίσταται μὲν ὁ νοῦς εἰς τὸν
+λόγον, ὁ δὲ λόγος τὸν νοῦν εἰς τοὺς ἀκροατὰς ἐγκυκλεῖ,
+καὶ οὕτως ὁ νοῦς διὰ τοῦ λόγου ταῖς τῶν ἀκουόντων ψυχαῖς
+ἐνιδρύεται. συνεισιὼν τῷ λόγῳ· καὶ ἔστιν ὁ μὲν
+οἷον πατὴρ ὁ νοῦς τοῦ λόγου, ὢν ἐφ' ἑαυτοῦ· ὁ δὲ καθάπερ
+υἱὸς ὁ λόγος τοῦ νοῦ, πρὸ ἐκείνου μὲν ἀδύνατον,
+ἀλλ' οὐδὲ ἔξωθέν ποθεν, σὺν ἐκείνῳ γενόμενος, βλαστήσας
+<pb n="0128A"/>
+δὲ ἀπ' αὐτοῦ. οὕτως ὁ Πατὴρ ὁ μέγιστος καὶ καθόλου
+νοῦς πρῶτον τὸν Υἱὸν Λόγον ἑρμηνέα καὶ ἄγγελον ἑαυτοῦ
+ἔχει.</foreign> <note>(Adducuntur haec a S. Athanasio, ubi supra,
+n. 23, p. 259.)</note> 
+</div3>
+      </div1>
+
+<div1>
+        <head>Circa medium operis.</head>
+
+<pb n="0127"/>
+<div3>
+          <head>15. </head>
+<p>
+            <pb n="0127A"/>Si eo quod tres sint hypostases, divisas dicant,
+tres sunt, etiamsi nolint; aut divinam Trinitatem
+prorsus e medio tollant. <note>(Ex Basilio, lib. de Spir.
+sancto, c. 29)</note>.</p>
+        </div3>
+<pb n="0128A"/>
+
+<div3>
+          <head>15. </head>
+ <foreign xml:lang="greek">Εἰ τῷ τρεῖς εἶναι τὰς ὑποστάσεις, μεμερισμένας
+εἶναι λέγουσι, τρεῖς εἰσι, κᾂν μὴ θέλωσιν, ἢ τὴν θείαν
+ΤΡΙΑΔΑ παντελῶς ἀνελέτωσαν.</foreign>
+</div3>
+      </div1>
+
+<div1>
+        <head>Ac rursum:</head>
+
+<pb n="0127"/>
+<p>
+          <pb n="0127A"/> <foreign xml:lang="greek">Καὶ πάλιν</foreign> <note>(inquit <hi>S. Basilius M.</hi> )</note>:</p>
+<p>
+          <pb n="0127B"/> <foreign xml:lang="greek">Θειοτάτηγὰρ, διὰ τοῦτο, μετὰ τὴν Μονάδα, καὶ ἩΤΡΙΑΣ.</foreign>
+        </p>
+<p>
+          <pb n="0128A"/>Extant haec apud <hi>S. Basilium Magnum de Spiritu
+<pb n="0128B"/>
+Sancto,</hi> cap. penult. p. 61.</p>
+<p>Propter hoc enim, post unitatem, est et divinissima
+Trinitas.
+</p>
+      </div1>
+
+<div1>
+        <head>Clausula totius operis.</head>
+
+<pb n="0127"/>
+<div3>
+          <head>16. </head>
+<p>
+            <pb n="0127B"/>His omnibus congruenter et nos, etiam forma
+regulaque a senioribus qui ante nos vixerunt accepta,
+concordi cum illis voce et gratiarum actionem et
+nunc etiam epistolam quam scribimus vobis absolvemus:
+Deo autem Patri et Filio Domino nostro
+Jesu Christo cum sancto Spiritu gloria et imperium
+in saecula saeculorum. Amen.</p>
+        </div3>
+<pb n="0128B"/>
+
+<div3>
+          <head>16. </head>
+ <foreign xml:lang="greek">Τούτοις πᾶσιν ἀκολούθως καὶ ἡμεῖς, καὶ δὴ παρὰ
+τῶν πρὸ ἡμῶν πρεσβυτέρων τύπον καὶ κανόνα παρειληφότες,
+ὁμοφώνως τε αὐτοῖς προσευχαριστοῦντες, καὶ δὴ
+καὶ νῦν ὑμῖν ἐπιστέλλοντες, καταπαύσομεν· τῷ δὲ Θεῷ
+Πατρὶ, καὶ Υἱῷ τῷ Κυρίῳ ἡμῶν Ἰησοῦ Χριστῷ, σὺν τῷ
+ἁγίῳ Πνεύματι, δόξα καὶ κράτος εἰς τοῦς αἰῶνας τῶν
+αἰώνων. Ἀμήν.</foreign> <note>(Adduxit haec S. Basilius M. in Lib. de
+Spiritu Sancto, cap. penult. p. 60, ed. Benedictin.)</note> 
+</div3>
+      </div1>
+
+<div1>
+        <head>De opere ipso haec retulit S. Athanasius.</head>
+
+<pb n="0127"/>
+<div3>
+          <head>17. </head>
+<p>
+            <pb n="0127C"/>Queritur deinde (Dionysius), quod accusatores
+sententias suas non integras referant, sed truncatas,
+et quod non bona conscientia, sed mala pro libidine
+loquantur; quos similes ait beati apostoli epistolarum
+calumniatoribus. Certe singulis accusatorum verbis
+occurrens, omnibus eorum argumentis solutionem
+adhibet; cumque Sabellium prioribus illis scriptis
+planissime confutarit, his posterioribus fidem suam
+omnino piam declarat.</p>
+        </div3>
+<pb n="0128C"/>
+
+<div3>
+          <head>17. </head>
+          <p>
+ <foreign xml:lang="greek">Αἰτιᾶται</foreign> (Dionysius) <foreign xml:lang="greek">τοὺς κατειπόντας αὐτοῦ, ὡς
+μὴ ὁλοκλήρους λέγοντας, ἀλλὰ περικόπτοντας αὐτοῦ τὰς
+λέξεις, καὶ ὡς μὴ καλῇ συνειδήσει, ἀλλὰ πονηρᾷ, λαλοῦντας
+ὡς θέλουσι. τούτους τε τούτοις ἀπεικάζει τοῖς τὰς
+τοῦ μακαρίου Ἀποστόλου διαβάλλουσιν Ἐπιστολάς . . . . . .
+ἀμέλει καὶ πρὸς ἕκαστον τῶν ὑπὸ τῶν κατηγόρων εἰρημένων
+ἁπαντῶν, πάντα τὰ παρ' αὐτῶν προφερόμενα θεραπεύει·
+καὶ Σαβέλλιον μὲν ἐν ἐκείνοις</foreign> <note>(scil. in prius
+scriptis)</note> <foreign xml:lang="greek">ἀνατρέπει, ἐν τούτοις δὲ δείκνυσιν ὁλόκληρον
+ἑαυτοῦ τὴν εὐσεβῆ πίστιν.</foreign> <note>(De Sententia Dionysii;
+num. XIV, p. 253.)</note> 
+
+</p>
+        </div3>
+      </div1>
+</body>
+  </text>
+</TEI>

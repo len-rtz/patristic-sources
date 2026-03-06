@@ -1,0 +1,104 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Epitaphium Nestorianae et Pelagianae haeresium</title>
+              <author ref="http://viaf.org/viaf/52485706">Prosper Aquitanus<date>390-463</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 51</title>
+           <idno>ProAqu.EpNeEtP</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Epitaphium Nestorianae et Pelagianae haeresium</head>
+
+<l>
+<pb n="0153A"/> <emph>197</emph> Nestoriana lues successi Pelagianae,</l>
+<l rend="indent">Quae tamen est utero praegenerata meo.</l> 
+<l>Infelix miserae genitrix et filia natae,</l>
+<l rend="indent">Prodivi ex ipso germine quod peperi.</l> 
+<l>Nam fundare arcem meritis prior orsa superbis,</l>
+<l rend="indent"> De capite ad corpus ducere opus volui.</l> 
+<l>Sed mea dum proles in summa armatur ab imis,</l>
+<l rend="indent">Congrua bellandi tempora non habui.</l> 
+<l> <emph>199</emph> Et consanguineae post tristia vulnera fraudis,</l>
+<l rend="indent">Aspera conserui praelia fine pari.</l> 
+<l>Me tamen una dedit victam sententia letho:</l>
+<l rend="indent">Illa volens iterum surgere bis cecidit.</l> 
+<l>
+<pb n="0154A"/>Mecum oritur, mecum moritur, mecumque sepulcrum</l>
+<l rend="indent">Intrat, et inferni carceris ima subit.</l> 
+<l>Quo nos praecipites insana superbia mersit,</l>
+<l rend="indent">Exutas donis, et tumidas meritis?</l> 
+<l>Nam Christum pietate operum et mercede volentes</l>
+<l rend="indent">Esse Deum, in capitis foedere non stetimus;</l>
+<l>Sperantesque animi de libertate coronam,</l>
+<l rend="indent">Perdidimus quam dat gratia justitiam.</l> 
+<l>Quique igitur geminae miseraris busta ruinae,</l>
+<l rend="indent">Ne nostro exitio consociare cave.</l> 
+<l>Nam si quae Domini data munera sero fatemur,</l>
+<l rend="indent">Haec homini credis debita, noster eris.</l> 
+
+</div1>
+</body>
+  </text>
+</TEI>

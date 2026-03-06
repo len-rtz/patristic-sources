@@ -1,0 +1,90 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Notitia ex libro II Retractationum</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 43</title>
+           <idno>AugHip.NoExLiI</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Notitia ex libro II Retractationum</head>
+
+<p>Eo tempore librum de Unico Baptismo amicus quidam meus, a nescio quo donatista presbytero accepit,
+indicante quod Petilianus episcopus eorum Constantinensis eum scripserit. Hunc ad me ille attulit, ac vehementer,
+ut ei responderem, rogavit; et factum est. Librum autem etiam meum, in quo respondi, eumdem
+titulum habere volui, hoc est, de Unico Baptismo. In quo libro illud quod dixi, <hi>Constantinum imperatorem
+Donatistis criminantibus ordinatorem Caeciliani Felicem Aptungensem, non negasse accusationis locum, quamvis
+eos in Caeciliani fictis criminibus calumniosos fuisset expertus <note>(Cap. 16, n. 28)</note>
+          </hi>; in ordine temporum postea
+consideratum aliter inventum est. Nam prius memoratus Imperator causam Felicis fecit audiri a proconsule,
+ubi legitur absolutus; et postea ipse Caecilianum cum accusatoribus ejus auditum comperit innocentem,
+ubi eos expertus est in ejus criminibus calumniosos. Qui ordo temporum per consules declaratus, multo
+vehementius in ea causa calumnias Donatistarum convincit, penitusque subvertit: quod alibi ostendimus <note>(Lib.
+post Collat. cap. 33)</note>. Hic liber sic incipit: <hi>Respondere adversa sentientibus.</hi> 
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

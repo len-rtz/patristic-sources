@@ -1,0 +1,2504 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Scholia de incarnatione unigeniti</title>
+              <author>Cyrillus Alexandrinus; Marius Mercator<date/> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 48</title>
+           <idno>CyAlMaM.ScDeInU</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<note>
+        <div1>
+          <head>ADMONITIO IN SUBSEQUENS OPUS.</head>
+<p>
+            <pb n="1001"/>Tractatus iste, non praestantior quam utilior, inscribitur, SCHOLIA DE INCARNATIONE UNIGENITI: propterea
+quod continet non tantum explicationem trium vocum difficilium intellectu, <hi>Christus, Emmanuel, Jesus,</hi> quarum
+praenotione opus est ad mysterium Incarnationis Dominicae tractandum; sed etiam solutionem implicatae
+quaestionis, quomodo duae naturae, sine confusione et conversione, convenerint in unitatem personae divinae,
+eamque non <foreign xml:lang="greek">σχετικήν</foreign> et moralem, sed <foreign xml:lang="greek">φυσικήν</foreign> et substantivam: qui cardo totius quaestionis tanta commotione
+totius orbis agitatae.</p>
+<p>Quo auctore scriptus sit, dubitare non licet, cum Theodoretus in secundo dialogo qui dicitur Inconfusus,
+Leo magnus epistola 97 concilium Chalcedonense actione 2 in fine, Facundus Hermianensis libro VII et XI,
+Leontius scholasticus libro I contra Nestorianos et Eutychianos, aliique, non tantum hujus operis, tamquam
+a Cyrillo editi, meminerint, sed ex eo quoque ad confirmandam fidem testimonia deprompserint. Adde quod
+in bibliotheca Regia Parisiis non modica pars Graece habetur, Cyrilli nomine inscripta, quam Joannes Autbertus
+transtulit in suam operum Cyrilli Graeco-Latinam editionem, tomo V, parte I.</p>
+<p>Quo tempore compositus fuerit, conjicere ex eo licet, quod etsi contra Nestorium sanctus fidei defensor
+disputet, eum tamen nomine non appellet, solitus alioqui non tacere, post condemnationem, immo et ante
+condemnationem, statim atque lis quasi intentata est, coeptumque agi jure, id est, post missam, cum summi
+pontificis litteris depositionis sententiam continentibus synodicam ex Aegyptiaca synodo epistolam, capitaque
+duodecim, qui anathematismi dicuntur. Compositus igitur dici debet ante concilium Ephesinum.</p>
+<p>Sed quo in loco, quove distinctius tempore? Ephesi opinabitur forte quispiam, tunc cum Cyrillus, ipsis
+exigentibus catholicis, exponere coactus est nonnulla, quae paulo vel duriora, vel obscuriora videbantur in
+anathematismis, praesertim ut propulsaret invidiam sibi ab adversariis conflatam, quasi cum Apollinaristis
+sentiret, unicam esse in Christo naturam, versumque in carnem Verbum divinum.</p>
+<p>Ego vero Alexandriae scriptum puto, longe antea: Cyrillus namque antequam responderet, vel Andreae
+Samosateno, vel Theodoreto, anathematismos reprehendentibus, id operis suscepit, quo instrueret disputaturos
+pro fide, de primis quasi notionibus vocum, atque aliis nonnullis, quibus inter disputandum usus foret.
+Instruxit vero, nisi me fallit opinio, cum primum ferveret quaestio apud Alexandrinos, nec satis adhuc animi
+exercitatione eruditi essent; cumque ipse etiam primum Cyrillus pro Christo pugnam cum Nestorio iniret,
+datis prioribus litteris officii monitricibus. Scriptus est igitur tractatus iste eodem fere tempore quo epistola
+ad monachos Aegypti, id est, sub medium aut saltem sub finem ann. 429. Idem enim est utriusque argumentum,
+nec aliud videtur discrimen quam methodi, quae in epistola oratoria magis est, in Scholiis fere
+scholastica.</p>
+<p>In eam me sententiam impellunt tria. Primum, quod Scholia ante concilium Ephesinum scripta sint, ut antea
+confectum est: nec parvo tamen tempore, cum Andreas Samosatenus apud Anastasium Sinaitam hujusce
+operis tamquam pervulgati meminerit. Alterum, quod videatur elementaria quaedam doctrina, rudibus controversiae
+ingeniis tradita: continetur enim expositione vocum, distinctionibusque ad objectiones solvendas
+necessariis, et exemplis ad rem explicandam factis. Tertium, quod in opere toto nulla per se fiat mentio
+Dei pontificis; sed eorum tantum quae in primo Nestorii sermone secundoque et tertio contra fidei regulam
+leguntur, cum tamen digna foret ista quaestio, quae tractaretur propter suam sive subtilitatem, sive necessitatem.
+Orta vero est ex homilia Procli a Nestorio acerbius reprehensa, de qua nihil afferri potuit nuntii
+Alexandriam ante definitum hactenus tempus.</p>
+<p>De interprete paulo difficilior est quaestio. Quisquis ille fuerit, ipsum oportet quinto saeculo scripsisse
+immo temporibus Cyrilli: siquidem ex hac ipsa versione, quae nunc habetur, et Leo Magnus statim post
+obitum Cyrilli tamquam ex vulgata, et concilium Chalcedonense, et Facundus Hermianensis decerpserint,
+quae locis antea citatis referunt. Crediderit non immerito quispiam, tribuendum hoc opus uni ex Alexandrinis
+illis quorum Latinitatem apud sanctum Coelestinum Cyrillus excusabat, cum chartas mitteret ab iis versas.
+Verum opinabilius videtur, interpretem dicere Marium Mercatorem, virum alioqui melioris Latinitatis scientem:
+nam et inter ejus opera reperitur in utroque manuscripto codice, quo usi sumus; et ea aetate vixit,
+qua scribebatur, et ardore fidei incensus Latina fecit, quae Graeci defensores fidei scriberent; et in praefatione
+<pb n="1003"/>
+ad sermones Nestorii contestatus est, se Latinitatis leges sprevisse in operibus Nestorii Cyrillique
+vertendis. <hi>In quibus,</hi> inquit, <hi>verbum de verbo, in quantum fieri potuit conatus sum translator exprimere, ne prius
+falsarius magis quam verus postea probarer interpres. Da igitur veniam, pie lector, si aut minus oratio luculenta,
+aut verborum ubicumque praesumptorum novitas aurem forte perculerit. Elegi obtrectatorum linguis magis exponi,
+quam a veritate sensuum exprimenda, ubi omne est de falsitate periculum, longius aberrare.</hi> </p>
+<p>Non levis opera ponenda nobis fuit in emendanda versione tam antiqua, ideoque ab exscribentibus, ut fit,
+corrupta: juverunt quidem manuscripti codices et libri typis excusi. At cum una sit omnium versio, eaque
+non minus a notariis depravata, quam ab interprete neglecta, quoties non praeluxerunt Graeca, praeluxerunt
+vero non saepe, divinandum fuit, ut quas adhibuisset voces interpres, restitueremus pro virili: religioni enim
+fuit ullas mutare, nec si aliunde licuisset, potuissemus tamen, cum deficiat Graecus textus in pluribus; quem
+enim habemus, vel ex Theodoreto, vel ex Chalcedonensi synodo, vel ex bibliotheca Regia acceptus est.</p>
+<p>Prodit vero eximium opus, et a sanctis Patribus summis laudibus ornatum, non tantum emendatius, quod
+certe leve non est; sed quarta fere parte auctius, quam legatur, vel apud Cyrilli operum editores, vel apud
+conciliorum collectores. Quid autem desit in vulgatis libris indicabimus, ubi erit opus.</p>
+<p>Vulgati codices totius operis habent capita viginti et octo; manuscriptus Marianus triginta quinque; Photius
+non plura novemdecim numerat, redactis scilicet ad hunc numerum cunctis, quae apud alios non optima
+sane de causa separantur. Operae pretium est Photii verba exscribere: <hi>Lectus est item alter liber sic inscriptus:</hi> 
+SCHOLION DE UNIGENITI INCARNATIONE. <hi>Quo haec fere exponuntur, quid est Christus; qua ratione intelligendus
+Emmanuel; quid est Jesus Christus; juxta quid Dei Verbum dictum est homo; juxta quid evacuatum esse Dei
+Verbum dicitur; quomodo item Christus unus est; quomodo etiam unus est Emmanuel; quamnam dicimus esse
+exinanitionem? Item de ignito carbone viso ab Esaia, aliaque praeterea, his tamen affinia, capita decem. Permagnam
+vero legentibus utilitatem liber hic afferre potest.</hi> </p>
+<p>Aliam videri potest Facundus Hermianensis in codice quo usus est, partitionem invenisse: nam quod
+Photius octavum caput esse indicat, septimum ipse vocat; decimum vero, quod apud Photium undecimum
+ponitur. Sic enim scribit: <hi>Cyrillus in libro quem Scholia nuncupavit, titulo septimo,</hi> quam esse dicimus adunationem, <hi>anima,</hi> 
+ inquit, <hi>omnia quae sunt corporis,</hi> etc. <note>(Lib. XI, c. 7)</note>. Et postea: <hi>Rursus autem eodem
+libro, titulo decimo, quid dixerit, vel quid prima fronte solus ipse titulus praeferat, advertamus; nam hoc in illo
+se ostensurum esse promisit dicens <note>(Ibid.)</note>
+            </hi>, quod et adunato Deo Verbo vere humanitati, inconfusae tamen
+substantiae permanserint. <hi>Utque hoc probaret subjecit ista:</hi> Erectum est secundum Dei voluntatem sanctum
+tabernaculum per desertum, etc.</p>
+<p>Quamquam in utrumque locum facile potuit mendum irrepere, si modo litteris Romanis, ut credibile est,
+VII, XI, numerus scriptus sit: potuit enim facile detrahi in uno loco, et in altero addi ab incuriosis librariis
+tertia vocalis. Quare Facundi lectio corrigenda mihi videtur, retinenda Photii, contractis tamen in unum
+capitibus duobus de carbone vel lilio: quae exempla ad id, quod in titulo propositum est, probandum, pariter
+conducunt.</p>
+<p>Et vero par est credere, suum singulis capitibus inscriptum fuisse argumentum quod tractandum foret;
+non item id contigisse, quod in libris editis legitur, ut singula capita singulis, sive testimoniis, sive exemplis
+inconcinne et <foreign xml:lang="greek">ἅμεθοδως</foreign> tribuerentur. Mercatoris porro codex nihil adjumenti conferre valuit ad alterutram
+opinionem confirmandam, siquidem titulos habet sine ullis numeris.</p>
+<p>Igitur tametsi distributio capitum, quae usu recepta est, religiose servanda sit, visum est tamen operae
+pretium fore, si singulis capitibus Scholiorum Photii numeri cum vulgatis apponerentur, et hic, propositis
+singulorum capitum ex Mercatore titulis, per synopsim totum opus exhiberetur.
+</p>
+        </div1>
+      </note>
+
+<div1>
+        <head> <hi>Cyrilli episcopi Alexandriae de incarnatione Unigeniti.</hi> </head>
+<list>
+<item>CAPUT. I. Quid est <hi>Christus.</hi> </item>
+<item>CAP. II. Qualiter intelligi debeat <hi>Emmanuel.</hi> </item>
+<item>CAP. III. Quid est <hi>Jesus.</hi> </item>
+<item>CAP. IV. Quam ob causam homo dictum sit Dei Verbum.</item>
+<item>CAP. V. Quam ob causam exinanitum dicatur Dei Verbum.</item>
+<item>CAP. VI. Quomodo unus Christus.</item>
+<item>CAP. VII. Quomodo unus Emmanuel.</item>
+<item>CAP. VIII. Quam esse dicimus adunationem.</item>
+<item>CAP. IX. Quod incorporalis divinitatis corpus facta fuerit ipsa caro habens animam rationabilem; et quod
+si ea a se dividere voluerimus, procul dubio labefactabimus dispensationem, quae in Christo intelligitur.</item>
+<item>CAP. X. Quod adunato Deo Verbo vere humanitati, inconfusae tamen substantiae permanserint.</item>
+<item>CAP. XI. Quod cum esset Deus Verbum, factus sit homo, nec homo simpliciter, nuda conjunctione honoratus,
+vocatus sit ad parem dignitatem Dei Verbi, sive auctoritatem, sicut quibusdam videtur.</item>
+<item>CAP. XII. Quod Christus Jesus vocetur homo factus Deus Verbum.</item>
+<item>CAP. XIII. Quod Christus non sit homo <foreign xml:lang="greek">Θεοφὸρος,</foreign> nec simpliciter in homine inhabitarit Dei Verbum; sed
+magis caro sit factum, sive homo perfectus, secundum Scripturas.</item>
+<item>CAP. XIV. Dicta apostolica, in quibus Deus nominatus sit Christus.</item>
+<item>CAP. XV. Quomodo oporteat intelligere: <hi>Verbum caro factum est, et habitavit in nobis:</hi> et quomodo mittitur
+Verbum quod Deus est; quomodo proprium ipsius dicitur corpus.</item>
+<item>CAP. XVI. Quomodo intelligatur <foreign xml:lang="greek">Θεοτόκος</foreign> Virgo sancta.</item>
+<item>CAP. XVII. Quod Deus nominetur et homo, apparens Unigenitus.</item>
+<item>CAP. XVIII. De Christi passione, quod utile sit. Quod secundum aliud et aliud de uno eodem dicitur, nec
+dividimus in duo.</item>
+<item>CAP. XIX. Adversus illos qui aiunt, quod sola relatione Deum Verbum deceant humana.</item>
+        </list>
+<p>Etsi porro quinque capita, eaque prolixa, quae vulgo deficiunt, Marianus codex suppeditet, vix ausim tamen
+spondere, etiamnum integrum opus edi, si qua fides Anastasio Sinaitae: citat enim locum de statere reperto
+in ore piscis, qui non reperitur in Scholiis, cujusmodi nunc habentur. Sed valde suspicor, Anastasium memoria
+lapsum pro alio opere Scholia posuisse: eoque probabilior suspicio videtur, quod librum <foreign xml:lang="greek">ὁνὴγου</foreign> recordatione
+potius quam lectione auctorum se composuisse testatus sit, moneatque idcirco lectorem de recognoscendis
+vel etiam restituendis testimoniis.</p>
+<p>Occasione porro Scholiorum, ex quibus tria testimonia Theodoretus adduxit in secundo Eranistae dialogo,
+praetermittere non possum, quid conjecerim de testimoniis illis, quae in concilio Chalcedonensi sancti Leonis
+epistolae subjuncta sunt: ea nempe a Theodoreto adjuncta esse; nam omnia totidem verbis in dialogo quem
+<pb n="1005"/>
+dixi, leguntur, nullaque fit in tota epistola sive mentio, sive promissio afferendorum. Adde quod Theodoretus
+a Facundo dicitur asseruisse adversus Palaestinos et Illyricianos reclamantes epistolam Leonis, adducto
+scilicet, ut habent acta concilii Chalcedonensis, testimonio, quod inter subjuncta legitur. Non fuisset vero
+adducto opus, si jam epistolae subjunctum esset: fuisset enim procul dubio simul lectum, aliaque pariter, si
+modo aliqua essent tunc temporis. Quid quod a Theodoreto aut certe ab iis qui Theodoreti partibus studebant,
+versam in sermonem Graecum epistolam proditum est, immo et a vertentibus vitiatam, quod postremum
+Leo ipse queritur apud Marcianum imperatorem. Accedat etiam, quod in epistola pontifex plura fidei
+capita, non tantum adversus Eutychem, sed etiam contra Nestorium exponat; nec alia tamen testimonia
+subdantur, quam quae ad distinctionem naturarum asserendam valent, quaeque in dialogo qui dicitur <hi>Inconfusus,</hi> 
+adhibita fuerant ad eos, qui Theodoreto Apollinarismi nomine suspecti erant, confutandos; non afferantur
+quae ex libris contra Nestorium scriptis, in ipso etiam citato dialogo leguntur.</p>
+<p>Quanti vero pretii sit opusculum istud, aestimare licet, vel inde maxime, quod nemo fere consequentium
+tractatorum, qui auctoritate Cyrilli, in mysterio Incarnationis exponendo uti voluerit, testimonium aliquod
+ex Scholiis non sumpserit. Adde quod Cyrillus ipse videri possit, hanc suam elucubrationem commendasse,
+cum scriberet Eulogio: <hi>Complectitur,</hi> inquit, <hi>idem liber sub finem breves quasdam de Christi dispensatione
+expositiones, easque pulchras admodum et utiles.</hi> Oportet enim expositiones quas memorat, vel a Scholiis,
+vel a consequente tractatu de Incarnatione Verbi, vel a dialogo subjuncto non differre: neque enim aliud
+quippiam scripsit, de quo dubium esse possit. At differt profecto a consequente tractatu qui revera unus
+quidam sermo est; differt etiam a dialogo mox dicto: quis enim dialogum <foreign xml:lang="greek">ἐκθεσεως</foreign> nomine proprio appellet?
+Quamquam potuit dialogus subjungi Scholiis, ut epitome quaedam et velut <foreign xml:lang="greek">ὑπομνήμα.</foreign>
+        </p>
+<p>Quam accurata methodo sit conscriptum, ex serie apertum est. Cyrillus a simplicium vocum interpretatione
+exorsus exponit, quid sit Christus, quid Emmanuel, quid Jesus, quid unus, quid unio. Mox ad propositiones,
+quae in hac materia usurpari solent, orationem deflectens edisserit, qua ratione Christus sit
+unus, unus Emmanuel, unus JESUS, id est, unus Dominus, etc. Tum quomodo Verbum dicatur exinanitum,
+carni unitum, factum homo, nec ideo tamen mutatum, aut divinitate exutum. Hinc quo pacto Christus non
+sit homo <foreign xml:lang="greek">θεοφόρος,</foreign> aut numine afflatus, sed vere homo Deus, deinde qua ratione Verbum perhibeatur in
+nobis habitare, ad nos mitti, corpus habere proprium, et quomodo intelligatur <foreign xml:lang="greek">Θεοτόκος</foreign> Virgo sancta. Tandem
+quod Unigenitus in carne visibili apparens nominetur Deus et homo: quomodo passus, et in quo postremo
+refellit eos qui humana non alia ratione, Deum decere putant, quam relatione sola. Caeterum,
+quod jam monui, distinctionibus ad declinandas heterodoxorum objectiones utilibus singula fere capita
+plena sunt.</p>
+<p>Priusquam praefari desino, monendum puto, Eutherium, cujus opus circumfertur sub Athanasii nomine,
+adversus hunc librum, sin minus unus, saltem maxime, suos fere cunctos viginti sermones scripsisse: nam
+quas sententias amarulenta oratione carpit (omnes fere Scholiis Cyrilli continentur prolixe), sumus ostensuri
+in auctario Theodoreti propediem edendo. Eutherium enim Theodoreto jungemus, sive propter argumenti
+cognationem, sive etiam ob fidei <foreign xml:lang="greek">ταυτότητα.</foreign>
+        </p>
+
+
+<div2>
+          <head>CAPUT PRIMUM. <hi>Quid est Christus.</hi> </head>
+
+<pb n="1005A"/>
+<p>Christi nomen nec definitionis vim obtinet, nec cujuspiam
+substantiam, qualis sit, significat, sicut forte
+homo, aut equus, aut bos; sed rei magis quae in aliquo
+agatur, habet significationem: oleo namque ungebantur
+[ <hi>Baluz.</hi> unguebantur <hi>hic et infra</hi> ] quidam
+superiorum, juxta quod Deo tunc temporis placebat,
+et signum regni illis erat unctio. Ungebantur autem et
+prophetae insensibiliter Spiritu sancto, ut inde quoque
+nominarentur <hi>christi.</hi> Denique beatus David psallit
+ex persona Dei, et ait: <hi>Nolite tangere christos
+meos, et in prophetis meis nolite malignari <note>(Ps. CIV,
+15)</note>
+            </hi>. Ait autem et propheta Habacuc: <hi>Existi ad salutem
+populi tui, ut salvares christos tuos <note>(Hab. III,
+13, juxta LXX)</note>
+            </hi>.</p>
+<p>
+            <pb n="1005B"/>In Christo autem omnium salvatore unctionem
+quidem factam esse dicimus: caeterum neque symbolicam,
+quasi oleo factam, nec quasi in gratia prophetica;
+sed nec illam, quae intelligitur fieri ad perfectionem
+alicujus hujusmodi negotii, qualem factam
+[ <hi>Baluz.</hi> factum] esse dicimus in [ <hi>Baluz.</hi> sub] Cyro Persarum
+<pb n="1006A"/>
+et Medorum rege. Contra Babylonios enim ille
+duxit exercitum, instigante ipsum in id Deo omnipotente.
+Dictum est enim: <hi>Haec dicit Dominus christo
+meo Cyro, cujus apprehendi dexteram <note>(Isai. XLV, 1)</note>
+            </hi>.
+Atqui ille vir, cum esset idolorum cultor, nominatus
+est christus, ideo quod quasi unctus est in regnum,
+coelesti suffragio, et ordinatus est a Deo ut Babylonem
+vehementer expugnaret.</p>
+<p>Illud autem magis de Christo. Quoniam enim propter
+Adae praevaricationem <note>(Rom. V, 14)</note> regnaverat
+supra omnes peccatum, et spiritus ab humanitate discesserat <note>(Gen. VI, 3)</note>,
+ob eamque causam in malis
+omnibus illa versabatur; opus autem erat, ut rursum
+per Dei misericordiam in pristinum revocata, Spiritum
+mereretur: homo factum est unigenitum Dei
+Verbum, et cum terreno corpore terrenis apparuit.
+<pb n="1006B"/>
+Fuit etiam liberum [ <hi>Baluz.</hi> liber] a peccato, ut et
+in ipso, et in eo solo, innocentiae laudibus natura hominis
+coronata, Spiritu sancto ditaretur, ac sic reformaretur
+ad Deum per sanctificationem. Transit enim
+ad nos quoque gratia coepta a Christo, qui est [ <hi>Baluz.
+add.</hi> in] nobis primogenitus; idque nos docens beatus
+<pb n="1007A"/>
+David psallit ad Filium: <hi>Dilexisti justitiam et odisti
+iniquitatem, ideo unxit te Deus Deus tuus oleo laetitiae <note>(Ps. XLIV, 8)</note>
+            </hi>.</p>
+<p>Unctus est igitur exemplo nostro Filius innocentiae
+laudibus, et, ut ante dixi, in ipso natura hominis illustrata,
+et digna jam sortiri Spiritum sanctum, jam
+non discessurum, sicut antea, sed mansurum magis in
+ipsa. Ideoque scriptum est, quod <hi>descendit in eum
+Spiritus, et mansit super ipsum <note>(Joan. I, 32)</note>
+            </hi>. Dicitur
+ergo Christus Dei Verbum, quod propter nos et nostri
+similis homo est factum, et in servi forma: et
+ungitur [ <hi>Baluz.</hi> unguitur] quidem humane, secundum
+carnem; ungit [ <hi>Baluz.</hi> unguit] autem divine suo Spiritu
+eos qui in ipsum credunt.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT II. <hi>Qualiter intelligi debeat Emmanuel.</hi> </head>
+
+<pb n="1007B"/>
+<p>Emmanuel nominatur Deus Verbum, quod <hi>Abrahae
+semen apprehendit, et similiter ac nos participavit carni
+et sanguini <note>(Hebr. II, 14)</note>
+            </hi>. Interpretatur autem Emmanuel,
+nobiscum Deus. Confitemur autem, nobiscum
+[ <hi>Baluz. om.</hi> nobiscum] fuisse Dei Verbum, non localiter:
+in quo enim loco non est Deus, qui implet omnia?
+Nec quod adesse nobis conspicitur auxilii ratione;
+dictum est enim hoc modo ad Jesum filium
+Nave [ <hi>Baluz. om.</hi> filium Nave]: <hi>Et sicut eram cum
+Moyse, ita ero et tecum <note>(Jos. I, 5)</note>
+            </hi>. Sed quod factum
+est in nostris, id est, in humanitate, non derelicta
+sua natura: inconvertibile est enim natura Dei Verbum.</p>
+<p>
+            <pb n="1007C"/>Caeterum quam ob causam, cum plane dicatur ad
+Jesum filium Nave [ <hi>Baluz. om.</hi> filium Nave], quod <hi>sicut eram cum Moyse, sic ero tecum 
+ <note>(Ibid.)</note>
+            </hi>, non est
+tamen nominatus Emmanuel? Ipsa autem ratio est:
+etsi enim cum aliquo sanctorum fuisse dicatur; non
+tamen nobiscum factum esse dicimus Deum Verbum,
+nisi eo tempore, quo juxta quod dicit Baruch, <hi>in terra
+visus est, et inter homines conversatus est, et omnem
+viam inveniens disciplinae, et dans eam Jacob puero suo,
+et Israel dilecto a se: ipse est enim Deus noster, et non
+comparabitur alius ad eum <note>(Baruch. III, 38)</note>
+            </hi>.</p>
+<p>Quantum enim ad Dei naturam pertinet, nondum
+erat nobiscum; multum enim interest inter deitatem
+et humanitatem; et ingens est nimis differentia naturarum.</p>
+<p>
+            <pb n="1007D"/>Ideoque divinus David ad proximitatem mysticam
+[ <hi>Al.</hi> unionem arctissimam], Deum Verbum, quod
+nondum ad nos venerat, vocabat, dicens in spiritu: <hi>Ob quid, Domine, discessisti longe 
+ <note>(Ps. X, 1)</note>
+            </hi>?
+ Ergo jam non discessit, sed nobiscum fuit, qui cum
+mansisset, id quod erat, apprehendit Abrahae semen,
+ut dixi; accepit autem etiam servi formam, et conspectus
+homo in terra est.</p>
+<p>Christus vero et Emmanuel eumdem nobis filium
+designant, partim quia unctus est more nostro, humanae
+<pb n="1008A"/>
+hominis naturae spiritum accipiens, ut in se ipso
+et primo [ <hi>Al.</hi> humana natura spiritum accipiente in
+ipso, ut primo]. Positus est enim primordium generis,
+rursus ipse ungens, ut Deus, Spiritu sancto eos,
+qui in se credunt: partim, quia fuit nobiscum secundum
+quas modo reddidi rationes, et de eo nos facit
+certos Isaias propheta dicens: <hi>Ecce Virgo in utero
+accipiet, et pariet filium, et vocabitur nomen ejus Emmanuel <note>(Isai. VII, 14)</note>
+            </hi>.
+Cum enim sancta Virgo, ex
+Spiritu quidem sancto praegnans est facta, peperit
+autem secundum carnem filium; tunc etiam Emmanuel
+dictus est: fuit enim nobiscum, per carnalem
+generationem incorporalis; et id erat, quod per vocem
+David significabatur. <hi>Deus manifeste veniet, Deus
+noster, et non silebit <note>(Psal. XLIX, 3)</note>
+            </hi>; et illud opinor:
+<pb n="1008B"/> <hi>ipse qui locutus sum, praesto sum.</hi> 
+ Locutus enim per
+prophetas, ut incorporale adhuc Verbum, advenit
+etiam corporaliter.</p>
+</div2>
+
+<div2>
+          <head>CAPUT III. <hi>Quid est Jesus.</hi> </head>
+<p>Vi quidem intentionum, qua oporteat a nobis unum
+dici Filium Dei, tantumdem est, et Christus, et Emmanuel,
+et Jesus; et id quidem quasi ex re nomen
+est factum: <hi>Ipse enim,</hi> inquit, <hi>salvabit populum suum
+a peccatis suis <note>(Matth. I, 21)</note>
+            </hi>. Quemadmodum enim <hi>Emmanuel</hi> 
+ significabat, per generationem ex muliere
+nobiscum factum fuisse Dei Verbum; et Christus,
+quia factus homo, unctus dicitur juxta nos humane:
+ita etiam Jesus, quod salvavit nos suum populum,
+quod maxime eum demonstrat, vere et natura omnium
+<pb n="1008C"/>
+dominum. Neque enim hominis communis creatura
+esse dicatur; deceat autem magis, omnia dicere, esse
+Unigeniti, etsi factus sit homo.</p>
+<p>Dicet forte aliquis: Atqui Moysis dictus est populus
+Israel. Ad hoc dicemus, quod Dei quidem populus
+nominatus sit, et id erat verum. Verum quoniam ad
+defectionem deductus est, et vitulum fecit per desertum,
+inhonoratus est a Deo: non enim jam suum nominare
+populum dignabatur, sed eum jam homini
+destinavit. At nos non ita: proprii enim sumus filii,
+eo quod, et Deus sit, et per ipsum creata sint omnia
+Ita enim ait David: <hi>Quoniam ipse fecit nos, et non
+ipsi nos; nos autem populus pascuae ejus, et oves manus
+ejus <note>(Psal. XLIX, 7)</note>
+            </hi>. Denique etiam ipse de nobis
+dixit: <hi>Oves meae vocem meam audiunt et sequuntur
+<pb n="1008D"/>
+me <note>(Joan. X, 27)</note>
+            </hi>. Et rursus: <hi>Alias oves habeo, quae
+non sunt ex hoc ovili, et illas oportet me congregare, et
+fiet unus grex, et unus pastor <note>(Ibid. 16)</note>
+            </hi>. Mandabat
+autem etiam beato Petro: <hi>Simon Joannis, amas me?
+Pasce agnos meos, pasce oves meas <note>(Joan. XXI, 17)</note>
+            </hi>.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT IV. <hi>Quam ob causam Dei Verbum dictum sit homo.</hi> </head>
+<p>Homo nominatum [ <hi>Baluz.</hi> nominatus] est, cum sit
+natura Deus, Dei Patris Verbum: quoniam similiter
+ac nos <hi>sanguini communicavit et carni <note>(Heb. II, 14)</note>
+            </hi>.
+<pb n="1009A"/>
+Sic enim terrenis apparuit, non amittens id quod
+erat, sed assumens humanitatis naturam in sua ratione
+perfectam.] Verumtamen et in humanitate Deus mansit,
+et omnium Dominus, utpote qui natura et veritate ex
+Deo natus est Pater [ <hi>Baluz.</hi> et Patre]. Et id nobis evidentissime
+sapientissimus Paulus ostendit: <hi>Primus
+enim,</hi> inquit, <hi>homo ex terra de limo; secundus e caelo <note>(I Cor. XV, 45)</note>
+            </hi>.</p>
+<p>Atqui Virgo sancta peperit templum Verbo unitum;
+sed e coelo dicitur, et recte quidem Emmanuel: desuper
+enim et ex substantia Dei et Patris natum est
+Verbum ipsius: descendit vero ad nos, tunc cum factum
+est homo; tamen sic quoque desuper est. Testatus
+est autem Joannes, de eo dicens: <hi>Qui de sursum
+venit, supra omnes est <note>(Joan. III, 31)</note>
+            </hi>. Et ipse
+<pb n="1009B"/>
+Christus ait ad populum Judaeorum: <hi>Vos deorsum
+estis, ego desuper sum <note>(Joan. VIII, 23)</note>
+            </hi>. Et rursus: <hi>Ego non sum ex hoc mundo 
+ <note>(Joan. XIV, 16)</note>
+            </hi>, licet pars
+mundi sicut homo nuncupatus sit; sed erat cum hoc
+quoque supra mundum ut Deus. Meminimus enim
+plane dicentis: <hi>Et nemo ascendit in coelum, nisi qui
+descendit de coelo Filius hominis <note>(Joan. III, 13)</note>
+            </hi>. Descendisse
+autem dicimus de coelo Filium hominis, per unitatem
+dispensatoriam, Verbo tribuente propriae carni
+gloriae suae et divinae majestatis claritudinem.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT V. <hi>Quam ob causam exinanitum dicitur Dei Verbum.</hi> </head>
+<p>Plenum secundum naturam, et ex omni parte perfectum
+Deum Verbum, et distribuens ex sua plenitudine
+<pb n="1009C"/>
+bona sua creaturae, eo quod ait: <hi>Effundam de
+spiritu meo super omnem carnem <note>(Isai. XLIV, 3)</note>
+            </hi>. Exinanitum
+dicimus; nihil in natura propria violatum, nec,
+ut aliter se haberet, commutatum, nec inferius ex
+ulla parte factum: inconvertibile enim et immutabile
+est ipsum quoque, sicut et generator ipsius, et numquam
+fuit passionis ullius capax. Quando vero factum
+fuit caro, id est, homo, humanitatis paupertatem propriam
+sibi fecit. Primum, quod semel homo sit factus,
+etsi remanserit Deus: deinde quod servi formam acceperit,
+qui secundum suam naturam liber est, utpote
+Filius. Atque ita cum sit ipse gloriae Dominus, gloriam
+dicitur accipere; cum sit ipse vita, vivificari perhibetur,
+et in omnes accipit potestatem, cum sit ipse rex
+omnium; cumque Deo sit aequalis Patri, obediens
+<pb n="1009D"/>
+fuit crucem passus, et caetera. Verum cum haec quidem
+humanitatis mensurae conveniant, ea tamen familiaria
+ducit esse cum carne, et implet dispensationem,
+manens quod erat.</p>
+</div2>
+
+<div2>
+          <head>CAPUT VI. <hi>Quomodo unus est</hi> [Baluz. om. <hi>est] Christus.</hi> </head>
+<p>Divinus Paulus scribit: <hi>Etsi sunt dii multi et domini
+multi in coelo, et in terra; sed nobis unus Deus Pater,
+ex quo omnia, et nos ex eo; et unus Dominus Jesus
+Christus, per quem omnia, et nos per eum (I Cor. XXVIII,
+<pb n="1010A"/>
+5)</hi>. At vero sapientissimus Joannes de Deo Verbo
+dixit, quod <hi>omnia per ipsum facta sunt, et absque eo
+factum est nihil <note>(Joan. I, 3)</note>
+            </hi>. Evangelizabat autem beatus
+Gabriel sanctae Virgini dicens: <hi>Ecce concipies in
+utero, et paries Filium, et vocabis nomen ejus Jesum <note>(Matth. I, 26)</note>
+            </hi>.
+Cum igitur per Christum Jesum omnia
+divinus Paulus facta esse commemoret; confirmet
+autem vim sententiae, et opificem omnium fuisse Deum
+evangelizet, rem veram dicens evangelista divinus;
+designet autem etiam angeli vox: vere ex sancta Virgine
+natum esse Jesum Christum, nec absque humanitate
+intelligimus Deum Verbum; sed unum dicimus
+ex ambobus effectum, et [ <hi>Baluz.</hi> ut] Deum hominem
+factum, eumdem ex Patre, ut [ <hi>Bal.</hi> et] Verbum, natum
+divine, et ex muliere humane, ut hominem: non
+<pb n="1010B"/>
+tamquam ut [ <hi>Bal.</hi> in] secundum substantiae initium
+vocatum tunc cum secundum carnem dicitur natus;
+sed natum quidem ante omnia saecula, instante tamen
+tempore, quo debuerat implere dispensationem, natum
+etiam ex muliere secundum carnem. [Ergo, etsi
+alii simili appellatione vocati sunt Christi, unus tamen
+est per quem omnia, Jesus Christus; non quod [ <hi>Bal.
+add.</hi> homo] sit factus opifex omnium,] sed quod Deus
+Verbum: <hi>Per quem omnia facta sunt, similiter ac nos
+participarit carni et sanguini <note>(Heb. II, 14)</note>
+            </hi>, et nuncupatus
+sit homo, non tamen perdiderit esse, quod
+erat: ita enim et in carne factus intelligitur merito
+opifex omnium.</p>
+</div2>
+
+<div2>
+          <head>CAPUT VII. <hi>Quomodo unus est Emmanuel.</hi> </head>
+<p>
+            <pb n="1010C"/>[ <hi>Baluz. add.</hi> Semel] Novissimis saeculis Deus [ <hi>Baluz.</hi> 
+Dei] Verbum homo dicitur factus [ <hi>Baluz.</hi> factum],
+et, sicut ait divinus Paulus, <hi>per sacrificium suum manifestatus
+est <note>(Hebr. IX, 27)</note>
+            </hi>. Et quodnam est sacrificium? <hi>Suum enim corpus obtulit pro nobis in odorem
+suavitatis Deo et Patri, et intravit in sancta semel, non
+per sanguinem hircorum, aut taurorum, sed per suum
+sanguinem. Sic enim credentibus in se, remissionem in
+aeternum comparavit 
+ <note>(Eph. V, 2; Heb. IX, 13)</note>
+            </hi>. Ergo
+plurimi quidem ante ipsum sancti fuere; sed nemo
+eorum Emmanuel nominatus est. Quam ob causam?
+Nondum enim venerat tempus quo deberet esse nobiscum,
+id est, in nostram venire naturam per carnem,
+is qui est omni superior creatura. Unus igitur
+Emmanuel, semel enim factus est homo Unigenitus,
+<pb n="1010D"/>
+tunc cum per sanctam Virginem generationem carnalem
+perpessus est. Dictum est enim et ad Jesum filium
+Nave [ <hi>Baluz. om.</hi> filium Nave]: <hi>Quod ero tecum (Josue
+I, 5)</hi>. At non erat ille Emmanuel. Fuit etiam cum
+Moyse; sed nec ille Emmanuel nominatus est. Igitur
+quoties audimus nomen Filio datum esse, <hi>nobiscum
+Deus,</hi> sapienter intelligamus, non ita ipsum fuisse
+nobiscum novissimis temporibus, sicut dicitur aliquando
+fuisse cum sanctis: illis enim erat tantum
+adjutor; nobiscum autem fuit, id est, factus est siquis
+<pb n="1011A"/>
+nostri, cum suam non amisisset naturam: est
+enim inconvertibilis, ut Deus.</p>
+</div2>
+
+<div2>
+          <head>CAPUT VIII. <hi>Quam esse ducimus adunationem.</hi> </head>
+<p> Adunatio multis modis impletur: sejuncti enim
+nonnulli affectu vel voluntate, et discordantes inter
+se, adunari dicuntur, per reconciliationem socialem,
+deposita simultate. Adunari item dicimus ea quae
+sibi conglutinantur, sive modis aliis conferuntur, aut
+per compositionem, aut per mixtionem, aut per temperationem.
+Quoties autem adunatum esse nostrae
+naturae Dei Verbum dicimus, omni humana cogitatione
+adunationis ejus modus videtur esse superior.
+Neque enim per supra scriptos modos facta est arcana
+<pb n="1011B"/>
+illa, et nulli penitus nota, nisi ei cui omnia nota
+sunt, unio [ <hi>Baluz. om.</hi> unio].</p>
+<p>Et nihil mirum, si in hujusmodi cogitatione vincamur,
+cum res nostras, quomodo se habeant, inquirentes,
+ultra modum nostrae mentis inventionem esse
+confiteamur; quonamque modo animam hominis suo
+corpori adunatam esse putemus. Quis est qui id possit
+exprimere? Sed si oportet eos, qui parva ea vix
+intelligere soleant; immo et eos qui valeant intelligere,
+tam subtiles res et omnem rationem transcendentes
+conjectare: dicimus quod deceat cogitare
+(quamvis minor sit oratio ad veritatem) talem esse
+adunationem ipsius Emmanuel, qualem quis intelligat
+animam hominis ad suum corpus habere. [ Anima
+enim omnia quae sunt corporis, esse reputat sua,
+<pb n="1011C"/>
+licet per naturam propriam expers sit passionibus
+corporis, et naturalibus, et quae extrinsecus accedunt:
+movetur enim corpus in concupiscentias naturales, et
+consentit anima, et nullo licet modo participans, concupiscentiae
+tamen exitum delectationem propriam
+ducit. Et si forte ferro corpus [ <hi>Baluz.</hi> a suo corpore]
+percutiatur, aut torqueatur, condolet illa quidem,
+quod suum corpus patiatur: ipsa vero in sua natura
+nullum patitur omnino tormentum.</p>
+<p>Tamen super hoc quoque dicimus esse adunationem,
+quae est in Emmanuele facta: erat enim necesse
+cum suo corpore adunatam ei animam dolere,
+ ut dum timebat passiones, subditam cervicem Deo
+submitteret]. De Deo autem Verbo, condolere passionibus
+nefas est dicere: impassibilis enim Deus est, et
+<pb n="1011D"/>
+nostrarum rerum longe dissimilis; sed adunatus quidem
+erat carni habenti animam rationabilem, qua
+patiente ipse impassibilis, ea quae animae contingerent,
+cognoscebat, et contundebat quidem, ut Deus,
+carnis infirmitates; suas tamen eas, tamquam sui
+corporis, esse ducebat. Itaque esuriisse dicitur, fatigatus
+esse, passus fuisse pro nobis.</p>
+<p>Ergo Verbi adunatio, quae est cum humanitate facta,
+non irrationabiliter rebus nostris comparetur.
+<pb n="1012A"/>
+Nam sicut corpus alterius est naturae praeter animam,
+et unus tamen ex utroque homo efficitur et vocatur,
+ita etiam ex perfecta Dei Verbi subsistentia [ <hi>Baluz.</hi> 
+substantia] et ex humanitate perfecta unus est Christus,
+idem in eodem Deus simul et homo; et sua quidem
+ducit Deus Verbum, ut ante dixi, ea quae sunt
+carnis propria, quia ipsius est corpus, non alterius.
+Communes autem facit tamquam cum sua carne divinae
+suae majestatis operationes, ut posset etiam vivificare
+mortuos, et sanare infirmos.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT IX. <hi>De carbone.</hi> </head>
+<p> At si convenit exemplis etiam divinae Scripturae,
+quasi per figuram, adunationem demonstrare; age,
+<pb n="1012B"/>
+dicamus, ut possumus. Beatus Isaias, <hi>Missus est,</hi> inquit, <hi>ad me unus ex Seraphim, et in manu habebat
+carbonem, quem forcipe accepit ab altari, et venit ad
+me, et tetigit labia mea, et dixit ad me: Ecce tetigit
+hoc labia tua, et adimet iniquitates tuas, et peccata
+tua repurgabit 
+ <note>(Isai. VI, 6)</note>
+            </hi>. Carbonem autem dicimus
+figuram et imaginem nobis exhibere Verbi hominis
+facti: quod, si labia nostra tetigerit, id est, si fidem
+in ipsum confessi fuerimus, tunc nos ab omni peccato
+puros efficit, et pristinis criminibus liberat.</p>
+<p>Caeterum tamquam in imagine, licet in carbone
+conspicere adunatum quidem humanitati Dei Verbum,
+non tamen projecisse, quod fuerat. Transformasse
+autem magis assumptam naturam in suam gloriam,
+et operationem: quemadmodum enim ignis
+<pb n="1012C"/>
+ligno affixus, et id penetrans, comprehendit quidem
+ipsum, et quamvis lignum esse non desinat, [ <hi>Baluz.
+add.</hi> in] vim tamen suam speciemque transmutat, et
+omnem se confert in lignum, et cum ipso jam quasi
+unum aliquod aestimatur, idem intellige de Christo.
+Adunatus enim inaestimabiliter humanitati Deus, servavit
+quidem ipsam in eo, quod fuerat, et ipse permansit,
+quod erat; semel tamen adunatus, quasi unus
+jam cum ipsa putatur, ea, quae sunt illius, sua faciens;
+conferens autem ei etiam ipse naturae suae
+operationem.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT X. <hi>Quod incorporalis divinitatis corpus facta fuerit ipsa caro, habens animam rationabilem: et quod si ea a sese dividere voluerimus, procul dubio labefactabimus dispensationem, quae in Christo intelligitur.</hi> </head>
+<p>
+            <pb n="1012D"/>In Cantico canticorum ipse nobis introductus est
+dicens Dominus noster Jesus Christus: <hi>Ego flos campi,
+et lilium convallium <note>(Cantic. II, 1)</note>
+            </hi>. Quemadmodum
+ergo odor res quidem est incorporea, habet autem,
+quasi proprium corpus, id in quo inest; tamen unum
+ex utroque intelligitur lilium. Corrumpetur autem ipsius
+ratio [ <hi>Baluz. om.</hi> ratio] unius rei discessu: in
+subjecto enim corpore odor est. Ita etiam in Christo
+intelligimus divinitatis naturam, quae suam excellentissimam
+<pb n="1013A"/>
+majestatem, ut odorem suavissimum, mundo
+dispergit, tamquam in subjecto, esse in corpore
+humanitatis; et id quod incorporale est per naturam,
+per adunationem dispensatoriam, pene dicam factum
+fuisse corporale; propterea quod voluit se cognosci
+per corpus, in eo enim divina signa operatus est.
+Igitur id quod incorporale est, tamquam in suo corpore
+intelligi potest, quemadmodum etiam odor in
+flore subjecto; lilium tamen jam et odor, et flos nominatur.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XI. <hi>Quod adunato Deo Verbo vere humanitati, inconfusae tamen substantiae</hi> [Id est <hi>subsistentiae] permanserunt.</hi> </head>
+<p>[ Erectum est secundum Dei voluntatem sanctum
+<pb n="1013B"/>
+tabernaculum per desertum, et in eo multis modis
+formabatur Emmanuel.] Dixit Deus omnipotens ad
+divinum Moysen: <hi>Et facies mihi arcam testimonii ex
+lignis imputribilibus, duorum cubitorum et dimidii longitudine;
+et inaurabis eam auro puro, extra et intra
+inaurabis eam <note>(Exod. XXV, 10)</note>
+            </hi>. Sed lignum quidem
+cum imputribile sit, est figura corporis incorrupti:
+imputribilis enim cedrus; aurum vero quasi materies
+aliis pretiosior, divinae nobis indicat substantiae majestatem.</p>
+<p>Attendite igitur quoniam arca tota inaurata sit auro
+puro extra et intra. Adunatus quidem fuerat sanctae
+carni Deus Verbum, et id est, ut opinor, arcam
+fuisse extra inauratam. Quod vero et animam rationabilem,
+quae corpori inerat, propriam fecerit, ex
+<pb n="1013C"/>
+hoc apparet, quod et intra arcam praeceperit inaurari.
+[ Quod autem naturae sive substantiae inconfusae
+manserint, hinc scimus: aurum enim superpositum
+ligno mansit id quod erat, et ornabatur quidem lignum
+auri decore; tamen lignum esse non desiit.
+Quod vero arca in Christi accipiatur imaginem, pluribus
+potest probationibus declarari.] Praeambulabat
+enim his qui sunt ex Israel, quaerens ipsis requiem.
+Ait alicubi et Christus: <hi>Ibo, et parabo vobis locum <note>(Joan. XIV, 3)</note>
+            </hi>.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XII. <hi>Quod cum esset Deus Verbum, factus sit homo, nec homo simpliciter, nuda conjunctione honoratus, vocatus sit ad parem dignitatem Dei Verbi, sive auctoritatem, sicut quibusdam videtur.</hi> </head>
+<p>
+            <pb n="1013D"/>Divinus Paulus <hi>magnum quidem</hi> ait <hi>esse mysterium
+pietatis <note>(I Tim. III, 16)</note>
+            </hi>. Et vere ita se res habet: <hi>manifestatus est</hi> 
+ enim <hi>in carne,</hi> cum sit Deus Verbum; <hi>justificatus est autem in spiritu.</hi> 
+ Nullo enim modo nostris
+videtur infirmitatibus contineri, licet juxta nos
+homo sit factus: non enim fecit peccatum: <hi>Apparuit
+<pb n="1014A"/>
+autem et angelis.</hi> Neque enim generationem ipsius
+secundum carnem ignoraverunt: <hi>Praedicatus autem
+et gentibus,</hi> quasi Deus homo factus; <hi>ita autem
+creditus est in mundo.</hi> Probavit autem divinus Paulus
+ita scribens: <hi>Propter quod memores estote, quod
+aliquando vos gentes in carne, qui dicimini praeputium,
+ab ea quae dicitur circumcisio in carne manufacta:
+quia</hi> [Baluz. <hi>qui] eratis illo tempore sine Christo alienati
+a conversatione Israel, et hospites testamentorum,
+promissionis spem non habentes, et sine Deo in hoc
+mundo <note>(Ephes. II, 11)</note>
+            </hi>. Erant ergo gentes in mundo
+sine Deo, cum absque Christo essent. Verum quoniam
+eum vere et natura Deum esse agnoverunt, ipsae
+quoque ab eo agnitae sunt, fidem confitentes, et
+ipse <hi>assumptus est in gloria,</hi> certe divina. Psallit enim
+<pb n="1014B"/>
+beatus David: <hi>Ascendit Deus in jubilo <note>(Psalm. XLVI,
+6)</note>
+            </hi>. Ascendit enim certe cum corpore, nec in nuda
+deitate: Deus enim erat incarnatus.</p>
+<p>Credimus igitur, non in unum nostri similem deitate
+per gratiam honoratum, ne cultores esse hominis
+detegamur; sed in Dominum magis, qui in servili
+forma comparuit, et qui fuit vere nostri similis, et
+in humanitate tamen Deus mansit: Deus enim Verbum,
+carne assumpta, non deposuit quod erat; intelligitur
+tamen idem Deus simul [ <hi>Baluz. om.</hi> simul]
+et homo.</p>
+<p>Et fidei quidem ratio ita se habet, et recte quidem.
+Sed si forte aliquis dicat, quid mali est, si intelligatur
+homo similis nostri apprehendere deitatem,
+ac non magis Deus homo fieri? Respondebimus
+<pb n="1014C"/>
+mille esse quae contrario possunt opponi, et pene
+etiam nutu significantia, nos oportere reniti constanter,
+nec credere ita esse.</p>
+<p>Age enim ante alia. Dispensationis, quae cum carne
+facta est, modum cernamus, et nostrarum rerum naturam
+subtilius perscrutemur: periclitata est hominis
+natura, et deprehensa [ <hi>Baluz.</hi> depressa] est malis
+extremis, maledictione et morte damnata, et peccati
+laqueis irretita, errabat, et erat in tenebris;
+Deum nesciebat eum, qui est natura et veritate; pro
+Deo [ <hi>Baluz.</hi> praeter Creatorem] coluit creaturam.
+Quomodo igitur hujusmodi malis poterat liberari?
+An illud dicemus, quod fas erat humanitati, divinam
+naturam apprehendere, quae nesciret omnino, qualis
+esset dignitas naturae coelestis, cum esset ignorantiae
+<pb n="1014D"/>
+tenebris occupata, et peccati sordibus inquinata?
+Quomodo poterat fieri, ut apprehenderet sanctam
+naturam, et acciperet gloriam, quam nemo inveniat,
+nisi acceperit? Concedamus enim quod cognoverit
+fortasse [ <hi>Baluz.</hi> dumtaxat], et scierit apprehendere
+Deum [ <hi>Pro</hi> deitatem]. Quis est qui docuerit? <hi>Quomodo
+<pb n="1015A"/>
+enim credent, nisi audierint <note>(Rom. X, 14)</note>
+            </hi>? Caeterum
+non id est apprehendere deitatem, et convenientem
+ei gloriam capere.</p>
+<p>Ergo decentius sit, et recte quidem, ita sentire,
+quod servare volens id quod perierat, descendens
+ad nos Deus Verbum [ <hi>Baluz om.</hi> Verbum], per quod
+omnia, et in id se, quod non erat, immisit, ut et hominis
+natura, id quod non erat, fieret; et divinae majestatis
+dignitatibus per adunationem patescens, quae
+sublevata est magis ultra naturam, quam dejicit infra
+naturam invertibilem Deum. Conveniens erat, ut incorruptibilis
+natura apprehenderet corruptibilem, ut
+eam a corruptione liberaret. Conveniens erat eum,
+qui peccare non noverat, cum peccatoribus conformari,
+ut peccata compesceret: quemadmodum enim
+<pb n="1015B"/>
+ubicumque lux fuerit, caligo interit tenebrarum; ita
+etiam immortalitate praesente, omnis certe pestis fugitiva
+discedet; et praesente eo, qui peccatum non
+novit <note>(qui etiam proprium sibi corpus effecit, quod
+est sine [Baluz. <hi>in</hi> ] peccato)</note> cedet omne peccatum.</p>
+<p>Quod vero Verbum, cum esset Deus, factum sit
+homo, et non magis homo <foreign xml:lang="greek">τεθεοποιημένος</foreign> intelligatur
+Christus, etiam ex sacris litteris enitar ostendere. Ait
+igitur beatus Paulus de Unigenito: <hi>Qui cum in forma
+Dei esset, non rapinam arbitratus est, ut esset aequalis
+Deo; sed exinanivit se, formam servi accipiens, in similitudinem
+hominum factus, et habitu inventus ut
+homo. Humiliavit sese factus obediens usque ad mortem,
+mortem autem crucis. Propterea et Deus ipsum
+superexaltavit, et donavit illi nomen quod est super
+<pb n="1015C"/>
+omne nomen, ut in nomine Jesu Christi omne genu flectatur
+coelestium, et terrenorum, et infernorum, et omnis
+lingua confiteatur quod Dominus Jesus Christus in
+gloria est Dei Patris <note>(Philip. II, 7)</note>
+            </hi>.</p>
+<p>Quem igitur dicemus, in forma Dei esse, et in
+aequalitate Patris, et haec non rapinam arbitratum;
+sed descendisse magis in exinanitatem, et in formam
+servi, et se humiliantem, et in similitudinem nostram
+fuisse factum? Si hominem factum ex muliere nudum
+et solum: quomodo habebat plenitudinem, ut intelligatur
+exinanitus? Vel in qua antea positus celsitudine,
+semet humiliasse dicitur? Vel quomodo in similitudinem
+hominum factus est, qui id erat et antea
+per naturam, etsi id factus forte non diceretur? Ubi
+autem exinanitus est, assumens plenitudinem deitatis?
+<pb n="1015D"/>
+Vel quomodo non sit factus altissimus, qui in gloriam
+supernam ascenderit?</p>
+<p>Igitur dicimus non hominem Deum esse factum,
+sed potius factum esse in exinanitate, propter humanitatem,
+Deum Verbum, qui erat in aequalitate Patris
+et forma: exinanitus est enim hoc modo, propter
+similitudinem nostram, cum esset plenus, ut Deus.
+Humiliatus est propter carnem, ita ut a divinae majestatis
+fastigio non descendat; sedem enim habet
+altissimam. Factus est in similitudine hominum, cum
+sit ejusdem formae cum Patre, utpote cujus est figura
+substantiae. Verum quoniam semel factus est
+juxta nos, ascendisse dicitur, cum carne in gloriam
+deitatis, quam patentem quidem habet quasi propriam,
+<pb n="1016A"/>
+alio tamen pacto in ea fuit, propter humanitatem:
+Dominus enim omnium esse creditur, etiam
+cum carne.</p>
+<p>Flectitur autem ipsi omne genu, et id non ad dolorem
+et contumeliam Patris, sed magis ad gloriam:
+gaudet enim, et glorificatur, dum ab hominibus Filius
+adoratur, licet factus sit similis nostri. Scriptum vero
+est rursus: <hi>Non enim angelos apprehendit, sed semen
+Abrahae; unde debuit per omnia fratribus assimilari <note>(Heb. II, 16)</note>
+            </hi>.
+Ecce semen Abrahae apprehendit Verbum
+Deus, et non homo nescio, quis nostri similis
+deitatem apprehendit, et ipse nobis assimilatur, et
+nuncupatur frater noster [ <hi>Bal. om.</hi> noster], ut homo,
+non quantum est ad deitatis naturam. <hi>Quoniam pueri
+communicaverunt carni et sanguini, et ipse similiter
+<pb n="1016B"/>
+participavit eis, ut per mortem destrueret eum qui imperium
+obtinet mortis, id est, diabolum, et liberaret eos
+qui timore mortis per omnem vitam nativa continebantur
+servitute <note>(Ibid. v. 14)</note>
+            </hi>. Ecce iterum ipse, similiter
+ac nos, participavit sanguini et carni, et ea res causam
+habet conjunctam statim ac proximam; scriptum
+est enim: <hi>Nam quod impossibile erat legi, in quo infirmabatur
+in carne, Deus Filium suum misit in similitudine
+carnis peccati, et de peccato damnavit peccatum
+in carne <note>(Rom. III, 3)</note>
+            </hi>. Attende iterum, quod non homo
+affectans naturam divinam ostenditur, et ad ejus dignitatem
+ascendens; sed mittens magis Filium suum
+Deus et Pater, in similitudine carnis peccati, ut destrueret
+peccatum. Ergo Verbum, cum Deus sit, se
+in exinanitatem homo factus immisit, et non homo
+<pb n="1016C"/>
+simpliciter, divinam gloriam affectans, Christus videtur.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XIII. <hi>Quod Christus Jesus vocetur homo factus Deus Verbum.</hi> </head>
+<p>Dispensationis incarnati Unigeniti mysterium subtilius
+considerantes, id asserimus, fidem rectam servantes
+et veram: quod ipsum Patris Dei Verbum,
+Deus verus ex Deo vero, et lumen de lumine, incarnatum
+sit, et homo factum, et descenderit, et passum
+sit, et surrexerit ex mortuis. Ita enim definivit
+fidei symbolum synodus ingens et sancta.</p>
+<p>Perquirentes autem et nos, et discernere cupientes,
+quid sit tandem, incarnatum esse, et hominem
+factum Dei Verbum: cernimus, quod non hoc est,
+hominem assumere tamquam in conjunctione, quae
+<pb n="1016D"/>
+fiat per aequalitatem dignitatis, sive auctoritatis, vel
+per solam filietatis <foreign xml:lang="greek">ὁμωνυμίαν</foreign>; magis autem fieri juxta
+nos hominem (ita tamen ut nulla conversio vel
+commutatio subsequatur), et sublevare pariter cum
+sua natura eum, qui in assumptione fuit carnis et
+sanguinis dispensative [ <hi>Baluz.</hi> dispensatorie].</p>
+<p>Unus igitur est, qui ante Incarnationem a divina
+Scriptura nominatur, et Unigenitus, et Verbum, et
+Deus, et imago, et lumen, et figura substantiae Patris,
+et vita, et gloria, et splendor, et sapientia, et
+virtus, et magnificentia, et Dominus sabaoth, et aliis
+talibus nominibus, quae vere conveniunt deitati. Post
+Incarnationem vero homo [ <hi>Baluz. om.</hi> homo], Christus,
+Jesus, propitiatorium, mediator, primitiae dormientium,
+<pb n="1017A"/>
+primogenitus a mortuis, secundus Adam,
+caput corporis Ecclesiae, cum eum etiam nomina
+prisca sequantur: omnia enim ipsius propria sunt
+et priora, et quae novissimis facta temporibus.</p>
+<p>Unus igitur est, et qui ante Incarnationem, Deus
+erat verus, et qui in humanitate mansit id quod
+erat, et est, et erit. Non discernendus igitur unus
+Dominus Jesus Christus, in hominem seorsum, et
+seorsum in Deum; sed unum eumdemque Jesum Christum
+esse dicimus, non ignorantes differentiam naturarum,
+sed eas inconfusas inter sese servantes.</p>
+<p>Quoties igitur littera sacra commemorat, quod in
+Christo <hi>inhabitavit omnis plenitudo divinitatis corporaliter <note>(Col. II, 9)</note>
+            </hi>;
+non ideo dicimus tamquam in alio
+Christo, in homine seorsum inhabitasse Deum Verbum;
+<pb n="1017B"/>
+nec porro dividentes ea quae unita sunt, duos
+intelligimus filios; illud autem magis, quod Christum
+nominat littera sacra ex parte nonnumquam, et quod
+humanitatem Dei Verbum, quam propriam habet, in
+locum posuit templi. Scriptum est autem et de animabus
+humanis: <hi>Inhabitantes autem domos luteas, de
+quibus et nos ex eodem luto sumus <note>(Job. IV, 19)</note>
+            </hi>. Ergone,
+quoniam luteas domos humana corpora nominat,
+et affirmat in his animas habitare, in duos
+homines unum hominem dividemus? Atqui non
+irrationale omnino sit, ut in homine spiritus suus
+inhabitare dicatur. Ergo, etsi per hujusmodi modos
+orationis figura procedat, cum [ <hi>Baluz.</hi> quae] aliter
+fieri non possit, non tamen ideo rerum corrumpi naturas
+oporteat, sed magis eas recto veritatis tenore
+<pb n="1017C"/>
+servari.</p>
+<p>Quoties igitur quaepiam, quae dissimilem sunt inter
+se sortita naturam, collecta in adunationem, per
+compositionem videntur: deinde alterutrum ex his
+in alterutro habitare dicitur, non dividendum in duo,
+adunationis conventione minime violata [ <hi>Baluz.</hi> violanda],
+licet suis nominibus per sese ea, quae adunata
+sunt, nominentur a nobis. Dicitur namque, ut
+ante dixi, et in homine habitare spiritus suus, nec
+tamen [ <hi>Baluz.</hi> verumtamen] homo dicitur, et seorsum
+spiritus suus, seorsum et corpus. Et tale quid
+nobis divinus Paulus obliqua significatione [ <hi>Id est</hi> obscure
+et quasi aenigmatice] commemorat, dicens: <hi>Nam etsi exterior noster homo corrumpitur; sed interior
+renovatur de die in diem 
+ <note>(II Cor. IV, 16)</note>
+            </hi>. Si quis
+<pb n="1017D"/>
+igitur dixerit, interiorem nostrum hominem in exteriore
+homine inhabitare, verum quidem memoravit,
+in duo tamen unum dividere non videbitur. Ait
+autem alicubi etiam propheta Isaias: <hi>De nocte vigilat
+spiritus meus ad te, Domine <note>(Isai. XXVI, 9)</note>
+            </hi>. Utrumne
+tamquam alius praeter ipsum, spiritus ipsius ad
+Deum dicitur vigilare? Nonne id ineptissimum videatur?
+Ergo scire quidem necesse est orationis figuras,
+non tamen ab intellectu discedere competenti,
+sed referre magis sententiarum vim ad sensum, qui
+unicuique rei conveniat.</p>
+<p>
+            <pb n="1018A"/>Etsi dicatur <hi>proficere Jesus aetate, sapientia et gratia <note>(Luc. II, 52)</note>
+            </hi>,
+dispensationis haec res est. Deus
+etenim Verbum humanitatem more suo proficere
+permittebat, et quasi paulatim divinitatis suae gloriam
+volebat declarare, et cum corporis aetate etiam
+sua [ <hi>Baluz.</hi> suam] extendere, ne quid novum videretur,
+idque nonnullos nimia novitate perterreret. Cum
+praesertim sic quoque dicerent: <hi>Quomodo hic litteras
+scit, cum non didicerit <note>(Joan. VII, 15)</note>
+            </hi>? Ergo corporale
+augmentum, et profectus gratiae, ac sapientiae,
+humanitatis mensurae convenit; ipsum vero
+Deum Verbum per suam naturam perfectissimum
+confitemur, non egenum profectus, non sapientiae,
+non gratiae. Ipsum enim creaturae, et sapientiam, et
+gratiam, et bona omnia impertit.</p>
+<p>
+            <pb n="1018B"/>Si vero Jesus passus esse dicatur, passio quidem
+erit dispensationis; ipsius tamen dicitur, et recte
+quidem, quia corpus ipsius proprium passum est, et
+erat in corpore patiente ipse, qui pati non poterat,
+impassibilis est enim, ut Deus: quantum tamen ad
+conviciatorum petulantiam pertinuit, passus esset, si
+pati posset. Ergo quoniam nostri similis factus est
+Unigenitus, quotiescumque homo nominatur a divina
+Scriptura, intuentes dispensationem, Deum ipsum
+natura sic quoque confiteamur.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XIV. <hi>Exempla divinae Scripturae quod Dei Verbum homo factum manserit Deus. De propitiatorio.</hi> </head>
+<p>Ait alicubi Deus ad pontificem Moysen: <hi>Et facies
+propitiatorium impositione auri puri duorum cubitorum
+<pb n="1018C"/>
+et dimidii longitudinem, et cubiti unius et dimidii latitudinem:
+et facies duos Cherubim aureos ornatos, et
+imponens illos ex utroque latere. Cherub unus de latere
+hoc, et</hi> [Baluz. <hi>hoc est] Cherub unus de latere isto
+propitiatorii. Et facies duos Cherubim super duo latera.
+Erunt Cherubim extendentes pennas sursum superobumbrantes
+pennis suis super propitiatorium; et vultus eorum
+adinvicem respicientes propitiatorium erunt <note>(Exod.
+XXV, 17)</note>
+            </hi>. Aenigma certissimum id sit, Deum Verbum
+etiam in humanitate Deum [ <hi>Baluz.</hi> Domini] mansisse,
+et in sua gloria ac majestate, etsi propter dispensationem
+factus sit similis nostri: <hi>Propitiatorium namque
+per fidem factus est nobis Emmanuel <note>(Rom. III, 25)</note>
+            </hi>. Id
+autem nobis comprobavit sapientissimus Joannes dicens: <hi>Filioli, scribo vobis, ut non peccetis; sed si quis
+<pb n="1018D"/>
+peccaverit, consolatorem habemus apud Patrem, Jesum
+Christum justum; et ipse est propitiatio pro peccatis nostris <note>(Joan. II, 1)</note>
+            </hi>.
+Nec non etiam Paulus: <hi>Quem proposuit,</hi> 
+inquit, <hi>Deus propitiatorium</hi> [Baluz. <hi>propitiatorem]
+per fidem in suo sanguine <note>(Rom. V, 25)</note>
+            </hi>.</p>
+<p>Caeterum cerne Cherubim circumstantes propitiatorium,
+et superobumbrantes quidem pennis; conversos
+autem ad propitiatorium, et pene nutui Dominico
+oculum intendentes. Ad Dei enim voluntatem
+tantum respicit sancta coelestium spirituum multitudo,
+et numquam Dei satiatur aspectu. Ita Filium
+<pb n="1019A"/>
+propheta Isaias vidisse se dicit, in sede altissima et
+eminentissima, circumstantibus Seraphim et obsequentibus
+ei, ut Deo <note>(Isai. VI, 1)</note>.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XV. <hi>Aliud de virga Mosis.</hi> </head>
+<p>Destinabatur aliquando divinus Moyses ut Israel
+ab Aegyptiorum violentia liberaret. Verum quoniam
+necesse erat eos, qui sub jugo essent servitutis insolitae,
+prius docere, quod eis Deus jam esset reconciliatus,
+prodigia eum facere imperabat: plerumque
+enim miraculum nos adducit in fidem. Ait igitur
+Moyses ad Deum omnipotentem: <hi>Si autem non crediderint
+mihi, neque audierint vocem meam, dicentes:
+Non apparuit tibi Deus; quid dicam illis? Dixit deinde
+<pb n="1019B"/>
+Dominus: quid hoc est quod est in manu tua? Respondit:
+Virga. Et ait illi: Projice illam in terram;
+et facta est serpens, et fugit Moyses ab ea. Et dixit
+Dominus ad Moysen: Extende manum tuam, et apprehende
+caudam ejus; et extendens manum apprehendit
+caudam, et facta est virga in manu ejus. Et dixit
+illi: ut credant tibi, quia apparuit tibi Dominus Deus
+patrum suorum, Deus Abraham, et Deus Isaac, et
+Deus Jacob <note>(Exod. IV, 1)</note>
+            </hi>. Animadverte in his natura
+et veritate Filium Dei, tamquam quaedam virga sit
+Patris; virga autem insigne est regni: <hi>Filio enim dedit
+habere omnium potestatem <note>(Joan. XVII, 2)</note>
+            </hi>. Unde
+etiam divinus David: <hi>Thronus tuus,</hi> inquit, <hi>Deus in
+saeculum saeculi, et virga aequitatis, virga regni tui <note>(Ps.
+XLIV, 7)</note>
+            </hi>. Sed eam projecit in terram, id est, corpore
+<pb n="1019C"/>
+terreno circumdedit, sive per humanitatem misit in
+terram: tunc enim in similitudine factus est malignorum
+hominum, scilicet malignitatis signum est
+serpens.</p>
+<p>Quod autem verum sit, hinc scimus [ <hi>Baluz.</hi> scibis].
+Ipse enim Dominus noster Jesus Christus, imagine
+et figura, propter dispensationem factam cum
+carne, pro serpente accipitur aereo, quem erexit
+Moyses, ut serpentum morsus arceret <note>(Num. XXI,
+8)</note>. Ait enim: <hi>Et sicut Moyses exaltavit serpentem in
+deserto, ita oportet exaltari Filium hominis, ut omnes
+qui credunt in ipsum, non pereant, sed habeant vitam
+aeternum <note>(Joan. III, 14)</note>
+            </hi>. Quemadmodum enim serpens
+factus ex aere salutis erat periclitantibus causa
+(sanabantur enim in eum respicientes): eo modo
+<pb n="1019D"/>
+etiam Dominus Jesus Christus eis, qui eum vident
+quidem in similitudine malignorum, eo quod factus
+sit homo, non ignorant tamen, quod Deus sit vivificus;
+causa erit vitae, et dat posse animalia venenosa
+vitare, id est, contrarias potestates.</p>
+<p>Id quoque hujus rei figura sit, quod Moyseos virga
+virgas alias devoraverit, quas in terram magi projecerant <note>(Exod. IV, 2)</note>.
+Igitur virga quidem in terram
+projecta est; non tamen semper [ <hi>Baluz.</hi> serpens]
+remansit. Resumpta autem iterum fuit, quod erat:
+nam licet facta sit, ut ante dixi, in similitudine nostra
+Patris virga, id est, Filius, qui [ <hi>Baluz.</hi> per
+quem] habet omnium potestatem; attamen impleta
+dispensatione, revolavit in coelum, et fuit iterum
+<pb n="1020A"/>
+tamquam in manu Patris <hi>virga aequitatis,</hi> ac regni: <hi>sedet</hi> 
+ enim <hi>ad dexteram genitoris sui</hi> in propria majestate,
+sedes altissimas obtinens, etiam cum carne <note>(Ps. XLIV, 7)</note>.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XVI. <hi>Aliud de manu Moysis leprosa et integre sanata.</hi> </head>
+<p> <hi>Dixit autem ad eum Deus Dominus iterum: Infer
+manum tuam in sinum tuum; et protulit manum de sinu
+suo, et facta est manus ejus sicut nix. Et dixit iterum:
+Infer manum tuam in sinum tuum: et intulit manum
+suam in sinum suum, et protulit eam de sinu suo, et
+iterum restituta est in colorem carnis ejus <note>(Exod. IV, 6)</note>
+            </hi>.
+Manum ad dexteram Dei et Patris verum Filium ejus
+divina Scriptura nominat. Induxit enim ipsum dicentem: <hi>Ego manu mea firmavi coelum 
+ <note>(Isai. XLVIII, 13)</note>
+            </hi>;
+<pb n="1020B"/>
+nec non etiam David divinus cantat: <hi>Verbo Domini
+coeli firmati sunt <note>(Psal. XXXII, 6)</note>
+            </hi>. Cerne igitur, in
+sinum quidem Moysis adhuc manum ejus occultari, et
+nondum factam leprosam, prolatam vero statim leprosam
+factam: deinde mox illatam, et rursus prolatam,
+et de caetero non leprosam: <hi>Restituta est enim,</hi> 
+inquit, <hi>in colorem carnis ejus.</hi> Ergo quamdiu quidem
+erat in sinu Patris Deus Verbum, divinitatis nitore
+fulgebat; verum quando aliquo modo extra fuit per
+incarnationem sive <foreign xml:lang="greek">ἐνανθρώπησιν,</foreign> factus est <hi>in similitudine
+carnis peccati, et inter iniquos reputatus est <note>(Rom. VIII, 3; Isai. LIII, 12)</note>
+            </hi>.
+Ait enim divinus Paulus, <hi>eum, qui peccatum non noverat, pro nobis peccatum
+fuisse, ut nos fieremus justitia in ipso 
+ <note>(I Cor. V, v. 21)</note>
+            </hi>.
+Hoc existimo lepram significare, immundus enim
+<pb n="1020C"/>
+secundum legem leprosus <note>(Levit. XIII, 2)</note>. Sed quoniam
+iterum in sinu fuit Patris (assumptus est in resurrectionem
+a mortuis), prolata iterum manus videbatur
+munda: adveniet enim post tempora Dominus noster
+Jesus Christus, in sinceritate divinitatis et gloria,
+quamvis similitudinem nostram non projecerit. Ait
+enim et beatus Paulus de Christo: <hi>Quia semel mortuus
+est ad multorum exhaurienda peccata. Secundo
+sine peccato apparebit exspectantibus se in salutem <note>(Hebr. IX, 28)</note>
+            </hi>.
+Ergo quoties nobis sacra littera nominat
+Christum Jesum, ne hominem seorsum putaveris,
+non vere adunato ipsi Deo Verbo; sed existimaveris
+magis ipsum esse ex Deo et Patre Verbum Jesum
+Christum, cum factus sit homo.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XVII. <hi>Quod Christus non erat homo</hi> <foreign xml:lang="greek">θεοφόρος,</foreign> <hi>nec simpliciter in homine inhabitarit Deus Verbum; sed quod magis caro sit factum, sive homo perfectus, secundum Scripturas.</hi> </head>
+
+<pb n="1020D"/>
+<p>Qui fidem habent in Christo immaculatam, et rectis
+omnibus suffragiis comprobatam, dicant videlicet,
+quod ipse ex Deo Patre Deus Verbum in exinanitatem
+descenderit, formam servi accipiens, propriumque
+sibi faciens corpus, quod est natum ex virgine; quod
+factus sit nostri similis, et nuncupatus filius hominis.
+Est autem Deus quidem secundum spiritum; homo
+autem idem secundum carnem. Deinde divinus Paulus
+Judaeorum populum alloquebatur dicens: <hi>Multifariam
+multisque modis olim Deus loquens patribus in prophetis,
+<pb n="1021A"/>
+novissimis diebus istis locutus est nobis in Filio <note>(Hebr. I, 1)</note>
+            </hi>.
+Et quonam modo intelligatur locutus
+fuisse Deus et Pater novissimis diebus in Filio? Locutus
+est enim antiquioribus per ipsum dans legem,
+et idcirco ipse Filius, suos dicit esse sermones, per
+sapientissimum Moysen prolatos [ <hi>Baluz. om.</hi> prolatos].
+Ait enim: <hi>Nolite putare quia veni solvere legem, aut
+prophetas. Non veni solvere, sed implere. Dico enim
+vobis, iota unum, aut unus apex non transibit a lege,
+donec omnia fiant. Coelum et terra transibunt, verba
+autem mea non transibunt <note>(Matt. V, 17)</note>
+            </hi>. Adde etiam
+prophetae vocem: <hi>Ipse qui loquebar, praesto sum <note>(Isai.
+LII, 8)</note>
+            </hi>. Ergo cum factus est Filius [ <hi>Baluz. om.</hi> Filius]
+in carne, tunc <hi>locutus est nobis Pater in ipso,</hi> sicut
+ait beatus Paulus, <hi>novissimis diebus <note>(Heb. I, 1)</note>
+            </hi>. Sed
+<pb n="1021B"/>
+ne parum credamus, quod ipse sit ille qui etiam ante
+saecula Filius, intulit statim: <hi>Per quem fecit et saecula <note>(Ibid. v. 2)</note>
+            </hi>,
+splendorem etiam gloriae et figuram substantiae
+Patris esse commemorans.</p>
+<p>Homo igitur factus est vere is per quem fecit et
+saecula Deus Pater; et non, ut nonnulli existimant,
+in homine fuit, ut homo intelligatur a nobis, tamquam
+Deum habens inhabitantem. Nam, si haec recte
+se habere, vere confidunt, supervacaneus esse videbitur
+beatus evangelista Joannes dicens: <hi>Et Verbum
+caro factum est <note>(Joan. I, 14)</note>
+            </hi>. Ubi enim necessitas <foreign xml:lang="greek">ἐνανθρωπήσεως</foreign>?
+Aut quare incarnatum dicit Deum
+Verbum, si non factus est caro? Vis <foreign xml:lang="greek">ἐνανθρωπήσεως,</foreign>
+et similem nostri eum factum esse significat, et mansisse
+tamen sic quoque ipsum supra nos; immo supra
+<pb n="1021C"/>
+universam ipsam creaturam.</p>
+<p>Oportere autem existimo, ea quae dixi, exemplis
+etiam comprobare et persuadere, quod Unigenitus
+factus sit homo, et sit Deus, etiam cum carne, ac non
+tantum inhabitarit in homine, <foreign xml:lang="greek">Θεοφόρον</foreign> ipsum efficiens,
+tamquam alios, qui divinitatis ipsius fuere
+participes.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XVIII. <hi>Quod Emmanuel Deum habuerit aliter inhabitantem, quam nos.</hi> </head>
+<p>Ait alicubi Deus de nobis: <hi>Inhabitabo in ipsis, et
+inambulabo, et ero ipsis Deus, et ipsi erunt mihi populus <note>(Apoc. III, 20)</note>
+            </hi>.
+Nec non etiam ipse Dominus noster
+Jesus Christus: <hi>Ecce ego venio; et si quis mihi aperuerit,
+intrabo ego, et apud eum coenabo, et Pater, et ad
+<pb n="1021D"/>
+eum veniemus, et mansionem apud eum faciemus <note>(Joan.
+XIV, 16)</note>
+            </hi>. Nominati sumus etiam templum Dei: <hi>Vos
+enim,</hi> inquit, <hi>templa estis Dei vivi <note>(I Cor. III, 17)</note>
+            </hi>. Et
+rursus: <hi>Nescitis corpora vestra templum esse Spiritus
+sancti, qui est in vobis, quem habetis a Deo <note>(I Cor. VI,
+19)</note>
+            </hi>. Verum si ita aiunt, ipsum quoque se habere
+Emmanuel, et, tamquam unumquemque nostrum, inhabitantem
+in sese Deum habuisse, aperte confiteantur;
+cum ipsum adorari conspiciunt, tam a nobis,
+quam ab angelis, in coelo pariter et in terra, erubescant
+tamquam diversa alienaque sentientes, et litterarum
+sacrarum propositum nescientes, nec habentes
+in se fidem, quam nobis tradiderunt, qui in principio
+et viderunt, et ministraverunt Verbo</p>
+<p>
+            <pb n="1022A"/>Si autem dicant, quod propterea Deus sit, et ut
+Deus glorificetur, quia in eo tantum inhabitavit Dei
+Patris Verbum; ac non propterea, quia factus sit
+homo; audient rursus a nobis: Si iis, qui inhabitantem
+in se Deum habuerint, satis est, ut idcirco vere
+dii esse possint, et ab hominibus adorentur, omnes
+sane angeli hominesque sint dii et adorandi; inhabitat
+enim Deus in sanctis angelis. Habuimus etiam nos
+ipsum in nobis per Spiritum sanctum; sed non sufficit
+hoc ostendere, natura deos et adorandos eos, qui
+habent Spiritum sanctum. Igitur non propterea Deus
+est, et adorandus Emmanuel, quod inhabitarit in eo,
+tamquam in homine communi, et seorsum intelligendo,
+Deus Verbum [ <hi>Baluz.</hi> et in parte Deum Verbum];
+sed quod factum sit caro, id est, homo: mansit enim
+<pb n="1022B"/>
+idem et Deus, et adorandus.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XIX. <hi>Dicta apostolica in quibus Deus nominatus est Christus.</hi> </head>
+<p>De mysterio dicens secundum Christum: <hi>Quod aliis,</hi> 
+inquit, <hi>generationibus non est agnitum filiis hominum,
+sicut nunc revelatum est sanctis apostolis <note>(Eph. III, 5)</note>
+            </hi>.
+Et: <hi>Mysterium quod absconditum fuit a saeculis et generationibus,
+nunc autem manifestum est sanctis ejus,
+quibus voluit revelare divitias gloriae mysterii hujus in
+gentibus, quod est Christus, in vobis spes gloriae, quem
+nos annuntiamus <note>(Col. I, 26)</note>
+            </hi>. Si igitur est <foreign xml:lang="greek">θεοφόρος,</foreign> et
+non Deus vere, quomodo ipse est divitiae gloriae mysterii,
+quod annuntiatur gentibus? Vel quomodo omnino
+Deus annuntiatur?</p>
+</div2>
+
+<div2>
+          <head>CAPUT XX. <hi>Aliud.</hi> </head>
+
+<pb n="1022C"/>
+<p> <hi>Volo enim vos scire qualem sollicitudinem habeam
+pro vobis et pro iis qui sunt Laodiceae, et quicumque
+non viderunt faciem meam in carne, ut consolentur
+corda ipsorum, instructi in charitate, et in omnes divitias
+plenitudinis intellectus, in agnitionem mysterii
+Dei Christi <note>(Col. II, 1)</note>
+            </hi>. Ecce mysterium Dei, mysterium
+nominat Christi, et plene intelligere quosdam
+vult in agnitionem ipsius. Quo igitur intellectu opus
+erat, volentibus Christi mysterium discere, si fuerant
+audituri, quod inhabitaret in homine Deus? Opus est
+autem nimio intellectu, ut scias contra quod Verbum,
+cum sit Deus, factum sit homo.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXI. <hi>Aliud.</hi> </head>
+
+<pb n="1022D"/>
+<p> <hi>A vobis enim sonuit sermo Domini, non solum in
+Macedonia et Achaia; sed omni loco fides vestra, quae
+est ad Deum, exivit <note>(I Thess. I, 8)</note>
+            </hi>. Ecce iterum in
+Deum fidem factam esse commemorat, cum etiam
+Christus dicat: <hi>Qui credit in me, habet vitam aeternam <note>(Joan. VII, 25)</note>
+            </hi>.
+Sermonem autem praedicationem
+dicit de seipso.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXII. <hi>Aliud.</hi> </head>
+<p> <hi>Ipsi enim scitis introitum nostrum apud vos, quoniam
+non inanis fuit; sed ante multa passi, et contumeliis
+affecti, sicut scitis, in Philippis, confisi fuimus
+in Deo colloqui ad vos Evangelium Dei <note>(I Thess. II. 2)</note>
+            </hi>.
+<pb n="1023A"/>
+Ecce loquens in Deo, Dei Evangelium memoravit;
+qui praedicat gentibus Christum.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXIII. <hi>Aliud.</hi> </head>
+<p> <hi>Recordamini, fratres, laborem nostrum et aerumnam,
+nocte et die operantes, ne quem vestrum gravaremus;
+praedicavimus Evangelium Dei inter vos <note>(I Thess. II, 4)</note>
+            </hi>.
+Et iterum: <hi>Propterea et nos gratias agimus Deo sine intermissione;
+quoniam cum percepissetis a nobis verbum,
+auditu Dei excepistis, non ut verbum hominum, sed ut
+verbum Dei, qui operatur in vobis, qui credidistis <note>(Ibid.
+v. 13)</note>
+            </hi>. Nonne evidenter Evangelium Dei, et Dei verbum
+praedicationem de Christo commemorat, quippe
+id omnibus manifestissimum est: <hi>Apparuit enim gratia
+<pb n="1023B"/>
+Dei salvatoris omnibus, erudiens nos, ut abnegantes
+impietatem et saecularia desideria, sobrie et juste et pie
+vivamus, in hoc saeculo, exspectantes beatam spem, et
+adventum gloriae magni Dei et salvatoris nostri Jesu
+Christi <note>(Tit. II, 11)</note>
+            </hi>. Ecce Deus, et magnus, plenissime
+nominatus est Dominus noster Jesus Christus: ipse
+est enim cujus adventum gloriae exspectantes, sobrie
+vivere, et irreprehensibiliter festinamus. Sed si est
+homo <foreign xml:lang="greek">θεοφόρος,</foreign> quomodo sit magnus Deus? Vel quomodo
+beata spes in eum? Siquidem verus est profecto
+Jeremias dicens: <hi>Maledictus qui spem suam ponit
+in homine <note>(Jerem. I, 5)</note>
+            </hi>. Neque enim Deum ipsum
+possit efficere, ut ante dixi, id quod est Deum portare.
+Denique doceant nos, quid impediat alios etiam omnes
+deos esse et adorandos, qui in se habuerint Deum?
+<pb n="1023C"/>
+Deum autem et magnum et beatum, habentem illuminationem
+Christum nominat beatus Paulus, qui invenitur
+dicens de Judaeis et Emmanuel: <hi>Quorum patres,
+et testamentum, et promissiones, et ex quibus Christus
+secundum carnem, qui est super omnia benedictus
+in saecula saeculorum. Amen <note>(Rom. IV, 9)</note>
+            </hi>.</p>
+<p>Quod vero [ <hi>Baluz.</hi> vere] secundum divinam revelationem
+faciebat praedicationem, perspicuum fit, ipso
+dicente: <hi>Deinde post annos quatuordecim iterum ascendi
+Jerosolymam cum Barnaba, assumpto etiam Tito.
+Ascendi autem secundum revelationem, et exposui eis
+Evangelium, quod praedico gentibus; seorsum autem iis,
+qui videbantur aliquid esse, ne forte in vacuum currerem,
+aut cucurrissem <note>(Gal. II, 1)</note>
+            </hi>. Christum praedicans
+gentibus, ut Deum, divinum nominat ipsius ubique
+<pb n="1023D"/>
+mysterium. Ascendit per revelationem Jerosolymam,
+et exposuit his, qui videbantur aliquid esse, id est,
+sanctis apostolis, sive discipulis, ne forte in vacuum
+currat. Cum vero ab Jerosolymis descendisset, et
+rursus gentium gregibus interfuisset, emendavitne
+aliquid ex prioribus? Nonne perseveravit Deum confitens
+Christum? Atque ideo scribit quibusdam: <hi>Miror
+quod sic cito transferimini ab eo, qui vos vocavit
+in aliud evangelium, quod non est aliud, nisi aliqui
+sunt conturbantes vos et volentes convertere Evangelium
+Christi <note>(Gal. I, 6)</note>
+            </hi>. Ait autem iterum: <hi>Sed etsi nos aut
+<pb n="1024A"/>
+Angelus de coelo evangelizaverit vobis, praeter id quod
+accepistis, anathema sit <note>(Ibid.)</note>
+            </hi>. Pro qua igitur causa
+alios omnes omittens, licet Deum inhabitantem habuerint,
+solum praedicabat Jesum sicut Deum.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIV. <hi>Aliud.</hi> </head>
+<p>Scriptum est de Christo: <hi>Cum autem esset in Jerosolymis
+in die festo, multi crediderunt in nomine
+ejus videntes signa quae faciebat; ipse autem Jesus non
+credebat se illis; quod ipse sciebat omnes, et quod non
+necesse habebat, ut aliquis testimonium perhiberet de
+homine: ipse enim sciebat quid erat in homine <note>(Joan.
+II, 23)</note>
+            </hi>. Si homo esset <foreign xml:lang="greek">θεοφόρος,</foreign> quomodo non decepti
+sunt multi, qui Jerosolymis in nomen ejus crediderunt?
+<pb n="1024B"/>
+Vel quare solus cognoscit, quae sunt in homine,
+cum praesertim nemo alius sciat? Finxisse enim dicitur
+Deus corda nostra singillatim <note>(Psal. XXXII, 15)</note>.
+Vel quare solus remittit peccata? Ait enim: <hi>Quia
+potestatem habet Filius in terra remittere peccata <note>(Matt. IX, 6)</note>
+            </hi>.
+Quare solus praeter alios assessor sedet
+Dei et Patris? Quare soli obsequuntur angeli? Cur
+nos quidem docuit communem putare Patrem, qui
+est in coelis; sibi autem eum specialiter scribebat?</p>
+<p>Sed forte dices quod hujusmodi voces inhabitanti
+Verbo deputandae sint. Nonne igitur eum oportebat,
+juxta prophetis [ <hi>Baluz.</hi> prophetas] convenientem
+mensuram, ipsum quoque dicere: <hi>Haec dicit Dominus.</hi> 
+Verum cum ea quae supra legem sancire vellet, assumens
+sibi convenientem legislatori [ <hi>Baluz.</hi> legislator]
+<pb n="1024C"/>
+auctoritatem, aiebat: <hi>Ego dico vobis <note>(Matth. V, 32)</note>
+            </hi>.</p>
+<p>Quomodo liberum se ait, et non obnoxium Deo?
+Ideo quia est Filius in veritate? Et si esset homo <foreign xml:lang="greek">θεοφόρος,</foreign>
+ essetne etiam liber secundum naturam? Solus
+[ <hi>Baluz.</hi> Hujus] enim Deus liber, atque solutus est:
+solus enim quasi tributa omnium exigit; et tamquam
+loco debitorum ab omnibus recipit religionem. Etsi
+exitus legis et prophetarum Christus est, est autem
+homo <foreign xml:lang="greek">θεοφόρος</foreign>; nonne dicere liceat, quod propheticarum
+praedicationum exitus <foreign xml:lang="greek">ἀνθρωπολατρίας</foreign> nobis crimen
+induxerit?</p>
+<p>Deinde lex quidem praedicabat: <hi>Dominum Deum
+tuum adorabis, et illi soli servies <note>(Deut. VI, 13)</note>
+            </hi>. Qua
+nos eruditione perduxit ad Christum, quasi ad agnitionem
+illis, qui in umbris fuerant, potiorem: spernentesne
+<pb n="1024D"/>
+igitur Deum Legis et Prophetarum [ <hi>Baluz.
+om.</hi> Legis et Prophetarum] adorare, adorabimus hominem
+habentem Deum inhabitantem? Ubi enim
+praestabilius erat Deum intelligi? In coelo, an in terra
+[ <hi>Baluz.</hi> an magis homine]? In seraphim, an in terreno
+corpore?</p>
+<p>Si erat homo <foreign xml:lang="greek">θεοφόρος,</foreign> quomodo <hi>propemodum ac
+nos participavit carni ac sanguini <note>(Heb. II, 14)</note>
+            </hi>? Nam
+si quia Deus inhabitavit, hoc ei sufficit, ut similiter
+ac nos participaret carni et sanguini; et ita his participare
+id ipsum est, quod hominem factum esse:
+<pb n="1025A"/>
+inhabitavit autem et in multis sanctis; homo igitur
+non semel, sed saepissime factus est. Quare ergo <hi>semel in consummatione saeculorum, in destructionem</hi> 
+[Baluz. <hi>destitutionem] peccati, per hostiam suam dicitur
+apparuisse <note>(Heb. IX, 26)</note>
+            </hi>? Quomodo autem unum
+nobis Verbi adventum praedicant divinae Scripturae, si <foreign xml:lang="greek">θεοφόρος</foreign>
+ erat homo? Si templum et ipse factus est
+Dei, quomodo et in nobis etiam Christus est? Sicutne
+templum in templis? An ut Deus magis in templis
+per Spiritum? Si <foreign xml:lang="greek">θεοφορος</foreign> erat homo, cur est
+solius ipsius corpus vivificum? Oportuerat enim aliorum
+etiam corpora esse talia, in quibus habitavit
+Deus omnipotens.</p>
+<p>Scripsit autem alicubi etiam divinus Paulus: <hi>Irritam
+faciens quis legem Moysis, sine ulla miseratione
+duobus aut tribus testibus moritur, quanto magis putatis
+<pb n="1025B"/>
+deteriora mereri supplicia, qui Filium Dei conculcaverit,
+et sanguinem testamenti pollutum duxerit?</hi> Atqui
+divina erat lex, et mandata dicta per angelos. Quomodo
+igitur dignus erit deteriore supplicio, qui pollutum
+duxerit sanguinem Christi? Vel quomodo potior
+est religione, quae est secundum legem, fides in Christum?
+Sed, ut jam ante diximus, Christus non similis
+aliorum sanctorum, homo <foreign xml:lang="greek">θεοφόρος,</foreign> sed Deus magis
+vere, et omni mundo celsiorem possidet gloriam,
+quod cum Deus sit natura Dei Verbum, factus est
+caro, sive homo perfectus: animatum enim et rationabile
+esse, quod adunatum est ei, credimus corpus,
+et vera [ <hi>Baluz.</hi> vere] omnino est adunatio.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXV. <hi>Quomodo oportet intelligere:</hi> Verbum caro factum est, et habitavit in nobis; <hi>et quomodo proprium ipsius dicatur corpus.</hi> </head>
+
+<pb n="1025C"/>
+<p>Semen Abrahae apprehendisse Verbum Dei unigenitum,
+beatus Paulus commemorat <note>(Heb. II, 16)</note>; nec
+non etiam, quod propemodum ac nos participavit
+carni et sanguini <note>(Ibid. 14)</note>. Memores autem sumus
+etiam Joannis; ait enim: <hi>Verbum caro factum est, et
+habitavit in nobis <note>(Joan. I, 14)</note>
+            </hi>. Idne igitur fuit propositum
+viris spiritalibus, docere, quod Dei Verbum
+conversionis sit patiens; aut quod ipsum fas sit commutationem,
+quae magis creaturae conveniat, sustinere:
+adeo ut id, quod non erat, forsitan in id sua sponte deveniat;
+aut [ <hi>Baluz. add.</hi> ut] alius contra ipsius voluntatem
+ad aliam naturam impellat [ <hi>Baluz.</hi> impellatur];
+<pb n="1025D"/>
+absit. Manet namque idem, a sua natura commutationem
+omnem excludens, conversionis umbram nesciens
+pati: fixa est enim semper in suis superna illa
+coelestisque natura.</p>
+<p>Quomodo igitur Verbum caro factum sit, videre necesse
+[ <hi>Baluz. om.</hi> necesse] est. Primum quidem divina
+Scriptura carnem plerumque nominat hominem [ <hi>Baluz.
+om.</hi> hominem], et quasi ex parte animalis totius significationem
+facit, nec non etiam a sola anima interdum
+<pb n="1026A"/>
+tantumdem agit; scriptum est enim quod <hi>videbit omnis
+caro salutare Dei <note>(Luc. III, 6)</note>
+            </hi>. Et ipse divinus Paulus: <hi>Non consensi,</hi> 
+ inquit, <hi>carni et sanguini <note>(Gal. I, 16)</note>
+            </hi>.
+Allocutus est autem eos, qui sunt ex Israel pontifex
+Moyses: <hi>In septuaginta et quinque animabus descenderunt
+patres tui in Aegyptum <note>(Deut. X, 22)</note>
+            </hi>. Sed non
+idcirco dixeris, quod nudae et sine carnibus animae
+in Aegyptum descenderint; nec porro quod inanimis
+corporibus, et solis carnibus, salutare suum Deus indulserit.
+Quoties igitur audimus carnem factum esse
+Verbum, hominem intelligimus ex anima et corpore.
+Factum est autem Verbum, cum sit Deus, homo
+perfectus, corpus accipiens animatum et rationabile,
+idque sibi vere adunavit, quomodo ipse sciat, nostris
+enim sensibus hujusmodi cogitationes omnino cerni
+<pb n="1026B"/>
+non possunt, et nuncupatus est filius hominis.</p>
+<p>Sed si oportet tamquam in speculum intuentes dicere,
+conjectat aliquo modo sensus humanus, adunatum
+fuisse Verbum corpori habenti animam rationabilem
+qualiter etiam hominis animam suo corpori,
+ipsam quidem diversae naturae, sortitam tamen communionem
+adunationemque cum corpore; ut pene
+videatur non esse alia praeter corpus, eo quod per
+compositionem ex utroque animal unum efficiatur
+[ <hi>Baluz.</hi> efficiamur], manente tamen ipsa, ut ante memoravi,
+in sua natura. Ergo non per commutationem
+aut conversionem, hominem factum Dei dicimus Verbum;
+nec prorsus, quod Deus esse desierit; sed
+quod carnem accipiens ex muliere, et ei ex utero
+adunatus, exiit homo idem simul et Deus; neque Dei
+<pb n="1026C"/>
+et Patris generationem aeternam [ <hi>Baluz. om.</hi> aeternam]
+projiciens, sustinuit temporalem [ <hi>Baluz.</hi> arcanam],
+ex muliere inde initium, ut esset, accipiens.
+Permittebat autem carni propriae suae [ <hi>Baluz. add.</hi> 
+naturae] legibus nasci, nativitatis ratione dumtaxat.
+Caeterum habet in se aliquid ab humana natura dissimile:
+natus est enim ex Virgine, et solus habet matrem
+innuptam; factum autem ipsum etiam carnem,
+et in nobis inhabitasse, Evangelista [ <hi>Baluz. om.</hi> Evangelista]
+commemorat, ut utroque comprobaret, et factum
+fuisse hominem, et suum non perdidisse: mansit
+enim quod erat.</p>
+<p>Intelligitur namque certe tamquam aliud in alio inhabitare,
+id est, divina natura in humanitate, non
+perpessa commixtionem, aut confusionem, aut commutationem,
+<pb n="1026D"/>
+ut esset, quod non erat. Quidquid enim
+in alio habitare dicitur, non ipsum fit tale, quale est
+id, in quo habitat; sed aliud in alio magis intelligitur.
+At vero in Verbi natura et humanitatis, solam
+nobis differentiam designat diversitas naturarum.
+Unus enim ex utroque intelligitur Christus. Ergo inconfusione,
+ut ante dixi, servata, inhabitasse Verbum
+ait in nobis: scit enim unum esse Filium unigenitum
+carnem factum, et hominem.</p>
+<p>
+            <pb n="1027A"/> Carne autem mihi videtur divinus Evangelista,
+totam sapienter naturam hominum nominare: ait
+enim Verbum inhabitasse in nobis, non alterius, ut
+ego opinor, gratia, incarnationem Verbi factam esse,
+commemorans; nisi ut etiam nos, participatu ipsius
+per Spiritum sanctum locupletati, adoptionis beneficium
+lucraremur. Igitur in Christo unitatem summam
+veramque credimus factam. Sin autem in nobis Christus
+inhabitare dicatur, <foreign xml:lang="greek">σχετικὴν</foreign> ipse faciet inhabitationem.
+Non autem cum Deus dicitur inhabitasse in
+Christo: <hi>Inhabitavit namque in eo omnis plenitudo divinitatis
+corporaliter <note>(Col. II, 9)</note>
+            </hi>; non per participatum,
+vel <foreign xml:lang="greek">σχέσιν</foreign> simplicem, quasi sole illucente, aut
+igni insitum sibi calorem aliis immittente; sed, ut ita
+dicam, ipsa divina sinceraque natura, juxta totum id
+<pb n="1027B"/>
+quod est, inhabitationem sibi faciente, per veram, ut
+ante diximus, unitatem, in templo quod est natum ex
+virgine: ita enim unus, et est, et intelligitur Christus
+Jesus.</p>
+<p>Quod vero in expressionum summa noster sermo
+vincatur, non negabo; sed non idcirco Christi mysterium
+non credatur; sed magis sit merito mirabilius.
+Quanto enim omni est mente superius et sermone,
+tanto magis ultra omnem admirationem ponendum
+est.</p>
+<p>Carnem vero factum Verbum, id est, hominem
+perfectum, non dicimus, mensura corporis comprehendi,
+id enim ineptissimum est; sed implere sic quoque
+credimus, sicut solet, coelum et terram, et quae
+inferius posita sunt: omnia etenim plena sunt Deo,
+<pb n="1027C"/>
+et omnia ipsi parvula sunt. At quomodo et in singulis,
+et in omnibus totus sit, intellectu dictuque difficile
+est, immo vero etiam impossibile. Id autem, ut
+opinor, eo possidet, quod incorporeus sit et indispertibilis.</p>
+<p>Proprium autem Verbi corpus dicitur a nobis: non
+quemadmodum proprius est hominis risus, vel equi
+hinnitus; sed quod, factum ipsius per adunationem
+veram, instrumenti ei praebeat officium, ad exsequendum
+ea quae more solito operatur, absque solo peccato.</p>
+<p>Sin vero Deus Verbum etiam missum fuisse forte
+dicatur, ne quis vestrum terreatur, illud cogitans,
+quo perget incorporeum, vel quo cedet is, quo plena
+sunt omnia? Sciat autem magis, quod sit et alius
+<pb n="1027D"/>
+missionis modus. Non ut locum de loco, qui mittitur,
+mutet; sed ut ministerium magis sacrum suscipiat,
+quod etiam discipulis injunctum esse discimus a
+Christo omnium salvatore.</p>
+<p>Denique etiam divinus Paulus ait de Christo: <hi>Ergo,
+fratres sancti, vocationis coelestis participes, considerate
+apostolum et pontificem confessionis nostrae Jesum <note>(Hebr. III, 1)</note>
+            </hi>.
+Animadverte autem quod, cum eum
+ministrantem hominum more ostendit, licet natura
+sit Deus, tunc ei etiam officium apostolatus attribuit:
+<pb n="1028A"/>
+nihil autem, ut ante diximus, absurdum est, si Deus
+Verbum mitti etiam dicatur a Patre; implet namque
+certissime omnia, et nulli loco penitus deest: nos
+vero humanis vocibus divina interpretantes, figurationibus
+corporis immortalis naturae dispensationem
+solemus intelligere.</p>
+<p>Denique cum sanctus Spiritus omnia impleat, scribit
+beatus Paulus, et dicit: <hi>Quoniam autem estis filii,
+misit Deus Spiritum Filii sui in corda nostra, in quo
+clamamus: Abba Pater <note>(Gal. IV, 6)</note>
+            </hi>. Ait autem et ipse
+Salvator: <hi>Expedit vobis, ut ego eam; nam si non
+abiero, Paracletus non veniet ad vos <note>(Joan. XVI, 7)</note>
+            </hi>.
+Oportet igitur ad rationem pietatis omnia referentes,
+certa cogitatione sectari: id enim facientes nobismetipsis
+maxime profuerimus.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXVI. <hi>Quomodo intelligitur</hi> <foreign xml:lang="greek">Θεοτόκος</foreign> <hi>Virgo sancta.</hi> </head>
+
+<pb n="1028B"/>
+<p>Natum est quidem inaestimabiliter Verbum Dei et
+Patris; et haec generatio omnem sensum cogitationemque
+transcendit, et est incorporali naturae conveniens.
+Verumtamen id quod natum est, proprius
+partus intelligitur genitoris, et ejusdem cum eo substantiae;
+ideoque etiam filius nominatur, nomine
+scilicet indicante [ <hi>Baluz. add.</hi> quasi] veram sinceramque
+progeniem; sed cum sit vivus in aeternum
+Pater, necesse est, eum quoque vivere in aeternum,
+propter quem est Pater. Igitur <hi>In principio erat Verbum,
+et Deus erat Verbum, et erat etiam Verbum apud
+Deum <note>(Joan. I, 1)</note>
+            </hi>, ut sapientissimus Evangelista
+<pb n="1028C"/>
+commemorat. In consummatione autem temporum,
+propter nos homines, [ <hi>Baluz. add.</hi> et propter nostram
+salutem] incarnatum est, et homo est factum; non
+amittens quod erat, sed retinens inconvertibilem
+suam naturam, et semper in divinitatis fastigio collocatam;
+suscipiens [ <hi>Baluz.</hi> subiens] tamen propter
+nos dispensatorie exinanitatem; nec inhonorans [ <hi>Id
+est,</hi> non despiciens] pauperiem, quae humanae naturae
+convenit: nam <hi>cum esset dives, pauper est factus,</hi> sicut
+scriptum est: <hi>ut nos paupertate ejus divites essemus <note>(II Cor. VIII, 9)</note>
+            </hi>.
+Factum est igitur homo, et generationem
+ex muliere passum dicitur. Igitur propterea
+quod ex sancta Virgine vere sibi adunatum corpus
+acceperit; inde <foreign xml:lang="greek">Θεοτόκον</foreign> esse dicimus Virginem sanctam,
+quia id humane, sive secundum carnem peperit,
+<pb n="1028D"/>
+licet haberet ante saecula generationem ex Patre.</p>
+<p>Opinari autem nonnullos Verbum hinc initium fuisse
+sortitum, cum homo sit factum, impietatis est furorisque
+plenissimum. Eos etenim insipientissimos esse,
+monstravit ipse Salvator de se dicens: <hi>Amen dico vobis,
+antequam Abraham esset, ego sum <note>(Joan. VIII, 58)</note>
+            </hi>.
+Quomodo enim aliter ante Abraham erat, qui multis
+post temporibus secundum carnem natus est? Satis
+autem ipsos, ut opinor, redarguet divinus Joannes
+dicens: <hi>Hic erat, de quo ego dixi: Post me venit vir,
+<pb n="1029A"/>
+qui ante me factus est, quia prior me erat <note>(Joan. I, 30)</note>
+            </hi>.</p>
+<p>Praetermittentes igitur in re tam frivola sine causa
+certare, ad illud magis veniamus, quod etiam emolumenti
+aliquid possit afferre, ne moleste ferant nonnulli
+audientes, esse sanctam Virginem <foreign xml:lang="greek">Θεοτόκον,</foreign> nec
+incredulitatis Judaicae suas oppleant mentes, immo
+vero etiam paganicae impietatis. Judaei etenim aggrediebantur
+Christum dicentes: <hi>De bono opere non lapidamus
+te; sed de blasphemia, quod cum sis homo,
+facis te Deum <note>(Joan. X, 23)</note>
+            </hi>. At vero filii paganorum
+Ecclesiae dogmata derident, audientes ex muliere
+Deum esse progenitum; sed illi quidem suae dementiae
+exedent fructus, et audient a nobis: <hi>Stultus stulte
+loquitur, et cor ipsius vana intelliget.</hi> Nostri enim mysterii
+ratio [ <hi>Baluz.</hi> oratio], licet Judaeis sit scandalum,
+<pb n="1029B"/>
+gentibus autem stultitia; nobis tamen, quod scimus,
+vere est admirabile, et salutare, et dignissimum
+credi: et si esset omnino quisquam, qui dicere auderet,
+hanc carnem terrenam nudae divinitatis fuisse
+genitricem, et ex ea creatura omni superiorem natam
+fuisse naturam, insania id esset et furor. Neque enim
+ex terra divina est facta natura; nec corruptibile incorruptionis
+radix umquam fiet; nec mortalitas pariet
+vitam; nec corporis tractabilis incorporale fiet germen;
+nec increatum a creato nascetur; nec quod
+absque initio, ab eo quod habet initium.</p>
+<p>Verum quoniam Dei Verbum juxta nos factum esse
+affirmamus, et nostris corporibus corpus sumpsisse
+consimile, idque sibi verissime adunasse, arcana inenarrabilique
+ratione, et sic hominem factum carnaliter
+<pb n="1029C"/>
+natum esse, quid absurdum est, vel quod credi
+non debeat? Cum praesertim hominis anima, ut saepissime
+diximus, cum sit naturae alterius praeter corpus,
+nascatur tamen cum ipso, cum sit ei adunata,
+nec quisquam arbitretur naturam corporis animae
+initium praebere substantiae; sed immittit quidem ipsam
+inaestimabiliter Deus in corpus, et cum ipso
+etiam nascitur: unum tamen ex utroque animal definimus,
+hominem scilicet. Igitur Verbum quidem
+Deus erat, factum est autem et homo, et quia natum
+est secundum carnem, propter humanitatem necessarium
+est, ut quae ipsum peperit, sit <foreign xml:lang="greek">Θεοτόκος</foreign>: nam
+si non peperit Deum, certe nec dicetur Deus, qui est
+ab ipsa progenitus; sin vero Deum ipsum divinae Scripturae
+nominant, peperit ipsa Deum hominem factum,
+<pb n="1029D"/>
+siquidem homo aliter fieri non posset, nisi per generationem
+ex muliere. Quomodo igitur non sit, quae
+ipsum peperit, <foreign xml:lang="greek">Θεοτόκος.</foreign> Quod autem Deus sit verus,
+qui natus inde est, ex divina Scriptura discimus.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXVII. <hi>Dicta de Christo.</hi> </head>
+<p> <hi>Ecce Virgo in utero accipiet, et pariet filium, et
+vocabunt nomen ejus Emmanuel <note>(Isai. VII, 14, juxta
+Matth. et Cyrilli lectionem)</note>
+            </hi>. Quomodo ergo id quod
+natum est ex sancta Virgine, Emmanuel nominatur,
+cum Emmanuel, ut ante dixi, significet in nostra natura
+<pb n="1030A"/>
+propter carnem fuisse Verbum, quod est Deus
+verus de Deo vero [ <hi>Baluz. om.</hi> vero]? Sed factus est
+Emmanuel: exinanivit enim se, generationem nostram
+et similem passus, ac sic nobiscum conversatus
+est. Ergo et Deus in carne, et <foreign xml:lang="greek">Θεοτόκος</foreign> vere
+est quae eum carnaliter, sive secundum carnem generavit.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXVIII. <hi>Aliud.</hi> </head>
+<p> <hi>Quoniam omnes stolam dolo congregatam, et vestimentum
+cum commutatione reponent, et volent, si fuissent
+isti combusti; quoniam parvulus natus est nobis,
+et filius datus est nobis, cujus principatus factus est in
+<pb n="1030B"/>
+humero ejus, et vocatur nomen ejus magni consilii nuntius <note>(Isai. IX, 5, juxta LXX)</note>
+            </hi>. Audis, quod puer nominatus
+sit, quodque generationem sit nostrae similem
+passus. At eum puerum coelum per stellam clarissimam
+indicavit; magi adoraverunt ex ultimis
+terrae limitibus adventantes; angeli pastoribus evangelizabant,
+Salvatorem esse natum dicentes et, pacem
+nec non etiam Patris bonam voluntatem annuntiantes: <hi>Est magni consilii nuntius.</hi> 
+ Manifestavit etenim
+nobis Patris voluntatem, qui <hi>in eo complacuit orbem
+salvare terrarum <note>(Col. II, 20)</note>
+            </hi>, et per ipsum et in
+ipso mundum sibi reconciliare: Christo enim reconciliati,
+Deo sumus reconciliati, Deus est enim vere
+Filius Dei et Patris. Quodnam igitur sit Patris consilium,
+cujus nobis fuerit nuntius, ipse docebit dicens:
+<pb n="1030C"/> <hi>Ita enim dilexit Deus mundum, ut Filium suum unigenitum
+daret, ut omnis qui credit in ipsum, non pereat,
+sed habeat vitam aeternam 
+ <note>(Joan. III, 16)</note>
+            </hi>. Filius autem
+unigenitus ille est qui est ex sancta Virgine procreatus:
+ipsum enim Verbum homo factum, quod
+fuit Deus in carne, ac sic terrenis apparuit. Denique
+dicebat: <hi>Qui credit in me, habet vitam aeternam <note>(Joan.
+VI, 47)</note>
+            </hi>. Quod vero per ipsum et in ipso credamus
+Patri, explanavit dicens: <hi>Qui credit in me,</hi> [Baluz.
+add. <hi>non credit in me,] sed in eum qui misit me <note>(Joan.
+XII, 44)</note>
+            </hi>; et: <hi>Qui vidit eum qui misit me <note>(Ibid.
+v. 45)</note>
+            </hi>.</p>
+<p> <hi>Audite me, insulae, et attendite, gentes. Post multum
+temporis stabit, dicit Dominus; ex utero matris vocabunt
+nomen meum <note>(Isai. XLIX, 1, juxta LXX)</note>
+            </hi>. Cum
+<pb n="1030D"/>
+Verbum sit Deus, non ignoravit quod generationem
+patietur, ex muliere incarnatum propter nos. Sciebat
+autem quod vocabitur Christus Jesus a Deo et Patre;
+omnibus nobis novum filii nomen praedicans, quod est
+benedictum in terra. Observa autem quod propriam
+nominet matrem, quae suum peperit corpus. Ergo si
+Deum [ <hi>Baluz. add.</hi> verum] se esse cognoscit, illa quae
+eum carnaliter peperit, <foreign xml:lang="greek">Θεοτόκος</foreign> dicitur, et quidem
+recte: sin vero non est Deus, id quod audacter,
+immo potius scelerate nonnulli sentiunt, privari oportet
+ipsam Virginem sanctam hoc nomine, quo <foreign xml:lang="greek">Θεοτόκος</foreign>
+esse dicatur.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIX. <hi>Quod Deus nominatur et homo apparens Unigenitus.</hi> </head>
+
+<pb n="1031A"/>
+<p>Salomon ait orans: <hi>Et nunc, Domine Deus Israel,
+credibile fiat verbum tuum, quod locutus es puero tuo
+David. Ergone credibile est quod habitavit Deus cum
+hominibus in terra <note>(II Paralip. VI, 17, juxta LXX)</note>
+            </hi>?
+Animadverte, quod miretur Verbi incarnationem:
+habitavit namque cum hominibus in terra, cum homo
+est factum, res enim incredibilis videbatur. Alioquin
+quomodo id praecipuum quiddam sit, vel quomodo id
+miratione dignum, cum Deus ab his, quae ipse creaverit,
+non discedat, fovens ea scilicet, et ea quidem
+continens, quae jam facta sunt; ea vero quae nondum
+facta sunt, creans. Miraculum autem vere praecipuum,
+<pb n="1031B"/>
+quod in terra cum hominibus habitarit homo factus
+Deus, juxta promissiones jam antea datas divino David;
+scriptum est enim: <hi>Juravit Dominus David veritatem,
+et non frustrabitur eam <note>(Psal. CXXXI, 11)</note>
+            </hi>. Quid
+autem juravit? <hi>De fructu ventris tui ponam super sedem
+tuam.</hi> Et vero ille, quamvis credidisset, quod numquam
+abneget promissionem Deus omnipotens, tamen
+ipsum generationis locum curiosius inquirebat, ideoque
+dicebat: <hi>Si ascendero super lectum strati mei, si
+dedero somnum oculis meis, aut palpebris meis dormitationem,
+aut requiem temporibus meis, donec inveniam
+locum Domino, tabernaculum Deo Jacob <note>(Ibid.
+v. 3)</note>
+            </hi>. Deinde cum id quoque per spiritum reperisset,
+et carnalis generationis Unigeniti locum cognovisset,
+evangelizabat et dicebat: <hi>Audivimus eam in Ephrata,</hi> 
+<pb n="1031C"/>
+id est, in Bethleem; <hi>invenimus eam in campis silvae.</hi> 
+Quod vero dicens Ephrata, significet Bethleem, propheta
+comprobavit: <hi>Et tu Bethleem domus Ephrata <note>(Mich. V, 2)</note>
+            </hi>.
+Observa autem quomodo eum, quem
+crediderat creatum juxta nos in Ephrata, Deum Jacob
+nominet, cujus inhabitatio fuit in tabernaculo: ibi
+enim peperit Jesum sancta Virgo.</p>
+<p>Nominat autem eum et alibi Deum Abraham dicens: <hi>Principes populorum congregati sunt cum Deo Abraham <note>(Psal. XLVI, 10)</note>
+            </hi>.
+Pene enim mentis suae oculis, per illuminationem
+Spiritus sancti, futurorum scientia eruditus,
+principes populorum, id est, sanctos apostolos
+in Domini nostri Jesu Christi cernebat obsequio. Cum
+igitur <hi>Deus Abraham</hi> et <hi>Deus Jacob,</hi> qui est natus ex
+muliere, nominatus sit, quare non sit Virgo sancta
+<pb n="1031D"/> <foreign xml:lang="greek">Θεοτόκος</foreign>
+?
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXX. <hi>Aliud.</hi> </head>
+<p>Propheta Habacuc: <hi>Domine,</hi> inquit, <hi>inaudivi auditum
+tuum, et timui. Consideravi opera tua, et expavi. In
+medio duorum animalium cognosceris: in adventum
+temporis ostenderis in eo: dum conturbata fuerit anima
+mea, in ira misericordiae memor eris. Deus de Theman
+veniet, et sanctus de monte Pharan <note>(Habac. III, 1)</note>
+            </hi>.
+Vide, quomodo in medio duorum animalium cognoscetur:
+nam cum natus esset ex muliere, et vixisset
+usque ad tempus pretiosae crucis; <hi>gratia Dei,</hi> sicut
+<pb n="1032A"/>
+ait beatus Paulus, <hi>per suum corpus pro omnibus gustavit
+mortem <note>(Heb. II, 9)</note>
+            </hi>. Sed quoniam natura erat
+Deus, resurrexit denuo in sempiternam vitam. Cognitus
+est igitur hic, qui pro nobis pretiosam sustinuit crucem
+in medio duorum animalium. Nam ipse alicubi ait ad
+Judaeos: <hi>Cum exaltaveritis filium hominis, tum cognoscetis
+quia ego sum <note>(Joan. VIII, 28)</note>
+            </hi>. Vide etiam, quomodo
+Deum ipsum nominans, ex Theman venturum,
+et ex Pharan monte pronuntiat (interpretatur autem
+Theman Auster): apparuit enim Christus, non a regionibus
+Aquilonis, sed ab australi Judaea, in qua etiam
+Bethleem est. Cum igitur is, qui Dominus et Deus
+nominatus est, ex Judaea venerit australi, natus est
+enim in Bethleem; quomodo non sit sancta Virgo <foreign xml:lang="greek">Θεοτόκος</foreign>
+?</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXXI. <hi>Aliud.</hi> </head>
+
+<pb n="1032B"/>
+<p>In Genesi scriptum est: <hi>Subremansit autem Jacob
+solus, et luctabatur homo cum ipso usque ad mane: vidit
+autem quod non praevaleret ad ipsum, et tetigit latitudinem 
+ femoris ejus, cum luctaretur cum eo, et dixit
+ei: Dimitte me, ascendit enim ortus. Ille autem dixit:
+Non te dimitto, nisi benedixeris mihi.</hi> Et post alia: <hi>Benedixit autem eum ibi, et vocavit nomen loci illius,
+faciem Dei: vidi enim,</hi> 
+ inquit, <hi>Deum facie ad faciem,
+et salvata est anima mea: ascendit autem sol, et transiit
+facies Dei; ipse autem titubabat femore suo <note>(Gen. XXXII,
+24)</note>
+            </hi>. Mysticus quidem est Scripturarum sensus: subindicare
+enim videtur Judaeorum obluctationem, qua
+utebantur cum Christo [ <hi>Baluz. om.</hi> cum Christo],
+<pb n="1032C"/>
+pene cum ipso luctantes; qui tamen superati sunt, et
+ipsi etiam impetraturi benedictionem ipsius, si per fidem
+ad eum novissimis temporibus se convertissent.
+Attamen ille certe [ <hi>Baluz.</hi> illud cerne:] homo erat,
+qui luctabatur, et eum tamen Jacob Dei faciem nominabat;
+neque id solum, sed sciebat eum Deum esse
+secundum veritatem: <hi>Vidi enim,</hi> inquit, <hi>Deum facie
+ad faciem, et salvata est anima mea <note>(Ibid. v. 30)</note>
+            </hi>. Deus
+namque est natura Emmanuel. Dicitur autem etiam
+facies Dei. Nam est <hi>figura substantiae Patris <note>(Heb. I,
+3)</note>
+            </hi>, et ita se vocabat apud Judaeos, cum diceret de Deo
+et Patre: <hi>Neque faciem ejus vidistis, et Verbum ejus
+non habetis in vobis manens, quia quem misit ille, huic
+vos non creditis <note>(Joan. V, 38)</note>
+            </hi>.</p>
+<p>Quod vero Deus sit verus homo ille qui luctabatur
+<pb n="1032D"/>
+cum Jacob, sacra iterum littera faciet fidem; dixit
+enim: <hi>Inquit Dominus ad Jacob: Surge, ascende in locum
+Bethleem, habita ibi, et fac ibi altare Deo, qui apparuit
+tibi cum fugeres a facie fratris tui Esau <note>(Gen.
+XXXV, 1)</note>
+            </hi>. Revertens enim ex Mesopotamia Dei jussu
+[ <hi>Baluz. om.</hi> Dei jussu], et timens Esau, trajecit Jacob
+pueros et omnia vasa sua: <hi>Subremansit autem solus,
+et luctabatur homo cum eo <note>(Gen. XXXII, 24)</note>
+            </hi>.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXII. <hi>Aliud.</hi> </head>
+<p>Beatus Daniel horribilem visionem nobis exponens:
+<pb n="1033A"/> <hi>Videbam,</hi> 
+ inquit, <hi>in visione noctis, et ecce, cum nubibus
+coeli quasi filius hominis veniens, et usque ad Vetustum
+dierum pervenit, et in conspectum ejus adduxerunt
+eum, et ipsi datus est honor, et regnum: et omnes populi,
+tribus, et linguae ipsi servient: potestas ejus potestas in
+aeternum, quae non transgredietur, et regnum ejus non
+corrumpetur <note>(Dan. VII, 13)</note>
+            </hi>. Audis quemadmodum non
+hominem simpliciter se vidisse commemoret, ne unus
+ex nobis, et juxta nos Emmanuel esse credatur; sed
+quasi filium hominis; [ Cum enim Verbum natura
+sit Deus; <hi>in similitudine tamen hominum factum fuit,
+et inventum est habitu ut homo <note>(Philipp. II, 7)</note>
+            </hi>, ut in
+eodem utrumque intelligatur, id est, neque homo nudus,
+neque Verbum absque humanitate et carne.] tamen
+ei principatum et honorem, quae semper habebat
+<pb n="1033B"/>
+[ <hi>Baluz.</hi> habeat], data esse commemorat: ait enim
+quod <hi>omnes populi, tribus, et linguae ipsi servient.</hi> Cum
+igitur etiam in humanitate positum unigenitum Dei
+Verbum servientem habeat creaturam, et Patris principatum
+et suum, pepererit autem secundum carnem
+ipsum sancta Virgo; quomodo non intelligitur <foreign xml:lang="greek">Θεοτόκος</foreign>
+?</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXXIII. <hi>De Christi passione; et quod utile sit, quod secundum aliud et aliud de uno et eodem dicitur, nec dividimus in duo.</hi> </head>
+<p>Sanctus Paulus salutarem passionem nobis exponit,
+ait namque: <hi>Nunc gratia Dei pro omnibus gustavit
+mortem <note>(Heb. II, 9)</note>
+            </hi>; nec non etiam: <hi>Tradidi enim vobis
+imprimis, quod et accepi: quoniam Christus mortuus est
+<pb n="1033C"/>
+pro peccatis nostris, secundum Scripturas: et quia sepultus
+est, et quia resurrexit tertia die <note>(I Cor. XV, 3)</note>
+            </hi>. Ad
+hoc etiam sapientissimus Petrus: <hi>Christo,</hi> inquit, <hi>passo pro nobis carne</hi> 
+ ( <note>(I Pet. IV, 1)</note>. Cum unum igitur
+credimus Dominum nostrum Jesum Christum, id
+est, in humana forma conspectum, sive hominem factum
+juxta nos, Deum Verbum, quomodo et passionem
+ipsi deputemus, et impassibile tamen servemus,
+ut Deum?</p>
+<p>Ergo passio dispensationis erat, sua quidem ducente
+Deo Verbo ea, quae sunt propria carnis, propter
+inenarrabilem unitatem; manente vero extra
+passionem, quantum ad ipsius naturam pertinet:
+impassibilis enim Deus est. Neque id mirum, cum et
+ipsam hominis animam videamus, siquid corpus passum
+<pb n="1033D"/>
+fuerit, extra passionem quidem manentem, quantum
+pertinet ad naturam; attamen non extra passionem
+esse intelligi, eo quod proprium sit corpus ipsius,
+quod patitur. Et licet incontigua sit, et simplex; tamen
+id quod patitur, non est alienum. Sic intelliges
+etiam de Christo omnium salvatore. Utar autem
+exemplis, quae, quasi per aenigma, nobis possint ostendere,
+quod communicarit quidem passioni Unigenitus,
+quantum pertineat ad familiaritatem corporis sui;
+manserit autem passionis expers, ut Deus.</p>
+<p>
+            <pb n="1034A"/>Itaque Deus omnipotens prodigia sapientissimo
+Moysi jubebat efficere, ut crederet ei Israel, quod
+[ <hi>Baluz. add.</hi> non] esset missus a Deo, et ut a violentia
+liberaretur; ait autem: <hi>Et accipies aquam de flumine,
+et effundes super terram, et erit aqua quam accipies
+a flumine, sanguis super terram <note>(Exod. IV, 9)</note>
+            </hi>. Inquimus,
+quod aqua quidem figura sit vitae, et quod
+sit per naturam vita filius ex Patre tamquam ex flumine
+exiens, ejusdem substantiae ratione; itaque omnia
+vivificat: <hi>Sed cum aquam,</hi> inquit, <hi>effuderis super
+terram, erit sanguis.</hi> Verbum, cum factum est caro de
+terra, id est, quando a terra carnem sibi circumdedit,
+tunc in ea mortem nostrae similem dicitur passum,
+licet per naturam sit vita.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XXXIV. <hi>Aliud.</hi> </head>
+
+<pb n="1034B"/>
+<p>In Levitico pollutum Deus [ <hi>Baluz. om.</hi> Deus] et
+immundum leprosum esse significat <note>(Levit. XIII, 1 et
+seq.)</note>, atque ita eum de castris ejici praecipit oportere;
+et si sanatus fuerit morbus, hoc eum pacto
+purgari. <hi>Et accipiens duos pullos mundos, et lignum
+cedrinum, et coccinum et hyssopum, et praecipiet sacerdos,
+et occidens pullum unum in vase fictili, in aqua
+viva, et pullum qui vivit accipiet, et lavabit illum in
+sanguine pulli occisi in aqua viva, et aspergat super
+eum qui purgatus est a lepra septies, et mundus erit.</hi> 
+Reddit quidem nos mundos, et pollutionum sordes
+abluit, et carnalis concupiscentiae mortalitatem repellit
+sanguis pretiosissimus Christi, et purgatio baptismatis
+<pb n="1034C"/>
+sacrosancti. Caeterum illud aspice: omittentes
+enim scriptorum vim examinare, quod mysterio
+expediat, in praesentia memorabimus. Pullis duobus
+comparatur Christus, non quod duo sint filii, sed
+quod unus potius ex duobus, divinitate et humanitate
+in unitatem collatis. Mundi autem pulli: neque enim
+fecit peccatum Deus noster Jesus Christus; sed erat
+Verbum sanctum, et divinitatis, et humanitatis ratione
+[ <hi>Baluz. om.</hi> ratione]. Volucribus vero comparatur,
+quod quasi in sublimi sit supra terram, et e
+coelo desuper: e coelo enim homo est Christus, licet
+carnem sancta Virgo pepererit; eo modo igitur desuper
+et de coelo. Deus enim Verbum, quod est desuper
+et ex Patre, carnem ex Virgine sancta accipiens, et
+eam suam propriamque existimans, tamquam si eam
+<pb n="1034D"/>
+desuper et de coelo detulisset, dicebat: <hi>Nemo ascendit
+in coelum, nisi qui de coelo descendit filius hominis,
+qui est in coelo <note>(Joan. III, 13)</note>
+            </hi>. Ea enim quae sua sunt,
+propriae carni semper attribuit; adunatum vero semel,
+jam cum ipsa unum scilicet aestimatur.</p>
+<p>Caeterum vide, occiso uno pullo, lavari quidem
+alterum ejus sanguine, tamen non emori; et quid
+hoc sit? Vivebat Verbum, licet sua caro fuisset emortua,
+et communem passionem esse dicebat, propter
+adunationem et familiaritatem quam habebat cum
+<pb n="1035A"/>
+carne. Igitur ipsum quidem vivit, ut Deus; corpus
+vero tamquam proprium faciebat, et sic in se familiariter
+accipiebat corporis passiones, cum ipsum
+nihil in natura propria pateretur. Prodest igitur et
+necessarium est, si in uno Christo id accipiamus
+quod secundum aliud et aliud de uno eodemque constituatur,
+et quod in duo dividi non permittatur,
+licet diversa inter se, et minime convenientia, actu
+esse dicantur.</p>
+<p>Est autem tale quod dico. Natum esse secundum
+carnem ex muliere Deum dicimus Verbum, quamvis
+omnibus ipsum [ <hi>Baluz.</hi> ipse] praebeat nasci, et ad
+nativitatem, quae nondum nata sunt, vocet. Secundum
+aliud et aliud [ <hi>Baluz. om.</hi> et aliud] natum est,
+eo quod homo nostri similis intelligatur; vocat autem
+<pb n="1035B"/>
+ad nativitatem omnia, eo quod natura sit Deus.</p>
+<p>Scriptum est etiam de ipso: <hi>Puer proficiebat, et
+confortabatur, et implebatur sapientia et gratia <note>(Luc.
+II, 52)</note>
+            </hi>. Cum natura sit perfectum, ut Deus, et ex sua
+plenitudine spiritalia sanctis impertiat; cum ipsum
+sit sapientiae dator et gratiae, quomodo proficit puer,
+et sapientia impletur et gratia? Secundum aliud et
+aliud: cum sit enim ipse idem homo simul et Deus,
+propter unitatem quidem, propria dicit [ <hi>Baluz.</hi> ducit]
+humana; est autem perfectus, et sapientiae et
+gratiae dator, ut Deus.</p>
+<p>Nuncupatus est etiam et primogenitus, et unigenitus;
+sed si quis vim ipsam scrutari voluerit dictionum,
+primogenitus est, qui inter fratres plurimos
+primogenitus; unigenitus vero, ut unigenitus, non
+<pb n="1035C"/>
+jam primogenitus, nec inter plurimos fratres. At est
+ipse, et hoc, et illud; quomodo ergo? Secundum
+aliud et aliud: primogenitus enim, ut inter plurimos
+fratres, propter humanitatem; unigenitus porro idem,
+ut solus ex solo Patre natus, et ut Deus.</p>
+<p>Sanctificatus fuisse dicitur per Spiritum, cum ipse
+sanctificare soleat accedentes; baptizatus secundum
+carnem, qui in sancto Spiritu baptizabat. Quomodo
+igitur idem, et sanctificat et sanctificatur; baptizat
+et baptizatur? Secundum aliud et aliud: sanctificatur
+enim humane, sicut etiam baptizatur; sanctificat
+autem divine, et baptizat in Spiritu sancto.</p>
+<p>Cum ipse suscitet mortuos, resurrexit a mortuis,
+et cum sit per naturam vita, vivificari dicitur; hoc
+quonam modo? Secundum aliud nempe et aliud:
+<pb n="1035D"/>
+ipse enim resurrexit quidem a mortuis, et vivificari
+dicitur secundum carnem; vivificat autem et suscitat
+a mortuis, utpote Deus. Patitur, et non patitur, secundum
+aliud et aliud: patitur quidem humane carne,
+eo quod homo sit; impassibilis autem divine
+manet, ut Deus.</p>
+<p>Adoravit ipse nobiscum: <hi>Vos enim,</hi> inquit, <hi>adoratis
+quod nescitis; nos adoramus quod scimus <note>(Joan.
+IV, 22)</note>
+            </hi>; et est etiam adorandus: <hi>Flectitur enim ipsi
+omne genu <note>(Philip. II, 10)</note>
+            </hi>. Hoc quoque secundum
+aliud et aliud. Adorat enim, quia naturam assumpsit,
+quae debeat adorare; adoratur autem porro idem,
+quasi major adorante natura, eo quod intelligitur
+Deus. Adoratione vero non est dividendum in hominem
+<pb n="1036A"/>
+seorsus, et seorsus in Deum; neque vero tamquam
+Deo conjunctum aequalitate dignitatis, divisis
+substantiis, cum ipso adorari dicimus hominem (id
+enim extremae impietatis plenissimum est): sed unum
+adorandum hominem factum, et incarnatum Dei Verbum;
+ita tamen, ut credamus corpus ei adunatum
+animam juxta nos habuisse rationabilem. Neque
+enim Deus omnipotens duos primogenitos praecepit
+oportere, tam a nobis quam a sanctis angelis, adorari.
+Unus est enim, qui est introductus in orbem
+terrarum <note>(Heb. I, 6)</note>; et si introductionis modum
+curiosius perscrutemur, carnalis dispensationis mysterium
+inveniemus. Introductus est autem in orbem
+terrarum, tunc cum factus est homo, licet natura sua
+distare ab orbe longissime videatur, et in divinitatis
+<pb n="1036B"/>
+eminentia vere esse credatur: alius est enim praeter
+elementa creator ipsorum. Ergo super ea, quae ipse
+condidit, secundum naturam est, quod natura sit
+Deus. Unus tamen, ut ante dixi, adorandus est, etiam
+tunc cum in multis fuerit fratribus: tunc enim propterea
+dictus est primogenitus.</p>
+<p>Unum Filium adoravit caecus a nativitate sua, cum
+praecipuo mirabilique modo sanatus est. Nam <hi>cum
+invenisset eum in templo Jesus, dixit: Tu credis in
+Filium Dei? Ille autem dixit: Quis est, Domine, ut
+credam in eum <note>(Joan. IX, 38)</note>
+            </hi>? Christus vero ei seipsum
+cum corpore demonstrans, aiebat: <hi>Et vidisti
+quidem eum, et qui loquitur tecum, ipse est <note>(Ibid. 37)</note>
+            </hi>.
+Vides quod singulari numero utatur, non permittens
+Deum et hominem seorsus intelligi; immo vero et
+<pb n="1036C"/>
+siquis hominem nominaverit Emmanuel, minime
+quidem communem hominem significaverit; sed Dei
+Verbum adunatum nostrae naturae. Hunc sicut unum,
+hominem adoravere beati discipuli, cum eum videntes
+miris modis inter aquas ambulare, adoravere, dicentes: <hi>Vere Dei Filius es 
+ <note>(Matth. XIV, 35)</note>
+            </hi>.</p>
+<p>Si vero hominem cum Deo coadorari dixerimus,
+divisionem spatiosissimam inducemus: <foreign xml:lang="greek">σὺν</foreign> enim
+semper (quod est Latine, <hi>cum</hi> ), nisi in significatione
+unitatis, quae est per compositionem, ponatur, duo
+omnino coget intelligi. Quemadmodum enim nemo
+sibi convenire dicatur, neque concoenare, aut coadorare,
+aut coambulare; duarum enim personarum significationem
+inducit praepositio verbo praeposita:
+ita etiam siquis coadorari hominem cum Deo dixerit,
+<pb n="1036D"/>
+duos plane filios dicit, et a sese disjunctos; unitatis
+enim ratio, si in sola dignitatis aequalitate, sive auctoritatis
+intelligatur, non esse vera convincitur, idque
+a nobis jam pluribus ante probatum est.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXV. <hi>Adversus illos qui aiunt, quod sola relatione Deum Verbum deceant humana.</hi> </head>
+<p>Garriunt nonnulli de carnali dispensatione Unigeniti,
+et venerabile, ac magnum, et supernis spiritibus
+amabilissimum mysterium, per quod etiam salvati
+sumus, ad sensus fragiles deferentes, decus contaminant
+pulchritudinemque veritatis; cum eos oporteat,
+non siquid ipsis recte habere videatur, roborare conari;
+<pb n="1037A"/>
+sed inspicere magis, subtili acutoque mentis
+oculo, sacrarum propositum litterarum, atque rectum
+ita iter ingredi, sectantes ea quae Patres sanctissimi
+examinarunt, qui sancti Spiritus illuminationibus
+eruditi, sanxere nobis symbolum fidei, ipsum
+dicentes, quod ex Patris substantia inaestimabiliter
+natum est, Deum Verbum, per quod omnia facta
+sunt, quae in coelo, et quae in terra; propter nos homines,
+et nostrae salutis causa descendisse, [ <hi>Baluz.
+add.</hi> carnem factum] hominem factum, passumque,
+ascendisse in coelum, venturum post [ <hi>Baluz.</hi> per]
+tempora judicare vivos et mortuos.</p>
+<p>Verum nonnulli sunt, doctos se esse scientesque
+opinati, et supercilio, et tumore sufflati, qui si haec
+verba audierint, derident; et ea quae tam recte sunt
+<pb n="1037B"/>
+dicta, deliramenta magis existimant: cum praesertim
+credamus illuminatione Spiritus sancti patuisse sanctis
+Patribus scientiam veritatis. At illi, tamquam si
+soli possint meliora sentire, non ipsum existimant,
+unigenitum Dei Filium, qui est ex substantia ejus,
+Deum Verbum passum esse sua carne pro nobis humane,
+licet eo quod Deus intelligitur, in sua natura
+habeat, ut pati non possit; hominem autem seorsus
+et separatim eum ponentes, qui est ex sancta Virgine
+procreatus. Deinde ei, quantum ipsis videtur, modum
+gloriae tribuentes, adunatum fuisse dicunt Verbo Dei
+Patris; et rationem adunationis exponentes, donatam
+esse ipsi dicunt a Deo aequalitatem dignitatis, sive
+auctoritatis, et ut simili appellatione, et Christus, et
+Filius dicatur, et Dominus. Sin vero etiam passus
+<pb n="1037C"/>
+esse aliquid dicatur homo, qui ab ipsis excogitatur,
+oportere aiunt, in ipsum Deum Verbum referri, eo
+quod conjunctum sit ipsi aequalitate dignitatis, cum,
+naturis divisis, unusquisque id sit, quod est.</p>
+<p>Explanabo autem vim sententiarum, quantum ipse
+valuero, sacrarum litterarum exempla proponens.
+Esuriit Christus, itinere fatigatus est, dormivit, ingressus
+est in naviculam, pulsatus est a ministris verberibus,
+a Pilato flagellatus est, sputamina militum
+excepit, qui lancea latus pungentes, acetum mixtum
+felle ori ejus obtulerunt; gustavit autem et mortem,
+crucem passus, et alia convicia Judaeorum. Haec omnia
+homini quidem contigisse commemorant; referri
+vero in Filii veri personam. At nos credimus, sicut
+in unum Deum Patrem, omnipotentem, omnium visibilium
+<pb n="1037D"/>
+et invisibilium factorem; ita etiam in unum
+Dominum Jesum Christum, Filium ejus. Dividere
+vero seorsus in hominem Emmanuel, et seorsus
+in Verbum, recusamus. Scientes autem quod factum
+sit juxta nos Verbum homo, vere ipsum eumdemque
+dicimus Deum de Deo; humane vero hominem
+juxta nos ex muliere. Affirmamus autem porro
+propter familiaritatem, carnis quidem eum infirmitates
+fuisse perpessum; servasse vero naturae suae
+impassibilitatem, eo quod non homo erat solum, sed
+idem etiam Deus natura; et quemadmodum proprium
+erat corpus ipsius, ita etiam naturales corporis, et
+inculpabiles passiones, necnon etiam ea quae ei illata
+sunt, petulantia nonnullorum.</p>
+<p>
+            <pb n="1038A"/>Patiebatur autem impassibiliter, quia non idcirco
+se humiliavit, ut esset tantum similis nostri; sed
+quia, ut ante dixi, id naturae suae, uti sit omnibus superior,
+reservarat. At si diceremus, quod per conversionem
+vel commutationem naturae suae in naturam
+transierit carnis, necesse erat omnibus modis nos,
+invitos etiam, confiteri, arcanam divinamque naturam
+fuisse passibilem. Sin autem, licet juxta nos homo
+sit factus, manserit immutatus [ <hi>Baluz.</hi> incommutatus],
+est enim proprium coelesti naturae, ut pati non
+possit; deinde per adunationem ipsius factum fuerit
+corpus passibile: oportet ut patiatur, corpore patiente,
+eo quod corpus ipsius fuisse dicitur proprium;
+manet vero ipse impassibilis, eo quod ipsius est proprium
+ut pati non possit.</p>
+<p>
+            <pb n="1038B"/>Quod si glorificatus est Emmanuel per passionem,
+ut ipse dixit, cum pro nobis pretiosam crucem esset
+passurus: <hi>Nunc glorificatus est filius hominis <note>(Joan.
+XXXI, 31)</note>
+            </hi>; cur, passionis gloriam homini tribuentes
+solam habenti conjunctionem cum eo in aequalitate
+dignitatis, non erubescunt? Nam, sicut ipsi existimant,
+conjunxit sibi secundum voluntatem Patris et
+complacitum hominem simpliciter, et eum suae gloriae
+parem effecit, et concessit, ut simili appellatione
+Christus, et Filius, et Deus nominatus sit, et Dominus.</p>
+<p>Ergo neque incarnatum est vere Verbum, nec
+prorsus homo est factum. An forte, etiam falsos mendacesque
+dicere doctores sanctos mundi totius, nullum
+pariat detrimentum? Aut enim dicant, immo
+magis procedant in medium probaturi, quod qui conjunctionis
+<pb n="1038C"/>
+ab ipsis inducitur modus, incarnationis
+habeat vim, et id sit, Verbum esse hominem factum.
+Aut si ea non ita habere existimant, quare conjunctionis
+nobis inconjunctae modum excogitant, veritate
+neglecta? cum deceat eos dicere, humanitati
+nostrae adunatum fuisse Dei Verbum et Patris: ita
+enim carne quidem propria intelligetur [ <hi>Baluz.</hi> intelligatur]
+passus humana. Quantum vero pertinet
+ad divinitatis naturam, molestiae omnis expers, ut Deus.</p>
+<p>Quod vero relationem nominantes, quae nescio
+quomodo ab ipsis reperta est, gloriae detrahant Emmanuelis;
+quodque eum vix unum sanctorum efficiant
+prophetarum; et quod inter mensuras constituant
+plurimorum, in eoque procul dubio capiantur,
+probabo porro, divinae Scripturae ponens exempla.</p>
+<p>
+            <pb n="1038D"/>Murmurabat aliquando in deserto adversus Moysen
+et Aaron populus Israel, dicens: <hi>Utinam mortui
+essemus, percussi a Domino in Aegypto, cum sedebamus
+ad ollas carnium, et edebamus usque ad satietatem <note>(Exod. XVI, 3)</note>
+            </hi>.
+Dicit deinde sapientissimus Moyses
+(erat enim consequens tam temere impatientes
+confutare): <hi>Nos autem quid sumus? Neque enim adversus
+nos est murmuratio vestra, sed adversus Deum <note>(Ibid. 7)</note>
+            </hi>.
+Regnabat enim per illa tempora, etiam
+Deus omnipotens, per sanctos prophetas, in populo
+Israel.</p>
+<p>Judaei [ <hi>Baluz.</hi> Illi] autem in hoc etiam pusillanimes,
+accedebant ad divinum Samuel, dicentes: <hi>Ecce
+tu senuisti, et filii tui non ambulant in viis tuis, et nunc
+<pb n="1039A"/>
+constitue superinos regem, qui judicet nos, sicut caeterae
+habent gentes <note>(I Reg. VIII, 5)</note>
+            </hi>. Moleste id quidem
+nimis ferebat propheta. Ait autem Deus omnipotens: <hi>Audi vocem populi, sicut locutus est ad te; quia non te
+spreverunt, sed me spreverunt, ut non regnem super
+eos 
+ <note>(Ibid. v. 7)</note>
+            </hi>.</p>
+<p>Dixit autem alicubi etiam Christus sanctis apostolis: <hi>Qui recipit vos, me recipit 
+ <note>(Luc. IX, 48)</note>
+            </hi>. Necnon
+etiam misericordes pro tribunali suo allocuturum
+se pollicetur: <hi>Venite, benedicti Patris mei, percipite
+paratum vobis regnum a constitutione mundi <note>(Matth. XXV, 34)</note>
+            </hi>.
+Probitatis vero ipsorum mores
+familiariter agnoscens de iis, quibus bene consultum
+fuerat ab ipsis: <hi>Quamdiu feceritis,</hi> inquit, <hi>uni horum
+minimorum, mihi fecistis <note>(Ibid. v. 40)</note>
+            </hi>.</p>
+<p>
+            <pb n="1039B"/>Ecce, in his relationis modus qualis sit, cognoscitur
+evidenter. Murmurabat adversus Moysen et Aaron
+populus Israel, et res quidem habebat relationem
+in Deum; erant tamen homines Moyses et Aaron similes
+nostri. Eodem pacto etiam in aliis intelliges,
+quorum nuper fecimus mentionem: sed erant quidem,
+ut ante dixi, sancti et admirabiles homines,
+homines tamen similes nostri. Eone igitur modo etiam
+homo Deo Verbo conjunctus, sicut illi aiunt, relationem
+in id suarum habeat passionum? Et quomodo
+jam non sit homo communis, et seorsus, et aliud
+nihil? Ergo non est vere Deus Emmanuel, non unigenitus
+filius, non Deus secundum naturam.</p>
+<p>Deinde quam ob causam nemo aliorum a Deo Verbo
+honoratus est aequalitate dignitatis, sive auctoritatis?
+<pb n="1039C"/>
+Solum autem hunc paria omnia sortitum fuisse
+contendunt; maxime cum Deus salvator omnium,
+non judicet ad personam, sed justum judicium, sicut
+ipse commemorat. Quare ergo considet solus? Quomodo
+veniet judex, obsequentibus angelis? Quare
+autem solus tam a nobis quam a supernis spiritibus
+adoratur? Sed valde, inquit: te enim quoque id
+agere invenimus; passum enim ipsum confiteris,
+<pb n="1040A"/>
+quatenus ei carnis attribuis passiones, licet impassibilem
+serves ut Deum. At nos, vir optime, cum prius
+adunaverimus Verbum et hominem, carni quidem
+passiones tribuimus, impassibilem vero ut Deum servavimus.
+Nam licet factus sit similis nostri, attamen
+scire debemus coelestium dignitatum et divinae ejus
+eminentiae majestatem.</p>
+<p>Praemissa igitur unitate ea, quasi aliquo fundamento
+fidei praejacto, carne passum esse confitemur;
+mansisse vero extra passiones, quippe cum in se habeat,
+ut pati non possit: sin vero in parte ponamus
+Deum et hominem, naturas a sese dividentes, et secundum
+solam relationem dicamus Verbum sua duxisse
+ea, quae corpori contigerunt, Moysis nempe et
+Aaron modum habet is, qui est ex sacra Virgine procreatus
+<pb n="1040B"/>
+Emmanuel, quod est interpretatum, nobiscum
+Deus.</p>
+<p>Ergo etsi per prophetas sanctos dicat: <hi>Dorsum
+meum posui in flagella; maxillas autem meas in palmas;
+faciem meam autem non averti a confusione sputorum <note>(Isai. L, 6)</note>
+            </hi>.
+Porro: <hi>Infoderunt manus meas et
+pedes meos, dinumeraverunt omnia ossa mea <note>(Psal.
+XXI, 18)</note>
+            </hi>. Et porro: <hi>Dedere in cibum meum hyssopum,
+et in sitim meam obtulerunt mihi acetum.</hi> Ipsi omnia
+haec Unigenito attribuimus, quae pro nobis dispensatorie
+carne passus est, secundum Scripturas: <hi>Vibice
+enim ejus nos sanati sumus, et ipse infirmatus est
+propter peccata nostra <note>(Ps. LXVIII, 22)</note>
+            </hi>. Impassibilem
+vero eum natura esse cognoscimus: nam si, ut dudum
+dixi, idem homo est simul et Deus, sunt certe humanitatis
+<pb n="1040C"/>
+ejus passiones, Dei porro proprium, ut
+impassibilis intelligatur.</p>
+<p>Haec ita sentientes servabimus pietatem, et per
+rectas cogitationes euntes et sensus, ad coelestis vocationis
+palmam perveniemus in Christo, per quem,
+et cum quo, Deo et Patri gloria cum Spiritu sancto
+in saecula saeculorum. Amen.
+</p>
+</div2>
+      </div1>
+</body>
+  </text>
+</TEI>

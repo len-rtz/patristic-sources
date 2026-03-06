@@ -1,0 +1,120 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Hymnus Abrae missus</title>
+              <author ref="http://viaf.org/viaf/89595978">Hilarius Pictaviensis<date>315-367</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 10</title>
+           <idno>HilPic.HyAbMi</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Hymnus Abrae missus</head>
+
+<l>
+<pb n="0551D"/>Lucis largitor splendide <note>( <hi>al.</hi> optime)</note>,</l>
+<l>Cujus sereno <note>( <hi>al.</hi> sermonis)</note> lumine,</l>
+<l>
+<pb n="0552D"/>Post lapsa noctis tempora,</l>
+<l>Dies refusus <note>( <hi>al.</hi> refulsus)</note> panditur.</l> 
+<l rend="indent">
+<pb n="0553A"/>Tu verus mundi lucifer,</l>
+<l>Non is qui parvi sideris,</l>
+<l>Venturae lucis nuntius,</l>
+<l>Angusto fulget lumine:</l>
+<l rend="indent">Sed toto sole clarior,</l>
+<l>Lux ipse totus et dies,</l>
+<l>Interna nostri pectoris</l>
+<l>Illuminans praecordia.</l> 
+<l rend="indent">Adesto rerum conditor,</l>
+<l>Paternae lucis gloria,</l>
+<l>Cujus admota gratia,</l>
+<l>Nostra patescunt corpora;</l>
+<l rend="indent">Tuoque plena spiritu,</l>
+<l>Secum Deum ( <hi>supple,</hi> sunt) gestantia:</l>
+<l> Ne rapientis perfidi</l>
+<l>
+<pb n="0553B"/>Diris patescant fraudibus:</l>
+<l rend="indent">
+<pb n="0554A"/>Ut inter actus saeculi,</l>
+<l>Vitae quos usus exigit,</l>
+<l>Omni carentes crimine,</l>
+<l>Tuis vivamus legibus.</l> 
+<l rend="indent">Probrosas mentis castitas</l>
+<l>Carnis vincat libidines,</l>
+<l>Sanctumque puri corporis</l>
+<l>Delubrum servet Spiritus.</l> 
+<l rend="indent">Haec spes precantis animae,</l>
+<l>Haec sunt votiva munera,</l>
+<l>Ut matutina nobis sit</l>
+<l>Lux in noctis custodiam.</l> 
+<l rend="indent">Gloria tibi Domine,</l>
+<l>Gloria Unigenito,</l>
+<l>Cum Spiritu paraclito,</l>
+<l>
+<pb n="0554B"/>Nunc et per omne saeculum. Amen.</l> 
+
+</div1>
+</body>
+  </text>
+</TEI>

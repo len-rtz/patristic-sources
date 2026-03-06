@@ -1,0 +1,95 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Epistola CCVII</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 44</title>
+           <idno>AugHip.EpiCcv</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Beatissimo fratr. et coepiscopo CLAUDIO, AUGUSTINUS, in Domino salutem.</head>
+<p>Quoniam mihi fraterno excitatus affectu, Juliani quatuor libros, quos adversus unum meum scripsit,
+priusquam peterem, ipse misisti; nihil convenientius putavi esse faciendum, quam ut ea quae respondeo, tu
+potissimum legens judices, utrum recte congruenterque responderim. Nam de his quatuor libris nonnulla
+decerpta scripserat nescio quis ad illustrem et religiosum virum comitem Valerium, adversus eumdem librum
+meum, quem me ad illum scripsisse cognoverat: quae cum in manus meas eodem sublimi viro curante venissent,
+illi primo non distuli secundum volumen adjungere, in quo illa omnia, sicut potui, refutavi. Sed nunc
+eosdem libros cum diligentius inspicerem, comperi illum, qui nonnulla inde selegerat, non omnia ita posuisse
+ut in his libris leguntur. Unde poterit videri Juliano, vel cuilibet illorum, me potius fuisse mentitum; quia
+non utique sicut hi quatuor libri, ita illa quae de his excerpta, et memorato comiti missa sunt, innotescere
+potuerunt. Quisquis ergo et illum secundum librum meum ad comitem identidem Valerium, sicut primum
+conscriptum legit, noverit me in quibusdam non respondisse Juliano; sed ei potius qui de libris ejus illa selegit,
+et non ita posuit ut invenit, sed aliquantum putavit esse mutanda; fortasse ut eo modo quasi sua faceret
+quae aliena esse constaret. Nunc autem veriora credens exemplaria, quae tua Sanctitas misit, ipsi auctori video
+respondendum, qui unum meum quatuor libris suis refellisse se jactat, et usquequaque spargere fidei venena
+non cessat. Aggressus sum igitur hoc opus in adjutorio Salvatoris pusillorum atque magnorum; et scio te, ut
+id implerem orasse pro me, et pro iis quibus hujuscemodi labores nostros profuturos credimus et optamus.
+Attende ergo jam responsionem meam, cujus principium hanc epistolam subsequetur. Vale in Domino memor
+nostri, frater beatissime.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

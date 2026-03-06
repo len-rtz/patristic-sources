@@ -1,0 +1,119 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Epistola ad Valerium</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 44</title>
+           <idno>AugHip.EpAdVa</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Domino illustri et merito praestantissimo, atque in Christi dilectione charissimo filio VALERIO, AUGUSTINUS, in
+Domino salutem.</head>
+<div3>
+          <head>1.</head>
+          <p>
+ Cum diu moleste haberem quod aliquoties scripserim, et nulla tuae Sublimitatis rescripta meruerim, repente
+epistolas tres tuae Benignitatis accepi: unam non ad me solum datam per coepiscopum meum Vindemialem,
+et non longe post per compresbyterum Firmum duas; qui vir sanctus, nobisque, ut ab illo scire potuisti,
+familiarissima charitate conjunctus, multa nobiscum de tua excellentia colloquendo, et veraciter insinuando
+qualem te in Christi visceribus noverit, non solum eas quas memoratus episcopus, vel quas ipse attulit, sed
+etiam illas quas non accepisse querebamur, litteras vicit. Et ideo de te narratio ejus suavior nobis erat, quia
+ea dicebat, quae ipse non posses, ne quidem me inquirente rescribere, ne tuarum laudum, quod sancta
+Scriptura prohibet <note>(Prov. XXVII, 2)</note>, fieres praedicator. Quanquam et ego verear haec ad te scribere, ne
+suspicionem adulantis incurram, domine illustris et merito praestantissime, atque in Christi dilectione charissime
+fili.</p>
+        </div3>
+<div3>
+          <head>2.</head>
+          <p>
+ Laudes itaque tuas in Christo, sive magis in te laudes Christi, vide quid mihi delectationis et laetitiae fuit
+audire ab illo qui nec fallere me posset propter fidem suam, et eas ignorare non posset propter amicitiam
+tuam. Sed alia et ab aliis, etsi non tam multa vel certa, verumtamen audivimus, fides tua quam sit sana et
+catholica, quam pia exspectatio futurorum, quae Dei fratrumque dilectio, quam non superbae sapias in excelsis
+honoribus, nec speres in incerto divitiarum, sed in Deo vivo, et dives sis in operibus bonis <note>(I Tim. VI, 17, 18)</note>;
+quam sit domus tua requies solatiumque sanctorum, et terror impiorum: quanta tibi cura sit, ne quis insidietur
+membris Christi, coopertus velamine nominis Christi, sive in veteribus ejus, sive in recentioribus inimicis;
+quamque sis eorumdem inimicorum providus saluti, infestus errori. Haec atque hujusmodi, ut dixi, et ab aliis
+solemus audire; sed nunc ea per supradictum fratrem plura et testatiora cognovimus.</p>
+        </div3>
+<div3>
+          <head>3.</head>
+          <p>
+ Porro autem de pudicitia conjugali, ut eam quoque in te laudare et amare possimus, numquid audiremus,
+nisi ab aliquo interiore familiari tuo, qui vitam tuam, non in superficie, sed penitus nosset? De hoc itaque tuo
+bono, Dei dono, me quoque delectat familiarius, et aliquanto diutius loqui tecum. Scio me non esse oneri tibi,
+si aliquid prolixum mitto, quod legendo, diutius sis nobiscum. Nam et hoc comperi, quod inter tuas multas
+magnasque curas facile ac libenter legas, nostrisque opusculis, etiam quae ad alios conscripsimus, si qua in
+manus tuas venire potuerunt, admodum delecteris; quanto magis quod ad te scribitur, ubi tanquam praesenti
+loquar, et advertere dignaberis attentius, et accipere gratius? Ab hac ergo epistola perge ad librum, quem
+simul misi, qui tuae Reverentiae et cur conscriptus sit, et cur ad te potissimum missus, ipse suo principio
+commodius intimabit.
+
+</p>
+        </div3>
+      </div1>
+</body>
+  </text>
+</TEI>

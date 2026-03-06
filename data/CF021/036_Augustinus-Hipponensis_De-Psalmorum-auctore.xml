@@ -1,0 +1,97 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>De Psalmorum auctore</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 36</title>
+           <idno>AugHip.DePsAu</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>De Psalmorum auctore</head>
+
+<p> <hi>Erat David vir in canticis eruditus, qui harmoniam musicam non vulgari voluptate, sed fideli voluntate dilexerit;
+eaque Deo suo, qui verus est Deus, mystica rei magnae figuratione servierit. Diversorum enim sonorum rationabilis
+moderatusque concentus, concordi varietate compactam bene ordinatae civitatis insinuat unitatem. Denique omnis
+fere prophetia ejus in Psalmis est: quos centum quinquaginta liber continet, quem Psalmorum vocamus: in quibus
+nonnulli volunt, eos solos factos esse a David, qui ejus nomine inscripti sunt: sunt etiam qui putant non ab eo factos,
+nisi qui praenotantur,</hi> Ipsius David; <hi>qui vero habent in titulis,</hi> Ipsi David, <hi>ab aliis factos, personae ipsius
+fuisse coaptatos. Quae opinio voce evangelica Salvatoris ipsius refutatur, ubi ait, quod ipse David in Spiritu Christum
+dixerit esse suum Dominum <note>(Matth. XXII, 43)</note>
+          </hi>: <hi>quoniam psalmus centesimus nonus sic incipit:</hi> Dixit Dominus
+Domino meo, Sede a dextris meis, donec ponam inimicos tuos scabellum pedum tuorum. <hi>Et certe idem
+psalmus non habet in titulo,</hi> Ipsius David; <hi>sed</hi> Ipsi David, <hi>sicut plurimi. Mihi autem credibilius videntur existimare,
+qui omnes illos centum quinquaginta Psalmos ejus operi tribuunt, eumque aliquos praenotasse etiam nominibus
+aliorum, aliquid quod ad rem pertineat figurantibus: caeteros autem nullius hominis nomen in titulis habere
+voluisse; sicut ei varietatis hujus dispositionem, quamvis latebrosam, non tamen inanem, Dominus inspiravit. Nec
+movere debet ad hoc non credendum, quod nonnullorum nomina Prophetarum, qui longe post David regis tempora
+fuerunt, quibusdam psalmis in eo libro leguntur inscripta, et quae ibi dicuntur, velut ab eis dici videntur. Neque
+enim non potuit propheticus Spiritus prophetanti regi David haec etiam futurorum Prophetarum nomina revelare, ut
+aliquid quod eorum personae conveniret, prophetice cantaretur: sicut rex Josias exorturus et regnaturus post annos
+amplius quam trecentos, cuidam prophetae, qui etiam facta ejus futura praedixit, cum suo nomine revelatus est.</hi> 
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

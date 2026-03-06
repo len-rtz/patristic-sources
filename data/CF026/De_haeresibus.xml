@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="n27776" period="VII sec."><ptr
+                  target="http://www.mirabileweb.it/title/de-haeresibus-isidorus-hispalensis-episcopus-n-560-title/27776"
+               />De haeresibus (?)</title>
+            <author><ptr target=" http://viaf.org/viaf/803890"/><persName xml:id="n19204"><ptr
+                     target="http://www.mirabileweb.it/author/isidorus-hispalensis-episcopus-n-560-ca-m-4-4-636-author/19204"
+                  />Isidorus Hispalensis episcopus, s. (n. 560 ca., m. 4-4-636)</persName><location>
+                  <geogName xml:id="n15172">Sevilla</geogName>
+               </location><term>Tractatus</term></author>
+         </titleStmt>
+         <editionStmt>
+            <edition xml:id="n728897"><ptr
+                  target="http://www.mirabileweb.it/mel/el-tratado-de-haeresibus-(cpl-1201)-atribuido-a-is/728897"
+               />Editio princeps</edition>
+            <sponsor xml:id="n206">SISMEL</sponsor>
+            <editor xml:id="n48155">Martín Iglesias, José Carlos</editor>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:id="n10536">SISMEL. Edizioni del Galluzzo</publisher>
+            <pubPlace xml:id="n70">Firenze</pubPlace>
+            <date>2018</date>
+            <authority>Filologia Mediolatina</authority>
+         </publicationStmt>
+         <seriesStmt>
+           <title>Corpus 24, Mirabile Digital Library (Corpus Corporum)</title>
+           <idno></idno>
+          </seriesStmt>
+         <sourceDesc>
+            <listPerson type="Sources">
+               <person>
+                  <persName xml:id="n42378">Augustinus Aurelius</persName>
+                  <bibl xml:id="n16434">De haeresibus</bibl>
+                  <bibl xml:id="n16454">De fide et symbolo</bibl>
+                  <bibl xml:id="n16425">Contra academicos</bibl>
+                  <bibl xml:id="n19571">Quaestiones XVII [XVI] in Matthaeum</bibl>
+               </person>
+               <person>
+                  <persName xml:id="n222103">Hieronymus Stridonius pseudo</persName>
+                  <bibl xml:id="n28506">Indiculus de haeresibus</bibl>
+               </person>
+               <person>
+                  <persName xml:id="n42706">Prosper Aquitanus</persName>
+                  <bibl xml:id="n16899">Epitoma chronicorum</bibl>
+               </person>
+               <person>
+                  <persName xml:id="n19192">Gregorius I papa n. 540 ca., m. 604</persName>
+                  <bibl xml:id="n4255">Moralia in Iob</bibl>
+               </person>
+               <person>
+                  <persName xml:id="n19335">Fulgentius Ruspensis episcopus n. 467 ca., m. 1-1-532 </persName>
+                  <bibl xml:id="n6101">Epistolae</bibl>
+               </person>
+               <person>
+                  <persName xml:id="n42384">Cicero M. Tullius</persName>
+                  <bibl xml:id="n16524">De natura deorum</bibl>
+               </person>
+               <person>
+                  <persName xml:id="n42769">Lactantius Firmianus</persName>
+                  <bibl xml:id="n17005">De opificio Dei</bibl>
+               </person>
+               <person>
+                  <persName xml:id="n42781">Minucius Felix</persName>
+                  <bibl xml:id="n188182">Octavius</bibl>
+               </person>
+            </listPerson>
+            <listWit>
+               <witness xml:id="n3179" ana="R"><ptr
+                     target="http://www.mirabileweb.it/manuscript/el-escorial-real-biblioteca-de-san-lorenzo-de-el-e-manoscript/3179"
+                  />El Escorial, Real Biblioteca de San Lorenzo de El Escorial r.II.18, ff. 62v-65r <msDesc>
+                     <msIdentifier>
+                        <msName corresp="n3179">R</msName>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote xml:id="Rpc">Correctiones codicis R eadem manu
+                              adhibitae</handNote>
+                           <handNote xml:id="R2">Correctiones codicis R altera manu
+                              adhibitae</handNote>
+                           <handNote xml:id="R3">Correctiones codicis R tertia manu
+                              adhibitae</handNote>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc></witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   <encodingDesc>
+         <projectDesc>This file was slightly adapted for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2023.</projectDesc>
+          <editorialDecl>
+             <normalization>Latin orthography as in original</normalization>
+          </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="DE_HAERESIBUS">
+            <div2>
+               <p n="(1)"><pb n="164"/>Nunc hereticorum sententias opinionesque infidelium
+                  persequamur.</p>
+               <p n="(2)">Primum autem quid inter ortodoxum et hereticum uel scismaticum sit
+                  definiendum elegimus.</p>
+               <p n="(3)">Ortodoxus siue catholicus est homo fide rectus et uita probabilis.
+                  Ortodoxus autem greco eloquio ‘uir recte glorie’ nuncupatur.</p>
+               <p n="(4)">Mali catholici sunt qui uerbo tantum christiani sunt, opere uero a
+                  christiana doctrina dissentiunt. Hii, quia secundum euuangelii precepta non
+                  uiuunt, suam fidem, quam uerbo colunt, oborta temtatione, facile perdunt.</p>
+               <p n="(5)">Heretici tamen illi uocantur qui de Deo uel de creatura siue de Christo
+                  uel aecclesia praua sentiunt ac dein detecti conceptam noui erroris perfidiam
+                  pertinaci prauitate defendunt.</p>
+               <p n="(6)">Scismatici sunt qui in causis fidei recta sentiunt, exortis tamen
+                  quibuslibet contentionibus, pacis communione disrupta, a fraterno consortio
+                  separantur. Proinde illi <emph rend="italic">in dilectione Dei</emph> errare
+                  noscuntur, quia peruersa de Deo sentiunt, sti uero in dilectione proximo
+                  offendunt, quia de fraterna societate priuantur.</p>
+               <p n="(7)"><pb n="165"/>Hereticum autem facit aut dum scripture sacre figurata minus
+                  intelleguntur misteria, aut dum sthorice ueritatis et spiritalis sensus non
+                  consideratur differentiam, aut dum per curiositatem animus cupidus delectatur
+                  scire latentia. Quorum quidem prescriptim, ut possumus, singillatim errorum
+                  blasphemias adnotemus ut facilior cautio sit fidelium dum detegitur ceca et
+                  latebrosa latentia impiorum.</p>
+               <p n="(8, 1)">Iudei Christum Deum esse non credunt et nouum Testamentum spernunt.</p>
+               <p n="(8, 2)">Pagani unum Deum negant et creaturas adorant.</p>
+               <p n="(8, 3)">Simoniani mundum a Deo conditum negant nec credunt corporum
+                  resurrectionem futuram. Hoc et Saturniani adfirmant.</p>
+               <p n="(8, 4)">Menandriani a septem angelis mundum absque Dei consilio adserunt
+                  conditum.</p>
+               <p n="(8, 5)">Basilidiani CCCLXV celos esse testantur.</p>
+               <p n="(8, 6)">Nicolaite, detestabili turpitudine inuoluti, uicissim coniugia mutant
+                  mundique creaturam non a Deo, sed a quibusdam fictis potestatibus factum
+                  adfirmant.</p>
+               <p n="(8, 7)">Gnostici et Borboritiani anime substantiam partem Dei existimant.</p>
+               <p n="(8, 8)"><pb n="166"/>Carpocratiani dicunt hominem fuisse tantummodo Christum,
+                  de utroque sexu creatum, et resurrectionem non recipiunt. Hoc et Ebionite et
+                  Theodotiani secuntur.</p>
+               <p n="(8, 9)">Cerintiani similia putant. Resurrexisse etiam Christum abnegant, mille
+                  quoque annos post resurrectionem sanctis uoluptati libidinique futuros
+                  adfirmant.</p>
+               <p n="(8, 10)">Nazarei Christum Deum dicunt et carnaliter Testamentum uetus
+                  accipiunt.</p>
+               <p n="(8, 11)">Ebionite Christum hominem dicunt et carnaliter legem accipiunt.</p>
+               <p n="(8, 12)">Valentiniani inter cetera execranda misteria Christum celeste corpus
+                  habuisse confirmant nec adsumsisse carnem de uirgine, sed per eam quasi aquam per
+                  fistolam transisse delirant. Simili quoque dementia Secundiani et Bardesaniste
+                  aberrant.</p>
+               <p n="(8, 13)">Marcioniste duo principia predicant quasi duos deos: unum iustum
+                  conditoremque creaturarum et retributorem factorum, alterum bonum, animarum
+                  credentium susceptorem et indultorem peccatorum.</p>
+               <p n="(8, 14)">Cerdoniani negant Christum natum passumque fuisse uel mortuum, sed
+                  simulasse passionem existimant. Idem duo principia contraria dicunt, adserentes
+                     <pb n="167"/>Deum legis non esse patrem Christi nec bonum, sed iustum, patrem
+                  uero Christi bonum. Idem resurrectionem simul et legem spernunt.</p>
+               <p n="(8, 15)">Fotiniani siue Pauliniani Christum non semper fuisse, sed initium de
+                  uirgine predicant habuisse.</p>
+               <p n="(8, 16)">Manichei duas naturas duoque principia boni et mali inter se bellantia
+                  fingunt. Christum non de uirgine natum, sed corpus habuisse fantasmaticum credunt.
+                  Blasphemant prophetas, uetus Testamentum respuunt, nuptias quoque spernunt.</p>
+               <p n="(8, 17)">Arriani negant esse unius nature uel essentie trinitatem, sed filium
+                  creaturam patris, spiritum uero sanctum fili creaturam existimant. Hii etiam
+                  rebaptizant.</p>
+               <p n="(8, 18)">Adcontra Sabelliani trinitatem in personis confundunt, dicentes ipsum
+                  esse patrem antequam nasceretur in carne, ipsum factum filium procidendo de
+                  uirgine, ipsum spiritum sanctum dum descendet super linguas apostholorum.</p>
+               <p n="(8, 19)">Macedoniani quamquam patrem et filium unius substantie dicant,
+                  spiritum uero sanctum creaturam adfirmant.</p>
+               <p n="(8, 20)">Encratite ad communionem suam solos continentes admittunt et eos qui
+                  sic renuntiauerunt seculo ut nichil habeant hereditatem in mundum.</p>
+               <p n="(8, 21)">Apellites Christum ex elementis mundi carnem finxisse confingunt hac
+                  repetisse, eadem deposita, celum.</p>
+               <p n="(8, 22)"><pb n="168"/>Apollinariste Christum tantummodo corpus sine anima
+                  habuisse fatentur.</p>
+               <p n="(8, 23)">Noetiani triformem asserunt Deum, tres tamquam partes habentem qui
+                  diuinam efficiant trinitatem.</p>
+               <p n="(8, 24)">Antropomorfite credunt humanorum membrorum liniamentis Deum esse
+                  formatum.</p>
+               <p n="(8, 25)">Metangismonite sic esse filium intra patrem, quasi uas minimum intra
+                  uas maiorem.</p>
+               <p n="(8, 26)">Catafriges aduentum spiritus sancti in se potius, non super
+                  apostholos, fuisse dicunt effusum, secundas nuptias pro fornicationibus habent,
+                  sanguinem infantum cum farine admixtione in eucaristie sacramenta utuntur.</p>
+               <p n="(8, 27)">Aetiani uel &lt;Eu&gt;nomiani dissimilem patri filium asserunt et
+                  filio spiritum sanctum. In fide etiam manentibus nullum penitus putant inputari
+                  peccatum.</p>
+               <p n="(8, 28)">Priscillianiste, sicut et Sabelliani, trinitatem confundunt et membra
+                  humani corporis per duodecim stellarum signa distingunt. Animam dicunt eiusdem
+                  nature esse cuius Deus est et sponte per septem celos descendere et incidere
+                  &lt;in&gt; quendam malignum principem a quo stum mundum factum discribunt et ab eo
+                  in corporibus intromitti.</p>
+               <p n="(8, 29)"><pb n="169"/>Nouatiani secundas nuptias damnant et peccantibus
+                  penitentiam negant.</p>
+               <p n="(8, 30)">Ermogeniani elementa mundi uel animas non a Deo, sed ab angelis
+                  conditas asserunt.</p>
+               <p n="(8, 31)">Eutheciani Christum unius tantum asserunt esse substantie et nicil
+                  corporis sumsisse de uirgine.</p>
+               <p n="(8, 32)">Sethiani dicunt Sem, filium Noe, Christum esse et Seth, filium Adae,
+                  genitum ex celesti matre fuisse, unde eius semen appellatum est ‘Dei
+                  filiorum’.</p>
+               <p n="(8, 33)">Teseresdecatite quarta decima luna iuxta ritum Iudeorum immolant
+                  pascha.</p>
+               <p n="(8, 34)">Adamiani, quasi Adam imitantes, nudi inuicem conueniunt, nudi orant,
+                  nudi etiam sacramenta celebrant.</p>
+               <p n="(8, 35)">Angelici angelos colunt.</p>
+               <p n="(8, 36)">Apostholici dicunt coniugatos uitam non habere ȩternam nec eos qui
+                  aliquid proprium possident.</p>
+               <p n="(8, 37)">Eraclite inter alios errores regna celorum paruulos habere non
+                  credunt.</p>
+               <p n="(8, 38)">Aeriani uetant pro defunctis offerre sacrificium. Hii quoque nicil
+                  possident proprium.</p>
+               <p n="(8, 39)"><pb n="170"/>Antedicomarite dicunt post Christum natum Mariam uirginem
+                  uiro fuisse commixtam.</p>
+               <p n="(8, 40)">Arabici dicunt animas simul cum corpore mori adque in nouissimo
+                  utraque resurgi.</p>
+               <p n="(8, 41)">Tertullianiste animam quidem inmortalem esse, sed corpoream, predicant
+                  et peccatorum animas post mortem conuerti in demones putant.</p>
+               <p n="(8, 42)">Donatiste quamuis eiusdem substantie, tamen minorem filium patri
+                  filioque spiritum sanctum predicant. Catholicos etiam rebaptizant.</p>
+               <p n="(8, 43)">Montenses cum Donatistis et Nouatianis pari errore discurrunt.</p>
+               <p n="(8, 44)">Euuodiani confitentur dicentes: ‘Maria uirgo ante partum, non uirgo
+                  post partum’.</p>
+               <p n="(8, 45)">Iouinianiste adserunt nullam inter nubentes et uirgines meritorum esse
+                  distantiam.</p>
+               <p n="(8, 46)">Luciferiani dicunt animam de carnem et de carnis substantiam
+                  propagatam.</p>
+               <p n="(8, 47)">Circumciliones insano amore martirii semetipsos interdum orantes igne
+                  uel gladio pereunt ut, uiolenter occisi, martires nominentur.</p>
+               <p n="(8, 48)"><pb n="171"/>Nestoriani predicant Christum ex sancta Maria hominem
+                  tantum, non aetiam Deum, natum eique dignitatem conlatam esse pro merito.</p>
+               <p n="(8, 49)">Euticiani non perfectum in Christo hominem asserunt.</p>
+               <p n="(9)">Ipsi quoque Iudei, qui supra memorantur, in his heresibus distinguntur.
+                  Quarum sta est differentia.</p>
+               <p n="(10, 1)">Efnei dicunt Christum omnes illos abstinentiam docuisse.</p>
+               <p n="(10, 2)">Galilei aiunt Christum docuisse ne Cesarem deum appellent.</p>
+               <p n="(10, 3)">Marbonei autem ipsum opinantur esse Christum qui eos in omni re
+                  instituit sabbatizandum.</p>
+               <p n="(10, 4)">Farisei autem Christum uenisse negant nichilque de supradictis
+                  obseruant.</p>
+               <p n="(10, 5)">Sadducei resurrectionem spernunt, dicentes in Genesis scriptum esse:
+                     <emph rend="italic"><quote ana="Gen 3, 19">Terra es et in terram
+                     ibis</quote></emph>.</p>
+               <p n="(10, 6)">Gen&lt;i&gt;ste semetipsos de Abraham genitos gloriantur.</p>
+               <p n="(10, 7)">Meriste libris omnibus canonicis non credunt, dicentes perfectos
+                  diuersi spiritus profetasse.</p>
+               <p n="(10, 8)"><pb n="172"/>Samarite sunt hii qui, ab Assiriis translati, ex parte
+                  Srahelitarum consuetudinem, ex parte gentilem ritum permixta obseruatione
+                  tenuerunt.</p>
+               <p n="(10, 9)">Herodiani, qui Herodem Christum esse pronuntiant.</p>
+               <p n="(10, 10)">Hemerobaptiste, qui cotidie corpora sua hac domos et superlectilem
+                  labant.</p>
+               <p n="(11)">Hinc post numeratis heresibus rursus gentilium dogma persequamur. Inter
+                  quos hec est differentia.</p>
+               <p n="(12, 1)">Platonici dicunt mundum et angelos ab eterno Deo factos, homines autem
+                  ferunt, Deo iubente, ab angelos esse creatos. Hii quamquam eternitatem anime
+                  credant, reuolui tamen post multa secula animas in corporibus bestiarum uel auium
+                  putant.</p>
+               <p n="(12, 2)">Epicorei dicunt Deum nicil curari nec ira teneri nec gratia. Mundos
+                  innumerabiles opinantur, beatitudinem uite in uoluptatibus corporis pronuntiant
+                  simulque cum corpore animas perire confingunt. Hii propterea rerum humanarum curam
+                  Deo inesse negant ut inpunitatem scelerum persuadeant. Addunt preterea <pb n="173"
+                  />diuina prouidentia et ratione minime regi mundum, sed fortuitis et lubricis
+                  casibus, quadam soluta lege, tantum dominare fortunam.</p>
+               <p n="(12, 3)">Stoici dicunt equalia esse peccata omnia et penas pares et, cum sint
+                  auctoritatis, animam tamen perire dixerunt. Amant uirtutem et continentiam et
+                  affectant ȩternam gloriam, cum se non ȩternos esse fateantur.</p>
+               <p n="(12, 4)">Peripatetici, Aristotele principe, dicunt quandam particulam animae
+                  esse aeternam, sed de reliquo uero magna ex parte mortalem.</p>
+               <p n="(12, 5)">Academici omnia incerta esse definiunt nec esse aliquid in rebus quod
+                  ita sit uerum ut non sit ambiguum. Vnde etcontra fisici scire aliquid definiunt,
+                  Academici nichil.</p>
+               <p n="(12, 6)">Matematici signorum cursus intendunt et uitas hominum in siderum
+                  momenta constituunt. Solem maiorem esse quam terras dicunt.</p>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI>

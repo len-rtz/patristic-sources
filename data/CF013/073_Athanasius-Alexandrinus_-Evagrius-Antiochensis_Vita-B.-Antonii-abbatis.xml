@@ -1,0 +1,2710 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Vita B. Antonii abbatis</title>
+              <author>Athanasius Alexandrinus; Evagrius Antiochensis<date/> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1849</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 73</title>
+           <idno>AtAlEvA.ViBAnAb</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Evagrii ad Innocentium prologus.</head>
+<p> <emph>35</emph> Presbyter Evagrius Innocentio charissimo filio in Domino salutem.</p>
+<p>Ex alia in aliam linguam ad verbum expressa translatio, sensus operit, et veluti laetum gramen sata strangulat.
+Dum enim casibus et figuris servit oratio, quod brevi poterat indicari sermone, longo ambitu circumacta
+vix explicat. Hoc igitur ego vitans, vitam beati Antonii, te petente, ita transposui, ut nihil desit ex
+sensu, cum aliquid desit ex verbis. Alii syllabas aucupentur et litteras, tu quaere sententiam.
+</p>
+      </div1>
+
+<div1>
+        <head>ATHANASII EPISCOPI ALEXANDRINI PRAEFATIO.</head>
+<p>Athanasius episcopus ad peregrinos fratres.</p>
+<p>Optimum, fratres, iniistis certamen; aut aequari Aegypti monachis, aut superare nitentes virtutis instantia.
+Etenim apud vos jam plurima sunt monasteria; monachorum quoque nomen est celebre; et hanc voluntatem
+vestram juste quisque mirabitur; orantibusque vobis optatum Deus tribuet effectum. Quoniam igitur exegistis
+a me ut vobis scriberem de conversatione beati Antonii, volentibus discere quemadmodum coeperit,
+quive fuerit ante sanctum propositum, qualem etiam habuerit terminum vitae, et si vera sint ea quae de ipso
+fama dispersit, ut ad ejus aemulationem atque exemplum vos instituere possitis, magna cum laetitia suscepi
+vestrae charitatis imperium. Etenim mihi ingens lucrum est atque utilitas hoc ipsum quod recordor Antonii
+<pb n="0127"/>,
+et vos cum admiratione audientes, scio ejus propositum cupere sectari: perfecta est siquidem ad
+virtutem via, Antonium scire quis fuerit.</p>
+<p>Ergo ut breviter dicam, et omnibus, quae de eo referentium sermo jactavit credite, et minima vos existimate
+audisse de maximis; quia non ambigo nec eos omnia potuisse <emph>36</emph> cognoscere, cum et ego rogatus a
+vobis, quantacunque per epistolam significavero, non aequalia sim ejus meritis narraturus. Sed et vos omnes
+hinc navigantes studiose percontamini, quo, singulis quae norunt referentibus, congrua dignaque tanti nominis
+relatio compleatur. Disponebam itaque post lectionem litterarum vestrarum aliquos ad me monachos
+invitare, et maxime eos qui crebro ad eum ire consueverant, ut plenius aliquid addiscens, munera vobis
+majora transmitterem. Sed quoniam et navigationis tempora labebantur, et litterarum portitor vehementissime
+festinabat, ideo ea quae et ipse noveram (frequenter enim eum visitavi) et quae ab eo didici, qui
+ad praebendam ei aquam non paululum temporis cum eo fecit, dilectioni vestrae indicare properavi:
+utrobique curam veritatis habens, ut neque plus aliquis audiens, miraculorum congestionem non credat,
+nec rursum meritis ejus inferiora cognoscens, non putet dignum esse miraculo pro tanti nominis viro.</p>
+</div1>
+
+<div1>
+        <head>VITA.</head>
+<p>
+          <pb n="0127A"/>CAP. I.--Antonius nobilibus religiosisque
+parentibus natus, in Aegypto oriundus fuit, tanta
+suorum nutritus cura, ut nihil aliud praeter parentes
+domumque cognosceret. Et cum jam puer esset, non
+se litteris erudiri, non ineptis infantium jungi
+passus est fabulis; sed Dei desiderio flagrans, secundum
+quod scriptum est <note>(Gen. XXV)</note>, innocenter
+habitabat domi. Ad ecclesiam quoque cum parentibus
+saepe conveniens, nec infantum lascivias,
+nec puerorum negligentiam sectabatur; sed tantum
+ea quae legebantur auscultans, utilitatem praeceptorum
+vitae institutione servabat; non suis, ut solet
+illa aetas, pro variis et delicatis cibis unquam taedio
+fuit; non escae mollioris blandimenta sectatus est;
+his solum quae dabantur contentus, nihil amplius
+<pb n="0127B"/>
+requisivit.</p>
+<p>CAP. II.--Post mortem autem parentum, annorum
+circiter decem et octo seu viginti, cum sorore
+admodum parvula derelictus, et domus et sororis
+honestam curam gerebat. Necdum vero sex fluxerant
+menses, quibus ad ecclesiam (ut solebat) accurrens,
+recordabatur quomodo et apostoli, omnibus spretis,
+secuti fuissent Salvatorem <note>(Matth. X)</note>: et multi, ut
+legitur in Actis apostolorum <note>(Actor. IV)</note>, facultatibus
+suis venditis, pretia ad pedes eorum detulissent
+egentibus partienda, quaeve aut quanta spes iisdem
+reposita esset in coelis <note>(Coloss. I)</note>. Talia secum volvens,
+intravit ecclesiam, et accidit ut tunc evangelium
+legeretur, in quo Dominus dicit ad divitem:
+Si vis perfectus esse, vade, vende omnia tua quaecunque
+<pb n="0127C"/>
+habes, et da pauperibus, et veni, sequere me, et
+habebis thesaurum in coelo <note>(Matth. XIX)</note>. Quo audito,
+quasi divinitus hujusmodi ante memoriam concepisset,
+et veluti propter se haec esset Scriptura recitata,
+ad se Dominicum traxit imperium; statimque regressus,
+possessiones quas habebat vendidit. Arurae autem
+erant ei trecentae uberes, et valde optimae,
+quas vicinis largitus est, ne in aliquo aut sibi aut sorori
+molestia gigneretur. Caetera vero, quae in mobilibus
+possidebat, universa vendidit; et aggregato
+non exiguo pretio, indigentibus dedit, paucis tamen
+<pb n="0128A"/>
+ob sororem reservatis, quae et sexu et aetate videbatur
+infirmior.</p>
+<p>CAP. III.--Rursus autem ecclesiam ingressus,
+cum audisset Dominum in Evangelio dicentem: Nolite
+cogitare de crastino <note>(Matth. VI)</note>, reliquam quoque
+portionem pauperibus distribuit; neque se versari
+passus est domi, sed sorore fidelibus ac notis
+virginibus commendata, ut earum nutriretur exemplo,
+ipse jam omnibus saeculi vinculis liber, asperum atque
+arduum arripuit institutum.</p>
+<p>Necdum autem tam crebra erant in Aegypto monasteria,
+neque omnino quisquam aviam solitudinem
+noverat; sed quicunque in Christi servitute sibimetipsi
+prodesse cupiebat, non longe a sua villula
+separatus instituebatur. Erat igitur in agello vicino
+<pb n="0128B"/>
+senex quidam, vitam solitariam a prima sectatus
+aetate: hunc Antonius cum vidisset, aemulatus est ad
+bonum. Et primo quidem incipiens etiam ipse, in
+locis paululum a villa remotioribus manebat: exinde
+autem, si quem vigilantem in hoc studio compererat,
+procedens, quaerebat ut apis prudentissima; nec
+ad habitaculum suum ante remeabat, nisi ejus quem
+cupiebat frueretur aspectibus; et sic, tanquam munere
+mellis accepto, abibat ad sua. Tali ibidem institutus
+exordio, cum per dies singulos ita animum roboraret,
+ut nec opum paternarum, nec suorum meminisset
+affinium, omne etiam desiderium et sollicitudinem
+erga id quod coeperat exerceret, operabatur
+manibus suis, sciens scriptum esse: Qui non operatur,
+non manducet <note>(II Thess. III)</note>. Mercedem tamen
+<pb n="0128C"/>
+operis sui, pretio panis excepto, egentibus largiebatur. <emph>37</emph> 
+ Orabat frequenter, quippe qui didicerat
+quod oporteret sine intermissione Dominum orare <note>(I Thess. V)</note>.</p>
+<p>Auditioni etiam Scripturarum ita studium commodabat,
+ut nihil ex ejus animo laberetur; sed universa
+Domini praecepta custodiens, memoriam pro libris
+haberet. Sic suam vitam instituens, ab universis
+fratribus puro diligebatur affectu; et omnibus, ad
+quos studio discendi pergebat, obediens, proprias
+singulorum gratias hauriebat: hujus continentiam,
+<pb n="0129A"/>
+jucunditatem illius sectabatur; istius lenitatem, illius
+vigilantiam, alterius legendi aemulabatur industriam;
+istum jejunantem, illum humi quiescentem mirabatur;
+alterius patientiam, alterius mansuetudinem
+praedicabat. Omnium quoque vicariam erga se retinens
+charitatem, atque universis virtutum partibus
+irrigatus, ad sedem propriam regrediebatur. Ibi
+secum universa pertractans, omnium in se bona nitebatur
+exprimere. Neque vero adversum coaevos
+aliquando movebatur, sed ea tantummodo flamma
+egregio viro crescebat in pectore, ne secundus cuiquam
+in praedictis operibus inveniretur. Et hoc ita
+faciebat, ut cum omnes gloria anteiret, omnibus tamen
+charus esset. Nam et vicini et monachi, ad quos
+saepe veniebat, Antonium videntes, Deicolam nuncupabant;
+<pb n="0129B"/>
+indultisque naturae vocabulis, quidam ut filium,
+alii ut fratrem diligebant.</p>
+<p>CAP. IV.--Dum haec gereret Antonius, quibus omnium
+in seprovocaret affectum, inimicus nominis Christianidi
+abolus, impatienter ferens tantas in adolescente
+virtutes, veteranis eum aggressus est fraudibus.
+Et primo quidem tentans, si quo modo posset ab arrepto
+eum instituto detrahere, immittebat ei memoriam
+possessionum, sororis defensionem, generis
+nobilitatem, amorem rerum, fluxam saeculi gloriam,
+escae variam delectationem, et reliqua vitae remissioris
+blandimenta; postremo virtutis arduum finem,
+et maximum perveniendi laborem, necnon et corporis
+fragilitatem suggerebat, et aetatis spatia prolixa:
+prorsus maximam ei cogitationum caliginem suscitabat,
+<pb n="0129C"/>
+volens eum a recto proposito revocare.</p>
+<p>Postquam autem diabolus orationibus ejus ad
+Deum, per passionis fidem se intellexit elidi, consueta
+adversum omnes adolescentes arma arripiens, nocturnis
+eum inquietabat illecebris. Et primum noctibus
+infesta multitudine et horribili metu sonitus
+eum exagitare conabatur. Per dies etiam tam apertis
+in eum telis irruebat, ut nullus ambigeret, quin Antonius
+contra diabolum dimicaret. Nam et ille cogitationes
+sordidas conabatur inserere, et hic eas oratu
+submovebat assiduo. Ille titillabat sensus naturali
+carnis ardore; hic fide, vigiliis et jejuniis corpus
+omne vallabat. Ille per noctes in pulchrae mulieris
+vertebatur ornatum, nulla omittens figmenta lasciviae;
+<pb n="0129D"/>
+hic ultrices gehennae flammas et dolorem vermium
+recordans, ingestae sibi libidini opponebat.</p>
+<p>Ille lubricum adolescentiae iter, et ad ruinam
+facile proponebat; hic aeterna futuri judicii tormenta
+considerans, illaesam animae puritatem per
+tentamenta servabat. Ista autem omnia ad confusionem
+diaboli fiebant; qui enim similem se Deo fieri
+posse existimabat, nunc ab adolescente ut miserrimus
+deludebatur; et qui contra carnem et sanguinem
+saeviebat, ab homine, qui carnem portabat elisus
+est. Adjuvabat enim servum suum Dominus, qui
+nostri gratia carnem suscipiens, victoriam corpori
+contra diabolum largitus est, ut, singulis ita certantibus,
+apostolicum liceret proferre sermonem: Non
+<pb n="0130A"/>
+autem ego, sed gratia Dei, quae mecum est <note>(I
+Cor. XV)</note>.</p>
+<p>Postremo cum nec hoc argumento destruere posset
+Antonium draco teterrimus, et videret se semper ab
+ejus cogitationibus repelli, secundum quod scriptum
+est <note>(Marc. IX)</note>, stridens dentibus et ejulans, qualis
+est, talis merito apparebat et vultu: puer horridus
+atque niger, ad ejus se genua provolvens, humana
+voce flebat, dicens: Multos seduxi, plurimos decepi;
+nunc autem ut a caeteris sanctis, ita et tuo sum labore
+superatus. Quem cum interrogaret Antonius
+quisnam esset, qui talia loqueretur, ait: Ego sum
+fornicationis amicus, ego multimoda adversum omnes
+adolescentes turpitudinis arma suscepi; hinc et spiritus
+fornicationis vocor. Quantos pudice vivere
+<pb n="0130B"/>
+disponentes fefelli! quot tenuiter incipientes, ad sordes
+pristinas redire persuasi! Ego sum, propter
+quem propheta lapsos increpat, dicens: Spiritu fornicationis
+seducti estis <hi>(Oseae IV)</hi>, et revera per me
+et illi fuerant supplantati. Ego sum qui te ipsum saepe
+tentavi, et semper repulsus sum. Cum hoc Christi
+miles audisset, gratias agens Deo, et largiore adversus
+inimicum confortatus audacia, ait: Multum ergo
+despicabilis, multumque contemptibilis es; nam et
+obscuritas tua et aetas infirmarum signa sunt rerum.
+Nulla mihi jam de te cura est. Dominus mihi adjutor
+est, et ego exsultabo super inimicos meos <note>(Psal.
+CXVII)</note>. Et statim, ad vocem cantantis, phantasma
+quod videbatur, evanuit.</p>
+<p>CAP. V.--Haec autem Antonii contra diabolum
+<pb n="0130C"/>
+fuit prima victoria, imo virtus in Antonio Salvatoris:
+qui peccatum in carne condemnavit, <emph>38</emph> ut justificatio
+legis in nobis compleretur, qui non secundum
+carnem ambulamus, sed secundum spiritum <note>(Rom.
+VIII)</note>. Sed neque Antonio securitatem dedit hic unus
+triumphus, nec diabolo semel fractae defecere vires.
+Nam et iste, ut leo rugiens <note>(I Pet. V)</note>, quaerebat aditum
+per quem posset irrumpere; et ille Scripturarum
+doctus eloquio, multas esse daemonum captiones <note>(Ephes. VI)</note>,
+solerti propositum labore servabat;
+considerans quia posset Satanas in carnis colluctatione
+superatus, novarum adversus se artium machinas
+acrius commovere. Idcirco magis ac magis subjugabat
+corpus suum, ne victor aliorum, in aliis
+vinceretur <note>(I Cor. IX)</note>. Disponens igitur duriori se vitae
+<pb n="0130D"/>
+lege constringere, cum omnes infatigabilem adolescentis
+mirarentur instantiam, sanctum toleranter
+ferebat laborem, quia voluntariae servitutis
+longum in Dei opere studium, consuetudinem in naturam
+verterat.</p>
+<p>CAP. VI.--Inediae autem et vigiliarum in tantum
+patiens erat, ut incredulitatem viribus vinceret. Pernoctabat
+in oratione saepissime, edebat semel in die
+post solis occasum, nonnunquam biduo triduoque
+sic permanens, quarta demum die reficiebatur. Sumebat
+vero panem et sal, potumque aquae perparvum.
+De carnibus vero et vino tacere melius puto
+quam quidquam dicere, quando nec apud plurimos
+quidem monachorum istiusmodi aliquid reperiatur.
+<pb n="0131A"/>
+Quieti autem membra concedens, junco contexto atque
+cilicio utebatur. Nonnunquam etiam super nudam
+humum jacebat, unguenta penitus repudians.
+Dicebat enim minime posse utentium, et praecipue
+juvenum corpora roborari, si olei essent lenitate mollita;
+oportere vero asperos carni labores imperari,
+secundum Apostoli praeceptum, dicentis: Quando
+infirmor, tunc fortior sum <note>(II Cor. XII)</note>. Asserebatque
+sensum animi sic posse reviviscere, si corporis
+fuisset impetus fatigatus. Unde nec temporum longitudine
+laborum merita pensabat, sed amore et famulatu
+spontaneo semper, tanquam in principiis constitutus,
+ad profectum divini metus desiderium concitabat.
+Novisque cupiens augeri praeterita, supra
+memorati Doctoris sermonum recordabatur, qui ait:
+<pb n="0131B"/>
+Praeterita obliviscens, et in futurum convalescens <note>(Philip. III)</note>.
+Meminerat quoque Eliae prophetae dicentis:
+Vivit Dominus, cui asto hodie ante ipsum <note>(III Reg. XVIII)</note>;
+et disserebat cur <hi>hodie</hi> esset appositum,
+quia non computabat Elias praeteritum tempus,
+sed tanquam quotidie in certamine constitutus,
+talem se praebere cupiebat, qualem sciebat dignum
+Dei esse conspectibus, purum corde, et paratum
+obedire voluntati ejus.</p>
+<p>CAP. VII.--Igitur sanctus Antonius secum reputans
+oportere Dei famulum ex instituto magni Eliae
+exemplum capere, et ad illud speculum vitam suam
+debere componere, ad sepulcra non longe a villa
+constituta secessit, uni de cognitis mandans ut statutis
+diebus sibi alimenta deferret. Et cum in una
+<pb n="0131C"/>
+memoria supra dictus frater eum clausisset, solus
+ibidem morabatur. Metuens ergo diabolus ne accessu
+temporis eremum quoque habitari faceret, ita
+eum aggregatis satellitibus suis, varia caede laceravit,
+ut doloris magnitudo et motum auferret et vocem.
+Nam et ipse postea saepe referebat, vulnera
+fuisse tam gravia, ut universa hominum tormenta
+superarent; sed Dei providentia, quae nunquam in se
+sperantibus deest, conservavit eum.</p>
+<p>Alio die, is quem supra diximus frater advenit,
+cibos deferens assuetos; atque eum jacentem in terra
+semimortuum, fractis foribus, invenit. Quem impositum
+humeris, ad villulae domicilium reportavit.
+Quo audito, ingens vicinorum atque affinium multitudo
+concurrens, triste in medio positi funeris reddebat
+<pb n="0131D"/>
+officium. Et jam media noctis parte transgressa,
+gravis pervigiles omnium oculos vicerat sopor.
+Tum Antonius anima paululum redeunte suspirans,
+elevavit caput; caeteris vero alta quiete prostratis,
+eum, a quo delatus fuerat, vigilare conspexit; eumque
+nutu advocans, obsecravit ut, nullo penitus excitato,
+ad pristinum se referret habitaculum.</p>
+<p>CAP. VIII.--Relatus ergo, juxta consuetudinem
+solus iterum permanebat; et stare quidem propter
+recentes plagas non poterat, orans vero prostratus,
+post orationem clara voce dicebat: Ecce hic sum
+ego Antonius, non fugio vestra certamina, etiamsi
+majora faciatis, nullus me separabit a charitate Christi <note>(Rom. VIII)</note>.
+Psallebatque dicens: Si consistant
+<pb n="0132A"/>
+adversum me castra, non timebit cor meum <note>(Psal.
+XXVI)</note>. Talia eo dicente, bonorum hostis diabolus,
+admiratus quod post tot verbera fuisset ausus reverti,
+congregatis canibus suis, et proprio se furore dilanians:
+Videtis, ait, quia nec spiritu fornicationis,
+nec corporis doloribus superatus, insuper audacter
+lacessit nos. Omnia arma corripite, acrius a nobis
+impugnandus est. Sentiat, sentiat. Debet scire quos
+provocet. Dixit, et ad hortantis vocem audientium
+turba consensit, quia innumeras diabolus habet artes
+nocendi. Sonitus igitur repentinus increpuit, ita ut
+loco funditus agitato, et parietibus patefactis, multifaria
+daemonum exinde turba se effunderet; nam et
+bestiarum et serpentium formas induentes, omnem
+protinus locum replevere phantasiis <emph>39</emph> leonum,
+<pb n="0132B"/>
+taurorum, luporum, aspidum, serpentium, scorpionum,
+necnon et pardorum atque ursorum. Et haec
+singula secundum suam fremebant naturam. Rugiebat
+leo, occidere volens; taurus mugitu et cornibus
+minabatur; serpens sibilo personabat; luporum impetus
+ingerebantur; pardus discoloriter auctoris
+sui calliditates varias indicabat. Truces omnium vultus,
+et vocis horridae dirus auditus. Antonius flagellatus
+atque confossus sentiebat quidem asperiores
+corporis dolores, sed imperterritus durabat mente
+pervigili. Et licet gemitum vulnera carnis exprimerent,
+sensu tamen idem permanens, quasi de inimicis
+luderet, loquebatur: Si virium aliquid haberetis,
+sufficeret unus ad praelium; sed quoniam Domino
+vos enervante frangimini, multitudine tentatis inferre
+<pb n="0132C"/>
+terrores, cum hoc ipsum infirmitatis indicium sit,
+quod irrationabilium induitis formas bestiarum. Rursumque
+confidens, aiebat: Si quid valetis, si vobis
+in me potestatem Dominus dedit, ecce praesto sum,
+devorate concessum. Si vero non potestis, cur frustra
+nitimini? Signum enim crucis et fides ad Dominum,
+inexpugnabilis nobis murus est. Multa contra sanctum
+Antonium minantes, fremebant dentibus suis,
+quod nullus eorum tentamenta consequeretur effectus,
+sed maxime e contrario gigneretur illusio.</p>
+<p>CAP. IX.--Non oblitus Jesus colluctationis
+servi sui, eidem protector factus est. Denique cum
+elevaret oculos, vidit desuper culmen aperiri, et, deductis
+tenebris, radium ad se lucis influere. Post
+cujus splendoris adventum nec daemonum aliquis
+<pb n="0132D"/>
+apparuit, et corporis dolor extemplo deletus est.
+Aedificium quoque, quod paulo ante dissolutum fuerat,
+instauratum est. Illico praesentiam Domini intellexit
+Antonius, et ex intimo pectore trahens longa
+suspiria, ad lumen quod ei apparuerat loquebatur,
+dicens: Ubi eras, bone Jesu? ubi eras? Quare non a
+principio affuisti, ut sanares vulnera mea? Et vox ad
+eum facta est, dicens: Antoni, hic eram, sed expectabam
+videre certamen tuum. Nunc autem, quia dimicando
+viriliter non cessisti, semper auxiliabor tibi,
+et faciam te in omni orbe nominari. His auditis, exsurgens,
+in tantum roboratus, orabat ut intelligeret
+se plus recepisse tunc virium quam ante perdiderat.
+<pb n="0133A"/>
+Erat autem tunc Antonius annos natus triginta quinque.</p>
+<p>CAP. X.--Exinde cum voluntate prompta per merita
+religiosa succresceret, vadens ad supradictum
+senem, precabatur ut in deserto habitarent pariter.
+Causante illo senile aevum et rei novitatem, solus
+contendit ad montem, et eremi adhuc monachis
+ignotae, vitae rupto metu, viam conatus est pandere.
+Sed nec tunc cessavit infatigabilis adversarius; nam
+impedire ejus propositum volens, argenteum discum
+in itinere projecit; quo viso, Antonius callidi artificis
+agnovit astutiam, stansque intrepidus, et discum torvis
+intuens oculis, doli auctorem in phantasmate
+objurgabat argenti, talia secum reputans: Unde hic
+in deserto discus? avium hoc iter est, nulla sunt
+<pb n="0133B"/>
+vestigia commeantium; lapsus de sarcina, prae magnitudine
+latere non potuit; sed et qui perdiderat
+reversus, ob solitudinem locorum, invenisset profecto
+quod ruerat. Hoc artificium, diabole, tuum est,
+non impedies voluntatem meam, argentum tuum tecum
+sit in perditionem. Haec illo dicente, discus ut
+fumus a facie ignis evanuit.</p>
+<p>CAP. XI.--Dehinc non ut ante in phantasmate,
+sed ingentem auri massam jacentem in itinere conspexit.
+Verum hanc utrum diabolus simulaverit, an
+ad Antonium comprobandum, quia nec veris opibus
+inescaretur, virtus coelestis ostenderit, ignoratur.
+Hoc tamen agnovimus, quia quod visum est, aurum
+fuit. At ille magnitudinem admiratus radiantis metalli,
+rapido cursu, quasi quoddam vitaret incendium,
+<pb n="0133C"/>
+ad montem usque perrexit, ibique flumine transvadato,
+invenit castellum desertum, plenum (ob tempus
+et solitudinem) venenatorum animalium, in quo
+se constituens novus hospes habitavit. Statim ad
+ejus adventum ingens turba serpentium, quasi persecutorem
+passa, profugit. At ille obstructo lapidibus
+introitu, panes mensium sex, ut Thebaeis mos est,
+secum recondens (nam crebro per annum incorrupti
+durare solent) necnon et exiguum habens aquae, solitarius
+perdurabat; nusquam inde procedens, nunquam
+aliquem suscipiens, intantum ut cum bis in
+anno per tectum desuper panes acciperet, nullum
+cum deferentibus haberet alloquium.</p>
+<p>CAP. XII.--Multis igitur, videndi eum desiderio
+et studio requirendi, ante ostium ejus pernoctantibus,
+<pb n="0133D"/>
+audiebantur ut vulgi voces adversum Antonium,
+tumultusque dicentium: Quid te nostris ingeris habitaculis?
+quid tibi et deserto? Abscede a finibus
+alienis, non potes hic habitare, non nostras insidias
+sustinere. Et primo quidem, qui foris erant existimabant
+aliquos homines scalis appositis introisse,
+ibique contendere. Postquam autem per cavernas
+introspicientes, nullum viderunt, daemones intellexerunt
+contra eum contendere; et nimio metu perterriti,
+Antonii auxilium flagitabant. At ille <emph>40</emph> ostio
+propinquans ad consolandos fratres, ne timerent,
+atque ut inde recederent, precabatur, trepidantibusque
+asserebat cunctis a daemonibus incuti metum:
+Signate vos, inquiens, et abite securi, ipsosque semetipsos
+<pb n="0134A"/>
+sinite deludere. Itaque illis revertentibus,
+hic remanebat illaesus, nec unquam in certamine
+lassabatur. Accedentium autem augmenta profectuum,
+vel debilitas repugnantium, maximum ejus contentioni
+levamen addiderant, et ejus animo constantiam
+suggerebant. Rursusque ad eremum venientibus turbis
+quae jam mortuum eum se existimaverant reperturos,
+ille psallebat intrinsecus: Exsurgat Deus,
+et dissipentur inimici ejus, et fugiant qui oderunt
+eum a facie ejus. Sicut deficit fumus, deficiant; ut
+liquescit cera a facie ignis, ita pereant peccatores a
+facie Dei <note>(Psal. LXVII)</note>. Et iterum: Omnes gentes circumdederunt
+me, et in nomine Domini vindicavi in
+eis <note>(Psal. CXVII)</note>.</p>
+<p>CAP. XIII.--Sic Antonius annis viginti solitarie
+<pb n="0134B"/>
+transactis, atque ab hominum segregatus conspectibus
+perduravit. Cum ergo multorum et propositum
+imitari cupientium, et notorum multitudo ad eum
+concurreret, necnon et patientium infinita se caterva
+conglomeraret, tandem pene jam per vim foribus
+evulsis, quasi ex aliquo coelesti aditu consecratus
+apparuit. Obstupuerunt universi et oris gratiam
+et corporis dignitatem, quod nec per quietem intumuerat,
+nec jejuniis, daemonumque certamine
+faciem ejus pallor obsederat; sed e contrario, quasi
+nihil temporis exegisset, antiquus membrorum decor
+perseveravit. Pro quanto miraculo! quae in illo animi
+puritas fuit! Nunquam hilaritate nimia resolutus in
+risum est, nunquam recordatione peccati tristitia ora
+contraxit, non magnis stupentium se elatus est laudibus.
+<pb n="0134C"/>
+Nihil in illo indecens solitudo, nihil asperum
+quotidiana cum hostibus bella contulerant; sed temperata
+mens aequali ad cuncta ferebatur examine.
+Plurimos igitur ab immundis spiritibus et infirmitatibus
+variis Dei gratia per Antonium liberavit. Sermo
+ejus sale conditus consolabatur moestos, docebat
+inscios, concordabat iratos, omnibus suadens nihil
+amori Christi anteponendum. Proponebatque ante
+oculos bonorum magnitudinem futurorum, et Dei
+clementiam, et beneficia retexebat indulta, quod proprio
+Filio suo non pepercerit Deus, sed pro nostra
+omnium salute eum tradiderit <note>(Rom. VIII)</note>. Nec mora,
+plura audientium corda ad humanarum rerum contemptum
+haec ejus suasit oratio, et habitandae eremi
+istud ejus exordium fuit.</p>
+<p>
+          <pb n="0134D"/>CAP. XIV.--Quid sane et in Arsinoitarum oppido
+ gestum sit, non transibo silentio. Nam cum
+fratres vellet invisere, et rivulum fluminis Nili, qui
+crocodilis et multis saevis fluminis bestiis plenus erat,
+transvadare esset necesse, tam cum comitibus
+suis transivit illaesus, quam inde redibat incolumis.
+Rursusque in pristinis laboribus perseverans, multos
+magisterio suo fratres confirmavit, ita ut brevi tempore
+plurima fierent monasteria. Novos antiquosque
+monachos, pro aetate vel tempore, paterno
+moderabatur affectu.</p>
+<p>CAP. XV.--Quadam autem die, cum sanctus Antonius
+a congregatis fratribus rogaretur ut eis institutoria
+largiretur praecepta, cum prophetica fiducia
+<pb n="0135A"/>
+exaltans vocem, aiebat ad omnem quidem mandatorum
+disciplinam Scripturas posse sufficere; sed
+et hoc optimum fore, si mutuis se invicem fratres
+sermonibus consolarentur. Et vos ergo, inquit, ut
+patri referte quae nostis, et ego quae per longam aetatem
+consecutus sum quasi filiis indicabo. Hoc sit autem
+primum cunctis in commune mandatum, nullum
+in arrepti propositi vigore lassescere, sed quasi incipientem
+augere semper debere quod coeperit, praesertim
+cum humanae vitae spatia, aeternitati comparata,
+brevissima sint ac parva. Ita exorsus, paululum siluit;
+et admiratus nimiam Dei largitatem, rursus
+adjecit, dicens: In praesenti hac vita aequalia sunt
+pro rerum commutatione commercia, nec majora recipit
+ab emente qui vendit. Promissio autem vitae
+<pb n="0135B"/>
+sempiternae vili pretio comparatur. Scriptum est
+enim: Dies vitae nostrae septuaginta anni; si autem
+multum, octoginta; quidquid reliquum est, labor
+et dolor est <note>(Psal. LXXXIX)</note>. Quando ergo octoginta,
+aut centum, ut multum, annis laborantes, in Dei
+opere vixerimus, non pari tempore regnaturi sumus
+in futuro; sed pro annis praedictis, omnium nobis
+saeculorum regna tribuentur. Non terram haereditabimus,
+sed coelum; corpus quoque corruptum relinquentes,
+idipsum cum incorruptione recipiemus. Ergo,
+filioli, non vos aut taedium defatiget, aut vanae gloriae
+delectet ambitio: Non sunt enim condignae passiones
+hujus temporis, ad superventuram gloriam quae revelabitur
+in nobis <note>(Rom. VIII)</note>.</p>
+<p>Nemo, cum despexerit mundum, reliquisse se arbitretur
+<pb n="0135C"/>
+ingentia, quia omnis terra, ad infinitatem
+comparata coelorum, brevis ac parva est. Si ergo nec
+universo orbi renuntiantes, dignum aliquid habitaculis
+possumus compensare coelestibus, se unusquisque
+consideret, et statim intelliget, parvis aruris et parietibus,
+vel modica auri portione contempta, nec
+gloriari se debere, quasi magna dimiserit; nec taedere,
+quasi <emph>41</emph> parva sit recepturus. Ut enim contemnit
+aliquis unam aeream drachmam, ad drachmas centum
+aureas conquirendas; ita etiam, qui totius orbis dominium
+dereliquit, centuplum de melioribus praemiis
+in sublimi sede recipiet. Ad summum, illud perspicere
+debemus, quod etsi nostras velimus retentare
+divitias, lege mortis ab ipsis devellamur inviti, ut in
+libro Ecclesiastis <note>(Eccl. II)</note> scriptum est. Cur
+<pb n="0135D"/>
+ergo non facimus de necessitate virtutem? cur
+non ad lucranda regna coelestia ultro relinquimus
+quod lucis istius fine perdendum est? Nihil eorum
+curae sit Christianis, quae secum auferre non possunt;
+illud potius debemus expetere, quod nos ducat ad
+coelum, sapientiam scilicet, castitatem, justitiam,
+virtutem, sensum pervigilem, pauperum curam, fidem
+in Christo robustam, animum irae victorem,
+hospitalitatem. Haec sectantes, mansionem nobis in
+terra quietorum, secundum Evangelium <note>(Joan. XIV)</note>,
+praeparabimus. Consideremus Domini esse nos famulos,
+et servitutem debere ei a quo creati sumus. Ut
+enim servus praeteriti gratia famulatus, praesens aut
+futurum non contemnit imperium, nec audet asserere
+<pb n="0136A"/>
+quod ex labore transacto instantis operis habere
+debeat libertatem, sed jugi studio (ut in Evangelio <hi>[Lucae XII]</hi> 
+ scriptum est) eamdem semper exhibet
+servitutem, ut et Domino placere possit, et ne metum
+lucretur et verbera; sic et nos divinis congruit parere
+praeceptis, scientes quod aequus ille retributor, in
+quo quemque invenerit, in eo sit judicaturus, quod
+prophetica per Ezechielem voce testatur <note>(Ezech.
+XXXIII)</note>. Nam et infelix Judas propter unius noctis
+impietatem, omni praeteriti temporis labore privatus
+est. Idcirco tenendus est continuus instituti rigor,
+habentibus Deum auxiliatorem, sicut scriptum est:
+Quia omni proponenti bonum Deus cooperatur <note>(Rom.
+VIII)</note>.</p>
+<p>Ad inertiam autem calcandam, Apostoli praecepta
+<pb n="0136B"/>
+replicemus, quibus se mori quotidie testabatur <note>(I Cor. XV)</note>:
+similiter et nos humanae conditionis vitam
+ancipitem retractantes, non peccabimus. Cum
+enim excitati a somno, ad vesperam nos pervenire
+dubitemus, et quieti corpora concedentes, de lucis
+non confidamus adventu, et ubique naturae ac vitae
+incertae memores, Dei nos intelligamus providentia
+gubernari; hoc modo non delinquemus, aut aliqua
+fragili cupiditate raptabimur; sed nec irascemur
+quidem adversus aliquem, nec terrenos congregare
+thesauros ambiemus: quin potius metu quotidiani
+recessus, et sejungendi corporis jugi meditatione,
+omnia caduca calcabimus. Cessabit mulierum amor,
+libidinis exstinguetur incendium, invicem nobis debita
+nostra donabimus, ante oculos semper habentes
+<pb n="0136C"/>
+ultimae retributionis adventum: quia major formido
+judicii et poenarum timor horridus, simul et lubricae
+carnis incentiva dissolvit, et ruentem animam
+quasi ex aliqua rupe sustentat. Ideoque precor
+ut ad finem propositi omni labore tendamus <note>(Philip.
+III)</note>. Nemo post tergum respiciens Lot imitetur
+uxorem <note>(Gen. XIX)</note>, praesertim cum Dominus dixerit
+nullum ponentem manum super aratrum et respicientem
+retrorsum, dignum esse regno coelorum <hi>(Lucae IX)</hi>.
+Respicere autem retrorsum nihil aliud
+est quam in eo poenitere quod coeperis, et mundanis
+rursus desideriis obligari.</p>
+<p>Nolite, quaeso, virtutis tanquam impossibile nomen
+pavere, nec peregrinum vobis aut procul positum
+videatur hoc studium, quod ex nostro pendet
+<pb n="0136D"/>
+arbitrio. Hujus operis homini inserta natura
+est, et ejusmodi res est, quae nostram tantummodo
+exspectat voluntatem. Graeci studia transmarina
+sectentur, et in alieno orbe constitutos,
+inanium litterarum quaerant magistros; nobis vero
+nulla proficiscendi, nulla transfretandi fluctus
+necessitas imminet, in omni sede terrarum constituta
+sunt regna coelorum. Unde et Dominus in
+Evangelio ait: Regnum Dei intra vos est <hi>(Lucae XVII)</hi>;
+virtus quae in nobis est, mentem tantum requirit humanam.
+Cui enim dubium est quia naturalis animae
+puritas, si nulla fuerit extrinsecus sorde polluta,
+fons sit et origo omnium virtutum? Bonam eam necesse
+est creaverit bonus Creator. Quod si forte cunctabimur,
+<pb n="0137A"/>
+audiamus Jesum filium Nave populo dicentem:
+Rectum facite cor vestrum ad Dominum
+Deum Israel <note>(Josue XXIV)</note>. Nec Joannes dissonam tulit
+de virtute sententiam. praedicans: Rectas facite
+semitas ejus <hi>(Lucae III)</hi>. Siquidem hoc est rectam esse
+animam, cum ejus principalis integritas nulla vitiorum
+labe maculatur; si naturam mutaverit, perversa
+tunc dicitur; si bona conditio servetur, et virtus est.
+Animam nostram commendavit nobis Dominus, servemus
+depositum quale accepimus. Nemo causari
+potest extrinsecus situm, quod in se nascitur; facturam
+suam qui fecit agnoscat, opus suum inveniat
+ut creavit. Sufficit nobis naturalis ornatus; ne
+deturpes, homo, quod tibi largitio divina concessit.
+Opera Dei immutare velle, polluere est.</p>
+<p>
+          <pb n="0137B"/>Illud etiam sollicite providere debemus, ut tyrannicam
+irae superemus insaniam, quia scriptum est:
+Iracundia viri justitiam Dei non operatur <note>(Jac. I)</note>. Et
+iterum: Desiderium concupiscens parit peccatum,
+quo perfecto, mors gignitur <note>(Ibid.)</note>. Divinae vocis
+praeceptum est <note>(Prov. IV)</note>, ut jugi custodia tueamur
+animam nostram, <emph>42</emph> quia exercitatos ad supplantandum
+habemus inimicos, daemones scilicet, contra
+quos nobis, secundum apostolicam contestationem,
+pugna sine intermissione est. At enim: Non est nobis
+colluctatio adversus carnem et sanguinem, sed
+adversus principatus et potestates hujus mundi, adversus
+spiritalia nequitiae in coelestibus <note>(Ephes. VI)</note>.
+Ingens eorum turba istum pervolat aerem, non procul
+a nobis hostium caterva discurrit. Et diversitatem
+<pb n="0137C"/>
+quidem eorum non est meae parvitatis exponere,
+sed hanc majoribus concedo rationem. Quod autem
+in promptu est, et ignorare non expedit, dolos scilicet
+eorum adversum nos compositos breviter indicabo.</p>
+<p>Hoc primum debemus mentibus affigere, nihil
+Deum fecisse quod malum est, nec ab ejus
+institutione daemonum coepisse principia: perversitas
+ista, non naturae, sed voluntatis est vitium. Boni
+etenim, utpote a Deo conditi, ex proprio mentis arbitrio
+ad terras ruere de coelis; ibique in coeni sordibus
+volutati, gentilitatis impias constituere culturas;
+et nunc de nobis torquentur invidia, atque universa
+mala commovere non cessant, ne pristinis eorum
+sedibus succedamus.</p>
+<p>
+          <pb n="0137D"/>Diversa autem eorum et partita nequitia est.
+Quidam enim ad summum nocendi verticem pervenere,
+alii ex comparatione pejorum videntur esse leviores;
+atque omnes pro possibilitate virium, diversa
+contra singulas sumpsere certamina. Idcirco
+necessarium est donum spirituum discernendorum a
+Domino petere <note>(I Cor. XII)</note>, ut possimus tam fraudes
+eorum quam studia pervidentes, adversus disparem
+pugnam unum Dominicae crucis elevare vexillum.
+Hoc munere Paulus accepto, docebat dicens: Non
+enim ejus ignoramus astutias <note>(II Cor. II)</note>. Ad cujus
+exemplum etiam nos oportet ex his quae passi sumus,
+mutuis nos invicem instruere sermonibus.</p>
+<p>Hostile illis contra omnes Christianos, maxime
+<pb n="0138A"/>
+vero contra monachos et virgines Christi, odium est.
+Eorum semitis laqueos praetendunt, eorum mentes
+impiis atque obscoenis cogitationibus nituntur evertere;
+sed nihil vobis in hoc terroris incutiant. Fidelium
+enim orationibus atque jejuniis ad Dominum
+statim corruunt; nec tamen si paululum cessaverint,
+prorsus plenam putetis esse victoriam. Solent etiam
+saucii gravius assurgere, et mutata arte pugnandi,
+cum in cogitatione nihil egerint, pavoribus terrent,
+assumentes nunc mulierum, nunc bestiarum, nunc
+serpentium formas, necnon et ingentia quaedam corpora,
+et usque ad tectum domus porrectum caput,
+infinitas species et militum catervas. Quae omnia ad
+primum quodque crucis signum evanescunt. His
+quoque agnitis fallaciarum modis, incipiunt praesagire,
+<pb n="0138B"/>
+et futurorum dierum eventus velle praedicere.
+Cumque et in his contempti fuerint, ipsum jam suae
+nequitiae principem ac totius mali summitatem, ad
+subsidium sui certaminis vocant.</p>
+<p>CAP. XVI.--Crebro denique Antonius talem a se
+visum diabolum asserebat, qualem et beatus Job,
+Domino revelante, cognoverat <note>(Job XLI)</note>. Oculi ejus
+ac si species Luciferi, ex ore ejus procedunt lampades
+incensae. Crines quoque incendiis sparguntur, et
+ex naribus ejus fumus egreditur, quasi fornacis
+aestuantis ardore carbonum. Anima ejus ut pruna,
+flamma vero ex ore ejus glomeratur. Cum hujusmodi
+terroribus visus est princeps daemonum, inquit
+Antonius, et ingentia saepe, ut dixi, promittens,
+impietatis suae defurit lingua magniloqua. De qua
+<pb n="0138C"/>
+Dominus triumphavit, ad Job dicens <note>(Ibid.)</note>: Arbitratur
+enim ferrum ut paleas, aeramentum ut lignum
+putridum, maria ut terram, tartarum profundi tanquam
+captivum aestimavit, abyssum ut deambulatorium.
+Per prophetam quoque increpat, dicens: Persequens
+comprehendam <hi>(Exodi XV)</hi>, et omnem orbem
+terrarum manu mea ut nidum obtinebo, et ut
+ova derelicta auferam <hi>(Isaiae X)</hi>. Sic iniquus funereas
+evomens voces, bene viventium aliquos frequenter
+illaqueat, sed nos nec ejus pollicitationibus credere,
+nec minas formidare debemus; fallit enim
+frequenter, nihilque verum promittit. Nam si non
+mendacia cuncta loqueretur, quomodo talia et tam
+infinita promittens, hamo crucis ut draco aduncatus
+a Domino est, et capistro ligatus ut jumentum,
+<pb n="0138D"/>
+et quasi mancipium fugitivum vinctus circulo, et armilla
+labia perforatus <note>(Job XL)</note>, nullum omnino fidelium
+devorare permittitur? Nunc miserabilis ut passer,
+ad ludum irretitus a Christo est, nunc
+comites suos quasi scorpiones et serpentes, calcaneo
+Christianorum substratos gemit. Ille qui universa
+maria a se deleta plaudebat, ille qui orbem terrarum
+manu sua teneri pollicebatur, ecce a vobis vincitur,
+ecce me adversum se prohibere non potest disputantem.
+Contemnenda est, filioli, penitus cum inanibus
+verbis superba jactantia; fulgor ille, qui lucere se simulat,
+non veri splendor est luminis, sed quibus arsurus
+est indicat flammas. Nam dicto citius recedens,
+suarum secum refert simulacra poenarum.</p>
+<p>
+          <pb n="0139A"/>Solent etiam cum modulatione nonnunquam apparentes
+psallere, proh nefas! ad haec et impuro ore
+sacra Scripturarum eloquia meditantur. Frequenter
+enim legentibus nobis, quasi Echo ad extrema verba <emph>43</emph> 
+ respondent. Dormientes quoque excitant ad
+orandum, ut totius noctis somnum eripiant; plerosque
+etiam, dum se in monachorum nobilium habitu
+transferunt, monachos coercent, et pristina, quibus
+conscii sunt, peccata imputant; sed spernendae sunt
+eorum increpationes, et admonitiones jejunandi, vigiliarum
+quoque fraudulenta suggestio. Ob id enim
+familiares nobis species assumunt, ut affinitate virtutum
+nocentes, facilius virus interserant, et innocentes
+quosque per speciem honestatis elidant. Impossibile
+postea durumque hoc studium praedicant,
+<pb n="0139B"/>
+ut dum onerosum esse videtur quod coeptum est, ex
+desperatione taedium, et ex taedio succedat ignavia.
+Idcirco propheta missus a Domino, luctuosa denuntians,
+sublimi voce dicebat: Vae qui potat proximum
+suum subversione turbida <note>(Habac. II)</note>. Hujusmodi
+enim exhortamenta, depravatoria sunt itineris, quod
+ducit ad coelum. Idcirco cum venisset Dominus
+ad terras, et vera de eo daemones inviti praedicarent,
+(vere enim dicebant <hi>[Lucae IV]</hi>: Tu es Christus Filius
+Dei vivi), vociferantium ora claudebat, qui vinctas
+hominum linguas solvebat, ne cum praeconio veri
+perversitatis venena miscerent; et ut nos ejus exemplo,
+etiamsi profutura suaderent, in nullo his commodaremus
+assensum, quia profecto non congruit
+nos post libertatem a Domino concessam, et Scripturarum
+<pb n="0139C"/>
+praecepta vitalia, a diabolo vivendi capere
+consilia, qui suum deserens ordinem, sacrum Christi
+temeravit imperium. Propterea etiam Dominus eum
+de Scripturis loquentem jubebat tacere, quia peccatori
+dicit Deus: Quare tu enarras justitias meas, et
+assumis testamentum meum per os tuum <note>(Psal. XLIX)</note>?
+Omnia daemones simulant, colloquuntur saepe cum
+fratribus, saepe cum turba inconditos excitant sonitus,
+manus apprehendunt, sibilant, insipienter cachinnant,
+ut vel in puncto peccati Christianum pectus
+introeant. Cumque ab universis fuerint repulsi,
+ad extremum debilitatem suam lamentatione testantur.
+Et Dominus quidem quasi Deus, et suae conscius
+majestatis, obmutescere his imperabat; nos autem
+vestigiis sanctorum inhaerentes, eamdem gradiamur
+<pb n="0139D"/>
+viam, qui memoratas subtilius fallacias pervidentes,
+canebant: Cum consisteret adversum me peccator,
+obmutui, et humiliatus sum, et silui a bonis <note>(Psal. XXXVIII)</note>.
+Et iterum: Ego vero tanquam surdus
+non audiebam, et sicut mutus non aperiens
+os suum; et factus sum ut homo non audiens <note>(Psal. XXXVII)</note>.
+Christus silentium ut Dominus imperavit,
+nos diabolo nihil credamus, et vincemus.
+Si orare compellunt, si jejunia suadent, non ex eorum
+nos monitis, sed ex nostra consuetudine id agamus.
+Denique etiam si irruentes mortem nobis intentare
+videantur, ridendi potius sunt quam timendi,
+quia cum sint debiles, minantur cuncta, nec faciunt.
+Equidem de istis jam transitorie me dixisse memini,
+<pb n="0140A"/>
+tamen eadem nunc explicanda sunt latius,
+quia non mediocrem affert repetitio cautelam.</p>
+<p>Adveniente Domino, destructus est inimicus,
+et omne penitus ejus robur elanguit. Propter quod
+pristinae virtutis memor, quasi tyrannus jam senescens,
+cum ruisse se videat, in perniciem grassatur
+humanam; nec tamen potest firmum Deo pectus cogitationum
+et caeterarum fraudum arte pervertere.
+Nam luce clarius est quoniam adversarii nostri, cum
+nec humana carne sint septi, ut causari valeant, idcirco
+nos a se non posse superari, quia, clauso ostio
+interiore, intrare non valeant. Et revera si
+fuissent hoc fragili corpore colligati, observato introitu,
+iisdem negaretur accessus. Cum autem (ut
+diximus) hoc impedimento sint liberi, et obstructa
+<pb n="0140B"/>
+penetrent, atque in omni licenter volitent aere, manifestum
+est ob enervationem eorum permanere ecclesiae
+corpus illaesum. Denique satellites impii cum
+principe suo diabolo, quem Salvator in Evangelio homicidam
+et patrem malitiae ab initio fuisse firmat <note>(Joan. VIII)</note>,
+nobis adversum se dimicantibus fortiter,
+nullo modo cessissent, si potestas eorum non fuisset
+ablata. Nam si mentior, cur nobis, Satanas, parcis,
+qui ubique discurris? cur, qui nullo clauderis loco,
+adversum te bene viventium et disputantium non potes
+labefactare constantiam?</p>
+<p>Sed fortasse nos diligis, quos quotidie conaris
+obruere; aut credibile est te esse bonitatis magistrum,
+et favere magis optimis quam nocere? Et quid tam
+charum tibi esse potest quam laedere, maxime eos
+<pb n="0140C"/>
+qui tuis sceleribus viriliter repugnant, secundum quod
+scriptum est: Quia abominatio est pietas peccatori <note>(Eccli. I)</note>.
+Quis tam secundum ad malitiam possidet
+pectus? quis tam meditatas implere conatur insidias?
+Scimus te impurissimum cadaver; scimus quia idcirco
+vivimus Christiani, et contra te nobis est secura congressio,
+quia infirmatus es a Domino. Ideo de tuis
+confoderis jaculis, quia minationem tuam non sequitur
+effectus: quod si fallimur, cur cum terrore simulato,
+cur magnitudine corporum nostram aggrederis
+fidem? Si voluntatem sequitur possibilitas, tantum
+tibi velle sufficiat. Is enim potentiae mos est, non extranea
+fallaciae adjumenta conquirere, sed sua virtute
+implere quod cupiat. At nunc dum theatrali mutatione
+formarum, quasi rudem infantiam scenica <emph>44</emph> 
+<pb n="0140D"/>
+niteris simulatione deludere, exhaustas vires manifestius
+probas. Nunquidnam verus ille angelus contra
+Assyrios missus a Domino <note>(IV Reg. XIX)</note>, aut populorum
+eguit societate, aut sonitus quaesivit, aut plausus;
+et non potius tacitam exercens potestatem, centum
+octogintaquinque millia hostium, sermone velocius,
+juxta jubentis Domini prostravit imperium? Vos
+ergo cum fragiles sitis viribus, perpetuus vos consequitur
+interitus.</p>
+<p>CAP. XVII.--At dicet aliquis: Cur diabolus egrediens,
+beati Job omnem in ruinam impulit domum <note>(Job I)</note>?
+cur ejus opibus penitus dissipatis, parietum
+quoque fundamenta subvertens, unum numerosae sobolis
+coacervavit sepulcrum <note>(Ibid., II)</note>? cur ipsum ad
+<pb n="0141A"/>
+extremum diri vulneris novitate percussit? Qui hoc
+opponit, audiat e diverso: non diabolum potuisse hoc,
+sed Dominum, a quo potestas adversum nos dupliciter
+datur, vel ad gloriam, si probamur, vel ad poenam,
+si delinquimus. Quin potius ex hoc animadvertat,
+ne contra unum quidem hominem diabolum
+quidquam potuisse, si non potestatem accepisset a
+Domino. Nullus enim quod suae ditionis est ab alio
+deprecatur. Sed quid Job memoro, quem nec expetitum
+potuit vincere? sed nec contra jumenta quidem
+ejus, nec contra oves suas, sine concessu Dei proprium
+robur exercuit. Sic etiam in Evangelio scriptum est:
+Daemones autem rogabant eum, dicentes: Si ejicis
+nos hinc, mitte nos in gregem porcorum <note>(Matth. VIII)</note>.
+Quomodo igitur qui porcorum expetunt mortes, imaginem
+<pb n="0141B"/>
+Dei hominem, et tam charum Conditori animal
+suo valebunt jure pervertere?</p>
+<p>Magna, dilectissimi, adversum daemones arma
+sunt vita sincera et intemerata ad Deum fides. Credite
+mihi experto: pertimescit Satanas recte viventium
+vigilias, orationes, jejunia, mansuetudinem, voluntariam
+paupertatem, vanae gloriae contemptum, humilitatem,
+misericordiam, irae dominatum, et praecipue
+purum cor erga Christi amorem. Novit teterrimus coluber,
+ex praecepto Domini sub justorum se jacere
+vestigiis, qui ait: Ecce dedi vobis potestatem calcare
+super serpentes et scorpiones, et super omnem virtutem
+inimici <hi>(Lucae X)</hi>.</p>
+<p>Si autem et divinationem se habere simulantes,
+venturos fratres nuntiaverint, et adfuerint quos venire
+<pb n="0141C"/>
+praedixerant, nec sic fides est commodanda mendacibus:
+ob id enim praecessere venientes, ut credulitas
+sibi paretur ex nuntio, et postea aditus ex credulitate
+fallaciae. Verum in hoc nullum Christiano
+debet esse miraculum, cum non tantum qui levitate
+naturae per cuncta discurrunt, valeant pervenire gradientes;
+sed homines quoque equorum velocitate praevecti,
+nuntiant adfuturos. Non enim ea quae nondum
+fieri coepta sunt referunt, quia Deus solus conscius
+est futurorum <note>(Dan. XIII)</note>; sed quorum conspiciunt in
+actu initium, eorum sibi tanquam fures apud ignaros
+vendicant notionem. Nam quantos nunc putatis qui
+possint velocitate puerili istum coetum nostrosque
+contra se sermones, ante relatum alicujus hic positi,
+longe manentibus indicare? Hoc quod dico vobis,
+<pb n="0141D"/>
+perspicuum fieri potest exemplis. Si quis a Thebaide
+aut alicujus regionis oppido coeperit proficisci, et
+hunc daemones viderint in itinere ambulantem, pernicitate
+memorata possunt praedicere venientem. Ita
+et de Nili inundatione solemni, cum multas in
+Aethiopia viderint pluvias, e quibus fluvius intumescens,
+ultra alveum effluere consuevit, praecurrentes
+ad Aegyptum, nuntiant amnis adventum. Hoc autem
+et homines, si illis celeritatis esset tanta natura, facile
+nuntiarent. Ut enim speculator beati David ad
+verticem loci celsioris ascendens <note>(II Reg. XVIII)</note>, prior
+quam hi qui in terra erant prospiciens venientes, non
+quaedam incerta de futuris, sed de his qui venire coeperant
+nuntiabat; sic et daemones cura pervigili omnia
+<pb n="0142A"/>
+considerantes, rapido cursu sibi invicem nuntiant.
+Sed si forte contigerit ut Dei nutu ad finem coepta non
+veniant, hoc est, si aut viator e media regrediatur
+via, aut suspensae nubibus aquae ad altum coeli cardinem
+deferantur, tunc decipientium una cum credentibus
+error aperitur. Haec gentilitatis fuere principia,
+his praesagitorum dolis apud delubra daemonum quondam
+credebantur oracula: quae adventu Domini nostri
+Jesu Christi, indicto sibi silentio, obmutuerunt,
+suosque perdidere captivos. Quis (rogo) aut
+medicum ex observatione morborum, cum animae aestuantis
+incendium de venarum pulsu levi digitorum
+scrutatur attactu, divinam arbitratur habere notitiam?
+Quis gubernatorem navigationis suae viam inter coeli
+sidera requirentem majestatis honore veneratur? Quis
+<pb n="0142B"/>
+agricolam de aridis aestatis fervoribus, aut de hiemali
+aquarum largitate vel frigore disputantem, non potius
+experientia laudat, quam dei consecrat nomine?</p>
+<p>Verum, ut concedamus paulisper vera daemones
+nuntiare, respondete mihi, quis fructus est nosse
+venientia? Nunquid aut sciens haec aliquando laudatus,
+aut punitus est nesciens? In hoc unusquisque sibi
+praeparat, seu tormenta, seu gloriam, si vel negligat
+Scripturarum mandata, vel faciat. Nullus ob id nostrum
+hanc arripuit vitam, ut habeat praescientiam
+futurorum, sed ut praeceptis Domini <emph>45</emph> obediens,
+amicus esse incipiat de servo. Curandum est non praescire
+quae veniunt, sed implere quae jussa sunt; nec
+institutionibus bonis hanc flagitare mercedem, cum
+magis debeamus victoriam contra diabolum ab auxiliatore
+<pb n="0142C"/>
+Domino postulare. Sed si forte aliquis hoc libenter
+assumat, ut futura cognoscat, habeat purum
+cor; quia credo animam Deo servientem, si in ea perseveraverit
+integritate qua nata est, plus scire
+posse quam daemones. Talis erat anima Elisaei, quae
+aliis incognitas virtutes faciebat.</p>
+<p>CAP. XVIII.--Nunc jam caeteras vobis daemonum
+explicabo fallacias. Solent nocte venientes, angelos
+Dei se fingere, laudare studium, mirari perseverantiam,
+futura praemia polliceri. Quos cum videritis,
+tam vos quam domos vestras crucis armate signaculo,
+et confestim solventur in nihilum: quia metuunt
+illud trophaeum in quo Salvator aereas exspolians
+potestates, eas fecit ostentui. Solent etiam variis
+simulationibus membra torquere, et nostris procaciter
+<pb n="0142D"/>
+offerre se visibus, ut mentem pavore, et corpus
+horrore concutiant. Sed et in hoc fides Deo tuta
+fugat eos quasi infirma ludibria.</p>
+<p>Non est autem difficilis bonorum spirituum malorumque
+discretio, quae sic Deo tribuente panditur:
+Sanctorum angelorum amabilis et tranquillus
+aspectus est, quia non contendunt neque clamant,
+neque audiet aliquis vocem eorum; verum tacite
+leniterque properantes, gaudium, exsultationem,
+fiduciam pectoribus infundunt, siquidem cum illis
+est Dominus, qui est fons et origo laetitiae. Tunc
+mens nostra non turbida, sed lenis et placida angelorum
+luce radiatur; tunc anima coelestium praemiorum
+aviditate flagrans, effracto (si posset) humani
+<pb n="0143A"/>
+corporis domicilio, et membris exonerata mortalibus,
+cum his quos videt abire festinat ad coelum. Horum
+tanta benignitas est, ut si quis pro conditione fragilitatis
+humanae, miro fuerit eorum fulgore perterritus,
+omnem continuo ex corde auferant metum. Ita
+Gabriel cum Zachariae loqueretur in templo <hi>(Lucae
+XII)</hi>; et angeli cum divinum Virginis partum pastoribus
+nuntiarent <note>(Matth. XXVIII)</note>, et qui Dominici
+corporis agebant excubias, securis videntium se
+mentibus ostendentes, ne metuerent imperabant.
+Metus enim non tantum ex pavore animi, quantum
+ex magnarum rerum saepe incutitur aspectu. Pessimorum
+vero vultus truces, sonitus horridi, sordidi
+cogitatus, plausus motusque indisciplinatorum adolescentum
+vel latronum; e quibus confestim timor
+<pb n="0143B"/>
+animae, sensibus torpor incutitur; odium Christianorum,
+monachorum moeror et taedium, suorum recordatio,
+metus mortis, cupido nequitiae, lassitudo
+virtutis, cordis hebetatio. Si igitur post timorem
+horrore conceptum, successerit gaudium et ad Deum
+fiducia atque ineffabilis charitas, venisse sciamus
+auxilium, quia securitas animae praesentis majestatis
+indicium est. Sic namque et Abraham patriarcha
+videns Deum, gavisus est <note>(Joan. VIII)</note>; et Joannes
+cum Mariam supervenisse sentiret, quae in sacri
+ventris hospitio universitatis gestabat parentem,
+exsultavit necdum natus in gaudium. <hi>(Lucae I)</hi>. Si
+autem incussa formido permanserit, hostis est qui
+videtur: quoniam nec refovere novit, ut Gabriel
+paventem Virginem ne timeat jubet <hi>(Lucae I)</hi>; et
+<pb n="0143C"/>
+sicuti pastores nuntio consolati sunt <note>(Ibid.)</note>. Quinimo
+pavorem duplicat, et usque ad profundam
+impietatis foveam, ut sibi homines prosternantur
+impellit. Exinde misera gentilitas, dominicae interdictionis
+ignara, falso daemones deos opinata est.
+Christianorum autem populos his fallaciis irretiri
+non passus est Dominus, qui diabolum in Evangelio
+audacter sibi principatum omnium praesumentem
+repulit, dicens: Vade retro, Satana. Scriptum est
+enim: Dominum Deum tuum adorabis, et illi soli
+servies <note>(Matth. IV; Deut. VI et X)</note>. Horum verborum
+etiam nobis licentia est tributa; quia idcirco locutus
+est talia, ut similitudo tentamentorum auctoris nostri
+frangeretur eloquiis.</p>
+<p>CAP. XIX--Illud quoque, mei charissimi, admoneo,
+<pb n="0143D"/>
+ut vitae magis sit vobis, quam signorum sollicitudo.
+Nullus ex vobis haec faciens, aut ipse superbia
+intumescat, aut despiciat eos qui facere non possunt.
+Conversationem magis scrutamini singulorum: in
+hac vita et imitari vos quae perfecta sunt convenit, et
+implere quae desunt. Nam signa facere non est nostrae
+parvitatis, sed Domini potestatis, qui ad discipulos
+gloriantes, in Evangelio ait: Ne gaudeatis quia
+daemones vobis subjecti sunt, sed quod nomina
+vestra scripta sunt in coelis <hi>(Lucae X)</hi>. Nominum
+enim in libro vitae conscriptio, testimonium est virtutis
+et meriti; expulsio autem Satanae, largitio
+Salvatoris est. Unde his qui non in vitae laboribus,
+sed in prodigiis exsultabunt, dicentibus: Nonne in
+<pb n="0144A"/>
+nomine tuo daemonia ejecimus, et in nomine tuo
+virtutes multas fecimus <note>(Matth. VII)</note>? respondebit
+Dominus: Amen dico vobis, non novi vos, discedite
+a me, operarii iniquitatis. Non enim novit Dominus
+vias impiorum. Hoc ergo magnopere postulemus, ut
+donum spirituum discernendorum mereamur accipere;
+quo, secundum sententiam Scripturarum,
+omni spiritui non credamus <note>(I Joan. IV)</note>.</p>
+<p>CAP. XX.--Volueram quidem jam finire sermonem,
+et silentio premere quaecunque meae acciderant <emph>46</emph> 
+ parvitati; sed ne putetis me frustra commemorasse
+quae evenire non possent, idcirco (licet insipiens
+fiam, tamen Dominus, qui secretae mentis est
+inspector, novit non me causa jactantiae, sed vestri
+gratia profectus hoc facere, pauca replicabo de
+<pb n="0144B"/>
+plurimis. Quoties me nimiis laudibus efferre conati
+sunt, cum a me in nomine Domini maledicta reciperent
+! quoties augmenta Nili fluminis futura
+dixerunt, cum a me audirent: Et hoc ad vestram
+quid pertinet curam? quoties minitantes ut milites
+armati, scorpionibus, equis, belluis, et variis serpentibus
+circumdederunt me, et domum in qua eram
+repleverunt, cum ego e contra psallerem: Hi in
+curribus et hi in equis, nos autem in nomine Domini
+Dei nostri magnificabimur <note>(Psal. XIX)</note>. Et statim misericordia
+Christi fugabantur. Quodam autem tempore
+cum ingenti luce venientes, dixerunt: Venimus,
+Antoni, nostrum tibi praebere fulgorem. Et ego,
+clausis oculis, quia lucem diaboli dedignabar aspicere.
+orabam, et dicto citius impiorum lumen exstinguebatur.
+<pb n="0144C"/>
+Post menses autem paucos, cum coram
+me psallerent, et de Scripturis sibimet sermocinarentur,
+ego tanquam surdus non audiebam. Commoverunt
+aliquando monasterium meum, et
+ego mente immobili Dominum deprecabar. Saepe
+strepitus, saepe saltationes, saepe sibilos ingesserunt;
+et me psallente, sonus eorum in voces flebiles
+vertebatur</p>
+<p>Creditisne, filioli, quod dicturus sum vobis? Vidi
+aliquando diabolum excelsum corpore, qui se Dei
+virtutem et providentiam ausus est dicere, et ait ad
+me: Quid vis, ut a me tibi donetur, Antoni? At ego
+sputaculum maximum in os ejus ingeminans,
+totum me in eum Christi nomine armatus, ingessi:
+et statim ille procerus aspectu inter medias manus
+<pb n="0144D"/>
+exolevit. Jejunanti etiam mihi visus est ut monachus;
+et panes offerens, his sermonibus suadebat ut
+vescerer, et huic aliquid indulgerem corpusculo: Et
+tu, inquit, homo es, et humana fragilitate circumdaris;
+labor paululum conquiescat, ne aegritudo subripiat.
+Illico luridam faciem serpentis agnovi; et cum
+ad consueta Christi munimenta confugerem, tanquam
+per fenestram fumus laberetur, evanuit. Auri quoque
+decipulam mihi in deserto frequenter tetendit; quod
+ideo offerebat, ut aut visu irretiret me aut tactu
+commacularet. Saepe quoque me a daemonibus non
+denego verberatum. Canebam autem sic: Nullus me
+separabit a charitate Christi <note>(Rom. VIII)</note>. Ad cujus
+vocis auditum, in se invicem defurentes, non meo,
+<pb n="0145A"/>
+sed Domini fugabantur imperio, qui ait <hi>(Lucae X)</hi>:
+Vidi Satanam quasi fulgur cadentem de coelo. Haec
+ergo, filioli, apostolici memor eloquii, in me transformavi,
+ut propositum vestrum nec daemonum
+terror, nec aliqua lassitudo dissolveret.</p>
+<p>Sed quoniam ob vestram utilitatem multa memorando,
+insipiens factus sum, et hujus rei vobis
+impertiri cupio notionem, quam veram esse nullus
+ambigat audientium. Pulsavit aliquando daemon monasterii
+ostium: egrediens, video hominem enormi
+sublimitate, porrectum caput usque ad coelum. Cum
+ab hoc quisnam esset inquirerem, ait: Ego sum
+Satanas. Et ego: Quid, inquam, hic quaeris? Respondit:
+Cur mihi frustra imputant monachi? cur
+mihi omnes Christianorum populi maledicunt? Et
+<pb n="0145B"/>
+ego: Juste faciunt, tuis enim frequenter molestantur
+insidiis. At ille ait: Nihil ego facio, sed ipsi se invicem
+turbant. Nam ego miserabilis factus sum.
+Rogo, nonne legisti: Quia defecerunt inimici frameae
+in finem, et civitates eorum destruxisti <note>(Psal. IX)</note>?
+En nullum jam habeo locum, nullam possideo civitatem,
+jam mihi nulla sunt arma: per omnes nationes
+cunctasque provincias Christi personat nomen, solitudines
+quoque monachorum stipantur choris. Ipsi
+se, quaeso, tueantur, et me sine causa non lacerent.
+Tunc ego Dei gratiam cum alacritate miratus, sic ad
+eum locutus sum: Non tuae veritati, quae nulla est,
+tam novam et tam inauditam ascribo sententiam.
+Nam cum fallaciae caput sis, hoc sine mendacio
+coactus es confiteri. Vere enim Jesus tuas funditus
+<pb n="0145C"/>
+subruit vires, et honore nudatus angelico, volutaris
+in sordibus. Vix dum verba compleveram, et ille
+sublimis aspectu Salvatoris nominatione dejectus est.</p>
+<p>Quae ergo jam, o filioli, poterit residere cunctatio?
+quae trepidatio manebit ulterius? Quis nos
+eorum turbo poterit convellere? Securae sint animae
+singulorum: non sibi fingat vana cogitatio vana
+discrimina; non aliquis timeat a diabolo sublatum
+ad praecipitia se posse deferri. Pellatur omnis anxietas;
+Dominus enim, qui nostros prostravit inimicos,
+manens, ut promisit, in nobis <note>(Joan. XIV)</note>, a variis
+nos Satanae munivit incursibus. En ipse diabolus, qui
+hujusmodi cum suis satellitibus exercet astutias,
+nihil se posse contra Christianos fatetur.</p>
+<p>Jam curae Christianorum et monachorum sit ne
+<pb n="0145D"/>
+per eorum inertiam vires daemonibus praebeantur.
+Nam quales nos et nostras repererint cogitationes,
+tales se nobis praestare consueverunt. Et si quod in
+pectoribus malae mentis et pavoris semen invenerint,
+quasi latrones, qui deserta obtinent loca, coeptos
+cumulant timores, et crudeliter imminentes, infelicem
+puniunt animam. <emph>47</emph> Si autem alacres fuerimus
+in Domino, et futurorum bonorum cupido nos succenderit;
+si semper omnia manibus Dei committamus,
+nullus daemonum ad expugnandum valebit
+accedere; magis enim, cum munita in Christo corda
+conspexerint, confusi revertentur. Ita et Job firmatum
+in Domino diabolus refugit; et infelicissimum
+Judam exspoliatum fide, vinculis captivitatis innexuit.
+<pb n="0146A"/>
+Una est ergo ratio vincendi inimicum,
+laetitia spiritualis, et animae Dominum semper cogitantis
+jugis recordatio: quae daemonum ludos quasi
+fumum expellens, persequetur adversarios potius
+quam timebit. Non est enim nescius Satanas ignium
+futurorum, et aestuantis gehennae copiosa novit
+incendia.</p>
+<p>Sed ut mea jam claudatur oratio, illud in finem
+commemoro: Cum aliqua se vobis obtulerit visio,
+audacter requirite, quis sit ille, et unde venerit; ac
+sine mora, si sanctorum fuerit revelatio, angelica
+consolatione timor vertetur in gaudium. Si vero diaboli
+fuerit oblata tentatio, fidelis animae percunctationibus
+evanescet; quia maximum est securitatis
+indicium, interrogare quisnam est et unde. Sic et
+<pb n="0146B"/>
+Nave filius auxiliatorem suum interrogando cognovit <note>(Josue V)</note>;
+nec Danielem percontantem latere potuit
+inimicus <note>(Dan. X)</note>.</p>
+<p>Postquam Antonius dicendi finem fecit, laetantibus
+cunctis, in aliis virtutis cupido exardescebat, in aliis
+infirma refovebatur fides, ex aliorum mentibus falsae
+opiniones pellebantur, ex aliorum sensibus inanium
+terrorum pellebatur accensio: simulque universi,
+cum jam daemonum insidias contemnerent, mirabantur
+in Antonio tantam gratiam spirituum discernendorum,
+quam Domino tribuente perceperat.</p>
+<p>CAP. XXI.--Erant igitur in monte monasteria
+tanquam tabernacula, plena divinis choris psallentium,
+legentium, orantium: tantumque jejunandi
+et vigiliarum ardorem cunctorum mentibus sermo
+<pb n="0146C"/>
+ejus afflaverat, ut futurae spei aviditate, ad charitatem
+mutuam et misericordias indigentibus exhibendas
+jugi studio laborarent, qui infinitam regionem
+quamdam, et oppidum a mundana conversatione sejunctum,
+plenum pietatis et justitiae videbantur incolere.
+Quis tantum monachorum agmen aspiciens,
+quis virilem illum concordiae coetum cernens, in quo
+nullus nocens, nulla detractio susurronis, sed multitudo
+abstinentium et certamen officiorum erat, non
+in hanc statim erumperet vocem: Quam bonae domus
+tuae, Jacob! tabernacula tua, Israel, tanquam nemora
+obumbrantia, tanquam paradisus super fluvios, tanquam
+tabernacula quae fixa sunt a Domino, tanquam
+cedri circa aquas <note>(Num. XXIV)</note>!</p>
+<p>CAP. XXII.--Dum haec ita geruntur, quibus in
+<pb n="0146D"/>
+dies beatae vitae studium cresceret, Antonius mansionum
+in coelo positarum recordans, et praesentis
+vitae despiciens inanitatem, quasi parva
+essent quaecunque jam gesserat, separatus a fratribus
+instituebatur. Cumque eum sive cibum sive
+somnum indulgere corpusculo, aut alias naturae necessitates,
+cogeret humana conditio, miro afficiebatur
+pudore, quod tantam animae libertatem modici
+carnis termini coercerent. Nam frequenter cum fratribus
+sedens, a cibo cui fuerat appositus, memoria
+escae spiritualis, abstrahebatur. Edebat tamen, utpote
+homo, saepe solus, saepe cum fratribus. Et cum haec
+mira (ut praedixi) ageret, cum confusione animae adhibendam
+magnopere corpori diligentiam persuadebat
+<pb n="0147A"/>
+dicens, nec corpus esse penitus enecandum, ne
+operatio contra voluntatem Creatoris dissolveretur;
+et nec ob id omne studium animae conferendum, ne
+vitiis superata corporeis, ad aeternas inferni tenebras
+truderetur; quinimo indultum sibi in carne imperium
+vindicans, domicilium suum, ut apostolus Paulus <note>(II Cor. XII)</note>,
+ad tertium coelum sublevaret. Asserebatque
+hoc a Salvatore praeceptum, in quo ait:
+Nolite solliciti esse animae vestrae quid manducetis
+aut quid bibatis, nec corpori quid vestiamini, quia
+haec gentes quaerunt; vester autem Pater novit quod
+indigetis his omnibus. Quaerite ergo primum regnum
+Dei et justitiam ejus, et haec omnia adjicientur vobis <note>(Matth. VI)</note>.</p>
+<p>CAP. XXIII.--His rebus transactis, cum persecutio
+<pb n="0147B"/>
+impiissima Maximiani furore vesano vastaret
+Ecclesiam, sanctis quoque martyribus Alexandriam
+perductis, relicto et ipse monasterio secutus est futuras
+Christi victimas, dicens: Pergamus ad gloriosos
+fratrum triumphos, aut ipsi congrediamur, aut
+spectemus alios praeliantes. Et amore quidem jam
+martyr erat, sed cum tradere se ultro non valeret,
+et sociari confessoribus in metallis vel in carceribus
+constitutis, magna cum libertate et cura ingrediens
+ad judicem, exhortabatur, ne terrore impiorum subacti,
+Dominum negarent. Jamque sententia coronatos
+exsultans, quasi ipse vicisset, usque ad locum felicis
+sanguinis prosequebatur. Quamobrem motus judex,
+ob Antonii sociorumque ejus constantiam, praecepit
+nullum penitus monachorum aut observare judicium,
+<pb n="0147C"/>
+aut in civitate versari. Et caeteris quidem omnibus
+in illa die placuit abscondi; Antonius autem impavidus,
+neglecto persecutoris imperio, lavit ependyten
+suum. Et alia die, stans in quodam eminenti
+loco, <emph>48</emph> candente praecinctus veste, procedentem
+judicem suo provocabat aspectu, flagrans cupiditate
+martyrii; ostendebatque nobis, contemptorem
+poenarum et mortis in Christianis animum perseverare
+debere, intantum, ut contristaretur quia volenti
+pati pro Dei nomine martyrium non dabatur. Sed
+Dominus qui suo gregi parcebat, magistrum servavit
+Antonium, ut institutum (sicuti factum est) monachorum
+non solum oratione ejus, sed et conspectibus
+firmaretur. Nunquam tamen a sanctorum confessorum
+vestigiis separatus est, quin, anxia circa eos
+<pb n="0147D"/>
+cura et charitatis vinculis colligatus, magis carcerem
+patiebatur exclusus. Postquam autem persecutionis
+turbo defluxerat, et beato episcopo Petro jam ob
+martyrii gloriam coronato, ad pristinum monasterium
+regressus, quotidianum fidei ac conscientiae
+martyrium merebatur, acrioribus se jejuniis vigiliisque
+conficiens, vestimento cilicino intrinsecus,
+desuper pellicio utebatur, nunquam corpus lavans,
+nunquam pedibus sordes abluens, nisi cum per aquas
+transire necessitas compulisset. Nullus denique Antonii
+corpus nudum, antequam moreretur, unquam vidit.</p>
+<p>CAP. XXIV.--Quodam autem tempore, cum ab
+omnium se amovisset oculis, et clauso monasterio
+neminem omnino susciperet, Martinianus militum
+<pb n="0148A"/>
+praepositus, cujus filia immundi spiritus infestationibus
+quatiebatur, pulsans ostium obsecrabat, ut
+suo pignori subveniret, et exiens, Deum pro filia
+precaretur. Tum ille aperire quidem minime voluit:
+prospiciens vero desuper, ait: O homo, quid meum
+poscis auxilium? mortalis et ego sum, et tuae socius
+fragilitatis; si autem credis in Christum, cui deservio,
+vade, et secundum fidem tuam ora Deum, et
+sanabitur filia tua. Confestim ille credens abiit; et
+invocato Jesu, filiam reduxit incolumem. Multa et
+alia mirabilia per illum Dominus operatus est, et
+merito; qui enim promisit in Evangelio, Petite, et
+dabitur vobis <note>(Matth. VII)</note>, invento qui ejus gratiam
+mereretur accipere, suam potentiam non negavit.
+Nam plures vexatorum ante monasterium ejus, clauso
+<pb n="0148B"/>
+introitu, dormientes, fidelibus per eum ad Christum
+precibus curabantur. Haec illi multitudo venientium,
+desideratam solitudinem auferens, taedio fuit.</p>
+<p>Metuens itaque ne signorum copiosa concessio aut
+suos animos extolleret, aut alios plus de se quam
+videbant in ipso cogeret aestimare, ad superiorem
+Thebaidem pergere cogitavit, ubi nullus eum agnosceret.
+Et a fratribus acceptis panibus, sedebat super
+fluminis ripam, transitum navis observans. Illo talia
+cogitante, vox ad eum desuper facta est, dicens:
+Antoni, quo pergis, et quare? At ille intrepide, quasi
+consuetam vocem loquentis agnosceret respondit:
+Quoniam non sinunt me quiescere populi, idcirco ad
+superiorem Thebaidem ire optimum duxi; praecipue,
+quia ea exigor quae virtutem meae pusillanimitatis
+<pb n="0148C"/>
+excedunt. Et vox ad illum ait: Si ad Thebaidem vadas,
+et ad pastoralia, ut cogitas, pergas, majorem
+ac duplicem sustinebis laborem. Si autem vere quiescere
+cupis, vade nunc ad interius desertum. Cumque
+Antonius diceret: Quis mihi locum avium poterit
+ostendere, ignarus enim sum locorum? confestim ei
+qui loquebatur Saracenos indicavit, qui mercandi
+gratia ad Aegyptum venire consueverant. His appropinquans
+Antonius, rogavit ut se pariter abducerent
+in desertum. Nullus obnisus est, sed tanquam a Deo
+missum comitem suscipientes, amplexi sunt ejus societatem.</p>
+<p>Tribus autem diebus et noctibus itinere confecto,
+invenit montem valde excelsum, ad cujus radices
+fons aquae dulcis labebatur, et campus haud magnus
+<pb n="0148D"/>
+totum ambiens montem, qui palmis perpaucis, et his
+neglectis, consitus erat. Hunc Antonius locum, quasi a
+Deo sibi offerretur, amplexus est. Is enim erat quem
+sibi ad fluminis ripam sedenti qui loquebatur ostenderat.
+Et primo quidem accipiens a comitibus panes,
+solus remansit in monte, nullo alio cum eodem
+conversante. Quasi propriam enim domum agnoscens,
+habebat locum illum. Saraceni quoque videntes ejus
+fiduciam, optato per eum transitu, panes eidem cum
+laetitia deferebant; necnon palmarum, licet mediocri,
+attamen aliquanto solatio refovebatur.</p>
+<p>CAP. XXV.--Exinde cum fratres, agnito loco,
+tanquam ad patrem filii, sollicite alimenta transmitterent,
+videns Antonius quod ob suum refrigerium
+<pb n="0149A"/>
+multis onerosus labor indiceretur, et parcens etiam
+in hoc monachis, rogavit unum de advenientibus, ut
+sarculum sibi, bis acutum cum frumento deferret.
+Quibus allatis circumiens montem, haud grandem
+culturae aptum reperit locum, ad quem derivata aqua
+desuper poterat influere; ibique seminavit; atque
+exinde annuum sibi panem laborans, gaudebat, quod
+sine cujusquam molestia ex propriis manibus viveret
+in deserto. Sed cum rursus etiam illuc quidam venire
+coepissent, misertus est lassitudini eorum, et olus in
+parvo terrae cespite coluit, ut post asperum iter aliquo
+venientes solatio refoverentur. Hoc fratrum refrigerium
+et parvulam messem bestiae, propter aquas
+illuc convenientes, depastae <emph>49</emph> sunt: e quibus unam
+apprehendens dixit omnibus: Cur me laeditis, nihil
+<pb n="0149B"/>
+a me laesae? abite, et in nomine Domini ne huc appropietis
+ulterius. Quis non credat, post hanc denuntiationem,
+quasi timentes, nunquam illuc bestias
+appropinquasse? Sic Antonio impenetrabilia montium
+et deserti interiora captanti, orationibus etiam dedito,
+introeuntes fratres magnis vix precibus extorserunt,
+ut olivas et legumen et oleum, quod post menses
+aliquot ministrabant, dignaretur accipere, et senili
+modicum laxaret aetati</p>
+<p>Proh nefas! quantas ibi conversans expertus est
+luctas. Vere, secundum quod scriptum est, non illi
+adversus carnem et sanguinem fuisse colluctationem,
+sed adversus principatus et potestates <note>(Ephes. VI)</note>;
+ab his qui ad eum ingrediebantur agnovimus. Illi
+enim tumultus et voces populi, armorumque sonitus,
+<pb n="0149C"/>
+prorsus plenum montem daemonum multitudine sevidisse
+referebant: ipsum etiam quasi contra inimicos
+palam resistentem et fortiter colluctantem. Qui
+tamen et advenientes suo refovebat hortatu, et flexis
+genibus, armis quoque orationum omnem Satanae
+prosternebat exercitum. Admiratione plane dignum
+est, in tam immani solitudine, unum hominem nec
+daemonum quotidianas expavisse congressiones, nec
+tantarum bestiarum, quadrupedum sive reptilium,
+diversae cessisse feritati. Juste David cecinit: Qui
+confidunt in Domino, sicut mons Sion non commovebitur
+in aeternum <note>(Psal. CXXIV)</note>. Immobilem et
+tranquillam retinens animi firmitatem, et daemones
+fugabat, et feras, sicut scriptum est <note>(Job. V)</note>, secum
+pacificabat. Sed et diabolus, ut supra dictus propheta
+<pb n="0149D"/>
+ait <note>(Psal. LXIII)</note>, observans eum, frendebat dentibus
+suis; et ille Salvatoris auxilio, ab universis tutus
+perseverabat insidiis. Quadam ergo nocte cum pervigil
+Antonius obsecraret Dominum, tantos in monasterium
+ejus bestiarum greges coacervavit, ut omnes
+eremi belluas circum se aspiceret. Quae cum
+rictu oris morsum corpori minitarentur, intellexit
+hostis astutias, dixitque: Si a Domino in me vobis
+est tributa licentia, devorate concessum; si autem
+daemonum huc venistis impulsu, quantocius abite,
+quia Christi famulus sum. Ita factum est, et cum jubentis
+voce omnis bestiarum multitudo, quasi majestatis
+verbere caederetur, aufugit.</p>
+<p>CAP. XXVI.--Non multi post haec fluxerant dies,
+<pb n="0150A"/>
+et alia oritur cum eodem hoste certatio. Operante illo
+(nam semper, ut venientibus pro his quae sibi detulerant,
+aliquod munusculum rependeret, laborabat)
+traxit quidam sportellae, quam texebat, tricinam sive
+funiculum. Ad cujus motum exsurgens, vidit
+bestiam pubetenus humanam faciem praeferentem
+quae exinde in asinum finiebatur. Post cujus aspectum,
+vexillum crucis in fronte sua pingens, hoc tantum
+ait: Christi servus sum, si ad me missa es, non
+fugio. Nullum in medio spatium, et statim informe
+prodigium dicto ocius cum satellitum turba fugit, et
+in medio cursu ruens exstinctum est. Ista autem explosi
+mors atque enecati prodigii, daemonum erat
+communis interitus; qui omni studio laborantes, Antonium
+a deserto deducere non valuerunt. Mirandis
+<pb n="0150B"/>
+plus miranda succedunt.</p>
+<p>CAP. XXVII.--Non grande post ista tempus excesserat,
+et tantarum victoriarum homo fratrum precibus
+vincitur. A monachis enim rogatus, ut eos
+dignaretur invisere, una cum his profectus est, impositis
+camelo aqua et panibus, quia nusquam, praeter
+monasterii locum ex quo hauserant, potabilis
+aqua per arentem viam reperiebatur. Verum in medio
+itinere bibendi subsidia defecerunt. Ardor nimius,
+aestus intolerabilis, mortem cuncta minitantur.
+Circumeunt, et quaerunt saltem collectam pluviis
+lacunam, nihil prorsus remedii, nihil occurrit penitus
+ad salutem. Camelus quasi periturus et ipse aestuans
+dimittitur, aestuantis pectus exuritur, et sitis desperatione
+fervescit. Movit senem fratrum secum commune
+<pb n="0150C"/>
+discrimen, et vehementissime contristatus ingemuit.
+Dehinc ad solita precum auxilia confugiens,
+paululum ab eis secessit; ibique, genibus fixis, supplices
+manus tetendit ad Dominum. Nec mora, et ad
+primas rogantis lacrymas, in orationis loco fons ebulliens
+erupit, ibique exstincta sitis, et arentia membra
+refecta sunt, et plenis utribus inventum potant
+camelum. Ita enim casu evenerat, ut camelus errans
+per eremum, dum funiculum trahit, in quodam lapide
+ejusdem alligatione funiculi teneretur. Tandem
+confecto itinere ad monachos qui invitaverant pervenit.
+Tunc vero quasi patri omnes obviam occurrerunt
+et honorifico salutatu in oscula ejus et amplexus
+certatim ruunt. Proposito ferventi gaudet Antonius;
+et laetantibus de adventu suo cunctis, quasi xenia
+<pb n="0150D"/>
+ de monte portans, spiritualia impartitur alimenta.
+Laudat veterum studia, hortator novorum.
+Sororem quoque jam vetulam virginem videns, et
+aliarum puellarum magistram, mira exsultatione
+sustollitur. Exinde, quasi diu abesset ab eremo, rursum
+festinavit ad montem.</p>
+<p>CAP. XXVIII.--Plurimis jam ad illum venientibus,
+cum etiam vexati a daemonibus, malo necessitatis
+coacti, auderent deserta penetrare; quos ille consolans,
+et monachis in commune praecipiens, aiebat:
+Credite in Jesum fideliter: <emph>50</emph> mentem a malis cogitationibus,
+carnem ab immunditiis servate puram,
+et juxta eloquia divina, ne seducamini in saturitate
+ventris <note>(Prov. XXIV)</note>, odite vanam gloriam, orate
+<pb n="0151A"/>
+saepissime, psallite vespere, et mane, et meridie, et
+mandata Scripturarum revolvite. Recordamini gestorum,
+quae sancti quique fecerunt, ut exempli memoria
+animam incitet ad virtutem, refrenet a vitiis.
+Suadebat etiam jugi meditatione retinendum Apostoli
+sermonem, quo ait: Sol non occidat super iracundiam
+vestram <note>(Ephes. IV)</note>. Non tantum autem super
+iracundiam solem occidere non debere interpretabatur,
+sed et super omnia delicta hominum, ne peccatorum
+unquam nostrorum aut in nocte luna, aut
+in die sol, testes abscederent. Illius quoque admonebat
+praecepti memores esse, quod dicit de his:
+Dijudicate vosmetipsos, et probate <note>(II Cor. XIII)</note>; ut
+rationem diei noctisque facientes, si in se delictum
+deprehendissent, peccare desisterent; sin autem
+<pb n="0151B"/>
+nullus error decepisset, perseverantes instarent potius
+incepto, quam arrogantia tumidi aut alios contemnerent,
+aut sibi justitiam vendicarent, juxta supradicti
+Doctoris eloquium dicentis: Nolite judicare
+ante tempus <note>(I Cor. IV)</note>; magis debere eos Christi,
+cui soli occulta patent, reservare judicio <note>(Rom. II)</note>.
+Multas esse (ut scriptum est) vias quae videntur hominibus
+justae, sed fines earum ad profundum respicere
+inferni <note>(Prov. XIV et XVI)</note>; saepe nostra non posse
+nos intelligere peccata, saepe falli in ratione gestorum;
+aliud esse Dei cuncta cernentis judicium, qui
+non ex superficie corporum, sed ex mentium judicat
+arcanis. Aequum autem esse nos nobis compati, et
+invicem onera nostra portare <note>(Gal. VI)</note>, ut concesso
+examine Salvatori, proprias conscientias nosmetipsos
+judicantes intueremur.</p>
+<p>
+          <pb n="0151C"/>Necnon dicebat magnam esse ad virtutem viam, si
+singuli vel observarent quod gererent, vel universas
+mentium cogitationes fratribus referrent. Non enim
+posse aliquem peccare, cum relaturus esset ad alium
+quaecunque peccasset, et subire pudorem in publicum
+turpia proferendi. Denique nullum peccantem coram
+alio audere peccare; etiamsi peccet, tamen testem
+vitare peccati, mentiri magis et negare, et vetus
+delictum novo inficiandi augere delicto. Igitur quasi
+sub oculis, aiebat, nostris, et cogitatu confundimur
+et actu, si omnia referenda faciamus, multo autem
+magis, si peccata nostra fideliter describentes digeramus
+in ordinem. Tunc vero annotatio delictorum
+fratrum videbitur oculis. Si timebimus peccati ceras
+<pb n="0151D"/>
+conscias, ipsi nos arguent apices. Et quomodo
+meretricibus membra miscentes, confunduntur ad
+praesentiam caeterorum, ita et nos erubescemus ad
+litteras, si haec agamus. Hanc virtutis gradiamur
+viam, et corpora mentibus subjugantes, perniciosas
+diaboli conteramus insidias. Talibus sermonibus
+hortamentisque et venientes ad se monachos incitabat
+ad studium, et patientibus condolebat, pluresque
+eorum Dominus per Antonium liberavit. Nunquam
+tamen aut de incolumitate curatorum est inflatus ad
+gloriam, aut contristatus de obsessis adhuc corporibus
+murmuravit; magis autem eodem semper animo
+et vultu manens, gratias Deo referebat, suadens occupatis
+ut correptionem qua vexabantur, patientius
+<pb n="0152A"/>
+ferrent. Non enim Antonii aut cujusquam hominum
+omnino hanc esse medicinam, sed Dei solius, qui et
+quibus vellet, et quo vellet tempore daret sanitatem.
+Ita consolatione sua et vexatos aequanimiter ferre
+tentationem, et jam liberatos, non sibi, sed Deo gratias
+referre docebat.</p>
+<p>CAP. XXIX.--Fronto autem quidam, vir ex Palaestinis,
+qui infestissimo daemonio vexabatur (nam
+et linguam ejus laniabat dentibus, et oculorum nitebatur
+lumen exstinguere), perrexit ad montem, rogabatque
+beatum senem ut pro se Dominum rogaret.
+Oravit Antonius, dixitque ad eum: Vade, et curaberis.
+Illi incredulo sibi, et violenter ibidem contra
+praeceptum remoranti, eadem geminabat Antonius,
+dicens: Hic curari non poteris: egredere, et calcata
+<pb n="0152B"/>
+Aegypto, statim te misericordia Christi consequetur.
+Tandem credidit, et profectus est; ac visa Aegypto,
+secundum professionem senis, quam ei Dominus
+oranti revelaverat, infestatio cessavit inimici.</p>
+<p>CAP. XXX.--Virgo vero quaedam, quae de Busiris
+Tripolitanae regionis civitate ibidem erat,
+inauditis ac flebilibus morbis laborabat. Etenim narium
+purgamenta, oculorum lacrymae, aurium putridus
+humor in terram cadens confestim in vermes
+vertebantur. Augebat calamitatem corpus paralysi
+dissolutum, oculos quoque perversos contra naturam
+habens. Hanc parentes ejus deferentes, cum ad Autonium
+monachos ire didicissent; credentes in Domino,
+qui pertinacem sanguinis fluxum in Evangelio
+tactu fimbriae stare praeceperat <note>(Matth. IX)</note> rogaverunt
+ut miserabilem filiae comitatum susciperent.
+<pb n="0152C"/>
+Illis renitentibus eam usque ad Antonium perducere,
+remansere parentes ejus foris cum filia debili apud
+beatum confessorem et monachum Paphnutium,
+qui effossis pro Christo oculis sub Maximiano persecutore,
+tali dehonestamento corporis plurimum
+gloriabatur. Pervenerunt igitur ad Antonium monachi.
+Cumque de morbo puellae referre <emph>51</emph> disponerent,
+relationem eorum senis sermo praevenit; et
+omnem debilitatis et itineris usque ad sanctum
+Paphnutium causam, quasi ipse interfuisset, exposuit.
+Rogantibus autem eum monachis, ut parentibus
+cum filia permitteretur ingressus, non concessit, sed
+ait: Ite, et invenietis puellam, si non est mortua,
+curatam. Et adjecit: Nullus debet ad meam humilitatem
+<pb n="0152D"/>
+venire, quia largitio curationum non est
+humanae miseriae, sed Jesu Christi misericordiae, qui
+ubique in se credentibus praestare consuevit auxilium.
+Quamobrem et illa, pro qua petitis, suis precibus
+liberata est; et cum ad Dominum orarem ego, mihi
+praescientia sanitatis ejus indulta est. Dixit, et verba
+ejus puellae incolumitas secuta est. Nam exeuntes
+foras ad beatum Paphnutium, et filiam sospitem, et
+parentes laetos repererunt.</p>
+<p>CAP. XXXI.--Non multos autem post ista dies,
+cum duobus fratribus euntibus ad Antonium aqua in
+itinere defecisset, et uno siti mortuo, alter jaceret in
+terra mortem exspectans, Antonius sedens in monte,
+celeriter ad se duos monachos vocavit, qui forte ibidem
+<pb n="0153A"/>
+sunt reperti; et festinato praecepit ut lagenam
+aquae assumentes, invaderent iter quod ducit ad
+Aegyptum, dixitque: unus e fratribus huc advenientibus
+modo migravit ad Dominum; alter, si non succurreritis
+addetur; hoc enim mihi nunc oranti revelatum
+est. Sic ait; et juxta praeceptum ejus monachi
+festinantes, exstinctum corpus inveniunt, terraque id
+operientes, alterum refocillatum suo junxerunt comitatui.
+Erat autem spatium itineris unius diei. Fortasse
+aliquis quaerat: cur non antequam moreretur, Antonius
+dixerit? Incongruo prorsus Christianis argumento,
+quia non Antonii, sed Dei judicium fuit, qui
+et de recedente, quam voluit, sententiam tulit, et de
+sitiente revelare dignatus est. Hoc tantum in Antonio
+mirabile est, quod in monte remotissimo sedens,
+<pb n="0153B"/>
+corde pervigili cuncta procul posita, Domino indicante,
+cognosceret.</p>
+<p>CAP. XXXII.--Alio rursus in tempore cum sederet
+in monte, et oculos subito tetendisset in coelum, vidit
+nescio quam animam, laetantibus in ejus occursum
+angelis, ad coelum pergere. Cujus spectaculi novitate
+stupefactus, beatum dixit sanctorum chorum, oravitque
+ut sibi rei praesentis agnitio panderetur. Et statim
+vox ad eum facta est, inquiens istam esse Ammonis
+monachi animam qui Nitriae morabatur.
+Erat autem Ammon vir grandaevus, qui perseveranter
+a pueritia usque ad senectutem in sanctitate vixerat <note>(Ruffin., l. II, c. 28; Pallad., c. 7, 8)</note>.
+Itinere
+quoque dierum tredecim, a Nitria, locus in quo
+sedebat Antonius, dividebatur. Videntes autem eum
+<pb n="0153C"/>
+monachi admirantem, qui venerant, deprecati sunt
+ut causam hilaritatis ediceret. Quibus ait modo Ammonem
+quievisse quem propter frequentem ejus ad
+Antonium commeatum, et propter celebritatem indultorum
+ei a Domino signorum optime noverant.</p>
+<p>De quibus etiam hoc unum dicendum est: Necesse
+ei fuit aliquando flumen nomine Lycum subitis
+aquis inundatum transvadare <note>(Ruffin. et Pallad., supra)</note>;
+rogavitque Theodorum, qui cum ipso erat, ut
+paululum a suo separaretur aspectu, ne nuditatem
+corporis invicem uterque conspicerent. Recessit
+Theodorus, nihilominus ille seipsum cum nudare vellet,
+erubuit. Cogitantem autem eum in alteram ripam
+virtus divina transposuit. Rursusque Theodorus, vir
+et ipse Deo devotus, transiens ad senem mirari coepit,
+<pb n="0153D"/>
+quod tam velociter fluvium transvadasset. Cumque
+nihil humoris in pedibus, nulla in vestibus ejus aquae
+signa conspiceret, rogavit eum ut tam incredibilem
+translationem quasi filio pater exponeret. Nolente
+illo dicere quae acciderant, amplexus est pedes ejus,
+juravitque non se dimissurum, priusquam sibi id
+quod celabat referret. Videns ergo senex contentiose
+vincere volentem fratrem, exegit vicissim ab eo ut
+nulli hoc ante suam mortem indicaret; atque ita confessus
+est se subito in alteram ripam fuisse transpositum,
+neque omnino undis impressisse vestigia;
+Dominici corporis hoc tantummodo privilegium asserens,
+et eorum quibus ipse, ut apostolo Petro, donaverit
+ut aquarum levitati humanum corpus insisteret
+<pb n="0154A"/> <note>(Matth. XIV)</note>.
+Haec autem Theodorus, promisso tempore
+non dixit, post ejus mortem retulit.</p>
+<p>Monachi vero, quibus dixerat Antonius de morte
+Ammonis, notaverunt diem: et venientibus de Nitria
+fratribus post dies triginta, sciscitantes repererunt
+illo die illaque hora dormisse Ammonem, qua animam
+ejus ferri senex viderat; utrique igitur puritatem
+mentis in Antonio mirati sunt, quomodo rei tam
+longe gestae statim ad eum fuisset perlata cognitio.</p>
+<p>CAP. XXXIII.--Archelaus quoque comes, cum
+eum invenisset in exteriori monte, rogavit ut
+oraret pro Polycratia, quae in Laodicea erat,
+admirabili et Christo dedita virgine. Patiebatur enim
+pessimos stomachi et lateris dolores, quos jejuniis
+nimiis vigiliisque contraxerat, et erat penitus toto debilis
+<pb n="0154B"/>
+corpore. Oravitque Antonius, et diem quo oratio
+fuerat facta annotavit Archelaus. Redit Laodiceam,
+et invenit virginem incolumem. Percontatus diem
+sanitatis, reperit tempus medelae cum annotatione
+congruere <emph>52</emph>. Et omnes admirati sunt, agnoscentes
+eo tempore illam a Domino fuisse a doloribus liberatam,
+quo orans Antonius pro ipsa bonitatem Salvatoris
+invocaverat.</p>
+<p>CAP. XXXIV.--Saepe etiam ad se venientium
+turbarum, ante dies et menses, et causas praedixit et
+tempora. Nam quosdam videndi eum tantum desiderium,
+alios imbecillitas, nonnullos obsessa a daemonibus
+corpora pertrahebant: nemo tamen unquam
+vexationem aut detrimentum laboriosi itineris conquestus
+est, regrediebantur omnes spiritali cibo pleni.
+<pb n="0154C"/>
+At ille praecipiebat, non suae laudi hanc admirationem
+ab eis applicari debere; sed Domini, qui sui
+notionem hominibus pro capacitate mortalitatis indulserit.</p>
+<p>CAP. XXXV.--Quodam autem tempore, cum
+exisset ad exteriora monasteria, et rogatus esset a
+fratribus ut in navi quadam cum monachis proficiscentibus
+oraret, ascendit, et solus ex omnibus odorem
+sensit teterrimum. Asserebant cuncti, piscium
+salsorum et tarichorum in navi positorum hunc
+esse putorem. At ille alterius rei fetorem se sentire
+affirmavit. Adhuc loquente illo, adolescens quidam
+possessus a daemone, qui procidens juxta carinam se
+navis absconderat, repente exclamavit. Quo statim
+per Antonium in nomine Domini nostri Jesu Christi
+<pb n="0154D"/>
+curato, intellexere universi, diaboli illum fuisse putorem.</p>
+<p>CAP. XXXVI.--Alius quoque ad eum vir, inter
+suos nobilis, daemoniosus adducitur, tanta oppressus
+insania, ut non sciret se esse apud Antonium, necnon
+et corporis sui superflua comederet. Quamobrem rogatus
+senex ab his qui eum adduxerant ut pro illo
+Dominum oraret, intantum juvenis miseriae condoluit,
+ut tota nocte pervigilans cum eo, adversus patientis
+insaniam laboraret. Sed cum jam lucesceret, et obsessus,
+impetu in Antonium facto, vehementer eum
+impulisset, irasci coeperunt qui eum adduxerant, cur
+seni fecisset injuriam. Quibus Antonius ait: Nolite
+alienam culpam juveni misero ascribere: furor iste
+<pb n="0155A"/>
+obsidentis est, non obsessi. Idcirco autem in hanc
+proruit dolens hostis audaciam, quia Dominus ad
+aridam regionem ire eum jussit; et expulsi Satanae
+indicium iste adversum me impetus fuit. Nulla post
+verba mora, adolescens recepto sensu, et gratias
+agens Deo, et locum ubi esset, agnovit, et toto Antonium
+complexans deosculatus est affectu.</p>
+<p>CAP. XXXVII.--Innumera et alia istiusmodi signa
+sunt, quae monachorum concordi saepe relatione cognovimus.
+Verum non tantum his adhibendus est
+stupor, quia multo plus quae sequuntur conditionem
+nostrae fragilitatis excedunt. Hora circiter nona,
+cum ante cibum orare coepisset, raptum se sensit in
+spiritu, et ab angelis in sublime deferri: prohibentibus
+transitum aeris daemonibus, coeperunt angeli
+<pb n="0155B"/>
+contradicentes requirere quae esset causa retinendi,
+nullis existentibus in Antonio criminibus. Illis vero
+ab exordio nativitatis replicare peccata nitentibus,
+calumniosa angeli ora clauserunt, dicentes non debere
+eos a nativitate ejus delicta narrare, quae jam
+Christi essent bonitate sopita; si qua autem scirent
+ex eo tempore quo factus esset monachus, et Deo
+se consecrasset, licere proferri. Accusabant daemones
+multa procaciter mentientes; et cum deessent
+probamenta fallacibus, liber Antonio conscensus
+aperitur. Et statim rediens in se, in eo loco in quo
+stare coeperat, hoc se rursum vidit esse quod fuerat.
+Tunc vero oblitus escae, ex illa hora noctem gemitu
+ac lamentatione transegit, reputans secum humanorum
+hostium multitudinem, et colluctationem tanti
+<pb n="0155C"/>
+exercitus, et laboriosum per aerem iter ad coelum,
+et hoc Apostoli dictum, quo ait: Non est nobis colluctatio
+adversus carnem et sanguinem, sed adversus
+principem potestatis hujus aeris <note>(Ephes. VI)</note>. Qui
+sciens aereas potestates ob id semper tentare, luctari
+et contendere, ne nobis liber transitus esset ad
+coelum, hortabatur monens: Assumite arma Dei, ut
+possitis resistere in die mala <hi>(Ibidem)</hi>; ut nihil mali
+habens quod de vobis dicere possit inimicus <note>(Tit. II)</note>,
+confundatur. Nos autem apostolici sermonis recordemur,
+dicentis: Sive in corpore, sive extra corpus,
+nescio, Deus scit <note>(II Cor. XII)</note>. Et Paulus quidem usque
+ad tertium coelum raptus est, ibique auditis verbis
+ineffabilibus, descendit; Antonius autem usque
+ad aereum sublatus, post colluctationem liber apparuit.</p>
+<p>
+          <pb n="0155D"/>CAP. XXXVIII.--Habebat etiam istiusmodi donum:
+si cujus rei sedens in monte ignarus fuisset,
+et ejus secum inquireret notionem, oranti ei a Domino
+revelabatur; et erat, secundum quod scriptum
+est, a Deo doctus <note>(Joan. VI; Isa. LIV)</note>. Denique cum
+a fratribus haberetur iste tractatus, et ab eo sedule
+sciscitarentur quemadmodum se post corporis sarcinam
+anima gereret, quive ei locus post exitum concederetur;
+proxima nocte vox desuper nomen ejus
+inclamitans, ait: Antoni, exsurge, exi et vide. Qui
+exsurgens, egressus est; sciebat enim quibus respondere
+deberet. Et elevatis ad coelum oculis, vidit
+quemdam longum atque terribilem, caput usque
+<pb n="0156A"/>
+ad nubes attollentem; vidit etiam pennatos quosdam
+ se elevare cupientes ad coelum <note>(Pallad., c. 27;
+Pasch., c. 19, n. 4)</note>, atque illum extensis manibus
+prohibere transgressum; e quibus alios apprehensos
+elidebat ad terram <emph>53</emph> alios frustra retinere contendens,
+dolebat super se ad coelestia transvolare, et
+maximum gaudium mixtum moerore victi victoresque
+tribuebant. Statimque ad eum vox facta est dicens:
+Animadverte quod vides. Et tunc coepit illuminato
+corde intelligere animarum esse conscensum, et diabolum
+prohibentem; qui et sibi retineret obnoxios,
+et in sanctorum, quos decipere non poterat, cruciaretur
+volatu. His visionum exemplis incitatus, quotidie
+ad meliora crescebat</p>
+<p>CAP. XXXIX.--Neque vero id, quod sibi revelatum
+<pb n="0156B"/>
+fuerat, causa jactantiae fratribus indicabat; sed
+cum orans jugiter Dei laudaret auxilium, interrogantibus
+compellebatur edicere; nec spirituales filios
+pura in Christo anima occultare quidquam volebat,
+praesertim cum hujusmodi signorum relatio et amorem
+ministraret proposito, et fructum laboris ostenderet.
+Nunquam ille aut ira subita concitatus patientiam
+rupit, aut humilitatem erexit in gloriam. Nam
+omnes clericos usque ad ultimum gradum ante
+se orare compellens, episcopis quoque atque presbyteris,
+quasi humilitatis discipulus, ad benedicendum
+se caput submittebat. Diacones vero, qui
+ad eum utilitatis causa veniebant, cum pro adjutorio
+eorum ejus praesentibus disputaret, ad orandum Dominum
+sibi praeponebat, non erubescens, et ipse discere.
+<pb n="0156C"/>
+Nam et interrogabat frequenter eos cum quibus
+erat; et si aliquid ab eis necessarium audierat,
+se fatebatur adjutum.</p>
+<p>CAP. XL.--Habebat autem et in vultu magnam
+gratiam, et admirabile a Salvatore etiam hoc munus
+acceperat. Si quis enim ignarus ejus, inter multitudinem
+monachorum eum videre desiderasset, nullo
+indicante, caeteris praetermissis, ad Antonium currebat,
+et animae puritatem agnoscebat ex vultu, et per
+speculum corporis gratiam sanctae mentis intuebatur.
+Nam semper hilarem faciem gerens, liquido
+ostendebat se de coelestibus cogitare, sicut Scriptura
+ait: Corde laetante vultus floret, et in moerore constitutus
+tristatur <note>(Prov. XVII)</note>. Ita et Jacob agnovit
+Laban socerum suum insidias sibi machinantem,
+<pb n="0156D"/>
+dicens ad filias ejus: Non est facies patris vestri sicut
+heri et nudiustertius <note>(Gen. XXXI)</note>. Sic Samuel
+agnovit David: Laetificatos enim habebat oculos, et
+dentes sicut lac candidos <note>(I Reg. XVI)</note>. Similiter
+agnoscebatur Antonius, quia semper eamdem
+faciem inter prospera et adversa retinens, nec secundis
+extollebatur, nec frangebatur adversis. Erat
+enim et in vultu amabilis, et in fidei puritate mirabilis.</p>
+<p>CAP. XLI.--Nunquam schismaticorum se miscuit
+communioni, antiquam eorum sciens pravitatem atque
+transgressionem. Nunquam Manichaeis aut
+aliis haereticis saltem amicabilia verba largitus est,
+nisi tantum ea quae eos possent ab iniquitatis errore
+<pb n="0157A"/>
+revocare, denuntians talium amicitias atque sermones
+perditionem esse animae. Sic etiam Arianos detestabatur,
+ut omnibus diceret nec juxta eos quidem
+esse accedendum. Nam cum venissent quidam Ariomanitae,
+reperta eorum post examinationem infidelissima
+secta, effugavit eos de monte, dicens
+multo serpentibus deteriores horum esse sermones.
+Mentientibus autem Arianis aliquando Antonium
+ita ut se credere, admiratus eorum audaciam, et justi
+doloris ira commotus, rogatusque ab episcopis atque
+universis fratribus, Alexandriam descendit; ibique
+Ariomanitas publico sermone condemnavit, ultimam
+hanc esse haeresim et praecursorem Antichristi
+affirmans; praedicavitque in populo Filium Dei,
+non facturam, non ex nullis exstantibus, sed proprium,
+<pb n="0157B"/>
+unius cum Patre substantiae, ne creatura potius,
+aut adoptio, aut appellatio videretur, impium
+esse dicens vel mente concipere: Erat quando non
+erat, cum Verbum Dei Deus, qui est semper, Patri sit
+coaeternus, quia ex eo natus est Patre, qui semper
+est. Unde aiebat: Cum Arianis vobis nulla sit conjunctio.
+Quae enim societas luci ad tenebras? Vos
+fideliter credentes, Christiani estis; illi Verbum, id
+est Filium, qui ex Deo Patre est, creaturam docentes,
+nullo intervallo a gentibus separantur, qui serviunt
+creaturae potius quam Creatori, qui est benedictus
+in saecula <note>(Rom. I)</note>. Ipsa, mihi credite, irascuntur
+elementa, et omnis contra Arianum furorem,
+secundum Apostoli dictum, ingemiscit creatura <note>(Rom. VIII)</note>,
+quod sibi Dominum suum, per quem
+<pb n="0157C"/>
+omnia, et in quo omnia facta sunt <note>(Rom. XI)</note>, videat
+aggregari</p>
+<p>CAP. XLII.--Haec tanti viri praedicatio exprimi
+non potest quantum ad fidem populos roboraverit.
+Laetabantur quippe hostilem et Christo mimicam
+haeresim anathematizari ab Ecclesiae columna. Nulla
+tunc aetas, nullus sexus domi remansit. Taceo de
+Christianis: pagani quoque et ipsi idolorum sacerdotes
+ad dominicum imperium convolabant, dicentes:
+Precamur ut videamus hominem Dei, quia hoc
+apud universos conspicuum erat nomen Antonii.
+Ambiebant quoque saltem fimbriam vestimenti ejus
+attingere, multum sibi et tactum prodesse credentes.
+Quot tunc diabolica obsidione et variis infirmitatibus
+liberati! quot simulacris erepta sunt spolia! quanti
+<pb n="0157D"/>
+etiam ab errore gentilium retracti, nostro juncti sunt
+gregi! Tanti certe, ut paucorum dierum spatio ex
+idolorum <emph>54</emph> superstitione conversio omnem per
+annum credentium vinceret turbam. Praeterea cum
+irruentem multitudinem comites repellerent, aestimantes
+taedio illi conventum populi fore, ille tranquillo
+animo dicebat: Nunquid hic coetus daemonum
+major est turbis? nunquid obsequentium multitudo
+colluctatorum in monte nostrorum catervis est numerosior?</p>
+<p>CAP. XLIII.--Accidit etiam ut cum eum redeuntem
+circa portam prosequeremur, a tergo quaedam mulier
+clamitaret, dicens: Exspecta, homo Dei, filia mea atrocissimo
+vexatur daemonio; exspecta, obsecro; exspecta
+<pb n="0158A"/>
+ne et ego corruens inteream. Hoc audito, mirabilis
+senex a nobis admonitus, volens tamen et ipse,
+paululum substitit. Cumque appropinquante muliere,
+puella jaceret explosa, oravit tacitus Dominum Jesum,
+et ad comminationem ejus statim spiritus impurus
+egressus est. Puella incolumis, populus in
+laudibus Dei, mater in gaudio fuit. Ipse autem laetabatur,
+quia ad desideratam solitudinem repedabat.
+Erat autem valde sapiens, et hoc in se mirabile habebat,
+quia cum litteras non didicisset, ingeniosissimus
+et prudentissimus erat.</p>
+<p>CAP. XLIV.--Aliquando etenim philosophi duo
+ gentiles venerunt ad eum, putantes Antonium
+se posse decipere. Erat vero in superiori monte.
+Quos cum vidisset, paganos intellexit ex vultu; et
+<pb n="0158B"/>
+procedens ad eos, per interpretem ita coepit loqui:
+Quare tam longe ad stultum hominem sapientes
+se vexare voluerunt? Illis dicentibus, non esse illum
+stultum, sed et nimium sapientem, vigilanter respondit:
+Si ad stultum venistis, superfluus est labor
+vester; si autem putatis me sapientem esse, et sapientiam
+habere, bonum est ut imitemini quod probatis,
+quia bona convenit imitari. Si ego ad vos venissem,
+vos imitarer; sed quia vos ad me quasi ad
+sapientem venistis, estote, sicut ego sum, Christiani.
+Abscesserunt philosophi, utrumque mirantes, et
+acumen ingenii, et daemonum expulsiones.</p>
+<p>CAP. XLV.--Alios quoque similiter mundi sapientes,
+qui eum irridere cupiebant, quia litteras
+ignoraret, tali disputatione colligavit, dicens: Respondete
+<pb n="0158C"/>
+mihi, quid prius, sensus an litterae? et quid
+cujus exordium? Sensus ex litteris, an litterae oriuntur
+ex sensu? Illis asserentibus quia sensus esset
+auctor atque inventor litterarum, ait: Igitur si cui
+sensus incolumis est, hic litteras non requirit. Quis
+praesentium post hanc colluctationem non exclama
+verit, cum obstupuerint et ipsi qui victi sunt, tantam
+in imperito litterarum sagacitatem animi admirantes?
+Neque enim, ut in solitudine et montibus versatus,
+atque omnem ibidem exigens vitam, agrestis et rigidus
+erat, sed jucundus atque affabilis, sermonem,
+secundum Apostoli praeceptum, divino conditum
+sale <note>(Coloss. IV)</note> proferebat, ita ut invidia careret, et
+amore omnium potiretur.</p>
+<p>CAP. XLVI.--Inter haec, quasi parum esset bis
+<pb n="0158D"/>
+gentilitatem fuisse separatam, et tertio venerunt viri
+ad eum omnis secularis prudentiae nube caecati, atque
+universis philosophiae studiis artium suarum
+aestimatione doctissimi. Hi cum rationem ab eo exigerent
+fidei, quam in Christo habemus, et niterentur
+arguta sophismatum interrogatione de divina
+cruce eum illudere, in silentium paululum voce compressa,
+primum eorum miseratus errorem est; deinde
+per interpretem, qui ejus verba diligentissime in
+Graecum solebat exprimere sermonem, ita exorsus
+est, dicens: Quid pulchrius est, quidve honestius,
+crucem colere, an adulteria, parricidium, vel incestum
+his assignare quos colitis; cum in altero sit contemptus
+mortis insigne virtutum, in altero turpis religio
+<pb n="0159A"/>
+obscenitatis magistra? Quid melius est dicere quod
+Dei Verbum, manens ut erat, ob salutem nostram
+humanum corpus assumpserit, ut societate mortalitatis
+nos eveheret ad coelum, participesque naturae
+coelestis efficeret; an, ut ipsi asseritis, divinae mentis
+haustum, ad terrena veneranda caput submittere,
+et pecudum atque serpentum formis coeleste
+nomen includere? Quo ore Christianorum credulitatem
+audetis irridere, dicentium Christum Filium
+Dei sine sui detrimento, et coepisse esse quod
+non erat, et mansisse quod fuerat; cum ipsi animam
+de coelestibus detrahentes, non tantum hominum
+sed et serpentium et pecudum soleatis sepelire
+corporibus? Christiana credulitas pro salute
+mundi Deum suum venisse testatur; vos vero innatam
+<pb n="0159B"/>
+animam praedicantes, ultro citroque transfertis.
+Christiana fides, quae omnipotentiam Dei clementiamque
+veneratur, consequenter incarnationem dicit
+Deo fuisse possibilem, ita tamen, ut non evacuaverit
+dignatio dignitatem; vos qui animam ex splendidissimo
+Dei fonte manentem turpiter decidisse jactatis,
+qui mutabilem et convertibilem eam post sui diminutionem
+audetis asserere, jam illam quoque naturam
+dominam saeculorum per animae contumelias
+impia lingua temeratis. Imago enim, quae secundum
+vos naturalem similitudinem sui retinet auctoris, cui
+una est ex quo defluxit eademque substantia, humilitates
+proprias et injurias consequenter ad suam
+originem remittit. Igitur animadvertite, contumelias
+animarum, ad patrem (ut appellatis) <emph>55</emph> carum per
+vestram blasphemiam redundare.</p>
+<p>
+          <pb n="0159C"/>Crux Christi Domini Dei nostri hic nobis ingeritur.
+Rogo, quae haec est religionis obscenitas?
+nonne potius est crucem aut alicujus generis
+mortem, ab iniquis hominibus illatam patienter
+sustinere, quam Isidis plangere post Osirim
+ vagos incertosque discursus? Pudeat, quaeso, vos
+insidiarum Typhonis; pudeat Saturni fugae
+et devorationis crudelissimae liberorum. Erubescite
+parricidium Jovis et incestum, erubescite raptum
+ejus et coitum mulierum atque puerorum. Ille, sicut
+vestri fingunt poetae, ad explendum immanissimae
+libidinis furorem, molles dedit in amore vagitus; ille
+in Danaes fluxit sinus, ipse amator et pretium;
+ille modulatus ales Ledaeos petivit amplexus;
+<pb n="0159D"/>
+ille in proprium saeviens sexum, regium puerum
+ministris avibus polluit. Haec vos creditis, haec
+colitis, haec sunt vestrorum ornamenta templorum.
+Aequo, deprecor, pro vestra salute, nostra dicta
+pensate judicio. Cuncta, an nihil credendum in libris
+Christianis est? Si nihil, nec crucis quoque, cui detrahitis,
+nomen agnoscitis. Si universa credenda sunt,
+cur, cum in iisdem libris cruci resurrectio copuletur,
+passionem divinam stolido laceratis eloquio, et non
+statim jungitis caecorum visum, surdorum auditum,
+claudorum gressum, leprae emundationem, serviens
+ambulanti Deo suo mare, daemonum fugas, resurrectionem
+mortuorum et defunctorum ab inferis reditus?
+Haec omnia Scripturis divinis, quas interpolatis,
+<pb n="0160A"/>
+inserta sunt, et iisdem voluminibus continentur praeconia
+majestatis et mortis dedecora. Quamobrem
+odio, quo imbuti estis, abjecto, invenietis illico, et
+Deum verum esse Jesum, et salutis humanae gratia
+fragilem assumpsisse naturam.</p>
+<p>CAP. XLVII.--Vestram tamen nobis, si non pudet,
+narrate religionem. Sed quas error infelix poterit referre
+culturas de tanta rerum foeditate atque vecordia?
+nisi forte (ut audio) fabulas asseratis deorum
+vestrorum, et obscenitates, et crudelitates, et vanitates,
+et mortes, tegentes eas allegoricis velaminibus
+; Liberae raptum, terram; semiclaudum
+Vulcanum et debilem, ignem; Junonem, aerem
+; Apollinem, solem; Dianam, lunam
+; Neptunum, maria; et libidinum principem
+<pb n="0160B"/>
+Jovem, aetherem interpretantes. Nec post
+hanc excusationis procacitatem Deum, sed creaturas,
+contempto Creatore, suscipitis. Quod si pulchritudo
+vos elementorum ad suam traxit venerationem, modum
+fas erat custodire; et oportebat mirari tantum,
+nec colere, ne facturae veneratio Creatoris esset injuria.
+Nam secundum istiusmodi, quam vos sequimini,
+rationem praeposteram, et architecti honor migravit
+ad domum; et medici scientia ad remedia conferetur,
+omnium quoque artificum merita vel laudes ad opera
+transferentur. Quid ad haec dicitis, ut agnoscamus
+quae sit crucis ridiculae vobis ignominiosa confessio?</p>
+<p>CAP. XLVIII.--Hac disputatione convertentibus inter
+se philosophis oculos, simulque mussitantibus, subridens
+Antonius rursum per interpretem ait: Praedurum
+<pb n="0160C"/>
+ namque cuncto videtur operi, quoties justo universae
+rei tenore calcato, laboris merita factis magis
+quam factoribus astruuntur. Elementa quidem, ut memoravi,
+ex ipso conspectu suam comprobant servitutem.
+Sed quoniam vos observatione dialectica necessaria,
+ut putatis, quaeque colligitis, hoc quoque artificio
+etiam nos nostram religionem compellitis affirmare.
+Respondete mihi: Cognitio Dei quemadmodum manifestius
+approbatur, per collectionem verborum, an
+per operationem fidei? Et quid antiquius est,
+operatio fidei, an disputatio per argumenta procedens?
+Illis respondentibus firmiorem sermonibus
+operationem esse, et hanc liquidam de Deo cognitionem,
+bene eos et ipse dixisse consensit, quia operationem,
+quae ex fide descendit, animi generat affectus,
+<pb n="0160D"/>
+dialectica vero disputatione ex artificio componentium
+sumpsit oppositionis exordium. Cum ergo, ait, operationem
+fidei animo sitam quis habuerit, superflua
+erit verborum compositio, per quam conceptam
+sensu nostro credulitatem tentatis evellere, et tamen
+saepe nostras explicare intelligentias non valetis. Ita
+solidiora sunt mentis opera, quam sophismatum fraudulenta
+conclusio.</p>
+<p>CAP. XLIX.--Nos Christiani mysterium vitae nostrae
+non in sapientia mundi habemus repositum, sed in
+virtute fidei, quae nobis a Deo tributa per Christum
+est. Hanc orationis meae veritatem, rerum, quae quotidie
+geruntur, ordo commendat; nobis imperitis et
+litterarum vestrarum ignaris ad Dei cognitionem
+<pb n="0161A"/>
+ejus solum verba sufficiunt. Ecce nos tot gentilitatis
+gregibus abstracti, in universum orbem quotidie propagamur;
+vobis vero post adventum Domini, nodosae
+sophismatum defecerunt versutiae. Ecce nos, simplicem
+Christi fidem docentes, idololatriam debellavimus,
+et per praedicationem ignominiosae crucis aurata
+templa ceciderunt. Vos, si potestis, ostendite quibus
+contextione verborum gentilitatem Christo praeponere
+suaseritis. Per omnes jam terras verus Dei Filius Christus
+est agnitus. Nihil eloquentia sophismatum, nihil
+disputatio philosophiae multitudini <emph>56</emph> potest obesse
+credentium. Crucifixum nominamus, et universi daemones,
+quos vos ut deos colitis, rugiunt, atque ex
+obsessis corporibus ad primum dominicae crucis signum
+fugantur. Ubi sunt illa fabulosa oracula? ubi
+<pb n="0161B"/>
+Aegyptiorum incantationes? quo magorum
+profecere carmina? Certe tunc vastata sunt
+omnia, cum de sua Cruce mundo Christus intonuit.
+Nihilominus vos, praetermissis debilitatorum
+catervis, gloriosam Jesu mortem irridere conamini.</p>
+<p>Illud autem quale est, quod numquam infestatione
+regali concussa gentilitas, imo saeculo chara et hominum
+praesidiis fulta, jam corruit. Nos famuli Christi
+quo plus premimur, eo magis assurgimus et floremus.
+Vestra simulacra ornatis quondam septa parietibus,
+jam vetustate collapsa sunt. Christi vero
+doctrina, quae vobis stultitia videtur et ludus, licet tyrannica
+persequentium principum tentamenta pertulerit,
+licet variis sit incursata terroribus, nullo tamen
+terrarum orbe concluditur, nullo gentium barbararum
+<pb n="0161C"/>
+fine prohibetur. Quando enim divinae scientiae
+tantus splendor illuxit? quando tot simul in se convenere
+virtutes? Continentia in matrimonio,
+virginitas in Ecclesia. Floret martyrum pro Domino
+suo gloriosa constantia, quorum omnium crux Christi
+principium est.</p>
+<p>Cum interim vos inter tantos virtutum choros syllogismorum
+retia tenditis, et veram rerum lucem tenebrosis
+conamini argumentationibus obvolvere,
+ecce nos, ut dixit Doctor noster, non in gentili persuasione <note>(I, Cor. II)</note>,
+sed in fide apertissima suademus,
+quae verborum affirmationem praevenire consuevit.
+Adsunt quippe patientes a daemonibus vexati. Quos
+cum in medium produxisset, verba repetivit, dicens:
+Nunc vos collectionibus vestris, et quo vultis malefico
+<pb n="0161D"/>
+carmine deos vestros, quos putatis, expellite; sin
+autem non potestis, victas submittite manus, et ad
+Christi trophaea confugite, et statim Crucifixi credulitatem
+majestatis potentia prosequetur. Dixit, et invocato
+nomine Jesu, cum vitale signum in sacro numero
+Trinitatis pressisset in frontibus, una cum expulsis
+daemonibus vana praesentium philosophorum
+confutata sapientia est. Expaverunt enim stupentes
+hominem, cui post tantum ingenium afflueret signorum
+divina largitio. At ille universa Christo, qui curat,
+ascribens, usus est affatu reciproco, et ait: Nolite
+me putare his sanitatem dedisse, Christus per
+servos suos facit ista miracula. Credite et vos, et videbitis
+quia devota Deo fides, non eloquentiae vanus
+<pb n="0162A"/>
+tumor talia signa mereatur. Confugite ad Crucifixi
+legem, nosque ejus imitamini famulos; et hoc scientiae
+fine contenti, nulla deinceps saecularis imprudentiae
+argumenta quaeratis. Hactenus Antonio dicente,
+miro philosophi stupore perculsi, cum
+honorifico salutatu ab eo recedentes, multum ejus
+sibi fatebantur profuisse conspectum.</p>
+<p>CAP. L.--Hoc in eo vero mirabile est, ut hominem
+in extremo mundi limite conditum, et favor
+principum, et omnis celebraret aula regalis. Nam et
+Constantinus Augustus, et ejus liberi Constans
+atque Constantius, talia cognoscentes, crebro ad
+eum, quasi ad patrem, missis litteris, obsecrabant
+ut reciprocis eos scriptis hilararet. At ille ejusmodi
+manens, qualis et antequam litterae ad eum venirent
+<pb n="0162B"/>
+fuerat, nec salutatione principum movebatur, et tanquam
+non acceptis litteris, convocatis monachis aiebat:
+Reges saeculi epistolas ad nos miserunt, quae
+hic Christianis adhibenda miratio est? Licet enim diversa
+sit dignitas, attamen eadem nascendi moriendique
+conditio est. Ista sunt veneratione omni percolenda,
+illa toto animi affectu retinenda sunt, quod
+hominibus Deus legem scripserit, quod per Filium
+suum propriis Ecclesias ditaverit eloquiis. Quae monachis
+est ratio cum epistolis regum? cur accipiam
+litteras, quibus consueta nesciam reddere salutationis
+obsequia? Igitur rogatus ab universis fratribus ut
+Christianos reges suis litteris refrigeraret, ne scilicet
+per silentium ejus exasperarentur, ad susceptas epistolas
+convenientia rescripsit. Laudavit primum, quod
+<pb n="0162C"/>
+Christum colerent, deinde salutaria persuasit, ne magnam
+putarent regiam potestatem, ne praesentis
+carnis imperio tumentes, et se homines esse nescirent,
+et judicandos a Christo obliviscerentur; ad postremum,
+clementiae circa subjectos et justitiae, curae
+quoque inopum admonuit, atque unum sempiternum
+esse Regem omnium saeculorum Jesum Christum
+epistolis testatus est. His principes susceptis vehementissime
+laetabantur. Sancta quoque apud cunctos
+Antonii flagrabat opinio, ita ut ejus se filios cuperent
+nominari. Magna etenim cum advenientibus affabilitas
+omnium in se studium converterat.</p>
+<p>CAP. LI.--Postquam ergo gentiles confutati, reges
+admoniti, fratres ab eo sunt consolatione relevati, ad
+interiorem montem et ad rigorem solitum regressus
+<pb n="0162D"/>
+est, ibique saepe cum introeuntibus deambulans ac
+residens stupebat, sicuti in Daniele scriptum est <note>(Dan.
+VIII)</note>; et interjectis horarum spatiis, consequentia respondebat,
+ut intelligeretur aliqua revelationis vidisse
+secreta. Nam et in monte positus, ea quae in Aegypto
+longe gerebantur, <emph>57</emph> praevidens, episcopo Serapioni
+ ibi constituto narravit.</p>
+<p>Lamentabilis sequitur visio, et omni lacrymarum
+fonte plangenda. Cum enim fratribus circa se
+sedentibus operaretur, intente fixit oculos in coelum,
+gemens atque suspirans; et post aliquantum spatium
+revelationis incoeptae nimio dolore contremuit; et
+statim fixis genibus ante Dei vultum provolutus
+oravit, ut clementia sua futurum scelus averteret.
+<pb n="0163A"/>
+Succedunt orationi lacrymae, metus ingens invadit
+praesentes, obsecrant, ut tantae calamitatis exponeret
+visionem. Singultus occupant vocem, lingua fletibus
+praepeditur, et in medio conatu sermo gemitu interrumpitur.
+Vix tamen cum vociferatione luctuosa ait:
+Melius erat, o filioli, impendens piaculum cita morte
+lucrari. Sic incipiens rursum lacrymis vincitur, et
+inter aegra suspiria tandem pectori commodans vocem:
+Magnum, inquit, quoddam et universis saeculis
+inauditum imminet nefas. Magno fides catholica turbine
+subvertetur, et homines jumentis similes Christi
+sancta diripient. Vidi enim altare Domini mulorum
+circumdatum multitudine, qui crebris calcium
+ictibus omnia dissipabant. Haec est causa gemituum
+meorum, quos audistis. Et facta est vox Domini dicens:
+<pb n="0163B"/>
+Abominabitur altarium meum. Nec mora, visionem
+sequitur effectus; nam post annos duos
+saeva Arianorum irrupit insania. Tunc ecclesiarum
+fuerunt rapinae, tunc divinorum temeratio vasorum,
+tunc pollutis ethnicorum manibus sacra polluta sunt
+ministeria, tunc paganorum opificum praesidia adversus
+Christum comparata cum assumptione palmarum
+(quod idololatriae apud Alexandriam insigne est), ad
+ecclesiam pergere compellebantur Christiani, ut
+Arianorum populi crederentur. Proh scelus!
+horret animus replicare quae gesta sunt: virginum
+matronarumque ereptus pudor: sanguis ovium Christi
+in Christi templo effusus veneranda respersit altaria;
+baptisterium pro voluntate gentilium pollutum
+est. Nihil defuit visionis veritati, ut monstravit effectus,
+<pb n="0163C"/>
+quod calcitrantium multorum indisciplinatio
+Arianorum esset impietas.</p>
+<p>Sed istam tristitiam consequentis revelationis
+prosperitate solatus est, et ait: Nolite, filioli, moerori
+vos penitus dare; ut enim iratus est Dominus,
+sic rursum miserebitur, et suum cito Ecclesia recuperabit
+ornatum; eosque, qui in persecutionibus fidem
+Domini servaverint, solito videbitis fulgore relucentes.
+Revertentur ad foveas suas serpentes,
+et religio longius propagabitur; tantum videte, ne
+fidei vestrae sinceritas Ariana labe sordescat. Non
+apostolorum, sed daemonum et patris eorum diaboli
+ista doctrina est; ob id per insipientiam jumentorum
+similis pecudum eorum expressus est animus.</p>
+<p>CAP. LII.--Hucusque Antonius. Sed nos minime
+<pb n="0163D"/>
+convenit diffidere, tam grande miraculum per hominem
+potuisse portendi. Salvatoris enim promissio est,
+ita dicentis: Si habueritis fidem ut granum sinapis,
+dicetis huic monti, Transfer te, et transferetur, et
+nihil impossibile erit vobis <note>(Matth. XVII)</note>. Et iterum:
+Amen amen dico vobis, omne quod petieritis Patrem
+in nomine meo, dabit vobis. Petite et accipietis <note>(Joan. XVI)</note>.
+Ipse enim suis discipulis et universo
+credentium gregi nunc subjectionem daemoniorum,
+nunc variarum infirmitatum pollicens curationem,
+aiebat: Gratis accepistis, gratis date <note>(Matth. X)</note>. Nunquid
+suae virtutis imperio curabat Antonius? Nunquid
+suae possibilitatis arbitrabatur esse quod fecerat?
+Orationibus, non praeceptis daemones morbique
+<pb n="0164A"/>
+cesserunt, et ad Christi Dei nostri nominationem
+semper universa perfecta sunt. Nemo sapientum sanitatum
+admirationem ascribat Antonio, sed Domino
+Jesu, qui solitam erga creaturas suas exhibens benevolentiam,
+nunc quoque per electum famulum suum
+indulgenter exercuit. Antonius tantum orabat, et ob
+vitae ejus merita cuncta Dominus largiebatur.</p>
+<p>CAP. LIII.--Saepe autem, et contra voluntatem,
+ad exteriorem montem a fratribus perducebatur.
+Et cum judices, qui ad interius archisterium
+ propter asperitatem itineris, et ob sequentium
+multitudinem, et horridam solitudinem ire non poterant,
+pervenirent, et quaererent ut ejus fruerentur
+aspectibus, nec impetrare possent, quia molestissime
+ferebat vexationem discursuum, ipsos catenatos,
+<pb n="0164B"/>
+quos aut noxietas, aut vigor publicus constrinxerat,
+ad eum destinabant, scientes tales ab Antonio non
+posse contemni; quorum fletibus superatus pertrahebatur
+ad exteriorem montem, agnoscens laborem
+suum utilem miseris fore; suadebatque judicibus,
+qui eum invitaverant, ut in sententia proferenda, et
+odio et gratiae, Dei timorem anteponerent; nec ignorare
+eos debere quod scriptum est: Quocunque judicio
+judicaveritis, in eo judicabitur de vobis <note>(Matth.
+VII)</note>; attamen inter medios sermones charae sibi solitudinis
+recordabatur. Post coactam itaque praesentiam,
+quam ducis preces, et, quod verius est, miserorum
+fletus extorserat, post salutaria monita, post
+reorum commendationem, quorumdam etiam absolutionem,
+postulanti duci, ut paulo largius eidem
+<pb n="0164C"/>
+suam praesentiam indulgeret, ait non posse se diutius <emph>58</emph> 
+ ibidem morari, grato usus exemplo, quod sicuti
+pisces ab aqua extracti, mox in arenti terra morerentur <note>(Pelag., l. II, n. 5)</note>,
+ita et monachos cum
+saecularibus retardantes, humanis statim resolvi confabulationibus.
+Ob id ergo, inquit, convenit ut pisces
+ad mare, ita nos ad montem festinemus, ne tardantibus
+nobis aliqua propositi succedat oblivio.
+Pro tanta hominis sapientia dux miratus, justam de
+eo tulit veramque sententiam, dicens: Vere justum
+esse Dei famulum, nec in rustico homine potuisse
+tantam aliquando inesse sapientiam, nisi divino amore
+regeretur.</p>
+<p>CAP. LIV.--Praeterea cum Balacius, qui
+sub Nestorio praefecto Alexandriae dux Aegypti fuit,
+<pb n="0164D"/>
+homo Arianae iniquitatis studiosissimus fautor, ita
+Christi Ecclesiam persequeretur, ut animo vesano
+virgines monachosque nudatos verberaret in publico,
+ad eum Antonius litteras misit, quarum ista sententia
+est: Video iram Dei venientem super te, desine
+persequi Christianos, ne te ira occupet, quae proximum
+jam tibi minatur interitum. Legit infelix epistolam,
+et irrisit, atque in eam exspuens, projecit in
+terram; portitores quoque multis afficiens injuriis,
+Antonio talia renuntiari praecepit: Quoniam cura tibi
+tantopere monachorum est, etiam ad te mei vigoris
+transibit disciplina. Sed confestim minatorem oppressit
+supplicium, et post quinque dies os effrenatum
+ultio divina compescuit. Egreditur enim ad primam
+<pb n="0165A"/>
+mansionem Alexandriae, quae appellatur Chaereum,
+cum supradicto Aegypti praefecto Nestorio.
+Vehuntur equis, quos inter omnes Balacius, cujus
+erant, mansuetissimos nutrierat. Cum ergo pariter
+solito sibimet equi alluderent, mitior, quo Nestorius
+vehebatur, morsu repentino Balacium decussit in terram,
+et sic in eum inhians, femora ejus laceravit
+atque corrosit, ut statim relatus ad civitatem post
+tertium diem moreretur; universique agnoscerent
+minarum ab Antonio praedictarum effectum quantocius
+consecutum, digno persecutoris fine completo.</p>
+<p>CAP. LV.--Caeteros ad se venientes mira cum modestia
+Antonius admonebat, ut, oblita saeculi dignitate,
+remotioris vitae beatitudinem appeterent. Si qui
+autem majori potestate premebantur, nec poterant
+<pb n="0165B"/>
+obtinere justitiam, ita eos obnixe defendebat, ut ipse
+pro illis pati videretur injuriam. Multis utilis fuit
+praeclari senis oratio; multi, magnis divitiis et altiori
+gradu militiae derelicto, ejus haerere curriculis cupiebant.
+Et ut infinita brevi sermone comprehendam,
+bonum Aegypto medicum Christus indulserat. Quis
+non tristitiam apud Antonium mutavit in gaudium?
+quis non iram vertit in pacem? quis orbitatis luctum
+non ad ejus temperavit aspectum? quis non moerore
+paupertatis, quo premebatur, abjecto, statim et divitum
+despexit opulentias, et in sua laetatus est paupertate?
+quis post lassitudinem monachus non ejus
+vegetatus est hortamentis? quis adolescens succensus
+ardoribus, non ex ejus admonitu pudicitiae amator
+fuit? quis vexatus a diabolo, sine medela rediit?
+<pb n="0165C"/>
+Quis inimici cogitationibus distractus, non caeca tempestate
+sopita, sereno regressus est animo? Sciebat
+enim quo quisque laboraret incommodo, et ex vitae
+meritis discretionem spirituum agnoscens, adhibebat
+morborum, prout erant vulnera, sanitatem. Unde
+effectum est ut post ejus doctrinam omnes diaboli
+panderentur insidiae. Multae quoque desponsatae puellae,
+ad ejus conspectum ab ipso pene thalamo recedentes,
+in Ecclesiae matris gremio consederunt.
+Quid plura? Totius orbis homines ad eum confluebant,
+et universarum gentium varietas bellicosissimum
+contra daemones virum conspicere gestiebant.
+Nullus se frustra illuc venisse conquestus est, omnibus
+delectabile atque jucundum laboris commercium
+fuit. Fatigatio enim itineris emolumentum viatici reportabat,
+<pb n="0165D"/>
+sicut rei probavit effectus. Nam post resolutionem
+ejus, quasi communi vulnere orbitatis excepto,
+proprium singuli parentem luxerunt.</p>
+<p>CAP. LVI.--Quis autem finis vitae ejus fuerit,
+dignum est et me commemorare, et vos cum desiderio
+audire, quia et hoc in eo imitabile cunctis fuit.
+Juxta consuetudinem ad visendos fratres qui in exteriori
+monte erant, venit, ibique a divina providentia
+de sua morte condiscens, ita exorsus est: Ultimam,
+filioli, patris audite sententiam, non enim arbitror
+quod in hoc saeculo iterum vos visuri simus. Cogit
+conditio naturae, ut post centenarium numerum, quem
+annis quinque supergredior, jam resolvar. Ita
+locutus, audientium pectora contristavit: gemitus
+<pb n="0166A"/>
+lacrymaeque dicta moerentia consecutae sunt. Amplexabantur
+eum universi, quasi jam de saeculo recessurum.
+At ille, tanquam aliena deserens, ad propriam
+patriam profecturus, magna cum laetitia praecipiebat,
+desidiam instituto non debere subrepere,
+sed tanquam quotidie morituros, ut ante praedixerat,
+a sordidis cogitationibus animam custodire, et omnem
+aemulationem ad sanctos quoque convertere, ad
+schismaticos vero ne prope quidem accedere. Scitis
+enim, aiebat, eorum antiquam perversitatem; neque
+cum Arianis communione jungamini, quia impietas
+eorum jam omnibus manifesta est. His etiam illud
+addebat, nullum debere <emph>59</emph> Christianum, cum saeculi
+viderit potestates pro Arianorum et Meletianorum
+ pugnare nequitia, a Christi territum discedere
+<pb n="0166B"/>
+veritate; mortalium illam esse defensionem, nec diu
+fallacem permanere posse phantasiam. Quapropter,
+aiebat, custodienda est pia fides in Christo, et patrum
+religiosa traditio, quam ex Scripturarum lectione
+et crebro meae parvitatis didicistis admonitu.</p>
+<p>CAP. LXVII.--Finito sermone, fratres eum vehementissime
+retardabant, glorioso Patris cupientes
+termino decorari. Sed multas ob causas, quas et silentio
+demonstrabat, praecipue tamen ob praesumptam
+Aegypti consuetudinem contradixit. Mos etenim
+Aegyptiis est, nobilium et praecipue beatorum martyrum
+corpora linteamine quidem obvolvere,
+et studium funeri solitum non negare; terra vero
+non abscondere, sed super lectulos domi posita reservare.
+Hunc honorem quiescentibus reddi,
+<pb n="0166C"/>
+inveteratae consuetudinis vanitas tradidit. De hoc
+Antonius saepe et episcopos deprecatus est, ut populos
+ecclesiastica contestatione corrigerent; et laicos
+viros ac mulieres rigidius ipse convenit, dicens, nec
+licitum hoc esse, nec Deo placitum; quippe cum patriarcharum
+et prophetarum sepulcra, quae ad nos
+usque perdurant, haec facta convincerent. Dominici
+quoque corporis exemplum oportere intueri jubebat,
+quod in sepulcro positum, lapide usque ad resurrectionis
+diem tertium clausum fuerit <note>(Joan. XVI;
+Matth. XXVII)</note>. Atque his modis vitium circa defunctos
+Aegypti, etiamsi sancta essent corpora, coarguebat,
+dicens: Quid majus aut sanctius corpore
+potest esse Dominico, quod juxta consuetudinem
+gentium caeterarum humo conditum esse scimus?
+<pb n="0166D"/>
+Haec justa persuasio multorum insitum evellit errorem,
+et repositis in terra cadaveribus, Domino gratias
+pro bono magisterio retulerunt. Metuens ergo consuetudinem
+supradictam, ne eodem etiam circa se
+laberentur errore, celeriter valedicens monachis,
+qui confluxerant, ad amicum virtutis habitaculum
+repedavit.</p>
+<p>CAP. LVIII.--Post menses autem paucos, cum non
+mediocre incommodum senilia membra turbasset,
+vocatis ad se duobus fratribus, quos ibidem
+ante quindecim annos modico intervallo sejunctos
+instituerat, quique etiam ei jam seni coeperant ministrare,
+ait: Ego quidem, filioli, secundum eloquia
+Scripturarum <note>(Josue XXIII; III Reg. II)</note>, patrum gradior
+<pb n="0167A"/>
+viam; jam enim Dominus me invitat, jam cupio
+videre coelestia. Sed vos, o viscera mea, admoneo,
+ne tanti temporis laborem repente perdatis. Hodie
+vos religiosum studium arripuisse arbitremini, et
+quasi coeptae voluntatis fortitudo succrescet. Varias
+daemonum nostis insidias, vidistis eorum et impetus
+feroces, et vires effeminatas. Jesum suspirate, et
+credulitatem nominis ejus vestris figite mentibus, et
+a certa fide universi daemones fugabuntur. Mementote
+etiam admonitionum mearum et incertae conditionis,
+vitam quotidie ancipitem retractate, et coeleste
+vobis praemium sine cunctamine tribuetur.
+Schismaticorum quoque et haereticorum venena vitate,
+meumque circa eos odium sectamini, quia
+Christi sunt inimici. Scitis ipsi quod nullus mihi
+nec pacificus quidem sermo cum eis aliquando fuerit,
+<pb n="0167B"/>
+propter pravam eorum voluntatem, et pertinax contra
+Christum bellum. In hoc autem magis estote solliciti,
+ut Domini praecepta servetis, ut post mortem
+vestram sancti quique, quasi amicos et notos, in
+aeterna vos recipiant tabernacula <hi>(Lucae XVI)</hi>. Haec
+cogitate, haec sapite, haec retexite; et si qua mei
+vobis cura, si qua patris memoria est, si mihi vicarium
+repraestatis affectum, nullus ad Aegyptum
+meas perferat reliquias, ne vano corpus honore servetur,
+ne vituperati, ut nostis, a me ritus etiam circa
+me serventur obsequia. Hujus enim rei gratia maxime
+huc sum regressus. Vos igitur humo tegite, vos
+patris operite corpusculum, et illud quoque senis
+vestri custodite mandatum, ut nemo praeter vestram
+dilectionem locum tumuli mei noverit. Confido in
+<pb n="0167C"/>
+Domino, quia necessario resurrectionis tempore hoc
+corpusculum resurget incorruptum. Vestimentorum
+autem meorum sit ista divisio: Melotem et
+pallium tritum, cui superjaceo, Athanasio episcopo
+date, quod mihi novum ipse detulerat. Serapion
+episcopus aliam accipiat melotem; vos cilicinum
+habetote vestimentum, et valete, viscera mea;
+Antonius enim migrat, et jam non erit in praesenti
+saeculo vobiscum.</p>
+<p>CAP. LIX.--Verba finierat, et osculantibus se
+discipulis, extendens paululum pedes, mortem laetus
+aspexit; ita ut ex hilaritate vultus ejus, angelorum
+sanctorum, qui ad perferendam animam ejus
+descenderant, praesentia nosceretur. Hos intuens,
+tanquam amicos videret, animam exhalavit, et additus
+<pb n="0167D"/>
+est patribus secundum ordinem Scripturarum.
+Servaverunt mandata discipuli, involutum (ut
+praeceperat) corpus humo operientes; et nemo interim
+usque ad hanc diem, praeter eos, ubi sit conditum,
+novit. Legatarius autem Antonii benedicti, qui
+tritum pallium cum melote imperio ejus meruerat
+<pb n="0168A"/>
+accipere, Antonium in Antonii muneribus amplectitur;
+et tanquam magna haereditate ditatus, laetanter
+per <emph>60</emph> vestimentum recordatur imaginem sanctitatis
+.</p>
+<p>CAP. LX.--Hic Antonio vitae terminus fuit, ista
+principia meritorum: quae licet parciori, ut praedixi,
+sermone narraverim, tamen ex his potestis advertere
+qualiter homo Dei a pueritia ad senectam usque pervenerit;
+et quod omni semper dubitatione calcata,
+nec languori, nec longaevae quidquam aetati aliquando
+concesserit. Magis autem aequalitatem propositi tenens,
+nec vestimentum mutavit, nec pedes
+lavit, nec escam sectatus est molliorem; oculorum
+quoque aciem, et numerum dentium, licet paululum
+ob aetatem viderentur attriti, necnon et pedum incessum,
+<pb n="0168B"/>
+totius etiam corporis firmitatem, ita contra
+jura naturae meritorum gratia custodivit, ut lautorum
+corporum, quae balneis atque deliciis confoventur,
+hilarior ejus caro videretur.</p>
+<p>CAP. LXI.--Hoc etiam, fratres, quod per omnes
+provincias amor ejus famaque volitavit, quem nec
+librorum disseminatorum oratio luculenta, nec
+mundanae sapientiae disputatio, nec nobilitas generis,
+nec opum infinita congestio commendavit, cui omnium
+ore est ascribendum, nisi Christo, cujus hoc
+donum est? qui devotos ejus animos erga suam praevidens
+majestatem, hominem alio pene orbe celatum,
+et inter tantas positum solitudines, Africae,
+Hispaniae, Galliae, Italiae, Illyrico, ipsi etiam, quae
+urbium caput est, Romae, ut in exordio promiserat,
+demonstravit. Creatoris est ista benignitas,
+<pb n="0168C"/>
+qui famulos suos, licet nolentes, nobilitare consuevit,
+ut virtus possibilis nec extra humanam esse naturam
+sanctorum doceatur exemplis, et ad beatae vitae
+imitationem, ex fructu laboris optimus quisque impellatur.</p>
+<p>CAP. LXII.--Hunc itaque fratribus librum magnopere
+perlegere curate, ut, agnita fideli vita sublimium
+Christianorum et monachorum, sciant quod
+Salvator noster Jesus Christus glorificantes se glorificat,
+et servientibus sibimet, non tantum regna
+coelorum, sed etiam hic in ipsis montium secretis
+latere cupientibus, famae tribuit nobilitatem; scilicet,
+ut et ipsi fruantur laude meritorum, et caeteri eorum
+provocentur exemplis. Si autem necessarium fuerit,
+et gentibus legite, ut vel sic agnoscant quia Dominus
+<pb n="0168D"/>
+noster Jesus Christus non solum est Deus, Dei Filius,
+sed etiam his qui eum sollicite colunt, et in eum fideliter
+credunt, hanc dedit potestatem, ut daemones,
+quos illi deos esse arbitrantur, conculcent atque ejiciant,
+deceptores scilicet hominum, et totius corruptionis
+artifices.</p>
+</div1>
+
+<div1>
+        <head>EPILOGUS EVAGRII INTERPRETIS.</head>
+
+<pb n="0167"/>
+<p>Itaque prudentes, qui legere voluerint hanc scripturam, obsecramus ut dent veniam, si Graeci sermonis
+vim exprimere non potuimus, transferentes eum in Latinam linguam, licet contra nostrum propositum haec
+fecerimus. Sed non quasi invidentes nolebamus facere, sed sufficienter sciens quantam infirmitatem sustinet
+Graecus sermo translatus in Latinitatem; tamen maluimus Graecum sermonem hoc sustinere, quam fraudem
+<pb n="0169"/>
+pati eos lucri deifici, qui quomodocunque interpretatum Graecum sermonem legere possint. Deus autem
+omnipotens, qui tanto viro cooperatus est ad facienda talia, et nobis cooperetur ad imitandum ipsum, vel
+ex parte, ut in omnibus clarificetur nomen ejus per magistrum, et hortatorem, et redemptorem, et
+Salvatorem nostrum Jesum Dominum cum Spiritu sancto, cui est claritas et perpetua potestas in saecula
+saeculorum.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

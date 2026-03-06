@@ -1,0 +1,2666 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Liber Josue</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 28</title>
+           <idno>HieStr.LibJos</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>PRAEFATIO HIERONYMI IN LIBRUM JOSUE BEN NUN.</head>
+<p>Tandem finito Pentateucho Mosi, velut grandi
+fenore liberati, ad Jesum filium Nave manum mittimus,
+quem Hebraei JOSUE BEN NUN  , id
+est, Josue filium Nun, vocant, et ad Judicum librum,
+quem SOPHTIM   appellant, ad RUTH  
+<pb n="0462C"/>
+quoque et ESTHER  , quos iisdem nominibus
+efferunt. Monemusque lectorem, ut silvam Hebraicorum
+nominum, et distinctiones per membra
+ divisas diligens scriptor conservet, ne et noster
+labor et illius studium pereat. Et ut in primis,
+<pb n="0463A"/>
+quod saepe testatus sum, sciat me non in reprehensionem
+veterum nova cudere, sicut amici mei criminantur;
+sed pro virili parte offerre linguae meae
+hominibus (quos tamen nostra delectant), ut pro
+Graecorum <foreign xml:lang="greek">ἑξαπλοῖς</foreign>, quae et sumptu et labore maximo
+indigent, editionem nostram habeant. Et sicubi
+in antiquorum voluminum lectione dubitarint, haec
+illis conferentes, inveniant quod requirunt: maxime
+cum apud Latinos tot sint exemplaria, quot codices;
+et unusquisque pro arbitrio suo vel addiderit, vel
+subtraxerit quod ei visum est: et utique non possit
+verum esse quod dissonat. Unde cesset arcuato vulnere
+contra nos insurgere scorpius, et sanctum opus
+venenata carpere lingua desistat, vel suscipiens, si
+placet, vel contemnens, si displicet: memineritque
+<pb n="0463B"/>
+illorum versuum <note>(Ps. XXXIX, 19 seq.)</note>:
+<l> <hi>Os tuum abundavit nequitia,</hi> </l>
+<l rend="indent"> <hi>et lingua tua concinnabat dolos.</hi> </l>
+<l> <hi>Sedens adversus fratrem tuum loquebaris,</hi> </l>
+<l rend="indent"> <hi>et adversus filium matris tuae ponebas scandalum:</hi> </l>
+<l rend="indent"> <hi>haec fecisti et tacui.</hi> </l>
+<l> <hi>Existimasti, inique, quod ero tui similis:</hi> </l>
+<l rend="indent"> <hi>arguam te, et statuam contra faciem tuam.</hi> </l>
+Quae enim audientis vel legentis utilitas est, nos
+laborando sudare, et alios detrahendo laborare?
+<pb n="0464A"/>
+dolere Judaeos quod calumniandi eis et irridendi
+Christianos sit ablata occasio, et Ecclesiae homines
+id despicere, immo lacerare, unde adversarii torqueantur?
+Quod si vetus eis tantum interpretatio
+placet, quae et mihi non displicet, et nihil extra recipiendum
+putant: cur ea quae sub asteriscis et obelis,
+vel addita sunt, vel amputata, legunt, et negligunt?
+Quare Danielem juxta Theodotionis translationem,
+Ecclesiae susceperunt? Cur Origenem mirantur, et
+Eusebium Pamphili, cunctas editiones similiter disserentes?
+Aut quae fuit stultitia, postquam vera dixerint,
+proferre quae falsa sunt? Unde autem in novo
+Testamento probare poterunt assumpta testimonia,
+quae in libris veteribus non habentur? Haec dicimus,
+ne omnino calumniantibus tacere videamur. Caeterum
+<pb n="0464B"/>
+post sanctae Paulae dormitionem, cujus vita
+virtutis exemplum est, et hos libros, quos Eustochio
+virgini Christi negare non potui, decrevimus, dum
+spiritus hos regit artus, Prophetarum explanationi
+incumbere, et omissum jamdiu opus, quodam postliminio
+repetere: praesertim cum et admirabilis
+sanctusque vir Pammachius hoc idem litteris flagitet,
+et nos ad patriam festinantes, mortiferos Sirenarum
+cantus surda debeamus aure transire.</p>
+</div1>
+
+
+
+<div1>
+        <head>CAPITULATIONES LIBRI JOSUE.</head>
+        <head>TITULI LIBRI JOSUE.</head>
+<div3>
+          <head>I. </head>
+<p>
+            <pb n="0463D"/> <hi>Post mortem Mosi, Josue Dominus loquitur, et hortatur,
+ut surgens, Jordane transmisso, ad terram
+quam promiserat pergeret obtinendam. Tecum ero,
+ait, confortare et esto robustus. Volumen legis de
+corde tuo non recedat, et caetera. Ubi Josue praecepit
+populo in crastinum, ut, cibariis praeparatis, Jordanem
+pergerent transituri. Duos absconditos viros
+exploratores ad Jericho dirigit civitatem, qui meretricis
+Rahab domum ingressi, atque a rege quaesiti
+absconditi sunt, pactoque inito per murum demissi
+montana conscendunt, ad Josue veniunt, et quae sibi
+contigerant pandunt.</hi> </p>
+        </div3>
+<div3>
+          <head>II.</head>
+ <hi>Motis castris, Josue venit ad Jordanem, populum
+triduo sanctificat Dominus, et Josue dicit: Hodie te
+incipiam exaltare coram filiis Israel, dic Levitis,
+cum ingressi fuerint aquas Jordanis, ut stent: ac
+deinde descendentibus sacerdotibus in aquam, supervenientes
+aquae instar montium intumescentes in una
+<pb n="0464D"/>
+consistebant mole, inferiores vero desiccatae sunt:
+super siccam humum omnis populus pertransivit.
+Bis duodenos pro testimonio lapides de ejus medio
+apportarunt.</hi> </div3>
+<div3>
+          <head>III.</head>
+ <hi>Castrametantur in Galgalis: Dominus ad Josue
+dicit ut lapideos faciat cultros, et causam secundae
+circumcisionis ostendit. Ibi Pascha celebrant: comederunt
+de frugibus terrae promissionis azyma nova,
+et non est ultra eis datum manna. Ibi Josue, elevatis
+oculis, militiae coelestis gladium tenentem principem
+cernit, et audit: Solve calceamentum de pedibus
+tuis, et caetera. Et iterum: Tradidi Jericho et
+regem ejus in manu tua: sit omnis anathema: sic
+et sic clamabitis, et supradictae sequitur interitus
+civitatis. Rahab educitur ac servatur. Filii Israel
+praevaricati sunt, id est, Achan filius Charmi. Ad
+Hai exercitum dirigit, qui terga hostibus dedit:
+ipse, scissis vestibus, Dominum deprecatur, et Dominus
+<pb n="0465A"/>
+dicit quod peccaverit populus. Inquisitus qui
+hoc fecerit, deprehensus et a populo lapidatus.</hi> </div3>
+<div3>
+          <head>IV.</head>
+ <hi>Praecepit Dominus, ut ad supradictam pergeret
+civitatem, atque, clypeo elevato, sciret sibi eam fuisse
+contraditam: qui pergens cepit, occidit, delevit:
+jumenta autem et praedam civitatis populus invicem
+sibi distribuit, et aedificato altari sacrificium obtulit.
+Deuteronomium scripsit, verba benedictionis
+et maledictionis omni populo legit. Ubi reges Chanaan
+turbantur, Gabaonitae legatos callide mittunt,
+foedus ineunt, et in servitium deputantur.</hi> </div3>
+<div3>
+          <head>V.</head>
+ <hi>Ubi quinque reges Amorrhaeorum congregantur
+adversus Israel, et Josue eos persequitur, et dicit:
+Stet sol in Gabaon, et caetera, caesoque exercitu,
+quinque reges in speluncam fugiunt, atque apprehensi
+<pb n="0465B"/>
+occiduntur: eodem die percutit Mageda et
+Lemna, deinde Lachis et Gaser, omnesque montanas
+et plano positas civitates, Domino tradente, possedit.</hi> </div3>
+<div3>
+          <head>VI.</head>
+ <hi>Ubi Enacim interfectos reges enumerat singulos,
+id est, triginta unum, quibus exstinctis provincias
+eorum possedit.</hi> </div3>
+<div3>
+          <head>VII.</head>
+ <hi>Dixit Dominus ad Josue: Senuisti et longaevus es,
+divide terram filiis Israel, atque sedens cum Eleazaro
+sacerdote universam terram dividit. Chaleb ad eum
+loquitur ut Cariath-Sepher civitatem ei sorte contraderet,
+<pb n="0466A"/>
+sicut jusserat Dominus. Et sequitur quae sors
+unicuique tribui sit tradita.</hi> </div3>
+<div3>
+          <head>VIII.</head>
+ <hi>In Silo fixerunt tabernaculum testimonii, et inde
+ad reliquam, quae necdum subjecta fuerat, terram
+dirigit inspectores.</hi> </div3>
+<div3>
+          <head>IX.</head>
+ <hi>Praecepit Dominus Josue, ut urbes in praesidia
+fugitivorum separentur, sicut locutus est ad Mosen, et
+legem dat, qui illarum civitatum debeat intrare praesidia.
+Levitis et sacerdotibus civitates et suburbana
+distribuuntur.</hi> </div3>
+<div3>
+          <head>X.</head>
+ <hi>Josue vocavit Rubenitas, et Gaditas, et mediam
+partem tribus Manasse, et dixit eis: Implestis imperium
+Domini, ite in tabernacula vestra, et pergentes
+ad tumulos Jordanis aedificaverunt altare infinitae
+magnitudinis, quod Josue et Israel putaverunt esse
+<pb n="0466B"/>
+sacrilegum, et nuntios dirigunt, qui ratione accepta
+leniti sunt.</hi> </div3>
+<div3>
+          <head>XI.</head>
+ <hi>Josue vocavit omnem Israelem, et admonet ut serviant
+Domino. Enumerat seriem generationis antiquae,
+et quomodo de Aegypto sint liberati: quomodo
+Amorrhaei, Chananaei et caeteri sint traditi in
+manus eorum. Josue lapidem posuit in testimonium,
+post haec mortuus est ac sepultus in Thamnathsare.
+Ossa Joseph sepeliuntur in Sichem, et Eleazar sacerdos
+mortuus est.</hi> 
+</div3>
+      </div1>
+
+<div1>
+        <head> BREVES LIBRI JOSUE.</head>
+
+<pb n="0465"/>
+<div3>
+          <head>I. </head>
+<p>
+            <pb n="0465B"/> <hi>Promittit Deus Josue dicens: Sicut fui cum Moyse,
+<pb n="0465C"/>
+ero et tecum.</hi> </p>
+        </div3>
+<div3>
+          <head>II.</head>
+ <hi>Praeparare cibaria jubetur populo, ut transeat Jordanem.</hi> </div3>
+<div3>
+          <head>III.</head>
+ <hi>Destinantur exploratores a Josue in Jericho.</hi> </div3>
+<div3>
+          <head>IV.</head>
+ <hi>Promittit Dominus Josue dicens: Hodie incipiam
+exaltare te coram omni Israel, ut sciant quia sicut
+fui cum Moyse, ita et tecum sum.</hi> </div3>
+<div3>
+          <head>V.</head>
+ <hi>Jubente Domino, siccatur alveus Jordanis transeunte
+Israel.</hi> </div3>
+<div3>
+          <head>VI.</head>
+ <hi>Duodecim lapides electi de Jordanis alveo ob commemorationem
+futuri temporis.</hi> </div3>
+<div3>
+          <head>VII.</head>
+ <hi>Introeunte Israel terram Chanaam, territi sunt
+cuncti reges.</hi> </div3>
+<div3>
+          <head>VIII.</head>
+ <hi>Haec autem causa est secundae circumcisionis.</hi> </div3>
+<div3>
+          <head>IX.</head>
+ <hi>Hucusque comederunt manna.</hi> 
+<pb n="0465D"/>
+</div3>
+<div3>
+          <head>X. </head>
+ <hi>Ostendit se angelus Domini Josue, qui dixit: Princeps
+exercitus Domini sum.</hi> </div3>
+<div3>
+          <head>XI.</head>
+ <hi>De obsidione vel subversione urbis Jericho.</hi> </div3>
+<div3>
+          <head>XII.</head>
+ <hi>Imprecatio Josue.</hi> </div3>
+<div3>
+          <head>XIII.</head>
+ <hi>Praevaricatio populi.</hi> </div3>
+<div3>
+          <head>XIV.</head>
+ <hi>Confortat Dominus Josue ad praeliandum.</hi> </div3>
+<div3>
+          <head>XV.</head>
+ <hi>Perturbatio regum.</hi> </div3>
+<div3>
+          <head>XVI.</head>
+ <hi>Simulatio Gabaonitarum.</hi> </div3>
+<div3>
+          <head>XVII.</head>
+ <hi>Conglobati quinque reges contra Josue ascenderunt.
+Tunc imperavit soli, et stetit spatio diei unius.</hi> </div3>
+<div3>
+          <head>XVIII.</head>
+ <hi>Juvante Domino, exstincti sunt reges cum exercitu
+suo.</hi> 
+<pb n="0466B"/>
+</div3>
+<div3>
+          <head>XIX. </head>
+ <hi>Ruben, Gad et dimidia tribus Manasse terram
+<pb n="0465C"/>
+sibi dari postulant a Moyse.</hi> </div3>
+<div3>
+          <head>XX.</head>
+ <hi>Hi sunt reges terrae quos percussit Josue et filii
+Israel.</hi> </div3>
+<div3>
+          <head>XXI.</head>
+ <hi>Dividere terras populis hortatur Dominus Josue.</hi> </div3>
+<div3>
+          <head>XXII.</head>
+ <hi>Promissum repetit Chaleb montem, in quo Hebron:
+hic legis Adam situm.</hi> </div3>
+<div3>
+          <head>XXIII.</head>
+ <hi>Sors Judae.</hi> </div3>
+<div3>
+          <head>XXIV.</head>
+ <hi>Sors filiorum Joseph, Ephraim, et Manasse.</hi> </div3>
+<div3>
+          <head>XXV.</head>
+ <hi>Filii Joseph petunt sibi augmentari funiculum a
+Josue, quibus ait: Ascendite in montem, et succidite
+silvam, et mundate vobis ad habitandum spatia.</hi> </div3>
+<div3>
+          <head>XXVI.</head>
+ <hi>Congregatique sunt omnes filii Israel in Silo.</hi> </div3>
+<div3>
+          <head>XXVII.</head>
+ <hi>Destinantur viri ad describendam terram, reversique
+descriptionem tradunt Josue, qui misit sortes
+coram Domino in Silo, divisitque terram filiis
+<pb n="0466D"/>
+Israel in septem partes.</hi> </div3>
+<div3>
+          <head>XXVIII.</head>
+ <hi>Urbes fugitivorum.</hi> </div3>
+<div3>
+          <head>XXIX.</head>
+ <hi>Urbes Levitarum.</hi> </div3>
+<div3>
+          <head>XXX.</head>
+ <hi>Post bellorum turbines data est requies a Domino.</hi> </div3>
+<div3>
+          <head>XXXI.</head>
+ <hi>Inconsulta re factum a tribu Ruben altare
+immensae magnitudinis.</hi> </div3>
+<div3>
+          <head>XXXII.</head>
+ <hi>Replicat a principio Josue cuncta Israeli cum
+testatione, ne discedant a praeceptis Domini, appropinquante
+die obitus sui.</hi> </div3>
+<div3>
+          <head>XXXIII.</head>
+ <hi>Unde natus sit Abraham, vel ubi perductus.
+Item congregatis cum pacto obtestationis, alloquitur
+eos Josue.</hi> 
+</div3>
+      </div1>
+
+<div1>
+        <head>CAPITULA LIBRI JESU NAVE.</head>
+
+<pb n="0467"/>
+<div3>
+          <head>I. </head>
+<p>
+            <pb n="0467A"/> <hi>Transite per media castra.</hi> </p>
+        </div3>
+<div3>
+          <head>II.</head>
+ <hi>Exploratores missi de Settim.</hi> </div3>
+<div3>
+          <head>III.</head>
+ <hi>Exploratores Rahab testatur.</hi> </div3>
+<div3>
+          <head>IV.</head>
+ <hi>Hic populo dicit: Purificate.</hi> </div3>
+<div3>
+          <head>V.</head>
+ <hi>Ubi Dominus dicit ad Jesum: Incipiam te exaltare.</hi> </div3>
+<div3>
+          <head>VI.</head>
+ <hi>Jordanis siccatus.</hi> </div3>
+<div3>
+          <head>VII.</head>
+ <hi>Parate duodecim viros ad lapides tollendos.</hi> </div3>
+<div3>
+          <head>VIII.</head>
+ <hi>Lapides sublati.</hi> </div3>
+<div3>
+          <head>IX.</head>
+ <hi>De instructione filiorum.</hi> </div3>
+<div3>
+          <head>X.</head>
+ <hi>Jesus exaltatus.</hi> </div3>
+<div3>
+          <head>XI.</head>
+ <hi>Sacerdotes de Jordane excesserunt.</hi> </div3>
+<div3>
+          <head>XII.</head>
+ <hi>Item filii instruendi.</hi> </div3>
+<div3>
+          <head>XIII.</head>
+ <hi>Gentium reges territi.</hi> 
+<pb n="0467B"/>
+</div3>
+<div3>
+          <head>XIV. </head>
+ <hi>De cultellis petrinis.</hi> </div3>
+<div3>
+          <head>XV.</head>
+ <hi>Circumcisio.</hi> </div3>
+<div3>
+          <head>XVI.</head>
+ <hi>Maledictum ablatum.</hi> </div3>
+<div3>
+          <head>XVII.</head>
+ <hi>Pascha.</hi> </div3>
+<div3>
+          <head>XVIII.</head>
+ <hi>Manna defecit.</hi> </div3>
+<div3>
+          <head>XIX.</head>
+ <hi>Angelus visus.</hi> </div3>
+<div3>
+          <head>XX.</head>
+ <hi>Jericho circumdari jubetur.</hi> </div3>
+<div3>
+          <head>XXI.</head>
+ <hi>Jesus dicit populo: Nec clamaveritis.</hi> </div3>
+<div3>
+          <head>XXII.</head>
+ <hi>De anathemate.</hi> </div3>
+<div3>
+          <head>XXIII.</head>
+ <hi>Muri Jericho ceciderunt.</hi> </div3>
+<div3>
+          <head>XXIV.</head>
+ <hi>De Rahab servanda.</hi> </div3>
+<div3>
+          <head>XXV.</head>
+ <hi>Maledictus qui aedificaverit civitatem Jericho.</hi> </div3>
+<div3>
+          <head>XXVI.</head>
+ <hi>De anathemate, qui concupivit.</hi> </div3>
+<div3>
+          <head>XXVII.</head>
+ <hi>Populus fugatus.</hi> </div3>
+<div3>
+          <head>XXVIII.</head>
+ <hi>Peccavit plebs.</hi> 
+<pb n="0467C"/>
+</div3>
+<div3>
+          <head>XXIX. </head>
+ <hi>Jesus de anathemate scrutatur.</hi> </div3>
+<div3>
+          <head>XXX.</head>
+ <hi>Achar de anathemate confusus.</hi> </div3>
+<div3>
+          <head>XXXI.</head>
+ <hi>Prima pugna Jesus, Ahi civitatem per insidiam
+capit.</hi> </div3>
+<div3>
+          <head>XXXII.</head>
+ <hi>Gentes adversum Jesum collectae.</hi> </div3>
+<div3>
+          <head>XXXIII.</head>
+ <hi>Jesus altare aedificat, et ibi Deuteronomium
+scribit.</hi> </div3>
+<div3>
+          <head>XXXIV.</head>
+ <hi>Jesus legem benedictionum et maledictionum
+omni populo legit.</hi> </div3>
+<div3>
+          <head>XXXV.</head>
+ <hi>Gabaonitae audientes famam Josue.</hi> </div3>
+<div3>
+          <head>XXXVI.</head>
+ <hi>Ubi acceperunt Gabaonitae pacem, et Deum
+non invocaverunt.</hi> </div3>
+<div3>
+          <head>XXXVII.</head>
+ <hi>Gabaonitae ligni caesores facti.</hi> </div3>
+<div3>
+          <head>XXXVIII.</head>
+ <hi>Rex Jerusalem adversus Gabaonitas cum
+aliis regibus pugnat.</hi> 
+<pb n="0467D"/>
+</div3>
+<div3>
+          <head>XXXIX. </head>
+ <hi>Gabaonitae auxilium petunt a Jesu.</hi> </div3>
+<div3>
+          <head>XL.</head>
+ <hi>Lapidibus coeli reges gentium interfecti.</hi> </div3>
+<div3>
+          <head>XLI.</head>
+ <hi>Sol stat in Gabaon, et luna in valle Aialon.</hi> </div3>
+<div3>
+          <head>XLII.</head>
+ <hi>Reges in spelunca.</hi> </div3>
+<div3>
+          <head>XLIII.</head>
+ <hi>Reges de spelunca producti atque interfecti.</hi> </div3>
+<div3>
+          <head>XLIV.</head>
+ <hi>Sedes super cervices regum.</hi> </div3>
+<div3>
+          <head>XLV.</head>
+ <hi>Regiones quas accepit Jesus cum suis regibus,
+Macedam et omnes habitatores ejus.</hi> </div3>
+<div3>
+          <head>XLVI.</head>
+ <hi>De Lebna in Lachis.</hi> </div3>
+<div3>
+          <head>XLVII.</head>
+ <hi>Hiram auxiliator Lachis.</hi> </div3>
+<div3>
+          <head>XLVIII.</head>
+ <hi>Eglon expugnatur.</hi> </div3>
+<div3>
+          <head>XLIX.</head>
+ <hi>Hebron capta.</hi> </div3>
+<div3>
+          <head>L.</head>
+ <hi>Dabiram cepit atque vastavit.</hi> 
+<pb n="0468A"/>
+</div3>
+<div3>
+          <head>LI. </head>
+ <hi>Terram montuosam percussit.</hi> </div3>
+<div3>
+          <head>LII.</head>
+ <hi>Jabin congregat omnes reges adversus Jesum.</hi> </div3>
+<div3>
+          <head>LIII.</head>
+ <hi>Equi gentium subnervati.</hi> </div3>
+<div3>
+          <head>LIV.</head>
+ <hi>Civitates muratas non succendit.</hi> </div3>
+<div3>
+          <head>LV.</head>
+ <hi>Dominus dedit in his agendum, ut bellarent, nec
+haberent misericordiam.</hi> </div3>
+<div3>
+          <head>LVI.</head>
+ <hi>Enacim exterminati.</hi> </div3>
+<div3>
+          <head>LVII.</head>
+ <hi>Nomina regum interfectorum a Moyse.</hi> </div3>
+<div3>
+          <head>LVIII.</head>
+ <hi>Reges quos Jesus interfecit.</hi> </div3>
+<div3>
+          <head>LIX.</head>
+ <hi>Terra expugnata, et in haereditatem divisa.</hi> </div3>
+<div3>
+          <head>LX.</head>
+ <hi>Divisio terrae quam Moyses duabus et dimidiae
+tribui Manasse trans Jordanem divisit.</hi> </div3>
+<div3>
+          <head>LXI.</head>
+ <hi>Sors tribus Ruben.</hi> </div3>
+<div3>
+          <head>LXII.</head>
+ <hi>Sors filiorum Gad.</hi> 
+<pb n="0468B"/>
+</div3>
+<div3>
+          <head>LXIII. </head>
+ <hi>Sors dimidiae tribus Manasse.</hi> </div3>
+<div3>
+          <head>LXIV.</head>
+ <hi>Hic Eleazar et principes terram novem tribubus
+partiuntur.</hi> </div3>
+<div3>
+          <head>LXV.</head>
+ <hi>Chaleb ad Jesum.</hi> </div3>
+<div3>
+          <head>LVI.</head>
+ <hi>Nomen Hebron quae prius vocabatur Cariatharbe.</hi> </div3>
+<div3>
+          <head>LXVII.</head>
+ <hi>Sors tribus Judae.</hi> </div3>
+<div3>
+          <head>LXVIII.</head>
+ <hi>Chaleb pars inter filios Judae.</hi> </div3>
+<div3>
+          <head>LXIX.</head>
+ <hi>Chaleb propter civitatem litterarum, Axam
+filiam suam dedit Othoniel.</hi> </div3>
+<div3>
+          <head>LXX.</head>
+ <hi>Filia Chaleb partem agri a patre postulat.</hi> </div3>
+<div3>
+          <head>LXXI.</head>
+ <hi>Nomina civitatum Juda.</hi> </div3>
+<div3>
+          <head>LXXII.</head>
+ <hi>Nomina civitatum quae sunt in campestribus.</hi> </div3>
+<div3>
+          <head>LXXIII.</head>
+ <hi>Jebusaeum Juda expugnare non potuit.</hi> </div3>
+<div3>
+          <head>LXXIV.</head>
+ <hi>Sors filiorum Joseph.</hi> </div3>
+<div3>
+          <head>LXXV.</head>
+ <hi>Termini Ephraim.</hi> 
+<pb n="0468C"/>
+</div3>
+<div3>
+          <head>LXXVI. </head>
+ <hi>Quem Ephraim non expugnavit.</hi> </div3>
+<div3>
+          <head>LXXVII.</head>
+ <hi>Sors filiorum Manasse.</hi> </div3>
+<div3>
+          <head>LXXVIII.</head>
+ <hi>Filiae Salphaad.</hi> </div3>
+<div3>
+          <head>LXXIX.</head>
+ <hi>Terminus filiorum Manasse.</hi> </div3>
+<div3>
+          <head>LXXX.</head>
+ <hi>Quem Manasse expugnare non potuit.</hi> </div3>
+<div3>
+          <head>LXXXI.</head>
+ <hi>Congregatio filiorum Israel in Silo.</hi> </div3>
+<div3>
+          <head>LXXXII.</head>
+ <hi>Jesus septem tribubus semel terram partitur,
+et mittit viros ad terminandum.</hi> </div3>
+<div3>
+          <head>LXXXIII.</head>
+ <hi>Sortes missae in Silo, sors prima tribus Benjamin.</hi> </div3>
+<div3>
+          <head>LXXXIV.</head>
+ <hi>Nomina civitatum Benjamin.</hi> </div3>
+<div3>
+          <head>LXXXV.</head>
+ <hi>Sors secunda filiorum Simeon.</hi> </div3>
+<div3>
+          <head>LXXXVI.</head>
+ <hi>Sors tertia filiorum Zabulon.</hi> </div3>
+<div3>
+          <head>LXXXVII.</head>
+ <hi>Sors quarta filiorum Issachar.</hi> </div3>
+<div3>
+          <head>LXXXVIII.</head>
+ <hi>Sors quinta filiorum Aser.</hi> 
+<pb n="0468D"/>
+</div3>
+<div3>
+          <head>LXXXIX. </head>
+ <hi>Sors sexta filiorum Nephthali.</hi> </div3>
+<div3>
+          <head>XC.</head>
+ <hi>Sors septima filiorum Dan.</hi> 
+<p>XCI <hi>Filii Dan pugnaverunt contra Lesem, et ceperunt
+eam.</hi> </p>
+        </div3>
+<div3>
+          <head>XCII.</head>
+ <hi>Civitas quam filii Israel Jesu dederunt.</hi> </div3>
+<div3>
+          <head>XCIII.</head>
+ <hi>Praeceptum civitatum refugii.</hi> </div3>
+<div3>
+          <head>XCIV.</head>
+ <hi>Nomina civitatum refugii.</hi> </div3>
+<div3>
+          <head>XCV.</head>
+ <hi>Filii Levi propter civitates interpellaverunt et
+acceperunt.</hi> </div3>
+<div3>
+          <head>XCVI.</head>
+ <hi>Sors populi Caath.</hi> </div3>
+<div3>
+          <head>XCVII.</head>
+ <hi>Sors filiorum Gerson.</hi> </div3>
+<div3>
+          <head>XCVIII.</head>
+ <hi>Sors filiorum Merari.</hi> </div3>
+<div3>
+          <head>XCIX.</head>
+ <hi>Hebron civitas refugii filiis Aaron data.</hi> 
+<pb n="0469A"/>
+</div3>
+<div3>
+          <head>C. </head>
+ <hi>Civitas refugii filiorum Gerson.</hi> </div3>
+<div3>
+          <head>CI.</head>
+ <hi>Civitas refugii filiorum Merari.</hi> </div3>
+<div3>
+          <head>CII.</head>
+ <hi>Dominus sicut promisit, implevit.</hi> </div3>
+<div3>
+          <head>CIII.</head>
+ <hi>Ruben et Gad Jesus reverti jubet in terram
+suam.</hi> </div3>
+<div3>
+          <head>CIV.</head>
+ <hi>De ara quam duae tribus et dimidia aedificaverunt.</hi> 
+<pb n="0470A"/>
+</div3>
+<div3>
+          <head>CV. </head>
+ <hi>Jesus populum novissime contestatur.</hi> </div3>
+<div3>
+          <head>CVI.</head>
+ <hi>Jesus dicit: Ecce ego decurro viam.</hi> </div3>
+<div3>
+          <head>CVII.</head>
+ <hi>De crabronibus quos misit Dominus.</hi> </div3>
+<div3>
+          <head>CVIII.</head>
+ <hi>Liberum arbitrium.</hi> </div3>
+<div3>
+          <head>CIX.</head>
+ <hi>Non potestis Domino servire, quia Deus sanctus
+est.</hi> </div3>
+<div3>
+          <head>CX.</head>
+ <hi>De lapide testamenti.</hi> 
+</div3>
+      </div1>
+
+<div1>
+        <head>INCIPIT LIBER JOSUE BEN NUN.</head>
+
+<pb n="0469"/>
+<p>
+          <pb n="0469B"/>[T. I, B. I, Cap. I.] Et factum est post mortem
+Mosi, servi Domini, ut loqueretur Dominus ad Josue
+filium Nun, ministrum Mosi, et diceret ei: Moses
+servus meus mortuus est: surge, et transi Jordanem
+istum, tu, et omnis populus tecum in terram, quam
+ego dabo filiis Israel. Omnem locum, quem calcaverit
+vestigium pedis vestri, vobis tradam, sicut
+locutus sum Mosi. A deserto et Libano usque ad
+flumen magnum Euphratem, omnis terra Hetthaeorum
+usque ad mare magnum contra solis occasum
+erit terminus vester. Nullus poterit vobis [h. tibi]
+resistere cunctis diebus vitae tuae: sicut fui cum
+Mose [ <hi>Vulg. addit</hi> ita], ero et tecum: non dimittam,
+nec derelinquam te. Confortare, et esto robustus:
+tu enim sorte divides populo huic terram,
+<pb n="0469C"/>
+pro qua juravi patribus tuis [h. eorum], ut traderem
+eam illis. Confortare igitur, et esto robustus valde,
+ut custodias et facias omnem legem quam praecepit
+tibi Moses servus meus: ne declines ab ea ad
+dexteram vel ad sinistram, ut intelligas cuncta quae
+agis. Non recedat volumen legis hujus de ore tuo:
+sed meditaberis in eo diebus ac noctibus, ut custodias
+et facias omnia quae scripta sunt in eo: tunc
+diriges viam tuam, et intelliges eam. Ecce praecipio
+tibi, confortare et esto robustus. Noli metuere, et
+noli timere, quoniam tecum est Dominus Deus tuus
+in omnibus ad quaecumque perrexeris. [B. II, C. I.]
+Praecepitque Josue principibus populi, dicens: Transite
+per medium castrorum, et imperate populo, ac
+dicite: Praeparate vobis cibaria: quoniam post diem
+<pb n="0469D"/>
+tertium transibitis Jordanem, et intrabitis ad possidendam
+terram quam Dominus Deus vester daturus
+est vobis. Rubenitis quoque et Gadditis et dimidiae
+tribui Manasse ait: Mementote sermonis, quem
+praecepit vobis Moses famulus Domini, dicens: Dominus
+Deus vester dedit vobis requiem et omnem
+terram [h. et terram istam]. Uxores vestrae, et filii,
+ac jumenta manebunt in terra, quam dedit vobis
+Moses trans Jordanem: vos autem transite armati
+ante fratres vestros, omnes fortes manu, et
+pugnate pro eis, donec det Dominus requiem fratribus
+vestris, sicut et vobis dedit: et possideant ipsi
+<pb n="0470B"/>
+quoque terram, quam Dominus Deus vester daturus
+est eis, et sic revertemini in terram possessionis
+vestrae, et habitabitis in ea, quam vobis dedit Moses
+famulus Domini trans Jordanem contra solis ortum.
+Responderuntque ad Josue, atque dixerunt: Omnia,
+quae praecepisti nobis, faciemus, et quocumque miseris,
+ibimus. Sicut obedivimus in cunctis Mosi, ita
+obediemus et tibi: tantum sit Dominus Deus tuus
+tecum, sicut fuit cum Mose. Qui contradixerit ore
+tuo, et non obedierit cunctis sermonibus tuis [ <hi>Vulg.
+tacet</hi> tuis] quos praeceperis ei, moriatur. Tu tantum
+confortare et viriliter age.</p>
+<p>
+          <note>(B. III, C. II, Cap. II.)</note> Misit ergo Josue filius Nun
+de Settim duos viros exploratores abscondite, et
+dixit eis: Ite, et considerate terram, urbemque Jericho.
+<pb n="0470C"/>
+Qui pergentes ingressi sunt domum mulieris
+meretricis, nomine Rahab, et quieverunt apud eam.
+Nuntiatumque est regi Jericho, et dictum: Ecce
+viri ingressi sunt huc per noctem de filiis Israel, ut
+explorarent terram. Misitque rex Jericho ad Rahab,
+dicens: Educ viros, qui venerunt ad te, et ingressi
+sunt domum tuam: exploratores quippe sunt, et
+omnem terram [h. explorare enim venerunt omnem
+terram] considerare venerunt. Tollensque mulier
+viros, abscondit, et ait: Fateor, venerunt ad me,
+sed nesciebam unde essent: cumque porta clauderetur
+in tenebris, et illi pariter exierunt, nescio
+quo abierint, persequimini cito, et comprehendetis
+eos. Ipsa autem fecit ascendere viros in solarium
+domus suae [h. Non habet, domus suae], operuitque
+<pb n="0470D"/>
+eos lini stipula, quae ibi erat. Ii autem qui missi
+fuerant, secuti sunt eos per viam quae ducit ad vadum
+Jordanis: illisque egressis statim, porta clausa
+est. Necdum obdormierant qui latebant, et ecce
+mulier ascendit ad illos, et ait [h. ad illos in solarium
+et ait]: Novi quod Dominus tradiderit vobis
+terram: etenim irruit in nos terror vester, et elanguerunt
+omnes habitatores terrae [h. a facie vestra].
+Audivimus quod siccaverit Dominus aquas maris
+Rubri ad vestrum introitum, quando egressi estis
+ex Aegypto, et quae feceritis duobus Amorrhaeorum
+regibus, qui erant trans Jordanem, Seon et Og, quos
+<pb n="0471A"/>
+interfecistis. Et haec audientes <hi>pertimuimus, et</hi> 
+[h. non habet] elanguit cor nostrum, nec remansit
+in nobis spiritus ad introitum vestrum. Dominus
+enim Deus vester, ipse est Deus in coelo sursum, et
+in terra deorsum. [C. III.] Nunc ergo jurate mihi per
+Dominum, ut quomodo ego feci vobiscum misericordiam,
+ita et vos faciatis cum domo patris mei:
+detisque mihi signum verum, ut salvetis [h. et vivificetis,
+etc., et est sensus, Recipite eos in cultum
+fidei vestrae] patrem meum et matrem meam, fratres
+ac sorores meas, et omnia quae eorum sunt, et
+eruatis animas nostras de morte. Qui responderunt
+ei: Anima nostra sit pro vobis in mortem, si tamen
+non prodideris nos. Cumque tradiderit nobis Dominus
+terram, faciemus in te misericordiam et veritatem.
+<pb n="0471B"/>
+Demisit ergo eos per funem de fenestra: domus
+enim ejus haerebat muro. Dixitque ad eos: Ad
+montana conscendite, ne forte occurrant vobis revertentes
+[h. persequentes]: ibique latete tribus
+diebus, donec redeant, et sic ibitis per viam vestram.
+Qui dixerunt ad eam: Innoxii erimus a juramento
+hoc, quo adjurasti nos, si ingredientibus nobis terram,
+signum fuerit funiculus iste coccineus, et ligaveris
+eum in fenestra, per quam nos demisisti: patrem
+tuum ac matrem, fratresque et omnem cognationem
+tuam, congregaveris in domum tuam. Qui
+ostium domus tuae egressus fuerit, sanguis ipsius erit
+in caput ejus, et nos erimus innoxii. Cunctorum
+autem sanguis, qui tecum in domo fuerint, redundabit
+in caput nostrum, si eos aliquis tetigerit. Quod
+<pb n="0471C"/>
+si nos prodere volueris, et sermonem istum proferre
+in medium, erimus mundi ab hoc juramento, quo adjurasti
+nos. Et illa respondit: Sicut locuti estis, ita
+fiat. Dimittensque eos ut pergerent, appendit funiculum
+coccineum in fenestra. Illi vero ambulantes pervenerunt
+ad montana, et manserunt ibi tres dies,
+donec reverterentur qui fuerant persecuti: quaerentes
+enim per [ <hi>Vulg. add.</hi> omnem] viam, non repererunt
+eos. <hi>Quibus urbem ingressis</hi> [h. non habet hoc],
+reversi sunt et descenderunt exploratores de monte,
+et, Jordane transmisso, venerunt ad Josue filium
+Nun, narraveruntque ei omnia quae acciderant sibi,
+atque dixerunt: Tradidit Dominus in manus nostras
+omnem terram hanc, et timore prostrati sunt cuncti
+habitatores ejus [h. ante faciem nostram].</p>
+<p>
+          <pb n="0471D"/>[T. II, Cap. III.] Igitur Josue de nocte consurgens
+movit castra: egredientesque de Settim, venerunt
+ad Jordanem ipse et omnes filii Israel, et morati sunt
+<pb n="0472A"/>
+ibi tres dies. Quibus evolutis transierunt praecones
+per castrorum medium, et clamare coeperunt:
+Quando videritis arcam foederis domini Dei vestri,
+et sacerdotes stirpis Leviticae portantes eam, vos
+quoque consurgite [h. de locis vestris], et sequimini
+praecedentes: sitque inter vos et arcam spatium cubitorum
+duum millium, ut procul videre possitis, et
+nosse per quam viam ingrediamini, quia prius non
+ambulastis per eam: et cavete ne appropinquetis ad
+arcam [h. duum millium ad mensuram, et cavete ne
+appropinquetis ad arcam, ut cognoscatis viam per
+quam ingrediamini, quia non ambulastis per eam
+ab heri et nudius tertius]. [C. IV.] Dixitque Josue ad
+populum: Sanctificamini: cras enim faciet Dominus
+inter vos mirabilia. Et ait ad sacerdotes: Tollite arcam
+<pb n="0472B"/>
+foederis, et praecedite populum: Qui jussa complentes,
+tulerunt et ambulaverunt ante eos. [B. IV,
+C. V.] Dixitque Dominus ad Josue: Hodie incipiam
+exaltare te coram omni Israel: ut sciant, quod sicut
+cum Mose fui, ita et tecum sim. Tu autem praecipe
+sacerdotibus, qui portant arcam foederis, et dic eis:
+Cum ingressi fueritis partem aquae Jordanis, state in
+ea. Dixitque Josue ad filios Israel: Accedite huc, et
+audite verba Domini Dei vestri. Et rursum: In hoc,
+inquit, scietis quod [h.] Deus vivens in medio vestri
+est, et disperdet in conspectu vestro Chananaeum, et
+Hetthaeum, et Evaeum et Pherezaeum, Gergesaeum
+quoque et Amorrhaeum et Jebusaeum. Ecce, arca
+foederis Domini omnis terrae antecedet vos per Jordanem.
+Parate duodecim viros de tribubus Israel,
+<pb n="0472C"/>
+singulos per singulas tribus. [C. VI.] Et cum posuerint
+vestigia pedum suorum, sacerdotes qui portant
+ arcam [h.] foederis Domini Dei universae terrae, in
+aquis Jordanis, aquae quae inferiores sunt, decurrent
+atque deficient: quae autem desuper veniunt, in una
+mole consistent. [B. V.] Igitur egressus est populus
+de tabernaculis suis [ <hi>Vulg. tac.</hi> suis], ut transirent
+Jordanem: et sacerdotes, qui portabant arcam foederis,
+pergebant ante eum. Ingressisque eis Jordanem,
+et pedibus eorum tinctis in parte aquae (Jordanis
+autem ripas alvei sui tempore messis impleverat),
+steterunt aquae descendentes in uno loco, et ad instar
+montis intumescentes apparebant procul, ab urbe
+quae vocatur Adom usque ad locum Sarthan: quae
+autem inferiores erant, in mare Solitudinis (quod
+<pb n="0472D"/>
+nunc vocatur Mortuum), descenderunt, usquequo omnino
+deficerent. Populus autem incedebat contra
+ Jericho: et sacerdotes, qui portabant arcam foederis
+<pb n="0473A"/>
+Domini, stabant super siccam humum in medio Jordanis
+accincti, omnisque populus per arentem alveum
+transibat.</p>
+<p>[B. VI, C. VII, Cap. IV.] Quibus transgressis, dixit
+Dominus ad Josue: Elige duodecim viros singulos
+per singulas tribus: et praecipue eis, ut tollant de
+medio Jordanis alveo, ubi steterunt sacerdotum
+pedes, duodecim durissimos [h. non habet, durissimos]
+lapides, quos ponetis in loco castrorum, ubi
+fixeritis hac nocte tentoria. [C. VIII.] Vocavitque
+Josue duodecim viros, quos elegerat de filiis Israel,
+singulos de tribubus singulis, et ait ad eos: Ite ante
+arcam Domini Dei vestri ad Jordanis medium, et
+portate inde singuli singulos lapides in humeris vestris,
+juxta numerum filiorum Israel, ut sit signum
+<pb n="0473B"/>
+inter vos. [C. IX.] Et quando interrogaverint vos
+filii vestri cras, dicentes: Quid sibi volunt isti lapides?
+respondebitis eis: Defecerunt aquae Jordanis
+ante arcam foederis Domini, cum transiret eum:
+idcirco positi sunt lapides isti in monimentum filiorum
+Israel usque in aeternum. Fecerunt ergo filii
+Israel sicut eis praecepit Josue, portantes de medio
+Jordanis alveo duodecim lapides, ut ei Dominus
+imperarat, juxta numerum filiorum Israel, usque ad
+locum, in quo castrametati sunt, ibique posuerunt
+eos. Alios quoque duodecim lapides posuit Josue in
+medio Jordanis alveo, ubi steterunt sacerdotes, qui
+portabant arcam foederis: et sunt ibi usque in praesentem
+diem. Sacerdotes autem, qui portabant
+arcam, stabant in Jordanis medio, donec omnia
+<pb n="0473C"/>
+complerentur, quae Josue, ut loqueretur ad populum,
+praeceperat Dominus, et dixerat ei Moses. Festinavitque
+populus, et transiit. Cumque transissent
+omnes, transivit et arca Domini, sacerdotesque pergebant
+ante populum. Filii quoque Ruben, et Gad,
+et dimidia tribus Manasse, armati praecedebant
+fratres suos filios Israel, sicut eis praeceperat Moses
+[h. praecedebant filios Israel, sicut <hi>locutus
+est ad eos Moses.</hi> Quadraginta millia pugnatorum
+incedebant coram Domino]. [C. X.] Et quadraginta
+pugnatorum millia per turmas, et cuneos incedebant
+per plana atque campestria urbis Jericho. In
+die illo magnificavit Dominus Josue coram omni
+Israel, ut timerent eum, sicut timuerant Mosen, dum
+adviveret. [C. XI.] Dixitque ad eum: Praecipe sacerdotibus,
+<pb n="0473D"/>
+qui portant arcam foederis [h. testamenti],
+ut ascendant de Jordane. Qui praecepit eis, dicens;
+Ascendite de Jordane. Cumque ascendissent portantes
+arcam foederis Domini, et siccam humum calcare
+coepissent, reversae sunt aquae in alveum suum,
+et fluebant sicut ante consueverant. Populus autem
+ascendit de Jordane, decima die primi mensis, et
+<pb n="0474A"/>
+castrametati sunt in Galgalis contra orientalem plagam
+urbis Jericho. Duodecim quoque lapides, quos
+de Jordanis alveo sumpserant, posuit Josue in Galgalis,
+et dixit ad filios Israel: [C. XII.] Quando interrogaverint
+filii vestri cras patres suos, et dixerint
+eis: Quid sibi volunt isti lapides? docebitis eos,
+atque dicetis: Per arentem alveum transivit Israel
+Jordanem istum, siccante Domino Deo vestro aquas
+ejus in conspectu vestro, donec transiretis: sicut
+fecerat prius in mari Rubro, quod siccavit donec
+transiremus: ut discant omnes terrarum populi fortissimam
+Domini manum, et ut vos timeatis Dominum
+Deum vestrum omni tempore.</p>
+<p>[B. VII, C. XIII, Cap. V.] Postquam ergo audierunt
+omnes reges Amorrhaeorum, qui habitabant
+<pb n="0474B"/>
+trans Jordanem ad occidentalem plagam, et cuncti
+reges Chanaan, qui propinqua possidebant magni
+maris loca, quod siccasset Dominus fluenta Jordanis
+coram filiis Israel donec transirent, dissolutum est
+cor eorum, et non remansit in eis spiritus timentium
+introitum filiorum Israel. [T. III, B. VIII, C.
+XIV.] Eo tempore ait Dominus ad Josue: Fac tibi
+cultros lapideos, et circumcide secundo filios Israel.
+[C. XV.] Fecit quod jusserat Dominus, et circumcidit
+filios Israel in colle praeputiorum. Haec autem causa
+est secundae circumcisionis: Omnis populus, qui
+egressus est ex Aegypto generis masculini, universi
+bellatores viri, mortui sunt in deserto per longissimos
+viae circuitus, qui omnes circumcisi erant. Populus
+autem qui natus est in deserto, per quadraginta
+<pb n="0474C"/>
+annos itineris latissimae solitudinis, incircumcisus
+fuit, donec consumerentur qui non audierant
+vocem Domini, et quibus ante juraverat, ut non
+ostenderet eis terram lacte et melle manantem.
+Horum filii in locum successerunt patrum, et circumcisi
+sunt a Josue: quia sicut nati fuerant, in praeputio
+erant [h. <hi>quia praeputiati erant</hi> ], nec eos in via
+aliquis circumciderat. Postquam autem omnes circumcisi
+sunt, manserunt in eodem castrorum loco,
+donec sanarentur. [C. XVI.] Dixitque Dominus ad
+Josue: Hodie abstuli opprobrium Aegypti a vobis.
+Vocatumque est nomen loci illius Galgala [h. Gilgal],
+usque in praesentem diem. [C. XVII.] Manseruntque
+filii Israel in Galgalis, et fecerunt phase, quartadecima
+die mensis ad vesperum, in campestribus Jericho:
+<pb n="0474D"/>
+et comederunt de frugibus terrae die altero,
+azymos panes, et polentam ejusdem anni. [B. IX, C.
+XVIII.] Defecitque manna postquam comederunt de
+frugibus terrae, nec usi sunt ultra cibo illo filii Israel,
+sed comederunt de frugibus praesentis anni terrae
+Chanaan. [B. X, C. XIX.] Cum autem esset Josue in
+agro urbis Jericho, levavit oculos, et vidit virum
+<pb n="0475A"/>
+stantem contra se, et evaginatum tenentem gladium,
+perrexitque ad eum, et ait: Noster es, an adversariorum?
+Qui respondit: Nequaquam: sed sum princeps
+exercitus Domini, et nunc venio. Cecidit Josue
+pronus in terram, et adorans ait: Quid dominus
+meus loquitur ad servum suum? Solve, inquit, calceamentum
+tuum de pedibus tuis; locus enim, in
+quo stas, sanctus est. Fecitque Josue ut sibi fuerat
+imperatum.</p>
+<p>[B. XI, Cap. VI.] Jericho autem clausa erat atque
+munita, timore filiorum Israel, et nullus egredi audebat
+aut ingredi: [C. XX.] Dixitque Dominus ad
+Josue: Ecce dedi in manu tua Jericho, et regem ejus,
+omnesque fortes viros. Circuite urbem cuncti bellatores
+semel per diem: sic facietis sex diebus. Septimo
+<pb n="0475B"/>
+autem die sacerdotes tollant septem buccinas
+[h. <hi>Sic facietis sex die</hi> bus, et septem sacerdotes tollent
+septem buccinas, quarum <hi>usus est in jubilaeo,</hi> et praecedant
+arcam. <hi>Et in</hi> septima die septies circuibitis <hi>civitatem,</hi> 
+ et sacerdotes clangent], quarum usus est
+in jubilaeo, et praecedant arcam foederis: septiesque
+circuibitis civitatem, et sacerdotes clangent buccinis.
+Cumque insonuerit vox tubae longior atque concisior,
+et in auribus vestris increpuerit, conclamabit omnis
+populus vociferatione maxima, et muri funditus
+corruent civitatis, ingredienturque singuli per locum
+contra quem steterint. Vocavit ergo Josue filius Nun
+sacerdotes, et dixit ad eos: Tollite arcam foederis, et
+septem alii sacerdotes tollant septem jubilaeorum
+buccinas, et incedant ante arcam Domini. Ad populum
+<pb n="0475C"/>
+quoque ait: Ite, et circumite civitatem, armati
+praecedentes arcam Domini. Cumque Josue verba
+finisset, et septem sacerdotes septem buccinis clangerent
+ante arcam foederis Domini, omnisque praecederet
+armatus exercitus, reliquum vulgus arcam
+sequebatur, ac buccinis omnia concrepabant [C.
+XXI.] Praeceperat autem Josue populo, dicens: Non
+clamabitis, nec audietur vox vestra, neque ullus
+sermo ex ore vestro egredietur: donec veniat dies
+in quo dicam vobis: Clamate et vociferamini. Circumivit
+ergo arca Domini civitatem semel per diem,
+et reversa in castra, mansit ibi. Igitur Josue de nocte
+consurgente, tulerunt sacerdotes arcam Domini, et
+septem ex eis septem buccinas, quarum in jubilaeis
+[ <hi>Vulg.</hi> jubilaeo] usus est: praecedebantque arcam
+<pb n="0475D"/>
+Domini ambulantes atque clangentes: et armatus
+populus ibat ante eos, vulgus autem reliquum sequebatur
+arcam, et buccinis personabat. Circumieruntque
+civitatem secundo die semel, et reversi sunt in
+castra. Sic fecerunt sex diebus. Die autem septimo,
+diluculo consurgentes, circumierunt urbem, sicut
+dispositum erat, septies. Cumque septimo circuitu
+clangerent buccinis sacerdotes, dixit Josue ad omnem
+[h. ad populum] Israel: Vociferamini: tradidit
+enim vobis Dominus civitatem. [C. XXII.] Sitque
+civitas haec anathema, et omnia quae in ea sunt,
+Domino. Sola Rahab meretrix vivat cum universis
+qui cum ea in domo sunt: abscondit enim nuntios
+quos direximus. Vos autem cavete, ne de his, quae
+<pb n="0476A"/>
+praecepta sunt, quidpiam contingatis, et sitis praevaricationis
+rei, et omnia castra Israel sub peccato
+sint atque turbentur. Quidquid autem auri et argenti
+fuerit, et vasorum aeneorum ac ferri, Domino consecretur,
+repositum in thesauris ejus. [C. XXIII]. Igitur
+vociferante omni populo, et clangentibus tubis,
+postquam in aures multitudinis vox sonitusque increpuit,
+muri illico corruerunt: et ascendit unusquisque
+per locum, qui contra se erat, ceperuntque civitatem,
+et interfecerunt omnia quae erant in ea, a viro usque
+ad mulierem, ab infante usque ad senem. Boves
+quoque et oves et asinos in ore gladii percusserunt.
+[C. XXIV.] Duobus autem viris, qui exploratores
+missi fuerant, dixit Josue: Ingredimini domum mulieris
+meretricis, et producite eam, et omnia quae
+<pb n="0476B"/>
+illius sunt, sicut illi juramento firmastis. Ingressique
+juvenes, eduxerunt Rahab, et parentes ejus, fratres
+quoque, et cunctam supellectilem ac cognationem
+illius, et extra castra Israel manere fecerunt. Urbem
+autem, et omnia quae in ea erant, succenderunt,
+absque auro et argento, et vasis aeneis, ac ferro,
+quae in aerarium Domini consecrarunt. Rahab vero
+meretricem, et domum patris ejus, atque omnia quae
+habebat, fecit Josue vivere, et habitaverunt in medio
+Israel usque in praesentem diem: eo quod absconderit
+nuntios, quos miserat ut explorarent Jericho.
+[B. XII, C. XXV.] In tempore illo imprecatus est Josue,
+dicens: Maledictus vir coram Domino, qui suscitaverit
+et aedificaverit civitatem Jericho. In primogenito
+suo fundamenta illius jaciat; et in novissimo
+<pb n="0476C"/>
+liberorum ponat portas ejus. Fuit ergo Dominus cum
+Josue, et nomen ejus in omni terra vulgatum est.</p>
+<p>[B. XIII, C. XXVI, Cap. VII.] Filii autem Israel
+praevaricati sunt mandatum, et usurpaverunt de
+anathemate. Nam Acham filius Charmi, filii Zabdi,
+filii Zare de tribu Juda, tulit aliquid de anathemate:
+iratusque est Dominus contra filios Israel. Cumque
+mitteret Josue de Jericho viros contra Ai, quae est
+juxta Beth-Aven, ad orientalem plagam oppidi Beth-El,
+dixit eis: Ascendite, et explorate terram. Qui
+praecepta complentes exploraverunt Ai. Et reversi
+dixerunt ei: Non ascendat omnis populus, sed duo
+vel tria millia virorum pergant, et deleant civitatem:
+quare omnis populus frustra vexetur [ <hi>Vulg.</hi> 
+vexabitur] contra hostes paucissimos? [C. XXVII.]
+<pb n="0476D"/>
+Ascenderunt ergo tria millia pugnatorum [h. virorum].
+Qui statim terga vertentes, percussi sunt a
+viris urbis Ai, et corruerunt ex eis triginta et sex
+homines: persecutique sunt eos adversarii de porta
+usque Sabarim, et ceciderunt per prona fugientes:
+pertimuitque cor populi, et instar aquae liquefactum
+est. Josue vero scidit vestimenta sua, et cecidit pronus
+in terram coram arca Domini usque ad vesperum,
+tam ipse quam omnes senes Israel: miseruntque
+pulverem super capita sua, et dixit Josue: Heu,
+Domine Deus, quid voluisti traducere populum istum
+Jordanem fluvium [h. non habet fluvium], ut traderes
+nos in manus Amorrhaei, et perderes? utinam ut
+coepimus, mansissemus trans Jordanem. Mi Domine
+<pb n="0477A"/> <hi>Deus</hi> 
+ [h. non habet], quid dicam, videns Israelem
+hostibus suis terga vertentem? Audient Chananaei
+et omnes habitatores terrae, ac pariter conglobati
+circumdabunt nos, atque delebunt nomen nostrum
+de terra: et quid facies magno nomini tuo? [C.
+XXVIII.] Dixitque Dominus ad Josue: Surge, cur
+jaces pronus in terra? Peccavit Israel, et praevaricatus
+est pactum meum: tuleruntque de anathemate,
+et furati sunt atque mentiti, et absconderunt inter
+vasa sua. Nec poterit Israel stare ante hostes suos,
+eosque fugiet: quia pollutus est anathemate [h. factus
+est anathema]. Non ero ultra vobiscum, donec
+conteratis eum qui hujus sceleris reus est. Surge,
+sanctifica populum, et dices eis: Sanctificamini in
+crastinum: haec enim dicit Dominus Deus Israel:
+<pb n="0477B"/>
+Anathema in medio tui est, Israel: non poteris stare
+coram hostibus tuis, donec deleatur ex te qui hoc
+contaminatus est scelere. Accedetisque mane singuli
+per tribus vestras: et quamcumque tribum sors invenerit,
+accedet per cognationes suas, et cognatio
+per domos domusque per viros. Et quicumque ille
+in hoc facinore fuerit deprehensus, comburetur
+igni cum omni substantia sua: quoniam praevaricatus
+est pactum Domini, et fecit nefas in Israel.
+[C. XXIX.] Surgens itaque Josue mane, applicavit
+Israel per tribus suas, et inventa est tribus Juda.
+Quae cum juxta familias suas esset oblata, inventa
+est familia Zarai. Illam quoque per viros offerens,
+reperit Zabdi: cujus domum in singulos dividens
+viros, invenit Achan filium Charmi, filii Zabdi, filii
+<pb n="0477C"/>
+Zare de tribu Juda. Et ait ad Achan: Fili mi, da
+gloriam Domino Deo Israel, et confiteare, atque indica
+mihi quid feceris, ne abscondas. [C. XXX.]
+Responditque Achan Josue, et dixit ei: Vere ego
+peccavi Domino Deo Israel, et sic et sic feci. Vidi
+enim inter spolia pallium coccineum valde bonum
+[h. pallium de Senaar unum bonum], et ducentos siclos
+argenti, regulamque auream quinquaginta siclorum:
+et concupiscens abstuli, et abscondi in
+terra contra medium tabernaculi mei, argentumque
+fossa humo operui. Misit ergo Josue ministros: qui
+currentes ad tabernaculum illius repererunt cuncta
+abscondita in eodem loco, et argentum simul. Auferentesque
+de tentorio tulerunt ea ad Josue et ad
+omnes filios Israel, projeceruntque ante Dominum.
+<pb n="0477D"/>
+Tollens itaque Josue Achan filium Zare, argentumque
+et pallium, et auream regulam, filiosque ejus et
+filias, boves et asinos, et oves, ipsumque tabernaculum,
+et cunctam supellectilem (et omnis Israel
+cum eo); duxerunt eos ad Vallem Achor: ubi dixit
+Josue: Quia [ <hi>Vulg.</hi> qui] turbasti nos, exturbet te
+Dominus in die hac. Lapidavitque eum omnis Israel:
+<pb n="0478A"/>
+et cuncta quae illius erant, igne consumpta sunt.
+Congregaverunt quoque super eum acervum magnum
+lapidum, qui permanet usque in praesentem diem.
+Et aversus est furor Domini ab eis. Vocatumque est
+nomen loci illius, Vallis Achor, usque hodie.</p>
+<p>[T. IV, B. XIV. C. XXXI, Cap. VIII.] Dixit autem
+Dominus ad Josue: Ne timeas, neque formides:
+tolle tecum omnem multitudinem pugnatorum,
+et consurgens ascende in oppidum Ai. Ecce tradidi
+in manu tua regem ejus, et populum urbemque et
+terram. Faciesque urbi Ai, et regi ejus, sicut fecisti
+Jericho, et regi illius: praedam vero et omnia animantia
+diripietis vobis: pone insidias urbi post eam.
+Surrexitque Josue, et omnis exercitus bellatorum
+cum eo, ut ascenderent in Ai: et electa triginta
+<pb n="0478B"/>
+millia virorum fortium misit nocte, praecepitque eis,
+dicens: Ponite insidias post civitatem: nec longius
+recedatis: et eritis omnes parati. Ego autem, et
+reliqua multitudo quae mecum est, accedemus ex adverso
+contra urbem. Cumque exierint contra nos,
+sicut ante fecimus [h. <hi>non habet fecimus</hi> ], fugiemus
+et terga vertemus: donec persequentes ab urbe longius
+protrahantur [ <hi>Vulg.</hi> protrahamur]: putabunt
+enim fugere nos sicut prius. Nobis ergo fugientibus,
+et illis sequentibus, consurgetis de insidiis, et vastabitis
+civitatem: tradetque eam Dominus Deus
+vester in manus vestras. Cumque ceperitis urbem
+[ <hi>Vulg. tacet</hi> urbem], succendite eam, et sic omnia
+facietis, ut jussi [h. juxta verbum Domini facite.
+Videte quia ego praecipio vobis]. Dimisitque eos, et
+<pb n="0478C"/>
+perrexerunt ad insidiarum locum, sederuntque inter
+Beth-El et Ai, ad occidentalem plagam urbis Ai: Josue
+autem in nocte illa in medio mansit populi, surgensque
+diluculo recensuit socios, et ascendit cum
+senioribus in fronte exercitus, vallatus auxilio pugnatorum.
+Cumque venissent et ascendissent ex adverso
+civitatis, steterunt ad septentrionalem urbis
+plagam, inter quam et eos vallis media erat. Quinque
+millia autem viros elegerat, et posuerat in insidiis
+inter Beth-El et Ai, ex occidentali parte ejusdem
+civitatis: omnis vero reliquus exercitus ad
+aquilonem aciem dirigebat, ita ut novissimi multitudinis
+[ <hi>Vulg. addit</hi> illius] occidentalem plagam urbis
+attingerent. Abiit ergo Josue nocte illa, et stetit
+in vallis medio. [C. XXXII.] Quod cum vidisset rex
+<pb n="0478D"/>
+Ai, festinavit mane, et egressus est cum omni exercitu
+civitatis, direxitque aciem contra desertum,
+ignorans quod post tergum laterent insidiae. Josue
+vero et omnis Israel cesserunt loco, simulantes metum,
+et fugientes per viam solitudinis. At illi vociferantes
+pariter, et se mutuo cohortantes, persecuti
+sunt eos. Cumque recessissent a civitate, et ne unus
+<pb n="0479A"/>
+quidem in urbe Ai et Beth-El remansisset qui non
+persequeretur Israel <note>(sicut eruperant aperta porta
+[ <hi>Vulg. tacet</hi> porta] oppida relinquentes)</note>, dixit Dominus
+ad Josue: Leva clypeum, qui in manu tua est,
+contra urbem Ai, quoniam tibi tradam eam. Cumque
+elevasset clypeum ex adverso civitatis, insidiae, quae
+latebant, surrexerunt confestim: et pergentes ad civitatem,
+ceperunt et succenderunt eam. Viri autem
+civitatis, qui persequebantur Josue, respicientes et
+videntes fumum urbis ad coelum usque conscendere,
+non potuerunt ultra huc illucque diffugere: praesertim
+cum hi qui simulaverant fugam, et tendebant
+ad solitudinem, contra persequentes fortissime restitissent.
+Vidensque Josue et omnis Israel quod capta
+esset civitas, et fumus urbis ascenderet, reversus
+<pb n="0479B"/>
+percussit viros Ai. Si quidem et illi qui ceperant et
+succenderant civitatem, egressi ex urbe contra suos,
+medios hostium ferire coeperunt. Cumque ergo ex
+utraque parte adversarii caederentur, ita ut nullus
+de tanta multitudine salvaretur, regem quoque urbis
+Ai apprehenderunt viventem, et obtulerunt Josue.
+Igitur omnibus interfectis, qui Israelem ad deserta
+tendentem fuerant persecuti, et in eodem loco
+gladio corruentibus reversi filii Israel percusserunt
+civitatem. Erant autem qui eo die conciderant
+a viro usque ad mulierem, duodecim millia hominum,
+omnes urbis Ai. Josue vero non contraxit manum
+quam in sublime porrexerat, tenens clypeum
+donec interficerentur omnes habitatores Ai. Jumenta
+autem et praedam civitatis diviserunt sibi filii Israel,
+<pb n="0479C"/>
+sicut praeceperat Dominus Josue. Qui succendit
+urbem, et fecit eam tumulum sempiternum: regem
+quoque ejus suspendit in patibulo usque ad
+vesperam. Et solis occasu praecepit Josue, et deposuerunt
+cadaver ejus de cruce: projeceruntque in
+ipso introitu civitatis, congesto super eum magno
+acervo lapidum, qui permanet usque in praesentem
+diem. [XXXIII.] Tunc aedificavit Josue altare Domino
+Deo Israel in monte Hebal: sicut praeceperat
+Moses famulus Domini filiis Israel, et scriptum est
+in volumine legis Mosi: Altare de lapidibus impolitis,
+quos ferrum non tetigit: et obtulit super eo
+holocausta Domino, immolavitque pacificas victimas.
+Et scripsit super lapides Deuteronomium legis
+Mosi, quod ille digesserat coram filiis Israel. Omnis
+<pb n="0479D"/>
+autem populus [h. et omnis Israel], et majores natu,
+ducesque ac judices stabant ex utraque parte arcae,
+in conspectu sacerdotum [h. sacerdotum Levitarum],
+qui portabant arcam foederis Domini, ut advena
+ita et indigena. Media pars eorum juxta montem
+Garizim, et media juxta montem Hebal, sicut
+praeceperat Moses famulus Domini. Et primum quidem
+benedixit populos Israel. [C. XXXIV.] Post
+haec legit omnia verba benedictionis et maledictionis, <hi>et cuncta</hi> 
+ [h. non habet] quae scripta erant in
+legis volumine. Nihil ex his quae Moses jusserat, reliquit
+intactum, sed universa replicavit coram omni
+multitudine Israel, mulieribus ac parvulis et advenis,
+qui inter eos morabantur.</p>
+<p>
+          <pb n="0480A"/>[B. XV, Cap. IX.] Quibus auditis, cuncti reges
+trans Jordanem, qui versabantur in montanis et
+campestribus, in maritimis ac littore maris magni,
+hi quoque qui habitabant juxta Libanum, Hetthaeus
+et Amorrhaeus, et Chananaeus, Pherezaeus, et Evaeus,
+et Jebusaeus, congregati sunt pariter, ut pugnarent
+contra Josue et Israel uno animo, <hi>eademque sententia</hi> 
+[h. non habet]. [B. XVI, C. XXXV.] At hi qui habitabant
+in Gabaon, audientes cuncta quae fecerat Josue,
+Jericho et Ai: et callide cogitantes, tulerunt sibi
+cibaria, saccos veteres asinis imponentes, et utres
+vinarios scissos atque consutos, calceamentaque
+perantiqua, quae ad indicium vetustatis pittaciis
+consuta erant, induti veteribus vestimentis: panes
+quoque quos portabant ob viaticum, duri erant, et
+<pb n="0480B"/>
+in frustra comminuti: perrexeruntque ad Josue, qui
+tunc morabatur in castris Galgalae, et dixerunt ei,
+atque omni simul Israeli: De terra longinqua venimus,
+pacem vobiscum facere cupientes. Responderuntque
+viri Israel ad eos [h. ad Evaeum], atque
+dixerunt: Ne forsan in terra, quae nobis forte debetur,
+habitetis, et non possimus foedus inire vobiscum.
+At illi ad Josue: Servi, inquiunt, tui sumus.
+Quibus Josue: Quinam, ait, estis vos? et unde venistis?
+Responderunt: De terra longinqua valde
+venerunt servi tui in nomine Domini Dei tui. Audivimus
+enim famam potentiae ejus, cuncta quae fecit
+in Aegypto, et duobus Amorrhaeorum regibus, qui
+fuerunt trans Jordanem, Seon regi Esebon, et Og
+regi Basan, qui erant in Astharoth: dixeruntque
+<pb n="0480C"/>
+nobis seniores, et omnes habitatores terrae nostrae:
+Tollite in manibus cibaria ob longissimam viam, et
+occurrite eis, ac dicite: Servi vestri sumus, foedus
+inite nobiscum. En, panes quando egressi sumus de
+domibus nostris, ut veniremus ad vos, calidos sumpsimus,
+nunc sicci facti sunt, et vetustate nimia
+comminuti. Utres vini novos implevimus, nunc
+rupti sunt et soluti. Vestes et calceamenta quibus
+induimur, et quae habemus in pedibus, ob longitudinem
+largioris [ <hi>Vulg.</hi> longioris] viae trita sunt, et
+pene consumpta. [C. XXXVI.] Susceperunt igitur de
+cibariis eorum, et os Domini non interrogaverunt.
+Fecitque Josue cum eis pacem, et inito foedere pollicitus
+est, quod non occiderentur: principes quoque
+multitudini juraverunt eis. Post dies autem tres
+<pb n="0480D"/>
+initi foederis, audierunt quod in vicino habitarent,
+et inter eos futuri essent. Moveruntque castra filii
+Israel, et venerunt in civitates eorum die tertio,
+quarum haec vocabula sunt, Gabaon, et Caphira, et
+Beroth, et Cariath-Jarim. Et non percusserunt eos,
+eo quod jurassent eis principes multitudinis in nomine
+Domini Dei Israel [h. in Domino Deo Israel].
+Murmuravit itaque omne vulgus contra principes.
+[C. XXXVII]. Qui responderunt eis: Juravimus illis
+in nomine Domini Dei Israel [h. in Domino Deo Israel],
+et idcirco non possumus eos contingere. Sed
+hoc faciemus eis. Reserventur quidem, ut vivant, ne
+contra nos ira Domini concitetur, si pejeraverimus:
+sed sic vivant, ut in usus universae multitudinis
+<pb n="0481A"/>
+ligna caedant, aquasque comportent. Quibus haec loquentibus:
+vocavit Gabaonitas Josue, et dixit eis:
+Cur nos decipere fraude voluistis [h. quare decepistis
+nos], ut diceretis: Procul valde habitamus a
+vobis cum in medio nostri sitis? Itaque sub maledictione
+eritis, et non deficiet de stirpe vestra ligna
+caedens, aquasque comportans in domum Dei mei.
+Qui responderunt: Nuntiatum est nobis [h. non
+habet nobis] servis tuis, quia promisisset Dominus
+Deus tuus Mosi servo suo, ut traderet vobis omnem
+terram, et disperderet cunctos habitatores ejus [h. a
+facie vestra]. Timuimus igitur valde, et providimus
+animabus nostris vestro terrore compulsi, et hoc
+consilium inivimus. Nunc autem in manu tua sumus:
+quod tibi bonum et rectum videtur, fac nobis.
+<pb n="0481B"/>
+Fecit ergo Josue ut dixerat, et liberavit eos de manu
+filiorum Israel, ut non occiderentur. Decrevitque in
+illo die eos esse in ministerio cuncti populi, et altaris
+Domini, caedentes ligna, et aquas comportantes,
+usque in praesens tempus, in loco quem Dominus
+elegisset.</p>
+<p>[B. XVII, C. XXXVIII, Cap. X.] Quae cum audisset
+Adonisedec, rex Jerusalem, quod scilicet cepisset
+Josue Ai, et subvertisset eam (sicut enim fecerat
+Jericho et regi ejus, sic fecit Ai et regi illius), et
+quod transfugissent [h. pacem inissent] Gabaonitae
+ad Israel, et essent foederati eorum, timuit valde.
+Urbs enim magna erat Gabaon, et una regalium civitatum,
+et major oppido Ai, omnesque bellatores
+ejus fortissimi. Misit ergo Adonisedec rex Jerusalem
+<pb n="0481C"/>
+ad Oham regem Hebron, et ad Phiram regem Jarimuth,
+ad Japhie quoque regem Lachis, et ad Dabir
+regem Eglon, dicens: Ascendite ad me, et ferte
+praesidium, ut expugnemus Gabaon, quae transfugerit
+[h. pacem inierit] ad Josue et ad filios Israel.
+[T. V.] Congregati igitur ascenderunt quinque reges
+Amorrhaeorum, rex Jerusalem, rex Hebron, rex Jarimuth,
+rex Lachis, rex Eglon, simul cum exercitibus
+suis, et castrametati sunt circa Gabaon, oppugnantes
+eam. [C. XXXIX.] Habitatores autem Gabaon <hi>urbis obsessae</hi> 
+ [h. non habet] miserunt ad Josue, qui
+tunc morabatur in castris apud Galgalam, et dixerunt
+ei: Ne retrahas manus tuas ab auxilio servorum
+tuorum: ascende cito, et libera nos, ferque praesidium:
+convenerunt enim adversum nos omnes reges
+<pb n="0482A"/>
+Amorrhaeorum, qui habitant in montanis. Ascenditque
+Josue de Galgalis, et omnis exercitus bellatorum
+cum eo, virique fortissimi. [B. XVIII.] Dixitque
+Dominus ad Josue: Ne timeas eos: in manus enim
+tuas tradidi illos: nullus tibi ex eis resistere poterit.
+Irruit itaque Josue super eos repente, tota nocte ascendens
+de Galgalis. Et conturbavit eos Dominus a
+facie Israel: contrivitque plaga magna in Gabaon,
+ac persecutus est [ <hi>Vulg. addit</hi> eos] per viam ascensus
+Beth-Horon, et percussit usque Azeca et Maceda.
+[C. XL.] Cumque fugerent filios Israel [h. a facie
+Israel], et essent in descensu Beth Horon, Dominus
+misit super eos lapides magnos de coelo usque ad
+Azeca: et mortui sunt multo plures lapidibus grandinis,
+quam quos gladio percusserant filii Israel.
+<pb n="0482B"/>
+Tunc locutus est Josue Domino, in die qua tradidit
+Amorrhaeum in conspectu filiorum Israel, dixitque
+coram eis: Sol, contra Gabaon ne movearis; et luna,
+contra vallem Aialon. [C. XLI.] Steteruntque sol et
+luna, donec ulcisceretur se gens de inimicis suis.
+Nonne scriptum est hoc in libro Justorum [h. recti,
+id est, Dei]? Stetit itaque sol in medio coeli, et non
+festinavit occumbere spatio unius diei. Non fuit ante
+et [ <hi>Vulg.</hi> nec] postea tam longa dies [h. talis dies],
+obediente Domino voci hominis, pugnante pro Israel.
+Reversusque est Josue cum omni Israel in castra
+Galgalae. [C. XLII.] Fugerunt enim quinque reges, et
+se absconderunt in spelunca urbis Maceda. Nuntiatumque
+est Josue, quod inventi essent quinque reges
+latentes in spelunca [ <hi>Vulg. addit</hi> urbis] Maceda. Qui
+<pb n="0482C"/>
+praecepit sociis, et ait: Volvite saxa ingentia ad os
+speluncae, et ponite viros industrios, qui clausos
+custodiant: vos autem nolite stare, sed persequimini
+hostes, et extremos quosque fugientium caedite: ne
+dimittatis eos urbium suarum intrare praesidia, quos
+tradidit Dominus Deus in manus vestras. Caesis igitur
+adversariis plaga magna, et usque ad internecionem
+pene consumptis, hi qui Israel effugere potuerunt,
+ingressi sunt civitates munitas. Reversusque est
+omnis exercitus ad Josue in Maceda, ubi tunc erant
+castra, sani et integro numero: nullusque contra
+filios Israel mutire ausus est. [C. XLIII.] Praecepitque
+Josue, dicens: Aperite os speluncae, et producite ad
+me quinque reges, qui in ea latitant. Feceruntque
+ministri ut sibi fuerat imperatum, et eduxerunt ad
+<pb n="0483A"/>
+eum quinque reges de spelunca, regem Jerusalem,
+regem Hebron, regem Jarimuth, regem Lachis,
+regem Eglon. [C. XLIV.] Cumque educti essent ad
+eum, vocavit omnes viros Israel, et ait ad principes
+exercitus qui secum erant: Ite et ponite pedes
+super colla regum istorum. Qui cum perrexissent, et
+subjectorum pedibus colla calcarent, rursum ait ad
+eos: Nolite timere, nec paveatis, confortamini et
+estote robusti: sic enim faciet Dominus cunctis hostibus
+vestris, adversum quos dimicatis. Percussitque
+Josue, et interfecit eos, atque suspendit super quinque
+stipites: fueruntque suspensi usque ad vesperum.
+Cumque occumberet sol, praecepit sociis, ut
+deponerent eos de patibulis. Qui depositos projecerunt
+in speluncam, in qua latuerant, et posuerunt
+<pb n="0483B"/>
+super os ejus saxa ingentia, quae permanent usque
+in praesens. [C. XLV.] Eodem die Macedam quoque
+cepit Josue, et percussit in ore gladii, regemque illius
+interfecit et omnes habitatores ejus: non dimisit
+in ea saltem parvas reliquias. Fecitque regi Maceda,
+sicut fecerat regi Jericho. Transivitque cum
+omni Israel de Maceda in Libna, et pugnabat contra
+eam: quam tradidit Dominus cum rege suo in manu
+Israel: percusseruntque urbem in ore gladii, et
+omnes habitatores ejus. Non dimiserunt in ea ullas
+reliquias. Feceruntque regi Libna, sicut fecerant
+regi Jericho. [C. XLVI.] De Libna transivit in Lachis
+cum omni Israel: et exercitu per gyrum disposito
+oppugnabat eam. Tradiditque Dominus Lachis in
+manu Israel, et cepit eam die altero, atque percussit
+<pb n="0483C"/>
+in ore gladii, omnemque animam, quae fuerat in ea,
+sicut fecerat Libna. [C. XLVII.] Eo tempore ascendit
+Horam, rex Gezer, ut auxiliaretur Lachis, quem
+percussit Josue cum omni populo ejus usque ad internecionem.
+[C. XLVIII.] Transivitque de Lachis
+in Eglon, et circumdedit, atque expugnavit eam
+eadem die: percussitque in ore gladii omnes animas,
+quae erant in ea, juxta omnia quae fecerat Lachis.
+[C. XLIX.] Ascendit quoque cum omni Israel de
+Eglon in Hebron, et pugnavit contra eam, cepitque,
+et percussit in ore gladii, regem quoque ejus, et
+omnia oppida regionis illius, universasque animas
+quae in ea fuerant commoratae: non reliquit in ea
+ullas reliquias: sicut fecerat Eglon, sic fecit et Hebron,
+cuncta quae in ea reperit consumens gladio.
+<pb n="0483D"/>
+[C. L.] Inde reversus in Dabiram, cepit eam atque
+vastavit: regem quoque ejus, et omnia per circuitum
+oppida, percussit in ore gladii: non dimisit in
+ea ullas reliquias: sicut fecerat Hebron et Libna et
+regibus earum, sic fecit Dabir et regi illius. [C. LI.]
+Percussit itaque Josue omnem terram montanam et
+meridianam atque campestrem, et Asedoth, cum regibus
+suis: non dimisit in [h.] eis ullas reliquias,
+sed omne quod spirare poterat, interfecit, sicut praeceperat
+ei Dominus Deus Israel, a Cades-Barne
+usque ad Gazam [h. Aza]. Omnem terram Gosen
+usque Gabaon, universos reges et regiones eorum,
+uno cepit impetu, atque vastavit; Dominus enim
+<pb n="0484A"/>
+Deus Israel pugnabat pro eo, reversusque est cum
+omni Israel ad locum castrorum in Galgala.</p>
+<p>[C. LII, Cap. XI.] Quae cum audisset Jabin rex
+Asor, misit ad Jobab regem Madon, et ad regem Semeron,
+atque ad regem Achsaph: ad reges quoque
+Aquilonis, qui habitabant in montanis et in planitie
+contra meridiem Chineroth, in campestribus quoque
+et in regionibus Dor juxta mare; Chananaeumque
+ab oriente et occidente, et Amorrhaeum atque
+Hetthaeum ac Pherezaeum et Jebusaeum in montanis:
+Evaeum quoque qui habitabat ad radices Hermon in
+terra Mispha. Egressique sunt omnes cum turmis
+suis, populus multus nimis sicut arena, quae est in
+littore maris, equi quoque et currus immensae multitudinis.
+Conveneruntque omnes reges isti in unum
+<pb n="0484B"/>
+ad aquas Merom, ut pugnarent contra Israel. Dixitque
+Dominus ad Josue: Ne timeas eos: cras enim
+hac eadem hora ego tradam omnes istos vulnerandos
+[h. vulneratos] in conspectu Israel: equos eorum
+subnervabis, et currus igne combures. [C. LIII.] Venitque
+Josue, et omnis exercitus cum eo adversum
+illos ad aquas Merom subito, et irruerunt super eos,
+tradiditque illos Dominus in manu Israel. Qui percusserunt
+eos, et persecuti sunt usque ad Sidonem
+magnam, et aquas Miserephoth [h. Miserephoth, in
+Latinum, aquas calidas], campumque Misphe, qui
+est ad orientalem illius partem. Ita percussit omnes,
+ut nullas dimitteret ex eis reliquias: fecitque sicut
+praeceperat ei Dominus, equos eorum subnervavit,
+currusque igne combussit. Reversusque statim cepit
+<pb n="0484C"/>
+Asor, et regem ejus percussit gladio. Asor enim
+antiquitus inter omnia regna haec principatum tenebat.
+Percussitque omnes animas, quae ibidem morabantur:
+non dimisit in ea ullas reliquias, sed usque
+ad internecionem universa vastavit, ipsamque urbem
+[h.] combussit incendio. [C. LIV.] Et omnes
+per circuitum civitates, regesque earum cepit, percussit
+atque delevit, sicut praeceperat ei Moses famulus
+Domini. Absque urbibus, quae erant in collibus
+et in tumulis sitae, caeteras succendit Israel: unam
+tantum Asor munitissimam flamma consumpsit
+[h. Verumtamen urbes quae erant in tumulis sitae
+non succendit Israel. Unam tantum Asor munitissimam
+Josue flamma consumpsit]. Omnemque praedam
+istarum urbium ac jumenta diviserunt sibi filii
+<pb n="0484D"/>
+Israel, cunctis hominibus interfectis. Sicut praeceperat
+Dominus Mosi servo suo, ita praecepit Moses
+Josue, et ille universa complevit: non praeteriit de
+universis mandatis ne unum quibem verbum, quod
+jusserat Dominus Mosi. Cepit itaque Josue omnem
+terram montanam, et meridianam, terramque Gosen,
+et planitiem, et occidentalem plagam, montemque
+Israel, et campestria ejus: et partem montis quae
+ascendit Seir usque ad Baal Gad, per planitiem
+Libani subter montem Hermon: omnes reges eorum
+cepit, percussit et occidit. Multo tempore pugnavit
+Josue contra reges istos. Non fuit civitas quae [h.]
+se traderet filiis Israel, praeter Evaeum, qui habitabat
+in Gabaon: omnes bellando cepit. [C. LV.] Domini
+<pb n="0485A"/>
+enim sententia fuerat, ut indurarentur corda
+eorum, et pugnarent contra Israel, et caderent, et
+non mererentur ullam clementiam, ac perirent,
+sicut praeceperat Dominus Mosi. [T. VI, C. LVI.]
+In tempore illo venit Josue, et interfecit Enacim de
+montanis, de [ <hi>Vulg. tacet</hi> de] Hebron, et Debir, et
+Anab, et de omni monte Juda et Israel, urbesque
+eorum delevit. Non reliquit ullum de stirpe Enacim,
+in terra filiorum Israel: absque in civitatibus
+[h. non habet in civitatibus] Gaza, et Geth, et
+Azoto, in quibus solis relicti sunt. Cepit ergo Josue
+omnem terram, sicut locutus est Dominus ad Mosen,
+et tradidit eam in possessionem filiis Israel, secundum
+partes et tribus suas. Quievitque terra a
+praeliis.</p>
+<p>
+          <pb n="0485B"/>[Cap. XII.] Hi sunt reges, quos percusserunt filii
+Israel, et possederunt terram eorum trans Jordanem
+ ad solis ortum, a torrente Arnon usque ad montem
+Hermon, et omnem orientalem plagam, quae
+respicit solitudinem. [C. LVII.] Seon rex Amorrhaeorum,
+qui habitavit in Esebon, dominatus est ab
+Aroer, quae sita est super ripam torrentis Arnon, et
+mediae partis in valle, dimidiique Galaad, usque ad
+torrentem Jaboc, qui est terminus filiorum Ammon.
+Et a solitudine usque ad mare Cheneroth contra
+orientem, et usque ad mare deserti, quod est mare
+salsissimum, ad orientalem plagam per viam, quae
+ducit Beth-Jisimoth: et ab australi parte, quae subjacet
+Asedoth-Phisga. [B. XIX.] Terminus Og regis
+Basan, de reliquiis Raphaim, qui habitavit in Astaroth,
+<pb n="0485C"/>
+et in Edrai, et dominatus est in monte Hermon,
+et Salacha, atque in universa Basan, usque ad
+terminum Gesuri, et Machati, et dimidiae partis Galaad;
+terminum Seon regis Esebon. Moses famulus
+Domini, et filii Israel percusserunt eos, tradiditque
+terram eorum Moses in possessionem Rubenitis, et
+Gadditis et dimidiae tribui Manasse. [B. XX, C.
+LVIII.] Hi sunt reges terrae, quos percussit Josue, et
+filii Israel, trans Jordanem ad occidentalem plagam,
+a Baal-Gad in campo Libani, usque ad montem,
+cujus pars ascendit in Seir: tradiditque eam Josue
+in possessionem tribubus Israel, singulis partes
+suas, tam in montanis quam in planis atque campestribus.
+In Asedoth, et solitudine, ac meridie
+Hetthaeus fuit et Amorrhaeus, Chananaeus, et Pherezaeus,
+<pb n="0485D"/>
+Evaeus et Jebusaeus. Rex Jericho unus: rex
+Ai, quae est ex latere Bethel, unus: rex Jerusalem
+unus, rex Hebron unus: rex Jarimuth unus, rex
+Lachis unus, rex Eglon unus, rex Gezer unus, rex
+Debir unus, rex Geder unus, rex Harma unus, rex
+Harad unus, rex Libna unus, rex Adulam unus,
+rex Maceda unus, rex Beth El unus, rex Tapphua
+unus, rex Epher unus, rex Aphec unus, rex Lassaron
+unus, rex Madon unus, rex Asor unus, rex Simeron
+Maron unus, rex Achsaph unus, rex Thanac
+unus, rex Mageddo unus, rex Cedes unus, rex Jacanaam
+<pb n="0486A"/>
+Charmeli unus, rex Dor, et provinciae
+[h. de provincia.] Dor unus, rex Gentium Galgal
+unus, rex Thirsa unus: omnes reges triginta et unus.</p>
+<p>[T. VII, C. LIX, Cap. XIII.] Josue senex, provectaeque
+aetatis erat, et dixit Dominus ad eum:
+Senuisti, et longaevus es, terraque latissima derelicta
+est, quae necdum est sorte divisa: omnis videlicet
+Galilaea, Philisthim, et universa Gesuri. A
+fluvio turbido, qui irrigat Aegyptum, usque ad terminos
+Accaron contra aquilonem: terra Chanaan,
+quae in quinque regulos Philisthim dividitur, Gazaeos,
+et Azotios, Ascalonitas, Getthaeos, et Accaronitas.
+Ad meridiem vero sunt [h. Ad austrum
+sunt] Evaei, omnis terra Chanaan, et Maara Sidoniorum,
+usque Apheca et terminos Amorrhaei,
+<pb n="0486B"/>
+ejusque confinia [h . . . ]. Libani quoque regio contra
+orientem [h . . . ], a Baal Gad sub monte Hermon,
+donec ingrediaris Emath Omnium qui habitant in
+monte, a Libano usque ad aquas Miserephoth, universique
+Sidonii. [B. XXI.] Ego sum qui delebo
+[h. ejiciam] eos a facie filiorum Israel. Veniat ergo
+in partem haereditatis Israel, sicut praecepi tibi.
+[C. LX.] Et nunc divide terram in possessionem
+novem tribubus, et dimidiae tribui Manasse, cum
+qua Ruben et Gad possederunt terram, quam tradidit
+eis Moses famulus Domini trans fluenta Jordanis
+ad orientalem plagam. Ab Aroer, quae sita est in
+ripa torrentis Arnon, et in vallis medio, universaque
+campestria Medaba, usque Dibon, et cunctas civitates
+Seon regis Amorrhaei, qui regnavit in Esebon,
+<pb n="0486C"/>
+usque ad terminos filiorum Ammon, et Galaad, ac
+terminum Gesuri et Machati, et omnem montem
+Hermon, et universam Basan, usque Salecha, omne
+regnum Og in Basan, qui regnavit in Astharoth et
+Edrai, ipse fuit de reliquiis Raphaim: percussitque
+eos Moses, atque delevit. Nolueruntque disperdere
+filii Israel Gesuri et Maachati: et habitaverunt in
+medio Israel usque in praesentem diem. Tribui autem
+Levi non dedit possessionem; sed sacrificia
+et victimae [h. et victimae, non habet] Domini Dei
+Israel, ipsa est ejus haereditas, sicut locutus est illi.
+[C. LXI.] Dedit ergo Moses possessionem tribui
+filiorum Ruben juxta cognationes suas. Fuitque terminus
+eorum ab Aroer quae sita est in ripa torrentis
+Arnon, et in valle ejusdem torrentis media: universam
+<pb n="0486D"/>
+planitiem [h. et urbem quae est in medio
+ejusdem torrentis, et universam planitiem], quae
+ducit Medaba, Esebon, cunctosque viculos ejus
+[ <hi>Vulg.</hi> earum], qui sunt in campestribus: Dibon
+quoque, et Bamoth-Baal, et oppidum Baal Maon,
+Jasa, et Cedemoth, et Mephaath, et Ciriathaim, et
+Sibama, et Sereth-Assahar in monte convallis. Beth-Phohor
+et Asedoth-Phisga, et Beth-Jisimoth; omnes
+urbes campestres, universaque regna Seon regis
+Amorrhaei, qui regnavit in Esebon, quem percussit
+Moses cum principibus Madian: Evi, et Recem, et
+<pb n="0487A"/>
+Sur, et Hur, et Reba, duces [ <hi>Vulg. tac.</hi> duces]
+Seon habitatores terrae. Et Balaam filium Beor hariolum
+occiderunt filii Israel gladio cum caeteris interfectis.
+Factusque est terminus filiorum Ruben
+Jordanis fluvius. Haec est possessio Rubenitarum
+per cognationes suas urbium et viculorum.
+[C. LXII.] Deditque Moses tribui Gad et filiis ejus
+per cognationes suas possessionem, cujus haec divisio
+est [h. cujus iste est terminus]. Terminus Jaser,
+et omnes civitates Galaad, dimidiamque partem
+terrae filiorum Ammon, usque ad Aroer, quae est
+contra Rabba. Et ab Esebon usque Ramath, Misphe
+et Batonim: et a Manaim usque ad [h.] terminum
+Dabir. In valle quoque Beth-Aram, et Beth-Nemra,
+et Soccoth, et Saphon reliquam partem regni Seon
+<pb n="0487B"/>
+regis Esebon: hujus quoque Jordanis finis est,
+usque ad extremam partem maris Chenereth trans
+Jordanem ad orientalem plagam. Haec est possessio
+filiorum Gad per familias suas, civitates et villae
+earum. [C. LXIII.] Dedit et dimidiae tribui Manasse,
+filiisque ejus juxta cognationes suas possessionem,
+cujus hoc principium est: a Manaim universam Basan,
+et cuncta regna Og regis Basan, omnesque
+vicos Jair, qui sunt in Basan, sexaginta oppida. Et
+dimidiam partem Galaad, Astharoth, et Edrai, urbes
+regni Og in Basan: filiis Machir, filii Manasse,
+dimidiae parti filiorum Machir juxta cognationes
+suas. Hanc possessionem divisit Moses in campestribus
+Moab trans Jordanem contra Jericho ad
+orientalem plagam. Tribui autem Levi non dedit
+<pb n="0487C"/>
+possessionem: quoniam Dominus Deus Israel ipse
+est possessio ejus, ut locutus est illi.</p>
+<p>[C. LXIV, Cap. XIV.] Hoc est quod possederunt
+filii Israel in terra Chanaan, quam dederunt eis
+Eleazar sacerdos et Josue filius Nun, et principes
+familiarum per tribus Israel: sorte omnia dividentes,
+sicut praeceperat Dominus in manu Mosi, novem
+tribubus et dimidiae tribui. Duabus enim tribubus
+et dimidiae dederat Moses trans Jordanem possessionem:
+absque Levitis, qui nihil terrae acceperunt
+inter fratres suos: <hi>sed in eorum successerunt locum</hi> 
+[h. non habet <hi>ea, sed sic:</hi> Quoniam filii Joseph in
+duas fuere divisi tribus] filii Joseph in duas divisi
+tribus, Manasse et Ephraim: nec acceperunt. Levitae
+aliam in terra partem, nisi urbes ad habitandum,
+<pb n="0487D"/>
+et suburbana earum ad alenda jumenta et pecora
+sua. Sicut praeceperat Dominus Mosi, ita fecerunt
+filii Israel, et diviserunt terram. [B. XXII, C. LXV.]
+Accesserunt itaque filii Juda ad Josue in Galgala,
+locutusque est ad eum Chaleb filius Jephonne Cenezaeus:
+Nosti quid locutus sit Dominus ad Mosen
+hominem Dei de me et te in Cades-Barne. Quadraginta
+annorum eram quando me misit Moses famulus
+Domini de Cades-Barne, ut considerarem terram,
+nuntiavique ei quod mihi verum videbatur. Fratres
+autem mei, qui ascenderant mecum, dissolverunt
+cor populi: et nihilominus ego secutus sum Dominum
+Deum meum. Juravitque Moses in die illo, dicens:
+Terra, quam calcavit pes tuus, erit possessio
+<pb n="0488A"/>
+tua, et filiorum tuorum in aeternum: quia secutus es
+Dominum Deum meum. Concessit ergo Dominus vitam
+mihi, sicut pollicitus est usque in praesentem diem.
+Quadraginta et quinque anni sunt, ex quo locutus est
+Dominus verbum istud ad Mosen, quando ambulabat
+Israel per solitudinem: hodie octoginta quinque annorum
+sum, sic valens, ut eo valebam tempore quando
+ad explorandum missus sum, illius in me temporis
+fortitudo usque hodie perseverat, tam ad bellandum
+quam ad gradiendum. Da ergo mihi montem istum,
+quem pollicitus est Dominus, te quoque audiente, in
+quo Enacim sunt et urbes [h. quem pollicitus est
+Dominus in die illa, quia tu quoque audisti, quod
+Enacim sunt ibi et urbes] magnae atque munitae, si
+forte sit Dominus mecum, et potero delere eos, sicut
+<pb n="0488B"/>
+promisit mihi. [C. LXVI.] Benedixitque ei Josue, et
+tradidit [ <hi>Vulg. add.</hi> ei] Hebron in possessionem.
+Atque ex eo fuit Hebron Chaleb filio Jephonne Cenezaeo
+usque in praesentem diem: quia secutus est
+Dominum Deum Israel. Nomen Hebron ante vocabatur
+Cariat-Arbe: Adam maximus ibi inter Enacim
+situs est: et terra cessavit a praeliis.</p>
+<p>[B. XXIII, C. LXVII, Cap. XV.] Igitur sors filiorum
+Judae per cognationes suas ista fuit, a termino
+Edom, desertum Sin contra meridiem, et usque ad
+extremam partem australis plagae. Initium ejus a
+summitate maris salsissimi, et a lingua ejus, quae
+respicit meridiem. Egrediturque contra ascensum
+Scorpionis, et pertransit in Sina: ascenditque in
+Cades Barne, et pervenit in Esron, ascendens Addara,
+<pb n="0488C"/>
+et circumiens Carcaa, atque inde pertransiens in
+Asemona, et perveniens ad torrentem Aegypti:
+eruntque termini ejus mare magnum [h. non habet,
+magnum]. Hic erit finis meridianae plagae. Ab oriente
+vero erit initium, mare salsissimum usque ad extrema
+Jordanis, et ea quae respiciunt ad aquilonem,
+a lingua maris usque ad eumdem Jordanem fluvium.
+Ascenditque terminus in Beth-Agla, et transit ab
+aquilone in Beth-Araba: ascendens ad lapidem Boen
+filii Ruben. Et tendens usque ad terminos Debera
+de Valle Achor, contra aquilonem respiciens Galgala,
+quae est ex adverso ascensionis Adommim, ab
+australi parte torrentis: transitque aquas, quae vocantur
+Fons solis, et erunt exitus ejus ad fontem
+Rogel. Ascenditque per convallem filii Ennom ex
+<pb n="0488D"/>
+latere Jebusaei ad meridiem, haec est Jerusalem, et
+inde se erigens ad verticem montis, qui est contra
+Ge-Ennom ad occidentem in summitate vallis Raphaim
+contra aquilonem. Pertransitque a vertice
+montis usque ad fontem aquae Nephthoa, et pervenit
+usque ad vicos montis Ephron: inclinaturque in
+Baala, quae est Cariath-Jarim, <hi>id est, urbs silvarum</hi> 
+[h. non habet]. Et circumit de Baala contra occidentem,
+usque ad montem Seir: transitque juxta latus
+montis Jarim ad aquilonem in Cheslon, et descendit
+in Beth-Sames, transitque in Thamna. Et pervenit
+contra aquilonem partis Accaron ex latere: inclinaturque
+Sechrona, et transit montem Baala:
+pervenitque in Jebneel, et maris magni contra occidentem
+<pb n="0489A"/>
+fine concluditur. Hi sunt termini filiorum
+Juda per circuitum in cognationibus suis. [C. LXVIII.]
+Chaleb vero filio Jephonne dedit partem in medio
+filiorum Juda, sicut praeceperat ei Dominus: Cariath-Arbe
+patris Enac, ipsa est Hebron. Delevitque
+ex ea Chaleb tres filios Enac, Sesai et Ahiman et
+Tholmai de stirpe Enac. Atque inde conscendens
+venit ad habitatores Dabir, quae prius vocabatur
+Cariath-Sepher, <hi>id est, civitas litterarum</hi> [h. non
+habet]. [C. LXIX.] Dixitque Chaleb: Qui percusserit
+Cariath-Sepher, et ceperit eam, dabo illi Axam filiam
+meam uxorem. Cepitque cam Othoniel, filius
+Cenez, frater Chaleb junior: deditque ei Axam filiam
+suam uxorem. Quae cum pergerent simul, suasa
+est a viro suo ut peteret a patre suo agrum.
+<pb n="0489B"/>
+[C. LXX.] Suspiravitque ut sedebat in asino. Cui
+Chaleb: Quid habes, inquit? At illa respondit: Da
+mihi benedictionem: terram australem <hi>et arentem</hi> 
+[h. non habet] dedisti mihi, junge et irriguam. Dedit
+itaque ei Chaleb irriguum superius et inferius.
+Haec est possessio tribus filiorum Juda per cognationes
+suas. Erantque civitates ab extremis partibus
+filiorum Juda [h.] terminum Edom a meridie: Cabsael
+et Eder et Jagur, et Cina et Dimona, Adeda, et
+Cedes et Asor, et Jethnam, Ziph et Telem, Baloth
+et Asor nova [h. Asor nova ideo dicitur quia altera
+Asor vetus] et Carioth, Esron haec est Asor. Amam,
+<pb n="0490A"/>
+Same, et Molada, et Aser-Gadda et Asemon, Beth-Phelet,
+et Aser-Sual et Ber-Sabee et Baziothia, Bala
+et Hiim, Esem et Eltholad, et Xiil et Harma, Siceleg
+et Medemena et Sensenna, Lebaoth et Silim et
+Aen et Remmon. Omnes civitates viginti novem, et
+villae earum. [C. LXXII.] In campestribus vero:
+Estaol et Saraa et Asena, et Zanoe et Aen-Gannim,
+Taphphua et Enaim, et Jarimuth, Adulam, Soccho
+et Azeca et Sarim, Adithaim et Gedera et Giderothaim:
+et urbes quatuordecim, et villae earum. Sanan
+et Adessa et Magdal-Gad, Delean et Mespha et
+Jecthel, Lachis et Bascat, et Aglon, Chebbon et Leemas
+et Cethlis Gideroth, Beth-Dagon et Neema et
+Maceda: civitates sedecim, et villae earum. Labana
+et Ether et Asan, Jephtha et Esna et Nesib, et Ceila
+<pb n="0490B"/>
+et Achzib et Maresa: civitates novem et villae earum.
+Accaron cum vicis et villulis suis. Ab Accaron
+usque ad mare: omnia quae vergunt ad Azotum et
+viculos ejus. Azotus cum vicis et villulis suis. Gaza
+cum viculis [ <hi>Vulg.</hi> vicis] et villulis suis, usque ad
+torrentem Aegypti, mare magnum et terminum ejus.
+Et in monte; Samir et Jathir et Soccho, et Denna
+et Cariath-Senna, haec est Dabir; Anab et Isthemo,
+et Anim, Gosen et Olon et Gilo: civitates undecim
+et villae earum. Arab et Ruma et Esaan, et Janum
+et Bet-Thaphphua et Apheca, Amata et Cariath-Arbe,
+haec est Hebron et Sior: civitates novem, et
+<pb n="0491A"/>
+villae earum. Maon et Chermel et Ziph, et Jota, et
+Jezrael et Jacadaam et Zanoe, Accain, Gebaa, et
+Thamna: civitates decem, et villae earum. Alul, et
+Beth-Sur, et Gedor, Mareth, et Beth-Anot, et Elthecon:
+civitates sex villae earum. Cariath-Baal, haec
+est Cariath-Jarim, <hi>urbs silvarum</hi> [h. non habet], et
+Arebba: civitates duae et villae earum. In deserto
+Beth-Araba, Middin, et Schacha, Anebsan, et civitas
+Salis, et En-Gaddi: civitates sex, et villae earum,
+[C. LXXIII.] Jebusaeum autem habitatorem Jerusalem
+non potuerunt filii Juda delere: habitavitque
+Jebusaeus cum filiis Juda in Jerusalem usque in praesentem
+diem.</p>
+<p>[B. XXIV, Cap. XVI.] Cecidit quoque sors filiorum
+Joseph, ab Jordane contra Jericho et aquas ejus ab
+<pb n="0491B"/>
+oriente: solitudo quae ascendit de Jericho ad montana
+[ <hi>Vulg.</hi> montem] Beth-El: et egreditur de Beth-El,
+Luzam: transitque terminum Archi-Ataroth. Et
+descendit ad occidentem juxta terminum Jephleti,
+usque ad [h.] terminum Beth-Horon inferioris, et
+Gazer: finiunturque regiones ejus mari magno.
+[C. LXXIV.] Possederuntque filii Joseph Manasse et
+Ephraim. Et factus est terminus filiorum Ephraim
+per cognationes suas: et possessio eorum contra
+orientem, Ataroth-Addar usque Beth-Horon superiorem.
+Egrediunturque confinia in mare: Mechmethath
+vero aquilonem respicit, et circumit [h.] terminum
+contra orientem in Tanath-Selo: et pertransit
+ab oriente Janoe. Descenditque de Janoe in Ataroth
+et Naratha: et pervenit in Jericho, et egreditur ad
+<pb n="0491C"/>
+Jordanem. De Taphphua pertransit contra mare in
+Vallem arundineti, suntque egressus ejus in mare
+salsissimum [h. non habet salsissimum]. [C. LXXV.]
+Haec est possessio tribus filiorum Ephraim per familias
+suas. Urbesque separatae sunt filiis Ephraim in medio
+possessionis filiorum Manasse, et villae carum [C.
+LXXVI.] Et non interfecerunt filii Ephraim Chananaeum,
+qui habitabat in Gazer: habitavitque Chananaeus
+in medio Ephraim usque in diem hanc tributarius.</p>
+<p>[C. LXXVII, Cap. XVII.] Cecidit autem sors tribui
+Manasse (ipse est enim primogenitus Joseph): Machir
+primogenito Manasse patri Galaad, qui fuit vir
+[ <hi>Vulg. tac.</hi> vir] pugnator, habuitque possessionem Galaad
+et Basan: et reliquiis filiorum Manasse juxta familias
+suas, filiis Abiezer, et filiis Helech, et filiis Esriel,
+<pb n="0491D"/>
+et filiis Sechem, et filiis Epher, et filiis Semida.
+Isti sunt filii Manasse, filii Joseph, mares, per cognationes
+suas. [C. LXXVIII.] Salphaad vero filio Epher,
+filii Galaad, filii Machir, filii Manasse, non erant filii,
+sed solae filiae: quarum ista sunt nomina. Maala et Noa
+et Egla et Melcha et Thersa. Veneruntque in conspectu
+Eleazari sacerdotis, et Josue, filii Nun, et principum,
+dicentes: Dominus praecepit per manum Mosi, ut
+daretur nobis possessio in medio fratrum nostrorum.
+Deditque eis juxta imperium Domini possessionem,
+in medio fratrum patris earum. Et ceciderunt
+funiculi Manasse decem, absque terra Galaad
+<pb n="0492A"/>
+et Basan trans Jordanem. Filiae enim Manasse possederunt
+haereditatem in medio filiorum ejus. [C. LXXIX.]
+Terra autem Galaad cecidit in sortem filiorum Manasse
+qui reliqui erant. Fuitque terminus Manasse
+ab Aser, Machmathath, quae respicit Sichem, et
+egreditur ad dextram juxta habitatores fontis Taphphuae.
+Etenim in sortem Manasse ceciderat terra
+Taphphuae, quae est juxta terminos Manasse filiorum
+Ephraim. Descenditque terminus vallis arundineti in
+meridiem torrentis civitatum Ephraim, quae in medio
+sunt urbium Manasse: terminus Manasse ab
+aquilone torrentis, et exitus ejus pergit ad mare:
+ita ut ab austro sit possessio Ephraim, et ab aquilone
+Manasse, et utramque claudat mare, et conjungatur
+sibi in tribu Aser ab aquilone, et in tribu
+Issachar ab oriente. Fuitque haereditas Manasse in
+<pb n="0492B"/>
+Issachar et in Aser Beth-San et viculi ejus, et Jeblaam
+cum viculis suis, et habitatores Dor cum oppidis
+suis, habitatores quoque En-Dor cum viculis
+suis, similiterque habitatores Thanach cum villis
+[ <hi>Vulg.</hi> viculis] suis, et habitatores Mageddo cum viculis
+suis, et tertia pars urbis Napheth. [C. LXXX.]
+Nec potuerunt filii Manasse has civitates subvertere,
+sed coepit Chananaeus habitare in terra ista [ <hi>Vulg.</hi> 
+sua]. Postquam autem convaluerunt filii Israel, subjecerunt
+Chananaeos, et fecerunt sibi tributarios, nec
+interfecerunt eos. [B. XXV.] Locutique sunt filii
+Joseph ad Josue, atque dixerunt: Quare dedisti
+mihi possessionem sortis funiculi unius, cum sim
+tantae multitudinis, et benedixerit mihi Dominus?
+<pb n="0492C"/>
+Ad quos Josue ait: si populus multus es, ascende
+in silvam, et succide tibi spatia in terra Pherezaei
+et Raphaim: quia angusta est tibi possessio montis
+Ephraim. Cui responderunt filii Joseph: Non poterimus
+ad montana conscendere, cum ferreis curribus
+utantur Chananaei, qui habitant in terra campestri,
+in qua sitae sunt Beth-San cum viculis suis,
+et Jezrael mediam possidens vallem. Dixitque Josue
+ad domum Joseph, Ephraim et Manasse: Populus
+multus es, et magnae fortitudinis, et non habebis
+sortem unam; sed transibis ad montem, et succides
+tibi, atque purgabis ad habitandum spatia: et poteris
+ultra procedere cum subverteris Chananaeum, quem
+dicis ferreos habere currus, et esse fortissimum.</p>
+<p>[T. VIII, B. XXVI, C. LXXXI, Cap. XVIII.] Congregatique
+<pb n="0492D"/>
+sunt omnes filii Israel in Silo, ibique
+fixerunt tabernaculum testimonii, et fuit eis terra
+subjecta. [C. LXXXII.] Remanserant autem filiorum
+Israel septem tribus, quae necdum acceperant possessiones
+suas. Ad quos Josue ait: Usquequo marcetis
+ignavia, et non intratis ad possidendam terram,
+quam Dominus Deus patrum vestrorum dedit vobis?
+Eligite de singulis tribubus ternos viros, ut mittam
+eos, et pergant atque circumeant terram, et describant
+eam juxta numerum uniuscujusque multitudinis:
+referantque ad me quod descripserint. Dividite
+vobis terram in septem partes: Judas sit in
+<pb n="0493A"/>
+terminis suis ab australi plaga, et domus Joseph ab
+aquilone. Mediam inter hos terram in septem partes
+describite [h. Vos vero terram in septem partes describite]:
+et huc venietis ad me, ut coram Domino
+Deo vestro mittam vobis hic sortem, quia non est
+inter vos pars Levitarum, sed sacerdotium Domini
+est eorum haereditas. Gad autem et Ruben, et
+dimidia tribus Manasse, jam acceperunt possessiones
+suas trans Jordanem ad orientalem plagam: quas
+dedit eis Moses famulus Domini. [B. XXVII.] Cumque
+surrexissent viri, ut pergerent ad describendam
+terram, praecepit eis Josue, dicens: Circuite terram
+et describite eam, ac revertimini ad me, ut hic coram
+Domino, in Silo, mittam vobis sortem. Itaque
+perrexerunt, et lustrantes eam, in septem partes
+<pb n="0493B"/>
+diviserunt, scribentes in volumine. Reversique sunt
+ad Josue in castra Silo. [C. LXXXIII.] Qui misit
+sortes coram Domino in Silo, dividitque terram
+filiis Israel in septem partes [h. juxta divisiones earum].
+Et ascendit sors prima filiorum Benjamin per
+familias suas, ut possiderent terram [ <hi>Vulg. tac.</hi> terram]
+inter filios Juda et filios Joseph. Fuitque terminus
+eorum contra aquilonem ab Jordane: pergens
+juxta latus Jericho septentrionalis plagae, et inde
+contra occidentem ad montana conscendens, et perveniens
+in solitudinem Beth-Aven, atque pertransiens
+juxta Luzam ad meridiem, ipsa est Beth-El: descenditque
+in Ataroth-Addar, in montem qui est ad meridiem
+Beth-Horon inferioris. Et inclinatur circumiens
+contra mare ad meridiem montis qui respicit
+<pb n="0493C"/>
+Beth-Horon contra Africum: suntque exitus ejus in
+Cariath-Baal, quae vocatur et Cariath-Jarim, urbem
+filiorum Juda. Haec est plaga contra mare, et [ <hi>Vulg.</hi> 
+ad] occidentem. A meridie autem ex parte Cariath-Jarim
+egreditur terminus contra mare, et pervenit
+usque ad fontem aquarum Nephthoa. Descenditque in
+partem montis qui respicit Vallem filiorum Ennom:
+et est contra septentrionalem plagam in extrema
+parte Vallis Raphaim. Descenditque in Ge-Ennom, <hi>id est, Vallis Ennon</hi> 
+ [h. non habet] juxta latus Jebusaei
+ad austrum: et pervenit ad fontem Rogel, transiens
+ad aquilonem, et egrediens ad En-Semes, <hi>id
+est, fontem Sotis</hi> [h. non habet]: et pertransit usque
+ad tumulos, qui sunt e regione ascensus, Adommin:
+descenditque ad Aben-Boen, <hi>id est, lapidem Boen</hi> 
+<pb n="0493D"/>
+[h. non habet] filii Ruben, et pertransit ex latere
+aquilonis ad campestria: descenditque in planitiem,
+et praetergreditur contra aquilonem Beth-Agla:
+suntque exitus ejus contra linguam maris salsissimi
+ab aquilone in fine Jordanis ad australem plagam,
+qui est terminus illius ab-oriente. Haec est possessio
+filiorum Benjamin per terminos suos in circuitu, et
+familias suas. [C. LXXXIV.] Fueruntque civitates
+ejus, Jericho et Beth-Agla et Vallis Casis, Beth-Araba
+<pb n="0494A"/>
+et Semaraim et Beth-El et Avim et Aphphara
+et Ophra, Villa Emona et Ophni et Gabee: civitates
+duodecim, et villae earum. Gabaon et Rama et Beroth
+et Mesphe, Caphera et Ammosa et Recem, Jarephel
+et Tharala, et Sela, Eleph, et Jebus, quae est Jerusalem,
+Gabaath, Cariath: civitates quatuordecim et
+villae earum. Haec est possessio filiorum Benjamin
+juxta familias suas.</p>
+<p>[C. LXXXV, Cap. XIX.] Et egressa est sors
+secunda filiorum Simeon per cognationes suas: fuitque
+haereditas eorum in medio possessionis filiorum
+Juda: Ber-Sabee et Sabee et Molada et Aser-Sual,
+Bala et Asem et Eltholad, Bethul et Arma et Siceleg
+et Beth-Marchaboth et Aser Susa et Beth Lebaoth et
+Sareon: civitates tredecim et villae earum. Ain,
+<pb n="0494B"/>
+Remmon, et Athar, et Asan: civitates quatuor et
+villae earum: omnes viculi per circuitum urbium
+istarum usque ad Balath-Beer Ramath contra australem
+plagam. Haec est haereditas filiorum Simeon juxta
+cognationes suas, in funiculo et possessione filiorum
+Juda, quae major erat. Et idcirco possederunt filii
+Simeon in medio haereditatis eorum. [C. LXXXVI.]
+Cecidit quoque sors tertia filiorum Zabulon per
+cognationes suas, et factus est terminus possessionis
+eorum usque Sarid. Ascenditque de mari et Marala,
+et pervenit in Debbaseth, usque ad torrentem qui
+est contra Jecennam. Et revertitur de Sarid contra
+orientem in fines Cheseleth-Thabor, et egredietur ad
+Dabrath, ascenditque contra Japhie. Et inde pertransit
+[ <hi>Vulg. add.</hi> usque] ad Orientalem plagam Getha-Epher,
+<pb n="0494C"/>
+Epher, Itha-Casin, et egredietur in Remmon. Amthoar,
+Anea. Et circumit ad aquilonem Annathon:
+suntque egressus ejus Vallis Jephta-El, et Cateth
+et Nealal et Semron et Jedala et Beth-Leem: civitates
+duodecim et villae earum. Haec est haereditas
+tribus filiorum Zabulon per cognationes suas,
+urbes et viculi earum. [C. LXXXVII.] Issachar
+egressa est sors quarta per cognationes suas. Fuitque
+ejus haereditas [h. terminus], Jezraela et Chasaloth
+et Sunem et Aphraim, Seon, et Anaarath et Rabbith
+et Cesion, Abes, et Rameth, et En-Gannim, et
+En-Adda, et Beth-Pheses. Et pervenit terminus
+ejus usque Thabor et Seesima et Beth-Semes: eruntque
+exitus ejus Jordanis: civitates sedecim et villae
+earum. Haec est possessio filiorum Issachar per
+<pb n="0494D"/>
+cognationes suas, urbes et viculi earum. [C.
+LXXXVIII.] Ceciditque sors quinta tribui filiorum
+Aser per cognationes suas: fuitque terminus eorum
+Alcath et Oali et Beten et Axaph, Elmelech et
+Amaad et Messal, et pervenit usque ad Carmelum
+maris et Sior, Labanath. Ac revertitur contra orientem
+Beth-Dagon, et pertransit usque Zabulon et
+Vallem Jephtha-El contra aquilonem in Beth-Emec
+et Nehiel. Egrediturque ad laevam Chabul, et
+<pb n="0495A"/>
+ Achran [h. Hebron] et Roob et Ammon et Cane,
+usque ad Sidonem magnam. Revertiturque in Orma
+usque ad civitatem munitissimam Tyrum, et usque
+Osa: eruntque exitus ejus in mare de funiculo
+Achziba, et Amma et Aphec et Roob: civitates viginti
+duae et villae earum. Haec est possessio filiorum
+Aser per cognationes suas, urbesque et viculi
+earum [C. LXXXIX.] Filiorum Nephthali sexta sors
+cecidit per familias suas, et coepit terminus de Heleph
+et Elon in Sananim, et Adami, quae est Neceb, et
+Jebnael usque Lecum, et egressus eorum usque ad
+Jordanem: revertiturque terminus contra occidentem
+in Aznot-Thabor, atque inde egreditur in Ucoca,
+et pertransit in Zabulon contra meridiem, et in
+Aser contra occidentem, et in Juda ad Jordanem
+<pb n="0495B"/>
+contra ortum solis: et civitates munitissimae, Aseddim,
+Ser et Ammath, et Reccath et Chenereth, et
+Edema et Arama, Asor, et Cedes et Edrai, et En-Asor,
+et Jeron et Magdal-El, Harem et Beth-Anath
+et Beth-Semes: civitates decem et novem, et villae
+earum. Haec est possessio tribus filiorum Nephthali
+per cognationes suas, urbes et viculi earum. [C. XC.]
+Tribui filiorum Dan per familias suas egressa est
+sors septima, et fuit terminus possessionis ejus Saraa
+et Esthaol, et Air-Semes, <hi>id est, civitas Solis</hi> [h.
+non habet]. Selebin et Ajalon et Jethela, Elon et
+Themnatha et Achron, Elthece, et Gebbethon et
+Baalath, Jud et Bene-Barac et Geth-Remmon:
+Aquae Jercon et Arecon, cum termino qui respicit
+Joppen, et ipso fine concluditur. [C. XCI.] Ascenderuntque
+<pb n="0495C"/>
+filii Dan, et pugnaverunt contra Lesem,
+ceperuntque eam, et percusserunt in ore gladii, ac
+possederunt, et habitaverunt in ea, vocantes nomen
+ejus Lesem-Dan [h. vocantes Lesem-Dan], ex nomine
+Dan patris sui. Haec est possessio tribus filiorum
+Dan, per cognationes suas, urbes et viculi earum.
+[C. XCII.] Cumque complesset sorte dividere
+terram singulis per tribus suas, dederunt filii Israel
+possessionem Josue filio Nun in medio sui, juxta
+praeceptum Domini, urbem quam postulavit, Thamnath-Seraa
+in monte Ephraim, et aedificavit civitatem,
+habitavitque in ea. Hae sunt possessiones quas sorte
+diviserunt Eleazar sacerdos et Josue filius Nun, et
+principes familiarum, ac tributum Israel, in Silo,
+coram Domino ad ostium tabernaculi testimonii,
+<pb n="0495D"/>
+partitique sunt terram.</p>
+<p>
+          <pb n="0495D"/>[T. IX, B. XXVIII, C. XCIII, Cap. XX.] Et locutus
+est Dominus ad Josue, dicens: Loquere filiis Israel,
+et dic eis: Separate urbes fugitivorum, de quibus
+locutus sum ad vos per manum Mosi, ut confugiat
+ad eas quicumque animam percusserit nescius, et
+possit evadere iram proximi, qui ultor est sanguinis:
+cum ad unam harum confugerit civitatum, stabitque
+ante portam civitatis, et loquetur senioribus
+urbis illius, ea quae se comprobent innocentem: sicque
+suscipient eum, et dabunt ei locum ad habitandum.
+Cumque ultor sanguinis eum fuerit persecutus,
+<pb n="0496A"/>
+non tradent in manus ejus: quia ignorans percussit,
+proximum ejus, nec ante biduum, triduumve, ejus
+probatur inimicus. Et habitabit in civitate illa, donec
+stet ante judicium causam reddens facti sui, et
+moriatur sacerdos magnus, qui fuerit in illo tempore:
+tunc revertetur homicida, et ingredietur civitatem
+et domum suam de qua fugerat. Decreveruntque
+[h. sanctificaverunt] Cedes in Galilaea montis Nephthali,
+et Sichem in monte Ephraim, et Cariath-Arbe,
+ipsa est Hebron, in monte Juda. [C. XCIV.] Et
+trans Jordanem contra orientalem plagam Jericho,
+statuerunt Bosor [h. Beser], quae sita est in campestri
+solitudine, de tribu Ruben, et Ramoth in Galaad
+de tribu Gad, et Gaulon in Basan de tribu Manasse.
+Hae civitates constitutae sunt cunctis filiis Israel
+<pb n="0496B"/>
+et advenis qui habitabant inter eos, ut fugeret
+ad eas qui animam nescius percussisset, et non moreretur
+in manu proximi, effusum sanguinem vindicare
+cupientis, donec staret ante populum expositurus
+causam suam.</p>
+<p>[C. XCV, Cap. XXI.] Accesseruntque principes
+familiarum Levi ad Eleazar sacerdotem, et Josue
+filium Nun, et ad duces cognationum per singulas
+tribus filiorum Israel: locutique sunt ad eos in
+Silo terrae Chanaan, atque dixerunt: [B. XXIX.]
+Dominus praecepit per manum Mosi, ut darentur
+nobis urbes ad habitandum, et suburbana earum ad
+alenda jumenta. Dederuntque filii Israel [h. Levitis]
+de possessionibus suis juxta imperium Domini, civitates
+et suburbana earum. [C. XCVI.] Egressaque
+<pb n="0496C"/>
+est sors in familiam Caath filiorum Aaron sacerdotis,
+de tribubus Juda, et Simeon, et Benjamin, civitates
+tredecim. Et reliquis filiorum Caath, id est
+Levitis qui superfuerant de tribubus Ephraim, et
+Dan, et dimidia tribu Manasse, civitates decem.
+[C. XCVII.] Porro filiis Gerson egressa est sors, ut
+acciperent de tribubus Issachar et Aser et Nephthali,
+dimidiaque tribu Manasse in Basan, civitates numero
+tredecim. [C. XCVIII.] Et filiis Merari per cognationes
+suas de tribubus Ruben et Gad et Zabulon,
+urbes duodecim. Dederuntque filii Israel Levitis
+civitates et suburbana earum, sicut praecepit Dominus
+per manum Mosi, singulis sorte tribuentes.
+De tribubus filiorum Juda et Simeon dedit [h. dederunt]
+Josue civitates: quarum ista sunt nomina, filiis
+<pb n="0496D"/>
+Aaron per familias Caath Levitici generis (prima
+enim sors illis egressa est) [h. filiis Aaron per
+familias Caath Levitici generis prima sors egressa
+est] Cariath-Arbe patris Enac, quae vocatur Hebron,
+in monte Juda, et suburbana ejus per circuitum. Agros
+vero et villas ejus dederat [h. dederunt] Chaleb
+filio Jephonne ad possidendum. [C. XCIX.] Dedit
+ergo filiis Aaron sacerdotis, Hebron confugii civitatem,
+ac suburbana ejus: et Lebnam cum suburbanis
+suis: et Jether, et Isthimoa, et Holon, Dabir, et
+Ain, et Juta, et Beth-Semes, cum suburbanis suis:
+civitates novem, de tribubus, ut dictum est, duabus.
+<pb n="0497A"/>
+De tribu autem filiorum Benjamin, Gabaon, et Gabae,
+et Anathoth, et Almon cum suburbanis suis: civitates
+quatuor. Omnes simul civitates filiorum Aaron sacerdotis,
+tredecim, cum suburbanis suis. Reliquis
+vero per familias filiorum Caath Levitici generis,
+haec est data possessio. De tribu Ephraim urbes
+confugii, Sichem cum suburbanis suis in monte
+Ephraim, et Gazer et Cebsaim et Beth-Horon, cum
+suburbanis suis, civitates quatuor. De tribu quoque
+Dan, Elthece et Gebbethon, et Ajalon et Geth-Remmon,
+cum suburbanis suis, civitates quatuor. Porro
+de dimidia tribu Manasse, Thanach et Geth-Remmon,
+cum suburbanis suis, civitates duae. Omnes civitates
+decem, et suburbana earum, datae sunt filiis
+Caath inferioris gradus. [C. C.] Filiis quoque Gerson
+<pb n="0497B"/>
+Levitici generis dedit de dimidia tribu Manasse
+<pb n="0498A"/>
+confugii civitatem [ <hi>Vulg.</hi> civitates] Gaulon in Basan, et
+Bosram [h. Bosthram], cum suburbanis suis, civitates
+duas. Porro de tribu Issachar, Cesion, et Dabrath,
+et Jarimuth, et En-Gannim, cum suburbanis suis, civitates
+quatuor. De tribu autem Aser, Misal et
+Abdon et Elcath et Roob, cum suburbanis suis,
+civitates quatuor. [C. CI.] De tribu quoque Nephthali
+civitatem [ <hi>Vulg.</hi> civitates] confugii: Cedes in Galilaea,
+et Ammoth Dor, et Carthan, cum suburbanis
+suis, civitates tres. Omnes urbes familiarum
+Gerson, tredecim cum suburbanis suis. Filiis autem
+Merari Levitis inferioris gradus per familias suas
+data est de tribu Zabulon, Jecenam et Chartha et
+Damna et Nalal, civitates quatuor cum suburbanis
+suis. Et de tribu Gad civitates confugii, Ramoth
+<pb n="0498B"/>
+in Galaad et Manaim et Esebon et Jaser, civitates
+<pb n="0499A"/>
+quatuor cum suburbanis suis. Omnes urbes filiorum
+Merari per familias et cognationes suas, duodecim.
+Itaque universae civitates Levitarum in medio
+possessionis filiorum Israel, fuerunt quadraginta
+octo cum suburbanis suis, singulae per familias
+distributae. [C. CII.] Deditque Dominus [ <hi>Vulg.
+add.</hi> Deus] Israeli omnem terram, quam traditurum
+se patribus eorum juraverat: et possederunt illam,
+atque habitaverunt in ea. [B. XXX.] Dataque est
+ab eo pax in omnes per circuitum nationes; nullusque
+eis hostium resistere ausus est, sed cuncti
+in eorum ditionem redacti sunt. Ne unum quidem
+verbum, quod illis praestaturum se esse promiserat,
+irritum fuit, sed rebus expleta sunt omnia.</p>
+<p>
+          <pb n="0499B"/>[T. X, C. CIII, Cap. XXII.] Eodem tempore vocavit
+Josue Rubenitas, et Gadditas, et dimidiam
+tribum Manasse, dixitque ad eos: Fecistis omnia
+quae vobis praecepit Moses famulus Domini: mihi
+quoque in omnibus obedistis, nec reliquistis fratres
+vestros longo tempore, usque in praesentem diem,
+custodientes imperium Domini Dei vestri. Quia
+igitur dedit Dominus Deus vester fratribus vestris
+quietem ac pacem, sicut pollicitus est: revertimini,
+et ite in tabernacula vestra, et in terram possessionis,
+quam tradidit vobis Moses, famulus
+Domini, trans Jordanem: ita dumtaxat, ut custodiatis
+attente, et opere compleatis mandatum
+et legem quam praecepit vobis Moses, servus Domini,
+ut diligatis Dominum Deum vestrum, et ambuletis
+<pb n="0499C"/>
+in omnibus viis ejus, et observetis mandata
+illius, adhaereatisque ei, ac serviatis in omni
+corde, et in omni anima vestra. Benedixitque eis
+Josue, et dimisit eos. Qui reversi sunt in tabernacula
+sua. Tribui autem Manasse mediae possessionem
+Moses dederat in Basan: et idcirco mediae quae superfuit,
+dedit Josue sortem inter caeteros fratres
+suos trans Jordanem ad occidentalem plagam. Cumque
+dimitteret eos in tabernacula sua, et benedixisset
+illis, dixit ad eos: In multa substantia
+atque divitiis revertimini ad sedes [h. aedes] vestras,
+cum argento et auro, aere ac ferro, et veste
+multiplici: dividite praedam hostium cum fratribus
+vestris. Reversique sunt, et abierunt filii Ruben, et
+filii Gad, et dimidia tribus Manasse, a filiis Israel
+<pb n="0499D"/>
+de Silo, quae sita est in Chanaan, ut intrarent Galaad
+terram possessionis suae, quam obtinuerant
+juxta imperium Domini in manu Mosi. [B. XXXI,
+C. CIV.] Cumque venissent ad tumulos Jordanis in
+terra Chanaan, aedificaverunt juxta Jordanem altare
+infinitae magnitudinis. Quod cum audissent filii Israel,
+et ad eos certi nuntii detulissent, aedificasse
+filios Ruben, et Gad, et dimidiae tribus Manasse,
+<pb n="0500A"/>
+altare in terra Chanaam, super Jordanis tumulos,
+contra filios Israel [h. in transitu filiorum Israel]:
+convenerunt omnes in Silo, ut ascenderent et dimicarent
+contra eos. Et interim miserunt ad illos in
+terram Galaad Phinees filium Eleazari sacerdotem,
+et decem principes cum eo, singulos de tribubus
+singulis. Qui venerunt ad filios Ruben, et Gad, et
+dimidiae tribus Manasse, in terram Galaad: dixeruntque
+ad eos: Haec mandat omnis populus Domini:
+Quae est ista transgressio? Cur reliquistis
+Dominum Deum Israel aedificantes altare sacrilegum,
+et a cultu illius recedentes? An parum vobis
+est quod peccastis in Beel-Phegor [h. Phohor], et
+usque in praesentem diem macula hujus sceleris in
+nobis permanet? multique de populo corruerunt?
+<pb n="0500B"/>
+Et vos hodie reliquistis Dominum, et cras in universum
+Israel ejus ira desaeviet. Quod si putatis immundam
+esse terram possessionis vestrae, transite
+ad terram, in qua tabernaculum Domini est, et habitate
+inter nos: tantum ut a Domino, et a nostro
+consortio non recedatis, aedificato altari praeter altare
+Domini Dei nostri. Nonne Acham filius Zare
+praeteriit mandatum Domini, et super omnem populum
+Israel ira ejus incubuit? Et ille erat unus homo:
+atque utinam solus periisset in scelere suo. Responderuntque
+filii Ruben et Gad, et dimidiae tribus
+Manasse, principibus legationis Israel: fortissimus
+Deus Dominus, fortissimus Deus Dominus, ipse novit,
+et Israel simul intelliget: si praevaricationis
+animo hoc altare construximus, non custodiat nos,
+<pb n="0500C"/>
+sed puniat nos in praesenti: et si ea mente fecimus,
+ut holocausta, et sacrificium et pacificas victimas
+super eo imponeremus, ipse quaerat et judicet; et
+non ea magis cogitatione atque tractatu, ut diceremus:
+Cras dicent filii vestri filiis nostris: Quid vobis
+et Domino Deo Israel? terminum posuit Dominus
+inter nos et vos, o filii Ruben et filii Gad, Jordanem
+fluvium: et idcirco partem non habetis in Domino.
+Et per hanc occasionem avertent filii vestri filios
+nostros a timore Domini. Putavimus itaque melius,
+et diximus: Exstruamus nobis altare, non in holocausta,
+neque ad victimas offerenda, sed in testimonium
+inter nos et vos, et sobolem nostram vestramque
+progeniem, ut serviamus Domino, et juris nostri
+sit offerre holocausta, et victimas, et pacificas hostias:
+<pb n="0500D"/>
+et nequaquam dicant cras filii vestri filiis nostris;
+Non est vobis pars in Domino. Quod si voluerint
+dicere, respondebunt eis: Ecce altare Domini,
+quod fecerunt patres nostri, non in holocausta,
+neque in sacrificium, sed in testimonium nostrum
+ac vestrum. Absit a nobis hoc scelus, ut recedamus
+a Domino, et ejus vestigia relinquamus, exstructo
+altari ad holocausta, et sacrificia, et victimas offerendas,
+<pb n="0501A"/>
+praeter altare Domini Dei nostri, quod exstructum
+est ante tabernaculum ejus. Quibus auditis,
+Phinees sacerdos, et principes legationis Israel, qui
+erant cum eo, placati sunt: et verba filiorum Ruben,
+et Gad, et dimidiae tribus Manasse, libentissime
+susceperunt. Dixitque Phinees filius Eleazari sacerdos
+ad eos: Nunc scimus quod nobiscum sit Dominus,
+quoniam alieni estis a praevaricatione hac, et
+liberastis filios Israel de manu Domini. Reversusque
+est cum principibus a filiis Ruben et Gad, de terra
+Galaad, finium Chanaan, ad filios Israel, et retulit
+eis. Placuitque sermo cunctis audientibus. Et laudaverunt
+[h. benedixerunt] Deum filii Israel, et nequaquam
+ultra dixerunt, ut ascenderent contra eos,
+atque pugnarent, et delerent terram possessionis
+<pb n="0501B"/>
+eorum. Vocaveruntque filii Ruben, et filii Gad, altare
+quod exstruxerant, Testimonium nostrum,
+quod Dominus ipse sit Deus.</p>
+<p>[T. XI, B. XXXII, C. CV, Cap. XXIII.] Evoluto
+autem multo tempore, postquam pacem Dominus
+dederat Israeli, subjectis in gyro nationibus universis,
+et Josue erat longaevus, et persenilis aetatis:
+vocavit Josue omnem Israelem, majoresque natu,
+et principes ac duces, et magistros, dixitque ad eos:
+Ego senui, et progressioris aetatis sum: vosque
+cernitis omnia, quae fecerit Dominus Deus vester
+cunctis per circuitum nationibus, quo modo pro vobis
+ipse pugnaverit; et nunc quia vobis sorte divisit
+omnem terram, ab orientali parte Jordanis usque
+ad mare magnum, multaeque adhuc supersunt
+<pb n="0501C"/>
+nationes; Dominus Deus vester disperdet eas et
+auferet a facie vestra, et possidebitis terram, sicut
+vobis pollicitus est. Tantum confortamini, et estote
+solliciti ut custodiatis cuncta quae scripta sunt in
+volumine legis Mosi: et non declinetis ab eis nec
+ad dexteram nec ad sinistram: ne postquam intraveritis
+ad gentes, quae inter vos futurae sunt, juretis
+in nomine deorum earum, et serviatis eis, et adoretis
+illos: sed adhaereatis Domino Deo vestro:
+quod fecistis usque in diem hanc. Et tunc auferet
+Dominus Deus in conspectu vestro gentes magnas
+et robustissimas, et nullus vobis resistere poterit.
+Unus e vobis persequetur hostium mille viros: quia
+Dominus Deus vester pro vobis ipse pugnabit, sicut
+pollicitus est. Hoc tantum diligentissime praecavete,
+<pb n="0501D"/>
+ut diligatis Dominum Deum vestrum. Quod si volueritis
+gentium harum, quae inter vos habitant,
+erroribus adhaerere, et cum eis miscere connubia,
+atque amicitias copulare: jam nunc scitote quod
+Dominus Deus vester non eas deleat ante faciem vestram,
+sed sint vobis in foveam ac laqueum, et offendiculum
+ex latere vestro, et sudes in oculis vestris,
+donec vos auferat atque disperdat de terra hac optima,
+quam tradidit vobis. [C. CVI.] En ego hodie
+ingrediar viam universae terrae, et toto corde, et
+toto animo cognoscetis, quod de omnibus verbis,
+<pb n="0502A"/>
+quae se Dominus praestaturum vobis esse pollicitus
+est, unum non praeterierit incassum. Sicut ergo implevit
+opere quod promisit, et prospera cuncta venerunt:
+sic adducet super vos quidquid malorum
+comminatus est, donec vos auferat atque disperdat
+de terra hac optima, quam tradidit vobis, eo quod
+praeterieritis pactum Domini Dei vestri, quod pepigit
+vobiscum, et servieritis diis alienis, et adoraveritis
+eos: cito atque velociter consurget in vos furor Domini,
+et auferemini de terra hac optima, quam tradidit
+vobis.</p>
+<p>[B. XXXIII, Cap. XXIV.] Congregavitque Josue
+omnes tribus Israel in Sichem, et vocavit majores
+natu, ac principes, et judices, et magistros: steteruntque
+in conspectu Dei [ <hi>Vulg.</hi> Domini]: et ad
+<pb n="0502B"/>
+populum sic locutus est: Haec dicit Dominus Deus
+Israel: Trans fluvium habitaverunt patres vestri ab
+initio. Thare pater Abraham et Nahor: servieruntque
+diis alienis. Tuli ergo patrem vestrum Abraham de
+Mesopotamiae finibus: et adduxi eum in terram
+Chanaan, multiplicavique semen ejus, et dedi ei
+Isaac: illique rursum dedi Jacob et Esau. E quibus,
+Esau dedi montem Seir ad possidendum: Jacob vero
+et filii ejus descenderunt in Aegyptum. Misique Mosen
+et Aaron, et percussi Aegyptum multis signis
+atque portentis. Eduxique vos et patres vestros de
+Aegypto, et venistis ad mare: persecutique sunt
+Aegyptii patres vestros cum curribus et equitatu,
+usque ad mare Rubrum. Clamaverunt autem ad Dominum <hi>filii Israel</hi> 
+ [h. non habet]: qui posuit tenebras
+<pb n="0502C"/>
+inter vos et Aegyptios, et adduxit super eos
+mare, et operuit illos. Viderunt oculi vestri cuncta
+quae in Aegypto fecerim, et habitastis in solitudine
+multo tempore: et introduxi vos ad terram Amorrhaei,
+qui habitabat trans Jordanem. Cumque pugnarent
+contra vos, tradidi eos in manus vestras, et
+possedistis terram eorum, atque interfecistis illos.
+Surrexit autem Balac, filius Sepphor, rex Moab, et
+pugnavit contra Israelem. Misitque et vocavit Balaam,
+filium Beor, ut malediceret vobis: et ego nolui
+audire eum, sed econtrario per illum benedixi
+vobis, et liberavi vos de manu ejus. Transistisque
+Jordanem, et venistis ad Jericho. Pugnaveruntque
+contra vos viri civitatis ejus, Amorrhaeus, et Pherezaeus,
+et Chananaeus, et Hetthaeus, et Gergeseus,
+<pb n="0502D"/>
+et Evaeus, et Jebusaeus: et tradidi illos in manus
+vestras. [C. CVII.] Misique ante vos crabrones: et
+ejeci [h. et ejecerunt] eos de locis suis, duos reges
+Amorrhaeorum, non in gladio nec in arcu tuo. Dedique
+vobis terram, in qua non laborastis, et urbes
+quas non aedificastis, ut habitaretis in eis: vineas
+et oliveta, quae non plantastis [h. comeditis]. Nunc
+ergo timete Dominum, et servite ei perfecto corde
+atque verissimo: et auferte deos, quibus servierunt
+patres vestri in Mesopotamia et in Aegypto, ac servite
+Domino. Sin autem malum vobis videtur ut
+<pb n="0503A"/>
+Domino serviatis, optio vobis datur: eligite hodie
+quod placet, cui servire potissimum debeatis, utrum
+diis, quibus servierunt patres vestri in Mesopotamia,
+an diis Amorrhaeorum, in quorum terra habitatis:
+ego autem et domus mea serviemus Domino.
+Responditque populus, et ait: Absit a nobis,
+ut relinquamus Dominum, et serviamus diis alienis.
+Dominus [h. Quoniam Dominus] Deus noster ipse
+eduxit nos, et patres nostros, de terra Aegypti, de
+domo servitutis: fecitque videntibus nobis signa
+ingentia, et custodivit nos in omni via, per quam
+ambulavimus, et in cunctis populis, per quos transivimus.
+Et ejecit universas gentes, et Amorrhaeum
+habitatorem terrae, quam nos intravimus. Serviemus
+igitur Domino, quia ipse est Deus noster.
+<pb n="0503B"/>
+[C. CIX.] Dixitque Josue ad populum: Non poteritis
+servire Domino: Deus enim sanctus, et fortis aemulator
+est, nec ignoscet sceleribus vestris atque peccatis.
+Si dimiseritis Dominum, et servieritis diis alienis,
+convertet se, et affliget vos atque subvertet postquam
+vobis praestiterit bona. Dixitque populus ad Josue.
+Nequaquam ita ut loqueris, erit, sed Domino serviemus.
+Et Josue ad populum: Testes, inquit, vos
+estis, quia ipsi elegeritis vobis Dominum ut serviatis
+ei. Responderuntque: Testes. Nunc ergo, ait,
+auferte deos alienos de medio vestri, et inclinate
+corda vestra ad Dominum Deum Israel. Dixitque
+<pb n="0504A"/>
+populus ad Josue: Domino Deo nostro serviemus, et
+obedientes erimus praeceptis ejus. Percussit igitur
+Josue in die illo foedus, et proposuit populo praecepta
+atque judicia in Sichem. [C. CX.] Scripsitque
+omnia verba haec in volumine legis Domini: et tulit
+lapidem pergrandem, posuitque eum subter quercum,
+quae erat in sanctuario Domini: et dixit ad
+omnem populum: En lapis iste erit vobis in testimonium,
+quod audierit omnia verba Domini quae locutus
+est vobis: ne forte postea negare velitis, et
+mentiri Domino Deo vestro. Dimisitque populum,
+singulos in possessionem suam. Et post haec mortuus
+est Josue, filius Nun, servus Domini, centum decem
+annorum: sepelieruntque eum in finibus possessionis
+suae in Thamnath Sare, quae sita est in monte
+<pb n="0504B"/>
+Ephraim, a septentrionali parte montis Gaas. Servitque
+Israel Domino cunctis diebus Josue, et seniorum
+qui longo vixerunt tempore post Josue, et qui
+noverant omnia opera Domini quae fecerat in Israel.
+Ossa quoque Joseph, quae tulerant filii Israel de
+Aegypto, sepelierunt in Sichem, in parte agri, quem
+emerat Jacob a filiis Emor, patris Sichem, centum
+novellis ovibus, et fuit in possessionem filiorum Joseph.
+Eleazar quoque, filius Aaron, mortuus est: et
+sepelierunt eum in Gabaath Phinees filii ejus, quae
+data est ei in montem Ephraim.</p>
+<p>
+          <emph>
+            <pb n="0503"/> <hi>Explicit liber Josue Ben Nun.</hi> </emph>
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

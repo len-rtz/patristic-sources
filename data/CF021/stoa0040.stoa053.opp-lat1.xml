@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>De natura boni [CSEL]</title>  
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date></author>
+              </titleStmt>
+               
+		<publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1892</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 25.2</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/CorpusScriptorumEcclesiasticorumLatin252/Corpus_scriptorum_ecclesiasticorum_latin_25_2#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Iosephus Zycha</name>; <addName xml:lang="de">Joseph Zycha</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>August.DeNaBonCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL25_2.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0040.stoa053.opp-lat1"/>
+<div1 n="1" subtype="chapter"><head>cap. 1</head>
+          
+          
+
+<p>Summum bonum quo superius non est, deus est; ac <lb/>
+            per hoc incommutabile bonum est; ideo uere aeternum et <lb/>
+            uere inmortale. cetera omnia bona nonnisi ab illo sunt, sed <lb n="5"/>
+            non de illo. de illo enim quod est, hoc quod ipse est; ab <lb/>
+            illo autem quae facta sunt, non sunt quod ipse. ac per <choice><note>hoe</note><corr>hoc</corr></choice> <lb/>
+            si solus ipse incommutabilis, omnia quae fecit, quia ex nihilo. <lb/>
+            fecit, mutabilia sunt. tam enim omnipotens est, ut possit <lb/>
+            M etiam de nihilo, id est ex eo, quod omnino non est, bona <lb n="10"/>
+            facere, et magna et parua, et caelestia et terrena, et spiritalia <lb/>
+            et corporalia. quia uero et iustus est, ei, quod de se genuit, <lb/>
+            ea, quae de nihilo fecit, non aequauit. quia ergo bona omnia, <lb/>
+            siue magna siue parua, per quoslibet rerum gradus non possunt <lb/>
+            esse nisi a deo; omnis autem natura, in quantum natura <lb n="15"/>
+            est, bonum est: omnis natura non potest esse nisi a summo <lb/>
+            et uero deo, quia omnia etiam non summa bona, sed propinqua <lb/>
+            summo bono et rursus omnia etiam nouissima bona, <lb/>
+            quae longe sunt a summo bono, non possunt esse nisi ab <lb/>
+            ipso summo bono. omnis ergo spiritus, etiam mutabilis, et <lb n="20"/>
+            omne corpus a deo: haec est omnis facta natura. omnis <lb/>
+            quippe natura aut spiritus aut corpus est. spiritus incommutabilis <lb/>
+            deus est, spiritus mutabilis facta natura est, sed corpore <lb/>
+            melior; corpus autem spiritus non est, nisi cum uentus, <lb/>
+            quia nobis inuisibilis est, et tamen uis eius non parua sentitur, <lb n="25"/>
+            alio quodam modo spiritus dicitur.
+
+<app> 2 Retractatio libri beati (om. <hi>G)</hi> augustini de natura boni. incipit de <lb/>
+            natura boni p. 77 <hi>Sp</hi>. 281 <hi>G</hi> Incipit <hi>(om. PA)</hi> liber sancti <hi>(om. A,</hi> beatiZ.) <lb/>
+            augustini <hi>(om. A)</hi> de natura boni aduersus maaicheos <hi>(om. PSLG) <lb/>
+            fol</hi>. 70 <hi>P fol</hi>. 29 <hi>A fol</hi>. 1 <hi>L</hi> 4 et ideo <hi>b</hi> 6 hoc] hoc est (est <hi>add</hi>. <lb/>
+            m. 2) <hi>Pb</hi> 10 eo quod] quo <hi>G</hi> 12 ei quodj ei fllio quern <hi>G</hi> 13 omnia <lb/>
+            bona <hi>VL</hi> 19 bono <hi>om. G</hi> 21 haec] et haec <hi>G</hi> et hoc <hi>b</hi> 22 <hi>post</hi> <lb/>
+            eat <hi>add</hi>. et <hi>V</hi> 24 qui uentus <hi>b</hi> (in <hi>mg</hi>. al. conuentusj 25 qui anobis <hi>P</hi> <lb/>
+            sentitur <hi>(in mg</hi>. al. uidetur) <hi>b</hi> 26 quodam] aliquo <hi>V</hi> </app> 
+<pb n="856"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="2" subtype="chapter"><head>cap. 2</head>
+
+<p>Propter eos autem, qui, cum intellegere non possunt <lb/>
+            omnem naturam. id est omnem spiritum et omne corpus <lb/>
+            naturaliter bonum esse, mouentur spiritus iniquitate et corporis <lb/>
+            mortalitate et ob hoc aliam naturam maligni spiritus <lb/>
+            et mortalis corporis, quam deus <choice><note>noTi</note><corr>non</corr></choice> fecerit, conantur inducere:<lb n="5"/>
+            sic arbitramur ad eorum intellectum, quod dicimus, posse perduci. <lb/>
+            fatentur enim omne bonum non esse posse nisi a summo <lb/>
+            et uero deo, quod et uerum est et ad eos corrigendos, si <lb/>
+            uelint <sic>aduerteie</sic>, sufficit. 
+</p>
+          
+</div1>
+
+<div1 n="3" subtype="chapter"><head>cap. 3</head>
+
+<p>Nos enim catholici christiani deum colimus, a quo<lb n="10"/>
+            omnia bona sunt seu magna seu parua; a quo est omnis <lb/>
+            -modus, siue magnus siue paruus; a quo omnis species, siue <lb/>
+            magna siue parua; a quo omnis ordo, siue magnus siue <lb/>
+            paruus. omnia enim quanto magis moderata, speciosa, ordinata <lb/>
+            sunt, tanto magis utique bona sunt; quanto autem minus<lb n="15"/>
+            moderata, minus speciosa, minus ordinata sunt, minus bona <lb/>
+            sunt. haec itaque tria: modus, species et ordo, ut de innumerabilibus <lb/>
+            taceam, quae ad ista tria pertinere monstrantur, <lb/>
+            haec ergo tria : modus, species, ordo, tamquam generalia <lb/>
+            bona sunt in rebus a deo factis siue in spiritu <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> in corpore.<lb n="20"/>
+            deus itaque supra omnem creaturae modum est, supra <lb/>
+            omnem speciem, supra omnem ordinem: nec spatiis locorum <lb/>
+            supra est, sed ineffabili et singulari potentia; a quo omnis <lb/>
+            modus, omnis species, omnis ordo. haec tria ubi magna sunt, <lb/>
+            magna bona sunt; ubi parua sunt, parua bona sunt; ubi <lb n="25"/>
+            nulla sunt. nullum bonum est. et rursus haec tria ubi magna <lb/>
+            sunt, magnae naturae sunt; ubi parua sunt, paruae naturae
+
+<app>4 immortalitate <hi>(sp. m. 1) 8</hi> spiritalis (in <hi>mg</hi>. I spiritus) <hi>S<lb/>
+             5 fecerat V 6 duci G 7 enimj autein b</hi> 8 deo] <hi>bono b</hi> 10 a quoparuae <lb/>
+            <hi>om. G</hi> 13 a quo est omnis modus sine magnus siue paruns <lb/>
+            9 quo omnis speciessįuę mangna siue parua. a quo est omnis ordo <hi>sqq. G</hi> <lb/>
+            14 mo derata P 17 itaque] namque <hi>L</hi> et <hi>om. b</hi> 19 haecordo <lb/>
+            om. <hi>V</hi> ergo <hi>om. L</hi> 21 supra omnem ordinem supra omnem <lb/>
+            eperiem <hi>P</hi> 22 epatiis] species <hi>G</hi> 24 hęc ergo <hi>b</hi> ubi <hi>s. I. a m. 1 S</hi> <lb/>
+            ubicvque (cv <hi>s. I.) G</hi> 26 rureum <hi>A</hi> ubi hęc tria <hi>b</hi> ubi magna sunt <lb/>
+            hęc tria <hi>L</hi> 27 <hi>priua</hi> naturae1 creare <hi>A</hi> </app> <lb/>
+             
+<pb n="857"/>
+            sunt; ubi nulla sunt, <choice><note>nvlla</note><corr>nulla</corr></choice> natura est. omnis ergo natura <lb/>
+            bona est. 
+</p>
+          
+</div1>
+
+<div1 n="4" subtype="chapter"><head>cap. 4</head>
+
+<p>Proinde cum quaeritur, unde <choice><note>Bit</note><corr>sit</corr></choice> malum, <choice><note>priue</note><corr>prius</corr></choice> quaerendum <lb/>
+            est, quid sit malum . quod nihil aliud est quam corruptio <lb/>
+            uel modi uel speciei uel ordinis naturalis. mala, itaque <lb n="5"/>
+            natura dicitur, quae corrupta est; nam <choice><note>mcornipta</note><corr>incorrupta</corr></choice> utique bona <lb/>
+            est. sed etiam ipsa corrupta, in quantum natura est, bona <lb/>
+            est; in quantum corrupta est, mala est. 
+</p>
+          
+</div1>
+
+<div1 n="5" subtype="chapter"><head>cap. 5</head>
+
+<p>Fieri autem potest, ut quaedam natura, quae modo et <lb/>
+            specie naturali excellentius ordinata est, etiam corrupta melior <lb n="10"/>
+            sit adhuc quam est incorrupta <choice><note>altcra</note><corr>altera</corr></choice>. quae minore modo et <lb/>
+            specie naturali inferius ordinata est . sicut in hominum aestimatione <lb/>
+            secundum qualitatem, quae aspectibus adiacet, melius <lb/>
+            est utique etiam corruptum aurum quam incorruptum argentum <lb/>
+            et melius est etiam corruptum argentum quam plumbum <lb n="15"/>
+            incorruptum: sic et in naturis potentioribus atque <choice><note>upiritalibus</note><corr>spiritalibus</corr></choice> <lb/>
+            melior est etiam corruptus per malam uoluntatem spiritus <lb/>
+            rationalis quam inrationalis incorruptus; et melior est quilibet <lb/>
+            spiritus etiam corruptus quam corpus quodlibet incorruptum <lb/>
+            melior est enim natura, quae cum praesto est corpori, praebet <lb n="20"/>
+            ei uitam, quam illa, cui uita praebetur. quantumlibet autem <lb/>
+            corruptus sit spiritus uitae, qui factus est, uitam praebere <lb/>
+            corpori potest; ac per hoc melior illo est quamuis incorrupto <lb/>
+            corruptus. 
+</p>
+          
+</div1>
+
+<div1 n="6" subtype="chapter"><head>cap. 6</head>
+
+<p>Corruptio autem si <choice><note>emnem</note><corr>omnem</corr></choice> modum, omnem speciem <lb n="25"/>
+            omnem ordinem rebus corruptibilibus auferat, nulla natura <lb/>
+            remanebit. ac per hoc omnis natura, quae corrumpi non potest, <lb/>
+            summum bonum est, sicut deus est. omnis autem natura, <lb/>
+            quae corrumpi potest, etiam ipsa aliquod bonum est: non
+
+<app> 1 nulle naturesunt <hi>G</hi>nulla nturę est A 4 quid] quod P 6 quae] qfi <hi>b</hi> <lb/>
+            7 ipsa etiam <hi>V</hi> ipsa <hi>om. P</hi> 10 naturalis (s <hi>8. I. a m. I) G</hi> excellentig<lb/>
+             <hi>G</hi> 11 incorrupta (in <hi>8. I. a w. 1) S</hi> 13$qualitatem <hi>b</hi> <lb/>
+            14 utique] itaque <hi>Ab</hi> etiam om. <hi>b</hi> 15 etiam om. <hi>Ah</hi> utique <lb/>
+            argentum etiam corruptum <hi>L</hi> 17 etiam] enim <hi>b</hi> 21 eiJ et <hi>G</hi> quantum <hi>b</hi> <lb/>
+            22 et uitam <hi>b</hi> 28 ille <hi>G</hi> 25 aatem] enim <hi>A</hi> 26 rebusque <hi>SP1</hi> <lb/>
+            27 non <hi>om. G</hi> 28 <hi>alt</hi>. est <hi>om. A</hi> antem1 enim <hi>A</hi> 29 non-eat <hi>om. G</hi> </app> <lb/>
+             
+<pb n="858"/>
+            enim posset ei nocere corruptio nisi adimendo et minuendo <lb/>
+            quod bonum est. 
+</p>
+          
+</div1>
+
+<div1 n="7" subtype="chapter"><head>cap. 7</head>
+
+<p>Creaturis autem praestantissimis, hoc est rationalibus <lb/>
+            spiritibus, hoc praestitit deus, ut si nolint, corrumpi <choice n="0.00"><note n="18">uon</note><corr n="65020">non</corr></choice> <lb/>
+            possint, id est, si oboedientiam conseruauerint sub domino<lb n="5"/>
+            deo suo ac sic incorruptibili pulchritudini eius adhaeserint; <lb/>
+            si autem oboedientiam conseruare noluerint. quoniam uolentes <lb/>
+            corrumpuntur in peccatis, nolentes corrumpantur in poenis. <lb/>
+            tale quippe bonum est deus, ut nemini eum deserenti bene <lb/>
+            sit; et in rebus a deo factis tam magnum bonum est natura<lb n="10"/>
+            rationalis, ut nullum sit bonum, quo beata sit, nisi deus. <lb/>
+            peccantes igitur in suppliciis ordinantur: quae ordinatio quia <lb/>
+            eorum naturae non competit. ideo poena est; sed quia culpae <lb/>
+            competit, ideo iustitia est. 
+</p>
+          
+</div1>
+
+<div1 n="8" subtype="chapter"><head>cap. 8</head>
+
+<p>Cetera uero, quae sunt facta de nihilo, quae utique inferiora<lb n="15"/>
+            sunt quam spiritus rationalis, nec beata possunt esse <lb/>
+            nec misera. sed quia pro modo et specie sua etiam ipsa bona <lb/>
+            sunt nec esse quamuis minora et minima bona nisi a summo <lb/>
+            bono deo potuerunt, sic ordinata sunt, ut cedant infirmiora <lb/>
+            firmioribus et inualidiora fortioribus et inpotentiora potentioribus,<lb n="20"/>
+            atque ita caelestibus terrena concordent tamquam praecellentibus <lb/>
+            subdita. fit autem decedentibus et succedentibus <lb/>
+            rebus temporalis quaedam in suo genere pulchritudo. ut nec <lb/>
+            ipsa, quae moriuntur uel quod erant esse desinunt, turpent <lb/>
+            ac turbent modum et speciem et ordinem uniuersae creaturae: <lb n="25"/>
+            sicut sermo bene compositus utique pulcher est, quamuis in <lb/>
+            eo syllabae atque omnes soni tamquam nascendo et moriendo <lb/>
+            <choice><note>traneeurrant</note><corr>transcurrant</corr></choice>. 
+</p>
+          
+</div1>
+
+<div1 n="9" subtype="chapter"><head>cap. 9</head>
+
+<p>Qualis autem et quanta poena cuique culpae debeatur, <lb/>
+            diuini iudicii est, non humani: quae utique et cum conuersis
+
+<app>3 enim A 6 sic] si <hi>G</hi> 10 nature <hi>b</hi> 12 sapliciis P 18 con- petit <lb/>
+            P1 15 sunt de nihilo facta <hi>L</hi> 18 necesse <hi>P</hi> nec- <hi>(uers</hi>. 24) <lb/>
+            erant <hi>om. L</hi> 19 esse poterant <hi>b</hi> cędent <hi>Pl</hi> 20 inuallidiora <hi>P</hi> <lb/>
+            innalida <hi>G</hi> 22 autem] enim A 23 temporalibus rebus <hi>G</hi> 24 desinant <hi>b</hi> <lb/>
+            25 ac] aut <hi>PAVGb</hi> 29 qualis-humani <hi>om. G</hi> enim <hi>Å</hi> </app> <lb n="30"/>
+             
+<pb n="859"/>
+            remittitur, magna est bonitas apud deum. et <choice n="0.03"><note n="1419">cura</note><corr n="42581">cum</corr></choice> debita redditur, <lb/>
+            nulla est iniquitas apud deum, quia melius ordinatur <lb/>
+            natura, ut iuste doleat in supplicio quam ut inpune gaudeat <lb/>
+            in peccato. quae tamen etiam sic habens nonnullum modum <lb/>
+            et speciem et ordinem in quacumque extremitate adhuc aliquod <lb n="5"/>
+            bonum est: quae si omnino detrahantur et penitus consumantur, <lb/>
+            ideo nullum bonum erit, quia nulla natura remanebit. 
+</p>
+          
+</div1>
+
+<div1 n="10" subtype="chapter"><head>cap. 10</head>
+
+<p>Omnes igitur naturae corruptibiles nec omnino naturae <lb/>
+            essent, nisi a deo essent, nec corruptibiles essent, si de illo <lb/>
+            essent, quia hoc, quod ipse est, essent. ideo ergo quocumque <lb n="10"/>
+            modo, quacumque specie. quocumque ordine sunt. quia deus <lb/>
+            est, a quo factae sunt; ideo autem non incommutabiles sunt, . <lb/>
+            quia nihil est, unde factae <choice><note>aunt</note><corr>sunt</corr></choice>. sacrilega enim audacia coaequantur <lb/>
+            nihil et deus, si quale est illud, quod de deo natum <lb/>
+            est, tale uelimus esse illud, quod ab eo de nihilo factum est. <lb n="15"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="11" subtype="chapter"><head>cap. 11</head>
+
+<p>Quapropter nec naturae dei omnino noceri potest nec <lb/>
+            alicui naturae sub deo noceri iniuste potest, quia et cum <lb/>
+            peccando iniuste aliqui nocent, uoluntas iniusta eis inputatur; <lb/>
+            potestas autem, qua nocere permittuntur. non est nisi a deo, <lb/>
+            qui et ipsis nescientibus nouit, quid illi pati debeant. quibus <lb n="20"/>
+            eos nocere permittit. 
+</p>
+          
+</div1>
+
+<div1 n="12" subtype="chapter"><head>cap. 12</head>
+
+<p>Haec omnia tam perspicua, tam certa si uelint aduertere, <lb/>
+            qui aliam naturam inducunt, quam non fecit deus, non <lb/>
+            tantis blasphemiis implerentur, ut et in summo malo tanta <lb/>
+            bona ponerent et in deo tanta mala. sufficit enim, ut supra <lb n="25"/>
+            dixi, ad eorum correctionem, si uelint <choice><note>adlendere</note><corr>adtendere</corr></choice>, quod eos <lb/>
+            etiam inuitos cogit ueritas confiteri omnia prorsus bona non
+
+<app> 1 remitatur A et cum] cura <hi>(sup</hi>. cum <hi>superscr</hi>. dm) <hi>A</hi> et—deum <lb/>
+            <hi>om. L</hi> reditur <hi>P'</hi> 3 supplitio <hi>P</hi> et impone <hi>0</hi> 4 quae] quia b <lb/>
+            etiam om. <hi>b</hi> habens <hi>(in tas.) S</hi> habent <hi>b</hi> 6 et] et ut A at <hi>b</hi> <lb/>
+            poenitua <hi>SP</hi> consumatur Gt consum mantur <hi>P</hi> 8 igitur] ergo <hi>b</hi> <lb/>
+            olno ns <hi>b</hi> 9 nec-essent <hi>om. L</hi> 12 autem] enim A non <hi>om. V, <lb/>
+            8. l. L</hi> incommutabiles (s <hi>a m. 1 s. I.) P</hi> 13 elim] autem <hi>b</hi> audatia <hi>P</hi> <lb/>
+            14 deo] eo G 16 Qua nec propter A natura G nocere omnino <hi>b</hi> <lb/>
+            17nocere G quia Gl 18 aliquidG 20 nocentibus b <hi>22 uellentPAVGb</hi> <lb/>
+            27 prorsus bona. et ab alio parua bona &amp; nisi <hi>sqq. A</hi> </app> <lb/>
+             
+<pb n="860"/>
+            esse nisi a deo. non ergo ab alio sunt magna bona et ab <lb/>
+            alio parua bona, sed et magna et parua bona nonnisi a <lb/>
+            summo bono, quod deus est. 
+</p>
+          
+</div1>
+
+<div1 n="13" subtype="chapter"><head>cap. 13</head>
+
+<p>Commemoremus ergo bona quanta potuerimus. quae <lb/>
+            dignum est ut deo auctori tribuamus. et his sublatis uideamus,<lb n="5"/>
+            utrum aliqua natura remanebit. omnis uita et magna <lb/>
+            et parua, omnis potentia et magna et parua, omnis salus et <lb/>
+            magna et parua, omnis memoria et magna et <sic>pama</sic>, omnis <lb/>
+            intellectus et magnus et paruus, omnis tranquillitas et magna <lb/>
+            et parua, omnis uirtus et magna et parua, omnis copia et <lb n="10"/>
+            magna et parua, omnis sensus et magnus et <choice><note>parous</note><corr>paruus</corr></choice>, omne <lb/>
+            lumen et magnum et paruum, omnis suauitas et magna et <lb/>
+            parua, omnis mensura et magna et parua, omnis pulchritudo . <lb/>
+            et magna et parua. omnis pax et magna et parua et si qua <lb/>
+            similia occurrere potuerint maximeque illa, quae per omnia<lb n="15"/>
+            reperiuntur, <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> spiritalia <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> corporalia, omnis modus, omnis <lb/>
+            species, omnis ordo et magnus et paruus, a domino deo sunt. <lb/>
+            quibus bonis omnibus qui male uti uoluerit, diuino iudicio <lb/>
+            poenas luet; ubi autem nullum horum omnino fuerit, nulla <lb/>
+            natura remanebit. <lb n="20"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="14" subtype="chapter"><head>cap. 14</head>
+
+<p>Sed in his omnibus quaecumque parua sunt. in maiorum <lb/>
+            comparatione contrariis nominibus appellantur: sicut in hominis <lb/>
+            forma quia maior est pulchritudo. in eius comparatione <lb/>
+            simiae pulchritudo deformitas dicitur. et fallit inprudentes, <lb/>
+            tamquam illud sit bonum et hoc malum; nec intendunt in <lb n="25"/>
+            corpore simiae modum proprium, parilitatem ex utroque latere <lb/>
+            membrorum, concordiam partium, incolumitatis custodiam et <lb/>
+            N cetera, quae persequi longum est.&lt;.
+
+<app> 1 alio (o <hi>sup. a a</hi><hi>m. 1) SP2</hi>. 2 alia P1 sed <hi>om. L</hi> nonnisi] non <lb/>
+            eunt nisi <hi>YLb</hi> 4 quanttl <hi>b</hi> 6 ut deo] ut ea deo <hi>G</hi> 8 <hi>post</hi> memoria <lb/>
+            <hi>sequitur in b</hi> omnis uirtus 12 suauitas] uanitas <hi>b</hi> 15 concurrere <lb/>
+            poternnt <hi>b</hi> 16 repperiuntur <hi>SAG</hi> et omnis species <hi>V</hi> 18 bonis <lb/>
+            omnibus] omnibus modis quibus <hi>L</hi> noluerint <hi>G</hi> iuditio P <lb/>
+            19 poenis P1 laent <hi>G</hi> 22 conparationem P1 23 eius pulchritudo <hi>b</hi> <lb/>
+            comparatione et seinie. Simif <hi>sqq. b</hi> 26 parilitatem (ri <hi>ex</hi> ra <hi>a m. <lb/>
+            1) P</hi> 27 incoJomitatis <hi>SÃG</hi> 28 quae] qua P1 prosequi b </app> 
+<pb n="861"/>
+             
+</p>
+          
+</div1>
+
+<div1 n="15" subtype="chapter"><head>cap. 15</head>
+
+<p>Sed, ut quod dicimus intellegatur et nimium tardis <lb/>
+            satis fiat, uel etiam pertinaces et apertissime ueritati repugnantes <lb/>
+            cogantur quod uerum est confiteri, interrogentur, <lb/>
+            utrum corpori simiae possit nocere corruptio. quod si potest, <lb/>
+            ut foedius fiat, quid minuit nisi pulchritudinis bonum ? unde <lb n="5"/>
+            tamdiu aliquid remanebit, quamdiu corporis natura subsistit <lb/>
+            proinde si consumpto bono natura consumitur, bona est ergo <lb/>
+            natura. sic et tardum dicimus ueloci contrarium; sed tamen . <lb/>
+            qui se omnino non monet, nec tardus dici potest. sic acutae. <lb/>
+            uoci contrariam uocem dicimus grauem uel canorae asperam; <lb n="10"/>
+            sed si omnem speciem uocis penitus adimas, silentium est, <lb/>
+            ubi uox nulla est: quod tamen silentium eo ipso, quod uox <lb/>
+            nulla est. tamquam contrarium uoci solet obponi. sic et lucida <lb/>
+            et obscura tamquam duo contraria dicuntur; habent tamen <lb/>
+            et obscura aliquid lucis, quod si penitus careant, ita sunt <lb n="15"/>
+            tenebrae lucis absentia sicut silentium uocis absentia. 
+</p>
+          
+</div1>
+
+<div1 n="16" subtype="chapter"><head>cap. 16</head>
+
+<p>Quae tamen etiam priuationes rerum sic in uniuersitate <lb/>
+            naturae ordinantur, ut sapienter considerantibus non indecenter <lb/>
+            uices suas habeant. nam et deus certa loca et tempora non <lb/>
+            inluminando tenebras fecit tam decenter quam dies. si enim <lb n="20"/>
+            nos continendo uocem decenter interponimus in loquendo <lb/>
+            silentium: quanto magis ille quarundam rerum priuationes <lb/>
+            decenter facit sicut rerum omnium perfectus artifex ? unde <lb/>
+            et in hymno trium puerorum etiam lux et tenebrae laudant <lb/>
+            deum, id est eius laudem bene considerantium cordibus <lb n="25"/>
+            pariunt. 
+</p>
+          
+</div1>
+
+<div1 n="17" subtype="chapter"><head>cap. 17</head>
+
+<p>Non ergo mala, in quantum natura est, ulla natura,
+
+<app>2 apertrsima <hi>S</hi> 4 sime P1 5 fgdius <hi>SP</hi> fedius stat quod minuit <lb/>
+            si A 6 aliquid <hi>om. G</hi> 7 siS sQpto <hi>A</hi> consumto P ergo <lb/>
+            eat <hi>V</hi> 9 sic] si 8 10 contraritt <hi>A</hi> grauem dicimus <hi>PAVLG</hi> <lb/>
+            canore S . 11 omnem <hi>om. A</hi> penitus <hi>om. A</hi> 13 apponi <hi>Gx</hi> <lb/>
+            et <hi>otn. A</hi> 14 et (s. <hi>I. a m. 1)</hi> 8 <hi>om</hi>. P1G1 15 locis Pl quod] <lb/>
+            quo <hi>AVG2b</hi> sint <hi>G</hi> 16 sicut-absentia <hi>om. L</hi> 17 sic G1 <lb/>
+            ordinantur in uniuersitate <hi>naturę b</hi> 19 haboeant S 20 facit P <lb/>
+            quam P1 dies] deus <hi>PSALGb</hi> 24 in <hi>om. A</hi> hymno 8 ymno <hi>AG</hi> <lb/>
+            25 dominum <hi>G</hi> bene] in bene <hi>AG</hi> 27 mala est <hi>b</hi> quantum <lb/>
+            natura <hi>om. P*</hi> </app> <lb/>
+             
+<pb n="862"/>
+            sed cuique naturae non est malum nisi minui bono. quod si <lb/>
+            minuendo absumeretur, sicut nullum bonum, ita nulla natura <lb/>
+            relinqueretur, non solum qualem inducunt Manichaei, ubi <lb/>
+            tanta bona inueniuntur, ut nimia eorum caecitas mira sit, <lb/>
+            sed qualem potest quilibet inducere. <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="18" subtype="chapter"><head>cap. 18</head>
+
+<p>Neque enim uel illa materies, quam hylen antiqui di- <lb/>
+            <sic>Ierunt</sic>, malum dicenda est. non eam dico, quam Manichaeus <lb/>
+            hylen appellat <choice><note>dementiasima</note><corr>dementissima</corr></choice> uanitate nesciens, quid loquatur, <lb/>
+            formatricem corporum — unde recte illi dictum est, quod <lb/>
+            alterum deum inducat; nemo enim formare et creare corpora<lb n="10"/>
+            nisi deus potest: neque enim creantur, nisi cum eis modus <lb/>
+            et species et ordo subsistit, quae bona esse nec esse posse <lb/>
+            nisi a deo, puto quia iam etiam ipsi <choice><note>coniitentur</note><corr>confitentur</corr></choice> — sed hylen <lb/>
+            dico quandam penitus informem et sine qualitate materiem, <lb/>
+            unde istae quas sentimus qualitates formantur, ut antiqui<lb n="15"/>
+            dixerunt. hinc enim et silua graece <foreign xml:lang="grc">λη</foreign> dicitur, quod operantibus <lb/>
+            apta sit, non ut aliquid ipsa faciat, sed unde aliquid <lb/>
+            fiat. nec ista ergo hyle malum dicenda est, quae non per <lb/>
+            aliquam speciem sentiri, sed per omnimodam speciei priuationem <lb/>
+            cogitari uix potest. habet enim et ipsa capacitatem<lb n="20"/>
+            formarum; nam si capere impositam ab artifice formam non <lb/>
+            posset, nec materies utique diceretur. porro si bonum aliquod <lb/>
+            est forma, unde quia ea praeualent, formosi appellantur, sicut <lb/>
+            a specie speciosi, procul dubio bonum aliquid est etiam <lb/>
+            capacitas formae; sicut quia bonum est sapientia, nemo dubitat, <lb n="25"/>
+            quod bonum sit capacem esse sapientiae. et quia omne <lb/>
+            bonum a deo, neminem oportet dubitare etiam istam, si qua <lb/>
+            est, materiem non esse nisi a deo.
+
+<app> 1 minui <hi>om. A</hi> 4 nimia u <hi>A</hi> 6 antiqui hylen <hi>b</hi> 7 non] nam <hi>G</hi> <lb/>
+            8 appellajjt <hi>(exp. m. 1) P</hi> demandatissima <hi>(corr. m. 1) 8</hi> 12 necesse <lb/>
+            P 13 puto <hi>om. G</hi> quia] quae <hi>SL</hi> quod <hi>Gb</hi> 14 materiam <hi>A</hi> <lb/>
+            15 istas <hi>A om. G</hi> formari <hi>A</hi> ut <hi>(8. 1. a m. 1) S om. PiA</hi> <lb/>
+            16 <hi>hylc SPVALG</hi> dicitur hyle <hi>b</hi> 17 non] no P1 19 aliquem P1 <lb/>
+            20 cogitare P1 23 formonsi P1 24 a] ab <hi>AG</hi> aliquod <hi>VLb</hi> <lb/>
+            26 quod-dubitare <hi>om. A</hi> 28 materiam P </app> 
+<pb n="863"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="19" subtype="chapter"><head>cap. 19</head>
+
+<p>Magnifice igitur et diuine deus noster famulo suo <lb/>
+            dixit: ego sum qui sum et: dices filiis Israhel, qui <lb/>
+            est, misit me ad uos. uere enim ipse est, quia incommutabilis <lb/>
+            est; omnis enim mutatio facit non esse quod erat  uere <lb/>
+            ergo ille est, qui incommutabilis est; cetera, quae ab illo <lb n="5"/>
+            facta sunt, ab illo pro modo suo esse acceperunt. ei ergo, <lb/>
+            qui summe est, non potest esse contrarium nisi quod non <lb/>
+            est; ac per hoc sicut ab illo est omne, quod bonum est, sic <lb/>
+            ab illo est omne, quod naturale est, quoniam omne, quod <lb/>
+            naturaliter est, bonum est. <choice n="0.63"><note n="6992">omnia</note><corr n="4070">omnis</corr></choice> itaque natura bona est et <lb n="10"/>
+            omne bonum a deo est; omnis ergo natura a deo est. 
+</p>
+          
+</div1>
+
+<div1 n="20" subtype="chapter"><head>cap. 20</head>
+
+<p>Dolor autem, quod praecipue malum nonnulli arbitrantur, <lb/>
+            siue in animo sit siue in corpore, nec ipse potest esse <lb/>
+            nisi in naturis bonis. hoc enim ipsum, quod restitit, ut doleat, <lb/>
+            quodam modo recusat non esse quod erat, quia bonum aliquod <lb n="15"/>
+            erat. sed cum ad melius cogitur, utilis dolor est, cum <lb/>
+            ad deterius, inutilis. in animo ergo dolorem facit uoluntas <lb/>
+            resistens potestati maiori; in corpore dolorem facit sensus <lb/>
+            resistens corpori potentiori. sunt autem mala sine dolore <lb/>
+            peiora; peius est enim gaudere de iniquitate quam dolere <lb n="20"/>
+            de <choice><note>coiruptione</note><corr>corruptione</corr></choice> . uerumtamen etiam tale gaudium non potest <lb/>
+            esse nisi ex adeptione bonorum inferiorum; sed iniquitas est <lb/>
+            desertio meliorum. item in corpore melius est uulnus cum <lb/>
+            dolore quam putredo sine dolore, quae specialiter corruptio <lb/>
+            dicitur: quam non uidit, id est non passa est mortua caro <lb n="25"/>
+            domini, sicut in prophetia praedictum erat: nec dabis <lb/>
+            sanctum tuum uidere corruptionem. <choice><note>uam</note><corr>nam</corr></choice> uulneratum
+
+<app>2 Ex. 3, 14 26 Ps. 15, 10 27 cf. Ioh. 19, 18 .34 </app>
+
+<app>1 magnificenter et diuine G et] etiam <hi>A</hi> 3 uere-erat <hi>om. A</hi> <lb/>
+            quia] qui <hi>SMA</hi> inroutabilis <hi>A</hi> 5 inmutabilis <hi>SA</hi> 6 suo modo <hi>b</hi> <lb/>
+            -7 non <hi>ante</hi> est <hi>om. G</hi> 9 naturaliter <hi>b</hi> naturale est quod naturaliter <lb/>
+            est <hi>A post</hi> omne <hi>ras. 1 uocabllli in P</hi> 13 sit <hi>post</hi> corpore <hi>add. in b</hi> <lb/>
+            ]4 resistit <hi>LG3b</hi> 17 inutilis est <hi>b</hi> 19 sunt] siC <hi>G</hi> 21 correptione <hi>PV</hi> <lb/>
+            etiam <hi>om. b</hi> 22 ademptione <hi>SG</hi> demp.tione (n <hi>er.) A</hi> sed <hi>S (in <lb/>
+            mg</hi>. I siC) 27 uidere (8. <hi>I. a m. 1) P</hi> uulneratam <hi>P</hi> </app>
+
+<app> XXV Aug. sect. (pars 2). </app>
+
+<app> 55 </app> <lb/>
+             
+<pb n="864"/>
+            esse confixione clauorum et percussum de lancea quis negat? <lb/>
+            sed etiam ipsa, quae proprie ab omnibus corruptio corporis <lb/>
+            dicitur, id est ipsa putredo. si adhuc habet aliquid, quod alte <lb/>
+            consumat, bonum minuendo crescit corruptio. quod si penitus <lb/>
+            <choice><note>absumpsarit</note><corr>absumpserit</corr></choice>, sicut nullum bonum, ita nulla natura remanebit,<lb n="5"/>
+            quia iam corruptio quod corrumpat non erit. et ideo nec ipsa <lb/>
+            putredo erit, quia ubi sit omnino non erit. 
+</p>
+          
+</div1>
+
+<div1 n="21" subtype="chapter"><head>cap. 21</head>
+
+<p>Ideo quippe et parua atque exigua iam communi loquendi <lb/>
+            usu modica dicuntur, quia modus in eis aliquis <lb/>
+            restitit, sine quo iam non modica, sed omnino nulla sunt<lb n="10"/>
+            illa autem, quae propter nimium progressum <sic>dicunturimmodica</sic>. <lb/>
+            ipsa nimietate culpantur: sed tamen etiam ipsa sub <lb/>
+            deo, quia omnia in <choice><note>measura</note><corr>mensura</corr></choice> et numero et pondere disposuit, <lb/>
+            necesse est. ut modo aliquo cohibeantur. 
+</p>
+          
+</div1>
+
+<div1 n="22" subtype="chapter"><head>cap. 22</head>
+
+<p>Deus autem nec modum habere dicendus est, ne finis <lb n="15"/>
+            eius dici putetur. nec ideo tamen immoderatus est, a quo <lb/>
+            modus omnibus rebus tribuitur, ut aliquo modo esse possint. <lb/>
+            nec rursum moderatum oportet dici deum, tamquam ab aliquo <lb/>
+            modum acceperit. si autem dicamus eum summum modum, <lb/>
+            forte aliquid dicimus, si tamen in eo, quod dicimus summum <lb n="20"/>
+            modum, intellegamus summum bonum. omnis enim modus, <lb/>
+            in quantum modus est. bonus est: unde omnia moderata, <lb/>
+            modesta, modificata dici sine laude non possunt, quamquam <lb/>
+            sub alio intellectu modum pro fine ponamus et nullum modum <lb/>
+            dicamus, ubi nullus est finis: quod aliquando cum laude dicitur,<lb n="25"/>
+            sicut dictum est: et regni eius non erit finis.
+
+<app> 13 cf. Sap. 11, 21 26 Luc. 1, 88 </app>
+
+<app>1 percudsum P' de <hi>om. A</hi> 2 propriae <hi>P1</hi> omnibus] hominibus <hi>G</hi> <lb/>
+            corruptio <hi>om. L</hi> 3 abet P1 6 abBumpserit (p <hi>m. 1 superscr.) P</hi> <lb/>
+            6 quod] <hi>que A</hi> 7 omnino <hi>om. A</hi> 10 resistit <hi>AVLb</hi> non iam b <lb/>
+            12 ipsa etiam <hi>b</hi> 13 qui <hi>G</hi> qu6 <hi>A</hi> omnia <hi>om. A</hi> in numero b <lb/>
+            dispossuit <hi>(exp. m. 1) P</hi> 14 nepcesse <hi>(ezp. m. 1)</hi> P et necesse <hi>A</hi> <lb/>
+            aJiquo modo <hi>b</hi> 15 dicendu P1 16 nee] non est <hi>b</hi> est <hi>om. h</hi> <lb/>
+            17 omnibusj omnis <hi>PA</hi> tribuitur rebua <hi>b</hi> 18 necrur su P rursus <hi>b</hi> <lb/>
+            20 forte—modum <hi>om. G</hi> 23 quaquft P1 24 ei-ubi <hi>om. G</hi> </app> <lb/>
+             
+<pb n="865"/>
+            posset enim dici etiam "non erit modus," ut modus pro fine <lb/>
+            dictus intellegeretur; nam qui nullo modo regnat, non utique <lb/>
+            regnat. 
+</p>
+          
+</div1>
+
+<div1 n="23" subtype="chapter"><head>cap. 23</head>
+
+<p>Malus ergo modus uel mala species uel malus ordo <lb/>
+            aut ideo dicuntur, quia minora sunt quam esse debuerunt <lb n="5"/>
+            aut quia non his rebus accomodantur, quibus accommodanda <lb/>
+            sunt: ut ideo dicantur mala, quia sint aliena et incongrua, <lb/>
+            tamquam si dicatur aliquis non bono modo egisse, quia minus <lb/>
+            egit quam debuit, aut quod ita egit, sicut in re tali non <lb/>
+            debuit, uel amplius quam oportebat uel non conuenienter: ut <lb n="10"/>
+            hoc ipsum, quod reprehenditur malo modo actum, non ob <lb/>
+            aliud iuste reprehendatur, nisi quia non est ibi <choice><note>seruatua</note><corr>seruatus</corr></choice> <lb/>
+            modus. item species mala uel in comparatione dicitur formosioris <lb/>
+            atque pulchrioris, quod ista sit minor species, illa <lb/>
+            maior, non mole, sed decore, aut quia non congruit huic rei, <lb n="15"/>
+            cui adhibita est, ut aliena et inconueniens uideatur: tamquam <lb/>
+            si nudus homo in foro deambulet, quod non offendit, si in <lb/>
+            balneo uideatur. similiter et ordo tunc malus dicitur, <sic>cttm</sic> <lb/>
+            minus ipse ordo seruatur: unde non ibi ordo, sed potius inordinatio <lb/>
+            mala est, cum aut minus ordinatum est quam debuit, <lb n="20"/>
+            aut non sicut debuit. tamen ubi aliquis modus, aliqua species, <lb/>
+            aliquis ordo est, aliquod bonum et aliqua natura est; ubi <lb/>
+            autem nullus modus, nulla species, nullus ordo est, nullum <lb/>
+            bonum, nulla natura est. 
+</p>
+          
+</div1>
+
+<div1 n="24" subtype="chapter"><head>cap. 24</head>
+
+<p>Haec, quae nostra fides habet et utcumque ratio uestigauit, <lb n="25"/>
+            diuinarum scripturarum testimoniis munienda sunt, ut <lb/>
+            qui ea minore intellectu adsequi non possunt, diuinae
+
+<app> 1 posse∗ (t cr. ) <hi>Q</hi> etiam <hi>om. G</hi> 6 in his <hi>b</hi> aetomodantur G* <lb/>
+            7 ut] aut <hi>b</hi> quia] quod <hi>PYLa</hi> que <hi>A</hi> sunt <hi>b</hi> 9 an quia <hi>b</hi> <lb/>
+            ita] non ita <hi>G</hi> non <hi>om. G</hi> 11 modo (do ex du <hi>corr. m. 1) P</hi> <lb/>
+            13 formonsiorifi P1 17 nudus] nullus <hi>L</hi> 18 malus tunc <hi>b</hi> esse <lb/>
+            dicitur <hi>L</hi> 19 ipse minus <hi>Lb</hi> ordo <hi>(pr.) om. b</hi> potius <hi>om. G</hi> <lb/>
+            inordinatio] ordinatio <hi>L</hi> 90 aut] aQ S autem <hi>L</hi> 21 ubi tamen <hi>L</hi> <lb/>
+            ubi est <hi>b</hi> 22 aliquid <hi>L</hi> est <hi>post</hi> natura <hi>om. L</hi> 23 autem] enim <hi>A</hi> <lb/>
+            24 et nulla <hi>b</hi> est om. <hi>L</hi> 25 fides nostra <hi>b</hi> inuestigauit <hi>V</hi> <lb/>
+            26 munienda (u <hi>sup</hi>. i <hi>a m. 1) P</hi> 27 qui] quia Gl ea <hi>om. Gl</hi> seqai Pl </app>
+
+<app> 55* </app> <lb/>
+             
+<pb n="866"/>
+            auctoritati credant et ob hoc intellegere mereantur ; qui autem <lb/>
+            intellegunt, sed ecclesiasticis litteris minus instructi sunt, <lb/>
+            magis ea nos ex nostro intellectu <choice><note>profeiTe</note><corr>proferre</corr></choice> quam in illis libris <lb/>
+            esse non arbitrentur. itaque deum esse incommutabilem <choice><note>Ric</note><corr>sic</corr></choice> <lb/>
+            scriptum est in psalmis: mutabis ea. et mutabuntur; tu<lb n="5"/>
+            autem idem ipse es; et in libro sapientiae de ipsa sapientia: <lb/>
+            in se ipsa manens innouat omnia. unde et apostolus Paulus: <lb/>
+            inuisibili, incorruptibili soli deo et apostolus Iacobus: <lb/>
+            omne datum optimum et omne donum perfectum <lb/>
+            desursum est descendens a patre luminum, apud <lb n="10"/>
+            quem non est commutatio nec momenti obumbratio. <lb/>
+            item quia id, quod de se genuit, hoc, quod ipse est, ita ab <lb/>
+            ipso filio breuiter dicitur: ego et pater unum sumus. quia <lb/>
+            non est autem factus filius. quippe cum per illum facta sint omnia, <lb/>
+            sic scriptum est: in principio erat uerbum et uerbum<lb n="15"/>
+            erat apud deum et d-eus erat uerbum; hoc erat in <lb/>
+            principio apud deum. omnia per ipsum facta sunt et <lb/>
+            sine ipso factum est nihil, id est non est factum sine <lb/>
+            ipso aliquid. 
+</p>
+          
+</div1>
+
+<div1 n="25" subtype="chapter"><head>cap. 25</head>
+
+<p>Neque enim audienda sunt deliramenta hominum, qui <lb n="20"/>
+            nihil hoc loco aliquid intellegendum putant et ad huiusmodi <lb/>
+            uanitatem propterea putant cogi posse aliquem. quia ipsum <lb/>
+            nihil in fine sententiae positum est. ergo, inquiunt, factum <lb/>
+            est et ideo, quia factum est, ipsum nihil aliquid est; sensum <lb/>
+            enim perdiderunt studio contradicendi nec intellegunt nihil <lb n="25"/>
+            interesse, utrum dicatur "sine illo factum est nihil," an <lb/>
+            sine illo nihil factum est," quia etsi illo ordine diceretur
+
+<app> 5 Ps. 101, 27 7 Sap. 12, 27 8 I Tim. 1, 17 9 Iac. 1, 17 <lb/>
+            18 Ioh. 10, 30 15 Ioh. 1, 1 sqq. </app>
+
+<app>6 sapientia innouat omnia in se manens <hi>A</hi> 7 ipsa <hi>om. Ab</hi> omnia <lb/>
+            ipsa <hi>b</hi> unde <hi>om. b</hi> paulus <hi>(sec</hi> u <hi>8. 1. a m</hi>. 11 <hi>P</hi> paulus apostolus <hi>b</hi> <lb/>
+            8 et incorruptibili A 11 transmutatio <hi>AV</hi> 12 hoc] hoc est (eat <lb/>
+            <hi>superscr. m. 2) Sb</hi> 14 autem non est <hi>VLb</hi> illum] ipsum <hi>A</hi> illa P1 <lb/>
+            sint] sunt <hi>G</hi> 15 sic <hi>enim A</hi> 18 id non est <hi>A</hi> 21 ob huiusmodi <lb/>
+            <hi>nentate Gl</hi> 22 ipsum om. G123 positum est sententie b 25 prediderunt <lb/>
+            <hi>(s. I</hi>. a m. <hi>1) P perdiderant A</hi> 26 illo] ipso <hi>LV (bis)</hi> 27 quia—est <hi>om. b</hi> </app> <lb/>
+             
+<pb n="867"/>
+            "sine illo nihil factum est" , possent nihilominus dicere <lb/>
+            ipsum nihil aliquid esse, quia factum est. quod enim reuera <lb/>
+            est aliquid, quid interest, utrum ita dicatur "sine illo facta <lb/>
+            est domus" an "sine illo <choice><note>domua</note><corr>domus</corr></choice> est facta," dum intellegatur <lb/>
+            aliquid sine illo factum, quod aliquid domus est? ita quia <lb n="5"/>
+            dictum est: sine illo factum est nihil, quoniam nihil <lb/>
+            utique non est aliquid, quando uere et proprie dicitur, siue <lb/>
+            dicatur "sine illo factum est nihil" siue "sine illo <lb/>
+            nihil factum est* uel "nihil est factum" nihil interest. <lb/>
+            quis autem uelit loqui cum hominibus, qui hoc ipsum, quod <lb n="10"/>
+            dixi "nihil interest". possunt dicere: ergo interest aliquid, <lb/>
+            quia ipsum nihil aliquid est ? hi autem, qui sanum habent <lb/>
+            cerebrum, rem manifestissimam uident hoc idem intellegi, <lb/>
+            cum dixi „nihil interest," quod intellegeretur si dicerem <lb/>
+            "interest nihil." at isti si alicui dicant: quid fecisti? et ille <lb n="15"/>
+            respondeat nihil se fecisse, consequens est ut ei calumnientur <lb/>
+            dicentes: fecisti ergo aliquid, quia nihil fecisti; ipsum enim <lb/>
+            nihil aliquid est. <hi rend="underline">habent</hi> autem et <hi rend="underline">ipsum</hi> dominum in fine <lb/>
+            sententiae <hi rend="underline">ponentem hoc</hi> uerbum, ubi ait: et in occulto <lb/>
+            locutus sum nihil. <hi rend="underline">ergo legant</hi> et taceant. <lb n="20"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="26" subtype="chapter"><head>cap. 26</head>
+
+<p>Quia ergo deus omnia, quae non de se genuit, sed per <lb/>
+            uerbum suum fecit, non de his rebus, quae iam erant, sed <lb/>
+            de his, quae omnino non erant, hoc est de nihilo fecit, ita <lb/>
+            dicit apostolus: qui uocat ea, quae non sunt, tamquam <lb/>
+            sunt. apertius autem in libro Machabaeorum scriptum est: <lb n="25"/>
+            oro te, fili, respice ad caelum et terram et omnia, <lb/>
+            quae in eis sunt; uide et scito, quia non erant, ex
+
+<app> 19 Ioh. 18, 20 24 Bom. 4, 17 26 II Mach. 7, 28 </app>
+
+<app> 1 possit <hi>SLP1G</hi> dici <hi>O</hi> 3 ita om. <hi>V</hi> 4 eat facta] facta est <hi>V</hi> <lb/>
+            . 5 factum sine illo <hi>b</hi> 6 quoniam] quod <hi>G</hi> 7 propriae P1 8 est <lb/>
+            factum <hi>PVAL</hi> 9 <hi>alt</hi>. factum est <hi>SPLVG</hi> 10 qui autem uelint <hi>A</hi> <lb/>
+            quia <hi>A</hi> 12 aliquid <hi>om. A</hi> 14 intellegeres <hi>G</hi> 15 at istij ita fit <hi>A</hi> <lb/>
+            16 se <hi>om, b</hi> calumnietur P1 calampnientur <hi>A</hi> 21 omnia om. <hi>b</hi> <lb/>
+            de ae non <hi>b</hi> non <hi>om. V</hi> per uerbum suumj uerbo suo <hi>G</hi> 23 qua P1 <lb/>
+            84 tamquam ea que sunt <hi>b</hi> 27 uide] unde <hi>b</hi> </app> <lb/>
+             
+<pb n="868"/>
+            quibus fecit nos dominus deus et illud, quod in <choice><note>psaimo</note><corr>psalmo</corr></choice> <lb/>
+            scriptum est: <choice><note>iptfe</note><corr>ipse</corr></choice> dixit, et facta sunt, manifestum, quod <lb/>
+            non de se ista genuerit, sed in uerbo atque imperio fecerit; <lb/>
+            quod autem non de se, utique de nihilo. non enim erat aliud, <lb/>
+            unde faceret. de quo apertissime apostolus dicit: quoniam<lb n="5"/>
+            ex ipso et per ipsum et in ipso sunt omnia. 
+</p>
+          
+</div1>
+
+<div1 n="27" subtype="chapter"><head>cap. 27</head>
+
+<p>"Ex ipso" autem non hoc significat quod „ae ipso." <lb/>
+            quod enim de ipso est, potest dici "ex ipso;" non autem <lb/>
+            omne, quod" ex ipso" est, recte dicitur "de ipso;" ex ipso <lb/>
+            enim caelum et terra, quia ipse fecit ea, non autem de ipso,<lb n="10"/>
+            quia non de substantia sua. -sicut aliquis homo si gignat <lb/>
+            filium et faciat domum, ex ipso filius, ex ipso domus, sed <lb/>
+            filius de ipso, domus de terra et de ligno. sed hoc quia homo <lb/>
+            <sic>eet</sic>, qui non potest aliquid etiam de nihilo facere; deus <lb/>
+            autem, ex quo omnia, per quem omnia, in quo omnia, non<lb n="15"/>
+            opus habebat aliqua materia, quam ipse non fecerat,. adiuuari <lb/>
+            omnipotentiam suam. 
+</p>
+          
+</div1>
+
+<div1 n="28" subtype="chapter"><head>cap. 28</head>
+
+<p>Cum autem audimus "omnia ex ipso et per ipsum <lb/>
+            et in ipso," omnes utique naturas intellegere debemus, quae <lb/>
+            naturaliter sunt. neque enim ex ipso sunt peccata, quae ua. <lb n="20"/>
+            turam non seruant. sed uitiant. quae peccata ex uoluntate <lb/>
+            esse peccantium multis modis sancta scriptura testatur, praecipue <lb/>
+            illo. quo dicit apostolus: existimas autem hoc, o <lb/>
+            homo, qui iudicas eos, qui talia agunt, et facis ea, <lb/>
+            quoniam tu effugies iudicium dei? an diuitias benignitatis<lb n="25"/>
+            et patientiae eius et longanimitatis contemnis, <lb/>
+            ignorans, quoniam patientia dei ad paenitentiam <lb/>
+            te adducit? secundum duritiam autem cordis tui et
+
+<app>2 Ps. 148, 5 5 Rom. 11, 86 23 Rora. 2, 3 sqq </app>
+
+<app> 1 no. fecit <hi>b</hi> 2 manifestom est <hi>PV</hi> manifestissimu 6 <hi>b</hi> 3 ista (a. <hi>t. <lb/>
+             a</hi> m. 1) <hi>P</hi> genuerit (cotr. <hi>m. 1 ex</hi> genuit) P genuerint <hi>b</hi> 4 erat <lb/>
+            enim <hi>VL</hi> ó fecerat <hi>PiLI</hi> 8 dici] dici etiam <hi>V</hi> 13 de ante ligno <lb/>
+            o <lb/>
+            <hi>om. PVGb</hi> 14 etiam <hi>om. b</hi> 15 in que∗ (m er; <hi>corr</hi>. m. 1) <hi>P</hi> <lb/>
+            16 habet <hi>b</hi> 17 potentiam A 23 illo quod <hi>(a m. 2 superacr..s</hi>. modo <lb/>
+            quo) <hi>G</hi> quod <hi>A</hi> 25 iuditium P 26 contempnis <hi>(exp. m. t) S</hi> <lb/>
+            27 ignoras <hi>Gb</hi> patiencia P </app> <lb/>
+             
+<pb n="869"/>
+            cor <choice><note>iapaenitens</note><corr>inpaenitens</corr></choice> thesaurizas tibi iram in diem irae <lb/>
+            et reuelationis iusti iudicii dei, qui reddet unicuique <lb/>
+            secundum opera sua. 
+</p>
+          
+</div1>
+
+<div1 n="29" subtype="chapter"><head>cap. 29</head>
+
+<p>Nec tamen, cum in deo sint uniuersa, quae condidit, <lb/>
+            inquinant eum, qui peccant, de cuius sapientia dicitur: adtingit <lb n="5"/>
+            autem omnia propter suam munditiam, et nihil <lb/>
+            inquinatum in eam incurrit. oportet enim, ut sicut deum <lb/>
+            incorruptibilem et <choice><note>ineommutabilem</note><corr>incommutabilem</corr></choice>, ita consequenter etiam <lb/>
+            incoinquinabilem credamus. 
+</p>
+          
+</div1>
+
+<div1 n="30" subtype="chapter"><head>cap. 30</head>
+
+<p>Quia uero et minima bona, hoc est terrena atque mortalia <lb n="10"/>
+            ipse fecit, illo apostoli loco sine dubitatione intellegitur, <lb/>
+            ubi loquens de membris carnis nostrae "quia si glorificatur <lb/>
+            unum membrum, congaudent omnia membra; et si <lb/>
+            patitur unum membrum, conpatiuntur omnia membra" <lb/>
+            etiam hoc ibi ait: deus posuit membra, singulum quodque <lb n="15"/>
+            eorum in corpore prout <choice n="0.23"><note n="220">noluit</note><corr n="697">uoluit</corr></choice> et: deus temperauit <lb/>
+            corpus ei, cui deerat, maiorem honorem dans, <lb/>
+            ut non essent scissurae in corpore, sed idem ipsum <lb/>
+            ut pro inuicem sollicita sint membra. hoc autem, quod <lb/>
+            sic in modo et specie et ordine membrorum carnis laudat <lb n="20"/>
+            apostolus, in omnium animalium carne inuenis, et maximorum <lb/>
+            et minimorum, cum omnis caro in bonis terrenis ac per hoc <lb/>
+            minimis deputetur. 
+</p>
+          
+</div1>
+
+<div1 n="31" subtype="chapter"><head>cap. 31</head>
+
+<p>Item quia cuique culpae qualis et quanta poena de-. <lb/>
+            <sic n="poss">beatur</sic>. diuini iudicii est, non humani, sic scriptum est: <lb n="25"/>
+            o altitudo diuitiarum sapientiae et scientae dei! <lb/>
+            quam inscrutabilia sunt iudicia eius et inuestigabiles <lb/>
+            uiae eius! item quia bonitate dei donantur peccata
+
+<app>5 Sap. 7, 24 sq. 12 I Cor. 12. 26 . 18 . 24 . 25 26 Rom. 11, 88 </app>
+
+<app> 1 inpoenitens 8 inpenitens <hi>P</hi> die b 2 reddat <hi>P1</hi> 7 incurret <hi>G</hi> <lb/>
+            8 ita <hi>om. A</hi> 9 inquoinquinabilem P1 12 qua Pl 14 patiatur <hi>b</hi> <lb/>
+            menbra <hi>A (sie semperj</hi> 15 omnia membra <hi>b</hi> quoque <hi>b</hi> 16 eorum <lb/>
+            om. <hi>b</hi> uult <hi>G</hi> 17 honor P1 18 ipsum idem <hi>b</hi> 20 in specie <hi>b</hi> <lb/>
+            22 minorum <hi>G</hi> 24 quanta] quanta et qualis <hi>L</hi> debeatur pena <hi>b</hi> <lb/>
+            26 diaiciartl A </app> <lb/>
+             
+<pb n="870"/>
+            conuersis, hoc ipsum, quod Christus missus est, satis ostendit, <lb/>
+            qui non in sua natura, qua deus est, sed in nostra, quam <lb/>
+            de femina adsumpsit. pro nobis mortuus est: quam dei bonitatem <lb/>
+            circa nos et dilectionem sic praedicat apostolus: commendat, <lb/>
+            inquit, suam caritatem deus in nobis, quoniam<lb n="5"/>
+            cum adhuc peccatores essemus, Christus pro nobis <lb/>
+            mortuus est; multo magis iustificati nunc in sanguine <lb/>
+            ipsius salui erimus ab ira p-er ipsum. si enim, <choice n="0.16"><note n="8584">eum</note><corr n="42581">cum</corr></choice> <lb/>
+            inimici essemus. reconciliati sumus deo per mortem <lb/>
+            filii eius, multo magis reconciliati salui erimus in<lb n="10"/>
+            uita ipsius. quia uero etiam cum peccatoribus poena debita <lb/>
+            redditur, non est iniquitas apud deum, sic dicit: quid dicemus? <lb/>
+            numquid iniquus deus, qui infert iram? uno <lb/>
+            autem loco et bonitatem et seueritatem ab illo esse breuiter <lb/>
+            admonuit dicens: uides ergo bonitatem et seueritatem<lb n="15"/>
+            dei: in eos quidem, qui ceciderunt, seueritatem, in te <lb/>
+            autem bonitatem, si permanseris in bonitate. 
+</p>
+          
+</div1>
+
+<div1 n="32" subtype="chapter"><head>cap. 32</head>
+
+<p>Item quia etiam nocentium potestas non est nisi a deo, <lb/>
+            <choice><note>iic</note><corr>sic</corr></choice> scriptum est loquente sapientia: per me reges regnant <lb/>
+            et tyranni per me tenent terram. dicit et apostolus: <lb n="20"/>
+            non est enim potestas nisi a deo. digne autem fieri in <lb/>
+            <choice n="0.07"><note n="64">libra</note><corr n="806">libro</corr></choice> Iob scriptum est. qui regnare facit, inquit, hominem <lb/>
+            hypocritam propter peruersitatem populi. et de populo <lb/>
+            Israhel dicit deus: dedi eis regem in ira mea. iniustum <lb/>
+            enim non est, ut improbis accipientibus nocendi potestatem
+
+<app> 4 Rom. 5, 8 sqq. 12 Rom. 8, 5 15 Rom. 11, 22 19 Prou. 8, 15<lb/>
+             21 Rom. 13, 1 22 Iob. 34, 30 24 Osee 13, 11 </app>
+
+<app> 1 xps ipse <hi>V</hi> misas P 2 quia <hi>AO</hi> 3 assumpsit (p <hi>8. I. 0 m</hi>. T) <hi>P</hi> <lb/>
+            est <hi>om. P</hi> 4 pdicauit <hi>b</hi> 6 christns-ipsins <hi>om. A</hi> 7 nonc iustificati <lb/>
+            <hi>b</hi> 9 reconciliati sumus in uita ipsius deo <hi>sqq. G</hi> 12 dicimus P1 <lb/>
+            18 est deus <hi>b post</hi> iram <hi>add. absit AVb</hi> 15 ammonuit p1 16 dei <lb/>
+            <hi>om. A</hi> quidem <hi>orn A</hi> seueritatem <hi>om. A</hi> 18 etiam om. A <lb/>
+            nocentium <hi>om. b</hi> 19 scriptum est <hi>om. A</hi> 22 inquit <hi>om. G</hi> hypocritam <lb/>
+            hominem <hi>b</hi> 28 propter] ob <hi>Å</hi> peruersitatem] peccata <hi>C</hi> 24 israelitico <lb/>
+            <hi>A</hi> deus] dominus <hi>G</hi> mea <hi>(m ex n a m. 2) P</hi> 25 enim] ęstimo <hi>G</hi>. </app> <lb n="25"/>
+             
+<pb n="871"/>
+            bonorum <choice><note>patieotia</note><corr>patientia</corr></choice> probetur et malorum iniquitas puniatur. <lb/>
+            nam per potestatem diabolo datam et Iob probatus est, ut <lb/>
+            iustus adpareret, et Petrus temptatus, ne de se praesumeret, <lb/>
+            et Paulus colaphizatus, ne se extolleret, et ludas damnatus, <lb/>
+            ut se suspenderet. - cum ergo per potestatem, quam diabolo <lb n="5"/>
+            dedit, omnia iuste ipse deus fecerit, non tamen pro his iuste <lb/>
+            factis, sed pro <choice><note>iBiqua</note><corr>iniqua</corr></choice> nocendi uoluntate, quae ipsius diaboli <lb/>
+            fuit, ei reddetur in fine supplicium, cum dicetur impiis, qui <lb/>
+            eius nequitiae consentire perseuerauerint: ite in ignem <lb/>
+            aeternum, quem parauit pater meus diabolo et angelis <lb n="10"/>
+            eius. 
+</p>
+          
+</div1>
+
+<div1 n="33" subtype="chapter"><head>cap. 33</head>
+
+<p>Quia uero et ipsi mali angeli non a deo mali sunt <lb/>
+            conditi, sed peccando facti sunt mali, sic Petrus in epistula <lb/>
+            sua dicit: si enim deus angelis peccantibus non pe-. <lb/>
+            percit, sed carceribus caliginis inferi trudens tradidit <lb n="15"/>
+            in iudicio puniendos seruari. hinc Petrus ostendit <lb/>
+            adhuc eis ultimi iudicii poenam deberi, de qua dominus dicit : <lb/>
+            ite in ignem aeternum, qui paratus est diabolo et <lb/>
+            angelis eius. quamuis iam poenaliter hunc inferum, hoc <lb/>
+            est inferiorem caliginosum aerem tamquam carcerem acceperint, <lb n="20"/>
+            qui tamen quoniam et caelum dicitur, non illud caelum, <lb/>
+            in quo sunt sidera, sed hoc inferius, cuius caligine <choice><note>nnbila</note><corr>nubila</corr></choice> <lb/>
+            conglobantur, et ubi aues uolitant — nam et caelum nubilum <lb/>
+            dicitur et uolatilia caeli appellantur — secundum hoc apostolus <lb/>
+            Paulus eosdem iniquos angelos, contra quos nobis inuidos <lb n="25"/>
+            pie uiuendo pugnamus, "spiritalia nequitiae in caelestibus" <lb/>
+            nominat. quod ne de illis superioribus caelis
+
+<app>2 cf. Iob. 1, 2 3 cf. Matth. 26, 31 sqq. 67 sqq. 4 cf. II Cor. <lb/>
+            12, 7 õ cf. Matth. 27, Õ 9 Matth. 25, 41 14 II Petro 2, 4 <lb/>
+            26 Ephes. 6, 12 </app>
+
+<app> 1 et bonorum <hi>b</hi> et] ut <hi>Q</hi> 2 diaboli <hi>PSl</hi> 8 6 ttptatus (Ø e. <hi>I</hi>. <lb/>
+            a m. 2) <hi>G</hi> temptatus s ut n5 6 4 colaphyzatus <hi>SP</hi> 8 supplitium P <lb/>
+            9 consentiri <hi>Q</hi> 10 exnv &amp; cefa <hi>A</hi> 12 mali <hi>om. A</hi> 13 sic] siC <hi>O</hi> <lb/>
+            16 detrudens <hi>b</hi> 16 iuditio P 17 iuditii P 19 quãuis quidam (quidam <lb/>
+            i. J.) <hi>G</hi> poena P inferutl <hi>Ab</hi> 21 tamen aer <hi>Ab</hi> quoniam] qfique b <lb/>
+            <hi>uU</hi>. caelum <hi>om. b</hi> 2' aydera <hi>F</hi> 25 eosdem <hi>om. A</hi> 27 nominauit b </app> <lb/>
+             
+<pb n="872"/>
+            intellegatur, aperte alibi dicit: secundum principem potestatis <lb/>
+            aeris huius, qui nunc operatur in filiis diffidentiae. <lb/>
+            *
+</p>
+          
+</div1>
+
+<div1 n="34" subtype="chapter"><head>cap. 34</head>
+
+<p>Item quia peccatum uel iniquitas non est appetitio <lb/>
+            naturarum malarum, sed desertio meliorum, sic in scripturis <lb n="5"/>
+            inuenitur scriptum: omnis creatura dei bona est, ac per <lb/>
+            hoc et omne lignum, quod in paradiso deus plantauit, utique <lb/>
+            bonum est. non ergo malam naturam homo appetiuit, cum <lb/>
+            arborem uetitam tetigit, sed id, quod melius erat, deserendo <lb/>
+            factum malum ipse commisit. melior quippe creator quam<lb n="10"/>
+            ulla creatura, quam condidit: cuius imperium non erat deserendum, <lb/>
+            ut tangeretur prohibitum quamuis bonum, quoniam <lb/>
+            deserto meliore bonum creaturae appetebatur, quod contra <lb/>
+            creatoris imperium tangebatur. non itaque deus arborem malam <lb/>
+            in paradiso <choice><note>piantauerat</note><corr>plantauerat</corr></choice>, sed ipse erat melior, qui eam tangi<lb n="15"/>
+            prohibebat. 
+</p>
+          
+</div1>
+
+<div1 n="35" subtype="chapter"><head>cap. 35</head>
+
+<p>Ad hoc enim et prohibuerat, ut ostenderet animae  <lb/>
+            rationalis naturam non in sua potestate, sed deo subditam <lb/>
+            esse debere et ordinem suae salutis per oboedientiam <choice><note>cuetodire</note><corr>custodire</corr></choice>, <lb/>
+            per inoboedientiam corrumpere. hinc et arborem, quam <lb n="20"/>
+            tangi uetuit, sic appellauit "<sic n="poss">dinoscentiae</sic> boni et mali," <lb/>
+            quia cum eam contra uetitum tetigisset, experiretur poenam <lb/>
+            peccati et eo modo dinosceret, quid interesset inter oboedientiae <lb/>
+            bonum et inoboedientiae malum. 
+</p>
+          
+</div1>
+
+<div1 n="36" subtype="chapter"><head>cap. 36</head>
+
+<p>Nam quis ita desipiat, ut dei creaturam maxime in <lb n="25"/>
+            paradiso plantatam uituperandam putet, quandoquidem nec <lb/>
+            ipsae spinae ac tribuli, quos peccatori in labore conterendos
+
+<app>1 Ephes. 2, 2 6 I Tim. 4, 4 21 Gen. 2, 9 </app>
+
+<app> 2 filios <hi>VGlb</hi> 5 si5 <hi>G</hi> 6 scriptum est <hi>SAVG</hi> sic scriptum est <hi>L</hi> <lb/>
+            8 homo <hi>om. A</hi> 9 id <hi>om. A</hi> 11 ulla] illa <hi>A</hi> 12 quoniam] quo b <lb/>
+            18 bono <hi>6</hi> 15 paradyso <hi>PV</hi> en Gl 16 prohibebat. fecit casum <lb/>
+            illicitd A 17 adj a P1 et <hi>om. G</hi> natura animę <hi>b</hi> 21 sic <lb/>
+            <hi>om. V</hi> appellant P1 dinoscentiae] scientiam <hi>V</hi> 22 qui <hi>b</hi> 24 et] <lb/>
+            et inter b 27 ipse <hi>G</hi> peccatore P conterendo <hi>PAVG</hi> contexendos <lb/>
+            (s <hi>a m. 1 8. I.) S</hi> </app> <lb/>
+             
+<pb n="873"/>
+            secundum dei iudiciariam uoluntatem terra peperit, recte <sic>uifcuperentur</sic> <lb/>
+            r habent enim et tales herbae modum et speciem et <lb/>
+            ordinem suum, quae quisquis sobrie considerauerit, laudanda <lb/>
+            <choice><note>roperiet</note><corr>reperiet</corr></choice>; sed ei naturae ista mala sunt, quam peccati merito <lb/>
+            sic coherceri oportebat. non est ergo. ut dixi, peccatum malae <lb n="5"/>
+            naturae adpetitio, sed melioris desertio et ideo factum ipsum <lb/>
+            malum est, non illa natura. qua male utitur peccans. malum <lb/>
+            est enim male uti bono. unde apostolus damnatos quosdam <lb/>
+            diuino iudicio reprehendit, qui coluerunt et seruierunt <lb/>
+            creaturae potius quam creatori. neque enim creaturam <lb n="10"/>
+            reprehendit — quod qui fecerit, creatori facit iniuriam — <lb/>
+            sed eos, qui male usi sunt bono meliore deserto. 
+</p>
+          
+</div1>
+
+<div1 n="37" subtype="chapter"><head>cap. 37</head>
+
+<p>Proinde si custodiant omnes naturae modum et speciem <lb/>
+            et ordinem proprium, nullum erit malum; si autem his bonis <lb/>
+            quisque male uti uoluerit, nec sic uincit uoluntatem dei. qui <lb n="15"/>
+            etiam iniustos iuste ordinare nouit, ut si ipsi per iniquitatem <lb/>
+            uoluntatis suae male usi fuerint bonis illius, ille per iustitiam <lb/>
+            potestatis suae bene utatur malis ipsorum recte ordinans in <lb/>
+            poenis, qui se peruerse ordinauerint in peccatis. 
+</p>
+          
+</div1>
+
+<div1 n="38" subtype="chapter"><head>cap. 38</head>
+
+<p>Nam nec ipse ignis aeternus, qui cruciaturus est impios, <lb n="20"/>
+            mala natura est habens modum et speciem et ordinem suum <lb/>
+            nulla iniquitate deprauatum: sed cruciatus est damnatis malum, <lb/>
+            quorum peccatis est debitus. neque enim et lux ista, quia <lb/>
+            lippos cruciat. mala natura est. 
+</p>
+          
+</div1>
+
+<div1 n="39" subtype="chapter"><head>cap. 39</head>
+
+<p><choice><note>Aetemus</note><corr>Aeternus</corr></choice> autem ignis non sicut deus aeternus, quod
+
+<app> 9 Rom. 1. 25 </app>
+
+<app> 1 dei <hi>om. G</hi> terra G1 pepperit <hi>S</hi> repperit P 2 haerbae P <lb/>
+            3 que si quiBque <hi>A</hi> sobriae P' 4 repperiet <hi>S</hi> repperiet <hi>AG</hi> ei <lb/>
+            naturę j in natura <hi>G</hi> &amp; coherceri <hi>S</hi> malae <hi>om. G</hi> 6 appeticio <hi>A</hi> <lb/>
+            factum 6 <hi>b</hi> 7 6 <hi>om b</hi> 9 iuditio P 70 creaturas <hi>b</hi> 11 rephendit <lb/>
+            P quod] sed <hi>S</hi> 14 malum <hi>(s. 1. a m. 1) S</hi> 15 ne P* <lb/>
+            uicerit <hi>b</hi> dei uoluntatem <hi>b</hi> 18 <hi>ante</hi> ordinans <hi>add. s. l. m. 2</hi> <lb/>
+            tn <hi>G</hi> eos 19 ordinauerunt <hi>b</hi> 20 aeternus <hi>om. V</hi> 22 malus <hi>PYb</hi> <lb/>
+            23 et] et <hi>(add. m. 1 sup</hi>. ut; <hi>G</hi> 24 lyppos <hi>S'V</hi> cruciat oculos <hi>b</hi> <lb/>
+            25 e<foreign xml:lang="grc">τ̄</foreign>n' dicitur primo (proprię <hi>b)</hi> quia propterea-dicit ignis etn' est qucd <lb/>
+            sine fine sit <hi>sqq. Ab</hi> </app> <lb n="25"/>
+             
+<pb n="874"/>
+            licet sine fine sit, non est tamen sine initio; deus autem <lb/>
+            etiam sine initio est. deinde quia licet perpetuus peccatorum <lb/>
+            suppliciis adhibeatur, mutabilis tamen natura est. illa est <lb/>
+            autem uera aeternitas, quae uera inmortalitas; hoc est illa <lb/>
+            summa incommutabilitas, <choice n="3.92"><note n="1">quani</note><corr n="25482">quam</corr></choice> solus deus habet, qui mutari<lb n="5"/>
+            omnino non potest. aliud est enim non mutari. cum possit <lb/>
+            mutari, aliud autem prorsus non posse mutari. sicut ergo <lb/>
+            dicitur homo bonus non tamen sicut deus, de quo dictum <lb/>
+            est : nemo bonus nisi unus deus et sicut dicitur anima <lb/>
+            inmortalis non tamen sicut deus, de quo dictum est: solus <lb n="10"/>
+            habet inmortalitatem et sicut dicitur homo sapiens non <lb/>
+            tamen sicut deus. de quo dictum est: soli sapienti deo: <lb/>
+            sic dicitur ignis aeternus non tamen sicut deus, cuius solius <lb/>
+            inmortalitas est uera aeternitas. 
+</p>
+          
+</div1>
+
+<div1 n="40" subtype="chapter"><head>cap. 40</head>
+
+<p>Quae cum ita sint secundum catholicam fidem et sanam<lb n="15"/>
+            doctrinam et intellegentibus perspicuam ueritatem, nec naturae <lb/>
+            dei nocere potest quisquam nec natura dei nocere iniuste cuiquam <lb/>
+            uel nocere inpune patitur quemquam; qui enim nocet, <lb/>
+            ait apostolus, recipiet id, quod nocuit et non est personarum <lb/>
+            acceptio apud deum. <lb n="20"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="41" subtype="chapter"><head>cap. 41</head>
+
+<p>Quod Manichaei si uellent sine pernicioso studio defendendi <lb/>
+            erroris sui et cum dei timore cogitare, non scelestissime <lb/>
+            blasphemarent inducendo duas naturas, <choice n="0.03"><note n="26">imam</note><corr n="751">unam</corr></choice> bonam, <lb/>
+            quam dicunt deum, alteram malam, quam non fecerit deus, <lb/>
+            ita errantes, ita delirantes, immo uero ita insanientes, ut non <lb n="25"/>
+            uideant et in eo, quod dicunt naturam summi mali, ponere <lb/>
+            se tanta bona, ubi ponunt uitam, potentiam, salutem,
+
+<app>9 Marc. 10, 18 10 I Tiro. 6, J6 12 Rom. 16, 27 18 CoL 8, 25 </app>
+
+<app> 1 licetj licet <hi>(s. I. a m. 2) P</hi> etsi <hi>VA om. SLG</hi> est <hi>om. C</hi> 2 perpetuis <lb/>
+            <hi>Gb</hi> 3 sapplitiia <hi>P</hi> inmatabilis <hi>V</hi> naturg <hi>G</hi> illa aatem <lb/>
+            aera est b 4 quae] que ẽ <hi>b</hi> hfc <hi>b</hi> 6 cum enim <hi>b</hi> 9 unus] <lb/>
+            spIus <hi>b</hi> 10 qui solus <hi>b</hi> 14 inmortalitas ipsa (ipsi <hi>b) AGb</hi> 16 naturA <hi>A</hi> <lb/>
+            naturae ds (s <hi>ex</hi> i) nocere <hi>icorr</hi>. in noceri <hi>et in mg. add</hi>. I naturf dei <lb/>
+            nocere) 8 17 nocere dei <hi>G</hi> potest <hi>om. b</hi> potest-nocere <hi>om. 8</hi> <lb/>
+            Daturae <hi>Pl</hi> naturi A 18 qui] Quod <hi>b</hi> 21 quod] quodsi <hi>Ab</hi> si <hi>om. Ab</hi> <lb/>
+            pernitioso P 24 deo A fecerat <hi>b</hi> 26 et <hi>om. b</hi> 27 ponant <hi>b</hi> </app> <lb/>
+             
+<pb n="875"/>
+            <sic>memoriani</sic>, intellectum, temperiem, uirtutem, copiam, sensum, lumen, <lb/>
+            suauitatem, mensuras, <choice><note>numeroa</note><corr>numeros</corr></choice>, pacem, modum, speciem, ordinem: <lb/>
+            . in eo autem, quod dicunt summum bonum, tanta <lb/>
+            mala: mortem, aegritudinem, <choice><note>obliulonem</note><corr>obliuionem</corr></choice>, insipientiam, perturbationem, <lb/>
+            inpotentiam, egestatem, stoliditatem, caecitatem, <lb n="5"/>
+            dolorem, iniquitatem, dedecus, bellum, inmoderationem, deformitatem, <lb/>
+            peruersitatem. principes enim tenebrarum et uixisse <lb/>
+            in sua natura dicunt et in suo regno saluos fuisse et meminisse <lb/>
+            et intellexisse. sic enim contionatum illi dicunt <sic>prineipem</sic> <lb/>
+            tenebrarum, ut neque ipse talia dicere neque ab eis, <lb n="10"/>
+            quibus dicebat, audiri sine memoria et intellectu potuisset: <lb/>
+            et habuisse temperiem <choice><note>aDimo</note><corr>animo</corr></choice> et <choice><note>coipori</note><corr>corpori</corr></choice> suo congruam et <lb/>
+            uirtute potentiae regnasse et copias elementorum suorum ac <lb/>
+            fecunditatis habuisse et sensisse se inuicem ac sibi uicinum <lb/>
+            lumen et oculos habuisse, quibus illud longe conspicerent; <lb n="15"/>
+            qui utique oculi sine aliquo lumine lumen uidere non poterant, <lb/>
+            unde recte etiam lumina nominantur; et suauitate suae <lb/>
+            uoluptatis esse perfruitos et dimensis membris atque habitationibus <lb/>
+            determinatos fuisse. nisi autem etiam qualiscumque <lb/>
+            pulchritudo ibi fuisset, nec amarent coniugia sua nec <choice><note>partitim</note><corr>partium</corr></choice> <lb n="20"/>
+            congruentia corpora eorum constarent: quod ubi non fuerit, <lb/>
+            non possunt ea fieri, quae ibi facta esse delirant. et nisi pax <lb/>
+            aliqua ibi esset, principi suo non oboedirent. nisi modus ibi <lb/>
+            esset, nihil aliud agerent quam comederent aut biberent aut <lb/>
+            saeuirent aut quodlibet aliud sine aliqua satietate; quamquam <lb n="25"/>
+            nec ipsi, qui hoc agebant, formis suis determinati essent, <lb/>
+            nisi modus ibi esset. nunc uero talia dicunt eos egisse, ut <lb/>
+            in omnibus actionibus suis modos sibi congruos habuisse negare <lb/>
+            non possint. si autem species ibi non fuisset, nulla ibi
+
+<app>5 aegestatem <hi>SPl</hi> 6 deformitatem <hi>om. V</hi> 7 enim <hi>om. VL</hi> et <hi>om. b</hi> <lb/>
+            8 dicuntur Gl 9 contionatum <hi>81</hi> illic <hi>AGb</hi> dicant <hi>om. A</hi> <lb/>
+            10 ipsi <hi>V</hi> dicere] cernere <hi>b</hi> (in <hi>mg</hi>. al. debere) 11 quibus (8. <hi>h a</hi> <lb/>
+            m. 1) <hi>P</hi> potuisset Gl 12 habaisset <hi>A</hi> animo suo et corpori <lb/>
+            congrae GK 14 fecunditates <hi>Pflb</hi> 18 dimensis <hi>b (in mg</hi>. al. diuersis) <lb/>
+            22 nisi] si <hi>G</hi> 23 fuisset <hi>b</hi> 24 faisset <hi>b</hi> 26 sacietate 8 societate <hi>b</hi> <lb/>
+            quiqaam (qui 8. <hi>I. a m. 1) P</hi> 28 actibus G 29 possunt <hi>b</hi> </app> <lb/>
+             
+<pb n="876"/>
+            qualitas naturalis subsisteret. si nullus ordo ibi fuisset, non <lb/>
+            alii dominarentur, alii subderentur, non in suis elementis congruenter <lb/>
+            uiuerent, non denique suis locis haberent membra <lb/>
+            disposita, ut illa omnia, quae uana isti fabulantur, agere possint. <lb/>
+            dei autem naturam si non dicunt mortuam, quid secundum<lb n="5"/>
+            eorum uanitatem suscitat Christus ? si non dicunt aegram, <lb/>
+            quid curat ? si non dicunt oblitam, quid commemorat ? si non <lb/>
+            dicunt insipientem, quid docet? si non dicunt perturbatam, <lb/>
+            quid redintegrat ? si non uicta ei capta est, quid liberat ? si <lb/>
+            non eget, cui subuenit ? si non amisit sensum, quid uegetat ? <lb n="10"/>
+            si non est excaecata, quid inluminat? si non est in dolore, <lb/>
+            quid recreat? si non est iniqua, quid per praecepta corrigit? <lb/>
+            si non est dedecorata, quid mundat? si non est in bello, cui <lb/>
+            promittit pacem? si non est immoderata, cui modum legis <lb/>
+            imponit? si non est deformis, quid reformat? si non est peruersa,<lb n="15"/>
+            quid emendat? omnia enim haec a Christo non illi rei <lb/>
+            praestari dicunt, quae facta est a deo et arbitrio proprio peccando <lb/>
+            deprauata, sed ipsi naturae, ipsi substantiae dei, quae <lb/>
+            hoc est quod deus. 
+</p>
+          
+</div1>
+
+<div1 n="42" subtype="chapter"><head>cap. 42</head>
+
+<p>Quid istis blasphemiis comparari potest? nihil omnino. <lb n="20"/>
+            sed si aliarum peruersarum sectarum considerentur errores, <lb/>
+            si autem iste sibi error ex parte altera, de qua nondum diximus, <lb/>
+            comparetur, adhuc etiam multo peius et execrabilius in <lb/>
+            dei naturam blasphemare conuincitur. dicunt enim etiam nonnullas <lb/>
+            animas, quas uolunt esse de substantia dei et eiusdem<lb n="25"/>
+            omnino naturae, quae non sponte peccauerint, sed a gente <lb/>
+            tenebrarum, quam mali naturam dicunt, ad quam debellandam <lb/>
+            non ultro, sed patris imperio descenderunt, superatae et oppressae <lb/>
+            sint, affigi in aeternum globo horribili tenebrarum. <lb/>
+            ita secundum eorum sacrilega uaniloquia deus se ipsum in
+
+<app> 2 subdarentur <hi>Pl</hi> 4 qUit uana ista P1 possent <hi>PY</hi> posset b <lb/>
+            5 mortuam dicunt <hi>b</hi> 10 aimuisit <hi>P1</hi>11 excęcata G* 18 decorata <hi>G</hi> <lb/>
+            16 xpo (1 s. <hi>I. a m. 1) 8</hi> non illi] nulli <hi>G</hi> 17 praestare <hi>P1V</hi> <lb/>
+            a deo] ideo <hi>G</hi> 23 exsecrabilius <hi>(s exp. m. 1) P</hi> 24 natura <hi>PV</hi> <lb/>
+            25 substantiae P1 .26 que P peccauerunt <hi>b</hi> 27 quam-tenebrarum <lb/>
+            u. 29 <hi>om. L</hi> 28 oppressae cum sint (eum s. <hi>1. add. m. 2) P</hi> </app> <lb n="30"/>
+             
+<pb n="877"/>
+            quadam parte a magno malo liberauit et rursus se ipsum <lb/>
+            in quadam parte damnauit, quam liberare ab hoste non potuit <lb/>
+            et tamquam de ipso hoste deuicto insuper triumphauit. <lb/>
+            o scelestam et incredibilem audaciam talia de deo credendi, <lb/>
+            talia loquendi, talia praedicandi! quod cum defendere conantur. <lb n="5"/>
+            ut in peiora inruant clausis oculis. dicunt malae naturae <lb/>
+            commixtionem facere ista, ut bona dei natura tanta mala <lb/>
+            patiatur; nam ipsam apud se ipsam nihil horum pati potuisse <lb/>
+            uel posse. quasi inde laudanda sit natura incorruptibilis, quia <lb/>
+            ipsa sibi non nocet, et non quia ei nihil noceri ab aliquo <lb n="10"/>
+            potest deinde si natura tenebrarum nocuit naturae dei et <lb/>
+            natura dei <choice><note>noouit</note><corr>nocuit</corr></choice> naturae tenebrarum: duo ergo mala sunt, <lb/>
+            quae sibi inuicem nocuerunt, et meliore animo fuit gens <lb/>
+            tenebrarum, quia etsi nocuit, nolens nocuit; neque enim nocere, <lb/>
+            sed frui uoluit bono dei. deus autem illam extinguere <lb n="15"/>
+            uoluit, sicut Manichaeus apertissime in epistula ruinosi sui, <lb/>
+            Fundamenti delirat. oblitus <choice><note>eniin</note><corr>enim</corr></choice>, quod paulo ante dixerat: <lb/>
+            ita autem fundata sunt eiusdem splendidissima <lb/>
+            regna supra lucidam et beatam terram, ut a nullo <lb/>
+            umquam aut moueri aut concuti possint. postea dixit: <lb n="20"/>
+            lucis uero beatissimae pater sciens labem magnam <lb/>
+            ac uastitatem, quae ex tenebris surgeret, aduersum <lb/>
+            sua sancta impendere saecula, nisi aliquod eximium <lb/>
+            ac praeclarum et uirtute potens numen obponat, quo <lb/>
+            superet simul ac destruat stirpem tenebrarum, qua <lb n="25"/>
+            extincta perpetua quies lucis incolis pararetur. ecce <lb/>
+            timuit labem ac <choice><note>uastltatem</note><corr>uastitatem</corr></choice> impendentem saeculis suis. certe <lb/>
+            sic erant fundata super lucidam et beatam terram, ut a nullo
+
+<app> 3 de se ipso <hi>G</hi> hoete ipso <hi>b</hi> 4 audatiam P et talia <hi>b</hi> <lb/>
+            5 conantur <hi>om. A</hi> 6 ruant <hi>G</hi> 10 nihil ei <hi>PVAGb</hi> noceri (i ex e <lb/>
+            <hi>a m. T) P</hi> 11 possit <hi>b</hi> nocuit om. <hi>b</hi> 15 sed frui <hi>om. G</hi> 16 epistula <lb/>
+            P1 17 quid <hi>b inter</hi> ante <hi>et</hi> dixerat <hi>spat. 5 litter. uac. rel. sed. <lb/>
+            ras. 8</hi> 18 eisdem 8 19 a <hi>om. b</hi> 22 ex <hi>om. A</hi> aduersus <hi>A Vb</hi> <lb/>
+            24 potens lumen (ns <hi>add. m. 2;</hi> 1 <hi>in rae. utd. a m. I) P</hi> 25 ac<lb/>
+             destruat <hi>(corr. m. 1 ex</hi> adestrua) P qua] qui P1 26 extinctaj destruta <lb/>
+            <hi>Ll</hi> </app> <lb/>
+             
+<pb n="878"/>
+            umquam moueri aut concuti possent. ecce a timore nocere <lb/>
+            uoluit uicinae genti, quam destruere et extinguere conatus <lb/>
+            est. ut perpetua quies lucis incolis pararetur. quare non addidit <lb/>
+            "et perpetuum uinculum?" an illae animae, quas in <lb/>
+            globo tenebrarum in aeternum configit, non erant incolae<lb n="5"/>
+            lucis, de quibus aperte dicit, quod errare se a priore lucida <lb/>
+            sua natura passae sint? ubi et nolens coactus est <lb/>
+            dicere libera eas uoluntate peccasse, <choice><note>lqui</note><corr>qui</corr></choice> non uult peccatum <lb/>
+            ponere nisi in necessitate naturae contrariae ubique nesciens, <lb/>
+            quid loquatur, et tamquam ipse iam inclusus sit in tenebrarum<lb n="10"/>
+            globo. quem finxit, quaerens, qua exeat, et non inueniens. <lb/>
+            sed dicat quod uult seductis et miseris, a quibus multo <lb/>
+            amplius quam Christus honoratur, ut hoc pretio tam longas <lb/>
+            et tam sacrilegas eis fabulas uendat. dicat quod uult, includat <lb/>
+            in globo tamquam in carcere gentem tenebrarum et forinsecus<lb n="15"/>
+            affigat naturam lucis, cui de hoste extincto quietem perpetuam <lb/>
+            promittebat: ecce peior est poena lucis quam tenebrarum, <lb/>
+            peior poena diuinae naturae quam gentis aduersae. illa quippe <lb/>
+            etsi in tenebris intus est, ad naturam eius pertinet <choice><note>m</note><corr>in</corr></choice> tenebris <lb/>
+            habitare; animae autem, quae hoc sunt quod deus, non poterunt <lb n="20"/>
+            recipi, sicut dicit. in regna illa pacifica et a uita ac <lb/>
+            libertate sanctae lucis alienabuntur et configentur in praedicto <lb/>
+            horribili globo: unde et adhaerebunt, inquit, iis rebus <lb/>
+            animae eaedem, quas dilexerunt, relictae in eodem <lb/>
+            tenebrarum globo, suis meritis id sibi conquirentes. <lb n="25"/>
+            certe non est liberum uoluntatis arbitrium. uidete quomodo <lb/>
+            insaniens quid dicat ignorat et contraria sibi loquendo peius <lb/>
+            bellum contra se gerit quam contra deum ipsius gentis
+
+<app> 1 a] in <hi>G</hi> 3 ut sic <hi>A</hi> 7 sunt <hi>P</hi> nolensl nesciens <hi>A</hi> 10 in <lb/>
+            <hi>om. A V</hi> globo tenebrarum P 11 quam <hi>b</hi> fixit <hi>P1V</hi> 18 amplius <lb/>
+            ipse <hi>V</hi> 14 eas <hi>G</hi> uendit P1 15 carcerg ingentS <hi>A</hi> 16 affigat <hi>b<lb/>
+             (tn mg</hi>. al. affligat) hoste] <hi>honeste A</hi> 17 <hi>permittebat A</hi> 18 peior] <lb/>
+            peior est <hi>b</hi> poene P1 22 libertate <hi>(ult</hi> e <hi>in ras. ; corr. a</hi> m. <hi>1<lb/>
+             ex</hi> n <hi>S</hi> confringentur <hi>AG</hi> 23 inquid P1 his <hi>SGPVb</hi> <lb/>
+            24 eadem P1 25 conquerentes <hi>A</hi> 26 certe <hi>om. V</hi> uide <hi>PVG</hi> <lb/>
+            27 peius] potius <hi>V</hi> 28 gentis tenebrarum <hi>0m. A</hi> </app> <lb/>
+             
+<pb n="879"/>
+            tenebrarum. deinde si propterea damnantur animae lucis, quia <lb/>
+            dilexerunt tenebras, <choice><note>ininste</note><corr>iniuste</corr></choice> damnatur gens tenebrarum, quae <lb/>
+            lucem dilexit. et gens quidem tenebrarum lucem ab initio <lb/>
+            dilexit, quam etsi uiolenter, tamen possidere <choice n="0.23"><note n="220">noluit</note><corr n="697">uoluit</corr></choice>, non extinguere, <lb/>
+            lucis autem natura in bello tenebras extinguere <lb n="5"/>
+            <choice n="0.23"><note n="220">noluit</note><corr n="697">uoluit</corr></choice> ; eas ergo uicta dilexit. quod uultis eligite: utrum necessitate <lb/>
+            conpulsa, ut diligeret tenebras, in uoluntate seducta: <lb/>
+            si necessitate, quare damnatur? si uoluntate, quare dei natura <lb/>
+            in tanta iniquitate deprehenditur ? si necessitate dei natura <lb/>
+            coacta est diligere tenebras. uicta est ergo, non uicit; si <lb n="10"/>
+            <choice><note>uotantate</note><corr>uoluntate</corr></choice>, quid iam miseri dubitant peccandi uoluntatem tribuere <lb/>
+            naturae, quam deus ex nihilo fecit, ne retribuant eam <lb/>
+            luci, quam genuit? 
+</p>
+          
+</div1>
+
+<div1 n="43" subtype="chapter"><head>cap. 43</head>
+
+<p>Quid? si etiam ostendimus ante commixtionem mali, <lb/>
+            quam fabulose confictam dementissime crediderunt, in ipsa <lb n="15"/>
+            lucis natura, quam dicunt, magna mala fuisse, quid ad istas <lb/>
+            blasphemias addi posse uidebitur? illic enim fuit, antequam <lb/>
+            pugnaretur, dura et ineuitabilis pugnandi necessitas. ecce iam <lb/>
+            magnum malum, antequam bono misceretur malum. dicant, <lb/>
+            hoc unde, cum adhuc nulla esset facta <choice><note>commiitio</note><corr>commixtio</corr></choice>. si autem <lb n="20"/>
+            necessitas non erat, uoluntas ergo erat. unde et hoc tam <lb/>
+            magnum malum, ut deus ipse naturae suae nocere uellet, cui <lb/>
+            noceri ab hoste non poterat, mittendo eam crudeliter <lb/>
+            miscendam, turpiter purgandam, inique damnandam ? ecce <lb/>
+            quantum malum perniciosae et noxiae et inmanissimae uoluntatis, <lb n="25"/>
+            antequam ullum malum de gente contraria misceretur. <lb/>
+            an forte nesciebat hoc euenturum membris suis, ut diligerent <lb/>
+            tenebras et inimicae existerent sanctae luci, sicut ipse dicit, <lb/>
+            hoc est non tantum deo suo, sed etiam patri, de quo erant?
+
+<app>1 propterea] postea <hi>b</hi> 6 eis uero A dllexit] dixit <hi>A</hi> 7 conpulsa <lb/>
+            P1 9 dei natura <hi>om. A</hi> 10 uicta] uita P1 12 tribuant <hi>PAVOb</hi> <lb/>
+            14 quid] quod <hi>S2AG2</hi> ostendamus P1 15 conuicta <hi>A</hi> 16 mala <lb/>
+            (ex male <hi>corr</hi>. m. I) <hi>P</hi> 18 purgaretur <hi>b</hi> 21 et <hi>om. A</hi> 24 turpitudine <lb/>
+            G1 25 perniciosae 81 tnanissimę A 26 genere <lb/>
+            contrario <hi>b</hi> 28 inimica G lucis <hi>SP</hi> dixit A 29 non tantum] <lb/>
+            Aotandtl <hi>APl</hi> </app>
+
+<app>xxv. Aug. BMt. 6 (pars I). </app>
+
+<app> 56 </app> <lb/>
+             
+<pb n="880"/>
+            unde ergo hoc in deo tam magnum ignorantiae malum, antequam <lb/>
+            ullum de gente contraria misceretur malum? si autem <lb/>
+            futurum hoc sciebat, aut sempiterna in illo erat crudelitas, <lb/>
+            si de suae <choice><note>natijrae</note><corr>naturae</corr></choice> futura contaminatione et damnatione nihil <lb/>
+            dolebat, aut sempiterna miseria, si dolebat. unde et hoc tantum<lb n="5"/>
+            malum summi boni uestri ante ullam commixtionem <lb/>
+            summi mali uestri? ipsa certe particula naturae ipsius, quae <lb/>
+            in illius globi aeterno uinculo configitur, si hoc sibi imminere <lb/>
+            nesciebat, etiam sic erat in natura dei sempiterna <choice><note>igneraDtia</note><corr>ignorantia</corr></choice>; <lb/>
+            si autem sciebat, sempiterna miseria. unde hoc tantum malum,<lb n="10"/>
+            antequam ullum de gente contraria misceretur malum ? an <lb/>
+            forte magna caritate gaudebat, quia per eius poenam perpetua <lb/>
+            quies ceteris lucis incolis parabatur? hoc quam nefas sit dicere <lb/>
+            naturae dei natura dei sic subueniri qui uidet, anathemet. <lb/>
+            sed si hoc saltem ita faceret, ut ipsa luci inimica non fieret,<lb n="15"/>
+            posset fortasse non tamquam dei natura, sed tamquam aliquis <lb/>
+            homo laudari, qui pro patria sua uellet mali aliquid pati, <lb/>
+            quod quidem malum ad tempus posset esse, non in aeternum. <lb/>
+            nunc uero et illam in globo tenebrarum confixionem dicunt <lb/>
+            aeternam et non cuiusque rei, sed naturae dei. et utique <lb n="20"/>
+            iniquissimum et execrabile et ineffabiliter sacrilegum gaudium <lb/>
+            erat, si dei natura gaudebat se tenebras dilecturam et lucis <lb/>
+            sanctae inimicam futuram. unde hoc tam inmane et <choice><note>acelestum</note><corr>scelestum</corr></choice> <lb/>
+            malum, antequam ullum ex gente contraria misceretur <choice n="0.09"><note n="137">malam</note><corr n="1339">malum</corr></choice> ? <lb/>
+            quis tam peruersam et tam inpiam ferat insaniam summo <lb n="25"/>
+            malo tribuere tanta bona et summo bono, quod deus est. <lb/>
+            tanta mala ?
+
+<app> 1 hoc ergo L 3 hoc futurum <hi>b</hi> eo fuit <hi>b</hi> 6 dolebat] docebat G<lb/>
+             docebat <hi>.G</hi> et <hi>om. A</hi> 8 globo <hi>A</hi> si <hi>(corr. m. 1 ex</hi> sibi) <hi>G</hi> <lb/>
+            9 in natura] natura S <hi>nature<foreign xml:lang="grc">̹</foreign> G</hi> 10 sic <hi>Gl</hi> sciebat om. Gt sempiternam<lb/>
+             misrriam <hi>SGb</hi> tantum] tam magnum <hi>A</hi> 11 ullum] illum P1 <lb/>
+            gente tenebrarfl <hi>A</hi> 1-1 natura dei] *a natura dei <hi>P om. VLAGb</hi>. <lb/>
+            quicumque <hi>V</hi> uidit <hi>V</hi> audit <hi>b</hi> anatbemet 81 anathematizet <hi>ALG,</hi> <lb/>
+            (mati 8. <hi>I.) Y</hi> anathematizaret <hi>b</hi> 15 ipsi <hi>b</hi> 17 qrna <hi>AGb</hi> 18 ad] at P* <lb/>
+            possed Pl esse <hi>om. A</hi> 20 et non s. <hi>I. a m. 1 P</hi> 22 luci b<lb/>
+             28 immane P1 24 ei] de A 25 uesaniam <hi>Y</hi>. </app> 
+<pb n="881"/>
+             
+</p>
+          
+</div1>
+
+<div1 n="44" subtype="chapter"><head>cap. 44</head>
+
+<p>Iam uero quod ipsam partem naturae dei dicunt ubique <lb/>
+            permixtam in caelis, in terris, sub terris, in omnibus corporibus, <lb/>
+            siccis et humidis, in omnibus carnibus, in . omnibus <lb/>
+            seminibus arborum, herbarum, hominum, animalium, non potentia <lb/>
+            diuinitatis sine ullo nexu incoinquinabiliter, <sic>iDcorruptibiliter</sic> <lb n="5"/>
+            omnibus rebus administrandis regendisque praesentem, <lb/>
+            quod nos de deo dicimus, sed ligatam, obpressam, pollutam, <lb/>
+            quam solui, liberari purgarique dicunt, non solum per discursum <lb/>
+            solis et lunae et uirtutes lucis, uerum etiam per electos <lb/>
+            suos: hoc genus nefandissimi erroris quam sacrilegas et incredibiles <lb n="10"/>
+            turpitudines eis suadeat, etiamsi non persuadeat, <lb/>
+            horribile est dicere. dicunt enim uirtutes lucis transfigurari <lb/>
+            in masculos pulchros et obponi feminis gentis <choice><note>tenebrarUm</note><corr>tenebrarum</corr></choice>, <lb/>
+            et easdem rursus uirtutes lucis transfigurari in feminas pulchras <lb/>
+            et obponi masculis gentis tenebrarum, ut per pulchritudinem <lb n="15"/>
+            suam inflamment spurcissimam libidinem principum <lb/>
+            tenebrarum et eo modo uitalis substantia, hoc est dei natura, <lb/>
+            quam dicunt in eorum corporibus ligatam teneri, ex eorum <lb/>
+            membris per illam concupiscentiam relaxatis soluta fugiat et <lb/>
+            suscepta uel purgata liberetur. hoc infelices legunt, hoc dicunt, <lb n="20"/>
+            hoc audiunt, hoc credunt, hoc in libro septimo Thesauri <lb/>
+            eorum — sic enim appellant scripturam quandam Manichaei, <lb/>
+            ubi istae blasphemiae conscriptae sunt — ita positum est: <lb/>
+            tunc beatus ille pater, qui lucidas naues habet diuersoria <lb/>
+            et habitacula secundum magnitudines, pro insita <lb n="25"/>
+            sibi clementia fert opem. qua exuitur et liberatur ab <lb/>
+            <choice><note>vinpiis</note><corr>inpiis</corr></choice> retinaculis et angustiis atque angoribus suae <lb/>
+            uitalis substantiae. itaque inuisibili suo nutu illas
+
+<app> 1 dei <hi>om. G</hi> 2 snb terris <hi>(s. I. a m. 1) P, om. G</hi> eorporibus] <lb/>
+            temporibus <hi>b</hi> 3 et <hi>om. b</hi> carnis P5 4 seminibua] sensibus <hi>G</hi> <lb/>
+            _5 <hi>post</hi> incoinquinabiliter add. inuiolabiliter <hi>Ab</hi> 6 amministrandis P1 <lb/>
+            8 discursos A discursus <hi>b</hi> 12 lucis om. <hi>A</hi> 13 feminabus <hi>b</hi> 14 etnt <lb/>
+            u. 16 <hi>om. A</hi> 15 per <hi>(8. I. a m</hi>. 1) 8 18 in eorum <hi>om. G</hi>. <lb/>
+            19 soluta] sola A 21 rednnt (c <hi>add. tn. 2) Pl</hi> septem A 22 enim <lb/>
+            <hi>om. d</hi> 23 ita positum est <hi>om. A</hi> 25 secundum <hi>scripsi:</hi> seu <hi>lib</hi>. 26 clementia] <lb/>
+            dementia <hi>G</hi> ei*uitur <hi>(s er.) S</hi> 27 atque] et <hi>A</hi> 28 uitali <hi>SPV</hi> </app>
+
+<app> 56* </app> <lb/>
+             
+<pb n="882"/>
+            suas uirtutes. quae in clarissima hac naui habentur, <lb/>
+            transfigurat easque parere facit aduersis potestatibus, <lb/>
+            quae in singulis caelorum tractibus ordinatae sunt. <lb/>
+            quae quoniam ei utroque sexu masculorum ac feminarum <lb/>
+            consistunt, ideo praedictas uirtutes partim<lb n="5"/>
+            specie puerorum inuestium parere iubet generi aduerso <lb/>
+            feminarum, partim uirginum lucidarum forma <lb/>
+            generi contrario masculorum, sciens eas omnes hostiles <lb/>
+            potestates propter ingenitam sibi letalem et <lb/>
+            spurcissimam concupiscentiam facillime capi atque<lb n="10"/>
+            isdem speciebus pulcherrimis, quae adparent, mancipari <lb/>
+            hocque modo dissolui. sciatis autem hunc eundem <lb/>
+            nostrum beatum patrem hoc idem esse, quod <lb/>
+            etiam suae uirtutes, quas ob necessariam causam <lb/>
+            <choice><note>trafcsformat</note><corr>transformat</corr></choice> in puerorum et uirginum intemeratam<lb n="15"/>
+            similitudinem. utitur autem his tamquam propriis <lb/>
+            armis atque per eas suam conplet uoluntatem. harum <lb/>
+            uero uirtutum diuinarum, quae ad instar coniugii <lb/>
+            contra inferna genera statuuntur quaeque alacritate <lb/>
+            ac facilitate id, quod cogitauerint, momento eodem <lb n="20"/>
+            efficiunt, plenae sunt lucidae naues. itaque cum <lb/>
+            ratio poposcerit, ut masculis adpareant eaedem <lb/>
+            sanctae uirtutes, illico etiam suam effigiem uirginum <lb/>
+            pulcherrimarum habitu demonstrant. rursus, <lb/>
+            cum ad feminas uentum fuerit. postponentes species <lb n="25"/>
+            uirginum puerorum inuestium speciem ostendunt. <lb/>
+            hoc autem uisu decoro illarum ardor et
+
+<app> 1 naui <hi>om. A</hi> 2 parere] pręesse <hi>b</hi> .6 speciem <hi>pSG</hi> inuestium <lb/>
+            forma <hi>V</hi> inuestium specie <hi>L</hi> 9 letalem <hi>8</hi> 11 eisdem <hi>VP1</hi> hisdem 8 <lb/>
+            in hisdem <hi>b</hi> 18 quod <hi>(m</hi>. 1 d <hi>add</hi>. et <hi>uirg. sup</hi>. o <hi>er.) P</hi> 15 in <lb/>
+            <hi>om. A</hi> intemerata <hi>b (in mg</hi>. al. intemperatft) 18 ad <hi>om. A YG</hi> <lb/>
+            20 felicitate <hi>G</hi> facultate P1 21 effitiunt <hi>P</hi> efficiunt eodem <hi>b</hi> <lb/>
+            plene <hi>b</hi> 22 eadem <hi>P1</hi> 28 ilico <hi>SPV</hi> illic <hi>AG</hi> 24 habitum <lb/>
+            P1 25 posponentes P1 26 in puerorum <hi>G</hi> inuestium <lb/>
+            speciem <hi>om. V</hi> ostenduntur <hi>G</hi> 27 uiso <hi>SPGb</hi> decore <hi>PG</hi> <lb/>
+            ardore <hi>SPl</hi> </app> <lb/>
+             
+<pb n="883"/>
+            concupiscentia crescit atque hoc modo uinculum pessimarum <lb/>
+            cogitationum earum soluitur uiuaque anima, quae <lb/>
+            eorundem membris tenebatur, hac occasione laxata <lb/>
+            euadit et suo purissimo aeri miscetur, ubi penitus <lb/>
+            ablutae animae ascendunt ad lucidas naues, quae sibi <lb n="5"/>
+            ad uectationem atque ad suae patriae transfretation <lb/>
+            em sunt praeparatae. id uero, quod adhuc aduersi <lb/>
+            generis maculas portat, per aestus atque calores <lb/>
+            p articulatim descendit atque arboribus ceterisque <lb/>
+            plantationibus ac satis omnibus miscetur et coloribus <lb n="10"/>
+            diuersis inficitur. et quo pacto ex ista magna et <lb/>
+            clarissima naui figurae puerorum et uirginum adparent <lb/>
+            contrariis potestatibus, quae in caelis degunt <lb/>
+            quaeque igneam habent naturam, atque ex isto aspectu <lb/>
+            decoro uitae <choice n="0.00"><note n="9">pare</note><corr n="2146">pars</corr></choice>, quae in earundem membris habetur, <lb n="15"/>
+            laxata deducitur per calores in <choice><note>lerram</note><corr>terram</corr></choice>: eodem modo <lb/>
+            etiam illa altissima uirtus, quae in naui uitalium <lb/>
+            aquarum habitat, in similitudine puerorum ac uirginum <lb/>
+            sanctarum per suos angelos adparet his potestatibus, <lb/>
+             quarum natura frigida atque humida, quaeque <lb n="20"/>
+            in caelis ordinatae sunt. et quidem his, quae <lb/>
+            feminae sunt, in ipsis forma puerorum adparet, masculis <lb/>
+            uero uirginum. hac uero mutatione et diuersitate <lb/>
+            diuinarum personarum ac pulcherrimarum humidae <lb/>
+            frigidaeque stirpis principes masculi siue feminae <lb n="25"/>
+            <choice><note>soluuutur</note><corr>soluuntur</corr></choice> atque id, quod in ipsis est uitale, fugit;
+
+<app> 3. eorum de membria <hi>b</hi> lassata <hi>b, om. G</hi> 4 euadet <hi>SP1 AVG</hi> <lb/>
+            eu a nessit 1b 5 ablatae] <hi>absolute V 6 euectiong AV 8 masculas A</hi> <lb/>
+            portat Pl 10 ac] atque <hi>A</hi> miscitur P1 11 inficitur <hi>b:</hi> infigitur <hi>lib</hi> <lb/>
+            et quo] quo <hi>b</hi> 12 fugurae P et] ac <hi>L Vb</hi> contrariis apparent <hi>b</hi> <lb/>
+            14 ignem P1 16 Eodem <hi>b</hi> 17 illa (8. <hi>I. a m. 1) S</hi> 18 aquaru P1 <lb/>
+            in OM. <hi>PYA, (s. Z. a m. 1) S</hi> similitudinem, <hi>PG</hi> similitudine <lb/>
+            <hi>(virg. er. m. 1) S</hi> 20 natura <hi>(in mg</hi>. al. naui) <hi>b</hi> frigida est <hi>b</hi> <lb/>
+            21 et <hi>om. SPG</hi> quide P1 equidem <hi>b</hi> 22 forme (me <hi>add. m. 2) P</hi>. <lb/>
+            apparet P1 23 hęc G11 mutationem P1 24 personarum diui- <lb/>
+            <hi>narum PAVG</hi> 25 stipis P1 26 quod <hi>om. A</hi> uitale est b </app> <lb/>
+             
+<pb n="884"/>
+            quod uero resederit, laxatum deducitur in terram per <lb/>
+            frigora et cunctis terrae <choice><note>geneTibus</note><corr>generibus</corr></choice> admiscetur. quis <lb/>
+            hoc ferat? quis hoc credat, non dico, ita esse, sed uel dici <lb/>
+            potuisse ? ecce qui docentem timent anathemare Manichaeum <lb/>
+            et non timent credere haec facientem, <choice n="8.36"><note n="1">haee</note><corr n="11960">haec</corr></choice> patientem deum! <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="45" subtype="chapter"><head>cap. 45</head>
+
+<p>Per electos autem suos purgari dicunt eandem ipsam <lb/>
+            commixtam partem ac naturam dei manducando scilicet et <lb/>
+            bibendo, quia eam in alimentis omnibus dicunt ligatam teneri: . <lb/>
+            quae cum ab electis uelut sanctis in refectionem <choice><note>corperia</note><corr>corporis</corr></choice> <lb/>
+            manducando et bibendo adsumuntur, per eorum sanctitatem<lb n="10"/>
+            solui, signari et liberari. nec adtendunt miseri, quam non incongrue <lb/>
+            de illis creditum sit, quod frustra negant. nisi eosdem <lb/>
+            libros anathemauerint et Manichaei esse destiterint. si enim, <lb/>
+            sicut dicunt, in omnibus seminibus est ligata pars dei et ab <lb/>
+            electis manducando purgatur: quis non digne credat eos facere,<lb n="15"/>
+            quod inter uirtutes caelorum et principes tenebrarum fieri in <lb/>
+            Thesauro suo legunt, quandoquidem et carnes suas de gente <lb/>
+            tenebrarum esse dicunt et in eis ligatam teneri uitalem illam <lb/>
+            substantiam, partem dei, credere atque affirmare non dubitant? <lb/>
+            quae utique si soluenda est et manducando purganda,<lb n="20"/>
+            sicut eos fateri cogit funestus error ipsorum, quis non uideat, <lb/>
+            quia non exhorreat, quanta turpitudo et quam nefaria <choice><note>conbuquatur</note><corr>consequatur</corr></choice> <lb/>
+            ?. 
+</p>
+          
+</div1>
+
+<div1 n="46" subtype="chapter"><head>cap. 46</head>
+
+<p>Nam et a quibusdam principibus gentis tenebrarum <lb/>
+            sic dicunt Adam primum hominem <choice n="0.23"><note n="11">creatam</note><corr n="36">creatum</corr></choice>, ut lumen ab eis <lb n="25"/>
+            ne fugeret teneretur. in epistula <sic>eiym</sic>, quam Fundamenti appellant, <lb/>
+            quomodo princeps tenebrarum, quem patrem primi <lb/>
+            hominis inducunt, ad ceteros socios suos tenebrarum principes <lb/>
+            locutus fuerit et egerit, ita scripsit Manichaeus: iniquis
+
+<app>1 residerit <hi>P1S</hi>laxatur G1 p frigore Pl 2 ammucetur Pl <lb/>
+            8 ita <hi>(m. 2corr. ex</hi> ut) <hi>P</hi> 4 qui] quid <hi>SP quid AVG</hi> anathemate G* <lb/>
+            anathematizare <hi>AVL</hi> 5 hoc <hi>b</hi> haec] et haec <hi>PVA</hi> et hoc <hi>b</hi> <lb/>
+            pacientem <hi>P</hi> deum <hi>om. A</hi> 8 qui <hi>ALGb</hi> elementia <hi>PA</hi> 9 ne- <lb/>
+            Ind P'F <hi>13 anathematizauerint AVGb 18 dicunt esse AG</hi> 19 partem]<lb/>
+             quam partem <hi>AVG</hi> 22 ezorreat P1 27 principes <hi>AP1</hi> <lb/>
+            28 sotios <hi>V</hi> princeps <hi>G</hi> 29 iniquis <hi>b (in mg</hi>. al. in quibusl </app> <lb/>
+             
+<pb n="885"/>
+            igitur commentis ad eos, qui aderant, ait: quid <choice n="0.60"><note n="4825">nobis</note><corr n="3215">uobis</corr></choice>. <lb/>
+            uidetur maximum hoc lumen, quod oritur? intuemini, <lb/>
+            quemadmodum polum mouet, concutit plurimas potestates. <lb/>
+            quapropter mihi uos <choice><note>potias</note><corr>potius</corr></choice> aequum est id, <lb/>
+            quod in uestris uiribus habetis, luminis praerogare: <lb n="5"/>
+            sic quippe illius magni, qui gloriosus adparuit, imaginem <lb/>
+            fingam, per quam regnare poterimus, tenebrarum <lb/>
+            aliquando <choice><note>conuersatioae</note><corr>conuersatione</corr></choice> liberati. haec audientes <lb/>
+            ac diu secum deliberantes iustissimum putauerunt <lb/>
+            id quod postulabantur praebere. nec enim fidebant <lb n="10"/>
+            se idem lumen iugiter retenturos: unde melius rati <lb/>
+            sunt principi suo offerre, nequaquam desperantes <lb/>
+            eodem se pacto regnaturos. quo igitur modo lumen <lb/>
+            idem, quod habebant, praebuerint, considerandum est. <lb/>
+            nam hoc etiam omnibus diuinis scripturis arcanisque <lb n="15"/>
+            caelestibus aspersum est; sapientibus uero quomodo <lb/>
+            sit datum <choice n="0.00"><note n="1">seire</note><corr n="988">scire</corr></choice> minime est difficile; nam coram <lb/>
+            aperteque cognoscitur ab eo, qui uere ac fideliter <lb/>
+            intueri uoluerit. quoniam eorum, qui conuenerant, <lb/>
+            frequentia promiscua erat, feminarum scilicet ac <lb n="20"/>
+            . masculorum, inpulit eos, ut inter se coirent. in quo <lb/>
+            coitu alii seminarunt, aliae grauidae effectae sunt. <lb/>
+            erant autem partus his, qui genuerant, similes uires <lb/>
+            plurimas parentum uti primi obtinentes. haec sumens <lb/>
+            eorum princeps uti praecipuum donum gauisus est. <lb n="25"/>
+            et sicuti etiam nunc fieri uidemus corporum <sic>formatricern</sic> <lb/>
+            naturam mali inde uires sumentem figurare,
+
+<app>1 Quid nobis aidetur ? Maximum-intuemini 8 8 quemammodam P1 <lb/>
+            polum] popaltl 8 pol4 modo <hi>(s. I. add</hi>. alibi: populfi moua) <hi>G</hi> <lb/>
+            , moneat <hi>b</hi> 4 potius] opal est <hi>Lb</hi> 5 prerogare P 8 hoc <hi>b</hi> 9 secum <lb/>
+            diu F indeliberantes P putarunt P 18 offerre] id offerre <hi>VAb</hi> <lb/>
+            13 pacto se <hi>A</hi> lumem <hi>A</hi> 14 idem! illud <hi>Ab</hi> praebuerit P 15 ar- <lb/>
+            <lb/>
+            chanisque <hi>AG</hi> ∗∗∗nisque (arca <hi>add. m. 2) P</hi> 19 quoniam] quomo b <lb/>
+            erat frequentia <hi>b</hi> 20. promiscuerat <hi>S</hi> erat] erit <hi>(sup</hi>. i <hi>add. m. 1</hi>. <lb/>
+            a) P 21 inpulit Pl 28 his <hi>SAGb</hi> 24 optinentes <hi>S</hi> hoc <hi>b</hi> 25 pputiam <lb/>
+            <hi>(superser. m</hi>. 2 pręcipun donll) <hi>G</hi> 27 figurate <hi>A</hi> flngere <hi>G</hi> </app> <lb/>
+             
+<pb n="886"/>
+            ita etiam ante dictus princeps sodalium prolem accipiens <lb/>
+            habentem parentum sensus, prudentiam, lucem <lb/>
+            simul secum in generatione procreatam comedit; ac <lb/>
+            plerisque uiribus sumptis ex istius modi esca, in qua <lb/>
+            non modo inerat fortitudo, sed multo magis astutiae<lb n="5"/>
+            et praui sensus ex fera genitorum mente, propriam <lb/>
+            ad <sic>ee</sic> coniugem euocauit ex <sic>Aa</sic>, qua ipse erat, stirpe <lb/>
+            manantem; et facto cum ea coitu seminauit ut ceteri <lb/>
+            abundantiam malorum, quae deuorauerat, nonnihil <lb/>
+            etiam ipse adiciens ex sua cogitatione ac uirtute, ut<lb n="10"/>
+            esset sensus eius omnium eorum, quae profuderat <lb/>
+            formator atque descriptor; cuius compar excipiebat <lb/>
+            haec, ut semen consueuit culta optime terra percipere. <lb/>
+            in eadem enim construebantur et contexebantur <lb/>
+            omnium imagines caelestium ac terrenarum uirtutum,<lb n="15"/>
+            ut pleni uidelicet orbis, id quod formabatur, similitudinem <lb/>
+            obtineret. 
+</p>
+          
+</div1>
+
+<div1 n="47" subtype="chapter"><head>cap. 47</head>
+
+
+</div1>
+
+<div1 n="0" subtype="chapter"><head>cap. 0</head>
+
+<p><choice n="0.22"><note n="6">scelestam</note><corr n="21">scelestum</corr></choice> monstrum t o execranda perditio et labes <lb/>
+            deceptarum animarum! omitto, quid sit de natura dei, quod <lb/>
+            sic ligetur, haec dicere. hoc saltem adtendant miseri decepti<lb n="20"/>
+            et errore mortifero uenenati, quia, si per coitum masculorum <lb/>
+            et feminarum ligatur pars dei, quam se manducando soluere <lb/>
+            et purgare profitentur, cogit eos huius tam nefandi erroris <lb/>
+            necessitas, ut non solum de pane et holeribus et pomis, quae <lb/>
+            sola uidentur in manifesto accipere, sed inde etiam soluant <lb n="25"/>
+            et purgent partem dei, unde per concubitum potest, si feminae
+
+<app> . 1 aodalium] sed alia Gt 2 parentf (t <hi>sup. ê <foreign xml:lang="grc">α</foreign> m. 1) S</hi> parenté <hi>G</hi> <lb/>
+            5 erat <hi>b</hi> aatutia <hi>G</hi> 6 praui] prauus <hi>G</hi> patrii <hi>b</hi> genitorS P1 <lb/>
+            mente] gente <hi>b</hi> (tn <hi>mg</hi>. al. mente) 7 ipsi P 8 manentem <hi>AVb</hi> <lb/>
+            ieminauit (uit <hi>t. I. a m. 2) P</hi> 9 nonnihil] ut nihil <hi>b</hi> JO coalitatione <hi>b<lb/>
+             (in mg</hi>. al. cognitione; 11 è&amp; (&amp; cura e <hi>coni. et - add. m. 2) P</hi> <lb/>
+            13 hoc <hi>b</hi> 14 construebantnr] constituebantur <hi>G</hi> contexebantur P1 <lb/>
+            16 formabantor JP1 17 optineret P1 18 monstrum scelestum b <lb/>
+            ex*ecranda (s <hi>er.) P</hi> perdicio <hi>V</hi> 19 omito <hi>S</hi> ommitto P 20 legetur <lb/>
+            P1 legitur <hi>Lb</hi> hoc <hi>b</hi> haec dicere] edicere <hi>G</hi> adtcndaut P1 <lb/>
+            21 quasi <hi>b</hi> 22 ligetur <hi>G</hi> </app> <lb/>
+             
+<pb n="887"/>
+            utero concepta fuerit, conligari. hoc se facere quidam confessi <lb/>
+            esse in publico iudicio perhibentur non tantum in Paphlagonia, <lb/>
+            sed etiam in Gallia, sicut a quodam Romae christiano catholico <lb/>
+            audiui; et cum interrogarentur, cuius auctoritate scripturae <lb/>
+            ista facerent, hoc de Thesauro suo prodidisse, quod <lb n="5"/>
+            paulo ante commemoraui. isti autem cum hoc eis obicitur, <lb/>
+            , solent respondere nescio quem inimicum suum de numero <lb/>
+            suo, hoc est electorum suorum desciuisse et schisma fecisse. <lb/>
+            atque huiusmodi spurcissimam haeresim condidisse. unde <lb/>
+            manifestum est, quia hoc etiam si isti non faciunt, de ipsorum <lb n="10"/>
+            <choice><note>iibris</note><corr>libris</corr></choice> hoc faciunt, quicumque faciunt. abiciant ergo libros, si <lb/>
+            crimen <sic>eihorrent</sic>, quod committere coguntur, si libros tenent; <lb/>
+            aut si non committunt, mundius uiuere contra suos libros <lb/>
+            conantur. sed quid agunt, cum eis dicitur: aut purgate lumen <lb/>
+            de quibus potueritis seminibus, ut nec illud recusetis, quod <lb n="15"/>
+            uos non facere adseritis, aut Manichaeum anathemate, qui, <lb/>
+            cum dicit in omnibus seminibus esse partem dei et concumbendo <lb/>
+            ligari, quicquid autem luminis. hoc est eiusdem partis <lb/>
+            dei ad escas electorum peruenerit, manducando purgari, quid <lb/>
+            <choice n="0.60"><note n="4825">nobis</note><corr n="3215">uobis</corr></choice> suadeat uidetis et eum adhuc anathemare dubitatis: <lb n="20"/>
+            quid agunt, inquam, cum hoc eis dicitur? ad quas tergiuersationes <lb/>
+            se conuertunt, cum aut tam nefaria doctrina sit <lb/>
+            anathemanda aut tam nefaria turpitudo facienda, in cuius <lb/>
+            comparatione iam illa omnia mala, quae intolerabilia paulo <lb/>
+            ante commemorabam, eos de natura dei dicere, quod necessitate <lb n="25"/>
+            <sic>obpreesa</sic> sit, ut bellum gereret, quod aut sempiterna
+
+<app>1 hge <hi>A</hi> se <hi>om. b</hi> quidem <hi>V</hi> quod <hi>A</hi> 2 iaditio P pa∗∗flagoniaP <lb/>
+            paflagonia <hi>GSAV</hi> 4 auctoritatis <hi>SP1G1</hi> auctoritati <hi>V</hi> <lb/>
+            5 prodiase <hi>b</hi> 8 hoc] id <hi>V</hi> sc*isma P scisma 8 fecisse fuisse <lb/>
+            <hi>(exp. m. 1) P</hi> 9 heresem <hi>PS*</hi> he'sym <hi>A</hi> 10 manifefttum] mirQ <hi>b</hi> <lb/>
+            istorum <hi>A</hi> 11 quodcnmque <hi>b</hi> abiciunt <hi>S1G1</hi> 12 exhorent P <lb/>
+            eogantur 01 13 aut] at <hi>AV</hi> 15 potuerit Gx 16 manicheorum Gl <lb/>
+            anathematizate <hi>AVb</hi> 17 seminibus] se minimis P1 18 partis (i <hi>ex</hi> e <lb/>
+            a m. 1) <hi>P</hi> 19 peruenerint <hi>b</hi> quod 8 20 eum] um Pl cil <hi>G1</hi> <lb/>
+            22 nefanda doctrina <hi>A</hi> 23 anathematizanda <hi>Ab</hi> nefanda turp. <hi>G</hi> <lb/>
+            26 aut] autem <hi>SG</hi> </app> <lb/>
+             
+<pb n="888"/>
+            ignorantia secura erat aut sempiterno dolore et timore sollicita, <lb/>
+            quando sibi ueniret corruptio commixtionis et uinculum <lb/>
+            aeternae damnationis, quod denique gesto bello sic fuerit <lb/>
+            captiuata, obpressa, polluta, quod post falsam uictoriam sic <lb/>
+            futura sit in horribili globo in aeternum confixa et ab originis<lb n="5"/>
+            suae felicitate separata, tolerabilia uideantur, cum per se ipsa, <lb/>
+            si considerentur. sustineri non possint? 
+</p>
+          
+</div1>
+
+<div1 n="48" subtype="chapter"><head>cap. 48</head>
+
+<p>O magna patientia tua, domine misericors et miserator, <lb/>
+            longanimis et multum misericors et uerax, qui facis oriri <lb/>
+            solem tuum super bonos et malos, pluis super iustos et iniustos;<lb n="10"/>
+            qui non uis mortem peccatoris, quantum ut reuertatur <lb/>
+            et uiuat; qui partibus corripiens das locum paenitentiae, ut <lb/>
+            relicta malitia credant in te, domine; qui patientia tua ad <lb/>
+            paenitentiam adducis, quamuis multi secundum duritiam cordis <lb/>
+            sui et inpaenitens cor thesaurizent sibi iram in die irae et<lb n="15"/>
+            reuelationis iusti iudicii tui; qui reddis unicuique secundum <lb/>
+            opera sua; qui in qua die conuersus fuerit homo a nequitia <lb/>
+            sua ad misericordiam et ueritatem tuam, omnes <choice><note>ipiquitates</note><corr>iniquitates</corr></choice> <lb/>
+            eius obliuisceris: praesta nobis, da nobis, ut per nostrum <lb/>
+            ministerium, quo execrabilem et nimis horribilem hunc errorem<lb n="20"/>
+            redargui uoluisti, sicut iam multi liberati sunt, et alii <lb/>
+            liberentur et siue per sacramentum sancti baptismi tui siue <lb/>
+            per sacrificium contribulati spiritus et cordis contriti et humiliati <lb/>
+            in dolore paenitentiae remissionem peccatorum et
+
+<app>9 cf. Paul. 102, 8 11 cf. Matth. 5, 45 12 cf. Ei. 38, V <lb/>
+            18 cf. Sap. 12, 2 17 cf. Rom. 2, 4 sqq. 19 cf. Ez. 18. 21 24 cf. <lb/>
+            Ps. 50, 19 </app>
+
+<app>6 sua <hi>G</hi> felicitate (ici <hi>in ras.) A</hi> uideatur <hi>PiGI</hi> 7 condcrentor <lb/>
+            G* possent P1 possunt <hi>IJA</hi> 8 potentia <hi>A</hi> 16 pluit P1 <lb/>
+            et pluis Ab 11 quo P1 quantum] quantum (tum s. <hi>Z</hi>. « m. <hi>1) PO</hi> <lb/>
+            sed <hi>A</hi> sed tantum <hi>L2</hi> sed uis <hi>b</hi> ut <hi>om</hi>. Gl conuertatur <hi>Å</hi> <lb/>
+            12 parcis <hi>Lb</hi> dans <hi>b</hi> 14 paenitentiam Sl ţę adducis <hi>iexp. <lb/>
+            m. 2) P</hi> 15 inpaenitens <hi>Sl</hi> cor impęnitens <hi>b</hi> 16 tui] di <hi>AV</hi> <lb/>
+            di tui <hi>L</hi> reddis P1 17 in (i 8. <hi>I. a m. 2) P</hi> quacumque <hi>Lb</hi> <lb/>
+            18 et ueritatem <hi>om. b</hi> 19 da ] dona <hi>PAVG</hi> 24 paenitentiae 81 <lb/>
+            poenitentiae <hi>(o s. 1. a m. l) P</hi>. </app> <lb/>
+             
+<pb n="889"/>
+            <sic>blasphemiamm</sic> suarum, quibus per ignorantiam te offenderunt, <lb/>
+            accipere mereantur. tantum enim ualet praepollens misericordia <lb/>
+            et potestas tua et ueritas baptismi tui <sic>clauesque</sic> regni <lb/>
+            caelorum in sancta ecclesia tua, ut nec de illis desperandum <lb/>
+            sit, quamdiu in hac terra per tuam patientiam uiuunt, qui <lb n="5"/>
+            etiam scientes, quantum malum sit talia de te sentire uel <lb/>
+            dicere, propter aliquam temporalis et terrenae commoditatis <lb/>
+            consuetudinem uel adeptionem in illa maligna professione <choice><note>detinentor</note><corr>detinentur</corr></choice>, <lb/>
+            ei ad tuam ineffabilem bonitatem saltem increpati tuis <lb/>
+            correptionibus fugiant et omnibus carnalis uitae inlecebris <lb n="10"/>
+            caelestem <choice><note>nitam</note><corr>uitam</corr></choice> aeternamque praeponant.
+
+<app> 1 ignorantil sua<foreign xml:lang="grc">̄</foreign> <hi>b</hi> 2 praepollens] impellene b 4 tua om. <hi>b</hi> <lb/>
+            5 uiunt P1 6 te (s. <hi>I. a m. 2) P</hi> 9 inerepati tois] increpatiuis <hi>SPLAG</hi> <lb/>
+            10 fugiant-omnibus om. <hi>8</hi> in omnibus carnalibua <hi>b</hi> 11 aeternamque <lb/>
+            nitam <hi>VA</hi> amen <hi>P</hi> EXPLICIT LIBER <hi>(om. Å)</hi> SCI AVGVSTINI <lb/>
+            DE NATVBA BONI <hi>fol</hi>. 89 <hi>P p. 128 8 fol</hi>. 8 <hi>L fol</hi>. 53 <hi>AV</hi> Liber <lb/>
+            angoatini de natora boni explicitns finit <hi>p</hi>. 309 O </app> 
+<pb n="890"/>
+             
+<pb n="891"/>
+            
+</p>
+        
+</div1></body>
+</text>
+</TEI>

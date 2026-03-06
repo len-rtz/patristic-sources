@@ -1,0 +1,102 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Vita Sancti Hilarii</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1844</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 9</title>
+           <idno>HieStr.ViSaHi2</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Vita Sancti Hilarii</head>
+
+<p>Hilarius urbis Pictavorum Aquitaniae episcopus,
+factione Saturnini Arelatensis episcopi, de synodo
+Biterrensi Phrygiam relegatus, duodecim adversus
+Arianos confecit libros: et alium librum de synodis,
+quem ad Galliarum episcopos scripsit: et in Psalmos
+commentarios, primum videlicet et secundum, et a
+quinquagesimo primo usque ad sexagesimum secundum,
+<pb n="0184C"/>
+et a centesimo decimo octavo usque ad extremum:
+in quo opere imitatus Origenem, nonnulla
+etiam de suo addidit. Est ejus et ad Constantium
+libellus, quem viventi Constantinopoli porrexerat: et
+alius in Constantium, quem post mortem ejus scripsit:
+et liber adversus Valentem et Ursacium, historiam
+Ariminensis et Seleuciensis synodi continens:
+et ad praefectum Sallustium, sive contra Dioscorum:
+et liber hymnorum, et mysteriorum alius: et commentarii
+in Matthaeum; et Tractatus in Job, quos de
+graeco Origenis ad sensum transtulit: et alius elegans
+libellus contra Auxentium: et nonnullae ad diversos
+epistolae. Aiunt quidam, scripsisse eum et in Cantica
+canticorum; sed a nobis hoc opus ignoratur. Mortuus
+<pb n="0184D"/>
+est Pictavis, Valentiniano et Valente regnantibus.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

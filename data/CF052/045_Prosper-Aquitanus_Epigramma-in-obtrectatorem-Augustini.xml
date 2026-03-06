@@ -1,0 +1,111 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Epigramma in obtrectatorem Augustini</title>
+              <author ref="http://viaf.org/viaf/52485706">Prosper Aquitanus<date>390-463</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 45</title>
+           <idno>ProAqu.EpInObA</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Epigramma in obtrectatorem Augustini</head>
+
+<l>
+<pb n="1857"/>Contra Augustinum narratur serpere quidam</l>
+<l rend="indent">Scriptor, quem dudum livor adussit edax:</l>
+<l>Qui caput obscuris contectum utcumque cavernis,</l>
+<l rend="indent">Tollere humo miserum perpulit anguiculum.</l> 
+<l>Aut hunc fruge sua aequorei pavere Britanni,</l>
+<l rend="indent">Aut huic Campano gramine corda tument.</l> 
+<l>
+<pb n="1858"/>Quae concepta fovet, promat; quae parturit, edat:</l>
+<l rend="indent">Seu vetere armatur dogmate, sive novo.</l> 
+<l>In quoscumque sinus spirarum torqueat orbes,</l>
+<l rend="indent">Et fallax multa contegat arte caput;</l>
+<l>Currentem attritos super aspidas et basiliscos</l>
+<l rend="indent">Declinare senem vipera non poterit.</l> 
+<p>
+          <emph>
+            <pb n="1857"/>IN EUMDEM, AUT ALIUM QUEMPIAM OBTRECTATOREM.</emph>
+<l>
+<pb n="1857"/>Quidam doctiloqui libros senis Augustini</l>
+<l rend="indent">Carpere, et adversum condere fertur opus.</l> 
+<l>Usqueadeone bonum ingenium, et facundia dives</l>
+<l rend="indent">Ostentare artem non aliter potuit,</l>
+<l>In nova prostratas acies nisi bella cieret,</l>
+<l rend="indent">Impiaque exstinctis hostibus arma daret?</l> 
+<l>Haec pugna, incentor, mors est tua; te stilus iste</l>
+<l rend="indent">Conficit, et verbis perderis ipse tuis.</l> 
+<l>
+<pb n="1858"/>Dumque doces quantum valeat mens libera, monstras</l>
+<l rend="indent">Velle tuum tibimet sufficere ut pereas.</l> 
+<l>Verte gradum, fuge perniciem, stratosque rebelles</l>
+<l rend="indent">Oris apostolici fulmine ubique vide.</l> 
+<l>Nec te mutato defendi nomine credas:</l>
+<l rend="indent">Si pastorem ovium laedere vis, lupus es.</l> 
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

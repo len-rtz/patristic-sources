@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              
+              <titleStmt>
+              <title>Fragmenta [CSEL]</title> 
+              <author ref="http://viaf.org/viaf/100198064">Lactantius<date>250-325</date></author>
+              </titleStmt> 
+              <editor><persName><name xml:lang="la">Georgius Laubmann</name>; <addName xml:lang="de">Georg Laubmann</addName></persName></editor> 
+
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1893-1897</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 27</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru01wiengoog#page/n11/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Samuel Brandt</name>; <addName xml:lang="de">Samuel Brandt</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>Lactan.FragmCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL27.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+        <cRefPattern n="book" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0171.stoa010.opp-lat1"/>
+
+  
+         
+  <div1 n="1" subtype="book"><head>L. CAELI FIRMIANI LACTANTI LIBRORVM PERDITORVM FRAGMENTA ET VETERA DE EO TESTIMONIA. – lib. 1</head>
+
+  <div3 subtype="section" n="1"><head>§ 1</head>
+         
+<pb n="155"/>
+          
+          
+            <title type="sub">L. CAELI FIRMIANI LACTANTI LIBRORVM PERDITORVM FRAGMENTA. EX EPISTVLIS AD PROBVM. I. </title>
+          
+          <p><hi>Hieronymus, Comment. in epist. ad Galat. l. II <choice><note>pracfat</note><corr>praefat</corr></choice>. <lb/>
+            (VII 425 <sic>Vall</sic>.):</hi> Quod in primo Commentariorum ad Galatas <lb/>
+            libro cum de gentium proprietatibus disputarem, intactum <lb/>
+            reliqueram, nunc in secundo reddendum uidetur, qui sint <lb/>
+            Galatae uel quo et unde transierint ... Lactantii nostri <lb n="5"/>
+            quae in tertio ad Probum uolumine de hac gente opinatus <lb/>
+            sit uerba ponemus. Galli inquit antiquitus a candore <lb/>
+            corporis Galatae nuncupabantur et Sibylla sic <lb/>
+            eos appellat. quod significare uoluit poeta, cum ait: <lb/>
+            'tum lactea colla Auro innectuntur', cum posset dicere <lb n="10"/>
+            'candida'. hinc utique Galatia prouincia, in quam <lb/>
+            Galli aliquando uenientes cum Graecis se miscuerunt. <lb/>
+            unde primum ea regio Gallograecia, post Galatia nominata <lb/>
+            est. nec mirum si hoc ille de Galatis dixerit et occidentales <lb/>
+            populos tantis in medio terrarum spatiis praetermissis <lb n="15"/>
+            in Orientis plaga consedisse memorarit, cum constet Orientis <lb/>
+            contra et Graeciae examina ad Occidentis ultima peruenisse.
+
+<app> <hi>de epistulis ad Probum cf. Ueber die Entstehungsverhaltnisse der <lb/>
+            Prosaschriften des Lact... p. 125 s</hi>. 8 Sibylla] <hi>cf. Orac. Sibyll. III <lb/>
+            485. 509. 599. V 340</hi> 9 poeta] <hi>Verg. Aen. VIII 660</hi> s. <hi>loco<lb/>
+             Lactantii (uel potius HieronymiJ usus est Isidorus, Orig. IX 2, 68:</hi> <lb/>
+            Galatae ... Graecis admixti primum Gallograeci, nunc ex antiquo Gallorum <lb/>
+            nomine Galatae nuncupantur <hi>(idem XIV 3, 40); § 104:</hi> Galli a candore <lb/>
+            corporis nuncupati sunt: faka enim graece lac dicitur. unde et Yergilias <lb/>
+            (Sibylla <hi>codd. quidam)</hi> sic eos appellat, cum ait de iis: 'tum lactea colla <lb/>
+            Auro innectuntur'. </app> </p>
+  </div3>
+
+    <div3 n="2" subtype="section"><head>§ 2</head>
+
+      <pb n="156"/>
+          
+            <title type="sub">II. </title>
+          
+          <p><hi><choice><note>Bufinus</note><corr>Rufinus</corr></choice>, <sic>Oomment</sic>. in metra Terent., GL. VI 564, 7-565,</hi> <lb/>
+            2 <hi>K.:</hi> Firmianus ad Probum de metris comoediarum sic <lb/>
+            dicit: nam quod de metris comoediarum requisisti, et <lb/>
+            ego scio plurimos existimare Terentianas uel maxime<lb n="5"/>
+            fabulas metrum non habere comoediae Graecae, id <lb/>
+            est Menandri Philemonos Diphili et ceterorum, quae <lb/>
+            trimetris uersibus constat. nostri enim ueteris comoediae <lb/>
+            scriptores in modulandis fabulis sequi maluerunt, <lb/>
+            Eupolin Cratinum Aristophanem. prologos<lb n="10"/>
+            igitur et primarum scaenarum actiones trimetris <lb/>
+            conprehenderunt, deinde longissimos id est tetrametros <lb/>
+            subdiderunt, qui appellantur quadrati. in consequentibus <lb/>
+            deinceps uariauerunt: modo enim trimetros, <lb/>
+            modo addito quadrante uel semisse posuerunt, id est uel semipede adiecto uel integro pede iambo <lb n="15"/>
+            uel sesquipede. haec per medios actus uarie, rursus <lb/>
+            in exitu fabularum quadratos, quales diximus in secunda <lb/>
+            scaena. sed idem quadrati cum sedecim syllabis <lb/>
+            constare debeant, tamen plerumque fiunt uiginti <lb n="20"/>
+            aut amplius syllabarum. hinc putantur metro carere <lb/>
+            nec lege ulla contineri. — Mensuram esse in fabulis <lb/>
+            Terentii et Plauti et ceterorum comicorum et tragicorum <lb/>
+            dicunt Cicero Scaurus Firmianus <hi><sic>equ</sic></hi>.
+
+<app> <hi>de hoc Lactantii loco, quo etiam Marius Vtctorinus, Art. gramm. II 3<lb/>
+             (cf. Gr. Lat. VI 78, 19. 556, 22 K; Keilius p. XXVI) usus est cf. <lb/>
+             Osannus, Beitr. e. griech. u. röm. Litteraturgesch. II (1839) p</hi>. 366 s.; <lb/>
+            <hi>Hensius, Act. societ. phil. Lips. IV (1875) p. 139 adn. **; Leo, Hermes<lb/>
+             XXIV</hi> (1889) <hi>p. 293 adn. 1; dedi ex recensione Keilii, cuius cf. <lb/>
+             appar. erit,</hi> </app>
+</p>
+    </div3>
+          
+      <div3 n="3" subtype="section">
+      
+            <head>EX EPISTVLIS AD DEMETRIANVM. 'III. </head>
+          
+          <p><hi>Hieronymus, Comntent. in epist. ad Galat. 1. II c. IV <lb/>
+            (VII 450 D):</hi> ... multi per inperitiam Scripturarum, quod <lb/>
+             
+<pb n="157"/>
+            et Firmianus in octauo ad Demetrianum epistularum <lb/>
+            libro facit, adserunt spiritum sanctum saepe patrem, <lb/>
+            saepe filium nominari.
+
+<app> 1 octauo] altero <hi>coni. Vallarsius conl. Hieron. de uir. inl. LXXX,</hi> <lb/>
+            cf. <hi>tamen Ueb. d. Entstehungsverh. p. 123</hi> </app>
+</p>
+      </div3>
+        
+        <div3 n="4" subtype="section">  
+        
+            <head>IV. </head>
+          
+          <p><hi>Hieronymus, Epist. LXXXIV 7 (I 524 E):</hi> Et apostolus <lb n="5"/>
+            praecipit: omnia legentes, quae bona sunt retinentes. Lactantius <lb/>
+            in libris suis et maxime in epistulis ad Demetrianum <lb/>
+            spiritus sancti omnino (omnino <hi>om. JrIartianaeus)</hi> <lb/>
+            negat substantiam et errore Iudaico dicit eum uel ad <lb/>
+            patrem referri uel filium et sanctificationem utriusque <lb n="10"/>
+            personae sub eius nomine demonstrari. quis mihi <lb/>
+            interdicere potest ne legam Institutionum eius libros, <lb/>
+            quibus contra gentes scripsit fortissime, quia superior sententia <lb/>
+            detestanda est? 
+</p>
+        </div3>
+    
+    <div3 n="5" subtype="section">
+          
+            <head>INCERTAE SEDIS FRAGMENTA. V. </head>
+          
+          <p><hi>Fragmentum codicis excerptorum ecclesiasticorum Ambrosiani <lb/>
+            (olim Bobiensis) F. 60 Sup. (sacc. VIII-IX), fol. 264,</hi> <lb/>
+            inmarg.lactantius de motibus animi <hi>inscriptum: &lt;Spes&gt; timor,</hi> <lb/>
+            amor odium, laetitia tristitia, libido cupiditas, ira miseratio. <lb n="20"/>
+            zelus admiratio, hi motus &lt;animi&gt; uel adfectus a deo ab <lb/>
+            initio hominis existunt conditi et naturae humanae utiliter et <lb/>
+            salubriter sunt insiti, ut per eos ordinate et rationabiliter
+
+<app> <hi>fragmentum (aut epistularum aut librorum ad Asclepiadem) primus <lb/>
+            edidit Muratorius, Antiquitat. Ital. III (1740) p. 849, accuratius <lb/>
+            Reifferscheidius, Biblioth. Patr. Lat. Ital. 11 p</hi>. 36; <hi>cf. editoris disputationes <lb/>
+            Ueber das</hi> in <hi>dem patristischen Excerptencodex F. 60. Sup. <lb/>
+             der Ambrosiana enthaltene Fragment des Lactantius De motibus animi, <lb/>
+            Heidelb. 1891, et Ueb. d. Entstehunusverh. p. 126 8</hi>. 19 Spes <hi>addidi</hi> <lb/>
+            20 hodia <hi>cod</hi>. letitia <hi>cod</hi>. cupiditas <hi>scripsi,</hi> concupiscentia <hi>cod</hi>. <lb/>
+            misaeratio <hi>cod</hi>. 21 zelus admiratio <hi>in marg. cod</hi>. hii <hi>cod</hi>. animi <hi>add. <lb/>
+            Muratorius</hi> affectus <hi>cod</hi>. ad <hi>cod</hi>. deo <hi>scripsi,</hi> domino <hi>cod</hi>. <lb/>
+            23 insiti <hi>scripsi,</hi> inserti <hi>cod</hi>. </app> <lb/>
+             
+<pb n="158"/>
+            regendos homo uirtutes bonas uiriliter agendo exercere posset: <lb/>
+            per quas a deo perpetuam accipere uitam iuste meruisset. <lb/>
+            hi namque animi motus intra fines proprios coartati, hoc est <lb/>
+            in bona parte positi, in praesenti uirtutes bonas et in futuro <lb/>
+            aeterna praemia parant, extra metas uero suas afluentes, hoc<lb n="5"/>
+            est in malam partem declinantes, uitia et iniquitates <choice><note>eiistunt</note><corr>existunt</corr></choice> <lb/>
+            et aeternas poenas pariunt.
+
+<app>2 deo <hi>scnpsi,</hi> domino <hi>cod</hi>. accipe <hi>cod., corr. Muratorius</hi> 3 hii <hi>cod</hi>. <lb/>
+            coortati <hi>cod., corr. Muratorius</hi> 4 possiti <hi>cod. malim</hi> futurum <lb/>
+            5 etna <hi>cod</hi>. afluentes <hi>scripsi,</hi> affluentes <hi>cod</hi>. </app>
+</p>
+    </div3>   
+      
+    <div3 n="6" subtype="section">
+      
+            <head>VI.</head>
+          
+          <p><hi>Victorinus, De metris et de hexametro, GL. VI209,11 K.:</hi> <lb/>
+            Nostra quoque memoria Lactantius de metris pentameter<lb n="10"/>
+            inquit et tetrameter.
+
+<app><hi>fort. ex epistulis ad Probum, cf. frg. II</hi> </app>
+</p>
+    </div3>    
+     
+     <div3 n="7" subtype="section">
+      
+            <head>VII.</head>
+          
+          <p><hi>Codex Floriacensisplenioris 'Seruii' ad Verg. Aen. VII543<lb/>
+             (II p. 166, 4 Thilo):</hi> et caeli conuexa <hi>(sc</hi>. Allecto) per <lb/>
+            auras] ... dicit etiam Firmianus commentator <hi>(cod</hi>. -tur)<lb n="15"/>
+            non 'conuexa', sed 'conuecta' legendum, ut sit ipsa <lb/>
+            conuecta: quod difficile in exemplaribus inuenitur.
+
+<app><hi>codd. Seruiani:</hi> dicit etiam quidam commentarius (Firmiani <hi>add. Thilo <lb/>
+            Floriacensem secutus)</hi> conuecta legendum ut sit <hi>eqs. cf. de hoc frg. <lb/>
+             Ueb. d. Entstehungsverh. p. 127</hi> </app>
+</p>
+     </div3>
+       
+    <div3 n="8" subtype="section">
+          
+            <head>(VIII spurium.)</head>
+          
+          <p><hi>Anonymus, In. oracula Sibyllina praefat., Orac. Sibyll. ed. <lb/>
+            Rzach p. 6, 64—7, 90: <foreign xml:lang="grc">Φιρμιανὸς</foreign></hi> toivov, <foreign xml:lang="grc">οὐϰ ἀϑαύμαστος<lb n="20"/>
+            ϕιλόσοϕος</foreign> xac tsps<foreign xml:lang="grc">ό</foreign>; xoo <foreign xml:lang="grc">προλεχϑέντος Καπιτωλίον</foreign> 7sv<foreign xml:lang="grc">ομενος</foreign>, <lb/>
+            Trpo; to <foreign xml:lang="grc">αὶώνιον ἡμω̄ν ϕω̄ς</foreign> tov Xptotov <foreign xml:lang="grc">βλέψας ὲν ἰδίοις πονήμασι</foreign>
+
+<app><hi>extat praefatio anonymi in codd. Sibyll. Vindobonensi hist. gr. XCVI <lb/>
+            6 et Scorialensi</hi> II. E <hi>7, inde a p. 159,19 etiam in Monacensi 351, sed etiam<lb/>
+             cod. Mutinensis III. D. 7 miscellaneus</hi> <foreign xml:lang="grc">Φιρμιανοῡ λαϰταντίου</foreign> too <foreign xml:lang="grc">ῥωμαίου <lb/>
+            περ</foreign>l <foreign xml:lang="grc">σιβυλλω̄ν</foreign> <hi>continet, cf. Dindorfius, edit. Clem. Alex. I p. VII; Otto,<lb/>
+             Corp. Apolog. 1113 p. XXXI; de aetate huius prologi cf. Alexander, edit</hi></app><lb/>
+             
+<pb n="159"/>
+            TD <foreign xml:lang="grc">εὶρημένα</foreign> TALC <foreign xml:lang="grc">Σιβύλλαις περὶ τη̄ς ὰρρήτου δόξης παρέϑηϰε</foreign> XAI <lb/>
+            <foreign xml:lang="grc">τὴν ὰλοηγίαν</foreign> NJC '<foreign xml:lang="grc">Ελληνιϰη̄ς πλάνης δυνατω̄ς ὰπήλεγξε. ϰαὶ ἠ</foreign> <sic>ILsV</sic> <lb/>
+            <foreign xml:lang="grc">αὐτοῡ ἔντονος ἐξήγησις τη̄ Αὐσονία γλώττη</foreign>, OT SI <foreign xml:lang="grc">Σιβυλλιαϰοὶ</foreign> <lb/>
+            <sic>OttXOt</sic> <foreign xml:lang="grc">̔Ελλάδι ϕωνη̄ ἐς̂ηνέχϑησαν</foreign>. TVA 81 <foreign xml:lang="grc">τοῡο μὴ ἄπιστον ϕαί- <lb/>
+            νηται, μαρτυρίαν</foreign> tot) <foreign xml:lang="grc">προμνημονευϑέντος ὰνδρὸς παρέξομαι ἔχουσαν</foreign> <lb n="5"/>
+            TOVSE <foreign xml:lang="grc">τὸν τρόπον ἐπεὶ οὐν</foreign> TA <foreign xml:lang="grc">παῤ ήμὶν εὑρισϰόμενα Σιβυλ- <lb/>
+            λιαϰὰ</foreign> 06 <foreign xml:lang="grc">μόνον ώς εὐπόριστα τοῑς</foreign> VOAOOOT TTOV '<foreign xml:lang="grc">Ελλήνων <lb/>
+            εὐϰαταϕρόνητά ἐστι</foreign> ■— TD <foreign xml:lang="grc">γὰρ σπάνια τίμια δοϰεῑ</foreign> —, <lb/>
+            <foreign xml:lang="grc">ὰλλὰ</foreign> XAI <foreign xml:lang="grc">ώς πάντων</foreign> TFTV <foreign xml:lang="grc">στίχ</foreign>CI) <sic>v</sic> <foreign xml:lang="grc">μήσψζόντων τήνὰϰρί- <lb/>
+            βειανΤΟΟ μέτρουὰργοτέαν ε̏χει τή</foreign>V <foreign xml:lang="grc">πίστιναίτία δὲ <lb n="10"/>
+            αυ̋τηΤ</foreign>UV <foreign xml:lang="grc">ταχυγρϰ́ψων</foreign>06 <foreign xml:lang="grc">συμϕϑϰσϰ́ντωνΤ</foreign>-Q <foreign xml:lang="grc">ρ̒ύμητου̃ <lb/>
+            λσγου ἣ ϰ̀παιδεύτωνγενομένων</foreign>,06 <foreign xml:lang="grc">τήςπροϕητίδοςϰ̋μα <lb/>
+            γϰ̀ρΤ</foreign>-G <foreign xml:lang="grc">ὲπιπνοίαὲπέπαυτοἡ</foreign> <sic>trov</sic> <foreign xml:lang="grc">λεχϑέντωνμνήμη. πρὸς</foreign> <lb/>
+            &amp; XAT Ó <foreign xml:lang="grc">Πλάτων βλέψας ε̋ϕη</foreign>, õtt <foreign xml:lang="grc">ϰατορϕώσουσιπλλὰ</foreign> <lb/>
+            <sic>XCXt</sic> <foreign xml:lang="grc">μεγάλα πράγματαμηδὲν είδότες</foreign> wv <foreign xml:lang="grc">λὲγουσιν. ήμείς <lb n="15"/>
+            οὑν</foreign>ex <foreign xml:lang="grc">τω̄νϰομισϑέντων</foreign>à CP&lt;O{IIFJ <foreign xml:lang="grc">ὑπὑτω̃νπρέσβεων <lb/>
+            ο̄σϰ δυνατὑν παραϑήσομαι τοίνυνπερὶ τοῡ <lb/>
+            ἀνάρχου ϑεοῡ τάδε ̇ <lb/>
+            είς</foreign>* <foreign xml:lang="grc">ϑεός</foreign>, 8&lt;; <foreign xml:lang="grc">μόνος ἂρχει, ὑπερμγέϑης ἀγένητος</foreign> . <lb/>
+            <hi><sic>dXXa</sic></hi> deo? <foreign xml:lang="grc">μόνος</foreign> et&lt;; <foreign xml:lang="grc">πανυπέρτατος</foreign>, SG <foreign xml:lang="grc">πεποίηϰεν</foreign> <lb n="20"/>
+            co <sic>pavov</sic> <foreign xml:lang="grc">ἠέλιόν</foreign> te <sic>xat</sic> <foreign xml:lang="grc">ἀστέρας ἠδὲ σελήνην <lb/>
+            ϰαρποϕόρον γαίάν</foreign> te <sic>xat</sic> <foreign xml:lang="grc">ὒδατος οι̋δματα</foreign> T:6vtoo. <lb/>
+            8&lt;; <foreign xml:lang="grc">μόνος ὲστί ϑεός ϰτιστὴς</foreign> <sic>axpatrjto</sic>? <foreign xml:lang="grc">ὑπἀρχων, <lb/>
+            αὑτὸς δ'ὲστήριξε τὑπον μορϕη̄ς μερόπων</foreign> te — <lb/>
+            <foreign xml:lang="grc">αὐτὸς ἔμιξε ϕὑσιν πάντων, γενέτη βιότοιο</foreign>.
+
+<app><hi>Orac. Sibyll. II p. 421 ss. ; Tycho Mommsenus, Dionysius der Perieget,<lb/>
+             Progr. Francof. a. M. 1879 p. 85 adn. 6; C. J. Neumannus apud <lb/>
+            Burachium,Klaros, 1889,p. 90</hi> p. 158, 20—159,15] <hi>'nihil eiusmodi apud <lb/>
+            Lactantium, uidetur anonymus neglegenter hoc loco posuisse, quae alibi<lb/>
+             afferre in animo habuerit; fons enim huius partis est 'Iustinus' cohort. <lb/>
+             ad gentil. 37 = uol. II p. 122 Otto3: <foreign xml:lang="grc">ε̌ϕασϰον</foreign> — <foreign xml:lang="grc">μηδὲν</foreign></hi> <foreign xml:lang="grc">είδότες</foreign> Aev <lb/>
+            <hi><foreign xml:lang="grc">λέγουσι ̓</foreign> Rzachius (secutus Alexandrum II p. 430 ss) ad p. 6, 71-78</hi> <lb/>
+            2 <foreign xml:lang="grc">τὴν ἀλογίαν</foreign> <hi>Castalio,</hi> rijç <foreign xml:lang="grc">ὰλογίας</foreign> <hi>codd</hi>. 7 voo-joi <hi>JRzachius</hi> 16-22] <lb/>
+            <hi>ex. Lact. Inst. 16,14 s. (19 = frg. Sibyll. 17 Rz., 20-22 = frg. III 3- 5)</hi> <lb/>
+            23-251 <hi>et Lact. Inst. II11,18 (frg. V 1-3,</hi> u. <hi>24 etiam Sibyll. III 27)</hi> <lb/>
+            24 <foreign xml:lang="grc">δ'ὲστἠριξε</foreign> — <foreign xml:lang="grc">μορϕη̄ς</foreign> <hi>cum Lact. Rzachius,</hi> <foreign xml:lang="grc">στήριξε μορϕη̄ς</foreign> ts <foreign xml:lang="grc">τὑπον</foreign> <hi>uel <lb/>
+            alia (cf. Rzachium ad Sibyll. III 27) codd. Sibyll</hi>. 25 abrbi; <foreign xml:lang="grc">ἔμιξε</foreign> <hi>cum <lb/>
+            Lact. Rzachius,</hi> aoyaq <foreign xml:lang="grc">μίξε</foreign> <hi>codd. Sibyll</hi>. <foreign xml:lang="grc">γενέτης</foreign> <hi>Stadtmuellerus</hi> </app> <lb n="25"/>
+             
+<pb n="160"/>
+            <sic>orcep</sic> <foreign xml:lang="grc">ει̌ρηϰε</foreign><sic>v</sic> <foreign xml:lang="grc">η̌ ϰαϑὸ συνερχρχόμενοι εἰς</foreign> <sic>oapxa</sic> <foreign xml:lang="grc">μἰαν προσγι̍νονται η̏</foreign> <lb/>
+            xaO-6 <sic>sx</sic> <sic>twv</sic> <foreign xml:lang="grc">τεσσάρωρων στοιχει̍ων ὲναντι̍ων</foreign> <sic>Svtov</sic> <foreign xml:lang="grc">α̍λλήλοις</foreign> <sic>xai</sic> <sic>xov</sic> <lb/>
+            <foreign xml:lang="grc">ὑπουρα̍νιον ϰο̍σμον</foreign> <sic>xal</sic> TOV <foreign xml:lang="grc">α̌νϑρωπον ἐδημιούργησεν</foreign>.
+
+<app>in <hi>Lactantio,</hi> <foreign xml:lang="grc">γενεη̄ς</foreign> <hi>codd. Lact. et Sibyll</hi>. 1-3] <hi>dubium utrum</hi> ut sua<lb/>
+             an ut <hi>Lactantiana anonymus dederit</hi> <foreign xml:lang="grc">προσγἱνοται</foreign> J <hi>Alexander,</hi> itps <lb/>
+            <hi>(i. e</hi>. <foreign xml:lang="grc">πατρὁς</foreign> ) Yivovcai <hi>codd.,</hi> wpoYtvovtat <hi>Rzachius,</hi> <foreign xml:lang="grc">πατρὸς</foreign> \\lvo;&gt; ytvovtai <lb/>
+            <hi>Hartelius</hi> </app> 
+          </p></div3>
+  </div1>
+  
+  
+  
+  <div1 n="2" subtype="book"><head>lib. 2</head>
+
+    <div3 subtype="section" n="1"><head>§ 1</head>
+<pb n="161"/>
+          
+            <title type="sub">VETERA DE LACTANTTO TESTIMONIA</title>
+          
+          <p>(exceptis locis qui in apparatu commemorantur) 1. 
+</p>
+          
+            <title type="sub">I. </title>
+          
+          <p><hi>Hieronymus, De uir. <choice><note>inl</note><corr>ini</corr></choice>. LXXX:</hi> Firmianus qui et <lb/>
+            <choice><note>Lactautius</note><corr>Lactantius</corr></choice> Arnobii discipulus sub Diocletiano principe accitus <lb/>
+            cum Flauio grammatico, cuius De medicinalibus uersu conpositi <lb/>
+            extant libri, Nicomediae rhetoricam docuit ac penuria <lb/>
+            discipulorum ob Graecam uidelicet ciuitatem ad scribendum <lb n="5"/>
+            se contulit. habemus eius Symposium, <sic>quodradulescentulus</sic> <lb/>
+            scripsit <choice><note>Airicae</note><corr>Africae</corr></choice> et hodoeporicum Africa usque Nicomediam <lb/>
+            hexametris scriptum uersibus et alium librum qui inscribitur <lb/>
+            Grammaticus et pulcherrimum De ira dei et Institutionum <lb/>
+            Diuinarum aduersus gentes libros septem et <foreign xml:lang="grc">ἐπιομγομγ́ν</foreign> eiusdem <lb n="10"/>
+            operis. librum unum <foreign xml:lang="grc">άϰέϕαλον</foreign>. et Ad Asclepiadem libros duos, <lb/>
+            De persecutione librum unum, Ad Probum epistularum libros
+
+<app> <hi>de hoc cap. cf. Ueb. das Leben des Lact. passim et Ueb. d. Entstehnngsverh. <lb/>
+            p. 123 ss</hi>. 1 Firmianus rethor qui <hi>cod. Paris. Nouv. acquås. <lb/>
+            lat. 1460 saen. IX</hi> 3 flauio <hi>cod. Casinensis 294 (aaec. X),</hi> fauio <hi>Reginensis <lb/>
+            2077 (saec. VIII-IX),</hi> fabio <hi>Vercellensis 183 (saec. VIII)<lb/>
+             Veronemis XXII 20 (saec. VIII)</hi> 6 habemus <hi>quid significet dtmonstratum<lb/>
+             est Ueb. d. Entstehungsverh. p. 90</hi> 7 odaepori. cum <hi>Reg.</hi>. <lb/>
+            odyporicum <hi>in ras. m. 1 Verc.,</hi> odyporicum de <hi>Cas.,</hi> hodoeporicQ de <hi>Par.'</hi> <lb/>
+            et — Africa <hi>om. Veron</hi>. 10 EHITOMIN <hi>Cas.,</hi> EIIITOMUN <hi>Par.'</hi> <lb/>
+            ENIAArI <hi>Vere.,</hi> ENIMPN <hi>Veron</hi>. librum unum] in libro uno <hi>Par</hi>. <lb/>
+            ANAKEФ<foreign xml:lang="grc">ΧΩ</foreign> <hi>Cas.,</hi> AIIOKEФ<foreign xml:lang="grc">ΑΑΩ</foreign> <hi>Par.,</hi> acefalum <hi>Reg.,</hi> MEФ<foreign xml:lang="grc">ΑΤΩ</foreign> <hi>Verc. <lb/>
+             Veron</hi>. 12 <hi>ad epistulas Lactantii cf. Hadrianus</hi> Iunius, <hi>Batavia <lb/>
+            (1588) p. 311:</hi> (Egmondano coenobio longe uetustissimo, Benedictin <lb/>
+            generis monachis) ubi bibliotheca celebris omnis generis scriptis codicibus <lb/>
+            ct praesertim membranaceis, quos diligenter magna cura cum Priores alii, <lb/>
+            tum Gerardus ex Poelgeestana stirpe Abbas undecunque conquisinerant, <lb/>
+            raros auctores ostendit, e quibus dolet mihi interiisse intra quindecim <lb/>
+            proximoE annos, magno literariae Reipub. detrimento, Lactantii Firmiani <lb/>
+            epistolarum libros duos. quorum meminit nominatim D. <lb/>
+            Hieronymus: quos dum ad me cogitat editioni destinandos mittere <lb/>
+            t De his cf. Indicem Expilatorum et Testium. </app>
+
+<app> XXVII. Lact. t. </app>
+
+<app> 11 </app> <lb/>
+             
+<pb n="162"/>
+            quattuor, Ad <choice><note>Seuemm</note><corr>Seuerum</corr></choice> epistularum libros duos. Ad Demetrianum <lb/>
+            auditorem suum epistularum libros duos. ad eundem <lb/>
+            De opificio dei uel formatione hominis librum unum. hic extrema <lb/>
+            senectute magister Caesaris Crispi filii Constantini in <lb/>
+            Gallia fuit. qui postea a patre interfectus est.
+
+<app>Antonius Houaeus illic religioni operatus. uir doctus. qui postea Abbam <lb/>
+            Absternacensem prospera fama egit, repperit a bibliotapho quopiam <lb/>
+            librorum plagiario sublatos: atque ita disperiit ille thesaurus. ab haeredibus <lb/>
+            sacrifici. in quem cadebat suspicio, in cucullos et piperis inuolucra <lb/>
+            concisus. 1 s. Ad Keuerum—suum epistularum libros duos cum <lb/>
+            <hi>codd. deterior. om. Herdingius, sed cf. Ueb. d. Entstehungsverh. p. 123<lb/>
+             adn. 1; de Seuero cf. testim. VIII</hi> </app><lb n="5"/>
+            
+</p>
+    </div3>    
+      
+    <div3 n="2" subtype="section">
+      
+            <head>II. </head>
+          
+          <p><hi>Hieronymna, Chronic. ad a. Ahr. 2333:</hi> Crispus et Constantinus <lb/>
+            filii Constantini et Licinius adulescens Licini Augusti <lb/>
+            filius Constantini ex sorore nepos Caesares appellantur. quorum <lb/>
+            Crispum Lactantius Latinis litteris erudiuit uir omnium suo<lb n="10"/>
+            tempore eloquentissimus. sed adeo in hac uita pauper, ut <lb/>
+            plerumque etiam necessariis indiguerit. 
+</p>
+          <p><hi>Prospcr Tiro (Aquitanus), Epitoma Chronieon f. 1001 <lb/>
+            (ad a. post pass. Domini CCLXXXIX, Sabino et Rufino coss.), <lb/>
+            Chron. min. sacc. IV. Y. VI. VII. ed. Mommsen, uol. I fasc. <lb n="15"/>
+            2 (1892) p. 44.9:</hi> Crispus et Constantinus filii Constantini et <lb/>
+            Licinius adulescens Licinii Augusti filius ex sorore Constantini <lb/>
+            Caesares appellantur. quorum Crispum Lactantius erudiuit <lb/>
+            uir omnium suo tempore eloquentissimus. sed adeo iu <lb/>
+            hac uita pauper, ut plerumque etiam necessariis indiguerit.
+
+<app> 18 quorum-indiguerit <hi>(20) om. cod. Vaticanus saec VI</hi> </app><lb n="20"/>
+            
+</p>
+    </div3>
+    
+    <div3 n="3" subtype="section">
+          
+            <head>III. </head>
+          
+          <p><hi>Hicronymus, Epist. LXX 5 (I 427 n):</hi> Septem libros <lb/>
+            Aduersus gentes Arnobius edidit totidemque discipulus <lb/>
+            eius Lactantius, qui De ira quoque et opificio dei duo <lb/>
+            uolumina condidit: quos si legere uolueris, dialogorum Ciceronis<lb n="25"/>
+            in eis <foreign xml:lang="grc">ὲπιοτομήν</foreign> reperies. 
+</p>
+    </div3>
+    
+    <div3 n="4" subtype="section"><head>§ 4</head>
+
+<pb n="163"/>
+          
+            <title type="sub">IV. </title>
+          
+          <p><hi>Hieronymus, Comment. in Ezech. XI, XXXVI (V 422 <lb/>
+            <sic>Dj</sic>:</hi> Neque enim iuxta Judaicas <choice n="0.24"><note n="80">fabulas</note><corr n="252">tabulas</corr></choice>, quas illi <foreign xml:lang="grc">δευτεμώσει</foreign> <lb/>
+            appellant, gemmatam et auream de caelo expectamus <sic>lerusalem</sic>... <lb/>
+            quod et multi nostrorum et praecipue Tertulliani <lb n="5"/>
+            liber qui inscribitur De spe fidelium et Lactantii Institutionum <lb/>
+            uolumen septimum pollicetur.
+
+<app><hi>ad. Inst. VII 24, 6 addendum</hi> </app>
+</p>
+    </div3>
+      
+    <div3 n="5" subtype="section">
+          
+            <head>V. </head>
+          
+          <p><hi>Hirronymus, Comment. in Isaiam XVIII praef. (IV <lb/>
+            707):</hi> Non dico de mysterio trinitatis. cuius recta confessio <lb n="10"/>
+            est ignoratio scientiae, sed de aliis ecclesiasticis dogmatibus <lb/>
+            de resurrectione scilicet et de animarum et humanae carnis <lb/>
+            statu. de repromiasionibus futurorum, quomodo debeant accip <lb/>
+            et qua ratione intellegenda sit Apocalypsis loannis: quam s <lb/>
+            iuxta litteram accipimus, iudaizandum est, si spiritualiter ut <lb n="15"/>
+            scripta est disserimus. multorum ueterum uidebimur opinionibus <lb/>
+            contraire, Latinorum Tertulliani Victorini Lactantii
+
+<app><hi>ad ItUJt. VII 24, 6 addendum</hi> </app>
+</p>
+    </div3>
+    
+    <div3 n="6" subtype="section">
+          
+            <head>VI. </head>
+          
+          <p><hi>Hieronymus, Comment. in epist. ad Epltes. l. II c. IV <lb/>
+            (VII 628 E):</hi> Firmianus noster librum De ira dei docto <lb n="20"/>
+            pariter et eloquenti sermone conscripsit, quem qui legerit. <lb/>
+            puto ei ad irae intellectum satis abundeque posse sufficere. 
+</p>
+    </div3>
+    
+    <div3 n="7" subtype="section">
+          
+            <head>VII. </head>
+          
+          <p><hi>Damasus, Epist. ad Hieromjmum, Hieronymi Epist. XXXV <lb/>
+            (I 157 B):</hi> Fateor quippe tibi. eos quos mihi iam pridem <lb n="25"/>
+            Lactantii dederas libros ideo non libenter lego. quia et <lb/>
+            plurimae epistulae eius usque ad mille spatia uersuum <lb/>
+            tenduntur et raro de nostro dogmate disputant, quo fit ut et <lb/>
+            legenti fastidium generet lengitudo et si qua breuia sunt,
+
+<app> 11* </app> <lb/>
+             
+<pb n="164"/>
+            scholasticis magis sint apta quam nobis, de metris et regionum <lb/>
+            situ et philosophis disputantia.
+
+<app> <hi>epistulas ad Probum Damasus spectare uid., cf. Ueb. d. EntstehungstJerh. <lb/>
+            p. 125 8</hi>. 2 <hi>'non pauci codd</hi>. disputandis, <hi>alii</hi> disputantibus' <lb/>
+            <hi>Vallarsius</hi> </app>
+</p>
+    </div3>
+      
+    <div3 n="8" subtype="section">
+          
+            <head>VIII. </head>
+          
+          <p><hi>Hierouymus, Dc uir, inl. CXI:</hi> Acilius Seuerus in Hispania, <lb/>
+            de genere illius Seueri ad quem Lactantii duo<lb n="5"/>
+            epistularum scribuntur libri, conposuit uolumen ...
+
+<app> <hi>de his Seueris cf. d.e Rossi. Bullettino di archeologia cristiana. ser. <lb/>
+            IV, Rom</hi>. 1888-89, <hi>p. 47 8</hi>. 16 in Hiepauia <hi>om. antiquissimus Hieronymi<lb/>
+             codex Parisinus 12161 saec. VII; cf. edit. Herdingii p. XL</hi> </app>
+</p>
+    </div3>
+    
+    <div3 n="9" subtype="section">
+          
+            <head>IX. </head>
+          
+          <p><hi>Hieronymus, Epist. LVIII 10 (I 324 B):</hi> Lactantius. <lb/>
+            quasi quidam fluuius eloquentiae Tullianae, utinam tam nostra <lb/>
+            adfirmare potuisset quam facile aliena destruxit! <lb n="10"/>
+            
+</p>
+    </div3>
+    
+    <div3 n="10" subtype="section">
+          
+            <head>X. </head>
+          
+          <p><hi>Hieronymus, Comment. in Isaiam l. VIII praefat. (IV</hi> <lb/>
+            28 <hi>s.):</hi> Certe nos studiosis scribimus et sanctam scripturam <lb/>
+            scire cupientibus, non fastidiosis et ad singula nauseantibus. <lb/>
+            qui si flumeii eloquentiae et concinnas declamationes desiderant,<lb n="15"/>
+            legant Tullium Quintilianum Gallionem Gabinianum. et <lb/>
+            ut ad nostros ueniam, Tertullianum Cyprianum Minucium <lb/>
+            Arnobium Lactantium Hilarium. 
+</p>
+    </div3>
+    
+    <div3 n="11" subtype="section">
+          
+            <head>XI. </head>
+          
+          <p><hi>Hieronymus, Rpist. XLVIII 13 (I 220 B; in defensione<lb n="20"/>
+            librorum contra Iouinianum su'orum):..</hi>. didicimus plura esse <lb/>
+            uidelicet genera dicendi et inter cetera aliud esse <foreign xml:lang="grc">γυμνασστιϰω̄ς</foreign> <lb/>
+            scribere, aliud <foreign xml:lang="grc">δογματιϰω̄ς</foreign> : in priori uagam esse disputationem <lb/>
+            et aduersario respondentem nunc haec nunc illa proponere. <lb/>
+            argumentari ut libet, aliud loqui. aliud agere... in sequenti autem aperta frons et ut ita dicam ingenuitas necessaria est... <lb n="25"/>
+             
+<pb n="165"/>
+            <hi>(<sic>v</sic>. 221 A)</hi> taceo de Latinis scriptoribus Tertulliano Cypriano <lb/>
+            Minucio Victorino Lactantio Hilario. ne non tam me defendisse <lb/>
+            quam alios uidear accusare. 
+</p>
+    </div3>
+    
+    <div3 n="12" subtype="section">
+          
+            <head>XII. </head>
+          
+          <p><hi>Hieronymus, Comment. in epist. ad Ephes. <choice><note>pracfat</note><corr>praefat</corr></choice>. (VII <lb n="5"/>
+            538 s.):</hi> Numquid aut Tertullianus beatum martyrem <choice><note>Cypnanum</note><corr>Cyprianum</corr></choice> <lb/>
+            aut Cyprianus Lactantium aut Lactantius Hilarium <lb/>
+            deterruit a scribendo ? 
+</p>
+    </div3>
+    
+    <div3 n="13" subtype="section">
+          
+            <head>XIII. </head>
+          
+          <p><hi>111 Hieronymus, <sic>Dc</sic> uir. <choice><note>inl</note><corr>ini</corr></choice>. LVIII (Minucius</hi> Felix;: Meminit <lb n="10"/>
+            huius Minucii et Lactantius in libris suis.
+
+<app> <hi>cf. lmt. I 11, 55. V 1 22</hi> </app>
+</p>
+    </div3>
+    
+    <div3 n="14" subtype="section">
+          
+            <head>XIV. </head>
+          
+          <p><hi>Hieronymus, Epist. LX 10 (I 336 E):</hi> ... eruditioiiis <lb/>
+            gloriam declinando eruditissimus habebatur <hi>(sn</hi>. NerotianusJ. <lb/>
+            illud, aiebat, Tertulliani, istud Cypriani, hoc Lactantii, iilud <lb n="15"/>
+            Hilarii est. 
+</p>
+    </div3>
+    
+    <div3 n="15" subtype="section">
+          
+            <head>XV. </head>
+          
+          <p><hi>Auyustinus, Dr. doctr. christ. II61 (III lp. 42 F Maurj:</hi> <lb/>
+            Nam quid aliud fecerunt multi boni fideles nostri ? nonne aspicimus <lb/>
+            quanto auro et argento et ueste suffarcinatus exierit <lb n="20"/>
+            de Aegypto <hi>(cf. Exod. 11, 2. 12, 3X)</hi> Cyprianus doctor suauissimus <lb/>
+            et martyr beatissimus. quanto Lactantius, quanto <lb/>
+            Victorinus Optatus Hilarius. ut de uiuis taceam. quanto innumerabiles <lb/>
+            Graeci?
+
+<app> <hi>cf. de hoc loco Feb. d. Leb. d. Lact. p. 15</hi> </app>
+</p>
+          <p><hi>Cassiodorius, Instit. diuill. litt. r. 28 (tl 554 Garee):</hi> <lb n="25"/>
+            Multi iterum patres nostri talibus litteris eruditi et in lege <lb/>
+            domini permanentes ad ueram sapientiam peruenerunt, sicut <lb/>
+            beatus Augustinus in libro De doctrina christiana meminit <lb/>
+            dicens: non aspicimus quanto auro et. argento et ueste <lb/>
+             
+<pb n="166"/>
+            suffarcinatus exierit de Aegypto Cyprianus et doctor suauissimus <lb/>
+            et martyr beatissimus, quanto Lactantius. quanto <lb/>
+            Victorinus Optatus Hilarius ? nos addimus Ambrosium ipsumque <lb/>
+            Augustinum atque Hieronymum multosque alios innumerabiles <lb/>
+            Graecos. <lb n="5"/>
+</p>
+    </div3>
+    
+    <div3 n="16" subtype="section">
+          
+            <head>XVI. </head>
+          
+          <p><hi>Eucherius, <choice><note>EpiBt</note><corr>Epist</corr></choice>. ad Vahrian. p. SOO s. <sic>Brussican</sic>.:</hi> Possem <lb/>
+            etiam. nisi longum esset. multos ex innumeris nominatim <lb/>
+            retexere, quanti in saeculo inlustrium uirorum hanc artiorem <lb/>
+            diuini cultus obseruantiam uitamque sectati sunt: quorum<lb n="10"/>
+            tamen exempla ne cuncta penitus omittam, cursini pauca subnectam <lb/>
+            ... <hi>(p. 301)</hi> ... Hilarius nuper et in Italia nunc <lb/>
+            antistes Petronius, ambo ex illa plenissima ut aiunt mundanae <lb/>
+            potestatis sede, unus in religionis. alius in sacerdotii nomen <lb/>
+            ascendit. et quando clarissimos facundia <sic>Firmianum</sic> Minucium<lb n="15"/>
+            Cyprianum Hilarium Ioannem Ambrosium ex illo uolumine <lb/>
+            numerositatis euoluam ? dixerant credo et hi sibi quod <lb/>
+            quidam nostrorum ait. cum se a saeculo in hanc beatiorem <lb/>
+            uitam hoc uelut stimulo concitaret, dixerant credo: quid hoc <lb/>
+            est? surgunt indocti et caelum rapiunt, et nos cum doctrinis <lb n="20"/>
+            <sic>ncstris</sic> ecce ubi in carne uolutamur et sanguine! dixerant <lb/>
+            istud et idcirco ipsi postea uim intulerunt regno <hi>(ef.Luc.16.16)</hi>. 
+</p>
+    </div3>
+    
+    <div3 n="17" subtype="section">
+          
+            <head>XVII. </head>
+          
+          <p><hi><choice><note>Apulliuaris</note><corr>Apollinaris</corr></choice> <choice n="0.95"><note n="191">Sidonius</note><corr n="8">Sidonias</corr></choice>, Epist. IV S, 7 (p. 55, 25 <sic>Liwt</sic> <lb/>
+            johann):</hi> Iam si ad sacrosanctos patres pro comparatione <lb n="25"/>
+            ueniatur. instruit <hi>(sc</hi>. Mamerti Claudiani De statu animae <lb/>
+            liber) ut Hieronymus, destruit ut Lactantius, adstruit ut <lb/>
+            Augustinus.
+
+<app> <hi>cf. testim. IX</hi> (destruxit) </app>
+</p>
+    </div3>
+    
+    <div3 n="18" subtype="section">
+          
+            <head>XVIII. </head>
+          
+          <p><hi>Gennadius, De uir. illl. XV:</hi> Tertullianum et Lactautium <lb n="30"/>
+            et Papiam auctores secutus <hi>(se</hi>. Commodianus) moralem <lb/>
+             
+<pb n="167"/>
+            sane doctrinam et maxime uoluntariae paupertatis amorem <lb/>
+            prosecutus studentibus inculcauit.
+
+<app><hi>cf. de hoc loco Dombartiwn. edit. Commod. praef. p. II; Ebertium, <lb/>
+            Geschichte der Liter. des Abendlandes, 12 p. 90 adn. 3</hi> </app>
+</p>
+    </div3>
+    
+    <div3 n="19" subtype="section">
+          
+            <head>XIX. </head>
+          
+          <p><hi>Gelasitts papa. fipist. 42 seu Derretalis de reapiendis et<lb/>
+            nun recipiendis libris, qui scriptus est a Gelasio papa eutn LXX<lb n="5"/>
+             uiris eruditissimis episcopis in sede apostolica nrbis Romae, <lb/>
+            cap. IV. Notitia librorum apocryplwrum, qui non recipiuntur,</hi> <lb/>
+            § <hi>8 (Epistolae Romanorum pontificum genuinae ed. Thiel, <lb/>
+            I p. 467; Crednrr, Zur Geschichte tips Kanons p. 221):</hi> <lb/>
+            Opuscula Lactantii apocrypha. <lb n="10"/>
+            Opuscula Africani apocrypha.
+
+<app> lactantii sine (siue <hi>om. codex quidam)</hi> africani firmiani apocrypha, <lb/>
+            <hi>omisso proximo de Africano uersu, codd. deteriores, unde quidam</hi> Lactantii <lb/>
+            sine Africani sine Firniiani <hi>fecerunt; cf. Ueber das Leben des <lb/>
+            Lact. p. 10 8</hi>. </app>
+</p>
+          <p><hi>Hormisdas papa, Epist. 125 seu Decretale in urbe Roma <lb/>
+            ab Hormisda papa editum de seripturis diuinis, quid uniuersiditer <lb/>
+            catholica recipiat Eccksia uel quid post haec uitare <lb/>
+            debeat, cap. V 11 (Thiel p. 937):</hi> <lb n="15"/>
+            Opuscula Lactantii apocrypha. <lb/>
+            Opuscula Africani apocrypha.
+
+<app> <hi>de origine decretalium Gelasii et Hormisdae cf. praeter alios <lb/>
+            Friedrichium, Ueber die Unechtheit der Decretale de recipiendis et non<lb/>
+             recipiendis libris des P. Gelasius I., in Relationihus Acad. Monac., <lb/>
+            classis philos-philol., 1888 p. 54 ss</hi>. </app>
+</p>
+    </div3>
+  </div1>    
+</body>
+</text>
+</TEI>

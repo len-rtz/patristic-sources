@@ -1,0 +1,125 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Appendix VII: Ad lectorem</title>
+              <author ref="http://viaf.org/viaf/803890">Isidorus Hispalensis<date>565-636</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1850</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 81</title>
+           <idno>IsiHis.ApViAdL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Appendix VII: Ad lectorem</head>
+<p>
+          <pb n="0971A"/>Origines quondam ille, qui apud Graecos in opere
+divinarum non parvo elaboravit studio, ut ostenderet
+nostris qualis per singulas editiones Scripturarum
+lectio teneretur, in propriis paginis vel columnis
+editiones singularum translationum descripsit, ut ea
+quae in unaquaque deerant, vel superflua habebantur,
+caeteris quibusque signis distinguerentur. Hujusmodi
+igitur ego ipse studio delectatus, Psalmorum
+librum duarum translationum compinge e malui,
+sive ut Septuaginta Interpretes, vel caeteri, transtulerunt;
+sive ut in Hebraeo legitur, et sanctissimo Hieronymo
+in Latinum sermonem interpretatum agnoscitur.
+Utramque igitur editionem e regione componentes
+adjunximus, ut quaeque in singulis vel desunt
+vel potius abundant, signis ad capita versiculorum
+praefixis, manifestentur. Quapropter ubi in Septuaginta
+translatione aliquid superfluum est, virgulae ÷
+signo notatum est; ubi vero aliquid deest, ut clareat,
+asterici + figura signatum est. Verum ubi per
+dissonantiam utraque invicem discrepant, antigraphus
+<pb n="0971B"/>
+V in utrisque columnis appositus est. Nam
+procul dubio in plerisque locis multo alium sensum
+<pb n="0972A"/>
+suggerunt: in plerisque vero ita pari sensu incedunt,
+ut aeque sibi pro expositione adhibeantur.
+Plurimum enim valet lectori geminae hujus interpretationis
+collatio: nam obscurae sententiae ambiguitas,
+quae per unius intellectum difficilis est, alterius
+inspectione aperitur. Sane sciendum nequaquam
+esse in eadem editione scriptum, ubi versiculi vacantes
+claruerunt: neque enim antiquorum vitio
+omissa, vel dempta sunt, sed in propria translatione
+deesse perhibentur. In titulis autem, ubi Septuaginta
+dixerunt: in finem, psalmus; in hebraeo habetur,
+victori. Nec satis inter se discrepant; siquidem perseverare
+in finem ipsa est perfecta victoria, sicut
+scriptum est: <hi>Qui perseveraverit usque in finem, hic
+salvus erit.</hi> Primus autem et secundus psalmus in
+Septuaginta sine inscriptione habentur: in Hebraeo
+autem ii sunt, qui superscripti non sunt I, II,
+XXXII, XL, XLII, XLIII, XLIV, XLV, XLVI,
+XLVII, XLVIII, LXX, CXV, CXVI, CXVII, CXXXVI,
+CXLVI, CXLVII. Caeteri autem praeter hos, aut nominibus
+<pb n="0972B"/>
+propriis titulantur, aut sine nomine perscriptionibus
+suis notantur.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

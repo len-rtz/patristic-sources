@@ -1,0 +1,2206 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Liber Danielis</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 28</title>
+           <idno>HieStr.LibDan</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head> PRAEFATIO HIERONYMI IN DANIELEM PROPHETAM.</head>
+<p>
+          <pb n="1291B"/>Danielem prophetam juxta Septuaginta Interpretes
+Domini Salvatoris Ecclesiae non legunt utentes Theodotionis
+editione, et hoc cur acciderit, nescio. Sive
+enim quia sermo Chaldaicus est, et quibusdam proprietatibus
+a nostro eloquio discrepat, noluerunt Septuaginta
+Interpretes easdem linguae lineas in translatione
+servare: sive sub nomine eorum ab alio
+nescio quo non satis Chaldaeam linguam sciente,
+editus liber est: sive aliud quid causae exstiterit
+ignorans: hoc unum affirmare possum, quod multum
+a veritate discordet, et recto judicio repudiatus sit.
+Sciendum quippe, Danielem maxime et Ezram,
+Hebraicis quidem litteris; sed Chaldaico sermone
+conscriptos, et unam Jeremiae <foreign xml:lang="greek">περικοπὴν,</foreign> Job quoque
+cum Arabica lingua habere plurimam societatem.
+<pb n="1291C"/>
+Denique et ego adolescentulus, post Quintiliani et
+Tullii lectionem ac flores rhetoricos, cum me in linguae
+<pb n="1292B"/>
+hujus pistrinum reclusissem, et multo sudore,
+multoque tempore vix coepissem anhelantia stridentiaque
+verba resonare, et quasi per cryptam ambulans,
+rarum desuper lumen aspicerem, impegi novissime
+in Danielem, et tanto taedio affectus sum, ut
+desperatione subita omnem veterem laborem voluerim
+contemnere. Verum adhortante me quodam Hebraeo,
+et illud mihi crebrius in sua lingua ingerente, <hi>Labor omnia vincit improbus,</hi> 
+ qui [ <hi>Al.</hi> et qui]
+mihi videbar sciolus inter eos, coepi rursum discipulus
+esse Chaldaicus. Et ut verum fatear, usque ad
+praesentem diem magis possum sermonem Chaldaicum
+legere et intelligere, quam sonare. Haec idcirco,
+ut difficultatem vobis Danielis ostenderem, qui
+apud Hebraeos nec Susannae habet historiam, nec
+<pb n="1292C"/>
+hymnum trium puerorum, nec Belis, draconisque
+fabulas: quas nos, quia in toto orbe dispersae sunt,
+<pb n="1293A"/>
+ veru ÷ anteposito, easque jugulante, subjecimus:
+ne videremur apud imperitos magnam partem voluminis
+detruncasse. Audivi ego quemdam de praeceptoribus
+Judaeorum, cum Susannae derideret historiam,
+et a Graeco nescio quo diceret esse confictam,
+illud opponere, quod Origeni quoque Africanus
+opposuit, etymologias has <foreign xml:lang="greek">ἁπὸ τοῦ σχίνου σχίσαι, καὶ
+ἀπὸ τοῦ πρίνου πρίσαι,</foreign> de Graeco sermone descendere.
+Cujus rei nos intelligentiam nostris hanc possumus
+dare: Ut, verbi gratia, dicamus ab arbore
+ilice dixisse eum, Illico pereas: et a lentisco, In
+lentem te comminuat angelus, vel non lente pereas,
+aut lentus, id est flexibilis ducaris ad mortem: sive
+aliud quid ad arboris nomen conveniens. Deinde
+tantum fuisse otii tribus pueris cavillabatur, ut in
+<pb n="1293B"/>
+camino aestuantis incendii metro luderent, et per
+ordinem ad laudem Dei omnia elementa provocarent:
+aut quod miraculum, divinaeque aspirationis
+indicium, vel draconem interfectum offa picis, vel
+sacerdotum Belis machinas deprehensas: quae magis
+prudentia solertis viri, quam prophetali essent [ <hi>Al.</hi> 
+esse] spiritu perpetrata? Cum vero ad Abacuc veniret,
+et de Judaea in Chaldaeam raptum discophorum
+[ <hi>Al.</hi> discumferentem] lectitaret: quaerebat
+exemplum, ubi legissemus in toto veteri Testamento,
+quemquam sanctorum gravi volasse corpore,
+et in puncto horae tanta terrarum spatia transisse.
+Cui cum quidam e nostris satis ad loquendum promptulus,
+<pb n="1294A"/>
+Ezechielem adduxisset in medium, et diceret
+eum de Chaldaea in Judaeam fuisse translatum: derisit
+hominem, et ex ipso volumine demonstravit
+Ezechielem in spiritu se vidisse transpositum. Denique
+et Apostolum nostrum, videlicet ut eruditum
+virum, et qui legem ab Hebraeis didicisset, non fuisse
+ausum affirmare se raptum in corpore, sed dixisse: <hi>Sive in corpore, sive extra corpus, nescio. Deus scit <note>(II Cor. XII, 2)</note>
+          </hi>.
+His et talibus argumentis apocryphas
+in libro Ecclesiae fabulas arguebat. Super qua
+re lectoris arbitrio judicium derelinquens, illud
+admoneo, non haberi Danielem apud Hebraeos inter
+prophetas, sed inter eos qui <foreign xml:lang="greek">Ἁγιόγραφα</foreign> conscripserunt.
+In tres siquidem partes omnis ab eis Scriptura
+ dividitur: in Legem, in Prophetas in <foreign xml:lang="greek">Ἁγιόγραφα,</foreign>
+<pb n="1294B"/>
+id est, in quinque, et octo, et in undecim
+libros: de quo non est hujus temporis disserere. Quae
+autem ex hoc propheta, immo contra hunc librum,
+Porphyrius objiciat, testes sunt Methodius, Eusebius,
+Apollinaris: qui multis versuum millibus
+ejus vesaniae respondentes, nescio an curioso lectori
+satisfecerint. Unde obsecro vos, o Paula et
+Eustochium, fundatis pro me ad Dominum preces:
+ut quamdiu in hoc corpusculo sum, scribam aliquid
+gratum vobis, utile Ecclesiae, dignum posteris.
+Praesentium quippe judiciis non satis moveor: qui
+in utramque partem, aut amore labuntur, aut odio.</p>
+</div1>
+
+<div1>
+        <head>INCIPIT LIBER DANIELIS PROPHETAE.</head>
+<l>
+<pb n="1293D"/>[ <hi>Visio</hi> I.] Anno tertio regni Joiacim regis Juda,</l>
+<l rend="indent">venit Nabuchodonosor rex Babylonis in [ <hi>Al. tac.</hi> </l>
+<l rend="indent(1)">in] Jerusalem,</l>
+<l rend="indent">et obsedit eam.</l> 
+<l>Et tradidit Dominus in manu ejus Joiacim regem</l>
+<l rend="indent(1)">Juda,</l>
+<l rend="indent">et partem vasorum domus Dei:</l>
+<l>Et asportavit in terram Sennaar in domum Dei sui,</l>
+<l rend="indent">et vasa intulit in domum thesauri Dei sui.</l> 
+<l>Et ait rex Asphanaz praeposito eunuchorum,</l>
+<l rend="indent">ut introduceret de filiis Israel,</l>
+<l rend="indent">et de semine regio et tyrannorum, pueros,</l>
+<l>In quibus nulla esset macula, decoros forma,</l>
+<l rend="indent">et eruditos omni sapientia,</l>
+<l rend="indent">cautos scientia, et doctos disciplina,</l>
+<l>
+<pb n="1294D"/>Et qui possent stare in palatio regis,</l>
+<l rend="indent">ut doceret eos litteras, et linguam Chaldaeorum.</l> 
+<l>Et constituit eis rex annonam per singulos dies de</l>
+<l rend="indent(1)">cibis suis,</l>
+<l rend="indent">et de vino unde bibebat ipse;</l>
+<l>Ut enutriti tribus annis,</l>
+<l rend="indent">postea starent in conspectu regis.</l> 
+<l>Fuerunt ergo inter eos de filiis Juda,</l>
+<l rend="indent">Daniel, Ananias, Misael, et Azarias.</l> 
+<l>Et imposuit eis praepositus eunuchorum, nomina:</l>
+<l rend="indent">Danieli, Baltassar:</l>
+<l rend="indent">Ananiae, Sidrach:</l>
+<l rend="indent">Misaeli, Misach,</l>
+<l rend="indent">et Azariae, Abdenago.</l> 
+<l>Proposuit autem Daniel in corde suo,</l>
+<l rend="indent">
+<pb n="1295A"/>ne pollueretur de mensa regis,</l>
+<l rend="indent">neque de vino potus ejus,</l>
+<l rend="indent">et rogavit eunuchorum praepositum ne contaminaretur.</l> 
+<l>Dedit autem Deus Danieli gratiam et misericordiam</l>
+<l rend="indent">in conspectu principis eunuchorum.</l> 
+<l>Et ait princeps eunuchorum ad Danielem:</l>
+<l rend="indent">Timeo ego dominum meum regem,</l>
+<l rend="indent">qui constituit vobis cibum et potum:</l>
+<l>Qui si viderit vultus vestros macilentiores prae caeteris adolescentibus coaevis vestris,</l>
+<l rend="indent">condemnabitis caput meum regi.</l> 
+<l>Et dixit Daniel ad Malassar,</l>
+<l rend="indent">quem constituerat princeps eunuchorum super</l>
+<l rend="indent(1)">Danielem, Ananiam,</l>
+<l rend="indent">Misaelem, et Azariam,</l>
+<l>Tenta nos, obsecro, servos tuos diebus decem,</l>
+<l rend="indent">et dentur nobis legumina ad vescendum, et aqua</l>
+<l rend="indent(1)">ad bibendum:</l>
+<l>Et contemplare vultus nostros,</l>
+<l rend="indent">
+<pb n="1295B"/>et vultus puerorum qui vescuntur cibo regio:</l>
+<l rend="indent">et sicut videris, facies cum servis tuis.</l> 
+<l>Qui audito sermone hujuscemodi,</l>
+<l rend="indent">tentavit eos diebus decem.</l> 
+<l>Post dies autem decem,</l>
+<l rend="indent">apparuerunt vultus eorum meliores et corpulentiores prae omnibus pueris</l>
+<l rend="indent">qui vescebantur cibo regio.</l> 
+<l>Porro Malassar tollebat cibaria, et vinum potus</l>
+<l rend="indent(1)">eorum:</l>
+<l rend="indent">dabatque eis legumina.</l> 
+<l>Pueris autem his dedit Deus scientiam et disciplinam,</l>
+<l rend="indent">in omni libro et sapientia:</l>
+<l rend="indent">Danieli autem intelligentiam omnium visionum et</l>
+<l rend="indent(1)">somniorum.</l> 
+<l>Completis itaque diebus, post quos dixerat rex ut</l>
+<l rend="indent(1)">introducerentur:</l>
+<l rend="indent">introduxit eos praepositus eunuchorum in conspectu Nabuchodonosor.</l> 
+<l>
+<pb n="1295C"/>Cumque eis locutus fuisset rex,</l>
+<l rend="indent">non sunt inventi de universis tales,</l>
+<l rend="indent">ut Daniel, Ananias, Misael, et Azarias:</l>
+<l>Et steterunt in conspectu regis:</l>
+<l rend="indent">et omne verbum sapientiae et intellectus, quod</l>
+<l rend="indent(1)">sciscitatus est ab eis rex,</l>
+<l rend="indent">invenit in eis decuplum, super cunctos hariolos</l>
+<l rend="indent(1)">et magos,</l>
+<l rend="indent">qui erant in universo regno ejus.</l> 
+<l>Fuit autem Daniel usque ad annum primum Cyri</l>
+<l rend="indent(1)">regis.</l> 
+<l>[ <hi>Visio</hi> II.] In anno secundo regni Nabuchodonosor,</l>
+<l rend="indent">vidit Nabuchodonosor somnium,</l>
+<l rend="indent">et conterritus est spiritus ejus,</l>
+<l rend="indent">et somnium ejus fugit ab eo.</l> 
+<l>Praecepit autem rex, ut convocarentur harioli, et</l>
+<l rend="indent(1)">magi, et malefici, et Chaldaei,</l>
+<l rend="indent">ut indicarent regi somnia sua:</l>
+<l rend="indent">qui cum venissent, steterunt coram rege.</l> 
+<l>Et dixit ad eos rex: Vidi somnium:</l>
+<l rend="indent">
+<pb n="1295D"/>et mente confusus ignoro quid viderim.</l> 
+<l>Responderuntque Chaldaei regi Syriace:</l>
+<l rend="indent">Rex, in aeternum vive:</l>
+<l>Dic somnium servis tuis,</l>
+<l rend="indent">et interpretationem ejus indicabimus.</l> 
+<l>Et respondens rex, ait Chaldaeis:</l>
+<l rend="indent">Sermo recessit a me:</l>
+<l>Nisi indicaveritis mihi somnium, et conjecturam</l>
+<l rend="indent(1)">ejus,</l>
+<l rend="indent">peribitis vos, et domus vestrae publicabuntur.</l> 
+<l>Si autem somnium, et conjecturam ejus narraveritis,</l>
+<l rend="indent">praemia, et dona, et honorem multum accipietis</l>
+<l rend="indent(1)">a me:</l>
+<l rend="indent">
+<pb n="1296A"/>somnium igitur, et interpretationem ejus indicate</l>
+<l rend="indent(1)">mihi.</l> 
+<l>Responderunt secundo, atque dixerunt:</l>
+<l rend="indent">Rex somnium dicat servis suis,</l>
+<l rend="indent">et interpretationem illius indicabimus.</l> 
+<l>Respondit rex, et ait:</l>
+<l rend="indent">Certe novi quia tempus redimitis,</l>
+<l rend="indent">scientes quod recesserit a me sermo.</l> 
+<l>Si ergo somnium non indicaveritis mihi, una est de</l>
+<l rend="indent(1)">vobis sententia,</l>
+<l rend="indent">quod interpretationem quoque fallacem et deceptione plenam composueritis,</l>
+<l rend="indent">ut loquamini mihi donec tempus pertranseat.</l> 
+<l>Somnium itaque dicite mihi,</l>
+<l rend="indent">ut sciam, quod interpretationem quoque ejus veram loquamini.</l> 
+<l>Respondentes ergo Chaldaei coram rege, dixerunt:</l>
+<l rend="indent">Non est homo super terram, qui sermonem tuum,</l>
+<l rend="indent(1)">rex, possit implere:</l>
+<l>
+<pb n="1296B"/>Sed neque regum quisquam magnus et potens verbum hujuscemodi sciscitatur</l>
+<l rend="indent">ab omni hariolo, et mago, et Chaldaeo.</l> 
+<l>Sermo enim, quem tu, rex, quaeris, gravis est:</l>
+<l rend="indent">nec reperietur quisquam, qui indicet illum in conspectu regis:</l>
+<l rend="indent">exceptis diis, quorum non est cum hominibus</l>
+<l rend="indent(1)">conversatio.</l> 
+<l>Quo audito, rex in furore et in ira magna praecepit</l>
+<l rend="indent">ut perirent omnes sapientes Babylonis.</l> 
+<l>Et egressa sententia, sapientes interficiebantur:</l>
+<l rend="indent">quaerebaturque Daniel et socii ejus, ut perirent.</l> 
+<l>Tunc Daniel requisivit de lege atque sententia,</l>
+<l rend="indent">ab Arioch principe militiae regis,</l>
+<l rend="indent">qui egressus fuerat ad interficiendos sapientes Babylonis.</l> 
+<l>Et interrogavit eum, qui a rege potestatem acceperat,</l>
+<l rend="indent">quam ob causam tam crudelis sententia a facie regis esset egressa.</l> 
+<l>
+<pb n="1296C"/>Cum ergo rem indicasset Arioch Danieli,</l>
+<l rend="indent">Daniel ingressus rogavit regem,</l>
+<l rend="indent">ut tempus daret sibi ad solutionem indicandam</l>
+<l rend="indent(1)">regi.</l> 
+<l>Et ingressus est domum suam,</l>
+<l rend="indent">Ananiaeque, Misaeli et Azariae sociis suis indicavit negotium:</l>
+<l>Ut quaererent misericordiam a facie Dei coeli super</l>
+<l rend="indent(1)">sacramento isto,</l>
+<l rend="indent">et non perirent Daniel et socii ejus cum caeteris</l>
+<l rend="indent(1)">sapientibus Babylonis.</l> 
+<l>Tunc Danieli per visionem nocte mysterium revelatum est:</l>
+<l rend="indent">et Daniel benedixit Deo coeli,</l>
+<l rend="indent">et locutus ait:</l>
+<l>Sit nomen Dei benedictum a saeculo et usque in saeculum:</l>
+<l rend="indent">quia sapientia et fortitudo ejus sunt.</l> 
+<l>Et ipse mutat tempora, et aetates:</l>
+<l rend="indent">transfert regna, atque constituit:</l>
+<l rend="indent">
+<pb n="1296D"/>dat sapientiam sapientibus, et scientiam intelligentibus disciplinam:</l>
+<l>Ipse revelat profunda, et abscondita,</l>
+<l rend="indent">et novit in tenebris constituta:</l>
+<l rend="indent">et lux cum eo est.</l> 
+<l>Tibi, Deus patrum meorum, confiteor, teque laudo:</l>
+<l rend="indent">quia sapientiam et fortitudinem dedisti mihi:</l>
+<l>Et nunc ostendisti mihi quae rogavimus te,</l>
+<l rend="indent">quia sermonem regis aperuisti nobis.</l> 
+<l>Post haec Daniel ingressus ad Arioch,</l>
+<l rend="indent">quem constituerat rex ut perderet sapientes Babylonis,</l>
+<l rend="indent">sic ei locutus est:</l>
+<l>Sapientes Babylonis ne perdas;</l>
+<l rend="indent">
+<pb n="1297A"/>introduc me in conspectu regis,</l>
+<l rend="indent">et solutionem regi narrabo.</l> 
+<l>Tunc Arioch festinus introduxit Danielem ad regem,</l>
+<l rend="indent(1)">et dixit ei:</l>
+<l rend="indent">Inveni hominem de filiis transmigrationis Juda,</l>
+<l rend="indent(1)">qui solutionem regi annuntiet.</l> 
+<l>Respondit rex, et dixit Danieli,</l>
+<l rend="indent">cujus nomen erat Baltassar:</l>
+<l>Putasne vere potes indicare mihi somnium, quod</l>
+<l rend="indent(1)">vidi,</l>
+<l rend="indent">et interpretationem ejus?</l> 
+<l>Et respondens Daniel coram rege, ait:</l>
+<l rend="indent">Mysterium, quod rex interrogat,</l>
+<l rend="indent">sapientes, magi, et harioli, et aruspisces non</l>
+<l rend="indent(1)">queunt indicare regi.</l> 
+<l>Sed est Deus in coelo revelans mysteria,</l>
+<l rend="indent">qui indicavit tibi, rex Nabuchodonosor,</l>
+<l rend="indent">quae ventura sunt in novissimis temporibus.</l> 
+<l>Somnium tuum et visiones capitis tui in cubili tuo,</l>
+<l rend="indent">
+<pb n="1297B"/>hujuscemodi sunt:</l>
+<l>Tu, rex, cogitare coepisti in stratu tuo,</l>
+<l rend="indent">quid esset futurum post haec:</l>
+<l>Et qui revelat mysteria,</l>
+<l rend="indent">ostendit tibi quae ventura sunt.</l> 
+<l>Mihi quoque non in sapientia, quae est in me plus</l>
+<l rend="indent(1)">quam cunctis viventibus,</l>
+<l rend="indent">sacramentum hoc revelatum est:</l>
+<l>Sed ut interpretatio regi manifesta fieret,</l>
+<l rend="indent">et cogitationes mentis tuae scires.</l> 
+<l>Tu, rex, videbas, et ecce quasi statua una grandis:</l>
+<l rend="indent">statua illa magna, et statura sublimis stabat contra te,</l>
+<l rend="indent">et intuitus ejus erat terribilis.</l> 
+<l>Hujus statuae caput ex auro optimo erat,</l>
+<l rend="indent">pectus autem et brachia de argento,</l>
+<l rend="indent">porro venter et femora ex aere.</l> 
+<l>Tibiae autem ferreae,</l>
+<l rend="indent">pedum quaedam pars erat ferrea,</l>
+<l rend="indent">quaedam fictilis.</l> 
+<l>
+<pb n="1297C"/>Videbas ita, donec abscisus est lapis de monte sine</l>
+<l rend="indent(1)">manibus:</l>
+<l rend="indent">et percussit statuam in pedibus ejus ferreis et fictilibus,</l>
+<l rend="indent">et comminuit eos.</l> 
+<l>Tunc contrita sunt pariter ferrum,</l>
+<l rend="indent">testa, aes, argentum, et aurum:</l>
+<l>Et redacta quasi in favillam aestivae areae,</l>
+<l rend="indent">quae rapta sunt vento:</l>
+<l rend="indent">nullusque locus inventus est eis:</l>
+<l>Lapis autem, qui percusserat statuam,</l>
+<l rend="indent(1)">factus est mons magnus,</l>
+<l rend="indent">et implevit universam terram.</l> 
+<l>Hoc est somnium:</l>
+<l rend="indent">Interpretationem quoque ejus dicemus coram</l>
+<l rend="indent(1)">te, rex.</l> 
+<l>Tu rex regum es:</l>
+<l rend="indent">et Deus coeli, regnum, et fortitudinem, et imperium, et gloriam dedit tibi:</l>
+<l>Et omnia in quibus habitant filii hominum:</l>
+<l rend="indent">
+<pb n="1297D"/>et bestias agri, volucres quoque coeli dedit in</l>
+<l rend="indent(1)">manu tua,</l>
+<l rend="indent">et sub ditione tua universa constituit;</l>
+<l rend="indent">tu es ergo caput aureum.</l> 
+<l>Et post te consurget regnum aliud minus te [ <hi>Vulg.</hi> </l>
+<l rend="indent(1)"> <hi>add.</hi> argenteum]:</l>
+<l rend="indent">et regnum tertium aliud aereum,</l>
+<l rend="indent">quod imperabit universae terrae.</l> 
+<l>Et regnum quartum erit velut ferrum:</l>
+<l rend="indent">quomodo ferrum comminuit et domat omnia,</l>
+<l rend="indent">sic comminuet omnia haec, et conteret.</l> 
+<l>Porro quia vidisti pedum et digitorum partem testae</l>
+<l rend="indent(1)">figuli,</l>
+<l rend="indent">et partem ferream:</l>
+<l>Regnum divisum erit,</l>
+<l rend="indent">quod tamen de plantario ferri orietur,</l>
+<l>secundum quod vidisti, ferrum mixtum testae ex</l>
+<l rend="indent">luto.</l> 
+<l>
+<pb n="1298A"/>Et digitos pedum ex parte ferreos, et ex parte fictiles:</l>
+<l rend="indent">ex parte regnum erit solidum, et ex parte contritum.</l> 
+<l>Quod autem vidisti ferrum mixtum testae ex luto,</l>
+<l rend="indent">commiscebuntur quidem humano semine:</l>
+<l>Sed non adhaerebunt sibi,</l>
+<l rend="indent">sicut ferrum misceri non potest testae.</l> 
+<l>In diebus autem regnorum illorum,</l>
+<l rend="indent">suscitabit Deus coeli regnum, quod in aeternum</l>
+<l rend="indent(1)">non dissipabitur,</l>
+<l rend="indent">et regnum ejus populo alteri non tradetur.</l> 
+<l>Comminuet, et consumet universa regna haec:</l>
+<l rend="indent">et ipsum stabit in aeternum.</l> 
+<l>Secundum quod vidisti, quod de monte abscisus est</l>
+<l rend="indent(1)">lapis, sine manibus,</l>
+<l rend="indent">et comminuit testam, et ferrum, et aes, et argentum, et aurum.</l> 
+<l>Deus magnus ostendit regi, quae futura sunt postea,</l>
+<l rend="indent">et verum est somnium,</l>
+<l rend="indent">
+<pb n="1298B"/>et fidelis interpretatio ejus.</l> 
+<l>Tunc rex Nabuchodonosor cecidit in faciem suam,</l>
+<l rend="indent(1)">et Danielem adoravit:</l>
+<l rend="indent">et hostias et incensum praecepit ut sacrificarent ei.</l> 
+<l>Loquens ergo rex, ait Danieli:</l>
+<l rend="indent">Vere Deus vester Deus deorum est,</l>
+<l rend="indent(1)">et Dominus regum, et revelans mysteria:</l>
+<l rend="indent">quoniam potuisti aperire sacramentum hoc.</l> 
+<l>Tunc rex Danielem in sublime extulit,</l>
+<l rend="indent">munera multa et magna dedit ei:</l>
+<l>Et constituit eum principem super omnes provincias Babylonis,</l>
+<l rend="indent">et praefectum magistratuum super cunctos sapientes Babylonis.</l> 
+<l>Daniel autem postulavit a rege,</l>
+<l rend="indent">et constituit super opera provinciae Babylonis,</l>
+<l rend="indent(1)">Sidrach, Misach, et Abdenago:</l>
+<l rend="indent">ipse autem Daniel erat in foribus regis.</l> 
+<l>[ <hi>Visio</hi> III.] Nabuchodonosor rex fecit statuam auream,</l>
+<l rend="indent">
+<pb n="1298C"/>altitudine cubitorum sexaginta,</l>
+<l rend="indent">latitudine cubitorum sex,</l>
+<l rend="indent">et statuit eam in campo Dura provinciae Babylonis;</l>
+<l>Itaque Nabuchodonosor rex</l>
+<l rend="indent">misit ad congregandos satrapas, magistratus, et</l>
+<l rend="indent(1)">judices, duces, et tyrannos, et praefectos,</l>
+<l rend="indent">omnesque principes regionum;</l>
+<l>Ut convenirent ad dedicationem statuae,</l>
+<l rend="indent">quam erexerat Nabuchodonosor rex.</l> 
+<l>Tunc congregati sunt satrapae, magistratus, et judices, et duces, et tyranni,</l>
+<l rend="indent">et optimates qui erant in potestatibus constituti,</l>
+<l rend="indent">et universi principes regionum;</l>
+<l>Ut convenirent ad dedicationem statuae,</l>
+<l rend="indent">quam erexerat Nabuchodonosor rex.</l> 
+<l>Stabant autem in conspectu statuae,</l>
+<l rend="indent">quam posuerat Nabuchodonosor rex:</l>
+<l>Et praeco clamabat valenter:</l>
+<l rend="indent">Vobis dicitur populis, tribubus, et linguis:</l>
+<l>
+<pb n="1298D"/>In hora, qua audieritis sonitum tubae,</l>
+<l rend="indent">et fistulae, et citharae,</l>
+<l rend="indent">sambucae, et psalterii, et symphoniae,</l>
+<l rend="indent">et universi generis musicorum,</l>
+<l>Cadentes adorate statuam auream,</l>
+<l rend="indent">quam constituit Nabuchodonosor rex.</l> 
+<l>Si quis autem non prostratus adoraverit,</l>
+<l rend="indent">eadem hora mittetur in fornacem ignis ardentis.</l> 
+<l>Post haec igitur statim, ut audierunt omnes populi</l>
+<l rend="indent(1)">sonitum tubae,</l>
+<l rend="indent">fistulae, et citharae,</l>
+<l rend="indent">sambucae et psalterii, et symphoniae,</l>
+<l rend="indent">et omnis generis musicorum:</l>
+<l>Cadentes omnes populi, et tribus et linguae adoraverunt statuam auream,</l>
+<l rend="indent">quam constituerat Nabuchodonosor rex.</l> 
+<l>Statimque in ipso tempore accedentes viri Chaldaei</l>
+<l rend="indent(1)">accusaverunt Judaeos:</l>
+<l rend="indent">
+<pb n="1299A"/>dixeruntque Nabuchodonosor regi: Rex, in aeternum vive:</l>
+<l>Tu, rex, posuisti decretum,</l>
+<l rend="indent">ut omnis homo, qui audierit sonitum tubae,</l>
+<l rend="indent">fistulae, et citharae,</l>
+<l rend="indent">sambucae, et psalterii, et symphoniae,</l>
+<l rend="indent">et universi generis musicorum,</l>
+<l rend="indent">prosternat se, et adoret statuam auream.</l> 
+<l>Si quis autem non procidens adoraverit,</l>
+<l rend="indent">mittatur in fornacem ignis ardentis.</l> 
+<l>Sunt ergo viri Judaei, quos constituisti super opera</l>
+<l rend="indent(1)">regionis Babylonis,</l>
+<l rend="indent">Sidrach, Misach, et Abdenago:</l>
+<l>Viri isti contempserunt, rex, decretum</l>
+<l rend="indent">tuum: deos tuos non colunt,</l>
+<l rend="indent">et statuam auream, quam erexisti, non adorant.</l> 
+<l>Tunc Nabuchodonosor in furore et in ira praecepit,</l>
+<l rend="indent">ut adducerentur Sidrach, Misach et Abdenago:</l>
+<l rend="indent">qui confestim adducti sunt in conspectu regis.</l> 
+<l>Pronuntiansque Nabuchodonosor rex, ait eis:</l>
+<l rend="indent">
+<pb n="1299B"/>Verene, Sidrach, Misach, et Abdenago, deos meos</l>
+<l rend="indent(1)">non colitis,</l>
+<l rend="indent">et statuam auream, quam constitui, non adoratis?</l> 
+<l>Nunc ergo si estis parati, quacumque</l>
+<l rend="indent">hora audieritis sonitum tubae,</l>
+<l rend="indent">fistulae, citharae, sambucae, et psalterii, et symphoniae,</l>
+<l rend="indent">omnisque generis musicorum,</l>
+<l rend="indent">prosternite vos, et adorate statuam quam feci:</l>
+<l>Quod si non adoraveritis,</l>
+<l rend="indent">eadem hora mittemini in fornacem ignis ardentis:</l>
+<l rend="indent">et quis est Deus, qui eripiat vos de manu mea?</l> 
+<l>Respondentes Sidrach, Misach, et Abdenago, dixerunt regi Nabuchodonosor:</l>
+<l rend="indent">Non oportet nos de hac re respondere tibi.</l> 
+<l>Ecce enim Deus noster, quem colimus,</l>
+<l rend="indent">potest eripere nos de camino ignis ardentis,</l>
+<l rend="indent">et de manibus tuis, o rex, liberare.</l> 
+<l>Quod si noluerit, notum sit tibi, rex, quia deos tuos</l>
+<l rend="indent(1)">
+<pb n="1299C"/>non colimus,</l>
+<l rend="indent">et statuam auream, quam erexisti, non adoramus.</l> 
+<l>Tunc Nabuchodonosor repletus est furore:</l>
+<l rend="indent">et aspectus faciei illius immutatus est super Sidrach, Misach, et Abdenago,</l>
+<l rend="indent">et praecepit, ut succenderetur fornax septuplum</l>
+<l rend="indent(1)">quam succendi consueverat.</l> 
+<l>Et viris fortissimis de exercitu suo jussit,</l>
+<l rend="indent">ut ligatis pedibus Sidrach, Misach, et Abdenago,</l>
+<l rend="indent">mitterent eos in fornacem ignis ardentis.</l> 
+<l rend="indent">Et confestim viri illi vincti, cum braccis suis, et</l>
+<l rend="indent(1)">tiaris, et calceamentis, et vestibus,</l>
+<l rend="indent">missi sunt in medium fornacis ignis ardentis.</l> 
+<l>Nam jussio regis urgebat:</l>
+<l rend="indent">fornax autem succensa erat nimis.</l> 
+<l>Porro viros illos, qui miserant Sidrach, Misach, et</l>
+<l rend="indent(1)">Abdenago,</l>
+<l rend="indent">interfecit flamma ignis,</l>
+<l>Viri autem hi tres, id est, Sidrach, Misach, et Abdenago,</l>
+<l rend="indent">
+<pb n="1299D"/>ceciderunt in medio camino ignis ardentis, colligati,</l>
+<p>
+          <emph> <hi>Quae sequuntur, in Hebraeis voluminibus non reperi.</hi> </emph>
+<l>Et ambulabant in medio flammae,</l>
+<l rend="indent">laudantes Deum, et benedicentes Domino.</l> 
+<l>Stans autem Azarias oravit sic,</l>
+<l rend="indent">aperiensque os suum in medio ignis, ait:</l>
+<l>
+<pb n="1300A"/>Benedictus es, Domine Deus patrum nostrorum,</l>
+<l rend="indent">et laudabile et gloriosum nomen tuum in saecula:</l>
+<l>Quia justus es in omnibus quae fecisti in nobis,</l>
+<l rend="indent">et universa opera tua vera,</l>
+<l rend="indent">et viae tuae rectae, et omnia judicia tua vera.</l> 
+<l>Judicia enim vera fecisti,</l>
+<l rend="indent">juxta omnia quae induxisti super nos,</l>
+<l rend="indent">et super civitatem sanctam patrum nostrorum</l>
+<l rend="indent(1)">Jerusalem:</l>
+<l>Quia in veritate, et in judicio,</l>
+<l rend="indent">induxisti omnia haec propter peccata nostra.</l> 
+<l>Peccavimus enim, et inique egimus recedentes a te:</l>
+<l rend="indent">et deliquimus in omnibus:</l>
+<l>Et praecepta tua non audivimus, nec observavimus,</l>
+<l rend="indent">nec fecimus sicut praeceperas nobis, ut bene nobis esset.</l> 
+<l>Omnia ergo, quae induxisti super nos,</l>
+<l rend="indent">et universa, quae fecisti nobis, vero judicio fecisti:</l>
+<l>Et tradidisti nos in manibus inimicorum iniquorum,</l>
+<l rend="indent">
+<pb n="1300B"/>et pessimorum, praevaricatorumque,</l>
+<l rend="indent">et regi injusto et pessimo ultra omnem terram.</l> 
+<l>Et nunc non possumus aperire os:</l>
+<l rend="indent">confusio et opprobrium facti sumus servis tuis, et</l>
+<l rend="indent(1)">his qui colunt te.</l> 
+<l>Ne, quaesumus, tradas nos in perpetuum,</l>
+<l rend="indent">propter nomen tuum,</l>
+<l rend="indent">et ne dissipes testamentum tuum:</l>
+<l>Neque auferas misericordiam tuam a nobis,</l>
+<l rend="indent">propter Abraham dilectum tuum,</l>
+<l rend="indent">et Isaac servum tuum,</l>
+<l rend="indent">et Israel sanctum tuum:</l>
+<l>Quibus locutus es pollicens,</l>
+<l rend="indent">quod multiplicares semen eorum sicut stellas coeli,</l>
+<l rend="indent">et sicut arenam quae est in littore maris:</l>
+<l>Quia, Domine, imminuti sumus plus quam omnes</l>
+<l rend="indent(1)">gentes,</l>
+<l rend="indent">sumusque humiles in universa terra hodie propter</l>
+<l rend="indent(1)">peccata nostra.</l> 
+<l>
+<pb n="1300C"/>Et non est in tempore hoc princeps,</l>
+<l rend="indent">et propheta, et dux,</l>
+<l rend="indent">neque holocaustum, neque sacrificium,</l>
+<l rend="indent">neque oblatio, neque incensum,</l>
+<l>Neque locus primitiarum coram te,</l>
+<l rend="indent">ut possimus invenire misericordiam:</l>
+<l>Sed in anima contrita,</l>
+<l rend="indent">et spiritu humilitatis suscipiamur.</l> 
+<l>Sicut in holocausto arietum, et taurorum,</l>
+<l rend="indent">et sicut in millibus agnorum pinguium:</l>
+<l>Sic fiat sacrificium nostrum in conspectu tuo hodie,</l>
+<l rend="indent(1)">ut placeat tibi:</l>
+<l rend="indent">quon am non est confusio confidentibus in te,</l>
+<l>Et nunc sequimur in toto corde,</l>
+<l rend="indent">et timemus te, et quaerimus faciem tuam.</l> 
+<l>Ne confundas nos:</l>
+<l rend="indent">sed fac nobiscum juxta mansuetudinem tuam,</l>
+<l rend="indent">et secundum multitudinem misericordiae tuae.</l> 
+<l>Et erue nos in mirabilibus tuis,</l>
+<l rend="indent">et da gloriam nomini tuo, Domine:</l>
+<l>
+<pb n="1300D"/>Et confundantur omnes, qui ostendunt servis tuis</l>
+<l rend="indent(1)">mala,</l>
+<l rend="indent">confundantur in omni potentia,</l>
+<l rend="indent">et robur eorum conteratur:</l>
+<l>Et sciant, quia tu es Dominus Deus solus,</l>
+<l rend="indent">et gloriosus super orbem terrarum.</l> 
+<l>Et non cessabant qui miserant eos, ministri regis</l>
+<l rend="indent(1)">succendere fornacem,</l>
+<l rend="indent">
+<pb n="1301A"/>naphtha, et stuppa, et pice, et malleolis;</l>
+<l>Et effundebatur flamma super fornacem</l>
+<l rend="indent">cubitis quadraginta et novem:</l>
+<l>Et erupit,</l>
+<l rend="indent">et incendit quos reperit juxta fornacem de Chaldaeis.</l> 
+<l>Angelus autem Domini descendit cum Azaria,</l>
+<l rend="indent">et sociis ejus, in fornacem:</l>
+<l>Et excussit flammam ignis de fornace,</l>
+<l rend="indent">et fecit medium fornacis quasi ventum roris flantem;</l>
+<l>Et non tetigit eos omnino ignis, neque contristavit,</l>
+<l rend="indent">nec quidquam molestiae intulit.</l> 
+<l>Tunc hi tres quasi ex uno ore laudabant,</l>
+<l rend="indent">et glorificabant, et benedicebant Deo in fornace,</l>
+<l rend="indent(1)">dicentes:</l>
+<l>Benedictus es, Domine Deus patrum nostrorum:</l>
+<l rend="indent">et laudabilis, et superexaltatus in saecula.</l> 
+<l>Et benedictum nomen gloriae tuae sanctum:</l>
+<l rend="indent">et laudabile, et superexaltatum in omnibus saeculis.</l> 
+<l>Benedictus es in templo sancto gloriae tuae:</l>
+<l rend="indent">
+<pb n="1301B"/>et superlaudabilis, et superexaltatus in saecula.</l> 
+<l>Benedictus es in throno regni tui:</l>
+<l rend="indent">et superlaudabilis, et superexaltatus in saecula.</l> 
+<l>Benedictus es, qui intueris abyssos,</l>
+<l rend="indent">et sedes super cherubim:</l>
+<l rend="indent">et laudabilis, et superexaltatus in saecula.</l> 
+<l>Benedictus es in firmamento coeli:</l>
+<l rend="indent">et laudabilis et gloriosus in saecula.</l> 
+<l>Benedicite omnia opera Domini Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite angeli Domini Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite coeli Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite aquae omnes, quae super coelos sunt, Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite omnes virtutes Domini Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>
+<pb n="1301C"/>Benedicite sol et luna Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite stellae coeli Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite omnis imber et ros Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite omnes spiritus Dei Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite ignis et aestus Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite frigus et aestus Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite rores et pruina Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite gelu et frigus Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite glacies et nives Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite noctes et dies Domino:</l>
+<l rend="indent">
+<pb n="1301D"/>laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite lux et tenebrae Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite fulgura et nubes Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicat terra Dominum:</l>
+<l rend="indent">laudet et superexaltet eum in saecula.</l> 
+<l>Benedicite montes et colles Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite universa germinantia in terra Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>
+<pb n="1302A"/>Benedicite fontes Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite maria et flumina Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite cete, et omnia quae moventur in aquis,</l>
+<l rend="indent(1)">Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite omnes volucres coeli Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite omnes bestiae et pecora Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite filii hominum Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicat Israel Dominum:</l>
+<l rend="indent">laudet et superexaltet eum in saecula.</l> 
+<l>Benedicite sacerdotes Domini Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite servi Domini Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite spiritus et animae justorum Domino:</l>
+<l rend="indent">
+<pb n="1302B"/>laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite sancti et humiles corde Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Benedicite Anania, Azaria, Misael Domino:</l>
+<l rend="indent">laudate et superexaltate eum in saecula.</l> 
+<l>Quia eruit nos de inferno,</l>
+<l rend="indent">et salvos fecit de manu mortis,</l>
+<l rend="indent">et liberavit nos de medio ardentis flammae,</l>
+<l rend="indent">et de medio ignis eruit nos.</l> 
+<l>Confitemini Domino quoniam bonus;</l>
+<l rend="indent">quoniam in saeculum misericordia ejus.</l> 
+<l>Benedicite omnes religiosi Domino Deo deorum:</l>
+<l rend="indent">laudate et confitemini ei,</l>
+<l rend="indent">quia in omnia saecula misericordia ejus.</l>
+        </p>
+<p>
+          <emph> <hi>Hucusque non habentur in Hebraeo, et quae posuimus,
+de Theodotionis editione translata sunt.</hi> </emph>
+<l>Tunc Nabuchodonosor rex obstupuit, et surrexit</l>
+<l rend="indent(1)">propere,</l>
+<l rend="indent">
+<pb n="1302C"/>et ait optimatibus suis:</l>
+<l>Nonne tres viros misimus in medium ignis compeditos?</l> 
+<l>Qui respondentes dixerunt regi:</l>
+<l rend="indent">Vere, rex.</l> 
+<l>Respondit, et ait:</l>
+<l rend="indent">Ecce ego video viros quatuor solutos,</l>
+<l rend="indent">et ambulantes in medio ignis,</l>
+<l rend="indent">et nihil corruptionis in eis est,</l>
+<l rend="indent">et species quarti similis filio Dei.</l> 
+<l>Tunc accessit Nabuchodonosor ad ostium fornacis</l>
+<l rend="indent(1)">ignis ardentis, et ait:</l>
+<l rend="indent">Sidrach, Misach, et Abdenago, servi Dei excelsi,</l>
+<l rend="indent">egredimini, et venite:</l>
+<l>Statimque egressi sunt Sidrach, Misach, et Abdenago</l>
+<l rend="indent(1)">de medio ignis.</l> 
+<l>Et congregati satrapae, magistratus, et judices, et</l>
+<l rend="indent(1)">potentes regis,</l>
+<l rend="indent">contemplabantur viros illos,</l>
+<l>Quoniam nihil potestatis habuisset ignis in corporibus eorum,</l>
+<l rend="indent">
+<pb n="1302D"/>et capillus capitis eorum non esset adustus,</l>
+<l rend="indent">et saraballa eorum non fuisset immutata,</l>
+<l rend="indent">et odor ignis non transisset per eos.</l> 
+<l>Et erumpens Nabuchodonosor, ait;</l>
+<l>Benedictus Deus eorum,</l>
+<l rend="indent">Sidrach videlicet, Misach et Abdenago,</l>
+<l rend="indent">qui misit angelum suum:</l>
+<l>Et eruit servos suos,</l>
+<l rend="indent">qui crediderunt in eum:</l>
+<l>Et verbum regis immutaverunt,</l>
+<l rend="indent">
+<pb n="1303A"/>Et tradiderunt corpora sua ne servirent,</l>
+<l rend="indent">et ne adorarent omnem Deum, excepto Deo suo:</l>
+<l>A me ergo positum est hoc decretum,</l>
+<l rend="indent">ut omnis populus, tribus, et lingua,</l>
+<l rend="indent">quaecumque locuta fuerit blasphemiam contra</l>
+<l rend="indent(1)">Deum Sidrach, Misach, et Abdenago, dispereat,</l>
+<l rend="indent">et domus ejus vastetur:</l>
+<l>Neque enim est Deus alius,</l>
+<l rend="indent">qui possit ita salvare.</l> 
+<l>Tunc rex promovit Sidrach, Misach, et Abdenago,</l>
+<l rend="indent">in provincia Babylonis.</l> 
+<l>NABUCHODONOSOR rex,</l>
+<l rend="indent">omnibus populis, gentibus, et linguis, qui habitant in universa terra,</l>
+<l rend="indent">pax vobis multiplicetur.</l> 
+<l>Signa et mirabilia fecit apud me Deus excelsus.</l> 
+<l>Placuit ergo mihi praedicare signa ejus, quia magna</l>
+<l rend="indent(1)">sunt;</l>
+<l rend="indent">et mirabilia ejus, quia fortia:</l>
+<l>Et regnum ejus regnum sempiternum;</l>
+<l rend="indent">
+<pb n="1303B"/>et potestas ejus in generationem et generationem.</l> 
+<l>[ <hi>Visio</hi> IV.] Ego Nabuchodonosor quietus eram in</l>
+<l rend="indent(1)">domo mea,</l>
+<l rend="indent">et florens in palatio meo:</l>
+<l>Somnium vidi, quod perterruit me:</l>
+<l rend="indent">et cogitationes meae in stratu meo,</l>
+<l rend="indent">et visiones capitis mei conturbaverunt me.</l> 
+<l>Et per me propositum est decretum,</l>
+<l rend="indent">ut introducerentur in conspectu meo cuncti sapientes Babylonis,</l>
+<l rend="indent">et ut solutionem somnii indicarent mihi.</l> 
+<l>Tunc ingrediebantur harioli, magi, Chaldaei, et aruspices,</l>
+<l rend="indent">et somnium narravi in conspectu eorum:</l>
+<l rend="indent">et solutionem ejus non indicaverunt mihi:</l>
+<l rend="indent"> Donec collega ingressus est in conspectu meo</l>
+<l rend="indent(1)">Daniel,</l>
+<l rend="indent">cui nomen Baltassar secundum nomen Dei mei,</l>
+<l rend="indent">qui habet spiritum deorum sanctorum in semetipso:</l>
+<l rend="indent">
+<pb n="1303C"/>et somnium coram ipso locutus sum.</l> 
+<l>Baltassar, princeps hariolorum,</l>
+<l rend="indent">quem ego scio quod spiritum sanctorum deorum</l>
+<l rend="indent(1)">habeas in te,</l>
+<l rend="indent">et omne sacramentum non est impossibile tibi:</l>
+<l>Visiones somniorum meorum, quas vidi, et solutionem eorum narra.</l> 
+<l>Visio capitis mei in cubili meo:</l>
+<l rend="indent">Videbam, et ecce arbor in medio terrae,</l>
+<l rend="indent">et altitudo ejus nimia.</l> 
+<l>Magna arbor, et fortis:</l>
+<l rend="indent">et proceritas ejus contingens coelum:</l>
+<l rend="indent">aspectus illius erat usque ad terminos universae</l>
+<l rend="indent(1)">terrae.</l> 
+<l>Folia ejus pulcherrima, et fructus ejus nimius:</l>
+<l rend="indent">et esca universorum in ea.</l> 
+<l>Subter eam habitabant animalia et bestiae,</l>
+<l rend="indent">et in ramis ejus conversabantur volucres coeli:</l>
+<l rend="indent">et ex ea vescebatur omnis caro.</l> 
+<l>
+<pb n="1303D"/>Videbam in visione capitis mei super stratum</l>
+<l rend="indent(1)">meum,</l>
+<l rend="indent">et ecce vigil et sanctus de coelo descendit.</l> 
+<l>Clamavit fortiter, et sic ait:</l>
+<l>Succidite arborem, et praecidite ramos ejus:</l>
+<l>Excutite folia ejus,</l>
+<l rend="indent">et dispergite fructum ejus:</l>
+<l>Fugiant bestiae quae subter eam sunt,</l>
+<l rend="indent">et volucres de ramis ejus.</l> 
+<l>Verumtamen germen radicum ejus in terra sinite,</l>
+<l rend="indent">et alligetur vinculo ferreo et aereo, in herbis quae</l>
+<l rend="indent(1)">foris sunt,</l>
+<l rend="indent">et rore coeli tingatur,</l>
+<l rend="indent">
+<pb n="1304A"/>et cum feris pars ejus in herba terrae.</l> 
+<l>Cor ejus ab humano commutetur,</l>
+<l rend="indent">et cor ferae detur ei:</l>
+<l rend="indent">et septem tempora mutentur super eum.</l> 
+<l>In sententia vigilum decretum est,</l>
+<l rend="indent">et sermo sanctorum, et petitio:</l>
+<l>Donec cognoscant viventes,</l>
+<l rend="indent">quoniam dominatur Excelsus in regno hominum;</l>
+<l>Et cuicumque voluerit, dabit illud,</l>
+<l rend="indent">et humillimum hominem constituet super eum.</l> 
+<l>Hoc somnium vidi</l>
+<l rend="indent">ego rex Nabuchodonosor:</l>
+<l>Tu ergo, Baltassar, interpretationem narra festinus:</l>
+<l rend="indent">quia omnes sapientes regni mei non queunt solutionem edicere mihi:</l>
+<l>Tu autem potes,</l>
+<l rend="indent">quia spiritus deorum sanctorum in te est.</l> 
+<l>Tunc Daniel, cujus nomen Baltassar,</l>
+<l rend="indent">coepit intra semetipsum tacitus cogitare quasi hora</l>
+<l rend="indent(1)">una:</l>
+<l rend="indent">
+<pb n="1304B"/>et cogitationes ejus conturbabant eum.</l> 
+<l>Respondens autem rex ait:</l>
+<l rend="indent">Baltassar, somnium et interpretatio ejus non conturbent te,</l>
+<l>Respondit Baltassar, et dixit:</l>
+<l rend="indent">Domine mi, somnium his qui te oderunt,</l>
+<l rend="indent">et interpretatio ejus hostibus tuis sit,</l>
+<l>Arborem quam vidisti sublimem atque robustam,</l>
+<l rend="indent">cujus altitudo pertingit ad coelum, et aspectus</l>
+<l rend="indent(1)">illius in omnem terram:</l>
+<l>Et rami ejus pulcherrimi,</l>
+<l rend="indent">et fructus ejus nimius;</l>
+<l>Et esca omnium in ea,</l>
+<l rend="indent">et subter eam habitantes bestiae agri,</l>
+<l rend="indent">et in ramis ejus commorantes aves coeli:</l>
+<l>Tu es rex, qui magnificatus es, et invaluisti:</l>
+<l rend="indent">et magnitudo tua crevit, et pervenit usque ad</l>
+<l rend="indent(1)">coelum,</l>
+<l rend="indent">et potestas tua in terminos universae terrae.</l> 
+<l>
+<pb n="1304C"/>Quod autem vidit rex vigilem et sanctum descendere</l>
+<l rend="indent(1)">de coelo, et dicere:</l>
+<l>Succidite arborem, et dissipate illam;</l>
+<l>Attamen germen radicum ejus in terra dimittite,</l>
+<l rend="indent">et vinciatur ferro et aere in herbis foris,</l>
+<l rend="indent">et rore coeli conspergatur,</l>
+<l rend="indent">et cum feris sit pabulum ejus,</l>
+<l rend="indent">donec septem tempora mutentur super eum:</l>
+<l>Haec est interpretatio sententiae Altissimi,</l>
+<l rend="indent">quae pervenit super dominum meum regem:</l>
+<l>Ejicient te ab hominibus,</l>
+<l rend="indent">et cum bestiis feris erit habitatio tua,</l>
+<l rend="indent">et fenum ut bos comedes,</l>
+<l rend="indent">et rore coeli infunderis:</l>
+<l>Septem quoque tempora mutabuntur super te,</l>
+<l rend="indent">donec scias quod dominetur Excelsus super regnum</l>
+<l rend="indent(1)">hominum,</l>
+<l rend="indent">et cuicumque voluerit, det illud.</l> 
+<l>Quod autem praecepit, ut relinqueretur germen radicum ejus,</l>
+<l rend="indent">
+<pb n="1304D"/>id est, arboris:</l>
+<l>Regnum tuum tibi manebit,</l>
+<l rend="indent">postquam cognoveris potestatem esse coelestem.</l> 
+<l>Quamobrem, rex, consilium meum placeat tibi,</l>
+<l rend="indent">et peccata tua eleemosynis redime,</l>
+<l rend="indent">et iniquitates tuas misericordiis pauperum:</l>
+<l rend="indent">forsitan ignoscet delictis tuis.</l> 
+<l>Omnia venerunt super Nabuchodonosor regem.</l> 
+<l>Post finem mensium duodecim,</l>
+<l rend="indent">in aula Babylonis deambulabat.</l> 
+<l>Responditque rex, et ait:</l>
+<l rend="indent">Nonne haec est Babylon magna, quam ego aedificavi in domum regni,</l>
+<l rend="indent">
+<pb n="1305A"/>in robore fortitudinis meae, et in gloria decoris</l>
+<l rend="indent(1)">mei?</l> 
+<l>Cum adhuc sermo esset in ore regis,</l>
+<l rend="indent">vox de coelo ruit:</l>
+<l>Tibi dicitur, Nabuchodonosor rex:</l>
+<l rend="indent">Regnum transiit a te:</l>
+<l>Et ab hominibus te ejicient,</l>
+<l rend="indent">et cum bestiis feris erit habitatio tua:</l>
+<l>Fenum quasi bos comedes,</l>
+<l rend="indent">et septem tempora mutabuntur super te:</l>
+<l>Donec scias quod dominetur Excelsus in regno hominum,</l>
+<l rend="indent">et cuicumque voluerit, det illud.</l> 
+<l>Eadem hora sermo completus est super Nabuchodonosor,</l>
+<l rend="indent">et ex hominibus ejectus est;</l>
+<l>Et fenum ut bos comedit,</l>
+<l rend="indent">et rore coeli corpus ejus infectum est:</l>
+<l>Donec capilli ejus in similitudinem aquilarum crescerent,</l>
+<l rend="indent">
+<pb n="1305B"/>et ungues ejus quasi avium.</l> 
+<l>Igitur post finem dierum,</l>
+<l rend="indent">ego Nabuchodonosor oculos meos ad coelum levavi,</l>
+<l rend="indent">et sensus meus redditus est mihi:</l>
+<l>Et Altissimo benedixi,</l>
+<l rend="indent">et viventem in sempiternum laudavi et glorificavi:</l>
+<l>Quia potestas ejus potestas sempiterna,</l>
+<l rend="indent">et regnum ejus in generationem et generationem.</l> 
+<l>Et omnes habitatores terrae apud eum in nihilum</l>
+<l rend="indent(1)">reputati sunt;</l>
+<l rend="indent">juxta voluntatem enim suam facit tam in virtutibus</l>
+<l rend="indent(1)">coeli, quam in habitatoribus terrae:</l>
+<l>Et non est qui resistat manui ejus,</l>
+<l rend="indent">et dicat ei: Quare fecisti?</l> 
+<l>In ipso tempore sensus meus reversus est ad me,</l>
+<l rend="indent">et ad honorem regni mei decoremque perveni,</l>
+<l rend="indent">et figura mea reversa est ad me:</l>
+<l>
+<pb n="1305C"/>Et optimates mei, et magistratus mei requisicrunt me,</l>
+<l rend="indent">et in regno meo restitutus sum:</l>
+<l rend="indent">et magnificentia amplior addita est mihi.</l> 
+<l>Nunc igitur ego Nabuchodonosor laudo, et magnifico,</l>
+<l rend="indent">et glorifico regem coeli:</l>
+<l>Quia omnia opera ejus vera,</l>
+<l rend="indent">et viae ejus judicia;</l>
+<l rend="indent">et gradientes in superbia potest humiliare.</l> 
+<l>[ <hi>Visio</hi> V.] Baltassar rex fecit grande convivium optimatibus suis mille:</l>
+<l rend="indent">et unusquisque secundum suam bibebat aetatem.</l> 
+<l>Praecepit ergo jam temulentus, ut afferrentur vasa</l>
+<l rend="indent(1)">aurea et argentea,</l>
+<l rend="indent">quae asportaverat Nabuchodonosor pater ejus de</l>
+<l rend="indent">templo, quod fuit in Jerusalem,</l>
+<l>Ut biberent in eis rex et optimates ejus,</l>
+<l rend="indent">uxoresque ejus, et concubinae.</l> 
+<l>
+<pb n="1305D"/>Tunc allata sunt vasa aurea,</l>
+<l rend="indent">quae asportaverat de templo, quod fuerat in Jerusalem:</l>
+<l>Et biberunt in eis rex et optimates ejus,</l>
+<l rend="indent">uxores et concubinae ejus.</l> 
+<l>Bibebant vinum, et laudabant deos suos aureos,</l>
+<l rend="indent">et argenteos, et aereos, ferreos, ligneosque et lapideos.</l> 
+<l>In eadem hora apparuerunt digiti,</l>
+<l rend="indent">quasi manu hominis scribentis contra candelabrum</l>
+<l rend="indent">in superficie parietis aulae regiae:</l>
+<l rend="indent">et rex aspiciebat articulos manus scribentis.</l> 
+<l>Tunc regis facies commutata est,</l>
+<l rend="indent">et cogitationes ejus perturbabant eum;</l>
+<l>Et compages renum ejus solvebantur,</l>
+<l rend="indent">et genua ejus ad se invicem collidebantur.</l> 
+<l>Exclamavit itaque rex fortiter,</l>
+<l rend="indent">ut introducerent magos, Chaldaeos, et aruspices.</l> 
+<l>
+<pb n="1306A"/>Et proloquens rex ait sapientibus Babylonis:</l>
+<l rend="indent">Quicumque legerit scripturam hanc,</l>
+<l rend="indent">et interpretationem ejus manifestam mihi fecerit,</l>
+<l>Purpura vestietur, et torquem auream habebit in</l>
+<l rend="indent(1)">collo,</l>
+<l rend="indent">et tertius in regno meo erit.</l> 
+<l>Tunc ingressi omnes sapientes regis, non potuerunt</l>
+<l rend="indent(1)">scripturam legere,</l>
+<l rend="indent">nec interpretationem indicare regi.</l> 
+<l>Unde rex Baltassar satis conturbatus est,</l>
+<l rend="indent">et vultus illius immutatus est:</l>
+<l rend="indent">sed et optimates ejus turbabantur.</l> 
+<l>Regina autem, pro re quae acciderat regi, et optimatibus ejus,</l>
+<l rend="indent">domum convivii ingressa est:</l>
+<l>Et proloquens ait: Rex, in aeternum vive:</l>
+<l rend="indent">non te conturbent cogitationes tuae, neque facies</l>
+<l rend="indent(1)">tua immutetur.</l> 
+<l>Est vir in regno tuo, qui spiritum deorum sanctorum</l>
+<l rend="indent(1)">habet in se:</l>
+<l rend="indent">
+<pb n="1306B"/>et in diebus patris tui scientia et sapientia inventae</l>
+<l rend="indent(1)">sunt in eo:</l>
+<l>Nam et rex Nabuchodonosor pater tuus,</l>
+<l rend="indent">principem magorum, incantatorum, Chaldaeorum,</l>
+<l rend="indent(1)">et aruspicum constituit eum,</l>
+<l rend="indent">pater, inquam, tuus, o rex:</l>
+<l>Quia spiritus amplior, et prudentia, intelligentiaque,</l>
+<l rend="indent">interpretatio somniorum, et ostensio secretorum,</l>
+<l rend="indent(1)">ac solutio ligatorum, inventae sunt in eo,</l>
+<l rend="indent">hoc est in Daniele: cui rex posuit nomen Baltassar,</l>
+<l>Nunc itaque Daniel vocetur,</l>
+<l rend="indent">et interpretationem narrabit.</l> 
+<l>Igitur introductus est Daniel coram rege.</l> 
+<l rend="indent">Ad quem praefatus rex ait:</l>
+<l>Tu es Daniel de filiis captivitatis Judae,</l>
+<l rend="indent">quem adduxit rex pater meus de Judaea?</l> 
+<l>Audivi de te, quoniam spiritum deorum habeas:</l>
+<l rend="indent">et scientia intelligentiaque ac sapientia amplior</l>
+<l rend="indent(1)">
+<pb n="1306C"/>inventa est in te.</l> 
+<l>Et nunc introgressi sunt in conspectu meo sapientes</l>
+<l rend="indent(1)">magi, ut scripturam hanc legerent,</l>
+<l rend="indent">et interpretationem ejus indicarent mihi:</l>
+<l rend="indent">et nequiverunt sensum sermonis hujus edicere.</l> 
+<l>Porro ego audivi de te, quod possis obscura interpretari,</l>
+<l rend="indent">et ligata dissolvere:</l>
+<l>Si ergo vales scripturam legere,</l>
+<l rend="indent">et interpretationem ejus indicare mihi,</l>
+<l>Purpura vestieris, et torquem auream circa collum</l>
+<l rend="indent(1)">tuum habebis,</l>
+<l rend="indent">et tertius in regno meo princeps eris.</l> 
+<l>Ad quae respondens Daniel, ait coram rege:</l>
+<l rend="indent">Munera tua sint tibi, et dona domus tuae alteri da:</l>
+<l>Scripturam autem legam tibi, rex,</l>
+<l rend="indent">et interpretationem ejus ostendam tibi.</l> 
+<l>O rex, Deus altissimus, regnum et magnificentiam,</l>
+<l rend="indent(1)">et gloriam et honorem dedit Nabuchodonosor</l>
+<l rend="indent(1)">
+<pb n="1306D"/>patri tuo.</l> 
+<l>Et propter magnificentiam quam dederat ei, universi</l>
+<l rend="indent(1)">populi, tribus, et linguae,</l>
+<l rend="indent">tremebant et metuebant eum:</l>
+<l>Quos volebat, interficiebat:</l>
+<l rend="indent">et quos volebat, percutiebat:</l>
+<l>Quos volebat, exaltabat:</l>
+<l rend="indent">et quos volebat, humiliabat.</l> 
+<l>Quando autem elevatum est cor ejus,</l>
+<l rend="indent">et spiritus illius obfirmatus est ad superbiam,</l>
+<l>Depositus est de solio regni sui,</l>
+<l rend="indent">et gloria ejus ablata est:</l>
+<l>Et a filiis hominum ejectus est,</l>
+<l rend="indent">sed et cor ejus cum bestiis positum est,</l>
+<l rend="indent">et cum onagris erat habitatio ejus:</l>
+<l>Fenum quoque ut bos comedebat,</l>
+<l rend="indent">et rore coeli corpus ejus infectum est;</l>
+<l>Donec cognosceret quod potestatem habeat Altissimus in regno hominum.</l> 
+<l rend="indent">
+<pb n="1307A"/>et quemcumque voluerit, suscitabit super illud.</l> 
+<l>Tu quoque, filius ejus Baltassar, non humiliasti cor</l>
+<l rend="indent(1)">tuum,</l>
+<l rend="indent">cum scires haec omnia:</l>
+<l>Sed adversum Dominatorem coeli elevatus es,</l>
+<l rend="indent">et vasa domus ejus allata sunt coram te:</l>
+<l>Et tu, et optimates tui,</l>
+<l rend="indent">et uxores tuae, et concubinae tuae, vinum bibistis</l>
+<l rend="indent(1)">in eis?</l> 
+<l>Deos quoque argenteos, et aureos, et aereos, ferreos,</l>
+<l rend="indent(1)">ligneosque et lapideos,</l>
+<l rend="indent">qui non vident, neque audiunt, neque sentiunt,</l>
+<l rend="indent(1)">laudasti:</l>
+<l>Porro Deum, qui habet flatum tuum in manu sua,</l>
+<l rend="indent(1)">et omnes vias tuas,</l>
+<l rend="indent">non glorificasti.</l> 
+<l>Idcirco ab eo missus est articulus manus,</l>
+<l rend="indent"> quae scripsit hoc, quod exaratum est.</l> 
+<l>Haec est autem scriptura, quae digesta est:</l>
+<l rend="indent">
+<pb n="1307B"/>MANE, THECEL, PHARES.</l> 
+<l rend="indent">Et haec est interpretatio sermonis.</l> 
+<l>MANE: numeravit Deus regnum tuum,</l>
+<l rend="indent">et complevit illud.</l> 
+<l>THECEL: appensus es in statera,</l>
+<l rend="indent">et inventus es minus habens.</l> 
+<l>PHARES: divisum est regnum tuum,</l>
+<l rend="indent">et datum est Medis et Persis.</l> 
+<l>Tunc, jubente rege, indutus est Daniel purpura,</l>
+<l rend="indent">et circumdata est torques aurea collo ejus:</l>
+<l rend="indent">et praedicatum est de eo quod haberet potestatem</l>
+<l rend="indent(1)">tertius in regno suo.</l> 
+<l>Eadem nocte interfectus est Baltassar rex Chaldaeus.</l> 
+<l>Et Darius Medus successit in regnum annos natus</l>
+<l rend="indent(1)">sexaginta duos.</l> 
+<l>[ <hi>Visio</hi> VI.] Placuit Dario, et constituit super regnum</l>
+<l rend="indent(1)">satrapas centum viginti,</l>
+<l rend="indent">ut essent in toto regno suo.</l> 
+<l>Et super eos principes tres,</l>
+<l rend="indent">
+<pb n="1307C"/>ex quibus Daniel unus erat:</l>
+<l>Ut satrapae illis redderent rationem,</l>
+<l rend="indent">et rex non sustineret molestiam.</l> 
+<l>Igitur Daniel superabat omnes principes et satrapas:</l>
+<l rend="indent(1)">quia spiritus Dei amplior erat in eo.</l> 
+<l>Porro rex cogitabat constituere eum super omne</l>
+<l rend="indent(1)">regnum:</l>
+<l rend="indent">unde principes et satrapae quaerebant occasionem</l>
+<l rend="indent(1)">ut invenirent Danieli ex latere regis.</l> 
+<l>Nullamque causam et suspicionem reperire potuerunt, eo quod fidelis esset,</l>
+<l rend="indent">et omnis culpa et suspicio non inveniretur in eo.</l> 
+<l>Dixerunt ergo viri illi:</l>
+<l rend="indent">Non inveniemus Danieli huic aliquam occasionem,</l>
+<l rend="indent">nisi forte in lege Dei sui.</l> 
+<l>Tunc principes et satrapae surripuerunt regi,</l>
+<l rend="indent">et sic locuti sunt ei:</l>
+<l>Dari rex, in aeternum vive:</l>
+<l rend="indent">consilium inierunt cuncti principes regni,</l>
+<l rend="indent">
+<pb n="1307D"/>magistratus, et satrapae, senatores, et judices,</l>
+<l rend="indent">ut decretum imperatorium exeat, et edictum:</l>
+<l>Ut omnis qui petierit aliquam petitionem a quocumque</l>
+<l rend="indent(1)">Deo et homine, usque ad dies triginta,</l>
+<l rend="indent">nisi a te rex,</l>
+<l rend="indent">mittatur in lacum leonum.</l> 
+<l>Nunc itaque, rex, confirma sententiam, et scribe decretum:</l>
+<l rend="indent">
+<pb n="1308A"/>ut non immutetur quod statutum est a Medis et</l>
+<l rend="indent(1)">Persis,</l>
+<l rend="indent">nec praevaricari cuiquam liceat.</l> 
+<l>Porro rex Darius proposuit edictum,</l>
+<l rend="indent">et statuit.</l> 
+<l>Quod cum Daniel comperisset, id est, constitutam</l>
+<l rend="indent(1)">legem,</l>
+<l rend="indent">ingressus est domum suam:</l>
+<l>Et fenestris apertis in coenaculo suo contra Jerusalem tribus temporibus in die flectebat genua</l>
+<l rend="indent(1)">sua, et adorabat,</l>
+<l>Confitebaturque coram Deo suo,</l>
+<l rend="indent">sicut et ante facere consueverat.</l> 
+<l>Viri igitur illi curiosius inquirentes,</l>
+<l rend="indent">invenerunt Danielem orantem et obsecrantem</l>
+<l rend="indent(1)">Deum suum.</l> 
+<l>Et accedentes locuti sunt regi super edicto:</l>
+<l rend="indent">Rex, numquid non constituisti,</l>
+<l rend="indent">ut omnis homo, qui rogaret quemquam de diis et</l>
+<l rend="indent(1)">hominibus, usque ad dies triginta,</l>
+<l rend="indent">
+<pb n="1308B"/>nisi te, rex,</l>
+<l rend="indent">mitteretur in lacum leonum?</l> 
+<l>Ad quos respondens rex, ait:</l>
+<l>Verus sermo, juxta decretum Medorum atque Persarum,</l>
+<l rend="indent">quod praevaricari non licet.</l> 
+<l>Tunc respondentes dixerunt coram rege:</l>
+<l>Daniel de filiis captivitatis Judae,</l>
+<l rend="indent">non curavit de lege tua et de edicto quod constituisti,</l>
+<l rend="indent">sed tribus temporibus per diem orat obsecratione</l>
+<l rend="indent(1)">sua.</l> 
+<l>Quod verbum cum audisset rex,</l>
+<l rend="indent">satis contristatus est:</l>
+<l>Et pro Daniele posuit cor ut liberaret eum,</l>
+<l rend="indent">et usque ad occasum solis laborabat ut erueret</l>
+<l rend="indent(1)">illum.</l> 
+<l>Viri autem illi intelligentes regem, dixerunt ei:</l>
+<l rend="indent">Scito, rex, quia lex Medorum atque Persarum est,</l>
+<l rend="indent">
+<pb n="1308C"/>ut omne decretum, quod constituerit rex, non</l>
+<l rend="indent(1)">liceat immutari.</l> 
+<l>Tunc rex praecepit:</l>
+<l rend="indent">et adduxerunt Danielem,</l>
+<l rend="indent">et miserunt eum in lacum leonum.</l> 
+<l>Dixitque rex Danieli:</l>
+<l rend="indent">Deus tuus, quem colis semper, ipse liberabit te.</l> 
+<l>Allatusque est lapis unus,</l>
+<l rend="indent">et positus est super os laci:</l>
+<l>Quem obsignavit rex annulo suo, et annulo optimatum suorum,</l>
+<l rend="indent">ne quid fieret contra Danielem.</l> 
+<l>Et abiit rex in domum suam, et dormivit incoenatus,</l>
+<l rend="indent">cibique non sunt illati coram eo,</l>
+<l rend="indent">insuper et somnus recessit ab eo.</l> 
+<l>Tunc rex primo diluculo consurgens,</l>
+<l rend="indent">festinus ad lacum leonum perrexit:</l>
+<l>Appropinquansque lacui, Danielem voce lacrymabili</l>
+<l rend="indent(1)">inclamavit,</l>
+<l rend="indent">et affatus est eum:</l>
+<l>
+<pb n="1308D"/>Daniel, serve Dei viventis,</l>
+<l rend="indent">Deus tuus, cui tu servis semper, putasne valuit</l>
+<l rend="indent(1)">te liberare a leonibus?</l> 
+<l>Et Daniel regi respondens ait:</l>
+<l rend="indent">Rex, in aeternum vive:</l>
+<l>Deus meus misit angelum suum,</l>
+<l rend="indent">et conclusit ora leonum, et non nocuerunt mihi:</l>
+<l>
+<pb n="1309A"/>Quia coram eo justitia inventa est in me:</l>
+<l rend="indent">sed et coram te, rex, delictum non feci.</l> 
+<l>Tunc rex vehementer gavisus est super eo.</l> 
+<l rend="indent">et Danielem praecepit educi de lacu:</l>
+<l>Eductusque est Daniel de lacu,</l>
+<l rend="indent">et nulla laesio inventa est in eo,</l>
+<l rend="indent">quia credidit Deo suo.</l> 
+<l>Jubente autem rege, adducti sunt viri illi,</l>
+<l rend="indent">qui accusaverant Danielem:</l>
+<l>Et in lacum leonum missi sunt,</l>
+<l rend="indent">ipsi, et filii, et uxores eorum:</l>
+<l>Et non pervenerunt usque ad pavimentum laci,</l>
+<l rend="indent">donec arriperent eos leones, et omnia ossa eorum comminuerunt.</l> 
+<l>Tunc Darius rex scripsit universis populis, tribubus,</l>
+<l rend="indent(1)">et linguis,</l>
+<l rend="indent">habitantibus in universa terra:</l>
+<l>PAX vobis multiplicetur.</l> 
+<l>A me constitutum est decretum,</l>
+<l rend="indent">ut in universo imperio et regno meo,</l>
+<l rend="indent">
+<pb n="1309B"/>tremiscant et paveant Deum Danielis.</l> 
+<l>Ipse est enim Deus vivens, et aeternus in saecula,</l>
+<l rend="indent">et regnum ejus non dissipabitur,</l>
+<l rend="indent">et potestas ejus usque in aeternum.</l> 
+<l>Ipse liberator, atque salvator,</l>
+<l rend="indent">faciens signa, et mirabilia in coelo et in terra:</l>
+<l rend="indent">qui liberavit Danielem de lacu leonum.</l> 
+<l>Porro Daniel perseveravit usque ad regnum Darii,</l>
+<l rend="indent">regnumque Cyri Persae.</l> 
+<l>[ <hi>Visio</hi> VII.] Anno primo Baltassar regis Babylonis,</l>
+<l rend="indent(1)">Daniel somnium vidit:</l>
+<l rend="indent">visio autem capitis ejus in cubili suo:</l>
+<l rend="indent">et somnium scribens, brevi sermone comprehendit:</l>
+<l rend="indent">summatimque perstringens, ait:</l>
+<l>Videbam in visione mea nocte,</l>
+<l rend="indent">et ecce quatuor venti coeli pugnabant in mari</l>
+<l rend="indent(1)">magno.</l> 
+<l>Et quatuor bestiae grandes ascendebant de mari</l>
+<l rend="indent">
+<pb n="1309C"/>diversae inter se.</l> 
+<l>Prima quasi leaena,</l>
+<l rend="indent">et alas habebat aquilae:</l>
+<l>Aspiciebam donec evulsae sunt alae ejus,</l>
+<l rend="indent">et sublata est de terra;</l>
+<l>Et super pedes quasi homo stetit,</l>
+<l rend="indent">et cor ejus datum est ei.</l> 
+<l>Et ecce bestia alia similis urso in parte stetit:</l>
+<l rend="indent">et tres ordines erant in ore ejus,</l>
+<l rend="indent">et in dentibus ejus,</l>
+<l>Et sic dicebant ei:</l>
+<l rend="indent">Surge, comede carnes plurimas.</l> 
+<l>Post hoc aspiciebam,</l>
+<l rend="indent">et ecce alia quasi pardus;</l>
+<l>Et alas habebat avis quatuor super se,</l>
+<l rend="indent">et quatuor capita erant in bestia,</l>
+<l rend="indent">et potestas data est ei.</l> 
+<l>Post hoc aspiciebam in visione noctis,</l>
+<l rend="indent">et ecce bestia quarta terribilis, atque mirabilis,</l>
+<l rend="indent(1)">
+<pb n="1309D"/>et fortis nimis,</l>
+<l>Dentes ferreos habebat magnos, comedens atque</l>
+<l rend="indent(1)">comminuens,</l>
+<l rend="indent">et reliqua pedibus suis conculcans:</l>
+<l>Dissimilis autem erat caeteris bestiis, quas videram</l>
+<l rend="indent(1)">ante eam,</l>
+<l rend="indent">et habebat cornua decem.</l> 
+<l>Considerabam cornua,</l>
+<l rend="indent">et ecce cornu aliud parvulum ortum est de medio</l>
+<l rend="indent(1)">eorum:</l>
+<l>Et tria de cornibus primis evulsa sunt a facie ejus:</l>
+<l rend="indent">et ecce oculi, quasi oculi hominis erant in cornu</l>
+<l rend="indent(1)">isto,</l>
+<l rend="indent">
+<pb n="1310A"/>et os loquens ingentia.</l> 
+<l>Aspiciebam donec throni positi sunt,</l>
+<l rend="indent">et antiquus dierum sedit.</l> 
+<l>Vestimentum ejus quasi nix candidum,</l>
+<l rend="indent">et capilli capitis ejus quasi lana munda:</l>
+<l>Thronus ejus flammae ignis:</l>
+<l rend="indent">rotae ejus ignis accensus.</l> 
+<l>Fluvius igneus, rapidusque</l>
+<l rend="indent">egrediebatur a facie ejus.</l> 
+<l>Millia millium ministrabant ei,</l>
+<l rend="indent">et decies millies centena millia assistebant ei.</l> 
+<l>Judicium sedit,</l>
+<l rend="indent">et libri aperti sunt.</l> 
+<l>Aspiciebam propter vocem sermonum grandium,</l>
+<l rend="indent">quos cornu illud loquebatur:</l>
+<l>Et vidi quoniam interfecta esset bestia,</l>
+<l rend="indent">et perisset corpus ejus, et traditum esset ad comburendum igni:</l>
+<l>Aliarum quoque bestiarum ablata esset potestas,</l>
+<l rend="indent">et tempora vitae constituta essent eis usque ad</l>
+<l rend="indent(1)">
+<pb n="1310B"/>tempus et tempus.</l> 
+<l>Aspiciebam ergo in visione noctis.</l> 
+<l rend="indent">et ecce cum nubibus coeli quasi filius hominis veniebat,</l>
+<l rend="indent">et usque ad antiquum dierum pervenit:</l>
+<l rend="indent">et in conspectu ejus obtulerunt eum.</l> 
+<l>Et dedit ei potestatem, et honorem, et regnum:</l>
+<l rend="indent">et omnes populi, tribus, et linguae ipsi servient;</l>
+<l>Potestas ejus potestas aeterna, quae non auferetur:</l>
+<l rend="indent">et regnum ejus, quod non corrumpetur.</l> 
+<l>Horruit spiritus meus,</l>
+<l rend="indent">ego Daniel territus sum in his,</l>
+<l rend="indent">et visiones capitis mei conturbaverunt me.</l> 
+<l>Accessi ad unum de assistentibus,</l>
+<l rend="indent">et veritatem quaerebam ab eo de omnibus his.</l> 
+<l>Qui dixit mihi interpretationem sermonum,</l>
+<l rend="indent">et docuit me:</l>
+<l>Hae bestiae magnae quatuor,</l>
+<l rend="indent">quatuor regna consurgent de terra.</l> 
+<l>
+<pb n="1310C"/>Suscipient autem regnum sancti Dei altissimi,</l>
+<l rend="indent">et obtinebunt regnum usque in saeculum, et saeculum saeculorum.</l> 
+<l>Post hoc volui diligenter discere de bestia quarta,</l>
+<l rend="indent">quae erat dissimilis valde ab omnibus, et terribilis</l>
+<l rend="indent(1)">nimis,</l>
+<l rend="indent">dentes et ungues ejus ferrei:</l>
+<l>Comedebat, et comminuebat,</l>
+<l rend="indent">et reliquias pedibus suis conculcabat:</l>
+<l rend="indent">et de cornibus decem, quae habebat in capite:</l>
+<l rend="indent">et de alio, quod ortum fuerat,</l>
+<l rend="indent">ante quod ceciderant tria cornua:</l>
+<l>Et de cornu illo quod habebat oculos,</l>
+<l rend="indent">et os loquens grandia, et majus erat caeteris.</l> 
+<l>Aspiciebam,</l>
+<l rend="indent">et ecce cornu illud faciebat bellum adversus sanctos,</l>
+<l rend="indent">et praevalebat eis,</l>
+<l>Donec venit antiquus dierum, et judicium dedit sanctis</l>
+<l rend="indent(1)">Excelsi,</l>
+<l rend="indent">
+<pb n="1310D"/>et tempus advenit, et regnum obtinuerunt sancti.</l> 
+<l>Et sic ait: Bestia quarta, regnum quartum erit in</l>
+<l rend="indent(1)">terra,</l>
+<l rend="indent">quod majus erit omnibus regnis,</l>
+<l rend="indent">et devorabit universam terram, et conculcabit, et</l>
+<l rend="indent(1)">comminuet eam.</l> 
+<l>Porro cornua decem ipsius regni,</l>
+<l rend="indent">decem reges erunt:</l>
+<l>Et alius consurget post eos,</l>
+<l rend="indent">et ipse potentior erit prioribus,</l>
+<l rend="indent">et tres reges humiliabit.</l> 
+<l>Et sermones contra Excelsum loquetur,</l>
+<l rend="indent">
+<pb n="1311A"/>et sanctos Altissimi conteret:</l>
+<l>Et putabit quod possit mutare tempora, et leges;</l>
+<l rend="indent">et tradentur in manu ejus usque ad tempus, et</l>
+<l rend="indent(1)">tempora, et dimidium temporis.</l> 
+<l>Et judicium sedebit,</l>
+<l rend="indent">ut auferatur potentia, et conteratur, et dispereat</l>
+<l rend="indent(1)">usque in finem.</l> 
+<l>Regnum autem, et potestas, et magnitudo regni, quae</l>
+<l rend="indent(1)">est subter omne coelum,</l>
+<l rend="indent">detur populo sanctorum Altissimi:</l>
+<l>Cujus regnum, regnum sempiternum est,</l>
+<l rend="indent">et omnes reges servient ei, et obedient.</l>
+        </p>
+<p divs_removed="true">
+          <emph>HUCUSQUE FINIS VERBI.</emph>
+<l>Ego Daniel multum cogitationibus meis conturbabar,</l>
+<l rend="indent">et facies mea mutata est in me:</l>
+<l rend="indent">verbum autem in corde meo conservavi.</l> 
+<l>[ <hi>Visio</hi> VIII.] Anno tertio regni Baltassar regis,</l>
+<l rend="indent">visio apparuit mihi.</l> 
+<l>Ego Daniel, post id quod videram in principio,</l>
+<l rend="indent">
+<pb n="1311B"/>vidi in visione mea,</l>
+<l rend="indent">cum essem in Susis castro, quod est in Elam civitate:</l>
+<l>Vidi autem in visione</l>
+<l rend="indent">esse me super portam Ulai.</l> 
+<l>Et levavi oculos meos, et vidi:</l>
+<l rend="indent">et ecce aries unus stabat ante paludem, habens</l>
+<l rend="indent(1)">cornua excelsa,</l>
+<l rend="indent">et unum excelsius altero atque succrescens.</l> 
+<l>Postea vidi arietem cornibus ventilantem contra occidentem,</l>
+<l rend="indent">et contra aquilonem,</l>
+<l rend="indent">et contra meridiem,</l>
+<l>Et omnes bestiae non poterant resistere ei,</l>
+<l rend="indent">neque liberari de manu ejus:</l>
+<l>Fecitque secundum voluntatem suam,</l>
+<l rend="indent">et magnificatus est:</l>
+<l>Et ego intelligebam:</l>
+<l rend="indent">ecce autem hircus caprarum veniebat ab occidente</l>
+<l rend="indent(1)">
+<pb n="1311C"/>super faciem totius terrae,</l>
+<l rend="indent">et non tangebat terram:</l>
+<l rend="indent">porro hircus habebat cornu insigne inter oculos</l>
+<l rend="indent(1)">suos.</l> 
+<l>Et venit usque ad arietem illum cornutum,</l>
+<l rend="indent">quem videram stantem ante portam,</l>
+<l rend="indent">et cucurrit ad eum in impetu fortitudinis suae.</l> 
+<l>Cumque appropinquasset prope arietem, efferatus</l>
+<l rend="indent(1)">est in eum,</l>
+<l rend="indent">et percussit arietem:</l>
+<l>Et comminuit duo cornua ejus,</l>
+<l rend="indent">et non poterat aries resistere ei:</l>
+<l>Cumque eum misisset in terra, conculcavit,</l>
+<l rend="indent">et nemo quibat liberare arietem de manu ejus.</l> 
+<l>Hircus autem caprarum magnus factus est nimis:</l>
+<l rend="indent">cumque crevisset, fractum est cornu magnum,</l>
+<l rend="indent">et orta sunt quatuor cornua subter illud per quatuor ventos coeli.</l> 
+<l>De uno autem ex eis egressum est cornu unum modicum:</l>
+<l rend="indent">
+<pb n="1311D"/>et factum est grande contra meridiem,</l>
+<l rend="indent">et contra orientem,</l>
+<l rend="indent">et contra fortitudinem:</l>
+<l>Et magnificatum est usque ad fortitudinem coeli:</l>
+<l rend="indent">et dejecit de fortitudine, et de stellis, et conculcavit eas:</l>
+<l>Et usque ad principem fortitudinis magnificatum est:</l>
+<l rend="indent">et ab eo tulit juge sacrificium,</l>
+<l rend="indent">et dejecit locum sanctificationis ejus.</l> 
+<l>Robur autem datum est contra juge sacrificium</l>
+<l rend="indent(1)">propter peccata:</l>
+<l rend="indent">
+<pb n="1312A"/>et prosternetur veritas in terra, et faciet, et prosperabitur.</l> 
+<l>Et audivi unum de sanctis loquentem:</l>
+<l rend="indent">et dixit unus sanctus alteri nescio cui loquenti,</l>
+<l>Usquequo visio, et juge sacrificium,</l>
+<l rend="indent">et peccatum desolationis, quae facta est:</l>
+<l rend="indent">et sanctuarium, et fortitudo conculcabitur?</l> 
+<l>Et dixit ei: Usque ad vesperam et mane, duo millia trecenti:</l>
+<l rend="indent">et mundabitur sanctuarium:</l>
+<l>Factum est autem cum viderem ego Daniel visionem,</l>
+<l rend="indent">et quaererem intelligentiam:</l>
+<l rend="indent">ecce stetit in conspectu meo quasi species viri.</l> 
+<l>Et audivi vocem viri inter Ulai:</l>
+<l rend="indent">et clamavit, et ait:</l>
+<l rend="indent">Gabriel, fac intelligere istam visionem.</l> 
+<l>Et venit, et stetit juxta ubi ego stabam:</l>
+<l rend="indent">cumque venisset, pavens corrui in faciem meam,</l>
+<l rend="indent">et ait ad me:</l>
+<l>Intellige, fili hominis,</l>
+<l rend="indent">
+<pb n="1312B"/>quoniam in tempore finis complebitur visio.</l> 
+<l>Cumque loqueretur ad me, collapsus sum pronus in</l>
+<l rend="indent(1)">terram,</l>
+<l rend="indent">et tetigit me, et statuit me in gradu meo, dixitque</l>
+<l rend="indent(1)">mihi:</l>
+<l>Ego ostendam tibi quae futura sunt in novissimo maledictionis:</l>
+<l rend="indent">quoniam habet tempus finem suum.</l> 
+<l>Aries quem vidisti habere cornua,</l>
+<l rend="indent">rex Medorum est atque Persarum.</l> 
+<l>Porro hircus caprarum, rex Graecorum est,</l>
+<l rend="indent">et cornu grande quod erat inter oculos ejus, ipse</l>
+<l rend="indent(1)">est rex primus.</l> 
+<l>Quod autem, fracto illo, surrexerunt quatuor pro</l>
+<l rend="indent(1)">eo,</l>
+<l rend="indent">quatuor reges de gente ejus consurgent,</l>
+<l rend="indent">sed non in fortitudine ejus.</l> 
+<l>Et post regnum eorum, cum creverint iniquitates,</l>
+<l rend="indent">consurget rex impudens facie, et intelligens propositiones,</l>
+<l>
+<pb n="1312C"/>Et roborabitur fortitudo ejus,</l>
+<l rend="indent">sed non in viribus suis:</l>
+<l>Et supra quam credi potest, universa vastabit,</l>
+<l rend="indent">et prosperabitur, et faciet.</l> 
+<l>Et interficiet robustos,</l>
+<l rend="indent">et populum sanctorum, secundum voluntatem</l>
+<l rend="indent(1)">suam,</l>
+<l rend="indent">et dirigetur dolus in manu ejus:</l>
+<l>Et cor suum magnificabit,</l>
+<l rend="indent">et in copia rerum omnium occidet plurimos:</l>
+<l>Et contra principem principum consurget,</l>
+<l rend="indent">et sine manu conteretur.</l> 
+<l>Et visio vespere et mane, quae dicta est, vera est:</l>
+<l rend="indent">tu ergo signa visionem, quia post dies multos erit,</l>
+<l>Et ego Daniel langui,</l>
+<l rend="indent">et aegrotavi per dies:</l>
+<l>Cumque surrexissem, faciebam opera regis,</l>
+<l rend="indent">et stupebam ad visionem,</l>
+<l rend="indent">et non erat qui interpretaretur.</l> 
+<l>
+<pb n="1312D"/>[ <hi>Visio.</hi> IX.] In anno primo Darii filii Assueri de semine Medorum,</l>
+<l rend="indent">qui imperavit super regnum Chaldaeorum:</l>
+<l>Anno uno regni ejus,</l>
+<l rend="indent">ego Daniel intellexi in libris numerum annorum,</l>
+<l rend="indent(1)">de quo factus est sermo Domini ad Jeremiam</l>
+<l rend="indent(1)">prophetam,</l>
+<l rend="indent">ut complerentur desolationis Jerusalem septuaginta anni,</l>
+<l>Et posui faciem meam ad Dominum Deum meum rogare,</l>
+<l rend="indent">
+<pb n="1313A"/>et deprecari in jejuniis, sacco et cinere.</l> 
+<l>Et oravi Dominum Deum meum,</l>
+<l rend="indent">et confessus sum, et dixi:</l>
+<l>Obsecro, Domine Deus magne et terribilis,</l>
+<l rend="indent">custodiens pactum et misericordiam diligentibus</l>
+<l rend="indent(1)">te,</l>
+<l rend="indent">et custodientibus mandata tua.</l> 
+<l>Peccavimus,</l>
+<l rend="indent">iniquitatem fecimus,</l>
+<l rend="indent">impie egimus,</l>
+<l rend="indent">et recessimus:</l>
+<l>Et declinavimus a mandatis tuis ac judiciis:</l>
+<l>Non obedivimus servis tuis prophetis,</l>
+<l rend="indent">qui locuti sunt in nomine tuo regibus nostris,</l>
+<l rend="indent">principibus nostris,</l>
+<l rend="indent">patribus nostris,</l>
+<l rend="indent">omnique populo terrae.</l> 
+<l>Tibi, Domine, justitia:</l>
+<l rend="indent">nobis autem confusio faciei:</l>
+<l rend="indent">
+<pb n="1313B"/>sicut est hodie viro Juda, et habitatoribus Jerusalem, et omni Israel;</l>
+<l>His qui prope sunt, et his qui procul,</l>
+<l rend="indent">in universis terris, ad quas ejecisti eos,</l>
+<l rend="indent">propter iniquitates eorum, in quibus peccaverunt</l>
+<l rend="indent(1)">in te.</l> 
+<l>Domine, nobis confusio faciei,</l>
+<l rend="indent">regibus nostris,</l>
+<l rend="indent">principibus nostris,</l>
+<l rend="indent">et patribus nostris, qui peccaverunt.</l> 
+<l>Tibi autem Domino Deo nostro misericordia, et propitiatio,</l>
+<l rend="indent">quia recessimus a te:</l>
+<l>Et non audivimus vocem Domini Dei nostri,</l>
+<l rend="indent">ut ambularemus in lege ejus, quam posuit nobis</l>
+<l rend="indent(1)">per servos suos prophetas.</l> 
+<l>Et omnis Israel praevaricati sunt legem tuam, et declinaverunt, ne audirent vocem tuam,</l>
+<l>Et stillavit super nos maledictio, et detestatio, quae</l>
+<l rend="indent(1)">scripta est in libro Mosi servi Dei,</l>
+<l rend="indent">
+<pb n="1313C"/>quia peccavimus ei.</l> 
+<l>Et statuit sermones suos, quos locutus est super</l>
+<l rend="indent">nos,</l>
+<l rend="indent(1)">et super principes nostros, qui judicaverunt</l>
+<l rend="indent(1)">nos,</l>
+<l>Ut superinduceret in nos malum magnum,</l>
+<l rend="indent">quale numquam fuit sub omni coelo,</l>
+<l rend="indent">secundum quod factum est in Jerusalem.</l> 
+<l>Sicut scriptum est in lege Mosi,</l>
+<l rend="indent">omne malum hoc venit super nos.</l> 
+<l>Et non rogavimus faciem tuam, Domine Deus noster,</l>
+<l rend="indent">ut reverteremur ab iniquitatibus nostris,</l>
+<l rend="indent">et cogitaremus veritatem tuam.</l> 
+<l>Et vigilavit Dominus super malitiam,</l>
+<l rend="indent">et adduxit eam super nos:</l>
+<l>Justus Dominus Deus noster in omnibus operibus</l>
+<l rend="indent(1)">suis, quae fecit:</l>
+<l rend="indent">non enim audivimus vocem ejus.</l> 
+<l>Et nunc, Domine Deus noster,</l>
+<l rend="indent">
+<pb n="1313D"/>qui eduxisti populum tuum de terra Aegypti in</l>
+<l rend="indent(1)">manu forti,</l>
+<l rend="indent">et fecisti tibi nomen secundum diem hanc:</l>
+<l>Peccavimus, iniquitatem fecimus,</l>
+<l rend="indent">Domine, in omnem justitiam tuam:</l>
+<l>Avertatur, obsecro, ira tua, et furor tuus,</l>
+<l rend="indent">a civitate tua Jerusalem, et monte sancto tuo.</l> 
+<l>
+<pb n="1314A"/>Propter peccata enim nostra, et iniquitates patrum</l>
+<l rend="indent(1)">nostrorum,</l>
+<l>Jerusalem et populus tuus in opprobrium sunt omnibus per circuitum nostrum.</l> 
+<l>Nunc ergo exaudi, Deus noster, orationem servi tui,</l>
+<l rend="indent(1)">et preces ejus:</l>
+<l rend="indent">et ostende faciem tuam super sanctuarium tuum,</l>
+<l rend="indent(1)">quod desertum est,</l>
+<l rend="indent">propter temetipsum.</l> 
+<l>Inclina, Deus meus, aurem tuam, et audi:</l>
+<l rend="indent">aperi oculos tuos, et vide desolationem nostram,</l>
+<l rend="indent">et civitatem, super quam invocatum est nomen</l>
+<l rend="indent(1)">tuum:</l>
+<l>Neque enim in justificationibus nostris prosternimus</l>
+<l rend="indent(1)">preces ante faciem tuam,</l>
+<l rend="indent">sed in miserationibus tuis multis.</l> 
+<l>Exaudi, Domine,</l>
+<l rend="indent">placare, Domine:</l>
+<l rend="indent">attende, et fac:</l>
+<l>Ne moreris propter temetipsum, Deus meus:</l>
+<l rend="indent">
+<pb n="1314B"/>quia nomen tuum invocatum est super civitatem,</l>
+<l rend="indent">et super populum tuum,</l>
+<l>Cumque adhuc loquerer, et orarem,</l>
+<l rend="indent">et confiterer peccata mea, et peccata populi mei</l>
+<l rend="indent(1)">Israel,</l>
+<l rend="indent">et prosternerem preces meas in conspectu Dei mei,</l>
+<l rend="indent">pro monte sancto Dei mei:</l>
+<l>Adhuc me loquente in oratione,</l>
+<l rend="indent">ecce vir Gabriel, quem videram in visione in</l>
+<l rend="indent(1)">principio,</l>
+<l rend="indent">cito volans tetigit me in tempore sacrificii vespertini.</l> 
+<l>Et docuit me,</l>
+<l rend="indent">et locutus est mihi, dixitque:</l>
+<l>Daniel nunc egressus sum, ut docerem te,</l>
+<l rend="indent">et intelligeres.</l> 
+<l>Ab exordio precum tuarum egressus est sermo:</l>
+<l rend="indent">ego autem veni, ut indicarem tibi,</l>
+<l rend="indent">quia vir desideriorum es:</l>
+<l>
+<pb n="1314C"/>Tu ergo animadverte sermonem,</l>
+<l rend="indent">et intellige visionem.</l> 
+<l>Septuaginta hebdomades abbreviatae sunt super populum tuum et super urbem sanctam tuam,</l>
+<l rend="indent">ut consummetur praevaricatio, et finem accipiat</l>
+<l rend="indent(1)">peccatum,</l>
+<l>Et deleatur iniquitas,</l>
+<l rend="indent">et adducatur justitia sempiterna,</l>
+<l>Et impleatur visio, et prophetia,</l>
+<l rend="indent">et ungatur Sanctus sanctorum.</l> 
+<l>Scito ergo, et animadverte:</l>
+<l rend="indent">Ab exitu sermonis, ut iterum aedificetur Jerusalem, usque ad Christum ducem,</l>
+<l rend="indent">hebdomades septem, et hebdomades sexaginta</l>
+<l rend="indent(1)">duae erunt:</l>
+<l>Et rursum aedificabitur platea,</l>
+<l rend="indent">et muri in angustia temporum.</l> 
+<l>Et post hebdomades sexaginta duas occidetur Christus:</l>
+<l rend="indent">et non erit ejus:</l>
+<l>
+<pb n="1314D"/>Et civitatem et sanctuarium dissipabit populus</l>
+<l rend="indent">cum duce venturo:</l>
+<l>Et finis ejus vastitas,</l>
+<l rend="indent">et post finem belli statuta desolatio.</l> 
+<l>Confirmabit autem pactum multis hebdomada una:</l>
+<l rend="indent">et in dimidio hebdomadis deficiet hostia et sacrificium:</l>
+<l>
+<pb n="1315A"/>Et in templo erit abominatio desolationis:</l>
+<l rend="indent">et usque ad consummationem et finem perseverabit desolatio.</l> 
+<l>[ <hi>Visio</hi> X.] Anno tertio Cyri regis Persarum, verbum</l>
+<l rend="indent(1)">revelatum est Danieli cognomento Baltassar,</l>
+<l rend="indent">et verbum verum, et fortitudo magna:</l>
+<l>Intellexitque sermonem:</l>
+<l rend="indent">intelligentia enim opus est in visione.</l> 
+<l>In diebus illis ego Daniel lugebam trium hebdomadarum diebus:</l>
+<l rend="indent">panem desiderabilem non comedi,</l>
+<l rend="indent">et caro et vinum non introierunt in os meum;</l>
+<l>Sed neque unguento unctus sum:</l>
+<l rend="indent">donec complerentur trium hebdomadarum dies.</l> 
+<l>Die autem vigesima et quarta mensis primi,</l>
+<l rend="indent">eram juxta fluvium magnum, qui est Tigris,</l>
+<l>Et levavi oculos meos, et vidi:</l>
+<l rend="indent">et ecce vir unus vestitus lineis,</l>
+<l rend="indent">et renes ejus accincti auro obryzo:</l>
+<l>Et corpus ejus quasi chrysolithus,</l>
+<l rend="indent">
+<pb n="1315B"/>et facies ejus velut species fulguris,</l>
+<l rend="indent">et oculi ejus, ut lampas ardens:</l>
+<l>Et brachia ejus, et quae deorsum usque ad pedes,</l>
+<l rend="indent">quasi species aeris candentis:</l>
+<l rend="indent">et vox sermonum ejus, ut vox multitudinis.</l> 
+<l>Vidi autem ego Daniel solus visionem:</l>
+<l rend="indent">porro viri, qui erant mecum, non viderunt:</l>
+<l rend="indent">sed terror nimius irruit super eos, et fugerunt in</l>
+<l rend="indent(1)">absconditum.</l> 
+<l>Ego autem relictus solus vidi visionem grandem</l>
+<l rend="indent(1)">hanc:</l>
+<l rend="indent">et non remansit in me fortitudo,</l>
+<l rend="indent">sed et species mea immutata est in me,</l>
+<l rend="indent">et emarcui, nec habui quidquam virium.</l> 
+<l>Et audivi vocem sermonum ejus:</l>
+<l rend="indent">et audiens jacebam consternatus super faciem</l>
+<l rend="indent(1)">meam,</l>
+<l rend="indent">vultusque meus haerebat terrae.</l> 
+<l>Et ecce manus tetigit me,</l>
+<l>
+<pb n="1315C"/>et erexit me super genua mea,</l>
+<l rend="indent">et super articulos manuum mearum.</l> 
+<l>Et dixit ad me: Daniel, vir desideriorum,</l>
+<l rend="indent">intellige verba, quae ego loquor ad te, et sta in</l>
+<l rend="indent">gradu tuo:</l>
+<l rend="indent">nunc enim missus sum ad te.</l> 
+<l>Cumque dixisset mihi sermonem istum, steti tremens.</l> 
+<l>Et ait ad me: Noli metuere, Daniel:</l>
+<l rend="indent">quia ex die primo, quo posuisti cor tuum ad intelligendum,</l>
+<l rend="indent">ut te affligeres in conspectu Dei tui,</l>
+<l rend="indent">exaudita sunt verba tua:</l>
+<l rend="indent">et ego veni propter sermones tuos.</l> 
+<l>Princeps autem regni Persarum restitit mihi viginti</l>
+<l rend="indent(1)">et uno diebus,</l>
+<l rend="indent">et ecce Michael unus de principibus primis venit in</l>
+<l rend="indent(1)">adjutorium meum,</l>
+<l rend="indent">et ego remansi ibi juxta regem Persarum.</l> 
+<l>Veni autem, ut docerem te quae ventura sunt populo</l>
+<l rend="indent(1)">
+<pb n="1315D"/>tuo in novissimis diebus,</l>
+<l rend="indent">quoniam adhuc visio in dies.</l> 
+<l>Cumque loqueretur mihi hujuscemodi verbis,</l>
+<l rend="indent">dejeci vultum meum ad terram, et tacui.</l> 
+<l>Et ecce quasi similitudo filii hominis tetigit labia</l>
+<l rend="indent(1)">mea:</l>
+<l rend="indent">et aperiens os meum locutus sum,</l>
+<l rend="indent">et dixi ad eum qui stabat contra me:</l>
+<l>Domine mi, in visione tua dissolutae sunt compages</l>
+<l rend="indent(1)">meae,</l>
+<l rend="indent">et nihil in me remansit virium.</l> 
+<l>Et quomodo poterit servus Domini mei loqui cum</l>
+<l rend="indent(1)">Domino meo?</l> 
+<l rend="indent">nihil enim in me remansit virium,</l>
+<l rend="indent">sed et halitus meus intercluditur.</l> 
+<l>Rursum ergo tetigit me quasi visio hominis,</l>
+<l rend="indent">et confortavit me, et dixit:</l>
+<l>Noli timere, vir desideriorum:</l>
+<l rend="indent">
+<pb n="1316A"/>pax tibi:</l>
+<l rend="indent">confortare, et esto robustus.</l> 
+<l>Cumque loqueretur mecum, convalui, et dixi:</l>
+<l rend="indent">Loquere, Domine mi, quia confortasti me.</l> 
+<l>Et ait:</l>
+<l rend="indent">Numquid scis quare venerim ad te?</l> 
+<l>Et nunc revertar ut praelier adversum principem</l>
+<l rend="indent(1)">Persarum:</l>
+<l rend="indent">cum ergo egrederer, apparuit princeps Graecorum veniens.</l> 
+<l>Verumtamen annuntiabo tibi, quod expressum est</l>
+<l rend="indent(1)">in scriptura veritatis,</l>
+<l rend="indent">et nemo est adjutor meus in omnibus his,</l>
+<l rend="indent">nisi Michael princeps vester.</l> 
+
+        </p>
+        <div3 moved_from_p="true">
+            <head>[Cap. XI.]</head>
+<l> Ego autem ab anno primo Darii Medi</l>
+<l rend="indent">stabam ut confortaretur, et roboraretur.</l> 
+<l>Et nunc veritatem annuntiabo tibi.</l> 
+<l>Ecce adhuc tres reges stabunt in Perside,</l>
+<l rend="indent">et quartus ditabitur opibus nimiis super omnes:</l>
+<l>Et cum invaluerit divitiis suis,</l>
+<l rend="indent">
+<pb n="1316B"/>concitabit omnes adversum regnum Graeciae.</l> 
+<l>Surget vero rex fortis,</l>
+<l rend="indent">et dominabitur potestate multa,</l>
+<l rend="indent">et faciet quod placuerit ei.</l> 
+<l>Et cum steterit, conteretur regnum ejus,</l>
+<l rend="indent">et dividetur in quatuor ventos coeli;</l>
+<l>Sed non in posteros ejus,</l>
+<l rend="indent">neque secundum potentiam illius, qua dominatus</l>
+<l rend="indent(1)">est.</l> 
+<l>Lacerabitur enim regnum ejus etiam in externos,</l>
+<l rend="indent">exceptis his.</l> 
+<l>Et confortabitur rex Austri:</l>
+<l rend="indent">et de principibus ejus praevalebit super eum, et</l>
+<l rend="indent(1)">dominabitur ditione:</l>
+<l rend="indent">multa enim dominatio ejus.</l> 
+<l>Et post finem annorum foederabuntur:</l>
+<l rend="indent">filiaque regis austri veniet ad regem aquilonis</l>
+<l rend="indent(1)">facere amicitiam;</l>
+<l>Et non obtinebit fortitudinem brachii, nec stabit</l>
+<l rend="indent(1)">
+<pb n="1316C"/>semen ejus:</l>
+<l>Et tradetur ipsa, et qui adduxerunt eam,</l>
+<l rend="indent">adolescentes ejus, et qui confortabant eam in</l>
+<l rend="indent(1)">temporibus.</l> 
+<l>Et stabit de germine radicum ejus plantatio:</l>
+<l rend="indent">et veniet cum exercitu, et ingredietur provinciam</l>
+<l rend="indent(1)">regis aquilonis:</l>
+<l rend="indent">et abutetur eis; et obtinebit.</l> 
+<l>Insuper et deos eorum, et sculptilia,</l>
+<l rend="indent">vasa quoque pretiosa argenti et auri,</l>
+<l rend="indent">et captiva ducet in Aegyptum:</l>
+<l rend="indent">ipse praevalebit adversus regem aquilonis,</l>
+<l>Et intrabit in regnum rex austri,</l>
+<l rend="indent">et revertetur ad terram suam.</l> 
+<l>Filii autem ejus provocabuntur,</l>
+<l rend="indent">et congregabunt multitudinem exercituum plurimorum:</l>
+<l>Et veniet properans, et inundans:</l>
+<l rend="indent">et revertetur, et concitabitur, et congredietur cum</l>
+<l rend="indent(1)">robore ejus.</l> 
+<l>
+<pb n="1316D"/>Et provocatus rex austri egredietur,</l>
+<l rend="indent">et pugnabit adversus regem aquilonis;</l>
+<l rend="indent">et praeparabit multitudinem nimiam,</l>
+<l rend="indent">et dabitur multitudo in manu ejus.</l> 
+<l>Et capiet multitudinem, et exaltabitur cor ejus.</l> 
+<l rend="indent">et dejiciet multa millia, sed non praevalebit.</l> 
+<l>Convertetur enim rex aquilonis,</l>
+<l rend="indent">et praeparabit multitudinem multo majorem quam</l>
+<l rend="indent(1)">prius:</l>
+<l>Et in fine temporum annorumque,</l>
+<l rend="indent">veniet properans cum exercitu magno, et opibus</l>
+<l rend="indent(1)">nimiis.</l> 
+<l>Et in temporibus illis multi consurgent adversus</l>
+<l rend="indent(1)">regem austri:</l>
+<l rend="indent">filii quoque praevaricatorum populi tui extollentur,</l>
+<l rend="indent(1)">ut impleant visionem,</l>
+<l rend="indent">et corruent.</l> 
+<l>Et veniet rex aquilonis, et comportabit aggerem,</l>
+<l rend="indent">
+<pb n="1317A"/>et capiet urbes munitissimas:</l>
+<l>Et brachia austri non sustinebunt,</l>
+<l rend="indent">et consurgent electi ejus ad resistendum,</l>
+<l rend="indent">et non erit fortitudo.</l> 
+<l>Et faciet veniens super eum juxta placitum suum,</l>
+<l rend="indent">et non erit qui stet contra faciem ejus:</l>
+<l>Et stabit in terra inclyta,</l>
+<l rend="indent">et consumetur in manu ejus.</l> 
+<l>Et ponet faciem suam, ut veniat ad tenendum universum regnum ejus,</l>
+<l rend="indent">et recta faciet cum eo:</l>
+<l>Et filiam feminarum dabit ei, ut evertat illud:</l>
+<l rend="indent">et non stabit, nec illius erit:</l>
+<l>Et convertet faciem suam ad insulas,</l>
+<l rend="indent">et capiet multas:</l>
+<l>Et cessare faciet principem opprobrii sui,</l>
+<l rend="indent">et opprobrium ejus convertetur in eum.</l> 
+<l>Et convertet faciem suam ad imperium terrae suae,</l>
+<l rend="indent">et impinget, et corruet, et non invenietur.</l> 
+<l>Et stabit in loco ejus vilissimus, et indignus decore</l>
+<l rend="indent(1)">
+<pb n="1317B"/>regio:</l>
+<l rend="indent">et in paucis diebus conteretur,</l>
+<l rend="indent">non in furore, nec in praelio.</l> 
+<l>Et stabit in loco ejus despectus,</l>
+<l rend="indent">et non tribuetur ei honor regius:</l>
+<l rend="indent">et veniet clam, et obtinebit regnum in fraudulentia,</l>
+<l>Et brachia pugnantis expugnabuntur a facie ejus, et</l>
+<l rend="indent(1)">conterentur:</l>
+<l rend="indent">insuper et dux foederis.</l> 
+<l>Et post amicitias, cum eo faciet dolum:</l>
+<l rend="indent">et ascendet, et superabit in modico populo.</l> 
+<l>Et abundantes et uberes urbes ingredietur;</l>
+<l rend="indent">et faciet quae non fecerunt patres ejus, et patres</l>
+<l rend="indent(1)">patrum ejus:</l>
+<l>Rapinas, et praedam, et divitias eorum dissipabit,</l>
+<l rend="indent">et contra firmissimas cogitationes inibit:</l>
+<l rend="indent">et hoc usque ad tempus.</l> 
+<l>Et concitabitur fortitudo ejus,</l>
+<l rend="indent">
+<pb n="1317C"/>et cor ejus adversum regem austri in exercitu</l>
+<l rend="indent(1)">magno:</l>
+<l>Et rex austri provocabitur ad bellum multis auxiliis,</l>
+<l rend="indent(1)">et fortibus nimis:</l>
+<l rend="indent">et non stabunt, quia inibunt adversus eum consilia.</l> 
+<l>Et comedentes panem cum eo, conterent illum,</l>
+<l rend="indent(1)">exercitusque ejus opprimetur:</l>
+<l rend="indent">et cadent interfecti plurimi.</l> 
+<l>Duorum quoque regum cor erit, ut malefaciant,</l>
+<l rend="indent">et ad mensam unam mendacium loquentur, et non</l>
+<l rend="indent(1)">proficient:</l>
+<l rend="indent">quia adhuc finis in aliud tempus.</l> 
+<l>Et revertetur in terram suam cum opibus multis:</l>
+<l rend="indent">et cor ejus adversum testamentum sanctum, et</l>
+<l rend="indent(1)">faciet,</l>
+<l rend="indent">et revertetur in terram suam.</l> 
+<l>Statuto tempore revertetur, et veniet ad austrum:</l>
+<l rend="indent">et non erit priori simile novissimum.</l> 
+<l>Et venient super eum Trieres et Romani:</l>
+<l rend="indent">
+<pb n="1317D"/>et percutietur, et revertetur,</l>
+<l rend="indent">et indignabitur contra testamentum sanctuarii, et</l>
+<l rend="indent(1)">faciet:</l>
+<l>Reverteturque et cogitabit adversum eos,</l>
+<l rend="indent">qui dereliquerunt testamentum sanctuarii,</l>
+<l>Et brachia ex eo stabunt,</l>
+<l rend="indent">et polluent sanctuarium fortitudinis,</l>
+<l rend="indent">
+<pb n="1318A"/>et auferent juge sacrificium,</l>
+<l rend="indent">et dabunt abominationem in desolationem,</l>
+<l>Et impii in testamentum simulabunt fraudulenter:</l>
+<l rend="indent">populus autem sciens Deum suum, obtinebit et</l>
+<l rend="indent(1)">faciet.</l> 
+<l>Et docti in populo docebunt plurimos:</l>
+<l rend="indent">et ruent in gladio, et in flamma, et in captivitate,</l>
+<l rend="indent(1)">et in rapina dierum.</l> 
+<l>Cumque corruerint, sublevabuntur auxilio parvulo:</l>
+<l rend="indent">et applicabuntur eis plurimi fraudulenter.</l> 
+<l>Et de eruditis ruent, ut conflentur, et eligantur,</l>
+<l rend="indent">et dealbentur usque ad tempus praefinitum:</l>
+<l rend="indent">quia adhuc aliud tempus erit.</l> 
+<l>Et faciet juxta voluntatem suam rex, et elevabitur,</l>
+<l rend="indent(1)">et magnificabitur adversum omnem Deum:</l>
+<l>Et adversum Deum deorum loquetur magnifica, et</l>
+<l rend="indent(1)">dirigetur,</l>
+<l rend="indent">donec compleatur iracundia;</l>
+<l rend="indent">perpetrata quippe est definitio.</l> 
+<l>Et Deum patrum suorum non reputabit,</l>
+<l rend="indent">
+<pb n="1318B"/>et erit in concupiscentiis feminarum, nec quemquam deorum curabit;</l>
+<l rend="indent">quia adversum universa consurget.</l> 
+<l>Deum autem Maozim in loco suo venerabitur:</l>
+<l rend="indent">et Deum, quem ignoraverunt patres ejus,</l>
+<l rend="indent">colet auro, et argento, et lapide pretioso, rebusque pretiosis.</l> 
+<l>Et faciet, ut muniat Maozim cum Deo alieno, quem</l>
+<l rend="indent(1)">cognovit,</l>
+<l rend="indent">et multiplicabit gloriam,</l>
+<l rend="indent">et dabit eis potestatem in multis,</l>
+<l rend="indent">et terram dividet gratuito.</l> 
+<l>Et in tempore praefinito praeliabitur adversus eum</l>
+<l rend="indent(1)">rex austri,</l>
+<l rend="indent">et quasi tempestas veniet contra illum rex aquilonis,</l>
+<l rend="indent">in curribus, et in equitibus, et in classe magna,</l>
+<l rend="indent">et ingredietur terras, et conteret et pertransiet.</l> 
+<l>Et introibit in terram gloriosam,</l>
+<l rend="indent">
+<pb n="1318C"/>et multae corruent:</l>
+<l>Hae autem solae salvabuntur de manu ejus;</l>
+<l rend="indent">Edom, et Moab, et principium filiorum Ammon,</l>
+<l>Et mittet manum suam in terras:</l>
+<l rend="indent">et terra Aegypti non effugiet.</l> 
+<l>Et dominabitur thesaurorum auri et argenti,</l>
+<l rend="indent">et in omnibus pretiosis Aegypti:</l>
+<l>Per Libyam quoque et Aethiopiam transibit.</l> 
+<l>Et fama turbabit eam ab oriente et ab aquilone:</l>
+<l rend="indent">et veniet in multitudine magna, ut conterat et</l>
+<l rend="indent(1)">interficiat plurimos.</l> 
+<l>Et figet tabernaculum suum Apedno inter maria,</l>
+<l rend="indent">super montem inclytum et sanctum:</l>
+<l>Et veniet usque ad summitatem ejus,</l>
+<l rend="indent">et nemo auxiliabitur ei.</l> 
+</div3>
+<div3>
+          <head>[Cap. XII.]</head>
+<l> In tempore autem illo consurget Michael</l>
+<l rend="indent(1)">princeps magnus,</l>
+<l rend="indent">qui stat pro filiis populi tui:</l>
+<l>Et veniet tempus:</l>
+<l rend="indent">quale non fuit ab eo, ex quo gentes esse coeperunt,</l>
+<l rend="indent">
+<pb n="1318D"/>usque ad tempus illud.</l> 
+<l>Et in tempore salvabitur populus tuus,</l>
+<l rend="indent">omnis qui inventus fuerit scriptus in libro.</l> 
+<l>Et multi de his qui dormiunt in terrae pulvere evigilabunt:</l>
+<l rend="indent">alii in vitam aeternam,</l>
+<l rend="indent">et alii in opprobrium, ut videant semper.</l> 
+<l>
+<pb n="1319A"/> Qui autem docti fuerint,</l>
+<l rend="indent">fulgebunt quasi splendor firmamenti:</l>
+<l>Et qui ad justitiam erudiunt multos,</l>
+<l rend="indent">quasi stellae in perpetuas aeternitates.</l> 
+<l>Tu autem, Daniel, claude sermones,</l>
+<l rend="indent">et signa librum: usque ad tempus statutum:</l>
+<l>Pertransibunt plurimi,</l>
+<l rend="indent">et multiplex erit scientia.</l> 
+<l rend="indent">et vidi ego Daniel,</l>
+<l rend="indent">et ecce quasi alii duo stabant:</l>
+<l>Unus hinc super ripam fluminis,</l>
+<l rend="indent">et alius inde ex altera ripa fluminis.</l> 
+<l>Et dixi viro, qui indutus erat lineis,</l>
+<l rend="indent">qui stabat super aquas fluminis:</l>
+<l rend="indent">Usquequo finis horum mirabilium?</l> 
+<l>Et audivi virum, qui indutus erat lineis,</l>
+<l rend="indent">qui stabat super aquas fluminis,</l>
+<l>Cum elevasset dexteram et sinistram suam in coelum,</l>
+<l rend="indent">et jurasset per viventem in aeternum,</l>
+<l rend="indent">
+<pb n="1319B"/>quia in tempus, et tempora, et dimidium temporis.</l> 
+<l>Et cum completa fuerit dispersio manus populi sancti,</l>
+<l rend="indent">complebuntur universa haec.</l> 
+<l>Et ego audivi, et non intellexi.</l> 
+<l>Et dixi: Domine mi, quid erit post haec?</l> 
+<l>Et ait: Vade, Daniel,</l>
+<l rend="indent">quia clausi sunt, signatique sermones,</l>
+<l rend="indent">usque ad tempus praefinitum.</l> 
+<l>Eligentur, et dealbabuntur,</l>
+<l rend="indent">et quasi ignis probabuntur multi:</l>
+<l>Et impie agent impii,</l>
+<l rend="indent">neque intelligent omnes impii,</l>
+<l rend="indent">porro docti intelligent.</l> 
+<l>Et a tempore cum ablatum fuerit juge sacrificium,</l>
+<l rend="indent">et posita fuerit abominatio in desolationem,</l>
+<l rend="indent">dies mille ducenti nonaginta.</l> 
+<l>Beatus qui exspectat,</l>
+<l rend="indent">et pervenit usque ad dies mille trecentos triginta</l>
+<l rend="indent(1)">quinque.</l> 
+<l rend="indent">
+<pb n="1319C"/>Tu autem vade ad praefinitum:</l>
+<l rend="indent">et requiesces, et stabis in sorte tua in finem dierum.</l>
+<p>
+            <emph> <hi>Hucusque Danielem in Hebraeo volumine legimus.
+Caetera quae sequuntur usque ad finem libri, de Theodotionis
+editione translata sunt.</hi> </emph>
+          </p>
+<p>÷ [ <hi>Visio</hi> XI.] Et erat vir habitans in Babylone, et
+nomen ejus Joacim: Et accepit uxorem nomine
+Susannam, filiam Helciae, pulchram nimis, et timentem
+Deum: parentes enim illius, cum essent justi,
+erudierunt filiam suam secundum legem Moysi. Erat
+autem Joacim dives valde, et erat ei pomarium
+vicinum domui suae: et ad ipsum confluebant Judaei,
+eo quod esset honorabilior omnium. Et constituti
+sunt duo senes judices in anno illo: de quibus
+locutus est Dominus: Quia egressa est iniquitas de
+Babylone a senioribus judicibus, qui videbantur regere
+populum. Isti frequentabant domum Joacim,
+<pb n="1319D"/>
+et veniebant ad eos omnes qui habebant judicia.
+<pb n="1320A"/>
+Cum autem populus revertisset per meridiem, ingrediebatur
+Susanna, et deambulabat in pomario viri
+sui. Et videbant eam senes quotidie ingredientem, et
+deambulantem: et exarserunt in concupiscentiam
+ejus: et everterunt sensum suum, et declinaverunt
+oculos suos, ut non viderent coelum, neque recordarentur
+judiciorum justorum. Erant enim ambo
+vulnerati amore ejus, nec indicaverunt sibi vicissim
+dolorem suum: erubescebant enim indicare sibi
+concupiscentiam suam, volentes concumbere cum
+ea: et observabant quotidie sollicitius videre eam.
+Dixitque alter ad alterum: Eamus domum, quia
+prandii hora est. Egressi recesserunt a se. Cumque
+revertissent, venerunt in unum: et sciscitantes ab
+invicem causam, confessi sunt concupiscentiam
+suam: et tunc in communi statuerunt tempus, quando
+eam possent invenire solam. Factum est autem, cum
+observarent diem aptum, ingressa est aliquando sicut
+heri et nudiustertius, cum duabus solis puellis,
+voluitque lavari in pomario: aestus quippe erat: et
+<pb n="1320B"/>
+non erat ibi quisquam, praeter duos senes absconditos,
+et contemplantes eam. Dixit ergo puellis: Afferte
+mihi oleum, et smigmata, et ostia pomarii claudite,
+ut laver. Et fecerunt sicut praeceperat, clauserunt
+ostia pomarii, et egressae sunt per posticum, ut
+afferrent quae jusserat: nesciebantque senes intus
+esse absconditos. Cum autem egressae essent puellae,
+surrexerunt duo senes, et accurrerunt ad eam, et
+dixerunt: Ecce ostia pomarii clausa sunt, et nemo
+nos videt, et nos in concupiscentia tui sumus: quam
+ob rem assentire nobis, et commiscere nobiscum.
+Quod si nolueris, dicemus testimonium contra te,
+quod fuerit tecum juvenis, et ob hanc causam emiseris
+puellas a te. Ingemuit Susanna, et ait: Angustiae
+mihi undique, si enim hoc egero, mors mihi
+est: si autem non egero, non effugiam manus vestras.
+Sed melius mihi est absque opere incidere in
+manus vestras, quam peccare in conspectu Domini.
+Et exclamavit voce magna Susanna: exclamaverunt
+autem et senes adversus eam. Et cucurrit unus, et
+<pb n="1320C"/>
+aperuit ostia pomarii. Cum ergo audissent clamorem
+famuli domus in pomario, irruerunt per posticum,
+ut viderent quidnam esset. Postquam autem senes
+locuti sunt, erubuerunt servi vehementer: quia
+numquam dictus fuerat sermo hujuscemodi de Susanna.
+Et facta est dies crastina. Cumque venisset
+populus ad virum ejus Joacim, venerunt et duo presbyteri
+pleni iniqua cogitatione adversus Susannam,
+ut interficerent eam. Et dixerunt coram populo:
+Mitte ad Susannam, filiam Helciae, uxorem Joacim.
+Et statim miserunt. Et venit cum parentibus, et filiis,
+et universis cognatis suis. Porro Susanna erat
+delicata nimis, et pulchra specie. At iniqui illi jusserunt,
+ut discooperiretur (erat enim cooperta), ut
+vel sic satiarentur decore ejus. Flebant igitur sui,
+et omnes qui noverant eam. Consurgentes autem
+duo presbyteri in medio populi, posuerunt manus
+suas super caput ejus. Quae flens suspexit ad coelum:
+erat enim cor ejus fiduciam habens in Domino.
+<pb n="1320D"/>
+Et dixerunt presbyteri: Cum deambularemus in
+<pb n="1321A"/>
+pomario soli, ingressa est haec cum duabus puellis:
+et clausit ostia pomarii, et dimisit a se puellas. Venitque
+ad eam adolescens qui erat absconditus, et
+concubuit cum ea. Porro nos cum essemus in angulo
+pomarii, videntes iniquitatem, cucurrimus ad
+eos, et vidimus eos pariter commisceri. Et illum
+quidem non quivimus comprehendere, quia fortior
+nobis erat, et apertis ostiis exsilivit: hanc autem
+cum apprehendissemus, interrogavimus, quisnam
+esset adolescens, et noluit indicare nobis: hujus rei
+testes sumus. Credidit eis multitudo, quasi judicibus
+et senibus populi, et condemnaverunt eam ad mortem.
+Exclamavit autem voce magna Susanna, et
+dixit: Deus aeterne, qui absconditorum es cognitor,
+qui nosti omnia antequam fiant, tu scis quoniam
+falsum contra me tulerunt testimonium: et ecce
+morior, cum nihil horum fecerim, quae isti malitiose
+composuerunt adversum me. Exaudivit autem Dominus
+vocem ejus. Cumque duceretur ad mortem,
+suscitavit Dominus spiritum sanctum pueri junioris,
+<pb n="1321B"/>
+cujus nomen Daniel, et exclamavit voce magna;
+Mundus ego sum a sanguine hujus. Et conversus
+omnis populus ad eum, dixit: Quis est iste sermo,
+quem tu locutus es? Qui cum staret in medio eorum,
+ait: Sic fatui, filii Israel, non judicantes, neque quod
+verum est cognoscentes, condemnastis filiam Israel?
+Revertimini ad judicium, quia falsum testimonium
+locuti sunt adversus eam. Reversus est ergo
+populus cum festinatione, et dixerunt ei senes:
+Veni, et sede in medio nostrum, et indica nobis:
+quia tibi Deus dedit honorem senectutis. Et dixit ad
+eos Daniel: Separate illos ab invicem procul, et dijudicabo
+eos. Cum ergo divisi essent alter ab altero,
+vocavit unum de eis, et dixit ad eum: Inveterate
+dierum malorum, nunc venerunt peccata tua, quae
+operabaris prius, judicans judicia injusta, innocentes
+opprimens, et dimittens noxios, dicente Domino:
+Innocentem et justum non interficies. Nunc ergo si
+vidisti eam, dic, sub qua arbore videris eos loquentes
+<pb n="1321C"/>
+sibi. Qui ait: Sub schino. Dixit autem Daniel:
+Recte mentitus es in caput tuum: Ecce enim angelus
+Dei accepta sententia ab eo, scindet te medium.
+Et, amoto eo, jussit venire alium, et dixit ei: Semen
+Chanaan, et non Juda, species decepit te, et
+concupiscentia subvertit cor tuum: sic faciebatis
+filiabus Israel, et illae timentes loquebantur vobis:
+sed filia Juda non sustinuit iniquitatem vestram.
+Nunc ergo dic mihi, sub qua arbore comprehenderis
+eos loquentes sibi. Qui ait: Sub prino. Dixit autem
+ei Daniel: Recte mentitus es et tu in caput tuum:
+manet enim angelus Dei, gladium habens, ut secet
+te medium, et interficiat vos. Exclamavit itaque
+omnis coetus voce magna, et benedixerunt Deum,
+qui salvat sperantes in se. Et consurrexerunt adversus
+eos presbyteros (convicerat enim eos Daniel
+ex ore suo falsum dixisse testimonium), feceruntque
+eis sicut male egerant adversus proximum, ut
+facerent secundum legem Moysi: et interfecerunt
+eos, et salvatus est sanguis innoxius in die illa. Helcias
+<pb n="1321D"/>
+autem et uxor ejus laudaverunt Deum pro filia
+sua Susanna, cum Joacim marito ejus, et cognatis
+omnibus, quia non esset inventa in ea res turpis.
+Daniel autem factus est magnus in conspectu populi,
+a die illa, et deinceps. Et rex Astyages appositus
+est ad patres suos, et suscepit Cyrus Perses
+regnum ejus.</p>
+<p>[ <hi>Visio</hi> XII.] Erat autem Daniel conviva regis, et
+honoratus super omnes amicos ejus. Erat quoque
+idolum nomine Bel apud Babylonios: et impendebantur
+in eo per dies singulos similae artabae duodecim,
+et oves quadraginta, vinique amphorae sex.
+Rex quoque colebat eum, et ibat per singulos dies
+<pb n="1322A"/>
+adorare eum: porro Daniel adorabat Deum suum.
+Dixitque ei rex: Quare non adoras Bel? Qui respondens
+ait ei: Quia non colo idola manufacta, sed
+viventem Deum, qui creavit coelum et terram, et
+habet potestatem omnis carnis, Et dixit ad eum rex:
+Non tibi videtur esse Bel vivens Deus? Annon vides
+quanta comedat et bibat quotidie? Et ait Daniel
+arridens: Ne erres, rex. Iste enim intrinsecus luteus
+est, et forinsecus aereus, neque comedit aliquando.
+Et iratus rex vocavit sacerdotes ejus, et
+ait eis: Nisi dixeritis mihi, quis est qui comedat
+impensas has, moriemini. Si autem ostenderitis
+quoniam Bel comedat haec, morietur Daniel, quia
+blasphemavit in Bel. Et dixit Daniel regi: Fiat juxta
+verbum tuum. Erant autem sacerdotes Bel septuaginta,
+exceptis uxoribus, et parvulis, et filiis. Et
+venit rex cum Daniele in templum Bel. Et dixerunt
+sacerdotes Bel: Ecce nos egredimur foras, et tu,
+rex, pone escas, et vinum misce, et claude ostium, et
+signa annulo tuo: et cum ingressus fueris mane,
+<pb n="1322B"/>
+nisi inveneris omnia comesta a Bel, moriamur, vel
+Daniel qui mentitus est adversum nos. Contemnebant
+autem, quia fecerant sub mensa absconditum
+introitum, et per illum ingrediebantur semper,
+et devorabant ea. Factum est igitur postquam
+egressi sunt illi; et rex posuit cibos ante Bel:
+praecepit Daniel pueris suis, et attulerunt cinerem,
+et cribravit per totum templum coram rege:
+et egressi clauserunt ostium: et signantes annulo
+regis abierunt. Sacerdotes autem ingressi
+sunt nocte juxta consuetudinem suam, et uxores,
+et filii eorum: et comederunt omnia, et biberunt.
+Surrexit autem rex primo diluculo, et Daniel
+cum eo. Et ait rex: Salvane sunt signacula, Daniel?
+Qui respondit: Salva, rex. Statimque cum aperuisset
+ostium, intuitus rex mensam, exclamavit voce magna:
+Magnus es, Bel, et non est apud te dolus quisquam.
+Et risit Daniel: et tenuit regem ne ingrederetur
+intro: et dixit: Ecce pavimentum, animadverte
+<pb n="1322C"/>
+cujus vestigia sint haec. Et dixit rex: Video
+vestigia virorum, et mulierum, et infantium. Et iratus
+est rex. Tunc apprehendit sacerdotes, et uxores,
+et filios eorum, et ostenderunt ei abscondita ostiola,
+per quae ingrediebantur, et consumebant quae erant
+super mensam. Occidit ergo illos rex, et tradidit Bel
+in potestatem Danielis, qui subvertit eum et templum
+ejus. Et erat draco magnus in loco illo, et colebant
+eum Babylonii. Et dixit rex Danieli: Ecce
+nunc non potes dicere quia non sit iste Deus vivens:
+adora ergo eum. Dixitque Daniel: Dominum Deum
+meum adoro, quia ipse est Deus vivens: tu autem,
+rex, da mihi potestatem, et interficiam draconem
+absque gladio et fuste. Et ait rex: Do tibi. Tulit
+ergo Daniel picem, et adipem, et pilos, et coxit pariter:
+fecitque massas, et dedit in os draconis, et
+diruptus est draco. Et dixit: Ecce quem colebatis.
+Quod cum audissent Babylonii, indignati sunt vehementer,
+et congregati adversum regem, dixerunt:
+Judaeus factus est rex, Bel destruxit, draconem interfecit,
+<pb n="1322D"/>
+et sacerdotes occidit. Et dixerunt cum venissent
+ad regem: Trade nobis Danielem, alioquin
+interficiemus te et domum tuam. Vidit ergo rex quod
+irruerent in eum vehementer: et necessitate compulsus
+tradidit eis Danielem. Qui miserunt eum in
+lacum leonum, et erat ibi diebus sex. Porro in lacu
+erant septem leones, et dabantur eis quotidie duo
+corpora et duae oves: et tunc non data sunt eis, ut
+devorarent Danielem. Erat autem Abacuc propheta
+in Judaea, et ipse coxerat pulmentum, et intriverat
+panes in alveolo, et ibat in campum ut ferret messoribus.
+Dixitque Angelus Domini ad Abacuc: Fer
+prandium quod habes, in Babylonem Danieli, qui est
+<pb n="1323A"/>
+in lacu leonum. Et dixit Abacuc: Domine, Babylonem
+non vidi, et lacum nescio. Et apprehendit eum
+angelus Domini in vertice ejus, et portavit eum capillo
+capitis sui, posuitque eum in Babylone supra
+lacum in impetu spiritus sui. Et clamavit Abacuc,
+dicens: Daniel, tolle prandium quod misit tibi Deus.
+Et ait Daniel: Recordatus es enim mei, Deus, et non
+dereliquisti diligentes te. Surgensque Daniel, comedit.
+<pb n="1324A"/>
+Porro Angelus Domini restituit Abacuc confestim
+in loco suo. Venit ergo rex die septimo ut lugeret
+Danielem: et venit ad lacum, et introspexit,
+et ecce Daniel sedens. Et exclamavit voce magna
+rex, dicens; Magnus es, Domine, Deus Danielis. Et
+extraxit eum. Porro illos qui perditionis ejus causa
+fuerant intromisit, et devorati sunt in momento coram
+eo.</p>
+<p>
+            <emph> <hi>Explicit liber Danielis Prophetae.</hi> </emph>
+</p>
+</div3>
+      </div1>
+</body>
+  </text>
+</TEI>

@@ -1,0 +1,403 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Hymni</title>
+              <author ref="http://viaf.org/viaf/100227669">Ambrosius Mediolanensis<date>340-397</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 16</title>
+           <idno>AmbMed.Hymni2</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head> <emph>1219</emph> HYMNUS I.</head>
+<l rend="indent">Aeterne rerum conditor,</l>
+<l>Noctem diemque qui regis,</l>
+<l>Et temporum das tempora,</l>
+<l>Ut alleves fastidium,</l>
+<l rend="indent">Praeco diei jam sonat,</l>
+<l>Noctis profundae pervigil,</l>
+<l>Nocturna lux viantibus,</l>
+<l>A nocte noctem segregans.</l> 
+<l rend="indent">Hoc excitatus Lucifer,</l>
+<l>Solvit polum caligine,</l>
+<l>Hoc omnis errorum chorus,</l>
+<l>Viam nocendi deserit.</l> 
+<l rend="indent">Hoc nauta vires colligit,</l>
+<l>Pontique mitescunt freta,</l>
+<l>Hoc ipsa petra Ecclesiae</l>
+<l>Canente, culpam diluit.</l> 
+<l rend="indent">Surgamus ergo strenue,</l>
+<l>Gallus jacentes excitat,</l>
+<l>Et somnolentos increpat,</l>
+<l>Gallus negantes arguit.</l> 
+<l rend="indent">Gallo canente, spes redit,</l>
+<l>Aegris salus refunditur,</l>
+<l>Mucro latronis conditur,</l>
+<l>Lapsis fides revertitur.</l> 
+<l rend="indent">Jesu, labantes respice,</l>
+<l>Et nos videndo corrige;</l>
+<l>Si respicis, lapsus cadunt,</l>
+<l>Fletuque culpa solvitur.</l> 
+<l rend="indent">Tu lux refulge sensibus,</l>
+<l>Mentisque somnum discute:</l>
+<l>Te nostra vox primum sonet,</l>
+<l>Et vota solvamus tibi.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS II.</head>
+<l rend="indent">Deus creator omnium,</l>
+<l>Polique rector, vestiens</l>
+<l>Diem decoro lumine,</l>
+<l>Noctem soporis gratia.</l> 
+<l rend="indent">Artus solutos ut quies</l>
+<l>Reddat laboris usui,</l>
+<l>Mentesque fessas allevet,</l>
+<l>Luctusque solvat anxios.</l> 
+<l rend="indent">Grates peracto jam die,</l>
+<l>Et noctis exortu preces,</l>
+<l>Votis, reos ut adjuves,</l>
+<l>Hymnum canentes solvimus.</l> 
+<l rend="indent">Te cordis ima concinant,</l>
+<l>Te vox canora concrepet,</l>
+<l> <emph>1220</emph> Te diligat castus amor,</l>
+<l>Te mens adoret sobria.</l> 
+<l rend="indent">Ut cum profunda clauserit</l>
+<l>Diem caligo noctium,</l>
+<l>Fides tenebras nesciat,</l>
+<l>Et nox fide reluceat.</l> 
+<l rend="indent">Dormire mentem ne sinas,</l>
+<l>Dormire culpa noverit,</l>
+<l>Custos fides refrigerans,</l>
+<l>Somni vaporem temperet.</l> 
+<l rend="indent">Exuta sensu lubrico,</l>
+<l>Te cordis alta somnient;</l>
+<l>Nec hostis invidi dolo</l>
+<l>Pavor quietos suscitet.</l> 
+<l rend="indent">Christum rogemus et Patrem,</l>
+<l>Christi Patrisque Spiritum,</l>
+<l>Unum potens per omnia</l>
+<l>Fove precantes Trinitas.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS III.</head>
+<l rend="indent">Jam surgit hora tertia,</l>
+<l>Qua Christus ascendit crucem,</l>
+<l>Nil insolens mens cogitet,</l>
+<l>Intendat affectum precis.</l> 
+<l rend="indent">Qui corde Christum suscipit,</l>
+<l>Innoxium sensum gerit:</l>
+<l>Votisque praestat sedulis,</l>
+<l>Sanctum mereri Spiritum.</l> 
+<l rend="indent">Haec hora qua finem dedit</l>
+<l>Diri veterno criminis,</l>
+<l>Mortisque regnum diluit,</l>
+<l>Culpamque ab aevo sustulit.</l> 
+<l rend="indent">Hinc jam beata tempora</l>
+<l>Coepere Christi gratia:</l>
+<l>Fide replevit veritas</l>
+<l>Totum per orbem Ecclesias.</l> 
+<l rend="indent">Celso triumphi vertice,</l>
+<l>Matri loquebatur suae:</l>
+<l>En filius, mater, tuus;</l>
+<l>Apostole, en mater tua.</l> 
+<l rend="indent">Praetenta nuptae foedera</l>
+<l>Alto docens mysterio;</l>
+<l>Ne virginis partus sacer</l>
+<l>Matris pudorem laederet.</l> 
+<l rend="indent">Cui fidem coelestibus</l>
+<l>Jesus dedit miraculis:</l>
+<l>Nec credidit plebs impia;</l>
+<l>Qui credidit, salvus erit.</l> 
+<l rend="indent">Nos credimus natum Deum,</l>
+<l>Partumque Virginis sacrae,</l> <emph>1221</emph> 
+<l>Peccata qui mundi tulit,</l>
+<l>Ad dexteram sedens Patris.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS IV.</head>
+<l rend="indent"> Veni, redemptor gentium,</l>
+<l>Ostende partum Virginis,</l>
+<l>Miretur omne saeculum:</l>
+<l>Talis decet partus Deum.</l> 
+<l rend="indent">Non ex virili semine,</l>
+<l>Sed mystico spiramine,</l>
+<l>Verbum Dei factum caro,</l>
+<l>Fructusque ventris floruit.</l> 
+<l rend="indent">Alvus tumescit Virginis,</l>
+<l>Claustrum pudoris permanet,</l>
+<l>Vexilla virtutum micant,</l>
+<l>Versatur in templo Deus.</l> 
+<l rend="indent">
+<pb n="1411"/> Procedens de thalamo suo,</l>
+<l>Pudoris aula regia,</l>
+<l>Geminae Gigas substantiae,</l>
+<l>Alacris ut currat viam.</l> 
+<l rend="indent">Egressus ejus a Patre,</l>
+<l>Regressus ejus ad Patrem;</l>
+<l>Excursus usque ad inferos,</l>
+<l>Recursus ad sedem Dei.</l> 
+<l rend="indent">Aequalis aeterno Patri</l>
+<l>Carnis tropaeo accingere</l>
+<l>Infirma nostri corporis</l>
+<l>Virtute firmans perpeti.</l> 
+<l rend="indent">Praesepe jam fulget tuum,</l>
+<l>Lumenque nox spirat novum,</l>
+<l>Quod nulla nox interpolet,</l>
+<l>Fideque jugi luceat.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS V.</head>
+<l rend="indent">Illuminans Altissimus</l>
+<l>Micantium astrorum globos,</l>
+<l>Pax, vita, lumen, veritas,</l>
+<l>Jesu fave precantibus.</l> 
+<l rend="indent">Seu mystico baptismate</l>
+<l>Fluenta Jordanis retro</l>
+<l>Conversa quondam tertio</l>
+<l>Praesente sacraris die.</l> 
+<l rend="indent">Seu stella partum Virginis</l>
+<l>Coelo micans signaveris;</l>
+<l>Et hac adoratum die</l>
+<l>Praesepe Magos duxeris.</l> 
+<l rend="indent">Vel hydriis plenis aquae</l>
+<l>Vini saporem infuderis:</l>
+<l>Hausit minister conscius,</l>
+<l>Quod ipse non impleverat.</l> 
+<l rend="indent">Aquas colorari videns,</l>
+<l>Inebriare flumina;</l>
+<l>Mutata elementa stupent</l>
+<l>Transire in usus alteros.</l> 
+<l rend="indent">Sic quinque millibus viris</l>
+<l>Dum quinque panes dividis,</l>
+<l>Edentium sub dentibus</l>
+<l>In ore crescebat cibus.</l> 
+<l rend="indent">Multiplicabatur magis</l>
+<l>Dispendio panis suo:</l> <emph>1222</emph> 
+<l>Quis haec videns mirabitur</l>
+<l>Juges meatus fontium?</l> 
+<l rend="indent">Inter manus frangentium</l>
+<l>Panis rigatur profluus:</l>
+<l>Intacta quae non fregerant,</l>
+<l>Fragmenta subrepunt viris.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS VI.</head>
+<l rend="indent">Orabo mente Dominum,</l>
+<l>Orabo simul spiritu;</l>
+<l>Ne vox sola Deo canat,</l>
+<l>Sensusque noster alibi</l>
+<l>Ductus, aberret fluctuans,</l>
+<l>Vanis praeventus casibus.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS VII.</head>
+<l rend="indent">Splendor Paternae gloriae,</l>
+<l>De luce lucem proferens,</l>
+<l>Primordiis lucis novae</l>
+<l>Diem dies illuminans.</l> 
+<l rend="indent">Verusque sol illabere,</l>
+<l>Micans nitore perpeti,</l>
+<l>Jubarque sancti Spiritus</l>
+<l>Infunde nostris sensibus.</l> 
+<l rend="indent">Votis vocemus et Patrem,</l>
+<l>Patrem perennis gloriae,</l>
+<l>Patrem potentis gratiae,</l>
+<l>Culpam releget lubricam.</l> 
+<l rend="indent">Informet actus strenuos,</l>
+<l>Dentes retundat invidi,</l>
+<l>Casus secundet asperos,</l>
+<l>Donet gerendi gratiam.</l> 
+<l rend="indent">Mentem gubernet et regat,</l>
+<l>Casto fideli corpore,</l>
+<l>Fides calore ferveat,</l>
+<l>Fraudis venena nesciat.</l> 
+<l rend="indent">Christusque nobis sit cibus,</l>
+<l>Potusque noster sit fides,</l>
+<l>Laeti bibamus sobriam</l>
+<l>Ebrietatem Spiritus.</l> 
+<l rend="indent">Laetus dies hic transeat,</l>
+<l>Pudor sit ut diluculum,</l>
+<l>Fides velut meridies,</l>
+<l>Crepusculum mens nesciat.</l> 
+<l rend="indent">Aurora cursus provehit,</l>
+<l>Aurora totus prodeat</l>
+<l>In Patre totus Filius</l>
+<l>Et totus in Verbo Pater.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS VIII.</head>
+<l rend="indent">Aeterna Christi munera,</l>
+<l>Et martyrum victorias,</l>
+<l>Laudes ferentes debitas,</l>
+<l>Laetis canamus mentibus.</l> 
+<l rend="indent">Ecclesiarum principes,</l>
+<l>Belli triumphales duces,</l>
+<l>Coelestis aulae milites,</l>
+<l>Et vera mundi lumina.</l> 
+<l rend="indent">Terrore victo saeculi,</l> <emph>1223</emph> 
+<l>Spretisque poenis corporis,</l>
+<l>Mortis sacrae compendio,</l>
+<l>Vitam beatam possident.</l> 
+<l rend="indent">Traduntur igni martyres,</l>
+<l>Et bestiarum dentibus,</l>
+<l>Armata saevit ungulis</l>
+<l>Tortoris insani manus,</l>
+<l rend="indent">Nudata pendent viscera,</l>
+<l>Sanguis sacratus funditur,</l>
+<l>Sed permanent immobiles</l>
+<l>Vitae perennis gratia.</l> 
+<l rend="indent">Devota sanctorum fides,</l>
+<l>Invicta spes credentium;</l>
+<l>Perfecta Christi charitas,</l>
+<l>Mundi triumphat principem.</l> 
+<l rend="indent">In his Paterna gloria,</l>
+<l>In his voluntas Filii,</l>
+<l>Exsultat in his Spiritus,</l>
+<l>Coelum repletur gaudiis.</l> 
+<l rend="indent">Te nunc, Redemptor, quaesumus,</l>
+<l>Ut ipsorum consortio</l>
+<l>Jungas precantes servulos,</l>
+<l>In sempiterna saecula. Amen.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS IX.</head>
+
+<pb n="1412"/>
+<l rend="indent">Somno refectis artubus,</l>
+<l>Spreto cubili surgimus,</l>
+<l>Nobis, Pater, canentibus</l>
+<l>Adesse te deposcimus.</l> 
+<l rend="indent">Te lingua primum concinat,</l>
+<l>Te mentis ardor ambiat;</l>
+<l>Ut actuum sequentium</l>
+<l>Tu, sancte, sis exordium.</l> 
+<l rend="indent">Cedant tenebrae lumini,</l>
+<l>Et nox diurno sideri;</l>
+<l>Ut culpa quam nox intulit,</l>
+<l>Lucis labascat munere.</l> 
+<l rend="indent">Precamur iidem supplices,</l>
+<l>Noxas ut omnes amputes;</l>
+<l>Ne ore te canentium</l>
+<l>Lauderis in perpetuum.</l> 
+<l rend="indent">Praesta, Pater piissime,</l>
+<l>Patrique compar unice,</l> <emph>1224</emph> 
+<l>Cum Spiritu paraclito</l>
+<l>Regnans per omne saeculum.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS X.</head>
+<l rend="indent">Consors paterni luminis,</l>
+<l rend="indent">Lux ipse lucis, et dies,</l>
+<l rend="indent">Noctem canendo rumpimus,</l>
+<l>Assiste postulantibus.</l> 
+<l rend="indent">Aufer tenebras mentium,</l>
+<l>Fuga catervas daemonum:</l>
+<l>Expelle somnolentiam,</l>
+<l>Ne pigritantes obruat.</l> 
+<l rend="indent">Sic, Christe, nobis omnibus</l>
+<l>Indulgeas credentibus;</l>
+<l>Ut prosit exorantibus,</l>
+<l>Quod praecinentes psallimus.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS XI.</head>
+<l rend="indent">O Lux beata Trinitas,</l>
+<l>Et principalis unitas,</l>
+<l>Jam sol recedit igneus,</l>
+<l>Infunde lumen cordibus.</l> 
+<l rend="indent">Te mane laudum carmine,</l>
+<l>Te deprecamur vespere,</l>
+<l>Te nostra supplex gloria,</l>
+<l>Per cuncta laudet saecula.</l> 
+</div1>
+
+<div1>
+        <head>HYMNUS XII.</head>
+<l rend="indent">Fit porta Christi pervia,</l>
+<l>Referta plena gratia,</l>
+<l>Transitque Rex, et permanet,</l>
+<l>Clausa, ut fuit, per saecula.</l> 
+<l rend="indent">Genus superni luminis,</l>
+<l>Processit aula virginis,</l>
+<l>Sponsus, redemptor, conditor,</l>
+<l>Suae gigas Ecclesiae.</l> 
+<l rend="indent">Honor matris et gaudium,</l>
+<l>Immensa spes credentium,</l>
+<l>Per atra mortis pocula,</l>
+<l>Resolvit nostra crimina.</l> 
+
+</div1>
+</body>
+  </text>
+</TEI>

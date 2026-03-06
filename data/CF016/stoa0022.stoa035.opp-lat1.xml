@@ -1,0 +1,2500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>De Ioseph [CSEL]</title> 
+              <author ref="http://viaf.org/viaf/100227669">Ambrosius Mediolanensis<date>340-397</date></author>
+              </titleStmt>
+               
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1897</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 32.2</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru13wiengoog#page/n5/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Carolus Schenkl</name>; <addName xml:lang="de">Karl Schenkl</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>Ambros.DeIoseCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL32_2.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0022.stoa035.opp-lat1"/>
+<div1 n="1" subtype="section"><head>§ 1</head>
+           
+          <p rend="script"> <milestone n="1" unit="altchapter"/>  Sanctorum uita ceteris norma <sic>ytiuendi</sic> est, ideoque <choice><note>digestaral</note><corr>digestam</corr></choice> <note type="margin"> 483 AB </note> <lb/>
+            plenius accipimus seriem scripturarum, ut dum Abraham, Isaac <lb/>
+            et <choice><note>lacob</note><corr>Iacob</corr></choice> ceterosque iustos legendo cognoscimus, uelut quendam <lb/>
+            nobis innocentiae tramitem eorum uirtute reseratum <lb/>
+            enitentibus uestigiis persequamur. de quibus mihi cum frequens <lb n="5"/>
+            tractatus fuerit, hodie sancti Ioseph historia occurrit. in quo <lb/>
+            cum plurima fuerint genera uirtutum, tum praecipue insigne <lb/>
+            effulsit castimoniae. iustum est igitur ut, cum in Abraham <note type="margin"> C </note> <lb/>
+            didiceritis inpigram fidei deuotionem, in Isaac sincerae mentis <lb/>
+            puritatem, in <choice><note>lacob</note><corr>Iacob</corr></choice> singularem animi laborumque patientiam, <lb n="10"/>
+            ex illa generalitate uirtutum in ipsas species disciplinarum <lb/>
+            intendatis animum. nam licet illa diffusiora, tamen ista expressiora <lb/>
+            sunt eoque facilius mentem penetrant quo magis circumscripta <lb/>
+            ac determinata sunt.
+
+<app> INC. DE IOSEPH LIBER •I• LEGE FILIX IN XPO IHU Mo <lb/>
+            NOSTRO <hi>B</hi> INCIPIT LIBER PRIMUS BEATI AMB DE IOSEPH P <lb/>
+            INCIPIT EIUSDE LIIi PRIM' DE IOSEPH F INCIPIT LIB PRIMUS <lb/>
+            SCI AMBROSII DE PATRIARCHIS Px INCIPIT LIBER PRIMUS DE <lb/>
+            IOSEPH <hi>0</hi> INCIPIT (h. VII <hi>add. u',</hi> TRACTATUS SCI AMBROSII <lb/>
+            EPISCOPI <hi>D,</hi> LIBER EIUSDEM <hi>T,</hi> LIBER <hi>E)</hi> DE SCt) IOSEPH <lb/>
+            PATRIARCHA (PATRIARCHA <hi>om. D)ND</hi> INCIPT BEATI AMBROSII <lb/>
+            EPI MEDIOLANENSIS DE IOSEPH <hi>V</hi> 2 accepimus <hi>N</hi> (accepimus <lb/>
+            u') <hi>V</hi> series 21' (s <hi>alt. eras)</hi> serie <hi>uxE</hi> 2 et 9 isac <hi>B</hi> 4 uirtute <lb/>
+            eorum <hi>N</hi> reseratum <hi>P</hi> (re s. <hi>u. m2)</hi> 5 imitantibus <hi>NV</hi> proy <lb/>
+            <lb/>
+            sequamur <hi>WilE</hi> com <hi>P</hi> 6 ioseph mihi <hi>T</hi> historia <hi>P</hi> (h <hi>postea <lb/>
+            add.)</hi> 7 fuerint <hi>B</hi> (n <hi>«. u.)</hi> tum <hi>om. N</hi> 8 iustum estum ęşţ <hi>B</hi> <lb/>
+            9 didiceritis <hi>B</hi> (di <hi>pr. ex</hi> de) <hi>P</hi> (di <hi>pr. ex</hi> du) fidei <hi>om. P ml (in <lb/>
+            mg. add. m2)</hi> 12 illa sint W (sint <hi>s. u. m. ant.) 91xE</hi> in <hi>(eras.)</hi> <lb/>
+            ista <hi>P</hi> 13 eoque <hi>NV</hi> et quae <hi>BP'0</hi> et quae eo P (eo s. ft. <hi>m2) D</hi> <lb/>
+            et Fx penetrent <hi>P</hi> (ent <hi>ex</hi> ant <hi>m2) P'D</hi> 14 sint <hi>BPx0</hi> </app> 
+<pb n="74"/>
+            
+</p>
+          </div1>
+
+<div1 n="2" subtype="section"><head>§ 2</head>
+<p> Sit igitur nobis propositus sanctus Ioseph tamquam speculum <note type="margin"> D </note> <lb/>
+            castitatis. in eius enim moribus, in eius actibus lucet pudicitia <lb/>
+            et quidam splendet castimoniae comes nitor gratiae. <lb/>
+            unde etiam a parentibus plus quam ceteri filii diligebatur. <lb/>
+            sed ea res inuidiae fuit, quod silentio praetereundum non <lb n="5"/>
+            fuit.</p></div1>
+
+<div1 n="3" subtype="section"><head>§ 3</head>
+<p>hinc ergo argumentum totius historiae processit, simul <note type="margin"> 484 A </note> <lb/>
+            ut cognoscamus perfectum uirum non moueri ulciscendi <lb/>
+            doloris iniuria nec malorum rependere uicem. unde et Dauid <lb/>
+            ait: si reddidi retribuentibus mihi mala. quid autem <lb/>
+            esset quo praeferri Ioseph mereretur ceteris, si aut laedentes<lb n="10"/>
+            laesisset aut diligentes dilexisset? hoc enim plerique faciunt. <lb/>
+            sed illud mirabile, si diligas inimicum tuum, quod saluator <lb/>
+            docet. iure ergo mirandus qui hoc fecit ante euangelium, ut <lb/>
+            laesus parceret, adpetitus ignosceret, uenditus non referret <note type="margin"> B </note> <lb/>
+            iniuriam, sed gratiam pro contumelia solueret, quod post <lb n="15"/>
+            euangelium omnes didicimus et seruare non possumus.</p></div1>
+
+<div1 n="4" subtype="section"><head>§ 4</head>
+<p>discamus <lb/>
+            ergo et sanctorum inuidiam, ut imitemur patientiam, et cognoscamus <lb/>
+            illos non naturae praestantioris fuisse, sed <lb/>
+            obseruationis nec uitia nescisse, sed emendasse. quodsi inuidia <lb/>
+            etiam sanctos adussit, quanto magis cauendum est ne inflammet<lb n="20"/>
+            peccatores? 
+</p>
+          </div1>
+
+<div1 n="5" subtype="section"><head>§ 5</head>
+<p rend="script"> <milestone n="2" unit="altchapter"/>  Instruimur igitur qualis esse debeat affectus parentum <note type="margin"> C </note> <lb/>
+            filiorumque gratia. amare liberos dulce et inpensius amare <note type="margin"> D </note> <lb/>
+            praedulce, sed frequenter amor ipse patrius, nisi moderationem <lb/>
+            teneat, nocet liberis, si aut nimia indulgentia dilectum resoluat
+
+<app> 9 Psalm. VII 5 12 Matth. 5, 44 </app>
+
+<app> 1 iosep <hi>B (saepe)</hi> 2 pudicitiae <hi>PD</hi> 4 filii P (i <hi>tert. 8. u.)</hi> 5 set P <lb/>
+            y <lb/>
+            <hi>(m2</hi> sed) praetereundem <hi>P</hi> 6 ergo <hi>in ras. P</hi> enim <hi>NV</hi> praecessit <lb/>
+            IIO 7 ulciscendae dolore <hi>inuidiae N</hi> ulciscendi dolore iniuriae <hi>V, <lb/>
+            fort</hi>. ulciscendae dolore iniuriae 9 dicit <hi>T</hi> reddiderim <hi>V</hi> 11 dilixisset <lb/>
+            <hi>B</hi> 13 ergj <hi>om. P'</hi> facit <hi>BP</hi> fecit <hi>0</hi> (e <hi>m2 ex</hi> a) 15 contumilia <lb/>
+            <hi>B (corr. ml)</hi> 16 sed seruare <hi>V</hi> discamus P (s <hi>pr. 8. u.)</hi> <lb/>
+            17 imitemur <hi>B</hi> (ur 8. <hi>u. m2)</hi> 18 praestantiores <hi>B (corr. m3) P (corr. <lb/>
+             ml)</hi> set P (sed <hi>m2)</hi> 19 scisse <hi>BPPxD</hi> nescisse <hi>0</hi> (ne <hi>m2 8</hi>. tt.) <lb/>
+            22 instruimur <hi>P</hi> (instru <hi>ex</hi> initu) 25 autem <hi>P</hi> (em <hi>eras.)</hi> dilectum <lb/>
+            <hi>VP''U''O</hi> delictum <hi>cet</hi>. </app> <lb n="25"/>
+             
+<pb n="75"/>
+            aut praelatione unius ceteros ab adfectu germanitatis auertat. <lb/>
+            plus <choice><note>adquintur</note><corr>adquiritur</corr></choice> <choice n="0.00"><note n="1">tilio</note><corr n="917">filio</corr></choice>, cui <choice><note>Iratrum</note><corr>fratrum</corr></choice> <choice><note>adquintur</note><corr>adquiritur</corr></choice> amor. haec <note type="margin"> 483 A </note> praeclarior <lb/>
+            munificentia patrum. haec ditior hereditas filiorum. <lb/>
+            iungat liberos aequalis gratia, quos iuncxit aequalis natura. <lb/>
+            lucrum pietas nescit pecuniae, in quo pietatis dispendium <lb n="5"/>
+            est. quid miraris si propter fundum aut domum oriuntur <lb/>
+            inter fratres iurgia, quando propter tunicam inter Iacob sancti  <lb/>
+            filios exarsit inuidia ? 
+</p></div1>
+
+<div1 n="6" subtype="section"><head>§ 6</head>
+<p> quid ergo ? reprehendendus Iacob, quia <lb/>
+            praeferebat unum ceteris ? sed nec libertatem possumus auferre <lb/>
+            parentibus, ne eos plus diligant quos plus credant mereri. <note type="margin"> B </note> <lb n="10"/>
+            nec filiis resecare debemus studium plus placendi. denique et <lb/>
+            Iacob illum plus amabat, in quo maiora uirtutum insignia <lb/>
+            praeuidebat, ut non tam filium pater praetulisse uideatur <lb/>
+            quam propheta mysterium, meritoque uariam tunicam fecit <lb/>
+            ei, quo significaret eum diuersarum uirtutum amictu fratribus <lb n="15"/>
+            praeferendum. 
+</p>
+          </div1>
+
+<div1 n="7" subtype="section"><head>§ 7</head>
+<p rend="script"> Denique in puero adhuc refulsit diuina gratia, siquidem <lb/>
+            somniauit quod, cum alligasset, ut sibi uidebatur per uisum, <note type="margin"> C </note> <lb/>
+            manipulos cum fratribus suis, surrexerit manipulus eius et <lb/>
+            steterit erectus, conuersi autem fratrum manipuli adorauerint <lb n="20"/>
+            manipulum suum. in quo utique futura domini Iesu resurrectio <lb/>
+            reuelata est. quem et Hierosolymis cum uidissent, undecim <lb/>
+            adorauere discipuli et omnes sancti, cum resurrexerint, adorabunt <lb/>
+            fructus <choice n="0.84"><note n="587">bonorum</note><corr n="104">honorum</corr></choice> operum praeferentes, sicut scriptum est: <lb/>
+            uenientes autem ueni <sic>ent</sic> cum exultatione tollentes <lb n="25"/>
+            manipulos suos. unde fratres, licet somnii fidem per inui- <note type="chapter">D </note> <lb/>
+            diam derogarent, interpretationem tamen eius propriis
+
+<app> 17 Gen. 87, 6 sqq. 22 Matth. 28, 16 sq. 25 Psalm. CXXV 6 </app>
+
+<app> 1 aduertat <hi>P</hi> (d <hi>eras.)</hi> 2 amor acquiritur <hi>WE</hi> 3 hereditaa <hi>B</hi> (re <lb/>
+            8. u. <hi>m2)</hi> 4 iuncxit <hi>B</hi> iunxit <hi>cet</hi>. 6 auriuntur <hi>B (corr</hi>. m2) hauriuntur <lb/>
+            <hi>P (corr. m2)</hi> 10 credunt ST (u <hi>m2 ex</hi> a) <hi>WE</hi> 14 profaeta <hi>B</hi> <lb/>
+            16 praeferendum ... gratia <hi>in mg. inf. P</hi> 18 alligasset <hi>B</hi> (i <hi>ex</hi> e <hi>m3)</hi> <lb/>
+            19 surrexit <hi>et</hi> 20 stetit <hi>PV</hi> 20 adorauerint <hi>N'</hi> adorauerunt <hi>cet</hi>. 21 dni <lb/>
+            ihu futura resurrectio <hi>N</hi> 22 hierosolymis <hi>V</hi> hierusolimis <hi>B</hi> hierosolimis <lb/>
+            <hi>P</hi> (v 8. o <hi>pr. m2) cet</hi>. uidissent <hi>B</hi> (n 8. <hi>u)</hi> 24 fructum <hi>(om</hi>. <lb/>
+            operum) Px proferentes 9T (ro <hi>m2 in ras.) %xE</hi> 25 portantes <hi>NO</hi> </app> <lb/>
+             
+<pb n="76"/>
+            sermonibus exprimentes responderunt ei: numquid regnando  <lb/>
+            regnaturus es nobis aut dominando dominaturus  <lb/>
+            es nobis? regem enim uenturum uisio illa significabat, quem  <lb/>
+            omnis caro generis humani inflexo adoraret genu. 
+</p></div1>
+
+<div1 n="8" subtype="section"><head>§ 8</head>
+<p> uidit autem <lb/>
+            aliud somnium et narrauit illud patri suo et fratribus, eo<lb n="5"/>
+            quod sol et luna et undecim stellae adorarent eum. unde <lb/>
+            obiurgauit illum pater eius dicens: quid ergo erit <note type="margin"> EI </note> <lb/>
+            hoc uisum, quod somniasti? numquid uenientes <lb/>
+            ego et mater tua et fratres tui adorabimus te super  <lb/>
+            terram? quis est ille quem parentes et fratres adorauerunt <lb n="10"/>
+            super terram nisi Christus Iesus, quando eum Ioseph et mater. <lb/>
+            cum discipulis adorabant, deum uerum in illo corpore confitentes, <lb/>
+            de quo solo dictum est: laudate eum, sol et luna; <lb/>
+            laudate eum, omnes stellae et lumen? obiurgatio <lb/>
+            autem <choice><note>patus</note><corr>patris</corr></choice> quid significat nisi duritiam populi <choice><note>Istrabel</note><corr>Istrahel</corr></choice>, ex<note type="margin"> F </note> <lb n="15"/>
+            quibus <choice><note>Chnstus</note><corr>Christus</corr></choice> secundum carnem, quem hodieque deum esse <lb/>
+            non credunt nec uolunt adorare quasi dominum, quia ex se, <lb/>
+            natum esse cognoscunt? audiunt itaque responsa eius, et non <lb/>
+            intellegunt: legunt ipsi quod eum sol et luna laudant, sed <lb/>
+            nolunt credere dictum esse de Christo. itaque Iacob typo<lb n="20"/>
+            fallitur alieno, sed suo amore non fallitur. pietas in eo paterna <lb/>
+            non deerrat, sed erraturae plebis adfectus exprimitur. 
+</p>
+          </div1>
+
+<div1 n="9" subtype="section"><head>§ 9</head>
+<p rend="script"> <milestone n="3" unit="altchapter"/>  Non ergo tanto somnio patriarcha non credidit, qui utrumque <note type="margin"> 4n3 AB </note> <lb/>
+            pariter gemino prophetabat oraculo, ut et personam iusti <lb/>
+            repraesentaret et populi, <choice><note>quiod</note><corr>quod</corr></choice> dei filius uenturus esset in
+
+<app> 1 Gen. 37. 8 4 Philipp. 2. 10 5 Gen. 37, 9 7 Gen. 37, 10 <lb/>
+            11 Matth. 14, 33 13 Psalm. CXXXXVIII 3 </app>
+
+<app> 3 signabat <hi>N'V</hi> 4 omnis <hi>B</hi> (i <hi>ex</hi> e) infleio <hi>P</hi> (0 <hi>ex</hi> u) 5 alium <lb/>
+            <hi>B</hi> aliut <hi>P</hi> (aliud <hi>corr. ml)</hi> fratribus suis <hi>NVD</hi> 10 quis ex quid <hi>P</hi> <lb/>
+            adorauerint <hi>Bux</hi> et ml 91' (adorauerunt <hi>m2)</hi> 11 xpm ihm <hi>B</hi> xps et <lb/>
+            (et <hi>eras.)</hi> ihsaihs xps <hi>0</hi> ioseph et maria <hi>U'TV</hi> maria et ioseph <hi>WilE</hi> <lb/>
+            12 adorauerant <hi>N'</hi> uerum esse 91' (csse s. <hi>u. m2) WE</hi> confidentes <lb/>
+            91' <hi>(corr. m2) UxE</hi> 14 stellae <hi>B</hi> (o <hi>pr. ex</hi> i) 15 israhel <hi>BPx</hi> <lb/>
+            isrt <hi>cet</hi>. 17 dffi P 18 et <hi>IIDO</hi> sed <hi>NV</hi> 19 laudent <hi>NV</hi> 21 amare <hi>B <lb/>
+            (cotT. m3)</hi> 22 deerrat <hi>scripsi</hi> deerat IIO errat <hi>NVD</hi> 24 profetabat <lb/>
+            <hi>B</hi> </app> <lb n="25"/>
+             
+<pb n="77"/>
+            terras, qui et diligeretur a iustis et negaretur a perfidis. <lb/>
+            uidebat igitur futurae incarnationis mysteria, qui filium mittebat <lb/>
+            ad fratres, ut uideret si recte sunt oues. quas oues deus in <lb/>
+            illo iam tunc patriarchae studio requirebat nisi eas, de quibus <lb/>
+            ipse dominus Iesus in euangelio dixit: non ueni nisi ad <note type="margin"> C </note> <lb n="5"/>
+            oues perditas domus Istrahel? et misit inquit in <lb/>
+            Sychem, quod interpretatione dicitur umerus siue dorsum, <lb/>
+            hoc est ad eos qui non conuerterentur ad dominum, sed fugientes <lb/>
+            a facie eius se auerterent, quod est proprie peccatoris; <lb/>
+            exiit enim Cain a facie dei, et propheta dicit: pones <lb n="10"/>
+            eos dorsum. iustus autem non se auertit a domino, sed <lb/>
+            occurrit dicens: oculi mei semper ad dominum. et <lb/>
+            Esaias dicenti domino: quem mittam? sponte se obtulit <lb/>
+            dicens: ecce ego. et Symeon expectauit, ut uideret Christum <note type="margin"> D </note> <lb/>
+            dominum, et, posteaquam uidit, quoniam remissorem peccatorum <lb n="15"/>
+            et totius mundi uiderat redemptorem, quasi leuatus a peccato <lb/>
+            poposcit usu carnis huius absolui dicens: nunc dimitte, <lb/>
+            domine, seruum tuum, quoniam uiderunt oculi <lb/>
+            mei salutare tuum. et Zacchaeus hinc primum suae praerogatiuam <lb/>
+            commendationis inuenit, quod in arborem, ut Christum <lb n="20"/>
+            uideret. ascendit. ergo Ioseph a patre est missus ad
+
+<app> 3 Gen. 37, 14 5 Matth. 15, 24 6 Gen. 37, 14 7 Philo quod <lb/>
+            det. pot. inaid. 4 (I 193, 17 <hi>M.)</hi> 10 Gen. 4, 16 Psalm. XX 13 <lb/>
+            12 Psalm. XXIHI 15 13 Esai. 6, 8 sq. 14 Luc. 2, 25 et 29 sq. <lb/>
+            19 Luc. 19, 4 </app>
+
+<app> 1 non negaretur <hi>B</hi> (non <hi>exp. m3) P</hi> (non <hi>exp.) Px</hi> (non <hi>eras.)</hi> necaretur <lb/>
+            <hi>N</hi> perfidis iudeis P 3 rectae <hi>BP</hi> deus <hi>om. XD</hi> 4 iam <lb/>
+            tunc <hi>ante</hi> in illo <hi>transponunt WET</hi> patriarcae <hi>B</hi> 5 Iesus <hi>om. WE</hi> <lb/>
+            6 istrahel <hi>B</hi> israhel <hi>V</hi> israel <hi>P</hi> isri <hi>cet</hi>. 7 umeris P fv 8. i <hi>m2)</hi> <lb/>
+            9 se P s. <hi>u. m2, unte</hi> a facie <hi>transponunt WE</hi> proprium <hi>P</hi> (um <lb/>
+            <hi>m2 ex</hi> e) <hi>DO</hi> 10 dni W (n <hi>exp.) Px0</hi> profeta <hi>B</hi> 12 ad (d a. <lb/>
+            <hi>u. m2) P</hi> 13 eseias <hi>B (corr. m3)</hi> dicente <hi>VWE</hi> mittam <hi>P</hi> (am <lb/>
+            <hi>ex</hi> as) 14 simeon <hi>BPPx Ux</hi> expectabit <hi>B (corr. m31</hi> 15 domini <lb/>
+            <hi>ed. Rom</hi>. (TOV <foreign xml:lang="grc">Χριστόν</foreign> xoptoo), <hi>recte puto; cf. de bono mortis 2, 5</hi> 17 absoluit <lb/>
+            P (t <hi>eraa.)</hi> dimittis <hi>N et (in quo om</hi>. domine) <hi>V</hi> 18 tuum <lb/>
+            in pace <hi>WED</hi> quia <hi>D</hi> 19 zacceus <hi>B</hi> zacheus cet. 20 in <hi>B</hi> (n <lb/>
+            8. u.) 21 missus est 21x </app> <lb/>
+             
+<pb n="78"/>
+            fratres, ab illo magis patre, qui filio proprio non pepercit, sed E <lb/>
+            pro nobis omnibus tradidit eum, ab illo patre, de quo scriptum <lb/>
+            est: deus filium suum mittens in similitudinem <lb/>
+            carnis peccati. 
+</p>
+          </div1>
+
+<div1 n="10" subtype="section"><head>§ 10</head>
+<p rend="script"> Et errabat, inquit, Joseph, quia fratres suos inuenire non<lb n="5"/>
+            poterat. non inmerito errabat, qui quaerebat errantes; eos <lb/>
+            enim agnoscit dominus qui sunt ipsius. denique et <lb/>
+            Iesus fatigatus ex itenere sedebat super puteum. fatigabatur, <lb/>
+            qui non inueniebat dei populum, quem quaerebat; exierat <note type="margin"> F </note> <lb/>
+            enim a facie domini. qui enim culpam sequitur exit a Christo. <lb n="10"/>
+            peccator exit. iustus intrat. denique Adam se peccator abscondit, <lb/>
+            iustus autem dicit: intret <choice n="0.34"><note n="893">oratio</note><corr n="1707">ratio</corr></choice> mea in conspectu tuo. 
+</p></div1>
+
+<div1 n="11" subtype="section"><head>§ 11</head>
+<p> <lb/>
+            inuenit autem fratres suos Ioseph in Dothaim, quod significat <lb/>
+            defectionem. ubi est enim nisi in defectione qui deum deserit? <lb/>
+            nec mirum si deficiebant qui non audiebant dicentem: uenite<lb n="15"/>
+            ad me omnes qui laboratis et onerati estis, et ego <lb/>
+            uos reficiam. uenit igitur Ioseph in Dothaim, et praeuiderunt <lb/>
+            illum de longe uenientem, antequam <sic>adpropiaret</sic> <lb/>
+            ad illos. et insaeuiebant, ut occiderent eum. <lb/>
+            mento longe erant qui erant in defectione et ideo insaeuiebant, <lb n="20"/>
+            quia iis non adpropiauerat Christus. nam si adpropiasset iis <lb/>
+            typus Christi, fratrem utique dilexissent; sed prope esse non <note type="margin"> 4^7 A </note> <lb/>
+            poterant qui parricidium cogitabant. ecce inquit somniator
+
+<app>1 Rom. 8. 32 3 Rom. 8, 3 5 Gen. 37. 15 sq. 6 II Tim. <lb/>
+            2. 19 8 Ioh. 4, 6 10 Gen. 4. 16 11 Gen. 3. 8 12 Psalm. <lb/>
+            LXXXVII 3 13 Gen. 37, 17 Philo quod det. pot. ins. 9 (196, 37) <lb/>
+            15 Matth. 11, 28 17 Gen. 37. 18 23 Gen. 37, 19 sq. </app>
+
+<app> 1 proprio filio <hi>ND</hi> 2 nibis <hi>B (corr</hi>. m3) eum] illum <hi>P'PxUxT</hi> <lb/>
+            5 et... poterat <hi>om. P4</hi> inquit ioseph quia fra P <hi>in ras</hi>. 8 itenere <hi>B</hi> <lb/>
+            itinere <hi>cet</hi>. supra <hi>NVPx</hi> 9 quia <hi>NVD et</hi> (a <hi>postea add.) 0</hi> <lb/>
+            13 ioseph fratres suos <hi>VPaWE</hi> dotain <hi>B</hi> dothain <hi>P1 et</hi> (h <hi>s</hi>. ft.) <hi>Px</hi> <lb/>
+            quod ... 17 dothaim <hi>infra in mg. m2 P</hi> quod <hi>B</hi> (d <hi>s. u.)</hi> 17 dotaim <lb/>
+            <hi>B</hi> dothain <hi>Px</hi> 18 eum <hi>N</hi> adpropriaret <hi>B</hi> (r <hi>alt. exp.) P'</hi> <lb/>
+            adpropinquaret <hi>T</hi> 20 insaeuiebant P (in <hi>s. 11. m2)</hi> 21 his <hi>libri</hi> <lb/>
+            si hi P (hi <hi>eras.)</hi> adpropriasset <hi>B</hi> et his no 23 inquiunt <hi>PxDT</hi> </app> <lb/>
+             
+<pb n="79"/>
+            ille uenit. nunc ergo uenite occidamus illum. nonne <lb/>
+            haec uerba dicebant qui de parricidiali sacrilegio cogitabant, <lb/>
+            sicut Solomon de ipsis ait:</p></div1>
+
+<div1 n="12" subtype="section"><head>§ 12</head>
+<p>tollamus iustum, quia inu-  <lb/>
+            ] <lb/>
+            tilis est nobis? et addiderunt in Genesi: et uidebimus <lb/>
+            quid erunt somnia eius. hoc scriptum est de Ioseph, <lb n="5"/>
+            conpletum est de Christo, quando Iudaei in eius passione <note type="margin"> B </note> <lb/>
+            dixerunt: <sic>sirexlstrahelest</sic>, descendat nunc de cruce, <lb/>
+            et credimus ei. confidit in deum: liberet nunc eum, <lb/>
+            si uult eum. numquid et ipsi fratres tam impii, ut fratrem occiderent? <lb/>
+            et unde tantorum merita patriarcharum, ut lex tribus <lb n="10"/>
+            totius plebis eorum uocabulis designaret ? quomodo conueniunt <lb/>
+            pietatis nomina et sceleris insignia ? sic etiam isti typo populi, <lb/>
+            non animi sui uitio laborabant. inde omnis inuidia, inde parricidii <lb/>
+            meditatio: inuidia per figuram, pietas per adfectum. 
+</p></div1>
+
+<div1 n="13" subtype="section"><head>§ 13</head>
+<p> <lb/>
+            Denique Ruben et ludas germanitatis pia iura seruantes <note type="margin"> c </note> <lb n="15"/>
+            de manibus eorum liberare eum cupiebant, meritoque ludas <lb/>
+            paterna benedictione praefertur, cum dicitur ei: adorabunt <lb/>
+            te filii patris tui. catulus leonis Iuda et ipse <lb/>
+            expectatio gentium. quod utique soli conuenit Christo,
+
+<app> 3 Sap. 2, 12 4 Gen. 37, 20 7 Matth. 27, 42 sq. 15 Gen. <lb/>
+            37, 21 et 26 17 Gen. 49, 8-10 </app>
+
+<app> 1 uenite et 81x <hi>et (m2 ex</hi> uenit &amp;) <hi>E</hi> eum <hi>NVD</hi> 2 parricidiali <lb/>
+            <hi>B</hi> parricidali <hi>cet</hi>. 3 de ipsis salomon <hi>W</hi> solomou <hi>B</hi> salemon <hi>E</hi> <lb/>
+            esaias <hi>V</hi> salomon <hi>cet</hi>. 5 proderunt 21' <hi>m2 8. u. (ml</hi> ert, <hi>eras.) % 'E</hi> <lb/>
+            illius <hi>N</hi> 7 dicebant <hi>NV</hi> istrahel <hi>B</hi> (d <hi>ut uidetur eras.)</hi> isrf <hi>cet</hi>. <lb/>
+            8 credamus <hi>V</hi> confidit <hi>B</hi> (i <hi>pr. ex</hi> e) deo <hi>FET</hi> dno <hi>V</hi> nunc <lb/>
+            <hi>om. P'</hi> eum nunc <hi>DE</hi> 9 eum <hi>B (exp. m2) V (del. m2), om. cet</hi>. <lb/>
+            10 patriarcarum <hi>B</hi> patriarcharum ... plebis <hi>om. V</hi> tribus <hi>om. ND</hi> <lb/>
+            11 designaretur <hi>N</hi> 12 sed etiam iusti <hi>NVD</hi> 13 omnis <hi>B</hi> (i <hi>ex e) P</hi> <lb/>
+            (i <hi>ex</hi> e <hi>m2)</hi> 15 roben <hi>B</hi> (v s. o) 16 eorum 8. <hi>u. m2 P</hi> ceterorum <lb/>
+            <hi>NVplD</hi> eum liberare <hi>ND</hi> eum eripere <hi>Y</hi> 17 ei dicitur <hi>UxE</hi> <lb/>
+            18 <hi>post</hi> Iuda <hi>haec sequuntur in V:</hi> ex germifi filius ascendisti. re cubans <lb/>
+            donnisti sicut leo et sicut catulus leonis. quis excitabit illum. alligans <lb/>
+            ad uitem pullum et ad palmitem pullum asinae sue. lauauit in uino <lb/>
+            stolam suam et in sanguine uuae amictum suum. &amp; post aliquanta non <lb/>
+            deficiet princeps ex iuda-nec dux de femoribus eius donec ueniat cui <lb/>
+            repositQ g ipse erit VUx </app> <lb/>
+             
+<pb n="80"/>
+            cui repositum fuit ut adoraretur a fratribus et expectaretur <lb/>
+            a gentibus, lauaret in uino stolam suam proprii corporis <lb/>
+            passione, quia carnem suam nulla peccati labe maculauit. <note type="margin"> D </note> <lb/>
+            Aser quoque non utique sibi conuenire credebat Aser, pinguis <lb/>
+            eius panis et ipse Aser cum principibus. quid uero<lb n="5"/>
+            ipse Ioseph, cui dictum est: filius ampliandus meus <lb/>
+            Ioseph, filius ampliandus meus, zelatus filius <lb/>
+            meus, filius meus adulescentior, ad me reuertere, <lb/>
+            in quem consilium conferentes maledicebant, in quo benedictio <lb/>
+            praeualuit super benedictiones montium manentium<lb n="10"/>
+            et desideriis collium aeternorum, quem significari <lb/>
+            in se intellegebat nisi illum qui omnium merita <note type="margin"> E </note> supereminens <lb/>
+            supra omnium desideria sanctorum inmensae teneret <lb/>
+            apicem potestatis, quem uoto nullus aequaret? conpensatur <lb/>
+            ergo in patriarchis inuidia per gratiam, qui et excusantur a <lb n="15"/>
+            culpa et reuelationis munere consecrantur. non enim tam <lb/>
+            culpabile est dixisse quae plebis sunt quam beatum uidisse <lb/>
+            quae Christi sunt. subierunt personam peccatoris populi, ut <lb/>
+            acciperent gratiam domini redemptoris. certe culpam aboleuit  <lb/>
+            gratia, gratiam culpa non minuit.</p></div1>
+
+<div1 n="14" subtype="section"><head>§ 14</head>
+<p>et ut agnoscamus omne <note type="margin"> F </note> <lb n="20"/>
+            hoc de populo et de domino Iesu esse <choice><note>mystelium</note><corr>mysterium</corr></choice>, uenite
+
+<app> 4 Gen. 49. 20 6 Gen. 49, 22 10 Gen. 49, 26 21 Gen. <lb/>
+            37,27 </app>
+
+<app> 1 adoraretur <hi>B</hi> (ra <hi>ex</hi> re) adoretur P ipse adoraretur <hi>P4</hi> 2 lauaret <lb/>
+            <hi>B</hi> (u <hi>ex</hi> b) 3 passioneṃ<foreign xml:lang="grc">̇</foreign> <hi>B</hi> passione <hi>0</hi> (e <hi>ex</hi> 8) 4 pinguia <hi>B</hi> <lb/>
+            (n <hi>8</hi>. u.) 5 panis eius <hi>N'V</hi> 6 meus ampliandus <hi>Ux E</hi> mens ampliandus <lb/>
+            2* ampliatus <hi>V (om</hi>. meus ... ampliandus meus) 8 aduliscentior <hi>B</hi> <lb/>
+            adolescentior P (v s. <hi>o pr. m2)</hi> 10 benedictionis <hi>B (corr. m3) E <lb/>
+            (corr. ml)</hi> benedictionibus P (ibus <hi>m2 ex</hi> es) <hi>DO</hi> manentium et <lb/>
+            <hi>cm. P'</hi> manentium <hi>om. T</hi> 11 <hi>desideria N</hi> 12 <hi>intellegebant PVP DOT</hi> <lb/>
+            14 conpensantur <hi>B</hi> (n <hi>tert. del.) P</hi> (n <hi>tert. eras.)</hi> 15 patriarcis <hi>B et</hi> <lb/>
+            (chis <hi>m2) P</hi> eicussantur <hi>P</hi> (s <hi>pr. eras.)</hi> a <hi>8. u. B</hi> 17 plebis P <lb/>
+            (s <hi>8. u. m2)</hi> beatum <hi>P m2 NVD</hi> beata <hi>Pml cet</hi>. 18 subierint <hi>B</hi> <lb/>
+            (-unt <hi>corr.) Px2T</hi> 19 aboleuit P (a <hi>m2 ex</hi> o.) 20 cognoscamus <hi>Ux T</hi> <lb/>
+            21 de <hi>alt. om. NV</hi> myBterium esse <hi>WE</hi> misterium <hi>PP'f.'</hi> </app> <lb/>
+             
+<pb n="81"/>
+            inquit uendamus Ioseph Ismahelitis. quid interpretationis <lb/>
+            habet nomen Ioseph nisi quod diuinam gratiam <note type="margin"> 488 A </note> significet <lb/>
+            et expressionem dei summi? quis igitur uenditur nisi <lb/>
+            ille qui, cum in forma dei esset, non rapinam arbitratus <lb/>
+            est esse se aequalem deo, sed semet ipsum <lb n="5"/>
+            exinaniuit formam serui accipiens? neque enim nos <lb/>
+            eum emissemus, nisi uendidissent eum sui. male uendiderunt, <lb/>
+            peius emerunt. uendiderunt negotiatoribus, bonum odorem <lb/>
+            emerunt a proditoribus; uendidit enim <choice n="0.95"><note n="152">Iudas</note><corr n="7">ludas</corr></choice>, emerunt Ismahelitae, <lb/>
+            qui significantur Latina interpretatione odio <choice><note>habeiitus</note><corr>habentes</corr></choice> <lb n="10"/>
+            deum suum. ideo alibi uiginti, alibi uiginti et quinque aureis, <note type="margin"> B </note> <lb/>
+            alibi triginta inuenimus emptum Ioseph, quia non omnibus <lb/>
+            unius aestimatione pretii ualet Christus. aliis minus, aliis <lb/>
+            amplius. fides ementis incrementum est mercis. religiosiori <lb/>
+            pretiosior deus, peccatori pretiosior est redemptor. pluris et <lb n="15"/>
+            illi ualet qui plus habet gratiae. sed etiam cui multa donata <lb/>
+            sunt pluris ualet, quia cui plus remissum est plus diligit, <lb/>
+            sicut ipse dominus in euangelio pronuntiauit de illa muliere, <lb/>
+            quae super eius pedes effudit unguentum et lacrimis lauit et <note type="margin"> C </note> <lb/>
+            capillis suis tersit et osculis siccauit, de qua ait ad Simonem: <lb n="20"/>
+            propter quod dico tibi: remissa sunt ei peccata <lb/>
+            eius multa, quoniam dilexit multum. cui autem <lb/>
+            minus dimittitur minus diligit. interdum diuersitates
+
+<app> 1 Philo de Iosepho 6 (II 46, 7) 4 Philipp. 2, 6 sq. 9 Gen. <lb/>
+            37, 25; cf. Matth. 26, 14; 27, 5 11 Gen. 37, 28 12 Matth. 26, 15 <lb/>
+            20 Luc. 7, 47 </app>
+
+<app> 1 ismahelitis <hi>B</hi> (he <hi>ex</hi> hi) 2 significet et <hi>om. P</hi> 3 et <hi>om. BPxO</hi> <lb/>
+            4 formani <hi>B</hi> rapina P 7 eum <hi>alt. om. NV</hi> eum <hi>(add. m2)</hi> Cum <lb/>
+            (in <hi>mg</hi>. m2 • • i quem) Bui P eum quem sui <hi>0</hi> sui quem sui <hi>D</hi> 8 alieni <lb/>
+            peins <hi>0</hi> boni odoris <hi>NV</hi> 9 enim] eum <hi>PUxD</hi> emerunt eum <hi>D</hi> <lb/>
+            ismahilitae <hi>B</hi> 10 latine <hi>(om</hi>. interpretatione) P' 11 XX. P <lb/>
+            XX. et V. P et <hi>om. V</hi> 12 XXX. BPU' 15 pretiosior <hi>(pr.)</hi> <lb/>
+            est <hi>PxT</hi> pluris <hi>NV</hi> plus <hi>nDO</hi> 16 cui <hi>m2 in spatio uacuo P</hi> <lb/>
+            17 plnres <hi>B et (corr. m2) P</hi> cui s, u. <hi>m2 P</hi> 18 illa (a <hi>ex</hi> e) <hi>P</hi> <lb/>
+            19 lanit] rigauit <hi>P</hi> 20 qua (a <hi>ex</hi> o) P m2 91' <hi>m. ant</hi>. 22 eius <hi>add</hi>. <lb/>
+            m2 <hi>P, om. N'VPI</hi> 23 diuersitatis <hi>B (corr. m3) P (corr. m2)</hi> </app>
+
+<app> XXXII. Ambr. pan J. </app>
+
+<app>6 </app> <lb/>
+             
+<pb n="82"/>
+            pretii non solum quantitatis habent, sed etiam numeri expressionem, <lb/>
+            sicut habes de unguento, quod ad sepeliendum se <lb/>
+            dominus fusum esse memorauit, (ut) scriptum dicente Iuda: <lb/>
+            potuit hoc ueniri denariis trecentis, quo numero <note type="margin"> D </note> <lb/>
+            non quantitatis, sed significatio crucis uidetur expressa. ita<lb n="5"/>
+            hic quoque diuersitas uel uiginti uel triginta. aureorum uel <lb/>
+            argenteorum habet uel geminatae uel trinitae perfectionis <lb/>
+            indicium. nam uiginti quinque aurei iubelaei, qui est remissionis <lb/>
+            numerus, significant pretiosissimam portionem. hic <lb/>
+            quoque, ut dominicae figuram passionis aduertas, ait ludas<lb n="10"/>
+            patriarcha: tradamus Ioseph <sic>Ismalielitis</sic>; manus <lb/>
+            autem nostrae non sint iniectae super eum. et bene <lb/>
+            superius dixerat: manus autem nolite inferre ei, quod <note type="margin"> E </note> <lb/>
+            Iudaei in domini passione dixerunt: nobis non licet interficere <lb/>
+            quemquam, ut sermo Iesu inpleretur significans <lb n="15"/>
+            qua morte <sic n="poss">morituru3</sic> esset.</p></div1>
+
+<div1 n="15" subtype="section"><head>§ 15</head>
+<p>iam tunc ergo crucis futurae <lb/>
+            figurabatur insigne, simul et quod exutus est tunica, id est <lb/>
+            carne, quam adsumpsit, exutus est decora diuersitate uirtutum. <lb/>
+            ergo tunica eius, id est caro, non diuinitas cruentata est et <lb/>
+            indumentum ei carnis, non inmortalitatem uitae auferre potuerunt.<lb n="20"/>
+            hanc tunicam Iudaeicae bestiae cruentauerunt, illae de <note type="margin"> F </note>
+
+<app> 2 Matth. 26, 12 6 Marc. 14, 5 Ioh. 12, 5 8 Leuit. 25,10 11 Gen. <lb/>
+            37, 27 13 Gen. 37, 22 14 Ioh. 18, 31 17 Gen. 37, 23 Ioh. 19, 23 </app>
+
+<app> 2 habis <hi>B (corr. m3)</hi> scriptum habes <hi>P'</hi> ungento <hi>P (co-rr. m2) Px</hi> <lb/>
+            3 ut <hi>stlppleui</hi>. sicut <hi>T</hi> scriptum <hi>BPVPxDO</hi> scriptum est <hi>T</hi> scriptura <lb/>
+            <hi>N'. om. P'</hi> 4 ueniri <hi>BVOT</hi> uenire <hi>P</hi> (re <hi>ex, ri m2) N'</hi> uenundari <lb/>
+            <hi>PPxD</hi> CCC <hi>BP</hi> 5 quantitas <hi>NJ</hi> Ix 6 XX uel XXX <hi>BPH'P'D</hi> <lb/>
+            7 trinitae <hi>B</hi> trinitate <hi>P et</hi> (-tp) <hi>V</hi> trinjtate <hi>0</hi> (in <hi>mg</hi>. m2 triplicate) de <lb/>
+            trinitate 31' <hi>(del. et s. acr. m2</hi> triplicate; <hi>in mg. m. ant</hi>. 1 triplicatel <lb/>
+            <hi>T (in quo antea</hi> de geminitate) triplicatae <hi>cet.; intactum reliqui</hi> trinitae. <lb/>
+            <hi>nam alienum non est a uero uerbum</hi> trinire <hi>extitisse</hi> 8 iobelei <hi>B</hi> (r <lb/>
+            <hi>a</hi>. 0) iubilei <hi>%xE</hi> iubelei <hi>cet</hi>. 10 passionis figuram <hi>P'</hi> 11 Iosephl <lb/>
+            eum <hi>Y</hi> ismaelitis <hi>B</hi> (e <hi>ex</hi> i <hi>m3)</hi> 12 non sint nostrae intintinctae Jx <lb/>
+            13 illi <hi>NVD</hi> 17 praefigurabatur <hi>ND</hi> tunica <hi>VET</hi> 18 caruS JVrF <lb/>
+            decoraiji <hi>B</hi> decori <hi>NVPx</hi> 19 tunica?4 <hi>B</hi> 21 hanc <hi>(m2 ex</hi> hoc) P <lb/>
+            iudaeicae <hi>B</hi> (e <hi>pr. del.)</hi> iadaicae U' (a <hi>pr. m2 in ras.) 0</hi> (a <hi>pr. ex<lb/>
+             e) cet</hi>. </app> <lb/>
+             
+<pb n="83"/>
+            quibus dicit:</p></div1>
+
+<div1 n="16" subtype="section"><head>§ 16</head>
+<p>ecce ego mitto uos sicut agnos inter  <lb/>
+            5 <lb/>
+            lupos. quod autem lacus siccus erat, quid mirum si Iudaeorum <lb/>
+            lacus aquam non habet, qui dereliquerunt fontem aquae <note type="margin"> 489 A </note> <lb/>
+            uiuae et fecerunt sibi contritos lacus ? et ut scias uerum hoc <lb/>
+            esse mysterium, ipse de se dominus ait: posuerunt me in <lb n="5"/>
+            lacu inferiori, in tenebris et in umbra mortis. 
+</p>
+          </div1>
+
+<div1 n="17" subtype="section"><head>§ 17</head>
+<p rend="script"> Illi igitur emunt Christum, qui bonos odores deferunt, <lb/>
+            thymiama, quo adolent altaria piae mentis, unde et Dauid <lb/>
+            graece ait: <foreign xml:lang="grc">ϰαευϑυνϑήω</foreign> <sic>tj</sic> <foreign xml:lang="grc">προσευχή μου ὡς</foreign> OO(itajia <sic>evcoitt</sic>&lt;<sic>Sv</sic> <lb/>
+            500, resinam quoque, qua marmora confracta sociantur. est <lb n="10"/>
+            resina spiritalis, quae fracturam animae tuae solidet et diuulsa <note type="margin"> B </note> <lb/>
+            conectat, resoluta constringat. haec enim spiritalis resina <lb/>
+            conroborat et quaedam conminuta animae membra conponit, <lb/>
+            ut sine offensione socientur. denique Hieremias hanc quaerit, <lb/>
+            ut Babyloniam curet sanare, si possit, dicens: accipite <lb n="15"/>
+            <choice><note>resiDam</note><corr>resinam</corr></choice> conruptioni eius, si quo modo sanabitur. <lb/>
+            curauimus Babyloniam, nec sanata est. non est sanata <lb/>
+            synagoga, quia resina ista migrauit ad ecclesiam. ideo ex <lb/>
+            Galaad ueniebant negotiatores, hoc est de possessione uel <note type="margin"> c </note>
+
+<app> 1 Luc. 10, 3 2 Gen. 37, 24 3 Hier. 2. 13 5 Pealm. LXXXVII 7 <lb/>
+            7 II Cor. 2, 15 8 Gen. 37, 25 9 Psalm. CXXXX 2 10 Gen. 37, 25 <lb/>
+            15 Hier. 28 (51), 8 sq. 19 Gen. 37, 25 Philo Legg. alleg. III 6 <lb/>
+            (I 91, 13) </app>
+
+<app> 3 quo <hi>(m2 ex</hi> qui) P 4 lacus contritos <hi>NVD</hi> 6 tenebrosis <hi>VPxE</hi> <lb/>
+            7 bonos odores <hi>P</hi> (8. <hi>ras.)</hi> boni odoris <hi>Wm2 WET</hi> 8 tymiama <lb/>
+            <hi>lJPPxOT et ml P</hi> tymiamatis <hi>Pm2 D</hi> timiama it' thimiama %x quo <lb/>
+            <hi>(m2 ex</hi> quod) <hi>P</hi> quod P' piae <hi>B</hi> (a s. <hi>u.)</hi> dauit <hi>B</hi> dauit <hi>ex</hi> diuuid <lb/>
+            <hi>m2 in spatio uacuo P</hi> 9 KATGyEyN <hi>BPx et ml P</hi> catei. ein P <lb/>
+            in <hi>mg. m2 D</hi> ka<foreign xml:lang="grc">τΕ</foreign>y<foreign xml:lang="grc">Ν</foreign> P' Ka<foreign xml:lang="grc">Θ</foreign>e<foreign xml:lang="grc">ΝωΝΗ</foreign>⌠a<foreign xml:lang="grc">ΝΠΡω</foreign>Ce<foreign xml:lang="grc">ΥΧΗΜωΥωΥ</foreign>CTHMIA- <lb/>
+            MANeNa<foreign xml:lang="grc">ΠΗΟ</foreign>C<foreign xml:lang="grc">ωΥ</foreign>U' <hi>et (in quibus</hi> — eNANHOCooy) <hi>W'E</hi> KeENONH- <lb/>
+            <foreign xml:lang="grc">ΤΑΠΠΡΟ</foreign>CeyXHMOyOC<foreign xml:lang="grc">ΤΗΜΙΑΝΕΝΑΠΝΗ</foreign>COY <hi>T</hi> KaTeyOTNBh- <lb/>
+            <foreign xml:lang="grc">ΤωΗΠ</foreign>pOCe<foreign xml:lang="grc">Υ̇ΧΗΜΟΥ̇ωΕΘΥ̇</foreign>uaua<foreign xml:lang="grc">ΕΝωΙΙΙΟΗ</foreign>C<foreign xml:lang="grc">ΟΥ̇</foreign>.1 quod latin diciturdirigatur <lb/>
+            oratio mea sicut incensum in conspectu tuo <hi>V</hi> 11 <hi>sqq</hi>. risina <lb/>
+            <hi>B (corr. m3)</hi> fracturam <hi>BPPx0</hi> fracturas <hi>D</hi> (as <hi>ex</hi> am) <hi>NVP'</hi> deunlsa <lb/>
+            <hi>BPx et</hi> (di <hi>ex</hi> de) P 12 et soluta <hi>N'D</hi> 14 quaerit resinam <lb/>
+            yYD 15 babilloniam <hi>BP/O</hi> et sanare P <hi>(s</hi>. sanare <hi>ras.) D</hi> <lb/>
+            17 babyUoniam <hi>B et (1 pr. exp.) P</hi> et sanata est <hi>N'</hi> et sanata non est <hi>T</hi> </app>
+
+<app> 6* </app> <lb/>
+             
+<pb n="84"/>
+            incolatu testimonii merces suas ad ecclesiam transferentes, <lb/>
+            ut gentium peccata resina ista curaret. de quibus dicitur: <lb/>
+            conualescite, manus dimissae et genua dissoluta. <lb/>
+            fides sincera resina est. hanc adhibebat Petrus, cum diceret <lb/>
+            clodo: in nomine Iesu Christi <sic>Nazaraei</sic> surge et<lb n="5"/>
+            ambula. meritoque surrexit et ambulauit. hanc habebat, <lb/>
+            cum diceret paralytico: Aeneas, sanat te dominus <lb/>
+            <sic>leans</sic>: surge et sterne tibi. et surrexit et strauit <lb/>
+            sibi. hanc habebat, cum diceret mortuae: surge in nomine <note type="margin"> D </note> <lb/>
+            domini nostri Iesu Christi. et defuncta surrexit. huius<lb n="10"/>
+            resinae temperamento lapides illi, de quibus potens est deus <lb/>
+            resuscitare filios Abrahae, conpaginantur. huius resinae <choice><note>mediA</note><corr>medi</corr></choice> camento <lb/>
+            claudus erigitur, paralyticus reformatur, mortua  <lb/>
+            resuscitatur.</p></div1>
+
+<div1 n="18" subtype="section"><head>§ 18</head>
+<p>illud quoque quod haedi sanguine respersernnt <lb/>
+            tunicam eius uidetur significare, quoniam falsis testimoniis<lb n="15"/>
+            adpetentes in inuidiam deduxere peccati omnium peccata <lb/>
+            donantem. nobis agnus est, illis haedus. nobis agnus dei <note type="margin"> E </note> <lb/>
+            occisus est, quibus abstulit peccata mundi: illis haedus, <lb/>
+            quorum aceruauit errores, delicta cumulauit. ideoque ait: <lb/>
+            inplete mensuram patruum uestrorum.meritoquelaeob<lb n="20"/>
+            posteritatis suae deplorans dispendia quasi pater filium <choice n="0.28"><note n="33">flebat</note><corr n="82">fiebat</corr></choice>
+
+<app> 3 Esai. 35, 3 5 Act. 3, 6 sq. 7 Act. 9, 34 9 Act. 9. 40 <lb/>
+            11 Matth. 3, 9 14 Gen. 37, 31 15 Matth. 26, 60 sq. 17 Ioh. 1, 29 <lb/>
+            Exod. 12, 4 sq. 20 Matth. 23, 32 21 Gen. 37, 34 </app>
+
+<app> 3 demissae <hi>PxDO</hi> discussae <hi>N</hi> resolutae <hi>V</hi> 5 clodo <hi>BO</hi> claudo <hi>cet</hi>. <lb/>
+            ihu <hi>m2 ex</hi> ihm <hi>B</hi> Christi <hi>om. NV</hi> nazarei <hi>B et ml P</hi> nazorei <lb/>
+            <hi>V</hi> nazareni <hi>P m2 cet</hi>. 7 paralytico <hi>BVEO</hi> paralitico <hi>eet</hi>. aeneas <lb/>
+            <hi>BV et ml P</hi> aenea <hi>P m2 cet</hi>. sanat <hi>BPVPx</hi> sanet U' (e <hi>ex</hi> a <hi>m2) cet</hi>. <lb/>
+            8 ihs ips <hi>P'DT</hi> 9 mortuae thabitha <hi>V</hi> 10 nostri <hi>om. N'DO</hi> <lb/>
+            Christi <hi>om. ND</hi> 11 dns <hi>N'O</hi> 12 abraae <hi>B</hi> medicamento <hi>B</hi> <lb/>
+            (i <hi>ex e)</hi> 13 paralyticus <hi>BVJEO</hi> paraliticus <hi>cet</hi>. 14 aedi <hi>BP'Ux</hi> 16 in <lb/>
+            <hi>8. u. m2 P ml T, eras</hi>. 2T, <hi>om. VUxE</hi> 17 aedus <hi>BP'</hi> edus PxUx <lb/>
+            nobis ... edus <hi>infra in mg. m2 P</hi> agnus <hi>B</hi> (n 8. <hi>u.)</hi> 18 peccatum <lb/>
+            <hi>T</hi> aedus <hi>P'</hi> edus <hi>PUx</hi> 19 acerbauit <hi>B (corr. ml)</hi> %' <hi>(corr. <lb/>
+            m2) %xE</hi> aceruabit <hi>P (corr. m2)</hi> 20 patruum <hi>B</hi> patrum <hi>cet</hi>. 21 suae <lb/>
+            <hi>om. UxE</hi> dispendia (di ex de) <hi>P</hi> <lb/>
+             
+<pb n="85"/>
+            </app>amissum, quasi propheta lugebat interitum Iudaeorum. denique <lb/>
+            scidit etiam uestimentum suum, quod in passione domini <lb/>
+            Iesu factum legimus a principe sacerdotum, in quo esset <lb/>
+            non priuata persona, sed publici munus officii. et uelum <lb/>
+            templi scissum est, ut profanata mysteria, nudatum populum <lb n="5"/>
+            salutaribus indumentis, diuisum regnum talibus manifestaretur <lb/>
+            insignibus destruendum, quia omne regnum diuisum facile <lb/>
+            destruetur. et uere diuisum, quando id quod erat Christi <lb/>
+            coepit esse iam diaboli. neque enim poterant indiuisi manere <lb/>
+            qui a patre filium separabant. <lb n="10"/>
+            
+</p>
+          </div1>
+
+<div1 n="19" subtype="section"><head>§ 19</head>
+<p rend="script"> <milestone n="4" unit="altchapter"/>  Uenditus est ergo Ioseph, ductus in Aegyptum, emptus a <note type="margin"> 490 A </note> <lb/>
+            praeposito coquorum. non otiosa persona, quae cruda ciborum <note type="margin"> B </note> <lb/>
+            coqueret, ut epularentur animi fidei suauitate; nullus enim <lb/>
+            cibus scientia et doctrina dulcior. erat ante in Aegypto cruda <lb/>
+            perfidia, quam nullus diuinae cognitionis ardor et uerae <lb n="15"/>
+            scientiae cupiditas nulla molliuerat, non eloquia domini ignita <lb/>
+            decocserant. uenditus est autem Ioseph in Aegypto, quia <lb/>
+            Christus uenturus erat ad eos quibus dictum est: peccatis <lb/>
+            uestris uenditi estis et ideo suo sanguine redemit quos <lb/>
+            propria peccata uendiderant. sed uenditus Christus condicionis <note type="margin"> c </note> <lb n="20"/>
+            susceptione, non culpae peccati pretio non tenetur, quia <lb/>
+            peccatum ipse non fecit. pretio igitur nostrum debitum, non <lb/>
+            sua aera contraxit, chirographum sustulit, faeneratorem remouit,
+
+<app> 2 Gen. 37, 34 Matth. 26, 65 4 Matth. 27, 51 7 Matth. 12, 25 <lb/>
+            11 Gen. 37, 36; 39, 1 16 Psalm. XVII 31 CXVIJI 140 18 Esai. <lb/>
+            50. 1 22 II Cor. 5, 21 23 Colosa. 2. 14 </app>
+
+<app> 1 profeta <hi>B</hi> 3 Iesu <hi>om. N'P '0</hi> o ut] et <hi>N'</hi> mysteria ut esse <lb/>
+            W' (ut esse <hi>extra u. add. m. ant.) WB</hi> 7 distruendum <hi>B et (corr. <lb/>
+            m2) P</hi> 8 distruetur <hi>B et (corr. m2) P</hi> id <hi>IIVDOT</hi> hoc <hi>N'</hi> 9 iam <lb/>
+            <hi>IIVO</hi> etiam <hi>D</hi> (e. f iam) <hi>N</hi> 11 et ductus <hi>ND et (in quo om</hi>. est) <hi>V</hi> <lb/>
+            12 cocorum <hi>PN'VD</hi> quoquorum <hi>T</hi> 13 suanitate <hi>(u pr. s. u.) B</hi> 15 perfidia <lb/>
+            P (i <hi>alt. 8. u.)</hi> 16 nulla P (n <hi>postea add.) PxDO</hi> ulla <hi>cet., fort</hi>. <lb/>
+            nec...ulla 17 decocierant <hi>B</hi> (x <hi>ex s)</hi> decoxerant <hi>cet</hi>. 21 non <hi>alt. <lb/>
+             eras. U', om. WoxE</hi> 22 debitum <hi>B</hi> (i ex e) 23 chirografum <hi>B</hi> cyrographum <lb/>
+            P cyrografum <hi>N'</hi> feneratorem <hi>libri</hi> </app> <lb/>
+             
+<pb n="86"/>
+            exuit debitorem: unus exoluit quod ab omnibus debebatur. <lb/>
+            non licebat nobis exire seruitio. suscepit hoc ille pro nobis, <lb/>
+            ut seruitutem mundi repelleret, libertatem paradisi restitueret, <lb/>
+            gratiam nouam consortii sui honore donaret. hoc de mysteiio. <note type="margin"> n </note>  <lb/>
+</p></div1>
+
+<div1 n="20" subtype="section"><head>§ 20</head>
+<p>            ceterum quod ad moralem pertinet locum, quia omnes saluos<lb n="5"/>
+            uult fieri dominus deus noster, dedit etiam per Ioseph his qui <lb/>
+            sunt in seruitute solacium, adtribuit magisterium, ut discerent <lb/>
+            etiam in ultima condicione posse mores esse superiores nec <lb/>
+            ullum statum inmunem esse uirtutis, si animus se uniuscuiusque <lb/>
+            cognoscat, carnem seruituti subditam esse, non mentem <lb n="10"/>
+            multosque seruulos esse dominis liberiores, si in seruitute <note type="margin"> E </note> <lb/>
+            positi a seruilibus putent operibus abstinendum. seruile est <lb/>
+            omne peccatum, libera est innocentia. unde et dominus ait: <lb/>
+            omnis qui facit peccatum seruus est peccati. quomodo <lb/>
+            enim non seruus auarus omnis, qui pro exiguo pecuniae<lb n="15"/>
+            lucello se ipsum auctionatur ? timet omnia ne congesta amittat <lb/>
+            qui non utenda congessit, maiore periculo seruaturus quo <lb/>
+            maiora quaesiuit. quomodo non mendicus cui sunt parua <lb/>
+            quae possidet? nam etsi mihi diues uideatur, sibi eget, nec <note type="margin"> F </note> <lb/>
+            testimoniis sua uota solatur qui quod optat nescit credere. <lb n="20"/>
+            quomodo autem non et ille seruus qui subditus libidini est? <lb/>
+            primum suis ardet incendiis et pectoris sui facibus exuritur. <lb/>
+            quibus recte dicit propheta: ambulate in lumine ignis <lb/>
+            uestri et in flamma, quam accendistis. suscipit omnes
+
+<app> 2 Uerg. Ecl. I 40 5 I Tim. 2, 4 13 Ioh. 8, 34 22 Esai. 50, 11 </app>
+
+<app> 1 et exuit P texuit <hi>P'</hi> debitorem <hi>B</hi> (i <hi>ex</hi> e) munus <hi>BPP D</hi> <lb/>
+            unQ <hi>T</hi> exsoluit <hi>B</hi> (s s. <hi>u.) PF2T</hi> 4 hoc <hi>B</hi> (c s. <hi>u. m2)</hi> niystyrio <lb/>
+            <hi>B</hi> 5 uult saluos <hi>NFPPxD</hi> 6 per ioseph etiam <hi>N'VD</hi> 7 solacium <lb/>
+            <hi>B</hi> (la <hi>s. u.)</hi> discederent <hi>P</hi> (de <hi>eras.)</hi> 10 non mentem ... <lb/>
+            seruitute <hi>infra in mg. m2 P</hi> 14 <hi>et</hi> 15 omnis <hi>B</hi> (i <hi>ex</hi> e) 15 omnis <lb/>
+            ., <lb/>
+            auarus <hi>WET</hi> 16 locello <hi>BP'PxD et</hi> §1' <hi>m2</hi> lfjcello <hi>P</hi> autionatur <lb/>
+            <hi>BO et (corr. m2) P</hi> cautionatur <hi>Px</hi> omnia <hi>II VDOT</hi> enim <hi>N'</hi> 18 quomodo <lb/>
+            enim non P' pauca <hi>Px</hi> 19 aeget <hi>B et</hi> (a <hi>eras.) P</hi> 20 necscit <lb/>
+            P (c <hi>pro eras.)</hi> 21 est libidini <hi>%xE</hi> 22 pectoris P (s <hi>s. u. m2) 31'</hi> <lb/>
+            (s. 0 <hi>ras.)</hi> peccati <hi>WE</hi> 23 profeta <hi>B</hi> 24 flamaiu <hi>B</hi> suscepit P <lb/>
+            <hi>(corr. m2) VP'</hi> </app> <lb/>
+             
+<pb n="87"/>
+            metus, insidiatur somno singulorum, ut unius cupiditate <lb/>
+            potiatur, fit seruus omnium. seruit igitur ac miseram quidem <lb/>
+            seruitutem qui ipse sibi dominos facit, ipse uult habere quos <note type="margin">491 A </note> <lb/>
+            timeat; nihil enim tam speciale seruitutis est quam semper <lb/>
+            timere. ille uero in quauis condicione seruitii semper liber <lb n="5"/>
+            qui amore non capitur, auaritiae uinculis non tenetur, metu. <lb/>
+            criminis non alligatur, qui securus spectat praesentia, quem <lb/>
+            futura non <choice n="0.86"><note n="271">tenent</note><corr n="43">terrent</corr></choice>. nonne tibi uidetur iste in seruitute dominari, <lb/>
+            ille autem in libertate seruire ? seruiebat Ioseph, regnabat <lb/>
+            Pharao: beatior huius seruitus quam regnum illius. denique <lb n="10"/>
+            tota Aegyptus conlapsa esset fame, nisi regnum suum consilio <note type="margin"> B </note> <lb/>
+            seruuli subdidisset. 
+</p></div1>
+
+<div1 n="21" subtype="section"><head>§ 21</head>
+<p> habent igitur unde glorientur originis <lb/>
+            seruuli; seruiuit et Ioseph. habent unde se consolentur qui <lb/>
+            ex libertate in seruitutem aliqua necessitate uenerunt. habent <lb/>
+            quod imitentur, ut discant condicionem se mutare posse, non <lb n="15"/>
+            mores, esse et in uernaculis libertatem et in seruitute constantiam. <lb/>
+            habent etiam domini quod per seruulos bonos sperent. <lb/>
+            Abraham filio per uernaculum inuenit uxorem. benedixit <note type="margin"> C </note> <lb/>
+            dominus domum Aegyptii propter Ioseph, et facta benedictio <lb/>
+            domini in toto censu eius et in domo et in agris. et conuertit <lb n="20"/>
+            inquit [ei] omnia quaecumque erant illi in manus <lb/>
+            Ioseph. aduertimus quod ea quae domini <choice><note>gubemare</note><corr>gubernare</corr></choice> non <lb/>
+            poterant seruuli gubernauerunt. 
+</p>
+          </div1>
+
+<div1 n="22" subtype="section"><head>§ 22</head>
+<p rend="script"> <milestone n="5" unit="altchapter"/>  Sed quid de priuata domo dispositiones eius seruuli adstruam, <note type="margin">D </note>25 qui rexit imperium ? plus tamen est quod ipse ante se rexit
+
+<app> 11 Gen. 41, 55 sq. 18 Gen. 24, 4 sqq. 19 Gen. 39, 5 20 Gen. <lb/>
+            39, 5 </app>
+
+<app> 2 ac <hi>NV</hi> hanc <hi>BPP'DO</hi> per hanc <hi>Px</hi> 6 mundi amore <hi>ed. Rom.</hi>. <lb/>
+            inlucido <hi>post</hi> amore <hi>add. 0 m2,</hi> transeuntium <hi>Px</hi> 7 expectat <hi>BP'PxO</hi> <lb/>
+            expectant <hi>P</hi> (n <hi>eras.)</hi> 12 origine seruili P1 originales seruuli <hi>N</hi> <lb/>
+            (serui <hi>E) V</hi> 13 se <hi>om. DOT, ante</hi> unde <hi>ponit V, post</hi> consolentur Ux <lb/>
+            consalentur <hi>B</hi> 14 seruitutS <hi>B (6 m3 ex</hi> e) seruitute <hi>PilE</hi> 16 uernulis <lb/>
+            <hi>N</hi> 19 facta <hi>BPx</hi> facta est <hi>cet</hi>. 20 agris <hi>B</hi> (s <hi>s. u.)</hi> agro <hi>0</hi> <lb/>
+            21 ei <hi>eras. U', om. VWE</hi> omnia <hi>B</hi> u s. <hi>u.)</hi> 23 gubernarunt <hi>NV</hi> <lb/>
+            24 dispositiones <hi>N' et</hi> (es <hi>ex</hi> is) <hi>0</hi> dispositionis <hi>cet</hi>. </app> <lb/>
+             
+<pb n="88"/>
+            et, cura esset decorus aspectu et speciosus facie ualde, <note type="margin"> EI </note> <sic n="poss">uenustatera</sic> <lb/>
+            sui uultus non ad alienam diriuauit iniuriam, sed ad <lb/>
+            suam seruauit gratiam, hoc se pulchriorem ratus, si non <lb/>
+            dispendio castitatis, sed cultu pudoris speciosior probaretur.  <lb/>
+            illum esse uerum decorem, qui non alienos oculos caperet<lb n="5"/>
+            nec fragiles mentes uulneraret, sed <choice n="0.80"><note n="426">iudicia</note><corr n="103">indicia</corr></choice> adquireret uniuersorum <lb/>
+            fraudi nullis futurus, laudi sibi. iam si qua petulantibus <lb/>
+            aspexit oculis, crimen est solius quae male uidit, non <lb/>
+            huius qui male nollet uideri, nec in eo quod <choice n="0.94"><note n="465">uisus</note><corr n="26">nisus</corr></choice> est culpa <note type="margin"> F </note> <lb/>
+            est. non erat in potestate seruuli ut non uideretur: maritus <lb n="10"/>
+            debuit cauere uxoris oculos. si ille nihil timebat de coniuge, <lb/>
+            arbitrabatur iste testimonium esse castimoniae, non remissionem <lb/>
+            incuriae. discant tamen etiam uiri cauere oculos feminarum; <lb/>
+            adamantur et qui nolunt amari. denique adamatus est <lb/>
+            Ioseph, qui amantem contemneret. et bene excusauit eum<lb n="15"/>
+            scriptura dicens: inmisit oculos uxor domini eius in <lb/>
+            Ioseph, hoc est: non ipse se ostentauit nec cepit incautam, <note type="margin"> 492 A </note> <lb/>
+            sed illa retia sua misit et indagine sui capta est, laqueos  <lb/>
+            suos sparsit et suis haesit uinculis.</p></div1>
+
+<div1 n="23" subtype="section"><head>§ 23</head>
+<p>dixit autem illi: dormi <lb/>
+            mecum. prima adulterae <choice><note>oculorua</note><corr>oculorum</corr></choice> <sic>rtelasunt</sic>, <sic>secundauerborum</sic>,<lb n="20"/>
+            sed qui non capitur oculis potest uerbo resistere. suppetit <lb/>
+            defensio, ubi adhuc liber affectus est. ideo scriptum est quia <lb/>
+            ille noluit. primum igitur mentis congressione superauit <lb/>
+            tamquam scuto animi inruentem repellens, deinde sermonem <lb/>
+            tamquam hastam uibrauit, ut se illa reuocaret. et dixit <note type="margin"> B </note>
+
+<app> 1 Gen. 39, 6 16 Gen. 39, 7 19 Gen. 39, 7 22 Gen. 39, 8 <lb/>
+            25 Gen. 39, 8 </app>
+
+<app> 1 decorus esset P speciosa <hi>N'V</hi> 2 ad 8. u. <hi>P</hi> deriuauit <hi>V</hi> <lb/>
+            3 pulchriorem <hi>P</hi> (m <hi>8. u.)</hi> 7 nulli <hi>NP1</hi> nullus <hi>0</hi> 8 illine crimen <lb/>
+            solius <hi>(ex</hi> solus 21' <hi>m2,</hi> solum UxE) est <hi>NY</hi> 9 male se U'Ux se male <lb/>
+            <hi>ET</hi> nollit <hi>B et (corr. ml) P</hi> nolit <hi>V</hi> 11 oculos uxoris <hi>UxE</hi> <lb/>
+            13 uiri cauere etiam <hi>NV</hi> 14 adamantur enim et 91x 16 eius dni Wx <lb/>
+            17 iste <hi>NV</hi> cepit <hi>VEO</hi> cepit <hi>W/'DP</hi> coepit <hi>cet</hi>. 18 indagine P <lb/>
+            20 secunda P (a <hi>m2 ex</hi> um) 21 uerbo <hi>P'</hi> (o <hi>in ras.)</hi> uerbis NV <lb/>
+            23 congressione mentis <hi>WE</hi> 25 astam P hastam (h 0. ft.) <hi>Px</hi> </app> <lb n="25"/>
+             
+<pb n="89"/>
+            <sic>uiori</sic> domini sui. recte uxor domini, non ipsa domina <lb/>
+            dicitur, quae non potuit extorquere quod uoluit impetrare. <lb/>
+            nam quomodo domina, quae dominandi non habebat effectum, <lb/>
+            quae disciplinam dominae non tenebat, quae seruulis libidinis <lb/>
+            incentiua praestabat ? ille dominus, qui amantis non excepit <lb n="5"/>
+            faces, qui lenocinantis uincula non sensit, quem nulla mortis <lb/>
+            formido perterruit, qui maluit liber criminis mori quam potentiae <note type="margin"> C </note> <lb/>
+            criminosae eligere consortium. ille liber qui turpe credidit <lb/>
+            uicem gratiae non referre. denique non ut meticulosus excusat <lb/>
+            nec tamquam periculi timidus cauet, sed tamquam beneficii <lb n="10"/>
+            erilis et innocentiae suae debitor fugit crimen ingrati peccatique <lb/>
+            labem et culpae contagium quasi iustus horrescit. tertium <lb/>
+            spiculum adultera interpellandi adsiduitate uibrabat. sed <lb/>
+            Ioseph non audiebat eam. habes post prima uerba quid caueas. <lb/>
+            non solum lubrica, sed etiam procax inportuna petulans est <note type="margin"> D </note> <lb n="15"/>
+            libido, nec habet quod uereatur adultera. quae dispendia <lb/>
+            pudoris prima non doluit insidiatur, ut capiat. 
+</p>
+          </div1>
+
+<div1 n="24" subtype="section"><head>§ 24</head>
+<p rend="script"> Denique officii sui et commissi muneris ingressum gratia <lb/>
+            remotis arbitris ac domesticis adprehendit eum dicens: dormi <lb/>
+            mecum. excusatur Ioseph scripturae testimonio, quia commissum <lb n="20"/>
+            a domino deserere nequibat obsequium. non enim satis <lb/>
+            est quod securus sui domus interiora quasi qui capi non <lb/>
+            posset ingressus est: iustus debuit prouidere, ne furenti copiam <note type="margin"> E </note> <lb/>
+            daret et eius illa peccato periret. sed qui aduersari sibi domini <lb/>
+            sui uidebat uxorem neclecti officii etiam a domino cauere <lb n="25"/>
+            debebat offensam. simul adhuc sermonis, non conprehensionis <lb/>
+            putabat audaciam. 
+</p></div1>
+
+<div1 n="25" subtype="section"><head>§ 25</head>
+<p> excusatur quod ingressus est, praedicatur
+
+<app> 13 Gen. 39, 10 18 Gen. 39, 11 sq. </app>
+
+<app> 1 Mori (i <hi>eras.) P</hi> uxor <hi>D</hi> 2 impetrare <hi>Px</hi> imperare <hi>cet</hi>. 3 affectum <lb/>
+            91' <hi>(corr. m2) WET</hi> 6 lenocenantis <hi>B</hi> uincla <hi>PVUxD</hi> <lb/>
+            10 cauit <hi>B et (corr. m2) P</hi> 12 horescit <hi>B</hi> 13 interpellandi <hi>B</hi> (i <hi>alt</hi>. <lb/>
+            s. u.) <hi>P</hi> (a ex e <hi>m2)</hi> adsiduitate <hi>P</hi> (id <hi>ex</hi> ua) 15 petulans <hi>B</hi> <lb/>
+            (n 8. u.) 18 sui <hi>om. P</hi> muneris <hi>m2 ex</hi> numeris <hi>P</hi> ingressum <hi>B</hi> <lb/>
+            (s s. ṃ) ingressus <hi>PPxD et</hi> (Q <hi>corr. m2) P</hi> 21 nequibat deserere <hi>WET</hi> <lb/>
+            24 et <hi>om. P</hi> (nc <hi>8. u. m2),</hi> ne <hi>D</hi> 25 neglecti <hi>B</hi> (g <hi>ex</hi> c) <hi>cet</hi>. 26 sermonis <lb/>
+            <hi>B</hi> (i <hi>ex</hi> e) 27 praedicatur <hi>B</hi> (r <hi>pr. 8. tc.)</hi> </app> <lb/>
+             
+<pb n="90"/>
+            quod elapsus est nec pluris fecit uestimenta corporis quam <lb/>
+            animi castimoniam. reliquit tamquam non sua quae adultera <lb/>
+            suis manibus detinebat et aliena iudicauit quae tactu inpudicae <lb/>
+            potuerant conprehendi. magnus tamen uir, qui uenditus seruile <note type="margin"> F </note> <lb/>
+            nesciuit ingenium, adamatus non redamauit, rogatus non <lb n="5"/>
+            adquieuit, conprehensus aufugit, qui cum ab uxore domini <lb/>
+            conueniretur, teneri ueste potuit, non potuit animo capi ac <lb/>
+            ne ipsa uerba diu quidem passus contagium iudicauit, si <lb/>
+            diutius moraretur, ne per manus adulterae libidinis incentiua <lb/>
+            transirent. itaque uestem exuit, crimen excussit et relictis<lb n="10"/>
+            quibus tenebatur exuuiis spoliatus quidem, sed non nudus <lb/>
+            aufugit, quia erat tectior indumento pudoris; non est <choice n="5.08"><note n="1">enirn</note><corr n="19678">enim</corr></choice> <note type="margin"> 493 A </note> <lb/>
+            nudus nisi quem culpa nudauerit. denique in superioribus <lb/>
+            habemus quod Adam, posteaquam dei mandata praeuaricatione <lb/>
+            deseruit et peccati grauis aera contracxit, nudus erat. unde<lb n="15"/>
+            et ipse ait: uocem tuam audiui in paradiso et <lb/>
+            timui, quia nudus sum, et abscondi me. <sic>intellexitenim</sic> <lb/>
+            esse se nudum, qui infulas diuinae protectionis amiserat. et ideo <lb/>
+            latebat, quia uestem fidei non habebat, quam utique praeuaricando <lb/>
+            deposuit. magnam rem uides. ille nudus erat, qui<note type="margin"> B </note> <lb n="20"/>
+            tunicam non amisit: iste nudus non erat, qui uestimentis se <lb/>
+            exuit, quae in manibus adulterae dereliquit. eadem scriptura <lb/>
+            illum nudum adseruit, hunc abnuit. et ideo expoliauit iste se potius <lb/>
+            quam nudauit, qui incorrupta uirtutum uestimenta seruabat, <lb/>
+            expolians se ueterem hominem cum actibus eius, ut indueret<lb n="25"/>
+            nouum. qui secundum imaginem creatoris in agnitione renouatur: <lb/>
+            ille autem nudus remansit, qui se iterum uestire non potuit
+
+<app> 10 Gon. 39, 12 15 Gen. 3, 7 16 Gen. 3, 10 25 Coloss. <lb/>
+            3, 9 sq. </app>
+
+<app> 1 plures <hi>B et (corr. m2) P</hi> 4 tamen <hi>II DO</hi> quippe <hi>N'</hi> plane <hi>T</hi> <lb/>
+            (a <hi>ex</hi> e) <hi>V</hi> seruile tamen <hi>NV</hi> 7 animo capi non potuit <hi>UxE</hi> ac <lb/>
+            ne ipsa ... <hi>p. 91 u</hi>. 3 nudauit <hi>om. V</hi> 8 quidem uerba diu <hi>N'</hi> uerba <lb/>
+            quidem diu <hi>T</hi> 10 ex.uit 1' (i <hi>eras.)</hi> 11 exubiis <hi>B</hi> 12 qui <hi>N</hi> <lb/>
+            14 mandatil <hi>N</hi> 15 contracxit <hi>B</hi> contraxit <hi>cet</hi>. 18 se <hi>om. U',</hi> se esse <lb/>
+            <hi>WE,</hi> esse <hi>om. T</hi> 20 uides <hi>B</hi> (es <hi>ex</hi> is) 23 hunc (n <hi>s</hi>. u.) <hi>B m3<lb/>
+             P m2</hi> 25 eius <hi>UIJOT</hi> suis <hi>N'</hi> </app> <lb/>
+             
+<pb n="91"/>
+            singulari spolio uirtutis exutus. unde <choice><note>pelliciara</note><corr>pelliciam</corr></choice> accepit tunicam, <note type="margin"> c </note> <lb/>
+            quia peccator habere non poterat spiritalem. reliquit igitur <lb/>
+            uestimenta Ioseph et nudauit adulterae inuerecundiam, quae <lb/>
+            postea latere non potuit. 
+</p>
+          </div1>
+
+<div1 n="26" subtype="section"><head>§ 26</head>
+<p rend="script"> Denique exiuit foras et ipsa adulterii sui temptamenta <lb n="5"/>
+            uulgauit exaltans uocem suam, eo quod relictis uestibus <lb/>
+            Hebraeus aufugerat. ipsa igitur quod debuerat celare prodebat, <lb/>
+            ut conposito crimine laederet innocentem. iustus autem accusare <note type="margin"> D </note> <lb/>
+            non nouit et ideo inpune hoc inpudica faciebat. illam igitur <lb/>
+            uere exutam dixerim, etiam aliena uestimenta seruantem. quae <lb n="10"/>
+            omnia amiserat uelamina castitatis, illum satis ornatum. satis <lb/>
+            defensum, cuius uox non audiebatur et innocentia loquebatur. <lb/>
+            sic Susanna postea, dum tacet in iudicio, melius est locuta <lb/>
+            oraculo et ideo prophetae meruit defensionem, quae propriae <lb/>
+            uocis non quaesiuit auxilium. illum ergo beatiorem dixerim, <lb n="15"/>
+            cum in carcerem mitteretur, quia subibat pro castitate <note type="margin"> E </note> martyrium. <lb/>
+            bonum enim munus pudicitia, sed minoris meriti, cum <lb/>
+            periculum non habet; ubi uero etiam salutis periculo defenditur, <lb/>
+            ibi plenius coronatur. inaudita causa, inexplorata fide ueri <lb/>
+            tamquam reus criminis in carcerem Ioseph mittitur, sed eum <lb n="20"/>
+            dominus nec in carcere deserebat. non turbentur innocentes, <lb/>
+            cum falsis criminibus adpetuntur, cum oppressa iustitia <lb/>
+            truduntur in carcerem.</p></div1>
+
+<div1 n="27" subtype="section"><head>§ 27</head>
+<p>uisitat deus et in carcere suos, et ideo <note type="margin"> F </note>  <lb/>
+            5 <lb/>
+            ibi plus est auxilii, ubi plus periculi. sed quid mirum si <lb/>
+            uisitat Christus in carcere positos, qui ipsum se in suis in
+
+<app> 1 Gen. 3, 21 5 Gen. 39, 12 sqq. 13 Sus. 35 (Dan. 13, 3bf <lb/>
+            19 Gen. 39, 20 </app>
+
+<app> 5 ipsa <hi>P</hi> (a <hi>ex</hi> e) adulterii <hi>P</hi> (i <hi>alt. postea add.)</hi> 7 haebraeus <lb/>
+            <hi>BP</hi> celare debuerat <hi>WE</hi> 9 no*uit <hi>B</hi> 13 locuta est <hi>Ux E</hi> ęşţ <lb/>
+            locuta est <hi>T</hi> 15 auxilium non quaesiuit X' 16 carcerem <hi>B (c pr. <lb/>
+             ex</hi> i) caBtitateip <hi>B</hi> 18 non habet <hi>11DO</hi> abest <hi>XV</hi> 19 uere <hi>B</hi> <lb/>
+            (e <hi>alt. ex</hi> i) 21 carcerem <hi>B</hi> (m <hi>exp.) PVplDT</hi> 23 truduntur P <lb/>
+            (ru <hi>in ras.)</hi> traduntur <hi>VUxE</hi> carcere <hi>(pr.) BPx</hi> carcerem <hi>(alt.) P' V et <lb/>
+            (ra exp.) BP 24 est plus X' ubi plus IIDO ubi plus est U'T ubi est</hi> <lb/>
+            b a <lb/>
+            plus <hi>UxE</hi> 25 ipsum se 9T (b a <hi>mS)</hi> se ipsum UxE </app> <lb n="25"/>
+             
+<pb n="92"/>
+            carcere clausum esse memorauit, sicut habes scriptum: <sic>fn</sic> <lb/>
+            carcere eram, et non uenistis ad me? quo non penetrat <lb/>
+            diuina misericordia ? inuenit Ioseph huiusmodi gratiam, ut qui <lb/>
+            fuerat clausus m carcere ipse potius <choice><note>carcens</note><corr>carceris</corr></choice> claustra seruaret, <note type="margin"> 494 A </note> <lb/>
+            cederet munere clauicularius, inclusos omnes potestati eius<lb n="5"/>
+            committeret. itaque non solum Ioseph carcerem non sentiebat, <lb/>
+            sed etiam alios quoque carceris leuabat aerumna. 
+</p>
+          </div1>
+
+<div1 n="28" subtype="section"><head>§ 28</head>
+<p rend="script"> <milestone n="6" unit="altchapter"/>  Huius igitur iniuriae auctor mulier et spadones sunt: sed <note type="margin"> B </note> <lb/>
+            mulier est Aegyptiarum, quae procaces cum uiris solent miscere <note type="margin"> c </note> <lb/>
+            sermones, lacessere uerecundos, refugientes insequi, pudentes<lb n="10"/>
+            perurguere. cum uitia sua non posset defendere, innoxios <lb/>
+            criminabatur perfidiam admiscens perfidiae, aliena tenens, <lb/>
+            alios ipsa condemnans, modum nullum ponens furori. quae <lb/>
+            enim causa crudelitatis nisi quod cupiditatibus suis obsisti <lb/>
+            uidebat et desideria sua uetita adsensione fraudari ? en propter<lb n="15"/>
+            quod aperiatur carcer, ut suscipiat innocentes, soluantur catenae <lb/>
+            reis, ut inponantur fidelibus, dimittantur ueritatis adulteri, <note type="margin"> D </note> <lb/>
+            ut includatur qui adulterium fidei recusauit. 
+</p></div1>
+
+<div1 n="29" subtype="section"><head>§ 29</head>
+<p> de istis uero <lb/>
+            spadonibus quid dicam ? qui exemplo debent esse spadonibus <lb/>
+            ceteris quod status eorum fragilis et tenuis et in uoluntate<lb n="20"/>
+            regia spes omnis quibus leuis offensa summum periculum
+
+<app> 1 Matth. 25, 43 8 Gen. 40, 1 sqq. </app>
+
+<app> 1 inclusum 91x <hi>hoc loco B in mg. m3 habet</hi> sequitur, <hi>quod post</hi> <lb/>
+            memorauit <hi>praebent Px et (del. ml) PO</hi> 3 inuenit <hi>P (ex</hi> inuenti) <lb/>
+            gratia <hi>B</hi> ut <hi>s. u. P</hi> 5 cederet <hi>NV</hi> concederet <hi>B</hi> (con <hi>in mg</hi>. <lb/>
+            * <lb/>
+            m2) <hi>cet</hi>. munere St' munera P1 in potestatem <hi>N</hi> 6 ioseph non <lb/>
+            solum <hi>UxE</hi> 7 carceris (is <hi>ex</hi> e) <hi>P</hi> 8 mulier spadonis fuit <hi>T et liber <lb/>
+            Clarae vallis, sed id quod adparet ex eis quae sequuntur u. 14 sqq. <lb/>
+            praepositi uini et pistorum significantur</hi> 9 mulier est <hi>scripsi</hi> mulieres II <lb/>
+            mulier <hi>NV</hi> Aegyptiarum <hi>scripsi</hi> aegyptiorum <hi>libri</hi> solent <hi>IIDO</hi> <lb/>
+            spoliata U'T solita <hi>UxEV</hi> 11 perurgere <hi>PVPplDT</hi> cum <hi>0 m2</hi> <lb/>
+            con <hi>0 ml P</hi> ne <hi>P (ex</hi> non) <hi>D</hi> possit <hi>BPO et (corr. ml) P</hi> <lb/>
+            innoxios <hi>BVE et 0 m2</hi> innoxifl <hi>P1</hi> innoxius <hi>0 ml cet</hi>. 12 miscens <hi>N</hi> <lb/>
+            13 et alios <hi>NY</hi> 14 crudelitatis s. <hi>u. M2 P</hi> 16 aperiatur <hi>P</hi> (a <hi>alt. <lb/>
+             eras.)</hi> aperitur <hi>DO</hi> soluuntur <hi>P (ex</hi> -antur) <hi>D</hi> 18 fidei adulterinni <lb/>
+            <hi>UxE</hi> 19 exeinpla <hi>N</hi> debent P (n <hi>a. u.)</hi> 20 ac tenuis 21x </app> <lb/>
+             
+<pb n="93"/>
+            sit, secundae autem res uile ministerium. gloriabatur alter <lb/>
+            quod esset <choice><note>nini</note><corr>uini</corr></choice> praepositus, alter quod pistorum. uterque <lb/>
+            offendit missique in carcerem et conmendati sancto Ioseph <note type="margin"> E </note> <lb/>
+            ab ipso carceris <choice><note>clauiculario</note><corr>claniculario</corr></choice>, cum essent illic dies complures, <lb/>
+            uiderunt somnium. et cum reuiseret eos <choice><note>loseph</note><corr>Ioseph</corr></choice>, tristes turbatosque <lb n="5"/>
+            animi offendit, quia turbabantur somnio, cuius interpretem <lb/>
+            non inuenirent. nonne per deum inquit interpretatio <lb/>
+            somnii est? narrate ergo mihi. et narrauit <lb/>
+            praepositus uini somnium suum: erat uitis in <lb/>
+            conspectu meo, in uite autem tres radices et ipsa <lb n="10"/>
+            florens, <sic>ferensgermina</sic>, <sic>maturietbutronesuuarum</sic> <lb/>
+            et calix Pharao in manu mea. et sumpsi eam et <note type="margin"> F </note> <lb/>
+            expressi eam in calicem et dedi calicem in manus <lb/>
+            Pharao. et dixit illi <choice><note>loseph</note><corr>Ioseph</corr></choice>: tres radices tres dies <lb/>
+            sunt. adhuc triduum, et in mentem habebit Pharao <lb n="15"/>
+            principatum tuum et restituet te super officium <lb/>
+            tuum pristinum et dabis calicem in manus Pharao. <lb/>
+            sed memor esto per temet ipsum, cum tibi bene <lb/>
+            erit, et facies in me misericordiam et memor eris <note type="margin"> 495 A </note> <lb/>
+            mei ad Pharao et educes me de carcere isto, quia
+
+<app> 2 Gen. 40, 3 sqq., cf. 39, 22 7 Gen. 40, 9 sqq. </app>
+
+<app> 1 uili <hi>Px0</hi> ministerio <hi>P (corr. m2) Px0</hi> gloriabatur <hi>BSV</hi> <lb/>
+            gloriabantur <hi>cet</hi>. 3 miseique <hi>P</hi> (s <hi>pr. 8. u.)</hi> 4 carceris <hi>B</hi> (i <hi>ex</hi> e) <lb/>
+            5 turbatosque <hi>B</hi> (o <hi>ex</hi> u) 6 animo <hi>PV</hi> animis 31' (s s. <hi>u. m2) PxT</hi> <lb/>
+            cuius <hi>P</hi> (ua <hi>add. m2</hi> in <hi>mg.)</hi> 10 conspetu <hi>B</hi> radices <hi>B</hi> (e <hi>ex</hi> i <lb/>
+            <hi>m3)</hi> 11 Burens <hi>scripsi</hi> flores <hi>cet</hi>. germina <hi>B m1 <foreign xml:lang="grc">̄Ν</foreign>V germinauit B<lb/>
+             m2</hi> (uit <hi>8</hi>. u.) <hi>cet</hi>. maturos <hi>P</hi> (os <hi>ex</hi> i) matura WE matur*: <hi>0</hi> et <lb/>
+            maturi <hi>P'</hi> bytrones <hi>B et ml P</hi> botrionis <hi>V</hi> botriones <hi>P m2 cet</hi>. <lb/>
+            12 pharao <hi>DO</hi> farao <hi>BPV</hi> faraonia <hi>WT</hi> pharaonis <hi>cet</hi>. et sumpsi... <lb/>
+            Pharao <hi>om. Px fort</hi>. sumpsi uuam 13 eam <hi>om. WE calice NV</hi> <lb/>
+            et dedi calicem <hi>NV, om. BP,</hi> et dedi <hi>P</hi> (in <hi>mg. m2) D</hi> dedique <hi>O</hi> <lb/>
+            in manu <hi>N'V, om. T</hi> 14 pharao <hi>PDO</hi> farao <hi>BV</hi> faraonis ill pharaonis <lb/>
+            <hi>cet</hi>. 15 triduo <hi>PPP'D</hi> in mentem (mente <hi>P'V, fort. recte)</hi> <lb/>
+            habebit <hi>ilVDO</hi> memorabitur <hi>N</hi> farao <hi>BVWI</hi> 17 tuum <hi>om. O</hi> <lb/>
+            manu <hi>N</hi> pharao <hi>PPDO</hi> farao <hi>BV</hi> faraonis 21' pharaonis <hi>cet</hi>. 18 bene <lb/>
+            tibi fuerit <hi>N</hi> 19 facias <hi>P</hi> 20 pharao <hi>0</hi> farao <hi>B V</hi> faraouem <hi>cet</hi>. </app> <lb n="20"/>
+             
+<pb n="94"/>
+            furto <sic>inuolatus</sic> sum de terra Hebraeorum et hic <lb/>
+            nihil mali feci, sed miserunt me in lacum carceris  <lb/>
+            huius.</p></div1>
+
+<div1 n="30" subtype="section"><head>§ 30</head>
+<p>alterius somnium non libet dicere. meministis certe <lb/>
+            uerborum meorum, quod etiam tunc refugerim eius interpretationem <lb/>
+            in eo, cuius exitum refugio, mortem horresco. de <lb n="5"/>
+            isto prius dicamus, qui sibi beatus uidebatur, cum esset uini <lb/>
+            praepositus, et hunc summum credebat apicem omnis potentiae, <note type="margin"> B </note> <lb/>
+            quod regi calicem dabat. haec gloria illius, haec magnificentia <lb/>
+            in hoc saeculo: hac defraudatus dolebat, huic redditus gratulabatur. <lb/>
+            sed hoc somnium est et omnis potentia saeculi<lb n="10"/>
+            somnium, non ueritas est. denique per somnium uidit reddi <lb/>
+            sibi principatum suum. et Esaias dicit ita esse huiusmodi <lb/>
+            homines, qui in hoc saeculo delectantur rebus secundis. sicut <lb/>
+            qui in somnis manducat et bibit uidetur sibi cibo aut potu, <lb/>
+            dum dormit, repleri, sed cum uigilauerit, incipit esurire<note type="margin"> C </note> <lb n="15"/>
+            amplius — tunc intellegit quam inanis ille cibus et potus fuerit <lb/>
+            somniantis —: sic qui in hoc dormit saeculo nec oculos aperit <lb/>
+            ad mysteria diuina, quamdiu somno grauatur corporis, putat <lb/>
+            alicuius momenti esse hanc saecularem potentiam — quasi in <lb/>
+            somnis eam uidet — ubi euigilauerit, deprehendit quam inanis<lb n="20"/>
+            huius uoluptas saeculi sit.
+
+<app> 3 Gen. 40, 16 aqq., cf. 19 et 22 5 Calligonum Ualentiniani <lb/>
+            iunioris eunuchum significat; cf. Augustinus contra Iul. Pelag. VI 14. 41 <lb/>
+            et Ambrosii epistula ad Marcellinam sororem (XX), in qua (sect. 28) <lb/>
+            Calligoni mentionem facit 12 Esai. 29. 8 </app>
+
+<app> 1 furto sublatus P' furtiue captus <hi>N</hi> 2 mali <hi>in ras. 2 litt. VIx</hi> <lb/>
+            male <hi>PDO</hi> sed <foreign xml:lang="grc">̇ΙΙ</foreign>VDO et <hi>N</hi> miserunt <hi>B</hi> (nt <hi>m2 8. u.)</hi> lacum P <lb/>
+            (a <hi>ex</hi> o) <hi>WEDO</hi> locum <hi>cet</hi>. 5 horresco <hi>P</hi> (h s. <hi>u. m2)</hi> perhorresco <lb/>
+            <hi>WE</hi> 8 haec <hi>(alt.) B</hi> (c 8. <hi>u.)</hi> 10 omnis <hi>B</hi> (i <hi>ex</hi> e) 12 suum <hi>B</hi> <lb/>
+            (u <hi>alt. 8. u.)</hi> eseias <hi>B</hi> (a 8. e <hi>alt. m3)</hi> . dicit <hi>BPVFxDO, post</hi> <lb/>
+            homines huiusmodi <hi>transponit T,</hi> ait <hi>P', om</hi>. 9t' <hi>(in quo</hi> 8. u. <hi>m2 add. <lb/>
+             -astruit) %xE</hi> 13 secundis rebus <hi>N'</hi> 14 bibit (i <hi>pr. ex</hi> e) <hi>B</hi> aut] <lb/>
+            et N' potu <hi>B</hi> (u <hi>ex</hi> o <hi>m3)</hi> 15 nigilauerit <hi>BPx et ml P</hi> euigilauerit <lb/>
+            <hi>P m2 cet</hi>. 16 et tunc U' (et s. <hi>u. m2) WE</hi> inanis <hi>B</hi> (is <lb/>
+            <hi>ex</hi> es) 17 in hoc dormit <hi>BVP'PxDOT</hi> hoc indonnit P indonnit hoc 9T <lb/>
+            indormit in hoc <hi>E</hi> dormit in hoc W., 20 eam <hi>B m3 NVPx</hi> ea <hi>B ml <lb/>
+            cet</hi>. 21 saeculi uoluptas P'Ux </app> 
+<pb n="95"/>
+             
+</p>
+          </div1>
+
+<div1 n="31" subtype="section"><head>§ 31</head>
+<p rend="script"> Considera nunc illum uerum Hebraeum, illum non somnii, <lb/>
+            sed ueritatis et praeclarae uisionis interpretem, qui de illa <note type="margin"> D </note> <lb/>
+            diuinitatis plenitudine ac libertate caelestis gratiae in hunc <lb/>
+            corporeum carcerem uenerit, quem non potuit saeculi huius <lb/>
+            inlecebra mutare, non ulla corruptela mundanae <choice><note>noluptatis</note><corr>uoluptatis</corr></choice> <lb n="5"/>
+            euertere, qui temptatus non decidit, adpetitus non adpetiuit, <lb/>
+            postremo adulterina quadam synagogae manu ueste corporis <lb/>
+            adprehensus carnem exuit, liber mortis ascendit. calumniata <lb/>
+            est meretrix, ubi eum tenere non potuit, quem non carcer <lb/>
+            terruit. non inferna tenuerunt. quin etiam quo ueluti puniendus <note type="margin"> E </note> <lb n="10"/>
+            descenderat, inde alios liberauit:</p></div1>
+
+<div1 n="32" subtype="section"><head>§ 32</head>
+<p>ubi ipsi stringebantur mortis  <lb/>
+            uincula, ibi laxauit ipse uincula mortuorum. considera ergo <lb/>
+            istum Hebraeum dicentem illi praeposito spadonum, qui <lb/>
+            contraxerat offensam regiam, quem restituerat muneri suo: <lb/>
+            memor esto per temet ipsum. cum tibi bene erit, <lb n="15"/>
+            et facies in me misericordiam et memor eris mei. <lb/>
+            ideo secundo repetiuit, quia sciebat non recordaturum quid <note type="margin"> F </note> <lb/>
+            euasisset iniuriae, cum potentiam recepisset. ideo secundo <lb/>
+            admonuit, quia secundo liberauit, ut si prioris beneficii eum <lb/>
+            memoria non teneret, uel posterioris subiret, non despiceret <lb n="20"/>
+            auctorem salutis suae, non perfida praeuaricatione uiolaret. sed <lb/>
+            quod peius est, cito beneficii inrepit obliuio rebus secundis. <lb/>
+            redditus officio suo non est memor factus interpretis, sed <note type="margin">496 A </note>
+
+<app> 1 Philo de Iosepho 6 (II 46, 7) 3 Coloss. 2, 9 15 Gen. 40, 14 <lb/>
+            23 Gen. 40, 23 </app>
+
+<app>b a <lb/>
+            1 uerum <hi>NV</hi> uirum ILD uimm illum <hi>0</hi> 2 illa diuinitatis 91x (b a <lb/>
+            <hi>add. m2)</hi> 3 pulchritudine <hi>PD</hi> ac libertate <hi>NV</hi> ad libertatem <lb/>
+            (tem <hi>m2 ex</hi> te <hi>P) cet</hi>. 6 euertere <hi>ND</hi> euertere* (t <hi>eras.) 0</hi> euertens <lb/>
+            <hi>eet</hi>. 7 sinagogae <hi>PP'Px</hi> 8 adpraehensus <hi>B</hi> (us <hi>ex</hi> is <hi>m2)</hi> 9 carcer <lb/>
+            non N 10 quod <hi>B</hi> (d <hi>exp.) P</hi> (d <hi>eras.) Px</hi> 11 discenderat <hi>B et<lb/>
+             (corr. m2) P</hi> 12 uinculo <hi>DO</hi> uinculis 91' (is <hi>ex</hi> a <hi>m2) UxEP <foreign xml:lang="grc">̇Τ</foreign></hi> considera <lb/>
+            P (o <hi>ex</hi> u) 15 fuerit <hi>UxET</hi> 16 facias <hi>P</hi> 18 recipisset <hi>B <lb/>
+            et (corr. m2) P</hi> 20 dispiceret <hi>(corr. ml) B (corr. m2) PtV</hi> 21 auctorem <lb/>
+            <hi>B</hi> (c 8. It.) perflda <hi>NVD et</hi> (a <hi>ex</hi> ia) <hi>PO</hi> perfidia <hi>cet</hi>. praeuaricationis <lb/>
+            <hi>P Px</hi> 22 secundis rebus <hi>UxE</hi> in secundis rebus <hi>V</hi> </app> <lb/>
+             
+<pb n="96"/>
+            oblitus est eum. sed etsi ille obliuiscebatur, Christus non <lb/>
+            obliuiscebatur, sed loquebatur ei et per seruulum loquebatur <lb/>
+            dicens ad eum: memor esto per temet ipsum, hoc est <lb/>
+            uel officii tui contemplatione quid audieris recordare. sed <lb/>
+            etsi nunc oblitus es, memor eris mei, ut euadas periculum,<lb n="5"/>
+             qui oblitus es beneficium. tamen elatus potentia non recordabatur. <lb/>
+            et quanta haec potentia, ubi uini ministerium? en unde <note type="margin"> B </note> <lb/>
+            omnis iactantia! quia erat spadonum praepositus, qui uinum <lb/>
+            poculis regiis <choice><note>ininistrabant</note><corr>ministrabant</corr></choice>. 
+</p>
+          </div1>
+
+<div1 n="33" subtype="section"><head>§ 33</head>
+<p rend="script"> Et factum est inquit post biennium. mentior de hoc<lb n="10"/>
+            nostri spadonis tempore, nisi et dies conuenit, quia post biennium <lb/>
+            recepit officium nec recordatus est, sed admonitus. <lb/>
+            cognouit enim quod etiam regnum ipsum in hoc saeculo esset <lb/>
+            somnium qui suo somnio non credidit. didicit etiam regum <lb/>
+            .... esse somnia nec ipsorum potestates esse perpetuas. sed cito<note type="margin"> C </note> <lb n="15"/>
+            hunc locum praetereat dolor. ne ipsa commemoratione crudescat; <lb/>
+            ne ipsius quidem sermonis mei meminisse delectat, quem <lb/>
+            tunc temporis uel effuderit dolor uel extorserit ecclesiae  <lb/>
+            contumelia.</p></div1>
+
+<div1 n="34" subtype="section"><head>§ 34</head>
+<p>admonitus ergo sui per somnium regis ait: <lb/>
+            peccatum meum recordor. sera quidem ista est, sed<note type="margin"> D </note> <lb n="20"/>
+            utinam uera confessio. post peccatum fateris quod ante peccatum <lb/>
+            cauere debueras. quam cito oblitus fueras memor esto <lb/>
+            mei. scis nempe tunc temporis hunc fuisse sermonem, sed <lb/>
+            obtunsas aures <choice><note>habebus</note><corr>habebas</corr></choice> fastu potentiae et uini ebrius non <lb/>
+            <choice><note>audiebus</note><corr>audiebas</corr></choice> uerba sobrietatis. uel nunc memor esto mei, qui
+
+<app> 10 Gen. 41, 1 11 cf. p. 94 u. 5 19 Gen. 41, 9 22 Gen. 40, 14 </app>
+
+<app> 2 obliuiscibatur <hi>B</hi> loquebatur <hi>B (bis</hi> e <hi>ex</hi> i) 7 enunde <hi>T</hi> (n <hi>pr. <lb/>
+             ex</hi> m) <hi>PxV</hi> inundet 91' (I <hi>ex</hi> n <hi>m2)</hi> UxE et unde <hi>cet</hi>. 8 praepositus <lb/>
+            <hi>P</hi> (si <hi>s</hi>. tł.) 12 recipit <hi>B</hi> 14 somnium <hi>B</hi> (u <hi>s. u.)</hi> didicit <hi>lVVet<lb/>
+             1112 0</hi> discit <hi>P</hi> (s s. <hi>u. m2) D</hi> dicit <hi>0 ml cet</hi>. regnum <hi>P</hi> (n in <hi>ras. <lb/>
+             ut uidetur ex</hi> i) <hi>0</hi> (n <hi>exp.) 1łVD</hi> 15 lacunam <hi>significaui; excidisse<lb/>
+             uidetur</hi> dona <hi>uel</hi> beneficia perpetuas <hi>P</hi> (er <hi>in ras.)</hi> 17 mei rpei <hi>B</hi> <lb/>
+            18 temporis uel <hi>N</hi> temporis ut <hi>B et ml PO</hi> temporis aut <hi>PO m2 D</hi> <lb/>
+            temporis ui <hi>P'</hi> temporis <hi>Px</hi> 19 contumilia <hi>B</hi> 22 ∗∗∗memor P (mei <lb/>
+            <hi>erasum esse uidetur)</hi> 24 obtunsas 21' (n <hi>del. m2)</hi> obtusas <hi>U xET</hi> <lb/>
+            25 memor esto <hi>UVDOT</hi> memento <hi>N'</hi> </app> <lb n="25"/>
+             
+<pb n="97"/>
+            peccatum sero fateris. qui rogas seruulum cur dominum negas? <lb/>
+            inebriare iam non uino, sed sancto spiritu. recordare quid <lb/>
+            passus sit, cum quo dormisti somnum tuum et somniasti <lb/>
+            somnium. et ipse praepositus erat et praepositus epularum <lb/>
+            regis, quae ad opus pistorium pertinebant. sublimem se esse <lb n="5"/>
+            credebat, quia in potestate habebat panem regium: nesciebat <note type="margin"> E </note> <lb/>
+            multos anfractus esse huius potentiae. minabatur aliis ipse <lb/>
+            mox supplicio dedendus extremo nec audiuit eum, qui licet <lb/>
+            seruulus domini tamen loquebatur oraculum, quod ipsius <lb/>
+            iussu regis, de quo sibi plurimum blandiebatur, caput amissurus <lb n="10"/>
+            esset,. esca auibus derelinquendus. uel hoc te exemplum <lb/>
+            reuocare debebat, ut perfidiae non crederes. 
+</p></div1>
+
+<div1 n="35" subtype="section"><head>§ 35</head>
+<p> sunt et alia exempla <lb/>
+            de fastu et fragilitate ministrorum regalium, quae posterioris <note type="margin"> F </note> <lb/>
+            temporis historia habet. et Doec praepositus erat et praepositus <lb/>
+            regis animalium ad disciplinam mulorum, hoc est spadonum <lb n="15"/>
+            animalium. hic quoque sacerdotem domini detulit et regem <lb/>
+            fraude conmouit in sacerdotis periculum et <choice><note>Tiic</note><corr>hic</corr></choice> Syrus erat. <note type="margin"> 497 A </note> <lb/>
+            num mentior, quando et patria et facta conueniunt? Aman <lb/>
+            quoque a cubiculo regis et ipse praepositus, dum inuadere <lb/>
+            ecclesias domini inproba temeritate contendit populumque <lb n="20"/>
+            fidelem spoliare ac persequi, grauibus sacrilegia suppliciis <lb/>
+            expendit. 
+</p>
+          </div1>
+
+<div1 n="36" subtype="section"><head>§ 36</head>
+<p rend="script"><milestone n="7" unit="altchapter"/> Sed reuertamur ad istum uini praepositum, qui quasi multo <note type="margin">B </note> <lb/>
+            ebrius mero beneficii auctorem oblitus est diu, aliquando
+
+<app> 3 Psalm. LXXV 6 4 Gen. 40, 16, cf. 19 et 22 14 Reg. I 21, <lb/>
+            7: 22, 18 17 cf. p. 94 u. 5 18 Esth. 8, 1. 8 et 9; 7, 10 23 Gen. <lb/>
+            41, 9 eqq. </app>
+
+<app> 1 seruulum xpi cur <hi>NV</hi> dih <hi>N4</hi> 2 spu sco <hi>PET</hi> 3 somnium <lb/>
+            BU' 5 relgis <hi>B</hi> (re <hi>m3)</hi> ex his <hi>0</hi> sublimen Px se <hi>m2 ex</hi> esse <hi>P</hi> <lb/>
+            7 amfractus <hi>DT</hi> 9 ipsius <hi>P</hi> (i <hi>alt. m2 ex</hi> u) 10 caput (t <hi>ex</hi> d) <hi>BO</hi> <lb/>
+            12 crederis <hi>BY et (corr. m2) P2V</hi> 13 posterior hystoria (om. temporis) <lb/>
+            P4 14 temporis <hi>in mg. m2 P</hi> historiam <hi>B et</hi> (m <hi>exp.) P</hi> <lb/>
+            doec <hi>T</hi> doet (c <hi>8</hi>. t) <hi>B</hi> docet <hi>PD</hi> donec 9T doech <hi>cet</hi>. 15 ad disci- <lb/>
+            U <lb/>
+            plinam on adicinam <hi>0</hi> adde si placet <hi>NY</hi> m. lorum <hi>P</hi> (u <hi>m2,</hi> a <lb/>
+            <hi>eras.)</hi> multorum <hi>P'</hi> 16 fraude regem W 18 num <hi>NV</hi> non <hi>IIDO</hi> <lb/>
+            19 a <hi>om. PPPIID, exp. m2 0</hi> inuaderet <hi>BPx</hi> 21 spoliare <hi>B</hi> <lb/>
+            (s <hi>8. u.)</hi> 24 aliquando P (d <hi>ex</hi> t) </app>
+
+<app> XXXII. Ambr. pars S. </app>
+
+<app> 7 </app> <lb/>
+             
+<pb n="98"/>
+            tamen, ut regi prouideret interpretem, non quasi gratus, sed <lb/>
+            quasi callidus <choice><note>intimauit</note><corr>iutimauit</corr></choice> seriem rei gestae. quo cognito rex <lb/>
+            quoque <choice n="0.83"><note n="42581">cum</note><corr n="8584">eum</corr></choice> iussit arcessiri erutumque de carcere interrogauit, <lb/>
+            si posset interpretari sibi somnium. cuius explanatione delectatus <lb/>
+            remouit iniuriam, honorem detulit. itaque uidete si non<lb n="5"/>
+            praesentibus et ista conueniunt. iniuria inlata est prius quam <lb/>
+            cognosceretur a rege, gratia relata, ubi regi est cognitus. ita <lb/>
+            rex uacat culpa, quia et id quod excepit uir sanctus iniuriae <lb/>
+            alienum fuit et id quod recepit gratiae regis est proprium. 
+</p></div1>
+
+<div1 n="37" subtype="section"><head>§ 37</head>
+<p> <lb/>
+            somnium autem et eius interpretatio huiusmodi est: <note type="margin"> D </note> quaecumque <lb n="10"/>
+            inquit facit deus ostendit <choice n="0.96"><note n="92">Pharao</note><corr n="3">Phara</corr></choice>. septem uaccae <lb/>
+            bonae septem anni sunt, et septem spicae bonae <lb/>
+            septem anni sunt. somnium <choice n="0.96"><note n="92">Pharao</note><corr n="3">Phara</corr></choice> unum est. <lb/>
+            et septem uaccae macrae, quae ascendebant post <lb/>
+            illas, septem anni sunt, et septem spicae macrae<lb n="15"/>
+            et a uento corruptae septem anni sunt. erit septem <lb/>
+            annis famis. uerbum autem quod dixi 'quaecumque <lb/>
+            deus facit ostendit <choice n="0.96"><note n="92">Pharao</note><corr n="3">Phara</corr></choice>', ecce septem anni <lb/>
+            <sic>ueniuntubertatismagnaeintotam</sic> terram Aegypti; <lb/>
+            uenient autem septem anni <choice n="0.02"><note n="1">lamis</note><corr n="39">famis</corr></choice> post haec et<note type="margin"> E </note> <lb n="20"/>
+            obliuiscentur ubertatem in tota Aegypto. et
+
+<app> 2 Gen. 41, 14 sq. 10 Gen. 41, 25-82 </app>
+
+<app> 2 regi P (g <hi>del. m2)</hi> 3 arcessiri <hi>BO</hi> arcessi <hi>V</hi> arcersiri <hi>P ml</hi> accersiri <lb/>
+            P tn2 <hi>cet</hi>. erutii tumque <hi>B</hi> (t <hi>pr. eras.),</hi> erutumque <hi>om. N</hi> <lb/>
+            4 possit P <hi>(corr. m2) N'VO</hi> 7 itaque <hi>N'</hi> 8 excepit <hi>NPx</hi> excipitur <lb/>
+            <hi>V</hi> excipit <hi>cet</hi>. 9 id <hi>NVP1</hi> ideo <hi>cet</hi>. recepit <hi>NPx</hi> requirit <hi>V</hi> recipit <lb/>
+            <hi>cet</hi>. regis gratiae est <hi>N'</hi> regis est gratiae <hi>T </hi>. 10 eius <hi>ex</hi> ius <hi>P</hi> <lb/>
+            autem eius et W 11 faciet <hi>P</hi> (e <hi>s. «. in2) D</hi> pharao <hi>P DO</hi> <lb/>
+            farao <hi>BV</hi> faraoni U' pharaoni <hi>cet</hi>. 13 pharao <hi>PPxDO</hi> farao <hi>BV</hi> <lb/>
+            faraonis 31' pharaonis <hi>cet</hi>. 16 erit enim <hi>P4</hi> 17 famis <hi>B</hi> fames <hi>Px</hi> <lb/>
+            (e <hi>ex</hi> i) <hi>cet</hi>. dixi <hi>ed. Rom</hi>. dixit <hi>UxE</hi> dixit farao <hi>BU'V</hi> dixit pharao <lb/>
+            <hi>cet</hi>. 18 deus faciet P (e <hi>s. u. m2) D</hi> fecit deus <hi>N'</hi> facit deus <hi>T</hi> <lb/>
+            pharao <hi>PDO</hi> farao <hi>BV</hi> faraoni 21' pharaoni <hi>cet</hi>. 20 uenient <hi>BU'VEOT</hi> <lb/>
+            ueniunt 2(x ueniet <hi>cet</hi>. anni <hi>NV</hi> annis <hi>B</hi> (s <hi>eras.) cet</hi>. famis <lb/>
+            <hi>BU''ET et U'm2</hi> fames 21' <hi>1111 Px</hi> (es <hi>ex</hi> is) <hi>cet</hi>. 21 Csumet <hi>P</hi> <lb/>
+            (5 s. M.) </app> <lb/>
+             
+<pb n="99"/>
+            consumet famis totam terram et non agnoscetur <sic>ubertasterraeafame</sic>, <lb/>
+            quae futura est post haec; ualida <lb/>
+            enim nimium. quod autem iterauit somnium Pharao <lb/>
+            bis, quia uerum erit uerbum a deo et festinabit <lb/>
+            deus facere illud. <lb n="5"/>
+            
+</p>
+          </div1>
+
+<div1 n="38" subtype="section"><head>§ 38</head>
+<p rend="script"> Uetus somnium, res recentes. posterioribus priora consumpta <lb/>
+            sunt et ubi erat ante ubertatis copia, ibi rerum omnium facta <lb/>
+            est indigentia. quod si quis huiusmodi consilium regi dedisset, <lb/>
+            ut aliquid de superiori ubertate posteriori principatus sui <note type="margin"> F </note> <lb/>
+            seruaret aetati, reliquo quoque tempori larga donandi affluentia <lb n="10"/>
+            redundasset. sed inmodica <choice n="0.96"><note n="264">aeui</note><corr n="10">aeni</corr></choice> superioris effusio etiam posteriora <lb/>
+            destituit et homines diripientes uniuersa aliquem loseph <lb/>
+            adhibere nolebant. etsi non ego Ioseph — quis enim istud ? —, <lb/>
+            clamabam tamen uaccas illas pinguis non solum lasciuiam, <sic>seJ</sic> <lb/>
+            etiam incuriam diuinae significare reuerentiae — de perfidis <lb n="15"/>
+            enim dictum est: tauri pingues obsederunt me et de <lb/>
+            Iudaeorum populo scriptum est: inpinguatus et obesus <note type="margin"> 498 A </note> <lb/>
+            factus est et dilatatus est et dereliquit deum, qui <lb/>
+            fecit eum — et ideo somnium illud redundantiae saecularis <lb/>
+            perpetuum esse non posse: fore tempus, quo his famis dura <lb n="20"/>
+            succederet. 
+</p></div1>
+
+<div1 n="39" subtype="section"><head>§ 39</head>
+<p> nec tamen hoc somnium uni aut duobus
+
+<app> 6 cf. Symmachus epist. X 3, 15 sqq. Ambrosii epist. XVIII 18 sqq. <lb/>
+            16 Psalm. XXI 13 17 Dent. 32, 15 </app>
+
+<app> 1 famis <hi>B</hi> fames <hi>Px</hi> (es <hi>ex</hi> is) <hi>cet</hi>. non <hi>s</hi>. u. <hi>P</hi> cognoscetur <hi>N' <lb/>
+            et</hi> (a <hi>8</hi>. co) <hi>T</hi> 2 quae <hi>om. N</hi> futura. post U' (p <hi>m2 in ras.)</hi> est <lb/>
+            <hi>om. WET</hi> aalida est enim <hi>0</hi> nimium ualida <hi>(om</hi>. enim) <hi>P'</hi> 3 pharao <lb/>
+            somnium P4 farao <hi>Bsk'V</hi> 4 a <hi>om. V</hi> festinauit <hi>BN et (corr. m2) P</hi> <lb/>
+            5 deus <hi>om. P4</hi> ut faceret <hi>N</hi> 6 recentes <hi>B</hi> (es <hi>ex</hi> is) priora <hi>P</hi> <lb/>
+            (a <hi>ex</hi> is) 7 antea <hi>%'ET</hi> abunde V 8 regi consilium <hi>N'</hi> 10 tempore <lb/>
+            <hi>PP</hi> afluentia <hi>B</hi> 12 distituit <hi>B et (corr. m2) P</hi> ioseph <lb/>
+            ei <hi>N</hi> 13 etsi (si 8. <hi>u. m2) P</hi> quis <hi>(m2</hi> quiuis) enim (sim 8. <hi>u. <lb/>
+            add. m2) P</hi> quiuis enim sum <hi>D</hi> istut <hi>B</hi> 14 pingues <hi>B</hi> (es ex is) <lb/>
+            <hi>cet</hi>. 16 pingues <hi>B</hi> (es <hi>ex</hi> is) 17 obesus factus (factus factus <hi>B)</hi> est <lb/>
+            <hi>n VDO</hi> incrassatus <hi>N</hi> 18 dilatatus <hi>B</hi> (di <hi>ex</hi> de) deumjV <hi>euim IIVDO</hi> <lb/>
+            qui fecit eum <hi>XIVDO</hi> qui fecit illum 21'T factcrem suum <hi>UxE</hi> <lb/>
+            20 perpetutl <hi>P</hi> (Q <hi>ex</hi> e m2) sed fore 2T (sed s. <hi>u. m. ant.,</hi> fore vi2 <lb/>
+            <hi>ex</hi> foret) <hi>UxE</hi> famis <hi>B</hi> fames <hi>P</hi> (es <hi>ex</hi> is <hi>w2) cet</hi>. </app>
+
+<app> 7* </app> <lb/>
+             
+<pb n="100"/>
+            demonstratum arbitror, sed omnibus propositum, eo quod septem <lb/>
+            anni istius mundi pingues et saeculari ubertate opimi absorbeantur <lb/>
+            ab illis saeculis, quae futura sunt, in quibus perpetua <lb/>
+            quies et legis obseruantia spiritalis, quam Ephraem illa tribus <note type="margin"> B </note> <lb/>
+            patrum deo fructuosa custodiat, bona uacca, non illa corporeo <lb n="5"/>
+            distenta ubere, sed abundans spiritalis lactis et gratiae, super <lb/>
+            cuius decorem ceruicis deus sedere se dicit, ut scriptum est: <lb/>
+            Ephraem uacca docta diligere uictoriam. ego autem <lb/>
+            transiui super decorem ceruicis eius. non ergo inpinguet <lb/>
+            caput nostrum oleum peccatoris nec falsi fructus delectare<lb n="10"/>
+            nos debent, ne dicatur et de nobis: seminastis inpietatem <lb/>
+            et iniquitates eius uindemiastis. manducasti fructum <lb/>
+            falsum, quia sperasti in curribus tuis. nec me mouet <note type="margin"> C </note> <lb/>
+            quod habet spicas macras et uento corruptas, quia et Dauid <lb/>
+            tum melior erat, quando sicut aranea tabescebat, et spiritus<lb n="15"/>
+            contribulatus sacrificium dei est et illi praestantiores euadunt <lb/>
+            quos in hoc saeculo grauibus iniuriis spiritus malignus exercuit. 
+</p></div1>
+
+<div1 n="40" subtype="section"><head>§ 40</head>
+<p> <lb/>
+            <choice><note>lunde</note><corr>unde</corr></choice> magis mystica meruisse praemia Ioseph arbitror, quia <lb/>
+            de mysticis est locutus. quid enim sibi uult anulus digito <lb/>
+            eius insertus nisi ut intellegamus pontificatum ei fidei esse <note type="margin"> D </note> <lb n="20"/>
+            delatum, ut alios ipse signaret? quid stola, quae amictus est <lb/>
+            sapientiae, nisi tributum ei ab illo rege caelesti prudentiae <lb/>
+            principatum? torques aureus intellectum bonum uidetur
+
+<app> 6 Uerg. Ecl. IITI 21 8 Hoa. 10, 11 10 Psaltn. XXII 5 11 Hos. <lb/>
+            10, 13 15 Psalm. XXXVIII 12 L 19 19 Gen. 41. 42 21 Gen. <lb/>
+            41, 42 23 Gen. 41, 42 </app>
+
+<app> 2 istius <hi>B</hi> (i <hi>pr. 8. u.)</hi> pingues <hi>(es ex</hi> is) <hi>BPx</hi> 3 perpetua P <lb/>
+            <hi>(pe alt. 8. u. m2) 4 et 8 efrem BV effrem cet. 5 custodit NV</hi> <lb/>
+            8 trituram <hi>E in ras. m2 (in mg. m2</hi> uictoriam) ego enim <hi>N</hi> 10 capud <lb/>
+            <hi>P et (corr. ml) RPx</hi> falsi P (fal <hi>8. 11. m2)</hi> 11 semenastis <hi>B</hi> <lb/>
+            12 iniquitates <hi>B</hi> (es <hi>ex</hi> is <hi>m2)</hi> uindemiastis <hi>B</hi> (e ex i) manducastis <lb/>
+            <hi>P</hi> (s <hi>alt. exp.) V</hi> 13 sperastis <hi>P</hi> (s <hi>tert. 8. u</hi>. m2) 31x (s <hi>tert. <lb/>
+             exp.) V</hi> curribus eius <hi>V</hi> 14 habebat <hi>PDO</hi> spicat P (s m2 <hi>8</hi> t) <lb/>
+            15 tunc <hi>NY</hi> 16 praestantiores (es <hi>ex</hi> is) <hi>B m2 Px ml</hi> 17 iniuriis <lb/>
+            V <lb/>
+            (i <hi>quart. s. u.) B</hi> 18 meruisse <hi>B</hi> (i <hi>8. u.)</hi> 19 analus <hi>P</hi> 21 quid <lb/>
+            <hi>e.c</hi> quod <hi>P,</hi> quid (id <hi>in ras. m2)</hi> 91' 22 prodentiae <hi>B</hi> (v 8. 0) </app> <lb/>
+             
+<pb n="101"/>
+            exprimere; currus quoque significat fastigium sublime meritorum. <lb/>
+            quis autem est qui ex gentibus accepit uxorem nisi qui <lb/>
+            ecclesiam sibi ex nationibus congregauit et suscepit ex ea <lb/>
+            filium Manassem, per quem oblitus est omnes dolores suos, <lb/>
+            quos habuit de <choice><note>sacnlegiis</note><corr>sacrilegiis</corr></choice> Iudaeorum? suscepit alium quoque <note type="margin"> E </note> <lb n="5"/>
+            filium Ephraem, per cuius profectum claruit quod suscepta <lb/>
+            in carne humilitas et diuinitatem non humiliauit et cumulauit <lb/>
+            gloriam. 
+</p>
+          </div1>
+
+<div1 n="41" subtype="section"><head>§ 41</head>
+<p rend="script"> Denique quicumque famem patiebantur adloseph mittebantur. <lb/>
+            qui sunt isti nisi de quibus dictum est: conuertentur ad <lb n="10"/>
+            uesperam et famem patientur ut canes? erat autem <lb/>
+            fames non unius loci, sed totius terrae, quia non erat qui <lb/>
+            faceret bonitatem. ideo dominus esus <choice><note>leiunia</note><corr>ieiunia</corr></choice> mundana <note type="margin"> F </note> miseratus <lb/>
+            aperuit horrea sua et mysteriorum caelestium thensauros <lb/>
+            scientiae sapientiaeque patefecit absconditos. ut nulli alimenta <lb n="15"/>
+            deessent. dixit enim <choice><note>Sapieutia</note><corr>Sapientia</corr></choice>: uenite edite panes meos, <lb/>
+            et ideo ab illo solo dicitur: dominus pascit me, et nihil <lb/>
+            mihi deerit qui saturatur a Christo. aperuit ergo horrea <lb/>
+            sua Christus et uendebat non aera pecuniae, sed fidei pretium <lb/>
+            et deuotionis stipendium quaerens. uendebat autem non paucis <lb n="20"/>
+            in Iudaea, sed uendebat omnibus, ut ab uniuersis nationibus <lb/>
+            crederetur. 
+</p></div1>
+
+<div1 n="42" subtype="section"><head>§ 42</head>
+<p> et omnes regiones uenerunt in Aegyptum <note type="margin"> 499 A </note> <lb/>
+            ad Ioseph emere; optinuerat enim fames. omnes enim <lb/>
+            esuriunt quos non pauerit Christus. emamus ergo alimenta,
+
+<app> 1 Gen. 41, 43 4 Gen. 41, 51 6 Gen. 41, 52 9 Gen. 41, 55 <lb/>
+            10 Psalm. LVIII 7 14 Gen. 41, 56 16 Prouerb. 9, 5 17 Psalm. <lb/>
+            XXII 1 22 Gen. 41, 57 </app>
+
+<app> 2 accipit <hi>IIDO</hi> quiạ<foreign xml:lang="grc">̇</foreign> P (a <hi>exp. m2)</hi> 3 ex nationibus sibi <hi>WE</hi> <lb/>
+            4 manassen <hi>VPUx E</hi> 6 ephrem <hi>U'E</hi> efrem <hi>B V</hi> effrem <hi>cet</hi>. 7 humilitas <lb/>
+            P (as m2 <hi>ex</hi> atis) gloriam camulauit <hi>UxE</hi> 10 istis P (s <hi>alt</hi>. <lb/>
+            &amp; <lb/>
+            <hi>eras.)</hi> conuertantur P' (e <hi>s</hi>. a) <hi>Px</hi> 11 patientur <hi>Px</hi> patiebantur <hi>N'</hi> <lb/>
+            13 faceret <hi>B</hi> (t 8. <hi>u)</hi> hiesus <hi>B</hi> 14 te«sauros <hi>B</hi> (n <hi>eras.)</hi> thesauros <lb/>
+            <hi>cet</hi>. 15 sapientiaequae <hi>B</hi> (a <hi>pr. s. u.)</hi> alimenta B (i ex e) 19 uendebat <lb/>
+            <hi>B</hi> (e <hi>pr. ex</hi> i) aerę P (a <hi>s. ẹ m2)</hi> 22 regiones <hi>B</hi> (ea <hi>ex</hi> is) <lb/>
+            23 enim eos <hi>N</hi> omnes <hi>B</hi> (es <hi>ex</hi> is) 24 esurient <hi>N</hi> pauerit P <lb/>
+            (i <hi>ex</hi> a) </app> <lb/>
+             
+<pb n="102"/>
+            quibus famem possimus repellere. nemo paupertatis suae <lb/>
+            contemplatione reuocetur, nemo uereatur qui argentum non <lb/>
+            habet. non quaerit Christus argentum, sed fidem, quae argento <lb/>
+            pretiosior est. denique emit eum Petrus, qui non habebat <lb/>
+            argentum. argentum inquit et aurum non habeo, sed quod<lb n="5"/>
+            habeo do tibi. in nomine Christi Iesu surge et ambula. <note type="margin"> B </note> <lb/>
+            et propheta Esaias dicit: qui sititis ite ad aquam et <lb/>
+            quicumque non habetis argentum ite emite et bibite <lb/>
+            et manducate sine argento et pretio uini. neque enim <lb/>
+            pretium quaesiuit a nobis qui pro nobis sanguinis sui pretium<lb n="10"/>
+            soluit, quia non auro et argento, sed pretioso nos redemit <lb/>
+            sanguine. ergo id pretium debes, quo emptus es. etsi ille <lb/>
+            non semper exigat, tu tamen debes. eme igitur tibi Christum <lb/>
+            non eo quod pauci habent, sed eo quod omnes habent per <lb/>
+            naturam, pauci offerunt per <choice n="0.68"><note n="403">morem</note><corr n="188">timorem</corr></choice>. suum est quod a te<note type="margin"> C </note> <lb n="15"/>
+            Christus reposcit. ipse uitam omnibus dedit, ipse pro omnibus <lb/>
+            mortem suam optulit. solue pro auctore quod soluturus es <lb/>
+            lege. non mediocris iste contractus est, non omnes eum facile <lb/>
+            uident. denique illae uirgines in euangelio, quas ueniens <lb/>
+            sponsus exclusit, ideo foris relictae sunt, quia uenale oleum<lb n="20"/>
+            non emerunt. unde dicitur his: ite potius ad uendentes <lb/>
+            et emite uobis. et negotiator non inmerito praedicatur, qui <note type="margin">D </note> <lb/>
+            <sic>nendidit</sic> omnia sua et emit margaritam. 
+</p>
+          </div1>
+
+<div1 n="43" subtype="section"><head>§ 43</head>
+<p rend="script"> <milestone n="8" unit="altchapter"/>  Et Iacob dixit filiis suis: quare pigri estis? ecce
+
+<app> 3 I Petr. 1,7 5 Act. 3, 6 7 Esai. 55, 1 11 I Petr. 1, 18 sq. <lb/>
+            19 Matth. 25, 10 21 Matth. 25, 9 22 Matth. 13, 46 2* Gen. <lb/>
+            42, 1 sq. </app>
+
+<app> 2 quia <hi>0</hi> 3 quaeritur Chr. argento, sed fide <hi>N</hi> 4 euin <hi>scripsi</hi> eam <lb/>
+            <hi>libri; cf. u. 13</hi> 6 ihu xpi <hi>N, quod praeferendum esse puto</hi> (<foreign xml:lang="grc">Ιησοῡ <lb/>
+            Χριστοῡ</foreign> ) <hi>surge B (r s. 11.) 7 profeta eseias B sititis B (is ex</hi> <lb/>
+            es) 8 habctis <hi>B</hi> (is <hi>ex</hi> es) 9 argento <hi>B</hi> (n s. <hi>u.)</hi> 12 <hi>sq</hi>. debes <hi>B</hi> <lb/>
+            (es <hi>ex</hi> is) 14 omnes habent. omnes habent <hi>N</hi> sed ... habent <hi>om. V</hi> <lb/>
+            15 offerant <hi>PP'Px post</hi> timorem <hi>add</hi>. enim <hi>P (in mg. m2) T (s. fl</hi>. <lb/>
+            i <lb/>
+            <hi>m2) D</hi> 17 obtulit P solue P (e <hi>ex</hi> it) 18 lege <hi>B</hi> 19 euangelium <lb/>
+            <hi>B</hi> (-io <hi>corr. ml) P'</hi> 21 his <hi>lIDO</hi> eis <hi>NV</hi> 23 margaritam <hi>P</hi> <lb/>
+            (i cv e <hi>m2)</hi> 24 dixit <hi>Costerius</hi> dicit <hi>libri</hi> suis filiis 31' </app> <lb/>
+             
+<pb n="103"/>
+            audiui quia est frumentum in Aegypto. descendite <note type="margin"> E </note> <lb/>
+            illo et emite nobis escas. non semel hoc Iacob dixit, <lb/>
+            cotidie omnibus filiis suis dicit, qui serius ueniunt ad gratiam <lb/>
+            Christi: quare pigri estis? ecce audiui quia est frumentum <lb/>
+            in Aegypto. ex hoc frumento granum est quod resurgit. <lb n="5"/>
+</p> 
+</div1>
+
+<div1 n="44" subtype="section"><head>§ 44</head>
+<p>
+            qui igitur famem sustinet suae segnitiae debet adscribere. <lb/>
+            ecce inquit audiui quia est frumentum in Aegypto. <lb/>
+            citius utique iuniores aliquid quam seniores audire consuerunt, <lb/>
+            dum foris positi multi circumeunt. sed hanc negotiationem <lb/>
+            prius senex audit, sed ille senex, in quo est fidei longaeua <note type="margin"> F </note> <lb n="10"/>
+            canities, prior senex intellegit, senex, in quo uenerabilis est <lb/>
+            senectus et aetas senectutis uita inmaculata. nec omnes hanc <lb/>
+            negotiationem suscipiunt nisi filii Iacob et ipsi prouectioris <lb/>
+            aetatis. ideo decem pergunt, non pergit iunior. non misit eum <lb/>
+            pater, ne contingat inquit eum infirmitas. adhuc obnoxius <lb n="15"/>
+            <note type="margin">500 A </note> <lb/>
+            erat infirmitate Beniamin <choice><note>lunior</note><corr>iunior</corr></choice>. <choice><note>patriarcna</note><corr>patriarcha</corr></choice> <choice><note>quiaem</note><corr>quidem</corr></choice> legitur <lb/>
+            Beniamin, sed ille ex tribu Beniamin Paulus praefigurabatur. <lb/>
+            merito Iacob de eius infirmitate dubitabat. denique infirmatus <lb/>
+            est, ut sanaretur: caecitatem passus est, sed haec infirmitas <lb/>
+            ad salutem. denique illa caecitas lucem adtulit. accepimus <lb n="20"/>
+            historiam, cognoscamus mysterium. 
+</p></div1>
+
+<div1 n="45" subtype="section"><head>§ 45</head>
+<p> sine Beniamin patriarchae <lb/>
+            primo perrexerant, sine Paulo apostoli. uterque non primus
+
+<app> 5 Ioh. 12, 24 10 Sap. 4, 8 sq. 13 Gen. 42, 3 sq. 15 Gen. <lb/>
+            42, 4 17 Eom. 11, 1 19 Act. 9, 8 sq. </app>
+
+<app> 1 est s. <hi>u. P</hi> frumentum est % discendite <hi>B (corr. m3) P <lb/>
+            (corr. m2)</hi> 3 cotidiae <hi>B</hi> 6 segnitiae <hi>B</hi> (e <hi>pr. ex</hi> i) segnitiei <hi>WE</hi> <lb/>
+            7 audiui inquit 9C', inquit <hi>post</hi> frumentum <hi>transponit E</hi> frumentum <lb/>
+            est Ux 8 aliqui [ id <hi>BU'</hi> aliqui 91x <hi>et (in quo repetitur</hi> aliqui <hi>post</hi> <lb/>
+            senioree) <hi>E</hi> consuerunt audire <hi>N'</hi> 9 positis <hi>P</hi> (s <hi>alt. eras.)</hi> multi <lb/>
+            <hi>BDO et</hi> (s. i molta) <hi>P</hi> multa <hi>cet</hi>. 10 audiuit <hi>VplE</hi> 11 canitiens <hi>B</hi> <lb/>
+            (n <hi>alt. eras.)</hi> intellexit <hi>V ante alt</hi>. senex <hi>add</hi>. sed ille <hi>NV</hi> est <lb/>
+            uenerabilis <hi>UxET</hi> 13 prouectiores <hi>BP</hi> 14 aetatis <hi>P</hi> (is <hi>ex</hi> es <hi>m2)</hi> <lb/>
+            decem <hi>P</hi> (em m2 <hi>ex</hi> im) 17 beniamin <hi>pr. P</hi> (a 8. <hi>u. m2)</hi> praefigurabatur <lb/>
+            <hi>BN</hi> praefiguratur <hi>cet</hi>. 21 patriarcha <hi>U'UxP'T, om. E</hi> <lb/>
+            22 perrexerunt <hi>N'</hi> apostolo <hi>P'N</hi> primus <hi>NV</hi> proprius <hi>P'</hi> (pro <lb/>
+            <hi>eras.; om</hi>. non) prius <hi>eel</hi>. </app> <lb/>
+             
+<pb n="104"/>
+            aduenit, sed arcessitus a primis uberiorem mercem priorum <note type="margin"> B </note> <lb/>
+            suo fecit aduentu. est inquit frumentum in Aegypto, hoc <lb/>
+            est: ubi maior fames, ibi maior ubertas est. magnum frumentum <lb/>
+            in Aegypto. denique et deus pater dicit: ex Aegypto <lb/>
+            uocaui filium meum. ex isto grano illa fecunditas; neque<lb n="5"/>
+            enim messis esse potuisset, nisi Aegyptii granum ante seuissent. <lb/>
+            est ergo frumentum, quod nemo ante esse credebat; in <lb/>
+            hoc frumento negotiantur patriarchae. et illi quidem argentum <note type="margin"> c </note> <lb/>
+            detulerant, sed bonus <choice><note>loseph</note><corr>Ioseph</corr></choice> frumentum dedit, argentum <lb/>
+            reddidit; non enim pecunia emitur Christus, sed gratia: pretium<lb n="10"/>
+            tuum fides est, hac emuntur diuina mysteria. portat autem <lb/>
+            frumentum hoc asinus ille ante inmundus in lege, sed iam <lb/>
+            mundus in gratia.-
+</p>
+          </div1>
+
+<div1 n="46" subtype="section"><head>§ 46</head>
+<p rend="script"> <milestone n="9" unit="altchapter"/>  Tenebatur tamen Beniamin iunior et patrio adhuc haerebat <note type="margin"> D </note> <lb/>
+            adfectu. tenebant eum legis uincula, mos paternus. fames <sic>inualescebat</sic>,<lb n="15"/>
+            quia sero ueniebat. intercedunt pro eo duo, Ruben <note type="margin"> E </note> <lb/>
+            et ludas, hoc est humilitas atque confessio. his uadibus aput <lb/>
+            patrem utitur, his committitur, quorum unus primitiuus, alius <lb/>
+            <choice><note>resuscitatils</note><corr>resuscitatus</corr></choice>. lex primitiui, euangelium resuscitati. his deducitur <lb/>
+            Beniamin iunior et bonis odoribus comitatus aduenit<lb n="20"/>
+            portans secum resinam, qua lapides marmorum conectuntur, <lb/>
+            eo quod praedicatione propria tamquam spiritali resina uiuos <lb/>
+            lapides etiam iste conecteret: portans etiam <choice n="0.13"><note n="291">mel</note><corr n="1831">mei</corr></choice>, quo noxia <lb/>
+            uulneris interius exeduntur sine acerbitate aliqua sectionis. <note type="margin"> F </note>
+
+<app> 4 Matth. 2, 15 (Hos. 11, 1) 12 Gen. 44. 3 Ioh. 12, 14 sq., Zach. <lb/>
+            9, 9 15 Galat. 1, 14 Gen. 43, 1 16 Gen. 43, 7 sq. 17 cf. Gen. <lb/>
+            29, 32 Philo de somniis I 7 (I 626, 17) 21 Gen. 43, 10 <lb/>
+            e </app>
+
+<app> 1 arceesitus <hi>BVO</hi> arcersitus P (c 8. u. <hi>m2)</hi> accersiius <hi>cet</hi>. uberiorem <lb/>
+            <hi>NV</hi> superiorem <hi>cet</hi>. 5 uocaui <hi>B</hi> (i <hi>ex</hi> 0) 6 seuissent <hi>B</hi> (i <hi>in<lb/>
+             ras.)</hi> 7 credebat esse N 9 detulerunt <hi>NVP4</hi> 11 fides <hi>B</hi> (es <hi>ex</hi> is) <lb/>
+            12 ante <hi>om. N'</hi> 13 in gratiam <hi>B</hi> per gratiam <hi>NV</hi> 14 beniamen <hi>B</hi> <lb/>
+            adhaerebat <hi>N</hi> 16 roben <hi>B</hi> (v <hi>s. 0 m2)</hi> 17 aput <hi>B</hi> apud <hi>eef</hi>. <lb/>
+            19 primitiui <hi>0 libri s. Ebulphri, s. Michaelis, 8. Albini</hi> primitiua <hi>cet</hi>. <lb/>
+            resuscitat <hi>PPx</hi> resuscitatQ 91' (Q <hi>m2 ex</hi> i) <hi>WET</hi> diducitur <hi>B et</hi> <lb/>
+            b a <lb/>
+            <hi>(corr. m2) P</hi> 20 bonis (i <hi>ex</hi> u) <hi>BP</hi> 24 aliqua acerbitate <hi>N'</hi> (aliqua siue <lb/>
+            91', b a m. <hi>ant.)</hi> aceruitate <hi>BV et (corr. ml) P (corr. m. ant.) 91'</hi> </app> <lb/>
+             
+<pb n="105"/>
+            talis enim Pauli praedicatio, ut putrem aboleret adfectum <choice><note>conruptumque</note><corr>conruptumqne</corr></choice> <lb/>
+            euacuaret umorem disputationis suae aculeo, <sic>ureremagis</sic> <lb/>
+            aegra mentis uiscera cupiens quam secare. incensum <lb/>
+            orationis et casiam et guttam sepulturae insignia esse Dauid <lb/>
+            propheta nos docuit dicens: murra et gutta et casia a <lb n="5"/>
+            uestimentis tuis. uenit enim Paulus crucem domini <note type="margin"> 501 A </note> praedicare, <lb/>
+            ilicem semper uirentem et nuces, quarum testa durior, <lb/>
+            fructus tenerior — meritoque uirga sacerdotalis Aaron nucina <lb/>
+            et Hieremiae baculum huiusmodi —, argentum quoque duplex. <lb/>
+            non otiosa munera esse quis dubitet, cum et patriarchae uita <lb n="10"/>
+            et apostoli sermo semper uirescat in pectoribus singulorum <lb/>
+            et eloquium sanctorum sicut argentum igne examinatum praecepti <lb/>
+            salubris fulgore resplendeat? nec inmerito duplex argentum <lb/>
+            referunt, in quibus Pauli praefigurabatur aduentus, qui <note type="margin"> B </note> <lb/>
+            laborantes presbyteros in uerbo atque doctrina duplici honore <lb n="15"/>
+            donabat. 
+</p>
+          </div1>
+
+<div1 n="47" subtype="section"><head>§ 47</head>
+<p rend="script"> Uidit autem illos Ioseph et Beniamin fratrem <lb/>
+            suum ex eadem matre. iam uidentur Hebraei et uidentur <lb/>
+            a Christo, qui Ioseph uerus est, quando cum Pauli ueniunt <lb/>
+            typo, et loquitur illis mitia atque mansueta, ut pariter cibum <lb n="20"/>
+            sumant. supra autem, quia sine Beniamin uenerunt, agnoscebat <lb/>
+            quidem eos, sed ab his se auertebat, ut scriptum est: et <note type="margin"> C </note> <lb/>
+            loquebatur his dura, quia ipsi non agnoscebant eum a
+
+<app> 5 Psalm. XXXXIIII 9 8 Num. 17, 8 Hier. 1, 11 sq. 9 Gen. <lb/>
+            43, 11 et 14 12 Psalin. XI 7 15 I Tim. 5, 17 17 Gen. 48, 28 <lb/>
+            22 Gen. 42. 7 </app>
+
+<app> 2 umorem <hi>B</hi> humorem <hi>P</hi> (h <hi>s. u. m2) cet</hi>. 3 aegrae <hi>P'P''</hi> 4 casiam <lb/>
+            <hi>P'Px</hi> eass;am <hi>cet</hi>. 5 profeta <hi>B</hi> murra <hi>B</hi> miira <hi>U'VO</hi> myrra <lb/>
+            <hi>cet</hi>. casia Px cassia P' is <hi>pro eras.) cet</hi>. 7 <hi>fort</hi>. &lt;portans - semper, <lb/>
+            <hi>cf. p.104 U. 23</hi> 8 et fructus <hi>WE</hi> aron <hi>B nocina B</hi> (v s. o) nucina P <lb/>
+            <hi>(ex</hi> nociua <hi>m2)</hi> nucinea <hi>U</hi> 9 ieremiae <hi>B</hi> baculum <hi>BV</hi> baculus (us <lb/>
+            <hi>ex</hi> n vi2) Pil' baculus <hi>cet</hi>. 12 eloquiorum <hi>P</hi> igni P (ni <hi>ex</hi> ne <lb/>
+            <hi>m2) D</hi> 15 praesbytcros <hi>B</hi> presbiteros <hi>PV</hi> pbros 91' 17 uidit (i <hi>alt. <lb/>
+             8. u.)</hi> autem (au 8. 14.) <hi>B</hi> in <hi>(exp. m2)</hi> fratrem P 18 uidentur (n <lb/>
+            <hi>8. u.)</hi> haebraei <hi>B</hi> 19 uerus ioseph Ux 28 loquebatur <hi>B</hi> (e <hi>ex</hi> it <lb/>
+            ipse P <hi>(corr. ml)</hi> <lb/>
+             
+<pb n="106"/>
+            </app>quo agnoscebantur. Pauli igitur merito profecerunt, quem <lb/>
+            dominus Iesus tamquam iuniorem fratrem ex eadem matre <lb/>
+            generatum amplius ceteris fratribus diligebat. aduertant Iudaei <lb/>
+            quem dominum negauerunt. qui etiam crucifixus ex synagoga <lb/>
+            eorum tamen tamquam ex eadem ortos parente plus diligit,<lb n="5"/>
+            si uel sero cognoscant suae salutis auctorem. sed propriorum <lb/>
+            conscii delictorum non credunt tantam Christi esse <note type="margin">l) </note> misericordiam, <lb/>
+            ut donet peccatum, remittat iniuriam. ideoque praefigurabantur <lb/>
+            in patriarchis quales essent futuri. inuitabantur <lb/>
+            ad gratiam, ad salutaris mensae uocabantur conuiuium, et <lb n="10"/>
+            calumniam sibi parari, insidias fieri suspicabantur.</p></div1>
+
+<div1 n="48" subtype="section"><head>§ 48</head>
+<p>et coeperunt <lb/>
+            ad hominem, qui erat supra domum, in ianua domus <lb/>
+            causam suam uelle agere. adhuc dubitant introire et ex operibus <lb/>
+            suis malunt iustificari qui causam uolunt adstruere <lb/>
+            quam gratiam accipere et ideo in portis redarguuntur. qui<note type="margin"> E </note> <lb n="15"/>
+            autem fructum uteri uirginalis expectat et hereditatem domini, <lb/>
+            filii mercem negotiatur non erubescit in porta, sed in <lb/>
+            exitu uitae huius repellit inimicum, ne ad altiora properanti <lb/>
+            conscius culpae <choice><note>grauions</note><corr>grauioris</corr></choice> obsistat. 
+</p></div1>
+
+<div1 n="49" subtype="section"><head>§ 49</head>
+<p> unde mystice lUis respondit <lb/>
+            maior domus. et is qui sit intellege, cum legeris Moysen<lb n="20"/>
+            fidelem in tota domo eius. maiores enim domus Moyses Petrus <note type="margin"> F </note> <lb/>
+            Paulus et ceteri sancti sunt, Christus autem solus est dominus. <lb/>
+            scriptum est quia Moyses fidelis in tota domo eius <lb/>
+            tamquam famulus in testimonium eorum quae
+
+<app> 11 Gen. 43, 18 sq. 13 Galat. 2, 16 23 Hebr. 3, 5 sq. </app>
+
+<app> 1 proficerunt <hi>B (corr. m3)</hi> 2 matrcip <hi>B</hi> 5 eorum <hi>om. N'</hi> ex <lb/>
+            eadem ortos <hi>N'</hi> cx eadem ortus P (ex eadem <hi>in ras. m2) T (R. ras.) V</hi> <lb/>
+            ex adam mortuus <hi>cet</hi> plus eos P (eos <hi>s. u. mZ) T</hi> (eos s. <hi>u. ml)</hi> 6 priorum <lb/>
+            <hi>N'</hi> 7 esse <hi>s. u. B</hi> 8 praefigurabantur <hi>B</hi> (n <hi>s. u.)</hi> praefigurabatur <lb/>
+            <hi>VP'</hi> 9 quales <hi>B</hi> (es <hi>ex</hi> is) 13 suam <hi>om. P'</hi> agere uelle <hi>N</hi> <lb/>
+            adhuc <hi>B</hi> (h s. <hi>u</hi>. m3) 14 mallunt <hi>B</hi> (1 <hi>pr. eras.) P</hi> (1 <hi>pr. exp.)</hi> <lb/>
+            causam suam uolunt <hi>N</hi> 15 redarguntur <hi>B et (corr. m 1) 0</hi> 17 erubescit <lb/>
+            <hi>NV</hi> erubiscetit <hi>B</hi> erubescegt <hi>P</hi> erubescet <hi>D</hi> (-et <hi>ex'</hi> -at) <hi>cet</hi>. <lb/>
+            20 quis P' <hi>et (m.2 ex</hi> qui) <hi>PW</hi> 21 tota <hi>(m2 ex</hi> toto) P moeaes <hi>B</hi> <lb/>
+            22 et paulus <hi>UxEO</hi> 23 sicut scriptum <hi>N' V; fort</hi>. scriptum &lt;enim/ <lb/>
+            moises <hi>B</hi> (i <hi>ex e). om. PD</hi> </app> <lb/>
+             
+<pb n="107"/>
+            dicta essent, Christus uero tamquam filius in <lb/>
+            domo sua, quae domus nos sumus, si <choice n="0.57"><note n="352">libertatem</note><corr n="260">libertate</corr></choice> <lb/>
+            et gloriam spei tenuerimus. 
+</p>
+          </div1>
+
+<div1 n="50" subtype="section"><head>§ 50</head>
+<p rend="script"> Hic ergo maior domus respondit illis: propitius sit <lb/>
+            uobis, nolite timere. deus enim uester et deus <lb n="5"/>
+            patrum uestrorum dedit uobis thensauros in <sic>saceulis</sic> <lb/>
+            uestris: argentum uestrum probum acceptum 502 <note type="margin"> !A </note> <lb/>
+            habeo. illi enim dixerant: argentum uniuscuiusque <lb/>
+            in sacculis nostris inuenimus. argentum nostrum <lb/>
+            ad pondus rettulimus. o magna mysteria et euidenter <lb n="10"/>
+            expressa! hoc est dicere: cur inflamini? argentum uos habere <lb/>
+            uestrum in sacculis saepius usurpatis? quid enim habetis <lb/>
+            quod non accepistis ? si autem accepistis, quid gloriamini <lb/>
+            quasi non acceperitis? iam saturati estis, diuites facti estis. <lb/>
+            qui argentum habere uos creditis, sed argentum uobis deus <note type="margin"> B </note> <lb n="15"/>
+            <choice n="0.70"><note n="1027">parum</note><corr n="427">patrum</corr></choice> uestrorum dedit. ille deus uester, <choice><note>lile</note><corr>ille</corr></choice> <choice n="0.70"><note n="1027">parum</note><corr n="427">patrum</corr></choice> uestrorum <lb/>
+            deus est, quem negastis. sed ignoscit. sed indulget, sed <lb/>
+            recipit, si reuertamini. ipse est, qui uestrum non quaerit <lb/>
+            argentum, suum donat. ipse uobis dedit argentum in sacculis <lb/>
+            uestris. iam sacculi uestri argentum habent, qui lutum habebant; <lb n="20"/>
+            et ideo uester est qui dicit: conscidisti saccum <lb/>
+            meum et induisti me laetitia. laetitiae munus est <lb/>
+            Christus. ipse est argentum uestrum, ipse est pretium uestrum. <note type="margin"> C </note> <lb/>
+            non exigit a <choice n="0.60"><note n="4825">nobis</note><corr n="3215">uobis</corr></choice> dominus <choice n="0.00"><note n="2">esus</note><corr n="530">Iesus</corr></choice> frumenti sui pretium, non
+
+<app> 4 Gen. 43, 22 8 Gen. 43, 20 12 I Cor. 4, 7 sq. 21 Psalm. <lb/>
+            XXVIIII 12 </app>
+
+<app> 1 dicta (s. <hi>m2</hi> dicenda) essent 91' dicenda <hi>esaent %xE</hi> dicebantnr <hi>T</hi> <lb/>
+            uero <hi>HVDOT</hi> autem <hi>N'</hi> 5 uobis <hi>IIVO</hi> uobis dns <hi>D</hi> (dns <hi>s</hi>. «.) uobis <lb/>
+            dã 9C (dS s. <hi>te. m2) UxET</hi> 6 tensauros <hi>B</hi> (n <hi>eras.)</hi> thesauros <hi>cet</hi>. <lb/>
+            7 probatum Px 8 dixerunt <hi>N'V</hi> uniuscuiusque <hi>B</hi> (us <hi>alt. a</hi>. u.) <lb/>
+            9 et argentum <hi>1)0</hi> ad pondus argentum nostrum tyx 10 rettulimus <lb/>
+            '<hi>D</hi> retulimus <hi>cet</hi>. 11 cur argentum <hi>Costerius</hi> 13 accepistis (e <hi>ex</hi> i) <lb/>
+            <hi>bis B</hi> 14 acciperitis <hi>B et (corr. m2) P</hi> acciperetis <hi>V</hi> estes <hi>B</hi> <lb/>
+            15 quia <hi>NV</hi> uos habere <hi>P'D</hi> creditis <hi>B</hi> (i <hi>pr. ex</hi> e) 17 indulgit <lb/>
+            <hi>B et (corr. m2) P</hi> 20 sacculis <hi>B</hi> 22 munus <hi>e.v</hi> minus <hi>m2 P</hi> <lb/>
+            23 est <hi>ult. om. NVO</hi>. </app> 
+<pb n="108"/>
+            <lb/>
+            quaerit uestri pondus argenti. 
+</p></div1>
+
+<div1 n="51" subtype="section"><head>§ 51</head>
+<p> argentum uestrum reprobum <lb/>
+            est, argentum sacculi non est bonum. argentum uestrum <lb/>
+            probum acceptum habeo, hoc est: non est illud materiale <lb/>
+            argentum, sed spiritale argentum uestrum, hoc est <lb/>
+            probum, quod fida deuotione quasi Iacob filii detulistis, quod<lb n="5"/>
+            sine damno datur et sine ullo adnumeratur dispendio, quandoquidem <lb/>
+            tali pretio detrimentum mortis excluditur, lucrum <note type="margin"> D </note> <lb/>
+            uitae adquiritur. 
+</p>
+          <p> <milestone n="10" unit="altchapter"/> <sic>Parauerunt</sic> autem munera, donec introiret <note type="margin"> E </note> Ioseph <lb/>
+            meridie. 
+</p></div1>
+
+<div1 n="52" subtype="section"><head>§ 52</head>
+<p> accelerauit meridiem fides Pauli. ante caecus<lb n="10"/>
+            erat, postea coepit lumen uidere iustitiae, quoniam qui reuelat <lb/>
+            ad dominum uiam suam et sperat in eum, dominus quoque <lb/>
+            educet tamquam lumen iustitiam eius et iudicium eius sicut <lb/>
+            meridiem. et Abrae quando deus apparuit ad ilicem Mambrae, <lb/>
+            meres erat, cui de praesentia domini lux aeterna fulgebat. <note type="margin"> F </note> <lb n="15"/>
+            meridies est, quando Ioseph uerus in domum suam intrat, <lb/>
+            ut prandeat. tunc enim plus dies lucet, quando sacramenta <lb/>
+            celebramus. 
+</p></div1>
+
+<div1 n="53" subtype="section"><head>§ 53</head>
+<p> et intulerunt inquit ei munera. nos munera <lb/>
+            inferimus, ille instaurat conuiuium. ille dicit: adponite <lb/>
+            panes, quos soli Hebraei sumunt, Aegyptii manducare non<lb n="20"/>
+            possunt. sed ante conuiuium quanta dignatio! quam usus <lb/>
+            istius et sedulitatis et gratiae morale magisterium! adhuc de <note type="margin"> .508 A </note> <lb/>
+            calumnia, quam sibi a Ioseph fieri putabant, fratres suspecti <lb/>
+            erant. ille inuitabat ad prandium: horum nutabat adfectus, <lb/>
+            illius perseuerat gratia. primus adpellat, primus interrogat: <lb n="25"/>
+            quomodo habetis? 
+</p></div1>
+
+<div1 n="54" subtype="section"><head>§ 54</head>
+<p> et iterum ait: recte est pater
+
+<app>2 Gen. 43, 22 9 Gen. 43. 24 11 Psalm. XXXVI 5 sq., cf. Sap. <lb/>
+            5, 6 14 Gen. 18, 1 18 Gen. 43, 25 19 Gen. 43, 30 20 Gen. <lb/>
+            43, 31 sq. 26 Gen. 43, 26 </app>
+
+<app> 2 <hi>saeculi N</hi> 5 probatum <hi>T 6 numeratur N' (dispendio numeratur WE)</hi> <lb/>
+            dinumeratur P' 7 detrimentum <hi>B</hi> (de <hi>ex</hi> di) lucrum <hi>B (s</hi>. u <hi>pr. refs.)</hi> <lb/>
+            8 adquiritur <hi>B</hi> (ri ex re) 10 meridiem P (m s. u.) <hi>N</hi> meridie <hi>cet</hi>. <lb/>
+            11 uidere lumen <hi>N'</hi> 12 uiam <hi>P</hi> (s <hi>eras.)</hi> 13 educit <hi>X</hi> 14 meridie <lb/>
+            <hi>BV</hi> et (t <hi>s. u.) B</hi> abrae <hi>B</hi> abrahae <hi>cet</hi>. mftbre <hi>P</hi> 16 meridies <lb/>
+            (i <hi>alt. s. u.)</hi> est <hi>(8. u. m2) P</hi> in <hi>crai. P, om. DT</hi> 20 haebraei <lb/>
+            P ebraei 91' </app> <lb/>
+             
+<pb n="109"/>
+            uester senior? superioris est inferiorem ad conloquium <lb/>
+            prouocare, dare sermonis fiduciam, quaerere non solum de <lb/>
+            ipsis, sed etiam de parentibus. 
+</p>
+</div1>
+
+<div1 n="55" subtype="section"><head>§ 55</head>
+<p> respondent illi: recte est <lb/>
+            puer tuus, pater noster. ille seniorem dixit, ut honoraret: <note type="margin"> B </note> <lb/>
+            isti puerum nominarunt, ut deferrent humilitatis obsequium, <lb n="5"/>
+            quod senectus honoratae sit dignitatis, pueritia autem subiecta <lb/>
+            uideatur et propior uerecundiae quam superbiae. 
+</p>
+          </div1>
+
+<div1 n="56" subtype="section"><head>§ 56</head>
+<p rend="script"> Respiciens autem oculis uidit Beniamin fratrem <lb/>
+            suum ex eadem matre. morale est, ut quos diligimus <lb/>
+            eos uideamus prae ceteris et quos animi intentio tenet priores <lb n="10"/>
+            eos obtutus offendat oculorum, siquidem plerumque circa alia <lb/>
+            mentis occupatione districti quos habemus ante oculos non <note type="margin"> C </note> <lb/>
+            <sic>UHlemus</sic>. ita duce animo <choice><note>aingitur</note><corr>dirigitur</corr></choice> noster aspectus. uidit <lb/>
+            igitur Beniamin fratrem suum sanctus Ioseph, quem <choice><note>teuebat</note><corr>tenebat</corr></choice> <lb/>
+            animo, quem oculis requirebat, quo absente fratres paene <lb n="15"/>
+            non uiderat, quia uidere nihil proderat. nec solum uidisse <lb/>
+            contentus quasi nesciret interrogauit: hic frater uester <lb/>
+            est adulescentior? consuetudo et gratia caritatis est, ut <lb/>
+            dilectos nobis non solum oculis, sed etiam sermone teneamus. <lb/>
+            agnouerat Ioseph dilectum suum, sed ideo interrogabat, ut <note type="margin"> D </note> <lb n="20"/>
+            quem tenebat animus uox sonaret. 
+</p>
+</div1>
+
+<div1 n="57" subtype="section"><head>§ 57</head>
+<p> demque non expectauit <lb/>
+            ut responderetur, sed continuo benedixit eum et turbatus est <lb/>
+            desiderii sui fructu. torquebantur autem uiscera eius, <lb/>
+            quia conplectendi eius quem desiderauerat libertas differebatur. <lb/>
+            denique ingressus in promptuarium plorauit et lauit <lb n="25"/>
+            faciem suam et continuit se. grandis amoris aculei cito <lb/>
+            corda conpungunt, nisi desiderii frena laxentur. uincebatur <note type="margin"> E </note>
+
+<app> 3 Gen. 43, 27 8 Gen. 43, 28 17 Gen. 43, 28 23 Gen. 43, 29 <lb/>
+            25 Gen. 43, 29 sq. </app>
+
+<app> 4 pater nr (nr <hi>ex</hi> nr <hi>ml</hi> SP) puer tuus <hi>N'</hi> 5 illi <hi>WE</hi> nominauerunt <lb/>
+            <hi>N</hi> 7 proprior <hi>B et</hi> (r <hi>alt. exp. m2)</hi> W proprie <hi>PD</hi> 10 tenet <lb/>
+            <hi>IIVDOT</hi> habet Sl' <hi>(ex</hi> debet m. <hi>ant.) WE</hi> 12 destricti <hi>N'V et</hi> <lb/>
+            (de <hi>ex</hi> di) <hi>T</hi> distracti P 13 uideamus <hi>BO et</hi> (a <hi>eras.) P</hi> 16 quia.., <lb/>
+            proderat <hi>om. N', s. u. T</hi> prodęerat <hi>B</hi> 21 animo <hi>N</hi> 24 deferebatur <lb/>
+            <hi>B et (corr. m2) P</hi> 25 prumptuarium <hi>P (corr. m1) Px</hi> promtu- . <lb/>
+            arium <hi>VO</hi> 26 continuerunt <hi>BPx et (corr</hi>. m2) <hi>P</hi> </app> <lb/>
+             
+<pb n="110"/>
+            adfectu Ioseph, differebatur consilio: ratio cum amore certabat. <lb/>
+            fleuit, ut amoris pii aestus lacrimis temperaret. 
+</p>
+          </div1>
+
+<div1 n="58" subtype="section"><head>§ 58</head>
+<p rend="script"> : Haeo moraliter; mystice autem uidit dominus lesus Paulum oculi <lb/>
+            enim domini super iustos — et dixit: hic frater <lb/>
+            uester est adulescentior? adhuc adulescentior dicitur, qui<lb n="5"/>
+            nondum maturam canae fidei gerebat aetatem, nondum in uirum <lb/>
+            perfectum excreuerat. in illam, sicut ipse ait, mensuram <lb/>
+            aetatis plenitudinis Christi. denique adulescens legitur <lb/>
+            tantum ibi, ubi lapidantium Stephanum <choice><note>uestmienta</note><corr>uestimenta</corr></choice> seruabat. <note type="margin"> F </note> <lb/>
+            et ideo Philemonem non adulescentiae suae, sed senectutis<lb n="10"/>
+            similem esse cupiebat, ut scripsit: magis obsecro, cum <lb/>
+            sis talis ut Paulus senex. ideo adulescentiores uiduas <lb/>
+            praedicat declinandas, non propter aetatem, sed propter quandam <lb/>
+            <sic>pubiscentium</sic> delictorum lasciuiam <sic>lnmatuntatemque</sic> <note type="margin"> 504 A </note> uirtutis. <lb/>
+            ceterum maior in iuuene quam in sene laus castitatis<lb n="15"/>
+            est. puto autem quod a uero non sit alienum, si illud intellegamus, <lb/>
+            quia, cum hoc Paulus haberet et horreret correptus, <lb/>
+            quod caecitas accidisset ei, inciperet tamen adpropinquare <lb/>
+            dicendo: domine, quid me uis facere? ideo adulescentior <lb/>
+            dicebatur a Christo. ut qui uocabatur ad gratiam excusaretur<lb n="20"/>
+            a culpa, quod ea lubricae fuisset aetatis. denique uidit eum <lb/>
+            Christus. ubi lux circumfulsit eum, et quia adulescentes metu <note type="margin"> B </note> <lb/>
+            magis quam ratione reuocantur a uitio, adhibuit stimulum et
+
+<app> 4 Psalm. XXXIII 16 Gen. 43, 28 6 Uerg. Aen. I 296 <lb/>
+            7 Ephes. 4. 13 8 Act. 7, 58 11 Philc.n. 9 12 I Tim. 5, 11 <lb/>
+            19 Act. 9, 6 22 Act. 9, 3 </app>
+
+<app> 5 aduliscentior <hi>(alt.) B</hi> 6 incanitie <hi>N</hi> (-i« U'Ux) incauae <hi>V</hi> 9 stefanum <lb/>
+            <hi>B</hi> sthefanum <hi>V</hi> (h <hi>eras.)</hi> seruabat <hi>B</hi> (b <hi>ex</hi> u) 10 filimonem <hi>B <lb/>
+            et</hi> ml 2(' filemonem <hi>P (e pr. ex 0 m2)</hi> 21' <hi>(corr. m. atit.) OT</hi> senectutis <lb/>
+            §1' (s <hi>alt. eras.)</hi> 12 sut (s <hi>eras.) P</hi> 14 pubiscentium <hi>BP</hi> pubescentium <lb/>
+            P <hi>corr. ml cet. delictorum B</hi> (de <hi>ex</hi> di) 16 autem] enim <hi>N'</hi> <lb/>
+            illud si <hi>N'</hi> 17 hic (adhuc <hi>V)</hi> paulus haereret et horrore <hi>NV</hi> <lb/>
+            19 mi <hi>B</hi> aduliscentior <hi>B</hi> adolescentior <hi>P</hi> (v 8. 0 <hi>pr.)</hi> 20 a gratia <lb/>
+            <hi>PP'PxD</hi> 22 adolescentes <hi>P</hi> (v s. 0, te <hi>eras.)</hi> adolescens <hi>D, om. Px</hi> <lb/>
+            magis meta 91' <hi>(ex</hi> metus, s <hi>eras.) UxE</hi> metu om. <hi>V</hi> 23 reuocatur <lb/>
+            <hi>PD</hi> reuocabitur <hi>Px</hi> (bi <hi>ira ras.)</hi> uocantur X' adibuit <hi>B</hi> </app> 
+<pb n="111"/>
+            <lb/>
+            miseratus admonuit, ne aduersus stimulum calcitraret. 
+</p>
+</div1>
+
+<div1 n="59" subtype="section"><head>§ 59</head>
+<p> turbatus <lb/>
+            est autem, sicut habes in euangelio quia turbauit se spiritu, <lb/>
+            cum Lazarum suscitaret, et ibi fleuit. ut prius <choice><note>lacrinjis</note><corr>lacrimis</corr></choice> suis <lb/>
+            mortui delicta lauaret. sed intra fleuit et lauit faciem suam. <lb/>
+            caecitas Pauli fletus est Christi: lauat faciem suam, ubi lumen <lb n="5"/>
+            ei reparatur amissum. lauit faciem suam Christus, ubi <note type="margin"> c </note> baptizatus <lb/>
+            est Paulus, per quem dominus Iesus a pluribus uideretur. <lb/>
+            et ideo in conuiuio pars eius quinquipliciter maior effecta <lb/>
+            est, quod haberet superioribus anteferri non solum mentis <lb/>
+            prudentia, sed etiam militia corporis et gratia castitatis. <lb n="10"/>
+            
+</p>
+          </div1>
+
+<div1 n="60" subtype="section"><head>§ 60</head>
+<p rend="script"> <milestone n="11" unit="altchapter"/>  Biberunt autem et inebriati sunt pariter cum eo. <note type="margin"> D </note> <lb/>
+            a principio fidei maior Paulo praerogatiua defertur, de quo <lb/>
+            dictum est ad Ananiam: uade, quoniam uas electionis <lb/>
+            est mihi ad sufferendum nomen meum coram <note type="margin"> E </note> gentibus. <lb/>
+            a principio inebriatur ebrietate, sed sobria, ut et ipse <lb n="15"/>
+            cum sanctis diceret: et poculum tuum inebrians quam <lb/>
+            praeclarum est! 
+</p>
+</div1>
+
+<div1 n="61" subtype="section"><head>§ 61</head>
+<p> et scyphus argenteus soli sacco eius mseritur. <lb/>
+            nesciebat hoc Beniamin: fallebatur Paulus, sed uocabatur. <lb/>
+            mittitur post eum mane; nox enim processerat caecitatis, <lb/>
+            dies fidei adpropinquabat. 
+</p>
+</div1>
+
+<div1 n="62" subtype="section"><head>§ 62</head>
+<p> per ordinem singulorum prius <lb n="20"/>
+            inspiciuntur sacculi. docet te moralitatem scriptura diuina. <note type="margin"> F </note> <lb/>
+            per ordinem ante discubuerunt in conuiuio contra eum, primitiuus <lb/>
+            secundum aetatem. uides quod seniori locus ille sit
+
+<app> 1 Act. 9, 5 2 Ioh. 11, 33 3 Ioh. 11, 35 5 Act. 9, 18 <lb/>
+            8 Gen. 43, 33 11 Gen. 43, 33 13 Act. 9, 15 16 Psalm. XXII 5 <lb/>
+            17 Gen. 44, 2 19 Rom. 13, 12 20 Gen. 44, 12 22 Gen. 43, 32 </app>
+
+<app> 2 habes <hi>B</hi> (e <hi>ex</hi> i) habes et <hi>VT</hi> uides et <hi>N'</hi> spus P (s <hi>alt. eras.)</hi> <lb/>
+            3 resuscitaret <hi>N'</hi> 4 intra se U'Ux J'T <hi>et</hi> (se <hi>s. u. m2) E</hi> intro <hi>Px</hi> <lb/>
+            5 lauit <hi>B m3 WoxE</hi> lauat <hi>B</hi> ml <hi>cet</hi>. 6 lauat <hi>PP'PxD</hi> 7 dominus <lb/>
+            Iesns <hi>om. N'</hi> 8 et <hi>om. N'V</hi> quinqurpliciter <hi>P</hi> (i <hi>eras.)</hi> quincupliciter <lb/>
+            <hi>P m2 in mg. D</hi> 10 gratia <hi>m2</hi> ex gaudea <hi>P</hi> 11 biberunt <hi>P</hi> <lb/>
+            (bi <hi>ex</hi> be) illo P 13 annaniam <hi>PD</hi> 15 ebrietatae P (et a. <hi>u.)</hi> <lb/>
+            16 di.ceret <hi>B</hi> (s <hi>eras)</hi> et <hi>om. PP'D</hi> 17 praeclarQ (Q <hi>m2 ex</hi> us) <hi>PIx</hi> <lb/>
+            scyfus <hi>BU'</hi> 18 infallebatur <hi>PD</hi> 19 praecesserat P (prae <hi>e.c</hi> pro- <lb/>
+            <hi>m2) NVDO</hi> 20 singulorum <hi>B</hi> (n s. <hi>u.)</hi> 23 uides <hi>B</hi> (es <hi>ex</hi> is) <lb/>
+            seniori <hi>NV et</hi> (i <hi>postea add.) 0</hi> senior <hi>cet</hi>. illi P (i <hi>alt. ex</hi> e) <hi>P'D</hi> </app> <lb/>
+             
+<pb n="112"/>
+            deferendus. per ordinem iterum requiruntur sacculi singulorum, <lb/>
+            ut scias electum Paulum caelesti esse <choice n="0.90"><note n="1078">iudicio</note><corr n="116">indicio</corr></choice>. discussit <lb/>
+            ceteros, hunc praetulit. in nullius alterius sacco scyphus <lb/>
+            <choice><note>innentus</note><corr>inuentus</corr></choice> est argenteus nisi istius. quid sibi uult quod insertus <lb/>
+            est sacculo ? Ioseph quidem inebriauit ut <choice><note>fallefet</note><corr>falleret</corr></choice>, scyphum <note type="margin"> 505 A </note> <lb n="5"/>
+            misit ut fratrem quem diligebat pia fraude reuocaret, sed <lb/>
+            refulgent mysteria diuina. 
+</p>
+          </div1>
+
+<div1 n="63" subtype="section"><head>§ 63</head>
+<p rend="script"> Hoc inuenit in nobis Chnstus argentum, quod ipse donauerit. <lb/>
+            habemus naturae argentum, habemus et gratiae. natura <lb/>
+            opus est creatoris, gratia munus est redemptoris. etsi non<lb n="10"/>
+            possumus uidere dona Christi, ille tamen donat et operatur <note type="margin"> B </note> <lb/>
+            occulte et donat omnibus, sed seruare paucorum est et non <lb/>
+            amittere. non omnibus tamen donat omnia. triticum multis <lb/>
+            datur, scyphus uni, qui prophetico et sacerdotali donatur <lb/>
+            munere. non enim omnis, sed propheta dicit: calicem salutaris <lb n="15"/>
+            accipiam et nomen domini inuocabo. 
+</p>
+</div1>
+
+<div1 n="64" subtype="section"><head>§ 64</head>
+<p> in corpore <lb/>
+            igitur Pauli iam doctrinae caelestis adloquium refulgebat, <lb/>
+            cum esset eruditus in lege. sed quia adhuc iustitiae dei subiectus <lb/>
+            non erat, intra saccum erat scyphus, doctrina intra <note type="margin"> C </note> <lb/>
+            legem, lucerna intra modium. missus tamen Ananias, qui <lb n="20"/>
+            benedictionem daret, manum inponeret, saccum solueret. sacco <lb/>
+            soluto reluxit argentum et decidentibus squamis uelut quibusdam <lb/>
+            sacci uinculis statim uidit. uinculum eius perfidia erat, <lb/>
+            absolutio eius fides facta est. et ideo tamquam soluto sacco, <lb/>
+            hoc est deposito legis uelamine, quod supra cor est positum <lb n="25"/>
+            <sic>ludaeorum</sic>, conuersus ad dominum, liber a nexu adeptus <note type="margin"> D </note>
+
+<app>1 Gen. 44, 11 sq. 5 Gen. 43, 33 15 Psalm. CXV 4 (13) <lb/>
+            20 Matth. 5, 15 Act. 9, 12 et 17 22 Act. 9, 18 25 II Cor. 3, 13 sqq. </app>
+
+<app> 1 differendus II 2 Paulum <hi>om. UxE</hi> 3 scyfus <hi>W'</hi> scypus <hi>V</hi> <lb/>
+            4 argenteus inuentus est <hi>N</hi> 5 sacculus IID scyfum <hi>BU'V</hi> 8 do- <lb/>
+            <hi>nauerat N 14 scyfus JB2I' V prophetico B (e vi3 ex y)</hi> 15 omnes <lb/>
+            <hi>PNVD</hi> salotaris <hi>B</hi> (v <hi>a</hi>. 0 <hi>m2)</hi> 16 inuocabo <hi>B</hi> (b <hi>ex</hi> u <hi>m2)</hi> <lb/>
+            19 scyfus <hi>BWV</hi> syphuB <hi>P</hi> 20 tamen est <hi>T</hi> autem est <hi>PD</hi> 22 relusit <lb/>
+            <hi>P</hi> (x s. e) 24 fides <hi>B</hi> (e <hi>ex</hi> i <hi>m3)</hi> soluto <hi>NVPO</hi> aolutus <hi>cet</hi>. <lb/>
+            25 quod (d s. <hi>u.) Bml Pm2</hi> positum est supra cor <hi>WE</hi> </app> <lb/>
+             
+<pb n="113"/>
+            gratiam libertatis ait: nos itaque omnes reuelata facie <lb/>
+            gloriam dei speculantes ad eandem imaginem reformamur. <lb/>
+            soluto enim calciamento legis nudo uestigio <lb/>
+            liberi sermonis euangelium praedicabat. tenebant eum Iudaei <lb/>
+            et inpedire cupiebant, sed ubi in eius sacco argentum resplenduit, <lb n="5"/>
+            sciderunt uestimenta sua et reuersi sunt retro. libera <lb/>
+            enim pro Christo Pauli praedicatio nudauit populum Iudaeorum  <lb/>
+            et omnem eorum rescidit gratiam,
+</p>
+</div1>
+
+<div1 n="65" subtype="section"><head>§ 65</head>
+<p> ideoque retro regressi <note type="margin"> E </note> <lb/>
+            sunt, qui ante se uidere non poterant. retro redeunt qui <lb/>
+            Christum amittunt. denique et in euangelio, cum corriperent <lb n="10"/>
+            ad mortem dominum Iesum, redeuntes retro ceciderunt in <lb/>
+            terram. merito retro reuertebantur, qui in terrenam labem ab <lb/>
+            illa caelesti gratia recidebant. nolebant igitur moraliter redire <lb/>
+            sine fratre, mystice sine Paulo reuerti, quo amisso adserebant <lb/>
+            in maerorem deducendam parentis populi senectutem. 
+</p>
+</div1>
+
+<div1 n="66" subtype="section"><head>§ 66</head>
+<p> et ideo <note type="margin"> F </note> <lb n="15"/>
+            ludas apud Ioseph remanere cupiebat, ne uideret mala, quae <lb/>
+            inuenerunt patrem suum, hoc est iam praeuidebat et cauere <lb/>
+            cupiebat mala, quae uentura erant populo Iudaeorum. sed <lb/>
+            cum adhuc haec ipsa non esset in typo illo principum populi <lb/>
+            Iudaeorum libera <choice><note>praedieatio</note><corr>praedicatio</corr></choice>, fleuit loseph, hoc est in illo <lb n="20"/>
+            plorauit Iesus. 
+</p>
+          </div1>
+
+<div1 n="67" subtype="section"><head>§ 67</head>
+<p rend="script"> <milestone n="12" unit="altchapter"/>  Et iussit omnes recedere, ut cognosceretur a fratribus; non506 <note type="margin"> AB </note> <lb/>
+            uenerat enim, sicut ipse ait, nisi ad oues, quae perierunt
+
+<app> 1 II Cor. 3, 18 5 Gen. 44, 12 sq. 8 Gen. 44, 13 10 Ioh. <lb/>
+            18, 6 16 Gen. 44, 32 sq. 20 Gen. 45, 2 23 Matth. 15. 24 </app>
+
+<app> 1 libertatis P (t <hi>pr. in ras.)</hi> omnes <hi>om. N</hi> reuelata P (ta <hi>ex</hi> <lb/>
+            T <lb/>
+            ta) 3 nodo <hi>BP</hi> 4 eum <hi>P'D</hi> enim eum <hi>N</hi> tamen eum <hi>V</hi> enim <hi>cet</hi>. <lb/>
+            5 eius <hi>B</hi> (i <hi>s. u.)</hi> argent∗um <hi>B</hi> (e <hi>eras.)</hi> 7 enim <hi>nDO</hi> ergo <hi>jVF</hi> <lb/>
+            9 quia <hi>Uindobonensis 1067</hi> iam uidere <hi>V</hi> 10 et <hi>om. Px</hi> 12 terra <lb/>
+            <hi>PD</hi> terrenam <hi>P</hi> (e <hi>alt. s. U. m2,</hi> n <hi>in ras.)</hi> 13 recedebant <hi>B</hi> (e <hi>alt. <lb/>
+             ex</hi> i <hi>m2) PPxD</hi> decidebant <hi>cet</hi>. 14 sine <hi>(s. u.)</hi> suo fratre P reuerti <lb/>
+            <hi>om. E</hi> 16 cupiebapt <hi>P</hi> 17 inuenirent <hi>P'Px0</hi> imminerent <hi>T</hi> iam <lb/>
+            <hi>in ras. P</hi> 19 non esset <hi>om. N'</hi>. non esset in <hi>s. u. T</hi> principium <lb/>
+            <hi>BV et</hi> (i <hi>tert. exp.) PD</hi> 23 uenerat P (ne <hi>s. u. m2)</hi> ipuenerat <hi>B</hi> </app>
+
+<app> XXXII. Ambr. para 2. </app>
+
+<app> 8 </app> <lb/>
+             
+<pb n="114"/>
+            domus Istrahel. et emittens uocem cum fletu ego sum inquit <lb/>
+            Ioseph; adhuc pater meus uiuit? hoc est: expandit <lb/>
+            manus suas ad populum non credentem et contradicentem, <lb/>
+            non legatum neque nuntium quaerens, sed ipse dominus saluum <lb/>
+            facere uolens populum suum. ipse qui loquebar adsum<lb n="5"/>
+            inquit et palam factus non quaerentibus me adpareo <lb/>
+            his qui me non interrogabant. quid igitur aliud <note type="margin"> C </note> <lb/>
+            tunc clamauit nisi: ego sum Iesus, cum a principibus <lb/>
+            Iudaeorum ‹temptatus› interrogantibus: tu es filius dei? <lb/>
+            responderet: uos dicitis quod ego sum, cum Pilato<lb n="10"/>
+            diceret: tu dicis quia rex sum; ego in hoc natus <lb/>
+            sum, cum principi sacerdotum dicenti: adiuro te per <lb/>
+            deum uiuum, ut dicas nobis si tu es Christus <lb/>
+            filius dei, referret: tu dixisti. amen dico uobis, <lb/>
+            amodo uidebitis filium hominis sedentem ad<lb n="15"/>
+            dexteram uirtutis et uenientem cum nubibus <note type="margin"> D </note> <lb/>
+            caeli. hoc est ergo quod ait: ego sum Ioseph, ego <lb/>
+            sum diuinae potentiae. adhuc pater meus uiuit? hoc <lb/>
+            est: ego patrem non nego, ego fratres agnosco, si aut <lb/>
+            uos fratrem aut pater filium recognoscat. adhuc ergo populus<lb n="20"/>
+            meus uiuit, de cuius populi familia fratrem mihi elegi ? 
+</p></div1>
+
+<div1 n="68" subtype="section"><head>§ 68</head>
+<p> <lb/>
+            <choice n="0.8"><note n="12">accedite</note><corr n="3">accedi</corr></choice> ad me, quia ego ad uos adpropinquaui et eo <lb/>
+            usque, ut per carnis susceptionem facerem me uestrae consortem <lb/>
+            naturae. nolite uel participem fugere uestrae societatis, <note type="margin"> E </note> <lb/>
+            si non agnoscitis auctorem salutis. 
+</p>
+</div1>
+
+<div1 n="69" subtype="section"><head>§ 69</head>
+<p> et accesserunt inquit <lb n="25"/>
+            ad illum, et dixit: ego sum Ioseph frater uester, <lb/>
+            quem uos tradidistis in Aegyptum. nunc ergo
+
+<app> 1 Gen. 45, 3 4 Psalm. XXVII 9 5 Esai. 52, 6 6 Esai. 65, 1 <lb/>
+            8 lob. 18, 5 et 8 10 Ioh. 18, 37 12 Matth. 26, 63 sq. 22 Gen. <lb/>
+            45, 4 25 Gen. 45, 4 sq. </app>
+
+<app> 1 istrahel <hi>B</hi> isri <hi>cet</hi>. 5 ipse <hi>IIVDO</hi> ego <hi>N</hi> loquor <hi>V</hi> adsum <lb/>
+            <hi>UVDOT</hi> ecce adsum <hi>N'</hi> 6 <hi>apparui P</hi> 8 a om. <hi>T temptatus» addidi</hi> <lb/>
+            interrogatus <hi>P'</hi> 10 quod] quia <hi>T</hi> 11 <hi>post</hi> sum <hi>add</hi>. ut testimonium <lb/>
+            perhibeam ueritati <hi>P (s. 14.) D</hi> 14 tu dicis <hi>V</hi> 20 pater <hi>cx</hi> <lb/>
+            patrem <hi>P</hi> 23 <hi>post</hi> neque <hi>repetunt</hi> adpropinquaui (appr. <hi>UxE )NV</hi> <lb/>
+            24 participem <hi>P</hi> (ci <hi>ex</hi> ce <hi>m2)</hi> </app> <lb/>
+             
+<pb n="115"/>
+            nolite maesti esse neque uobis durum uideatur, quoniam <lb/>
+            hic me uendidistis; ad uitam enim misit me <lb/>
+            deus ante uos. quam fraterna pietas, quam dulcis germanitas, <lb/>
+            ut etiam parricidale excusaret admissum dicens diuinae <lb/>
+            illud prouidentiae fuisse, non inpietatis humanae, <note type="margin"> F </note> quandoquidem <lb n="5"/>
+            non ab hominibus oblatus ad mortem, sed a domino <lb/>
+            missus ad uitam sit. quid aliud habet illa domini nostri <lb/>
+            Iesu Christi, qui fratres omnes pietate superauit, in cruce <lb/>
+            positi intercessio pro plebe dicentis: pater, dimitte illis; <lb/>
+            non enim sciunt quid faciunt? quid aliud illa appellatio <lb n="10"/>
+            sanctitatis in medio discipulorum dicentis: pax uobis: ego <lb/>
+            sum, nolite timere? et cum conturbati et conterriti existimarent <lb/>
+            spiritum uidere, iterum dixit ad illos: quid turbati <lb/>
+            estis et quare cogitationes ascendunt in corde <lb/>
+            uestro? uidete ecce manus meas et pedes meos, <lb n="15"/>
+            quia ego sum ipse. palpate et uidete quia spiritus <lb/>
+            carnem et ossa non habet, sicut me uidetis habere. <lb/>
+            haec ergo iam tunc futura posterioribus temporibus mysteria <lb/>
+            reuelata sunt. 
+</p>
+          </div1>
+
+<div1 n="70" subtype="section"><head>§ 70</head>
+<p rend="script"> Denique ipsis exprimuntur sermonibus, ut ipsum esse <note type="margin"> 507 A </note> intellegamus <lb n="20"/>
+            et qui ante in Ioseph et postea in suo locutus est <lb/>
+            corpore, quandoquidem nec uerba mutauit. ait enim tunc: <lb/>
+            nolite maesti esse et infra: ascendite ad patrem <lb/>
+            meum et dicite illi: haec dicit filius tuus Ioseph: <lb/>
+            fecit me deus dominum totius terrae Aegypti. et
+
+<app> 9 Luc. 23, 34 11 loh. 20, 19 Luc. 24, 36 13 Luc. 24, 38 sq. <lb/>
+            23 Gen. 45, 5 et 9 </app>
+
+<app> 2 huc <hi>WoxE</hi> enim uestram misit <hi>NPx</hi> 3 dns <hi>pOD</hi> 4 dicens <hi>P <lb/>
+            (it a. dicit D 5 illut B 7 sit ad uitam 91 xE aliut B</hi> illa <lb/>
+            <hi>exp. m2 P, om. D</hi> 8 omnes <hi>P</hi> (s <hi>s. u. m2)</hi> 9 intercessio <hi>P'PxT</hi> <lb/>
+            intercessio illa <hi>cet</hi>. ignosce <hi>.NI</hi> 10 faciant <hi>B</hi> (ant <hi>in ras. ex</hi> unt, <lb/>
+            <hi>ut uidetur)</hi> aliut <hi>B</hi> 12 turbati <hi>VP'</hi> 13 se spiritum <hi>NVP'D et</hi> (se <lb/>
+            <hi>a. u. m2) 0</hi> 14 cogitationes <hi>P</hi> (es <hi>ex</hi> is <hi>m3)</hi> corde uestro <hi>B V</hi> corda <lb/>
+            ueatra <hi>P (ex</hi> corde uestro) <hi>cet</hi>. 18 mysteria <hi>B</hi> (e <hi>ex</hi> i <hi>m3)</hi> misteria 91' <lb/>
+            20 ex ipsis 91x 21 in <hi>pr. om. BPx, s. u. P</hi> 23 et s. <hi>u. BP</hi> </app>
+
+<app> 8* </app> <lb n="25"/>
+             
+<pb n="116"/>
+            in euangelio ait: nolite timere. ite nuntiate fratribus <note type="margin"> B </note> <lb/>
+            meis, ut eant in Galilaeam, et ibi me uidebunt. <lb/>
+            et infra ait: data est mihi omnis potestas in caelis <lb/>
+            et in terra, hoc est dicere: diuinae hoc fuit dispositionis, <lb/>
+            ut acciperem potestatem, non acerbitatis humanae. non obicit <lb n="5"/>
+            scelus qui enumerat praemium.</p></div1>
+
+<div1 n="71" subtype="section"><head>§ 71</head>
+<p>quod autem habet in Genesi: <lb/>
+            ad uitam <choice><note>eDim</note><corr>enim</corr></choice> misit me deus ante uos reddit in <lb/>
+            euangelio dicens: docete omnes gentes, baptizantes <lb/>
+            eas in nomine patris et fili et spiritus sancti; haec <note type="margin"> <hi>u</hi> </note> <lb/>
+            enim est merces et uita sanctorum, quod etiam alios redemerunt. <lb n="10"/>
+            </p></div1>
+
+<div1 n="72" subtype="section"><head>§ 72</head>
+<p>illud quoque aduerte non otiose scriptum in Genesi: <lb/>
+            et eris prope me, tu et fili tui et filii filiorum <lb/>
+            tuorum; hoc est enim quod dixit in euangelio: ecce ego <lb/>
+            uobiscum sum omnibus diebus usque ad consummationem <lb/>
+            saeculi. 
+</p>
+</div1>
+
+<div1 n="73" subtype="section"><head>§ 73</head>
+<p> quam euidens quoque illud mysterium,<lb n="15"/>
+            quod ueluti conpleto omni mandato fratrem suum Beniamin <lb/>
+            amplectitur Ioseph et cecidit super collum eius, sicut conpleto <note type="margin"> D </note> <lb/>
+            euangelio Paulum Christus amplectitur quibusdam misericordiae <lb/>
+            suae bracchiis, ut interna opinione curuatum uelut a collo in <lb/>
+            caelum erigat. unde et ille erectus a Christo ait: nostra<lb n="20"/>
+            autem conuersatio in caelis est. 
+</p>
+          </div1>
+
+<div1 n="74" subtype="section"><head>§ 74</head>
+<p rend="script"> <milestone n="13" unit="altchapter"/>  Et gauisus est Pharao, quod Ioseph agnouisset fratres suos. <lb/>
+            unde et uulgata est uox in domo Pharao et hortatus est
+
+<app> 1 Matth. 28, 10 3 Matth. 28, 18 7 Gen. 45, 5 8 Matth. <lb/>
+            28, 19 12 Gen. 45, 10 13 Matth. 28, 20 16 Gen. 45, 14 17 Act. <lb/>
+            20, 37 20 Philipp. 3, 20 22 Gen. 45, 16 aqq. </app>
+
+<app> 1 euuangelio <hi>P</hi> 2 et <hi>expo m2 P, om. DO</hi> 3 omnis <hi>B</hi> (i <hi>ex</hi> e) <lb/>
+            caelis <hi>BPx</hi> caelo cet. 5 acerbitatis <hi>ex</hi> aceruitates <hi>P</hi> 6 habetur 91' <lb/>
+            (ur <hi>s</hi>. u. <hi>m2) WE</hi> 7 enim uestram misit <hi>UxE</hi> redit <hi>N'</hi> 9 eos <lb/>
+            <hi>NVP1</hi> filii <hi>B</hi> (i <hi>fert.. s. u.) cet</hi>. 10 est 8. u. <hi>0, om. N</hi> rediv <lb/>
+            ta <lb/>
+            merunt <hi>Px et (corr. m2) n'o</hi> redinierent <hi>V</hi> 11 illut <hi>B</hi> 12 me«* P <lb/>
+            (e <hi>et</hi> tu <hi>m2)</hi> fili <hi>B</hi> filii <hi>cet</hi>. filii 8. <hi>u. P</hi> 14 sum s. <hi>u. m2 P</hi> <lb/>
+            consumationem P 15 illut <hi>B</hi> 16 coplectitur ioseph (ioseph <hi>om. E)</hi> <lb/>
+            beniamin <hi>WE</hi> 18 xps paulum <hi>N'</hi> misericordiae <hi>B</hi> (i <hi>pr. ex</hi> e) <lb/>
+            19 bracchiis <hi>B</hi> brachiis <hi>cet</hi>. ut <hi>P' m2</hi> et P' <hi>ml cet</hi>. opione <hi>B</hi> <lb/>
+            20 erigit <hi>91 xED et</hi> (it <hi>ex</hi> at) PU' 22 farao <hi>m(1</hi> 23 diuulgata <hi>NV</hi> <lb/>
+            farao <hi>B</hi> pharaonis <hi>NPx</hi> </app> <lb/>
+             
+<pb n="117"/>
+            sanctum <choice><note>loseph</note><corr>Ioseph</corr></choice>, ut fratres suos inuitet. ut ueniant cum patre, <lb/>
+            et mandat <choice><note>mpleri</note><corr>inpleri</corr></choice> eorum sarcinas <choice><note>tntico</note><corr>tritico</corr></choice> et in uehicula dari. <note type="margin"> E </note> <lb/>
+            unde haec humanitas barbaro, nisi illud ostenderetur magnum <lb/>
+            mysterium, quod iam non inuidet ecclesia, cum <lb/>
+            redimuntur Iudaei, et populus Christianus hac adiunctione . <lb n="5"/>
+            laetatur et quibus potest subsidiis iuuat et mittit euangelizantes <lb/>
+            regnum dei, quo maturius euocentur? quibus dantur <lb/>
+            <choice><note>Ibinae</note><corr>binae</corr></choice> stolae. 
+</p>
+</div1>
+
+<div1 n="75" subtype="section"><head>§ 75</head>
+<p> et allegat Paulum, cum eius dicta depromit, <lb/>
+            cui trecenti aurei et quinque stolae diuersi coloris conferuntur <lb/>
+            a Christo. trecentos aureos habet qui crucem praedicat Christi, <lb n="10"/>
+            ideoque ait: neque enim iudicaui scire me aliquid inter <note type="margin"> 508 A </note> <lb/>
+            uos nisi Christum Iesum et hunc crucifixum. et bene <lb/>
+            aureos accipit. quia non in suasoriis sapientiae uerbis, sed <lb/>
+            in ostensione spiritus praedicabat. quinque autem stolas accipit <lb/>
+            uel sapientiae multiplicis disciplinas uel quod nullis sensuum <lb/>
+            corporalium captus inlecebris ubi aliis periculum illic teneret <lb/>
+            uictoriam, qui omnes uoluptates carnis singulari continentia <lb/>
+            et uirtute superaret, cuius ingenium studiumque nulla corporis <lb/>
+            hebetaret infirmitas, qui, cum esset in corpore, corpus se <note type="margin"> B </note> <lb/>
+            habere nesciret. denique raptus in paradisum siue in corpore <lb n="20"/>
+            <choice n="0.73"><note n="6071">sine</note><corr n="2204">siue</corr></choice> extra corpus nesciens audiuit uerba ineffabilia, quae loqui <lb/>
+            homini non liceret, qui postremo terrenum nihil oleret in <lb/>
+            terris, sicut ipse docet dicens: quia Christi bonus odor
+
+<app> 6 Luc. 8, 1 7 Gen. 45, 22 9 Gen. 45, 22 11 I Cor. 2, 2<lb/>
+             13 I Cor. 2, 4 20 II Cor. 12, 2 sqq. 23 II Cor. 2, 15 </app>
+
+<app> 2 in <hi>BT, del. P' m2,</hi> eras. <hi>P, om. eet</hi>. 4 mysterifl <hi>P</hi> (in <hi>in ras.)</hi> <lb/>
+            quod iam <hi>IIDO</hi> quoniam <hi>NV</hi> 5 cristianus <hi>BP</hi> 8 allegat <hi>0</hi> aligat <hi>B</hi> <lb/>
+            alligat <hi>cet</hi>. 11 ideoque <hi>P</hi> (que 8. <hi>u. m2)</hi> scire me <hi>IIDO</hi> me scire U' <lb/>
+            (me <hi>8. u, m. ant.) 'IxET</hi> scire <hi>V</hi> 13 accepit <hi>Px</hi> (e <hi>ex</hi> i) <hi>0 (corr</hi>. <lb/>
+            accipit) <hi>AT</hi> humanae sapientiae <hi>WET</hi> 15 multiplicis <hi>PD et ml <lb/>
+            BPx</hi> multiplices <hi>B m3 P.1 corr. cet</hi>. 16 aliis <hi>P</hi> alius <hi>D</hi> alii <hi>VP'UxE</hi> <lb/>
+            17 quia <hi>BP'Px0 et</hi> (a <hi>eras.) P</hi> uoluptates <hi>B</hi> (es <hi>ex</hi> is) 19 hebetaret <lb/>
+            <hi>P</hi> (e <hi>alt. m2 ex</hi> i) habitaret 31' <hi>(corr. m2) V</hi> corpusque <hi>P</hi> <lb/>
+            (que <hi>8. u. m2) D</hi> et corpus <hi>P'</hi> 20 denique ... nesciens <hi>om. PD</hi> <lb/>
+            21 corpore nesciens (i <hi>s. u.) B</hi> 22 nihil terrenum <hi>UxE,</hi> terrenum <lb/>
+            <hi>om. Px</hi> </app> 
+<pb n="118"/>
+            <lb/>
+            sumus deo in his qui salui fiunt. 
+</p>
+</div1>
+
+<div1 n="76" subtype="section"><head>§ 76</head>
+<p> praecellit igitur Paulus <lb/>
+            et eius exuberat portio, sed tamen habent et alii praedicatores <lb/>
+            gratiam suam. binas stolas accipiunt. quas? illas utique, de <note type="margin"> C </note> <lb/>
+            quibus dubitare <sic>nOlI</sic> debes, quia legisti de Sapientia dictum: <lb/>
+            binas uestis fecit uiro suo. una est mystica, moralis<lb n="5"/>
+            altera. sed non omnes apostoli, non omnes prophetae. non <lb/>
+            omnes pastores, non omnes uirtutes, non omnes habent gratiam <lb/>
+            curationum, non omnes linguis loquuntur. ubi diuersa praemia, <lb/>
+            merita diuersa. 
+</p>
+</div1>
+
+<div1 n="77" subtype="section"><head>§ 77</head>
+<p> et praemittuntur et patri munera. filius honorat <lb/>
+            patrem, Christus populum suum inuitat promissis, inuitat<note type="margin"> D </note> <lb n="10"/>
+            muneribus. portant haec munera illi asini inutiles et laboriosi <lb/>
+            ante, nunc utiles, portant in typo Christi munera portaturi <lb/>
+            in euangelio <choice><note>muneram</note><corr>munerum</corr></choice> largitorem. 
+</p>
+          </div1>
+
+<div1 n="78" subtype="section"><head>§ 78</head>
+<p rend="script"> Dimisit autem fratres suos et abierunt. et dixit <lb/>
+            illis Ioseph: nolite irasci in uia. quam bene docet ab<lb n="15"/>
+            iracundia praecauendum, quod ea possit etiam amantes sui <lb/>
+            separare germanos, et maxime in uia fugiendam esse discordiam, <lb/>
+            ubi ipse uiandi comitatus debet inuiolabilis gratiae <lb/>
+            habere consortium. quid aliud autem ait dominus noster Iesus <note type="margin"> E </note> <lb/>
+            ex hoc corpore recessurus, cum discipulos dimitteret suos, <lb n="20"/>
+            nisi ne irascerentur in uia, dicens: pacem relinquo uobis, <lb/>
+            pacem meam do uobis? ubi enim pax est, iracundia locum
+
+<app> 5 Prouerb. 29, 40 (31, 22) 9 Gen. 45, 23 11 Gen. 45, 23 <lb/>
+            Matth. 21, 7 14 Gen. 45, 24 21 Ioh. 14, 27 </app>
+
+<app> 1 deo in omni loco in his qui pereant et in his qui salui fiunt <hi>P1</hi> <lb/>
+            S quas <hi>N'YD, om. T,</hi> quasi <hi>P</hi> (i <hi>postea add.) cet</hi>. utique illas <hi>:N'</hi> <lb/>
+            de quibus <hi>om. NIVP'</hi> 4 debes <hi>B</hi> (es <hi>ex</hi> is) 5 uestea <hi>B</hi> (es <hi>ex</hi> <lb/>
+            is) <hi>cet</hi>. 7 habent <hi>B</hi> (t 8. u.) 8 loquntur <hi>B</hi> loqOtur <hi>Px</hi> locuntur <hi>NP'</hi> <lb/>
+            diuersa merita diuersa et praemia <hi>NV</hi> 9 et praemittuntur et <hi>B et</hi> <lb/>
+            (et <hi>alt. era.a.) P</hi> et praemittuntur <hi>PI/DO</hi> praemittuntur et 2* mittuntur <lb/>
+            et <hi>NV</hi> 11 asini illi <hi>NY</hi> 12 portaturi <hi>BNVP'O</hi> portatur <hi>PPxD</hi> <lb/>
+            13 largitor <hi>PxD</hi> 15 in uia irasci <hi>V</hi> 19 aliut <hi>B</hi> autem aliud <hi>N'</hi> <lb/>
+            aliud autem <hi>D,</hi> aliud <hi>om. P'</hi> noster <hi>om. NV</hi> 21 nisi <hi>NY om. <lb/>
+             UDO</hi> ne <hi>om. V</hi> pacem meam do uobis, pacem meam relinquo <lb/>
+            nobis <hi>Y</hi> </app> <lb/>
+             
+<pb n="119"/>
+            non habet, ablegatur discordia, <choice><note>fugatar</note><corr>fugatur</corr></choice> dissensio. hoc est ergo <lb/>
+            quod ait: pacem meam do <choice n="0.60"><note n="4825">nobis</note><corr n="3215">uobis</corr></choice>, id est nolite irasci in <lb/>
+            uia. et uide ne in hac uia dicat, hoc est in hoc cursu totius <lb/>
+            uitae indignationem cauendam, quod ira saepe etiam innocentes <lb/>
+            in crimen adducat, quia, dum iusto amplius irascimur et <note type="margin"> F </note> <lb n="5"/>
+            uolumus alienum coercere peccatum, grauiora peccata conmittimus. <lb/>
+            ideo apostolus non uos ipsos inquit uindicantes, <lb/>
+            carissimi, sed date locum irae, hoc est declinemus eam, <lb/>
+            ne nos illa corripiat. unde et dominus Iesus dimittens ad euangelizandum <lb/>
+            discipulos misit eos sine auro, sine argento, sine <lb n="10"/>
+            pecunia, sine uirga, id est ut et incentiua litis et instrumenta <lb/>
+            eriperet ultionis. 
+</p>
+          </div1>
+
+<div1 n="79" subtype="section"><head>§ 79</head>
+<p rend="script"> Et ascenderunt inquit de Aegypto et uenerunt in <note type="margin"> 509 A </note> <lb/>
+            terram Chanaan ad <choice><note>lacob</note><corr>Iacob</corr></choice> patrem suum et nuntiauerunt <lb/>
+            illi dicentes quia Ioseph filius tuus uiuit et ipse <lb n="15"/>
+            est princeps totius terrae Aegypti. quae est terra <lb/>
+            Chanaan? quae nutabat. quid igitur tam euidens quam apostolorum <lb/>
+            tempora designari, quibus ingressi Iudaeorum synagogas <lb/>
+            nutantes Iesu domini potentiam praedicabant, sicut <lb/>
+            habemus in Actibus apostolorum dicente Petro: hunc ergo <lb n="20"/>
+            legum resuscitauit deus, cuius nos testes sumus. <lb/>
+            dextera igitur dei exaltatus repromissione spiritus <note type="margin"> B </note> <lb/>
+            sancti accepta a patre effudit hoc donum, quod uos
+
+<app> 7 Rom. 12, 19 9 Luc. 22, 35; 9, 3 Matth. 10, 9 sq. Marc. 6, 8 <lb/>
+            13 Gen. 45, 25 aq. 17 Philo de aacr. Abel et Cain 27 (I 181, 11) <lb/>
+            20 Act. 2, 32 sq. </app>
+
+<app> 1 ablegatur 81' m2 abjigatur <hi>B a eras.)</hi> abligatur <hi>.1 ml T</hi> abnegatur <lb/>
+            <hi>V</hi> allegatur P1 alligatur <hi>cet</hi>. discordia (con 8. dis <hi>m2) P</hi> 3 in <lb/>
+            <hi>pr. om. BP', s. u. P</hi> hoccureu <hi>P</hi> (h <hi>a. u. mZ)</hi> occarsu <hi>VP T</hi> 9 unde <lb/>
+            et <hi>IIDOT</hi> et unde 2(' (et <hi>eraa.)</hi> unde <hi>VWE</hi> 11 sine pera <hi>post</hi> pecunia <lb/>
+            <hi>add. tacite MalCrini, ac sane facile haec excidere potummt</hi> etrumenta <lb/>
+            <hi>BPV</hi> 12 ultionis P (is <hi>ex</hi> ea <hi>m2)</hi> 14 chanaam <hi>BVPx et<lb/>
+             (corr. ml) P</hi> 15 illis P (s <hi>eras.)</hi> tuus <hi>om. B</hi> 16 aegipti P <lb/>
+            qui <hi>B</hi> quid <hi>NV</hi> 17 chanaam <hi>BPV</hi> 18 designari P (ri <hi>ex</hi> re) <lb/>
+            quiw (bus <hi>eras.) PP'</hi> qui <hi>VPxDO</hi> ingressis <hi>BK</hi> 19 dni ihu <hi>N</hi> <lb/>
+            potentia <hi>B</hi> praedicabat <hi>B et (corr. ml) P</hi> 23 uos <hi>om. Px</hi> </app> <lb/>
+             
+<pb n="120"/>
+            uidetis? aduertimus certe quomodo et uiuere eum et terrae <lb/>
+            totius principem dicat, qui aperiens horrea sua spiritalis gratiae <lb/>
+            donet omnibus ubertatem. haec dicebant apostoli, sed Iudaei <lb/>
+            non credebant, sed iniciebant manus in eos et trudebant in <lb/>
+            custodiam praedicatores salutis. 
+</p>
+</div1>
+
+<div1 n="80" subtype="section"><head>§ 80</head>
+<p> unde et de Iacob scriptum<lb n="5"/>
+            est: expauit mente; non enim credebat eis. expauit adfectu <lb/>
+            plebis incredulae, sed posteaquam Christi gesta cognouit, <note type="margin"> C </note> <lb/>
+            tantis beneficiis et operibus delinitus resumpsit spiritum dicens: <lb/>
+            magnum mihi est, si adhuc filius meus Ioseph uiuit. <lb/>
+            ibo et uidebo illum, priusquam moriar. primum et<lb n="10"/>
+            maximum fidei fundamentum in resurrectionem Christi credere. <lb/>
+            quicumque enim crediderit resuscitatum festinus requirit, <lb/>
+            deuotus accedit et intima deum mente ueneratur; credit enim <lb/>
+            quod ipse non moriatur, si credat in resurrectionis auctorem. 
+</p>
+          <p rend="script"> <milestone n="14" unit="altchapter"/> Et eleuans se Istrahel uenit ad puteum iuramenti<note type="margin"> D </note> <lb n="15"/>
+            et immolauit hostiam deo patris sui Isaac. 
+</p>
+</div1>
+
+<div1 n="81" subtype="section"><head>§ 81</head>
+<p> merito <note type="margin"> E </note> <lb/>
+            eleuatur qui festinat ad <choice><note>Chnstum</note><corr>Christum</corr></choice>. <choice n="0.97"><note n="907">fides</note><corr n="19">fidos</corr></choice> praecedit deuotionem. <lb/>
+            prius so eleuauit, postea immolauit: ille enim bene immolat <lb/>
+            qui cognitionem diuinitatis inuestigauerit. 
+</p>
+</div1>
+
+<div1 n="82" subtype="section"><head>§ 82</head>
+<p> dixit autem deus <lb/>
+            ad Istrahel in uisu nocte dicens: Iacob, Iacob. qui<lb n="20"/>
+            dixit: quid est? dicens: ego sum deus patrum <lb/>
+            tuorum: noli timere, descende in Aegyptum; in
+
+<app> 2 Gen. 41, 56 4 Act. 5, 18 6 Gen. 45, 26 9 Geu. 45, 28 <lb/>
+            11 Ioh. 11, 25 15 Gen. 46, 1 19 Gen. 46, 2--4 </app>
+
+<app> 1 quomodo P (quo <hi>8. u. mS)</hi> 2 orrea <hi>B</hi> 4 et <hi>IIFDO</hi> <lb/>
+            sed <hi>N</hi> tradebant <hi>NVpl</hi> 6 credebat eis <hi>m2 ex</hi> credebatis P 8 resumsit <lb/>
+            <hi>B</hi> 9 est mihi P' ioseph uiuit <hi>N</hi> uiuit ioseph uiyit <hi>B</hi> uiuit <lb/>
+            ioseph uiuet P (uiuet <hi>eras.)</hi> uiuit ioseph <hi>cet</hi>. 10 eum <hi>ND</hi> 11 maximae <lb/>
+            <hi>BP'Px et (corr. ml) P</hi> 12 requiret <hi>BPPx et (corr. m2) P</hi> <lb/>
+            13 accedit <hi>Pm2 VOD</hi> adcedit <hi>T</hi> accedet <hi>BP m1 P'Px</hi> accepit 31' <hi>m1</hi> <lb/>
+            accipit %' <hi>m2 3lxE</hi> uenerabitur <hi>Px</hi> 15 istrahel <hi>B</hi> israhel <hi>V</hi> isrf <lb/>
+            <hi>cet</hi>. poteum <hi>B</hi> (v <hi>s</hi>. 0) 16 et <hi>om. N</hi> isaac <hi>B</hi> (a <hi>alt. s. u.)</hi> <lb/>
+            18 eleuauit <hi>P</hi> (e <hi>pr. s. 1t.)</hi> 19 dns <hi>V</hi> 20 istrahel <hi>B</hi> israhel P isrt <lb/>
+            <hi>cet</hi>. nocte P (is s. ę) noctis <hi>P'D</hi> 21 dicens <hi>BPVT, exp. m. ant. <lb/>
+             et supra scr</hi>. et dns ait U', <hi>eras. P, om. Px (qui post</hi> sum <hi>add</hi>. inquit), <lb/>
+            et dns ait <hi>WE</hi> et dns <hi>0</hi> deus <hi>s</hi>. u. <hi>m2 P</hi> 22 uestrorum <hi>BPD</hi> <lb/>
+            descende <hi>P</hi> (e <hi>pr. ex</hi> i) </app> <lb/>
+             
+<pb n="121"/>
+            gentem enim magnam te faciam ibi. ego descendam <lb/>
+            tecum in Aegyptum et ego deducam te in perpetuum. <lb/>
+            quemadmodum quae ipsi legunt non intellegunt et Moysen <lb/>
+            quem laudant abnegant, cum eius scriptis nolunt credere! <lb/>
+            quid euidentius quam quod hoc loco inuitantur, ut ad ecclesiam <lb n="5"/>
+            dei transeant et qui ante intra Iudaeae terminos coartabantur <lb/>
+            angustos ad populum dei migrent, qui ex toto orbe, <note type="margin"> 51OA </note> <lb/>
+            ex omnibus nationibus et populis congregatus in magnam <lb/>
+            factus est gentem ? denique in omnem terram exiuit sonus <lb/>
+            eorum. uocatur ergo a filiis suis Iacob, id est a Petro <lb n="10"/>
+            Iohanne Paulo populus Iudaeorum inuitatur ad gratiam. 
+</p>
+</div1>
+
+<div1 n="83" subtype="section"><head>§ 83</head>
+<p> ipse <lb/>
+            quoque deus noster proprio eum hortatur oraculo, spondet <lb/>
+            ei profectum fidei muneris sui fructum dicens ei: Ioseph <lb/>
+            mittet manum super oculos tuos. non utique sanctus <lb/>
+            patriarcha. sollicitus erat a quo ei oculi clauderentur, licet <note type="margin"> B </note> <lb n="15"/>
+            etiam intellectu simplici moralis exprimatur adfectus. nam <lb/>
+            si eos quos diligimus cupimus frequenter amplecti, quanto <lb/>
+            magis recessuri ex hoc corpore ipso carorum pignorum tactu <lb/>
+            delectamur extremo et hoc mulcemur uiatico. tamen mystice <lb/>
+            licet nobis intellegere quod postea cogniturus deum sit populus <lb n="20"/>
+            <sic>Iudaeorurn</sic>. hoc est enim mysterium, quod uerus <choice><note>loseph</note><corr>Ioseph</corr></choice> <lb/>
+            immittet manus super oculos eius, ut qui non uidebat ante <lb/>
+            iam uideat. ueni ad euangelium, lege quemadmodum caecus <note type="margin"> C </note> <lb/>
+            ille sanatus sit, cui <sic>Jesus</sic> manum inposuit et eius abstulit <lb/>
+            caecitatem. non enim morituris manum Christus inponit, sed uicturis, <lb n="25"/>
+            aut si morituris, recte, quia prius morimur, ut reuiuiscamus; <lb/>
+            non enim possumus deo uiuere, nisi peccato ante moriamur.
+
+<app> 9 Psalm. XVIII 5 Rom. 10, 18 13 Gen. 46, 4 23 Ioh. <lb/>
+            9, 6 sq. 27 Eom. 6, 2 </app>
+
+<app> - 1 faciam te <hi>W</hi> descendam <hi>B</hi> (e <hi>pro ex</hi> i) descendo <hi>V</hi> 4 credere <lb/>
+            nolunt UxE 5 ad ecam ecclesiam P1 8 et populis <hi>om. WE,</hi> popu- <lb/>
+            Iub <hi>(Otn</hi>. et) <hi>V</hi> 10 id eat <hi>BNVPPI</hi> quid ęşt <hi>P</hi> quia <hi>D</hi> 11 et <lb/>
+            paulo Px po∗∗∗ <hi>P</hi> (o m2 <hi>in ras.,</hi> populus <hi>in mg. m2)</hi> 14 immittit <hi>V</hi> <lb/>
+            manus <hi>N</hi> 16 quod <hi>B</hi> (d <hi>eras.)</hi> 16 sinplici <hi>B</hi> 18 ipsp P (o s. t) <lb/>
+            22 antea <hi>PD</hi> 23 qugemadmodum <hi>B</hi> quaeadmodum <hi>P</hi> (ae <hi>ex</hi> ae <hi>m2)</hi> <lb/>
+            '26 qui <hi>BPx</hi> quia (a 8. <hi>u.) P</hi> </app> 
+<pb n="122"/>
+             
+</p>
+          </div1>
+
+<div1 n="84" subtype="section"><head>§ 84</head>
+<p rend="script"> Descendunt igitur in Aegyptum septuaginta quinque animae, <lb/>
+            sicut scriptum est, et hoc mystice numero remissionis, quia <lb/>
+            post tantam <choice><note>duntiam</note><corr>duritiam</corr></choice>, post tanta peccata haberentur indigni, <note type="margin"> D </note> <lb/>
+            nisi donaretur his remissio peccatorum. occurrit illi ludas, <lb/>
+            hoc est confessio erroris. hunc sui uenturus Iudaeorum populus<lb n="5"/>
+            praenuntium mittit. ideo et Ioseph uerus, id est arbiter et <lb/>
+            interpres diuinitatis, occurrit, quia praecedit iam confessio <lb/>
+            quos ante perfidia possidebat. interpres est enim diuinitatis <lb/>
+            Christus, quia deum nemo uidit umquam, nisi <choice><note>unigeuitus</note><corr>unigenitus</corr></choice> <lb/>
+            filius, qui est in sinu patris, ipse enarrauit. hic senilis<lb n="10"/>
+            iam aetatis et fessum suscipiet ultimis temporibus populum <note type="margin"> E </note> <lb/>
+            Iudaeorum, non secundum illius merita, sed secundum electionem <lb/>
+            suae gratiae et inponet manum super oculos eius, ut <lb/>
+            caecitatem auferat. cuius ideo distulit sanitatem, ut postremus <lb/>
+            crederet, qui ante non putauit esse credendum, et praerogatiuam<lb n="15"/>
+            superioris electionis amitteret. unde et apostolus ait: <lb/>
+            quia caecitas ex parte Istrahel contigit, donec plenitudo <lb/>
+            gentium intraret et sic omnis Istrahel saluus <lb/>
+            fieret. 
+</p>
+</div1>
+
+<div1 n="85" subtype="section"><head>§ 85</head>
+<p> gesta igitur patriarcharum futurorum mysteria sunt. <lb/>
+            denique ipse Iacob sic ait ad filios suos: congregamini,<lb n="20"/>
+            ut adnuntiem uobis quae occursura sunt uobis in <lb/>
+            nouissimis diebus. congregamini et audite Istrahel <lb/>
+            patrem uestrum.
+
+<app> 1 Gen. 46, 26 5 Philo Legg. alleg. I 26 (I 59, 43) et saepius <lb/>
+            6 Philo de Iosepho 6 (II 46, 7) 9 Ioh. 1, 18 17 Rom. 11, 25 sq. <lb/>
+            20 Gen. 49, 1 sq. </app>
+
+<app> 1 descendunt <hi>B</hi> (e <hi>pr. ex</hi> i) 2 raysticae <hi>BPxE</hi> 4 iis ex his P <lb/>
+            5 confessio <hi>P' (ex</hi> confusio) confessor <hi>NV</hi> 6 praenuutiQ <hi>P</hi> (11 <hi>ex</hi> us) <lb/>
+            et <hi>pr. om. P1</hi> 7 confessio <hi>E</hi> (es <hi>m2 in ras.)</hi> 8 antea UxE <lb/>
+            interpraes <hi>B</hi> enim diuinitatis est <hi>NV</hi> 13 inponept <hi>B</hi> (g <hi>cras.)</hi> <lb/>
+            imponit <hi>N'V</hi> ut <hi>ex</hi> et <hi>B</hi> 14 sanitatem <hi>in mg. m2 P</hi> 17. 18. <lb/>
+            22 istrahel <hi>B isricet</hi>. 17 contigit in isrf <hi>Ux E</hi> 20 sic <hi>om. UxE</hi> EXP. <lb/>
+            LIB. PRIMUS DK IOSEPH <hi>BP O et (om</hi>. primus) <hi>D</hi> EXPLICIT LIB <lb/>
+            SCI AMBROSII DFMOSEPH <hi>P et (om</hi>. LIB) <hi>V</hi> EXPLICIT LIB. I. <lb/>
+            BEATI AMBROSII EPI DE PATRIARCHIS <hi>Px</hi> FINIT DE SCO IOSEPH <lb/>
+            PATRIARCHA U' FINIT LIB. VII. DE SCO IOSEPH PATRIARCHA <lb/>
+            EXPLICIT DE SANCTO IOSEPH <hi>T</hi> EXPLICIT <hi>E</hi> </app> 
+<pb n="123"/>
+            
+</p>
+
+</div1>
+        
+</body>
+</text>
+</TEI>

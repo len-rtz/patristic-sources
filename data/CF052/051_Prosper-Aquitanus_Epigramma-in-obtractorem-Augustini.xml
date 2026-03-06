@@ -1,0 +1,94 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Epigramma in obtractorem Augustini</title>
+              <author ref="http://viaf.org/viaf/52485706">Prosper Aquitanus<date>390-463</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1846</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 51</title>
+           <idno>ProAqu.EpInObA2</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Epigramma in obtractorem Augustini</head>
+
+<l>
+<pb n="0149A"/> <emph>191</emph> Quidam dictiloqui libros senis Augustini</l>
+<l rend="indent">Carpere, et adversum condere fertur opus.</l> 
+<l>Usque adeone bonum ingenium, et facundia dives,</l>
+<l rend="indent">Ostentare artem non aliter potuit;</l>
+<l> In nova prostratas acies nisi bella cieret,</l>
+<l rend="indent">Impiaque exstinctis hostibus arma daret.</l> 
+<l>Haec pugna, incentor, mors est tua, te stylus iste</l>
+<l rend="indent">
+<pb n="0150A"/>Conficit, et verbis perderis ipse tuis.</l> 
+<l>Dumque doces quantum valeat mens libera, monstras</l>
+<l rend="indent">Velle tuum tibimet sufficere ut pereas.</l> 
+<l rend="indent">Verte gradum, fuge perniciem; stratosque re belles</l>
+<l rend="indent">Oris apostolici fulmine ubique vide.</l> 
+<l>Nec te mutato defendi nomine credas.</l> 
+<l rend="indent">Si pastorem ovium laedere vis, lupus es.</l> 
+
+</div1>
+</body>
+  </text>
+</TEI>

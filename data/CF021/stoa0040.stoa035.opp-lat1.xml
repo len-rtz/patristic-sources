@@ -1,0 +1,2153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+               <titleStmt>
+              <title>De bono coniugali [CSEL]</title>  
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date></author>
+              </titleStmt>
+               
+
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1900</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 41</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru1swiengoog#page/n9/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Iosephus Zycha</name>; <addName xml:lang="de">Joseph Zycha</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>August.DeBoConCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL41.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0040.stoa035.opp-lat1"/>
+
+           
+          <div1 n="1" subtype="section"><head>V. DE BONO CONIVGALI.– § 1</head>
+
+<p><milestone n="1" unit="altchapter"/>Quoniam unusquisque homo humani generis pars est <lb/>
+            et sociale quiddam est humana natura magnumque habet et <lb/>
+            naturale bonum, uim quoque amicitiae, ob hoc ex uno deus <lb n="5"/>
+            uoluit omnes homines condere, ut in sua societate non sola <lb/>
+            similitudine generis, sed etiam cognationis uinculo tenerentur. <lb/>
+            prima itaque naturalis humanae societatis copula uir et uxor <lb/>
+            est. quos nec ipsos singulos condidit deus et tamquam alienigenas <lb/>
+            iunxit, sed alteram creauit ex altero, signans etiam <lb n="10"/>
+            uim coniunctionis in latere, unde illa detracta formata est. <lb/>
+            lateribus enim sibi iunguntur, qui pariter ambulant et pariter <lb/>
+            quo ambulant intuentur. consequens est conexio societatis in <lb/>
+            filiis, qui unus honestus fructus est non coniunctionis maris
+
+<app> 11 cf. Gen. 2, 21. 22 </app>
+
+<app> 2 Explicit de sca uirginitate. Incipit liber Aureli Augustini catholici <lb/>
+            de bono coniugali <hi>fol</hi>. 166b <hi>C fol. 72 B</hi> Sci Augustini de bono coniugali <lb/>
+            <hi>fol. 3* P</hi> Incipit liber eiusdem de bono coniugali <hi>fol. 40h K</hi> <lb/>
+            Incipit liber sci Augustini de bono coniugali <hi>fol. 2b</hi> y Liber de bono <lb/>
+            coniugali <hi>fol. 1 H, fol. 1 A</hi> Incipit sci Augustini dc bono coniugali <lb/>
+            <hi>fol. 454 J2</hi> Incipit liber sci Augustini de bono coniugali <hi>fol. 41- F, <lb/>
+            fol. 18* D, fol. 58* M, fol. 51b X, fol. 33* E</hi> Augustinus de bono coniugali <lb/>
+            <hi>fol. 56* N</hi> Liber sci Augustini de bono coniugali <hi>fol. 92* a</hi> 4 et <lb/>
+            -natura <hi>om</hi>. y est] cfl <hi>N</hi> natura humana <hi>MENX</hi> nata. (in <lb/>
+            mg. natura) <hi>B</hi> 5 ob] et xcx <hi>C</hi> et <hi>B</hi> noluit deus <hi>AD</hi> 6 concedere <lb/>
+            <hi>T</hi> con..dere <hi>A</hi> 8 humane <hi>K</hi> humanęque <hi>D</hi> uxor eius <hi>MENXa</hi> <lb/>
+            9 et] nec <hi>s. I. m. 2 A</hi> 10 coniunxit <hi>KMENXT</hi> Red] at <hi>H</hi> alterft <lb/>
+            (fl <hi>in ras.) A,D</hi> creuit Pl 11 et illa <hi>KTMENXa</hi> 12 lJibi <hi>(i pr. <lb/>
+            supra u, alt</hi>. i <hi>s. I.) A</hi> coniunguntur <hi>MENXa</hi> e.t <hi>A</hi> 13 est <lb/>
+            <hi>om. PHAFy</hi> connexio T 14 filius Bl bonestus <hi>otn. i post</hi> <lb/>
+            honestus <hi>uidetur</hi> sit <hi>er. in K</hi> </app> <lb/>
+             
+<pb n="188"/>
+            et feminae, sed concubitus. poterat enim esse in utroque <lb/>
+            sexu etiam sine tali commixtione alterius regentis, alterius <lb/>
+            obsequentis amicalis quaedam et germana coniunctio. 
+</p>
+          
+</div1>
+
+<div1 n="2" subtype="section"><head>§ 2</head>
+
+<p><milestone n="2" unit="altchapter"/> Nec nunc opus est, ut scrutemur et in ea quaestione <lb/>
+            definitam sententiam proferamus, unde primorum hominum<lb n="5"/>
+            proles posSet exsistere, quos benedixerat deus dicens: crescite <lb/>
+            et multiplicamini et inplete terram, si non <lb/>
+            peccassent, cum mortis condicionem corpora eorum peccando <lb/>
+            meruerint nec esse concubitus nisi mortalium corporum possit. <lb/>
+            plures enim de hac re sententiae diuersaeque extiterunt; et<lb n="10"/>
+            si examinandum sit, ueritati diuinarum scripturarum quaenam <lb/>
+            earum potissimum congruat, prolixae disputationis negotium <lb/>
+            est. siue ergo sine coeundi conplexu alio aliquo modo, si non <lb/>
+            peccassent, habituri essent filios ex munere omnipotentissimi <lb/>
+            creatoris, qui potuit etiam ipsos sine parentibus condere, qui<lb n="15"/>
+            potuit carnem Christi in utero uirginali formare et, ut iam <lb/>
+            ipsis infidelibus loquar, qui potuit apibus prolem sine concubitu <lb/>
+            dare; sine ibi multa mystice ac figurate dicta sint <lb/>
+            aliterque sit intellegendum, quod scriptum est: inplete <lb/>
+            terram et dominamini eius, id est, ut plenitudine et<lb n="20"/>
+            perfectione uitae ac potestatis id fieret, ut ipsum quoque incrementum <lb/>
+            et multiplicatio, qua dictum est: crescite et
+
+<app> 6 Gen. 1, 28 19 Gen. 1, 28 </app>
+
+<app> 1 femine <hi>K</hi> enim <hi>om. CB</hi> 2 conmixtione y regentes HA <lb/>
+            3 subsequentis <hi>ENX</hi> 4 nunc] ñ<foreign xml:lang="grc">α</foreign> 5 nude R1 6 possit <hi>yF</hi> <lb/>
+            7 replete <hi>MENXa</hi> 8 mort*is <hi>A</hi> condicionerp <hi>C</hi> conditione <lb/>
+            <hi>E</hi> C dictionS <hi>B</hi> corpora eorum] corporeorum <hi>CR</hi> corporea <hi>B</hi> <lb/>
+            9 meruerunt <hi>KT</hi> esset <hi>A</hi> nisi] sine <hi>KMENXa</hi> si 2Jl coniunctione <lb/>
+            corporum <hi>M</hi> commixtione corporum <hi>KENXa</hi> posset <hi>MENXa</hi>. <lb/>
+            10 exstiterunt i 11 ueritate <hi>b</hi> scribturarum <hi>(semper</hi> b) <hi>CP</hi> quaenam <lb/>
+            <hi>et sequentia intercid. in A, desunt tria fol</hi>. 14 essent] erant <hi>KT</hi> e <hi>B</hi> <lb/>
+            16 et <hi>om. C</hi> iam] etiam <hi>bd</hi> 17 prolem <hi>om. N</hi> concubitudioe <hi>B</hi> <lb/>
+            18 siue ea <hi>D</hi> ubi Bt ibi sič <hi>D</hi> mysticae <hi>CKX</hi> hac <hi>K</hi> -łlł. Pl <lb/>
+            figuratae <hi>CK</hi> dicte <hi>F</hi> 20 in plenitudine <hi>Pr HRFD</hi> 21 id] hoc <hi>E</hi> <lb/>
+            id ipsum <hi>MENX</hi> 22 multiplicatio <hi>ex</hi> multiplicamini <hi>P</hi> multiplicatio-et <lb/>
+            <hi>om. E</hi> quod <hi>H</hi> </app> <lb/>
+             
+<pb n="189"/>
+            multiplicamini, prouectu mentis et copia uirtutis intellegatur, <lb/>
+            sicut in psalmo positum est: multiplicabis me <lb/>
+            in anima mea in uirtutem, nec data sit homini prolis <lb/>
+            ista successio, nisi posteaquam causa peccati futura erat in <lb/>
+            morte decessio; siue corpus non spiritale illis hominibus, sed <lb n="5"/>
+            primo animale factum erat, ut oboedientiae merito postea <lb/>
+            fieret <choice><note>spiiitale</note><corr>spiritale</corr></choice> ad inmortalitatem capessendam non post mortem, <lb/>
+            quae inuidia diaboli intrauit in orbem terrarum et <lb/>
+            facta est poena peccati, sed per illam commutationem, quam <lb/>
+            significat apostolus, ubi ait: deinde nos uiuentes qui <lb n="10"/>
+            reliqui sumus simul cum illis rapiemur in nubibus <lb/>
+            in obuiam Christo in aera, ut illa corpora primi <lb/>
+            coniugii et mortalia fuisse intellegamus prima conformatione <lb/>
+            et tamen non moritura, nisi peccassent, sicut minatus erat <lb/>
+            deus — tamquam si uulnus minaretur, quia uulnerabile corpus <lb n="15"/>
+            erat, quod tamen non accidisset, nisi fieret quod ille uetuissetit-a <lb/>
+            ergo possent etiam per concubitum talium corporum <lb/>
+            generationes subsistere, quae usque ad certum modum haberent <lb/>
+            incrementum nec uergerent tamen in senium aut usque <lb/>
+            in senium, nec tamen in mortem, donec illa benedictionis <lb n="20"/>
+            multiplicatione terra inplereter. si enim uestibus <sic>Israhelitarum</sic> <lb/>
+            praestitit deus per annos quadraginta sine ullo detrimento
+
+<app> 2 Ps. 137, 3 8 cf. Sap. 2. 24 10 I Thess. 4, 17 21 cf. <lb/>
+            Deut. 29, 5 </app>
+
+<app> 1 in prouectu <hi>PKyHFBDENXTa</hi> prouectus <hi>B</hi> uirtutes <hi>Rl</hi> 2 positum] <lb/>
+            dictum <hi>D</hi> multiplicauis <hi>K</hi> 3 in uirtutem <hi>CF:</hi> in uirtute <lb/>
+            <hi>PKMfHDJSNXaT</hi> iQ. uirtute <hi>B</hi> uirtute <hi>Bbd</hi> proles <hi>BT</hi> 4 conceseio <lb/>
+            <hi>MENXa</hi>. successionis <hi>BBT</hi> nisi] si <hi>B om. BT</hi> posteaque <hi>E</hi> <lb/>
+            Õ decessione <hi>CB</hi> discessio <hi>Da</hi> siue <hi>om. CB</hi> spirituale (a s. <hi>I.) C</hi> <lb/>
+            7 spirituale (u 8. <hi>I.) C</hi> capessenda <hi>K</hi> post] propter <hi>HMENXa</hi>. <lb/>
+            8 que <hi>K</hi> diabuli <hi>K</hi> introiuit <hi>B om. E</hi> 10 signiiicauit <hi>KMEXa</hi> <lb/>
+            apostulus Kl 11 rapiemur cum illis <hi>E</hi> 12 obuiam in nubibus <hi>X</hi> <lb/>
+            in obuiam] obuiam <hi>KFDMENXa</hi> in aera <hi>om. CB</hi> illi P1 illa <lb/>
+            <hi>sqq. usque p. 192, 4 demnt in N</hi> prima <hi>KD</hi> 13 cppfonpatione <lb/>
+            <hi>(del. m. rec.) P</hi> 14 tamen <hi>er. in H</hi> 16 erat <hi>om. E</hi> 17 alium y <lb/>
+            18 generatione <hi>K</hi> 19 si usqu6 <hi>T</hi> 22 XL <hi>KHDMXa</hi> </app> <lb/>
+             
+<pb n="190"/>
+            proprium statum, quanto magis praestaret corporibus oboedientium <lb/>
+            praecepto suo felicissimum quoddam <choice><note>temperamentom</note><corr>temperamentum</corr></choice> <lb/>
+            certi status, donec <choice><note>m</note><corr>in</corr></choice> melius conuerterentur non morte <choice><note>bominis</note><corr>hominis</corr></choice>, <lb/>
+            qua corpus ab anima deseritur, sed beata commutatione <lb/>
+            a mortalitate ad inmortalitatem, ab animali ad spiritalem<lb n="5"/>
+            qualitatem! 
+</p>
+          <p><milestone n="3" unit="altchapter"/>Harum sententiarum quae uera sit, uel si alia uel aliae <lb/>
+            possunt adhuc ex illis uerbis <choice><note>elculpi</note><corr>exculpi</corr></choice>, quaerere ac disserere <lb/>
+            longum est. 
+</p>
+          
+</div1>
+
+<div1 n="3" subtype="section"><head>§ 3</head>
+
+<p>Illud nunc dicimus, secundum istam condicionem nascendi <lb n="10"/>
+            et <sic>mOlieudi</sic>, quam nouimus et in qua creati sumus, aliquid <lb/>
+            boni esse coniugium masculi et feminae: cuius confoederationem <lb/>
+            ita diuina scriptura commendat, ut nec dimissae a uiro <lb/>
+            nubere liceat alteri, quamdiu uir eius uiuit, nec dimisso ab <lb/>
+            uxore liceat alteram ducere, nisi mortua fuerit, quae recessit. <lb n="15"/>
+            bonum ergo coniugii, quod etiam dominus in euangelio confirmauit, <lb/>
+            non solum quia prohibuit dimittere uxorem nisi ex <lb/>
+            causa fornicationis, sed etiam quia uenit inuitatus ad nuptias, <lb/>
+            cur sit bonum, merito quaeritur. quod mihi non uidetur <lb/>
+            propter solam filiorum procreationem, sed propter ipsam etiam <lb n="20"/>
+            naturalem in diuerso sexu societatem; alioquin non iam diceretur <lb/>
+            coniugium in senibus, praesertim si uel amisissent filios <lb/>
+            uel minime genuissent. nunc uero in bono licet annoso coniugio, <lb/>
+            etsi emarcuit ardor aetatis inter masculum et feminam, <lb/>
+            uiget tamen ordo caritatis inter maritum et uxorem, qui
+
+<app> 17 cf. Matth. 19, 9 18 cf. loh. 2, 2 </app>
+
+<app> 1 quando <hi>Rl</hi> corporibus si <hi>D</hi> oboedientiam <hi>PFR</hi> per oboedientiam <lb/>
+            (per <hi>insert.)</hi> i ob§dienti§ <hi>B</hi> obedientiam Beruarent D 5 animale <lb/>
+            <hi>C</hi> 7 ueraa <hi>K</hi> 8 possunt (n in <hi>ras</hi>. m. 2) <hi>C</hi> possent <hi>D</hi> sculpi <lb/>
+            <hi>KMEXaT</hi> exculpiq <hi>B</hi> qua erre <hi>K</hi> 12 quorum <hi>B</hi> confoedarationem <lb/>
+            <hi>C</hi> confoederationa <hi>P</hi> considerationem <hi>E</hi> 14 nixerit i 16 coniugium <lb/>
+            KfEa dominus etiam <hi>D</hi> confirmabit <hi>PR1</hi> 17 proibuit <hi>R</hi> <lb/>
+            19 non <hi>om. EX</hi> uidetur non solum <hi>EX</hi> 20 procreationem filiorum <hi>D</hi> <lb/>
+            21 iam non <hi>T</hi> iam <hi>om</hi>. i 28 annosa <hi>XE2</hi> anno <hi>Hl</hi> 24 marcuit Tit. <lb/>
+            meruit <hi>Flrt</hi> minuitur 8. <hi>I. F2</hi> 25 ordo] ardor <hi>X</hi> qui] quia <hi>PHFR<lb/>
+             DENbd </hi>. </app> <lb n="25"/>
+             
+<pb n="191"/>
+            quanto meliores sunt, tanto maturius a conmixtione carnis. <lb/>
+            suae pari consensu se continere coeperunt, non ut <choice><note>neceasitatis</note><corr>necessitatis</corr></choice> <lb/>
+            esset postea non posse quod uellent, sed ut laudis esset <lb/>
+            primum noluisse quod possent. si ergo seruatur fides honoris <lb/>
+            et obsequiorum inuicem debitorum ab alterutro sexu, etiamsi <lb n="5"/>
+            languescentibus et prope cadauerinis utrisque membris, animorum <lb/>
+            tamen rite coniugatorum tanto sincerior, quanto probatior, <lb/>
+            et tanto securior, quanto placidior castitas perseuerat. <lb/>
+            habent etiam id bonum coniugia. quod carnalis uel iuuenalis <lb/>
+            incontinentia, etiamsi uitiosa est, ad propagandae prolis redigitur <lb n="10"/>
+            honestatem, ut ex malo libidinis aliquid boni faciat <lb/>
+            copulatio coniugalis, deinde quia reprimitur et quodam modo <lb/>
+            uerecundius aestuat concupiscentia carnis, quam temperat <lb/>
+            parentalis affectus. intercedit enim quaedam grauitas feruidae <lb/>
+            uoluptatis, cum in eo, quod sibi uir et mulier adhaerescunt, <lb n="15"/>
+            pater et mater esse meditantur. 
+</p>
+          
+</div1>
+
+<div1 n="4" subtype="section"><head>§ 4</head>
+
+<p><milestone n="4" unit="altchapter"/> Huc accedit, quia in eo ipso, quod sibi inuicem, <lb/>
+            coniuges . debitum soluunt, etiamsi id aliquanto intemperantius <lb/>
+            et incontinentius expetant, fidem <sic>tajnen</sic> sibi pariter debent. <lb/>
+            cui fidei tantum iuris tribuit apostolus, ut eam potestatem <lb n="20"/>
+            appellaret dicens: mulier non habet potestatem corporis <lb/>
+            sui, sed uir; similiter autem et uir non <lb/>
+            habet potestatem corporis sui, sed mulier. huius <lb/>
+            autem fidei uiolatio dicitur adulterium, cum uel propriae <lb/>
+            libidinis instinctu uel alienae consensu cum altero uel altera
+
+<app> 21 I Cor. 7, 4 </app>
+
+<app> 1 eunt om. <hi>H</hi> a om. 7 carnie] caritatis <hi>CB1</hi> 3 laades <hi>K</hi> <lb/>
+            4 prius <hi>KjEXa</hi>. non uoluisse <hi>H</hi> 5 obsequiarom <hi>B1</hi> etlamsi] etiam 7 <lb/>
+            6 languiscentibus <hi>K</hi> caderinis 71 cadauer in his <hi>KT</hi> utriusque <hi>IPbd</hi> <lb/>
+            7 tam merite BI 8 placitior <hi>B1</hi> cantas <hi>MEXa</hi>. perseueret f1 <lb/>
+            9 id] ad F1 iunenilis <hi>MHDB*Xa</hi> 10 propagatio te <hi>B*</hi> redigetur <lb/>
+            <hi>MEXa</hi> 12 repremitur <hi>K</hi> 14 effectns <hi>D</hi> fernida <hi>KT</hi> <lb/>
+            15 noluptati <hi>PfHFBDMEXa</hi> uoluntatis <hi>T</hi> in <hi>om. CB</hi> eo ipso <lb/>
+            <hi>KMTEXa</hi>. et <hi>om. EX</hi> 17 in <hi>om. X</hi> 18 debita <hi>PFBDj</hi> <lb/>
+            aliquando <hi>E</hi> 19 expectant <hi>Bx</hi> pariter] inuicem <hi>KMEXTa</hi>. 20 potestate <lb/>
+            <hi>K</hi> 22 sui <hi>om. M</hi> 23 corpori JR1 25 uel cum altera <hi>X</hi> </app> <lb n="25"/>
+             
+<pb n="192"/>
+            contra pactum coniugale concumbitur. atque ita frangitur <lb/>
+            fides, quae in rebus etiam corporeis et abiectis magnum animi <lb/>
+            bonum est; et ideo eam saluti quoque corporali, qua etiam <lb/>
+            uita ista continetur, certum est debere praeponi. etsi enim <lb/>
+            exigua palea prae multo auro paene res nulla est, fides tamen,<lb n="5"/>
+            cum in negotio paleae sicut in auri sincera seruatur, non <lb/>
+            ideo minor est, quia in re minore seruatur. cum uero ad <lb/>
+            peccatum admittendum adhibetur fides, mirum si fides appellanda <lb/>
+            est; uerumtamen qualiscumque sit, si et contra ipsam <lb/>
+            fit, peius fit, nisi cum propterea deseritur, ut ad <choice><note>aeram</note><corr>ueram</corr></choice> fidem<lb n="10"/>
+            ac legitimam redeatur, id est, ut peccatum emendetur uoluntatis <lb/>
+            prauitate correcta. tamquam si quisque, cum hominem <lb/>
+            solus expoliare non possit, inueniat socium iniquitatis et cum <lb/>
+            eo paciscatur, ut simul id faciant spoliumque partiantur, quo <lb/>
+            facinore commisso totum solus auferat. dolet quidem ille et <lb n="15"/>
+            fidem sibi seruatam non esse conqueritur; uerum in ipsa <sic>soa</sic> <lb/>
+            querela cogitare debet potius in bona uita ipsi humanae <lb/>
+            societati fuisse soruandam, ne praeda iniqua ex homine fieret, <lb/>
+            si sentit, quam inique sibi in peccati societate seruata non <lb/>
+            fuerit. ille quippe utrubique perfidus profecto sceleratior <sic>indicandus</sic> <lb n="20"/>
+            est. at si id, quod male fecerant, ei displicuisset et
+
+<app> 1 adque <hi>(semper) CK</hi> ita] ideo y 8 qua] quae <hi>KT</hi> quo a <lb/>
+            4 ista] nostra ista <hi>K7HMEXabd</hi> etsi] et <hi>EX</hi> et.. <hi>H</hi> enim om. <lb/>
+            <hi>MEXa</hi> etiam <hi>T</hi> 5 paenae <hi>K</hi> 6 auro <hi>Fbd</hi> auris <hi>KRH</hi> in cera <hi>KS</hi> <lb/>
+            incera <hi>H</hi> non-seruatur <hi>repetita exp. et in mg. add.:</hi> transi <hi>C</hi> <lb/>
+            7 minori <hi>MBENXa</hi> cum] ñ idõ <hi>B</hi> ad <hi>om. N</hi> 8 ammittendum <hi>K</hi> <lb/>
+            adhibeatur <hi>D</hi> mirum est <hi>D</hi> 9 ueruntamen <hi>H</hi> qualescumque <hi>K</hi> <lb/>
+            et] ea <hi>MEX</hi> 10 fit] sit <hi>ND</hi> peius fit <hi>om. N</hi> 11 uoluntatem 7* <lb/>
+            12 prauitatis Kf correpta <hi>B</hi> si <hi>om. B</hi> quisquam <hi>D</hi> quia <hi>Xbd</hi> <lb/>
+            14 pasciscatur <hi>B</hi> spoliamque <hi>PFB1</hi> spoliftque Y1 spoliaque <hi>DBj'</hi>! <lb/>
+            quod <hi>KT</hi> 15 auferat dolo. Et (ex <hi>H)</hi> quidem <hi>PrDFH</hi> 16 non seruatam <lb/>
+            <hi>B</hi> non esse] Ų 99 <hi>B</hi> conquaeritur jPf1 uerum tamen X <lb/>
+            17 querilla <hi>K</hi> quaerella <hi>P</hi> quere«la <hi>R</hi> ipsius <hi>MENXa</hi> 18 societatis <lb/>
+            <hi>KMENXa</hi>. aeruandfl <hi>B</hi> praedam iniquam <hi>C</hi> 19 peccatis i <lb/>
+            20 utrubique] utrum ubique <hi>C</hi> uti ubique Pr ut ubique <hi>BD</hi> utrobique <lb/>
+            <hi>THBMENXabd</hi> profecto] pro peccato <hi>K</hi> sceleratus <hi>D</hi> 21 at] <lb/>
+            ad ClFl hac <hi>K</hi> fecerat <hi>KTHMENXa</hi> </app> <lb/>
+             
+<pb n="193"/>
+            propterea cum participe facinoris praedam diuidere noluisset, <lb/>
+            ut homini, cui ablata fuerat, redderetur, eum perfidum nec <lb/>
+            perfidus diceret. ita mulier, si fide coniugali uiolata fidem <lb/>
+            semet adultero, utique mala est; sed si nec adultero, peior <lb/>
+            est. porro si eam flagitii paeniteat et ad castitatem rediens <lb n="5"/>
+            coniugalem pacta ac placita adulterina rescindat, miror, si <lb/>
+            eam fidei uiolatricem uel ipse <choice><note>adnlter</note><corr>adulter</corr></choice> putabit. 
+</p>
+          
+</div1>
+
+<div1 n="5" subtype="section"><head>§ 5</head>
+
+<p><milestone n="5" unit="altchapter"/> Solet etiam quaeri, cum masculus et femina, nec ille <lb/>
+            maritus nec illa uxor alterius, sibimet non filiorum <sic>procreandorum</sic>, <lb/>
+            sed propter incontinentiam solius concubitus causa <lb n="10"/>
+            copulantur ea fide media, ut nec ille cum altera nec illa cum <lb/>
+            altero id faciat, utrum nuptiae sint uocandae. et potest quidem <lb/>
+            fortasse non absurde hoc appellari conubium, si usque ad <lb/>
+            mortem alicuius eorum id inter eos placuerit et prolis generationem, <lb/>
+            quamuis non ea causa coniuncti sint, non tamen <lb n="15"/>
+            uitauerint, ut uel nolint sibi nasci filios uel etiam opere aliquo <lb/>
+            malo agant, ne nascantur. ceterum si uel utrumque uel unum <lb/>
+            horum desit, non inuenio, quemadmodum has nuptias appellare <lb/>
+            possimus. etenim si aliquam sibi uir ad tempus adhibuerit, <lb/>
+            donec aliam dignam uel honoribus uel facultatibus suis inueniat, <lb n="20"/>
+            quam conparem ducat, ipso animo adulter est, nec <lb/>
+            cum illa, quam cupit inuenire, sed cum ista, cum qua sic <lb/>
+            cubat, ut cum ea non habeat maritale consortium. unde et <lb/>
+            ipsa hoc sciens ac uolens inpudice utique miscetur ei, cum
+
+<app> 2 oblata <hi>Ml</hi> abla <hi>Rl</hi> perfidg 2?1 perfida <hi>N</hi> 3 perfides JB1 diceretur <lb/>
+            <hi>NMl</hi> si <hi>om. X</hi> uiolatam <hi>K</hi> 4 seruat <hi>KTMENXaa</hi> <lb/>
+            sed <hi>om. B</hi> si nec] sine <hi>KPjIT</hi> sineque y1 5 flagitift <hi>D</hi> 6 placita <lb/>
+            ac pacta <hi>E</hi> pacti <hi>B</hi> peccata <hi>H</hi> placita <hi>B</hi> adulterini <hi>B</hi> miro <hi>K</hi> <lb/>
+            7 ipaa <hi>Rl om. EX</hi> putauit <hi>PKHRTMENXa</hi>. 8 masculua] <lb/>
+            mare <hi>PRIFil</hi> mae <hi>HDR'1"</hi> et masculua a nec <hi>om. E</hi> 9 non <lb/>
+            <hi>om. MEX</hi> causa filiorum <hi>N</hi> 10 propter] pro <hi>B</hi> incontinentia <hi>B</hi> <lb/>
+            11 altera-cum <hi>om. C</hi> nec-altero <hi>om. B</hi> 12 sunt <hi>T</hi> post RI <lb/>
+            13 obsurde <hi>Bl</hi> 14 alicuius] alterius <hi>d</hi> 15 sunt <hi>B'</hi> 16 ut] et i <lb/>
+            sibi <hi>om. T</hi> aliquo opere <hi>KMENXa</hi> 17 ne <hi>om. E</hi> nascant Pl <lb/>
+            si uel] sine <hi>KRlTMENXa uel]</hi> siue <hi>MENXa</hi> 18 quemammodum <hi>fRI</hi> <lb/>
+            19 aliqua <hi>C</hi> uir <hi>om. CB</hi> 28 maritalem <hi>K</hi> 24 hac <hi>K</hi> miscitnr <hi>K</hi> </app>
+
+<app> XXXXI Auff. Beet. V para III. </app>
+
+<app> 13 </app> <lb/>
+             
+<pb n="194"/>
+            quo non habet foedus uxorium. uerumtamen si ei tori <lb/>
+            fidem seruet et, cum ille uxorem duxerit, nubere ipsa non <lb/>
+            cogitet atque a tali prorsus opere continere se praeparet, <lb/>
+            adulteram quidem fortassis facile appellare non audeam; non <lb/>
+            peccare tamen quis dixerit, cum eam uiro, cuius uxor non<lb n="5"/>
+            est, misceri sciat? iam uero si ex illo concubitu, quantum ad <lb/>
+            ipsam attinet, nonnisi filios <choice><note>nelit</note><corr>uelit</corr></choice> et, quidquid ultra causam <lb/>
+            procreandi patitur, inuita patiatur, multis quidem ista matronis <lb/>
+            anteponenda est, quae tametsi non sunt <choice><note>adolterae</note><corr>adulterae</corr></choice>, uiros <lb/>
+            tamen suos plerumque etiam continere cupientes ad reddendum<lb n="10"/>
+            carnale debitum cogunt non desiderio prolis, sed ardore concupiscentiae <lb/>
+            ipso suo iure intemperanter utentes, in <choice><note>quaruni</note><corr>quarum</corr></choice> <lb/>
+            ...<sic n="poss">1tamen</sic> nuptiis bonum est hoc ipsum, quod nuptae sunt. ad <lb/>
+            hoc enim nuptae sunt, ut illa concupiscentia redacta ad legitimum <lb/>
+            uinculum non deformis et dissoluta fluitaret, <choice><note>habeus</note><corr>habens</corr></choice> <lb n="15"/>
+            de se ipsa inrefrenabilem carnis infirmitatem, de nuptiis autem <lb/>
+            indissolubilem fidei societatem, de se ipsa progressum inmoderate <lb/>
+            coeundi, de nuptiis modum caste procreandi. etsi <lb/>
+            enim turpe est libidinose uti uel marito, honestum est tamen <lb/>
+            nolle misceri nisi marito et non parere nisi de marito. <lb n="20"/>
+            
+</p>
+          <p><milestone n="6" unit="altchapter"/>Sunt item uiri usque adeo incontinentes, ut coniugibus <lb/>
+            nec grauidis parcant. quidquid ergo inter se coniugati inmodestum, <lb/>
+            inuerecundum, sordidum gerunt, uitium est hominum, <lb/>
+            non culpa nuptiarum. 
+</p>
+          
+</div1>
+
+<div1 n="6" subtype="section"><head>§ 6</head>
+
+<p>Iam in ipsa quoque inmoderatiore exactione debiti
+
+<app> 1 fedus <hi>DB</hi> uxoreum 2?1 fidem thori (tori <hi>K) KMENXa</hi>. <lb/>
+            2 illae <hi>R</hi> 3 opere prorsus <hi>E</hi> continere (8. <hi>fin</hi>. e <hi>add</hi>. i) <hi>C</hi> <lb/>
+            4 apellare y1 audeo <hi>MENXa</hi>. 5 eam] ei <hi>KMENXa</hi>. 6 miseri <hi>Bl</hi> <lb/>
+            iam] . nam <hi>MENXa</hi> 7 adtinet Xi pertinet <hi>D</hi> filios <hi>om</hi>. a 8 patitur <lb/>
+            procreandi <hi>H</hi> patiantur K patitur <hi>PHRr</hi> matronia ista <lb/>
+            <hi>KMENXa</hi> 9 talb etsi <hi>D</hi> 10 etiam] iam <hi>KMEXa</hi>. tafli <hi>N</hi> 18 nuptae] <lb/>
+            nuptie <hi>N</hi> ad-sunt <hi>om. CB</hi> 14 ille <hi>J31</hi> 15 deformi <hi>C</hi> et] <lb/>
+            sed <hi>CB</hi> 16 se <hi>om. B</hi> inreflenabilem <hi>M</hi> 17 se <hi>om. HB</hi> 18 etsi <lb/>
+            enim] etenim si <hi>MENXa</hi>. 19 libidinosae <hi>CBX</hi> uti uel] uti uelle <hi>Bbd</hi> <lb/>
+            utile <hi>T</hi> uti <hi>N</hi> 20 et—marito <hi>om. PjHFRD</hi> parcere <hi>B</hi> de 8. <hi>I. B</hi> <lb/>
+            23 Bordide <hi>D</hi> est <hi>om</hi>. yl 24 colpa <hi>C</hi> 25 Iam] Nam <hi>MENXa</hi>. <lb/>
+            inmoderatione <hi>CDXFaE1</hi> immoderata <hi>B</hi> </app> <lb n="25"/>
+             
+<pb n="195"/>
+            carnalis, quam eis non secundum imperium praecepit, sed secundum <lb/>
+            ueniam concedit apostolus, ut etiam praeter causam procreandi <lb/>
+            sibi misceantur, etsi eos praui mores ad talem concubitum inpellunt, <lb/>
+            nuptiae tamen ab adulterio seu fornicatione defendunt. <lb/>
+            neque enim illud propter nuptias admittitur, sed propter nuptias <lb n="5"/>
+            ignoscitur. debent ergo sibi coniugati non solum ipsius <sic>seius</sic> sui <lb/>
+            conmiscendi fidem liberorum procreandorum causa, quae prima <lb/>
+            eat humani generis in ista mortalitate societas, uerum etiam <lb/>
+            infirmitatis inuicem excipiendae ad inlicitos concubitus euitandos <lb/>
+            mutuam quodam modo seruitutem, ut, etsi alteri eorum <lb n="10"/>
+            perpetua continentia placeat, nisi <sic>ez</sic> alterius consensu non possit; <lb/>
+            et ad hoc enim uxor non habet potestatem <lb/>
+            corporis sui, sed uir; similiter et uir non habet <lb/>
+            potestatem corporis sui, sed mulier, ut et quod non <lb/>
+            filiorum procreandorum, sed infirmitatis et incontinentiae causa <lb n="15"/>
+            expetit uel ille de matrimonio uel illa de marito, non sibi <lb/>
+            alterutrum negent, ne per hoc incidant in damnabiles corruptelas <lb/>
+            temptante satana propter incontinentiam uel amborum <lb/>
+            uel cuiusquam eorum. coniugalis enim concubitus generandi <lb/>
+            gratia non habet culpam; concupiscentiae uero satiandae, sed <lb n="20"/>
+            tamen cum coniuge, propter tori fidem uenialem habet culpam; <lb/>
+            adulterium uero siue fornicatio letalem habet culpam. ac per <lb/>
+            hoc melior est quidem ab omni concubitu continentia quam <lb/>
+            uel ipse matrimonialis concubitus, qui fit causa gignendi. 
+</p>
+          <p><milestone n="7" unit="altchapter"/>Sed quia illa continentia meriti amplioris est, reddere <lb n="25"/>
+            uero debitum coniugale nullius est criminis, exigere autem
+
+<app> 12 I Cor. 7, 4 16 cf. I Cor. 7, 5 </app>
+
+<app> 1 praecipit <hi>KMBENXa</hi>. 3 parui Bl Ccubitum P1 impellant <hi>D</hi> <lb/>
+            impellent <hi>B1</hi> 4 adnlterio (ad <hi>s. l.)</hi> y 5 ammittitur <hi>PKBf1</hi> àmittitor <lb/>
+            H1 6 ignuscitur K 10 etai] si X alteri <hi>om. MENXtt</hi> <lb/>
+            11 placeat (at m. 2 <hi>s. ras.) B</hi> 12 et <hi>om. MENXa</hi> 13 uir] mulier <hi>Bx</hi> <lb/>
+            rimiliter-mnlier <hi>om. B1</hi> 16 marito] mari <hi>D</hi> 18 temtante P <lb/>
+            sfttanan <hi>K</hi> 20 gratiam <hi>C</hi> concopiscentia <hi>D</hi> 21 cum <hi>s. I. C om. D</hi> <lb/>
+            thori <hi>PfHFBBDMENXa</hi> uenalem <hi>B'</hi> habent <hi>C</hi> 22 laetalem <lb/>
+            <hi>CPKBD</hi> loetalem <hi>HFB</hi> hac <hi>K</hi> 23 quidem est <hi>HRDa</hi>. 24 uel] <lb/>
+            quod <hi>C om. R</hi> sit <hi>H</hi> gignendi causa (causa <hi>8. I. m. 2) B</hi> </app>
+
+<app> 13* </app> <lb/>
+             
+<pb n="196"/>
+            ultra generandi necessitatem culpae uenialis, fornicari porro <lb/>
+            uel moechari puniendi criminis, cauere debet caritas coniugalis, <lb/>
+            ne, dum sibi quaerit, unde amplius honoretur, coniugi faciat, <lb/>
+            unde damnetur. qui enim dimittit uxorem suam excepta <lb/>
+            causa fornicationis facit eam moechari. <lb n="5"/>
+            usque adeo foedus illud initum nuptiale cuiusdam sacramenti <lb/>
+            res est, ut nec ipsa separatione inritum fiat, quandoquidem <lb/>
+            uiuente uiro et a quo relicta est moechatur, si alteri nupserit, <lb/>
+            et ille huius mali causa est qui reliquit. 
+</p>
+          
+</div1>
+
+<div1 n="7" subtype="section"><head>§ 7</head>
+
+<p>Miror autem, si, quemadmodum licet dimittere adulteram <lb n="10"/>
+            uxorem, ita licet ea dimissa alteram ducere. facit enim de <lb/>
+            hac re sancta scriptura difficilem nodum dicente apostolo ex <lb/>
+            praecepto domini mulierem a uiro non debere discedere; quodsi <lb/>
+            discesserit, manere innuptam aut uiro suo reconciliari: <lb/>
+            cum recedere utique et manere innupta nisi ab adultero uiro <lb n="15"/>
+            non debeat, ne recedendo ab eo, qui adulter non est, faciat <lb/>
+            eum moechari. reconciliari autem uiro uel tolerando, si se <lb/>
+            ipsa continere non potest, uel correcto forsitan iuste potest. <lb/>
+            quomodo autem uiro possit esse licentia ducendae alterius, <lb/>
+            si adulteram reliquerit, cum mulieri non sit nubendi alteri, <lb n="20"/>
+            si adulterum reliquerit, non uideo. quae si ita sunt, tantum <lb/>
+            ualet illud sociale uinculum coniugum, ut, cum causa procreandi <lb/>
+            conligetur, nec ipsa causa procreandi soluatur. possit
+
+<app> 4 Matth. 5, 32 13 cf. I Cor. 7, 10. 11 </app>
+
+<app> 1 generandi] gerendi <hi>D</hi> necessitate <hi>E</hi> porro fornicari <hi>MENXa</hi>. <lb/>
+            porro] autem <hi>Fy</hi> uero <hi>bd</hi> 2 moecari <hi>K</hi> mechari <hi>D</hi> caueri <hi>B</hi> <lb/>
+            debit <hi>K</hi> castitas <hi>(in mg</hi>. caritas) <hi>K, MEX</hi> 3 dum. <hi>P</hi> 4 dampnetur <lb/>
+            <hi>X</hi> excepto <hi>PHIRBIDjl</hi> 5 faci.t <hi>H</hi> 6 fedue <hi>MX</hi> fedns <hi>D</hi> <lb/>
+            initium <hi>PKTDXEN</hi> init.am <hi>HB</hi> 7 fiat] faciat <hi>C om. B1</hi> 8 et] <lb/>
+            uel <hi>EX</hi> moechatur-est <hi>om. D</hi> 9 relinquat <hi>MNX</hi> relinquit <hi>KEa</hi> reliquid <lb/>
+            <hi>Hl</hi> 10 si sic <hi>N</hi> quemammodum <hi>PK</hi> 11 liceat <hi>KFbd</hi> 12 difficillimutn <lb/>
+            <hi>D</hi> no.dum <hi>C</hi> 14 innupta <hi>CK</hi> 15 recedere (ce a. <hi>I <lb/>
+            m. 2) R</hi> itaque <hi>KNXa</hi> innuptam <hi>MEX</hi> adultera <hi>Bt</hi> 16 quia <hi>K</hi> <lb/>
+            faciatj qui faciat <hi>N</hi> 18 ipsam <hi>MENXa</hi> correcta <hi>R</hi> 19 ducendi <hi>K</hi> <lb/>
+            20 si] si dum <hi>K</hi> cum-reliquerit <hi>om. D</hi> mulier y nubendi om. T <lb/>
+            21 adnlterum] alterum JPy 22 coniugii <hi>D</hi> 23 colligitur a poaeet <lb/>
+            <hi>PKHBDMENXrr;</hi> </app> <lb/>
+             
+<pb n="197"/>
+            enim homo dimittere sterilem uxorem et ducere, de qua filios <lb/>
+            habeat, et tamen non licet, et nostris quidem iam temporibus <lb/>
+            ac more Romano nec superducere, ut amplius habeat quam <lb/>
+            unam uiuam; et utique relicta adultera uel relicto adultero <lb/>
+            possent plures nasci homines, si uel illa alteri nuberet uel <lb n="5"/>
+            ille alteram duceret. quod tamen si non licet, sicut diuina <lb/>
+            regula praescribere uidetur, quem non faciat intentum, quid <lb/>
+            sibi uelit tanta firmitas uinculi coniugalis? quod nequaquam <lb/>
+            puto tantum ualere potuisse, nisi alicuius rei maioris ex hac <lb/>
+            infirma mortalitate hominum quoddam sacramentum adhiberetur, <lb n="10"/>
+            quod deserentibus hominibus atque id dissoluere cupientibus <lb/>
+            inconcussum illis maneret ad poenam, siquidem interueniente <lb/>
+            diuortio non aboletur illa confoederatio nuptialis, ita <lb/>
+            ut sibi coniuges sint etiam separati, cum illis autem adulterium <lb/>
+            committant, quibus fuerint etiam post suum <choice><note>repudiuifl</note><corr>repudium</corr></choice> <lb n="15"/>
+            copulati, uel illa uiro uel ille mulieri. nec tamen nisi in <lb/>
+            ciuitate dei nostri, in monte sancto eius talis est <lb/>
+            causa cum uxore. 
+</p>
+          <p><milestone n="8" unit="altchapter"/>Ceterum aliter se habere iura gentilium quia ignorat? <lb/>
+            ubi interposito repudio sine reatu. aliquo ultionis humanae et <lb n="20"/>
+            illa, cui <choice><note>uolnerit</note><corr>uoluerit</corr></choice>, nubit et ille, quam uoluerit, ducit. cui consuetudini <lb/>
+            simile aliquid propter Israhelitarum <choice><note>duntiam</note><corr>duritiam</corr></choice> uidetur <lb/>
+            permisisse Moyses de libello repudii. qua in re exprobratio <lb/>
+            quam approbatio diuortii magis apparet.
+
+<app> 16 cf. Ps. 47, 2 23 cf. Deut. 24, 1; Matth. 19, 8-</app>
+
+<app> 1 enim] etiam y dimittere homo <hi>KMENXa</hi> 2 tamen] tunc <hi>Ea</hi>. <lb/>
+            5 plures possent <hi>MENa</hi>. illa] ille <hi>B</hi> 6 illa <hi>B post</hi> ille, <hi>repet</hi>. <lb/>
+            alteri nuberet uel ille <hi>in C</hi> alteri <hi>Bl</hi> duceret] uel ille alter! <lb/>
+            doceret <hi>B</hi> 7 perecribere <hi>K</hi> praescribere uidetur] preuidetur <hi>D</hi> <lb/>
+            facit <hi>D</hi> faciaet <hi>H</hi> 8 uincula <hi>Bl</hi> quod <hi>Hl</hi> 9 alicui y 10 infima <lb/>
+            <hi>FD</hi> infUma y mortalite <hi>R</hi> 11 id <hi>om</hi>. T soluere <hi>D</hi> 13 confederatio <lb/>
+            <hi>KfHM</hi> 14 seperati <hi>Hl</hi> 15 fuerit a 16 a uiro <hi>K</hi> uel] <lb/>
+            ai <hi>K</hi> siue <hi>MENXa</hi> 17 ciuitatem <hi>C</hi> cuitate <hi>D</hi> 19 ignorat (a eas e) <hi>ft</hi> <lb/>
+            20 ibi <hi>B</hi> tripudio <hi>E</hi> 21 consuetudinig <hi>B</hi> 22 aliquod i duriciam <lb/>
+            <hi>KD</hi> 23 permississe <hi>Ka1</hi> quia <hi>C</hi> qua* y exprobatio Bx <lb/>
+            24 magis <hi>post</hi> exprobratio <hi>sequitur in HMENXrx</hi>. diuortii apparet quam <lb/>
+            approbatio <hi>H</hi> quam approbatio <hi>om. B</hi> obprobratio <hi>C</hi> diuortio y </app> <lb/>
+             
+<pb n="198"/>
+            
+</p>
+
+</div1>
+
+<div1 n="8" subtype="section"><head>§ 8</head>
+
+<p>Honorabiles ergo nuptiae in omnibus et torus <lb/>
+            inmaculatus. quod non sic dicimus bonum, ut in fornicationis <lb/>
+            conparatione sit bonum; alioquin duo mala erunt, <lb/>
+            quorum alterum peius; aut bonum erit et fornicatio, quia est <lb/>
+            peius adulterium — peius est enim alienum matrimonium uiolare<lb n="5"/>
+            quam meretrici adhaerere - et bonum adulterium, quia <lb/>
+            est peior incestus — peius est enim cum matre quam cum <lb/>
+            aliena <choice><note>uzore</note><corr>uxore</corr></choice> concumbere — et donec ad ea perueniatur, quae, <lb/>
+            sicut ait apostolus, turpe est etiam dicere, omnia bona <lb/>
+            erunt in conparatione peiorum. hoc autem falsum esse quis <lb n="10"/>
+            dubitet? non ergo duo mala sunt conubium et fornicatio, <lb/>
+            quorum alterum peius, sed duo bona sunt conubium et continentia, <lb/>
+            quorum alterum est melius, sicut ista temporalis <lb/>
+            sanitas et inbecillitas non sunt duo mala, quorum alterum <lb/>
+            peius, sed ista sanitas et inmortalitas duo bona sunt, quorum<lb n="15"/>
+            alterum melius. item scientia et uanitas non duo mala sunt, <lb/>
+            quorum uanitas peius, sed scientia et <choice n="0.08"><note n="11">raritas</note><corr n="120">caritas</corr></choice> duo bona sunt, <lb/>
+            quorum <choice n="0.06"><note n="9">cantas</note><corr n="120">caritas</corr></choice> melius. namque scientia destruetur, ait <lb/>
+            apostolus, et tamen huic tempori necessaria est; caritas <lb/>
+            autem numquam cadet. sic et mortalis ista generatio, <lb n="20"/>
+            propter quam fiunt nuptiae, destruetur; ab omni autem concubitu <lb/>
+            inmunitas et hic angelica meditatio est et permanet <lb/>
+            in aeternum. sicut autem ieiuniis sacrilegorum meliora sunt <lb/>
+            prandia iustorum, ita nuptiae fidelium uirginitati anteponuntur <lb/>
+            inpiarum. uerumtamen neque ibi prandium ieiunio, sed iustitia<lb n="25"/>
+            sacrilegio neque hic nuptiae uirginitati, sed fides inpietati
+
+<app> 1 Hebr. 13, 4 9 Ephes. 5, 12 18 I Cor. 13, 8 </app>
+
+<app> 3 conparationem <hi>C</hi> 4 et <hi>om. KfHFRDN</hi> eet <hi>om. MENXo</hi>. <lb/>
+            5 enim est <hi>F</hi> 6 adherere <hi>CKHDX</hi> bonum est <hi>PKyHFRD</hi> <lb/>
+            7 peior est <hi>MENDXa</hi> 8 concubere <hi>PH</hi> 9 apostolus ait <hi>MENXbd</hi> <lb/>
+            eat] est enim <hi>CBD</hi> etiam <hi>om. D</hi> 11 concubium <hi>K</hi> 12 annt <lb/>
+            bona <hi>B</hi> 18 melius est <hi>X</hi> 15 sanitas <hi>om</hi>. 7 17 sunt bona <hi>D</hi> <lb/>
+            18 distruetur <hi>K</hi> ut ait <hi>ENXa</hi> 19 tempore 71 20 cadat 221 <lb/>
+            21 distruetur <hi>K</hi> om*ni <hi>H</hi> autem] enim <hi>MEXa om. N</hi> 22 manet T <lb/>
+            23 sacrilegiorum <hi>(all</hi>. i <hi>in ras.) B</hi> 24 uirginitate <hi>YlDxE</hi> 25 impiorum <lb/>
+            <hi>MEXaK1</hi> imperium Kl </app> <lb/>
+             
+<pb n="199"/>
+            praefertur. ad hoc enim iusti, cum opus est, prandent, ut <lb/>
+            tamquam boni domini quod iustum et aequum est seruis <lb/>
+            corporibus praebeant; ad hoc autem sacrilegi ieiunant, ut <lb/>
+            daemonibus seruiant. sic ad hoc nubunt <choice><note>iideles</note><corr>fideles</corr></choice>, ut maritis <lb/>
+            pudice copulentur; ad hoc autem sunt uirgines inpiae, ut a <lb n="5"/>
+            uero deo fornicentur. sicut ergo bonum erat, quod Martha <lb/>
+            faciebat occupata circa ministerium sanctorum, sed melius, <lb/>
+            quod Maria soror eius sedens ad pedes domini et <lb/>
+            audiens uerbum eius: ita bonum Susannae in coniugali <lb/>
+            castitate laudamus, sed tamen ei bonum uiduae Annae ac <lb n="10"/>
+            multo magis Mariae uirginis anteponimus. bonum erat, quod <lb/>
+            faciebant, quae de substantia sua Christo ac discipulis eius <lb/>
+            necessaria ministrabant; sed melius, qui omnem suam substantiam <lb/>
+            dimiserunt, ut expeditiores eundem dominum sequerentur. <lb/>
+            in his autem binis bonis, siue quae isti siue quae <lb n="15"/>
+            Martha et Maria faciebant, fieri non posset, quod melius est, <lb/>
+            nisi altero praetermisso aut relicto. unde intellegendum est <lb/>
+            non ideo malum putandum esse nuptias, quia, nisi ab eis <lb/>
+            abstineatur, non potest haberi uidualis castitas aut uirginalis <lb/>
+            integritas. neque enim ideo malum erat, quod Martha faciebat, <lb n="20"/>
+            quia, nisi inde abstineret soror eius, non faceret, quod melius <lb/>
+            erat; aut ideo malum est suscipere iustum aut prophetam in <lb/>
+            domum suam, quia nec domum habere debet, ut quod melius <lb/>
+            est faciat qui uult ad perfectionem Christum sequi. <lb/>
+            
+</p>
+
+</div1>
+
+<div1 n="9" subtype="section"><head>§ 9</head>
+
+<p><milestone n="9" unit="altchapter"/> Sane uidendum est alia bona nobis deum dare,
+
+<app> 7 cf. Luc. 10, 39. 40 10 cf. Sasanna cf. Luc. 2, 86. 37 <lb/>
+            11 cf. Luc. 1, 27 </app>
+
+<app> 1 enim <hi>om. N</hi> 2 quamquam <hi>C</hi> 3 corporeis (i in <hi>ras.)</hi> i autem] <lb/>
+            enim <hi>D</hi> 4 si Bl 5 pudicae <hi>CPy</hi> publice <hi>D</hi> pudica <hi>F</hi> copulent <hi>F</hi> <lb/>
+            6 deo uero <hi>Ea</hi>. 7 occupata multum <hi>KMENXi</hi> 9 uerbum eius cum <lb/>
+            eum ambae hospitio recepissent <hi>KMENXa</hi> 10 ei <hi>om. D</hi> anne <hi>H</hi> <lb/>
+            11 nirgine <hi>Dl</hi> 12 qui <hi>MENXOL</hi> 13 substantiam auam <hi>KMENXct</hi> <lb/>
+            15 iatg <hi>BD</hi> 16 marta <hi>C</hi> maria et martha <hi>N</hi> non posset <lb/>
+            fieri <hi>MENXa</hi> 18 niri quia <hi>X</hi> 19 habere <hi>K</hi> castitas (as in <hi>ras. <lb/>
+             m. 2) C</hi> aut] ut <hi>D</hi> 22 sustum P1 25 sane (a <hi>supra</hi> i) <hi>H</hi> </app> <lb n="25"/>
+             
+<pb n="200"/>
+            quae propter se ipsa expetenda sunt, sicut est sapientia, <lb/>
+            salus, amicitia, alia, quae propter aliquid sunt necessaria, <lb/>
+            sicut doctrina, cibus, potus, somnus, coniugium, concubitus. <lb/>
+            horum enim quaedam necessaria sunt propter sapientiam, sicut <lb/>
+            doctrina, quaedam propter salutem, sicut cibus et potus et <lb n="5"/>
+            somnus, quaedam propter amicitiam, sicut nuptiae uel concubitus; <lb/>
+            hinc enim subsistit propagatio generis humani, in quo <lb/>
+            societas amicalis magnum bonum est. his itaque bonis, quae <lb/>
+            propter aliud necessaria sunt, qui non ad hoc utitur, propter <lb/>
+            quod instituta sunt, peccat alias uenialiter, alias damnabiliter. <lb n="10"/>
+            quisquis uero eis propter hoc utitur. propter quod data sunt, <lb/>
+            bene facit. cui ergo non sunt necessaria, si non eis utitur, <lb/>
+            melius facit. proinde ista bona cum opus habemus, bene uolumus; <lb/>
+            sed melius ea nolumus quam uolumus, quia tunc <lb/>
+            melius nos habemus, cum ea necessaria non habemus. ac per<lb n="15"/>
+            hoc bonum est nubere, quia bonum est filios procreare, matrem <lb/>
+            familias esse; sed melius est non nubere, quia melius est ad <lb/>
+            ipsam humanam societatem hoc opere non egere. ita enim <lb/>
+            iam sese habet humanum genus, ut aliis, qui se non continent, <lb/>
+            non solum per nuptias occupatis, sed multis etiam per inlicitos <lb n="20"/>
+            concubitus luxuriantibus bono creatore de malis eorum <lb/>
+            faciente, quod bonum est, non desit numerositas prolis et <lb/>
+            abundantia successionis, unde sanctae amicitiae conquirantur. <lb/>
+            ex quo colligitur primis temporibus generis humani maxime <lb/>
+            propter dei populum propagandum, per quem et prophetaretur <sic n="poss">i5</sic>
+
+<app> . 16 cf. I Tim. 5, 14. </app>
+
+<app> 1 est <hi>om. KMENXa</hi>. 2 amicitia#* <hi>F</hi> amicitia et <hi>D</hi> atiquid] <lb/>
+            aliud <hi>MNOL</hi> 8 et potus et somnus <hi>MENXa</hi>. 5 <hi>prius</hi> et <hi>om. KMENX</hi> <lb/>
+            6 amiciam <hi>B</hi> 9 alind] illud <hi>K2MENa</hi> 10 quę <hi>8. I. m. 2 B</hi> 11 propter <lb/>
+            hoc eis <hi>D</hi> 14 <hi>cum uoce</hi> sed <hi>incipit A</hi> ea Ct. 15 nos] non <hi>AD</hi> <lb/>
+            feac <hi>B</hi> 16 filius <hi>K</hi> 17 <hi>post</hi> esse <hi>sex litt. er. in P est</hi> melius <hi>B<lb/>
+             pr</hi>. est <hi>om. K</hi> 18 egere <hi>prim</hi>. e <hi>supra er</hi>. a) <hi>A</hi> 19 esse <hi>pro</hi> sese 7; <lb/>
+            <hi>sed in mg. add</hi>. sese 20 inlicitas <hi>Bl</hi> 21 luxoriantibus «4'JRV <lb/>
+            creatore 01 22 non] ut non <hi>KMENXo</hi>. 23 habundantia <hi>KHABENa</hi>. <lb/>
+            amicitiae sanctae <hi>E</hi> </app> <lb n="25"/>
+             
+<pb n="201"/>
+            et <choice><note>naseeretur</note><corr>nasceretur</corr></choice> princeps et saluator omnium populorum, uti <lb/>
+            debuisse sanctos isto non propter se expetendo, sed propter <lb/>
+            aliud necessario bono nuptiarum; nunc uero, cum ad ineundam <lb/>
+            sanctam et sinceram societatem undique ex omnibus gentibus <lb/>
+            copia spiritalis cognationis exuberet, etiam propter solos <lb n="5"/>
+            filios conubia copulare cupientes, ut ampliore continentiae <lb/>
+            bono potius utantur, admonendi sunt. 
+</p>
+          
+</div1>
+
+<div1 n="10" subtype="section"><head>§ 10</head>
+
+<p><milestone n="10" unit="altchapter"/> Sed noui, quid <sic>murlllUrent</sic>. quid? si, inquiunt, omnes <lb/>
+            homines uelint ab omni concubitu continere, unde <choice><note>subsigteret</note><corr>subsisteret</corr></choice> <lb/>
+            genus humanum? utinam omnes hoc uellent dumtaxat in <lb n="10"/>
+            caritate de corde puro et conscientia bona et fide <lb/>
+            non ficta! multo citius dei ciuitas conpleretur et adceleraretur <lb/>
+            terminus saeculi. quid enim aliud <choice><note>hortaii</note><corr>hortari</corr></choice> apparet apostolum, <lb/>
+            ubi ait, cum inde loqueretur: uellem omnes esse <lb/>
+            sicut me ipsum? aut illo loco: hoc autem dico, fratres: <lb n="15"/>
+            tempus breue est; reliquum est, ut et hi, qui <lb/>
+            habent uxores, tamquam non habentes sint; et qui <lb/>
+            flent, tamquam non flentes; et qui gaudent, tamquam <lb/>
+            non gaudentes; et qui emunt, tamquam non <lb/>
+            ementes; et qui utuntur hoc mundo, tamquam non <lb n="20"/>
+            utantur: praeterit enim figura huius mundi. uolo <lb/>
+            uos sine sollicitudine esse. deinde subiungit: qui sine <lb/>
+            uxore est, cogitat ea quae sunt domini, quomodo <lb/>
+            placeat domino. qui autem matrimonio iunctus <lb/>
+            est, cogitat quae sunt mundi, quomodo placeat
+
+<app> 11 cf. I Tim. 1, 5 14 I Cor. 7, 7. 29—34. </app>
+
+<app> <hi>1 uti post isto 8. I. m. 2 f 2 istos B</hi> ezpectando a 3 bono <lb/>
+            necessario <hi>N</hi> ineundS <hi>Mx</hi> 4 gentibus <hi>om. E</hi> 5 solo <hi>R1</hi> 6 cunnbia <lb/>
+            <hi>K</hi> ut] ut et <hi>MENa</hi> 7 pocius <hi>A</hi> ammonendi <hi>PKHBMD <lb/>
+            XAufl</hi> 8 murmorent <hi>A1</hi> 9 homines (i 8. <hi>I.) C: om. PKfHARFBD <lb/>
+            MENXa</hi> nellent <hi>B</hi> abstinere 8. <hi>l. m. 2 Y</hi> subsisteret <hi>CFB:</hi> <lb/>
+            subistit <hi>KMENXa</hi> subsistet <hi>PjHARDbd</hi> 10 uellent hoc <hi>MENXa</hi> <lb/>
+            11 puro corde <hi>MENX</hi> 12 acceleretur <hi>E</hi> 14 loquetur <hi>Ax</hi> 16 reo <lb/>
+            <lb/>
+            licum <hi>Rl hi» A</hi> hii a 19 emvnt (v <hi>supra</hi> e) <hi>C</hi> 20 mundo] m <hi>B</hi> <lb/>
+            22 solitudine <hi>B</hi> deinde] dudfl <hi>K</hi> 23 cogitet <hi>B</hi> ea <hi>om. D</hi> 24 domino] <lb/>
+            deo <hi>D</hi> coniunctae <hi>Fbd</hi> 25 cogitet Kx. </app> <lb n="25"/>
+             
+<pb n="202"/>
+            uxori. et diuisa est mulier innupta et uirgo: quae <lb/>
+            innupta est, sollicita est ea quae sunt domini, ut <lb/>
+            sit sancta et corpore et spiritu; quae autem nupta <lb/>
+            est, sollicita est quae sunt mundi, quomodo placeat <lb/>
+            uiro. unde mihi uidetur hoc tempore solos eos, qui se<lb n="5"/>
+            non continent, coniugari oportere - secundum illam eiusdem <lb/>
+            apostoli sententiam: quodsi se non continent, nubant; <lb/>
+            melius est enim nubere quam uri. 
+</p>
+          
+</div1>
+
+<div1 n="11" subtype="section"><head>§ 11</head>
+
+<p>Nec ipsis tamen peccatum sunt nuptiae, quae, si in <lb/>
+            conparatione fornicationis eligerentur, minus peccatum essent<lb n="10"/>
+            quam fornicatio, sed tamen peccatum essent. nunc autem quid <lb/>
+            dicturi sumus aduersus euidentissimam uocem apostoli dicentis: <lb/>
+            quod uult faciat; non peccat, nubat, et: si acceperis <lb/>
+            uxorem, non peccasti; et si nupserit uirgo, <lb/>
+            non peccat. hinc certe iam dubitare fas non est nuptias<lb n="15"/>
+            non esse peccatum. non itaque nuptias secundum ueniam <lb/>
+            concedit apostolus - nam quis ambigat absurdissime dici non <lb/>
+            eos peccasse, quibus uenia datur? — sed illum concubitum secundum <lb/>
+            ueniam concedit, qui fit per incontinentiam, non sola <lb/>
+            causa procreandi et aliquando nulla causa procreandi, quem <lb n="20"/>
+            nuptiae non fieri cogunt, sed ignosci inpetrant: si tamen non <lb/>
+            ita sit nimius, ut inpediat quae seposita esse debent tempora <lb/>
+            orandi, nec inmutetur in eum usum, qui est contra naturam,
+
+<app>7 I Cor. 7, 9 13 I Cor. 7, 36 I Cor. 7, 28 </app>
+
+<app> 1 diois'» (a <hi>er.) H</hi> nupta <hi>BMENXu</hi>. 2 ea] circa ea <hi>D om. KM<lb/>
+             ENXa</hi> 3 sancta sit <hi>N</hi> et <hi>pr. om. KMEN</hi> 4 circa ea quae <hi>D</hi> <lb/>
+            6 secundam jiAl 7 contineant <hi>D</hi> 8 enim <hi>om. MENXa</hi> nuberi <hi>K</hi> <lb/>
+            ure <hi>K</hi> u.ri <hi>H</hi> 9 tamen] tč <hi>EXa</hi> 11 quam-eaeent <hi>om. C</hi> esse.t T <lb/>
+            13 qui <hi>MENX</hi> si nubat <hi>•fFBDMENXaBiHibd</hi> 15 certe ergo <hi>K</hi> <lb/>
+            iam] tam <hi>K</hi> dubita Hl 16 secundum] secfl <hi>H</hi> 18 ueniairi <hi>C</hi> <lb/>
+            concubitu <hi>K</hi> seC <hi>H</hi> 19 concedit apostolus <hi>MENa</hi> innocentiam <hi>K</hi> <lb/>
+            sola (a <hi>ex</hi> 0) <hi>H</hi> 20 et] sed <hi>A2B</hi> quae <hi>CKBF1</hi> 21 fieri non <lb/>
+            <hi>jMENXu</hi>. ignoeci] ignoscunt cQ <hi>EMNa</hi> ignos ctt jlHI ignosci cft <hi>X</hi> <lb/>
+            impeTrant (t 8. <hi>I.) PD</hi> perpetra*? (pe <hi>alt. 8. I.) H</hi> perpetrant <hi>MX-f</hi> <lb/>
+            petrant 71 perpetretur <hi>E</hi> perpetratur <hi>Na</hi> imperant <hi>K</hi> 22 se post posito <lb/>
+            <hi>K</hi> tempore (or <hi>8. I.) B</hi> 28 ordinandi <hi>PHRFf</hi> ador*andi <hi>A</hi> <lb/>
+            adornandi D </app> <lb/>
+             
+<pb n="203"/>
+            de quo apostolus tacere non potuit, cum de corruptelis nimis <lb/>
+            inmundorum et inpiorum hominum loqueretur. concubitus enim <lb/>
+            necessarius causa generandi inculpabilis et solus ipse nuptialis <lb/>
+            est. ille autem, qui ultra istam necessitatem progreditur, iam <lb/>
+            non rationi, sed libidini obsequitur. et hunc tamen non exigere, <lb n="5"/>
+            sed reddere coniugi, ne fornicando damnabiliter peccet, ad <lb/>
+            personam pertinet coniugalem. si autem ambo tali concupiscentiae <lb/>
+            subiguntur, rem faciunt non plane nuptiarum. uerumtamen <lb/>
+            si magis in sua coniunctione diligunt quod honestum, <lb/>
+            quam quod inhonestum est, id est quod nuptiarum quam id, <lb n="10"/>
+            quod non est nuptiarum, hoc eis auctore apostolo secundum <lb/>
+            ueniam conceditur: cuius delicti non habent hortatrices nuptias, <lb/>
+            sed deprecatrices, si dei misericordiam non a se auertant, uel <lb/>
+            non abstinendo quibusdam diebus, ut orationibus uacent, et <lb/>
+            per hanc abstinentiam sicut per ieiunia commendent preces <lb n="15"/>
+            suas, uel inmutando naturalem usum in eum usum, qui est <lb/>
+            contra naturam, quod damnabilius fit in coniuge. 
+</p>
+          
+</div1>
+
+<div1 n="12" subtype="section"><head>§ 12</head>
+
+<p><milestone n="11" unit="altchapter"/> Nam cum ille naturalis usus, quando prolabitur <lb/>
+            ultra pacta nuptialia, id est ultra propagandi necessitatem, <lb/>
+            uenialis sit in uxore, in meretrice damnabilis, iste, qui est <lb n="20"/>
+            contra naturam, execrabiliter fit in meretrice, sed execrabilius <lb/>
+            in uxore. tantum ualet ordinatio creatoris et ordo creaturae, <lb/>
+            ut in rebus ad utendum concessis, etiam cum modus
+
+<app> 1 cf. Rom. 1, 26. 27 </app>
+
+<app> 1 apostulua <hi>K</hi> nimiis <hi>PyAFaBBDMEN Xabd</hi> 3 generandi (ne <lb/>
+            <hi>8. I.) B</hi> 4 est <hi>om. KMNXa</hi>. istam <hi>om; FyAHFBD</hi> procedit.. <hi>A</hi> <lb/>
+            procedit <hi>D</hi> 6 coniugii <hi>B</hi> 8 subiugantur <hi>MNXa</hi> Bobiapgaritur <hi>E</hi> <lb/>
+            subiuguntur <hi>BIHI</hi> subiciuntur <hi>B1</hi> subiunguntur <hi>H2</hi> faciant <hi>PyIHIA<lb/>
+             Jf'1BD</hi> 10 quam <hi>om. E</hi> inonestum Hi quod est nuptiarum <hi>bd</hi> <lb/>
+            11 apostulo <hi>K</hi> secundum] seč <hi>H</hi> 12 delecti 01 dilecti <hi>K</hi> delicta <hi>B</hi> <lb/>
+            13 depraecatrices <hi>OPiy K</hi> deprecatri <hi>B1</hi> si <hi>om. B</hi> misericordiam <lb/>
+            qui <hi>B</hi> 14 ut <hi>om. AXD</hi> uocint Hx 15 praeces <hi>CK</hi> 16 eum <lb/>
+            <hi>om. PKfHAFBDMENXa</hi> 17 fit <hi>ex</hi> sit <hi>H</hi> 18 quando <hi>om. X</hi> <lb/>
+            probabitur <hi>C</hi> 19 ultra] ulla <hi>C</hi> 20 fit <hi>D om. B</hi> daTnpnaadabilis <hi>A</hi> <lb/>
+            21 exsecrabiliter <hi>K</hi> exsecrabiltter y fit <hi>om. R</hi> eisecrabilius fit <hi>K</hi> <lb/>
+            execrabilius fit <hi>MDNXEa</hi> ei§ecrabilius f 28 concessit <hi>K</hi> </app> <lb/>
+             
+<pb n="204"/>
+            <sic>exceditur</sic>, longe sit tolerabilius quam in ea, quae concessa non <lb/>
+            sunt, uel unus uel rarus excessus. et ideo in re concessa inmoderatio <lb/>
+            coniugis, ne in rem non concessam libido prorumpat, <lb/>
+            toleranda est. hinc est etiam, quod longe minus peccat quamlibet <lb/>
+            adsiduus ad uxorem quam uel rarissimus ad <choice><note>fomicationem</note><corr>fornicationem</corr></choice>.<lb n="5"/>
+            cum uero uir membro mulieris non ad hoc concesso <lb/>
+            uti uoluerit, turpior est uxor, si in se, quam si in alia fieri <lb/>
+            permiserit. decus ergo coniugale est castitas procreandi et <lb/>
+            reddendi carnalis debiti fides: hoc est opus nuptiarum, hoc <lb/>
+            ab omni crimine defendit apostolus dicendo: <choice n="0.00"><note n="965">etsi</note><corr n="188856">et</corr></choice> acceperis<lb n="10"/>
+            uxorem, non peccasti; et si nupserit uirgo, non <lb/>
+            peccat, et: quod uult faciat; non peccat, nubat. <lb/>
+            exigendi autem debiti ab alterutro sexu inmoderatior progressio <lb/>
+            propter illa, quae supra dixit, coniugibus secundum ueniam <lb/>
+            conceditur. <lb n="15"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="13" subtype="section"><head>§ 13</head>
+
+<p>Quod ergo ait: quae innupta est, cogitat ea <lb/>
+            quae sunt domini, ut sit sancta et corpore et <lb/>
+            spiritu, non sic accipiendum est, ut putemus non esse <lb/>
+            sanctam corpore <choice><note>christianam</note><corr>Christianam</corr></choice> coniugem castam. omnibus quippe <lb/>
+            fidelibus dictum est: nescitis, quia corpora <choice><note>ueatra</note><corr>uestra</corr></choice> <lb n="20"/>
+            templum <sic>inuobis</sic> est spiritus sancti, quem habetis <lb/>
+            a deo? sancta sunt ergo etiam corpora coniugatorum fidem <lb/>
+            sibi et domino seruantium. cui sanctitati cuiuslibet eorum <lb/>
+            nec infidelem coniugem obsistere, sed potius sanctitatem <lb/>
+            uxoris prodesse infideli uiro aut sanctitatem uiri prodesse
+
+<app>10 I Cor. 7, 28. 36 16 I Cor. 7, 84 20 I Cor. 6, 19. </app>
+
+<app> 1 tollerabiliuB <hi>(semper</hi> 11) <hi>N</hi> ea] eis <hi>Wbd</hi> 3 rem] se <hi>CB</hi> non <lb/>
+            concesso (con <hi>8. l.) C</hi> inconcessam a libido-etiam <hi>om. AD</hi> labido <hi>Hx</hi> <lb/>
+            4 etiam <hi>om. MENXct</hi> quod] cadat quod <hi>D</hi> qvod corruat (corruat <lb/>
+            <hi>8. I.) A</hi> qualibet (a in i <hi>flZut.) A</hi> 6 uero] enim i consenso <hi>K</hi> <lb/>
+            7 tnrpe <hi>Bl pr</hi>. si <hi>om. AD</hi> si <hi>om. X</hi> 9 debeti <hi>Bl</hi> 10 apostalus <lb/>
+            <hi>K</hi> 12 que <hi>H</hi> nnbat] si nubat (si s. <hi>I.) AIPB', j'FBDbd. <lb/>
+             om. MENXa</hi>. 14 dixi <hi>PRfB2</hi> diximus <hi>ENXKM</hi> 21 templum <hi>om. a</hi> <lb/>
+            in uobis <hi>om. D</hi> est] sunt <hi>MENXu</hi>. sancti <hi>om. Bx</hi> 25 uxoris <lb/>
+            <hi>omMENXa</hi> </app> <lb n="25"/>
+             
+<pb n="205"/>
+            infideli uxori idem apostolus testis est dicens: sanctificatus <lb/>
+            est enim uir infidelis in uxore, et sanctificata est <lb/>
+            mulier infidelis in fratre. proinde illud dictum est <lb/>
+            secundum ampliorem sanctitatem innuptarum quam nuptarum, <lb/>
+            cui merces etiam debetur amplior secundum quod isto bono <lb n="5"/>
+            illud est melius, quia et hoc solum cogitat, quomodo placeat <lb/>
+            domino. neque enim femina <choice n="0.06"><note n="9">fidelia</note><corr n="141">fidelis</corr></choice>, seruans pudicitiam coniugalem, <lb/>
+            non cogitat, quomodo placeat domino, sed utique <lb/>
+            minus, quia cogitat etiam quae sunt mundi, quomodo placeat <lb/>
+            uiro. hoc enim de illis dicere uoluit, quod possunt <choice><note>babere</note><corr>habere</corr></choice> <lb n="10"/>
+            quodam modo de necessitate conubii, ut cogitent quae sunt <lb/>
+            mundi, quomodo placeant uiris suis. 
+</p>
+          
+</div1>
+
+<div1 n="14" subtype="section"><head>§ 14</head>
+
+<p><milestone n="12" unit="altchapter"/> Quod utrum de omnibus nuptis dixerit, an de <lb/>
+            talibus quales ita multae sunt, ut paene omnes putari possint, <lb/>
+            non inmerito dubitatur. neque enim et illud, quod de innuptis <lb n="15"/>
+            ait: quae innupta est, cogitat ea quae sunt domini, <lb/>
+            ut sit sancta et corpore et spiritu, ad omnes innuptas <lb/>
+            pertinet, cum sint quaedam uiduae mortuae, quae in deliciis <lb/>
+            uiuunt. uerumtamen quod attinet ad quandam distinctionem <lb/>
+            et quasi proprietatem innuptarum atque nuptarum, sicut <lb n="20"/>
+            nimium detestanda est, quae continens a nuptiis, id est a re <lb/>
+            concessa, non continet a delictis uel luxuriae uel superbiae <lb/>
+            uel curiositatis et uerbositatis, ita rara nupta est, quae in <lb/>
+            ipso quoque obsequio coniugali non cogitat nisi quomodo
+
+<app> 1 I Cor. 7, 14 17 I Cor. 7, 34 19 cf. I Tim. 5, 6 </app>
+
+<app> 1 saactifatus <hi>B</hi> 2 uxore fidele <hi>K</hi> uiore fldeli <hi>MENXa</hi> 3 fratre <lb/>
+            fidele <hi>K</hi> fratre fideli <hi>MENXa</hi> 4 quam «»nuptnrura r 5 bonft <hi>Bl</hi> <lb/>
+            6 quia <hi>om. MENi</hi> cogitat] cogitat femina <hi>K</hi> cogitat innupta <hi>MEN XtA</hi> <lb/>
+            7 femina <hi>om. KMENXa</hi> 9 quia] que (§ in <hi>rUB.) d</hi> qui <hi>D</hi> 10 quod <lb/>
+            <hi>(a. 1</hi>. quę) <hi>A</hi> quae <hi>Bb</hi> 13 nnbti.s <hi>P</hi> nuptiis <hi>A</hi> 14 poene <hi>AB</hi> <lb/>
+            omnes tales <hi>K</hi> omne <hi>D</hi> putari possint] futuri passim <hi>AXD</hi> arbitrari <lb/>
+            possim A2 possent <hi>MENXa</hi> 15 enim <hi>om. ADN</hi> innubti.s P <lb/>
+            nuptis <hi>B</hi> 18 diliciis KTt 20 adque <hi>CK</hi> 22 delectis <hi>Bl</hi> luxoriae <lb/>
+            <hi>K</hi> 23 ita rara] ita grata (a <hi>prim. s. I;</hi> g in <hi>ras.) A</hi> iterata <hi>D</hi> </app> <lb/>
+             
+<pb n="206"/>
+            placeat deo, ornando se non intortis crinibus aut auro <lb/>
+            et margaritis et ueste pretiosa, sed quod decet <lb/>
+            mulieres promittentes pietatem per bonam conuersationem. <lb/>
+            talia quippe coniugia Petrus quoque apostolus <lb/>
+            praecipiendo describit. similiter, inquit, mulieres obaudientes<lb n="5"/>
+            maritis suis, ut et si qui non credunt <lb/>
+            uerbo, per mulieris conuersationem sine loquella <lb/>
+            lucrifieri possint, uidentes timorem et castam <lb/>
+            conuersationem uestram: ut sint non quae a foris <lb/>
+            ornantur capillorum incrispationibus aut circumdatae<lb n="10"/>
+            auro aut ueste decora, sed ille absconditus <lb/>
+            cordis uestri homo in illa perpetuitate quieti et <lb/>
+            modesti spiritus, qui et apud dominum locuples <lb/>
+            est. nam sic quaedam sanctae mulieres, quae in <lb/>
+            dominum sperabant, ornabant se, obsequentes <lb n="15"/>
+            uiris suis, quomodo Sarra obaudiebat Abrahae, <lb/>
+            dominum illum uocans, cuius factae estis filiae <lb/>
+            benefacientes et non timentes ullum uanum timorem. <lb/>
+            uiri simili ratione concordes et caste uiuentes <lb/>
+            cum uxoribus uestris et tamquam uasi infirmiori <lb n="20"/>
+            et subiecto tribuite honorem quasi coheredibus <lb/>
+            gratiae, et uidete ne inpediantur orationes <lb/>
+            uestrae. itane uero coniugia talia non cogitant ea quae sunt
+
+<app> 1 cf. I Tim. 2, 9. 10 5 I Petro 3, 1-7 </app>
+
+<app> 1 ornando <hi>(pr. n s. I.) A</hi> 2 ptioaa <hi>K</hi> 4 coniuga <hi>H</hi> apostolus A" <lb/>
+            5 discribit <hi>K</hi> pscribit <hi>X</hi> inquid <hi>PK</hi> ob§dienteB <hi>MENXa</hi> 6 nt <lb/>
+            <hi>om. C</hi> et <hi>om. PKfHAFRBDMENXa</hi>. 7 mulieres <hi>BEX</hi> mulierum <lb/>
+            <hi>Btbd</hi> loque.la <hi>C</hi> loquejla <hi>R</hi> loquilla <hi>K</hi> loquela <hi>fHABDMENXabd</hi> <lb/>
+            8 timorem] morem ei B' in timorem dei <hi>B3</hi> 9 quae a] qua ea <hi>K</hi> <lb/>
+            afforis <hi>E</hi> 10 hornantur <hi>F</hi> crispationibuB <hi>KMENXa</hi>. 11 decora] <lb/>
+            ptiosa <hi>MNa</hi>. 12 cordibus (bu <hi>s. I.)</hi> uestris <hi>R</hi> et] ac D 18 et <lb/>
+            <hi>om. KENXa</hi> aput <hi>P</hi> deum <hi>FB</hi> 14 sicut <hi>ADa</hi> si <hi>F</hi> 15 domino <lb/>
+            <hi>PKfHAFBDMENXa</hi> 16 sara <hi>BDMENXab</hi> oboediebat <hi>K</hi> <lb/>
+            obediebat <hi>MENa</hi> obediebat <hi>X</hi> 18 ullum (ul <hi>ex</hi> il) P 20 et] <lb/>
+            ut A uasi (a <hi>ex</hi> i <hi>m. 2) K</hi> uase <hi>MENXa</hi> uas y infirmiore <hi>B1</hi> <lb/>
+            21 quoheredibus <hi>FB1</hi> coeredibus <hi>H1</hi> coherentibus <hi>Bt</hi> 22 impedientur <hi>Bl</hi> <lb/>
+            23 uero] ergo <hi>ENXa</hi> ea <hi>om. E</hi> </app> <lb/>
+             
+<pb n="207"/>
+            domini, quomodo placeant domino? sed perrara sunt — quis <lb/>
+            negat? — et in ipsa raritate paene omnes, qui tales sunt, non <lb/>
+            ut tales essent, coniuncti sunt, sed iam coniuncti tales <lb/>
+            facti sunt. 
+</p>
+          
+</div1>
+
+<div1 n="15" subtype="section"><head>§ 15</head>
+
+<p><milestone n="13" unit="altchapter"/> Qui enim nostri temporis homines christiani, <lb n="5"/>
+            nuptiarum uinculo liberi ualentes ab omni concubitu se continere, <lb/>
+            cum iam tempus esse perspicerent, sicut scriptum <lb/>
+            est, non amplectendi, sed abstinendi ab amplexu, <lb/>
+            non potius eligerent uel uirginalem uel uidualem continentiam <lb/>
+            conseruare quam tribulationem carnis, sine qua coniugia esse <lb n="10"/>
+            non possunt — ut alia taceantur a quibus parcit apostolus nullo <lb/>
+            iam cogente humanae societatis officio sustinere? sed <lb/>
+            cum dominante concupiscentia fuerint copulati, si eam postea <lb/>
+            uicerint, quia non ita licet dissoluere coniugium, sicut licebat <lb/>
+            non conligare, fiunt tales, quales profitetur forma nuptiarum, <lb n="15"/>
+            ita ut uel pari consensu ascendant celsiorem sanctitatis gradum <lb/>
+            aut, si non ambo sunt tales, erit, qui talis est non exactor, <lb/>
+            sed redditor debiti, seruans in omnibus castam religiosamque <lb/>
+            concordiam. illis uero temporibus, cum adhuc propheticis <lb/>
+            sacramentis salutis nostrae mysterium uelabatur, etiam qui <lb n="20"/>
+            ante nuptias tales erant, officio propagandi nuptias copulabant, <lb/>
+            non uicti libidine, sed ducti pietate: quibus si optio talis <lb/>
+            daretur, qualis reuelato <choice n="0.22"><note n="95">nono</note><corr n="329">nouo</corr></choice> testamento data est dicente <lb/>
+            domino: qui potest capere, capiat, non eos dubitat
+
+<app> 7 Eccle. 3, 5 24 Matth. 19, 12 </app>
+
+<app> 1 placeat i 2 negant <hi>K</hi> et] quod et (quod 8. <hi>I.) A</hi> 6 uolentes <lb/>
+            <hi>B</hi> concubito Al ee om. <hi>KMENXa</hi>. 7 iam] iam tale <hi>MNa</hi> <lb/>
+            tale <hi>E</hi> esset <hi>B</hi> respicerent <hi>PyAHR om. B</hi> sicut? <hi>P</hi> 8 abstiaen <lb/>
+            <hi>Pl</hi> abstinente y1 abstinenti <hi>AlD</hi> 10 obseraare 7 carnas <hi>B</hi> <lb/>
+            qua om. <hi>E</hi> 11 posant <hi>B</hi> qaibus (ui s. <hi>I. m. 2) P</hi> 12 <hi>cogentę H</hi> <lb/>
+            offitio (t <hi>pro</hi> c <hi>saepisnme) K</hi> 13 concopiscentii <hi>K</hi> fuerit Rt <lb/>
+            ai eam] 8; ef a 14 uipcerint <hi>B</hi> dissouere <hi>E</hi> 15 conlicare <hi>P</hi> <lb/>
+            noptiarum uirtntum <hi>K</hi> 16 gradum] gaadium <hi>CB</hi> 17 sunt ambo <hi>X</hi> <lb/>
+            qui talis] qualis <hi>MENXa</hi> tales <hi>K</hi> 18 relegiosamque <hi>K</hi> 20 uelabitur <lb/>
+            <hi>(supra</hi> i <hi>add</hi>. a) <hi>B</hi> reuelabatur <hi>MENX</hi> 21 propagandi] procreandi <lb/>
+            <hi>D</hi> 22 tales <hi>K</hi> </app> <lb/>
+             
+<pb n="208"/>
+            etiam cum gaudio suscepturos fuisse, qui diligenter intentus <lb/>
+            legit, quomodo coniugibus utebantur, cum et plures habere <lb/>
+            uni uiro licebat, quas castius habebat quam nunc unam quilibet <lb/>
+            istorum, quibus uidemus quid secundum ueniam concedat <lb/>
+            apostolus. habebant enim eas in opere generandi, non <lb n="5"/>
+            in morbo desiderii sicut gentes, quae ignorant <lb/>
+            deum. quod tam magnum est, ut multi hodie facilius se <lb/>
+            tota uita ab omni concubitu abstineant quam modum teneant <lb/>
+            non coeundi nisi prolis causa, si matrimonio copulentur. <lb/>
+            nempe multos habemus fratres et socios caelestis hereditatis<lb n="10"/>
+            utriusque sexus continentes, siue expertos nuptias siue ab <lb/>
+            omni tali conmixtione integros; nempe innumerabiles sunt. <lb/>
+            quem tandem audiuimus inter familiaria conloquia, siue eorum, <lb/>
+            qui coniugati sunt, siue qui fuerunt, indicantem nobis numquam <lb/>
+            se coniugi esse conmixtum nisi sperando <choice n="0.20"><note n="15">conceptam</note><corr n="59">conceptum</corr></choice>? <lb n="15"/>
+            quod ergo praecipiunt coniugatis apostoli, hoc est nuptiarum: <lb/>
+            quod autem uenialiter concedunt aut quod inpedit orationes, <lb/>
+            non cogunt nuptiae, sed ferunt. 
+</p>
+          
+</div1>
+
+<div1 n="16" subtype="section"><head>§ 16</head>
+
+<p><milestone n="14" unit="altchapter"/> Itaque si forte — quod utrum fieri possit ignoro <lb/>
+            magisque fieri non posse existimo — sed tamen, si forte ad<lb n="20"/>
+            tempus adhibita concubina filios solos ex eadem conmixtione <lb/>
+            quaesiuerit, nec sic ista coniunctio uel earum nuptiis praeponenda <lb/>
+            est, quae ueniale illud operantur. quid enim sit
+
+<app> 4 cf. I Cor. 7, 6 5 cf. I Thess. 4, 5 </app>
+
+<app> 1 diligenter intellegit intentas <hi>K</hi> inte§tus <hi>(supra</hi> 9 <hi>add</hi>. n) <hi>P</hi> <lb/>
+            2 uni uiro <hi>habere KMEXa</hi> uni uiro nabere <hi>N</hi> 3 castius] iostias (ias <lb/>
+            <hi>s. I. m. Z) A</hi> habebant <hi>B</hi> 4 concedit <hi>ENX</hi> 6 et gentes <hi>K</hi> <lb/>
+            7 ut] et <hi>Bl</hi> se facilius <hi>EX</hi> 8 quA ad modQ a tenegQeant <hi>K</hi> <lb/>
+            9 coeundo <hi>ENXa</hi> cupulentur P 10 multus <hi>K</hi> sotios <hi>Ky</hi> <lb/>
+            celestis P 11 expertas <hi>MEXa</hi> expertes <hi>N</hi> 13 quem tandem] quae <lb/>
+            tandem <hi>C</hi> quosdfi <hi>B</hi> 14 sine] siue eorum <hi>N</hi> qui <hi>cn". a</hi> indicaiites <lb/>
+            <hi>B</hi> indicante a 15 coniugibus <hi>B</hi> commixtos <hi>B</hi> 17 ueniabiliter <lb/>
+            <hi>KADMENXa</hi> 19 quod <hi>om. B utrumque EX</hi> utrum <lb/>
+            -forte <hi>in mg. m. 1 B</hi> 20 magis quae <hi>C</hi> 21 adhibuit a conubio <hi>D</hi> <lb/>
+            concubina <hi>ex</hi> conubia <hi>A</hi> commistione <hi>(supra</hi> st <hi>add. x) A, om. E</hi> <lb/>
+            23 ueniaiix <hi>A</hi> </app> <lb/>
+             
+<pb n="209"/>
+            <sic>nuptiaram</sic>, considerandum est, non quid sit nubentium et immoderatius <lb/>
+            nuptiis utentium. neque enim si agris inique ac <lb/>
+            perperam inuasis ita quisque utatur, ut ex eorum fructibus <lb/>
+            largas elemosynas faciat, ideo rapinam iustificat; neque si <lb/>
+            alius ruri paterno uel iuste quaesito auarus incumbat, ideo <lb n="5"/>
+            culpanda est iuris ciuilis regula, qua possessor legitimus <lb/>
+            factus est; nec tyrannicae factionis peruersitas laudabilis erit, <lb/>
+            si regia clementia tyrannus subditos tractet; nec uituperabilis <lb/>
+            ordo regiae potestatis, si rex crudelitate tyrannica saeuiat. <lb/>
+            aliud est namque iniusta potestate iuste uelle uti, et aliud, <lb n="10"/>
+            est iusta potestate iniuste uti. ita nec concubinae ad tempus <lb/>
+            adhibitae, si filiorum causa concumbant, iustum faciunt concubinatum <lb/>
+            suum nec coniugatae, si cum maritis <choice><note>laseiuiant</note><corr>lasciuiant</corr></choice>, <lb/>
+            nuptiali ordini crimen inponunt. 
+</p>
+          
+</div1>
+
+<div1 n="17" subtype="section"><head>§ 17</head>
+
+<p>Posse sane fieri nuptias ex male coniunctis honesto <lb n="15"/>
+            postea placito consequente manifestum est. 
+</p>
+          <p><milestone n="15" unit="altchapter"/>Semel autem initum conubium in ciuitate dei nostri, <lb/>
+            ubi etiam ex prima duorum hominum copula quoddam sacramentum <lb/>
+            nuptiae gerunt, nullo modo potest nisi alicuius eorum <lb/>
+            morte dissolui. manet enim uinculum nuptiarum, etiamsi <lb n="20"/>
+            proles, cuius causa initum est, manifesta sterilitate non subsequatur, <lb/>
+            ita ut iam scientibus coniugibus non se filios
+
+<app>1 non <hi>ex</hi> num <hi>B</hi> qui <hi>Bl</hi> sit <hi>om. MENXa</hi> immoderaijtius <hi>C</hi> <lb/>
+            immoderantius <hi>MNa</hi> imoderatius <hi>B</hi> 2 si agris] ei largis <hi>C</hi> silarg'":i <hi>B</hi> <lb/>
+            iniqua <hi>B</hi> 3 perpera <hi>B</hi> quisquis <hi>E</hi> fructibue eorum <hi>E</hi> 4 elimosynas <lb/>
+            <hi>K</hi> elimosinaa y1 elemosinas <hi>HItBDMENXa'(2</hi> neque enim <hi>K</hi> <lb/>
+            5 ruri] iuri <hi>CB</hi> rure <hi>D</hi> abarus C1 aucumbat <hi>B</hi> 7 tiranniCae <lb/>
+            <hi>BHNXy</hi> 8 tyrannos DXy1 trectet <hi>Bl</hi> 9 rex <hi>post</hi> tyrannica <hi>in N</hi> <lb/>
+            tjrannicas <hi>Kl</hi> tirannica i saeui»at <hi>K</hi> seuiat <hi>HMENXa</hi> 11 est. (a <lb/>
+            <hi>er.) P</hi> iusta 8. <hi>I. P</hi> iniuste] iuste BIBI <hi>om. KMENXu</hi> concnbinae <lb/>
+            (nae <hi>ex</hi> tae) P 12 concubant <hi>D</hi> concubitum <hi>EN X</hi> concobitum <lb/>
+            <hi>M</hi> 15 sane (sa s. <hi>1. m. 2) R</hi> 16 manifestatum <hi>B</hi> 17 semel <lb/>
+            autem initum <hi>om. P1</hi> concubitum <hi>C om. R</hi> 21 prolis <hi>MENX</hi> <lb/>
+            cuius <hi>ex</hi> huius y initium <hi>F</hi> initium <hi>R</hi> init.um <hi>YHD</hi> est <hi>om. N</hi> <lb/>
+            sterelitate <hi>ClK</hi> 22 it aut <hi>B</hi> iam] etiam <hi>X om. PHFRH;</hi> coniugatis <lb/>
+            <hi>KENXa</hi> babituras <hi>C2</hi> </app>
+
+<app> XXXXI Ang. Seet. V para III. </app>
+
+<app> 14 </app> <lb/>
+             
+<pb n="210"/>
+            <sic>babituros</sic> separare se tamen uel ipsa causa filiorum atque aliis <lb/>
+            copulare non liceat. quod si fecerint, cum eis, quibus se <lb/>
+            copulauerint, adulterium committunt, ipsi autem coniuges <lb/>
+            manent. plane uxoris uoluntate adhibere aliam, unde communes <lb/>
+            filii nascantur unius conmixtione ac semine, alterius autem<lb n="5"/>
+            iure ac potestate apud antiquos patres fas erat; utrum et <lb/>
+            nunc fas sit, non temere dixerim. non est enim propagandi <lb/>
+            necessitas, quae tunc fuit, quando et parientibus coniugibus <lb/>
+            alias propter copiosiorem posteritatem superducere licebat, <lb/>
+            quod nunc certe non licet. nam tantum adfert oportunitatis ad<lb n="10"/>
+            aliquid iuste agendum seu non agendum temporum secreta <lb/>
+            distinctio, ut nunc melius faciat qui nec unam duxerit, nisi <lb/>
+            se continere non possit, tunc autem etiam plures inculpabiliter <lb/>
+            ducebant et qui se multo facilius continere possent, nisi aliud <lb/>
+            pietas illo tempore postularet. sicut enim sapiens et iustus. <lb n="15"/>
+            qui iam concupiscit dissolui et esse cum Christo et hoc magis <lb/>
+            optimo delectatur, non iam hic uiuendi cupiditate, sed consulendi <lb/>
+            officio sumit alimentum, ut maneat in carne, quod <lb/>
+            necessarium est propter alios, sic misceri feminis iure nupti- ' <lb/>
+            arum officiosum fuit tunc sanctis uiris, non libidinosum. <lb n="20"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="18" subtype="section"><head>§ 18</head>
+
+<p><milestone n="16" unit="altchapter"/> Quod enim est cibus ad salutem hominis, hoc est <lb/>
+            concubitus ad salutem generis, et utrumque non est sine <lb/>
+            delectatione carnali, quae tamen modificata et temperantia <lb/>
+            refrenante in usum naturalem redacta libido esse non potest; <lb/>
+            quod est autem in sustentanda uita inlicitus cibus, hoc est
+
+<app> 16 cf. Phil. 1, 23 24 cf. Retr. II 22. 2 </app>
+
+<app> 1 separare se] separares et <hi>D</hi> aliis <hi>om. E</hi> 2 si <hi>in mg. add</hi>. X <lb/>
+            3 coniugi <hi>B</hi> 4 manente <hi>BK1</hi> plene <hi>D</hi> uoluntatem <hi>CBl</hi> communes <lb/>
+            <hi>om. PrHFRD</hi> 5 fili 01 6 poteste a 7 enim] enim nunc <lb/>
+            <hi>K2AMENXabd</hi> 9 saperdicere <hi>P</hi> 10 opportunitatis <hi>CR</hi> 11 seu <lb/>
+            non agendum <hi>al</hi>. m. <hi>add. P</hi> 13 autem <hi>om</hi>. X 15 postulareijt <hi>R</hi> <lb/>
+            17 obtimo y delectatus <hi>MNX</hi> delecta»tur <hi>H</hi> iam non <hi>Abd</hi> hic <lb/>
+            <hi>om. KMENXa</hi>. 18 manead <hi>K</hi> 20 officiorum <hi>MEX</hi> 21 est ow. <lb/>
+            <hi>MENXa</hi>. hominis-salutem <hi>om. Bl</hi> 23 temporatae <hi>Bl</hi> temperate <hi>B1</hi> <lb/>
+            24 refrenata <hi>B</hi> usumque <hi>B</hi> 25 ante <hi>D</hi> sustentando uictu <lb/>
+            <hi>PKHFBMENXa</hi> sustentando uictll <hi>D</hi> sustendando victu (v <hi>supra er</hi>. d) 7 </app> <lb n="25"/>
+             
+<pb n="211"/>
+            in quaerenda prole fornicarius uel adulterinus concubitus; et <lb/>
+            quod est in luxuria uentris et gutturis inlicitus cibus, hoc <lb/>
+            est in libidine nullam prolem quaerente inlicitus concubitus; <lb/>
+            et quod est in cibo licito nonnullis inmoderatior adpetitus, <lb/>
+            hoc est in coniugibus uenialis ille concubitus. sicut ergo <lb n="5"/>
+            satius est emori fame quam idolothytis uesci; ita satius est <lb/>
+            defungi sine liberis quam ex inlicito coitu stirpem quaerere. <lb/>
+            undecumque autem nascantur homines, si parentum uitia non <lb/>
+            sectentur et deum recte colant, honesti et salui erunt. semen <lb/>
+            enim hominis ex qualicumque homine dei creatura est, et eo <lb n="10"/>
+            male utentibus male erit, non ipsum aliquando malum erit. <lb/>
+            sicut autem filii boni adulterorum nulla defensio est adulteriorum, <lb/>
+            sic mali filii coniugatorum nullum crimen est nuptiarum. <lb/>
+            proinde sicut patres temporis noui testamenti ex officio consulendi <lb/>
+            alimenta sumentes, quamuis ea cum delectatione <lb n="15"/>
+            naturali carnis acciperent, nullo modo tamen conparabantur <lb/>
+            delectationi eorum, qui inmolaticio uescebantur, aut eorum, <lb/>
+            qui quamuis licitas escas tamen inmoderatius absumebant, <lb/>
+            sic patres temporis ueteris testamenti consulendi officio concumbebant, <lb/>
+            quorum delectatio illa naturalis nequaquam usque <lb n="20"/>
+            ad inrationalem aut nefariam libidinem relaxata nec turpitudini <lb/>
+            <choice><note>stnprorum</note><corr>stuprorum</corr></choice> nec coniugatorum intemperantiae conferenda est. <lb/>
+            eadem quippe <choice><note>nena</note><corr>uena</corr></choice> caritatis nunc spiritaliter, tunc carnaliter
+
+<app> 17 cf. I Cor. 8, 7 </app>
+
+<app> 1 adulteriuB <hi>X</hi> 2 luxoria <hi>K</hi> uentus <hi>R</hi> guturis <hi>R</hi> 3 est <lb/>
+            enim <hi>EX</hi> libidinem <hi>CK</hi> quaerentg Of1 4 licito cibo <hi>B</hi> cibos <hi>F</hi> '" <lb/>
+            cibis <hi>R</hi> cibQs i licito <hi>om. Pr llFR</hi> nonnullua <hi>CPKBDMEN</hi> <lb/>
+            nonnullfls i nonnullos <hi>F</hi> 6 mori <hi>KDMNXa</hi> morari <hi>E</hi> *mori <hi>H</hi> idolothitis <lb/>
+            <hi>CPFDr BMa</hi>. idolotytis <hi>KR</hi> ydolotitis <hi>E</hi> ydolotytis <hi>X</hi> 7 defingi <hi>R1</hi> <lb/>
+            concubinatu <hi>K</hi> concubitu <hi>N</hi> 8 autem <hi>om. KMENXa</hi> 9 dominum <hi>EX</hi> <lb/>
+            10 qualecumque <hi>K</hi> ea <hi>Bl</hi> 11 malum] male <hi>D</hi> 12 autem] enim <lb/>
+            <hi>MENX</hi> fili <hi>Cx</hi> 18 filii mali a fili <hi>C1 om. Abd</hi> 15 quHquft <hi>N</hi> <lb/>
+            16 comparantur <hi>MENXa</hi> 17 <hi>immolatione B</hi> immolatitio 7 18 qui <hi>om. X</hi> <lb/>
+            aescas Of tam enim moderatius <hi>K</hi> assumebant <hi>ARBDMENXabd</hi> <lb/>
+            19 temporis <hi>om. MENXa</hi> ueteris <hi>om. E</hi> 23 uenia (i <hi>8. I.) N</hi> <lb/>
+            qaa nunc (qua s. <hi>I.) B</hi> </app>
+
+<app> 14* </app> <lb/>
+             
+<pb n="212"/>
+            propter illam matrem Hierusalem propagandi erant filii; sed <lb/>
+            diuersa opera patrum non faciebat nisi diuersitas temporum. <lb/>
+            sic autem necesse erat. ut carnaliter coirent etiam non carnales <lb/>
+            prophetae, sicut necesse erat, ut carnaliter uescerentur <lb/>
+            etiam non carnales apostoli. <lb n="5"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="19" subtype="section"><head>§ 19</head>
+
+<p><milestone n="17" unit="altchapter"/> Quotquot ergo nunc sunt, quibus dicitur: si se <lb/>
+            non continent, nubant, non conparandae sunt tunc etiam <lb/>
+            nubentibus sanctis. ipsae quidem nuptiae in omnibus gentibus <lb/>
+            eadem sunt filiorum procreandorum causa, qui qualeslibet <lb/>
+            postea fuerint, ad hoc tamen institutae sunt nuptiae, ut<lb n="10"/>
+            ordinate honesteque nascantur. sed homines, qui se non continent, <lb/>
+            tamquam ascendunt in nuptias gradu <choice><note>honestatiB</note><corr>honestatis</corr></choice>; qui <lb/>
+            autem se sine dubio continerent, si hoc illius temporis ratio <lb/>
+            permisisset, quodam modo descenderunt in nuptias gradu <lb/>
+            pietatis. ac per hoc quamuis utrorumque nuptiae, in quantum<lb n="15"/>
+            nuptiae sunt, quia procreandi causa sunt, aequaliter bonae <lb/>
+            sint, hi tamen homines coniugati illis hominibus coniugatis <lb/>
+            non sunt conparandi. habent enim isti, quod illis propter <lb/>
+            honestatem nuptiarum, quamuis ad nuptias non pertineat, <lb/>
+            secundum ueniam concedatur, id est progressum illum, qui <lb n="20"/>
+            excedit generandi necessitatem, quod illi non habent. sed <lb/>
+            neque hi, si qui forte nunc inueniuntur, qui non quaerunt in <lb/>
+            conubio nec appetunt, nisi propter quod institutae sunt nuptiae, <lb/>
+            'coaequari possunt illis hominibus. in istis enim carnale est
+
+<app> .6 I Cor. 7, 9 </app>
+
+<app>3 non <hi>om, X</hi> 4 prophetae-camalee <hi>om. BI</hi> aic <hi>D</hi> utj quod y <lb/>
+            6 quodquod <hi>(utrnrnque</hi> d in t m. <hi>1 corr.) CP2</hi> ergo <hi>om</hi>. y dixerunt <lb/>
+            <hi>H</hi> nunc dicitur <hi>X</hi> 7 conparande <hi>K</hi> comparandi <hi>MENXa</hi> 8 ipse <lb/>
+            <hi>KHFDE</hi> ipsi <hi>X</hi> gentibus <hi>om. H</hi> 9 quae <hi>K</hi> qualesctlque <hi>MNa</hi> <lb/>
+            10 institutae sunt tamen <hi>E</hi> 11 ordinatae <hi>C</hi> honeste quae <hi>K</hi> et <lb/>
+            honesteque <hi>E</hi> 12 gradum <hi>CB</hi> que <hi>B</hi> . 14 descenderent <hi>B</hi> discenderunt <lb/>
+            <hi>K</hi> gradum C1 15 hac <hi>K (semper pro</hi> ac) 16 sunt causa <lb/>
+            <hi>MENXa</hi> 17 sunt <hi>KBMENrJ</hi>. tamen] autem <hi>KMENXa</hi>. illis <lb/>
+            autem <hi>E</hi> 18 comparandi non sunt <hi>D</hi> 19 pertineant <hi>N</hi> 20 conceditur <lb/>
+            <hi>MENXa</hi> 21 habent (n 8. <hi>l.) H</hi> habebant <hi>bd</hi> 22 hi] ibi ix <lb/>
+            <hi>ras. m. 2 C</hi> 24 coaequari? <hi>P</hi> coequari <hi>HD</hi> </app> <lb/>
+             
+<pb n="213"/>
+            ipsum desiderium filiorum, in illis autem spiritale erat, quia <lb/>
+            sacramento illius temporis congruebat. nunc quippe nullus <lb/>
+            pietate perfectus filios habere nisi spiritaliter quaerit; tunc <lb/>
+            uero ipsius pietatis erat operatio etiam carnaliter filios propagare, <lb/>
+            quia illius populi generatio nuntia futurorum erat et <lb n="5"/>
+            ad dispensationem propheticam pertinebat. 
+</p>
+          
+</div1>
+
+<div1 n="20" subtype="section"><head>§ 20</head>
+
+<p>Ideoque non sicut uni uiro etiam plures habere licebat <lb/>
+            uxores, ita uni feminae plures uiros nec prolis ipsius causa, <lb/>
+            si forte illa parere posset, ille generare non posset. occulta <lb/>
+            enim lege naturae amant singularitatem, quae principantur; <lb n="10"/>
+            subiecta uero non solum singula singulis, sed, si ratio naturalis <lb/>
+            uel socialis admittit, etiam plura uni non sine decore <lb/>
+            subduntur. neque enim sic habet unus sei-uus plures dominos, <lb/>
+            quomodo plures serui unum dominum. ita duobus seu pluribus <lb/>
+            maritis uiuis nullam legimus seruisse sanctarum; plures <lb n="15"/>
+            autem feminas uni uiro legimus, cum gentis illius societas <lb/>
+            sinebat et temporis ratio suadebat: neque enim contra naturam <lb/>
+            nuptiarum est. plures enim feminae ab uno uiro fetari <lb/>
+            possunt, una uero a pluribus non potest - haec est principiorum <lb/>
+            uis - sicut multae animae uni deo recte subduntur. <lb n="20"/>
+            ideoque non est uerus deus animarum nisi unus, una uero <lb/>
+            anima per multos falsos deos fornicari potest, non fecundari.
+
+<app> 2 sacramenta <hi>D</hi> congruebant <hi>D</hi> congruebant (n <hi>fin. 8. I.; hac uoce <lb/>
+            codex A incåpit) A</hi> nullus <hi>om</hi>. i 3 perfectus-spiritaliter <hi>om: B</hi> <lb/>
+            4 propagare] procreare <hi>i HARN</hi> 8 faeminae <hi>P</hi> femina <hi>AIx</hi> nec] <lb/>
+            et <hi>PAFHRf</hi> et ex <hi>D</hi> ipsius prolifl <hi>a</hi> 9 illa (a m. <hi>2 corr.) K</hi> <lb/>
+            ille-posset <hi>om. fN</hi> 11 subiectg <hi>B</hi> singula] singule <hi>B</hi> 12 ammittit <lb/>
+            <hi>PK.AHlit</hi> emittit <hi>MENXa</hi> plura <hi>(in mg</hi>. t plures) <hi>A</hi> plures <hi>B</hi> <lb/>
+            uni] ani <hi>(in mg</hi>. uni) <hi>A</hi> 13 pleres f1 dominos Kt 15 uiuis <lb/>
+            <hi>om. D, A; sed uocab. er. est</hi> nulla <hi>EX</hi> legimus <hi>om. E</hi> plnres- <lb/>
+            <hi>18</hi> nuptiarum est <hi>om. i</hi> 16 feminaa <hi>(m. 2</hi> as <hi>del. et</hi> e <hi>8. I. pot.) F</hi> <lb/>
+            uni-feminae <hi>om. F</hi> kgirp?? <hi>(exp. m. 2) B</hi> cum gentis] coninnctas <lb/>
+            <hi>B</hi> gentes <hi>K</hi> 17 tempo <hi>(in fine uersus) E</hi> 18 enim] <lb/>
+            autem i <hi>om. D</hi> feminas i nni <hi>A1</hi> foetari <hi>AB</hi> fętari <hi>DMX</hi> <lb/>
+            19 est <hi>post</hi> nis <hi>leg. in E</hi> 20 uis ut plures feminae uni uiro sic (sint <lb/>
+            <hi>b) Bb</hi> subdantur <hi>B</hi> 22 fęcundari <hi>DM</hi> -.-</app> 
+<pb n="214"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="21" subtype="section"><head>§ 21</head>
+
+<p><milestone n="18" unit="altchapter"/> Sed quoniam ex multis animis una ciuitas <lb/>
+            futura est habentium animam unam et cor unum in deum — <lb/>
+            quae unitatis nostrae perfectio post hanc peregrinationem <lb/>
+            futura est, ubi omnium cogitationes nec latebunt inuicem nec <lb/>
+            inter se in aliquo repugnabunt — propterea sacramentum<lb n="5"/>
+            nuptiarum temporis nostri sic ad unum uirum et unam uxorem <lb/>
+            redactum est, ut ecclesiae dispensatorem non liceat ordinari <lb/>
+            nisi unius uxoris uirum. quod acutius intellexerunt, qui nec <lb/>
+            eum, qui catechumenus uel paganus habuerit alteram, ordinandum <lb/>
+            esse censuerunt. de sacramento enim agitur, non de<lb n="10"/>
+            peccato. nam in baptismo peccata omnia dimittuntur. sed qui <lb/>
+            dixit: si acceperis uxorem, non peccasti; et si <lb/>
+            nupserit uirgo non peccat, et: quod uult faciat. <lb/>
+            non peccat, nubat, satis declarauit nuptias nullum esse <lb/>
+            peccatum. propter sacramenti autem sanctitatem sicut femina,<lb n="15"/>
+            etiamsi catechumena fuerit uitiata, non potest post baptismum <lb/>
+            inter dei uirgines consecrari, ita non absurde uisum est eum. <lb/>
+            qui excessit uxorum numerum singularem, non peccatum aliquod <lb/>
+            commisisse, sed normam quandam sacramenti amisisse. <lb/>
+            non ad uitae <choice><note>honae</note><corr>bonae</corr></choice> meritum, sed ad ordinationis ecclesiasticae <lb n="20"/>
+            signaculum necessariam. ac per hoc sicut plures uxores <choice><note>actiquorum</note><corr>antiquorum</corr></choice> <lb/>
+            patrum significauerunt futuras nostras ex omnibus <lb/>
+            gentibus ecclesias uni uiro subditas Christo, ita noster antistes
+
+<app> 1 cf. Act. 4, 32 7 cf. I Tim. 3, 2; Tit. 1, 6 12 I Cor. 7, <lb/>
+            28.36 </app>
+
+<app> 1 animabus <hi>NH2</hi> ciuitas una <hi>N</hi> 3 peregrinatione P 4 latebant <lb/>
+            <hi>A1</hi> latebaunt <hi>(sic) E</hi> 5 in <hi>om. H</hi> aliqua re pugnabant <hi>D</hi> <lb/>
+            7 ordinare <hi>Fbd</hi> esse <hi>s. l. A, om. D</hi> 8 unus P1 uirum <hi>om. H</hi> <lb/>
+            acutius (t 8. <hi>I.) A</hi> 9 cathecumenus <hi>Cl</hi> cathecnminas <hi>IfBG'=a</hi> catechumenus <lb/>
+            (chu <hi>ex</hi> cho) <hi>P</hi> catecuminus <hi>AHDMENXf1</hi> caticuminus 12 10 sacramento <lb/>
+            (sa s. <hi>l.) P</hi> agitur enim <hi>ADa</hi>. 11 omnia <hi>peccata ABDMENX</hi> <lb/>
+            14 nubat] si nubat (si s. <hi>I. m</hi>. 2) <hi>A, aHaBDMENXabd</hi> declarabit <lb/>
+            (ra 8. <hi>l.) K</hi> 15 sacramentQ <hi>DX</hi> sanctitatem <hi>om. PlD</hi> 16 cathecumena <lb/>
+            <hi>ClPl</hi> cathecumina <hi>CZKBa</hi> catecumina <hi>HAfMXDEN</hi> 17 eum <lb/>
+            <hi>om. AD</hi> 18 singularem (e <hi>supra</hi> u <hi>m. 1) P</hi> aliquot T 19 sed— <lb/>
+            amisisse in <hi>mg. H</hi> 20 ad <hi>fin. om. E</hi> 21 necessarium <hi>B</hi> hac <hi>K</hi> <lb/>
+            23 uiro? <hi>C</hi> christo <hi>om. B</hi> antestes <hi>Cl</hi> </app> <lb/>
+             
+<pb n="215"/>
+            unius uxoris uir significat ex omnibus gentibus unitatem uni <lb/>
+            uiro subditam Christo, quae tunc perficietur, cum reuelauerit <lb/>
+            occulta tenebrarum et manifestauerit occulta cordis, <lb/>
+            ut tunc laus sit unicuique a deo. nunc autem sunt <lb/>
+            manifestae, sunt latentes dissensiones etiam salua caritate <lb n="5"/>
+            inter eos, qui unum et in uno futuri sunt: quae tunc utique <lb/>
+            nullae erunt. sicut ergo sacramentum pluralium nuptiarum <lb/>
+            illius temporis significauit futuram multitudinem deo subiectam <lb/>
+            in terrenis omnibus gentibus, sic sacramentum nuptiarum <lb/>
+            singularum nostri temporis significat unitatem omnium nostrum <lb n="10"/>
+            subiectam deo futuram in una caelesti ciuitate. itaque sicut <lb/>
+            duobus pluribusue seruire, sic a uiuo uiro in alterius transire <lb/>
+            conubium nec tunc licuit nec nunc licet nec umquam licebit. <lb/>
+            apostatare quippe ab uno deo et ire in alterius adulterinam <lb/>
+            superstitionem semper est malum. nec causa ergo numerosioris <lb n="15"/>
+            prolis fecerunt sancti nostri, quod Cato dicitur fecisse Romanus, <lb/>
+            ut traderet uiuus uxorem etiam alterius domum filiis <lb/>
+            inpleturam. in nostrarum quippe nuptiis plus ualet sanctitas <lb/>
+            sacramenti quam fecunditas uteri. 
+</p>
+          
+</div1>
+
+<div1 n="22" subtype="section"><head>§ 22</head>
+
+<p>Si ergo et illi, qui propter solam generationem, propter <lb n="20"/>
+            quam sunt institutae nuptiae, coniunguntur, non conparantur <lb/>
+            patribus multo aliter ipsos filios quam isti quaerentibus — <lb/>
+            quandoquidem filium immolare iussus Abraham intrepidus ac <lb/>
+            deuotus, quem de tanta desperatione susceperat, unico non <lb/>
+            pepercit, nisi eo prohibente manum deponeret, quo iubente
+
+<app> 3 cf. I Cor. 4, 5 17 cf. Plut. Cato min. cap. 25 </app>
+
+<app> 1 uir <hi>om. E</hi> 3 manifesta erit <hi>N</hi> occulta] cogitationes <hi>PKyHAF<lb/>
+             RDMEXabd</hi> cogitatio <hi>N</hi> 4 manifestae sunt 76 ŞŲt)ţ <hi>(exp. m. 2) C<lb/>
+             om. KFMEN</hi> 5 sunt <hi>om. yb</hi> 6 sunt <hi>om. N</hi> 8 significat <hi>AD</hi> <lb/>
+            10 singularium <hi>PKfADMENXat</hi> unitatem et <hi>B</hi> nostrorum <hi>C</hi> <lb/>
+            11 unam <hi>AD</hi> caelestis <hi>B</hi> caelestem (em <hi>ex</hi> i) <hi>A, D</hi> ciuitatem <hi>AD</hi> <lb/>
+            12 uiro uiuo <hi>Bbd</hi> 13 nunc <hi>om. E</hi> 14 ire (i a. <hi>l. m. 2) P</hi> transire <lb/>
+            <hi>D</hi> reqgipp? (8. <hi>I</hi>. cidere) <hi>A</hi> 15 malum est <hi>D</hi> nec] hec <hi>N</hi> <lb/>
+            17 ninus] unius <hi>D</hi> 19 uentris uteri <hi>K</hi> 21 coniuguntur <hi>B</hi> non <lb/>
+            <hi>om. C</hi> 22 aliter] aQ <hi>N</hi> istis r 23 intrepiduip (8. m <hi>add</hi>. s) <hi>A</hi> <lb/>
+            24 deuotivs (v a. <hi>I.) A</hi> disperatione <hi>KA</hi> </app> 
+<pb n="216"/>
+             
+</p>
+<p><milestone n="19" unit="altchapter"/><sic>leuauerat</sic> - restat, ut uideamus, utrum saltem continentes <lb/>
+            nostri coniugatis illis patribus conparandi sint; nisi forte iam <lb/>
+            isti praeferendi sunt eis, quibus nondum quos conferamus <lb/>
+            inuenimus. maius enim bonum erat in illorum nuptiis quam <lb/>
+            est bonum proprium nuptiarum, cui procul dubio bonum continentiae <lb n="5"/>
+            praeferendum est, quia non tali officio quaerebant <lb/>
+            illi filios ex nuptiis, quali ducuntur isti ex quodam sensu <lb/>
+            naturae mortalis successionem decessioni requirentis. quod <lb/>
+            quisquis bonum negat, ignorat deum omnium bonorum a caelestibus <lb/>
+            usque ad terrena, ab inmortalibus usque ad mortalia<lb n="10"/>
+            creatorem. hoc autem sensu generandi nec bestiae penitus <lb/>
+            carent et maxime alites, quarum in promptu est cura nidificandi <lb/>
+            et quaedam coniugiorum similitudo ad simul procreandum <lb/>
+            atque nutriendum. sed illi homines istum naturae mortalis <lb/>
+            adfectum, cuius in suo genere castitas accedente dei cultu,<lb n="15"/>
+            sicut quidam <choice><note>intelleierunt</note><corr>intellexerunt</corr></choice>, in tricenario fructu ponitur, longe <lb/>
+            sanctiore mente superabant, qui de suis nuptiis filios propter <lb/>
+            Christum quaerebant ad genus eius secundum carnem distinguendum <lb/>
+            ab omnibus gentibus, sicut deo disponere placuit. <lb/>
+            ut hoc prae ceteris ad eum prophetandum ualeret, quod praenuntiabatur, <lb n="20"/>
+            ex quo etiam genere et ex qua gente esset in <lb/>
+            carne uenturus. ualde ergo nostrorum fidelium castis nuptiis <lb/>
+            amplius bonum erat, quod pater Abraham in suo femore
+
+<app> 16 cf. de sancta uirginitate c. 45 </app>
+
+<app> 1 saltim <hi>KMEXr</hi> continentęm <hi>(supra</hi> ę <hi>add. al</hi>. m. s) <hi>P</hi> 2 coniugatis <lb/>
+            (s <hi>paetie er.) C</hi> iam forte <hi>a</hi> 7 quales <hi>MENXa</hi> dicnntur <lb/>
+            <hi>DFIENa</hi> 8 decessione <hi>C</hi> discessioni <hi>D</hi> de successione <hi>B</hi> decessionis <lb/>
+            <hi>KMENX</hi> discessionis <hi>a</hi> requirentes <hi>KFAENoq*</hi> 9 qui. (s <hi>er.) H</hi> <lb/>
+            bonum <hi>om. MENXa</hi> a <hi>8. I. Ay</hi> caelestibus (bus <hi>ex</hi> um) i <lb/>
+            10 usque <hi>om. MENXa</hi> a D immortalitatibus <hi>H</hi> immortalia <hi>ADa</hi>. <lb/>
+            11 paemtua jiy 12 quorum <hi>H</hi> promptum <hi>C promtu KH</hi> 13 coniugatorum <lb/>
+            <hi>B</hi> 14 atque nutriendum <hi>om. D</hi> adque <hi>C</hi> nutriendum) <lb/>
+            procreandum <hi>A</hi> mortalis om. <hi>EX</hi>. 15 caritas <hi>MENXa</hi>. 16.trigl.'genario <lb/>
+            <hi>Bx</hi> 17 mentes <hi>K</hi> 18 secundum carnem. <hi>in mg. M</hi> destinguendum <lb/>
+            <hi>PHl</hi> distenguendum <hi>K</hi> 20 profetandum <hi>PH</hi> ualuerit <hi>E</hi> <lb/>
+            quod <hi>om. a</hi> 21 genere etiam <hi>B</hi> qua (a s. i <hi>pos) H</hi> 23 habraham <lb/>
+            <hi>B</hi> </app> <lb/>
+             
+<pb n="217"/>
+            nouerat, cui manum subdere famulum iussit, ut de uxore, <lb/>
+            quae a filio esset ducenda iuraret. ponens enim manum sub <lb/>
+            femore hominis et iurans per deum caeli quid aliud significabat <lb/>
+            nisi in ea carne, quae ex illo femore originem duceret, <lb/>
+            deum caeli esse uenturum? bonum ergo sunt nuptiae, in <lb n="5"/>
+            quibus tanto meliores sunt coniugati, quanto castiores ac <lb/>
+            fideliores deum timent, maxime si filios, quos carnaliter desiderant, <lb/>
+            etiam spiritaliter nutriant. 
+</p>
+          
+</div1>
+
+<div1 n="23" subtype="section"><head>§ 23</head>
+
+<p><milestone n="20" unit="altchapter"/> Nec quod purificari lex hominem et post coniugalem <lb/>
+            concubitum iubet, peccatum esse declarat, si non est <lb n="10"/>
+            ille, qui secundum ueniam conceditur, qui etiam nimius inpedit <lb/>
+            orationes. sed sicut multa lex ponit in sacramentis et umbris <lb/>
+            futurorum, quaedam in semine quasi materialis informitas, <lb/>
+            quae formata corpus hominis redditura est, in significatione <lb/>
+            posita est uitae informis et ineruditae: a qua informitate <lb n="15"/>
+            quoniam oportet hominem doctrinae forma et eruditione mundari, <lb/>
+            in <choice><note>haius</note><corr>huius</corr></choice> rei signum illa <choice><note>purifioatio</note><corr>purificatio</corr></choice> praecepta est post <lb/>
+            seminis emissionem. neque enim et in somnis peccato fit; et <lb/>
+            tamen etiam ibi praecepta est purificatio. aut si et hoc peccatum <lb/>
+            quisquam putat, non arbitrans accidere nisi ex aliquo <lb n="20"/>
+            huius modi desiderio, quod procul dubio falsum est, numquid <lb/>
+            et solita mensuum peccata sunt feminarum? a quibus tamen <lb/>
+            eas eadem legis uetustas praecepit expiari non nisi propter
+
+<app> 1 cf. Gen. 24, 2. 3 23 cf. Leu. c. 15 </app>
+
+<app> 1 cui] cO <hi>KDMENa</hi>. manu <hi>E</hi> ut de] unde <hi>fF</hi> uxorS <hi>F</hi> <lb/>
+            2 que (e <hi>in ras. m. 2) C</hi> a <hi>om. PKjAFJJMENXa</hi> enim] ei <hi>PjDH, <lb/>
+            (I. I.) A</hi> ergo <hi>N</hi> 4 illo] eo <hi>D</hi> ducere <hi>E</hi> 5 bone By2 6 ac] <lb/>
+            et <hi>D</hi> 8 spiritaleter Y1 9 Ne <hi>KN</hi> et <hi>om. EX</hi> iugalem ),1 <lb/>
+            11 qui] cui <hi>PAaHFBDx</hi> secQdQ (dQ 8. <hi>I.) H</hi> 12 lex multa X <lb/>
+            13 quaedam ergo (ergo <hi>s. 1. m. al.) P, HÂFRDNr</hi> materiales <hi>K</hi> <lb/>
+            14 quo <hi>X</hi> in] sic in <hi>a</hi> signifioationein <hi>MENXa</hi> 15 informis <lb/>
+            10 <hi>supra</hi> i <hi>add.) H</hi> inheruditae <hi>H</hi> 16 quoniam) quia <hi>KMENXa</hi>. <lb/>
+            doctrinae] doctrina et <hi>KMENXa</hi> 18 enim <hi>om. N</hi> peccatum <hi>H7MENXb</hi> <lb/>
+            20 putet <hi>KMENXa</hi> accedere <hi>Kti</hi> - 22 mensuum <hi>CaPaAaRIVF</hi> <lb/>
+            menstroum <hi>KMXENa</hi> mensium <hi>A2H2BD</hi> menstraa <hi>bd</hi> peccata (ta <lb/>
+            <hi>s. I.) B</hi> tamen] tunc <hi>ENX</hi> 23 praecipit <hi>KMENa</hi> </app> <lb/>
+             
+<pb n="218"/>
+            ipsam materialem informitatem, quae facto conceptu tamquam <lb/>
+            in aedificationem corporis additur. ac per hoc cum informiter <lb/>
+            fluit, significari per illam lex uoluit animum sine disciplinae <lb/>
+            forma indecenter fluidum ac dissolutum, quem formari oportere <lb/>
+            significat, cum talem fluxum corporis iubet purificari. postremo <lb n="5"/>
+            numquid et <choice><note>moii</note><corr>mori</corr></choice> peccatum est aut mortuum sepelire non <lb/>
+            etiam bonum opus humanitatis est? et tamen purificatio et <lb/>
+            inde mandata est, quia et mortuum corpus uita deserente <lb/>
+            non peccatum est, sed peccatum significat animae desertae a <lb/>
+            iustitia. <lb n="10"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="24" subtype="section"><head>§ 24</head>
+
+<p>Bonum, inquam, sunt nuptiae et contra omnes calumnias <lb/>
+            possunt sana ratione defendi. nuptiis tamen sanctorum <lb/>
+            patrum non quas nuptias, sed quam continentiam conparem <lb/>
+            <choice><note>quiaero</note><corr>quaero</corr></choice>, immo non nuptias nuptiis — nam par in omnibus <lb/>
+            munus est mortali hominum naturae datum — sed homines,<lb n="15"/>
+            qui nuptiis utuntur, illis hominibus qui longe aliter nuptiis <lb/>
+            usi sunt quos conferam quoniam non inuenio, quinam continentes <lb/>
+            illis coniugatis conferendi sint requirendum est. nisi <lb/>
+            forte Abraham continere se non posset a nuptiis propter <lb/>
+            regnum caelorum, qui unicum prolis pignus, propter quod <lb n="20"/>
+            nuptiae carae sunt, potuit intrepidus immolare propter regnum <lb/>
+            caelorum. 
+</p>
+          
+</div1>
+
+<div1 n="25" subtype="section"><head>§ 25</head>
+
+<p><milestone n="21" unit="altchapter"/> Continentia quippe non corporis, sed animi uirtus
+
+<app> 8 cf. Num. 19, 11 </app>
+
+<app> 1 ipsam] illam ipsam <hi>KMENa</hi> illam <hi>X</hi> infinnitatem <hi>Åt</hi> conceptum<lb/>
+             <hi>C</hi> 2 additus <hi>EX</hi> cum] quod <hi>MEXaN</hi> 4 forma om. <hi>E</hi> <lb/>
+            incedenter <hi>B'</hi> fluuidam <hi>HÅBIJr</hi> desolutum <hi>K</hi> 6 mortuum om. <lb/>
+            <hi>KMENXa</hi> 7 et indej exinde <hi>H2B2MENXa</hi>. etiam inde <hi>bd</hi> 8 quia <lb/>
+            et] quae <hi>C</hi> que <hi>B1</hi> 9 non <hi>om. CB</hi> peccatum non <hi>bd</hi> a <hi>om. ADM</hi> <lb/>
+            10 iustitiam <hi>K</hi> iustiti§ <hi>D</hi> 11 et contra] et e contra <hi>MN</hi> calumnig <lb/>
+            <hi>N</hi> columnias <hi>Hl</hi> 14 Duptias] nuptiis <hi>GB,</hi> (i <hi>fin. s. ras.) A</hi> <lb/>
+            nuptias <hi>AB</hi> nonuptiis i <hi>om. D</hi> pari nominibus <hi>PDj1</hi> paribus nominibus<lb/>
+             <hi>Å</hi> par in nominibus Fl par in hominibus <hi>FJH</hi> pari in omnibus <hi>R</hi> <lb/>
+            15 mortalitl Nf2 homini <hi>X</hi> 16 illis] aliis <hi>KFDbd</hi> 17 u*si <hi>H</hi> <lb/>
+            18 sunt <hi>KMENa</hi> 19 se <hi>om</hi>. y 20 quod <hi>om. K</hi> 23 continentiae <hi>K</hi> <lb/>
+            anime <hi>AD</hi> </app> <lb/>
+             
+<pb n="219"/>
+            est. uirtutes autem animi aliquando in opere manifestantur, <lb/>
+            aliquando in habitu latent, <choice><note>sicnt</note><corr>sicut</corr></choice> martyrii uirtus eminuit <lb/>
+            apparuitque tolerando passiones. sed quam multi sunt in <lb/>
+            eadem uirtute animi, quibus temptatio deest, qua id, quod <lb/>
+            intus est in conspectu dei, etiam in hominum procedat nec <lb n="5"/>
+            tunc esse incipiat, sed tunc innotescat! iam enim erat in <lb/>
+            Iob patientia, quam nouerat deus et cui testimonium perhibebat, <lb/>
+            sed hominibus innotuit temptationis examine; et <lb/>
+            quod latebat intrinsecus, per ea, quae <choice><note>forinaecus</note><corr>forinsecus</corr></choice> inlata <lb/>
+            sunt, non natum, sed manifestatum est. habebat utique et <lb n="10"/>
+            Timotheus uirtutem continendi a uino, quam non ei abstulit <lb/>
+            Paulus monendo, ut uino modico uteretur propter stomachum <lb/>
+            et frequentes suas infirmitates — alioquin <lb/>
+            perniciose docebat, ut propter salutem corporis fieret in animo <lb/>
+            damnum <choice n="0.82"><note n="676">uirtutis</note><corr n="146">uirtuti</corr></choice> — sed quia poterat ea uirtute salua fieri quod <lb n="15"/>
+            monebat, ita relaxata est corpori utilitas bibendi, ut maneret <lb/>
+            in animo habitus continendi. ipse est enim habitus, quo aliquid <lb/>
+            agitur, cum opus est; cum autem non agitur, potest agi, sed <lb/>
+            non opus est. hunc habitum circa <choice><note>contiuentiam</note><corr>continentiam</corr></choice> quae fit a <lb/>
+            concubitu non habent illi, quibus dicitur: si se non continent, <lb n="20"/>
+            <sic>nub</sic> ant. hunc uero habent, quibus dicitur: qui <lb/>
+            potest capere, capiat. sic usi sunt perfecti animi bonis <lb/>
+            terrenis ad aliud necessariis per hunc habitum continentiae, <lb/>
+            quo eis non obligarentur et quo possent eis etiam non uti, <lb/>
+            si non opus esset. nec quisquam eis bene utitur, nisi qui et
+
+<app> 7 cf. Iob c. 1 12 cf. I Tim. 5, 23 20 I Cor. 7. 9 21 Matth. <lb/>
+            19, 12 </app>
+
+<app> 1 autem <hi>om. CB</hi> 2 habitum P1 emicuit <hi>C2<foreign xml:lang="grc">γ</foreign>F2N2bd </hi> 3 tollerando <lb/>
+            <hi>KH</hi> 4 uirtutem P1 qu.a (i <hi>er.) P</hi> 6 tunc <hi>alt. om. B</hi> <lb/>
+            8 omnibus <hi>E</hi> 10 nominatum <hi>B</hi> manifestum <hi>D</hi> et <hi>om. N</hi> 11 thimotheus <lb/>
+            (h <hi>alt. s. I.) CB, N</hi> ei] et <hi>KMEXa</hi> 12 monendo <hi>om. N</hi> <lb/>
+            modico uino <hi>N</hi> 13 sthomacum <hi>C,</hi> (h <hi>s. I.) K</hi> istomachum <hi>P</hi> stomacum <lb/>
+            <hi>BN</hi> 14 ut <hi>om</hi>. X corpori, P 15 sed-ita <hi>om. AD</hi> <lb/>
+            17 anima <hi>a</hi> est <hi>om. N</hi> quod <hi>C</hi> 18 potem Hl agi s. <hi>I. R</hi> <lb/>
+            20 de quibus <hi>MEX</hi> si-dicitur <hi>Otn. N</hi> 22 usi] ut si <hi>K</hi> animo <hi>B</hi> <lb/>
+            24 <hi>possint AD</hi> 25 non <hi>om. AD</hi> qui et] et qui <hi>KMENXa</hi> </app> <lb n="25"/>
+             
+<pb n="220"/>
+            non uti potest. multi quidem facilius se abstinent, ut non <lb/>
+            utantur, quam temperant, ut bene utantur; nemo tamen potest <lb/>
+            sapienter uti, nisi qui potest et continenter non uti. ex hoc <lb/>
+            habitu et Paulus dicebat: scio et abundare et penuriam <lb/>
+            pati. penuriam quippe pati quorumcumque hominum est; sed<lb n="5"/>
+            scire penuriam pati magnorum est. sic et abundare quis non <lb/>
+            potest? scire autem abundare nonnisi eorum est, quos abundantia <lb/>
+            non corrumpit. 
+</p>
+          
+</div1>
+
+<div1 n="26" subtype="section"><head>§ 26</head>
+
+<p>Verum ut apertius intellegatur, quomodo sit uirtus in <lb/>
+            habitu, etiamsi non sit in opere, loquor de exemplo, de quo<lb n="10"/>
+            nullus dubitat catholicorum <choice><note>christianorum</note><corr>Christianorum</corr></choice>. dominus enim noster <lb/>
+            Iesus Christus quod in ueritate carnis esurierit ac sitierit, <lb/>
+            manducauerit et <choice><note>bibeIit</note><corr>biberit</corr></choice>, nullus ambigit eorum, qui ex eius <lb/>
+            euangelio fideles sunt. num igitur non erat in illo continentiae <lb/>
+            uirtus a cibo et potu, quanta erat in Iohanne Baptista? uenit <lb n="15"/>
+            enim Iohannes non manducans neque bibens, et <lb/>
+            dixerunt: daemonium habet. uenit filius hominis <lb/>
+            manducans et bibens, et dixerunt: ecce uorax et <lb/>
+            uinaria, amicus publicanorum et peccatorum. numquid <lb/>
+            non talia dicuntur in domesticos eius, patres nostros, ex <lb n="20"/>
+            alio genere utendi terrenis, quantum ad concubitum pertinet: ecce <lb/>
+            homines libidinosi et <choice><note>inmuudi</note><corr>inmundi</corr></choice>, amatores feminarum et
+
+<app>4 Phil. 4, 12 15 Matth. 11, 18. 19 </app>
+
+<app> 1 se <hi>om. EXa</hi>. non <hi>om. N</hi> 2 bene utantur <hi>N</hi> quem C' <lb/>
+            temperent <hi>CaRBMENXabd</hi> non utantur <hi>N</hi> potest <hi>CB:</hi> eis <lb/>
+            potest <hi>PKfAFBMENXabd</hi> potest eis <hi>HD</hi> 3 sapienter—potest <hi>inter <lb/>
+            lin. add. P</hi> 4 habundare <hi>KHAMENXa</hi> paenuriam (ae <hi>etiam in <lb/>
+            seqq.) i</hi> 6 habundare <hi>ENXa</hi> quis non A1 quisquam <hi>A*</hi> 7 et abundare <lb/>
+            <hi>bd</hi> et habundantia <hi>M</hi> habundantia <hi>HD</hi> 10 habitum <hi>Cl</hi> <lb/>
+            11 kathoHcorum <hi>EX</hi> 12 ac] et <hi>B</hi> 13 manducauero H1 et] ac <hi>KEN</hi> <lb/>
+            eorum ambigit <hi>a</hi> ambiget <hi>AE</hi> 14 in <hi>om. B</hi> illi <hi>B</hi> 16 enim <lb/>
+            iohannia <hi>K</hi> 17 daemonium-dixerunt om. <hi>B</hi> demonum X 18 et <lb/>
+            mandncans <hi>bd</hi> uorax] homo uorax <hi>KrAFBDMENXa</hi>. bonus uorax <lb/>
+            (8. nus <hi>add</hi>. mo) <hi>H</hi> 19 uinaria] uinarius <hi>BH*A2b</hi> potator nini <hi>FMENXa</hi> <lb/>
+            potatur uini (ni 8. <hi>t.) K</hi> et amicus <hi>a</hi> 20 domeaticos (o <hi>fin. ex</hi> u <lb/>
+            <hi>m. 2) C</hi> 21 utendo <hi>CB</hi> 22 lascibiorum <hi>Cl</hi> lasciuiorum <hi>BC1</hi> </app> <lb/>
+             
+<pb n="221"/>
+            lasciuiarum? et tamen sicut in illo illud non erat uerum — quamuis <lb/>
+            uerum esset, quod non sicut Iohannes abstineret a manducando <lb/>
+            et bibendo; ipse enim apertissime uerissimeque ait: uenit <lb/>
+            <sic>Iohannesnonmanducans</sic> <sic>nequebibens</sic>. uenit filius <lb/>
+            hominis manducans et bibens - sic nec hoc in illis <lb n="5"/>
+            patribus uerum est, quamuis uenerit modo apostolus Christi <lb/>
+            non coniugatus nec generans, quem dicant pagani: magus <lb/>
+            erat; uenerit autem tunc propheta Christi nuptias faciens et <lb/>
+            filios <sic>procreaDS</sic>, quem dicant Manichaei: mulierosus erat. et <lb/>
+            iustificata est sapientia a filiis suis quod dominus <lb n="10"/>
+            ibi subiecit, cum de Iohanne ac de se illa dixisset, iustificata <lb/>
+            est, inquit, sapientia a filiis suis, qui uident continentiae <lb/>
+            uirtutem in habitu animi semper esse debere, in <lb/>
+            opere autem pro rerum ac temporum oportunitate manifestari, <lb/>
+            sicut uirtus patientiae sanctorum martyrum in opere apparuit, <lb n="15"/>
+            ceterorum uero aeque sanctorum in habitu fuit. quocirca <lb/>
+            sicut non est inpar meritum patientiae in Petro, qui passus <lb/>
+            est, et in Iohanne, qui passus non est, sic non est inpar <lb/>
+            meritum continentiae in Iohanne, qui nullas expertus est <lb/>
+            nuptias, et in Abraham, qui filios generauit. et illius enim <lb n="20"/>
+            celibatus et illius conubium pro temporum distributione Christo <lb/>
+            militauerunt; sed continentiam Iohannes et in opere, Abraham <lb/>
+            uero in solo habitu habebat. 
+</p>
+          
+</div1>
+
+<div1 n="27" subtype="section"><head>§ 27</head>
+
+<p><milestone n="22" unit="altchapter"/> Illo itaque tempore, cum et lex dies patriarcharum <lb/>
+            subsequens maledictum dixit, qui non excitaret semen
+
+<app> 9 Matth. 11, 19 24 cf. Dent. 25, 5-10 </app>
+
+<app> 1 illud om. r 2 essent <hi>N</hi> non <hi>om. N</hi> o si <hi>K</hi> 6 quamuis]. <lb/>
+            quam <hi>X</hi> 7 magnus <hi>PKyHAFD</hi> 9 dicunt E manichei <hi>coddr</hi> <lb/>
+            10 est inquit <hi>HRbd</hi> 11 ibi] sibi <hi>KHBMEXa om. N</hi> se] sede <hi>N</hi> <lb/>
+            12 inquam <hi>PKfHAFDMENXa</hi> 14 autem <hi>er. in K</hi> ac temporum] <lb/>
+            acceptorum (o <hi>mut. in</hi> a) <hi>A, D</hi> o*portunitate <hi>C</hi> opportunitate <hi>Pbd</hi> <lb/>
+            15 patientiae (pati <hi>m. 1 ex</hi> sapi) <hi>P</hi> sapientiae <hi>B</hi> in <hi>om. D</hi> 16 sanctorum <lb/>
+            <hi>om. X</hi> 17 sicut <hi>om</hi>. y petro apostolorum principe qui <hi>seqq. N</hi> <lb/>
+            18 <hi>prim</hi>. est <hi>om. B</hi> 21 pro] propter <hi>B</hi> distributionS <hi>B</hi> 22 mili- . <lb/>
+            tarunt <hi>Xbd</hi> et <hi>er. KA om. D</hi> 23 habitu 8. <hi>1. m. al. P</hi> 24 et <lb/>
+            <hi>om. X</hi> lex <hi>om. D</hi> patriarcarum C1 . </app> <lb n="25"/>
+             
+<pb n="222"/>
+            in Israhel, et qui poterat non promebat, sed tamen habebat; <lb/>
+            ex quo autem uenit plenitudo temporis, ut diceretur: <lb/>
+            qui potest capere, capiat, ex illo usque adhuc et <lb/>
+            deinceps usque in finem qui habet operatur, qui operari noluerit, <lb/>
+            non se habere mentiatur. ac per hoc ab eis, qui corrumpunt<lb n="5"/>
+            bonos mores conloquiis malis, inani et uana uersutia <lb/>
+            dicitur homini christiano continenti et nuptias recusanti: tu <lb/>
+            ergo melior quam Abraham? quod ille cum audierit, non <lb/>
+            perturbetur nec audeat dicere: melior, nec a proposito dela <lb/>
+            batur — illud enim non uere dicit, hoc non recte facit - sed<lb n="10"/>
+            dicat: ego quidem non sum melior quam Abraham, sed melior <lb/>
+            est castitas celibum quam castitas nuptiarum: quarum Abraham <lb/>
+            unam habebat in usu, ambas in habitu. caste quippe coniugaliter <lb/>
+            uixit; esse autem castus sine coniugio potuit, sed tunc <lb/>
+            non oportuit. ego uero facilius non utor nuptiis, quibus est<lb n="15"/>
+            usus Abraham, quam sic utor nuptiis, quemadmodum est usus <lb/>
+            Abraham; et ideo melior sum illis, qui per animi incontinentiam <lb/>
+            non possunt quod ego, non illis, qui propter temporis <lb/>
+            differentiam non fecerunt quod ego. quod enim ego nunc ago, <lb/>
+            melius illi egissent, si tunc agendum esset; quod autem illi <lb n="20"/>
+            egerunt, sic ego non agerem, et si nunc agendum esset. aut <lb/>
+            si talem se iste sentit et nouit, ut salua et permanente in <lb/>
+            habitu animi sui uirtute continentiae, si ad usum nuptiarum
+
+<app> 2 cf. Gal. 4, 4 3 Matth. 19, 12 6 cf. I Cor. 15, 33 </app>
+
+<app> 1 et in <hi>mg. K</hi> tamen] tunc <hi>MEXa</hi> dii N 2 plenitudo temporis <lb/>
+            <hi>uenit D 3 adhuc] huc AD 4 operare K</hi> 5 hac K 6 mores <lb/>
+            bonos <hi>PK-(HARDMENXa</hi> 8 habraham <hi>HB</hi> 9 melior sum <hi>H*MENXu</hi> <lb/>
+            nec <hi>B</hi> dilabatur <hi>KDMENXaAigz</hi> delebatur Hl 10 non <hi>alt. om. N</hi> <lb/>
+            fecit <hi>B</hi> 11 dicit <hi>FD</hi> abraam Cx 12 celibjum (i <hi>exp. m. 2) C</hi> <lb/>
+            abraam <hi>C</hi> 13 unum <hi>B</hi> 14 caate <hi>PyHAFRDB2</hi> castitas Bt 15 uero] <lb/>
+            autem <hi>X om</hi>. r nane est <hi>N</hi> 16 abraam <hi>C</hi> quam-Abraham <hi>oni. <lb/>
+            MEXa</hi>. qua tam tgpant utar ut abrahi <hi>N</hi> utar <hi>Bbd</hi> usus est <hi>D</hi> <lb/>
+            17 abraam <hi>C</hi> non sum abraham sed melior sum illis <hi>seqq. N</hi> continentiam <lb/>
+            <hi>D</hi> 19 diffirentiam <hi>K</hi> ago (a <hi>supra</hi> e) <hi>PH</hi> 20 essept A <lb/>
+            21 egerunt] gerunt <hi>K</hi> aut] et <hi>KMENXa</hi> 22 se <hi>ante</hi> talem in A, <lb/>
+            <hi>om. D</hi> iste <hi>om. AD</hi> </app> <lb/>
+             
+<pb n="223"/>
+            ex aliquo religionis officio descendisset, talis maritus et talis <lb/>
+            pater esset. qualis fuit Abraham, audeat plane respondere illi <lb/>
+            captioso interrogatori et dicere: non sum quidem melior quam <lb/>
+            Abraham, in hoc dumtaxat genere continentiae, qua ille non <lb/>
+            carebat, etsi non apparebat; sed sum talis non aliud habens, <lb n="5"/>
+            sed aliud agens. dicat plane ista, quia et si uoluerit gloriari, <lb/>
+            non erit insipiens; ueritatem enim dicit. si autem parcit, ne <lb/>
+            quis eum existimet super id quod eum uidet aut audit aliquid <lb/>
+            ex illo, auferat a persona sua nodum quaestionis et non de <lb/>
+            homine, sed de re ipsa respondeat et dicat: qui tantum potest, <lb n="10"/>
+            talis est, qualis fuit Abraham. potest autem fieri, ut minor <lb/>
+            sit continentiae uirtus in animo eius, qui non utitur nuptiis <lb/>
+            quibus est usus Abraham; sed tamen maior est, quam in <lb/>
+            animo eius, qui propterea tenuit coniugii castitatem, quia non <lb/>
+            potuit ampliorem. sic et femina innupta. quae cogitat ea <lb n="15"/>
+            quae sunt domini, ut sit sancta et corpore et <lb/>
+            spiritu, cum audierit inprudentem illum percontatorem <lb/>
+            dicentem: tu ergo melior quam Sarra? respondeat: ego melior <lb/>
+            sum, sed his, quae uirtute huius continentiae carent, quod <lb/>
+            de Sarra non credo. fecit ergo illa cum ista uirtute, quod <lb n="20"/>
+            illi tempori congruebat, a quo ego sum inmunis, ut in meo <lb/>
+            etiam corpore appareat quod illa in animo conseruabat. 
+</p>
+          
+</div1>
+
+<div1 n="28" subtype="section"><head>§ 28</head>
+
+<p><milestone n="23" unit="altchapter"/> Res ergo ipsas si comparemus, nullo modo
+
+<app> 6 cf. II Cor. 12, 6 15 cf. I Cor. 7, 34 </app>
+
+<app> 1 relegionis <hi>K</hi> discendisset <hi>KH</hi> 2 est <hi>DAl</hi> abraam <hi>C</hi> <lb/>
+            3 aptioso Hl melior quidem <hi>MNXa</hi> quidam <hi>Al om. E</hi> 4 qual <lb/>
+            quam <hi>PHl</hi> quo <hi>KMENXa</hi>. 6 iste <hi>ENXa</hi>. uoluero <hi>D</hi> 8 uidit <hi>C</hi> <lb/>
+            aliquis <hi>N</hi> 9 aufero 01 nopduxn <hi>01</hi> no.dum <hi>A</hi> non <hi>om. D, s. L A</hi> <lb/>
+            de' de y 11 non minor (non 8. <hi>l.) A</hi> 13 usus est <hi>N</hi> abraam C1 <lb/>
+            maior] minor <hi>AD</hi> est in opere eius <hi>KMENXa</hi>. 14 coniugi <hi>KN</hi> <lb/>
+            17 inprudentem <hi>CB:</hi> inpadentem <hi>PKrHAFRDMENXa.bd</hi> percantatorem <lb/>
+            01 percfitatorem <hi>P</hi> percunctatorem <hi>a</hi> 18 sara <hi>FRBMENXabd</hi> <lb/>
+            melior sara non sum <hi>NK2, A in mg</hi>. 19 hiis <hi>K2F2</hi> qui <hi>AD</hi> uişrtute <lb/>
+            <hi>P</hi> continentia huius <hi>N</hi> 20 credat <hi>(sic)</hi> i 21 illi] illo <hi>N</hi> <lb/>
+            a <hi>om. KMENXa</hi>. eo <hi>(s. I</hi>. J sic: ut in meo) <hi>A</hi> 22 apareat <hi>N</hi> <lb/>
+            obseruabat a construebat <hi>PjHAFRD</hi> 23 si] non <hi>EX</hi> </app> <lb/>
+             
+<pb n="224"/>
+            dubitandum est meliorem esse castitatem continentiae quam <lb/>
+            castitatem nuptialem, cum tamen utrumque sit bonum; homines <lb/>
+            uero cum comparamus, ille est melior, qui bonum amplius <lb/>
+            quam alius habet. porro qui amplius eiusdem generis habet, <lb/>
+            et id quod minus est habet; qui autem tantummodo quod<lb n="5"/>
+            minus est habet, id quod est amplius non utique habet. in <lb/>
+            sexaginta enim sunt et triginta, non in triginta sunt et sexaginta. <lb/>
+            non operari autem ex eo, quod habet, in distributione <lb/>
+            officiorum positum est, non in egestate uirtutum, quia nec <lb/>
+            bono misericordiae caret, qui non inuenit miseros, quibus<lb n="10"/>
+            possit misericorditer subuenire. 
+</p>
+          
+</div1>
+
+<div1 n="29" subtype="section"><head>§ 29</head>
+
+<p>Huc accedit, quia non recte conparantur homines hominibus <lb/>
+            ex uno aliquo bono. fieri enim potest, ut alius non <lb/>
+            habeat aliquid quod alius habet, sed aliud habeat quod pluris <lb/>
+            aestimandum est. maius enim bonum est oboedientiae quam <lb n="15"/>
+            continentiae. nam conubium nusquam nostrarum scripturarum <lb/>
+            auctoritate damnatur, inoboedientia uero nusquam absoluitur. <lb/>
+            si ergo proponatur uirgo permansura, sed tamen inoboediens, <lb/>
+            et maritata, quae uirgo permanere non posset, sed tamen oboediens, <lb/>
+            quam meliorem dicamus? minus laudabilem quam si uirgo <lb n="20"/>
+            esset, an damnabilem, sicut uirgo est? ita si conferas ebriosam <lb/>
+            uirginem sobriae coniugatae, quis dubitet eandem ferre sententiam? <lb/>
+            nuptiae quippe et uirginitas duo bona sunt, quorum <lb/>
+            alterum maius; sobrietas autem et <sic>ebliositas</sic>, sicut oboedientia <lb/>
+            et contumacia, illa bona sunt, haec mala. melius est autem
+
+<app>3 conparemus <hi>Bla</hi>. 4 alius <hi>A1</hi> 5 qui-habet <hi>om. CB</hi> 6 id] et <lb/>
+            id <hi>CB</hi> amplius est <hi>E</hi> non <hi>om, B</hi> 7 sexagenta 01 sexaginta] <lb/>
+            quadraginta <hi>AD</hi> 8 quod quis (quis 8. <hi>I.) A</hi> 9 neque <hi>E</hi> 10 bono <lb/>
+            <hi>(0 fin. ex</hi> u) <hi>K</hi> bonQ <hi>MXE</hi> 14 habet] habeat <hi>KMENXa</hi>. habet <lb/>
+            şęq. atipd babeat aUq?i«i qŲC;)(Į ę.Įjųş babet sed <hi>P</hi> habet <hi>AD</hi> plures <hi>K</hi> <lb/>
+            15 magis <hi>A</hi> maius est <hi>M</hi> est enim bonum <hi>EXa</hi> est <hi>om. MN</hi> <lb/>
+            17 auctoritatS <hi>K</hi> damnantur <hi>B</hi> 18 sic <hi>P</hi> sic <hi>H</hi> 19 non] <hi>b er. D</hi> <lb/>
+            possit <hi>MENa</hi> tamen <hi>om. X</hi> «obediens (fi <hi>er.) D</hi> 21 an] ac <hi>N</hi> <lb/>
+            est] esset <hi>N</hi> 22 coniugatae sobriae <hi>AD</hi> dubitet et <hi>C</hi> dubitat 7 <lb/>
+            ferre] forte <hi>C</hi> 24 ebrietas <hi>MENX</hi> 25 contumacia (ac <hi>supra er. 2 <lb/>
+            litt. m. 2) B</hi> contumacitas (tae <hi>in ras.; m. 2 ad</hi> tas <hi>add</hi>. i) 7 sunt <lb/>
+            <hi>om. N</hi> mala sunt <hi>MENXa</hi> autem est <hi>D</hi> est <hi>om. PaF. s. I. A</hi> </app> <lb n="25"/>
+             
+<pb n="225"/>
+            habere omnia bona uel minora quam magnum bonum cum <lb/>
+            magno malo, quia et in corporis bonis melius est habere <lb/>
+            Zachaei staturam cum sanitate quam Goliae cum febre. 
+</p>
+          
+</div1>
+
+<div1 n="30" subtype="section"><head>§ 30</head>
+
+<p>Recte plane quaeritur, non utrum omnimodis inoboediens <lb/>
+            uirgo coniugatae oboedienti, sed minus oboediens oboedientiori <lb n="5"/>
+            conparanda sit, quia et illa nuptialis castitas est et ideo <lb/>
+            bonum est, sed minor quam uirginalis. tanto ergo minor in <lb/>
+            bono oboedientiae, quanto maior in bono castitatis, si altera <lb/>
+            alteri conparetur, quae praeponenda sit iudicat qui primo <lb/>
+            ipsam castitatem et oboedientiam conparans uidet omnium uirtutum <lb n="10"/>
+            quodam modo matrem esse oboedientiam. ac per hoc <lb/>
+            ideo potest esse oboedientia sine uirginitate, quia uirginitas <lb/>
+            ex consilio est, non ex praecepto. oboedientiam uero illam <lb/>
+            dico, qua praeceptis obtemperatur. ideoque oboedientia praeceptorum <lb/>
+            sine uirginitate quidem potest, sed sine castitate <lb n="15"/>
+            esse non potest. ad castitatem namque pertinet non <choice><note>fornicali</note><corr>fornicari</corr></choice>, <lb/>
+            non moechari, nullo inlicito concubitu maculari: quae qui non <lb/>
+            obseruant, contra praecepta dei faciunt et ob hoc extorres <lb/>
+            sunt a uirtute oboedientiae. uirginitas autem propterea potest <lb/>
+            esse sine oboedientia, quia potest femina consilio uirginitatis <lb n="20"/>
+            accepto et custodita uirginitate praecepta contemnere: sicut <lb/>
+            multas sacras uirgines nouimus uerbosas, curiosas, ebriosas, <lb/>
+            litigiosas, auaras, superbas: quae omnia contra praecepta <lb/>
+            sunt et sicut ipsam Euam inoboedientiae crimine occidunt. <lb/>
+            quapropter non solum oboediens inoboedienti, sed oboedientior <lb n="25"/>
+            coniugata minus oboedienti uirgini praeponenda est.
+
+<app> 2 corporis C1?1 corporibus <hi>C2.(2KFMENXa</hi> corporalibus <hi>D</hi> corpores <hi>B'</hi> <lb/>
+            bonia (a <hi>in ras.) C</hi> 3 zachei (h a. <hi>I.) C, fHABMENa</hi> zacchei <hi>PK</hi> <lb/>
+            sanitatem <hi>K</hi> febrR X 5 oboedientiori] obedienti <hi>K</hi> 6 sint a <lb/>
+            7 minus <hi>pr. K</hi> 8 maior] minor <hi>N</hi> altera] alter <hi>KBN</hi> 9 altero <lb/>
+            (o <hi>in ras. m. 2) C, B</hi> iudicet <hi>D</hi> 11 hac <hi>K</hi> 14 quf <hi>B</hi> obtemperat <lb/>
+            <hi>CB</hi> optemperatur <hi>K</hi> 17 moecari <hi>C</hi> mechari <hi>AEX</hi> 18 praeceptum <lb/>
+            <hi>NEX</hi> 20 et consilio a 21 continere Nl 22 sacras <hi>om. D</hi> <lb/>
+            23 litigosas <hi>HlMx</hi> praeceptum <hi>EX</hi> 24 et <hi>om. KNa</hi> Euamj <lb/>
+            etiam <hi>N</hi> crimina <hi>A*IPDMNX</hi> occiderant <hi>MENXa</hi> </app>
+
+<app> XXXXI Aq. Sect. V part 111. </app>
+
+<app> 15 </app>
+</p>
+          <p>
+<pb n="226"/>
+             
+</p>
+
+</div1>
+
+<div1 n="31" subtype="section"><head>§ 31</head>
+
+<p>Ex hac oboedientia pater ille, qui sine uxore non fuit, <lb/>
+            esse sine unico filio et a se occiso paratus fuit. unicum enim <lb/>
+            non inmerito dixerim, de quo audiuit a domino: in Isaac <lb/>
+            uocabitur tibi semen. quanto ergo citius, ut etiam sine <lb/>
+            uxore esset, si hoc iuberetur, audiret! unde non frustra saepe<lb n="5"/>
+            miramur nonnullos utriusque sexus ab omni concubitu continentes <lb/>
+            neglegenter oboedire praeceptis, cum tam ardenter <sic>adnpuerint</sic> <lb/>
+            non uti concessis. unde quis dubitat et excellentiae <lb/>
+            sanctorum illorum patrum atque matrum filios generantium <lb/>
+            non recte conparari mares et feminas nostri temporis, quamuis <lb n="10"/>
+            ab omni concubitu inmunes in uirtute oboedientiae minores, <lb/>
+            etiamsi illis hominibus et in habitu animi defuisset, quod in <lb/>
+            istorum opere manifestum est? sequantur ergo agnum pueri <lb/>
+            cantantes canticum nouum, sicut in Apocalypsi scriptum est, <lb/>
+            qui cum mulieribus se non contaminauerunt, non<lb n="15"/>
+            ob aliud nisi quia uirgines permanserunt. nec ideo se arbitrentur <lb/>
+            meliores esse primis patribus sanctis, qui nuptiis, ut <lb/>
+            ita dicam, nuptialiter usi sunt. earum quippe usus ita se <lb/>
+            habet, ut, si quid in eis per carnis <sic>cdnmixtionem</sic>, quod <lb/>
+            excedat generandi necessitatem, quamuis uenialiter factum <lb n="20"/>
+            fuerit, contaminatio sit. nam quid expiat uenia, si omnino non <lb/>
+            contaminat illa progressio? a qua contaminatione mirum si <lb/>
+            inmunes essent pueri sequentes agnum, nisi uirgines permanerent. <lb/>
+            </p>
+          
+</div1>
+
+<div1 n="32" subtype="section"><head>§ 32</head>
+
+<p><milestone n="24" unit="altchapter"/> Bonum igitur nuptiarum per omnes gentes atque
+
+<app> 2 cf. Retr. II 22, 2 3 Gen. 21, 12 15 cf. Apoc. 14, 4 </app>
+
+<app> 1 hac autem a 2 sine <hi>(ne s. I.) C</hi> occiso] oti«ao 7 8 a] in <lb/>
+            <hi>(s. Z</hi>. t a) <hi>M</hi> isa*ac <hi>C</hi> ysaac <hi>EX</hi> 5 essent <hi>N</hi> 6 nonnnllo y1 <lb/>
+            7 neglienter <hi>NX</hi> tamen <hi>N om. B</hi> 8 ot <hi>A</hi> 10 et] şę4 <hi>(s. l</hi>. vel) A <lb/>
+            12 et] etiam <hi>N</hi> 13 ergo] antem <hi>A om. D</hi> 14 apokalypsi <hi>M</hi> apocalipsi <lb/>
+            <hi>YBDNXa</hi> 15 non se <hi>D</hi> non contaminauerunt Be <hi>N</hi> couquinauerunt <lb/>
+            <hi>A</hi> inquinauerunt <hi>D</hi> 16 nisi <hi>om. C</hi> 17 meliores (es <lb/>
+            <hi>s. 1. i H</hi> 18 eorum <hi>B</hi> 19 commixtione <hi>K</hi> 20 excedit <hi>E</hi> 21 sit <lb/>
+            <hi>om</hi>. Y 22 <hi>post</hi> progressio <hi>sequ. 227, 1</hi> quod autem-sanctitate; <hi>tum <lb/>
+            u</hi>. 22 a qua-fide castitatis quod autem <hi>in p. 227, 1 sqq. AD</hi> </app> <lb n="25"/>
+             
+<pb n="227"/>
+            omnes homines in causa generandi est et in fide castitatis; quod <lb/>
+            autem ad populum dei pertinet, etiam in sanctitate sacramenti, <lb/>
+            per quam nefas est etiam repudio discedentem alteri nubere, <lb/>
+            dum uir eius uiuit, nec saltem ipsa causa pariendi: quae cum <lb/>
+            sola sit qua nuptiae fiunt, nec ea re non subsequente propter <lb n="5"/>
+            quam fiunt soluitur uinculum nuptiale nisi coniugis morte. <lb/>
+            quemadmodum si fiat ordinatio <sic>cIeri</sic> ad plebem congregandam, <lb/>
+            etiamsi plebis congregatio non subsequatur, manet tamen in <lb/>
+            illis ordinatis sacramentum ordinationis; et si aliqua culpa <lb/>
+            quisquam ab officio remoueatur, sacramento domini semel <lb n="10"/>
+            inposito non carebit, quamuis ad iudicium permanente. generationis <lb/>
+            itaque causa fieri nuptias apostolus ita testis est. uolo, <lb/>
+            inquit, iuniores nubere. et quasi ei diceretur: ut quid? <lb/>
+            continuo subiecit: filios procreare, matres familias <lb/>
+            esse. ad fidem autem castitatis illud pertinet: uxor non <lb n="15"/>
+            habet potestatem corporis sui, sed uir; similiter <lb/>
+            et uir non habet potestatem corporis sui, sed mulier. <lb/>
+            ad sacramenti sanctitatem illud: uxorem a uiro non <lb/>
+            discedere; quodsi discesserit, manere innuptam <lb/>
+            aut uiro suo reconciliari, et uir uxorem non dimittat. <lb n="20"/>
+            haec omnia bona <sic>suntpropter</sic> quae nuptiae bonum sunt: <lb/>
+            proles, fides, sacramentum. nec prolem autem carnalem iam <lb/>
+            hoc tempore quaerere ac per hoc ab omni tali opere inmunitatem <lb/>
+            quandam perpetuam retinere atque uni uiro Christo
+
+<app> 12 I Tim. 5, 14 15 I Cor. 7, 4 18 I Cor. 7, 10. 11 </app>
+
+<app> 1 generanda <hi>X</hi> in causa fide X 2 autem <hi>om. H</hi> 3 discedente <lb/>
+            <hi>CPHRFDf</hi> discedente <hi>(8. 1</hi>. t intercedente) <hi>A</hi> discendente <hi>Bl</hi> discindente <lb/>
+            <hi>B2</hi> 4 saltem] alterim <hi>(s</hi>. i m. <hi>2 add</hi>. v) <hi>C</hi> aterâ <hi>B</hi> saltim <hi><foreign xml:lang="grc">ΚΗγ</foreign>1 <lb/>
+            om</hi>. 2V ipsam <hi>PDrI</hi> ipsam <hi>A</hi> causS 1Jr1 5 sit propter qui <lb/>
+            (propter <hi>s. I.) A</hi> quil <hi>D</hi> ea re] care <hi>(supra</hi> e <hi>add</hi>. itate) <hi>H</hi> <lb/>
+            subsequenter <hi>KMXEa</hi> 6 n soluitur (ñ 8. <hi>I.) A</hi> mortem <hi>C</hi> 8 tamen <lb/>
+            <hi>om. i</hi> 11 ad <hi>om. AD</hi> iudicio (o <hi>in ras.) A, D</hi> permanentS <hi>EXa</hi>. <lb/>
+            14 continua <hi>EX</hi> 15 autem <hi>om. K</hi> 16 similiter autem X 17 et <hi>om. H</hi> <lb/>
+            19 <hi>discesj.cesserit A</hi> innnptam manere (manere 8. <hi>I.) H</hi> innupta <hi>K</hi> <lb/>
+            20 uxorem suam <hi>A</hi> non] ne <hi>PKHFBf</hi> 21 haec (h <hi>ex</hi> n) <hi>H</hi> nec <hi>K</hi> <lb/>
+            bonum] bonae <hi>ARBDbd</hi> 24 quandam] quandoque (que <hi>s. 1.) H</hi> </app>
+
+<app> 15* </app> <lb/>
+             
+<pb n="228"/>
+            spiritaliter subdi melius est utique et sanctius; si tamen ea <lb/>
+            uacatione sic utantur homines, quomodo scriptum est, ut <lb/>
+            cogitent quae sunt domini, quomodo placeant deo, id <lb/>
+            est, ut perpetuo cogitet continentia, ne quid minus habeat <lb/>
+            oboedientia: quam uirtutem tamquam radicalem atque, ut<lb n="5"/>
+            dici solet, matricem et plane generalem sancti antiqui patres <lb/>
+            in opere exercuerunt, illam uero continentiam in animi habitu <lb/>
+            tenuerunt, qui profecto per oboedientiam, quia iusti et sancti <lb/>
+            erant et ad omne opus bonum semper parati, etiamsi ab omni <lb/>
+            concubitu abstinere iuberentur, efficerent. quanto enim facilius<lb n="10"/>
+            possent uel iussione uel exhortatione dei non concumbere, qui <lb/>
+            prolem, cui uni propagandae concumbendo seruiebant, oboediendo <lb/>
+            poterant inmolare! 
+</p>
+          
+</div1>
+
+<div1 n="33" subtype="section"><head>§ 33</head>
+
+<p><milestone n="25" unit="altchapter"/> Quae cum ita sint, haereticis quidem, siue Manichaeis <lb/>
+            siue quicumque alii patribus ueteris testamenti de<lb n="15"/>
+            pluribus calumniantur uxoribus, hoc esse argumentum deputantes, <lb/>
+            quo eorum conuincant incontinentiam, satis superque <lb/>
+            responsum est: si tamen capiunt non esse peccatum, quod <lb/>
+            neque contra naturam committitur, quia non lasciuiendi, sed <lb/>
+            gignendi causa illis feminis utebantur; neque contra morem, <lb n="20"/>
+            quia illis temporibus ea factitabantur; neque contra praeceptum, <lb/>
+            quia nulla lege prohibebantur. illos uero, qui inlicite feminis <lb/>
+            usi sunt, uel arguit in scripturis illis diuina sententia uel <lb/>
+            nobis lectio iudicandos atque uitandos, non adprobandos imitandosue <lb/>
+            proponit.
+
+<app> 3 cf. I Cor. 7, 32 </app>
+
+<app> 2 uocatione <hi>PKrHAFRtDMENXa</hi>. homines sic utantur <hi>MENXa</hi>. <lb/>
+            3 deo] domino <hi>PyHAFBDMENXa</hi> 5 ut om. a 6 ita dici <hi>P</hi> ita <lb/>
+            dici <hi>rA</hi> generalem <hi>om. E</hi> sancti antiqui] sanctitatiqui <hi>PF;1</hi> <lb/>
+            sancti.... qui (a. <hi>I</hi>. anti) <hi>A</hi> sancti..... <hi>H</hi> sanctitati <hi>D</hi> sancti et antiqui <lb/>
+            (et, n s. <hi>l.) R</hi> 7 continentia <hi>K</hi> animi] Qil <hi>(in fine u.)</hi> Y 8 quia] <lb/>
+            quia <hi>B</hi> qua <hi>PKfHAFJRDMNEXabd</hi> 10 enim] ergo <hi>N</hi> 11 possent <hi>A</hi> <lb/>
+            exortatione <hi>(pr</hi>. t <hi>s. I.) A, KHE</hi> exoratione <hi>D</hi> dei <hi>Otu. C</hi> 12 seruiebat <lb/>
+            <hi>E</hi> 13 poterat <hi>D</hi> 14 sunt <hi>Cl</hi> hereticis <hi>CPKDM</hi> sine <lb/>
+            <hi>om. H</hi> manicheis <hi>codd</hi>. 15 ueteris] uestris Cl 16 argumentum <lb/>
+            (um <hi>in ras.) H</hi> putantes <hi>H</hi> 21 ea <hi>om. E</hi> 22 inlicitae P inliciti <hi>K</hi> <lb/>
+            inlicitis <hi>MENXa</hi> 23 illa <hi>KENXa</hi> 24 adque <hi>C</hi> </app> <lb n="25"/>
+             
+<pb n="229"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="34" subtype="section"><head>§ 34</head>
+
+<p><milestone n="26" unit="altchapter"/> Nostros autem qui coniuges habent, quantum <lb/>
+            possumus, admonemus, ne secundum suam infirmitatem de <lb/>
+            illis sanctis patribus audeant iudicare, conparantes, ut ait <lb/>
+            apostolus, semet ipsos sibimet ipsis et ideo non intellegentes, <lb/>
+            quantas uires habeat animus iustitiae contra libidines <lb n="5"/>
+            seruiens, ne carnalibus huiusce modi motibus adquiescat <lb/>
+            eosque in concubitum ultra generandi necessitatem prolabi <lb/>
+            aut progredi sinat, quantum ordo naturae, quantum morum <lb/>
+            consuetudo, quantum legum scita praescribunt. hoc quippe <lb/>
+            ideo de illis patribus homines suspicantur, quia ipsi per incontinentiam <lb n="10"/>
+            uel nuptias elegerunt uel coniugibus intemperanter <lb/>
+            utuntur. at uero continentes uel mares, qui defunctis uxoribus, <lb/>
+            uel feminae, quae defunctis uiris, uel utrique, qui pari consensu <lb/>
+            continentiam deo uouerunt, sciant sibi quidem mercedis amplius <lb/>
+            deberi, quam coniugalis castitas poscit; sed <choice><note>sanctomm</note><corr>sanctorum</corr></choice> patrum <lb n="15"/>
+            nuptias, qui prophetice coniungebantur, qui neque in concubitu <lb/>
+            nisi prolem neque in ipsa prole nisi quod in carne uenturo <lb/>
+            Christo proficeret requirebant, non solum prae suo proposito <lb/>
+            non contemnant, uerum etiam suo proposito sine dubitatione <lb/>
+            praeponant. <lb n="20"/>
+            
+</p>
+          
+</div1>
+
+<div1 n="35" subtype="section"><head>§ 35</head>
+
+<p>Pueros quoque ac uirgines integritatem ipsam deo <lb/>
+            dicantes multo maxime commonemus, ut tanta norint humilitate <lb/>
+            tuendum esse, quod in terra interim uiuunt, quanto magis <lb/>
+            caeli est quod uouerunt. nempe scriptum est: quanto
+
+<app> 4 cf. II Cor. 10, 12 24 Eccli 3, 18 </app>
+
+<app> 1 nostros] nos nostros <hi>D</hi> habent <hi>om. B</hi> 2 ammonemus <hi>PyHRK<lb/>
+             DMXEa</hi>. 3 comparentes <hi>HxRl</hi> 6 aeruientes <hi>Cl</hi> seruientis <hi>BG1</hi> <lb/>
+            nec <hi>C litteris</hi> cemodi incipit <hi>codex 16860 = T</hi> acquiescant <hi>B</hi> <lb/>
+            7 concubitu <hi>PHAFBD</hi> 8 fi sinat <hi>T</hi> sinant <hi>B</hi> ainat <hi>H</hi> 9 seita (s. P <lb/>
+            <hi>add. m. 2</hi> c) <hi>B</hi> ideo quippe <hi>N</hi> 10 ipse <hi>K</hi> incontentiam <hi>Al</hi> <lb/>
+            12 ad (}IX incontinentes a 13 quae] qui <hi>K</hi> consenBO* <hi>C</hi> <lb/>
+            14 uouerunt (u <hi>init. ex</hi> n) <hi>E</hi> 16 prophetic«e <hi>A</hi> propheticae r prophetiae <lb/>
+            <hi>H</hi> coniugebantur <hi>P</hi> 17 ipsa in <hi>A</hi> 18 reficeret <hi>E</hi> solo <hi>K</hi> <lb/>
+            pro <hi>CPKMENXT</hi> praeposito y 19 non <hi>om. PA</hi> 21 quosque <hi>B</hi> <lb/>
+            22 commanemua <hi>Bl</hi> tanto <hi>KJIENX</hi> 23 uiont P noaer <hi>(in <lb/>
+            ras.) A</hi> </app> <lb/>
+             
+<pb n="230"/>
+            magnus es, tanto humila to in omnibus. nostrum <lb/>
+            ergo est de magnitudine eorum aliquid dicere, illorum de <lb/>
+            magna humilitate cogitare. exceptis igitur quibusdam illis <lb/>
+            coniugatis patribus et matribus sanctis, quibus ideo isti <lb/>
+            meliores non sunt, quamuis coniugati non sint, quia si coniugati<lb n="5"/>
+            essent, pares non essent, ceteros omnino huius temporis <lb/>
+            coniugatos, uel post expertum concubitum continentes, a se <lb/>
+            superari non dubitent, non quantum ab Anna Susanna, sed <lb/>
+            quantum ambae a Maria superantur. quod ad ipsam pertinet <lb/>
+            sanctam carnis integritatem, loquor; nam quae alia sint Mariae<lb n="10"/>
+            menta, quis ignorat? mores itaque congruos huic tanto proposito <lb/>
+            adiungant, ut de praepollenti praemio certam securitatem <lb/>
+            gerant, scientes sane sibi atque omnibus fidelibus dilectis <lb/>
+            et electis Christi membris multis ab oriente et occidente <lb/>
+            uenientibus, etsi inter se distante pro meritis gloriae luce<lb n="15"/>
+            fulgentibus, hoc tamen magnum in commune praestari, ut cum <lb/>
+            Abraham et Isaac et Iacob recumbant in regno dei, qui non <lb/>
+            propter hoc saeculum, sed propter Christum coniuges, propter <lb/>
+            Christum patres fuerunt.
+
+<app> 17 cf. Matth. 8, 11 </app>
+
+<app> 1 tanto <hi>om. MENXa post</hi> tanto <hi>er</hi>. te <hi>in</hi> y humila <hi>CP</hi> humilifca <lb/>
+            <hi>B</hi> humilia <hi>KfHAFBDMENXTabd</hi> 2 est ergo <hi>MNXo</hi>. aliquid <lb/>
+            <hi>om. MENXa</hi> 3 illis <hi>om. T</hi> 8 susanna <hi>om. Pl</hi> 9 ambae <hi>om. MENXa</hi> <lb/>
+            a] a beata <hi>MENXa</hi> atte <hi>K</hi> qui <hi>(a</hi>. i <hi>add</hi>. ae) <hi>H</hi> pertinent <lb/>
+            (n <hi>fin. 8. Z.) H</hi> 10 nam quae] namque <hi>01</hi> nam quod <hi>J.2Sa</hi> non quae <hi>D1</hi> <lb/>
+            lia <hi>F aliaę Å</hi> alie <hi>D</hi> sunt <hi>B</hi> 12 adiungant (n <hi>fin. s. I.) A</hi> ut de] <lb/>
+            unde <hi>FD</hi> 13 sane <hi>om. X</hi> adque <hi>C1</hi> dilectis <hi>om. B</hi> 14 electis] <lb/>
+            CPlestis X 15 dsi] et <hi>N</hi> 16 tamen] tam <hi>ENX</hi> magno (o <hi>in ras.) C</hi> <lb/>
+            prestari <hi>C</hi> 17 abraam C1 isac <hi>C</hi> ysaac <hi>D</hi> 19 Explicit de bono <lb/>
+            coniugali. Incipit de bono uidnitatis <hi>fol. 195b C</hi> Explicit liber sci Augustini <lb/>
+            de bono coniugali <hi>fol. 22* P</hi> Explicit de bono coniugali. Incipit <lb/>
+            de sca. uirginitate <hi>fol. 77* K</hi> Explicit liber sci Augustini de bono coniugali <lb/>
+            <hi>fol. 22•</hi> y Explicit liber sci augustini de bono coniugali. Inč <lb/>
+            eiusdem de sca uirginitate <hi>fol</hi>. 22* <hi>H; a codice A subscriptio abest<lb/>
+             fol. 14 b; item a codice F fol. 95b</hi> Explicit liber sci Augustini de bono <lb/>
+            coniugali <hi>fol. 54 R</hi> Nec distuli atque id dei munus est qua magna </app> <lb/>
+             
+<pb n="231"/>
+            et quanta humilitate custodiendam est uno sicut potui .. uolumine ostendi. <lb/>
+            <sic>Explicit</sic> <sic>Augastini</sic> de <sic>bcno</sic> <sic>coniagali</sic>. Incipit eiusdem de <sic>sca</sic> uirginitate <lb/>
+            <hi>fol. <sic n="poss">30b</sic> D</hi> <sic>Explicit</sic> de bono coniugali <hi>fol. <sic n="poss">84b</sic> B</hi> <sic>Explicit</sic> liber de bono <lb/>
+            coniugali. Incipit liber de sancta uirginitate <hi>fol</hi>. 78* <hi>M</hi> <sic>Explicit</sic> liber <lb/>
+            de bono coniugali <hi>fol</hi>. <sic n="poss">45u</sic> <hi>E <sic>subscriptto</sic> abest a codd. N fol. <sic n="poss">70b</sic> , T<lb/>
+             fol. 4 u,</hi> a <hi>fol. <sic n="poss">106u</sic></hi> <sic>Explicit</sic> liber de bono coniugali. <sic>Explicit</sic> liber de <lb/>
+            bono <sic>coniagali</sic> <hi>fol. 70* X</hi> 
+</p>
+        
+
+</div1>
+  <div1 n="retractationes" subtype="section">
+    <head>LOCI LIBR. RETRACTATIONVM. </head>
+    
+    <p>De bono coniugali pag. 210, 21 <choice><note>squ</note><corr>sqq</corr></choice>.; 226, 1. 2. 
+    </p>
+    <p>Retract. II 22. Dixi etiam quodam loco: quod enim est <lb/>
+      cibus ad salutem hominis, hoc est concubitus ad <lb/>
+      salutem generis et utrumque non est sine delectatione <lb/>
+      carnali, quae tamen modificata et temperantia <lb/>
+      refrenante in usum naturalem redacta <lb/>
+      libido esse non potest. quod ideo dictum est, quoniam <lb/>
+      libido non est bonus et rectus usus libidinis. sicut enim <lb/>
+      malum est male uti bonis, ita bonum est bene uti malis: de <lb/>
+      qua re alias, maxime contra nouos haereticos Pelagianos, diligentius <lb/>
+      disputaui. de Abraham quod dixi: ex hac oboedientia <lb/>
+      pater ille Abraham, qui sine uxore non fuit, <lb/>
+      esse siue unico filio et a se occiso paratus fuit, <lb/>
+      non satis approbo. magis enim filium, si esset occisus, resuscitatione <lb/>
+      sibi mox fuisse reddendum credidisse credendus est, <lb/>
+      sicut in epistula legitur quae est ad Hebraeos (11, 19)
+    </p>
+    <pb n="694"/>
+    
+    
+  </div1>
+</body>
+</text>
+</TEI>

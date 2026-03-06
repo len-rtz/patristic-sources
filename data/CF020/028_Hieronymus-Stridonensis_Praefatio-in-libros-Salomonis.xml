@@ -1,0 +1,122 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Praefatio in libros Salomonis</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 28</title>
+           <idno>HieStr.PrInLiS</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head> Chromatio et Heliodoro episcopis Hieronymus.</head>
+<p>
+          <pb n="1241A"/>Jungat epistola, quos jungit sacerdotium: immo
+charta non dividat, quos Christi nectit amor. Commentarios
+in Osee, Amos, Zachariam. Malachiam,
+quos poscitis, scripsissem, si licuisset prae valetudine.
+Mittitis solatia sumptuum: notarios nostros et
+librarios sustentatis, ut vobis potissimum nostrum
+desudet ingenium. Et ecce ex latere frequens turba
+diversa poscentium: quasi aut aequum sit, me,
+vobis esurientibus, aliis laborare: aut in ratione
+dati et accepti, cuiquam, praeter vos, obnoxius sim.
+Itaque longa aegrotatione fractus, ne penitus hoc
+anno reticerem, et apud vos mutus essem, tridui
+opus nomini vestro consecravi, interpretationem
+videlicet trium Salomonis voluminum, MASLOTH
+( ), quas Hebraei <hi>Parabolas,</hi> Vulgata autem
+<pb n="1242A"/>
+editio <hi>Proverbia</hi> vocat: COELETH ( ), quem
+Graece Ecclesiasten, Latine Concionatorem possumus
+dicere: SIR ASSIRIM ( ), quod in
+nostra lingua vertitur Canticum Canticorum. Fertur
+et <foreign xml:lang="greek">πανάρετος</foreign> Jesu filii Sirach liber, et alius <foreign xml:lang="greek">ψευδεπίγραφος</foreign>
+qui Sapientia Salomonis inscribitur. Quorum
+priorem, Hebraicum reperi, non Ecclesiasticum, ut
+apud Latinos; sed Parabolas praenotatum, cui juncti
+erant Ecclesiastes et Canticum Canticorum, ut similitudinem
+Salomonis non solum librorum numero,
+sed etiam materiarum genere coaequaret. Secundus
+apud Hebraeos nusquam est, quia et ipse stylus
+Graecam eloquentiam redolet: et nonnulli scriptorum
+veterum hunc esse Judaei Philonis affirmant.
+Sicut ergo Judith, et Tobi, et Machabaeorum libros
+<pb n="1243A"/>
+legit quidem Ecclesia, sed inter canonicas Scripturas
+non recipit: sic et haec duo volumina legat
+ad aedificationem plebis, non ad auctoritatem Ecclesiasticorum
+dogmatum confirmandam. Si cui sane
+Septuaginta Interpretum magis editio placet, habet
+ eam a nobis olim emendatam. Neque enim sic nova
+<pb n="1244A"/>
+cudimus, ut vetera destruamus. Et tamen cum diligentissime
+legerit, sciat magis nostra intelligi, quae
+non in tertium vas transfusa coacuerint, sed statim
+de praelo purissimae commendata testae, suum saporem
+servaverint.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

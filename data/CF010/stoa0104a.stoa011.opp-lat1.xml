@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+
+<sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <titleStmt>
+              <title>De zelo et livore [CSEL]</title>
+              <author ref="http://viaf.org/viaf/100179090">Cyprianus Carthaginensis<date>-258</date></author>
+              </titleStmt>
+               
+
+              <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften (ÖAW)</publisher>
+                <pubPlace>Wien, Österreich</pubPlace>
+                <date>1868</date>
+              </publicationStmt>
+              <editor><biblScope unit="volume">CSEL vol. 3.1</biblScope></editor>
+            </monogr>
+            <ref target="http://archive.org/stream/corpusscriptoru16wissgoog#page/n7/mode/2up">Internet Archive</ref>
+            
+          </biblStruct>
+        </listBibl>
+      <editionStmt>
+              <edition>critical edition, apparatus encoded</edition>
+              <editor><persName><name xml:lang="la">Guilelmus Hartelius</name>; <addName xml:lang="de">Wilhelm von Hartel</addName></persName></editor>       </editionStmt>
+        <seriesStmt>
+           <title>e Open Greek and Latin Project</title>
+           <idno>CypCar.DeZeLivCSEL</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note></note>
+ 		  </notesStmt>
+  		</sourceDesc>
+
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Scriptorum Ecclesiasticorum Latinorum (CSEL)</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Uvius Fonticola</persName>
+          <resp>Technical Advisor (Ludwig Maximilians University Munich)</resp>
+        </respStmt>
+                    </titleStmt>
+      
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">CSEL3_1.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      
+      
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the
+        CTS/CITE Architecture. 
+</p>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@n='$1'])"/>
+      </refsDecl>
+               <projectDesc>this file's TEI xml markup was adapted for the University of Zurich's <hi>Corpus Corporum</hi> project (www.mlat.uzh.ch) by Ph. Roelli in 2016</projectDesc>
+          <editorialDecl>
+             <normalization>Classical Latin orthography, without v</normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date></date>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item></item>
+		  <item></item>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme='genre'>
+  		 <list>
+   			<item></item>
+  		</list>
+  		</keywords>
+  		<keywords scheme='period'>
+ 		 <list>
+   			<item></item>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<edition n="urn:cts:latinLit:stoa0104a.stoa011.opp-lat1"/>
+<pb n="419"/>
+
+<div1 n="1" subtype="section">
+            <head>DE ZELO ET LIVORE</head>
+          
+          <p><sic>Zielare</sic> quod bonum uideas et inuidere melioribus leue aput  <lb/>
+            quosdam et modicum crimen uidetur, fratres dilectissimi, dumque <lb/>
+            existimatur leue esse et modicum non timetur, dum non <lb/>
+            timetur contemnitur, dum contemnitur non facile uitatur, et fit <lb n="5"/>
+            caeca et occulta pernicies quae dum minus perspicitur ut caueri <lb/>
+            a prouidentibus possit, inprouidas mentes latenter adfligit. porro <lb/>
+            autem Dominus prudentes esse nos iussit et cauta sollicitudine <lb/>
+            uigilare praecepit, ne aduersarius uigilans semper ipse et semper <lb/>
+            insidians ubi in pectus obrepsit de scintillis conflet incendia, de <lb n="10"/>
+            paruis maxima exaggeret et dum remissis et incautis leniore <lb/>
+            aura et flatu molliore blanditur, procellis ac turbinibus excitatis <lb/>
+            ruinas fidei et salutis ac uitae naufragia moliatur. excubandum <lb/>
+            est itaque, fratres dilectissimi, adque omnibus uiribus elaborandum, <lb/>
+            ut inimico saeuienti et iacula sua in omnes corporis partes <lb n="15"/>
+            quibus percuti et uulnerari possumus dirigenti sollicita et plena <lb/>
+            uigilantia repugnemus secundum quod Petrus apostolus in epistula <lb/>
+            sua praemonet et docet dicens: sobrii estote, uigilate, <lb/>
+            quia aduersarius uester diabolus tamquam leo rugiens <lb/>
+             aliquid deuorare quaerens circuit.
+
+<app> 18- I Petr. 5, 8. </app>
+
+<app> INCIPIT DE ZELO ET LIYORE (LIBORE <hi>D) WDMB</hi> 2 inuideri <hi>W</hi> leue <lb/>
+            et modicum apud q. <hi>v</hi> 7 adfligit] adficit D 8 nos esse <hi>M,</hi> nos <hi>B</hi> 9 semper <lb/>
+            ipse <hi>om. D;</hi> ipse om. <hi>v</hi> 10 obrepsit <hi>WMBVD1,</hi> obrepserit D2V <lb/>
+            11 exaggerat <hi>B</hi> et <hi>(ante</hi> dum) <hi>D s. l. m. 2,</hi> ut <hi>M</hi> 12 et] aut <hi>M</hi> <lb/>
+            14 elaborandum est D 15 mittenti iacula M* omnis D 16 possimus <lb/>
+            <hi>M</hi> dirigenti] diligenti ac <hi>M sed</hi> ac s. <hi>1. m. 2</hi> 18 praemonet in <lb/>
+            aepistula sua <hi>M</hi> et uigilate <hi>M2D7Bv</hi> 20 aliquid <hi>WDMBV,</hi> et aliquid <lb/>
+            <hi>uel</hi> aliquem <hi>v</hi> circuit <hi>post</hi> rugiens <hi>ponit v</hi> </app>
+
+<app> 27* </app> <lb n="20"/>
+
+
+<pb n="420"/>
+            
+</p>
+          </div1>
+
+<div1 n="2" subtype="section"><head>§ 2</head>
+<p> Circuit ille nos singulos et tamquam hostis clausos obsidens <lb/>
+            muros explorat et temptat an sit pars aliqua membrorum minus <lb/>
+            stabilis et minus fida, cuius aditu ad interiora penetretur. offert <lb/>
+            oculis formas inlices et faciles uoluptates, ut uisu destruat castitatem. <lb/>
+            aures per canora musica temptat, ut soni dulcioris<lb n="5"/>
+            auditu soluat et molliat christianum uigorem. linguam conuicio <lb/>
+            prouocat, manum iniuriis lacessentibus ad petulantiam caedis <lb/>
+            instigat. ut fraudatorem faciat lucra opponit iniusta: ut animam <lb/>
+            pecunia capiat ingerit perniciosa conpendia: honores terrenos <lb/>
+            promittit ut caelestes adimat: ostentat falsa ut uera subripiat,<lb n="10"/>
+            et cum latenter non potest fallere, exerte adque aperte minatur, <lb/>
+            terrorem turbidae persecutionis intentans, ad debellandos seruos <lb/>
+            Dei inquietus semper et semper infestus, in pace subdolus, in <lb/>
+            persecutione uiolentus. 
+</p>
+          </div1>
+
+<div1 n="3" subtype="section"><head>§ 3</head>
+<p> Quamobrem, fratres dilectissimi, contra omnes diaboli uel <lb n="15"/>
+            fallaces insidias uel apertas minas stare debet instructus animus <lb/>
+            et armatus, tam paratus semper ad repugnandum quam est ad <lb/>
+            inpugnandum semper paratus inimicus. et quoniam frequentiora <lb/>
+            sunt tela eius quae latenter obrepunt magisque occulta et clandestina <lb/>
+            iaculatio quo minus perspicitur hoc et grauius et crebrius<lb n="20"/>
+            in uulnera nostra grassatur, ad haec quoque intellegenda <lb/>
+            et depellenda uigilemus. ex quibus est zeli et liuoris malum. <lb/>
+            quod si qui penitus inspiciat, inueniet nihil magis christiano cauendum, <lb/>
+            nihil cautius prouidendum, quam ne quis inuidia et
+
+<app> 2 membrorum] murorum <hi>ex 2. codd. recepit Baluzius</hi> 3 et <hi>om. M</hi> <lb/>
+            aditus <hi>B</hi> inferiora <hi>W</hi> 4 uoluntates <hi>WD</hi> 5 canoram musicam <hi>ex <lb/>
+            canorem musica M m. 2 sonitu D</hi> 6 <hi>resoluatJtf* conuitio MB,</hi> ad <lb/>
+            conuicium <hi>D2;</hi> conuicio ad conuicia <hi>coni. Vahlen</hi> 7 prouocat ad petulantiam <lb/>
+            <hi>coni. Routh</hi> manum <hi>om. D</hi> ad inpetulantiam <hi>D,</hi> ad uiolentiam <lb/>
+            <hi>coni. Bouth</hi> 8 fraude capiat (faciat...pecunia om.) <hi>D</hi> 9 ingerit] <lb/>
+            ostendit <hi>D</hi> 10 permittit <hi>Dl</hi> ostendit <hi>ex</hi> ostendat <hi>D m. 2</hi> 12 turbide <lb/>
+            <hi>D</hi> debellandum <hi>W</hi> dei seruos <hi>v</hi> 13 inquietos <hi>B</hi> et semper <lb/>
+            <hi>om. Dl</hi> 15 diaboli uel minas uel fallatias et insidias uel apertas minas <lb/>
+            <hi>D sed</hi> uel ap. minas <hi>exp. m. 2</hi> uel <hi>exp. Baluzius</hi> 17 quam est ad <lb/>
+            inpugnandum <hi>om. B</hi> 19 oprepunt <hi>W</hi> magis magisque <hi>M</hi> occulta <lb/>
+            est <hi>D</hi> 21 crassatur <hi>B,</hi> grassantur <hi>ex</hi> grasatur <hi>M m. 2</hi> quoque] quaeque <lb/>
+            <hi>malim</hi> 22 ex] et <hi>D</hi> liboris <hi>D ita saepissime, rarius W</hi> <lb/>
+            23 quis <hi>M'Bv</hi> inueniat <hi>D</hi> magis <hi>om. D</hi> 24 nequis <hi>ex</hi> neque uis <hi>M</hi> <lb/>
+            m. 2 inuidiae liuore <hi>M</hi> </app> <lb/>
+
+
+<pb n="421"/>
+            liuore capiatur, ne <choice n="0.65"><note n="9788">quia</note><corr n="5248">quis</corr></choice> fallentis inimici caecis laqueis implicatus, <lb/>
+            dum zelo frater in fratris odia conuertitur, gladio suo nescius <lb/>
+            ipse perimatur. quod ut colligere plenius et manifestius <lb/>
+            perspicere possimus, ad caput eius adque ad originem recurramus. <lb/>
+             uideamus unde zelus et quando et quomodo coeperit. facilius <lb n="5"/>
+            enim a nobis malum tam perniciosum uitabitur, si eiusdem <lb/>
+            mali et origo et magnitudo noscatur. 
+</p>
+          </div1>
+
+<div1 n="4" subtype="section"><head>§ 4</head>
+<p>Hinc diabolus inter initia statim mundi et perit primus et  <lb/>
+            perdidit. ille angelica maiestate subnixus, ille Deo acceptus et <lb/>
+             carus postquam hominem ad imaginem Dei factum conspexit, in <lb n="10"/>
+            zelum maliuolo liuore prorupit, non prius alterum deiciens instinctu <lb/>
+            zeli quam ipse zelo ante deiectus, captiuus ante quam <lb/>
+            capiens, perditus ante quam perdens, dum stimulante liuore <lb/>
+            homini gratiam datae immortalitatis eripit, ipse quoque id quod <lb/>
+             prius fuerat amisit. quale malum est, fratres dilectissimi, quo <lb n="15"/>
+            angelus cecidit, quo circumueniri et subuerti alta illa et praeclara <lb/>
+            sublimitas potuit, quo deceptus est ipse qui decepit. exinde <lb/>
+            inuidia grassatur in terris, dum liuore periturus magistro perditionis <lb/>
+            obsequitur, dum diabolum qui zelat imitatur, sicut <lb/>
+             scriptum est: inuidia autem diaboli mors introiuit <lb n="20"/>
+            in orbem terrarum. imitantur ergo illum qui sunt ex <lb/>
+            parte eius. 
+</p>
+          </div1>
+
+<div1 n="5" subtype="section"><head>§ 5</head>
+<p>Hinc denique nouae fraternitatis prima odia, hinc parricidia  <lb/>
+            nefanda coeperunt, dum Abel iustum Cain zelat iniustus, dum <lb/>
+             bonum malus inuidia et liuore persequitur. tantum ualuit ad <lb n="25"/>
+            consummationem facinoris aemulationis furor, ut nec caritas <lb/>
+            fratris nec sceleris immanitas nec timor Dei nec poena delicti
+
+<app> 20 Sap. 2, 24. </app>
+
+<app> 1 fallentibuB <hi>D'</hi> 2 dum se <hi>B</hi> frater i. f. odia] nescius in fratre <hi>D</hi> <lb/>
+            3 perematur <hi>W</hi> 4 ad <hi>(post</hi> adq.) <hi>om. Mv</hi> 5 zelum <hi>D</hi> 8 statim <lb/>
+            <hi>om. D</hi> et <hi>om. B</hi> periit <hi>Mv</hi> 9 ille dudum ang. <hi>v</hi> dno <hi>D</hi> 10 in <hi>D</hi> <lb/>
+            s. <hi>I. m. 2</hi> 13 ipse perditus <hi>M*</hi> 14 datam immortalitatis gratiam <hi>D</hi> <lb/>
+            eripiat <hi>D7</hi> 15 quo <hi>ex</hi> quod <hi>W m. 2</hi> 16 circum inueniri <hi>W'</hi> 17 quo <hi>ex</hi> <lb/>
+            quod <hi>M m. 2</hi> decipit <hi>WIM2</hi> exinde <hi>ex</hi> ex <hi>W m. 2</hi> 18 magiBtrum <lb/>
+            D* 20 autem om. <hi>Augustin. de bapt. contra Don. IV, 8, 11</hi> introibit <lb/>
+            <hi>M</hi> 21 orbe <hi>B</hi> illum] eum <hi>V</hi> 22 eius <hi>WB,</hi> illius <hi>DV,</hi> illius <lb/>
+            iustorum autem animae in manu dei sunt <hi>M</hi> 23 odia prima <hi>M</hi> parricidia <lb/>
+            ne <hi>add. m. 2 in W</hi> 24 iniuste <hi>M</hi> 25 bonus <hi>B</hi> 27 dilecti <hi>W'</hi> </app> <lb/>
+
+
+<pb n="422"/>
+            cogitaretur. iniuste oppressus est qui iustitiam primus ostenderat, <lb/>
+            odia perpessus est qui odisse non nouerat, occisus est <lb/>
+            impie qui moriens non repugnabat. et quod Esau fratri suo Iacob <lb/>
+            inimicus extitit zelus fuit: nam quia ille benedictionem patris <lb/>
+            acceperat, hic in odium persecutionis facibus liuoris exarsit. et<lb n="5"/>
+            quod Ioseph fratres sui uendiderunt, causa uendendi de aemulatione <lb/>
+            descendit: postquam id quod sibi in uisionibus prosperum <lb/>
+            fuerat ostensum simpliciter ut fratribus frater exposuit, in inuidiam <lb/>
+            maliuolus animus erupit. Saul quoque rex ut Dauid <lb/>
+            odisset, ut persecutionibus saepe repetitis innocentem, misericordem,<lb n="10"/>
+            miti lenitate patientem necare cuperet, quid aliud <lb/>
+            quam zeli stimulus prouocauit? quia Goliath interfecto et ope <lb/>
+            ac dignatione diuina tanto hoste deleto populus admirans in <lb/>
+            laudes Dauid praedicationis suffragio prosiliit, Saul simultatis <lb/>
+            adque insectationis furias de liuore concepit. et ne longum faciam<lb n="15"/>
+            singulos recensendo, pereuntis semel populi adtendamus <lb/>
+            interitum. Iudaei nonne inde perierunt, dum Christo malunt <lb/>
+            inuidere quam credere? obtrectantes magnalibus quae ille faciebat <lb/>
+            zelo excaecante decepti sunt nec ad diuina noscenda cordis <lb/>
+            oculos aperire potuerunt. <lb n="20"/>
+            
+</p>
+          </div1>
+
+<div1 n="6" subtype="section"><head>§ 6</head>
+<p rend="script"> Quae nunc considerantes, fratres dilectissimi, contra tantam <lb/>
+            mali perniciem uigilanter et fortiter dicata Deo pectora muniamus. <lb/>
+            aliorum mors proficiat ad nostram salutem, inprudentium <lb/>
+            poena prouidentibus conferat sanitatem. non est autem quod aliquis <lb/>
+            existimet malum istud una specie contineri aut <choice><note>brenibus</note><corr>breuibus</corr></choice> <lb n="25"/>
+            terminis et angusto fine concludi. late patet zeli multiplex et <lb/>
+            fecunda pernicies. radix est malorum omnium, fons cladium, <lb/>
+            seminarium delictorum, materia culparum. inde odium surgit,
+
+<app> 3 suo <hi>D 8. l. m. 2</hi> 5 hic <hi>ex</hi> hinc <hi>Mm.2</hi> faucibus <hi>M</hi> 6 uendidernnt]<lb/>
+             uinderunt <hi>D</hi> 8 in <hi>M 8. l. m. 2, om. D</hi> . inuidia Ml 11 mitem <lb/>
+            v lenitatem M1 necare <hi>ex</hi> negaret <hi>D m. 2</hi> cuperent <hi>M1</hi> <lb/>
+            12 golian <hi>B,</hi> golia <hi>M,</hi> goliad v dei ope <hi>W</hi> 14 prosilinit <hi>B</hi> 15 concepit<lb/>
+             et pertulit <hi>W</hi> et <hi>om. Wl</hi> 16 singula <hi>D</hi> recensendum <hi>D*,</hi> regenerando <lb/>
+            <hi>B,</hi> accensendo <hi>Oxon</hi>. semel <hi>WMB,</hi> simul <hi>D et in margine W*; <lb/>
+            cf. p. 215, 22</hi> 18 quam <hi>ex</hi> quod <hi>D m. 2</hi> 19 nec] ne <hi>M</hi> 21 nunc] nos <lb/>
+            <hi>Wv</hi> 22 et] ac <hi>M</hi> dno <hi>D</hi> pectora] et uegetata pectora nostra v <lb/>
+            24 prudentibus <hi>V</hi> 25 istum <hi>D</hi> breuius <hi>D</hi> 27 facnnda <hi>B est</hi> <lb/>
+            enim <hi>B</hi> omnium malorum v gladium <hi>DM</hi> </app> <lb/>
+
+
+<pb n="423"/>
+            animositas inde procedit. auaritiam zelus inflammat, dum quis <lb/>
+            suo non potest esse contentus uidens alterum ditiorem. ambitionem <lb/>
+            zelus excitat, dum cernit quis alium in honoribus auctiorem. <lb/>
+            zelo excaecante sensus nostros adque in ditionem suam <lb/>
+            mentis arcana redigente Dei timor spernitur, magisterium Christi <lb n="5"/>
+            neglegitur, iudicii dies non prouidetur. inflat superbia, exacerbat <lb/>
+            saeuitia, perfidia praeuaricatur, inpatientia concutit, furit <lb/>
+            discordia, ira feruescit, nec se iam <choice><note>patest</note><corr>potest</corr></choice> cohibere uel regere <lb/>
+            qui factus est potestatis alienae. hinc dominicae pacis uinculum <lb/>
+             rumpitur, hinc caritas fraterna uiolatur, hinc adulteratur ueritas, <lb n="10"/>
+            unitas scinditur, ad haereses adque ad schismata prosilitur, <lb/>
+            dum obtrectatur sacerdotibus, dum episcopis inuidetur, <lb/>
+            dum quis aut queritur non se potius ordinatum aut dedignatur <lb/>
+            alterum ferre praepositum. hinc recalcitrat, hinc rebellat de <lb/>
+             zelo superbus, de aemulatione peruersus, animositate et liuore <lb n="15"/>
+            non hominis sed honoris inimicus. 
+</p>
+          </div1>
+
+<div1 n="7" subtype="section"><head>§ 7</head>
+<p>Qualis uero est animae tinea, quae cogitationum tabes, pectoris  <lb/>
+            quanta rubigo zelare in altero uel uirtutem eius uel felicitatem <lb/>
+            id est odisse in eo uel merita propria uel beneficia diuina, <lb/>
+            in malum proprium bona aliena conuertere, inlustrium prosperitate <lb n="20"/>
+            torqueri, aliorum gloriam facere suam poenam, uelut quosdam <lb/>
+            pectori suo admouere carnifices, cogitationibus et sensibus <lb/>
+            suis adhibere tortores qui se intestinis cruciatibus lacerent, qui <lb/>
+            cordis secreta maliuolentiae ungulis pulsent. non cibus talibus <lb/>
+             laetus, non potus potest esse iocundus. suspiratur semper et <lb n="25"/>
+            ingemescitur et doletur, dumque ab inuidis numquam liuor exponitur, <lb/>
+            diebus ac noctibus pectus obsessum sine intermissione <lb/>
+            laniatur. mala cetera habent terminum et quodcumque
+
+<app> 1 auaritiae <hi>M</hi> 2 suo non potest] non uult suo D 3 auctiorem] al- <lb/>
+            <hi>tiorem v, auctoremD</hi> 4 zeli D <hi>sensos Dl 5 redigentem WD</hi> <lb/>
+            6 inflatur s. <hi>exacerbatur WMB; cf. de mort. p. 299,18</hi> 8 peruescitD <lb/>
+            se iam <hi>ex</hi> etiam <hi>Dm. 1</hi> potest iam <hi>v,</hi> iam non potest <hi>W*</hi> cohibere <lb/>
+            se <hi>D1</hi> uel] nec <hi>v</hi> 9 potestati <hi>B</hi> 10 hinc <hi>(ante</hi> car.) <hi>om. B</hi> 11 haeresis <lb/>
+            <hi>D</hi> 14 pferre <hi>B</hi> recalcitat <hi>W</hi> 16 inimicus est <hi>D</hi> 17 est] <lb/>
+            et <hi>D</hi> tinia quae <hi>B,</hi> tinaniaq. D, iniquae <hi>M in ras</hi>. pectoris <hi>ex</hi> peccatoris <lb/>
+            <hi>Mm.2</hi> 18 robigo <hi>MlB,</hi> est robigo animae M* 19 benificia <hi>D <lb/>
+            21 et nelnt D'v 22 cogitationi Wx</hi> 23 crucitatibusD 25 poteat potus <lb/>
+            <hi>B</hi> iucundus <hi>Bv</hi> 26 inuidiis <hi>B</hi> 27 obsessum pectus <hi>D</hi> </app> <lb/>
+
+
+<pb n="424"/>
+            delinquitur delicti consummatione finitur. in adultero cessat <choice n="0.20"><note n="114">facimus</note><corr n="454">facinus</corr></choice> <lb/>
+            perpetrato stupro, in latrone conquiescit scelus homicidio admisso <lb/>
+            et praedoni rapacitatem statuit possessa praeda et falsario <lb/>
+            modum ponit impleta fallacia. zelus terminum non habet, permanens <lb/>
+            iugiter malum et sine fine peccatum, quantoque ille cui<lb n="5"/>
+            inuidetur successu meliore profecerit tanto inuidus in maius incendium <lb/>
+            liuoris ignibus inardescit. 
+</p>
+          </div1>
+
+<div1 n="8" subtype="section"><head>§ 8</head>
+<p> Hinc uultus minax, toruus aspectus, pallor in facie, in labiis <lb/>
+            tremor, stridor in dentibus, uerba rabida, effrenata conuicia, <lb/>
+            manus ad caedis uiolentiam prompta, etiamsi a gladio interim<lb n="10"/>
+            uacua, odio tamen furiatae mentis armata. et idcirco Spiritus <lb/>
+            sanctus dicit in psalmis: noli zelare bene ambulantem <lb/>
+            in uia sua. <sic>etiterum</sic>: obseruabit peccator iustum et <lb/>
+            stridet ad eum dentes suos. Deus autem inridebit <lb/>
+            eum, quoniam prouidet quia ueniet dies eius. hos <lb n="15"/>
+            beatus apostolus Paulus designat et denotat dicens: uenenum <lb/>
+            aspidum sub labiis eorum et os eorum maledicto <lb/>
+            et amaritudine plenum est. ueloces ad effundendum <lb/>
+            sanguinem pedes eorum, contritio et calamitas in <lb/>
+            uiis eorum, qui uiam pacis non agnouerunt, nec est. <lb n="20"/>
+            timor Dei ante oculos eorum. 
+</p>
+          </div1>
+
+<div1 n="9" subtype="section"><head>§ 9</head>
+<p> Multo malum leuius et periculum minus est cum membra <lb/>
+            gladio uulnerantur. facilis cura est ubi plaga perspicua est, et <lb/>
+            cito ad sanitatem medella subueniente perducitur quod uidetur. <lb/>
+            zeli uulnera abstrusa sunt et occulta, nec remedium curae
+
+<app> 12 Ps. 36, 7.12.13. 16 Rom. 3, 13 sq. </app>
+
+<app> 3 praedonis <hi>MBD*,</hi> praedones <hi>D*</hi> praeda possessa v 4 zelus autem <lb/>
+            D* <hi>et permanens D 6 in W 8.1. m. 2 9 rapida M et infrenata ex</hi> <lb/>
+            et frenata <hi>M m. 2</hi> 10 caedes et ad <hi>M sed</hi> et ad s. <hi>I. m. 2</hi> promptae <lb/>
+            <hi>DM1</hi> etsi <hi>B</hi> a <hi>om. M</hi> 11 uacuae <hi>D</hi> furiosae mentes armatae <hi>D</hi> <lb/>
+            12 dicit sps sce <hi>M</hi> ambulantes <hi>M</hi> (s <hi>s. l. m. 2)</hi> 13 obseruauit <hi>M</hi> <lb/>
+            14 stridet <hi>WDMBV,</hi> stridebit <hi>v</hi> dentes suos <hi>WDMV,</hi> dentibus suis <lb/>
+            <hi>Bv</hi> 16 et notat <hi>D, om. M</hi> 17 aspidum <hi>om. B</hi> et 08 eorum] quorum <lb/>
+            os <hi>DM</hi> maledicto <hi>WBV,</hi> maledictione <hi>DMv</hi> 19 pedes eorum <lb/>
+            ad effundendum sanguinem <hi>DM</hi> contribulatio <hi>BY</hi> calamitas] infelicitas <lb/>
+            <hi>DM</hi> in <hi>M 8. I. m.2</hi> 20 qui <hi>W,</hi> quia <hi>DB,</hi> et <hi>M</hi> cognouerunt <lb/>
+            <hi>M</hi> nec] non <hi>M</hi> est] et <hi>W</hi> 23 facilior <hi>M</hi> 24 perducitur <hi>WDMBY,</hi> <lb/>
+            perducitur uulnus <hi>v</hi> 25 zeli autem D2 oculta <hi>D</hi> medentes <hi>Dl</hi> </app> <lb n="25"/>
+
+
+<pb n="425"/>
+            medentis admittunt quae se intra conscientiae latebram caeco dolore <lb/>
+            cluserunt. quicumque es inuidus et malignus , uideris quam sis <lb/>
+            eis quos odisti insidiosus, perniciosus, infestus. nullius magis <lb/>
+            quam tuae salutis inimicus es. quisque ille est quem zelo persequeris <lb/>
+            subterfugere et uitare te poterit. tu te non potes fugere. <lb n="5"/>
+            ubicumque fueris, aduersarius tuus tecum est, hostis semper in <lb/>
+            pectore est, pernicies intus inclusa est, ineluctabili catenarum <lb/>
+            nexu ligatus et uinctus es, zelo dominante captiuus es, nec solacia <lb/>
+            tibi ulla subueniunt. perseuerans malum est hominem persequi <lb/>
+            ad Dei gratiam pertinentem, calamitas sine remedio est <lb n="10"/>
+            odisse felicem. 
+</p>
+          </div1>
+
+<div1 n="10" subtype="section"><head>§ 10</head>
+<p>Et idcirco, fratres dilectissimi, huic periculo consulens Dominus  <lb/>
+            ne quis zelo fratris in laqueum mortis incurreret, cum eum <lb/>
+            discipuli interrogarent quis inter illos maior esset, qui fuerit, <lb/>
+             inquit, minimus in omnibus uobis hic erit magnus. <lb n="15"/>
+            amputauit omnem aemulationem responso suo, omnem causam <lb/>
+            et materiam mordacis inuidiae eruit et abscidit. discipulo Christi <lb/>
+            zelare non licet, non licet inuidere. exaltationis aput nos non <lb/>
+            potest esse contentio. de humilitate ad summa crescimus, didicimus <lb/>
+             unde placeamus. denique et apostolus Paulus instruens <lb n="20"/>
+            et monens, ut qui inluminati Christi lumine tenebras nocturnae <lb/>
+            conuersationis euasimus in factis adque in operibus luminis ambulemus, <lb/>
+            scribit et dicit: nox transiuit, dies autem adpropinquauit. <lb/>
+            abiciamus ergo opera tenebrarum et induamus <lb/>
+             arma lucis. tamquam in die decenter <choice><note>ambnlemus</note><corr>ambulemus</corr></choice>, <lb n="25"/>
+            non in comisationibus et ebrietatibus,
+
+<app> 14 Luc. 9, 48. 23 Rom. 13,12 sq. </app>
+
+<app> <hi>1 latebras DMv</hi> 2 clauserunt Мv quam sis <hi>corr. in quasi M m. 2</hi> <lb/>
+            3 in eos <hi>D</hi> perniciosus <hi>om. D</hi> et infestus <hi>D</hi> 4 quisquis v 5 tu te <lb/>
+            autem <hi>D2</hi> fugere et uitare <hi>M</hi> 7 pectore <hi>WDMV,</hi> pectore tuo <hi>Bv</hi> <lb/>
+            8 legatus <hi>Ml</hi> 9 peruerans <hi>Dx</hi> 14 inter illos] eorum <hi>B</hi> esset respondit <lb/>
+            <hi>D</hi> 15 in <hi>om. D;</hi> in omnibus uobis <hi>om. V</hi> 17 inuidiae mordacis M <lb/>
+            18 exultationis <hi>M</hi> 19 contemptio <hi>B</hi> dicimus Wl 20 et om. <hi>DM</hi> <lb/>
+            21 christi sumus M3 22 operimus Wl 23 nox inquit <hi>M</hi> transibit <lb/>
+            <hi>D</hi> autem <hi>om. D</hi> adpropinquabit <hi>DM*</hi> 24 ergo] a nobis <hi>D,</hi> ergo <lb/>
+            a nobis <hi>M</hi> 25 diem <hi>W</hi> decenter honeste <hi>B</hi> 26 comisationibus <lb/>
+            <hi>DMIV,</hi> comessationibus <hi>WM7Bv</hi> et] et in <hi>WB</hi> </app> <lb/>
+
+
+<pb n="426"/>
+            non in concupiscentiis et impudicitiis, non in <sic>certaminibusetzelo</sic>. <lb/>
+            si recesserunt de pectore tuo tenebrae, <lb/>
+            si nox inde discussa est, si caligo detersa est, si luminauit sensus <lb/>
+            tuos splendor diei, si homo lucis esse coepisti, quae sunt <lb/>
+            Christi gere, quia lux et dies Christus est. <lb n="5"/>
+            
+</p>
+          </div1>
+
+<div1 n="11" subtype="section"><head>§ 11</head>
+<p> Quid in zeli tenebras ruis, quid te nubilo liuoris inuoluis, <lb/>
+            quid inuidiae caecitate omne pacis et caritatis lumen extinguis, <lb/>
+            quid ad diabolum cui renuntiaueras redis, quid Cain similis <lb/>
+            existis? homicidii namque facinore constringi eum quisque zelauerit <lb/>
+            et odio habuerit fratrem suum declarat Iohannes apostolus<lb n="10"/>
+            in epistula sua dicens: qui fratrem suum odit homicida <lb/>
+            est: et scitis quia omnis homicida non habet in se <lb/>
+            uitam manentem. <sic>etiterum</sic>: qui dicit se in luce esse <lb/>
+            et fratrem suum odit in tenebris est usque adhuc <lb/>
+            et in tenebris ambulat et non scit quo eat, quoniam<lb n="15"/>
+            tenebrae excaecauerunt oculos eius. qui odit, <lb/>
+            inquit, fratrem suum in tenebris ambulat et non scit quo eat. <lb/>
+            it enim nescius in gehennam, ignarus et caecus praecipitatur in <lb/>
+            poenam, recedens scilicet a Christi lumine monentis et dicentis: <lb/>
+            ego sum lumen mundi. qui me secutus fuerit non <lb n="20"/>
+            ambulabit in tenebris, sed habebit lumen uitae. <lb/>
+            sequitur autem Christum qui praeceptis eius insistit, qui per <lb/>
+            magisterii eius uiam graditur, qui uestigia eius adque itinera <lb/>
+            sectatur, qui id quod Christus et docuit et fecit imitatur secundum <lb/>
+            quod Petrus quoque hortatur et monet dicens: Christus <lb n="25"/>
+            passus est pro uobis relinquens uobis exemplum, <lb/>
+            ut sequamini uestigia eius.
+
+<app> 11 Io. 3,15. 13 Io. 2, 9. 11. 20 Io. 8,12. 25 I Petro 2, 21. </app>
+
+<app> 1 et inpudititiis <hi>D 8.1. m. 2</hi> 3 <hi>alterum</hi> est <hi>om. B</hi> ilhuninauit <lb/>
+            <hi>DlM217</hi> 6 te <hi>ex</hi> de <hi>W m. 2</hi> 8 quid c. s. existis <hi>om. D</hi> 9 homicidi <lb/>
+            <hi>D'B facinoris D quisquis M2v, qui Do 11 odit om. B</hi> 12 scietis <lb/>
+            <hi>D</hi> 13 manentem] aeternam <hi>M,</hi> aeternam in se manentem <hi>B lucemJ</hi>? <lb/>
+            14 odit] <hi>add. M:</hi> homicida est et usque adhuc est <hi>M</hi> 15 tenebris <lb/>
+            est <hi>Dl</hi> nescit <hi>B</hi> 18 <hi>super</hi> iit enim <hi>W m. 2</hi> itineris in gehennam <lb/>
+            iiescius <hi>M</hi> in poenam <hi>ex</hi> poena <hi>D m. 2</hi> 20 lumen] loi <hi>D; cf. test. II7<lb/>
+             p. 72</hi> 21 ambulauit <hi>DM1</hi> 24 qui quod <hi>DMl,</hi> quid quod Ml et <lb/>
+            christus-D1 et <hi>(ante</hi> doc.) <hi>om. M</hi> fecit et docuit <hi>v</hi> 26 uobis <hi>WDMBY,</hi> <lb/>
+            nobis <hi>v; cf. test. III39, de bono pat. c. 9</hi> uobis] nobis <hi>v</hi> </app>
+
+<pb n="427"/>
+            
+</p>
+          </div1>
+
+<div1 n="12" subtype="section"><head>§ 12</head>
+<p>Meminisse debemus quo uocabulo plebem suam Christus appellet,  <lb/>
+            quo titulo gregem suum nuncupet. oues nominat, ut innocentia <lb/>
+            christiana ouibus aequetur: agnos uocat, ut agnorum <lb/>
+            naturam simplicem simplicitas mentis imitetur. quid sub uestitu <lb/>
+             ouium lupus latitat, quid gregem Christi qui christianum se <lb n="5"/>
+            mentitur infamat? Christi nomen induere et non per Christi <lb/>
+            uiam pergere quid aliud quam praeuaricatio est diuini nominis, <lb/>
+            quam desertio itineris salutaris ? quando ipse doceat et dicat eum <lb/>
+            ad uitam uenire qui mandata seruauerit et eum esse sapientem <lb/>
+             qui uerba eius audierit et fecerit, doctorem quoque eum maximum <lb n="10"/>
+            in regno caelorum uocari qui docuerit et sic fecerit, tunc <lb/>
+            praedicanti profuturum quod bene adque utiliter praedicatum <lb/>
+            fuerit, si id quod ore promitur factis sequentibus inpleatur. <lb/>
+            quid uero insinuauit crebrius discipulis suis Dominus, quid inter <lb/>
+            monita salutaria et praecepta caelestia custodiendum magis seruandumque <lb n="15"/>
+            mandauit quam ut eadem dilectione qua discipulos <lb/>
+            ipse dilexit nos quoque inuicem diligamus? quomodo autem uel <lb/>
+            pacem Domini uel caritatem tenet qui intercedente zelo nec pacificus <lb/>
+            potest esse nec carus? 
+</p>
+          </div1>
+
+<div1 n="13" subtype="section"><head>§ 13</head>
+<p>Ideo et apostolus Paulus cum pacis et caritatis merita depromeret  <lb n="20"/>
+            cumque adseueraret firmiter et doceret nec fidem sibi nec <lb/>
+            eleemosynas nec passionem quoque ipsam confessoris et martyris <lb/>
+            profuturam, nisi caritatis foedera integra adque inuiolata <choice><note>sernasset</note><corr>seruasset</corr></choice>, <lb/>
+            adiecit et dixit: caritas magnanima est, caritas <lb/>
+             benigna est, caritas non zelat, docens scilicet et ostendens <lb n="25"/>
+            eum posse caritatem tenere quisque magnanimus fuerit et <lb/>
+            benignus et zeli ac liuoris alienus. item alio loco cum moneret <lb/>
+            ut homo iam sancto Spiritu plenus et natiuitate caelesti Dei
+
+<app> 24 I Cor. 13,4. </app>
+
+<app> 2 nominet <hi>W</hi> 4 simplitas <hi>W</hi> uestito <hi>D</hi> 5 quid] qui <hi>Ml</hi> se <lb/>
+            christianum <hi>v,</hi> ch. se esse <hi>B</hi> 6 christi... pergere <hi>om. D</hi> 10 eum <hi>om. W</hi> <lb/>
+            11 fecerit et sic docuerit <hi>WDMB: ein. Vahlen</hi> 12 praedicanti tunc <hi>B</hi> <lb/>
+            13 quodquod <hi>D1</hi> 15 salutaria monita <hi>v</hi> seruandum quae <hi>WD</hi> 17 nos <lb/>
+            quoque nos <hi>W,</hi> nos <hi>D</hi> 18 intercidente <hi>Dl</hi> 20 et <hi>om. M</hi> caritatis et <lb/>
+            pacis <hi>M</hi> 21 adseueret <hi>Dx</hi> 22 elimosinas <hi>D</hi> confessionis <hi>D</hi> martyrii <lb/>
+            <hi>D,</hi> martyriis <hi>B</hi> 24 adicit et dicit <hi>D</hi> magnanimis <hi>B</hi> caritas <lb/>
+            benigna est om. <hi>B</hi> 25 zelat] aemuletur <hi>D</hi> 26 quisquis <hi>v</hi> magnanimis <lb/>
+            jB 27 ac] et D a zelo ac liuore <hi>v</hi> </app> <lb/>
+
+
+<pb n="428"/>
+            filius factus non nisi spiritalia et diuina sectetur, ponit et dicit: <lb/>
+            et ego quidem, fratres, non potui uobis loqui quasi <lb/>
+            spiritalibus sed quasi carnalibus, quasi infantibus <lb/>
+            <sic>inChristo</sic>. lacte uos potaui, non cibo. nondum enim <lb/>
+            poteratis, sed neque nunc potestis. adhuc enim<lb n="5"/>
+            estis carnales. ubi enim in uobis zelus et contentio <lb/>
+            et dissensiones, nonne carnales estis et secundum <lb/>
+            hominem ambulatis? 
+</p>
+          </div1>
+
+<div1 n="14" subtype="section"><head>§ 14</head>
+<p> Obterenda sunt, fratres dilectissimi, uitia et peccata carnalia <lb/>
+            et terreni corporis infesta labes spiritali uigore calcanda, ne dum<lb n="10"/>
+            iterum ad ueteris hominis conuersationem reuoluimur letalibus <lb/>
+            laqueis inplicemur, apostolo hoc idem prouidenter et salubriter <lb/>
+            praemonente. itaque, inquit, fratres, non secundum carnem <lb/>
+            uiuamus. si enim secundum carnem uiuitis, <lb/>
+            incipietis mori: si autem spiritu opera carnis mortificatis,<lb n="15"/>
+            uiuetis. quotquot enim spiritu Dei aguntur <lb/>
+            hi sunt filii Dei. si filii Dei sumus, si templa eius esse <lb/>
+            iam coepimus, si accepto Spiritu sancto sancte et spiritaliter <lb/>
+            uiuimus, si de terris oculos ad caelum sustulimus, si ad superna <lb/>
+            et diuina plenum Deo et Christo pectus ereximus, non<lb n="20"/>
+            nisi quae sunt Deo et Christo digna faciamus, sicut apostolus <lb/>
+            excitat et hortatur. si consurrexistis, inquit, Christo, <lb/>
+            quae sursum sunt quaerite, ubi Christus est in dextera <lb/>
+            Dei sedens: quae sursum sunt sapite, non quae <lb/>
+            terrena sunt. mortui enim estis, et uita uestra
+
+<app> 2 I Cor. 3, 1 sq. 13 Rom. 8, 12 sq. 22 CoL 3,1 sq. </app>
+
+<app> 3 infantibus] instantibus <hi>B</hi> 4 lacte uobis <hi>B,</hi> lac uobis <hi>v</hi> potum <lb/>
+            dedi non escam (cibum <hi>v) Mv; cf. test. III3 p. 115</hi> 5 nunc quidem <hi>M</hi> <lb/>
+            6 ubi] cum <hi>D</hi> in uobis] sit inter uos <hi>D</hi> contemptio <hi>B</hi> 7 dissensiones <lb/>
+            sunt <hi>v</hi> 9 obterenda] obseruanda <hi>D,</hi> temperanda <hi>M,</hi> obtemperanda <lb/>
+            <hi>Morellius</hi> peccata <hi>om. D'</hi> 10 et***de terreni <hi>M</hi> infesta labe <hi>ex</hi> infestas <lb/>
+            labes <hi>M m. 2</hi> necdum <hi>M1</hi> 12 inplecemur <hi>D</hi> apostolos <hi>M</hi> <lb/>
+            idem) quidem <hi>D</hi> prouidente <hi>B</hi> 13 praemonet <hi>M</hi> fratres <hi>OWl. B</hi> <lb/>
+            14 uiuitis <hi>WDV,</hi> uiuatis <hi>B,</hi> uiieritis <hi>v</hi> 15 mortificatis <hi>WBV,-..cetis<lb/>
+             D, ...caueritis v 16 quodquod D</hi> 17 <hi>hii WB</hi> filii dei sunt 0 <lb/>
+            eius] dei <hi>D '</hi> 18 et <hi>M 8. 1. m. 2</hi> 19 uiuamus <hi>D1</hi> si ad] si at <hi>D</hi> 20 et <lb/>
+            erezimus <hi>D</hi> 21 sicut et v 22 christo <hi>WDl V,</hi> cum christo <hi>МD2Bv; <lb/>
+            cf. fest. III 11 p. 124</hi> 24 sedet <hi>D</hi> susum Wl 25 terrena sunt <lb/>
+            <hi>WDMBV,</hi> super terram v </app> <lb n="25"/>
+
+
+<pb n="429"/>
+            abscondita est cum Christo in Deo. cum Christus apparuerit <lb/>
+            uita uestra, tunc et uos apparebitis [cum <lb/>
+            eo] <sic>fti</sic> gloria. qui ergo in baptismo secundum hominis antiqui <lb/>
+            peccata carnalia et mortui et sepulti sumus, qui regeneratione <lb/>
+            caelesti Christo consurreximus, quae sunt Christi et cogitemus <lb n="5"/>
+            pariter et geramus, sicut idem apostolus docet rursus et monet <lb/>
+            dicens: primus homo de terrae limo, secundus homo <lb/>
+            de caelo. qualis ille e limo, tales et qui de limo: <lb/>
+            et qualis caelestis, tales et caelestes. quomodo portauimus <lb/>
+             imaginem eius qui de limo est, portemus <lb n="10"/>
+            et imaginem eius qui de caelo est. imaginem autem <lb/>
+            caelestem portare non possumus, nisi in eo quod esse nunc coepimus <lb/>
+            Christi similitudinem praebeamus. 
+</p>
+          </div1>
+
+<div1 n="15" subtype="section"><head>§ 15</head>
+<p>Hoc est enim mutasse quod fueras et coepisse esse quod non  <lb/>
+             eras, ut in te diuina natiuitas luceat, ut ad patrem Deum deifica <lb n="15"/>
+            disciplina respondeat, ut honore et laude uiuendi Deus in homine <lb/>
+            clarescat ipso exhortante et monente et eis qui se clarificant <lb/>
+            uicem mutuam pollicente. eos, inquit, qui clarificant me <lb/>
+            clarificabo, et qui spernit me spernetur. ad quam <lb/>
+            <sic>clariifcationem</sic> formans nos ac praeparans Dominus et filius <lb n="20"/>
+            Dei similitudinem Dei patris insinuans in euangelio suo dicit: <lb/>
+            audistis quia dictum est: diliges proximum tibi et <lb/>
+            odibis inimicum tibi. ego autem dico uobis: diligite <lb/>
+            inimicos uestros et orate pro his qui uos
+
+<app> 7 I Cor. 15, 47 sq. 18 I Sam. 2, 30. 22 Matth. 5,43 sq. </app>
+
+<app> 1 in deo <hi>om. D</hi> cum autem <hi>MBv</hi> 2 apparebitis cum eo (ipso v) <lb/>
+            <hi>WDVv,</hi> cum eo app. <hi>MB; cf. test. l. c</hi>. 3 gloria sempiterna <hi>SP</hi> <lb/>
+            in om. M' 4 et mortui] emortui <hi>W</hi> regenerationi <hi>D</hi> 5 et <hi>W,</hi> <lb/>
+            haec <hi>D, om. MB</hi> 6 idem om. <hi>M</hi> rusus monet et docet <hi>M</hi> <lb/>
+            7 dicens <hi>ex</hi> docens <hi>W</hi> terra e <hi>limo D,</hi> terra terrenus <hi>M</hi> 8 e caelo <hi>D,</hi> <lb/>
+            de caelo caelestis <hi>M</hi> ille <hi>om. M</hi> e limo <hi>WDB,</hi> de 1. <hi>v,</hi> terrenus <hi>M; cf. <lb/>
+             test. III 11 p. 123</hi> talis <hi>D</hi> qui de limo] terreni <hi>M</hi> 9 talis <hi>D</hi> <lb/>
+            10 de] e <hi>D</hi> ita portemus <hi>D</hi> 11 de] e <hi>D</hi> 12 nunc] iam <hi>Mv</hi> 15 ad <lb/>
+            <hi>om. D</hi> 17 hortante <hi>D</hi> clarificent <hi>MB</hi> 18 uicem] lucem <hi>M</hi> pollicentem <lb/>
+            <hi>DMB</hi> 19 spernitur <hi>D; cf. de dom. orat. c. 11</hi> 20 praoparans] <lb/>
+            corroborans <hi>W</hi> filiis <hi>D</hi> 21 dei <hi>(ante</hi> patris) <hi>om. B</hi> 22 Aaudistis <lb/>
+            <hi>W</hi> diligis <hi>D</hi> 23 odibis <hi>WB,</hi> odies <hi>ex</hi> odiis <hi>M,</hi> odio habebis <hi>Dv; cf. <lb/>
+            de bono pat. c. 5</hi> 24 his] eis <hi>M</hi> persequentur <hi>Ml</hi> </app> <lb/>
+
+
+<pb n="430"/>
+            persecuntur, ut sitis similes patris uestri qui in caelis <lb/>
+            est, qui solem suum oriri facit super bonos et mal'os <lb/>
+            et pluit super iustos et iniustos. si <choice><note>hominibtfe</note><corr>hominibus</corr></choice> laetum <lb/>
+            est et gloriosum filios habere consimiles et tunc magis generasse <lb/>
+            delectat, si ad patrem liniamentis paribus suboles subsiciua <lb n="5"/>
+            respondeat, quanto maior in Deo patre laetitia est, cum <lb/>
+            quis sic spiritaliter nascitur, ut in actibus eius et laudibus diuina <lb/>
+            generositas praedicetur. quae iustitiae palma est, quae <lb/>
+            corona esse te talem, de quo Deus non dicat: filios generaui' <lb/>
+            et exaltaui, ipsi autem me spreuerunt. conlaudet te <lb n="10"/>
+            potius Christus et inuitet ad praemium dicens: uenite, benedicti <lb/>
+            patris mei, percipite regnum quod uobis paratum <lb/>
+            est ab origine mundi. 
+</p>
+          </div1>
+
+<div1 n="16" subtype="section"><head>§ 16</head>
+<p> His meditationibus conroborandus est animus, fratres dilectissimi, <lb/>
+            eiusmodi exercitationibus contra omnia diaboli iacula <lb n="15"/>
+            firmandus. sit in manibus diuina lectio, in sensibus dominica <lb/>
+            cogitatio, oratio iugis omnino non cesset, salutaris operatio perseueret. <lb/>
+            spiritalibus semper actibus occupemur, ut quotienscumque <lb/>
+            inimicus accesserit, quotiens adire temptauerit, et clausum <lb/>
+            aduersum se pectus <sic>inueniateet</sic> armatum. non enim christiani<lb n="20"/>
+            hominis corona una est quae tempore persecutionis accipitur. <lb/>
+            habet et pax coronas suas, quibus de uaria et multiplici congressione <lb/>
+            uictores prostrato et subacto aduersario coronamur. <lb/>
+            libidinem subegisse continentiae palma est. contra iram, contra <lb/>
+            iniuriam repugnasse corona patientiae est. de auaritia triumphus
+
+<app> 9 Es. 1, 2. 11 Matth. 25, 34. </app>
+
+<app> 1 simelis <hi>D,</hi> filii <hi>v; cf. test. III 49</hi> patri uro <hi>M</hi> 2 supra <hi>D</hi> <lb/>
+            5 patrumilf1 <hi>paria M</hi> soboles <hi>Wv, soboli. M subseciua M1,</hi> subcisiua <lb/>
+            <hi>uel successiua v</hi> 6 respondeant <hi>M</hi> 7 quis sic] quitsi <hi>D,</hi> quis <lb/>
+            <hi>M</hi> 8 institia et <hi>B</hi> ! 9 corona est <hi>MB</hi> te <hi>WD,</hi> se <hi>Baluzius, o-m. <lb/>
+            MB</hi> genui <hi>D</hi> 10 spreuerunt me <hi>v</hi> sed collaudet <hi>v</hi> 11 et inuitet <lb/>
+            <hi>christus D 12 patres D</hi> percipite] possideteD <hi>15 et eiusmodi M</hi> <lb/>
+            exercitationibua] <hi>generationibus D</hi> 16 in manibus] in <hi>animo M,</hi> ante <lb/>
+            oculos <hi>v</hi> lectio] <hi>add. v:</hi> in manibus bona operatio dominica] diuina <lb/>
+            <hi>M</hi> 18 actibus semper <hi>D</hi> quotiescamque-quoties <hi>Wv</hi> 19 et] <lb/>
+            nt <hi>D, om. M</hi> 20 aduersum] contra <hi>B</hi> 21 homines D sola corona <lb/>
+            est <hi>M sed</hi> sola <hi>8. I. m. 2</hi> 23 coronantur <hi>Baluzius</hi> 24 libidine D <lb/>
+            est <hi>om. D</hi> </app> <lb n="25"/>
+
+
+<pb n="431"/>
+            est pecuniam spernere. laus est fidei fiducia futurorum mundi <lb/>
+            aduersa tolerare. et qui superbus in prosperis non est gloriam <lb/>
+            de humilitate consequitur. et qui ad pauperum fouendorum misericordiam <lb/>
+            pronus est retributionem thesauri caelestis adipiscitur. <lb/>
+            et qui zelare non nouit quique unanimis et mitis fratres <lb n="5"/>
+            suos diligit dilectionis et pacis praemio honoratur. in hoc uirtutum <lb/>
+            stadio cotidie currimus, ad has iustitiae palmas et coronas <lb/>
+            sine intermissione temporis peruenimus. 
+</p>
+          </div1>
+
+<div1 n="17" subtype="section"><head>§ 17</head>
+<p>Ad quas ut peruenire tu etiam possis qui fueras zelo et liuore  <lb/>
+             possessus, omnem illam malitiam qua prius tenebaris abice, ad <lb n="10"/>
+            uiam uitae aeternae uestigiis salutaribus reformare. euelle de <lb/>
+            pectore tuo spinas et tribulos, ut te dominicum semen fertili <lb/>
+            fruge locupletet, ut diuina et spiritalis seges in copiam fecundae <lb/>
+            messis exuberet. uenena fellis euome, discordiarum uirus exclude, <lb/>
+             purgetur mens quam serpentinus liuor infecerat, amaritudo <lb n="15"/>
+            omnis quae intus insederat Christi dulcedine leniatur. de <lb/>
+            sacramento crucis et cibum sumis et potum, lignum quod aput <lb/>
+            Merrham profecit in imagine ad saporis dulcedinem tibi in ueritate <lb/>
+            proficiat ad mulcendi pectoris lenitatem, nec ad medellam <lb/>
+             prosperandae ualitudinis laborabis. unde uulneratus fueras inde <lb n="20"/>
+            curare. ama eos quos ante oderas, dilige illos quibus iniustis <lb/>
+            obtrectationibus <choice><note>inuidebus</note><corr>inuidebas</corr></choice>. bonos imitare, si sectari potes: si <lb/>
+            sectari non potes, conlaetare certe et gratulare melioribus. fac te <lb/>
+            illis adunata dilectione participem, fac te consortio caritatis et <lb/>
+            <choice><note>frateraitatis</note><corr>fraternitatis</corr></choice> uinculo coheredem. dimittentur tibi debita, quando <lb n="25"/>
+            ipse dimiseris: accipientur sacrificia tua, cum pacificus ad Deum
+
+<app> 1 et pecunias <hi>D</hi> fidei <hi>om. M;</hi> fidei fiducia est <hi>D s. 1</hi>. futurorum <lb/>
+            bonorum <hi>B</hi> 2 qui] <hi>quisquis D</hi> 3 <hi>misericordia WD</hi> 5 et <hi>om.D <lb/>
+            unammes et mitesDM* 7 has om. D 9 tu etiam om. D</hi> 14 praeoordiarum <lb/>
+            <hi>M</hi> 16 sederat W', mfecerat D <hi>dulcedene D de DMBV,</hi> si de <lb/>
+            <hi>Wv</hi> 18 merram <hi>WDV,</hi> myrram <hi>M,</hi> mirrham <hi>uel</hi> mars <hi>v</hi> proficit MB <lb/>
+            <hi>imaginem B</hi> soporis dulcedineZ) <hi>ueritatem D 19 mulgendi M</hi> <lb/>
+            20 ualetudinis <hi>Mv</hi> labores <hi>D,</hi> laboris <hi>W sed in margine</hi> laborabis <lb/>
+            21 illos] eos <hi>WD</hi> 22 si sectari potes <hi>om. D,</hi> sectare si potes <hi>M</hi> si sectari <lb/>
+            non <hi>WDBV,</hi> si autem sectari non <hi>v,</hi> si non M 23 gratulare <hi>WDMB V,</hi> <lb/>
+            congr. <hi>v</hi> 24 adunandi D te] te eis <hi>M</hi> et <hi>om. D</hi> 25 coheredem] <lb/>
+            cohaerentem <hi>v</hi> demittentur <hi>D</hi> debita] delicta <hi>V</hi> 26 et ipse <hi>DBv,</hi> tu <lb/>
+            ipse <hi>v</hi> demiseris <hi>D</hi> accipiuntur <hi>B</hi> dominum <hi>V</hi> </app> <lb/>
+
+
+<pb n="432"/>
+            ueneris. sensus adque actus tui diuinitus dirigentur, quando <lb/>
+            ea quae diuina et iusta sunt cogitaueris, sicut scriptum est: <lb/>
+            cor uiri cogitet iusta, ut a Deo dirigantur gressus <lb/>
+            eius. 
+</p>
+          </div1>
+
+<div1 n="18" subtype="section"><head>§ 18</head>
+<p rend="script"> Habes autem multa quae cogites. paradisum cogita, quo Cain<lb n="5"/>
+            non redit qui zelo fratrem peremit. cogita caeleste regnum, ad <lb/>
+            quod non nisi concordes adque unanimes Dominus admittit. <sic n="poss">00gita</sic> <lb/>
+            quod filii Dei hi soli possint uocari qui sint pacifici, qui natiuitate <lb/>
+            et lege diuina ad similitudinem Dei patris et Christi <lb/>
+            respondeant adunati. cogita sub oculis nos Dei stare, spectante <lb n="10"/>
+            ac iudicante ipso conuersationis ac uitae nostrae curricula decurrere, <lb/>
+            peruenire nos tunc demum posse, ut eum uidere contingat, <lb/>
+            si ipsum nunc uidentem delectemus actibus nostris, si <lb/>
+            nos dignos gratiae eius et indulgentiae praebeamus, si placituri <lb/>
+            semper in regno in <choice><note>boc</note><corr>hoc</corr></choice> mundo ante placeamus.
+
+<app> 3 Prou. 16, 1. </app>
+
+<app> 1 dirigantur <hi>B</hi> 2 sunt et iusta <hi>D</hi> 3 cogitat <hi>B</hi> dno v 5 in <lb/>
+            quo <hi>D</hi> 6 redit] <hi>ingreditur BaXuzius</hi> fratrem zelo <hi>D</hi> 7 non om. <hi>W</hi> <lb/>
+            concordes adque <hi>om. B</hi> 8 fili <hi>WlDl</hi> hii <hi>MB</hi> uooari] esse <hi>D</hi> qui <lb/>
+            sunt <hi>M, om. D</hi> pacifeci <hi>D</hi> natiuitate caelesti <hi>Dv</hi> 10 ocnloB <hi>B</hi> <lb/>
+            dei nos stare <hi>Mv,</hi> dei stare nos <hi>B</hi> (stare <hi>expungendum uitktur)</hi> 13 prius <lb/>
+            si <hi>om. D</hi> 14 gratia <hi>DBfJ</hi> et indnlgentiae <hi>M 8. 1. m. 2,</hi> et indulgentia <lb/>
+            <hi>DBv</hi> praebehamus <hi>D1</hi> si <hi>corr. in</hi> sic <hi>Mm. 2</hi> 15 si in hoc <hi>M1</hi> <lb/>
+            DE ZELO ET LITORE EXPLICIT <hi>W,</hi> EXPLICIT DE ZELO ET LEBORE <hi>C,</hi> CAECILI <lb/>
+            CTPRIAHT DE ZELO ET LITORE EXFLC <hi>MB</hi> </app> <lb n="15"/>
+
+
+<pb n="433"/>
+            
+</p>
+        
+</div1>
+</body>
+</text>
+</TEI>

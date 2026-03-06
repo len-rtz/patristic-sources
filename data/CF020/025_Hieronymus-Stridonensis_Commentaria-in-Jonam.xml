@@ -1,0 +1,2237 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Commentaria in Jonam</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 25</title>
+           <idno>HieStr.CoInJo3</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>PROLOGUS.</head>
+<p>
+          <pb n="1117B"/> <emph>387-388</emph> Triennium circiter fluxit, postquam
+quinque prophetas interpretatus sum, Michaeam, Nahum,
+Abacuc, Sophoniam, Aggaeum; et alio opere
+detentus, non potui implere quod coeperam: scripsi
+enim librum de Illustribus viris, et adversum Jovinianum
+duo volumina: apologeticum quoque, et de optimo
+genere interpretandi ad Pammachium: et ad Nepotianum,
+vel de Nepotiano duos libros, et alia quae
+enumerare longum est. Igitur tanto post tempore,
+quasi quodam postliminio a Jona interpretandi sumens
+principium, obsecro ut qui typus est Salvatoris,
+et tribus diebus ac noctibus in ventre ceti moratus,
+praefiguravit Domini resurrectionem, nobis
+quoque fervorem pristinum tribuat, ut sancti ad nos
+Spiritus mereamur adventum. Si enim <hi>Jonas</hi> interpretatur
+<pb n="1117C"/> <hi>columba,</hi> 
+ columba autem refertur ad Spiritum
+sanctum: nos quoque columbam, ex adventu
+[ <hi>Al.</hi> et adventum] ad nos interpretemur columbae.
+Scio veteres ecclesiasticos tam Graecos quam Latinos
+super hoc libro multa dixisse, et tantis quaestionibus,
+non tam aperuisse, quam obscurasse sententias; ut
+ipsa interpretatio eorum opus habeat interpretatione,
+et multo incertior lector recedat, quam fuerat antequam
+legeret. Nec hoc dico, quo magnis ingeniis
+detraham, et alios mea laude suggillem; sed quod
+<pb n="1118B"/>
+commentatoris officium sit, ut quae obscura sunt, breviter
+aperteque dilucidet, et non tam disertitudinem
+ostentet suam, quam sensum ejus quem exponit, edisserat.
+Quaerimus igitur, Jonas propheta, excepto volumine
+suo, <emph>389-390</emph> et Evangeliis [ <hi>Al.</hi> Evangelio],
+hoc est, Domini de eo testimonio, ut alibi in Scripturis
+sanctis lectus sit? Et ni fallor in Regum volumine de
+eo ita scriptum est: <hi>Anno quintodecimo Amasiae filii
+Joas, regis Juda, regnavit Jeroboam, filius Joas, regis
+Israel in Samaria quadraginta annis et uno. Fecitque
+malum coram Domino, et non recessit ab universis peccatis
+Jeroboam filii Nabath, qui peccare fecit Israel,
+Ipse convertit fines Israel in Samaria ab introitu Emath,
+usque ad mare solitudinis, juxta verbum Domini Dei
+Israel, quod locutus est in manu servi sui Jonae, filii
+<pb n="1118C"/>
+Amathi prophetae, qui fuit de Geth, quae est in Opher <note>(IV Reg. XIV 25 seqq.)</note>
+          </hi>.
+Tradunt autem Hebraei hunc
+esse filium viduae Sareptanae [ <hi>Al.</hi> Saraptenae], quem
+Elias propheta mortuum suscitavit, matre postea
+dicente ad eum: <hi>Nunc cognovi quia vir Dei es tu: et
+verbum Dei in ore tuo est veritas</hi> [Al. <hi>veritatis</hi> ]; et
+ob hanc causam etiam ipsum puerum sic vocatum. <hi>Amathi</hi> 
+ enim in nostra lingua <hi>veritatem</hi> sonat: et ex
+eo quod verum Elias locutus est, ille qui suscitatus
+est, filius esse dicitur veritatis. Porro Geth in secundo
+<pb n="1119A"/>
+Saphorim [ <hi>Al.</hi> Sapphirim] milliario, quae hodie
+appellatur Diocesaraea euntibus Tyberiadem haud
+grandis est viculus, ubi et sepulcrum ejus ostenditur.
+Quamquam alii juxta Diospolim, id est, Liddam,
+eum et natum et conditum velint: non intelligentes
+hoc quod additur, <hi>Opher,</hi> ad distinctionem aliarum
+Geth urbium pertinere, quae juxta Eleutheropolim,
+sive Diospolim, hodie quoque monstrantur. Liber
+quoque Tobiae, licet non habeatur in Canone, tamen
+quia usurpatur ab ecclesiasticis viris, tale quid memorat,
+dicente Tobia ad filium suum. <hi>Fili, ecce senui,
+et in eo sum ut revertar de vita mea: Tolle filios tuos,
+et vade in Mediam, fili: scio enim quae locutus est Jonas
+propheta de Ninive, quoniam subvertetur (Tobiae
+XIV)</hi>. Et revera quantum ad historias tam Hebraeas
+<pb n="1119B"/>
+quam Graecas pertinet, et maxime Herodotum, legimus
+Niniven, regnante apud Hebraeos Josia, et Astyage
+rege Medorum, fuisse subversam. Ex quo intelligimus
+primo tempore ad Jonae praedicationem, acta
+poenitentia, Ninivitas veniam consecutos: postea vero
+in pristinis vitiis perseverantes, Dei in se provocasse
+sententiam. Traduntque Hebraei, Osee, et Amos, et
+Isaiam ac Jonam iisdem prophetasse temporibus. Hoc
+quantum ad historiae pertinet fundamenta. Caeterum
+non ignoramus, Chromati papa venerabilis, sudoris
+<pb n="1120A"/>
+esse vel maximi totum prophetam referre ad intelligentiam
+Salvatoris: videlicet quod fugerit, quod
+dormierit, quod praecipitatus in mare sit, quod susceptus
+a ceto, quod ejectus in littus poenitentiam praedicarit, <emph>391-392</emph> 
+ quod contristatus ob salutem urbis
+innumerae, cucurbitae sit delectatus umbraculo: quod
+reprehensus a Deo cur majorem curam habuerit herbae
+virentis, et extemplo aridae, quam tantae hominum
+multitudinis, et caetera quae in ipso volumine explanare
+nitemur: et tamen, ut totum prophetae sensum
+brevi praefatione comprehendam, nullus melior typi
+sui interpres erit, quam ipse qui inspiravit prophetas,
+et futurae veritatis in servis suis lineas ante signavit.
+Loquitur ergo ad Judaeos sui sermonis incredulos,
+et Christum Dei Filium nescientes: <hi>Viri Ninivitae
+<pb n="1120B"/>
+surgent in judicio cum generatione ista, et condemnabunt
+eam, quia poenitentiam egerunt in praedicatione
+Jonae; et ecce plus quam Jonas hic <note>(Mat. IV, 41)</note>
+          </hi>.
+Condemnatur generatio Judaeorum, credente mundo:
+et Ninive agente poenitentiam, Israel incredulus perit.
+Illi habent libros, nos librorum Dominum <note>(II
+Cor. III)</note>: illi tenent prophetas, nos intelligentiam
+prophetarum: illos occidit littera, nos vivificat spiritus <note>(Joan. XVIII)</note>:
+apud illos Barabbas latro dimittitur,
+nobis Christus Dei Filius solvitur.</p>
+</div1>
+
+<div1>
+        <head>INCIPIT LIBER.</head>
+
+<pb n="1119"/>
+<p>
+          <pb n="1119D"/> <emph>391</emph> <note>(Cap. I.--Vers. 1.)</note> <hi>Et factum est verbum Domini
+ad Jonam, filium Amathi, dicens: Surge, et vade
+in Niniven civitatem magnam, et praedica in ea; quia
+ascendit malitia ejus coram me.</hi> Septuaginta, excepto
+eo quod dixerunt, <hi>ascendit clamor malitiae ejus ad
+me,</hi> caetera similiter transtulerunt. In condemnationem
+Israelis Jonas ad gentes mittitur, quod Ninive
+<pb n="1120D"/>
+agente poenitentiam, illi in malitia perseverent. Porro
+quod ait, <hi>ascendit malitia ejus coram me,</hi> sive, <hi>clamor
+malitiae ejus ad me,</hi> hoc ipsum est quod in Genesi
+dicitur: <hi>Clamor Sodomae et Gomorrhae multiplicatus
+est <note>(Gen. XVIII, 20)</note>
+          </hi>. Et ad Cain: <hi>Vox sanguinis fratris
+tui clamat ad me de terra <note>(Gen. IV, 10)</note>
+          </hi>. Juxta tropologiam
+vero Dominus noster, Jonas, hoc est, <hi>columba,</hi> 
+<pb n="1121A"/>
+sive <hi>dolens</hi> (utrumque enim interpretatur, vel quia
+Spiritus sanctus in specie columbae descendit, et
+mansit in eo <note>(Luc. XIX)</note>, vel quia nostris doluit ipse
+vulneribus, et flevit super Jerusalem, et livore ejus
+sanati sumus <note>(Isai. LIII)</note>: vere filius veritatis; Deus
+quippe veritas est), mittitur ad Niniven pulchram,
+id est, mundum, quo nihil pulchrius oculis carnis
+[ <hi>Al.</hi> carneis] aspicimus <note>(Joan. XIV)</note>. Unde et apud
+Graecos ab ornatu nomen accepit <foreign xml:lang="greek">κόσμος</foreign>: consummatisque
+operibus singulis, de eo dicit: <hi>Vidit Deus
+quia bonum est.</hi> Ad Niniven, inquam, civitatem magnam,
+ut quia Israel audire contempsit, totus gentium
+mundus exaudiat. Et hoc propterea, quia
+ascenderit malitia ejus coram Deo. Cum enim Deus
+quasi quamdam pulcherrimam <emph>392</emph> domum servituro
+<pb n="1121B"/>
+sibi homini exstruxerit, depravatus est homo
+propria voluntate, et a pueritia diligenter appositum
+est ad malum cor ejus <note>(Gen. VIII)</note>: posuitque in coelum
+os suum, et exstructa turre superbiae <note>(Gen. XI)</note>,
+meretur ad se descendentem Filium Dei, ut per
+ poenitentiae ruinam conscendat ad coelum, qui per
+tumorem superbiae [ <hi>Al.</hi> subire] non potuit.</p>
+<p divs_removed="true"> <hi>Et surrexit Jonas, ut fugeret in Tharsis a facie Domini.</hi> LXX similiter. Scit propheta, sancto sibi Spiritu
+suggerente, quod poenitentia gentium, ruina sit
+Judaeorum. Idcirco amator patriae suae, non tam saluti
+invidet Ninive, quam non vult perire populum
+suum. Alioquin legerat Moyse rogantem dixisse pro
+eo: <hi>Si dimittis eis peccatum, dimitte: sin autem non
+dimittis, et me dele de libro tuo, quem scripsisti (Exod.
+<pb n="1121C"/>
+XXXII, 31, 32)</hi>, et ad preces illius servatum Israel,
+et Moysen de libro non fuisse deletum, quin potius
+Dominum occasionem accepisse per servum, ut caeteris
+conservis illius parceret. Dum enim dicit, <hi>dimitte
+me,</hi> ostendit se posse retineri. Tale quid et
+Apostolus loquitur: <hi>Optabam anathema esse pro fratribus
+meis, qui sunt Israelitae secundum carnem <note>(Rom.
+IX, 3)</note>
+          </hi>. Non quod ipse perire desideret, cui vivere
+Christus est, et mori lucrum <note>(Philipp. I)</note>; sed magis
+meretur vitam, dum salvare vult caeteros. Praeterea
+videns Jonas comprophetas suos mitti ad oves perditas
+domus Israel, ut ad poenitentiam populum provocarent,
+Balaam quoque divinum de salute Israelitici
+populi prophetasse <note>(Num. XXII)</note>, delet se solum <emph>393</emph> 
+ electum, qui mitteretur ad Assyrios inimicos
+<pb n="1121D"/>
+Israel, et ad civitatem hostium maximam,
+ubi idololatria, ubi ignoratio Dei: et quod his majus
+est, timebat ne per occasionem praedicationis suae,
+illis conversis ad poenitentiam, Israel penitus relinqueretur.
+Noverat enim eodem spiritu, quo illi
+gentium praeconium credebatur, quod quando nationes
+credidissent, tunc periret domus Israel, et
+quod aliquando futurum erat, hoc ne in suo fieret
+<pb n="1122A"/>
+tempore, verebatur. Unde imitatus Cain Jonas <note>(Genes.
+IV)</note>, et recedens a facie Domini, fugere voluit
+in Tharsis, quam Josephus interpretatur Tharsum
+Ciliciae civitatem, prima tamen littera commutata:
+quantum vero in Paralipomenon libris intelligi datur,
+quidam locus Indiae sic vocatur. Porro Hebraei
+THARSIS ( ), mare dici generaliter autumant
+secundum illud: <hi>In spiritu vehementi confringes naves
+Tharsis <note>(Ps. XLVII, 8)</note>
+          </hi>, id est, <hi>maris.</hi> Et in Isaia: <hi>Ululate, naves Tharsis 
+ <note>(Isai. II, 14)</note>
+          </hi>. Super quo
+ante annos plurimos in epistola quadam ad Marcellam
+dixisse me memini: Non igitur propheta ad
+certum fugere cupiebat locum; sed mare ingrediens,
+quocumque pergere festinabat: et magis hoc convenit
+fugitivo, et timido, non locum fugae otiosae
+<pb n="1122B"/>
+eligere; sed primam occasionem arripere navigandi.
+Hoc quoque possumus dicere, qui notum tantum
+putabat in Judaea Deum <note>(Psal. LXXV)</note>, et in Israel
+magnum nomen ejus, postquam illum sensit in
+fluctibus, confitetur, et dicit: <hi>Hebraeus ego sum, et
+Dominum coeli ego timeo, qui fecit mare et aridam:</hi> 
+si autem ipse fecit mare et aridam, cur aridam relinquens
+arbitraris te conditorem maris in mari
+posse vitare? Simulque instruitur per salutem conversionemque
+nautarum, etiam tantam multitudinem
+Ninive simili posse confessione salvari. De
+Domino autem et Salvatore nostro possumus dicere,
+quod dimiserit domum, et patriam suam, et assumpta
+carne, quodammodo de coelestibus fugerit,
+veneritque in Tharsis, hoc est, in mare <emph>394</emph> istius
+<pb n="1122C"/>
+saeculi, secundum quod alibi dicitur: <hi>Hoc mare
+magnum et spatiosum, ibi reptilia, quorum non est
+numerus. Animalia pusilla cum magnis, illic naves
+pertransibunt</hi> [Al. <hi>perambulabunt]. Draco iste quem
+formasti ad illudendum ei <note>(Ps. CIII, 25 seqq.)</note>
+          </hi>. Idcirco
+enim et in passione dicebat: <hi>Pater, si possibile est,
+transeat calix iste a me:</hi> ne populo conclamante: <hi>Crucifige, crucifige talem 
+ <note>(Luc. XXII, 42)</note>
+          </hi>. Et: <hi>Nos
+non habemus regem nisi Caesarem <note>(Joan. XIX, 15)</note>
+          </hi>,
+plenitudo gentium subintraret, et frangerentur rami
+olivae, pro quibus oleastri virgulta succrescerent <note>(Rom. XI)</note>.
+Tantaeque pietatis et amoris fuit in populum
+pro electione patrum, et repromissione ad
+Abraham, ut in cruce positus diceret: <hi>Pater, ignosce
+eis, quod enim faciunt, nesciunt <note>(Luc. XXIII, 24)</note>
+          </hi>. Vel
+<pb n="1122D"/>
+certe quoniam <hi>Tharsis</hi> interpretatur <hi>contemplatio
+gaudii,</hi> veniens ad <hi>Joppen</hi> propheta, quae et ipsa <hi>speciosam</hi> 
+ sonat, ire festinat ad gaudium, et quietis
+beatitudine perfrui, totum se tradere theoriae, melius
+esse arbitrans pulchritudine et varietate scientiae
+perfrui, quam per occasionem salutis gentium
+caeterarum perire populum, de quo Christus in
+carne generandus sit.
+<pb n="1123A"/>
+
+        </p>
+        <div3 moved_from_p="true">
+            <head>
+              <note>(Vers. 3.)</note>
+            </head>
+          <p>
+ <hi>Et descendit in Joppen, et invenit navem
+euntem in Tharsis: et dedit naulum ejus, et descendit
+in eam, ut iret cum eis in Tharsis a facie Domini.</hi> 
+LXX: <hi>Et ascendit in Joppen, et invenit navem
+euntem in Tharsis: deditque naulum suum, ascendit
+in eam, ut navigaret cum eis in Tharsis a facie Domini.</hi> 
+Joppen portum esse Judaeae, et in Regnorum
+ et Paralipomenon libris legimus <note>(II Paral. II)</note>, ad
+quem Hiram quoque rex Tyri ligna de Libano ratibus
+transferebat, quae Jerusalem terreno itinere
+perveherentur. Hic locus est, in quo usque hodie
+saxa monstrantur in littore, in quibus Andromeda
+religata, Persei quondam sit liberata praesidio. Scit
+eruditus lector historiam; sed et juxta regionis
+naturam de montanis et arduis ad Joppen et campestria
+<pb n="1123B"/>
+veniens propheta, recte dicitur descendisse, et
+invenisse navem funem solventem e littore, et ingredientem
+mare, deditque naulum ejus, <emph>395</emph> sive mercedem
+navis, id est, subvectionis ejus, juxta Hebraicum,
+sive <hi>naulum pro se</hi> [Al. <hi>suum</hi> ], ut Septuaginta
+transtulerunt. <hi>Et descendit in eam,</hi> ut proprie continetur
+in Hebraico: IERED ( ) enim <hi>descendit</hi> dicitur:
+ut fugitivus sollicite latebras quaereret. Vel <hi>ascendit,</hi> 
+ut scriptum est in editione Vulgata: ut quocumque
+navis pergeret, perveniret: evasisse se putans, si Judaeam
+relinqueret. Sed et Dominus noster in extremo
+Judaeae littore (quod, quia in Judaea erat, appellabatur
+pulcherrimum) non vult tollere panem filiorum,
+et dare eum canibus <note>(Matth. XV)</note>; sed quia venerat
+ad oves perditas domus Israel, dat vectoribus pretium,
+<pb n="1123C"/>
+ut qui primum suum sanare [ <hi>Al.</hi> salvare]
+vult populum, salvet accolas maris, et inter turbines
+ac tempestates, id est, passionem suam, crucisque
+convicia submersus in inferno, salvet eos, quos
+quasi in navi dormiens negligebat <note>(Matth. VIII)</note>.
+Prudens rogandus est lector, ne eumdem velit ordinem
+tropologiae, quem et historiae quaerere. Nam
+et Apostolus, Agar et Saram ad duo Testamenta
+refert: et tamen non omnia quae in historia illa
+narrantur, tropologice interpretari possumus. Et
+ad Ephesios de Adam et Eva disputans, ait: <hi>Propter
+hoc relinquet homo patrem et matrem, et adhaerebit
+uxori suae, et erunt duo in carne una: Sacramentum
+hoc magnum est: Ego autem dico in Christo, et in
+Ecclesia <note>(Ephes. V, 31, 32)</note>
+            </hi>. Numquid totum principium
+<pb n="1123D"/>
+Geneseos, et fabricam mundi, et hominum
+conditionem ad Christum, et ad Ecclesiam referre
+possumus, quia hoc testimonio sic abusus est Apostolus?
+Fac enim hoc quod scriptum est: <hi>Ideo relinquet
+homo patrem suum,</hi> referamus ad Christum,
+ut dicamus eum Patrem in coelis reliquisse Deum,
+<pb n="1124A"/>
+ut gentium populus jungeretur Ecclesiae: hoc
+quod sequitur, <hi>matrem suam,</hi> quomodo possumus
+interpretari, nisi forte dicamus reliquisse eum coelestem
+Jerusalem, quae est mater Sanctorum, et
+caetera multo his difficiliora? Illud etiam quod ab
+eodem Apostolo scribitur: <hi>Bibebant autem de spirituali
+consequente eos petra: petra autem erat Christus <note>(I Cor. X, 4)</note>
+            </hi>,
+nequaquam nos arctat ut omnem Exodi
+librum referamus ad Christum. <emph>396</emph> Quid enim
+possumus dicere? quod haec petra a Moyse percussa
+sit, non semel sed bis <note>(Exod. XVII)</note>, quod aquae fluxerint,
+et torrentes repleti sint. Num universam
+loci hujus historiam per hanc occasionem cogemus
+sub lege allegoriae? et non potius unusquisque locus
+secundum historiae diversitatem, diversam recipiet
+<pb n="1124B"/>
+intelligentiam spiritualem? Igitur sicut haec testimonia
+suas interpretationes habent, et nec praecedentia,
+nec consequentia eamdem desiderant allegoriam:
+sic et Jonas propheta non absque periculo
+interpretantis, totus referri ad Dominum poterit.
+Nec ex eo quod in Evangelio dicitur: <hi>Generatio
+pessima</hi> [Al. <hi>prava] et adultera signum quaerit, et
+signum non dabitur ei, nisi signum Jonae Prophetae.
+Sicut enim fuit Jonas in ventre ceti tribus diebus et
+tribus noctibus, sic erit Filius hominis in corde terrae,
+tribus diebus et tribus noctibus <note>(Mat. XII, 39)</note>
+            </hi>.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 4.)</note> </head>
+          <p>
+ <hi>Dominus autem misit ventum magnum
+in mare, et facta est tempestas magna in mari, et
+navis periclitabatur conteri.</hi> LXX: <hi>Et Dominus suscitavit
+spiritum magnum in mare, et facta est tempestas
+<pb n="1124C"/>
+magna in mari, et navis periclitabatur conteri.</hi> 
+Potest fuga prophetae et ad hominis referri in communi
+personam, qui Dei praecepta contemnens, recessit
+a facie ejus, et se mundo tradidit, ubi postea
+malorum tempestate, et totius mundi contra se
+saeviente naufragio, compulsus est sentire Deum,
+et reverti ad eum quem fugerat. Unde intelligimus
+etiam ea quae sibi homines aestimant salutaria, Deo
+nolente [ <hi>Al.</hi> volente], verti in perniciem, et non
+solum non prodesse auxilium his, quibus praebetur;
+sed et ipsos qui praebent, pariter conteri. Sicut
+legimus victam ab Assyriis Aegyptum, quia opitulabatur
+Israeli contra Domini voluntatem. Periclitatur
+navis quae periclitantem susceperat: vento maria
+concitantur, in tranquillitate tempestas oritur, nihil,
+<pb n="1124D"/>
+Deo adversante, securum est.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 5.)</note> </head>
+          <p>
+ <hi>Et timuerunt nautae, et clamaverunt viri
+ad Deum suum, et miserunt vasa</hi> <emph>397</emph> <hi>quae erant in navi
+in mare, ut alleviaretur ab eis.</hi> LXX: <hi>Et timuerunt qui
+navigabant, et clamaverunt unusquisque ad Deum
+suum, et jactum fecerunt vasorum navis in mare, ut
+<pb n="1125A"/>
+alleviaretur navis.</hi> Arbitrantur navem solito onere
+praegravari, et non intelligunt totum pondus esse
+fugitivi prophetae. Timent nautae, clamat unusquisque
+ad Deum suum; ignorantes veritatem, non ignorant
+providentiam, et sub errore religionis sciunt
+aliquid esse venerandum: projiciunt onera in mare,
+ut magnitudinem fluctuum classis levior transiliret.
+At contra Israel nec bonis nec malis intelligit Deum;
+plangente Christo populum, siccos oculos habet.
+</p>
+          <p> <hi>Et Jonas descendit ad interiora navis, et dormiebat
+sopore gravi.</hi> LXX: <hi>Jonas autem descendit in ventrem
+navis, et dormiebat, et stertebat.</hi> Quantum ad historiam
+pertinet, prophetae mens secura describitur:
+non tempestate, non periculis conturbatur, eumdem
+et in tranquillo, et imminente naufragio animum
+<pb n="1125B"/>
+gerens. Denique alii clamant ad deos suos,
+vasa projiciunt, nititur unusquisque quod potest. Iste
+tam quietus est et securus, animique tranquilli, ut
+ad navis interiora descendens, somno placido perfruatur.
+Sed et hoc dici potest: Conscius erat fugae
+et peccati, quo Domini praecepta neglexerat: et tempestatem,
+ignorantibus caeteris, contra se saevire
+cernebat: ideo descendit ad interiora navis, et tristis
+absconditur, ne quasi Dei vindices fluctus adversum
+se videret intumescere. Quod autem dormit,
+non securitatis est, sed moeroris. Nam et Apostolos
+legimus in Domini passione prae tristitiae magnitudine
+somno fuisse depressos <note>(Matth. XXVI)</note>. Sin
+autem interpretamur in typo, somnus prophetae et
+gravissimus sopor hominem significat erroris sopore
+<pb n="1125C"/>
+torpentem, cui non suffecerat fugisse a facie Dei,
+nisi et quadam vecordia mens illius obruta, ignoraret
+iracundiam Dei, et quasi securus dormiret et profundissimum
+somnum rauca nare resonaret.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 6.)</note> </head>
+          <p>
+ <hi>Et accessit ad eum gubernator, et dixit
+ei: Quid tu sopore deprimeris? Surge, invoca Deum
+tuum, si forte recogitet</hi> <emph>398</emph> <hi>Deus de nobis, et non
+pereamus,</hi> LXX: <hi>Et accessit ad eum proreta, et dixit
+ei, quid tu stertis? Surge, invoca Deum tuum, si quomodo
+salvos faciat nos Deus, et non pereamus.</hi> Naturale
+est unumquemque in suo periculo de alio plus
+sperare: unde gubernator, sive proreta, qui vectores
+timidos debuerat consolari, cernens discriminis
+magnitudinem, excitat dormientem, et arguit improvidae
+securitatis, commonetque ut ipse quoque
+<pb n="1125D"/>
+pro virili portione deprecetur Deum suum: ut cujus
+erat commune periculum, communis esset oratio.
+Porro juxta tropologiam plures sunt qui cum
+Jona navigantes, et habentes proprios deos, ad contemplationem
+gaudii ire festinant. Sed postquam
+Jonas fuerit sorte deprehensus, et morte illius
+mundi sedata tempestas, marique tranquillitas reddita,
+tunc unus adorabitur Deus, et immolabuntur
+<pb n="1126A"/>
+victimae spirituales, quas utique juxta litteram in
+mediis fluctibus non habebant.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 7.)</note> </head>
+          <p>
+ <hi>Et dixit vir ad collegam suum: Venite
+et mittamus sortes, et sciamus quare hoc malum sit
+nobis: et miserunt sortes, et cecidit sors super Jonam.</hi> 
+LXX: <hi>Et dixit unusquisque ad proximum suum: Venite,
+mittamus sortes, et cognoscamus cujus gratia
+malitia haec est super nos: et miserunt sortes, et cecidit
+sors super Jonam.</hi> Noverant naturam maris, et
+tanto tempore navigantes sciebant tempestatum ventorumque
+rationes, et utique si solitos, et quos aliquando
+experti fuerant, fluctus vidissent consurgere,
+numquam forte auctorem naufragii quaererent, et
+per rem incertam, certum cuperent evitare discrimen.
+Nec statim debemus sub hoc exemplo sortibus
+<pb n="1126B"/>
+credere, vel illud de Actibus Apostolorum huic testimonio
+copulare, ubi sorte in Apostolatum Matthias
+eligitur <note>(Actor. I)</note>, cum privilegia singulorum
+non possint legem facere communem. Sicut enim in
+condemnationem Balaam asina loquitur <note>(Num. XXII)</note>,
+et Pharao <note>(Gen. XLI)</note>, et Nabuchodonosor in judicium
+sui <note>(Dan. II, 4)</note>, somniis futura cognoscunt, et tamen
+Deum non intelligunt revelantem: Caiphas quoque
+prophetat ignorans, quod expediret unum perire
+pro cunctis <note>(Joan. XI et XVIII)</note>: ita et hic fugitivus
+sorte deprehenditur, non viribus sortium, <emph>399</emph> et
+maxime sortibus ethnicorum, sed voluntate ejus
+qui sortes regebat incertas. Quod autem dicitur: <hi>Et cognoscamus propter quem malitia haec est super
+nos,</hi> 
+ hic malitiam pro afflictione et calamitate accipere
+<pb n="1126C"/>
+debemus, secundum illud: <hi>Sufficit diei malitia
+sua <note>(Matth. VI, 34)</note>
+          </hi>. Et in Amos propheta: <hi>Si est
+malitia in civitate quam Dominus non fecerit (Amos
+III, 6)</hi>. Et in Isaia: <hi>Ego Dominus qui facio pacem, et
+creo mala <note>(Isai. XLV, 7)</note>
+          </hi>. In alio vero loco malitia
+contraria virtuti [ <hi>Al.</hi> veritati] intelligitur, juxta quod
+in hoc eodem propheta supra legimus: <hi>Ascendit clamor
+malitiae ejus ad me.</hi> 
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 8.)</note> </head>
+          <p>
+ <hi>Et dixerunt ad eum: Indica nobis, cujus
+causa malum istud sit nobis, quod opus</hi> [Vulg. addit <hi>est] tuum, quae terra tua, 
+ et quo vadis, vel ex quo populo
+es tu?</hi> LXX: <hi>Et dixerunt ad eum: Annuntia
+nobis cujus gratia haec malitia est in nobis, quod opus
+tuum, et unde venis, et quo vadis, et ex qua regione
+es, et ex quo populo es tu?</hi> Quem sors indicaverat,
+<pb n="1126D"/>
+cogunt voce propria confiteri, cur tanta tempestas
+sit, vel quare contra eos Dei ira desaeviat: <hi>Indica,</hi> 
+inquiunt, <hi>nobis cujus causa malum istud sit super nos:</hi> 
+quid operis agas, de qua terra, de quo populo proficiscaris,
+quo abire festines. Et notanda brevitas,
+quam admirari in Virgilio solebamus:
+</p>
+          <l rend="indent">Juvenes, quae causa subegit</l>
+<l>Ignotas tentare vias, quo tenditis, inquit:</l>
+<l>Qui genus: unde domo, pacemne huc fertis, an arma?</l>
+          <p>  <note>(Aeneid. lib. V.)</note> 
+
+<pb n="1127A"/>
+Interrogatur persona, regio, iter, civitas: ut ex his
+cognoscatur et causa discriminis.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 9.)</note> </head>
+          <p>
+ <hi>Et dixit ad eos: Hebraeus ego sum, et
+Dominum Deum coeli ego timeo, qui fecit mare et aridam.</hi> 
+LXX: <hi>Et dixit ad eos: Servus Domini ego sum,
+et Deum coeli ego colo, qui fecit mare et aridam.</hi> Non
+dixit, Judaeus ego sum, quod scissura decem tribuum
+a duabus populo nomen imposuit; sed, Hebraeus
+sum, hoc est <foreign xml:lang="greek">περατὴς</foreign>, <hi>transitor,</hi> sicut et Abraham,
+qui dicere poterat: <hi>Advena sum ego et peregrinus,
+sicut omnes patres mei <note>(Ps. XXXVIII, 13)</note>
+          </hi>: de quo in
+alio psalmo scribitur: <hi>Transierunt de gente in gentem,
+et de regno ad populum alterum <note>(Ps. CIV, 13)</note>
+          </hi>. Moyses, <hi>Transeam,</hi> 
+ inquit, <hi>et videbo visionem hanc magnam <note>(Exod. III, 3)</note>
+          </hi>.
+Et Dominum Deum coeli ego
+<pb n="1127B"/>
+timeo: non deos quos invocatis, et qui salvare <emph>400</emph> 
+non possunt, sed Deum coeli, qui mare fecit et aridam.
+Mare, in quo fugio; aridam, de qua fugio. Et
+eleganter ad distinctionem maris, non terra, sed
+arida nuncupatur. Et in brevi universitatis factor
+ostenditur, qui et coeli Dominus est, et terrae, et maris.
+Quaeritur autem, quomodo vere dicere comprobetur: <hi>Dominum Deum coeli ego timeo,</hi> 
+ cum ejus
+praecepta non faciat. Nisi forte respondeamus, quod
+et peccatores timeant Deum, servorumque sit non
+diligere, sed timere; quamquam in hoc loco timor
+pro cultu possit intelligi, juxta sensum eorum qui
+audiebant, et adhuc ignorabant Deum.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 10.)</note> </head>
+          <p>
+ <hi>Et timuerunt viri timore magno, et dixerunt
+ad eum, quid hoc fecisti? Cognoverunt</hi> [Vulg.
+<pb n="1127C"/> <hi>cognoverant] enim viri quod a facie Domini fugeret,
+quia indicaverat eis.</hi> 
+ LXX: <hi>Et timuerunt viri timore
+magno, et dixerunt ad eum, quid hoc fecisti? Cognoverunt
+enim viri quod a facie Domini fugeret, eo quod
+indicasset eis.</hi> Historiae ordo praeposterus est: quia
+enim poterat dici, nulla causa timoris fuit, ex eo
+quod eis confessus est, dicens: <hi>Hebraeus ego sum,
+et Dominum Deum coeli ego timeo, qui fecit mare et
+aridam:</hi> statim subnectitur quod idcirco timuerunt,
+quia eis indicaverat, se Domini fugere conspectum,
+et ejus non fecisse praecepta. Denique causantur, et
+dicunt: <hi>quid hoc fecisti?</hi> id est, si times Deum, cur
+fugis? Si tantae potentiae praedicas quem colis, quomodo
+te putas eum posse evadere? Timent autem
+timore magno, quod intelligunt sanctum, et sanctae
+<pb n="1127D"/>
+gentis virum (de Joppe quippe solventes funem,
+Hebraeae gentis noverant privilegium), et tamen fugitivum
+celare non possunt. Magnus est qui fugit, sed
+major ille qui quaerit: non audent tradere, celare
+non possunt. Reprehendunt culpam, timorem confitentur:
+rogant ut ipse remedio sit, qui auctor peccati
+fuerat. Vel certe quod dicunt: <hi>quid hoc fecisti?</hi> 
+non increpant, sed interrogant, volentes causam
+fugae nosse, servi a Domino, filii a patre, hominis a
+Deo. Quod est, inquiunt, tantum mysterium, ut terra
+deseratur, expetantur maria, relinquatur patria, loca
+appetantur aliena?
+<pb n="1128A"/>
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 11.)</note>
+          </head>
+          <p>
+ <hi>Et dixerunt ad eum: quid faciamus
+tibi,</hi> <emph>401</emph> <hi>et cessabit mare a nobis? quia mare ibat,
+et intumescebat.</hi> LXX: <hi>Et dixerunt ad eum, quid tibi
+faciemus, et quiescet mare a nobis? quia mare ibat, et
+suscitabat magis fluctus.</hi> Propter te dicis, ventos, fluctus,
+mare, gurgites concitatos? exposuisti causam
+morbi, indica sanitatis. Ex eo quod contra nos surgit
+mare, intelligimus iram esse susceptionis tuae.
+Si culpa est quod suscepimus, quid facere possumus,
+ne Dominus irascatur? <hi>quid faciemus tibi?</hi> hoc
+est, interficiemus te? sed cultor es Domini: servabimus?
+sed Deum fugis. Nostrum est praebere manus;
+quid fieri jubeas, tuum est imperare, quo facto
+quiescat mare, quod nunc Creatoris iram suo tumore
+testatur. Statimque historicus causam jungit
+<pb n="1128B"/>
+istiusmodi quaestionis, <hi>mare,</hi> dicens, <hi>ibat, et intumescebat.</hi> 
+Ibat, ut jussum fuerat: ibat in vindictam
+Domini sui: ibat, persequens fugitivum prophetam.
+Intumescebat autem per singula momenta temporum,
+et quasi nautis morantibus, in fluctus majores
+suscitabatur, ut ostenderet ultionem Creatoris se
+differre non posse.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 12.)</note> </head>
+          <p>
+ <hi>Et dixit ad eos, tollite me, et mittite me</hi> 
+[Vulg. tacet <hi>me] in mare, et cessabit mare a vobis:
+scio enim</hi> [Vulg. addit <hi>ego] quia propter me tempestas
+haec grandis est</hi> [Vulg. <hi>venit] super vos.</hi> LXX: <hi>Et dixit
+Jonas ad eos, tollite me, et mittite me in mare, et quiescet
+mare a vobis: ego enim novi quod propter me
+fluctus magni contra vos sunt.</hi> Contra me tempestas
+detonat, me quaerit, naufragium vobis minatur, ut
+<pb n="1128C"/>
+me prehendat: me prehendet, ut mea morte vivatis. <hi>Scio,</hi> 
+ inquit, <hi>quia propter me tempestas haec grandis
+est.</hi> Non ignoro in meam poenam elementa turbari,
+mundi esse confusionem, mihi irasci, in vos saevire
+naufragium: fluctus ipsi imperant vobis, ut me mittatis
+in mare. Si ego sensero tempestatem, vos recuperabitis
+tranquillitatem. Et animadvertenda pariter
+fugitivi nostri magnanimitas, non tergiversatur,
+non dissimulat, non negat; sed qui confessus fuerat
+de fuga, poenam libenter assumit, se cupiens perire,
+ne propter se et caeteri pereant, et ad peccatum
+fugae, alienae quoque delictum addatur necis. Hoc
+quantum ad historiam: <emph>402</emph> caeterum non ignoramus,
+flantes ventos, quibus in Evangelio, ut quiescerent,
+Dominus imperavit <note>(Matth. VIII)</note>, et periclitantem
+<pb n="1128D"/>
+naviculam, in qua dormiebat Jonas, et intumescens
+mare quod increpatur: <hi>tace et obmutesce,</hi> 
+referri ad Dominum Salvatorem, et periclitantem
+Ecclesiam, vel Apostolos suscitantem [ <hi>Al.</hi> sustantes],
+qui eum deserentes in passione, quodammodo in
+fluctus praecipitabant: Iste Jonas dicit: <hi>Scio quia
+propter me tempestas grandis est super vos,</hi> quia me
+vident venti vobiscum ire in Tharsis, hoc est, ad
+contemplationem laetitiae navigare, ut vos mecum
+perducam ad gaudium: ut ubi ego sum et Pater, ibi
+et vos sitis <note>(Joan. XIV, 3)</note>. Idcirco saeviunt, idcirco
+mundus, qui in maligno positus est, fremit <hi>(I Joan.
+<pb n="1129A"/>
+V, 19)</hi>: ideo elementa turbantur: me cupit devorare
+mors, ut vos pariter occidat; et non intelligit,
+quia velut in hamo escam capit, ut mea morte moriatur. <hi>Tollite me, et mittite in mare.</hi> 
+ Non est enim
+nostrum, mortem arripere, sed illatam ab aliis libenter
+excipere. Unde et in persecutionibus non licet
+propria perire manu, absque eo ubi castitas
+periclitatur; sed percutienti colla submittere. Sic,
+inquit, placate ventos, sic in maria libamina fundite:
+tempestas quae propter me saevit contra vos,
+me moriente, sedabitur.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 13.)</note> </head>
+          <p>
+ <hi>Et remigabant viri ut reverterentur ad
+aridam, et non valebant, quia mare ibat, et intumescebat
+super eos.</hi> LXX: <hi>Et conabantur viri, ut reverterentur
+ad terram, et non poterant, quia mare ibat, et
+<pb n="1129B"/>
+insurgebat magis contra eos.</hi> Protulerat propheta contra
+se sententiam; sed illi cultorem audientes Dei,
+manus injicere non audebant, propterea nitebantur
+reverti ad aridam, et effugere discrimen, ne sanguinem
+funderent, magis volentes perire, quam perdere.
+O rerum quanta mutatio! populus qui servierat Deo,
+dicit: <hi>Crucifige, crucifige talem <note>(Joan. XIX, 6)</note>
+          </hi>. Istis
+imperatur ut occidant, mare furit, tempestas jubet,
+et proprium periculum negligentes, de aliena salute
+solliciti sunt. Quamobrem et Septuaginta <foreign xml:lang="greek">παρεβιάζοντο</foreign>
+inquiunt, id est, <hi>vim cupiebant facere</hi> et naturam rerum
+vincere, ne violarent <emph>403</emph> prophetam Dei.
+Quod autem remigabant viri, ut reverterentur ad
+aridam, putabant absque sacramento ejus qui passurus
+erat, posse navem de periculo liberari: cum
+<pb n="1129C"/>
+Jonae subversio, navis fuerat [ <hi>Al.</hi> fuerit] relevatio.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 14.)</note> </head>
+          <p>
+ <hi>Et Clamaverunt ad Dominum, et dixerunt:
+quaesumus, Domine, ne pereamus in anima viri
+istius, et ne des super nos sanguinem innocentem, quia
+tu, Domine, sicut voluisti, fecisti.</hi> LXX: <hi>Et clamaverunt
+ad Dominum, et dixerunt: nequaquam, Domine,
+ne pereamus propter animam viri hujus, et non
+des super nos sanguinem justum, tu enim, Domine,
+sicut voluisti, fecisti.</hi> Grandis vectorum fides: periclitantur
+ipsi, et pro alterius anima deprecantur.
+Sciunt enim pejorem mortem peccati esse, quam
+vitae. <hi>Et ne des,</hi> inquiunt, <hi>super nos sanguinem innocentem.</hi> 
+Contestantur Dominum, ut quodcumque
+facturi sunt, non sibi reputetur, et quodammodo dicunt,
+nolumus interficere prophetam tuum, sed
+<pb n="1129D"/>
+iram tuam et ipse confessus est, et tempestas loquitur,
+quia tu, Domine, sicut voluisti, fecisti; voluntas
+tua expletur per nostras manus. Nonne nobis videtur
+nautarum vox, Pilati esse confessio, qui lavat
+manus suas, et dicit: <hi>Mundus sum ego a sanguine
+viri hujus <note>(Matth. XXVII, 25)</note>
+          </hi>. Nolunt Christum perire
+gentes, innocentem sanguinem protestantur. Et
+Judaei dicunt: <hi>Sanguis ejus super nos, et super filios
+<pb n="1130A"/>
+nostros.</hi> Et ideo si levaverint manus, non exaudientur,
+quia plenae sunt sanguine: <hi>Quia tu, Domine,
+sicut voluisti, fecisti:</hi> Quod nos suscepimus, quod
+turbo consurgit, quod venti saeviunt, quod mare suscitatur
+in fluctus, quod proditur sorte fugitivus, quod
+indicat quid fieri debeat, tuae est, Domine, voluntatis,
+tu enim sicut voluisti, fecisti. Unde et Salvator
+dicit in psalmo: <hi>Domine, ut facerem voluntatem
+tuam, volui <note>(Psal. XXXIX, 9)</note>
+          </hi>.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 15.)</note> </head>
+          <p>
+ <hi>Et tulerunt Jonam, et miserunt in mare,
+et stetit mare a fervore suo.</hi> LXX: <hi>Et tulerunt Jonam,
+et miserunt in mare, et stetit mare a commotione sua.</hi> 
+Non dixit arripuerunt, non ait invaserunt, sed tulerunt:
+quasi cum obsequio et honore portantes, miserunt
+in mare non repugnantem, sed praebentem
+<pb n="1130B"/>
+manus ipsorum voluntati. Et <emph>404</emph> stetit mare, quia
+invenerat quem quaerebat. Velut si quis persequatur
+fugitivum, et concito pergat gradu, postquam
+fuerit consecutus, desistit currere, et stat ac tenet
+quem apprehenderit. Ita et mare quod, absente Jona,
+irascebatur, in visceribus suis desideratum tenens,
+gaudet et confovet, et ex gaudio tranquillitas
+redit. Si consideremus ante passionem Christi, errores
+mundi, et diversorum dogmatum flatus contrarios,
+et naviculam totumque humanum genus, id
+est, creaturam Domini periclitantem, et post passionem
+ejus tranquillitatem fidei, et orbis pacem, et
+secura omnia, et conversionem ad Deum, videbimus
+quomodo post praecipitationem Jonae steterit mare
+a fervore [ <hi>Al.</hi> furore] suo.
+<pb n="1130C"/>
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 16.)</note>
+          </head>
+          <p>
+ <hi>Et timuerunt viri timore magno Dominum,
+et immolaverunt hostias Domino, et voverunt vota.</hi> 
+ LXX similiter. Ante Domini passionem timentes
+clamaverunt ad deos suos: post passionem ejus Dominum
+timent, id est, venerantur et colunt, et non
+timent simpliciter, ut in principio legimus, sed timore
+magno, juxta illud quod dicitur: <hi>Ex tota anima,
+et ex toto corde, et ex tota mente tua <note>(Matth. XXII,
+37)</note>
+          </hi>. <hi>Et immolaverunt hostias,</hi> quas certe juxta litteram
+in mediis fluctibus non habebant: sed quia
+sacrificium Deo spiritus contribulatus est <note>(Psal. L)</note>.
+Et in alio loco dicitur: <hi>Immola Deo sacrificium laudis,
+et redde Altissimo vota tua <note>(Ps. XLIX, 14)</note>
+          </hi>. Et
+rursum: <hi>Reddemus tibi vitulos labiorum nostrorum:</hi> 
+idcirco in mari immolant hostias, et alias sponte
+<pb n="1130D"/>
+promittunt vota facientes: se numquam ab eo quem
+colere coeperant, recessuros. Timuerunt enim timore
+magno: quia ex tranquillitate maris et tempestatis
+fuga, vera prophetae verba cernebant. Jonas in mari
+fugitivus, naufragus, mortuus, salvat naviculam
+fluctuantem: salvat ethnicos in diversas prius sententias
+mundi errore jactatos. Et Osee, Amos, Isaias,
+Joel, qui eodem tempore prophetabant, populum in
+<pb n="1131A"/>
+Judaea nequeunt emendare. Ex quo ostenditur sedari
+non posse naufragium, nisi morte fugitivi.</p>
+        </div3>
+<div2 id="II">
+          <head>
+            <note>(CAP. II)</note>
+          </head>
+<div3>
+            <head>
+              <note>(Cap. II.--Vers. 1.)</note> </head>
+            <p>
+ <hi>Et praeparavit Dominus piscem
+grandem: ut deglutiret Jonam.</hi> LXX: <hi>Et praecepit
+Dominus ceto magno, et devoravit Jonam.</hi> Morti
+et inferno praecepit <emph>405</emph> Dominus, ut prophetam
+suscipiat. Quae avidis faucibus praedam putans, quantum
+in devoratione laetata est, tantum luxit in vomitu.
+Tuncque completum est illud quod legitur in
+Osee: <hi>Ero mors tua, o mors: ero morsus tuus, inferne <note>(Osee XIII, 14)</note>
+            </hi>.
+In Hebraico autem <hi>piscem grandem</hi> 
+legimus, pro quo LXX interpretes, et Dominus
+in Evangelio <hi>cetum</hi> vocant, rem ipsam brevius explicantes.
+In Hebraico enim dicitur DAG GADOL, ( )
+quod interpretatur, <hi>piscis grandis:</hi> haud dubium
+<pb n="1131B"/>
+quin <hi>cetum</hi> significet. Et animadvertendum, quod ubi
+putabatur interitus, ibi custodia sit. Porro quod ait, <hi>praeparavit,</hi> 
+ vel ab initio cum conderet, de quo et in
+psalmo scribitur: <hi>Draco iste quem formasti ad illudendum
+ei <note>(Psal. CIII, 26)</note>
+            </hi>: vel certe juxta navem
+fecit venire, ut praecipitem Jonam in suos reciperet
+sinus, et pro morte praeberet habitaculum: ut qui in navi
+iratum senserat Deum, propitium in morte sentiret.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 2.)</note> </head>
+            <p>
+ <hi>Et erat Jonas in ventre piscis tribus diebus
+et tribus noctibus.</hi> LXX: <hi>Et erat Jonas in ventre
+ceti tribus diebus et tribus noctibus.</hi> Hujus loci mysterium
+in Evangelio Dominus exponit <note>(Matth. XII)</note>, et
+superfluum est, vel id ipsum, vel aliud dicere,
+ quam exposuit ipse, qui passus est. Hoc solum quaerimus,
+quomodo tres dies, et tres noctes fuerit [ <hi>Al.</hi> 
+<pb n="1131C"/>
+fecerit] in corde terrae. Quidam <foreign xml:lang="greek">παρασκευὴν</foreign>, quando
+sole fugiente ab hora sexta usque ad horam nonam,
+nox successit diei, in duos dies et noctes dividunt, et
+apponentes sabbatum, tres dies et tres noctes aestimant
+supputandas: nos vero <foreign xml:lang="greek">συνεκδοχικῶς</foreign> totum
+intelligamus a parte: ut ex eo quod <foreign xml:lang="greek">εἰν παρασκευῇ</foreign>
+mortuus est, unam diem supputemus et noctem, et
+sabbati alteram: tertiam vero noctem, quae diei
+Dominicae mancipatur, referamus ad exordium diei
+alterius: nam et in Genesi nox non praecedentis diei
+est <note>(Genes. I)</note>, sed sequentis, id est, principium futuri,
+non finis praeteriti. Hoc ut intelligi possit, dicam
+simplicius. Finge aliquem hora nona egressum esse
+de mansione, et alterius diei hora tertia ad mansionem
+alteram pervenisse: si dixero bidui eum fecisse
+<pb n="1131D"/>
+iter, non statim reprehendar mendacii, quia ille qui
+ambulavit, non omnes horas utriusque diei, sed
+quamdam partem <emph>406</emph> itinere consumpserit. Certe
+mihi haec videtur interpretatio. Si quis autem istam
+non receperit, et meliori sensu potest loci hujus exponere
+sacramentum, illius magis sequenda est sententia.
+</p>
+            <p> <hi>Et oravit Jonas ad Dominum Deum suum de utero
+piscis: et dixit:</hi> LXX similiter, tantum ordine commutato.
+Si Jonas refertur ad Dominum, et ex eo
+<pb n="1132A"/>
+quod tribus diebus ac noctibus in utero ceti fuit,
+passionem indicat Salvatoris, debet et oratio illius
+typus esse orationis Dominicae. Nec ignoro, quosdam
+fore, quibus incredibile videatur, tribus diebus ac
+noctibus in utero ceti, in quo naufragia dirigebantur,
+hominem potuisse servari, qui utique aut fideles
+erunt, aut infideles: si fideles, multo majora credere
+cogentur: Quomodo tres pueri missi in caminum
+aestuantis incendii, intantum illaesi fuerint, ut ne
+vestimenta quidem eorum odor ignis attigerit <note>(Dan.
+III)</note>: Quomodo recesserit mare, et ad instar murorum
+hinc inde rigidum steterit, ut praeberet viam populo
+transeunti <note>(Exod. XIV)</note>: Quomodo humana ratione,
+aucta fame, leonum rabies praedam suam timens aspexerit,
+nec tetigerit: et multa hujuscemodi. Sin
+<pb n="1132B"/>
+autem infideles erunt, legant quindecim libros Nasonis
+Metamorphoseos, et omnem Graecam, Latinamque
+historiam, ibique cernent vel Daphnen in laurum,
+vel Phaetontis sorores in populos arbores fuisse conversas:
+quomodo Jupiter eorum sublimissimus deus,
+sit mutatus in cygnum, in auro fluxerit, in tauro
+rapuerit, et caetera, in quibus ipsa turpitudo fabularum,
+divinitatis denegat sanctitatem. Illis credunt,
+et dicunt Deo cuncta possibilia: et cum turpibus
+credant, potentiaque Dei universa defendant, eamdem
+virtutem non tribuunt et honestis. Quod autem
+scriptum est: <hi>Et oravit Jonas ad Dominum Deum
+suum de utero piscis, et dixit,</hi> intelligimus eum postquam
+in utero ceti sospitem esse se senserit, non
+desperasse de Domini misericordia, et totum ad obsecrationem
+<pb n="1132C"/>
+esse conversum. Deus enim qui dixerat
+de justo: <hi>Cum ipso sum in tribulatione <note>(Psal. XC, 15)</note>
+              </hi>.
+Et: <hi>Cum invocaverit me, dicam: adsum,</hi> affuit ei, et
+dicere potest qui exauditus est: <hi>In tribulatione dilatasti
+mihi <note>(Psal. IV, 1)</note>
+              </hi>.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 3.)</note> </head>
+            <p>
+ <emph>407</emph> <hi>Clamavi de tribulatione mea ad
+Dominum, et exaudivit me, de ventre inferni clamavi,
+et exaudisti vocem meam.</hi> Septuaginta similiter, hoc
+tantummodo commutato: <hi>de ventre inferi clamoris
+mei audisti vocem meam.</hi> Non dixit, <hi>clamo,</hi> sed <hi>clamavi:</hi> 
+nec de futuro precatur, sed de praeterito gratias
+agit: indicans nobis quod ex eo tempore quo
+praecipitatus in mare vidisset cetum, et tantam corporis
+molem, et immanes rictus aperto se ore sorbere,
+Domini recordatus sit, et clamaverit, vel aquis cedentibus,
+<pb n="1132D"/>
+et clamore inveniente locum, vel toto cordis
+affectu, secundum illud quod Apostolus dicit: <hi>Clamantes
+in cordibus vestris, abba, pater <note>(Rom. VIII, 15)</note>
+            </hi>.
+Et clamaverit ei qui solus novit corda hominum, et
+loquitur ad Moysen: <hi>Quid clamas ad me <note>(Exod. XIV,
+15)</note>
+            </hi>? Cum utique nihil ante hanc vocem clamasse
+Moysen Scriptura commemoret. Hoc est illud quod
+in primo graduum psalmo legimus: <hi>Ad Dominum cum
+tribularer clamavi, et exaudivit me <note>(Ps. CXIX, 1)</note>
+            </hi>. Ventrem
+autem inferi, alvum ceti intelligamus, quae tantae
+<pb n="1133A"/>
+fuit magnitudinis, ut instar obtineret inferni. Sed
+melius ad personam Christi referri potest, qui sub
+nomine David cantat in psalmo: <hi>Non derelinques
+animam meam in inferno: nec dabis sanctum tuum
+videre corruptionem <note>(Psal. XV, 10)</note>
+            </hi>. Qui fuit in inferno
+vivens, inter mortuos liber.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 4.)</note> </head>
+            <p>
+ <hi>Et projecisti me in profundum in corde
+maris, et flumen circumdedit me.</hi> LXX: <hi>Projecisti me
+in profundum cordis maris, et flumina me circumdederunt.</hi> 
+Quantum ad personam Jonae non est difficilis
+interpretatio: quod ceti clausus alvo in
+profundissimo et in medio maris fuerit, fluminibusque
+vallatus sit. Quantum ad Dominum Salvatorem
+sexagesimi octavi psalmi sumamus exemplum
+in quo loquitur: <hi>Infixus sum in limo profundi,
+<pb n="1133B"/>
+et non est substantia: Veni in profundum maris, et tempestas
+demersit me;</hi> de quo et in alio psalmo dicitur: <hi>Tu
+autem abjecisti et despexisti, distulisti Christum tuum:
+subvertisti testamentum servi tui, contaminasti in terra
+sanctuarium ejus, destruxisti omnes macerias ejus <note>(Ps.
+LXXXVIII, 39, 40)</note>
+            </hi>, et reliqua. Ad comparationem enim
+coelestis beatitudinis, et ejus loci, de quo scriptum
+est: <hi>In pace sancta locus ejus <note>(Psal. LVII, 2)</note>
+            </hi>, omnis
+terrena habitatio plena est fluctibus, <emph>408</emph> plena
+tempestatibus. Porro per cor maris significatur infernus,
+pro quo in Evangelio legimus: <hi>In corde terrae <note>(Matt. XII, 14)</note>
+            </hi>.
+Quomodo autem cor animalis in medio
+est, ita et infernus in medio terrae esse perhibetur.
+Vel certe juxta <foreign xml:lang="greek">ἀναγωγὴν</foreign>, in corde maris, id est,
+in mediis tentationibus esse se memorat. Et tamen
+<pb n="1133C"/>
+cum inter amaras aquas fuerit, et tentatus sit juxta
+omnia absque peccato, non sensit amaras aquas: sed
+flumine circumdatus est, de quo et in alio loco legimus: <hi>Fluminis impetus laetificat civitatem Dei 
+ <note>(Ps.
+XLV, 5)</note>
+            </hi>: aliis bibentibus salsos fluctus, ego in mediis
+tentationibus dulcissima fluenta sorbebam. Nec impium
+tibi esse videatur, si nunc Dominus dicat: <hi>Projecisti
+me in profundum <note>(Ps. LXVIII, 27)</note>
+            </hi>, qui loquitur
+in psalmo: <hi>Quoniam quem tu percussisti, ipsi persecuti
+sunt:</hi> secundum illud quod ex persona Patris in
+Zacharia ponitur: <hi>Percutiam pastorem, et oves dispergentur <note>(Zach. XIII, 7)</note>
+            </hi>.
+</p>
+            <p> <hi>Omnes gurgites tui et fluctus tui super me transierunt.</hi> LXX: <hi>Omnes elevationes tuae et fluctus tui
+super me transierunt.</hi> Quod super Jonam tumentes
+<pb n="1133D"/>
+maris fluctus transierint, et detonuerit saeva tempestas,
+nulli dubium est. Quaerimus autem quomodo
+omnes elevationes, et gurgites, et fluctus Dei, super
+Salvatorem transierint. <hi>Tentatio est vita hominum
+super terram <note>(Job VII, 1)</note>
+              </hi>, sive ut in Hebraico habetur, <hi>militia,</hi> 
+ quia hic militamus, ut alibi coronemur.
+Nullusque est hominum, qui cunctas sustinere queat
+tentationes, absque eo qui tentatus est in omnibus,
+juxta nostram similitudinem, sine peccato. Unde et
+ad Corinthios dicitur: <hi>Tentatio vos non apprehendat,
+nisi humana. Fidelis autem Deus qui non dimittet vos
+tentari supra id, quod potestis; sed faciet cum tentatione
+<pb n="1134A"/>
+et exitum, ut possitis sustinere <note>(I Cor. X, 13)</note>
+              </hi>. Et
+quoniam omnes persecutiones, et universa quae accidunt,
+absque Dei non ingruunt voluntate: idcirco
+Dei gurgites dicuntur et fluctus, qui non oppresserunt
+Jesum, sed transierunt per eum, minantes tantum
+naufragium, non inferentes. Universae ergo persecutiones,
+et turbines, quibus genus vexabatur
+humanum, et cunctae naviculae frangebantur, super
+meum detonuere caput. Ego sustinui tempestates,
+et fregi turbines saevientes, ut caeteri securius navigarent.</p>
+<p> <emph>409</emph> <note>(Vers. 5.)</note> <hi>Et ego dixi, abjectus sum a conspectu
+oculorum tuorum.</hi> LXX: <hi>Ego dixi, abjectus sum
+ab oculis tuis.</hi> Antequam clamarem de tribulatione
+mea, et exaudires me, quia [ <hi>Al.</hi> qui] formam servi
+<pb n="1134B"/>
+acceperam, fragilitatem quoque illius imitatus, dixi: <hi>Abjectus sum a conspectu oculorum tuorum.</hi> 
+ Quando
+eram tecum, et tuo lumine perfruebar, et in te [ <hi>Al.</hi> 
+tuo] lumine ego eram lumen, non dicebam, abjectus
+sum. Postquam autem veni in profundum maris,
+et hominis carne circumdatus sum, humanos imitor
+affectus, dico: <hi>Abjectus sum a conspectu oculorum tuorum.</hi> 
+Hoc quasi homo locutus sum: caeterum quasi
+Deus, et his, qui cum essem in forma tua, non sum rapinam
+arbitratus aequalem me esse tui <note>(Philip. II)</note>,
+volens ad te evehere humanum genus: ut ubi ego
+sum et tu, ibi sint et omnes, qui in me et te crediderunt <note>(Joan. XVII, 24)</note>,
+dico:</p>
+<p> <hi>Verumtamen rursum vide templum sanctum tuum</hi> LXX: <hi>Putasne addam ut videam templum sanctum
+<pb n="1134C"/>
+tuum?</hi> Hoc quod in Graeco dicitur <foreign xml:lang="greek">ἆρα</foreign>, et habet
+vulgata editio, <hi>putas,</hi> interpretari potest, <hi>igitur,</hi> ut
+sit quasi propositionis et assumptionis, confirmationisque
+ac syllogismi extrema conclusio, non ex
+ambigentis incerto, sed ex fiducia comprobantis:
+pro quo nos interpretati sumus: <hi>Verumtamen rursum
+videbo templum sanctum tuum,</hi> secundum illud
+quod ex persona ejus in alio psalmo dicitur: <hi>Domine,
+dilexi decorem domus tuae, et locum tabernaculi
+gloriae tuae <note>(Ps. XXV, 8)</note>
+              </hi>. Et Evangelicam lectionem
+in qua scriptum est: <hi>Pater, glorifica me apud te ea
+gloria, quam habui priusquam mundus fieret <note>(Joan.
+XVII, 5)</note>
+              </hi>. Et respondit de coelo Pater: <hi>Et glorificavi,
+et glorificabo <note>(Ibid., XII, 28)</note>
+              </hi>. Vel certe quia legitur: <hi>Pater in me, et ego in Patre 
+ <note>(Ibid., XVII, 21)</note>
+              </hi>,
+<pb n="1134D"/>
+sicut templum Patris Filius est, ita templum Filii
+Pater. Ipse enim dicit: <hi>Ego de Patre exivi, et veni <note>(Ibid., XVI, 28)</note>
+              </hi>.
+Et: <hi>Verbum erat apud Deum, et Deus
+erat Verbum <note>(Joan. I, 1)</note>
+              </hi>. Aut unus idemque Salvator
+quasi homo postulat: quasi Deus pollicetur; et
+de sua quam semper habuit, possessione securus
+est. Ex Jonae vero persona, vel optantis, vel confidentis
+affectu liquido intelligi potest, quod desideraverit
+in profundo maris positus videre templum Domini,
+et spiritu prophetali alibi sit, et aliud [ <hi>Al.</hi> alibi]
+contempletur.</p>
+<p> <emph>410</emph> <note>(Vers. 6.)</note> <hi>Circumdederunt me aquae usque ad
+<pb n="1135A"/>
+animam meam, abyssus vallavit me.</hi> LXX. <hi>Circumfusa
+est mihi aqua usque ad animam meam: abyssus vallavit
+me novissima.</hi> Aquae istae, quae vicinae sunt abyssis,
+quae in terris volvuntur, et defluunt, quae multum
+secum limi trahunt, non corpus, sed animam nituntur
+occidere, amicae quippe sunt corporum, et ejus voluptatibus
+confoventur. Unde secundum illud quod supra
+diximus, loquitur Dominus in Psalmo: <hi>Salvum me
+fac, Domine, quoniam intraverunt aquae usque ad animam
+meam <note>(Ps. LXVIII, 1)</note>
+              </hi>. Et in alio loco: <hi>Torrentem
+pertransiit anima nostra <note>(Psal. CXXIII, 3)</note>
+              </hi>. Et: <hi>Ne urgeat super me puteus os suum, neque concludat
+infernus 
+ <note>(Ibid., LXVIII, 16)</note>
+              </hi>; non mihi deneget exitum,
+qui sponte descendi, sponte conscendam, qui voluntarius
+captivus veni, debeo deliberare captivos, ut
+<pb n="1135B"/>
+impleatur illud: <hi>Ascendens in altum captivam duxit
+captivitatem <note>(Ps. LXVII)</note>
+              </hi>: eos enim qui ante captivi
+fuerant in morte, iste cepit ad vitam. Abyssos autem
+perniciosas quasdam et pessimas fortitudines
+accipere debemus, vel tormentis suppliciisque deditas
+potestates, ad quas et in Evangelio daemones rogant
+ne ire cogantur <note>(Luc. VIII)</note>. Unde et tenebrae
+erant super abyssum <note>(Gen. I)</note>. Interdum abyssus accipitur
+et pro sacramentis ac profundissimis sensibus,
+et judiciis Dei: <hi>Judicia Domini abyssus multa <note>(Ps. XXXV,
+7)</note>
+              </hi>. Et: <hi>Abyssus abyssum invocat, in voce cataractarum
+tuarum <note>(Ps. XLI, 8)</note>
+              </hi>.</p>
+<p> <hi>Pelagus operuit caput meum, ad extrema montium
+descendi, terrae vectes concluserunt me in aeternum.</hi> LXX: <hi>Intravit caput meum ad scissuras montium:
+<pb n="1135C"/>
+descendi in terram, cujus vectes sunt retinacula sempiterna.</hi> 
+Quod Jonae caput pelagus operuerit, et ad
+montium extrema descenderit, et venerit usque ad
+profunda terrarum, quibus quasi vectibus et columnis
+Dei voluntate globus terrae sustentatur, nulli dubium
+est, de qua et alibi dicitur: <hi>Ego confirmavi
+columnas ejus <note>(Ps. LXXIV, 4)</note>
+              </hi>. De Domino autem Salvatore
+juxta utramque editionem videtur mihi sic
+posse intelligi, quod principale et caput ejus, id est,
+anima quam cum corpore pro salute nostra dignanter
+assumpsit, descenderint in scissuras montium,
+qui fluctibus operiebantur, qui se a coeli subtraxerant
+libertate, quos abyssus ambiebat, qui se a Dei
+sciderant <emph>411</emph> majestate, et postea etiam ad inferna
+penetrarit: ad quae loca quasi in extremo limo
+<pb n="1135D"/>
+peccatorum, animae trahebantur, dicente Psalmographo: <hi>Intrabunt in inferiora terrae, partes vulpium
+erunt 
+ <note>(Ps. LXII, 10, 11)</note>
+              </hi>. Isti sunt vectes terrae, et
+quasi quaedam serae extremi carceris ac suppliciorum,
+nolentes ab inferis animas exire captivas. Unde significanter
+LXX <foreign xml:lang="greek">κάτοχοι αἰώνιοι</foreign> [Al. <foreign xml:lang="greek">κατόχους αἰωνίους</foreign>]
+transtulerunt, hoc est, semper tenere cupientes,
+quos semel invaserant. Sed Dominus noster, de
+<pb n="1136A"/>
+quo sub persona Cyri in Isaia legimus: <hi>Fores aeneas
+conteram, et vectes ferreos confringam <note>(Isa. IV, 2)</note>
+              </hi>,
+ad montium extrema descendit, et aeternis conclusus
+est vectibus, ut omnes qui clausi fuerant, liberaret.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 7.)</note> </head>
+            <p>
+ <hi>Et sublevabis de corruptione vitam meam,
+Domine Deus meus.</hi> LXX: <hi>Et ascendat de corruptione
+vita mea, Domine Deus meus.</hi> Proprie dixit, <hi>sublevabis:</hi> 
+ vel <hi>ascendat de corruptione vita mea,</hi> 
+quia ad corruptionem, et ad inferna descenderat. Hoc
+est, quod Apostoli interpretantur in quinto decimo
+psalmo ex persona Domini prophetatum: <hi>Quoniam
+non derelinques animam meam in inferno, nec
+dabis sanctum tuum videre corruptionem:</hi> quod David
+scilicet mortuus sit et sepultus: Salvatoris autem caro
+<pb n="1136B"/>
+non viderit corruptionem. Alii vero interpretantur
+quod ad comparationem coelestis beatitudinis et
+Verbi Dei, humanum corpus corruptio sit, quod seminatur
+in corruptione; et in centesimo secundo
+psalmo ex persona Justi significetur: <hi>Qui sanat
+omnes infirmitates tuas: qui redemit de interitu vitam
+tuam.</hi> Unde et Apostolus dicit: <hi>Miser ego homo,
+quis me liberabit de corpore mortis hujus <note>(Rom. VII, 24)</note>
+            </hi>?
+Et appellatur corpus mortis, vel corpus humilitatis.
+Hoc illi ad occasionem suae ducunt haereseos: ut
+sub persona Christi mentiantur antichristum: Ecclesias
+teneant, ut ventrem pinguissimum nutriant, et
+carnaliter viventes, contra carnem disputent [ <hi>Al.</hi> 
+disputant]. Nos autem scimus de incorrupta Virgine
+corpus assumptum, non corruptionem Christi fuisse,
+<pb n="1136C"/>
+sed templum. Quod si in Apostoli ad Corinthios sententiam
+trahimur, in qua corpus dicitur spirituale <note>(I Cor. XV)</note>,
+ne contentiosi <emph>412</emph> videamur, dicemus
+idipsum quidem corpus, et eamdem carnem resurgere,
+quae sepulta est, quae in humo condita; sed
+mutare eam gloriam, non mutare naturam: <hi>Oportet
+enim corruptivum hoc induere incorruptionem, et mortale
+hoc induere immortalitatem.</hi> Quando dicitur, <hi>hoc,</hi> 
+quodammodo duobus digitulis comprehensum corpus
+ostenditur: hoc in quo nascimur, hoc in quo
+morimur, hoc quod timent recipere qui puniendi
+sunt, hoc quod virginitas exspectat ad praemium,
+adulterium formidat ad poenam. Super Jona autem ita
+intelligi potest: Quod qui in ventre ceti juxta naturam
+corporum corrumpi debuerat, et in cibos bestiae
+<pb n="1136D"/>
+proficere, ac per venas artusque diffundi, sospes
+et integer manserit. Porro quod ait: <hi>Domine Deus
+meus,</hi> blandientis affectus est, quod communem
+Deum omnium, beneficii magnitudine suum et quasi
+proprium senserit Deum.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 8.)</note> </head>
+            <p>
+ <hi>Cum angustiaretur</hi> [Al. <hi>anxiaretur] in
+me anima mea, Domini recordatus sum.</hi> LXX: <hi>Cum
+deficeret ex me anima mea, Domini recordatus sum.</hi> 
+<pb n="1137A"/>
+Cum, inquit, nullum aliud sperarem auxilium, recordatio
+Domini mihi saluti fuit, juxta illud: <hi>Recordatus
+sum Domini, et laetatus sum <note>(Ps. LXXVI, 4)</note>
+            </hi>.
+Et in alio loco: <hi>Recordatus sum dierum antiquorum,
+et annos aeternos in mente habui <note>(Ps. LXXVI, 6)</note>
+            </hi>. Ego
+cum desperarem salutem, et carnis fragilitas in medio
+ventre ceti nihil me de vita sperare permitteret,
+quidquid impossibile videbatur, Domini recordatione
+superatum est. Videbam me clausum in utero ceti,
+et tota spes mea Dominus erat. Ex quibus discimus
+juxta Septuaginta eo tempore quo deficit anima nostra,
+et a corporis compage divellitur, non nos debere alio
+cogitationem vertere, nisi ad eum, qui et in corpore
+et extra corpus noster est Dominus. Super Salvatoris
+vero persona non est difficilis interpretatio, qui dixit:
+<pb n="1137B"/> <hi>Tristis est anima mea usque ad mortem 
+ <note>(Matth.
+XXVI, 38, 39)</note>
+            </hi>. Et: <hi>Pater, si possibile est, transeat a
+me calix iste.</hi> Et: <hi>In manus tuas commendo spiritum
+meum <note>(Ps. XXX, 6)</note>
+            </hi>: et caetera his similia.
+</p>
+            <p> <hi>Ut veniat ad te oratio mea, ad templum</hi> <emph>413</emph> <hi>sanctum
+tuum.</hi> LXX similiter. Idcirco in tribulatione
+Domini recordatus sum, ut oratio mea de extremo
+mari, et scissuris montium conscendat ad coelos, et
+veniat ad templum sanctum tuum, in quo tu aeterna
+frueris beatitudine. Et considerandum quod novo
+genere, oratio fiat pro oratione, et precetur ut oratio
+illius conscendat ad templum Dei. Petit autem quasi
+pontifex, ut in corpore suo populus liberetur.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 9.)</note> </head>
+            <p>
+ <hi>Qui custodiunt vanitates frustra, misericordiam
+suam derelinquent.</hi> LXX: <hi>Qui custodiunt
+<pb n="1137C"/>
+vana et mendacia, misericordiam suam reliquerunt.</hi> 
+Deus natura misericors est, et paratus ut salvet
+clementia, quos non potest salvare justitia: nos
+autem vitio nostro paratam misericordiam, et ultro
+se offerentem perdimus et relinquimus. Et non dixit, <hi>qui faciunt vanitates</hi> 
+ (Vanitas quippe vanitatum, et
+omnia vanitas <note>(Eccl. I, 2)</note> ne damnare videretur
+universos, et cuncto generi humano misericordiam
+denegare; sed qui custodiunt vanitates, sive mendacium,
+qui transierunt in affectum cordis: qui non
+solum faciunt, sed ita custodiunt vanitates, quasi
+diligant, et thesaurum invenire se putent. Simulque
+cerne magnanimitatem prophetae, in profundo maris,
+in ventre tantae bestiae aeterna nocte coopertus,
+non cogitat de periculo suo, sed de natura rerum,
+<pb n="1137D"/>
+generali sententia philosophatur. <hi>Misericordiam,</hi> inquit, <hi>suam derelinquent.</hi> 
+ Licet offensa sit misericordia,
+quam nos possumus ipsum intelligere Deum
+( <hi>Misericors enim et miserator Dominus, patiens et
+multae miserationis <note>(Ps. CXLIV, 8)</note>
+            </hi>, tamen eos qui
+<pb n="1138A"/>
+custodiunt vanitates, non relinquit, non detestatur,
+sed exspectat ut redeant: illi vero stantem misericordiam
+et ultro se offerentem sponte propria
+derelinquunt. Potest hoc et ex persona Domini de
+Judaeorum perfidia prophetari, qui dum se aestimant
+praecepta hominum et Pharisaeorum mandata servare,
+quae vanitas atque mendacium sunt, Deum
+qui semper eorum misertus fuerat, reliquerunt.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 10.)</note> </head>
+            <p>
+ <hi>Ego autem in voce laudis immolabo tibi:</hi> <emph>414</emph> 
+ <hi>quaecumque vovi reddam pro salute Domino.</hi> 
+LXX: <hi>Ego autem cum voce laudis et confessionis
+immolabo tibi, quaecumque vovi reddam tibi salutare
+Domino.</hi> Qui custodiunt vanitates, suam misericordiam
+reliquerunt: ego autem qui pro multorum salute
+devoratus sum, in voce laudis et confessionis
+<pb n="1138B"/>
+immolabo tibi, meipsum offerens: <hi>quia Pascha nostrum
+immolatus est Christus <note>(I Cor. V)</note>
+            </hi>. Et quasi verus
+pontifex et ovis seipsum pro nobis obtulit. Et
+confitebor, inquit, tibi ut ante confessus sum, dicens: <hi>Confiteor</hi> 
+ [Al. <hi>Confitebor] tibi, Pater Domine
+coeli et terrae <note>(Mat. XI, 15; Joan. VI, 39)</note>
+            </hi>; et reddam
+vota, quae feci pro salute omnium Domino, ut
+omne quod dedisti mihi non pereat in aeternum. Cernimus
+quid in sua passione Salvator pro nostra salute
+promiserit: non faciamus mendacem Jesum:
+ergo mundi simus, et ab universis peccatorum sordibus
+separati, ut nos Deo Patri offerat victimas
+quas voverat.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 11.)</note> </head>
+            <p>
+ <hi>Et dixit Dominus pisci: et evomuit Jonam
+in aridam.</hi> LXX: <hi>Et praecepit ceto, et ejecit Jonam
+<pb n="1138C"/>
+super siccum.</hi> Haec quae supra legimus sub persona
+Jonae Dominus deprecatus est in ventre ceti,
+de quo et Job mystice loquitur: <hi>Maledicat ei qui maledixit
+diei, ille qui magnum cetum capturus est <note>(Job.
+III, 8)</note>
+            </hi>. Praecipitur ergo huic magno ceto, et abyssis
+et inferno, ut terris restituant Salvatorem: et
+qui mortuus fuerat, ut liberaret eos qui mortis vinculis
+tenebantur, secum plurimos educat ad vitam.
+Quod autem scribitur <hi>evomuit,</hi> <foreign xml:lang="greek">ἐμφατικώτερον</foreign> debemus
+accipere: quod ex imis vitalibus mortis, victrix
+vita processerit.</p>
+          </div3>
+        </div2>
+<div2 id="III">
+          <head>
+            <note>(CAP. III)</note>
+          </head>
+<div3>
+            <head>
+              <note>(Cap. III.--Vers. 1, 2.)</note> </head>
+            <p>
+ <hi>Et factum est verbum Domini
+ad Jonam secundo, dicens: Surge et vade in Niniven
+civitatem magnam, et praedica in ea juxta praedicationem
+priorem, quam ego loquor ad te.</hi> LXX: <hi>Et
+<pb n="1138D"/>
+factus est sermo Domini ad Jonam secundo, dicens:
+Surge, et vade in Niniven civitatem magnam, et praedica
+in ea juxta praedicationem priorem, quam ego locutus
+sum ad te.</hi> Non dicitur prophetae, quare non
+fecisti quod tibi fuerat imperatum, sed sufficit ei
+<pb n="1139A"/>
+naufragii et <emph>415</emph> devorationis sola correptio, ut
+qui imperantem non senserat Dominum, intelligeret
+liberantem. Alioquin superfluum est delinquenti
+servo post plagas velle imputare quod fecit, cum
+hujuscemodi correptio non tam emendatio sit, quam
+exprobratio. Dominus autem noster post resurrectionem
+secundo mittitur ad Niniven, ut qui prius
+quodammodo fugerat, dicens: <hi>Pater, si possibile est,
+transeat a me calix iste <note>(Mat. XXVI, 39)</note>
+            </hi>, et noluerat
+dare panem filiorum canibus <note>(Ibid., XV)</note>; nunc quia
+illi dixerant, <hi>Crucifige, crucifige talem: Nos non habemus
+regem nisi Caesarem <note>(Joan. XIX, 15)</note>
+            </hi>, sponte
+pergit ad Niniven, ut hoc praedicet post resurrectionem,
+quod ut praedicaret, et ante passionem ei fuerat
+imperatum. Totum autem quod jubetur, quod
+<pb n="1139B"/>
+obedit, quod non vult, quod iterum velle cogitur,
+quod Patris secundo exsequitur voluntatem, refer ad
+hominem et ad formam servi, cui talia verba conveniunt.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 3.)</note> </head>
+            <p>
+ <hi>Et surrexit Jonas, et abiit in Niniven
+juxta verbum Domini: et Ninive erat civitas magna
+Dei</hi> [Vulg. tacet <hi>Dei], itinere trium dierum: et coepit
+Jonas introire in civitatem itinere diei unius.</hi> LXX: <hi>Et
+surrexit Jonas, et abiit in Niniven, sicut ei locutus
+fuerat Dominus. Erat autem Ninive civitas magna
+Deo, quasi itinere viae dierum trium: et coepit Jonas
+ingredi civitatem quasi itinere viae unius diei.</hi> Statim
+Jonas quod fuerat sibi imperatum opere perfecit.
+Ninive autem erat, ad quam pergebat propheta, civitas
+magna, et tanti ambitus, ut vix trium dierum
+<pb n="1139C"/>
+posset itinere circumiri. At ille praecepti et superioris
+naufragii memor, viam trium dierum unius diei
+festinatione complevit, quamquam sint qui ita simpliciter
+intelligant, quod in tertia tantum parte urbis
+praedicaverit, et ad reliquos confestim praedicationis
+sermo pervenerit. Dominus autem noster proprie
+post inferos consurgere dicitur, et verbum Domini
+praedicare, quando mittit apostolos ut baptizent
+eos, qui erant in Ninive, in nomine Patris et
+Filii et Spiritus sancti, hoc est, itinere trium dierum.
+Et hoc ipsum sacramentum <emph>416</emph> salutis humanae
+unius diei via, id est, unius Dei confessione
+perficitur, non tam apostolis, quam in apostolis praedicante
+Jona. Ipse enim dicit: <hi>Ecce ego vobiscum
+sum omnibus diebus usque ad consummationem saeculi</hi> 
+<pb n="1139D"/> <note>(Mat. XXVIII, 20)</note>.
+Nullique dubium quare Ninive
+magna sit civitas Dei, cum mundus et universa per
+ipsum facta sint, et sine ipso factum est nihil <note>(Joan.
+I, 3)</note>. Notandum quoque quod non dixerit, tribus
+<pb n="1140A"/>
+diebus et noctibus, vel, uno die et nocte, sed absolute, <hi>diebus et die,</hi> 
+ ut ostenderet in mysterio Trinitatis,
+et unius Dei confessione nihil esse tenebrosum.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 4.)</note> </head>
+            <p>
+ <hi>Et clamavit et dixit: adhuc quadraginta
+dies, et Ninive subvertetur.</hi> LXX: <hi>Et praedicavit et
+dixit: adhuc tres dies, et Ninive subvertetur.</hi> Trinus
+ numerus qui ponitur a Septuaginta, non convenit
+poenitentiae: et satis miror cur ita translatum sit,
+cum in Hebraeo nec litterarum, nec syllabarum,
+nec accentuum, nec verbi sit ulla communitas. Tres
+enim dicuntur SALOS ( ), et quadraginta ARBAIM
+( ). Alioquin et de Judaea tanto itinere missus
+propheta in Assyrios, dignam suae praedicationis poenitentiam
+flagitabat, ut antiqua et putrida vulnera diu
+<pb n="1140B"/>
+apposito curarentur emplastro. Porro quadragenarius
+numerus convenit peccatoribus et jejunio, et orationi,
+et sacco, et lacrymis, et perseverantiae deprecandi:
+ob quod et Moyses quadraginta diebus jejunavit in
+monte Sina <note>(Exod. XXXIV)</note>, et Elias fugiens Jezabel,
+indicta fame terrae Israel, et Dei desuper ira pendente,
+quadraginta dies jejunasse describitur <note>(III
+Reg. XXXIV)</note>. Ipse quoque Dominus verus Jona missus
+ad praedicationem mundi, jejunat quadraginta
+dies: et haereditatem nobis jejunii derelinquens, ad
+esum corporis sui sub hoc numero nostras animas
+praeparat. Quod autem clamavit, Evangelicum illud
+expletur: <hi>Stans clamabat in templo, dicens: Qui sitit,
+veniat ad me et bibat.</hi> Omnis enim sermo Salvatoris,
+quia de magnis praedicabat, clamor appellatur.
+<pb n="1140C"/>
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 5.)</note>
+            </head>
+            <p>
+ <hi>Et crediderunt viri Ninivitae in Deum,</hi> <emph>417</emph> <hi>et praedicaverunt jejunium, et vestiti sunt saccis a majore
+usque ad minorem.</hi> 
+ LXX similiter. Credidit
+Ninive, et Israel incredulus perseverat. Credidit praeputium,
+et circumcisio permanet infidelis. Et primum
+credunt viri de Ninive, qui ad aetatem Christi
+pervenerant: praedicantque jejunium, et vestiuntur
+saccis a majore usque ad minorem. Dignus et victus
+et habitus poenitentiae, ut qui offenderant Deum luxu
+et ambitione, eorum damnatione placent, per quae
+prius offenderant. Saccus et jejunium arma sunt
+poenitentiae, auxilia peccatorum: ante jejunium, et
+sic saccus; ante quod occultum est, et postea quod
+palam: hoc semper Deo, illud interdum exhibetur et
+hominibus. Et si e duobus necessariis unum est subtrahendum,
+<pb n="1140D"/>
+magis jejunium absque sacco, quam saccum
+eligam absque jejunio. Major aetas incipit, et
+usque ad minorem pervenit <note>(Job XXV, 5, 6)</note>: nullus
+enim absque peccato, et si unius quidem diei fuerit
+<pb n="1141A"/>
+vita ejus, et numerabiles anni vitae illius <hi>(Job
+XIV)</hi>. Si enim stellae non sunt mundae in conspectu
+Dei, quanto magis vermis et putredo, et hi qui peccato
+offendentis Adam tenentur obnoxii? Sed et ordo
+pulcherrimus: Praecipit Deus prophetae. Propheta
+praedicat civitati: prius viri credunt, et illis jejunium
+praedicantibus, omnis aetas sacco induitur.
+Viri non praedicant saccum, sed tantum jejunium:
+At vero hi [ <hi>Al.</hi> his] quibus poenitentia praecipitur,
+consequenter ad jejunium saccum copulant, ut inanis
+venter, et habitus luctuosus ambitiosius Dominum
+deprecentur.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 6 seq.)</note> </head>
+            <p>
+ <hi>Et pervenit verbum ad regem Ninive,
+et surrexit de solio suo, et abjecit vestimentum suum
+a se, et indutus est sacco, et sedit in cinere, et clamavit
+<pb n="1141B"/>
+et dixit in Ninive, ex ore regis et principum ejus
+dicens: Homines et jumenta, et boves et pecora non
+gustent quidquam, nec pascantur, et aquam non bibant,
+et operiantur saccis homines et jumenta, et clament
+ad Dominum</hi> <note>(Vulg. Deum)</note>
+            <hi> in fortitudine: et
+convertatur vir a via sua mala, et ab iniquitate quae est
+in manibus eorum. Quis scit si convertatur</hi> <emph>418</emph> <hi>et
+ignoscat Deus, et revertatur a furore irae suae et non
+peribimus?</hi> LXX: <hi>Et appropinquavit sermo ad regem
+Ninive et surrexit de throno suo, et abstulit stolam
+suam a se, et coopertus est sacco, et sedit in cinere, et
+praedicatum est Ninive a rege, et ab omnibus</hi> <note>(Al. hominibus)</note>
+            <hi>
+majoribus ejus, dicentibus: Homines et jumenta
+et boves et oves non gustent quidquam, nec pascantur,
+et aquam non bibant: et cooperti sunt saccis
+<pb n="1141C"/>
+homines et jumenta, et clamaverunt ad Dominum vehementer,
+et reversus est unusquisque de via sua mala,
+et ab iniquitate quae erat in manibus eorum dicentium:
+Quis scit si convertatur Deus et exhortetur, et avertatur
+ab ira furoris sui, et non pereamus?</hi> Scio plerosque
+regem Ninive (qui extremus audiat praedicationem,
+et descendat de solio suo, et pristinum abjiciat
+ornatum, vestitusque sacco, sedeat in cinere:
+nec sua conversione contentus, caeteris quoque conducibus
+suis praedicet poenitentiam, dicens: <hi>Homines,
+et jumenta, et boves, et pecora</hi> crucientur fame,
+operiantur saccis, et damnatis pristinis vitiis, totos
+se conferant ad poenitentiam) super diabolo interpretari,
+qui in fine mundi (quia nulla rationabilis,
+et quae a Deo facta sit, creatura pereat) descendens
+<pb n="1141D"/>
+de sua superbia, acturus sit poenitentiam, et
+in locum pristinum restituendus. Ad cujus sensus
+comprobationem etiam illud de Daniele exemplum
+<pb n="1142A"/>
+proferunt: ubi Nabuchodonosor, acta per septem
+annos poenitentia, in regnum pristinum restituitur <note>(Dan. IV)</note>.
+Sed hoc quia sancta Scriptura non dicit,
+et evertit penitus timorem Dei, dum facile homines
+labuntur ad vitia, putantes etiam diabolum, qui
+auctor malorum est, et omnium peccatorum fons,
+acta poenitentia, posse salvari, de nostris mentibus
+abjiciamus. Et sciamus peccatores in Evangelio mitti
+in ignem aeternum, qui praeparatus sit diabolo et
+angelis ejus <note>(Matth. XXV)</note>, et de his dici: <hi>Vermis
+eorum non morietur, et ignis eorum non exstinguetur <note>(Isai. LXVI, 24)</note>
+            </hi>.
+Scimus quidem clementem esse
+Deum, nec qui peccatores sumus, crudelitate illius
+delectamur; sed legimus: <hi>Misericors et justus</hi> <emph>419</emph> 
+ <hi>Dominus, et Deus noster miseretur.</hi> Justitia
+<pb n="1142B"/>
+Dei vallatur misericordia, et tali ad judicium ambitione
+procedit: sic parcit, ut judicet: sic judicat,
+ut misereatur. <hi>Misericordia et veritas obviaverunt
+sibi: justitia et pax osculatae sunt se <note>(Psal. XLVIII,
+8)</note>
+            </hi>. Alioquin si omnes rationabiles creaturae aequales
+sunt, et vel ex virtutibus, vel ex vitiis sponte propria
+aut sursum eriguntur, aut in ima merguntur,
+et longo post circuitu atque infinitis saeculis, omnium
+rerum restitutio fiet, et una dignitas militantium,
+quae distantia erit inter virginem et prostibulum?
+Quae differentia erit inter matrem Domini, et
+(quod dictu quoque scelus est) victimas libidinum publicarum?
+Idemne erit Gabriel et diabolus? Idem apostoli
+et daemones? Idem prophetae et pseudo-prophetae?
+Idem martyres et persecutores? Finge quod libet,
+<pb n="1142C"/>
+annos et tempora duplica, et infinitas aetates
+congere cruciatibus: si finis omnium similis est, praeteritum
+omne pro nihilo est, quia non quaerimus
+quid aliquando fuerimus; sed quid semper futuri simus.
+Nec ignoro quae adversum haec soleant dicere,
+et spem sibi ac salutem cum diabolo praeparare. Verum
+non est istius temporis contra dogma perversum,
+et <foreign xml:lang="greek">σύμφραγμα</foreign> diabolicum docentium in angulis,
+et in publico denegantium, latius scribere. Sufficit
+nobis indicasse, quod de hoc testimonio senserimus,
+et quasi in commentariis breviter intimare,
+quis sit rex Ninive, ad quem extremum Dei sermo
+perveniat. [Quid valeat apud homines saeculi eloquentia
+et sapientia saecularis, testes sunt Demosthenes,
+Tullius, Plato, Xenophon, Theophrastus, Aristoteles,
+<pb n="1142D"/>
+et caeteri oratores ac philosophi, qui velut reges
+habentur hominum, et praecepta eorum non ut praecepta
+mortalium, sed quasi oracula accipiuntur deorum.
+<pb n="1143A"/>
+Unde et Plato dicit: Felices fore respublicas,
+si aut philosophi regnent, aut reges philosophentur. <emph>420</emph> 
+ Quam autem difficile istiusmodi homines credant
+in Deum, ut quotidiana exempla praeteream, et
+sileam de veteribus historiis ethnicorum, sufficit
+nobis Apostoli testimonium, qui ad Corinthios scribens,
+ait: <hi>Videte, fratres, vocationem vestram, quia
+non sunt multi sapientes secundum carnem non multi
+potentes, non multi nobiles: sed stulta mundi elegit
+Deus, ut confundat sapientes, et infirma mundi elegit
+Deus, ut confundat fortia, et ignobilia mundi, et ea
+quae erant contemptibilia elegit Deus <note>(I Cor. I, 26)</note>
+            </hi>, et
+caetera. Unde rursum dicit: <hi>Perdam sapientiam sapientium,
+et intelligentiam prudentium reprobabo <note>(Ibid.,
+XIX)</note>
+            </hi>. Et: <hi>Videte, ne quis vos spoliet per philosophiam et
+<pb n="1143B"/>
+inanem seductionem <note>(Col. II, 8)</note>
+            </hi>. Ex quo perspicuum
+est, praedicationem Christi reges mundi audire novissimos,
+et deposito fulgore eloquentiae et ornamentis
+ac decore verborum, totos se simplicitati et
+rusticitati tradere, et in plebeium cultum redactos
+sedere in sordibus, et destruere quod ante praedicaverant.
+Proponamus nobis beatum Cyprianum (qui
+prius idololatriae assertor fuit, et in tantam gloriam
+venit eloquentiae, ut oratoriam quoque doceret Carthagini)
+audisse tandem sermonem Jonae, et ad poenitentiam
+conversum, in tantam venisse virtutem,
+ut Christum publice praedicaret, et pro illo cervicem
+gladio flecteret. Profecto intelligimus regem Ninive
+descendisse de solio suo, et purpuram sacco, unguenta
+luto, munditias sordibus commutasse: non
+<pb n="1143C"/>
+sordibus sensuum, sed verborum. Unde et de Babylone
+in Jeremia dicitur: <hi>Calix aureus Babylon inebrians
+omnem terram <note>(Jerem. LI, 7)</note>
+            </hi>. Quem non inebriavit
+ eloquentia saecularis? cujus non animos
+compositione verborum et disertitudinis suae fulgore
+perstrinxit? Difficile homines potentes et nobiles et
+divites, et multo his difficilius eloquentes credunt
+Deo: obcaecatur enim mens eorum divitiis et opibus
+atque luxuria, et circumdati <emph>421</emph> vitiis, non possunt
+videre virtutes simplicitatemque Scripturae
+sanctae, non ex majestate sensuum, sed ex verborum
+judicant vilitate. Cum autem ipsi qui prius mala
+docuerant, versi ad poenitentiam, docere coeperint
+bona, tunc videbimus Niniviticos populos una praedicatione
+converti, et fieri illud quod in Isaia legimus:
+<pb n="1143D"/>
+ <hi>Si nata est gens semel.</hi> Homines quoque et
+jumenta operta saccis, et clamantia ad Dominum,
+eodem sensu intellige: quod et rationabiles, et irrationabiles,
+<pb n="1144A"/>
+et prudentes ac simplices ad praedicationem
+Jonae agant poenitentiam juxta illud, quod et
+alibi dicitur: <hi>Homines et jumenta salvabis, Domine <note>(Ps. XXXV, 7)</note>
+            </hi>.
+Possumus autem jumenta operta saccis
+et aliter interpretari, de his maxime testimoniis,
+in quibus legimus: <hi>Sol et lunainduentur sacco <note>(Ezech.
+XXXII, 7)</note>
+            </hi>. Et in alio loco: <hi>Induam coelum sacco <note>(Is. L, 3)</note>
+            </hi>,
+pro lugubri scilicet habitu, et moerore atque
+moestitia, quae <foreign xml:lang="greek">μεταφορικῶς</foreign> saccus nominantur.
+Illud quoque quod dicitur: <hi>Quis scit si convertatur,
+et ignoscat Deus?</hi> Ideo ambiguum ponitur et incertum:
+ut dum homines dubii sunt de salute, fortius
+agant poenitentiam, et magis ad misericordiam provocent
+Deum.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 10.)</note> </head>
+            <p>
+ <hi>Et vidit Deus opera eorum; quia conversi
+<pb n="1144B"/>
+sunt de via sua mala, et misertus est Deus super
+malitia, quam locutus fuerat, ut faceret eis, et non
+fecit.</hi> LXX: <hi>Et vidit Deus opera eorum, quoniam reversi
+sunt de viis suis malis, et egit poenitentiam Deus
+super malitia, quam locutus fuerat, ut faceret eis, et
+non fecit.</hi> Secundum utramque intelligentiam sive
+tunc urbi Assyriae, sive quotidie mundi Deus populis
+comminatur ut agant poenitentiam: qui si conversi
+fuerint, ipse quoque vertet [ <hi>Al.</hi> vertit] sententiam
+suam, et populi conversione mutabitur [ <hi>Al.</hi> mutatur].
+Quod et Jeremias et Ezechiel manifestius explicant,
+nec bona videlicet implere Dominum quae
+promiserit, si boni vertantur ad vitia; nec mala
+quae pessimis comminatur, si illi reversi fuerint ad
+salutem. Ita igitur et nunc vidit Deus opera, quia
+<pb n="1144C"/>
+conversi sunt a via sua pessima: non verba audivit
+quae solebat Israel saepe promittere: <hi>Omnia quaecumque
+dixerit Dominus, faciemus <note>(Exod. XXIV, 3)</note>
+            </hi>; <emph>422</emph> 
+sed opera conspexit: et quia mavult poenitentiam
+peccatoris, quam mortem <note>(Ezech. XVIII)</note>, libenter
+mutavit sententiam, quia vidit opera commutata.
+Quin potius Deus perseveravit in proposito suo misereri
+volens ab initio: nemo enim punire desiderans,
+quod facturus est comminatur. Malitiam autem,
+ut supra diximus, pro suppliciis et tormentis
+accipe: non quod Deus mali facere quidquam cogitaret
+[ <hi>Al.</hi> cogitet].</p>
+          </div3>
+        </div2>
+<div2 id="IV">
+          <head>
+            <note>(CAP. IV)</note>
+          </head>
+<div3>
+            <head>
+              <note>(Cap. IV.--Vers. 1.)</note> </head>
+            <p>
+ <hi>Et afflictus est Jonas afflictione
+magna, et iratus est: et oravit ad Dominum et dixit.</hi> 
+LXX: <hi>Et contristatus est Jonas tristitia grandi, et confusus
+<pb n="1144D"/>
+est: oravitque ad Dominum, et ait.</hi> Videns subintrare
+gentium plenitudinem, et illud impleri quod
+in Deuteronomio dicitur: <hi>Ipsi me irritaverunt in his,
+<pb n="1145A"/>
+qui non sunt dii, et ego eos irritabo super gente, quae
+non est: super natione stulta eis ad iracundiam concitabo <note>(Deut. XXXII, 31)</note>
+            </hi>,
+desperat de salute Israelis, et
+magno dolore concutitur, qui erumpit in vocem, et
+causas moeroris exponit, et quodammodo loquitur:
+Ego solus electus sum de tanto numero prophetarum,
+qui per aliorum salutem ruinam meo populo nuntiarem.
+Non igitur contristatur, ut quidam putant,
+quod gentium multitudo salvetur; sed quod pereat
+Israel. Unde et Dominus noster flevit super Jerusalem <note>(Luc. XIX)</note>,
+et noluit tollere panem filiorum, et
+dare eum canibus <note>(Marc. VII)</note>. Et Apostoli primum
+praedicant Israeli <note>(Act. XIII)</note>. Et Paulus cupit esse
+anathema pro fratribus suis, qui sunt Israelitae, et
+quorum adoptio et gloria, et Testamentum, et repromissiones,
+<pb n="1145B"/>
+et legislatio, ex quibus patres, et ex
+quibus Christus est secundum carnem <note>(Rom. IX)</note>.
+Pulchre autem <hi>dolens</hi> (quod interpretatur <hi>Jonas</hi> )
+affligitur dolore, et tristis est anima ejus usque ad
+mortem; quia ne periret populus Judaeorum, quantum
+in se fuit, multa perpessus est. Historiae quoque
+magis dolentis convenit nomen, significans laboriosum
+prophetam, et peregrinationis atque naufragii
+miseriis praegravatum.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 2, 3.)</note> </head>
+            <p>
+ <hi>Obsecro, Domine, numquid non hoc est
+verbum meum, cum adhuc essem in terra mea? propter
+hoc praeoccupavi ut fugerem</hi> <emph>423</emph> <hi>in Tharsis. Scio
+enim quia tu Deus clemens et misericors</hi> [Vulg. addit <hi>es], patiens, et multae miserationis, ignoscens super
+malitia, et nunc, Domine, tolle quaeso animam meam a
+<pb n="1145C"/>
+me, quia melior est mihi mors, quam vita.</hi> 
+ LXX: <hi>O
+Domine, nonne isti sunt sermones mei, cum adhuc
+essem in terra mea? propterea praeoccupavi fugere in
+Tharsis. Scio enim quod tu misericors et miserator,
+patiens et multae miserationis, et agens poenitentiam
+super malitiis, et nunc, dominator Domine, tolle animam
+meam a me, quia melius est mihi mori, quam vivere.</hi> 
+Hoc quod nos interpretati sumus, <hi>obsecro,</hi> et
+Septuaginta transtulerunt <foreign xml:lang="greek">ὦ δὴ</foreign>, in Hebraico legitur
+ANNA ( ), quae mihi videtur interjectio deprecantis
+significare blandientis affectum. Quia igitur oratio
+ejus, dum se dicit juste fugere voluisse, quodammodo
+injustitiae arguit Dominum, querelas suas obsecrationis
+exordio temperat. Numquid, ait, non hoc
+est verbum meum, cum adhuc essem in terra mea?
+<pb n="1145D"/>
+Scivi te hoc esse facturum: non ignorabam misericordem,
+propterea severum et truculentum nuntiare
+nolebam: ideo fugere volui in Tharsis, vacare contemplationi
+rerum, et in mari istius saeculi quiete
+potius et otio perfrui. Dimisi domum meam, reliqui
+<pb n="1146A"/>
+haereditatem meam, egressus sum de sinu tuo, et
+veni. Si misericordem dicerem atque clementem et
+ignoscentem malitiae, nullus ageret poenitentiam: si
+crudelem, et tantum judicem [ <hi>Al.</hi> judicium] nuntiarem,
+sciebam hoc tuae non esse naturae. In hoc ergo
+ambiguo positus, malui fugere potius, quam aut
+poenitentes lenitate decipere, aut de te praedicare
+quod non eras. Tolle igitur, Domine, animam meam:
+ quia melior mihi est mors, quam vita. Tolle animam
+meam, quae tristis fuit usque ad mortem.
+Tolle animam meam: In manus enim tuas commendo
+spiritum meum <note>(Luc. XV)</note>, melior quippe
+mihi est mors, quam vita. Vivens unam Israel
+gentem salvare non potui: moriar, et mundus salvabitur.
+Historia manifesta est, et super persona
+<pb n="1146B"/>
+prophetae sic potest intelligi, ut crebro jam diximus,
+quod propterea <emph>424</emph> contristetur et mori velit, ne
+conversa multitudine gentium, in aeternum pereat
+Israel.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 4.)</note> </head>
+            <p>
+ <hi>Et dixit Dominus: putasne bene irasceris
+tu?</hi> LXX: <hi>Et dixit Dominus ad Jonam: Si vehementer
+contristatus es tu?</hi> Verbum Hebraicum ARA LAC
+( ), et <hi>iratus es tu,</hi> et <hi>contristatus es tu,</hi> transferri
+potest: quod utrumque et prophetae, et Domini
+personae convenit, quod vel iratus sit, ne videretur
+apud Ninivitas fuisse mentitus, vel contristatus, intelligens
+Israel esse periturum. Et rationabiliter non
+ei dicit, male iratus es, vel contristatus es, ne videretur
+reprehendere contristatum. Nec rursum, bene
+iratus es, aut contristatus: ne suae sententiae contrairet;
+<pb n="1146C"/>
+sed interrogat ipsum, qui iratus est et contristatus,
+ut vel causas irae respondeat, vel moeroris:
+aut si ille tacuerit, verum Dei judicium ex ejus silentio
+comprobetur.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 5.)</note> </head>
+            <p>
+ <hi>Et egressus est Jonas de civitate, et sedit
+contra orientem civitatis, et fecit sibimet umbraculum
+ibi, et sedebat subter illud in umbra, donec videret
+quid accideret civitati.</hi> LXX similiter. Primus Cain
+fratricida, et homicida cruentum mundum germani
+sanguine dedicans, aedificavit civitatem, et vocavit
+eam ex nomine filii sui Enoch <note>(Genes. IV)</note>. Unde et
+Osee propheta dicit, <hi>Deus ego et non homo, in medio
+tui sanctus: et non ingrediar civitatem <note>(Osee XI, 9)</note>
+            </hi>.
+Domini enim, Psalmista dicente, sunt exitus mortis <note>(Ps. LXVII)</note>.
+Quamobrem et una fugitivorum civitas
+<pb n="1146D"/>
+appellatur <hi>Ramoth</hi> ( ), quod interpretatur <hi>visio
+mortis.</hi> Et recte quicumque fugitivus est, et propter
+peccata non meretur habitare Jerusalem, habitat in
+urbe mortis, et est trans fluentas Jordanis, qui <hi>descensus</hi> 
+exprimitur. Egreditur ergo columba, vel dolens,
+<pb n="1147A"/>
+de istiusmodi civitate, et habitat contra Orientem,
+unde sol oritur: et est ibi in tabernaculo suo,
+ubi labentia quaeque tempora contemplatus, exspectat
+quid supradictae eveniat civitati: antequam Ninive
+salvaretur, et aresceret [ <hi>Al.</hi> accresceret] cucurbita:
+antequam Christi Evangelium coruscaret;
+et compleretur Zachariae prophetia: <hi>Ecce vir</hi> <emph>425</emph> <hi>Oriens nomen ejus 
+ <note>(Zach. VI, 12)</note>
+            </hi>, Jonas sub umbraculo
+erat. Nec dum quippe veritas venerat, de qua
+idem evangelista et apostolus loquitur. <hi>Deus veritas
+est.</hi> Et eleganter additur <hi>Et fecit sibimet umbraculum
+ibi <note>(I Joan. IV, 8)</note>
+            </hi>, juxta Niniven. Sibimet fecit, nullus
+enim de Ninivitis tunc temporis habitare poterat
+cum propheta: et sedebat sub umbra, vel judicis
+habitu, vel de sua majestate contractus, et accinctus
+<pb n="1147B"/>
+lumbos in fortitudine, ut non tota ad pedes, et ad
+nos, qui deorsum sumus, vestimenta defluerent, sed
+in se arctiori [ <hi>Al.</hi> altiori] baltheo contraherentur.
+Porro quod dicit <hi>ut videret quid accideret civitati,</hi> solita
+consuetudine utitur Scripturarum, ut humanos
+Deo jungat affectus.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 6.)</note> </head>
+            <p>
+ <hi>Et praeparavit Dominus Deus hederam,
+et ascendit super caput Jonae, ut esset umbra super caput
+ejus, et protegeret eum, laboraverat enim: et laetatus
+est Jonas super hedera laetitia magna.</hi> LXX: <hi>Et
+praecepit Dominus Deus cucurbitae, et ascendit super
+caput Jonae, ut esset umbraculum super caput ejus, et
+protegeret eum a suis malis: laetatusque est Jonas super
+cucurbita gaudio magno.</hi> In hoc loco quidam
+ Cantherius de antiquissimo genere Corneliorum,
+<pb n="1147C"/>
+sive (ut ipse jactat) de stirpe Asinii Pollionis, dudum
+Romae dicitur me accusasse sacrilegii, quod pro
+cucurbita, hederam transtulerim: timuit videlicet,
+ne si pro cucurbitis hederae nascerentur, unde occulte
+et tenebrose biberet, non haberet. Et revera
+<pb n="1148A"/>
+in ipsis cucurbitis vasculorum, quas vulgo Saucomarias
+vocant, solent apostolorum imagines adumbrare:
+e quibus et ille sibi non suum nomen assumpsit.
+Quod si tam facile vocabula commutantur, ut
+pro Corneliis seditiosis tribunis, Aemilii consules
+appellentur, miror cur mihi non liceat hederam
+transferre pro cucurbita. Sed veniamus ad seria.
+Pro <hi>cucurbita,</hi> sive <hi>hedera</hi> in Hebraeo legimus CICEION
+( ), quae etiam lingua Syra et Punica
+ CICEIA dicitur. Est autem genus virgulti, vel arbusculae,
+lata habens [ <hi>Al.</hi> habentis] folia in modum
+pampini, et umbram densissimam, suo trunco se
+sustinens, quae in Palaestina creberrime <emph>426</emph> nascitur,
+et maxime in arenosis locis: mirumque in modum,
+si sementem in terram jeceris, cito confota
+<pb n="1148B"/>
+consurgit in arborem, et intra paucos dies quam herbam
+videras, arbusculam suspicis. Unde et nos eodem
+tempore quo interpretabamur prophetas, voluimus
+idipsum Hebraeae linguae nomen exprimere,
+quia sermo Latinus hanc speciem arboris non habebat;
+sed timuimus grammaticos, ne invenirent
+licentiam commentandi: et vel bestias Indiae, vel
+montes Boeotiae, aut istius modi quaedam portenta
+confingerent, secutique sumus veteres translatores,
+qui et ipsi hederam interpretati sunt, quae Graece appellatur <foreign xml:lang="greek">κισσὸς,</foreign>
+ aliud enim quod dicerent, non habebant.
+Discutiamus ergo historiam, et ante mysticos
+intellectus, solam litteram ventilemus. Cucurbita et
+hedera hujus naturae sunt, ut per terram reptent,
+et absque furcis vel adminiculis, quibus innituntur,
+<pb n="1148C"/>
+altiora non appetant. Quomodo igitur, ignorante
+propheta, cucurbita in una nocte consurgens umbraculum
+praebuit, quae naturam non habet sine pergulis
+[ <hi>Al.</hi> perculis] et calamis vel hastilibus in sublime consurgere? <hi>Ciceion</hi> 
+ autem cum in ortu subito miraculum
+<pb n="1149A"/>
+praebuerit, et potentiam ostenderit Dei in
+protectione virentis umbraculi, et naturam suam
+secuta est. Ad personam vero Domini Salvatoris,
+ne penitus propter <foreign xml:lang="greek">φιλοκολύκηνθον,</foreign> cucurbitam
+relinquamus, sic referri potest, ut illud commemoremus
+Isaiae: <hi>Relinquetur filia Sion sicut tabernaculum
+in vinea, et velut casula in cucumerario, quasi civitas
+quae expugnatur <note>(Isai. VIII)</note>
+            </hi>. Et dicamus quia in
+alio Scripturae loco cucurbitam non invenimus, quod
+ubi cucumis nascitur, ibi nasci soleat et cucurbita.
+Et Israel huic generi comparatum, quod quondam
+protexerit Jonam sub umbra sua conversionem
+gentium praestolantem, et non parvam laetitiam tribuerit
+ei faciens umbraculum et tabernaculum, potius
+quam domum, habens tectorum imaginem, domorum
+<pb n="1149B"/>
+non habens fundamenta. Porro CICEION nostra
+arbuscula modica, cito consurgens, <emph>427</emph> et cito
+arescens ordine et vita [ <hi>Al.</hi> via] comparabitur
+Israeli, radices parvas mittenti in terram, et conanti
+quidem in excelsa sustolli; sed altitudinem
+cedrorum Dei et abietum non aequanti. Quod mihi
+videntur et locustae significare, quibus vescebatur
+Joannes, qui dicit sub typo Israelis: <hi>Illum oportet
+crescere, me autem minui <note>(Joan. III, 30)</note>
+            </hi>: animal parvum,
+infirmas habens alas, de terra quidem consurgens,
+sed altius non valens avolare, ut plus sit quam
+reptile, et tamen avibus non aequetur.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 7 et 8.)</note> </head>
+            <p>
+ <hi>Et paravit Dominus vermem ascensione
+diluculi in crastinum, et percussit hederam, et
+exaruit: et cum ortus fuisset sol, praecepit Dominus
+<pb n="1149C"/>
+vento calido et urenti; et percussit sol super caput Jonae,
+et aestuabat: et petiit animae suae ut moreretur,
+et dixit: Melius est mihi mori, quam vivere.</hi> LXX: <hi>Et praecepit Deus vermi mane in crastinum, et percussit
+cucurbitam, et arefacta est: statimque ut ortus
+est sol, praecepit Dominus spiritui ardoris urenti, et
+percussit sol super caput Jonae, et angustiatus est, et
+taeduit eum animae suae, et dixit: Melius est mihi mori,
+quam vivere.</hi> 
+ Antequam oriretur sol justitiae, virens
+erat umbraculum, et non arebat Israel: postquam
+ille surrexit, et tenebrae Niniviticae ejus luce discussae
+sunt, paratus vermis in crastinum ascensione
+diluculi (de quo vicesimus primus psalmus inscribitur: <hi>Pro assumptione matutina;</hi> 
+ et qui absque
+ullo semine de terra oritur, et dicit: <hi>Ego sum vermis
+<pb n="1149D"/>
+et non homo <note>(Ps. XXI, 7)</note>
+            </hi> percussit umbraculum,
+quod desertum auxilio Dei omnem virorem perdidit.
+Praecepitque Dominus vento calido et urenti,
+de quo prophetatur in Osee: <hi>Adducet urentem ventum
+Dominus de deserto ascendentem, et siccabit venas
+ejus, et desolabit fontem ejus <note>(Osee XIII, 15)</note>
+            </hi>. Et
+aestuare coepit Jonas, et iterum velle mori in baptismate
+cum Israele, ut in lavacro recipiat humorem,
+quem in negatione perdiderat. Unde et Petrus arentibus
+<pb n="1150A"/>
+loquitur Judaeis: <hi>Poenitentiam agite, et baptizetur
+unusquisque vestrum in nomine Jesu Christi in remissionem
+peccatorum vestrorum, et accipietis donum
+Spiritus sancti <note>(Act. II, 38)</note>
+            </hi>. Sunt qui vermem et
+urentem ventum, Romanos intelligant duces, qui
+post resurrectionem Christi, Israel penitus deleverunt.
+</p>
+            <p> <emph>428</emph> <note>(Vers. 9.)</note> <hi>Et dixit Dominus ad Jonam: Putasne
+bene irasceris tu super hederam? Et dixit: bene irascor
+ego usque ad mortem.</hi> LXX: <hi>Et dixit Dominus
+Deus ad Jonam, valde contristaris tu super cucurbita?
+Et ait: valde contristor ego usque ad mortem.</hi> 
+Supra Ninivitis agentibus poenitentiam et gentium
+urbe salvata, interrogatus idipsum propheta: <hi>Putasne
+bene irasceris tu?</hi> nihil respondit, sed interrogationem
+<pb n="1150B"/>
+Dei silentio comprobavit, sciens enim clementem
+esse Deum, et misericordem, et patientem,
+et multae miserationis, et ignoscentem malitiis, super
+salute gentium non dolebat: hic autem postquam
+siccata [ <hi>Al.</hi> insiccata] cucurbita aruit Israel,
+et cum distinctione interrogatus: <hi>Bene irasceris tu
+super hedera?</hi> confidenter respondit et dicit: <hi>Bene
+irascor ego,</hi> vel <hi>contristor usque ad mortem:</hi> non
+enim sic volui salvare alios, ut perirent alii, non
+sic alienos lucrifacere, ut meos perderem. Et revera
+usque ad praesentem diem Christus plangit
+Israel: et Jerusalem plangit usque ad mortem, non
+suam, sed Judaeorum, ut moriantur negantes, et
+resurgant Dei Filium confitentes.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 10 et 11.)</note> </head>
+            <p>
+ <hi>Et dixit Dominus: Tu doles super
+<pb n="1150C"/>
+hedera, in qua non laborasti: neque fecisti ut
+cresceret: quae sub una nocte nata est, et sub una
+nocte periit: et ego non parcam Ninive civitati magnae,
+in qua sunt plusquam centum viginti millia hominum,
+qui nesciunt quid sit inter dextram et sinistram
+suam, et jumenta multa?</hi> LXX: <hi>Et dixit Dominus:
+Tu pepercisti super cucurbita, pro qua non
+laborasti, neque nutristi eam, quae nata est in nocte,
+et in nocte periit: ego autem non parcam Ninivae civitati
+magnae, in qua habitant plusquam duodecim myriades</hi> 
+[Al. <hi>millia] virorum qui ignorant dexteram et
+sinistram suam, et pecora multa?</hi> Nimiae difficultatis
+est exponere quomodo juxta tropologiam dicatur ad
+Filium: <hi>tu doles super hedera, in qua non laborasti,
+neque fecisti ut cresceret,</hi> cum omnia per ipsum facta
+<pb n="1150D"/>
+sint, et sine ipso factum est nihil <note>(Joan. I, 3)</note>.
+Unde quidam locum istum interpretans, ut imminentem
+solveret quaestionem, incurrit blasphemiam.
+Assumens enim illud de Evangelio: <hi>Quid
+me dicis bonum? Nemo bonus est nisi unus Deus <note>(Marc. X, 18)</note>
+            </hi>,
+Patrem interpretatus est bonum. <emph>429</emph> 
+ Filium vero ad comparationem ejus qui perfecte
+et vere bonus sit, in minori gradu positum. Et non
+consideravit haec dicens, quod in Marcionis potius
+<pb n="1151A"/>
+incurrerit haeresim (qui alterum Deum tantum bonum,
+alterum infert judicem et conditorem) quam
+Arii, qui cum majorem Patrem et minorem Filium
+praedicet: tamen Filium non negat conditorem. Ergo
+cum venia audienda sunt, quae dicturi sumus, et conatus
+nostri favore potius et orationibus adjuvandi,
+quam spernendi aure malevola, quia carpere et
+detrahere vel imperiti possunt; doctorum autem est,
+et qui laborantium novere sudorem, vel lassis manum
+porrigere, vel errantibus iter ostendere. Dominus
+noster atque Salvator non ita laboravit in Israel,
+quomodo laboravit in gentium populo. Denique Israel
+loquitur confidenter: <hi>Ecce tot annis servio tibi,
+et numquam mandatum tuum praeterivi, et numquam
+dedisti mihi haedum, ut cum amicis meis epularer: sed
+<pb n="1151B"/>
+postquam filius tuus hic qui devoravit substantiam
+suam cum meretricibus, venit, occidisti illi vitulum
+saginatum <note>(Luc. XV)</note>
+            </hi>: nec tamen confutatur a patre,
+sed clementer ei dicitur: <hi>Fili, tu semper mecum
+es, et omnia mea tua sunt: epulari et gaudere te oportebat,
+quia hic frater tuus mortuus erat, et revixit:
+perierat, et inventus est.</hi> Pro gentium populo immolatus
+est vitulus saginatus, et pretiosus sanguis
+effusus, de quo Paulus ad Hebraeos plenissime
+disputat <note>(Hebr. X)</note>. Et David in psalmo: <hi>Frater,</hi> 
+inquit, <hi>non redimit, redimet homo <note>(Ps. XLVIII, 8)</note>
+            </hi>. <emph>430</emph> 
+ Decrevit Christus, ut ille cresceret: iste mortuus
+est, ut ille viveret: hic descendit ad inferos, ut
+<pb n="1152A"/>
+ille coelos ascenderet. In Israel vero nullus tantus labor
+fuit. Unde et invidet juniori fratri, quod post substantiam
+cum meretricibus lenonibusque prodactam,
+recipiat annulum et stolam, et polleat pristina dignitate.
+Quod autem ait, quae sub una nocte nata est,
+significat tempus ante adventum Christi, qui mundi
+lumen fuit, de quo dicitur: <hi>Nox praecessit, dies autem
+appropinquavit <note>(Rom. XIII, 12)</note>
+            </hi>. Et una nocte periit,
+quando occubuit eis sol justitiae, et Dei perdidere
+sermonem. Civitas vero Ninive magna atque pulcherrima,
+praefigurat Ecclesiam, in qua major est numerus
+quam decem <note>( <hi>Al.</hi> duodecim)</note> tribuum Israel:
+quod et fragmenta in solitudine significant duodecim
+cophinorum <note>(Marc. VI)</note>. Ignorant autem quid sit inter
+dextram et sinistram, vel propter innocentiam et
+<pb n="1152B"/>
+simplicitatem, ut lactentem monstret aetatem, et relinquat
+intellectui, quantus sit numerus aetatis alterius,
+cum tantus sit parvulorum. Vel certe (quia
+magna erat urbs, et in domo magna non solum
+vasa sunt aurea et argentea, sed et lignea et fictilia <note>(II Tim. II)</note> 
+) erat in ea plurima multitudo, quae
+ignorabat ante actam poenitentiam quid esset inter
+bonum et malum, inter dextram et sinistram.
+Sed et jumenta multa: multus est enim Ninive numerus
+jumentorum et irrationabilium hominum, qui comparantur
+jumentis insipientibus, et assimilantur eis <note>(Ps. XLVIII)</note>.
+</p>
+          </div3>
+</div2>
+      </div1>
+</body>
+  </text>
+</TEI>

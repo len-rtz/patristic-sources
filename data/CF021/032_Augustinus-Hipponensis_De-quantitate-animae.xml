@@ -1,0 +1,3146 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>De quantitate animae</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 32</title>
+           <idno>AugHip.DeQuAn</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<note>
+        <div1>
+          <head>ADMONITIO DE SEQUENTE LIBRO DE QUANTITATE ANIMAE.</head>
+
+<pb n="1033"/>
+<p>Dialogum de Animae Quantitate cum Evodio habuit Augustinus, uti prodit ipse epistola centesima sexagesima
+secunda, eidem Evodio nonnullas rursum de anima quaestions proponent rescribens his verbis: <hi>Illa si
+<pb n="1035"/>
+relegas . . . . . quae te conferente mecum ac sermocinante conscripsi sive de Quantitate Animae, sive de Libero Arbitrio
+invenies unde dissolvas, etiam sine mea opera, dubitationes tuas <note>(Epist. 162, n. 2)</note>
+            </hi>. Inspectis porro locis illis in
+quibus editiones cum Mss. aliquot non admodum vetustis praeferunt Augustini et Adeodati veluti interlocutorum
+nomina; nihil in antiquis codicibus deprehensum a nobis est, praeter incertos quosdam characteres interrogationibus
+et responsionibus indigitandis interscriptos. Quapropter Adeodati nomen expungi oportuit:
+enimvero quo tempore dialogus hicce habebatur, vix adolescentiam attigerat Adeodatus; at is qui cum Augustino
+colloquitur, juvenem se esse dicit, cap. 24, n. 46.</p>
+<p>Visum autem est id operis non movere loco quem habita argumenti ratione obtinuit hactenus in editis, in
+quibus proxime post librum de Animae Immortalitate subsequitur. Testatur porro Augustinus libro primo Retractationum,
+capite septimo, <hi>se jam baptizatum, cum Romae esset, scripsisse libros de moribus Ecclesiae catholicae,
+et de Moribus Manichaeorum;</hi> tum in sequente capite istum quo de agimus dialogum eadem in urbe habuisse;
+postea vero libros de Libero Arbitrio ibidem incoeptos recenset: atque idcirco dialogum huncce versus initium
+anni Christi trecentesimi octogesimi octavi collocamus. Cum enim superiore anno Romam venisset Augustinus,
+magnam quoque sequentis anni partem ibi transegit, atque interea temporis libros praefatos
+conscripsit.
+</p>
+        </div1>
+      </note>
+
+<div1>
+        <head>DIALOGUS DE ANIMA.</head>
+<p>In hocce dialogo sex de anima quaestiones a collocutore proponuntur Augustino; quarum tertiam, scilicet, Quanta sit
+anima, penitius tractaturus distinguit imprimis duplex quantitatis genus, unum a mole et loci spatio; alterum a potentia
+et virtute dictum: illud quidem corporis proprium ab anima, quae prorsus incorporea sit, excludi, hoc autem reperiri in
+illa docet deinde magnitudinis istius gradus septem assignat, ad quos revocat quidquid anima humana sive in corpore,
+sive in seipsa, sive denique apud Deum valet.</p>
+
+
+<div2>
+          <head>CAPUT PRIMUM.-- <hi>Sex de anima quaestiones proponit Evodius. Unde sit anima. Animae patria Deus. Animae substantia propria et simplex.</hi> </head>
+<div3>
+            <head>1.</head>
+            <p>
+ <hi>E.</hi> Quoniam video te abundare otio, quaeso ut
+mihi respondeas de iis quae me movent, non, ut opinor,
+importune atque incongrue. Saepe enim cum abs
+te multa quaesissem, nescio qua illa graeca sententia
+me deterrendum putasti, qua prohibemur ea quae supra
+nos sunt requirere: nunc vero non puto nos ipsos
+supra nos esse. Quamobrem cum de anima quaero,
+non sum dignus qui audiam: Quod supra nos, quid ad
+nos? sed fortasse dignus qui audiam, quid simus
+nos. <hi>A.</hi> Enumera breviter quae de anima audire velis. <hi>E.</hi> 
+ Faciam: nam sunt mihi ista diuturna cogitatione
+praeparata. Quaero igitur unde sit anima, qualis sit,
+quanta sit, cur corpori fuerit data, et cum ad corpus
+venerit qualis efficiatur, qualis cum abscesserit?</p>
+          </div3>
+<div3>
+            <head>2.</head>
+            <p>
+ <hi>A.</hi> Cum quaeris unde sit anima, duo quaedam intelligere
+cogor. Aliter enim dicimus unde sit homo,
+quae sit ejus patria scire cupientes; aliter unde sit,
+cum quaerimus unde constet, id est, ex quibus elementis
+rebusque compositus. Quid horum scire vis
+cum interrogas unde sit anima? Utrumnam quasi regionem
+ejus et patriam, unde huc venerit, nosse desideras;
+an vero quae sit ejus substantia, requiris <hi>E.</hi> 
+ Equidem utrumque scire vellem, sed quid scit
+sciendum prius, tuo judicio malo committere. <hi>A.</hi> Propriam
+quamdam habitationem animae ac patriam
+<pb n="1036"/>
+Deum ipsum credo esse a quo creata est. Substantiam
+vero ejus nominare non possum: non enim eam puto
+esse ex iis usitatis notisque naturis, quas istis corporis
+sensibus tangimus. Nam neque ex terra, neque ex
+aqua, neque ex aere, neque ex igni, neque ex his
+omnibus, neque ex aliquibus horum conjunctis constare
+animam puto. Sed quemadmodum si ex me quaereres,
+arbor ista ex quibus constet, notissima ista
+elementa quatuor nominarem, ex quibus omnia talia
+constare credendum est; porro si pergeres quaerere,
+unde ipsa terra, vel aqua, vel aer, vel ignis constent,
+nihil jam quod dicerem reperirem: sic cum quaeritur
+ex quibus sit homo compositus, respondere possum,
+ex anima et corpore; rursum de corpore si quaeras,
+ad illa elementa quatuor recurram; de anima vero
+quaerenti tibi, cum simplex quiddam et propriae substantiae
+videatur esse, non aliter haeream ac si quaeras,
+ut dictum est, unde sit terra. <hi>E.</hi> Quomodo eam propriam
+velis habere substantiam, cum dixeris a Deo
+factam, non intelligo. <hi>A.</hi> Quomodo et terram ipsam a
+Deo factam, negare non possum; et tamen non possum
+dicere, ex quibus quasi aliis corporibus terra
+constet. Simplex enim corpus est terra, eo ipso quo
+terra est; et ideo elementum dicitur omnium istorum
+corporum, quae fiunt ex quatuor elementis. Non ergo
+sibi adversatur sententia qua dicimus, et a Deo animam
+factam, et propriam quamdam habere naturam.
+Hanc enim ejus propriam quamdam naturam et suam,
+Deus ipse fecit, ut ignis, ut aeris, ut aquae, ut terrae,
+quo caetera ex his omnibus componerentur.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT II.-- <hi>Anima qualis sit.</hi> </head>
+<div3>
+            <head>3.</head>
+            <p>
+ <hi>E.</hi> Interim accipio unde sit anima, id est, ex
+<pb n="1037"/>Deo, quae mecum sedulo retractabo, et si quid me
+moverit, post requiram. Unde quaeso, explices qualis
+sit. <hi>A.</hi> Videtur mihi esse similis Deo. De anima enim,
+nisi fallor, requiris humana. <hi>E.</hi> Idipsum est quod abs
+te explicari vellem, quemadmodum sit anima similis
+Deo; cum Deum a nullo factum esse credamus, animam
+vero ab ipso Deo factam supra dixeris. <hi>A.</hi> Quid?
+tu difficile putas Deo fuisse, ut aliquid sibi simile faceret,
+cum hoc in tanta varietate imaginum etiam videas
+nobis esse concessum? <hi>E.</hi> Sed nos videmur mortalia
+facere, Deus autem immortalem animam fecit, ut
+opinor, nisi forte tibi aliter videtur. <hi>A.</hi> Ergo tu velles
+talia fieri ab hominibus, qualia Deus fecit? <hi>E.</hi> Non
+equidem hoc dixerim. Sed quemadmodum ipse immortalis
+immortale quiddam fecit ad similitudinem
+suam; sic et nos immortales a Deo facti, ad similitudinem
+nostram quod facimus, immortale esse deberet. <hi>A.</hi> 
+ Recte diceres, si ad ejus imaginem pingeres tabulam,
+quod in te immortale esse credis: nunc vero in
+ea exprimis similitudinem corporis, quod profecto
+mortale est. <hi>E.</hi> Quomodo ergo sum similis Deo, cum
+immortalia nulla possum facere ut ille? <hi>A.</hi> Quomodo
+nec imago corporis tui potest hoc valere quod tuum
+corpus valet; sic anima non mirandum est si potentiam
+tantam non habet, quantam ille ad cujus similitudinem
+facta est.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT III.-- <hi>Anima quanta sit.</hi> </head>
+<div3>
+            <head>4.</head>
+            <p>
+ <hi>E.</hi> Et hoc interim satis est: dic nunc quanta sit
+anima. <hi>A.</hi> Quomodo quaeris quanta sit? Non enim intelligo
+utrum ejus quasi spatium latitudinis vel longitudinis,
+vel roboris, vel horum simul omnium requiras;
+an quantum valeat nosse velis. Solemus enim
+quaerere quantus fuerit Hercules, id est, in quot pedes
+statura ejus porrecta fuerit. Et item quantus vir fuerit,
+id est, quantae potentiae atque virtutis. <hi>E.</hi> Utrumque
+de anima scire cupio. <hi>A.</hi> Atqui illud superius dici
+non potest, nec omnino intelligi de anima. Non enim
+ullo modo, aut longa, aut lata, aut quasi valida suspicanda
+est anima: corporea ista sunt, ut mihi videtur;
+et de consuetudine corporum sic animam quaerimus.
+Ideoque bene praecipitur etiam in mysteriis, ut omnia
+corporea contemnat, universoque huic mundo renuntiet,
+qui, ut videmus, corporeus est, quisquis se talem
+reddi desiderat, qualis a Deo factus est, id est, similem
+Deo: non enim alia salus animae est, aut renovatio,
+aut reconcilaitio auctori suo. Quamobrem quanta
+sit anima secundum inquisitionem hanc tibi respondere
+non possum; sed possum affirmare, neque illam
+longam esse, nec latam, nec robustam, neque aliquid
+horum quae in mensuris corporum quaeri solent. Et
+hoc cur existimem, rationem tibi reddam, si placet.
+<pb n="1038"/> <hi>E.</hi> 
+ Placet vero, ac vehementer exspecto: videtur
+enim mihi quasi nihil esse anima, si nihil est horum. <hi>A.</hi> 
+ Prius ergo si videtur, ostendam tibi multas esse
+res quas non possis dicere nihil esse, nec tamen in
+eis invenire aliqua hujusmodi spatia, qualia in anima
+requiris: ut non solum non tibi ex eo anima nihil
+esse videatur, quod in ea non invenis longitudinem,
+sive aliquid tale; sed eo pretiosior et pluris aestimanda
+sit, quo nihil horum habet. Deinde utrum vere nihil
+horum habeat, videbimus. <hi>E.</hi> Utere quo vis ordine ac
+modo, ego audire et discere paratus sum.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT IV.-- <hi>Animam nonnihil esse, tametsi nec longa nec lata sit.</hi> </head>
+<div3>
+            <head>5.</head>
+            <p>
+ <hi>A.</hi> Recte facis: sed volo interroganti mihi respondeas;
+fortasse enim ea quae te docere conor,
+ipse jam nosti: credo enim non te dubitare hanc arborem
+non esse omnino nihil. <hi>E.</hi> Quis dubitaverit. <hi>A.</hi> 
+ Quid illud? num dubitas justitiam multo esse hac
+arbore meliorem? <hi>E.</hi> Ridiculum istud quidem est,
+quasi vero ulla sit comparatio. <hi>A.</hi> Liberaliter mecum
+agis; sed illud nunc attende: cum constet ita hanc
+arborem esse deteriorem quam est justitia, ut nec comparanda
+quidem tibi videatur, et hoc lignum non esse
+nihil confessus sis; placetne tibi ut ipsam justitiam
+nihil esse credamus? <hi>E.</hi> Quis hoc demens crediderit? <hi>A.</hi> 
+ Recte omnino: sed fortasse arbor haec propterea
+tibi videtur esse aliquid, quod longa est pro suo modo,
+et lata, et robusta; quae si detraxeris, nihil erit. <hi>E.</hi> 
+Ita videtur. <hi>A.</hi> Quid ergo? justitia, quam non nihil
+esse confessus es, imo quiddam longe divinius hac
+longeque praestantius, videtur tibi longa esse? <hi>E.</hi> Nullo
+modo mihi justitia aut longa, aut lata, aut tale aliquid
+cogitanti potest occurrere. <hi>A.</hi> Si igitur nihil horum
+est justitia, et tamen ipsa nihil non est; cur tibi
+anima nihil videtur, nisi ejus aliqua longitudo sit? <hi>E.</hi> 
+Age; jam non mihi videtur ex eo nihil esse anima,
+quod nec longa, nec lata, nec robusta sit, sed utrum
+vere ita sit, nondum a te dictum esse scis. Fieri enim
+potest, ut multa sint magni aestimanda, quae istis careant;
+sed non continuo ex hoc genere animam esse
+credendum puto.</p>
+          </div3>
+<div3>
+            <head>6.</head>
+            <p>
+ <hi>A.</hi> Scio istud nobis enodandum restare, et hoc
+me deinceps explicaturum promiseram: verum quia
+res subtilissima est, et longe alios mentis oculos
+quaerit, quam humana consuetudo in quotidianae vitae
+actibus habere solita est; admoneo te, ut per ea, per
+quae te ducendum existimo, libens pergas, nec nostro
+quodam necessario circuitu defatigatus, aegre tuleris
+aliquanto te tardius ad id quod cupis pervenire. Nam
+prius abs te quaero, utrum corpus ullum putes esse,
+quod non pro modo suo habeat aliquam longitudinem,
+et latitudinem, et altitudinem? <hi>E.</hi> Quam dicas
+altitudinem, non intelligo. <hi>A.</hi> Illam dico qua efficitur
+<pb n="1039"/>
+ut interiora corporis cogitentur, aut etiam sentiantur,
+si perlucet ut vitrum; quanquam si hoc demas corporibus,
+quantum mea opinio est, neque sentiri
+possunt, neque omnino corpora esse recte existimari.
+Hinc mihi volo aperias quid tu sentias. <hi>E.</hi> Prorsus
+non dubito corpora omnia his carere non posse. <hi>A.</hi> 
+Quid illud? potes cogitare ista tria non esse nisi in
+corporibus? <hi>E.</hi> Non intelligo quomodo alibi esse possint. <hi>A.</hi> 
+ Ergo animam non putas esse aliud quam
+corpus? <hi>E.</hi> Si etiam ventum corpus esse confitemur,
+negare non possum corpus mihi animam videri: nam
+tale aliquid eam esse cogito. <hi>A.</hi> Corpus quidem ventum
+esse tam concedo, quam si me de fluctu interrogares.
+Nam nihil aliud quam istum aerem commotum
+ac agitatum ventum esse sentimus; quod in loco
+tranquillissimo, et ab omnibus ventis quietissimo vel
+brevi flabello approbari potest, quo etiam muscas
+abigentes aerem commovemus, flatumque sentimus.
+Quod cum evenerit occultiore quodam motu coelestium
+vel terrenorum corporum per magnum spatium
+mundi, ventus vocatur, ex diversis partibus coeli nomina
+etiam diversa sortitus. An tibi aliter videtur? <hi>E.</hi> 
+ Mihi vero nihil, et probabile esse accipio quod
+dicis: sed ego animam non ipsum ventum, sed tale
+aliquid esse dixi. <hi>A.</hi> Dic mihi prius, utrum ipsum
+ventum cujus mentionem fecisti, habere aliquam longitudinem,
+latitudinem et altitudinem sentias. Deinde
+videbimus utrum tale aliquid anima sit, ut hoc modo
+etiam quanta sit, investigare possimus. <hi>E.</hi> Quid hoc
+aere longius, et latius, et altius facile inveniri potest,
+quem commotum, ventum esse nunc abs te mihi persuasum
+est?
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT V.-- <hi>Infinita animae vis.</hi> </head>
+<div3>
+            <head>7.</head>
+            <p>
+ <hi>A.</hi> Recte dicis: sed numquidnam animam tuam
+putas esse nisi in corpore tuo? <hi>E.</hi> Ita puto. <hi>A.</hi> Intrinsecus
+tantum, ut tanquam utrem impleat; an tantum
+forinsecus, velut tectorium; an et intrinsecus et
+extrinsecus eam esse arbitraris? <hi>E.</hi> Hoc sentio quod
+ultimum requisisti. Nam nisi esset intrinsecus, nihil
+in visceribus nostris vitale haberetur; nisi esset extrinsecus,
+non etiam in cute leviter possit sentire
+pungentem. <hi>A.</hi> Quid ergo amplius quaeris quanta sit
+anima, cum videas esse tantam quantam ipsa spatia
+corporis patiuntur? <hi>E.</hi> Si hoc ratio docet, nihil amplius
+requiro. <hi>A.</hi> Recte facis nihil quaerere amplius
+quam docet ratio. Sed haec ratio videturne tibi firmissima? <hi>E.</hi> 
+ Quando aliam non invenio, videtur. Suo
+enim loco quaeram, quod me multum movet, utrum
+haec figura eadem maneat cum corpore excesserit:
+nam hoc inter discutienda ultimum me posuisse memini.
+Sed quoniam de numero animarum quaerere,
+ad quantitatem mihi videtur pertinere, non esse hoc
+loco praetereundum existimo. <hi>A.</hi> Non incongrue existimas,
+sed prius de spatio ejus quod me adhuc movet,
+explicemus, si placet, ut etiam ego aliquid discam,
+<pb n="1040"/>
+si tibi jam satisfactum est. <hi>E.</hi> Quaere ut vis;
+nam tua ista simulata dubitatio, dubitare me verissime 
+facit de hoc ipso quod jam peractum esse praesumpseram.</p>
+          </div3>
+<div3>
+            <head>8.</head>
+            <p>
+ <hi>A.</hi> Dic mihi, quaeso te, utrum ea quae appellatur
+memoria, non tibi nomen inane videatur. <hi>E.</hi> Cui hoc
+videri potest? <hi>A.</hi> Animae hanc esse arbitraris, an corporis? <hi>E.</hi> 
+ Et hinc dubitare ridiculum est. Quid enim?
+exanime corpus meminisse aliquid credi, aut intelligi
+potest? <hi>A.</hi> Meministine tandem urbis Mediolanensis? <hi>E.</hi> 
+ Valde memini. <hi>A.</hi> Nunc ergo quia ejus facta mentio
+est, recordaris quanta et qualis sit? <hi>E.</hi> Recordor
+sane, ac nihil recentius atque integrius? <hi>A.</hi> Nunc ergo
+cum oculis eam non videas, animo vides. <hi>E.</hi> Ita est. <hi>A.</hi> 
+ Meministi, credo etiam, quarto spatio terrarum
+nunc a nobis longe absit. <hi>E.</hi> Ita et hoc memini. <hi>A.</hi> Vides
+itaque animo etiam ipsam locorum distantiam. <hi>E.</hi> 
+Video. <hi>A.</hi> Cum igitur anima tua hic sit ubi corpus,
+nec ultra spatium ejus porrigatur, ut superior ratio
+demonstrabat, unde fit ut illa omnia videat? <hi>E.</hi> Per
+memoriam hoc fieri puto, non quod illis locis sit praesens, <hi>A.</hi> 
+ Imagines ergo illorum locorum memoria
+continentur. <hi>E.</hi> Ita sentio: nam et quid ibi nunc agatur
+ignoro; quod utique non ignorarem, si animus
+meus usque ad ea loca porrigeretur, praesentiaque
+sentiret. <hi>A.</hi> Verum mihi videris dicere: sed certe
+istae imagines corporum sunt. <hi>E.</hi> Ita necesse est:
+non enim aliud sunt urbes terraeque, quam corpora.</p>
+          </div3>
+<div3>
+            <head>9.</head>
+            <p>
+ <hi>A.</hi> Nunquamne intuitus es parva specilla, aut
+nunquam in pupilla oculi alieni faciem tuam vidisti? <hi>E.</hi> 
+ Imo saepe. <hi>A.</hi> Cur multo brevior quam est apparet? <hi>E.</hi> 
+ Quid enim velles aliud quam ut pro modo
+speculi videretur? <hi>A.</hi> Necesse est ergo imagines corporum,
+si parva sunt corpora in quibus apparent,
+parvas apparere. <hi>E.</hi> Necesse omnino. <hi>A.</hi> Cur ergo,
+cum tam parvo spatio sit anima quam corpus est ejus,
+tam magnae in ea possunt exprimi imagines, ut et urbes,
+et latitudo terrarum, et quaeque alia ingentia
+apud se possit imaginari? Volo enim cogites paulo
+diligentius, quanta et quam multa memoria nostra
+contineat, quae utique anima continentur. Qui ergo
+fundus est, qui sinus, quae immensitas quae possit haec
+capere, cum et eam tantam quantum corpus est superior
+ratio docuisse videatur? <hi>E.</hi> Non invenio quid
+respondeam, nec satis explicare possum, quantum
+me ista moveant: et multum me ipse derideo, qui
+superiori rationi tam cito consenseram, ut ex isto
+corporis modo quanta sit anima terminarem. <hi>A.</hi> Non
+ergo jam tibi tale aliquid videtur, qualis ventus est? <hi>E.</hi> 
+ Nullo modo: nam etiamsi aer iste cujus quasi
+fluctum ventum esse probabiliter creditur, universum
+istum mundum possit implere, innumerabiles tales
+tantosque mundos secum anima imaginari potest,
+quas imagines quo spatio contineat suspicari non possum. <hi>A.</hi> 
+ Vide ergo ne melius sit eam credere, ut superius
+dixeram, nec longam, nec latam, nec altam,
+sicut mihi de justitia concesseras. <hi>E.</hi> Facile assentirem,
+nisi me plus conturbaret, quo rursum pacto tantorum
+spatiorum imagines innumerabiles nulla sua et
+<pb n="1041"/>
+longitudine, et latitudine, et altitudine capere possit.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT VI.-- <hi>Longitudo mera et simplex.</hi> </head>
+<div3>
+            <head>10.</head>
+            <p>
+ <hi>A.</hi> Inveniemus hoc fortasse quantum licet, si
+prius diligenter discutiamus haec tria, id est longitudinem,
+fatitudinem, et altitudinem. Itaque enitere
+cogitare longitudinem, quae adhuc nullam latitudinem
+assumpserit. <hi>E.</hi> Nihil possum tale cogitare: si enim
+filum araneae in animo constituero, quo nihil exilius
+solemus videre; occurrit mihi etiam in eo tamen et
+longitudo per se, et latitudo, et altitudo: quae qualescumque
+sint, esse tamen negare non possum. <hi>A.</hi> 
+Non usquequaque absurda est responsio tua sed
+certe cum tria ista in araneae filo esse intelligis, discernis
+haec, et quid inter se differant nosti? <hi>E.</hi> Quidni
+quid differant nossem? An aliter potui videre nihil
+horum deesse huic filo? <hi>A.</hi> Quo igitur intellectu haec
+discrevisti, hoc potes etiam, sejunctis illis, solam longitudinem
+cogitare, si nec aliquod corpus volvas animo:
+nam quodcumque fuerit, his omnibus non carebit.
+Incorporeum est enim quod te nunc intelligere cupio:
+nam sola longitudo non nisi intelligi animo potest, in
+corpore inveniri non potest. <hi>E.</hi> Jam intelligo. <hi>A.</hi> Ergo
+istam longitudinem si quasi secare cogitatione per
+longum velis, vides profecto non posse: nam si potest,
+inest etiam latitudo. <hi>E.</hi> Manifestum est. <hi>A.</hi> Hanc igitur
+longitudinem meram et simplicem, si tibi placet,
+lineam vocemus: hoc enim nomine a doctis multis
+appellari solet. <hi>E.</hi> Voca quidquid vis: non enim mihi
+de nominibus laborandum est, cum res aperta sit.</p>
+          </div3>
+<div3>
+            <head>11.</head>
+            <p>
+ <hi>A.</hi> Bene facis, et non solum approbo, verum
+etiam moneo, ut semper rerum curam magis quam
+verborum te habere delectet. Sed linea ista quam jam,
+ut opinor, bene intelligis, si porrigatur sive ex una,
+sive ex utraque parte, quam in longum porrigi potest,
+cernis nullum esse finem. An ad hoc contemplandum
+minus valet acies mentis tuae? <hi>E.</hi> Contemplor omnino,
+ac nihil facilius. <hi>A.</hi> Vides ergo etiam nullam figuram
+posse fieri, si nihil agatur aliud quam ut illa linea porrigatur. <hi>E.</hi> 
+ Quam dicas figuram nondum intelligo.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT VII.-- <hi>Compendiosior et multitudini tutior ad veritatis perceptionem via per auctoritatem, quam per rationem.</hi> </head>
+<p> <hi>A.</hi> Figuram interim voco, cum aliquod spatium
+linea lineisve concluditur, tanquam si circulum faceres,
+aut quatuor lineas finibus suis sibimet jungeres,
+ 
+ita ut nullius finis ab alterius copulatione liber esset. <hi>E.</hi> 
+ Quid dicas figuram, jam me videre arbitror; sed
+utinam tam viderem quo ista tendant, aut quid ex his
+effecturus sis, ut ego quod de anima requiro, sciam.</p>
+<div3>
+            <head>12.</head>
+            <p>
+ <hi>A.</hi> Hoc initio te admonui, et postulavi ut patienter
+ferres aliquantum circuitum nostrum, quod
+item quaeso ut facias. Non levis res quaeritur, non facilis
+ad cognoscendum: nosse enim hoc plane ac tenere
+volumus, si fieri potest. Aliud est enim cum auctoritati
+credimus, aliud cum rationi. Auctoritati credere
+<pb n="1042"/>
+magnum compendium est, et nullus labor: quod
+si te delectat, poteris multa legere, quae magni et divini
+viri de his rebus necessaria quae videbantur, salubriter
+imperitioribus quasi nutu quodam locuti sunt,
+credique sibi voluerunt ab iis, quorum animis vel tardioribus
+vel implicatioribus alia salus esse non posset.
+Tales enim homines, quorum profecto maxima multitudo
+est, si ratione velint verum comprehendere,
+similitudinibus rationum facillime decipiuntur, et in
+varias noxiasque opiniones ita labuntur, ut emergere
+inde ac liberari, aut nunquam, aut aegerrime queant.
+His ergo utilissimum est excellentissimae auctoritati
+credere, et secundum hoc agere vitam. Quod si tutius
+putas, non solum nihil resisto, sed etiam multum approbo.
+Si autem cupiditatem istam refrenare non potes,
+qua tibi persuasisti ratione pervenire ad veritatem,
+multi et longi circuitus tibi tolerandi sunt, ut
+non ratio te adducat, nisi ea quae sola ratio dicenda
+est, id est vera ratio; et non solum vera, sed ita certa,
+et ab omni similitudine falsitatis aliena, si tamen ullo
+modo haec ab homine inveniri potest, ut nullae disputationes
+falsae aut verisimiles ab ea te possint traducere. <hi>E.</hi> 
+ Nihil jam praepropere desiderabo: agat ac
+ducat ratio qua vult, dummodo perducat.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT VIII.-- <hi>De figuris mathematicis. Quot lineis figura fiat. Quomodo tribus lineis figura possit fieri.</hi> </head>
+<div3>
+            <head>13.</head>
+            <p>
+ <hi>A.</hi> Deus hoc faciet, qui aut de solis talibus rebus,
+aut certe de his maxime deprecandus est. Sed
+ad rem quam institueram redeamus. Nam si et quid
+sit linea, et quid sit figura jam tibi notum est, dic
+quod abs te quaero, id est utrum putes ullam figuram
+fieri posse, si linea ex utraque parte, aut ex altera
+per infinitum ducatur? <hi>E.</hi> Nullo modo id fieri posse
+confirmo. <hi>A.</hi> Quid igitur agendum est ut figuram faciamus? <hi>E.</hi> 
+ Quid, nisi ut illa linea infinita non sit, et
+ducatur in circulum, ut ex alia parte se contingat? non
+enim video, quomodo aliter possit ex una linea concludi
+aliquod spatium; quod nisi fiat, secundum tuam
+descriptionem, figura non erit. <hi>A.</hi> Quid, si rectis lineis
+figuram facere velim? potest fieri ut de una linea fiat,
+an non potest? <hi>E.</hi> Nullo modo. <hi>A.</hi> Quid, duabus? <hi>E.</hi> 
+Ne hoc quidem. <hi>A.</hi> Quid, tribus? <hi>E.</hi> Video posse. <hi>A.</hi> 
+Bene igitur nosti ac tenes, cum figura lineis rectis facienda
+est, minus quam tribus non posse. An si ulla tibi
+adversetur ratio, de hac te sententia devocabit? <hi>E.</hi> Plane
+si quis mihi hoc falsum esse monstraverit, nihil erit
+quod me scire posse confidam. <hi>A.</hi> Nunc ergo illud responde,
+quomodo tribus lineis figuram feceris? <hi>E.</hi> Cum
+se finibus jungunt. <hi>A.</hi> Quid? ubi se jungunt, nonne videtur
+tibi angulus fieri? <hi>E.</hi> Ita est. <hi>A.</hi> Quot ergo angulis
+haec figura constat? <hi>E.</hi> Totidem quot lineis. <hi>A.</hi> 
+Quid? ipsas lineas pares constituis, an impares? <hi>E.</hi> 
+Pares. <hi>A.</hi> Quid? anguli tantumdem omnes patent, an
+est alius alio contractior vel apertior? <hi>E.</hi> Etiam ipsos
+pares esse video. <hi>A.</hi> Potestne fieri, ut in figura, quae
+ 
+
+<pb n="1043"/>
+tribus rectis paribus lineis facta sit, impares anguli
+sint; an non potest? <hi>E.</hi> Nullo prorsus modo. <hi>A.</hi> Quid?
+si rectis lineis tribus, sed imparibus figura constet,
+possunt etiam in ista pares esse anguli, an aliud intelligis? <hi>E.</hi> 
+ Omnino non possunt. <hi>A.</hi> Recte dicis: sed
+dic, quaeso, quaenam tibi figura melior videatur et pulchrior?
+eane quae paribus, an quae imparibus lineis
+constat? <hi>E.</hi> Quis dubitet eam esse meliorem in qua
+aequalitas praevalet?
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT IX.-- <hi>Quae figura praestantior. In triangulo quid angulo contrarietur.</hi> </head>
+<div3>
+            <head>14.</head>
+            <p>
+ <hi>A.</hi> Ergo inaequalitati aequalitatem praeponis? <hi>E.</hi> 
+ Nescio utrum quispiam non praeponat. <hi>A.</hi> Vide
+nunc in figura quae tribus angulis paribus perfecta est,
+quid in ea sit angulo contrarium, id est ex altera parte
+contra positum; utrum linea an angulus. <hi>E.</hi> Lineam
+video. <hi>A.</hi> Quid ergo? si et angulus angulo, et linea lineae
+contraria sit, nonne fateris aequalitatem esse potiorem
+in ea figura in qua id accidit? <hi>E.</hi> Fateor quidem,
+sed quemadmodum id fiat tribus lineis omnino
+non video. <hi>A.</hi> Quid? quatuor lineis potestne hoc fieri? <hi>E.</hi> 
+ Prorsus potest. <hi>A.</hi> Melior est igitur figura quae quatuor
+lineis rectis paribus, quam quae tribus constat. <hi>E.</hi> 
+ Melior certe, siquidem magis in ea aequalitas valet. <hi>A.</hi> 
+ Quid ergo? istam quae quatuor rectis paribus lineis
+ 
+confit, censesne posse etiam ita fieri, ut non anguli
+omnes in ea pares sint, an non putas? <hi>E.</hi> Video posse. <hi>A.</hi> 
+ Quonam modo? <hi>E.</hi> Si duo contractiores, duo apertiores
+sint. <hi>A.</hi> Videsne etiam quemadmodum et ambo
+contractiores, et ambo apertiores sibi contrarii sint? <hi>E.</hi> 
+ Ac verissime atque apertissime. <hi>A.</hi> Servatam igitur
+et hic, quanta servari potuit, cernis aequalitatem:
+cernis enim profecto fieri non posse, ut cum quatuor
+paribus lineis figura perficitur, non aut omnes, aut
+certe vel bini anguli pares sint; quaeque tamen paria
+sunt, sibi ex contrario respondere. <hi>E.</hi> Cerno, et firmissime
+teneo.</p>
+          </div3>
+<div3>
+            <head>15.</head>
+            <p>
+ <hi>A.</hi> Nihilne te movet etiam in his rebus tanta et
+tam inconcussa quaedam justitia? <hi>E.</hi> Quonam modo? <hi>A.</hi> 
+ Quia nihil, ut arbitror, dicimus esse justitiam nisi
+aequitatem: aequitas autem ab aequalitate quadam videtur
+appellata. Sed quae in hac virtute aequitas, nisi
+ut sua cuique tribuantur? Porro sua cuique, nisi quadam
+distinctione tribui non possunt. An aliter putas? <hi>E.</hi> 
+ Manifestum est, et prorsus assentior. <hi>A.</hi> Quid? distinctionem
+arbitrarisne esse ullam, si omnia paria
+sint, ut nihil omnino inter se differant? <hi>E.</hi> Nullo modo. <hi>A.</hi> 
+ Ergo justitia servari non potest, nisi in rebus in
+quibus servatur, sit quaedam, ut ita dicam, imparilitas
+et dissimilitudo. <hi>E.</hi> Intelligo. <hi>A.</hi> Cum igitur fateamur
+istas figuras, de quibus agimus, inter se esse dissimiles,
+illam scilicet quae tribus, et hanc quae quatuor
+angulis constat, cum ambae paribus lineis fiant; nonne
+videtur tibi quaedam retenta justitia, ut illa quae habere
+<pb n="1044"/>
+non potest parilitatem contrariorum, inconcussam
+teneat angulorum aequalitatem: in hac vero quia
+tanta est contrariorum congruentia, illa lex angulorum
+admittat nonnullam inaequalitatem? Hoc ergo
+cum me multum moveret, quaerendum abs te visum
+est, quonam modo ista veritate, aequitate, aequalitate
+delectarere. <hi>E.</hi> Jam cerno quid dicas, et non mediocriter
+admiror. <hi>A.</hi> Age nunc, quia inaequalitati aequalitatem
+jure praeponis, nec quisquam omnino est, ut
+opinor, humano sensu praeditus, cui non id videatur;
+quaeramus, si placet, figuram in qua summa aequalitas
+inveniri queat: quaecumque enim erit, ea caeteris sine
+dubitatione praeferetur. <hi>E.</hi> Placet vero, et quae ista
+sit, scire cupio.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT X.-- <hi>Summa aequalitas in figuris.</hi> </head>
+ 
+<div3>
+            <head>16.</head>
+            <p>
+ <hi>A.</hi> Prius ergo responde, utrum tibi illarum figurarum,
+quarum jam quantum satis videbatur facta
+mentio est, ea videatur excellere, quae quatuor lineis
+paribus, totidemque angulis paribus constet: namque,
+ut vides, in hac et linearum aequalitas et angulorum
+est; et, quod in illa quae tribus lineis paribus clauditur,
+non inveniebamus, adest huic parilitas contrariorum:
+nam lineae linea, et angulus angulo est, ut
+cernis, contrarius. <hi>E.</hi> Ita vero est, ut dicis. <hi>A.</hi> Habetne
+summam aequalitatem, an aliter tibi videtur? Nam
+si habet, frustra, ut institueramus, aliam quaerimus;
+si autem non habet, volo ut idipsum mihi abs te demonstretur. <hi>E.</hi> 
+ Videtur mihi habere: nam ubi et anguli
+pares et lineae pares sunt, ubi deprehendam inaequalitatem
+non video. <hi>A.</hi> Ego aliud sentio: nam recta
+linea donec veniat ad angulos, summa aequalitate praedita
+est; sed cum ex diverso latere alia conjungitur
+linea, et angulum facit, nonne censes hoc ipsum esse
+inaequale? An tibi figurae pars quae linea clauditur
+cum illa parte quae angulo concluditur, congruere videtur
+aequalitate aut similitudine? <hi>E.</hi> Nullo modo: et
+me pudet temeritatis meae; eo enim ductus sum, quod
+et angulos in ea pares inter se et latera cernerem: sed
+quis non videat eorum laterum ab angulis magnam differentiam? <hi>A.</hi> 
+ Accipe aliud inaequalitatis apertissimum
+indicium: certe enim cernis, vel illam figuram triangulam
+paribus lineis constantem, vel istam quadratam
+habere aliquod medium. <hi>E.</hi> Cerno plane. <hi>A.</hi> Quid? ab
+eodem medio cum lineas ad omnes figurae partes ducimus,
+paresne tibi duci lineae videntur, an impares?
+ 
+ <hi>E.</hi> 
+ Impares prorsus: nam longiores eas necesse est
+esse, quas in angulos ducimus. <hi>A.</hi> Istae in quadrata
+quot sunt, et quot in triangula? <hi>E.</hi> Quatuor hic, tres
+ibi. <hi>A.</hi> Quid? minimae omnium quae rursum, et quot
+<pb n="1045"/>
+sunt in figura utraque? <hi>E.</hi> Totidem, scilicet eae quae
+in media latera ducuntur. <hi>A.</hi> Verissime mihi videris
+dicere, neque hic opus est diutius immorari; ad id
+enim quod volumus satis est: nam et magnam aequalitatem
+hic servari, ut opinor, vides, et tamen nondum
+ex omni parte perfectam. <hi>E.</hi> Omnino video, et quae
+illa figura sit quae summam aequalitatem habeat, nosse
+vehementer exspecto.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XI.-- <hi>Figurarum praestantia. Quid signum sit; quid punctum.</hi> </head>
+<div3>
+            <head>17.</head>
+            <p>
+ <hi>A.</hi> Quam censes, nisi eam, cujus et extremitas
+sibi concors est undique, nullo angulo aequalitatem
+perturbante, et a cujus medio ad omnes extremitatis
+partes pares lineae duci possunt? <hi>E.</hi> Jam, ut
+opinor, intelligo: nam illam figuram quae una linea
+in circulum ducta terminatur, mihi videris describere. <hi>A.</hi> 
+ Recte intelligis. Nunc itaque illud considera, cum
+superior ratio docuerit lineam in sola longitudine
+intelligi, nec quidquam latitudinis usurpare, et ideo
+per longum qua ducitur dividi non posse, utrum tibi
+videatur figura quaelibet sine latitudine inveniri. <hi>E.</hi> 
+Nullo modo. <hi>A.</hi> Quid? ipsa latitudo potestne longitutudinem
+non habere, quamvis latitudo sola sit, quemadmodum
+superius longitudinem sine latitudine intelleximus;
+an non potest? <hi>E.</hi> Video non posse. <hi>A.</hi> 
+Vides etiam illud, nisi fallor, quod latitudo ab omni
+parte dividi queat, linea vero per longum non queat. <hi>E.</hi> 
+ Manifestum est. <hi>A.</hi> Quid ergo putas pluris habendum?
+quod dividi potest, an id quod non potest? <hi>E.</hi> 
+Profecto id quod non potest. <hi>A.</hi> Praeponis igitur lineam
+latitudini. Nam si quod dividi non potest, praeponendum
+est; praeponamus necesse est etiam id
+quod minus dividi potest: latitudo autem ex omni
+parte dividitur, longitudo vero non nisi ex diverso,
+nam per longum divisionem non admittit: est ergo
+latitudine praestantior. An tu aliter existimas? <hi>E.</hi> Ita
+prorsus ratio cogit fateri ut dicis. </p>
+          </div3>
+<div3>
+            <head>18.</head>
+            <p>
+ <hi>A.</hi> Jam quaeramus, si placet, utrum sit aliquid
+in ista ratione, quod omnino non queat dividi; erit
+enim hoc multo etiam quam illa linea melius. Nam
+lineam cernis ex diverso innumerabiliter secari posse,
+itaque tibi ipsi hoc inveniendum dimitto. <hi>E.</hi> Ego illud
+puto non posse dividi, quod medium in figura ponebamus,
+unde in extrema lineae ducuntur. Nam si dividitur,
+longitudine aut etiam latitudine carere non
+potest. Sed si longitudinem solam habet, non jam
+unde ducuntur lineae, sed ipsa linea est. Si vero etiam
+latum est, aliud desiderat medium a quo in extrema
+latitudinis lineae ducantur. Utrumque autem hoc ratio
+respuit. Id erit igitur quod dividi nequeat. <hi>A.</hi> 
+Recte dicis. Sed nonne tibi aliquid tale videtur etiam
+illud unde linea ducitur, etsi figura nondum sit cujus
+medium intelligamus? Illud enim dico lineae principium
+a quo incipit longitudo, quod volo sine ulla
+<pb n="1046"/>
+longitudine intelligas. Nam si longitudinem intelligis,
+nequaquam profecto intelligis unde ipsa incipit longitudo. <hi>E.</hi> 
+ Tale omnino. <hi>A.</hi> Hoc ergo quod jam te intelligere
+video, potentissimum omnium, quae demonstrata
+sunt. Siquidem hoc est, quod nullam divisionem
+patiatur; et punctum vocatur, cum medium
+tenet figurae: si autem principium lineae est vel lineis,
+aut etiam finis; vel cum omnino aliquid notat quod
+sine partibus intelligendum sit, nec tamen obtineat
+figurae medium, signum dicitur. Est ergo signum nota
+sine partibus. Est autem punctum, nota medium figurae
+tenens. Ita fit ut omne punctum etiam signum
+sit, non autem omne signum punctum videatur. Volo
+enim de his nominibus inter nos convenire, ut minus
+in disputando circumloquamur: quanquam plerique
+punctum appellent, non quod omnis figurae medium,
+sed quod solius circuli vel pilae tenet; tametsi minus
+nobis de vocabulis laborandum est. <hi>E.</hi> Assentior.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XII.-- <hi>Puncti potentia.</hi> </head>
+<div3>
+            <head>19.</head>
+            <p>
+ <hi>A.</hi> Vides certe etiam quantum valeat. Nam ab
+ipso incipit linea, ipso terminatur; figuram rectis lineis
+nullam videmus fieri posse, nisi ipso angulus
+claudatur; deinde undecumque secari linea potest,
+per ipsum secatur, cum ipsum omnino nullam in
+se admittat sectionem; nulla linea lineae, nisi per
+ipsum copulatur. Postremo cum caeteris planis figuris
+(nam de altitudine adhuc nihil diximus) eam praeponendam
+ratio demonstraverit quae circulo clauditur,
+propter summam aequalitatem; quae alia ipsius aequalitatis
+moderatio est, quam punctum in medio constitutum?
+Multa de hujus potentia dici possunt, sed
+adhibeo modum, et tibi ipsi cogitanda plura permitto. <hi>E.</hi> 
+ Sane ut videtur; non enim me requirere pigebit,
+si quid fuerit obscurius: cerno autem mediocriter,
+ut puto, magnam hujus signi esse potentiam.</p>
+          </div3>
+<div3>
+            <head>20.</head>
+            <p>
+ <hi>A.</hi> Nunc ergo illud attende, cum et quid sit
+signum, et quid sit longitudo, et quid sit latitudo
+perspexeris; quid horum tibi videatur alterius, et
+cujus indigere, sine quo esse non possit. <hi>E.</hi> Video
+quod latitudo longitudine indigeat, sine qua prorsus
+intelligi non potest. Rursus longitudinem cerno latitudine
+quidem non indigere ut sit, sed sine signo
+illo esse non posse. Illud autem signum per semetipsum
+esse et nullius horum indigere, manifestum
+est. <hi>A.</hi> Ita est ut dicis: sed diligentius considera,
+utrum latitudo vere undique secari queat; an alicunde
+nec ipsa sectionem possit admittere, quamvis
+plus admittat quam linea. <hi>E.</hi> Nescio prorsus unde non
+possit. <hi>A.</hi> Credo te non recordari; nam nescire istud
+nullo modo posses: quare commonefaciam te isto
+modo. Certe enim latitudinem sic intelligis, ut cogitatione
+tua de altitudine nihil usurpes. <hi>E.</hi> Sic omnino. <hi>A.</hi> 
+ Accedat igitur huic latitudini altitudo, et
+responde jam utrum etiam aliquid accesserit, quo
+magis undique secari queat. <hi>E.</hi> Mire omnino admonuisti.
+Nunc enim video non solum desuper aut ex
+inferiori parte, sed a lateribus quoque admitti posse
+sectionem, nihilque omnino remansisse, unde non
+<pb n="1047"/>
+queat penetrare divisio. Quare manifestum est, et
+latitudinem ex his partibus secari non posse, per
+quas surrectura est altitudo.</p>
+          </div3>
+<div3>
+            <head>21.</head>
+            <p>
+ <hi>A.</hi> Quoniam tibi igitur, si non fallor, et longitudo,
+et latitudo, et altitudo nota est; quaero, utrum
+possint deesse duo superiora, ubi aderit altitudo. <hi>E.</hi> 
+Sine longitudine quidem video esse non posse altitudinem,
+sine latitudine autem potest. <hi>A.</hi> Redi ergo ad
+cogitationem latitudinis, et si eam quasi jacentem
+animo figuraveris, erigatur in quodlibet latus, tanquam
+si eam velles per tenuissimam rimam, ubi se
+clausae januae jungunt, educere. An nondum intelligis
+quid velim? <hi>E.</hi> Intelligo quid dicas, sed nondum
+fortasse quid velis. <hi>A.</hi> Illud scilicet ut respondeas,
+utrum sic erecta latitudo videatur tibi migrasse in
+altitudinem, et latitudinis jam nomen descriptionemque
+amisisse; an adhuc maneat latitudo, quamvis
+ita sit collocata. <hi>E.</hi> Videtur mihi altitudo esse facta. <hi>A.</hi> 
+ Recordarisne, obsecro, quemadmodum altitudinem
+definieramus? <hi>E.</hi> Recordor plane, et me jam
+sic respondisse pudet. Nam etiam hoc modo quasi
+erecta latitudo sectionem per longum deorsum versus
+non admittit: quare nulla in ea possunt interiora cogitari,
+quamvis medium et extrema cogitentur. Secundum
+autem superiorem demonstrationem altitudinis,
+quam fecisti ut recordarer, nulla omnino est
+altitudo, ubi nihil intus cogitari potest. <hi>A.</hi> Recte dicis,
+et sic te omnino meminisse cupiebam. Quamobrem
+illud jam volo respondeas, utrum falso verum anteponas. <hi>E.</hi> 
+ Jam hinc dubitare, incredibilis dementia
+est. <hi>A.</hi> Dic ergo, quaeso te, numquidnam vera linea
+est, quae per longum secari potest; aut verum signum
+quod ullo modo secari potest; aut vera latitudo, quae
+cum erecta est, ut diximus, sectionem per longum
+deorsum versus admittit? <hi>E.</hi> Nihil minus.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XIII.-- <hi>Animus incorporeus cernit incorporea. Animus quid sit.</hi> </head>
+<div3>
+            <head>22.</head>
+            <p>
+ <hi>A.</hi> Unquamne igitur oculis istis corporeis, vel
+tale punctum, vel talem lineam, vel talem latitudinem
+vidisti? <hi>E.</hi> Omnino nunquam. Non enim sunt ista
+corporea. <hi>A.</hi> Atqui si corporea corporeis oculis mira
+quadam rerum cognatione cernuntur; oportet animum
+quo videmus illa incorporalia, corporeum corpusve
+non esse. An tu aliter existimas? <hi>E.</hi> Age, jam
+concedo corpus non esse animum vel quidquam corporeum;
+quid est tandem, dic mihi? <hi>A.</hi> Vide interim
+utrum confectum sit carere illum illa omni quantitate,
+de qua nunc quaestio est: nam quid sit animus, oblitum
+te esse miror priore inter nos quaestione discussum.
+Meministi enim te quaesisse primitus, unde esset:
+quod duobus modis a nobis tractatum esse memini,
+uno, quo quasi de regione ejus quaesitum est; altero,
+utrumnam ex terra, vel igne, vel alio quopiam istorum
+elementorum esset, vel ex omnibus, vel ex aliquibus
+horum. In qua quaestione constitit inter nos, non magis
+hoc quaerendum esse quam unde sit terra, vel si quod
+aliud elementorum singulorum. Intelligendum est enim
+quanquam Deus fecerit animum, habere illum certam
+substantiam, quae neque terrena, neque ignea, neque
+<pb n="1048"/>
+aeria sit, neque humida: nisi forte arbitrandum est
+Deum terrae dedisse ut nihil aliud sit quam terra, et
+non dedisse animo ut nihil aliud quam animus sit. Si
+autem definiri tibi animum vis, et ideo quaeris quid
+sit animus; facile respondeo. Nam mihi videtur esse
+substantia quaedam rationis particeps, regendo corpori
+accommodata.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XIV.-- <hi>Animus incorporeus quantum valeat.</hi> </head>
+<div3>
+            <head>23.</head>
+            <p>
+ Itaque illud potius attende, unde ambigitur nunc,
+utrum quantitas et quasi, ut ita dicam, locale spatium
+animo ullum sit. Nam profecto quia corpus non est;
+neque enim aliter incorporea ulla cernere valeret,
+ut superior ratio demonstrabat; procul dubio caret
+spatio quo corpora metiuntur: et ob hoc recte credi,
+aut cogitari, aut intelligi talis ejus quantitas non potest.
+Si autem te movet, cur tanta coeli, terrae, marisque
+spatia memoria contineat, cum sit ipse nullius
+quantitatis; mira quaedam vis est, quam tamen ex iis
+quae a nobis comperta sunt, quantum inest ingenio
+tuo luminis, animadvertere potes. Si enim corpus
+nullum est, ut ratio jam ostendit, quod longitudine,
+latitudine, altitudine careat, nihilque horum nisi cum
+aliis duobus esse in corpore potest; animo tamen
+etiam solam lineam interiore quodam oculo, id est
+intelligentia, videre concessum est: arbitror nos concedere
+sic animum corpus non esse, ut sit corpore
+melior. Quo concesso, non opinor dubitandum esse,
+eum etiam linea esse meliorem: ridiculum est enim
+cum tria illa insint corpori ut corpus sit, non his
+omnibus esse meliorem, qui corpore est melior. At
+ipsa linea, qua melior esse convincitur animus, ideo
+caeteris duobus praestat, quia minus quam illa duo
+secari potest. Porro illa duo eo magis secantur quam
+linea, quo magis se in spatium distendunt: linea
+vero spatium nisi longitudinis nullum habet, quo sublato
+nihil omnino remanet spatii. Quapropter quidquid
+linea melius est, necesse est nullo spatio sit, et
+omnino dividi secarique non possit. Frustra igitur, ut
+opinor, quantitatem animi, quae nulla est, invenire
+laboramus, cum eum linea concedamus esse meliorem.
+Et si figurarum omnium planarum illa optima est
+quae circulo effingitur, in qua ratio docuit nihil melius
+esse puncto atque potentius, quod nullo dubitante
+partibus caret; quid mirum si anima neque corporea
+sit, neque ulla aut longitudine porrecta, aut latitudine
+diffusa, aut altitudine solidata; et tamen tantum valeat
+in corpore, ut penes eam sit regimen omnium
+membrorum, et quasi cardo quidam in agendo, cunctarum
+corporalium motionum?</p>
+          </div3>
+<div3>
+            <head>24.</head>
+            <p>
+ Cum autem oculi medium, quae pupilla dicitur,
+nihil aliud sit quam quoddam punctum oculi, in quo
+tamen tanta vis est, ut eo dimidium coelum, cujus
+ineffabile spatium est, ex aliquo eminenti loco cerni
+collustrarique possit; non abhorret a vero animum
+carere omni corporea magnitudine, quae tribus illis
+differentiis consummatur, quamvis corporum magnitudines
+quaslibet imaginari queat. Sed paucis licet
+ipso animo animum cernere, id est ut ipse se animus
+<pb n="1049"/>
+videat; videt autem per intelligentiam. Huic soli enim
+licet videre nihil esse in rebus potentius et magnificentius
+iis naturis, quae, ut ita dicam, sine tumoribus
+esse intelliguntur: tumor enim non absurde appellatur
+corporis magnitudo, quae si magnipendenda esset,
+plus nobis profecto elephanti saperent. Quod si quisquam
+eorum cognatus dicet elephantos esse sapientes;
+sensi enim quamvis admirans, sensi tamen etiam hinc
+homines saepe ambigere; illud, quantum opinor, saltem
+concedet, plus asino sapere apiculam; quorum
+comparare magnitudines plus profecto est quam asininum:
+vel quod etiam de oculo dicebamus, cui non
+liqueat aquilae oculum multo quam noster est, esse
+breviorem? quo tamen illa sublime ita volans, ut a
+nobis in tanta luce difficile cernatur, latentem sub
+frutice lepusculum, et sub fluctibus piscem videre
+comperta est. Quod si in ipsis sensibus, quibus nisi
+corporea sentire non datum est, nihil ad rem, id est
+ad vim sentiendi, valet corporis magnitudo; metuendumne
+est, quaeso, ne animus humanus, cujus excellentior
+et pene solus aspectus est ipsa ratio qua etiam
+se invenire molitur, nihil sit, si illum eadem ratio, id
+est se ipse omni magnitudine, qua obtinetur locus,
+carere convicerit? Magna quaedam, crede mihi, magna,
+sed sine ulla mole de animo cogitanda sunt. Quod
+facilius contingit iis, qui aut bene eruditi ad haec
+accedunt, non studio inanis gloriae, sed divino amore
+veritatis accensi; aut qui jam in his quaerendis versantur,
+quamvis minus eruditi ad investiganda ea
+venerint, si patienter bonis se dociles praebent, atque
+ab omni corporum consuetudine, quantum in hac vita
+permittitur, semet avertunt. Fieri autem non potest
+quadam divina providentia, ut religiosis animis seipsos
+et Deum suum, id est veritatem pie, caste ac diligenter
+quaerentibus, inveniendi facultas desit.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XV.-- <hi>Objicitur animam aetate crescere.</hi> </head>
+<div3>
+            <head>25.</head>
+            <p>
+ Sed ab ista quaestione, nisi quid adhuc te movet,
+jam recedamus, si placet; et ad alia transeamus: quidquid
+autem de illis figuris loquacius a nobis fortasse
+disputatum est quam volebas, videbis quantum ad alia
+valebit, si hanc disceptationem aliquid eo adjutam
+esse concedis: nam et exercet animum hoc genus
+disciplinarum, ad subtiliora cernenda, ne luce illorum
+repercussus, et eam sustinere non valens, in easdem
+tenebras quas fugere cupiebat, libenter refugiat; et
+affert argumenta, nisi fallor, certissima, quibus quod
+fuerit inventum atque confectum, impudentem habeat
+dubitationem, quantum homini talia vestigare permissum
+est. Minus enim ego de his rebus dubito,
+<pb n="1050"/>
+quam de iis quas istis oculis videmus cum pituita
+semper bellum gerentibus. Quid enim minus ferendum
+et audiendum est, quam fateri nos ratione praestare
+bestiis, et eam rem fateri esse aliquid quam corporeo
+lumine sentimus, quam etiam nonnullae bestiae
+melius cernunt; id autem quod ratione intuemur,
+nihil esse contendere? Quod si diceretur tale esse,
+quale illud est, quod oculi vident, nihil profecto dici
+posse indignius videretur.</p>
+          </div3>
+<div3>
+            <head>26.</head>
+            <p>
+ <hi>E.</hi> Accipio ista libentissime atque assentior:
+sed illud me movet, cum corporeae quantitatis, non
+esse animam res ita clara sit mihi, ut omnino quemadmodum
+resistam illis argumentis, et quid eorum
+non concedam, prorsus ignorem; primum, cur aetate
+ut corpus crescit, ita et anima vel crescat vel crescere
+videatur. Quis enim neget pueros infantes, ne bestiarum
+quidem nonnullarum astutiae comparandos? quis
+autem dubitet, illis crescentibus etiam ipsam in eis
+quodammodo crescere rationem? Deinde, si per spatium
+sui corporis anima distenditur, quomodo nullius
+quantitatis est? si autem non distenditur, quomodo
+sentit ubique pungentem? <hi>A.</hi> Omnino ea quaeris quae
+me quoque saepe moverunt: itaque non sum imparatus
+tibi respondere, ut mihi soleo; utrum autem bene,
+ratio quae te agit judicabit: qualecumque id tamen
+sit, plus certe non possum, nisi forte aliquid melius
+cum disputamus, in mentem divinitus venerit. Sed
+agamus, si placet, more nostro, ut duce ratione tu
+tibi ipse respondeas. Ac prius quaeramus, utrum crescentis
+cum corpore animi certum argumentum sit,
+quod aetatis accessu aptior humanae consuetudini homo,
+et in ea magis magisque peritus est. <hi>E.</hi> Age ut placet;
+nam et ego id genus docendi ac discendi maxime
+probo: nescio quo enim modo cum id quod nesciens
+quaerebam ipse respondeo, fit ipsa inventio non modo
+re, sed admiratione etiam dulcior.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XVI.-- <hi>Respondetur objectioni et ostenditur animam sine corporeo incremento proficere.</hi> </head>
+<div3>
+            <head>27.</head>
+            <p>
+ <hi>A.</hi> Dic ergo utrum tibi majus et melius duo
+quaedam, an unum atque idem esse videatur duobus
+nominibus appellatum? <hi>E.</hi> Scio aliud esse quod majus,
+aliud quod melius dicimus. <hi>A.</hi> Quid horum duorum
+est cujus esse putes quantitatem? <hi>E.</hi> Id videlicet quod
+majus dicimus. <hi>A.</hi> Quid cum duarum figurarum rotundam
+quadrata meliorem esse confitemur? quantitasne
+id facit, an quid aliud? <hi>E.</hi> Nullo modo quantitas, sed
+illa de qua superius egimus, aequalitas hujus excellentiae
+causa est. <hi>A.</hi> Nunc ergo illud attende, utrum tibi
+videatur virtus aequalitas quaedam esse vitae, rationi
+undique consentientis. Nam si aliud ab alio in vita
+<pb n="1051"/>
+discrepet, magis, ni fallor, offendimur, quam si aliqua
+pars circuli, majore minoreve intervallo quam aliae
+partes distet a puncto. An tu aliter existimas? <hi>E.</hi> Imo
+assentior, et hanc quae abs te descripta est, probo
+esse virtutem: nam et ratio non dicenda est aut
+existimanda, nisi vera; et cujus vita per omnia congruit
+veritati, is est profecto vel solus, vel certe
+maxime, qui bene atque honeste vivit; et qui ita sit
+affectus, solus habere virtutem, et ea vivere judicandus
+est. <hi>A.</hi> Probe dicis: sed certe etiam illud vides,
+ut opinor, similiorem esse virtuti circulum figurarum
+planarum alia qualibet. Hinc est enim quod apud
+Horatium magnis laudibus solemus extollere illum versum,
+quo ait, cum de sapiente ageret,
+</p>
+            <l>Fortis et in se ipso totus teres atque rotundus.</l>
+            <p>  <note>(Serm. lib. 2, salira 7, v. 60.)</note> 
+Et recte: nam neque in animi bonis quidquam invenis,
+quod magis sibi ex omni parte consentiat quam
+virtutem; neque in planis figuris quam circulum.
+Quamobrem si circulus non magnitudine spatii, sed
+quadam conformatione caeteris praestat; quanto magis
+de virtute existimandum est, quod non majoris loci
+occupatione, sed divina quadam congruentia rationum
+atque concordia caeteras affectiones animi superat?</p>
+          </div3>
+<div3>
+            <head>28.</head>
+            <p>
+ Cum autem puer proficit laudabiliter, ad quam
+rem magis quam ad virtulem proficere dicitur? an
+non tibi videtur? <hi>E.</hi> Manifestum est. <hi>A.</hi> Non igitur
+tibi debet videri animus sicut corpus crescendo cum
+aetate proficere: proficiendo enim ad virtutem pervenit,
+quam fatemur nulla spatii magnitudine, sed magna
+vi constantiae pulchram esse atque perfectam: et
+si aliud est majus, aliud melius, ut jam dedisti; quidquid
+anima cum aetate proficit, composque rationis
+fit, non mihi videtur fieri major, sed melior. Quod si
+membrorum id faceret magnitudo; eo quisque prudentior
+esset, quo longior aut validior: quod se aliter
+habere non, opinor, negabis. <hi>E.</hi> Quis istud negaverit?
+Sed tamen cum proficere animam per aetatem etiam
+tu concedas; miror qui fiat, ut omnis quantitatis expers,
+etiamsi non membrorum spatio, at certe temporis
+adjuvetur.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XVII.-- <hi>Anima spatio temporis crescere dicitur metaphorice.</hi> </head>
+<div3>
+            <head>29.</head>
+            <p>
+ Desine mirari, nam et hic tibi simili ratione
+respondeo. Ut enim membrorum magnitudo ideo nihil
+affert argumenti cur animam adjuvet, quod multi exilioribus
+brevioribusque membris prudentiores inveniuntur
+quibusdam magna mole corporis praeditis;
+ita quoniam juniores nonnullos senioribus plerisque
+magis industrios atque strenuos videmus, non
+video cur putanda sint spatia temporis in aetatibus
+incrementa ut corporibus, sic animis dare; cum et
+ipsa corpora, quibus per tempus crescere atque ampliora
+spatia tenere concessum est, saepe sint annosiora
+breviora, non modo senilia, quae magnitudine
+temporis contrahuntur atque minuuntur; sed etiam
+puerorum, quos animadvertimus his breviores esse
+corpore quibus sunt aetate majores. Si igitur porrecta
+<pb n="1052"/>
+in plurimum tempora, ne ipsis quidem corporibus
+magnitudinis afferunt causam; sed omnis illa seminis
+vis est, et quorumdam naturae numerorum sane occultorum,
+et difficilium ad dignoscendum: quanto minus
+arbitrandum est longo tempore animam fieri longiorem,
+quia eam videmus usu rerum atque assiduitate
+multa didicisse?</p>
+          </div3>
+<div3>
+            <head>30.</head>
+            <p>
+ Quod si te illud movet, quod solemus eam quam
+Graeci <foreign xml:lang="greek">μακροθυμίαν</foreign> vocant, longanimitatem interpretari;
+animadvertere licet a corpore ad animum multa
+verba transferri, sicut ab animo ad corpus: nam si
+montem improbum, et justissimam tellurem dixit Virgilius <note>(Aeneid. lib. 12, v. 687; Georg. lib. 2, v. 460)</note> 
+,
+quae verba cernis ab animo ad corpora esse translata;
+quid mirum si mutua vice longanimitatem dicimus, cum
+longa nisi corpora esse non possint? Ea vero inter virtutes
+quae appellatur animi magnitudo, ad nullum spatium,
+sed ad vim quamdam, id est ad potestatem potentiamque
+animi relata recte intelligitur; virtus eo pluris
+aestimanda, quo plura contemnit. Sed de hac post loquemur,
+cum quaeremus quanta sit anima, sicut quaeri
+assolet, quantus fuerit Hercules, factorum excellentia,
+non mole membrorum: ita enim supra distribuimus.
+Oportet autem nunc te recordari quod de puncto jam
+satis egimus: nam id potentissimum esse, maximeque
+in figuris dominari ratio docebat. Potentia vero
+atque dominatus nonne ostentant quamdam magnitudinem?
+et in puncto tamen nullum spatium reperiebamus.
+Non igitur magnum vel ingentem animum cum
+audimus aut dicimus, quantum loci occupet, sed quantum
+possit, cogitandum est. Quamobrem si jam primum
+argumentum tuum, quo tibi per aetatem cum
+corpore animus crescere videbatur, satis discussum
+est; transeamus ad aliud.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XVIII.-- <hi>Loquendi facultas, quam puer paulatim assequitur, non tribuenda incrementis animae.</hi> </head>
+<div3>
+            <head>31.</head>
+            <p>
+ <hi>E.</hi> Nescio utrum omnia quae me non frustra
+movere assolent, persecuti fuerimus; et fieri potest
+ut recordationem meam aliqua fugiant: verumtamen
+quod nunc in mentem venit videamus quale sit, quod
+puer infans non loquitur, atque in crescendo assequitur. <hi>A.</hi> 
+ Facile est istud: nam credo videri tibi ea
+lingua quemque loqui, qua loquuntur homines inter
+quos natus educatusque sit. <hi>E.</hi> Nemo id ignorat. <hi>A.</hi> 
+Constitue ergo quempiam ibi natum atque altum ubi
+homines non loquerentur, sed nutibus membrorumque
+motu cogitationes suas sibimet expromendas signarent;
+nonne censes eum talia esse facturum, neque
+locuturum, qui loquentem neminem audierit? <hi>E.</hi> 
+ Nolo me hoc interroges, quod fieri non potest. Qui
+enim tales homines, inter quos quemquam natum cogitare
+possim? <hi>A.</hi> Itane tu non vidisti Mediolani adolescentem
+honestissimi corporis et elegantissimae urbanitatis,
+mutum tamen atque ita surdum, ut neque
+alios nisi motu corporis intelligeret, neque ipse aliter
+quae vellet significaret? hic enim est notissimus.
+<pb n="1053"/>
+Nam ego novi rusticum quemdam loquentem, de loquente
+uxore, filios omnes mares atque feminas quatuor
+fere, aut eo amplius (non enim satis nunc commemini)
+mutos surdosque genuisse. Nam ex eo quod
+loqui non poterant, muti; ex eo autem quod nulla signa
+nisi oculis colligebant, etiam surdi intelligebantur. <hi>E.</hi> 
+ Illum vero ego bene novi, et de istis nescio
+quibus credo tibi: sed quorsum ista? <hi>A.</hi> Quia dixisti
+non te posse cogitare inter tales homines nasci quempiam. <hi>E.</hi> 
+ Nec nunc aliud dico: nam istos, nisi fallor,
+inter eos qui loquerentur, natos esse concedis. <hi>A.</hi> Non
+equidem negaverim: sed cum jam inter nos constet
+nonnullos tales homines esse posse; quaeso cogites,
+si ex hoc genere mas et femina jungerentur, atque in
+aliquam quocumque casu delati solitudinem, ubi tamen
+vivere valerent, gignerent filium non surdum,
+quemadmodum esset cum parentibus iste locuturus? <hi>E.</hi> 
+ Quemadmodum censes, nisi ut parentes ei dabant,
+ita gestu signa redditurum? Sed tamen puer parvus
+ne hoc quidem posset: quare illa ratio mea manet integra.
+Quid enim refert utrum loqui, an gestum facere
+crescendo assequatur, cum ad animam utrumque
+pertineat, quam fateri nolumus crescere?</p>
+          </div3>
+<div3>
+            <head>32.</head>
+            <p>
+ <hi>A.</hi> Jam mihi videris etiam cum in fune quisque
+ambulat, ampliorem credere hunc habere animam,
+quam eos qui id facere nequeunt. <hi>E.</hi> Hoc aliud est:
+quis enim hoc non videat esse artis? <hi>A.</hi> Cur, obsecro,
+artis? an quia didicit? <hi>E.</hi> Ita vero. <hi>A.</hi> Quare tibi ergo
+etiam, si aliud quisque discat, non artis videtur? <hi>E.</hi> 
+ Plane quidquid discitur, artis esse non nego. <hi>A.</hi> 
+ Non ergo ille didicit a parentibus gestum facere? <hi>E.</hi> 
+ Didicit sane. <hi>A.</hi> Oportet igitur et hoc non animae
+crescendo amplioris, sed imitatoriae cujusdam artis
+esse concedas. <hi>E.</hi> Non possum hoc concedere. <hi>A.</hi> Ergo
+non omne quod discitur artis est, quod nunc concesseras. <hi>E.</hi> 
+ Artis omnino. <hi>A.</hi> Non ergo ille didicit gestum,
+quod item non minus dederas. <hi>E.</hi> Didicit, sed
+hoc non est artis. <hi>A.</hi> Atqui tu paulo ante dixisti artis
+esse quod discitur. <hi>E.</hi> Age, jam concedo, et loqui et
+gestum facere, eo quod ea didicimus, artis esse. Tamen
+aliae sunt artes, quas, dum in alios intendimus,
+discimus; aliae, quae a magistris inseruntur nobis. <hi>A.</hi> 
+ Quas tandem istarum putas animam, ex eo quod
+amplior fiat, adipisci? anne omnes? <hi>E.</hi> Non omnes
+puto, sed illas superiores. <hi>A.</hi> Nonne tibi ex hoc genere
+videtur in fune ambulare? nam et hoc videndo,
+ut arbitror, qui id faciunt assequuntur. <hi>E.</hi> Ita credo:
+sed tamen non omnes qui haec spectant et magno
+studio intuentur, assequi possunt, sed qui hujus rei
+magistros patiuntur. <hi>A.</hi> Bene sane dicis; nam et hoc
+tibi etiam de locutione responderim: multi enim
+Graeci et aliud genus linguae crebrius nos loquentes
+audiunt, quam funambulum spectant; qui ut linguam
+nostram discant, quemadmodum nos cum ipsorum
+nosse volumus, saepe magistris traduntur. Quae cum
+ita sint, miror cur animae incrementis tribuere velis
+quod loquuntur homines; quod autem in fune ambulant,
+nolis. <hi>E.</hi> Nescio quomodo ista confundis: nam
+qui ut linguam nostram discat, magistro traditur, novit
+<pb n="1054"/>
+aliam quamdam suam, quam eum, quod ejus anima
+creverit, puto didicisse; cum autem discit alienam,
+non ampliori animae, sed arti tribuo. <hi>A.</hi> Quid si ille
+qui inter mutos natus atque altus est, sero ac jam juvenis
+in alios homines incidens loqui didicisset, cum
+aliam linguam nullam nosset? eo tempore putares
+animam ejus crevisse, quo loqui didicerat? <hi>E.</hi> Nunquam
+isthuc ausim dicere; et jam cedo rationi, nec
+puto amplioris animae argumentum esse quod loquimur,
+ne et alias omnes artes cogar fateri crescendo
+animam consecutam: quod si dixero, illud sequetur
+absurdum, decrescere animam cum quidque obliviscitur.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XIX.-- <hi>Anima quomodo crescere minuive dicitur.</hi> </head>
+<div3>
+            <head>33.</head>
+            <p>
+ <hi>A.</hi> Bene intelligis, et verum ut audias, recte
+dicitur anima discendo quasi crescere, et contra minui
+dediscendo, sed translato verbo, ut superius
+ostendimus. Tamen illud cavendum est, ne quasi spatium
+loci majus occupare videatur, dum dicitur crescere;
+sed majorem quamdam vim peritior quam imperitior
+habere ad agendum. Magni tamen refert
+qualia sint illa ipsa quae discit, quibus quodammodo
+videtur augeri. Nam ut in corpore tria sunt genera
+incrementorum, unum necessarium, quo naturalis
+convenientia impletur in membris; alterum superfluum,
+quo a caeteris membris integra valetudine augendo
+aliquid discrepat, per quod interdum evenit ut
+senis digitis nascantur homines, et pleraque alia, quae
+cum praeter consuetudinem nimia sunt, monstruosa
+nominantur; tertium noxium, quod cum accidit, tumor
+vocatur; nam etiam sic membra crescere dicuntur,
+et revera locum occupant ampliorem, sed expugnata
+bona valetudine: ita in animo quaedam quasi
+naturalia incrementa sunt, cum honestis et ad bene
+beateque vivendum accommodatis disciplinis augeri
+dicitur. Cum vero ea discimus, quae mirabiliora quam
+utiliora sunt; quanquam nonnullis rebus plerumque
+opportuna, supervacanea tamen et de illo secundo
+genere numeranda sunt. Non enim si quidam tibicen,
+ut Varro auctor est, ita populum delectavit ut rex
+fieret, ideo animum nostrum illo artificio augendum
+putare debemus: quia nec majores quam humani
+sunt, dentes habere vellemus, si audissemus, a quopiam,
+quod tales habuerit, morsu hostem necatum.
+Noxium vero illud est genus artium, quo animi valetudo
+sauciatur: nam et odore ac sapore mire dijudicare
+pulmenta, et quo lacu piscis captus sit, vel quotenne
+vinum sit, nosse dicere, quaedam est miseranda
+peritia; et his artibus cum quasi crevisse anima videtur,
+quae neglecta mente defluxit in sensus, nihil aliud
+quam tumuisse vel etiam contabuisse judicanda est.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XX.-- <hi>Anima num quid ex se sciat.</hi> </head>
+<div3>
+            <head>34.</head>
+            <p>
+ <hi>E.</hi> Accipio ista et assentior, nec tamen nihil
+angor ex eo quod imperita omnium rerum et bruta
+est anima, quam in puero recens nato quantum licet
+inspicimus. Cur enim nullam artem secum attulit, si
+<pb n="1055"/>
+aeterna est? <hi>A.</hi> Magnam omnino, magnam, et qua
+nescio utrum quidquam majus sit, quaestionem moves,
+in qua tantum nostrae sibimet opiniones adversantur,
+ut tibi anima nullam, mihi contra omnes artes secum
+attulisse videatur; nec aliud quidquam esse id quod
+dicitur discere, quam reminisci et recordari. Sed videsne
+quam hujus temporis non sit, utrum ista habeant
+ita sese, requirere? Nunc enim agimus ut appareat,
+si potest, non eam secundum loci spatia parvam
+magnamve nominari; aeternitatem autem ejus si ulla
+est, opportune scrutabimur cum illud quod quartum
+posuisti. Cur corpori fuerit data, quantum fas est
+tractare coeperimus. Quid enim ad talem ejus quantitatem
+attinet, semperne an non semper fuerit, futurave
+sit, aut quod nunc imperita nunc perita est; cum
+et longum tempus, ne corporibus quidem afferre magnitudinis
+causam, superius probaverimus; et peritiam
+notissimum sit posse nullam adesse crescentibus,
+ac saepe senescentibus opportunam esse; multaque alia
+dicta sint satis, ut opinor, ad demonstrandum non
+cum magnitudine corporis, quam aetas affert, etiam
+animam fieri ampliorem.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXI.-- <hi>Vires in majori aetate majores non sunt argumentum crescentis animae.</hi> </head>
+<div3>
+            <head>35.</head>
+            <p>
+ Quare videamus, si placet, illud alterum argumentum
+tuum quale sit, quod per totum spatium
+corporis tactus sentitur ab anima, quam spatii nullius
+esse volumus. <hi>E.</hi> Sinerem jam ad illud transiri, nisi
+de viribus dicendum aliquid arbitrarer. Quid est enim
+hoc, quod auctiora per aetatem corpora vires praebent
+animae ampliores, si cum his amplior non fit anima?
+Quanquam enim virtus animae, vires autem corporis
+putari soleant; nunquam tamen ab anima eas abjudicaverim,
+cum videam in exanimis corporibus nullas
+esse. Per corpus quidem viribus, sicuti sensibus, uti
+animam non negandum est; tamen quoniam ista sunt
+viventis officia, quis haec dubitaverit ad animam potius
+pertinere? Cum igitur majores vires in pueris grandiusculis
+quam in infantibus esse videamus, ac deinde
+adolescentes, juvenesque in dies viribus praestent,
+donec rursus corpore senescente minuantur; non leve,
+quantum mihi videtur, crescentis cum corpore, ac
+deinde senescentis animae indicium est.</p>
+          </div3>
+<div3>
+            <head>36.</head>
+            <p>
+ <hi>A.</hi> Non usquequaque absurdum est quod dicis:
+sed ego vires non magis in amplitudine corporis aetatisque
+incrementis, quam in exercitatione quadam et
+conformatione membrorum esse soleo putare: id
+adeo ut tibi probem, quaero abs te utrum alium alio
+pertinacius ambulare ac minus defatigari, majorum
+virium esse arbitreris? <hi>E.</hi> Ita sentio. <hi>A.</hi> Cur ergo
+puer multo amplius itineris conficiebam sine defectu,
+cum aucupandi studio in ambulando exercerer, quam
+adolescens cum me ad alia studia, quibus sedere magis
+cogebar, contulissem; si accedenti aetati, et per
+hanc animae crescenti vires ampliores tribuendae sunt?
+Deinde in ipsis luctatorum corporibus palaestritae non
+<pb n="1056"/>
+molem ac magnitudinem, sed nodos quosdam lacertorum,
+et destrictos toros, figuramque omnem corporis
+sibi congruentem peritissime inspiciunt, et hinc potius
+argumenta virium colligunt. Quae tamen omnia
+parum valent, nisi vis artis et exercitationis accedat.
+Saepe etiam visum est, ingentis corporis viros ab exiguis
+brevibusque superari, vel in movendis, vel in
+ferendis ponderibus, vel in ipso etiam luctamine. Nam
+olympionicum quemlibet lassari in itinere citius quam
+circumforaneum aliquem mercatorem, qui uno illius
+digito collidi possit, cui est incognitum? Quare si et
+ipsas vires non peraeque omnes, sed alias ad aliud
+aptiores magnas vocamus; et corporum lineamenta
+magis et figurae quam magnitudines valent plurimum;
+et si exercitationes tantum afferunt, ut celeberrime
+creditum sit, hominem tollendo quotidie vitulum parvum,
+egisse ut eum etiam taurum sine sensu majoris
+oneris, quod paulatim addebatur, tollere ac sustinere
+posset: nequaquam amplioris aetatis vires cum corpore
+animam crevisse significant.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXII.-- <hi>Unde vires corporis majores.</hi> </head>
+<div3>
+            <head>37.</head>
+            <p>
+ Quod si amplius aliquid animalium majora corpora,
+eo ipso quo majora sunt, habent virium; illa
+causa est, quod lege naturae cedunt pondera minora
+majoribus, non modo cum ad proprium locum suopte
+nutu feruntur, ut humida et terrena corpora in ipsius
+mundi medium locum qui est infimus, rursus aeria et
+ignea sursum versus; sed etiam cum aliquo tormento
+aut jactu aut impulsu aut repulsu, eo quo non sponte
+ferrentur, vi aliena ire coguntur. Nam si ex alto dimiseris,
+quanquam simul, duos lapides disparis quantitatis,
+citius quidem major ad terram pervenit; sed
+si ei minor subjiciatur, eoque inevitabiliter occupetur,
+cedit profecto, simulque in solum deducitur. Item si
+dejicitur desuper major, minor autem contra sursum
+versus jacitur; ubi obviam venerint, repercussio minoris
+et retrocessio fiat necesse est. Quod ne ideo
+accidere putes, quod minor contra naturam in sublimia
+ire cogebatur, alter vero majore impetu locum
+suum petebat; facito ut major in superna jaculetur,
+et minori occurrat in terras dejecto: videbis nihilominus
+repulsum minorem in coelum cogi, sed repercussu
+ipso cadere in aliam partem, ut qua expeditum
+est, in ima deferatur. Item si ambo non motu naturali,
+sed a duobus quasi in campo pugnantibus adversus
+invicem jacti, sibimet in medio spatio complodantur;
+quis dubitaverit minorem majori esse cessurum,
+in eam partem unde ipse et quo ille ferebantur?
+Quae cum ita sint, id est cum minora, ut dictum est,
+pondera majoribus cedant; multum tamen refert
+quanto in sese agantur impetu: nam si majore impetu
+minor, velut vehementi aliquo tormento emissus infligatur
+majori vel laxius jaculato, vel jam languescenti;
+quamvis ab eodem resiliat, retardat illum tamen
+aut etiam retro agit pro modo ictuum atque ponderum.</p>
+          </div3>
+<div3>
+            <head>38.</head>
+            <p>
+ His praejactis atque intellectis, quantum praesens
+<pb n="1057"/>
+negotium postulat, vide nunc eas quae dicuntur
+in animalibus vires, utrum rationi huic congruant:
+nam corpora omnium animalium quis negat suo pondere
+praedita? Quod pondus nutu animae actum, quo
+inclinaverit, multum valet magnitudine propria. Sed
+nutus animae ad movendum corporis pondus, nervis
+quasi tormentis utitur: nervos autem vegetat mobilioresque
+efficit siccitas calorque moderatus; contra
+eos laxat atque infirmat humidus rigor. Itaque somno,
+quia eum frigidum et humidum dicunt medici et probant,
+membra languescunt; atque ipse expergefactorum
+conatus multo est debilior, ideoque nihil est fractius
+et enervius lethargicis. At quosdam phreneticos,
+quibus vigiliae et vini vis et acutae febres, id est tot
+calida plus nimio nervos tendunt atque durant, majoribus
+viribus quam integra valetudine reluctari et
+multa facere manifestum est, cum eorum corpus sit
+aegritudine attenuatius et exilius. Si igitur et nutu
+animae, et nervorum quodam machinamento, et pondere
+corporis confiunt hae quae vires vocantur; voluntas
+nutum exhibet, qui pronior fit spe vel audacia,
+retunditur autem timore, sed multo magis desperatione
+(nam in metu cum aliqua spes subest, vehementiores
+vires apparere assolent); machinamentum configuratio
+quaedam corporis coaptat, temperatio modificat
+valetudinis, confirmat exercitationis industria; pondus
+dat moles membrorum, quam aetas et nutrimenta
+comparant, instaurant autem sola nutrimenta. His
+omnibus qui aequaliter praevalet, mirandus est viribus,
+et tanto est alius alio invalidior, quanto plus eum
+ista deficiunt. Fitque saepe ut pertinaci nutu, meliore
+machinamento alius, quamvis parvum pondus corporis
+egerit, alium majore mole praeditum vincat. Rursusque
+nonnunquam tanta moles est, ut etiamsi imbecilliore
+nisu agatur, opprimat tamen parvum adversarium
+multo vehementius innitentem. Cum vero non
+pondus corporis, nec moderatio nervorum, sed nutus
+ipse, id est animus cedit, ut omnino valentior ab
+omnimodo invalidiore, sed tamen timidior ab audaciore
+superetur; nescio utrum viribus attribuendum
+sit. Nisi quis dicat habere quasdam suas vires animam,
+quibus ei major audacia, vel fiducia pariatur: quae
+cum alteri adsunt, alteri desunt, tunc intelligitur
+quantum animus corpori suo, etiam in eo quod per
+corpus agitur, antecellat.</p>
+          </div3>
+<div3>
+            <head>39.</head>
+            <p>
+ Quamobrem cum infanti puero solus ad trahendum
+aliquid vel repellendum nutus sit integer; nervi
+autem et propter recentem minusque perfectam conformationem
+inhabiles, et propter humorem qui illi
+aetati exuberat marcidi, et propter nullam exercitationem
+languidi; pondus vero adeo sit exiguum, ut
+ne ab alio quidem impactum graviter urgeat, opportuniusque
+sit ad accipiendam, quam ad inferendam
+molestiam: quis est qui cum haec omnia quae desunt,
+contulisse annos viderit, viresque per eos datas cognoverit;
+crevisse animam, quae his in dies amplioribus
+utatur, recte ac prudenter existimet? Potest
+<pb n="1058"/>
+enim iste, si ab aliquo juvene, quem velamine interposito
+non conspiciat, parvos ac leves calamos, laxo
+arcu quantum potest jaculatos, viderit non longe ire,
+moxque recidere; ac post paululum sagittas jam
+ferro graves, pennulis vegetas, nervo intentissimo
+emissas, coelum remotissimum petere; fidesque facta
+fuerit, pari conatu hominis utrumque esse factum;
+crevisse illum tantillo tempore, atque auctum viribus
+arbitrari. Quo quid dici potest perversius?</p>
+          </div3>
+<div3>
+            <head>40.</head>
+            <p>
+ Deinde anima si crescit, vide quam sit inscitum,
+incrementa ejus de viribus corporis credere; de
+copia doctrinarum non credere; cum illis solum accommodet
+nutum, hoc sola possideat. At si crescere
+animam putamus, cum additur viribus; minui putanda
+est, cum demitur. Demitur autem in senecta,
+demitur in labore studiorum; atque his temporibus
+doctrinae aggerari atque exstrui solent; neque ullo
+modo eodem tempore simul augeri quidquam et minui
+potest. Nullum igitur crescentis animae argumentum
+est, vires in majori aetate majores. Multa alia
+dici possunt; sed si jam tibi satisfactum est, modum
+adhibeo, ut ad alia transeamus. <hi>E.</hi> Mihi vero satis
+persuasum est, majores vires non ex eo esse quod
+anima creverit: nam, ut alia omittam quae abs te
+subtiliter dicta sunt, insania et morbo corporis animam
+crescere, cum ipsum corpus minuatur, ne ipse
+quidem phreneticus dixerit, cui vires multo ampliores,
+quam sano esse solent, nemo nescit. Unde mihi
+maxime videtur in nervis esse omne quod miramur,
+cum praeter spem vires in quopiam reperiuntur:
+quare, oro, aggredere jam illud cui totus intendo:
+cur anima, si non tanti spatii magnitudinem habet
+quanti corpus est, ubique illius sentit cum tangitur?
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIII.-- <hi>Anima tametsi per totum corpus sentit, non idcirco est cum corpore extensa. Quid sensus et quomodo fit visio.</hi> </head>
+<div3>
+            <head>41.</head>
+            <p>
+ <hi>A.</hi> Age vero, aggrediamur quod vis, sed multo
+te mihi attentiore opus est, quam te fortasse existimas
+esse debere. Quare facito ut quam maxime adsis,
+ac respondeas mihi, quidnam tibi videatur iste esse
+sensus quo anima per corpus utitur: nam ipse jam
+nomine proprio sensus dicitur. <hi>E.</hi> Sensus esse quinque
+audire soleo, videndi, audiendi, olfaciendi, gustandi
+atque tangendi: plus quid respondeam nescio. <hi>A.</hi> 
+ Partitio ista vetustissima est, et fere in concionibus
+celebrata. Vellem autem definiri mihi abs te, quid sit
+ipse sensus, ut eadem definitione omnia illa includerentur,
+neque aliud quidquam quod sensus non esset,
+in ea intelligeretur: sed si id non potest, nihil urgeo.
+Illud enim quod satis est, certe potes meam definitionem
+vel refellere vel probare. <hi>E.</hi> Hoc modo tibi fortasse
+non deero, quantum valeo: non enim et hoc
+semper est facile. <hi>A.</hi> Attende ergo: nam sensum puto
+esse, non latere animam quod patitur corpus. <hi>E.</hi> Placet
+mihi haec definitio. <hi>A.</hi> Adesto ergo huic tanquam
+tuae, ac tuere illam, dum a me paulisper refellitur. <hi>E.</hi> 
+ Tuebor sane, si tu adjuveris; sin minime, jam
+<pb n="1059"/>
+mihi displicet: non enim frustra tibi visa est refellenda. <hi>A.</hi> 
+ Noli nimis ex auctoritate pendere, praesertim
+mea quae nulla est; et quod ait Horatius, <hi>Sapere
+aude <note>(Epist. lib. 1, epist. 2, v. 39)</note>
+            </hi>: ne non te ratio
+subjuget priusquam metus. <hi>E.</hi> Ego prorsus nihil metuo,
+quoquo res modo processerit: non enim errare
+me sines. Sed jam incipe si quid habes, ne differendo
+potius quam adversando defatiger.</p>
+          </div3>
+<div3>
+            <head>42.</head>
+            <p>
+ <hi>A.</hi> Dic igitur quid patiatur corpus tuum cum
+me vides? <hi>E.</hi> Patitur omnino aliquid: nam oculi mei
+partes, nisi fallor, corporis mei sunt; qui si nihil paterentur,
+quomodo te viderem? <hi>A.</hi> At non satis est,
+ut persuadeas tuos oculos aliquid pati, nisi etiam
+quid patiantur ostenderis. <hi>E.</hi> Quid tandem, nisi ipsum
+visum? nam vident. Si enim me rogares quid pateretur
+aegrotans, aegritudinem responderem; quid cupiens,
+cupiditatem; quid metuens, metum; quid gaudens,
+gaudium. Cur ergo roganti quid videns patiatur,
+non recte ipsum visum respondeam? <hi>A.</hi> Sed enim
+gaudens gaudium sentit. An negabis? <hi>E.</hi> Imo assentior. <hi>A.</hi> 
+ Hoc et de caeteris perturbationibus dixerim. <hi>E.</hi> 
+ Sic habeo. <hi>A.</hi> Quidquid autem oculi sentiunt, hoc
+vident. <hi>E.</hi> Nullo modo istud dederim: quis enim dolorem
+videat, quem tamen saepe oculi sentiunt? <hi>A.</hi> 
+Apparet te de oculis agere: bene vigilas. Itaque vide,
+utrum ut gaudens gaudendo gaudium sentit, ita etiam
+videns videndo sentiat visum. <hi>E.</hi> An aliter potest? <hi>A.</hi> 
+ Quidquid autem videns videndo sentit, id etiam
+videat necesse est. <hi>E.</hi> Non est necesse: quid enim?
+si amorem videndo sentiat, num et amorem videt? <hi>A.</hi> 
+ Cautissime ac sagacissime; gaudeo quod difficile
+deciperis. Sed nunc attende: quoniam constitit inter
+nos, non omne quod oculi sentiunt, neque omne quod
+videndo sentitur, videri; putasne hoc saltem verum
+esse, omne quod videtur sentiri? <hi>E.</hi> Hoc sane nisi
+concessero, quomodo sensus poterit vocari quod videmus? <hi>A.</hi> 
+ Quid? omne quod sentimus, nonne et
+patimur? <hi>E.</hi> Ita est. <hi>A.</hi> Igitur si omne quod videmus,
+sentimus, et omne quod sentimus, patimur; patimur
+omne quod videmus. <hi>E.</hi> Nihil resisto. <hi>A.</hi> Pateris ergo
+me, ac vicissim te ego, cum invicem nos videmus. <hi>E.</hi> 
+ Sic existimo, et ad hoc me ratio instanter cogit.</p>
+          </div3>
+<div3>
+            <head>43.</head>
+            <p>
+ <hi>A.</hi> Accipe caetera: nam credo absurdissimum
+et stultissimum videri tibi, si quis affirmet ibi te pati
+aliquod corpus, ubi non est ipsum corpus quod pateris. <hi>E.</hi> 
+ Videtur absurdum, et ita esse opinor, ut dicis. <hi>A.</hi> 
+ Quid illud? nonne manifestum est alio loco esse
+meum corpus, alio tuum? <hi>E.</hi> Manifestum est. <hi>A.</hi> Sentiunt
+autem corpus meum oculi tui; et si sentiunt,
+utique patiuntur; nec possunt ibi pati, ubi id quod
+patiuntur, non est; nec tamen ibi sunt illi, ubi corpus
+meum est: igitur ibi patiuntur ubi non sunt. <hi>E.</hi> Ego
+quidem illa omnia concessi, quae non concedere absurdum
+videbam: sed hoc ultimum quod ex his confectum
+est, ita est absurdius, ut illorum potius aliquid
+temere me dedisse, quam hoc verum esse consentiam:
+nam oculos meos ibi sentire ubi non sunt, ne
+in somnis quidem dicere auderem. <hi>A.</hi> Vide igitur ubi
+obdormieris: quid enim tibi tandem elaberetur incautius,
+<pb n="1060"/>
+si ut paulo ante vigilares? <hi>E.</hi> Enimvero idipsum
+mecum sedulo pertracto ac revolvo: nihil tamen
+elucet satis, quod me dedisse poeniteat, nisi
+forte illud, quod oculi nostri sentiunt cum videmus:
+visus namque ipse forsitan sentit. <hi>A.</hi> Imo ita est: is
+enim se foras porrigit, et per oculos emicat longius
+quaquaversum potest lustrare quod cernimus. Unde
+fit ut ibi potius videat, ubi est id quod videt, non
+unde erumpit ut videat. Non ergo tu vides, cum me
+vides? <hi>E.</hi> Quis hoc insanus dixerit? omnino ego video,
+sed emisso visu per oculos video. <hi>A.</hi> At si tu vides,
+tu sentis; si tu sentis, tu pateris; nec potes ibi pati
+aliquid, ubi non es: ibi autem me vides, ubi ego
+sum; ibi igitur pateris, ubi ego sum. At si ubi ego
+sum, tu ibi non es; quo pacto audeas dicere videri
+me abs te, prorsus ignoro. <hi>E.</hi> Visu, inquam, porrecto
+in eum locum in quo es, video te ubi es: at me ibi
+non esse confiteor. Sed quemadmodum si virga te
+tangerem, ego utique tangerem, idque sentirem; neque
+tamen ego ibi essem, ubi te tangerem: ita quod
+dico visu me videre, quamvis ego ibi non sim, non
+ex eo cogor fateri non me esse qui videam.</p>
+          </div3>
+<div3>
+            <head>44.</head>
+            <p>
+ <hi>A.</hi> Nihil ergo temere concessisti: nam et oculi
+tui hoc modo defendi possunt, quorum est quasi virga
+visus, ut dicis; neque illa est absurda conclusio,
+quod ibi oculi tui vident, ubi non sunt. An tibi aliter
+videtur? <hi>E.</hi> Ita sane est ut dicis: nam et illud nunc
+animadverti, quod si ibi viderent oculi ubi sunt, etiam
+seipsos viderent. <hi>A.</hi> Rectius diceres non, Etiam seipsos;
+sed, Tantummodo seipsos viderent. Nam ubi
+sunt, id est quem locum tenent, soli tenent; nec nasus
+est ibi ubi illi, nec quidquid illis vicinum est:
+alioquin etiam tu ibi esses ubi ego sum; quia juxta
+invicem sumus. Quae cum ita sint, si tantum ibi viderent
+oculi ubi sunt, nihil amplius quam seipsos viderent.
+Cum autem se non vident, non modo cogimur
+consentire, posse illos videre, ubi non sunt; sed
+etiam omnino non posse, nisi ubi non sunt. <hi>E.</hi> Nihil
+est quod hinc dubitare me faciat. <hi>A.</hi> Ergo non dubitas
+ibi eos pati, ubi non sunt. Nam ubi vident, ibi
+sentiunt: ipsum enim videre, sentire est; sentire
+autem, pati: quare ubi sentiunt, ibi patiuntur. Alibi
+autem vident quam ubi sunt: ibi igitur patiuntur, ubi
+non sunt. <hi>E.</hi> Mirum est quam ista vera existimo.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIV.-- <hi>Expenditur definitio sensus.</hi> </head>
+<div3>
+            <head>45.</head>
+            <p>
+ <hi>A.</hi> Recte fortasse existimas. Sed responde obsecro,
+utrum omne quod per visum cognoscimus, videamus. <hi>E.</hi> 
+ Ita credo. <hi>A.</hi> Credis etiam omne quod videndo
+cognoscimus, per visum nos cognoscere? <hi>E.</hi> Et
+hoc credo. <hi>A.</hi> Cur ergo plerumque fumum solum videndo,
+ignem subter latere cognoscimus, quem non
+videmus? <hi>E.</hi> Verum dicis: et jam non puto nos videre
+quidquid per visum cognoscimus: possumus
+enim, ut docuisti, aliud videndo, aliud cognoscere
+quod visus non attigerit. <hi>A.</hi> Quid? illud quod per visum
+sentimus, possumusne non videre? <hi>E.</hi> Nullo modo. <hi>A.</hi> 
+ Aliud est ergo sentire, aliud cognoscere. <hi>E.</hi> Omnino
+aliud: nam sentimus fumum, quem videmus; et ex
+eo ignem, quem non videmus, subesse cognoscimus.
+<pb n="1061"/> <hi>A.</hi> 
+ Bene intelligis. Sed vides certe cum hoc accidit,
+corpus nostrum, id est oculos, nihil pati ex igne, sed
+ex fumo quem solum vident. Etenim videre, sentire;
+et sentire, pati esse, jam supra consensimus. <hi>E.</hi> Teneo
+et assentior. <hi>A.</hi> Cum ergo per passionem corporis
+non latet aliquid animam, non continuo sensus vocatur
+unus de quinque memoratis; sed cum ipsa passio
+non latet: namque ille ignis non visus, nec auditus,
+nec olfactus, nec gustatus, nec tactus a nobis, non
+tamen latet animam, fumo viso. Et cum hoc non latere
+non vocetur sensus, quia ex igne corpus nihil est
+passum; vocatur tamen cognitio per sensum, quia ex
+passione corporis quamvis alia, id est ex alterius rei
+visione, conjectatum est atque compertum. <hi>E.</hi> Intelligo,
+et optime video istud congruere ac favere illi
+definitioni tuae, quam ut meam mihi defendendam
+dedisti: nam ita memini esse abs te sensum definitum,
+cum animam non latet quod patitur corpus. Itaque
+illud quod fumus videtur, sensum vocamus; passi
+sunt enim eum oculi videndo, qui sunt corporis partes
+et corpora: ignem autem, ex quo nihil corpus est passum,
+quamvis cognitus fuerit, sensum non vocamus.</p>
+          </div3>
+<div3>
+            <head>46.</head>
+            <p>
+ <hi>A.</hi> Memoriam quidem tuam probo et sequacem
+intelligentiam; verum munitio illa definitionis labascit. <hi>E.</hi> 
+ Cur quaeso? <hi>A.</hi> Quia non negas, ut opinor,
+nonnihil pati corpus cum crescimus vel senescimus:
+neque id nos ullo sensu sentire manifestum est; nec
+id tamen animam latet. Non igitur eam latet quiddam
+quod patitur corpus, nec tamen sensus iste appellari
+potest. Videndo enim majora ea quae aliquando minora
+videramus, et videndo senes eos quos juvenes ac pueros
+fuisse constat; conjectamus aliquam talem mutationem
+nostra corpora, etiam nunc dum loquimur,
+pati. Neque in eo fallimur, ut opinor: nam proclivius
+est, ut me falli dicam quod video, quam quod
+intelligo capillos meos nunc crescere, corpusve per
+momenta mutari. Quod si mutatio ista, passio corporis
+est, quod nemo negat, nec nunc sentitur a nobis,
+nec tamen animam latet, quia nos non latet;
+patitur, ut dixi, corpus quod non latet animam, nec
+sensus est tamen. Quare illa definitio, quae nihil quod
+sensus non esset, debebat includere, cum hoc inclusit,
+certe vitiosa est. <hi>E.</hi> Nihil mihi restare video,
+quam ut te petam, ut aut definias aliter, aut hanc
+recures, si potes: nam eam ista ratione quam vehementer
+probo, vitiosam esse negare non possum. <hi>A.</hi> 
+ Facile est istam corrigere, quod volo tu audeas:
+facies enim, mihi crede, si bene intellexisti ubi peccet. <hi>E.</hi> 
+ Num alibi quam ubi aliena comprehendit? <hi>A.</hi> 
+ Quo tandem modo? <hi>E.</hi> Quia quod senescit corpus,
+quamvis in juvene, non potest negari pati aliquid;
+idque cum scimus, non latet animam quiddam quod
+patitur corpus, neque tamen ullo sensu percipi potest:
+nam nec video me modo senescere, neque id
+auditu, aut olfactu, aut gustatu, aut tactu sentio. <hi>A.</hi> 
+ Unde ergo illud nosti? <hi>E.</hi> Ratione id colligo. <hi>A.</hi> Quibus
+argumentis ratio tua nititur? <hi>E.</hi> Quod alios video
+senes, qui ut ego nunc sum, juvenes erant. <hi>A.</hi> Nonne
+sensus est, quo eos vides, unus de quinque? <hi>E.</hi> Quis
+<pb n="1062"/>
+negat? Sed ex eo quod illos video, me quoque cum id
+non videam, conjecto senescere. <hi>A.</hi> Quid verborum
+ergo illi definitioni, quo perficiatur addendum putas;
+cum sensus non sit, nisi non lateat animam corporis
+passio, nec tamen ita ut eam per aliam passionem,
+aut per aliud quodlibet intelligat? <hi>E.</hi> Dic, quaeso,
+istud paulo planius.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXV.-- <hi>Definitio quomodo examinanda.</hi> </head>
+<div3>
+            <head>47.</head>
+            <p>
+ <hi>A.</hi> Geram tibi morem, et multo libentius retardanti
+quam festinanti: sed fac totus adsis; valebit
+enim hoc ad plura quod dicam. Definitio nihil minus,
+nihil amplius continet, quam id quod susceptum est
+explicandum; aliter omnino vitiosa est. Utrum autem
+hujusmodi vitiis careat, conversione exploratur:
+quod his exemplis tibi fiet apertius. Si enim me rogares
+quid esset homo, et eum hoc modo definirem,
+Homo est animal mortale; non continuo quia verum
+dictum est, etiam definitionem probare deberes, sed
+superposita ei particula, id est, omnis, convertere
+illam et intueri, utrum etiam conversa vera esset:
+hoc est, utrum quemadmodum verum est, omnis homo
+animal mortale est; ita esset verum, omne animal
+mortale homo est: quo aliter invento, improbare
+definitionem propter illud vitium quo aliena comprehendit;
+non enim solus homo est animal mortale,
+sed etiam quaevis bestia. Haec igitur hominis definitio
+perfici solet, cum additur mortali rationale: nam
+homo est animal mortale rationale; atque ut omnis
+homo animal rationale mortale est, ita omne animal
+rationale mortale homo est. Plus continendo ergo superior
+definitio vitiosa erat, bestiam enim cum homine
+continebat: ista perfecta est; nam et omnem
+hominem, et nihil plusquam hominem tenet. Tenendo
+autem minus, ita vitiosa est si addas grammaticum;
+quanquam enim omne animal rationale mortale grammaticum
+homo sit, plures tamen homines, qui grammatici
+non sunt, hac definitione non continentur: et
+ob hoc ista per primam illam propositionem falsa est;
+cum autem convertitur, vera. Falsum est enim, omnis
+homo animal rationale mortale grammaticum est; sed
+verum est, omne animal rationale mortale grammaticum
+homo est. Cum autem neque per primam propositionem,
+neque per conversionem enuntiata vera est, his
+singulis est profecto vitiosior: ut sunt istae duae, homo
+est animal candidum; aut, homo est animal quadrupes.
+Nam et si dicas, omnis homo animal candidum est; aut
+animal quadrupes, falsum dicis; et si convertas. Sed hoc
+inter se differunt, quod illa prima in aliquos homines
+cadit; nam plerique sunt homines candidi: haec altera
+in neminem, non enim quisquam homo quadrupes.
+Haec pro tempore ad explorandas definitiones didiceris,
+quemadmodum propositione atque conversione
+judicentur: sunt alia multa de hoc genere quae
+docentur, et verborum plena et tenebrarum, quae
+paulatim ubi opportunum videbitur, conabor ut discas.</p>
+          </div3>
+<div3>
+            <head>48.</head>
+            <p>
+ Nunc converte animum ad illam definitionem
+nostram, et eam peritior cum discusseris, corrige:
+inveneramus enim eam cum definitio sensus esset,
+complecti aliud quod sensus non esset, et ideo non
+<pb n="1063"/>
+esse, cum convertitur, veram. Fortasse enim verum
+est, omnis sensus passio corporis est animam non latens;
+ut verum est, omnis homo animal mortale est:
+at ut falsum est, omne animal mortale homo est,
+quia id est et bestia; ita falsum est, omnis passio
+corporis non latens animam, sensus est; quia nunc
+nobis ungues crescunt, nec animam latet, id enim
+scimus; neque id sentimus, sed conjectatione cognoscimus.
+Quemadmodum ergo illi definitioni hominis ut perficeretur,
+additum est rationale, quo addito, bestiae, quae
+simul continebantur, exclusae sunt, nihilque praeter
+hominem atque omnem hominem tali definitione comprehendimus;
+nonne censes aliquid etiam huic addendum
+esse, quo inde sejungatur quod tenet alienum, nec
+quidquam in ea nisi sensus, et omnis sensus intelligatur? <hi>E.</hi> 
+ Censeo quidem, sed quid addi possit ignoro. <hi>A.</hi> 
+ Sensus est certe omnis passio corporis non latens
+animam: sed converti non potest haec enuntiatio,
+propter passionem illam corporis, qua vel crescit vel
+decrescit scientibus nobis, id est, ut non lateat animam. <hi>E.</hi> 
+ Ita est. <hi>A.</hi> Quid? haec passio per seipsam
+non latet animam, an per aliud? <hi>E.</hi> Per aliud plane:
+aliud est enim videre ungues majores, aliud scire
+quod crescant. <hi>A.</hi> Cum ergo crescere ipsum sit passio,
+quam nullo sensu attingimus, magnitudo autem
+illa quam sentimus, eadem passione facta sit, non
+ipsa sit passio; manifestum est talem passionem non
+per seipsam scire nos, sed per aliud. Si ergo non per
+aliud animam non lateret, nonne sentiretur potius
+quam conjiceretur? <hi>E.</hi> Intelligo. <hi>A.</hi> Cur ergo dubitas,
+quid illi definitioni sit addendum? <hi>E.</hi> Jam video sic
+esse definiendum, ut sensus sit passio corporis per
+seipsam non latens animam: nam et omnis sensus
+hoc est, et omne hoc, ut opinor, sensus est.</p>
+          </div3>
+<div3>
+            <head>49.</head>
+            <p>
+ <hi>A.</hi> Si hoc ita est, fateor definitionem esse perfectam.
+Sed tentemus eam, si placet, utrum illo secundo
+vitio non vacillet, quo illa hominis, cui grammaticum
+est additum. Nam meminisse te oportet,
+quod esse hominem dictum est animal rationale mortale
+grammaticum; eoque peccare istam definitionem,
+quod conversione vera est, cum prima enuntiatione
+sit falsa. Namque falsum est, omnis homo
+animal rationale mortale grammaticum est, quamvis
+verum sit, omne animal rationale mortale grammaticum
+homo est. Ergo ideo vitiosa est haec definitio,
+quod nihil quidem praeter hominem, sed non omnem
+hominem tenet: et haec fortasse talis est, de qua
+velut perfecta gloriamur. Quanquam enim omnis
+passio corporis per seipsam non latens animam sensus
+sit, non tamen omnis sensus istud est. Quod sic
+intelligas licet; bestiae nempe sentiunt, ac pene
+omnes quinque illis sensibus vigent, quantum cuique
+natura tributum est. An tu id negabis? <hi>E.</hi> Nihil
+minus.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXVI.-- <hi>Scientia et ratio num in bestiis.</hi> </head>
+<p> <hi>A.</hi> Quid? hoc nonne concedis, scientiam non esse,
+nisi cum res aliqua firma ratione percepta et cognita
+est? <hi>E.</hi> Concedo. <hi>A.</hi> At bestia ratione non utitur. <hi>E.</hi> 
+ Et hoc concedo. <hi>A.</hi> Non igitur scientia cadit in
+<pb n="1064"/>
+bestiam. Cum autem non latet aliquid, utique scitur;
+non igitur sentiunt bestiae, si omnis sensus est cum
+passio corporis per seipsam non latet animam: sentiunt
+autem, ut paulo ante concessum est: quid ergo
+dubitamus illam definitionem improbare, quae omnem
+sensum circumplecti minime potuit, siquidem bestiarum
+sensus exclusus est?</p>
+<div3>
+            <head>50.</head>
+            <p>
+ <hi>E.</hi> Fateor me deceptum, cum tibi concessi
+scientiam tunc esse cum aliquid firma ratione percipitur.
+Solos enim homines, cum hoc rogabas, intuebar:
+nam neque possum dicere ratione uti bestias,
+nec eis possum scientiam denegare. Sciebat enim, ut
+opinor, dominum suum canis, quem post viginti annos
+recognovisse perhibetur <hi>(Odyss. <foreign xml:lang="greek">ρ,</foreign> 291 sqq.)</hi>, ut
+taceam de caeteris innumerabilibus. <hi>A.</hi> Dic mihi, oro
+te, si duae quaedam res tibi proponantur, una ad
+quam perveniendum sit, altera per quam pervenire
+possis; quam istarum pluris pendis, et quam cui praeponis? <hi>E.</hi> 
+ Quis dubitat eam praestare ad quam sit
+perveniendum? <hi>A.</hi> Ergo cum sint duae res quaedam
+scientia et ratio, per scientiam pervenimus ad rationem,
+an per rationem ad scientiam? <hi>E.</hi> Utraque res
+sibimet quantum arbitror, ita nexa est, ut per alterutram
+ad alteram perveniri possit. Namque ad ipsam
+rationem non perveniremus, nisi ad eam perveniendum
+esse sciremus. Praecessit ergo scientia, ut ad
+rationem per eam perveniremus. <hi>A.</hi> Quid? ad ipsam
+scientiam quam dicis praecedere, sine ratione pervenitur? <hi>E.</hi> 
+ Nunquam hoc dixerim: nam est ita summa
+temeritas. <hi>A.</hi> Per rationem igitur? <hi>E.</hi> Non ita est. <hi>A.</hi> 
+ Ergo per temeritatem? <hi>E.</hi> Quis hoc dixerit? <hi>A.</hi> 
+ Per quid igitur? <hi>E.</hi> Per nihil, quia scientia insita
+est nobis.</p>
+          </div3>
+<div3>
+            <head>51.</head>
+            <p>
+ <hi>A.</hi> Oblitus mihi videris, quid inter nos superius
+convenerit, cum rogassem utrumnam putares
+tunc esse scientiam, cum res aliqua firma ratione
+percipitur. Nam respondisti, ut opinor, hanc tibi videri
+humanam scientiam: nunc vero dicis posse hominem
+habere aliquam scientiam, cum rem nulla
+ratione perceperit. Quis autem non videat nihil sibi
+adversius esse, quam ista duo sunt: et non esse
+scientiam, nisi cum res aliqua firma ratione percipitur;
+et esse cujusdam rei scientiam nulla ratione
+perceptae. Itaque nosse cupio, utrum horum eligas;
+nam utrumque verum esse nullo pacto potest. <hi>E.</hi> Hoc
+eligo quod paulo ante dixi: nam illud superius temere
+me dedisse confiteor. Cum enim ratione inter nos verum
+quaeramus, idque fiat rogando et respondendo;
+quomodo posset ad summam pervenire qua concluditur
+ratio, nisi prius aliquid concederetur? Concedi
+autem recte qui posset quod nesciretur? Ita ista ratio
+nisi inveniret in me aliquid cognitum, quo innitens
+ad incognitum duceret; nihil omnino per illam discerem,
+nec eam prorsus rationem nominarem. Quamobrem
+frustra mihi non assentiris ante rationem necessario
+esse in nobis aliquam scientiam, unde ipsa
+ratio sumat exordium. <hi>A.</hi> Geram tibi morem, et te
+quidem ut institui, quoties alicujus dati poenitet, emendare
+permittam: sed ne, quaeso, abutaris ista licentia,
+<pb n="1065"/>
+et negligenter, cum interrogo, attendas; ne assidue
+male concessa, etiam de iis quae bene conceduntur,
+dubitare te cogant. <hi>E.</hi> Perge potius ad caetera: quamvis
+enim addam vigilantiae meae quidquid possum
+(nam et me pudet de sententia cadere toties), nunquam
+tamen deterrear pudori huic reniti, et lapsum
+meum, te praesertim manum dante, corrigere. Neque
+enim est ideo suscipienda pertinacia, quia optanda
+constantia.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXVII.-- <hi>Ratio et ratiocinatio.</hi> </head>
+<div3>
+            <head>52.</head>
+            <p>
+ <hi>A.</hi> Proveniat tibi plane ista constantia quam citissime
+potest: ita mihi placitam sententiam protulisti.
+Sed nunc fito quam praesentissimus ad ista quae volo.
+Quaero enim abs te, quid tibi interesse videatur inter
+rationem et ratiocinationem. <hi>E.</hi> Non satis valeo ista
+discernere. <hi>A.</hi> Hoc ergo intuere, utrum existimes homini
+jam adolescenti, vel viro, aut (ut omnem ambagem
+auferam) sapienti sine intermissione inesse rationem,
+dum mente sanus est, sicut bonam valetudinem
+corpori, dum peste ac vulneribus caret; an
+sicut ambulare, sedere, loqui, modo inesse, modo
+deesse. <hi>E.</hi> Sanae menti semper puto inesse rationem. <hi>A.</hi> 
+ Quid hoc? dum per ea quae conceduntur ac manifesta
+sunt, vel interrogando alium, vel connectendo
+alia, perducimus nos ad alicujus rei cognitionem;
+videturne tibi aut nos, aut quivis sapiens semper facere? <hi>E.</hi> 
+ Non semper: non enim semper homo quilibet
+aut sapiens, quantum opinor, vel secum vel cum
+alio quaerit aliquid disserendo: nam qui quaerit, nondum
+invenit; ita si semper quaerit, nunquam invenit.
+Sapiens autem jam invenit, ut nihil aliud dicam,
+vel ipsam sapientiam, quam, cum esset stultus, disserendo
+fortasse, aut quoquo modo alio poterat, requirebat. <hi>A.</hi> 
+ Recte dicis: quare intelligas volo non
+esse istam rationem, dum per ea quae conceduntur
+atque cognita sunt, ad aliquid incognitum ducimur:
+hoc enim non semper, ut jam consensimus, inest
+menti sanae; ratio autem semper.</p>
+          </div3>
+<div3>
+            <head>53.</head>
+            <p>
+ <hi>E.</hi> Intelligo; sed quorsum ista? <hi>A.</hi> Quia paulo
+ante dixisti, propterea me tibi debere assentiri scientiam
+nos habere ante rationem, quod cognito aliquo
+nititur, dum nos ratio ad incognitum ducit: nunc autem
+invenimus non rationem vocandam esse dum hoc
+agitur; non enim sana mens agit hoc semper, cum
+semper habeat rationem; sed recte ista fortasse ratiocinatio
+nominatur; ut ratio sit quidam mentis
+aspectus, ratiocinatio autem rationis inquisitio, id
+est, aspectus illius, per ea quae aspicienda sunt,
+motio. Quare ista opus est ad quaerendum, illa ad
+videndum. Itaque cum ille mentis aspectus, quem
+rationem vocamus, conjectus in rem aliquam, videt
+illam, scientia nominatur: cum autem non videt
+mens, quamvis intendat aspectum; inscitia vel ignorantia
+dicitur. Non enim et his corporalibus oculis
+omnis qui aspicit, videt; quod in tenebris facillime
+animadvertimus. Ex quo liquet, ut opinor, aliud esse
+aspectum, aliud visionem; quae duo in mente rationem
+et scientiam nominamus. Nisi quid te adversus
+haec movet, aut parum dilucide ista distincta arbitraris.
+<pb n="1066"/> <hi>E.</hi> 
+ Per mihi haec distinctio placet, et libenter
+assentior. <hi>A.</hi> Vide ergo nunc, utrum nos aspicere
+putes, ut videamus; an videre, ut aspiciamus. <hi>E.</hi> 
+ Hinc vero ne caecus quidem quisquam dubitaverit,
+aspectum esse propter visionem, non visionem
+propter aspectum. <hi>A.</hi> Fatendum igitur visionem pluris
+quam aspectum esse pendendam. <hi>E.</hi> Fatendum
+omnino. <hi>A.</hi> Ergo et scientiam pluris quam rationem. <hi>E.</hi> 
+ Consequens video. <hi>A.</hi> Placetne tibi meliores aut
+feliciores esse hominibus bestias? <hi>E.</hi> Avertat Deus
+tam immanem amentiam. <hi>A.</hi> Recte sane exhorruisti;
+sed ad id nos cogit sententia tua: dixisti enim eas
+habere scientiam, et non habere rationem. Rationem
+autem habet homo, per quam vix ad scientiam pervenitur.
+Sed ut concedam facile perveniri; quid nos
+adjuvabit ratio, ut bestiis nos anteponendos putemus,
+cum illae habeant scientiam, et hanc pluris quam rationem
+pendendam esse compertum sit?
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXVIII.-- <hi>Bestiae vim sentiendi habent, non scientiam.</hi> </head>
+<div3>
+            <head>54.</head>
+            <p>
+ <hi>E.</hi> Cogor omnino, aut scientiam bestiis non
+concedere, aut nihil recusare, quin mihi merito anteponantur.
+Sed, quaeso, explica illud, quod de cane
+Ulyssis commemoravi, qualenam sit: nam ejus admiratione
+commotus tam inaniter latravi. <hi>A.</hi> Quid
+autem hoc putas esse, nisi vim quamdam sentiendi,
+non sciendi? Sensu enim nos bestiae multae superant,
+cujus rei causam non hic locus est ut quaeramus;
+mente autem, ratione, scientia, nos illis Deus praeposuit.
+Sed ille sensus ea quibus tales animae delectantur,
+accedente consuetudine cujus magna vis est,
+potest discernere; atque eo facilius, quod anima belluarum
+magis corpori affixa est, cujus illi sunt sensus
+quibus utitur ad victum voluptatemque, quam ex
+eodem illo corpore capit. Humana vero anima per
+rationem atque scientiam, de quibus agimus, quod
+sunt ista longe praestantiora sensibus, suspendit se a
+corpore quantum potest, et ea quae intus est, libentius
+fruitur voluptate; quantoque in sensus declinat,
+tanto magis similiorem hominem pecori facit. Inde est
+quod etiam pueri vagientes, quanto alieniores a ratione
+sunt, tanto facilius discernunt sensu etiam
+contactum conjunctionemque nutricum, nec odorem
+aliarum possunt sustinere, cum quibus consuetudo
+non fuit.</p>
+          </div3>
+<div3>
+            <head>55.</head>
+            <p>
+ Quamobrem, quamvis aliud ex alio inciderit,
+libenter tamen in eo sermone demoror, quo admonetur
+anima, ne se ultra quam necessitas cogit, refundat in
+sensus; sed ab his potius ad seipsam colligat, et repuerascat
+Deo: quod est novum hominem fieri, vetere exuto;
+a quo incipere propter neglectam Dei legem certa
+est necessitas, quo neque verius neque secretius quidquam
+Scripturis divinis continetur. Vellem hinc plura
+dicere, ac meipsum constringere, dum quasi tibi praecipio,
+ut nihil aliud agerem quam redderer mihi, cui me
+maxime debeo <note>(1 Retract., cap. 8, n. 3)</note>: atque ita
+Deo fieri, quod ait Horatius, <hi>Amicum mancipium domino</hi> 
+<pb n="1067"/> <note>(Serm. lib. 2, satira 1, v. 2, 3)</note>.
+Quod omnino
+fieri non potest, nisi ad ejus reformemur imaginem,
+quam nobis ut pretiosissimum quiddam et charissimum
+custodiendam dedit, dum nos ipsos nobis tales
+dedit, qualibus nihil possit praeter ipsum anteponi.
+Hac autem actione nihil mihi videtur operosius, et
+nihil est cessationi similius: neque tamen eam suscipere
+aut implere animus potest, nisi eo ipso adjuvante
+cui redditur. Unde fit ut homo ejus clementia reformandus
+sit, cujus bonitate ac potestate formatus est.</p>
+          </div3>
+<div3>
+            <head>56.</head>
+            <p>
+ Sed ad propositum redire cogimur. Quare vide
+utrum tibi jam probatum sit, feras non habere scientiam,
+totamque illam velut imaginem scientiae, quam
+miramur, vim esse sentiendi. <hi>E.</hi> Probatum sane; et
+si quid de hoc diligentius quaerendum est, aliud tempus
+aucupabor: nunc nosse cupio quid hinc conficias.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXIX.-- <hi>Scientia et sensus quid differant.</hi> </head>
+<p> <hi>A.</hi> Quid aliud putas, nisi definitionem illam sensus,
+ut antea quod nescio quid plus quam sensum includebat,
+ita nunc contrario vitio vacillare, quod non
+omnem sensum potuit includere? Habent enim ferae
+sensum, nec habent scientiam: quidquid autem non
+latet, scitur; et omne quod scitur, ad scientiam profecto
+pertinet. De quibus omnibus jam mihi tecum
+convenit. Aut igitur non est verum, sensum esse passionem
+corporis non latentem animam; aut eo carent
+bestiae, quia scientia carent: sensum autem concedimus
+bestiis: definitio ergo illa vitiosa est. <hi>E.</hi> Fateor nihil
+me invenire quo resistam.</p>
+<div3>
+            <head>57.</head>
+            <p>
+ <hi>A.</hi> Accipe aliud quo magis nos hujus definitionis
+pudeat. Nam meministi, ut opinor, tertium definitionis
+vitium tibi demonstratum, quo prorsus nihil est turpius;
+cum ex neutra parte vera est, qualis est illa hominis,
+homo est animal quadrupes: nam sive, omnis homo
+animal est quadrupes; sive, omne animal quadrupes
+homo est, qui dicit atque affirmat, insanit profecto,
+si non jocatur. <hi>E.</hi> Verum dicis. <hi>A.</hi> Quid? si in hoc
+etiam vitio ista nostra deprehenditur, putasne quidquam
+magis esse quod sit explodendum atque exterminandum
+de anima? <hi>E.</hi> Quis id recuset? Sed nollem,
+si fieri potest, etiam hic tamdiu detineri, atque interrogatiunculis
+agitari. <hi>A.</hi> Nihil est quod metuas, jam
+enim confectum est negotium: an tibi nondum persuasum
+est, cum de differentia ferarum et hominum
+ageretur, aliud esse sentire, aliud scire? <hi>E.</hi> Imo maxime. <hi>A.</hi> 
+ Aliud ergo sensus, aliud scientia. <hi>E.</hi> Ita est. <hi>A.</hi> 
+Non autem sentimus ratione, sed aut visu, aut auditu,
+aut olfactu, aut gustatu, aut tactu. <hi>E.</hi> Assentior. <hi>A.</hi> 
+Et omne quod scimus, ratione scimus: nullus igitur
+sensus scientia est. Quidquid autem non latet, ad
+scientiam pertinet: ad nullum ergo sensum pertinet
+non latere, ut nullus homo quadrupes recte dici potest.
+Quamobrem ista nostra definitio suscepta tua, non
+solum alienos terminos invasisse, neque aliquid sui
+juris reliquisse, sed nihil omnino habuisse proprium,
+totumque alienum occupasse convicta est. <hi>E.</hi> Quid
+ergo agemus? Patierisne illam de judicio ita discedere?
+Quanquam enim ego ei defensionem qualem
+potui praebuerim, tu tamen ipsam litis formulam, quae
+<pb n="1068"/>
+nos decepit, composuisti. Et ego quidem tametsi obtinere
+non potui, bona fide adfui, quod mihi satis est:
+tu vero si praevaricationis arguaris, quid facias, a quo
+et producta est ut jurgaret audenter, et oppugnata ut
+turpiter cederet? <hi>A.</hi> Numquidnam est hic quisquam
+judex, a quo huic vel mihi metuendum sit? Ego te
+privatim quasi adhibitus jurisconsultus, instruendi
+causa refellere volui, ut cum ad judicium ventum fuerit,
+paratus assistas.</p>
+          </div3>
+<div3>
+            <head>58.</head>
+            <p>
+ <hi>E.</hi> Est ergo aliquid quod pro ista proferas,
+quam mihi invalidissimo temere defendendam tuendamque
+commendas? <hi>A.</hi> Est certe.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXX.-- <hi>Anima quae ubique sentiat in corpore, non idcirco est per totum corpus diffusa.</hi> </head>
+<p> <hi>E.</hi> Quidnam id est, obsecro? <hi>A.</hi> Quia quanquam
+sit aliud sensus, aliud scientia, illud tamen non latere
+utrique commune est; ut ipsi homini et bestiae, quamvis
+plurimum differant, animal tamen esse commune
+est. Non latet enim quidquid animae apparet, sive per
+temperationem corporis, sive per intelligentiae puritatem;
+atque illud primum sensus, hoc autem alterum
+scientia sibi vindicavit. <hi>E.</hi> Manet ergo illa definitio
+tuta et probata? <hi>A.</hi> Manet vero. <hi>E.</hi> Ubinam
+ergo deceptus sum? <hi>A.</hi> Ubi rogavi, utrum omne quod
+non latet, sciatur: tu enim huic rogationi temere
+assensus es. <hi>E.</hi> Nam quid velles dicerem? <hi>A.</hi> Non continuo
+esse scientiam si quid non latet, sed si per rationem
+non latet: cum autem per corpus non latet,
+sensum vocari, si per seipsam non lateat corporis passio.
+An ignoras quibusdam philosophis et peracutis visum
+esse, ne idipsum quidem quod mente comprehenditur,
+ad nomen aspirare scientiae, nisi tam firma comprehensio
+sit, ut ab ea mens nulla ratione queat dimoveri?</p>
+<div3>
+            <head>59.</head>
+            <p>
+ <hi>E.</hi> Accipio ista gratissime: sed quaeso quoniam
+quid sit sensus, subtilissime quantum arbitror explicatum
+est, referamus nos ad illam quaestionem, propter
+quam explicandum hoc susceperamus. Attuleram
+enim ego argumentum, quo tantam probarem animam
+esse, quantum ejus est corpus, eo quod tangentem a
+capite usque ad pedis extremum pollicem sentit quaqua
+versum tetigeris; atque inde ad sensus definitionem
+morarum plenissimam, sed forte necessario delati
+sumus. Itaque ipsum fructum tanti operis jam ostende,
+si placet. <hi>A.</hi> Est omnino, atque uberrimus; nam totum
+quod quaerebamus, effectum est. Si enim sensus est
+corporis passio per seipsam non latens animam, quod
+ut firmissime teneremus, diutius quam velles sermocinati
+sumus; meministine tandem nos comperisse ibi
+sentire oculos ubi non sunt, vel potius ibi pati? <hi>E.</hi> 
+Memini. <hi>A.</hi> Etiam illud dedisti, nisi fallor, nec modo
+dubitas dandum fuisse, animam multo quam totum
+corpus est, esse meliorem ac potentiorem. <hi>E.</hi> Hinc
+vero dubitare nefarium puto. <hi>A.</hi> Age, si corpus potest
+ibi pati aliquid ubi non est, propter quamdam cum
+anima contemperationem, quod oculis in cernendo
+accidere inventum est; adeone animam crassam et
+pigram putamus, per quam ipsi oculi tantum possunt,
+<pb n="1069"/>
+ut eam lateat corporis passio, si non ibi jaceat, ubi
+passio ipsa contingit?</p>
+          </div3>
+<div3>
+            <head>60.</head>
+            <p>
+ <hi>E.</hi> Multum me movet ista conclusio, et ita
+multum ut omnino stupeam, et non solum quid respondeam,
+sed prorsus ubi sim non inveniam. Quid
+enim dicam? sensum non esse, cum corporis passio
+per seipsam non latet animam? quid erit aliud, si hoc
+non est? Oculos nihil pati cum videmus? absurdissimum
+est. Eos ibi pati ubi sunt? at seipsos non vident,
+nec ubi sunt quidquam est praeter ipsos. Non esse
+oculis animam potentiorem, cum eadem sit istorum
+potentia? nihil est dementius. An hoc dicendum est,
+potentius esse ibi pati, ubi quidque sit, quam ubi non
+sit? sed si hoc verum esset, non esset praestantior
+visus caeteris sensibus. <hi>A.</hi> Quid quod ictum aliquem,
+vel incidens quidpiam, vel humoris perturbationem
+cum ibi patiantur oculi ubi sunt; neque hoc animam
+latet, nec ista passio visus, sed tactus vocatur: et
+tamen talia pati oculus posset etiam in exanimo corpore,
+quamvis deesset anima, quam passio non lateret;
+illud autem quod pati non potest oculus, nisi
+adsit anima, id est quod videndo patitur, hoc solum
+ibi patitur, ubi non est? Ex quo cui non videatur,
+nullo loco animam contineri? Siquidem oculus, quod
+est corpus, id tantum non loco suo patitur, quod nunquam
+sine anima pateretur.</p>
+          </div3>
+<div3>
+            <head>61.</head>
+            <p>
+ <hi>E.</hi> Quid igitur faciam, quaeso te? Nonne istis
+rationibus confici potest, animas nostras non esse in
+corporibus? quod si ita est, nonne ubi sim nescio?
+Quis enim mihi eripit, quod ego ipse anima sum? <hi>A.</hi> 
+Ne perturbere, ac magis bono animo facito sis. Ista
+enim cogitatio et consideratio ad nosmetipsos nos
+invitat, et quantum licet avellit a corpore. Quod autem
+tibi visum est, non esse animam in corpore viventis
+animantis, quanquam videatur absurdum, non tamen
+doctissimi homines, quibus id placuerit, defuerunt,
+neque nunc arbitror deesse: sed, ut ipse intelligis,
+res est subtilissima, et ad quam cernendam mentis
+acies satis purganda est. Nunc attende potius quid
+aliud afferas, quo convincas animam vel longam vel
+latam esse, vel quid ejusmodi: nam illud argumentum
+tuum de tangendi sensu, sentis non attingere veritatem,
+nec valere aliquid, ut eam per totum corpus
+tanquam sanguinem diffusam esse convincat: aut si jam
+quod afferas nihil habes, videamus quae restant.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXI.-- <hi>Vermiculi secti partes moventur. An argumentum sit animae per totum corpus extensae.</hi> </head>
+<div3>
+            <head>62.</head>
+            <p>
+ <hi>E.</hi> Nihil haberem fortasse, nisi recordarer quantum
+pueri mirari soleremus palpitantes lacertarum caudas
+amputatas a caetero corpore; quem motum sine
+anima fieri nullo modo mihi persuadere possum: neque
+quo pacto fiat, ut nullum sit animae spatium, quando
+praecidi etiam cum corpore potest, intelligo. <hi>A.</hi> 
+Possem respondere aerem et ignem, quae duo per animae
+praesentiam tenentur in corpore terreno et humido,
+ut omnium quatuor fiat contemperatio, dum post
+<pb n="1070"/>
+ejusdem animae abscessum ad superna evadunt, ac
+sese expediunt, movere illa corpuscula tanto concitatius,
+quanto plaga recentiore subito erumpunt: deinde
+porro motum languescere, postremo desinere,
+dum minus minusque fit quod effugit, ac deinde totum
+evolat. Sed ab hoc me revocat quod his hausi oculis
+pene serius quam credi potest; sed certe non serius
+quam deberem. Cum enim nuper in agro essemus Liguriae,
+nostri illi adolescentes qui tunc mecum erant
+studiorum suorum gratia, animadverterunt humi jacentes
+in opaco loco, reptantem bestiolam multipedem,
+longum dico quemdam vermiculum: vulgo notus
+est, hoc tamen quod dicam nunquam in eo expertus
+eram. Verso namque stilo quem forte habebat unus
+illorum, animal medium percussit: tum ambae partes
+corporis ab illo vulnere in contraria discesserunt, tanta
+pedum celeritate, ac nihilo imbecilliore nisu, quam si
+duo hujuscemodi animantia forent. Quo miraculo exterriti,
+causaeque curiosi, ad nos, ubi simul ego et Alypius
+considebamus, alacriter viventia frusta illa detulerunt.
+Neque nos parum commoti, ea currere in
+tabula quaquaversum poterant, cernebamus: atque
+unum ipsorum stilo tactum, contorquebat se ad doloris
+locum, nihil sentiente alio, ac suos alibi motus peragente.
+Quid plura? Tentavimus, quatenus id valeret;
+atque vermiculum, imo jam vermiculos in multas partes
+concidimus: ita omnes movebantur, ut nisi a nobis
+illud factum esset, et comparerent vulnera recentia,
+totidem illos separatim natos, ac sibi quemque vixisse
+crederemus.</p>
+          </div3>
+<div3>
+            <head>63.</head>
+            <p>
+ Sed tunc ego quod illis adolescentibus dixi, cum
+intenti me intuerentur, tibi nunc dicere vereor: jam
+enim tantum processimus, ut nisi tibi aliter respondero
+quod secundum meam causam probabiliter valet, tanta
+nostra intentio per tam longum munita sermonem, ab
+uno vermiculo penetrata succubuisse videatur. Illis autem
+praeceperam, ut in studiis, sicuti coeperant, suum
+cursum tenerent; ita eos opportunius aliquando ad
+quaerenda et discenda ista, si res moneret, esse venturos.
+Sed quae illis discedentibus cum Alypio sermocinatus
+sum, cum uterque nostrum pro suo quisque
+modulo recordaretur et conjectaret et quaereret, si exponere
+velim; longe plura nobis dicenda sunt, quam
+ab ipso principio tantis ambagibus atque anfractibus
+dicta sunt: non apud te tamen tacebo quod sentio.
+Nisi mihi tunc multa jam nota essent de corpore, de
+specie quae inest corpori, de loco, de tempore, de motu,
+quae subtilissime atque abstrusissime propter hanc
+ipsam quaestionem disseruntur; ad dandam palmam
+iis, qui corpus esse animam dicunt, declinarem. Quapropter
+te, ut possum, etiam atque etiam moneo, ne
+temere aut in libros aut in disputationes loquacissimorum
+hominum, nimiumque sensibus his corporis
+credentium te praecipites, donec corrigas firmesque
+vestigia, quae usque ad ipsum Deum animam ducunt,
+ne ab illo secretissimo et tranquillissimo mentis habitaculo,
+a quo nunc, dum haec incolit, peregrina est,
+studiis facilius et laboribus, quam inertia desidiaque
+avertaris.
+<pb n="1071"/>
+</p>
+          </div3>
+<div3>
+            <head>64. </head>
+            <p>
+Nunc autem accipe contra illud quo, ut sentio,
+multum moveris, non quod robustius de multis, sed
+quod brevius; neque quod mihi probabilius quam caetera,
+sed quod tibi aptius eligere potui. <hi>E.</hi> Dic, oro te,
+quam citissime potes. <hi>A.</hi> Primum illud dico, si maxime
+causa lateat, cur in concisione quorumdam corporum
+illa contingant, non continuo nos hoc uno ita perturbari
+oportere, ut tam multa quae superius luce clariora
+tibi visa sunt, falsa esse arbitremur. Fieri enim potest
+ut hujus rei causa nos lateat, quae vel humanae naturae
+occultata est; vel sit alicui homini cognita, nec iste a nobis
+interrogari possit; aut etiam hoc ingenio ipsi simus,
+ut satisfacere nobis interrogatus non possit. Numquidnam
+ex eo quidquid ex contraria parte firmissime didicimus,
+ac verissimum esse confitemur, labi nobis
+atque extorqueri decet? Atqui si illa maneant integra,
+quae interrogatus certa et indubia esse respondisti;
+nihil est quod istum vermiculum pueriliter metuamus,
+quanquam vivacitatis et numerositatis ejus causam
+non valeamus afferre. Si enim apud te de aliquo fixum
+immotumque constaret, quod esset vir bonus, eumque
+in latronum convivio quos persequerere deprehenderes,
+atque aliquo casu, antequam abs te interrogari
+posset, moreretur; quamlibet causam putares potius
+illius cum sceleratis conjunctionis atque convivii,
+etiamsi te semper lateret, quam scelus et societatem.
+Cur ergo non, cum tam multis argumentis superius
+editis, atque abs te firmissime comprobatis, planum
+tibi factum sit non loco animam contineri, atque ob
+hoc nullius talis esse quantitatis, qualem in corporibus
+cernimus, aliquam suspicaris esse causam, cur nonnullum
+animal concisum in omnibus partibus vivat;
+non eam tamen quod cum corpore anima concidi potuerit?
+Quam si reperire non possumus, quaerenda
+nonne est potius vera, quam falsa credenda?
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXII.-- <hi>Dissecto corpore anima non secatur. Frusta dissecti corporis vivere possunt, cum anima secta non sit. Deinceps de animae quantitate, ratione virtutis ac potentiae.</hi> </head>
+<div3>
+            <head>65.</head>
+            <p>
+ Deinde quaero abs te, utrum putes in verbis
+nostris aliud esse ipsum sonum, aliud quod sono significatur. <hi>E.</hi> 
+ Ego utrumque idem puto. <hi>A.</hi> Dic mihi ergo,
+sonus ipse unde procedat cum loqueris. <hi>E.</hi> Quis dubitet
+a me procedere? <hi>A.</hi> Abs te ergo sol procedit,
+dum nominas solem? <hi>E.</hi> De sono me, non de re ipsa
+interrogasti. <hi>A.</hi> Aliud ergo sonus est, aliud res quam
+significat sonus: tu autem utrumque idem esse dixeras. <hi>E.</hi> 
+ Age, jam concedo aliud esse significantem sonum,
+aliud rem quae significatur. <hi>A.</hi> Dic ergo, utrum
+posses gnarus latinae linguae nominare in loquendo solem,
+si non intellectus solis praecederet sonum. <hi>E.</hi> 
+Nullo modo possem. <hi>A.</hi> Quid? antequam ipsum nomen
+de ore procedat, si volens id enuntiare aliquandiu te
+in silentio teneas; nonne in tua cogitatione manet,
+quod expressa voce alius auditurus est? <hi>E.</hi> Manifestum
+est. <hi>A.</hi> Quid? cum ipse sol tantae sit magnitudinis,
+num illa notio ejus, quam cogitatione ante vocem
+<pb n="1072"/>
+tenes, aut longa, aut lata, aut quid ejusmodi videri
+potest? <hi>E.</hi> Nullo modo.</p>
+          </div3>
+<div3>
+            <head>66.</head>
+            <p>
+ <hi>A.</hi> Age, jam dic mihi: cum ore ipsum nomen
+erumpit tuo, atque id ego audiens solem cogito, quem
+tu ante vocem et cum ipsa voce cogitasti, et nunc fortasse
+ambo cogitamus; nonne tibi videtur nomen ipsum
+veluti accepisse abs te significationem, quam ad
+me per aures deportaret? <hi>E.</hi> Videtur. <hi>A.</hi> Cum ergo
+nomen ipsum sono et significatione constet, sonus autem
+ad aures, significatio ad mentem pertineat; nonne
+arbitraris in nomine, velut in aliquo animante, sonum
+esse corpus, significationem autem quasi animam soni? <hi>E.</hi> 
+ Nihil mihi videtur similius. <hi>A.</hi> Attende nunc,
+utrum nominis sonus per litteras dividi possit, cum
+anima ejus, id est significatio, non possit. Siquidem
+ipsa est quam paulo ante in nostra cogitatione nec latam
+nec longam respondisti tibi videri. <hi>E.</hi> Prorsus
+assentior. <hi>A.</hi> Quid, cum per litteras singulas sonus ille
+dividitur, videtur tibi significationem illam retinere? <hi>E.</hi> 
+ Quomodo possunt singulae litterae significare, quod
+nomen quod ex his confit, significat? <hi>A.</hi> At cum, perdita
+significatione discerptus in litteris sonus est; num
+aliud putas esse factum, quam dilaniato corpore discessisse
+animam, et quasi mortem quamdam nominis
+contigisse? <hi>E.</hi> Non solum assentior, sed ita libenter,
+ut nihil me magis in hoc sermone delectaverit.</p>
+          </div3>
+<div3>
+            <head>67.</head>
+            <p>
+ <hi>A.</hi> Si ergo satis perspexisti in hac similitudine,
+quomodo possit dissecto corpore anima non secari;
+accipe nunc quomodo frusta ipsa corporis, cum anima
+secta non sit, vivere possint. Jam enim concessisti,
+et recte, ut opinor, significationem quae quasi anima
+soni est, dum nomen editur, per seipsam nullo pacto
+dividi posse, cum ipse sonus, quod velut corpus ejus
+est, possit. Sed in solis nomine ita soni est facta divisio,
+ut nulla pars ejus significationem aliquam retineret.
+Itaque illas litteras, dilacerato corpore nominis,
+tanquam exanima membra, id est, significatione carentia,
+considerabamus. Quamobrem si aliquod nomen
+invenerimus, quod divisum queat etiam singulis partibus
+quidpiam significare; concedas oportet, non omnimodam
+veluti mortem tali praecisione factam esse, cum
+tibi membra separatim considerata quodlibet significantia
+et quasi spirantia videbuntur. <hi>E.</hi> Concedam omnino,
+et ut jam idipsum sones, flagito. <hi>A.</hi> Accipe: nam
+dum viciniam solis attendo, de cujus nomine superius
+egimus, Lucifer mihi occurrit; qui profecto inter secundam
+et tertiam syllabam scissus nonnihil priore
+parte significat, cum dicimus, Luci, et ideo in hoc plusquam
+dimidio corpore nominis vivit. Extrema etiam
+pars habet animam: nam cum ferre aliquid juberis,
+hanc audis. Qui enim posses obtemperare, si quis tibi
+diceret, Fer codicem, si nihil significaret Fer? quod
+cum additur Luci, Lucifer sonat, et significat stellam;
+cum autem demitur, nonnihil significat, et ob hoc quasi
+retinet vitam.</p>
+          </div3>
+<div3>
+            <head>68.</head>
+            <p>
+ Cum autem locus et tempus sit, quibus omnia
+quae sentiuntur occupantur, vel potius quae occupant;
+quod oculis sentimus, per locum; quod auribus, per
+<pb n="1073"/>
+tempus dividitur. Ut enim vermiculus ille plus loci totus,
+quam pars ejus occupabat; ita majorem temporis
+moram tenet, cum Lucifer dicitur, quam si Luci tantummodo
+diceretur. Quare si hoc significatione vivit
+in ea diminutione temporis, quae diviso illo sono facta
+est, cum eadem significatio divisa non sit (non enim
+ipsa per tempus distendebatur, sed sonus); ita existimandum
+est, secto vermiculi corpore, quanquam in
+minore loco pars eo ipso quo pars erat viveret, non
+omnino animam sectam, nec loco minore minorem
+esse factam, licet integri animantis membra omnia
+per majorem locum porrecta simul possederit. Non
+enim locum ipsa, sed corpus quod ab eadem agebatur,
+tenebat: sicut illa significatio non distenta per tempus,
+omnes tamen nominis litteras suas moras ac
+tempora possidentes, velut animaverat atque compleverat.
+Hac similitudine interim contentus sis peto,
+qua te sentio delectatum. Quae autem subtilissime de
+hoc disputari possunt, ita ut non similitudinibus quae
+plerumque fallunt, sed rebus ipsis satis fiat, ne in
+praesentia exspectes: nam et concludendus est tam
+longus sermo, et multis aliis quae tibi desunt, animus
+ad haec intuenda et dispicienda praecolendus est, ut
+possis intelligere liquidissime, utrum quod a quibusdam
+doctissimis viris dicitur, ita sese habeat, animam per
+seipsam nullo modo, sed tamen per corpus posse partiri.</p>
+          </div3>
+<div3>
+            <head>69.</head>
+            <p>
+ Nunc accipe a me, si voles, vel potius recognosce
+per me, quanta sit anima non spatio loci ac
+temporis, sed vi ac potentia: nam ita si meministi,
+propositum ac distributum jamdiu nobis est. De numero
+vero animarum, nescio quid tibi respondeam,
+cum hoc ad istam quaestionem pertinere putaveris:
+citius enim dixerim non esse omnino quaerendum,
+aut certe tibi nunc differendum, quam vel numerum
+ac multitudinem non pertinere ad quantitatem, vel
+tam involutam quaestionem modo a me tibi posse expediri.
+Si enim dixero unam esse animam, conturbaberis,
+quod in altero beata est, in altero misera; nec
+una res simul et beata et misera potest esse. Si unam
+simul et multas dicam esse, ridebis; nec mihi facile,
+unde tuum risum comprimam, suppetit. Sin multas
+tantummodo esse dixero, ipse me ridebo, minusque
+me mihi displicentem, quam tibi, perferam. Audi ergo
+quod ex me bene te audire posse polliceor; quod vero
+aut ambobus, aut alteri nostrum ita onerosum est, ut
+fortasse opprimat, ne subire aut imponere velis. <hi>E.</hi> Cedo
+prorsus, et quod tibi congruenter mecum videtur agi
+posse, quantum valeat anima, exspecto ut exponas.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXIII.-- <hi>Vis animae in corpore, in seipsa, et apud Deum, septem ejus magnitudinis gradus constituit.</hi> </head>
+<p>
+            <emph>Primus gradus animae.</emph>
+          </p>
+
+<div3>
+            <head>70.</head>
+            <p>
+ <hi>A.</hi> O utinam doctissimum aliquem, neque id tantum,
+sed etiam eloquentissimum, et omnino sapientissimum,
+perfectumque hominem de hoc ambo interrogare
+possemus! Quonam ille modo quid anima in corpore
+valeret, quid in seipsa, quid apud Deum cui mundissima
+proxima est et in quo habet summum atque omne bonum
+suum, dicendo ac disputando explicaret! Nunc autem
+<pb n="1074"/>
+cum mihi ad hanc rem desit alius, audeo tamen tibi non
+deesse: sed hoc mercedis est, quod dum, quid valeat
+anima, indoctus expedio; quid ipse valeam securus
+experior. In primis tamen tibi amputem latissimam
+quamdam et infinitam exspectationem, ne me de omni
+anima dicturum putes, sed tantum de humana, quam
+solam curare debemus, si nobismetipsis curae sumus.
+Haec igitur primo, quod cuivis animadvertere facile
+est, corpus hoc terrenum atque mortale praesentia sua
+vivificat; colligit in unum, atque in uno tenet, diffluere
+atque contabescere non sinit; alimenta per
+membra aequaliter, suis cuique redditis, distribui facit;
+congruentiam ejus modumque conservat, non
+tantum in pulchritudine, sed etiam in crescendo atque
+gignendo. Sed haec etiam homini cum arbustis communia
+videri queunt: haec enim etiam dicimus vivere,
+in suo vero quidque illorum genere custodiri,
+ali, crescere, gignere videmus atque fatemur.
+</p>
+            <p>
+              <emph>Secundus gradus animae.</emph>
+            </p>
+</div3>
+<div3>
+            <head>71.</head>
+            <p>
+ Ascende itaque alterum gradum, et vide quid
+possit anima in sensibus, ubi evidentior manifestiorque
+vita intelligitur. Non enim audienda est nescio
+quae impietas rusticana plane, magisque lignea
+quam sunt ipsae arbores quibus pratrocinium praebet,
+quae dolere vitem quando uva decerpitur, et non
+solum sentire ista cum caeduntur, sed etiam videre atque
+audire credit: de quo errore sacrilego alius est
+disserendi locus. Nunc quod institueram, intende quae
+sit vis animae in sensibus, atque in ipso motu manifestioris
+animantis, quorum nobis cum iis quae radicibus
+fixa sunt, nulla potest esse communio. Intendit
+se anima in tactum, et eo calida, frigida, aspera, lenia,
+dura, mollia, levia, gravia sentit atque discernit.
+Deinde innumerabiles differentias saporum, odorum,
+sonorum, formarum, gustando, olfaciendo, audiendo
+videndoque dijudicat. Atque in iis omnibus ea quae
+secundum naturam sui coporis sunt, adsciscit atque
+appetit; rejicit fugitque contraria. Removet se ab his
+sensibus certo intervallo temporum, et eorum motus
+quasi per quasdam ferias reparans, imagines rerum
+quas per eos hausit, secum catervatim et multipliciter
+versat, et hoc totum est somnus et somnia. Saepe
+etiam gestiendo ac vagando facilitate motus delectatur,
+et sine labore ordinat membrorum concordiam;
+pro copulatione sexus agit quod potest, atque in duplici
+natura, societate atque amore molitur unum.
+Fetibus non jam gignendis tantummodo, sed etiam fovendis,
+tuendis alendisque conspirat. Rebus inter
+quas corpus agit, et quibus corpus sustentat, consuetudine
+sese innectit, et ab eis quasi membris aegre separatur:
+quae consuetudinis vis etiam sejunctione rerum
+ipsarum atque intervallo temporis non discissa,
+memoria vocatur. Sed haec rursus omnia posse animam
+etiam in bestiis nemo negat.
+</p>
+            <p>
+              <emph>Tertius gradus animae.</emph>
+            </p>
+</div3>
+<div3>
+            <head>72.</head>
+            <p>
+ Ergo attollere in tertium gradum, qui jam est
+homini proprius, et cogita memoriam non consuetudine
+inolitarum, sed animadversione atque signis
+<pb n="1075"/>
+commendatarum ac retentarum rerum innumerabilium,
+tot artes opificum, agrorum cultus, exstructiones
+urbium, variorum aedificiorum ac moliminum
+multimoda miracula; inventiones tot signorum in
+litteris, in verbis, in gestu, in cujuscemodi sono, in
+picturis atque figmentis; tot gentium linguas, tot instituta,
+tot nova, tot instaurata; tantum librorum numerum,
+et cujuscemodi monumentorum ad custodiendam
+memoriam, tantamque curam posteritatis; officiorum,
+potestatum, honorum dignitatumque ordines,
+sive in familiis, sive domi militiaeque in republica,
+sive in profanis, sive in sacris apparatibus; vim ratiocinandi
+et excogitandi, fluvios eloquentiae, carminum
+varietates, ludendi ac jocandi causa milleformes simulationes,
+modulandi peritiam, dimetiendi subtilitatem,
+numerandi disciplinam, praeteritorum ac futurorum
+ex praesentibus conjecturam. Magna haec et omnino
+humana. Sed est adhuc ista partim doctis atque indoctis,
+partim bonis ac malis animis copia communis.
+</p>
+            <p>
+              <emph>Quartus gradus animae.</emph>
+            </p>
+</div3>
+<div3>
+            <head>73.</head>
+            <p>
+ Suspice igitur atque insili quarto gradui, ex
+quo bonitas incipit, atque omnis vera laudatio. Hinc
+enim anima se non solum suo, si quam universi partem
+agit, sed ipsi etiam universo corpori audet praeponere,
+bonaque ejus bona sua non putare, atque
+potentiae pulchritudinique suae comparata discernere
+atque contemnere: et inde quo magis se delectat, eo
+magis sese abstrahere a sordibus, totamque emaculare
+ac mundissimam reddere et comptissimam; roborare
+se adversus omnia, quae de proposito ac sententia
+dimovere moliuntur; societatem humanam
+magni pendere, nihilque velle alteri quod sibi nolit
+accidere; sequi auctoritatem ac praecepta sapientium,
+et per haec loqui sibi Deum credere. In hoc tam praeclaro
+actu animae inest adhuc labor, et contra hujus
+mundi molestias atque blanditias magnus acerrimusque
+conflictus. In ipso enim purgationis negotio subest
+metus mortis saepe non magnus, saepe vero vehementissimus:
+non magnus tum cum robustissime
+creditur (nam videre hoc utrum sit verum, non
+nisi perpurgatae animae licet) tanta Dei providentia
+justitiaque gubernari omnia, ut nulli mors inique accidere
+possit, etiamsi eam forte iniquus intulerit. Vehementer
+autem formidatur mors in hoc jam gradu,
+cum et illud eo creditur infirmius, quo sollicitius
+quaeritur; et eo ipso minus videtur, quo tranquillitas
+propter metum minor est, investigandis obscurissimis
+rebus pernecessaria. Deinde quo magis magisque
+sentit anima, eo ipso quo proficit, quantum intersit
+inter puram et contaminatam; eo magis timet, ne,
+deposito isto corpore, minus eam possit Deus quam
+seipsa ferre pollutam. Nihil autem difficilius quam et
+metuere mortem, et ab illecebris hujus mundi, sicut
+pericula ipsa postulant, temperare. Tanta est tamen
+anima, ut etiam hoc possit adjuvante sane justitia
+summi et veri Dei, qua haec universitas sustentatur et
+regitur; qua etiam factum est, ut non modo sint omnia,
+sed ita sint, ut omnino melius esse non possint. Cui
+<pb n="1076"/>
+sese in opere tam difficili mundationis suae adjuvandam
+et perficiendam piissime tutissimeque committit.
+</p>
+            <p>
+              <emph>Quintus gradus animae.</emph>
+            </p>
+</div3>
+<div3>
+            <head>74.</head>
+            <p>
+ Quod cum effectum erit, id est, cum fuerit ab
+omni tabe anima libera maculisque diluta, tum se denique
+in seipsa laetissime tenet, nec omnino aliquid
+metuit sibi aut ulla sua causa quidquam angitur. Est
+ergo iste quintus gradus: aliud est enim efficere, aliud
+tenere puritatem; et alia prorsus actio qua se inquinatam
+redintegrat, alia qua non patitur se rursus inquinari.
+In hoc gradu omnifariam concipit quanta sit:
+quod cum conceperit, tunc vero ingenti quadam et
+incredibili fiducia pergit in Deum, id est, in ipsam contemplationem
+veritatis, et illud, propter quod tantum
+laboratum est, altissimum et secretissimum praemium.
+</p>
+            <p>
+              <emph>Sextus gradus animae.</emph>
+            </p>
+</div3>
+<div3>
+            <head>75.</head>
+            <p>
+ Sed haec actio, id est, appetitio intelligendi ea
+quae vere summeque sunt, summus aspectus est animae,
+quo perfectiorem, meliorem rectioremque non
+habet. Sextus ergo erit iste gradus actionis: aliud est
+enim mundari oculum ipsum animae, ne frustra et temere
+aspiciat, et prave videat; aliud ipsam custodire
+atque firmare sanitatem; aliud jam serenum atque
+rectum aspectum in id quod videndum est, dirigere.
+Quod qui prius volunt facere quam mundati et sanati
+fuerint, ita illa luce reverberantur veritatis, ut non
+solum nihil boni, sed etiam mali plurimum in ea putent
+esse, atque ab ea nomen veritatis abjudicent, et
+cum quadam libidine et voluptate miserabili in suas
+tenebras, quas eorum morbus pati potest, medicinae
+maledicentes refugiant. Unde divino afflatu, et prorsus
+ordinatissime illud a Propheta dicitur: <hi>Cor mundum
+crea in me, Deus, et spiritum rectum innova in
+visceribus meis <note>(Psal. L, 12)</note>
+            </hi>. Spiritus enim rectus est,
+credo, quo fit ut anima in veritate quaerenda deviare
+atque errare non possit. Qui profecto in ea non instauratur,
+nisi prius cor mundum fuerit, hoc est, nisi
+prius ipsa cogitatio ab omni cupiditate ac faece rerum
+mortalium sese cohibuerit et eliquaverit.
+</p>
+            <p>
+              <emph>Septimus gradus animae.</emph>
+            </p>
+</div3>
+<div3>
+            <head>76.</head>
+            <p>
+ Jamvero in ipsa visione atque contemplatione
+veritatis, qui septimus atque ultimus animae gradus
+est; neque jam gradus, sed quaedam mansio, quo illis
+gradibus pervenitur; quae sint gaudia, quae perfructio
+summi et veri boni, cujus serenitatis atque aeternitatis
+afflatus, quid ego dicam? Dixerunt haec quantum
+dicenda esse judicaverunt, magnae quaedam et incomparabiles
+animae, quas etiam vidisse ac videre ista
+credimus. Illud plane ego nunc audeo tibi dicere, nos
+si cursum quem nobis Deus imperat, et quem tenendum
+suscepimus, constantissime tenuerimus, perventuros
+per Virtutem Dei atque Sapientiam ad summam
+illam causam, vel summum auctorem, vel summum
+principium rerum omnium, vel si quo alio modo res
+tanta congruentius appellari potest: quo intellecto,
+vere videbimus quam sint omnia sub sole vanitas vanitantium <note>(Eccle. I, 2)</note>.
+Vanitas enim est fallacia,
+vanitantes autem vel falsi, vel fallentes, vel utrique
+<pb n="1077"/>
+intelliguntur. Licet tamen dignoscere quantum inter
+haec, et ea quae vere sunt, distet; et quemadmodum
+tamen etiam ista omnia Deo auctore creata sint, et in
+illorum comparatione nulla sint; per se autem considerata,
+mira atque pulchra. Tunc agnoscemus quam
+vera nobis credenda imperata sint, quamque optime
+ac saluberrime apud matrem Ecclesiam nutriti fuerimus,
+quaeve sit utilitas lactis illius quod apostolus
+Paulus parvulis se potum dedisse praedicavit <note>(I Cor.
+III, 2)</note>: quod alimentum accipere cum quis matre nutritur,
+utilissimum est; cum jam grandis est, pudendum:
+respuere cum opus est, miserandum; reprehendere
+aliquando aut odisse, sceleris et impietatis: tractare
+autem ac dispensare commode, laudis et charitatis
+plenissimum est. Videbimus etiam naturae hujus
+corporeae tantas commutationes et vicissitudines, dum
+divinis legibus servit, ut etiam ipsam resurrectionem
+carnis, quae partim tardius, partim omnino non creditur,
+ita certam teneamus, ut certius nobis non sit,
+solem, cum occiderit, oriturum. Jam vero eos qui ad
+exemplum salutis nostrae ac primitias, a Filio Dei potentissimo,
+aeterno, incommutabili susceptum hominem,
+eumdemque natum esse de virgine, caeteraque
+hujus historiae miracula irrident, sic contemnemus,
+tanquam eos pueros, qui cum pictorem propositis tabulis,
+quas intueatur, pingentem viderint; non putent
+posse hominem pingi, nisi aliam picturam, qui pingit
+aspexerit. Tanta autem in contemplanda veritate voluptas
+est, quantacumque ex parte eam quisque contemplari
+potest, tanta puritas, tanta sinceritas, tam
+indubitanda rerum fides, ut neque quidquam praeterea
+scisse se aliquando aliquis putet, cum sibi scire
+videbatur; et quo minus impediatur anima toti tota
+inhaerere veritati, mors quae antea metuebatur, id est
+ab hoc corpore omnimoda fuga et elapsio, pro summo
+munere desideretur.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXIV.-- <hi>Anima solus Deus melior, adeoque solus ei colendus est.</hi> </head>
+<div3>
+            <head>77.</head>
+            <p>
+ Audisti quanta vis sit animae ac potentia: quod
+ut breviter colligam, quemadmodum fatendum est,
+animam humanam non esse quod Deus est; ita praesumendum,
+nihil inter omnia quae creavit, Deo esse
+propinquius. Ideoque divine ac singulariter in Ecclesia
+catholica traditur, <hi>nullam creaturam colendam esse
+animae</hi> (libentius enim loquor his verbis quibus mihi
+haec insinuata sunt), sed ipsum tantummodo rerum,
+quae sunt, omnium Creatorem, ex quo omnia, per
+quem omnia, in quo omnia; id est incommutabile
+principium, incommutabilem sapientiam, incommutabilem
+charitatem, unum Deum verum atque perfectum,
+qui nunquam non fuerit, nunquam non erit,
+nunquam aliter fuerit, nunquam aliter erit; quo nihil
+sit secretius, nihil praesentius; qui difficile invenitur
+ubi sit, difficilius ubi non sit; cum quo esse non omnes
+<pb n="1078"/>
+possunt, et sine quo esse nemo potest: et si quid
+de illo incredibilius, convenientius tamen atque aptius
+homines dicere valemus. Hic ergo solus Deus animae
+colendus est, neque discrete, neque confuse. Quidquid
+enim anima colit ut Deum, necesse est ut melius
+esse, quam seipsam, putet. Animae autem natura nec
+terra, nec maria, nec sidera, nec luna, nec sol, nec
+quidquam omnino quod tangi, aut his oculis videri
+potest, non denique ipsum quod videri a nobis non
+potest, coelum melius esse credendum est. Imo haec
+omnia longe deteriora esse, quam est quaelibet anima,
+ratio certa convincit; si modo eam veri amatores
+ducentem per insolita quaedam, et ob hoc ardua,
+constantissime atque observantissime sequi audeant.</p>
+          </div3>
+<div3>
+            <head>78.</head>
+            <p>
+ Si quid vero aliud est in rerum natura praeter
+ista quae sensibus nota sunt, et prorsus quae aliquod
+spatium loci obtinent, quibus omnibus praestantiorem
+animam humanam esse diximus: si quid ergo aliud
+est eorum quae Deus creavit, quiddam est deterius,
+quiddam par: deterius, ut anima pecoris; par, ut
+angeli: melius autem, nihil. Et si quando est aliquid
+horum melius, hoc peccato ejus fit, non natura. Quo
+tamen non usque adeo fit deterior, ut ei pecoris anima
+praeferenda, aut conferenda sit. Deus igitur solus
+ei colendus est, qui solus ejus est auctor. Homo autem
+quilibet alius, quanquam sapientissimus et perfectissimus,
+vel prorsus quaelibet anima rationis compos
+atque beatissima, amanda tantummodo et imitanda
+est, eique, pro merito atque ordine, quod ei congruit
+deferendum. Nam, <hi>Dominum Deum tuum adorabis, et
+illi soli servies <note>(Deut. VI, 13; Matth. IV, 10)</note>
+            </hi>. Errantibus
+vero cognatis animis et laborantibus, quantum
+licet atque praeceptum est, opem ferendam esse sciamus,
+ita ut hoc ipsum cum bene agitur, Deum per nos
+agere intelligamus. Neque quidquam nobis proprium
+vindicemus inanis gloriae cupiditate decepti, quo uno
+malo a summo in ima demergimur. Neque vitiis oppressos,
+sed ipsa vitia; neque peccantes, sed ipsa
+peccata oderimus. Omnibus enim subventum velle debemus,
+etiam qui nos laeserunt, aut laedere, aut omnino
+laedi volunt. Haec est vera, haec perfecta, haec sola
+religio, per quam Deo reconciliari pertinet ad animae,
+de qua quaerimus, magnitudinem, qua se libertate dignam
+facit: nam ille ab omnibus liberat, cui servire
+omnibus utilissimum est, et in cujus servitio placere
+perfecta et sola libertas est. Sed video me pene
+excessisse metas propositi mei, ac sine ulla interrogatione
+tamdiu tibi multa dixisse: neque id me poenitet.
+Nam cum sint ista per tam multas Ecclesiae scripturas
+dispersa, quanquam ea non incommode collegisse videamur,
+plene tamen intelligi nequeunt; nisi quisque
+in illorum septem quarto gradu fortiter agens, pietatemque
+custodiens, et ad ea percipienda sanitatem ac
+robur comparans, inquirat omnia singillatim, diligentissime
+ac sagacissime: namque illis omnibus gradibus
+inest distincta et propria pulchritudo, quos actus
+melius appellamus.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXV.-- <hi>Actus animae juxta septem praefatos gradus varie appellantur.</hi> </head>
+<div3>
+            <head>79.</head>
+            <p>
+ Quaerimus quippe de animae potentia, et fieri
+<pb n="1079"/>potest ut haec omnia simul agat, sed id solum sibi
+agere videatur quod agit cum difficultate, aut certe
+cum timore. Agit enim hoc multo quam caetera attentior.
+Ascendentibus igitur sursum versus, primus
+actus, docendi causa, dicatur animatio; secundus,
+sensus; tertius, ars; quartus, virtus; quintus, tranquillitas;
+sextus, ingressio; septimus, contemplatio.
+Possunt et hoc modo appellari: de corpore; per corpus;
+circa corpus; ad seipsam; in seipsa; ad Deum;
+apud Deum. Possunt et sic: pulchre de alio; pulchre
+per aliud; pulchre circa aliud; pulchre ad pulchrum;
+pulchre in pulchro; pulchre ad pulchritudinem; pulchre
+apud pulchritudinem. De quibus omnibus post requires,
+si quid videbitur aperiendum: nunc ideo volui toties
+ista signare vocabulis, ne te moveat cum alii aliis
+nominibus eadem vocant, aut aliter etiam partiuntur;
+et ob hoc aut ista aut illa improbes. Innumerabilibus
+enim modis eaedem res et appellari, et dividi possunt
+rectissime ac subtilissime; sed in tanta copia modorum
+utitur quisque, quo se congruenter uti existimat.
+</p>
+          </div3>
+        </div2>
+
+<div2>
+          <head>CAPUT XXXVI.-- <hi>Attinguntur reliquae de anima quaestiones. Quae sit religio vera.</hi> </head>
+<div3>
+            <head>80.</head>
+            <p>
+ Deus igitur summus et verus lege inviolabili
+et incorrupta, qua omne quod condidit regit,
+subjicit animae corpus, animam sibi, et sic omnia sibi:
+neque in ullo actu eam deserit, sive poena, sive praemio.
+Id enim judicavit esse pulcherrimum, ut esset
+quidquid est, quomodo est; et ita naturae gradibus ordinaretur,
+ut considerantes universitatem nulla offenderet
+ex ulla parte deformitas; omnisque animae poena
+et omne praemium conferret semper aliquid proportione
+justae pulchritudini dispositionique rerum
+omnium. Datum est enim animae liberum arbitrium,
+quod qui nugatoriis ratiocinationibus labefactare conantur,
+usque adeo caeci sunt, ut ne ista ipsa quidem
+vana atque sacrilega propria voluntate se dicere intelligant.
+Nec tamen ita liberum arbitrium animae datum
+est, ut quodlibet eo moliens, ullam partem divini
+<pb n="1080"/>
+ordinis legisque perturbet. Datum est enim a sapientissimo
+atque invictissimo totius creaturae Domino.
+Sed ista ut videnda sunt videre, paucorum est; neque
+ad hoc quisquam nisi vera religione fit idoneus. Est
+enim religio vera, qua se uni Deo anima, unde se peccato
+velut abruperat, reconciliatione religat. Innectit
+ergo animam in illo actu tertio, atque incipit ducere;
+purgat in quarto; reformat in quinto; introducit in
+sexto; pascit in septimo. Atque hoc fit alias citius,
+alias tardius, ut quaeque amore ac meritis valent:
+omnia tamen Deus justissime, moderatissime, pulcherrime
+facit, quoquo modo sese habere voluerint de
+quibus facit. Jamvero etiam puerorum infantium consecrationes
+quantum prosint, obscurissima quaestio
+est, nonnihil tamen prodesse credendum est. Inveniet
+hoc ratio, cum quaeri oportuerit: quanquam et alia
+multa jamdiu quaerenda tibi potius aliquando, quam
+cognoscenda protulerim. Quod fiet utilissime, si duce
+pietate requirantur.</p>
+          </div3>
+<div3>
+            <head>81.</head>
+            <p>
+ Quae cum ita sint, quis est qui juste stomachetur,
+quod agendo atque administrando corpori anima
+data sit, cum tantus et tam divinus rerum ordo connecti
+melius non possit; aut quaerendum putet, qualis
+in hoc mortali et fragili corpore efficiatur, cum et in
+mortem propter peccatum jure contrusa sit, et virtute
+hic etiam possit excellere; aut qualis post hoc corpus
+futura sit, cum et poena mortis necessario manere debeat
+manente peccato, et virtuti pietatique sit Deus
+ipse, id est veritas ipsa, praemium? Quare si jam placet,
+tam longum sermonem terminemus aliquando, et
+implendis Dei praeceptis vigilantissime et religiosissime
+operam demus: non est enim alia fuga de tantis
+malis. Si quid autem obscurius a me dictum est quam
+velles, facito ut memoriae mandatum alias opportunius
+requiras. Neque enim deerit nobis quaerentibus se, qui
+desuper est Magister omnium. <hi>E.</hi> Ego vero et hac
+oratione ita sum affectus, ut eam interpellare nefas
+putaverim: et si tibi modus sermonis hic placet,
+tresque illae quaestiones quae remanebant, tam breviter
+perstringendae in praesentia visae sunt; cedam judicio
+tuo, ac deinceps tam magnis rebus investigandis,
+non modo tempus propter tuas occupationes, sed
+etiam meipsum opportuniorem observabo.
+
+</p>
+          </div3>
+        </div2>
+      </div1>
+</body>
+  </text>
+</TEI>

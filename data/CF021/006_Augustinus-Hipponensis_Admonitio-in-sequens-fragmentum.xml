@@ -1,0 +1,96 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Admonitio in sequens fragmentum</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1844</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 6</title>
+           <idno>AugHip.AdInSeF</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Admonitio in sequens fragmentum</head>
+<p>
+          <pb n="0821C"/>Nullus vel negat, vel dubitat, per Jesum Christum
+tale, quale Sacris Litteris praenuntiatur, 
+<pb n="0821C"/> novissimum
+futurum esse judicium, nisi qui eisdem Litteris nescio
+qua incredibili animositate, seu caecitate non
+credit, quae jam veritatem suam orbi demonstravere
+terrarum. In illo itaque judicio, vel circa illud judicium,
+has res didicimus esse venturas, Eliam Thesbiten,
+fidem Judaeorum Antichristum persecuturum,
+Christum judicaturum, mortuorum resurrectionem,
+<pb n="0822C"/>
+bonorum malorumque diremptionem, mundi conflagrationem,
+ejusdemque renovationem. Quae omnia
+quidem ventura esse credendum est. Sed quibus
+modis, et quo ordine veniant, magis tunc docebit
+rerum experientia, quam nunc ad perfectum hominum
+intelligentia valet consequi. Existimo tamen,
+eo quo a me commemorata sunt, ordine esse ventura.
+</p>
+</div1>
+</body>
+  </text>
+</TEI>

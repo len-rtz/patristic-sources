@@ -1,0 +1,181 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Opera Tyrannii Rufini</title>
+              <author ref="http://viaf.org/viaf/77679446">Rufinus Aquileiensis<date>345-411</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1849</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 21</title>
+           <idno>RufAqu.OpTyRu</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>I. SINCERA.</head>
+<p>
+          <emph>I. <hi>Scripta propria.</hi> </emph>
+
+<pb n="0293C"/>
+        </p>
+<p>
+          <emph>2. <hi>Versa e Graeca in Latinam Linguam.</hi> </emph>
+<list>
+<item>Dissertatio de Adulteratione librorum Origenis.</item>
+<item>Benedictionum XII. Patriarcharum explanatio.</item>
+<item>Apologia, seu Invecticarum libri II. adversus Hieronymum.</item>
+<item>Apologia pro Fide sua ad Anastasium Pontificem.</item>
+<item>Historiae Ecclesiasticae libri II. scilicet X. et XI. post
+historiam Eusebianam.</item>
+<item>Historia Eremitica, sive vitae Patrum.</item>
+<item>Explicatio Symboli.</item>
+<item>Basilii Magni Regula.</item>
+<item>Basilii Magni Homiliae VIII.</item>
+<item>Liber I. Apologiae Pamphili pro Origine; in quo Sententiae
+adversus Mathematicos.</item>
+<item>Origenis Libri Quatuor <foreign xml:lang="greek">περί ἀρχῶν.</foreign>
+            </item>
+<item>Ejusdem Homiliae XVII. in Genesim.</item>
+<item>--XIII. in Exodum.</item>
+<item>--XVI. in Leviticum.</item>
+<item>--XXVIII. in Numeros.</item>
+          </list>
+
+<pb n="0293D"/>
+<list>
+<item>--XXVI. in Josue.</item>
+<item>--IX. in Judices.</item>
+<item>--IX. in Psalmos.</item>
+<item>--I. in Librum I. Regum.</item>
+<item>--IV. in Cantica Canticorum.</item>
+<item>--Tomi XV. in libros X. distincti in epistolam D. Paulli
+ad Romanos.</item>
+<item>Gregorii Nazianzeni Opuscula X. hoc est,</item>
+<item>Apologetici Liber unus.</item>
+<item>De Epiphanis.</item>
+<item>De Luminibus.</item>
+<item>De Fide Liber Unus.</item>
+<item>De Nicaena Fide, Pentecoste, et Spiritu S.</item>
+<item>De Semetipso ex agro reverso.</item>
+<item>De Dictis Hieremiae.</item>
+          </list>
+
+<pb n="0294C"/>
+<list>
+<item>De reconciliatione et unitate Monachorum.</item>
+<item>De Grandinis vastatione.</item>
+<item>De Arianis.</item>
+<item>Sixti Pythagorici Sententiae.</item>
+<item>Evagrii C. Sententiae ad Monachos.</item>
+<item>--Sententiae de Apathia.</item>
+<item>--Liber ad Virgines.</item>
+<item>Clementis Romani Recognitiones.</item>
+<item>Eusebii Historiae Ecclesiasticae libri IX.</item>
+<item>Anatolii Alexandrini Canon Paschalis.</item>
+          </list>
+
+</p>
+      </div1>
+
+<div1>
+        <head>II. SUPPOSITITIA ET ALIENA.</head>
+<list>
+<item>Versio Origenis Homiliarum in Lucam, non Rufini, cu
+adscribitur, sed Hieronymi.</item>
+<item>--Josephi Operum, non Rufini, sed Ambrosii.</item>
+<item>Commentarii in LXXV. priores Davidis Psalmos.</item>
+<item>--In Oseam.</item>
+<item>--In Johelem.</item>
+<item>--In Amos.</item>
+<item>Vita S. Eugeniae.</item>
+<item>Libellus de Fide brevior.</item>
+<item>Libellus de Fide fusior.</item>
+        </list>
+
+</div1>
+
+<div1>
+        <head>III. DUBIA.</head>
+
+<pb n="0294D"/>
+<list>
+<item>Origenis Homiliae VII. in Matthaeum.</item>
+<item>--I. in Johannem.</item>
+<item>--de Maria Magdalena.</item>
+<item>--de Epiphania Domini; in Latinum conversae.</item>
+        </list>
+
+</div1>
+
+<div1>
+        <head>IV. DEPERDITA.</head>
+<list>
+<item>Epistola ad Hieronymum, in qua hujus prima Apologia
+confutatur.</item>
+<item>Epistolae ad Aniciam Falconiam Probam.</item>
+<item>Librorum aliquot e Latino in Graecum sermonem conversio.</item>
+        </list>
+
+
+</div1>
+</body>
+  </text>
+</TEI>

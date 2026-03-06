@@ -1,0 +1,1436 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Interpretatio homiliarum Origenis in Canticum canticorum</title>
+              <author>Origenes; Hieronymus Stridonensis<date>340-420</date> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 23</title>
+           <idno>OrHiSt.InHoOrI</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Praefatio. BEATISSIMO PAPAE DAMASO HIERONYMUS.</head>
+<p>
+          <pb n="1117A"/> <emph>499-500</emph> Origenes, cum in caeteris libris omnes
+vicerit, in Cantico [ <hi>Al.</hi> Cantica] Canticorum ipse se
+vicit. Nam decem voluminibus explicitis, quae ad
+viginti usque versuum millia pene perveniunt [ <hi>Al.</hi> 
+pervenerunt], primum Septuaginta Interpretes, deinde
+Aquilam et Symmachum et Theodotionem, et ad
+extremum quintam editionem, quam in Actio littore
+invenisse se scribit, ita magnifice aperteque
+disserit, ut vel inde mihi videatur in eo completum
+esse, quod dicitur: <hi>Introduxit me rex in cubiculum suum</hi> 
+<pb n="1118A"/> <note>(Cant. I, 3)</note>.
+Itaque illo opere praetermisso, quia
+ingentis est otii, laboris et sumptuum, tantas res,
+tamque dignum opus in Latinum transferre sermonem,
+hos duos tractatus, quos in morem quotidiani
+eloquii parvulis adhuc lactentibus [ <hi>Al.</hi> lactantibusque]
+composuit, fideliter magis quam ornate
+interpretatus sum: gustum tibi sensuum ejus, non
+cibum offerens; ut animadvertas quanti sint illa
+aestimanda, quae magna sunt, cum sic possint placere,
+quae parva sunt.</p>
+</div1>
+
+<div1>
+        <head> HOMILIA PRIMA.</head>
+
+<pb n="1117"/>
+<p>
+          <pb n="1117B"/> <emph>501</emph> Quomodo didicimus per Moysen, quaedam
+esse non solum sancta, sed et sancta sanctorum; et
+alia non tantum sabbata, sed et sabbata sabbatorum;
+<pb n="1118B"/>
+sic nunc docemur, scribente Salomone, esse quaedam
+non solum Cantica, sed et Cantica Canticorum.
+Beatus quidem is, qui ingreditur sancta, sed beatior
+<pb n="1119A"/>
+qui ingreditur sancta sanctorum. Beatus qui sabbata
+sabbatizat, sed beatior qui sabbatizat sabbatorum
+sabbata. Beatus similiter et is, qui intelligit cantica,
+et canit ea. Nemo quippe nisi in solemnitatibus canit;
+sed multo beatior ille qui canit Cantica Canticorum.
+Et sicut is qui ingreditur in sancta, pluribus
+adhuc indiget, ut valeat introire in sancta sanctorum:
+et qui sabbatum celebrat, quod a Domino populo constitutum
+est, multa <emph>502</emph> adhuc necessaria habet ut
+agat sabbata sabbatorum: eodem modo difficile reperitur,
+qui omnia quae in Scripturis continentur
+ cantica peragrans, valeat ascendere ad Cantica
+Canticorum. Egredi te oportet ex Aegypto, et egressum
+de terra Aegypti pertransire mare Rubrum, ut
+possis primum canticum canere dicens: <hi>Cantemus
+<pb n="1119B"/>
+Domino, gloriose enim honorificatus est <note>(Exod. XV,
+1)</note>
+          </hi>. Licet autem primum dixeris canticum, adhuc
+longe es a Cantico Canticorum. Perambula terram
+deserti spiritualiter, donec venias ad puteum, quem
+foderunt reges <note>(Num. XXI)</note>, ut ibi secundum canticum
+canas. Post haec veni ad vicina sanctae Terrae, ut
+super Jordanis ripam constitutus, cantes canticum
+Moysi, dicens: <hi>Attende, coelum, et loquar, et audiat
+terra verba oris mei <note>(Deut. XXXII, 1)</note>
+          </hi>. Rursum habes
+necessarium, ut milites sub Jesu, et Terram sanctam <emph>503</emph> 
+ haereditate possideas, et apis tibi prophetet,
+et apis te judicet, <hi>Debbora</hi> apis interpretatur:
+ut possis et illud carmen, quod in libro Judicum
+continetur <note>(Judic. V)</note>, ediscere. Ad Regnorum deinceps
+volumen ascendens <note>(II Reg. XXII)</note>, veni ad canticum,
+<pb n="1119C"/>
+ quando David liberatus est de manu omnium
+inimicorum suorum, et de manu Saul, et dixit: <hi>Dominus firmamentum meum, et fortitudo mea, et refugium
+meum, et liberator meus 
+ <note>(Ps. XVII, 1)</note>
+          </hi>. Perveniendum
+tibi est ad Isaiam, ut cum illo dicas: <hi>Cantabo
+canticum dilecto vineae meae <note>(Isai. V, 1)</note>
+          </hi>. Et cum
+universa transieris, ad altiora conscende, ut possis
+anima decora cum sponso et hoc canere Canticum
+Canticorum.</p>
+<p>Quod ex quot personis constet, incertus sum.
+Orantibus autem vobis, et revelante Domino, quatuor
+mihi in his videor invenisse personas, virum et
+sponsam, cum sponsa adolescentulas, cum sponso
+sodalium greges. Alia dicuntur a sponsa, alia a
+sponso, nonnulla a juvenculis, quaedam a sodalibus
+<pb n="1119D"/>
+sponsi. Congruum quippe est, ut in nuptiis adolescentularum
+sit multitudo cum sponsa, juvenum
+turba cum sponso. Haec omnia noli foris quaerere:
+noli extra eos qui praedicatione Evangelii salvati
+sunt. Christum sponsum intellige: Ecclesiam sponsam
+sine macula et ruga, de qua scriptum est: <hi>Ut
+<pb n="1120A"/>
+exhiberet sibi gloriosam Ecclesiam, non habentem maculam,
+neque rugam, aut aliquid eorum: sed ut sit
+sancta et immaculata <note>(Ephes. V, 27)</note>
+          </hi>. Eos vero qui
+cum sint fideles, non sunt tamen istiusmodi, quales
+sermo praefatus est, sed juxta modum quemdam
+adepti videntur salutem: animadverte credentium
+animas, et adolescentulas esse cum sponsa; Angelos
+vero et eos, qui pervenerunt in virum perfectum, intellige
+viros esse cum sponso. Inde igitur mihi videntur
+quatuor ordines, unum et unam, duos choros
+inter se concinentes, sponsam canere cum juvenculis,
+sponsum canere cum sociis. Et cum hoc
+intellexeris, audi Canticum Canticorum, et festina
+intelligere illud, et cum sponsa dicere ea, quae
+sponsa dicit, ut audias quae audivit et sponsa. Si autem
+<pb n="1120B"/>
+non potueris dicere cum sponsa quae dixit, ut
+audias ea, <emph>504</emph> quae dicta sunt sponsae: festina
+vel cum sponsi sodalibus fieri. Porro si et illis inferior
+es, esto cum adolescentulis quae in sponsae deliciis
+commorantur. Hae quippe in hoc libro fabula
+pariter et epithalamio sunt personae, ex quo et
+gentiles sibi epithalamium vendicarunt, et istius generis
+carmen assumptum est. Epithalamium siquidem
+Canticum Canticorum est. Primum sponsa orat:
+et statim in mediis precibus auditur: videt praesentem
+sponsum, videt adolescentulas suo comitatui
+copulatas. Deinde respondet ei sponsus, et post sponsi
+eloquia, dum ille pro ejus patitur salute, respondent
+sodales, donec sponsus sit in recubitu, et a
+passione consurgat, se quaedam sponsae ornamenta
+<pb n="1120C"/>
+facturos. Verum jam ipsa verba ponenda sunt, in
+quibus prius vox sponsae deprecantis auditur.</p>
+<p> <hi>Osculetur me ab osculis oris sui <note>(Cant. I, 1)</note>
+          </hi>. Quorum
+iste est sensus: Quousque mihi sponsus meus
+mittit oscula per Moysen, mittit oscula per prophetas?
+Jam ipsius cupio ora contingere, ipse veniat,
+ipse descendat. Orat igitur sponsi Patrem et dicit ad
+eum: <hi>Osculetur me ab osculis oris sui.</hi> Et quia talis
+est, ut compleatur super eam propheticum illud, in
+quo dicitur: <hi>Adhuc te loquente dicam, ecce adsum <note>(Isai. LVIII, 9)</note>
+          </hi>,
+sponsam sponsi Pater exaudit, mittit
+Filium suum. Videns illa eum cujus deprecabatur
+adventum, orare desistit, et ad eum cominus loquitur: <hi>Quoniam bona ubera tua super vinum: et odor
+unguentorum tuorum super omnia aromata.</hi> 
+ Sponsus
+<pb n="1120D"/>
+igitur Christus missus a Patre, venit unctus ad sponsam,
+et dicitur ad eum: <hi>Dilexisti justitiam, et odisti
+iniquitatem, propterea unxit te Deus, Deus tuus oleo
+exsultationis, prae participibus tuis <note>(Ps. XLIV, 8)</note>
+          </hi>. Si
+me tetigerit sponsus, et ego boni odoris ero: et ego
+linior unguentis, et ad me usque ejus unguenta perveniunt
+<pb n="1121A"/>
+[ <hi>Al.</hi> pervenient], ut possim cum Apostolis
+dicere: <hi>Christi bonus odor sumus in omni loco <note>(II Cor.
+II, 15)</note>
+          </hi>. Nos autem cum haec audimus, adhuc peccatis,
+vitiisque foetemus, de quibus propheta poenitens
+loquitur: <hi>Putruerunt et corruptae sunt cicatrices
+meae, a facie insipientiae</hi> <emph>505</emph> <hi>meae <note>(Ps. XXXVII, 4)</note>
+          </hi>.
+Peccatum odoris est putidi ( <hi>Al.</hi> putridi]: virtus
+spirat unguenta, quorum typos in Exodo relege. Invenies
+[ <hi>Al.</hi> reperies] quippe et ibi stacten, onycha,
+galbanen, et reliqua. Haec quidem in incensum.
+Deinde ad opus unguentarii varia sumuntur unguenta,
+in quibus est nardus et stacte. Et Deus qui fecit coelum
+et terram, loquitur ad Moysen, dicens: <hi>Ego
+implevi eos spiritu sapientiae et intellectus, ut faciam
+opera artis unguentariae <note>(Exod. XXXV et XXXVI)</note>
+          </hi>. Et
+unguentarios Deus docet.</p>
+<p>
+          <pb n="1121B"/>Haec si spiritualiter non intelligantur, nonne fabulae
+sunt? Nisi aliquid habeant secreti, nonne indigna
+sunt Deo? Necesse est igitur eum, qui audire
+Scripturas spiritualiter novit, aut qui certe non novit,
+et desiderat nosse, omni labore contendere, ut
+non juxta carnem et sanguinem conversetur, quo
+possit diguus fieri spiritualium secretorum, et ut aliquid
+audentius dicam, spirituali cupidine vel amore.
+Siquidem est et spiritualis amor. Et quomodo
+est quidam carnalis cibus, et alius spiritualis, et
+alia carnis [ <hi>Al.</hi> carnalis] potio, alia spiritus: sic est
+quidam amor carnalis a Satana veniens, alius amor
+spiritus, a Deo exordium habens. Et nemo potest
+duobus amoribus possideri. Si carnis amator es,
+<pb n="1121C"/>
+amorem spiritus non capis. Si omnia corporalia despexisti,
+non dico carnem aut sanguinem, sed
+et argentum et possessiones, et ipsam terram,
+ipsumque coelum (haec quippe pertransibunt), si ista
+omnia contempsisti, et ad nullum horum anima tua
+obligata est, neque quoquam vitiorum amore retineris,
+potes amorem capere spiritualem. Ista quia
+evenit occasio, ut de amore spirituali aliqua diceremus.
+Expedit autem nobis Salomonis custodire praeceptum,
+et magis illius, qui per Salomonem loquebatur
+de sapientia, ita dicens: <hi>Ama illam, et servabit
+te: circumda illam, et exaltabit te: honora illam, ut te
+amplectatur</hi> [Al. <hi>amplectetur</hi> ] <note>(Prov. IV, 8)</note>. <emph>506</emph> Est
+quidam spiritualis amplexus: atque utinam contingat,
+ut meam sponsam altior sponsi amplexus includat,
+<pb n="1121D"/>
+ut ego quoque possim dicere, quod in eodem
+<pb n="1122A"/>
+libro scriptum est: <hi>Sinistra ejus sub capite meo, et
+dextera illius amplexabitur me <note>(Cant. II, 6)</note>
+          </hi>.</p>
+<p>Ergo: <hi>Osculetur me ab osculis oris sui.</hi> Moris est
+Scripturarum, imperativum modum pro optativo ponere,
+ut ibi: <hi>Pater noster, qui es in coelis, sanctificetur
+nomen tuum,</hi> pro <hi>utinam sanctificetur:</hi> et nunc in
+praesenti: <hi>Osculetur me ab osculis oris sui,</hi> pro eo
+quod est, <hi>utinam osculetur.</hi> Deinde conspicit sponsum:
+venit delibutus unguentis. Nec aliter ad sponsam
+poterat venire, nec decebat aliter Patrem ad
+nuptias Filium destinare. Variis eum unxit unguentis,
+fecit illum <hi>Christum:</hi> venit diversis odoribus
+spirans, et audit, <hi>quia bona ubera tua super vinum.</hi> 
+Congrue sermo divinus unam eamdemque rem,
+pro locorum qualitate, diversis vocabulis nuncupat.
+<pb n="1122B"/>
+Quando hostia offertur in Lege, et vult intellectum
+ostendere, pectusculum separationis affatur. Quando
+vero recumbit aliquis cum Jesu, et sensuum ejus
+communione perfruitur, non pectusculum ut supra,
+sed pectus alloquitur. Porro cum sponsa loquitur ad
+sponsum: quia nuptiale carmen inducitur, non pectusculum,
+ut in sacrificio, non pectus, ut in Joanne
+discipulo: sed ubera nominat, dicens: <hi>Quia bona
+ubera tua super vinum.</hi> Communica, ut sponsa,
+cum sensibus sponsi, et scies, quia inebriant atque
+laetificant istiusmodi cogitatus. Quomodo autem <hi>calix Domini inebrians 
+ perquam optimus est <note>(Psal. XXII)</note>
+          </hi>:
+sic ubera sponsi omni meliora sunt
+vino, <hi>Quia bona ubera tua super vinum.</hi> In mediis
+precibus ad sponsum verba convertit: <hi>Et odor unguentorum
+<pb n="1122C"/>
+tuorum super omnia aromata.</hi> Non uno,
+sed omnibus sponsus venit unctus unguentis. Si autem
+et ad meam animam factam sponsam suam venire <emph>507</emph> 
+ dignabitur, quam oportet esse formosam,
+ut illum de coelo ad se trahat, ut descendere faciat
+ad terras, ut veniat ad amatam! Quali pulchritudine
+decoranda est, quali debet amore fervere, ut ea loquatur
+ad illam, quae ad perfectam locutus est sponsam: <hi>Quia cervix tua, quia oculi tui, quia genae tuae,
+quia manus tuae, quia venter tuus, quia humeri tui, quia
+pedes tui 
+ <note>(Cant. IV et seqq.)</note>
+          </hi>! de quibus, si concesserit
+Dominus, disputabimus: quomodo sponsae membra
+varientur, et singularum partium laus diversa dicatur,
+ut post disputationem, etiam ad nostram dici animam
+similiter laboremus. <hi>Bona</hi> igitur <hi>ubera tua super vinum.</hi> 
+<pb n="1122D"/>
+Si videris sponsum, tunc intelliges verum esse quod
+<pb n="1123A"/>
+dicitur: <hi>Quoniam bona ubera tua super vinum, et
+odor unguentorum tuorum super omnia aromata.</hi> Multi
+habuerunt aromata. Regina austri detulit aromata
+Salomoni, et plures alii aromata possederunt: sed
+habuerit quis quantalibet, non possunt Christi odoribus
+comparari, de quibus nunc sponsa ait: <hi>Odor
+unguentorum tuorum super omnia aromata.</hi> Ego arbitror,
+quia et Moyses habuit aromata, et Aaron, et singuli
+prophetarum. Verum si videro Christum, et suavitatem
+unguentorum ejus odoremque percepero,
+statim sententiam fero, dicens: <hi>Odor unguentorum
+tuorum super omnia aromata. Oleum effusum nomen
+tuum,</hi> Propheticum sacramentum est. Tantummodo
+nomen Jesu venit in mundum, et unguentum praedicatur
+effusum. In Evangelio quoque mulier accipiens
+<pb n="1123B"/>
+alabastrum unguenti nardi pistici pretiosi, caput
+Jesu pedesque perfudit <note>(Matth. XXVI, et Marc.
+XIV)</note>. Observa diligenter quae de duabus super caput
+fuderit Salvatoris. Siquidem peccatrix super pedes,
+et ea, quae non dicitur peccatrix, super caput
+ejus fudisse monstratur <note>(Luc. VII, et Joan. XII)</note>. Observa,
+inquam, et invenies in Evangelica lectione non
+fabulas et narrationes ab Evangelistis, <emph>508</emph> sed mysteria
+esse conscripta. Impleta est itaque [ <hi>Al.</hi> utique]
+odore unguenti domus, si quod peccatrix habuit, ad
+pedes referendum est: et si quod ea, quae non peccatrix,
+ad caput <note>(Ibid.)</note>. Nec mirum domum fuisse
+odore completam, cum hoc mundus completus sit.
+Scribitur in eodem loco de Simone leproso et domo
+ejus <note>(Marc. XIV; Luc. VII)</note>. Ego puto leprosum,
+<pb n="1123C"/>
+mundi istius principem [ <hi>Al.</hi> esse principem], et hunc
+leprosum, Simonem nuncupari, cujus domus ad adventum
+Christi suavi odore completa sit, agente poenitentiam
+peccatrice, et sancta caput Jesu unguenti
+odoribus perfundente.</p>
+<p> <hi>Unguentum effusum nomen tuum.</hi> Quomodo unguentum
+quod effusione sua odorem longe lateque dispergit,
+sic Christi nomen effusum est. In universa terra
+Christus nominatur, in omni mundo praedicatur Dominus.
+Unguentum enim effusum est nomen ejus.
+ Nunc Moysi nomen auditur, quod prius Judaeae tantum
+claudebatur angustiis. Neque enim Graecorum
+quispiam meminit ejus, neque in ulla gentilium litterarum
+historia de illo seu caeteris scriptum aliquid
+invenimus. Statim ut Jesus radiavit in mundo, eduxit
+<pb n="1124A"/>
+secum Legem et Prophetas, et vere completum
+est, <hi>Unguentum effusum nomen tuum. Propterea juvenculae
+dilexerunt te.</hi> Quia per Spiritum sanctum,
+charitas Dei diffusa est in corda nostra <note>(Rom. V)</note>,
+congrue nomen effusionis infertur: <hi>Unguentum effusum
+nomen tuum.</hi> Haec dicens sponsa adolescentulas
+ conspicit. Quando illa sponsi Patrem rogabat, et
+ad ipsum sponsum cominus loquebatur, necdum
+adolescentulae aderant. In mediis vero precibus ingreditur
+juvencularum chorus, et sponsae laudatur
+eloquiis: <hi>Propterea juvenculae dilexerunt te, et attraxerunt
+te.</hi> Adolescentulaeque respondent: <hi>Post te in
+odorem unguentorum tuorum curremus.</hi> Quam pulchre
+sponsi pedisequae necdum fiduciam habent sponsae! <emph>509</emph> 
+ Sponsa non post tergum sequitur, sed juncto
+<pb n="1124B"/>
+[ <hi>Al.</hi> juncta] ingreditur latere [ <hi>Al.</hi> lateri]. Apprehendit
+dexteram sponsi, et manus ejus sponsi dextera
+continetur. Famulae vero ingrediuntur post eum. <hi>Sexaginta sunt reginae et octoginta concubinae, et juvenculae,
+quarum non est numerus. Una est columba
+mea, perfecta mea; una est matri suae, una est ei quae
+concepit illam 
+ <note>(Cant. VI, 7 et 8)</note>
+          </hi>. Post te ergo in odorem
+unguentorum tuorum curremus. Cum omni honestate
+deambulantibus dictum est: <hi>Post te in odorem
+unguentorum tuorum curremus,</hi> secundum illud: <hi>Cursum consummavi 
+ <note>(II Tim. IV, 7)</note>
+          </hi>; et illud: <hi>Qui in
+stadio currunt, omnes quidem currunt; unus autem
+accipit bravium <note>(I Cor. IX, 24)</note>
+          </hi>. Bravium Christus est,
+et hae quidem adolescentulae, quas propter amoris
+exordium foris stare cognoscimus, juxta illud exemplum:
+<pb n="1124C"/> <hi>Amicus autem sponsi stans et audiens eum,
+gaudio gaudet propter vocem sponsi 
+ <note>(Joan. IX, 24)</note>
+          </hi>,
+tale quiddam sustinent. Introcunte sponso, forinsecus
+remanent; sponsa vero speciosa, perfecta, sine
+macula, sine ruga, in sponsi cubiculum, in regium
+penetrale ingressa, revertitur ad juvenculas, et nuntiat
+eis, quae sola conspexerit, dicitque.</p>
+<p> <hi>Introduxit me rex in cubiculum suum.</hi> Non ait, introduxit
+nos plures in cubiculum suum. Plures foris
+remanent: in cubiculum sola ingreditur sponsa, ut
+videat thesauros tenebrosos et absconditos, renuntietque
+juvenculis: <hi>Introduxit me rex in cubiculum
+suum.</hi> Rursus adolescentulae, id est, sponsarum incipientium
+turba quamplurima, ingressa sponsa cubiculum
+sponsi, et vidente divitias viri sui, dum
+<pb n="1125A"/>
+illius praestolantur adventum, laete concinunt: <hi>Exsultabimus
+et laetabimur in te:</hi> Pro sponsae perfectione
+laetantur [ <hi>Al.</hi> laetamur]. Non est aemulatio in virtutibus.
+Amor iste mundus, amor iste sine vitio est. <hi>Exsultabimus et laetabimur in te: diligemus ubera
+tua</hi>.
+Illa quae major est, jam tuorum uberum lacte
+perfruitur, et loquitur exsultans: <hi>Bona ubera tua super
+vinum.</hi> Istae vero quae exsultationem et laetitiam
+ deferunt, adolescentulae quippe sunt, deferunt charitatem,
+et dicunt: <hi>Exsultabimus et laetabimur in te.</hi> 
+ Diligemus, non diligimus: <emph>510</emph> sed diligemus
+ubera tua super vinum. Deinde loquuntur ad sponsam: <hi>Aequitas dilexit te.</hi> 
+ Laudant sponsam, nomen
+illi aequitatis a propriis virtutibus imponentes: <hi>Aequitas dilexit te.</hi> 
+ Rursum ad adolescentulas sponsa
+<pb n="1125B"/>
+respondet:</p>
+<p> <hi>Nigra sum, et speciosa, filiae Jerusalem, ut tabernacula
+Cedar: ut pelles Salomonis. Ne intueamini me,
+quia ego sum denigrata: quoniam despexit me sol.</hi> Speciosa quidem est, et possum invenire, quomodo
+speciosa sit sponsa. Quaerimus autem, quomodo nigra,
+et sine candore sit pulchra. Poenitentiam egit
+a peccatis, speciem ei largita est conversio [ <hi>Al.</hi> conversatio]:
+et ideo speciosa cantatur. Quia vero necdum
+omni peccatorum sorde purgata, necdum lota
+est in salute, nigra dicitur: sed in atro colore non
+permanet. Fit itaque candida, quando ad majora
+consurgit, et ab humilibus incipit ad alta conscendere,
+diciturque de ea: <hi>Quae est ista, quae ascendit
+dealbata <note>(Cant. VIII, 5)</note>
+          </hi>? Et quo manifestius mysterium
+<pb n="1125C"/>
+perfectae describatur, non ait, ut in plerisque
+ codicibus legitur: <hi>Innixa super fratruelem suum,</hi> id
+est, <foreign xml:lang="greek">ἐπιστηριζομένη</foreign>; <hi>sed</hi> <foreign xml:lang="greek">ἐπιστηθιζομένη,</foreign> id est, <hi>super
+pectus ejus recumbens.</hi> Significanterque de anima
+sponsae et sermone dicitur, <hi>super pectus illius recumbens:</hi> quia principale ibi cordis est nostri.
+Unde a carnalibus recedentes spiritalia sentire debemus,
+et intelligere multo melius esse sic amare,
+quam amare desistere. Ascendit igitur recumbens
+super pectus fratruelis sui, et quae nunc in exordio
+Cantici nigra ponitur, in epithalamii fine de ea cantatur: <hi>Quae est ista, quae ascendit dealbata?</hi> Intelleximus
+quomodo et nigra, et formosa sit sponsa. Si
+autem et tu non egeris poenitentiam, cave ne anima
+tua nigra dicatur, et turpis, et duplici foeditate turperis:
+<pb n="1125D"/>
+nigra propter peccata praeterita, turpis propter
+hoc, quia in eisdem vitiis perseveras. Si vero
+poenitentiam egeris, nigra erit anima tua propter antiqua
+delicta: propter poenitentiam vero habebit
+<pb n="1126A"/>
+aliquid, ut ita dicam, Aethiopici decoris. Et quia
+semel Aethiopem nominavi, volo testem Scripturam
+super hunc [ <hi>Al.</hi> hoc] advocare sermonem. Aaron et <emph>511</emph> 
+ Maria murmurant: quia Moyses Aethiopissam
+habet uxorem <note>(Num. XXI)</note>. Et nunc Moyses
+Aethiopissam ducit uxorem. Siquidem lex ejus ad
+hanc nostram Aethiopissam transmigravit. Murmuret
+Aaron, sacerdotium Judaeorum: murmuret et
+Maria, Synagoga eorum: Moyses de murmuratione
+non curat: amat Aethiopissam suam, de qua et alibi
+dicitur per Prophetam: <hi>Ab extremis fluminum
+Aethiopiae afferent hostias <note>(Sophon. III, 10)</note>
+          </hi>; et rursum: <hi>Aethiopia praeveniet manus ejus Deo 
+ <note>(Ps. LXVII,
+32)</note>
+          </hi>. Pulchre praeveniet. Quomodo enim in Evangelio
+mulier illa quae sanguine fluebat, archisynagogi filiam
+<pb n="1126B"/>
+curatione praevenit <note>(Matth. IX, Marc. V, et
+Luc. VIII)</note>: sic Aethiopia, Israel aegrotante, sanata
+est. Illorum delicte, salus gentibus facta est, ad
+aemulandum eos. <hi>Nigra sum, et speciosa, filiae Jerusalem.</hi> 
+Et tu Ecclesiastica anima ad filias Jerusalem
+converte sermonem, et dic: Me plus amat sponsus,
+me magis diligit, quam vos: quae multae filiae Israel.
+Vos foris statis, et sponsam cubiculum videtis intrantem.
+Nemo dubitet nigram vocatam, nigram esse
+formosam. Qui nos sumus, ut cognoscamus Deum,
+ut Cantica Cantici praedicemus, ut ab Aethiopiae finibus,
+ut ab extremo terrae veniremus, sapientiam
+veri audire Salomonis? Et quando Salvatoris vox
+intonantis auditur: <hi>Regina austri veniet in judicium,
+et condemnabit homines generationis hujus: quia venit
+<pb n="1126C"/>
+a finibus terrae audire sapientiam Salomonis: et ecce
+plus quam Salomon hic <note>(Matt. XII, et Luc. XI)</note>
+          </hi>: audi
+mystica quae dicuntur. Regina Austri venit a finibus
+terrae, Ecclesia: et condemnat homines generationis
+hujus, id est, Judaeos carni et sanguini deditos. Venit
+a finibus terrae audire sapientiam Salomonis,
+non illius qui in Testamento veteri praedicatur: sed
+hujus qui in Evangelio Salomone major est. <hi>Nigra
+sum, et speciosa, filiae Jerusalem:</hi> nigra velut tabernacula
+Cedar: speciosa, ut pelles Salomonis. Nam
+ad utrumque respondit: Nigra sum et speciosa, filiae
+Jerusalem [ <hi>Al.</hi> Israel], ut tabernacula Cedar, ut pelles
+Salomonis. Ipsa quoque nomina cum sponsae decore
+conveniunt. Aiunt Hebraei <hi>Cedar</hi> interpretari <hi>tenebras.</hi> 
+Nigra sum ergo, ut tabernacula Cedar, <emph>512</emph> 
+<pb n="1126D"/>
+ut Aethiopes: speciosa, ut pelles Salomonis, quas
+eo tempore in tabernaculi ornamento composuit,
+quando templum summo studio et labore fabricatus
+est. Dives quippe Salomon, et in omni sapientia illius
+<pb n="1127A"/>
+nemo praecessit illum. Sicut unum horum nigra
+sum, et speciosa, filiae Jerusalem, ut tabernacula
+Cedar, ut pelles Salomonis. Ne intueamini me, quia
+ego sum denigrata. Satisfecit de nigrore suo, et per
+poenitentiam ad meliora conversa, annuntiat se filiabus
+Jerusalem [ <hi>Al.</hi> Israel], nigram quidem esse,
+sel pulchram, secundum quod superius exposuimus,
+et dicit: ne intueamini me, quia ego sum denigrata.
+Ne, inquit, admiremini coloris esse me tetri: sol despexit
+me, pleno quippe radio in me luminis sui fulgor
+illuxit, et [ <hi>Al.</hi> ut] ejus sum [ <hi>Al.</hi> sim] calore fuscata.
+Neque enim, ut decuerat, ut solis dignitas expetebat,
+illius in me lumen accepi. Delicto eorum salus gentibus
+facta est, et rursum incredulitate gentium,
+scientia Israel. Habes utrumque apud Apostolum.</p>
+<p>
+          <pb n="1127B"/> <hi>Filii matris meae pugnaverunt adversum me.</hi> Considerandum
+quomodo sponsa dicat: <hi>Filii matris meae
+pugnaverunt adversum me.</hi> Et quando adversus eam
+fratrum pugna surrexit. Vide Paulum Ecclesiae persecutorem:
+et intelliges quomodo filius matris ejus
+pugnaverit adversus eam. Persecutores Ecclesiae
+egerunt poenitentiam, et adversarii ejus rursum ad
+sororis signa conversi, praedicaverunt fidem, quam
+ante destruebant. Hoc prophetico spiritu sponsa
+nunc cantans, ait: <hi>Dimicaverunt in me, posuerunt me
+custodem in vineis: vineam meam non custodivi.</hi> Ego
+Ecclesia, ego sponsa, ego sine macula, plurimarum
+custos sum posita vinearum a filiis matris meae,
+qui contra me aliquando pugnaverant. Qua sollicitudine
+<pb n="1127C"/>
+curaque districta [ <hi>Al.</hi> distracta], dum plures
+custodio vineas, vineam meam non servavi. Intellige
+mihi hoc de Paulo et alio quocumque sanctorum,
+qui pro omnium sit salute sollicitus: et videbis quomodo
+vineam suam non custodiens, aliorum vineta
+custodiat. Quomodo etiam, ut alios lucrifaciat, ipse
+in quibusdam damna sustineat. Et <emph>513</emph> cum fuerit
+liber ex omnibus, seipsum servum fecit, ut omnes lucrifaceret: <hi>Factus infirmus infirmis, Judaeis Judaeus:
+his qui sub Lege erant, quasi sub Lege 
+ <note>(I Cor., IX)</note>
+          </hi>,
+et caetera: dicatque, <hi>vineam meam non custodivi.</hi> 
+Deinde conspicit sponsum, qui conspectus abscessit.
+Et frequenter hoc in toto carmine facit, quod nisi
+quis ipse patiatur, non potest intelligere. Saepe,
+Deus testis est, sponsum mihi adventare conspexi,
+<pb n="1127D"/>
+et mecum esse quam plurimum: quo subito recedente,
+invenire non potui quod quaerebam. Rursus
+igitur desidero ejus adventum, et nonnunquam iterum
+venit; et cum apparuerit, meisque manibus
+fuerit comprehensus, rursum elabitur; et cum fuerit
+elapsus, rursum a me inquiritur: et hoc crebro
+ facio, donec illum vere teneam, et ascendam innixa
+super fratruelem meum.</p>
+<p> <hi>Annuntia mihi quem dilexit anima mea, ubi pascis,
+<pb n="1128A"/>
+ubi cubas in meridie.</hi> Non quaero alia tempora, quando
+vespere, quando diluculo, quando in solis pascis occubitu:
+illud tempus inquiro, quando in florente die,
+quando plena luce in majestatis tuae splendore versaris. <hi>Annuntia mihi, quem dilexit anima mea, ubi pascis,
+ubi cubas in meridie 
+ <note>(Genes. III)</note>
+          </hi>. Diligenter observa,
+ubi meridiem legeris. Apud Joseph meridie fratres
+prandium celebrant. Angeli meridie Abrahae suscipiuntur
+hospitio <note>(Genes. XVIII)</note>, et caetera istiusmodi.
+Quaere, et invenies Scripturam divinam non frustra,
+seu fortuitu, unumquemque usurpare sermonem.
+Quis, putas, est dignus e nobis, ut ad meridiem
+usque perveniat, et videat, ubi pascat, ubi cubet
+sponsus? <hi>Annuntia mihi, quem dilexit anima mea, ubi
+pascis, ubi cubas in meridie.</hi> Nisi enim tu mihi annuntiaveris,
+<pb n="1128B"/>
+incipio errabunda jactari; et dum te quaero,
+in aliorum greges incurro; et quia alios erubesco,
+faciem meam atque ora contegere incipio. Sum quippe
+sponsa formosa, et aliis nudam faciem meam non
+ostendo, nisi tibi soli, quem jam pridem deosculata
+sum. <hi>Annuntia mihi, quem dilexit anima mea, ubi pascis,
+ubi cubas in meridie; nequando fiam sicut cooperta super
+greges sodalium tuorum.</hi> Ut ista non patiar, ut
+non fiam cooperta, ut ora non contegam, et ad alios
+usque perveniens, incipiam forsitan et eos amare <emph>514</emph> 
+ quos nescio: idcirco annuntia mihi, ubi te
+quaeram, et inveniam in meridie, ne forte fiam quasi
+cooperta super greges sodalium tuorum. Post haec
+verba sponsus ei comminatur, et dicit: Aut cognoscis
+temetipsam, quoniam regis es sponsa, et formosa, et
+<pb n="1128C"/>
+a me facta formosa: siquidem ego mihi exhibui gloriosam
+Ecclesiam, non habentem maculam, neque
+rugam <note>(Ephes. V)</note>, aut scito, quia si te non cognoveris,
+et tuam scieris dignitatem, patieris haec quae sequuntur.
+Quaenam ista sunt? <hi>Si non cognoveris temetipsam,
+o pulchra in mulieribus, egredere tu in vestigiis
+gregum, et pasce,</hi> non greges ovium, non agnorum,
+sed <hi>haedos tuos.</hi> Statuet quippe oves a dextris, et a
+sinistris haedos <note>(Matth. XXI)</note>.</p>
+<p> <hi>Si non cognoveris temetipsam, o pulchra in mulieribus,
+egredere tu in vestigiis gregum, et pasce haedos
+tuos in tabernaculis pastorum.</hi> In vestigiis, inquit, pastorum
+novissima fies; non inter oves, sed inter haedos
+tuos, cum quibus habitans, non poteris mecum,
+id est, cum bono pastore esse. <hi>Equitatui meo in curribus
+<pb n="1128D"/>
+Pharaonis assimilavi te.</hi> Si vis intelligere, o
+sponsa, quomodo scire te debeas, cognosce cui te
+comparaverim, et nunc videbis talem te esse, quae
+turpari non debeas, cum tuam speciem cognoveris.
+Quid est igitur? <hi>Equitatui meo in curribus Pharaonis
+assimilavi te.</hi> Scio equitem sponsum, propheta dicente: <hi>Et equitatio ejus salus 
+ <note>(Abac. III, 8)</note>
+          </hi>. Assimilata
+es ergo equitatui meo in curribus Pharaonis.
+Quantum differt equitatus meus, qui sum Dominus,
+<pb n="1129A"/>
+et demergo in fluctibus Pharaonem, et cristatos ejus,
+et ascensores ejus, et equos ejus, et currus ejus <note>(Exod. XIV)</note>,
+quantum, inquam, differt equitatus meus
+ab equis Pharaonis, tanto melior es omnibus filiabus,
+tu sponsa, tu Ecclesiastica anima, omnibus animabus,
+quae non sunt Ecclesiasticae. Igitur si Ecclesiastica
+anima es, omnibus animabus es melior; si non es
+melior, non es Ecclesiastica. <hi>Equitatui meo in curribus
+Pharaonis assimilavi te, proxima mea.</hi> Deinde
+pulchritudinem sponsae spirituali amore describit.</p>
+<p> <hi>Genae tuae ut turturis.</hi> Faciem illius laudat, et
+genarum rubore succenditur. Pulchritudo quippe mulierum
+in genis <emph>515</emph> dicitur esse quam plurima. Ita
+<pb n="1129B"/>
+et [ <hi>Al.</hi> itaque] nos pulchritudinem animae intelligamus
+in genis. Labia vero ejus et linguam, intelligentiam
+ praedicemus. <hi>Collum tuum ut monile.</hi> Ut ornamentum,
+quod solet virginum collo pendere, et
+<pb n="1130A"/>
+nuncupatur <foreign xml:lang="greek">ὄρμισκος</foreign> ( <hi>parvum monile</hi> ), ita sine hoc
+decore et tuum ipsum collum est ornamentum.</p>
+<p>Post haec fit sponsus in recubitu, requievit ut leo,
+ut catulus leonis obdormivit <note>(Gen. XLIX, 9)</note>, ut deinceps
+possit audire: <hi>Quis suscitabit eum?</hi> Quo interim
+dormiente apparent sponsae sponsi sodales Angeli, et
+his eam sermonibus consolantur. Nos tibi aurea ornamenta
+facere non possumus: <emph>516</emph> non enim tam
+divites sumus, ut sponsus tuus, qui aureum tibi monile
+largiatur. Nos similitudinem auri faciemus; non
+enim habemus aurum. Et in hoc quoque laetandum
+est, si similitudines auri, si stigmata faciamus argenti. <hi>Similitudines auri faciemus tibi, cum stigmatibus
+argenti.</hi> 
+ Verum non omni tempore; sed donec sponsus
+tuus surgat ab accubitu. Cum enim ille surrexerit,
+<pb n="1130B"/>
+ipse tibi aurum, ipse faciet argentum, ipse tuam
+mentem sensumque decorabit, et eris vere dives in
+sponsi domo sponsa formosa; cui est gloria in saecula
+saeculorum. Amen.</p>
+</div1>
+
+<div1>
+        <head>HOMILIA SECUNDA. Ab eo loco in quo scriptum est: <hi>Nardus mea dedit odorem suum:</hi> usque ad eum locum, in quo ait: <hi>Quia vox tua suavis, et forma tua speciosa</hi> [Al. <hi>decora</hi> ].</head>
+
+<pb n="1129"/>
+<p>
+          <pb n="1129C"/> <emph>515</emph> Omnes animae motiones, universitatis conditor
+Deus creavit ad bonum; sed pro usu nostro fit
+saepe, ut res quae bonae sunt per naturam, dum male
+his abutimur, nos ad peccata deducant. Unus de
+animae motibus amor est, quo bene utimur ad amandum,
+si sapientiam amemus, et veritatem. Quando
+vero amor noster in pejora corruerit, amamus carnem
+et sanguinem. Tu igitur, ut spiritualis, audi
+spiritualiter amatoria verba cantari, et disce motum
+animae tuae et naturalis amoris incendium ad meliora
+transferre, secundum illud: <hi>Ama illam, et servabit
+te: circumda illam, et exaltabit te <note>(Prov. IV, 8)</note>
+          </hi>. <hi>Viri, diligite uxores vestras,</hi> 
+ ait apostolus <note>(Ephes. V et
+Coloss. III)</note>; sed non stetit in eo quod dixerat: <hi>Viri,
+diligite uxores vestras:</hi> verum sciens esse dilectionem
+<pb n="1129D"/>
+virorum propriis quoque uxoribus in honestam,
+sciens esse placentem Deo, docuit <emph>516</emph> quomodo
+viri uxores suas amare deberent, inferens: <hi>Viri, diligite
+uxores vestras, sicut et Christus Ecclesiam.</hi> Et haec
+quidem in prooemio eorum, quae postea disserenda
+sunt, diximus.</p>
+<p>Quia amici sponsi, dum rex in recubitu suo est
+frequiescens enim dormivit ut leo, et catulus leonis <note>(Gen. XLIX, 9)</note>,
+sponsae promiserant, donec ille consurgeret,
+<pb n="1130C"/>
+similitudines auri et argenti se esse facturos,
+non habentes aurum, ut sponsus: et quodammodo
+aliis verbis sponsi passio praedicata est, non
+irrationabiliter ad haec sponsa respondet, et ipsa
+dispensationem quamdam passionis intelligens, ad
+id quod audierat: <hi>Similitudines auri faciemus tibi
+cum stigmatibus argenti, donec rex in recubitu suo
+est,</hi> ait: <hi>Nardus mea dedit odorem suum. Fasciculus
+guttae fratruelis meus mihi; in medio uberum meorum
+demorabitur <note>(Cant. I, 11 et 12)</note>
+          </hi>. Quomodo igitur aptabimus
+ei quod praecessit: <hi>Donec rex</hi> <emph>517</emph> <hi>in recubitu
+suo est,</hi> id quod sequitur: <hi>Nardus mea dedit odorem
+suum?</hi> Loquitur Evangelium, quia venit mulier
+habens alabastrum unguenti nardi pistici pretiosi;
+non illa peccatrix, sed sancta, de qua nunc mihi
+<pb n="1130D"/>
+sermo est. Scio quippe Lucam de peccatrice: Matthaeum
+vero et Joannem et Marcum, non de peccatrice
+dixisse <note>(Luc. VII, Matth. XXVIII, Joan. XI et XII,
+Marc.)</note>. Venit ergo non peccatrix illa, sed sancta,
+cujus nomen quoque Joannes inseruit; Maria quippe
+erat habens alabastrum unguenti nardi pistici pretiosi,
+et effudit super caput Jesu. Deinde super hoc
+indignantibus, non omnibus discipulis, sed Juda solo,
+dicente: <hi>Potuit venundari hoc trecentis denariis, et dari
+<pb n="1131A"/>
+pauperibus <note>(Matth. XXVI, 9, et Marc. XIV, 5 et seqq.)</note>
+          </hi>,
+respondit magister atque Salvator: <hi>Semper pauperes
+habetis</hi> [Al. habebitis] <hi>vobiscum; me autem non
+semper. Praeveniens quippe haec in diem sepulturae meae
+fecit. Ideo, ubicumque praedicatum fuerit Evangelium
+istud, dicetur et quod fecit haec in memoriam ejus.</hi> In
+figura ergo istius, quae nunc loquitur: <hi>Nardus mea
+dedit odorem suum,</hi> illa super caput Domini fudit unguentum;
+et tu igitur assume nardum, ut postquam
+caput Jesu suavi odore perfuderis, possis audenter
+affari [ <hi>Al.</hi> audacter effari]: <hi>Nardus mea dedit odorem
+suum,</hi> et Jesu reciprocum audire sermonem: <hi>Quia
+ubicumque praedicatum fuerit hoc Evangelium in toto
+mundo, dicetur et quod fecit haec in memoriam ejus.</hi> 
+ Tuum quoque factum in universis gentibus praedicabitur.
+<pb n="1131B"/>
+Quando autem hoc facies? Si factus fueris
+ut apostolus, et dixeris: <hi>Christi bonus odor sumus
+Deo in omni loco, in his qui salvantur, et in his qui pereunt <note>(II Cor. II, 15)</note>
+          </hi>:
+bona opera tua nardus sunt.
+Si vero peccaveris, peccata tetro odore redolebunt.
+Dicit quippe poenitens: <hi>Computruerunt, et corruptae
+sunt cicatrices meae a facie insipientiae meae <note>(Ps. XXXVII,
+6)</note>
+          </hi>. Non de nardo propositum est nunc Spiritui sancto
+dicere, neque de hoc quod oculis intuemur, Evangelista
+scribit, unguento; sed de nardo spirituali, de
+nardo quae dedit odorem suum.</p>
+<p> <hi>Fasciculus stactes,</hi> id est, <hi>guttae,</hi> sive <emph>518</emph> <hi>stillae
+fratruelis meus mihi.</hi> Guttam unguenti, casiam, galbanum
+[ <hi>Al.</hi> galbani] in Exodo legimus <note>(Cap. XXX)</note> 
+praecepto Domini in thymiama, id est, in sacerdotale
+<pb n="1131C"/>
+chrisma confectum. Si ergo videris Salvatorem
+meum ad terrena aut humilia descendentem, videbis,
+quomodo virtute magna, et majestate divina ad
+nos modica quaedam stilla defluxerit. De hac stilla
+et Propheta cecinit, dicens: <hi>Et erit, de stilla populi
+hujus congregandus congregabitur Jacob <note>(Mich. II, 11
+et 12)</note>
+          </hi>. Et sicuti secundum alium sensum, lapis erat
+praecisus e monte sine manibus <note>(Daniel. II)</note>, nostri
+in carne Salvatoris adventus: neque enim totus
+mons fuit, qui descendit ad terras, nec poterat humana
+fragilitas totius montis magnitudinem capere:
+sed lapis ex monte, lapis offensionis, et petra scandali
+descendit in mundum <note>(Isai. VIII et XXVIII, et
+I Pet. II)</note>: sic secundum alium intellectum stilla nuncupatur.
+Oportebat quippe, ut (quia <hi>omnes gentes in
+<pb n="1131D"/>
+stillam situlae reputatae sunt <note>(Isai. XL, 15)</note>
+          </hi> his qui
+pro omnium salute factus est omnia, etiam stilla fieret
+ad eas liberandas. Quid enim pro nostra salute
+non factus est? Nos inanes: et ille exinanivit semetipsum,
+formam servi accipiens <note>(Philipp. II; I Cor. I)</note>.
+<pb n="1132A"/>
+Nos populus stultus et non sapiens; et ille factus
+est stultitia praedicationis, ut fatuum Dei, sapientius
+fieret hominibus. Nos infirmi <note>(Ibid.)</note>: infirmum
+Dei fortius hominibus factum est. Quia igitur universae
+gentes, ut stilla situlae, et ut momentum staterae
+reputatae sunt; idcirco factus est stilla, ut per
+eum a vestimentis nostris odor procederet,
+juxta illud: <hi>Myrrha, et stilla, et casia a vestimentis tuis,
+a domibus elephantinis, ex quibus laetificaverunt te filiae
+regum in honore tuo <note>(Ps. XLIV)</note>
+          </hi>, quae in quadragesimo
+quarto psalmo dicuntur ad sponsam. <hi>Fasciculus
+stillae fratruelis meus mihi.</hi> Consideremus quid
+sibi fratruelis nomine velit Ecclesia, quae hoc [ <hi>Al.</hi> 
+his] loquitur de fratruele, nos sumus ex gentibus
+congregati. Salvator noster sororis ejus est filius,
+<pb n="1132B"/>
+id est, Synagogae. Duae quippe sorores sunt, Ecclesia
+et Synagoga; <emph>519</emph> Salvator ergo, ut diximus,
+filius Synagogae sororis, vir Ecclesiae, sponsus Ecclesiae,
+fratruelis est sponsae suae: <hi>Fasciculus stillae
+fratruelis meus mihi, in medio uberum meorum commorabitur.</hi> 
+Quis ita beatus, ut habeat hospitem in
+principali [ <foreign xml:lang="greek">ἡγεμονικῷ</foreign>] cordis, in medio uberum, in
+pectore suo, sermonem Dei? Tale est quippe quod
+canitur: <hi>In medio uberum meorum commorabitur.</hi> Si
+non fuerint fractae mammae tuae, in medio earum habitabit
+sermo divinus. Decebat in carmine nuptiali
+mammas potius appellari quam pectus. Et perspicuum
+est, cur ad expositionem ejus quae dicit: <hi>In
+medio uberum meorum commorabitur,</hi> sit assumptum,
+si non fuerint fractae mammae tuae, in medio uberum
+<pb n="1132C"/>
+tuorum commorabitur sermo divinus. Unde dixi, si
+non fuerint fractae mammae tuae? De Ezechiele. Eo
+quippe loco, ubi Jerusalem dominica corripitur voce,
+inter caetera dicitur ad eam: <hi>In Aegypto fractae sunt
+mammae tuae <note>(Ezech. XXV)</note>
+          </hi>. Castarum ubera non franguntur:
+sed meretricum ubera laxis pellibus irrugantur.
+Pudicarum erecta sunt ubera, et virginali
+robore [ <hi>Al.</hi> rubore] tumentia. Suscipiunt sermonem
+sponsi, et dicunt: <hi>In medio uberum meorum commorabitur.</hi> </p>
+<p> <hi>Botrus Cypri fratruelis meus mihi.</hi> Initium est sermonis
+in verbo, et initium Cypri, id est, <hi>floritionis</hi> 
+in germine, unde ait: <hi>Botrus Cypri,</hi> id est, <hi>floritionis,
+fratruelis meus mihi.</hi> Non omnibus est botrus
+Cypri: sed his qui ejus flore digni sunt. Aliis uva
+<pb n="1132D"/>
+varia est: huic soli quae nigra est et formosa, in floris
+decore se praebet. <hi>Botrus Cypri fratruelis meus
+mihi.</hi> Non simpliciter ait, <hi>Botrus Cypri fratruelis
+meus:</hi> sed cum additamento, <hi>mihi,</hi> ut doceret non
+omnibus eum esse botrum Cypri. Videamus autem
+<pb n="1133A"/>
+in quibus regionibus botrus iste sit sponsae. <hi>In vineis
+Engaddi,</hi> quod interpretatur, <hi>oculus tentationis.</hi> 
+In vineis igitur oculi tentationis, <hi>Botrus Cypri fratruelis
+meus mihi.</hi> Tentationis oculus in praesenti
+est. Siquidem in tentatione moramur in hoc mundo:
+et tentatio est vita humana super terram <note>(Job. VII)</note>.
+Dum in hac luce versamur, in vineis sumus Engadii.
+Si autem meruerimus postea <emph>520</emph> transplantari, a
+nostro agricola transferemur. Nec dubites, quin possis
+de Engaddi vineis ad loca meliora transferri.
+Agricola noster ad transferendam vineam crebra meditatione
+jam calluit. <hi>Vineam enim ex Aegypto transtulisti,
+ejecisti gentes, et plantasti eam. Operuit montes
+umbra ejus, et arbusta ejus cedros Dei</hi> [Al. <hi>Libani</hi> ].
+Et haec quidem, quae exposuimus, locuta sit
+<pb n="1133B"/>
+sponsa de sponso, significans amorem suum, et sponsi
+venientis hospitium, quomodo in medio uberum, et
+sui cordis arcano, sponsus veniens commoretur.
+Rursus sponsi ad eam sermo dirigitur, et dicit:</p>
+<p> <hi>Ecce speciosa proxima mea, ecce speciosa, oculi tui columbae.</hi> Illa sic dicit ad sponsum: <hi>Ecce speciosus
+fratruelis meus,</hi> non adjungit, et proximus meus. Hic
+autem quando loquitur ad eam: <hi>Ecce speciosa,</hi> adjungit, <hi>et proxima mea.</hi> 
+ Quare autem illa non dicit:
+Ecce speciosus, proximus mihi: sed tantum, <hi>ecce
+speciosus?</hi> Quare ille non solum speciosa es, dicit: <hi>sed speciosa es proxima mea?</hi> 
+ Sponsa si longe fuerit a
+sponso, non est speciosa: tunc pulchra fit, quando
+Dei verbo conjungitur. Et merito nunc docetur a
+sponso, ut proxima sit, et a suo latere non recedat.
+<pb n="1133C"/> <hi>Ecce speciosa proxima mea, ecce speciosa.</hi> 
+ Incipis quidem
+esse speciosa, ex eo quod proxima mihi es.
+Postquam autem esse coeperis speciosa, etiam sine
+additamento proximae, absolute es speciosa. <hi>Ecce speciosa
+proxima mea, ecce speciosa.</hi> Videamus et aliam
+laudem speciosae, ut et nos aemulemur sponsae fieri. <hi>Oculi tui columbae. Qui viderit mulierem ad concupiscendum
+eam, jam moechatus est eam in corde suo <note>(Matth. V)</note>
+          </hi>:
+oculos non habet columbae. Si quis vero
+oculos columbae non habet, domum fratris sui ingreditur
+infelix, non servans illud, quod in Proverbiis
+est praeceptum: <hi>In domum fratris tui ne intres infelix <note>(Prov. XXVII, 10)</note>
+          </hi>.
+(Pro eo quod Septuaginta <hi>infelix,</hi> 
+interpretati sunt, Aquila Hebraeam exprimens
+veritatem <foreign xml:lang="greek">ἄγροικον</foreign> posuit.) Qui autem habet oculos
+<pb n="1133D"/>
+columbae, videt recta, et misericordiam promeretur.
+Videns quippe recta, misericordiam consequetur.
+Porro quis videt recta, nisi qui <emph>521</emph> casto conspectu
+et puris intuetur oculis? Noli igitur mihi de his
+<pb n="1134A"/>
+tantum carnis oculis intelligere, quae dicta sunt, licet
+et de his intellexisse non inutile sit: sed ingrediens
+ad interiora cordis tui, et alios oculos mente
+perquirens, qui et a Dei mandato illuminantur: <hi>Mandatum</hi> 
+quippe <hi>Dei illuminans oculos:</hi> illud enitere,
+labora, contende, ut sancte intelligas universa, quae
+dicta sunt, et similia a spiritu: qui in specie descendit
+columbae, audias; quia <hi>oculi tui columbae.</hi> Si
+intelligis Legem spiritualiter; oculi tui columbae sunt.
+Si intelligis Evangelium; ut se vult intelligi Evangelium
+et praedicari: vides Jesum, omnem languorem
+et infirmitatem, non solum eo tempore quo carnaliter
+facta sunt, fuisse medicatum [ <hi>Al.</hi> meditatum <hi>et</hi> meditantem]:
+sed hodieque medicantem; et non tantum
+tunc ad homines descendisse: sed hodieque
+<pb n="1134B"/>
+descendere, et esse praesentem; <hi>Ecce enim,</hi> inquit, <hi>vobiscum sum omnibus diebus usque ad consummationem
+saeculi 
+ <note>(Matth. XXVIII; 20)</note>
+          </hi>: oculi tui columbae
+sunt: <hi>Ecce speciosa; proxima mea, ecce speciosa: oculi
+tui columbae.</hi> Has de se sponsa audiens laudes, sponso
+vicem in laudibus tribuit: non quo ei quod non habet,
+suo praeconio largiatur: sed intelligens decorem
+ejus, atque conspiciens, ait:</p>
+<p> <hi>Ecce speciosus fratruelis meus. Equidem, pulcher</hi> [Al. <hi>pulchre]. Lectus noster umbrosus.</hi> Quaero lectum,
+in quo sponsus cum sponsa requiescat, et ni fallor,
+corpus humanum est. Siquidem ille in Evangelio paralyticus
+qui jacebat in lecto: et abire in domum
+suam, sublato grabato, voce jussus est Salvatoris,
+antequam sanaretur <note>(Marc. II)</note>, super debile membrorum
+<pb n="1134C"/>
+suorum corpus jacebat, quod postea Dei virtute
+solidatum est. Sic ergo intelligo: <hi>Tolle grabatum
+tuum, et vade in domum tuam.</hi> Neque enim ad hoc
+Filius Dei de coelestibus ad terrena descenderat, ut
+de lectulis imperaret, et consurgentem ab aegrotatione
+sua, sine lectulo non pateretur abscedere. <hi>Tolle,</hi> 
+ inquiens, <hi>grabatum tuum, et vade in domum
+tuam.</hi> Et tu igitur a Salvatore sanatus, tolle grabatum
+tuum, et vade in domum tuam, ut cum ad te
+sponsam venerit sponsus, <emph>522</emph> et in eo tecum fuerit
+reclinatus, dicas: <hi>Ecce sponsus fratruelis meus:
+equidem pulcher. Acclinatio nostra umbrosa.</hi> Ecce speciosus
+fratruelis meus, ipse et speciosus est et umbrosus. <hi>Per diem</hi> 
+ quippe <hi>sol non uret te, neque luna
+per noctem <note>(Ps. CXX)</note>
+          </hi>.</p>
+<p>
+          <pb n="1134D"/> <hi>Trabes domorum nostrarum cedri.</hi> Multitudinis verba
+sunt. Videntur autem mihi viri haec dicere, qui cum
+sponso sunt, de quibus superius sermo praefatus est,
+domos cedrinis trabibus intextas, et cypressis contignatas.
+<pb n="1135A"/>
+Siquidem pro stybe ascendit cypressus, et
+pro conyza ascendit myrtus. Requirens igitur, cujus
+naturae ista sunt ligna, et cedrum imputribilem, et
+cypressum odoris optimi deprehendens, labora et
+tu ita contignare domum tuam, ut de te quoque possit
+dici: <hi>Trabes domuum nostrarum cedri, et contignationes
+nostrae cypressi.</hi> Post haec sponsus loquitur.</p>
+<p> <hi>Ego flos campi, et lilium convallium.</hi> Propter me
+qui in valle eram, descendit in vallem, et in vallem
+veniens, fit lilium. Pro ligno vitae, quod plantatum
+est in paradiso Dei, totius campi, id est, totius
+mundi et universae terrae flos factus est. Quid enim
+sic potest esse flos mundi, ut vocabulum Christi? <hi>Unguentum effusum nomen ejus.</hi> 
+ Aliter: Ab ipso dicitur: <hi>Ego flos campi, et lilium convallium.</hi> 
+ Et haec
+<pb n="1135B"/>
+quidem de semetipso. Deinde sponsam laudans, ait: <hi>Ut lilium in medio spinarum, sic proxima mea in medio
+filiarum.</hi> 
+ Sicut lilium non potest spinis comparari,
+inter quas semper exoritur: eodem modo proxima
+mea super omnes filias, lilium est in medio spinarum.
+Ista audiens sponsa, vicem reddit sponso, et
+sentiens illius etiam suavitatem, in vocem laudantis
+erumpit. Unguentorum quippe odor, licet suaviter
+spiret, et sensum odore demulceat: non tamen ejusmodi
+est, ut suave sit ad edendum. Est autem aliquod
+[ <hi>Al.</hi> aliud], quod optimi et saporis sit et odoris,
+id est, ut fauces dulcore delectet, et spiritum
+mulceat odoratu. Tale est malum, istiusmodi est
+naturae, ut in se utraque possideat. Idcirco volens
+non solum benevolentiam sermonis, sed et dulcorem
+<pb n="1135C"/>
+ejus sponsa laudare, ait:</p>
+<p> <emph>523</emph> <hi>Ut malum in lignis silvae: ita fratruelis meus
+in medio filiorum <note>(Cant. II, 3)</note>
+          </hi>. Omnia ligna, omnes
+arbores ad comparationem sermonis Dei, silvae inferaces
+existimantur. Ad Christum saltus est omne
+quod dixeris: et infructuosa sunt omnia. Quae enim
+possunt dici ad eum comparata fructifera? Etiam
+ligna quae videbantur fructibus incurvari, ad collationem
+adventus ejus infructuosa monstrata sunt.
+Ideo, <hi>ut malum in lignis silvae, ita fratruelis meus in
+medio filiorum. In umbra ejus concupivi, et sedi.</hi> Quam
+pulchre, non ait, in umbra illius concupisco, sed <hi>in
+umbra ejus concupivi:</hi> et non sedeo, sed <hi>sedi.</hi> Siquidem
+in principio non possumus cum eo proprium conferre
+sermonem: verum in principio, ut ita dicam,
+<pb n="1135D"/>
+quadam majestatis illius umbra perfruimur. Unde
+et in Prophetis legitur: <hi>Spiritus faciei nostrae Christus
+Dominus, cui diximus: In umbra ejus vivemus in
+gentibus <note>(Thren. IV, 20)</note>
+          </hi>; et ab umbra ad umbram
+ aliam transmigramus. <hi>Sedentibus enim in regione et
+umbra mortis, lux orta est eis <note>(Isai. IX, 2)</note>
+          </hi>. Et transimus
+<pb n="1136A"/>
+ab umbra mortis ad umbram vitae. Semper istiusmodi
+sunt profectus, ut in exordio desideret
+quispiam saltem in virtutum umbra consistere. Ego
+puto ideo et nativitatem Jesu ab umbra coepisse, et
+non in umbra, sed in veritate finitam. <hi>Spiritus,</hi> inquit, <hi>Sanctus veniet in te, et virtus Altissimi obumbrabit
+tibi 
+ <note>(Luc. I, 35)</note>
+          </hi>. Nativitas Christi ab umbra
+sumpsit exordium. Non solum autem in Maria ab
+umbra ejus nativitas coepit, sed et in te, si dignus
+fueris, nascitur sermo Dei. Fac, igitur, ut possis capere
+umbram ejus, et cum umbra fueris dignus effectus,
+veniat ad te, ut ita dicam, corpus ejus, ex
+quo umbra nascitur. Nam, <hi>qui in modico fidelis est,
+et in majoribus erit fidelis <note>(Luc. XVI, 10)</note>
+          </hi>. <hi>In umbra
+ejus concupivi, et sedi.</hi> Vides, quia non semper in
+<pb n="1136B"/>
+umbra stetit, sed inde ad meliora transierit, dicens: <hi>Et fructus ejus dulcis in gutture meo.</hi> 
+ Ego, inquit, desideravi
+in umbra ejus requiescere; sed postquam
+me sua protexit umbra, etiam fructu illius saturata
+sum [ <hi>Al.</hi> saturatus sum], et dico: <hi>Et fructus ejus dulcis 
+ gutturi meo.</hi> </p>
+<p> <hi>Introducite me in domum vini.</hi> Foris stetit sponsus,
+et ab sponsa susceptus est: In medio quippe uberum
+illius requievit. <emph>524</emph> Proximae juvenculae non sunt
+istiusmodi, ut sponsum hospitem habere mereantur.
+Multitudini foris in parabolis loquitur. Quam vereor
+ne multae adolescentulae forte nos simus. <hi>Introducite
+me in domum vini.</hi> Cur tam diu foris maneo? <hi>Ecce sto
+ante ostium, et pulso.</hi> Si quis mihi aperuerit, ingrediar
+ad eum, et coenabo cum eo, et ipse mecum. <hi>Introducite
+<pb n="1136C"/>
+me.</hi> Et nunc eadem dicit sermo divinus:
+Ecce Christus loquitur, <hi>introducite me.</hi> Vobis quoque
+catechumenis loquitur, <hi>introducite me,</hi> non simpliciter
+in domum, sed <hi>in domum vini.</hi> Impleatur vino
+laetitiae, vino Spiritus Sancti anima vestra. Et sic introducite
+in domum vestram sponsum, Verbum, Sapientiam,
+Veritatem. Potest autem et ad eos dici,
+qui nondum perfecti sunt: <hi>Introducite me in domum
+vini. Ordinate in me charitatem.</hi> Eleganter locutus
+est, <hi>ordinate.</hi> Plurimorum quippe inordinata est charitas:
+quod in primo loco debent diligere, diligunt in
+secundo: quod in secundo, diligunt in primo: et
+quod oportet amare quarto, amant tertio: et rursus
+tertium in quarto, et est in plerisque charitatis ordo
+perversus. Sanctorum vero charitas ordinata est.
+<pb n="1136D"/>
+Volo ad intelligendum hoc quod dictum est, <hi>ordinate
+in me charitatem,</hi> aliqua exempla replicare. Te vult
+divinus sermo diligere patrem, filium, filiam; vult te
+sermo divinus diligere Christum. Nec dicit tibi, ne
+diligas liberos, ne parentibus charitate jungaris. Sed
+quid dicit? Ne inordinatam habeas charitatem, ne
+<pb n="1137A"/>
+primum patrem, aut matrem, deinde me diligas: ne
+filii et filiae plus quam mei charitate tenearis. <hi>Qui
+amat patrem aut matrem super me, non est me dignus:
+qui amat filium aut filiam super me, non est me dignus <note>(Matth. X, 37)</note>
+          </hi>.
+Recole conscientiam tuam de patris,
+matris, fratrisve affectu, et considera qualem circa
+sermonem Dei et Jesu habeas charitatem: statim
+deprehendes magis te filium et filiam diligere, quam
+Verbum: magis te parentes amare, quam Christum.
+Quis, putas, ita proficit ex nobis, ut praecipuam et primam
+inter omnes sermones Dei habeat charitatem,
+qui in secundo loco liberos ponat? Juxta hunc modum, <emph>525</emph> 
+ ama uxorem tuam. Nullus quippe aliquando
+suam carnem odio habuit, sed amat ut carnem. <hi>Et erunt,</hi> 
+ inquit, <hi>duo in carne una <note>(Gen. II, 24)</note>
+          </hi>,
+<pb n="1137B"/>
+et non in uno spiritu. Ama et Deum; sed ama illum,
+non ut carnem et sanguinem, sed ut spiritum. Qui
+enim adhaeret Deo, unus spiritus est. Igitur ordinata
+est charitas in perfectis. Ut autem post Deum etiam
+inter nos ordo ponatur, primum mandatum est, ut
+diligamus parentes: secundum, ut filios: tertium,
+ut domesticos nostros. Si autem filius malus est, et
+domesticus bonus: domesticus in charitate filii collocetur.
+Et ita fiet, ut sanctorum ordinata sit charitas. Magister
+quoque et Dominus noster in Evangelio praecepta
+de charitate constituens, ad uniuscujusque dilectionem
+proprium aliquid apposuit, et dedit intelligentiam
+ordinis his qui possunt audire Scripturam dicentem: <hi>Ordinate in me charitatem. Diliges Dominum
+Deum tuum ex toto corde tuo, et ex tota mente tua,
+<pb n="1137C"/>
+et ex tota anima tua, et ex tota virtute tua. Diliges
+proximum tuum, sicut teipsum 
+ <note>(Deut. VI, et Matth. XXII,
+et Marc. XII, et Luc. X)</note>
+          </hi>: non proximum ex toto corde,
+ex tota anima, et ex tota virtute, et ex tota mente.
+Rursus, inquit: <hi>Diligite inimicos vestros <note>(Luc. VI, 35)</note>
+          </hi>:
+et non apposuit, ex toto corde. Non est inordinatus
+sermo divinus, nec impossibilia praecipit, nec dicit:
+diligite inimicos vestros ut vosmetipsos: sed tantum,
+diligite inimicos vestros; sufficit eis, quod eos diligimus,
+et odio non habemus. Proximum vero, ut
+teipsum. Porro Deum ex toto corde, et ex tota anima,
+et ex tota mente, et ex tota virtute. Si haec intellexeris,
+et intellecta compleveris, fecisti quod
+sponsi sermone praecipitur: <hi>Introducite me in domum
+vini, ordinate in me charitatem.</hi> Quis, putas, e nobis
+<pb n="1137D"/>
+charitatis est ordinatae [ <hi>Al.</hi> ordinator]? <hi>Confirmate me
+in unguentis.</hi> Unus de Interpretibus posuit <foreign xml:lang="greek">οἰνανθῶν.</foreign>
+<pb n="1138A"/>
+Haec est autem sponsa quae loquitur: <hi>Stipate me in
+malis.</hi> In quibus malis? <hi>Ut malum in lignis silvae,
+ita fratruelis meus in medio filiorum.</hi> Idcirco in malis
+ejus stipate me: quia vulneratae charitatis ego sum.
+Quam pulchrum est, quam decorum a charitate vulnus
+accipere! <emph>526</emph> Alius jaculum carnei amoris excepit,
+alius ex terrena cupidine vulocratus est: tu nuda
+membra tua, et praebe te jaculo electo, jaculo
+formoso: si quidem Deus sagittarus est. Audi
+Scripturam de hoc eodem jaculo loquentem;
+immo ut tu amplius admireris, audi ipsum jaculum
+quid loquatur. <hi>Posuit me ut sagittam electam, et in
+pharetra sua servavit me, et dixit mihi: Magnum est
+tibi hoc, vocari puerum meum <note>(Isai. XLIX, 2)</note>
+          </hi>. Intellige
+sagittam quid dicat, et quomodo a Deo sit electa.
+<pb n="1138B"/>
+Quam beatum est hoc jaculo vulnerari! Hac sagitta
+vulnerati fuerant illi qui inter se invicem conferebant,
+dicentes: <hi>Nonne cor nostrum ardens erat in via,
+cum aperiret nobis Scripturas <note>(Luc. XXIV, 32)</note>
+          </hi>? Si quis
+sermone nostro, si quis Scripturae divinae magisterio
+vulneratur, et potest dicere, quia vulneratae charitatis
+ego: hunc et illud forsitan sequitur. Quid forsitan
+dico? manifestam promo sententiam: <hi>Sinistra ejus
+sub capite meo, et dextera illius amplexabitur me.</hi> Habet
+et in sinistra, et in dextera sermo Dei sapientiam,
+quae cum pro intellectus varietate sit multiplex, in
+subjacenti una est. Ipse Salomon de laeva, et dextera
+sapientiae docuit, dicens: <hi>Longitudo enim et anni
+vitae in dextera ejus: in sinistra autem ipsius divitiae
+et gloria <note>(Prov. III, 16)</note>
+          </hi>. Igitur laeva ejus sub capite
+<pb n="1138C"/>
+meo, ut me faciat requiescere, et brachium sponsi
+fiat cervical meum, reclinetur animae principale ( <foreign xml:lang="greek">ἡγεμονικὸν</foreign>)
+super sermonem Dei. <hi>Laeva ejus sub capite meo.</hi> 
+Non expedit tibi habere cervicalia, quae lamentatio
+sequatur. In Ezechiele scriptum est: <hi>Vae his qui consuunt
+cervicalia sub omnia cubitu manus <note>(Ezech. XLIII,
+18)</note>
+          </hi>. Noli consuere cervicalia, noli capiti aliunde requiem
+quaerere: habes sponsi laevam; sit sub capite
+tuo, et dic: <hi>Laeva ejus sub capite meo;</hi> quam cum habueris,
+omnia tibi quae sunt in laeva tribuuntur. Dicis
+quippe, in sinistra ejus divitiae et gloria, et dextera
+ejus amplexabitur me. Totum te sponsi dextera
+complectatur. Longitudo quippe et anni vitae, in dextera
+ejus: et ob id longae vitae, et multorum dierum
+eris super terram bonam, quam Dominus Deus
+<pb n="1138D"/>
+tuus dat tibi <note>(Exod. XX et Deut. IV)</note>.</p>
+<p> <emph>527</emph> <hi>Adjuravi vos, filiae Jerusalem, in virtutibus et
+<pb n="1139A"/>
+in viribus agri.</hi> Quid adjurat sponsa filias Jerusalem? <hi>Si levaveritis et suscitaveritis charitatem.</hi> 
+ Quamdiu charitas
+dormit [Al. <hi>dormivit</hi> ] in vobis, o filiae Jerusalem,
+o adolescentulae, quae in me non dormit, quia vulnerata
+sum charitate? In vobis autem, quae plures estis,
+et adolescentulae, et filiae Jerusalem, dormit charitas
+sponsi. Adjuravi ergo vos, filiae Jerusalem, si levaveritis,
+et non solum levaveritis, sed et suscitaveritis,
+quae in vobis est, charitatem. Creator universitatis
+cum vos conderet, inseruit in cordibus vestris semina
+charitatis. Nunc autem, sicut alibi dicitur: <hi>Justitia
+dormivit in ea <note>(Isai. I, 21)</note>
+          </hi>, sic dilectio dormitat in
+vobis: juxta quod et alibi dicitur, <hi>Sponsus requievit
+ut leo, et ut catulus leonis <note>(Gen. XLIX)</note>
+          </hi>. Adhuc in
+infidelibus et in his qui corde sunt dubio, dormitat
+<pb n="1139B"/>
+sermo divinus: vigilat in sanctis. Dormitat in his qui
+tempestatibus fluctuant: suscitatur vero eorum vocibus,
+qui cupiunt, vigilante sponso, salvari <note>(Macc. IV)</note>.
+Statim fit, eo vigilante, tranquillitas: statim undarum
+moles conquiescunt, spiritibus contrariis increpatur,
+fluctuum rabies silet. Illo dormiente, tempestas,
+mors et desperatio est. <hi>Adjuro ergo vos, filiae Jerusalem,
+in virtutibus et in viribus agri.</hi> Cujus agri?
+Nempe illius, <hi>cujus odor agri pleni, quem benedixit
+Dominus <note>(Gen. XXVII, 27)</note>
+          </hi>.</p>
+<p> <hi>Si levaveritis et suscitaveritis charitatem: quoadusque
+velit vox fratruelis mei. Ecce hic venit saliens super
+montes.</hi> Haec adhuc loquitur Ecclesia exhortans adolescentulas,
+ut ad sponsi praeparentur adventum: si
+tamen venire voluerit, et suum illis praebere colloquium.
+<pb n="1139C"/>
+Adhuc igitur loquente ea, venit sponsus,
+quem digito monstrat, et dicit: <hi>Ecce hic venit saliens
+super montes.</hi> Intellige sponsam <note>( <hi>Al.</hi> sponsae)</note>, animam
+beatam atque perfectam, quae citius videat, citius
+sermonis contempletur adventum, quae sibi sapientiam,
+sibi venisse sentiat charitatem, et dicat non videntibus: <hi>Ecce hic venit.</hi> 
+ Orate ut et ego possim <emph>528</emph> 
+dicere: <hi>Ecce hic venit.</hi> Si enim potuero Dei disserere
+sermonem, quodammodo et ego dico [ <hi>Al.</hi> dicam]: <hi>Ecce hic venit.</hi> 
+ Quo? Non utique ubi vallis, non ubi
+humilia loca. Quo venit? <hi>Saliens super montes, transiliens
+super colles.</hi> Si fueris mons, salit in te sermo
+Dei. Si non valueris esse mons, sed fueris collis secundus
+a monte, transiliet super te. Quam vero pulchra
+et convenientia rebus vocabula. Salit super
+<pb n="1139D"/>
+montes, quia majores sunt: transilit super colles,
+<pb n="1140A"/>
+quia minores sunt. Non transilit super montes, non
+salit super colles. <hi>Ecce hic venit saliens super montes,
+transiliens super colles.</hi> </p>
+<p> <hi>Similis est fratruelis meus capreae, aut hinnulo cervorum
+in montibus Bethel.</hi> Haec duo animalia in Scripturis
+frequentius nominantur, et quo amplius admireris,
+saepius juncta ponuntur. Et haec sunt, ait, quae
+manducabis; post paululum inferens, capream et
+cervum. In praesenti quoque libro pariter nominantur
+cervus et caprea. Quodammodo enim cognata sibi et
+vicina sunt ista animalia. Caprea, id est dorcas,
+acutissime videt. Cervus interfector serpentum est.
+Quis, putas, est dignus e nobis, qui juxta dignitatem
+loci atque mysterii, plenam possit explicare rationem?
+Oremus Dominum, ut nobis largiatur sensum
+<pb n="1140B"/>
+ad aperiendas Scripturas, et possimus dicere: <hi>Quomodo
+aperuit nobis Jesus Scripturas <note>(Luc. XXIV, 32)</note>
+          </hi>?
+Quid igitur dicimus: quia <hi>dorcas,</hi> hoc est, caprea,
+secundum eorum physiologiam, qui de naturis omnium
+animalium disputant, ex insita sibi vi nomen
+acceperit? Ab eo enim quod acutius videat, id est,
+ <foreign xml:lang="greek">ὀξυδερκέστερον,</foreign> dorcas appellata est. Cervus vero
+serpentum inimicus ac debellator est, ita ut spiritu
+narium eos extrahat de cavernis, et superata pernicie
+veneni, eorum pabulo delectetur. Forsitan Salvator
+meus caprea fit juxta <foreign xml:lang="greek">θεωρίαν</foreign>: cervus juxta
+opera. Quaenam ista sunt opera? Interficit ipse serpentes,
+cum contrarias fortitudines jugulat. Ideo
+dicam ei: <hi>Tu</hi> <emph>529</emph> <hi>contrivisti capita draconum super
+aquam <note>(Psal. LXXIII, 13)</note>
+          </hi>. Similis est fratruelis
+<pb n="1140C"/>
+meus capreae vel hinnulo cervorum super montes domus
+Dei. Bethel quippe interpretatur, <hi>domus Dei.</hi> Non
+omnes montes domus Dei sunt: sed hi qui montes Ecclesiae
+sunt. Inveniuntur quippe et alii montes erecti
+et consurgentes adversus scientiam Dei, montes
+Aegyptiorum, et Allophylorum. Vis scire, quia similis
+est fratruelis meus capreae, aut hinnulo cervorum
+super montes Bethel? Esto mons Ecclesiasticus, mons
+domus Dei: et veniet ad te sponsus similis capreae vel
+hinnulo cervorum super montes Bethel. Cernit sponsum
+appropinquasse vicinius, qui ante super montes
+versabatur et colles: assimilat eum transilientem
+atque salientem, et post haec ad se, et ad alias adolescentulas
+advenisse cognoscens, ait:</p>
+<p> <hi>Ecce hic retro post parietem nostrum.</hi> Si aedificaveris
+<pb n="1140D"/>
+parietem, et feceris aedificationem Dei, veniet
+<pb n="1141A"/>
+post parietem tuum, <hi>prospiciens per fenestras.</hi> Una
+fenestra, unus est sensus: per hunc prospicit sponsus.
+Alia fenestra, alius est sensus: et per hunc
+sponsus sollicite contuetur. Per quos enim sensus
+non prospicit sermo Dei? Quid sit autem prospicere
+per fenestras, et quomodo per eas sponsus aspiciat,
+sequens docebit exemplum. Ubi non prospicit sponsus,
+ibi mors invenitur ascendens, ut legimus in Jeremia. <hi>Ecce mors ascendit per fenestras 
+ vestras <note>(Jerem.
+IX, 21)</note>
+          </hi>. Quando videris mulierem ad concupiscendum
+eam, jam mors ascendit per fenestras tuas. <hi>Eminens per retia.</hi> 
+ Intellige, quia in medio laqueorum
+ambulas, et subtus machinas transeas imminentes.
+Omnia retibus plena sunt: diabolus laqueis cuncta
+complevit. Si autem venerit tibi sermo Dei, et coeperit
+<pb n="1141B"/>
+eminere de retibus, dicens: <hi>Anima nostra sicut
+passer erepta est de laqueo venantium: laqueus contritus
+est, et nos liberati sumus <note>(Psal. CXXIII, 7)</note>
+          </hi>. <hi>Benedicti
+nos</hi> [Al. <hi>vos] a Domino, qui fecit coelum et terram <note>(Psal. CXIII, 15)</note>
+          </hi>.
+Eminet igitur sponsus per retia
+tibi viam faciens. Jesus descendit ad terras, subjecit
+se retibus mundi. Videns magnum hominum gregem
+retibus <emph>530</emph> impeditum: nec eum ab alio,
+nisi a se posse conscindi, venit ad retia, assumens
+corpus humanum, quod inimicarum fortitudinum laqueis
+tenebatur, ea tibi dirupit, et loqueris: <hi>Ecce
+hic retro post parietem nostrum, prospiciens per fenestras,
+eminens per retia.</hi> Cum eminuerit, dicit tibi:
+Respondet fratruelis meus, et dicit: Surge, veni,
+proxima mea, viam tibi feci, conscidi retia: sic veni
+<pb n="1141C"/>
+ad me, proxima mea:</p>
+<p> <hi>Surge, veni, proxima mea, speciosa mea, columba
+mea.</hi> Cur ait, Surge? Cur propera? Ego pro te sustinui
+rabiem tempestatum; ego fluctus, qui tibi debebantur,
+excepi. Tristis est facta anima mea propter
+te usque ad mortem <note>(Matth. XVI, et Marc. XIV)</note>.
+Surrexi a mortuis, fractis mortis aculeis, et inferni
+vinculis dissolutis, ideo dico tibi: <hi>Surge, veni, proxima
+mea, speciosa mea, columba mea: quia ecce hyems
+transivit, pluvia abiit sibi, flores visi sunt in terra.</hi> 
+Ego a mortuis surgens, tempestate compressa, tranquillitatem
+reddidi. Et quia secundum dispensationem
+carnis ex Virgine, et voluntate Patris crevi,
+et sapientia et aetate profeci, <hi>flores visi sunt in terra,
+tempus sectionis adest.</hi> Sectio, remissio peccatorum
+<pb n="1141D"/>
+est. Omnem enim ramum, ait, in me manentem et
+afferentem fructum, Pater meus mundat, ut fructus
+majores afferat <note>(Joan. XV)</note>. Habeto fructus, et priora
+quae in te infructuosa [ <hi>Al.</hi> fructuosa] sunt, auferentur.
+Tempus quippe sectionis adest.</p>
+<p> <hi>Vox turturis audita est in terra nostra.</hi> Non sine
+causa in sacrificiis assumitur par turturum, aut duo
+<pb n="1142A"/>
+pulli columbarum: nam idem valent, et numquam
+dictum est separatim, par tantummodo columbarum:
+sed par turturum, et duos pullos columbarum <note>(Levit.
+I, V, XII et XIV, ac Luc. II)</note>. Columba, Spiritus
+Sanctus est. Spiritus autem Sanctus, quando de magnis
+et occultioribus Sacramentis, et quae multi capere
+non possunt, loquitur, in turturis appellatione
+signatur, id est, in ejus avis, quae semper in montium
+jugis, et in arborum verticibus commoratur; in
+vallibus autem, et his quae ad homines usque perveniunt,
+columba assumitur. Denique <emph>531</emph> Salvator,
+quia hominem est dignatus assumere, et venit ad
+terras, multique tunc circa Jordanem peccatores
+erant: idcirco Spiritus Sanctus non in turturem vertitur,
+sed columba fit. Inter nos, propter hominum
+<pb n="1142B"/>
+multitudinem, avis mansuetior conversatur. Turtur
+autem videtur, verbi gratia, Moysen et unumquemlibet
+intelligere prophetarum recedentium in montes
+et deserta, et ibi accipientium sermones Dei. <hi>Vox
+ergo turturis audita est in terra nostra. Ficus produxit
+grossos suos. A ficu cognoscite parabolam. Cum ramus
+ejus tener factus fuerit, et folia miserit, scitote quia
+juxta est aestas.</hi> Vult nobis Dei eloquium nuntiare,
+post hyemem, post procellas, animarum appropinquasse
+messem, et ait:</p>
+<p> <hi>Ficus produxit grossos suos, vites florescunt, dederunt
+odorem.</hi> Si vites jam rumpuntur in florem,
+tempus adveniet, et erunt uvae. <hi>Surge, veni, proxima
+mea, speciosa mea, columba mea.</hi> Haec quae superius
+exposuimus, sponsus, non audientibus adolescentulis,
+<pb n="1142C"/>
+sed sola sponsa audiente, loquitur. Volumus
+autem et ipsius jam audire sermonem loquentis ad
+sponsam.</p>
+<p> <hi>Surge, veni, proxima mea, columba</hi> <emph>532</emph> <hi>mea, et
+veni, columba mea, sub tegmine petrae.</hi> Et Moyses sub
+tegmine petrae ponitur, ut videat posteriora Dei in
+tegmine antemuralis <note>(Exod. XXXIII)</note>. Primum veni ad
+id quod ante murum est, et postea poteris introire
+ubi murus est petrae. <hi>Ostende mihi faciem tuam.</hi> Usque
+ad praesentem diem similia dicuntur ad sponsam. Necdum
+enim habebat fiduciam, ut revelata facie gloriam
+Domini contemplaretur. Quia vero jam ornata
+est atque composita, dicitur ei: <hi>Ostende mihi faciem
+tuam.</hi> Nondum enim erat vox ejus ita suavis, ut mereretur
+ei dici: <hi>Audire me fac vocem tuam.</hi> Quando
+<pb n="1142D"/>
+ergo didicit loqui? Tace enim, et audi, Israel: et
+scies [ <hi>Al.</hi> scito] quid loquatur Dominus. Et suavis
+facta est vox ejus sponso, secundum illud propheticum: <hi>Suavis fiat ei postulatio mea.</hi> 
+ Tunc ad eam
+sponsus effatur: <hi>Et audire me fac vocem tuam: quia
+vox tua suavis est <note>(Cant. II, 14)</note>
+          </hi>. Si aperueris os
+tuum Verbo Dei, dicet tibi sponsus: <hi>Vox tua suavis
+<pb n="1143"/>
+est, aspectus tuus speciosus.</hi> Quapropter consurgentes,
+deprecemur Dominum, ut digni efficiamur
+<pb n="1144"/>
+sponsi sermone, sapientia Christi Jesu, cui est gloria,
+et imperium in saecula saeculorum. Amen.
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

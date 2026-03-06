@@ -1,0 +1,857 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Ars geometriae et arithmeticae</title>
+              <author ref="http://viaf.org/viaf/100218964">Boetius<date>480-525</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1847</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 63</title>
+           <idno>Boetiu.ArGeEtA</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Ars geometriae et arithmeticae</head>
+
+<p>Geometria est disciplina magnitudinis immobilis,
+formarumque descriptio contemplativa, per quam
+uniuscujusque termini declarari solent, documentum
+etiam visibile philosophorum, quod Latine dicitur
+terrae dimensio. Quoniam per diversas formas ipsius
+disciplinae primum Aegyptus fertur fuisse partita, pro
+necessitate terminorum terrae quos Nilus fluvius inundationis
+tempore infundebat, cujus disciplinae magistri
+<pb n="1353A"/>
+mensores ante dicebantur. Sed Varro peritissimus
+Latinorum hujus nominis causam sic exstitisse
+commemorat dicens: <hi>Prius quidem dimensiones terrarum
+terminis positis, vagantibus ac discordantibus populis
+pacis utilia praestitisse. Deinde totius anni circulum
+mensuali numero fuisse partitum. Tunc et ipsi
+menses quod annum metiuntur, dicti sunt. Tunc et dimensionem
+orbis terrae probabili refert ratione collectam,
+ideo factum est ut disciplina ipsa geometriae nomen acciperet
+quod per saecula longa constaret.</hi> </p>
+</div1>
+
+<div1>
+        <head> <hi>De utilitate geometriae rubrica.</hi> </head>
+<p>Utilitas geometriae triplex est, ad facultatem, ad
+sanitatem, ad animam. Ad facultatem, ut mechanici
+et architecti. Ad sanitatem, ut medici. Ad animam,
+ut philosophi. Quam artem si arcte et diligenti cura
+<pb n="1353B"/>
+atque moderata mente perquirimus, hoc quod praedictis
+divisionibus manifestum est, sensus nostros
+magna claritate dilucidat, et illud supra, quale est
+coelum animo subire, totamque illam machinam supernam
+indagabili ratione aliter discutere, et inspectiva
+mentis sublimitate, ex aliqua parte colligere et
+agnoscere mundi factorem qui tanta et talia arcana
+velavit. Nam mundus ipse sphaerica fertur rotunditate
+collectus, ut diversas rerum formas ambitus sui circuitione
+concluderet, unde librum Seneca consentanea
+philosophis disputatione formavit, cui titulus est
+de Forma mundi. Nam in geometria utique partem
+fatemur esse utilem teneri, et actibus agitari, in omnibus
+prodesse eam existimamus, nec sine causa
+summi viri etiam impensam huic scientiae operam
+<pb n="1353C"/>
+dederunt, cum sit geometria divisa in numeros atque
+formas numerorum. Nota non tantum oratori, sed cuique
+primis saltem litteris erudito necessaria est,
+quod ad subtilitatem constat tenuissima, et ad scientiam
+utilissima, et ad exercitationem valde jucundissima.
+In causis vero frequentissime quaeritur, quia
+primum ordo est geometriae necessarius. Nonne et
+eloquentiae, ex prioribus geometria probat insequentia,
+et certis incerta, propter quod plures invenies,
+qui dialectici similiter et rhetorici ingrediantur hanc
+artem. Dialectico namque syllogismo si res poscit utitur,
+et qui sunt potentissimi grammatici, qui apodixis
+Graece dicuntur, idem probant, et certe enthimemate,
+qui rhetoricus est syllogismus, quod Latine
+interpretatur mentis conceptio, quem imperfectum
+<pb n="1353D"/>
+solent artigraphi nuncupare, et ipse denique probat
+cujus sit formae circuitus, quot lineis rectis continetur.
+Quibus modis finitur, quae illa circumcurrens linea
+si efficiat orbem, quae forma est in planis maxima
+perfecta, in qua tot spatia complectitur. Et si
+quadratum paribus horis efficiat rursus quadrata,
+triangulus triangula, ipsa plus aequis lateribus quam
+inaequalibus, et alia forsitan obscuriora, quod
+etiam operis sequi oportet experimentum. Haec in planis.
+Nam in montibus et collibus etiam imperito patet,
+quia per solum cursum et umbrarum motum
+comprehenditur, et per divergia aquarum segregatur.
+Nunc ad epistolam Julii Caesaris veniamus, quod ad
+hujus artis originem pertinet, ut nec ipsius auctoris
+<pb n="1354A"/>
+gloria pereat, ut nobis plenissime rei veritas ad notitiam
+veniat; quisquis ille tamen hanc epistolam
+studiose legere voluerit quibusdem compendiis introductus,
+lucidius majorum dicta in brevi percipiet.</p>
+</div1>
+
+<div1>
+        <head> <hi>Rubrica.</hi> </head>
+<p>Divus Julius Caesar, vir acerrimus et multarum
+gentium dominator, frequentia belli militem exercuit,
+ampliorum bellorum operibus augendae rei
+causa illustrium virorum urbes ingressus est, gentium
+populos rogantes recepit, tyrannos gladio interemit,
+et postquam hostilem terram obtinuit, deletis
+hostium civitatibus, denuo novas urbes constituit,
+dato iterum coloniae nomine cives ampliavit.</p>
+<p>Milites colonos fecit, alios in Italia, alios in provinciis
+quibusdam. Haec quae divus Augustus assignatus
+<pb n="1354B"/>
+urbes provinciarum exercitui jussit propter subitas
+bellorum acies, non solum eas civitates demum
+cingere muris, verum etiam loca aspera et confragosa
+satis alligari, ut ille maxime propugnaculo est,
+et ista loci natura, et ab agrorum nova dedicatione
+culturae colonias appellavit, quae coloniae his victoribus,
+qui temporis causa arma coepere, assignatae
+sunt.</p>
+<p>Ergo ne quid nos praeterisse videamur, sed magis
+eorum exempla sequamur, saepe erit ad formam respiciendum;
+et quia montium altitudines praeesse oratio
+monstrabat, per ascensum praecelsi cacuminis
+aciem laboriose signa ex lapidibus constructa reliquimus,
+et est munita discretaque locorum quantitas
+quae permanet separatim per aquarum divergia in
+<pb n="1354C"/>
+utraque parte valde nota partitio, alia loca riparum
+cursus servatur, proinde etiam si hostis nos infestare
+voluisset, eos ex proxima ripa poteramus expugnando
+rumpere. Nam circa regionem maritimam limites
+rectos censuimus ex lapidibus compactis, totam limitum
+recturam cursum demonstrabimus, quia coloniae
+omnes quae ad mare ponuntur littore maris terminantur.
+Agros convallium jure ordinario disposuimus,
+quos intercisivos nominavimus. In planitie vero
+limites recte cultellavimus.</p>
+<p>Plerumque sunt agri quam multi assignati, quorum
+mensura limitum licet diversa sit; tamen etiam distant
+a se alius ab alio in pedes 100, in pedes 150,
+in pedes 240, in pedes 300, in pedes 361, in pedes
+420, in pedes 480, in pedes 600, in pedes 700, in
+<pb n="1354D"/>
+pedes 840, in pedes 962, in pedes 1020, in pedes
+10200, in pedes 1340, in pedes 10600, in pedes
+10700, in pedes 10800, in pedes 2200, in conspectu
+tamen longo quo signis limitem agimus.</p>
+<p>Si fuerit terminus crassus angustalis et ab alia
+parte longa crassus geminatus, hi duo limites
+maximi decimanus et cardo nominati sunt. Per multa
+millia pedum concurrunt, et nisi in alpes finiant dividunt
+agros dextra laevaque rectarum linearum inter
+se continentium.</p>
+<p>Omnem mensuram hujus culturae mediam longiorem
+sive latiorem facere debes, quod latitudine longius
+fuerit, scamnum est, quod vero in longitudinem
+longius fuerit striga.</p>
+<p>
+          <pb n="1355A"/>Sunt fundi bene meritorum et pro aestimatione
+ubertatis angustiores assignati sunt.</p>
+<p>Loca macra et arida ampliori termino conclusa
+sunt. Sunt loca subsicciva quae ad jus ordinarium
+non pertinent, sed si convenerit inter possessores,
+possideant; si non convenerit, remanet potestati.</p>
+<p>Alia loca perfectiora ad jus publicum pertineant;
+totidem si possessoribus convenit, possident.</p>
+<p>Sunt autem loca publica haec quae scribuntur silva
+et pascua publica augustinorum, quae illo modo alienari
+nequeunt, et possident tutelam aut templorum
+publicorum, aut balnearum, quae loca colliva appellant.</p>
+<p>Ager extraclusus est, qui intra finitimam lineam
+et centurias interjacet; ideo extraclusus, quia ultra
+finitimos limites clauditur.</p>
+</div1>
+
+<div1>
+        <head> <hi>De controversiis rubrica.</hi> </head>
+<p>
+          <pb n="1355B"/>Controversiarum materiae sunt duae, finis et locus,
+harum altera continetur quidquid ex agro disconvenit.
+Sed quoniam his quoque partibus signatae controversiae
+diversas habent conditiones, ut potui ego
+comprehendere, propriae sunt nominandae.</p>
+<p>Genera sunt controversiarum 14: De positione
+terminorum. De regione. De fine. De loco. De domo
+proprietas. De possessione. De alluvione. De jure
+territorii. De subsiccivis agris. De locis publicis. De
+locis relictis et extraclusis. De locis sacris ac religiosis.
+De aquae pluviae accessu, et de itineribus.</p>
+<p>Controversia est inter duos pluresque vicinos. Inter
+duos, an in rigore sit caeterorum sine rationis,
+inter plures trifinium facit, aliquibus locis et quadrifinium,
+secundum proximas possessiones, dum hoc
+<pb n="1355C"/>
+nesciunt, non eis convenit, et diversas controversias
+ipsi possessores inter se faciunt. Alii de loco, alii
+vero de fine lineae litigant, alii de fundis attendunt.
+Sed avido modo quaerendum est prius origo causae.
+Natura per haereditates opinionis hujus generis controversiae
+fiunt, quare jure ordinario litigatur. Prius
+tamen in judicio super possessionem quaestio finiatur,
+et tunc agrimensor ad loca ire praecipiatur, ut
+patefacta veritate hujusmodi litigium terminetur.</p>
+<p>Genera controversiarum ex flumine haec sunt, non
+quod occupatis agris agitur, sed quod vis aquae abstulerit
+repetitionem non habebit, quae res necessitate
+ripae muniendae sunt, sine alterius damno quisquis
+ille faciat qui ripam suam muniet. Quod si fluminis
+torrens aliquando tam violentus decurrerit, ut alveum
+<pb n="1355D"/>
+mutet suum, multorum agros trans ripam occupat,
+saepe etiam insulas efficiet. Sed Cassius Longinus
+prudentissimus juris auctor et judex hoc statuit, ut
+quidquid aqua lambendo abstulerit possessor admittat,
+quoniam scilicet ripam suam sine alterius damno
+tueri debet. Si vero major vis decurrerit et in fines
+alterius alveum mutat suum, et fiat insula in quo
+concurrerit, unusquisque modum fluminis majoris
+agnoscere debet, et eam insulam ipse sibi vindicabit,
+cujus terram tempestative praeoccupavit, quoniam
+non possessoris negligentia, sed tempestatis violentia
+apparet arreptum.</p>
+<p>Ager subsiccivus secundum suas determinationes
+<pb n="1356A"/>
+ascriptus est, in finibus suis tabulario Caesaris inferimus,
+et quod beneficio concessa aut assignata coloniae
+fuerint, sive in proximo, sive inter alias civitates,
+libros beneficiorum ascribimus, et quidquid aliud ad
+instrumentum mensorum pertinebit ad solum coloniae,
+sed ad tabularium Caesaris manu conditoris subscriptum
+habere debebit. </p>
+<p>Ager est similis subsiccivus condictionis extraclusus
+et non assignatus, qui, si rei publicae, populo Romano,
+aut ipsius coloniae cujus fine circumdatur, aut
+ad populum Romanum pertinet, datus non est, in
+<pb n="1356B"/>
+ejus qui assignare potuerit remanet potestate.</p>
+<p>Signa limitum finalium in diversas regiones, sive
+vocabula, vicos, vel possessiones haec sunt inter utrosque
+possessores testimonia agralia dividenda.</p>
+<p>In montibus loca arida et confragosa petras signatas
+invenimus.</p>
+<p>Summa montium terminos agusteos, id est rotundos,
+in effigiem columnae aliquos littera signatos,
+archas finales in partibus grumos, id est congeriem
+petrarum, arbores antemissas intactas a ferro, congeriem
+maceriae, id est ubi saxa collecta ab utrisque
+partibus limitem faciunt, item petras sacrificales aras,
+in quibus locis arbores intactae stare videntur, in quo
+loco veteres errantes sacrificium faciebant. Alio loco
+viae militares finem faciunt, qui termino muniuntur.
+<pb n="1356C"/>
+Alia vero dextera montium, id est pro latere montis
+ripae currentes finem faciunt. Aliquando sepulcra finem
+faciunt, ideo sepulcra sequenda sunt quae extremis
+finibus concurrentibus plures concursus agrorum exspectant.
+Omnia enim monumenta dominos testantur.</p>
+<p>Sunt termini cursorii in effigiem tituli constituti,
+certa loca rivi, finales cunabulae vel novercae, quod
+regulis construitur, scorpiones ubi fines duo cuneati
+se jungunt. Si forte in campestria loca ubi agri in planitie
+sunt constituti in jugeribus assignata inveniuntur.
+Item inter voratos rupis arboribus ante missis
+intactis, ut supra dixi sacrificales, tumor terrae in
+effigiem limitis constitutos, petras molares foveas, vel
+metas, lacus et legonatus, et fabritiis constructos calaviones.
+Aliquotiens enim petras quadratas et scriptas,
+<pb n="1356D"/>
+quae indicant cujus agri quis dominus, quot
+spatium tueantur. Non enim omnis titulus inscriptionibus
+est inductus, quoniam aliquibus locis non sunt
+lapides scripti, sed in effigiem terminorum positi
+sunt, quos cursorios vocamus. Nam et ipsi montes
+omnino loca determinant, termini vero non unam
+mensuram inter se continent, jubente Augusto Caesare
+Balbo mensore, qui omnium provinciarum mensuras
+distinxit ac declaravit, perque testimonia suprascripta
+fines locorum terminentur.</p>
+<p>Sunt enim termini quibus fides non est adhibenda,
+isti dicuntur itinerarii. Omnes enim limites itineri
+publico servire debebunt, qui dextra ac sinistra fines
+<pb n="1357A"/>
+privatos dividunt, et in medio iter publicum, hi tales
+non sunt omnibus locis, utique sub omnes terminos
+signum inveniri oportet; quod ergo inventum pro loco
+termini observetur et custodiri debeat, ut ab uno ad
+unum dirigatur, et si nocte sive a nota ad notam.</p>
+<p>Sic enim sunt certae legis consuetudines et observationes,
+semper signum in omnibus terminis positum
+est, aut aliquos cineres, aut carbones, aut testa,
+aut ossa, aut vitrum, aut massa ferri, aut aes, aut
+calcem, aut gypsum, aut vas fictile invenimus, quod
+etiam quibusdam saxorum fragminibus conculcabant
+atque diligenti cura confirmabant, ut firmius staret.
+Tales ergo, signum inter dominos, inter quos fines
+terminabantur, faciebant. Termini vero non sunt omnibus
+locis, sed infinita sunt multa alia testimonia,
+<pb n="1357B"/>
+lege feliciter et intelligere curabis; qui intelliget quod
+videt, agrorum intentionem et certamen tollere potest,
+prudentiam tamen hi mensores habere debent,
+qui judicaturi sunt, et quos advocant, ut praestatores.
+In judicando autem mensorem bonum virum et justum
+agere, ut nulla ambitione aut sordibus moveatur,
+servare opinionem metris et moribus debet. Omni
+enim artifici veritas custodienda est, exclusi sunt illi
+qui falsa pro veris opponunt. Quidam per imprudentiam,
+quidam per imperitiam peccant. Mutans ergo
+in professione quae generaliter pro veris adjiciuntur,
+per controversiam argumentaliter et conjecturaliter
+etiam superflue metiri artifices coguntur, sed tutum
+hoc judicandi hominem artificem oportebit.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>Nomina agrimensorum rubrica.</hi> </head>
+<p>
+          <pb n="1357C"/>Higini, Marci, Caesaris Neronis jussu.--Julii Frontini,
+Junii, Claudi Caesaris jussu.--Siculi.--Flacci,
+Nypsi, Higini, Euclidis, Cassi.--Ageni, Balbi, Tiberii
+Caesaris jussu.--Urbici, Mensoris Longini.--Imp. Severini
+et Antonini j.--Imp. Vespasiani j.--Imp.
+Adriani j.--Imp. Trajani j.--Imp. Augusti Caesaris j.--Imp.
+Neronis j.--Imp. Valentiniani j.--Imp. Theodosii
+j.--Imp. Archadii j.--Imp. Honorii j.--Imp.
+Constantini jussu.</p>
+</div1>
+
+<div1>
+        <head> <hi>Nomina lapidum finalium et archarum positiones rubrica.</hi> </head>
+<p>Orthogonius rectus rectum angulum mittit. Isopleurus
+rectus subconstitutus.--Isosceles. Terminus lineatus.--Exculenus
+sive hexagineus. Spatula cursoria.--Excultelatus
+lateribus. Terminus in inversum positus.--Sumbus
+<pb n="1357D"/>
+sive trapideus. Item spatula cursoria.--Isosceles.
+Quadrifinius.--Solus trigonus alia jactat.
+Item quadrifinius.--Parallelogrammus pentagonus.
+Terminus gamatus. Hexagineus. Terminus lineatus,
+id est quadrifinius.--Septagenus. Item quadrifinius.--Sinagonus.
+Noverca.--Terminus Graeca littera scriptus.
+Simmatus.--Terminus in summo acutus. Centustatus.--Circulatus
+pyramus, item acuto similis.
+Trivortinus.--Item pyramus vitae praecisae similis.
+Amicirculus--Completus rhombus amblygineus. Varoberinus.--Amicirculus
+quadratus. Trudeus.--Terminus
+agusteus. Terminus augustus in summo acutus.--Terminus
+cursorius. Lapis molaris.--Terminus
+finitrius. Monumentum.--Sepulturam cum ossibus
+<pb n="1358A"/>
+finalem. Mauspleus.--Terminus in laterculis. Arca
+finalis.--Terminus quadrifinius. Lippus.--Terminus
+rotundus. Kalasiones.--Terminus cui subjacet angulus.
+Terminus quadrifinius.</p>
+<p>Tu qui vis perfectus esse geometricus, lege ista omnia
+quae capitulata sunt subterius. Nam imprimis scire
+oportet arithmeticam artem, quae continet numerorum
+causas ac divisiones, id est: qualis est definitio
+ac divisio, de paribus imparibus numeris;--qualis
+est compositus numerus, et qualis incompositus;--qualis
+est perfectus numerus, et qualis imperfectus;--qualis
+est divisibilis numerus, et qualis indivisibilis;--qualis
+est particularis numerus, et qualis superpartiens;--qualis
+est superfluus numerus, et qualis
+diminutivus;--qualis est multiplex numerus, et qualis
+<pb n="1358B"/>
+submultiplex;--qualis est solidus numerus, et qualis
+sphaericus;--quomodo inventa est geometria;--quid
+sit geometria;--quae utilitas;--qui ordo praescriptionis;--quae
+sit ratio praepositionis;--quae dispositionis;--quae
+distributionis;--quae descriptionis;--quae demonstrationis;--quae
+conclusionis;--qualis est recta
+linea;--qualis est superficies lineae;--qualis est divitrica
+linea;--quot sunt extremitatum genera;--quot
+genera summitatum;--quot genera angulorum;--qualis
+est planus angulus;--qualis est obtusus angulus;--qualis
+est hebes angulus;--qualis est rectus
+angulus;--qualis est acutus angulus;--qualis partita
+mensura sit;--quantum trahit stadius;--quid sitacus;--quid
+sint climate;--quid centua;--quid leuca;--quid
+arrapennis;--quid jugerum;--quid centuria;--quid
+<pb n="1358C"/>
+punctum;--quid est diametrus;--quid paralellogrammum;--quid
+figura;--quid circulus;--quot in
+partes sit divisio.</p>
+<p>Si scis ista omnia ad plenitudinem, nosti locorum
+segregationem. Nam qui ignorant regulam hujus artis
+multa opponunt falsa pro veris.</p>
+<p> <hi>D.</hi> Quomodo inventa est geometria?</p>
+<p> <hi>M.</hi> Inventam esse geometriam Aegyptii dicunt pro
+necessitate terminorum terrae, quos nullus inundationis
+tempore infundebat.</p>
+<p> <hi>D.</hi> Unde vocata sit geometria?</p>
+<p> <hi>M.</hi> Geometria nominata est a dimensione terrae, per
+quam uniuscujusque terrae termini declarari solent.</p>
+<p> <hi>D.</hi> Quid sit geometria?</p>
+<p> <hi>M.</hi> Geometria est disciplina magnitudinis et figurae
+<pb n="1358D"/>
+quae secundum magnitudinem contemplatur.</p>
+<p> <hi>D.</hi> Quae sit intentio?</p>
+<p> <hi>M.</hi> Intentio Euclidis duplex est, ad discipulum respiciens
+et ad naturas rerum. Ad discipulum respiciens,
+quia oportet eum ab his uti isagogicis incipere
+pro facilitate, pro brevitate, et eo quod in quaestionibus
+ob hoc nulla sit difficultas. Pro rerum natura,
+eo quod physicae scientiae, et Timaei sive Platonis doctrina
+plurima geometricae demonstrare noscuntur.</p>
+<p> <hi>D.</hi> Quae utilitas?</p>
+<p> <hi>M.</hi> Utilitas (ut supra praefati sumus) geometriae
+triplex est, ad facultatem, ad sanitatem, ad animam:
+ad facultatem, ut mechanici; ad sanitatem, ut medici;
+ad animam, ut philosophi.</p>
+<p>
+          <pb n="1359A"/> <hi>D.</hi> Qui ordo est geometriae in disciplinis?</p>
+<p> <hi>M.</hi> Aliquatenus post arithmeticam servus est, aliquatenus
+tertius.</p>
+<p> <hi>D.</hi> Tituli inscriptio quomodo intelligatur?</p>
+<p> <hi>M.</hi> Est enim tituli praescriptio elementorum quae
+figurae simpliciores sunt, et ex his aliae componuntur
+quae in his etiam resolvuntur.</p>
+<p> <hi>D.</hi> Si proprius codex?</p>
+<p> <hi>M.</hi> Codex iste secundum dispositionem Euclidis
+esse dicitur, secundum demonstrationem vel inventionem
+aliorum plerumque esse dicitur.</p>
+<p> <hi>D.</hi> In quot partes dividitur?</p>
+<p> <hi>M.</hi> Dividitur codex iste in quatuor partes: in epipedis,
+in arithmeticis, in rationalibus et irrationalibus
+lineis, et in solidis.</p>
+<p>
+          <pb n="1359B"/> <hi>D.</hi> Quae sunt in demonstratione geometrica?</p>
+<p> <hi>M.</hi> Propositio, dispositio, distributio, descriptio,
+demonstratio et conclusio.</p>
+<p>Restat autem nobis profundissimam quamdam tradere
+disciplinam, quae ad omnium naturae tum rerum
+integritatem maxime ratione pertineat. Magnus quippe
+in hac scientia fructus est, si quis non nesciat quod
+bonitas diffinita et sub scientia cadens animoque semper
+imitabilis et perceptibilis prima natura est, et
+suae substantiae decore perpetua, infinitum vero malitiae
+dedecus nullis propriis principiis nixum, sed natura
+semper errans ab omni definitione principii
+tanquam aliqua signo optimae figurae impressa componitur,
+et ex illo erroris fluctu retinetur. Nam nimiam
+cupiditatem iraeque immodicam effrenationem,
+<pb n="1359C"/>
+quasi quidam rector animus pura intelligentia roboratus
+astringit. Nos tamen quae de numeris a Nicomacho
+diffusius disputata sunt, vel a Varrone de
+mensuris ostensa sunt, moderata brevitate collegimus.
+Et quae transcursa velocius angustiorem intelligentiae
+praestabant aditum, mediocri adjectione reseravimus,
+ut aliquando ad evidentiam rerum nostris
+etiam formulis ac descriptionibus uteremur, quod
+nobis quantis vigiliis ac sudore constiterit, facile sobrius
+lector agnoscit. Et has quodammodo inaequalitatis
+formas temperata bonitate laborando collegimus,
+ipse lector probabit, quae nos ex Graecarum opalentia
+litterarum in Romanum orationis thesaurum contrahimus.
+Si quae ex sapientiae doctrinis emicuerunt,
+sapientissimi judicio per nos comprobentur. Vides
+<pb n="1359D"/>
+igitur ut tam magni laboris effectus tuum tantum
+lector exspectet examen, nec in aures prodire publicas
+nisi doctae sententiae astipulatione nitatur, quod
+nihil mirum videri debet, cum id opus quod sapientiae
+inventa persequitur, non auctoris, sed alieno incumbat
+arbitrio. Est enim sapientia numerorum causas
+et divisiones earum quae vera est cognitio et integra
+comprehensio, quod haec qui spernit, id est semitam
+sapientiae, ei denuntio non recte philosophandum.
+Haec autem est arithmetica, haec enim cunctis prior
+est, non modo quod hanc ille hujus mundanae molis
+conditor Deus primam suae habuit ratiocinationis
+exemplar, et ad hanc cuncta constituit, quaecunque
+fabricata ratione per numerum assignati ordinis invenere
+<pb n="1360A"/>
+concordiam, sed hoc quoque prior arithmetica
+declaratur, quod quaecunque natura priora sunt;
+his sublatis, simul posteriora tolluntur. Quod si posteriora
+pereant, nihil de statu prioris substantiae
+permutat, ut animal prius est homine. Nam si tollas
+animal, statim quoque hominis natura deleta sit. Si
+hominem sustuleris, animal non peribit, proprie tamen
+ipsa numerorum natura cuncta praecessit. Omnia
+quaecunque a primaeva rerum natura constructa
+sunt, videntur numerorum ratione formata. Hoc enim
+fuit principale in animo conditoris exemplar, hinc
+enim quatuor elementorum multitudo mutuata est,
+hinc temporum vices, hinc motus astrorum coelique
+conversio. Proprie tamen ipsa numerorum natura
+omnes astrorum cursus, omnisque astronomica ratio
+<pb n="1360B"/>
+constituta est. Sic enim ortus occasusque colligimus,
+sic tarditates velocitatesque errantium siderum custodimus,
+sic defectus et multiplices lunae variationes
+agnoscimus, quia quoniam prior, ut claruit, arithmeticae
+usus est, huic disputationis sumamus exordium,
+hoc idem in geometria vel in arithmetica videtur incurrere.
+Si enim numeros tollas, unde triangulum
+vel quadratum comprehendere possumus, vel quidquid
+in geometria versatur, quae omnia numerorum
+denominativa sunt, hoc autem erit perspicuum si
+intelligamus omnes inaequalitates crevisse primordiis,
+ut ipsa quodammodo aequitas matris et radicis obtinens
+vim, ipsa omnes inaequalitatis species ordinesque
+perfundavit. Sint enim nobis tres bini, vel tres terni,
+vel tres quaterni, vel quantos ultra libet ponere.
+<pb n="1360C"/>
+Quod enim in his tribus terminis evenit, idem contingit
+in caeteris. Ex his igitur secundum praecepti
+nostri ordinem videas primum nasci multiplices si
+convertantur, et in his duplices prius, dehinc triplos,
+inde quadruplos et ad eumdem ordinem consequentes.
+Rursus multiplices si convertantur, ex his superparticulares
+orientur. Ex duplicibus quidem sesquialteri.
+Ex triplicibus sesquitertii. Ex quadruplis
+sesquiquarti, et caeteri in hunc modum. Ex superparticularibus
+vero conversis superpartientes nasci
+necesse est, ita ut ex sesquialtero nascatur superbipartiens,
+supertripartientem sesquitertius gignat, ut
+ex sesquiquarto superquadripartiens. Rectis autem
+positis neque conversis prioribus superparticularibus,
+multiplices superparticulares oriuntur. Rectis vero
+<pb n="1360D"/>
+superpartientibus, multiplices superpartientes efficiunt;
+praecepta autem tria haec sunt, ut primum
+numerum primo facias parem, secundo vero primum,
+et secundo tertium, primo duobus secundis et tertio.
+Cum enim eum in terminis aequalibus feceris, ex his
+qui nascentur duplices erunt. De quibus duplicibus si
+idem feceris, triplices procreantur, et de his quadruplices,
+atque in infinitum omnes formas numeri multiplices
+explicabis. Illi quidem quorum partes ultra
+quam satis est sese perrexerint, superflui nominantur,
+ut sunt 12, vel 114. Hi enim suis partibus comparati,
+majorem partium summam toto corpore sortiuntur:
+est enim duodenarii medietas 6, pars tertia 4, pars
+quarta 3, pars sexta 2, pars duodecima 1, omnisque
+<pb n="1361A"/>
+hic cumulus redundat in 16, et totius corporis sui
+multitudinem vincunt. Rursus 24 numeri medietas
+est 12, tertia 8, quarta 6, sexta 4, octava 3, duodecima
+2, vigesima quarta 1, qui omnes 36 rependunt, in
+qua re manifestum est quod summa partium major
+est, et supra proprium corpus exundat. Atque hic
+quidem cujus compositae partes totius termini multitudine
+superantur, ut 8, vel 14, habet enim octonarius
+partem mediam, id est 4, habet et quartam quod
+est 2, habet et octavam 1, quae cunctae in unum reductae
+septem colligunt, minorem scilicet summam
+toto corpore concludentes. Rursus quatuordecim habet
+medietatem, id est 7, habet septimam, id est 2,
+habet quartam decimam, id est 1, quae si in unum
+collectae sint denarii numeri summa sucorescit, toto
+<pb n="1361B"/>
+scilicet termino minor. At 2 qui hoc modo sunt ut
+prior ille quem suae partes superant, tales videantur
+tanquam si quis multis super naturam manibus natus
+aut duplici conjunctus corpore, vel quidun quam monstruosum
+naturae in partium multiplicatione subripuit.</p>
+<p>Ille vero minores, ut si naturaliter quadam necessaria
+parte detracta aut minus oculo nasceretur, vel
+alio curtatus membro naturale totius suae plenitudinis
+dispendium sortiretur, inter hos autem velut inter
+aequales intemperantias medii temperamentum limitis
+sortitus est ille numerus qui perfectus dicitur esse
+virtutis scilicet aemulator, qui nec supervacua progressione
+dirigitur, nec contracta rursus diminutione
+remittitur. Sed medietatis obtinet, qui suis aequis
+<pb n="1361C"/>
+partibus nec grassatur abundantia, nec eget inopia,
+ut 6 vel 28. Namque senarius habet partem mediam,
+id est 3, et tertiam, id est 2, et sextam, id est 1, quae
+in unam summam si redactae sint, id est 3, 2, 1, id
+est par totum numeri corpus suis partibus invenitur;
+28 vero habet medietatem 14 et quartam 7, et septimam
+4, et quartam decimam 2, vigesimam octavam 1, quae in
+unum redacta totum partibus corpus aequabunt, in uno
+enim junctae partes 28 efficiunt. Est autem in his quoque
+magna similitudo virtutis et vitii; perfectos enim
+numeros rare invenies, eosque facile numerabiles,
+quippe qui pauci sunt, et nimis constanti ordine
+procreati. At vero superfluos infinitos reperies, nec
+ullis ordinibus, passim inordinateque dispositos, et a
+nullo certo fine generatos. Sunt autem perfecti numeri
+<pb n="1361D"/>
+intra denarium numerum 6, intra centenarium
+28, intra millenarium 416, intra decem millia 800
+et 128. Et semper hi numeri duobus paribus terminantur
+6 et 8, et semper alternatim in hos numeros
+summarum fines provenient. Nam et primum 6, inde
+28, post hos 496. Idem senarius qui primus, postquam
+800 et 128, idem octonarius qui secundus.</p>
+<p>Majoris vero inaequalitatis numeri quinque sunt
+partes: est enim una quae vocatur multiplex, alia
+superparticularis, tertia superpartiens, quarta multiplex
+superparticularis, quinta multiplex superpartiens.
+His igitur quinque majori partibus oppositae sunt aliae
+quinque partes, quae minoris sigillatim speciebus
+iisdem nominibus nuncupantur, sola tantum praepositione
+<pb n="1362A"/>
+distantes. Dicitur enim submultiplex, subsuperparticularis,
+subsuperpartiens, submultiplex,
+superparticularis, submultiplex, superpartiens. In
+prima parte si multiplicatur numerus multiplex dicitur.
+In parte superparticularis dicitur. In
+tertia superpartiens, id est quarta multiplex superparticularis.
+In quinta multiplex superpartiens. Minores
+vero numeri aliqua parte unus subsistens, atque
+idem per partes, secundum majorum normam multitudinemque
+protenditur.
+</p>
+      </div1>
+
+<div1>
+        <head> <hi>De paribus et imparibus numeris rubrica</hi> </head>
+<p>Descriptio autem quae supposita est hoc modo facta
+est: quantoscunque in ordine pariter parium numerorum
+ternarius numerus multiplicavit, quicunque ex
+eo procreati sunt primo sunt versu dispositi. Rursus
+<pb n="1362B"/>
+qui eodem multiplicante quinario nati sunt, secundo
+loco sunt constituti. Post vero quos septenarius caeteros
+multiplicans procreavit, eosdem tertio constituimus
+loco, atque idem in reliqua descriptionis
+parte perficimus, superius igitur digestae descriptionis
+haec ratio est: si ad latitudinem respicias, ubi est
+duorum terminorum una medietas, ipsosque terminos
+jungas, duplos eos propria medietate reperies, et
+36 et 20 faciunt 56, quorum medietas est 28, et 12
+si jungas faciunt 150, quorum 20 medietati medius
+eorum terminus invenitur. Ac vero ubi duas medietates
+habent, utraeque extremitates junctae utrisque
+medietatibus aequales fiunt, ut 12 et 36 dum conjunxeris
+fiunt 48; horum si medietates sibimet applicaveris,
+id est 20 et 28, idem erit. Atque in alia
+<pb n="1362C"/>
+parte latitudinis eodem ordine qui fiunt numeri notati
+sunt, neque ulla in re ratio utriusque latitudinis
+discrepavit. Idemque eodem ordine in caeteris numeris
+pernotabis, et hoc secundum formam pariter
+imparis numeri fit, in quo hanc proprietatem esse
+supra jam dictum est. Rursus si ad longitudinem
+respicias, ubi duo termini unam medietatem habent,
+quod fit ex multiplicatis extremitatibus, hoc fit si
+medius terminus suae capiet pluralitatis augmenta.
+Nam duodecies 48 faciunt 576; medius vero eorum
+terminus, id est 24, si multiplicetur, eosdem rursus
+576 procreabit. Et rursus si 24 in 546 multiplicetur,
+faciunt 2304, quorum medius terminus, id est 48, si
+in semetipsum ducatur, idem 2304 procreantur. Ubi
+autem duo termini duas medietates includunt, quod
+<pb n="1362D"/>
+fit multiplicatis extremitatibus, hoc idem redditur in
+alterutram summam medietatibus ductis. Duodecies
+enim 546 multiplicatis in 152 procreantur, duae vero
+eorum medietates, id est 24 et 48, si in semetipsas
+multiplicentur, eosdem in 152 restituent, atque hoc
+ad imitationem cognationemque numeri pariter paris,
+a quo participatione tracta, haec ei cognoscitur ingenerata
+proprietas. Et in alio vero latere longitudinis,
+eadem ratio descriptioque notata est, qua in re manifestum
+est totum numerum, ex superioribus duobus
+esse procreatum, quod eorum retinet proprietates.
+Quoniam autem naturaliter et secundum propriam
+ordinis consequentiam multiplicem inaequalitatis speciem
+cunctis praeposuimus, primamque speciem esse
+<pb n="1363A"/>
+monstravimus, licet hoc nobis posterioris operis ordine
+clarescat. Hic quoque perstringentes, id quod
+proposuimus planissime breviterque doceamus. Sit
+enim talis descriptio in qua ponatur in ordinem
+usque ad denarium numerum continui numeri ordo
+naturalis, et secundo versu duplus ordo texatur,
+tertio vero triplus, quarto autem quadruplus, et hoc
+usque ad decuplum. Sic enim cognoscemus quemadmodum
+superparticulari, et superpartienti, et cunctis
+aliis princeps erit species multiplicis, et quaedam
+alia simul inspiciemus, et ad subtilitatem tenuissima,
+et ad scientiam utilissima, et ad exercitationem valde
+jucundissima.</p>
+<p>Si igitur duo prima latera praepositae formulae, quae
+faciunt angulum ab uno ad decem, et decem procedentia
+<pb n="1363B"/>
+respiciantur, et his subteriores ordines comparentur,
+qui scilicet a 4 angulum insipientes in
+vicenos terminum ponunt, duplex, id est prima species
+multiplicatis ostenditur, ita ut primus primum
+sola superet unitate, id est duo unum, secundus secundum
+binario supervadat, ut quaternarius binarium,
+tertius tertium tribus, ut senarius ternarium,
+quartus quartum quaternarii numerositate transcendat,
+ut octo quaternarium et per eamdem cuncti
+sequentiam sese minoris pluralitate praetereant.</p>
+<p>Si vero tertius angulus inspiciatur, qui ab novem
+inchoans, longitudinem latitudinemque tricenis altrinsecus
+numeris extendit, et hic cum prima latitudine
+et longitudine comparetur, triplex species multiplicitatis
+occurrit, ita ut ista comparatio per decimam
+<pb n="1363C"/>
+litteram fiat, hique se numeri superabunt,
+secundum paralitatis factam naturaliter connexionem;
+primus enim primum duobus superat, ut unum
+tres, secundus secundum quaternario, ut binarium
+senarius, tertius tertium sex, ut ternarium novenarius,
+et ad eumdem caeteri modum progressionis
+accrescunt. Quam rem nobis scilicet et ipsa naturalis
+objecit integritas, nihil nobis extra machinantibus,
+ut in ipso modulo descriptionis apparet.</p>
+<p>Si quis autem quarti anguli terminum qui sedecim
+numeri quiditate notatus est, et longitudinem quae in
+quadragenos terminat, velit superioribus comparare,
+per 10 litterae formam proportione collata, quadruplici
+multitudinem pernotabit, hisque est ordinabilis
+super se progressio, et ut primus primum tribus superet,
+<pb n="1363D"/>
+ut quatuor unitatem, secundus secundum senario
+vincat, ut octo binarium, tertius tertium novenario
+transeat, ut duodenarius ternarium, et sequentes
+summulae trium se semper adjecta quantitate transiliant.
+Et si quis subteriores aspiciat angulos, idem
+per omnes multiplicitatis species usque ad decuplum
+dispositissima ordinatione proveniet.</p>
+<p>Si quis vero in hac descriptione superparticulares
+requirat, tali modo reperiet. Si enim secundum angulum
+notet, cujus est initium quaternarius, eique
+superjacet binarius, atque ad hunc sequentem quis
+accommodet ordinem, sesquialtera proportio declaratur.
+Nam tertius secundi versus sesquialter est, ut
+tres ad duo, vel sex ad 4, vel novem ad sex, vel 12
+<pb n="1364A"/>
+ad 8, item et in caeteris qui sunt in eadem serie numeris
+talis conjugatio misceatur, nulla varietatis
+dissimilitudo subripiet; eadem tamen summarum
+supergressio est in hoc quoque quae in duplicibus
+fuit. Primus enim primum, id est ternarius binarium
+uno superat, secundus vero secundum duobus, tertius
+tertium tribus, et deinceps. Si vero quartus ordo
+tertio comparetur, ut 4 ad 3, et eodem caeteros ordine
+consecteris, sesquitertia comparatio colligitur,
+ut 4 ad 3, vel 8 ad 6, vel 12 ad 9, videsne ut in
+omnibus his sesquitertia conservetur. Praeterea eos
+qui sub ipsis sunt, si idem faciens sequentes versus
+alterius comparaveris, omnes sine ullo impedimento
+species superparticularis agnosces, hoc autem in hac
+dispositione divinum, quod omnes angulares numeri
+<pb n="1364B"/>
+tetragoni sunt. Tetragonus autem dicitur, ut brevissime
+dicam, quod etiam latius explicabitur, quem
+duo aequales numeri multiplicant, ut in hac quoque
+descriptione est: unus enim semel unus est, et est
+potestate tetragonus. Item bis duo 4 sunt, ter tres 9,
+quos in semetipsos multiplicationes primordiis perfecerunt.
+Circum ipsos vero qui sunt vel est circum
+angulares, longilateri numeri sunt, longilateros autem
+voco, quos uno se supergredientes numeri multiplicant,
+circum 4 enim duo sunt et sex, sed duo nascuntur
+ex uno et duobus, cum unum bis multiplicaveris.
+Sed unitas a binario unitate praeceditur, 6 vero ex
+duobus et tribus, bis enim tres senarium reddunt.
+Novenarium vero sex et duodecim claudunt, qui
+duodecim ex tribus nascuntur et 4. Ter enim 4 fiunt
+<pb n="1364C"/>
+12, senarius vero ex duobus et tribus, bis enim ter
+fiunt 6, qui omnes uno majoribus lateribus procreati
+sunt. Nam cum 6 ex binario ternarioque nascuntur,
+3 binarium numerum uno superant, cunctique alii
+ejusdem modi sunt, ut primo et secundo ordine ad
+alterutrum multiplicatis terminis procreentur, ita ut
+quod nascitur ex duobus positis longilateris altrinsecus,
+et bis medio tetragono tetragonus sit. Et rursus
+quod ex duobus altrinsecus tetragonis et uno
+medio longilatero bis facto nascitur, ipse quoque
+tetragonus sit, et ut angulorum totius descriptionis
+ad angulares tetragonos positorum unius anguli, sit
+prima unitas, alterius vero qui contra est, tertia uni
+vero altrinsecus anguli secundas habent unitates, et
+duo angularium tetragonorum anguli aequum faciunt,
+<pb n="1364D"/>
+quod sub ipsis continetur, illi quod fit ab uno illorum,
+qui est altrinsecus angulorum. Multa enim sunt
+alia quae in hac descriptione utilia possint admirabiliaque
+perpendi, quae interim propter castigatam
+introducendi brevitatem ignota esse permittimus,
+nunc vero ad sequentia propositum convertamus.</p>
+<p>
+          <emph> <hi>Finis lib. de Geometria Anitii Manlii Severini Boetii.
+In quo opere si quid amplius requiri videbitur cuipiam
+boni aequique consulat, nam plurimos locos emendavimus,
+in quibusdam visum est cuique suum judicium
+relinquere, nihilque temere mutare. Certe quantum
+diligentia, industria et impensis potuit fieri, a nobis
+nihil est omissum.</hi> </emph>
+
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

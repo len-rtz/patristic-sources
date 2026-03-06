@@ -1,0 +1,2737 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Commentaria in Joelem</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 25</title>
+           <idno>HieStr.CoInJo2</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Prologus.</head>
+<p>
+          <pb n="0947A"/> <emph>165-166</emph> Non idem ordo est duodecim prophetarum
+apud septuaginta interpretes, qui in Hebraica
+veritate retinetur. Illi enim ponunt secundum
+Amos, tertium Michaeam, quartum Joel, quintum
+Abdiam, sextum Jonam, septimum Naum, octavum
+Abacuc, nonum Sophoniam, decimum Aggaeum,
+undecimum Zachariam, duodecimum Malachiam:
+Hebraei autem post Osee, qui apud utrosque primus
+est, secundum legunt Joel, tertium Amos, quartum
+Abdiam, quintum Jonam, sextum Michaeam, septimum
+Naum, octavum Abacuc, nonum Sophoniam,
+decimum Aggaeum, undecimum Zachariam, duodecimum,
+qui et ultimus est, Malachiam. Et quia semel
+omnes unius voluminis prophetas enumeravimus,
+utile nobis videtur <foreign xml:lang="greek">ἐτυμολογίας</foreign> singulorum et
+<pb n="0947B"/>
+Graece et Latine breviter annotare. Osee interpretatur <foreign xml:lang="greek">σώζων,</foreign>
+ quem nos <hi>salvatorem</hi> possumus dicere.
+Joel <foreign xml:lang="greek">ἀρχόμενος,</foreign> id est, <hi>incipiens.</hi> Amos, <foreign xml:lang="greek">βαστάζων,</foreign>
+qui apud Latinos <hi>portans</hi> dicitur. Abdias <foreign xml:lang="greek">δοῦλος Κυρίου,</foreign>
+id est, <hi>servus Domini.</hi> Jonas, <foreign xml:lang="greek">περιστερὰ,</foreign> hoc
+est, <hi>columba.</hi> Michaeas, <foreign xml:lang="greek">τίς ὡς</foreign> [Al. <foreign xml:lang="greek">ὀστισοῦν</foreign>], ex
+duabus orationis partibus nomen compositum, quod
+apud nos sonat, <hi>quis quasi,</hi> aut <hi>quis velut?</hi> Naum, <foreign xml:lang="greek">παράκλησις,</foreign>
+ id est, <hi>consolatio.</hi> Abacuc, <foreign xml:lang="greek">περιλαμβάνων,</foreign>
+id est, <hi>amplexus</hi> sive <hi>luctans</hi> [Al. <hi>amplexans</hi> ]. Sophonia,
+<pb n="0948A"/> <foreign xml:lang="greek">κεκρυμμένος Κυρίου,</foreign>
+ hoc est, <hi>arcanus Domini.</hi> 
+Aggaeus, <foreign xml:lang="greek">ἑορτάζόν,</foreign> quem nos <hi>festivum,</hi> sive <hi>solemnem</hi> 
+possumus dicere. Zacharias, <foreign xml:lang="greek">μνήμη Κυρίου,</foreign> id est, <hi>memoria Domini.</hi> 
+ Malachias, <foreign xml:lang="greek">ἄγγελός μου,</foreign> id est, <hi>nuntius meus.</hi> 
+ Quae omnia quo sensu accipienda sint,
+in suis voluminibus disseretur. Quatuor autem reliqui
+prophetae, ut sedecim compleamus, Isaias,
+Ezechiel, Jeremias, Daniel, hanc habent intelligentiam:
+Isaias <foreign xml:lang="greek">σωτηρία Κυρίου</foreign> dicitur, id est, <hi>salus Domini:</hi> 
+Ezechiel <foreign xml:lang="greek">κράτος Κυρίου,</foreign> quod nos <hi>robur</hi> vel <hi>imperium
+Domini</hi> <emph>167-168</emph> possumus appellare: Jeremias <foreign xml:lang="greek">ὐψηλὸς Κυρίου,</foreign>
+ id est, <hi>excelsus Domini:</hi> Daniel, <foreign xml:lang="greek">ἔκρινε με Κύριος,</foreign>
+ id est, <hi>judicavit me Dominus.</hi> Quae cum
+ita se habeant, obsecro, mi Pammachi, qui omni
+arte pugnandi adversum diabolum dimicas, ut nobis
+<pb n="0948B"/>
+contra Amalec pugnantibus leves cum Moyse ad
+Dominum manus, et adversarios Israel orationibus
+superes. Nuper de Aegypto egressi sumus, et in
+Osee Pharaone submerso, Rubrum transivimus mare <note>(Exod. XIV, XV)</note>:
+nunc post latam eremi vastitatem,
+multo nobis labore sudandum est, ut ad Septuaginta
+palmas et fontes apostolicos pervenire valeamus.
+Insurgat licet scorpio, et arcuato vulnere
+ferire conetur: tu comes itineris, et excantator
+venenatorum morsuum, spiritualem nobis <foreign xml:lang="greek">ψυλλέα</foreign>
+<pb n="0949A"/>
+exhibe quodque sanctae ac venerabili Paulae parenti
+tuae polliciti sumus, pius haeres suscipe, et
+quidquid vel ingenio vel doctrina minus tua exspectatione
+<pb n="0950A"/>
+possumus, amici favore sustenta, nec in nobis
+vires consideres, sed voluntatem.</p>
+</div1>
+
+<div1>
+        <head> <hi>INCIPIT LIBER.</hi> </head>
+
+<pb n="0949"/>
+<p divs_removed="true">
+          <pb n="0949A"/> <emph>167</emph> <note>(Cap. I.--Vers. 1.)</note> <hi>Verbum Domini quod factum
+est ad Joel filium Phatuel.</hi> Septuaginta interpretes
+pro PHATUEL ( ) verterunt <hi>Bathuel;</hi> quod apud
+Hebraeos omnino nil resonat. <hi>Phatuel</hi> autem in linguam
+nostram vertitur <hi>latitudo Dei,</hi> vel <hi>aperiens
+Deus,</hi> ut in Marco legimus Salvatorem ad surdum
+<pb n="0949B"/>
+mutumque dicentem: EPHPHETA ( ), quod est, <hi>adaperire 
+ <note>(Marc. VII)</note>
+          </hi>. Quia enim cum Apostolo dicere
+poterat: <hi>Os nostrum patet ad vos, o Corinthii, cor
+nostrum dilatatum est <note>(II Cor. VI, 11)</note>
+          </hi>: et audiebat a
+Domino: <hi>Dilata os tuum, et implebo illud <note>(Ps. LXXX,
+11)</note>
+          </hi>: ipsa quoque oris adapertio, non in hominis,
+sed in Dei potestate est, Paulo dicente: <hi>Ostium mihi
+apertum est magnum et evidens; sed adversarii multi <note>(I Cor. XVI, 9)</note>
+          </hi>;
+idcirco <hi>aperiens</hi> dicitur <hi>Deus.</hi> Cumque
+sanctus semper proficiat, ex parte cognoscens
+et ex parte prophetans, donec veniat quod perfectum
+est, de latitudine et adapertione generatus, appellatur <hi>Joel</hi> 
+ ( ), quod apud nos sonat <hi>incipiens,</hi> vel <hi>est
+Deus,</hi> <emph>168</emph> dicente Apostolo: <hi>Fratres, ego me non
+arbitror comprehendisse <note>(Phil. III, 13)</note>
+          </hi>; qua humilitate
+<pb n="0949C"/>
+succrescens cum Moyse meretur audire: <hi>Qui est, misit
+me <note>(Exod. III)</note>
+          </hi>. Ad distinctionem enim eorum
+qui non sunt, de quibus et in Esther legimus: <hi>Ne
+tradas sceptrum tuum his, qui non sunt <note>(Esther XIV,
+11)</note>
+          </hi>, Deus et sancti ejus esse monstrantur. Haec
+de nomine Joel et patris ejus perstricta sint breviter,
+ut recte verbum Dei, quod erat in principio
+apud Deum, factum esse narretur, Baptista Joanne
+referente: <hi>Qui post me venturus est, ante me factus
+est, quia prior me erat <note>(Joan. I, 30)</note>
+          </hi>. Porro factum
+esse sermonem ad meritum ejus refertur, cui fit,
+non ad conditionem illius qui fieri dicitur, ut alibi
+legimus: <hi>Dominus mihi factus est in salutem <note>(Ps.
+CXVII, 21)</note>
+          </hi>. Quomodo autem in Osee propheta, quem
+in principio duodecim prophetarum ante hunc librum
+<pb n="0949D"/>
+explanavimus, sub nomine Ephraim ad decem
+tribus confertur vaticinium, quae vel Samaria, vel
+Israel saepe memorantur: <emph>169</emph> sic in Joel, qui juxta
+<pb n="0950A"/>
+Hebraeos secundus est, omne quod dicitur ad tribum
+Juda, et ad Jerusalem pertinere credendum est,
+et nullam omnino Israelis, id est, decem tribuum
+in hoc fieri mentionem. Tempora quoque, in quibus
+prophetavit, eadem debemus accipere, quae et in
+Osee legimus: <hi>In diebus Oziae, Joathan et Achaz et
+<pb n="0950B"/>
+Ezechiae, regum Juda, et in diebus Jeroboam, filii
+Joas, regis Israel.</hi> 
+
+        </p>
+        <div3 moved_from_p="true">
+            <head>
+              <note>(Vers. 2, 3.)</note> </head>
+          <p>
+ <hi>Audite hoc, senes, et auribus percipite,
+omnes habitatores terrae, si factum est illud</hi> 
+[Vulg. <hi>istud], in diebus vestris, aut in diebus patrum
+vestrorum: super hoc filiis vestris narrate, et filii
+vestri filiis suis, et filii eorum generationi alteri.</hi> 
+LXX: <hi>Audite haec, senes, et auribus percipite, omnes
+habitatores terrae, si facta sunt talia in diebus
+vestris, aut in diebus patrum vestrorum: pro his, filiis
+vestris narrate, et filii vestri filiis suis, et filii eorum
+in generationem alteram.</hi> Senes jubentur audire,
+habitatores terrae auribus percipere. Senibus non
+dicitur, Audite, omnes; habitatoribus terrae additur, <hi>Auribus percipite, omnes.</hi> 
+ Auditus enim in Scripturis
+<pb n="0950C"/>
+sanctis non est iste qui in aure resonat: sed qui
+corde percipitur, juxta illud quod Dominus loquitur
+in Evangelio: <hi>Qui habet aures audiendi, audiat <note>(Mat. XIII, 9)</note>
+            </hi>.
+Quod autem nos interpretati sumus, <hi>auribus percipite,</hi> 
+ et apud Graecos et apud Hebraeos
+unum verbum est, apud Graecos <foreign xml:lang="greek">ἐνωτίσασθε</foreign>; apud
+Hebraeos EEZINU ( ), quod proprie non corde,
+sed aure percipitur. Et ut sciamus sacratiorem
+esse auditum, quam id quod in auribus resonat,
+Isaia. loquente, discamus: <hi>Audi, coelum, et auribus
+percipe, terra <note>(Isai. I, 2)</note>
+            </hi>. Qui senes sunt et coelestes,
+audiunt spiritaliter; qui habitant in terra, appellanturque
+terreni, auribus percipiunt. Et hoc in
+omnibus Scripturis notandum, ubi haec duo verba
+juncta ponuntur. Quod in Lamech quoque legimus
+<pb n="0950D"/>
+peccatore, qui locutus est ad uxores suas Ada et
+Sella: <hi>Audite verba mea, uxores Lamech, auribus
+percipite verba mea, quia virum occidi in vulnus
+<pb n="0951A"/>
+meum, et juvenem in livorem meum <note>(Gen. IV, 23)</note>
+            </hi>:
+sciebat obscura esse quae loquebatur, et idcirco
+uxores suas non ad simplicem tantum verborum sonum,
+sed ad reconditam quoque dictorum intelligentiam
+provocabat. Si quis igitur senex est, et
+maturae <emph>170</emph> aetatis in Domino electus [Al. <hi>et laetus
+est</hi> ] senex, ut in consequentibus juxta Septuaginta
+Interpretes legimus, ac parvulorum reliquit infantiam,
+audiat quae dicuntur. Qui autem adhuc habitat
+in terra, et non potest dicere: <hi>Advena sum et
+peregrinus sicut omnes patres mei <note>(Ps. XXXVIII, 14)</note>
+            </hi>,
+auribus percipiat. <hi>Si factum est,</hi> inquit, <hi>istud in diebus
+vestris, aut in diebus patrum vestrorum.</hi> Arte rhetorica
+ex rerum magnitudine attentum auditorem
+facit: nulla haec, inquit, aetas meminit, quae dicturus
+<pb n="0951B"/>
+sum, nec vestro, nec patrum vestrorum atque
+majorum facta sunt tempore. Patres autem avos
+atavosque cognosce et filios filiorum, omnem deinceps
+sobolem, juxta illud Virgilianum <note>(Aeneid.
+lib. III)</note>:
+</p>
+          <l>Et nati natorum, et qui nascentur ab illis:</l>
+          </div3>
+<p>Et senes ergo et habitatores terrae, filiis vestris
+posterisque narrate; qui senex est, liberos suos doceat
+sacramenta: qui habitator est terrae, simplicem
+narret historiam. Unde usque hodie nos qui in
+Christo credimus, quorum cum Moyse ablatum est
+velamen ab oculis, et de quibus dicitur: <hi>Cani hominis
+sapientia ejus <note>(Sapien. IV, 8)</note>
+          </hi>, filiis nostris secreta
+et mira narramus. Judaei autem qui habitant
+in terra, loquuntur terrena, et humi cohaerentia,
+<pb n="0951C"/>
+de quibus scriptum est: <hi>Qui de terra est, de 
+terra
+loquitur: qui de coelo venit, super omnes est <note>(Joan.
+III, 31)</note>
+          </hi>.
+</p>
+<div3>
+          <head>
+            <note>(Vers. 4.)</note> </head>
+          <p>
+ <hi>Residuum erucae comedit locusta, et
+residuum locustae comedit bruchus, et residuum bruchi
+comedit rubigo.</hi> LXX similiter. Exordium sequitur
+narratio: ibi ut attentum faceret auditorem,
+magna et incredibilia se dicturum esse promisit,
+quae nec vetus sciret historia, nec praesens aetas
+facta cognosceret. Hic erucam, et locustam, et bruchum,
+et rubiginem posuit, ut quae singula raro eveniunt,
+omnia simul facta memorentur, et ideo mirabilia
+sint. Erucam quae Hebraice GEZEM ( ),
+Graece dicitur <foreign xml:lang="greek">κάμπη,</foreign> Hebraei Assyrios interpretantur,
+Babylonios atque Chaldaeos, qui de uno orbis
+<pb n="0951D"/>
+climate procedentes, tam decem tribuum quam
+duarum, hoc est, Israelitici populi cuncta vastarunt.
+Locustam autem, Medos interpretantur et
+Persas, qui subverso imperio Chaldaeorum, Judaeos
+habuere captivos. Bruchum, <emph>171</emph> Macedonas, et
+omnes Alexandri successores, maximeque regem
+Antiochum cognomento Epiphanem, qui instar bruchi
+sedit in Judaea, et omnes priorum regum reliquias
+devoravit, sub quo Machabaeorum bella narrantur.
+Rubiginem referunt ad imperium Romanorum,
+qui quarti et ultimi intantum oppressere
+Judaeos, ut de suis finibus eos pellerent. Scribit
+<pb n="0952A"/>
+plenius Josephus septem voluminibus, Vespasiani et
+Titi narrans triumphos. Elii quoque Hadriani contra
+Judaeos expeditionem legimus, qui ita Jerusalem
+murosque subvertit, ut de urbis reliquiis ac favillis,
+sui nominis Eliam conderet civitatem. Haec quatuor
+regna quae subvertere Judaeam, in quatuor cornibus
+Zacharias vidisse se scribit, dicente ad eum Angelo: <hi>Haec sunt cornua, quae ventilaverunt Judam et Israel
+et Jerusalem 
+ <note>(Zach. I, 19)</note>
+          </hi>. Et rursum: <hi>Levavi,</hi> inquit, <hi>oculos meos et vidi, et ecce quatuor quadrigae
+egredientes de medio duorum montium, et montes,
+montes aenei: in quadriga prima, equi rufi; et in quadriga
+secunda, equi nigri; et in quadriga tertia, equi
+albi; et in quadriga quarta, equi varii fortes 
+ <note>(Zach.
+VI, 1)</note>
+          </hi>. Cumque propheta dixisset ad angelum qui
+<pb n="0952B"/>
+loquebatur in eo: <hi>Quid sunt haec, Domine mi?</hi> respondit
+angelus: <hi>Isti sunt quatuor venti coeli, qui egrediuntur
+ut stent coram Dominatore omnis terrae:</hi> et
+est sensus: isti sunt qui egrediuntur a facie Domini,
+ut ejus impleant voluntatem. Cum habitatoribus
+terrae percepimus auribus quid eruca, locusta,
+bruchus, rubigo, significent: nunc cum senibus
+quod dictum est audiamus. Quatuor esse perturbationes,
+quibus animarum sanitas subvertatur, omnes
+philosophorum scholae conclamant. Duae praesentes
+sibique contrariae, duae futurae mutuo dissidentes.
+Praesentes, aegritudo et gaudium. Aegritudinem
+animi dicimus, alioquin corporis non aegritudo,
+sed aegrotatio nominatur. Aut igitur tristes
+sumus, et moerore conficimur, statusque nostrae
+<pb n="0952C"/>
+mentis evertitur: unde et Apostolus monet, ne
+abundantiori tristitia absorbeatur frater <note>(I Cor. II)</note>.
+Aut econtrario gaudemus, gestimusque laetitia, et
+bona nostra moderanter ferre non possumus; justique
+et fortis viri est, nec adversis frangi, nec prosperis
+sublevari, sed in utroque esse moderatum.
+Diximus de <emph>172</emph> perturbatione praesentium; dicamus
+et de futurorum, in quibus metus, aut spes
+est. Adversa timemus, prospera praestolamur; et
+quod aegritudo et gaudium operantur in praesenti,
+metus et spes faciunt de futuro, dum aut adversa
+plus quam decet timemus esse ventura, aut prospera
+quae speramus intantum nos faciunt exsultare,
+ut non teneamus modum, maxime in his quae incerta
+<pb n="0952D"/>
+sunt, quia futura sperantur potius quam tenentur.
+Has perturbationes uno et nec pleno
+versiculo illustris poeta comprehendit <note>(Aeneid.
+lib. VI)</note>:
+</p>
+          <l>Hi metuunt cupiuntque ( <hi>hoc de futuro</hi> ), dolent gaudentque
+( <hi>hoc de praesenti</hi> ) neque auras, <hi>inquit,</hi> </l>
+<l>Respiciunt, clausi tenebris et carcere caeco.</l>
+<p>Qui enim perturbationum tenebris obvolvuntur,
+clarum sapientiae lumen non valent intueri. Cavendum
+est igitur ne aegritudo, quasi eruca, nos comedat;
+ne locusta vastet in gaudio, huc illucque volitans,
+et gestiente laetitia, per diversa se jactans;
+ne bruchus, id est, pavor et futurorum metus, radices
+<pb n="0953A"/>
+sapientiae devoret, ne rubigo et desiderium
+futurorum res inutiles concupiscat, et nos perferat
+ad ruinam: sed ut in omnibus, quatuor quadrigas
+et quatuor cornua, et quatuor equos rufos, et varios,
+et albos, et nigros, id est, vel adversa, vel
+prospera, vel ex utroque sociata, frenis sapientiae
+gubernemus. Ego reor erucam esse incipientem in
+animo passionem, quae tarda est, et discurrere non
+potest, et mora ipsa ac pertinacia ebibit et exsugit
+omnem virorem: quam si non occiderimus, in nobis
+crescit et avolat, et nunc devorat quidquid attigerit,
+nunc semesa dimittens, pergit ad alia: revertensque
+ad pristinam sedem bruchus efficitur, ut
+non solum fruges, et folia et cortices, sed et ipsam
+medullam devoret tarditate. Sin autem evenerit,
+<pb n="0953B"/>
+quod tamen rarum est, ut etiam post bruchum vitalis
+quippiam in nobis spiritus resideat, cuncta rubigo
+populatur, ita ut stipulam et vile fenum vertat
+in nigredinem, ut non solum esui, sed et fimo inutilia
+sint. De his quatuor perturbationibus, in principio
+quoque Amos, si vita comes fuerit, <emph>173</emph> 
+disseremus: ubi scriptum est: <hi>Super tribus sceleribus,
+et super quatuor Damasci, Gazae, Tyri, Idumaeae,
+filiorum Ammon, et Moab, et Juda, et Israel,
+non convertam eos, dicit Dominus <note>(Amos I, 3 seqq.)</note>
+            </hi>.
+Quas nos <hi>perturbationes</hi> interpretati sumus, Graeci <foreign xml:lang="greek">πάθη</foreign>
+ appellant, quae si <foreign xml:lang="greek">κακοζήλως</foreign> in <hi>passiones</hi> vertamus,
+verbum magis quam sensum verbi expresserimus.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 5.)</note> </head>
+          <p>
+ <hi>Expergiscimini, ebrii, et flete, et ululate,
+<pb n="0953C"/>
+omnes qui bibitis vinum in dulcedine: quoniam periit
+ab ore vestro.</hi> LXX: <hi>Evigilate, qui ebrii estis in vino
+vestro: et plorate et plangite, omnes qui bibitis vinum
+in ebrietate: quoniam ablatum est de ore vestro.</hi> Quasi
+senes atque presbyteri audire debemus: nulla res
+ita inebriat ut animi perturbatio. Est tristitia quae
+ducit ad mortem: haec abominanda ebrietas est. Est
+ira quae justitiam Dei non operatur, et furori proxima,
+mentis suae impotem facit: intantum ut labia
+tremant, dentes concrepent, vultus pallore mutetur.
+Recteque illud laudatur Archytae Tarentini, qui
+cum villico suo esset iratus: <hi>Jam te,</hi> inquit, <hi>occiderem,
+nisi iratus essem.</hi> Quid referam de gaudio et
+voluptate, et maxime amore, qui excaecat cordis
+oculos: et nihil aliud, amantem, nisi id quod amat,
+<pb n="0953D"/>
+ cogitare permittit. Annon est dicenda ebrietas,
+cum propter vile scortum, et ignominiosam corporis
+partem, animae libertas in serviles blanditias inclinatur?
+cum laborem suum alterius facit esse delicias?
+cum furto, scelere, atque perjuriis, opes futurae
+praeparet voluptatis? et cum videatur ab omnibus,
+se existimat non videri: dummodo potiatur eo quod
+desiderat. Sed et avaritia excaecat animum ejus,
+cui nihil satis est: et muliebris timor, et dulcium
+cupido vitiorum. Unde dicitur ad eos: <hi>Evigilate et
+<pb n="0954A"/>
+expergiscimini, qui ebrii estis:</hi> nequaquam vino, ut
+in solis LXX continetur, sed omni perturbatione vitiorum:
+Flete, et plangite, et agite poenitentiam: et
+assumite tristitiam quae ducit ad vitam, <hi>et ululate,
+omnes qui bibitis vinum in dulcedine <note>(Prov. III)</note>
+          </hi>, sive, <hi>in ebrietate.</hi> 
+ Dulcia enim sunt vitia: quia mel distillat
+de labiis mulieris meretricis: et idcirco in Dei <emph>174</emph> 
+ sacrificia non offertur: quoniam <hi>periit,</hi> sive <hi>ablatum est de ore vestro</hi> 
+ vinum, ebrietas atque dulcedo
+quae vos deceperat. Saepe quippe Dei fit providentia,
+ut qui non cognoverunt Deum in prosperis,
+cognoscant in adversis: et qui divitiis male abusi
+sunt, ad virtutes penuria corrigantur. Juxta hunc
+sensum audiant senes: habitatores autem terrae percipiant
+auribus, de illo vino nunc praecipi, in quo est
+<pb n="0954B"/>
+luxuria, et quo qui inebriati fuerint, regnum Dei
+possidere non possunt <note>(Ephes. V)</note>. Qui vini ebrietate
+sopitus est, evigilet et ploret ebrium se fuisse, et
+ululet: ut postea ululatus ejus et fletus vertatur in
+risum, et gaudeat se ebrietatis materiam non habere,
+quae eum per abundantiam ebrium fecerat et
+vesanum.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 6, 7.)</note> </head>
+          <p>
+ <hi>Gens enim ascendet</hi> [Vulg. <hi>ascendit]
+super terram meam fortis et innumerabilis: dentes
+ejus, ut dentes leonis, et molares ejus, ut catuli leonis.
+Posuit vineam meam in desertum, et ficum meam decorticavit:
+nudans spoliavit eam, et projecit: albi facti
+sunt rami ejus.</hi> LXX: <hi>Quia gens ascendit super terram
+fortis et innumerabilis: dentes ejus, leonis: et
+molares ejus, ut catuli leonis. Posuit vineam meam
+<pb n="0954C"/>
+in dissipationem, et ficos meas in confractionem: scrutans
+scrutatus est eam, et projecit: dealbavit ramos
+ejus.</hi> Judaei putant in diebus Joel tam innumerabilem
+locustarum super Judaeam venisse multitudinem,
+ut cuncta complerent: et non dicam fruges,
+sed vinearum quidem et arborum cortices ramosque
+dimitterent, ita ut, omni virore consumpto, arentes
+arborum rami, et sicca vinearum flagella remanerent.
+Hoc utrum factum nec ne sit, liquido affirmare
+non possumus: neque enim Regum et Paralipomenon
+narrat historia <note>(III Reg. XVII)</note>. Quod utique si
+fuisset, quomodo famem sub Elia trium annorum et
+sex mensium legimus, numquam Scriptura tacuisset.
+Tantum dicimus, quod sub metaphora locustarum,
+hostium describatur adventus, sive Assyriorum et
+<pb n="0954D"/>
+Babyloniorum, qui tunc imminebant: sive Medorum
+atque Persarum, qui post futuri erant: sive Macedonum,
+quos multo tempore post fuisse cognovimus:
+sive ultimo Romanorum, de quibus supra diximus.
+Licet nunc nobis magis <emph>175</emph> de Babyloniis dici videatur
+atque Chaldaeis, quorum crudelitas in populum
+Dei feritasque describitur: et, ni fallor, videor
+mihi in hoc Propheta aliquid reperisse. Narratur
+impietas hostium sub figura locustarum: et rursum
+sic de ipsis locustis dicitur, quasi hostibus comparentur,
+<pb n="0955A"/>
+ut cum locustas legeris, hostes cogites; cum
+hostes cogitaveris, redeas ad lucustas. Ascendit ergo
+gens locustarum de solitudine, sive exercilus Chaldaeorum
+super terram Dei, et fortis, et innumerabilis.
+Quid enim locustis innumerabilius et fortius,
+quibus humana industria resistere non potest? Dentes
+ejus, gentis videlicet locustarum (omnia autem <foreign xml:lang="greek">τυπικῶς</foreign>
+ intellige), quasi dentes leonis; et molares
+illius, ut catuli leonis, ut qui in fortitudine et multitudine
+locustis coaequantur, in ferocitate et crudelitate
+leonibus comparentur. Haec, inquit, gens posuit
+vineam meam in desertum, quam de Aegypto
+transtuli et plantavi, et ficum meam decorticavit,
+populum Judaeorum [ <hi>Al.</hi> meum Judaicum], ad quem
+venit Salvator, ut comederet fructus, et non invenit:
+<pb n="0955B"/>
+maledixitque ei, et aruit in aeternum <note>(Matth. XI)</note>.
+Omnia autem sub metaphora locustarum, dicta noscamus:
+quae intantum cuncta populantur, ut derodant
+arborum cortices, exutasque projiciant, et omni
+virore consumpto, albos ramos et aridos derelinquant.
+Diximus juxta historiam; transeamus ad intelligentiam
+spiritualem, ut cum senibus audire
+possimus: <hi>Ascendit gens super terram Dei,</hi> animam
+videlicet humanam. Omnes enim animae Dei sunt:
+sicut anima patris, sic et anima filii. Et ascendit gens
+principum mundi istius, et tenebrarum, et spiritualia
+nequitiae in coelestibus, adversum quos nobis est
+lucta atque certamen, de quibus dicitur: <hi>Si spiritus
+potestatem habentis ascenderit super te, locum tuum
+ne dimiseris <note>(Eccl. X, 4)</note>
+          </hi>: cujus gentis dentes sunt
+<pb n="0955C"/>
+sicut dentes leonis, de quo Petrus apostolus loquitur: <hi>Adversarius noster diabolus, quasi leo rugiens
+circuit quaerens quem devoret 
+ <note>(I Pet. V, 8)</note>
+          </hi>. Et molares
+illius quasi catuli leonis. Catulum leonis, vel
+eum intellige, qui elevatur contra omne quod dicitur,
+Deus et religio, vel certe omne dogma perversum.
+De cujus contritis molaribus, qui <emph>176</emph> intrinsecus
+latent et non videntur, ne facile vitentur,
+etiam Psalmista laetatur dicens: <hi>Molas leonum confringet
+Dominus <note>(Ps. LVII, 7)</note>
+          </hi>. Si ergo dederimus
+locum huic genti, ut ascendat in nobis, statim ponet
+vineam nostram in desertum, de qua vinum facere
+solebamus, quod laetificat cor hominis <note>(Ps. CIII)</note>:
+et ficus nostras decorticat, sive confringit, ne habeamus
+in nobis Spiritus sancti dona dulcissima, ne
+<pb n="0955D"/>
+sub nostra vinea et ficu vir sanctus requiescat; sub
+quibus cum fuerit, adversariorum impetus non timebit.
+Nec sufficit huic genti vineam disperdere,
+ficumque confringere, nisi scrutans scrutetur eas,
+et quidquid in illis vitale fuerit, interficiat: ut, omni
+virore consumpto, albi atque emortui ramusculi remaneant,
+et compleatur in nobis: <hi>Si in viridi ligno
+haec faciunt, in sicco quid facient <note>(Luc. XXIII)</note>
+          </hi>?
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 8.)</note> </head>
+          <p>
+ <hi>Plange quasi virgo accincta sacco, super
+virum pubertatis tuae</hi> [Vulg. <hi>suae</hi> ]. LXX: <hi>Plange
+ad me super sponsam accinctam cilicio, super virum
+<pb n="0956A"/>
+suum virgineum.</hi> Vir pubertatis, sive, ut Septuaginta
+transtulerunt, <foreign xml:lang="greek">παρθενικὸς,</foreign> quem vulgo <hi>virgineum</hi> vocant,
+eo quod primus florem virginitatis abstulerit,
+non alius intelligitur nisi Deus, qui in Abraham, Isaac
+et Jacob despondit sibi virginem sponsam nulla idololatriae
+sorde maculatam. Ad quam et per Jeremiam
+loquitur: <hi>Non ut dominum me vocasti, et patrem,
+et principem virginitatis tuae <note>(Jerem. III, 4)</note>
+          </hi>.
+Unde et Apostolus ad credentes loquitur: <hi>Despondi
+vos uni viro virginem castam exhibere Christo <note>(I Cor.
+XI, 2)</note>
+          </hi>. Quamdiu cum hac sponsa sponsus fuerit,
+non potest jejunare <note>(Matth. IX)</note>, nec plangere, nec
+absentis sponsi desiderium lacrymis indicare. Cum
+autem ablatus fuerit sponsus ab ea, plangit et plorat,
+et accingit se sacco et cilicio, et pro zona reste
+<pb n="0956B"/>
+circumdatur. Intelleximus quis sponsus sit virginalis:
+verum quia iste sponsus, sive maritus, non solum
+virginem accepit sponsam, sed et meretricem in
+Osee ducit uxorem, propterea scriptum est in Deuteronomio: <hi>Si egressus fueris contra inimicos tuos:
+et tradiderit eos Dominus Deus tuus in manu tua, captivosque
+duxeris, et videris in numero captivorum
+mulierem pulchram, et adamaveris eam, voluerisque
+habere uxorem: introduces in domum tuam: quae radet
+caesariem, et circumcidet ungues suos, et deponet
+vestem</hi> 
+ <emph>177</emph> <hi>in qua capta est, sedensque in domo tua,
+flebit patrem et matrem suam uno mense, et postea
+intrabis ad eam, dormiesque cum illa, et erit uxor tua <note>(Deut. XXI, 10 seqq.)</note>
+          </hi>.
+Hujusmodi mulieris non est
+maritus, id est, dominus virginalis, sed meretricem
+<pb n="0956C"/>
+de gentium sordibus duxit uxorem. Quod et de
+omni anima credentium possumus dicere. Si a parva
+aetate credidit Domino, habet sponsum Dominum
+virginalem. Sin autem ex Judaeis, sive gentilibus, et
+haereticorum spurcissimis faecibus, ad fidei venerit
+veritatem, et de tenebris ad lucem transierit, habebit
+quidem sponsum, sed non virgineum: et de hujuscemodi
+hominibus dicitur: <hi>In Aegypto fractae
+sunt mammae tuae, et ibi devirginata es <note>(Ezech.
+XXIII, 3)</note>
+          </hi>.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 9 seqq.)</note> </head>
+          <p>
+ <hi>Periit sacrificium et libatio de domo
+Domini: et luxerunt sacerdotes ministri Domini: depopulata
+est regio, luxit humus, quoniam devastatum
+est triticum. Confusum est vinum, elanguit oleum, confusi
+sunt agricolae. Ululaverunt vinitores super frumento
+<pb n="0956D"/>
+et hordeo, quia periit messis agri: vinea confusa
+est, et ficus elanguit; malogranatum, et palma et
+malum, et omnia ligna agri aruerunt: quia confusum
+est gaudium a filiis hominum.</hi> LXX: <hi>Ablatum est sacrificium
+et libatio de domo Domini: lugete, sacerdotes
+ministri Domini, quoniam desolati sunt campi: lugeat
+terra, quoniam afflictum</hi> [Al. <hi>conflictum] est triticum,
+aruit vinum, imminutum</hi> [Al. <hi>immutatum] est oleum:
+aruerunt agricolae</hi> [Al. <hi>ligna]: lugete, possessiones,
+pro frumento et hordeo, quia periit vindemia de agro, 
+ vinea aruit, et ficus imminutae sunt: malogranatum et
+<pb n="0957A"/>
+palma et malum et omnia ligna agri arefacta sunt,
+quoniam confuderunt gaudium filii hominum.</hi> Quantum
+ad historiam pertinet, ob locustarum, sive hostium
+multitudinem, qui sub earum specie describuntur,
+vastatis omnibus atque consumptis, periit
+sacrificium et libatio de domo Domini: quorum alterum
+de simila, alterum de vino offerre soliti erant.
+Idcirco luxerunt sacerdotes, qui sunt ministri Domini,
+nec sacrificiis, nec libamentis rite celebratis:
+maxime quia et decimae, quas accipere consueverant,
+nequaquam oblatae sunt. Regio enim universa <emph>178</emph> 
+populata est. Luxit humus, <foreign xml:lang="greek">μετωνυμικῶς,</foreign> pro eo quod
+est, hi qui versantur in humo: triticum, vinum
+oleumque elanguit: ipsi quoque aricolae et vinitores
+confusi sunt, et ululaverunt: quia non solum frumentum,
+<pb n="0957B"/>
+sed hordeum quoque, quod vilius fertiliusque
+est, aruit. Et legumina quae ego puto significari
+in eo quod ait, <hi>periit messis agri,</hi> id est, cuncta quae
+solet humus gignere. Quid loquar de frumento, vino,
+oleoque et hordeo, cum etiam arborum poma siccata
+sint, ficus elanguerit, et malogranatum, et palma, et
+malum, et omnia ligna, vel infructuosa, vel frugifera,
+locusta vastante, consumpta sint? quae facta sunt omnia,
+ut auferretur, sive confunderetur gaudium a filiis
+hominum. Possumus haec eadem et post adventum dicere
+Salvatoris accidisse populo Judaeorum, quando
+pari furore clamantes dixerunt: <hi>Crucifige, crucifige
+talem: non habemus regem nisi Caesarem <note>(Joan. XIX,
+9 et 15)</note>
+          </hi>; quando circumdata est Jerusalem ab exercitu,
+et in tantam necessitatem venerunt famis ac
+<pb n="0957C"/>
+pestilentiae, ut filiorum necdum maturis corporibus
+vescerentur: et sacrificia universa sublata sunt, et
+confusum est gaudium a filiis hominum, quia gaudium
+recipere noluerunt, de quo angelus loquitur
+ad pastores: <hi>Annuntio vobis gaudium magnum <note>(Luc. II,
+10)</note>
+          </hi>. Juxta <foreign xml:lang="greek">ἀναγωγὴν</foreign> iste nobis sensus videtur:
+Postquam sponsa, quae receperat doctrinam Dei, per
+peccata a sponso fuerit separata, et pro byssinis
+lineisque vestibus, cilicio circumdata, id est, habitum
+lugentis assumpserit, tunc peribit sacrificium,
+de quo scriptum est: <hi>Sacrificium Deo spiritus contribulatus <note>(Ps. L, 19)</note>
+          </hi>,
+et vini libatio, quod laetificat
+cor hominis, de domo Dei, quae est Ecclesia, dicente
+Apostolo ad Timotheum: <hi>Ut scias quomodo in domo
+Dei converseris, quae est Ecclesia Dei viventis (I Tim.
+<pb n="0957D"/>
+III, 15)</hi>. Auferetur autem sacrificium et libatio de
+domo Domini, quando, multiplicata iniquitate, refrixerit
+charitas multorum <note>(Matt. XXIV)</note>: et principes
+populi ac ministri altaris, viderint campos et plana
+credentium fructus non afferre virtutum; sed omnia
+vitiis inhorrescere: quando frumentum et hordeum,
+vineasque et oleum, eruca, locusta, bruchus, <emph>179</emph> 
+<pb n="0958A"/>
+rubigo consumpserint, et nequaquam habuerimus
+calicem, de quo scriptum est: <hi>Calix tuus inebrians
+quam praeclarus est <note>(Ps. XXII, 5)</note>
+          </hi>! Et perierit oleum,
+de quo in Ecclesiaste legimus: <hi>Omni tempore sint
+candida vestimenta tua, et oleum de capite tuo non deficiat <note>(Eccl. IX, 8)</note>
+          </hi>:
+quo exhilaratur facies, et caput
+jejunantis ungitur. Tunc confundentur agricolae,
+cum viderint in possessionibus suis non nasci triticum,
+quo aluntur homines, et hordeum quo jumenta
+irrationabilia sustentantur, et confusam esse vineam,
+de qua scriptum est: <hi>Vinea frondosa Israel, fructus
+abundans in ea <note>(Isai. V, 2)</note>
+          </hi>: exspectante Domino, ut
+faceret uvas, et fecit spinas. Ficus quoque elanguit
+sub qua fuit, antequam crederet, Nathanael <note>(Joan. I)</note>,
+et malogranatum, cujus cortici genae sponsae in Cantico
+<pb n="0958B"/>
+comparantur <note>(Cant. VI)</note>, et palma quae, perdito
+virore, siccata est, de qua olim dicebatur: <hi>Justus
+autem ut palma florebit. <note>(Ps. XCI, 13)</note>
+          </hi>: et malum de
+quo in eodem Cantico legimus: <hi>Sicut malum in medio
+lignorum: ita fratruelis meus in medio filiorum <note>(Cant. II, 31)</note>
+          </hi>.
+Quid necesse est omnes arbores percurrere,
+cum universa aruerint, et pro gaudio atque
+laetitia, filios hominum moeror oppresserit et confusio?
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 13, 14.)</note> </head>
+          <p>
+ <hi>Accingite vos et plangite, sacerdotes;
+ululate, ministri altaris; ingredimini, cubate in sacco,
+ministri Dei mei, quoniam interiit de domo Dei vestri
+sacrificium et libatio ; sanctificate jejunium, vocate caetum,
+congregate senes, omnes habitatores terrae in
+domum Dei vestri, et clamate ad Dominum.</hi> LXX:
+<pb n="0958C"/> <hi>Accingite vos et plangite, sacerdotes; lamentamini qui
+ministratis altari; ingredimini, dormite in saccis, ministri
+Dei, quoniam defecit de domo Dei vestri sacrificium
+et libatio; sanctificate jejunium, praedicate curationem</hi> 
+[Al. <hi>praedicationem</hi> curate]; <hi>congregate senes,
+omnes habitatores terrae in domum Dei vestri, et clamate
+ad Dominum vehementer.</hi> Qui sanctus sacerdos
+est, et comedit pascha Domini, accingatur balteo
+castitatis, et audiat cum apostolis: <hi>Sint lumbi vestri
+praecincti, et lucernae ardentes in manibus vestris <note>(Luc. XII, 35)</note>
+          </hi>.
+Qui autem peccator est, et quem remordet
+propria conscientia, cilicio accingatur et
+plangat, vel propria delicta, vel populi, et ingrediatur <emph>180</emph> 
+ Ecclesiam, de qua propter peccata fuerat
+egressus, et cubet, vel dormiat in sacco, ut praeteritas
+<pb n="0958D"/>
+delicias, per quas offenderat Deum, vitae austeritate
+compenset. Qui enim mollibus vestiuntur, in
+domibus regum sunt <note>(Matth. XV)</note>. Accingantur autem
+sacerdotes et plangant et ululent, et dormiant in
+sacco, propheta eos ad poenitentiam cohortante, qui
+dicit: Ministri Dei mei, quomodo interiit de
+domo Dei vestri sacrificium et libatio <note>(Joel. II)</note>, de
+<pb n="0959A"/>
+quibus supra dictum est. Nec sufficit flere, vel plangere
+et habitum lugentis assumere, nisi sanctificent
+jejunium, et vocent coetum. Si omne jejunium placeret
+Deo, numquam diceret: <hi>Sanctificate jejunium.</hi> 
+Et: <hi>Non tale jejunium elegi, dicit Dominus <note>(Isai.
+LVIII)</note>
+          </hi>. Et in Evangelio condemnantur qui exterminant
+facies suas, ut videantur hominibus jejunare <note>(Matth. VI)</note>;
+et in diebus, inquit, jejuniorum vestrorum
+percutitis pugnis, et opprimitis pauperem. Idcirco
+nunc dicit: <hi>Sanctificate jejunium.</hi> Jejunat Manichaeus,
+et multi haeretici, maximeque Encratitae,
+quorum princeps Tatianus est, sed hoc jejunium
+saturitate et ebrietate deterius est. <hi>Et vocate
+coelum,</hi> sive curationem, ut per poenitentiam nostra
+peccata curemus. Pro <hi>coetu</hi> in Hebraico legitur,
+<pb n="0959B"/>
+ASARA ( ), quod Symmachus <hi>synodum,</hi> Aquila <hi>diem collectae</hi> 
+ interpretatus est. <hi>Congregate senes,</hi> 
+quorum aetas vicina morti, maturaeque sententiae,
+magis timorem et cultum suscipit Dei. Omnes quoque
+habitatores terrae, de quibus supra dixerat: <hi>Audite
+hoc, senes, et auribus percipite, omnes habitatores terrae,</hi> 
+ut et senes et habitatores terrae in domum Dei,
+quae est Ecclesia, congregentur. Cumque fuerint in
+Ecclesia, et de dispari grege sacerdotum et populi,
+senum et habitatorum terrae, unus grex fuerit effectus,
+clamate, inquit, ad Dominum in cordibus vestris
+et dicite:
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 15.)</note> </head>
+          <p>
+ <hi>Ah, ah, ah diei, quia prope est dies
+Domini, et quasi vastitas</hi> [Al. <hi>tempestas] a potente veniet.</hi> 
+LXX: <hi>Heu mihi, heu mihi, heu mihi in die!
+<pb n="0959C"/>
+quoniam juxta est dies Domini, et quasi miseria de
+miseria veniet.</hi> Pro eo quod nos transtulimus, <hi>a potente,</hi> 
+et Hebraice dicitur SADDAI ( ), quod unum <emph>181</emph> 
+ esse de decem Dei nominibus, aliquoties diximus,
+LXX interpretati sunt <hi>miseriam,</hi> SOD ( ),
+pro SADDAI legentes. Vox igitur sacerdotum et populi
+ad Dominum clamantis inducitur, ut tertio dicant, <hi>Heu mihi!</hi> 
+ credo, quia propter peccata quae fecerunt,
+sanctam offenderant Trinitatem. Dies autem
+retributionis omnium delictorum illa est, de qua
+universi scribunt prophetae, et maxime Isaias clamitat: <hi>Ecce dies Domini insanabilis venit</hi> 
+ [Al. <hi>veniet],
+furoris et irae, ut ponat universum orbem desertum, et
+peccatores perdat ex eo <note>(Isai. XIII, 9)</note>
+          </hi>. Hic dies recte
+appellatur insanabilis; quia cum dies judicii venerit,
+<pb n="0959D"/>
+non erit locus poenitentiae, qui [ <hi>Al.</hi> quia] aeternitati
+comparatus, prope est, et non longe. Quodque
+sequitur: <hi>Et quasi miseria de miseria veniet,</hi> sive, <hi>vastitas a potente veniet,</hi> 
+ hic sensus est, quod mala
+succedant malis, et omnis afflictio Deo judice dispensetur,
+qui potens est et corpus et animam perdere
+in gehennam <note>(Matth. X)</note>. Quod generaliter de
+die judicii diximus, specialiter referamus ad tempus
+Judaicae captivitatis, quando Jerusalem capta, templumque
+destructum est; non multo enim post tempore
+venit et decem et duarum tribuum ab Assyriis
+<pb n="0960A"/>
+Chaldaeisque captivitas: praediciturque ventura, ut
+cum venerit, non casu accidisse videatur, aut hostium
+fortitudine; sed ira et comminatione Dei, vel
+certe, agente populo poenitentiam, non veniat, quae
+ventura est, si permanserit in delictis.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 16.)</note> </head>
+          <p>
+ <hi>Numquid non coram oculis nostris alimenta
+perierunt; de domo Dei nostri, laetitia et exsultatio?</hi> 
+LXX: <hi>Ante oculos vestros alimenta perierunt: de
+domo Dei nostri laetitia et gaudium.</hi> Ante oculos pereunt
+alimenta peccantium, quando jam speratae fruges
+e manibus auferuntur, et praevenit locusta messorem,
+ut quod spe [ <hi>Al.</hi> saepe] in horreis conditum
+est, bruchus et rubigo consumant. His quoque qui
+in Ecclesia commorantur, pro qualitate meritorum,
+frumentum spiritus, et hordeum litterae si peccaverint
+<pb n="0960B"/>
+tollitur, ut patiantur famem sermonis Dei. Cumque
+fuerint alimenta sublata, consequenter gaudium
+et laetitia tollitur de domo Dei, ut qui audiebant
+ante Apostolum dicentem: <hi>Gaudete in Domino semper,
+iterum dico gaudete <note>(Philip. IV, 4)</note>
+          </hi>; postea Dominum
+audiant ad poenitentiam provocantem: <emph>182</emph> <hi>Beati qui lugent, quoniam ipsi consolabuntur 
+ <note>(Matth.
+V, 5)</note>
+          </hi>.
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 17, 18.)</note> </head>
+          <p>
+ <hi>Computruerunt jumenta in stercore
+suo: demolita sunt horrea, dissipatae sunt apothecae,
+quoniam confusum est triticum; quid ingemuit animal,
+mugierunt greges armenti? quia non est pascua eis;
+sed et greges pecorum disperierunt.</hi> LXX: <hi>Subsaltaverunt
+vituli in praesepibus suis: dissipati sunt thesauri,
+suffossa sunt torcularia, quia arefactum est triticum:
+<pb n="0960C"/>
+quid reponemus nobis? fleverunt armenta boum, quia
+non erant pascua eis, et greges ovium disperierunt.</hi> 
+Postquam alimenta perierunt, et de domo Dei gaudium
+laetitiaque sublata sunt, jumenta quoque computruerunt
+in stercore suo, sive, juxta intelligentiam
+spiritualem, lascivierunt in praesepibus suis,
+et calcitraverunt contra Creatorem suum, ut impleretur
+quod scriptum est: <hi>Si saturati non fuerint,
+murmurabunt <note>(Ps. LVIII, 16)</note>
+          </hi>. Computrescit in stercore
+suo cujus Deus venter est, et qui dicit: <hi>Manducemus
+et bibamus, cras enim moriemur <note>(Isai. XXII,
+16)</note>
+          </hi>: huic demolita sunt horrea futurae felicitatis,
+et apothecae aeternae abundantiae dissipatae sunt, vel
+subversa sunt torcularia, quia si frumenta et vina
+non fuerint, frustra horrea et torcularia praeparantur.
+<pb n="0960D"/>
+Cumque omnia aruerint, tunc voce flebili querentur
+et dicent: <hi>Quid reponemus nobis?</hi> Quodque
+sequitur juxta LXX: <hi>Fleverunt armenta boum, quoniam
+non sunt eis pascua,</hi> compellit nos non de bobus
+et armentis accipere quae dicta sunt; sed de his,
+qui propter simplicitatem boves vocantur et oves.
+De quorum pascuis Salvator loquitur: <hi>Ingredietur
+et egredietur, et pascua inveniet <note>(Joan. X, 3)</note>
+          </hi>. Haec
+autem omnia intellige sub metaphora, erucae, locustae,
+bruchi et rubiginis, quod, sublatis frugibus, atque
+vastatis, fames et pestilentia cuncta possederint.
+<pb n="0961A"/>
+</p>
+        </div3>
+<div3>
+          <head>
+            <note>(Vers. 19, 20.)</note>
+          </head>
+          <p>
+ <hi>Ad te, Domine, clamabo: quia ignis
+comedit speciosa deserti, et flamma succendit omnia ligna
+regionis; sed et bestiae agri, quasi area sitiens imbrem,
+suspexerunt ad te: quoniam exsiccati sunt fontes
+aquarum, et ignis devoravit speciosa deserti.</hi> LXX: <hi>Ad te, Domine, clamabo, quoniam ignis consumpsit speciosa
+deserti, et flamma succendit omnia ligna agri, et
+jumenta campi suspexerunt ad te, quoniam arefactae
+sunt emissiones aquarum, et ignis devoravit speciosa
+deserti.</hi> 
+ Propheta clamante ad Dominum, vel populo <emph>183</emph> 
+ per prophetam: quia ignis comederit speciosa
+deserti, et flamma succenderit omnia ligna regionis,
+bestiae et jumenta agri, sive campi, suspexerunt ad
+Dominum, quasi areola sitiens imbrem. Hoc enim
+uno verbo significat Aquila dicens, <foreign xml:lang="greek">ἐπρασιώθη</foreign>; et
+<pb n="0961B"/>
+suspexerunt ad eum, quoniam aruerunt fontes, vel
+emissiones aquarum, et ignis devoravit speciosa
+deserti, quod scilicet hoc eruca, et locusta, et
+bruchus fecerint et rubigo, quod ignis in stipula,
+flamma in vepribus. Speciosa autem deserti, quae
+Hebraice dicuntur NAOTH ( ), intelligamus aut
+plana camporum, aut pratorum florentia, aut virentia
+herbis loca, quae pascua praebuere jumentis.
+Clamare autem ad Dominum per prophetam, jumenta
+ad eum suspicere fecit ignis, qui devoravit
+speciosa deserti, et flamma quae succendit omnia ligna
+regionis, ut fruges et poma pariter interirent,
+et quia siccati sunt fontes aquarum, et quidquid
+in deserto poterat inveniri, vorax flamma consumpsit.
+Simulque consideremus, quod nisi propter angustiam,
+<pb n="0961C"/>
+et ablationem deliciarum, nec propheta,
+nec bestiae clamassent ad Dominum, aut ad Dominum
+suspexissent, quod quidem et ad justum quondam
+virum referri potest, qui cum declinaverit et
+fecerit malum, nequaquam ei virtutes pristinae proderunt;
+sed judicabit eum Dominus in quibus invenerit.
+Speciosa deserti appellare possumus, de quibus
+scriptum est: <hi>Plures filii desertae magis quam
+ejus quae habet virum <note>(Isa. LIV, 1)</note>
+          </hi>. Flamma autem
+quae succendit omnia ligna regionis, illa esse credenda
+est, quae immittitur ardentibus diaboli sagittis,
+ut nihil in nobis bonarum frugum remaneat;
+sed cuncta incendio consumantur. Omnes enim
+adulterantes [ <hi>Al.</hi> omne semen adulterantis], quasi
+clibanus corda eorum; et non solum propheta, vel
+<pb n="0961D"/>
+populus per prophetam, qui rationale animal est <note>(Ose. VII)</note>,
+sed jumenta quoque, de quibus dictum
+est: <hi>Homines et jumenta salvos facies, Domine <note>(Ps.
+XXXV, VII)</note>
+          </hi>. Et alibi: <hi>Quasi jumentum factus sum apud
+te <note>(Psal. VII, 23)</note>
+          </hi>. Et iterum: <hi>Seminabo eos semine
+hominum et jumentorum <note>(Jer. XXXI, 27)</note>
+          </hi>, suspexerunt
+ad Dominum, et rorem illius misericordiae flagitarunt;
+quia exsiccati sunt fontes aquarum, <emph>184</emph> 
+<pb n="0962A"/>
+quos cervus desiderat. Et de quibus Dominus loquitur
+per Jeremiam: <hi>Me dereliquerunt fontem aquae vivae <note>(Jer. II, 13)</note>
+          </hi>.
+Siccatis autem fontibus aquarum,
+qui arentia quaeque irrigant atque refrigerant, consequenter
+quidquid in nobis pulchrum fuit, ignis
+ardore consumptum est, de quo Dominus loquitur
+in Evangelio: <hi>Videbam Satanam quasi fulgur cadentem
+de coelo <note>(Luc. X, 18)</note>
+          </hi>.</p>
+        </div3>
+<div2 id="II">
+          <head>
+            <note>(CAP. II)</note>
+          </head>
+<div3>
+            <head>
+              <note>(Cap. II.--Vers. 1 seqq.)</note> </head>
+            <p>
+ <hi>Canite tuba in Sion:
+ululate in monte sancto meo: conturbentur omnes habitatores
+terrae, quia venit dies Domini, quia prope est
+dies tenebrarum et caliginis, dies nubis et turbinis; quasi
+mane expansum super montes, populus multus ac fortis,
+similis ei non fuit a principio, et post eum non erit usque
+in annos generationis et generationis. Ante faciem ejus
+<pb n="0962B"/>
+ignis vorans, et post eum exurens flamma; quasi hortus
+voluptatis terra coram eo, et post eum solitudo deserti:
+neque est qui effugiat eum: quasi aspectus
+equorum, aspectus eorum, et quasi equites sic current,
+sicut sonitus quadrigarum super capita montium exsilient,
+sicut sonitus flammae ignis devorantis stipulam,
+velut populus fortis praeparatus ad praelium, a facie
+ejus cruciabuntur populi: omnes vultus redigentur in
+ollam, sicut fortes current, quasi viri bellatores ascenderunt</hi> 
+[Al. <hi>ascendent] murum: viri in viis suis gradientur</hi> 
+[Vulg. <hi>vir . . . . gradietur], et non declinabunt a
+semitis suis: unusquisque fratrem suum non coarctabit,
+singuli in calle suo ambulabunt. Sed et per fenestras
+cadent, et non demolientur, urbem ingredientur,
+in muro current, domos conscendent, per fenestras intrabunt
+<pb n="0962C"/>
+quasi fur: a facie ejus contremuit terra, moti
+sunt coeli, sol et luna obtenebrati sunt, et stellae retraxerunt
+splendorem suum, et Dominus dedit vocem
+suam ante faciem exercitus sui, quia multa sunt nimis
+castra ejus, quia fortia et facientia verbum ejus. Magnus
+enim dies Domini et terribilis valde, et quis sustinebit eum?</hi> 
+LXX: <hi>Canite tuba in Sion, praedicate in
+monte sancto meo: conturbentur omnes habitatores
+terrae: quoniam adest dies Domini, quoniam juxta
+est dies tenebrarum et caliginis, dies nubis et pruinae;
+sicut mane fundetur super montes populus multus</hi> <emph>185</emph> 
+ <hi>et fortis, similis ei non fuit a principio, et
+post eum non erit usque ad annos generationis generationum.
+Ante eum consumens ignis, et post eum flamma
+succensa. Sicut paradisus voluptatis terra ante faciem
+<pb n="0962D"/>
+ejus; et posteriora illius, sicut campus solitudinis,
+et qui salvetur non erit ei; sicut aspectus equorum,
+aspectus eorum, et sicut equites sic persequentur. Sicut
+vox quadrigarum super vertices montium exsilient, et
+sicut vox flammae ignis devorantis stipulam, et sicut
+populus multus et fortis praeparatus ad praelium, a facie
+ejus conterentur populi, omnis vultus sicut adustio
+ollae, sicut pugnatores current, et sicut viri bellatores
+<pb n="0963A"/>
+ascendent super muros, et unusquisque in via sua ambulabit,
+et non declinabunt a semitis suis, singuli a
+proximo suo non recedent, aggravati armis suis ibunt,
+et in jaculis suis cadent, et non consumentur, urbem
+apprehendent, et super muros discurrent: super domos
+ascendent, et per fenestras intrabunt sicut fures, a facie
+ejus confundetur terra, et commovebitur coelum, sol et
+luna contenebrabuntur, et stellae auferent lumen suum,
+et Dominus dabit vocem suam a facie fortitudinis suae,
+quoniam multa sunt nimis castra ejus, quoniam fortia
+opera sermonum illius, quia magna dies Domini, magna
+et illustris nimis, et quis erit sufficiens ad eam?</hi> 
+Rursum per metaphoram locustarum, describitur
+impetus Chaldaeorum, et jubetur propheta, immo
+per prophetam omnibus qui possunt Dei audire sermonem,
+<pb n="0963B"/>
+ut quasi tuba exaltent vocem suam, et in
+Sion praedicent, et clangant in monte sancto ejus,
+ut ad strepitum clamoris et buccinae omnis Jerusalem
+populus contremiscat. Cumque, ait, cecineritis,
+hoc dicite: Nequaquam dies Domini ultra differetur,
+id est, dies ultionis atque vindictae; adest vicina
+captivitas, jam de suo loco Babyloniorum est egressus
+exercitus, prope est dies tenebrarum, et angustiae,
+dies caliginis et nubis et turbinis, in qua auferetur
+lumen omne laetitiae [ <hi>Al.</hi> justitiae], et cuncta
+tenebris opprimentur. Sicut, inquit, mane et diluculum
+subito tenebras fugat, et cunctos montes aurora
+collustrat: ita Babyloniorum super omnem terram
+vestram fundetur exercitus. Nec putetis turbam esse
+invalidam, populus <emph>186</emph> multus et fortis est, cujus
+<pb n="0963C"/>
+similis nec in praeterito, nec in futuro, ulla gens alia
+poterit inveniri: quidquid attigerit, quasi vorax
+flamma consumet, nihilque post se integrum derelinquet;
+quasi hortus et paradisus voluptatis omnis
+terra est, quam non tetigerit: quasi solitudo et desertum,
+quidquid fuerit depraedatus, neque ullus
+poterit inveniri qui illius effugiat manus. Aspectus
+eorum quasi ferocium equorum, et quasi equites huc
+illucque discurrent. Non quo Babylonii equitibus
+comparentur; sed quo locustae per translationem
+hostium quasi equites dicantur huc illucque discurrere: <hi>Sicut sonitus,</hi> 
+ inquit, <hi>quadrigarum et curruum,
+sic erit sonitus locustarum.</hi> Super capita montium
+exsilient, ut omnia excelsa conscendant; et sicut stipulam
+cito flamma consumit, ita sonitus et terror
+<pb n="0963D"/>
+vocis eorum cuncta populabitur. Quodque infert: <hi>Velut populus fortis praeparatus ad praelium,</hi> 
+ rursum
+ad locustas refert, ut non quasi de hostibus, sed
+quasi de locustis referre videatur; et tamen dum locustas
+legimus, Babylonios cogitemus. Tantus terror
+erit, ut omnes per circuitum nationes, et animo
+et corpore perhorrescant, immo crucientur: et pavoris
+magnitudine, vultus omnium in ollae similitudinem
+convertantur, quae igne combusta, nigredinem
+et fuliginem foedi monstret aspectus. <hi>Discurrent,</hi> 
+inquit, <hi>quasi viri fortes,</hi> haud dubium quin locustae: <hi>et quasi viri bellatores ascendent murum,</hi> 
+ ut murorum
+<pb n="0964A"/>
+sublimitas impetum fortium prohibere non valeat,
+et nequaquam per portas, sed per muros ingrediantur: <hi>Singulis in viis suis gradientur, et non declinabunt
+a semitis suis.</hi> 
+ Hoc nuper in hac provincia vidimus.
+Cum enim locustarum agmina venirent, et
+aerem qui inter coelum et terram est occuparent,
+tanto ordine ex dispositione jubentis Dei volitant,
+ut instar tesserularum quae in pavimentis artificis
+figuntur manu, suum locum teneant, et ne puncto
+quidem, et, ut ita dicam, ungue transverso declinent
+ad alteram. Et ut apertam faceret metaphoram, <hi>et
+per fenestras,</hi> ait, <hi>cadent, et non demolientur.</hi> Nihil
+enim locustis invium est, cum et agros, et sata, et
+arbores, et urbes, et domos, et <emph>187</emph> cubiculorum
+secreta penetrent. Hoc autem de locustis dicitur, ut
+<pb n="0964B"/>
+de hostibus intelligatur. Quodque nos interpretati
+sumus <hi>per fenestras cadent, et non demolientur,</hi> LXX
+transtulerunt, <hi>aggravati in armis suis ibunt, et in jaculis
+suis cadent et non consumentur:</hi> quod nequaquam
+mihi videtur expositionis ordini convenire,
+sed in eo errorem esse generatum, quia SALA ( )
+verbum Hebraicum, illi <hi>jacula,</hi> nos <hi>fenestras</hi> intelleximus.
+Servatque coeptam narrationem, ut eos dicat
+urbem ingredi, in muris discurrere, domosque
+conscendere, et per fenestras intrare quasi fures,
+non quod furum timorem habeant qui victores sunt;
+sed ut fures solent ingredi per fenestras, et occulte
+rapere, sic illi, clausis januis, ne ulla sit mora, per
+fenestras tota irrumpent audacia. <hi>A facie istiusmodi
+locustarum terra contremuit, et coeli moti sunt,</hi> quae
+<pb n="0964C"/>
+dicta hyperbolice sentiamus, non quod locustarum
+aut hostium tanta vis sit, ut possit movere coelos, et
+terram concutere; sed quod adversa patientibus prae
+terroris magnitudine, et coelum ruere et terra fluctuare
+videatur. Denique prae multitudine locustarum
+obtexentium coelum, sol et luna convertentur in
+tenebras, et stellae retrahent splendorem suum: dum
+lumen in medio nubes posita locustarum, ad terram
+non sinit pervenire. Dominus quoque dabit vocem
+suam ante faciem tam potentis exercitus, quia multa
+sunt castra ejus, et magnitudo virtutis illius in parvis
+quoque animantibus demonstratur. Haec autem
+multa castra, et innumerabilia fortia sunt nimis, et
+facientia verbum illius. Quo dicto ostenditur Babylonios
+Dei voluntate venturos, et illius imperio parituros.
+<pb n="0964D"/> <hi>Magnus est,</hi> 
+ inquit, <hi>dies Domini, quo capienda
+est Jerusalem, et valde terribilis, et nullus eum poterit
+sustinere,</hi> et de necessitate captivitatis aut mortis
+evadere. Junctam et cohaerentem sibi pericopen
+dividere nolui, ne quod sensu unum erat, diversis
+capitulis carperetur. Transeamus ad intelligentiam
+spiritualem, singula quaeque repetentes. Tubarum
+buccinarumque clangorem non solum in Levitico et
+Numerorum libro legimus <note>(Num. X)</note>, in quibus jubetur,
+ut duas argenteas tubas faciat Moyses, quibus et
+in kalendis, et in septimo mense, prima die mensis,
+et in jubilaeo, et in <emph>188</emph> caeteris festivitatibus, et
+<pb n="0965A"/>
+quando ad bella procedunt, canant hi qui huic officio
+mancipati sunt; sed etiam muros Jericho ad tubarum
+clangorem scriptum est corruisse <note>(Josue VI)</note>.
+Et Dominus angelum missurum se dicit esse cum
+clangore tubae <note>(Matth. XXIV)</note>, et Apostolus resurrectionem
+mortuorum, ad tubae sonitum fieri praedicat <note>(I Cor. XV)</note>.
+Et in Apocalypsi quoque Joannis legimus,
+septem angelos accepisse tubas singulas, quibus
+per ordinem canentibus, facta sunt quae Scriptura
+describit <note>(Apocal. VIII)</note>. Praecipitur ergo nunc sacerdotibus
+et magistris, ut exaltent quasi tuba vocem
+suam, et impleant illud quod scriptum est: <hi>In montem
+excelsum ascende qui evangelizas Sion: exalta vocem
+tuam qui annuntias Jerusalem <note>(Isai. XLVIII, 9)</note>
+            </hi>, ut
+canat tuba in Sion, id est, in Ecclesia, quae interpretatur
+<pb n="0965B"/>
+specula atque sublimitas. Et in sancto Dei monte
+qui Christus est, ut conturbentur, sive confundantur
+omnes habitatores terrae, et confusio eos pertrahat
+ad salutem. Diem autem Domini, diem intellige judicii,
+sive diem exitus uniuscujusque de corpore. Quod
+enim in die judicii futurum est omnibus, hoc in singulis
+die mortis impletur. Dies tenebrarum est et
+angustiae, dies nubis et turbinis; quia cuncta poenarum
+plena sunt atque cruciatuum. Veniet angelorum
+populus multus et fortis, ut reddat unicuique secundum
+opera sua; et sicut mane et aurora consurgens
+primum occupat montes, sic judicium ab excelsis et
+potentibus incipiet, ut potentes potenter tormenta
+patiantur. Similis ei non fuit a principio, et post
+eum non erit usque ad annos generationis et generationis
+<pb n="0965C"/> <note>(Sapien. VI)</note>.
+Omnia enim mala, quae veteribus
+historiis continentur, et aut inundatione maris, aut
+illuvione fluminum, aut pestilentia, morbis, fame,
+bestiis, hostium vastitate, hominibus acciderunt, his
+suppliciis, quae in die sunt reddenda judicii, non
+poterunt comparari. Ante faciem hujus populi qui
+fortis et multus est, erit ignis vorans, sive consumens,
+ut omne in nobis fenum, ligna, stipulamque
+consumat. Unde et de Deo dicitur: <hi>Deus ignis consumens
+est, et post eum urens flamma <note>(Deut. IV, 24)</note>
+            </hi>; ut
+nihil absque suppliciis derelinquat. Quemcumque hic
+populus non attigerit, nec in venerit in eo combustionis
+materiam, horto Dei et paradiso assimilabitur voluptatis,
+qui <emph>189</emph> Hebraice dicitur EDEN ( ). Si quem autem
+exusserit, quasi solitudinem in cinerem rediget ac
+<pb n="0965D"/>
+favillas, nec est qui furorem ejus possit evadere, cujus
+crudelis aspectus frementium equorum habebit
+similitudinem, et sic discurrent ad cruciandos quos
+in potestatem acceperint, quasi equites huc illucque
+volitantes: terribilis erit sonitus eorum, quasi quadrigarum
+per prona currentium; et super capita montium
+exsilient, excelsos quosque et in Ecclesiae culmine
+constitutos cruciare cupientes. Et quia ante
+faciem eorum ignis est vorax, atque consumens, sic
+<pb n="0966A"/>
+cuncta vastabunt, quomodo stipulam flamma consumit:
+ita venient ad puniendum: ita expediti erunt
+et parati, ut populus fortis ad praelium. Tantus erit
+timor omnium, tanta conscientia peccatorum, ut nullus
+luceat, nec splendorem habeat gaudii, sed instar
+adustae ollae facies ejus vertatur in tenebras. Ascendent
+murum et omnem munitionem; injunctumque
+sibi explentes opus, non declinabunt in partem alteram;
+sed inhiabunt miserorum suppliciis, nec tormentis
+eorum satiabuntur; sed unusquisque credita
+sibi in peccatores supplicia prosequetur. Sed et per
+fenestras intrabunt, sive cadent; vel aggravati armis
+suis ambulabunt, et in jaculis eorum [ <hi>Al.</hi> suis] cadent
+hi, quos acceperint consumendos. Hae sunt fenestrae,
+de quibus et Jeremias dicit: <hi>Mors intrabit
+<pb n="0966B"/>
+per fenestras nostras <note>(Jer. VI, 21)</note>
+            </hi>: omnes enim sensus
+nostros ingredi hostes desiderant, et capere urbem
+bonae conscientiae, et per nostra munimenta discurrere,
+domosque quas nobis bonis operibus aedificavimus,
+destruere. Omnia autem faciunt introeuntes
+per fenestras, quasi fur: libere enim non ingrediuntur,
+ut sagittent in obscuro rectos corde <note>(Psal. X)</note>. A
+facie istius populi, qui est multus et fortis, terra
+contremuit, et coeli commoti sunt. <hi>Coelum enim et
+terra transibunt, verbum autem Domini permanet in
+aeternum <note>(Matth. 24)</note>
+            </hi>. Sed et sol et luna tanta miserorum
+supplicia videre non poterunt, et moerebunt,
+ non habentia officii sui justitiam, et pro claro lumine,
+tenebris operientur horrendis; stellae quoque
+retrahent fulgorem suum, <emph>190</emph> dum etiam qui sancti
+<pb n="0966C"/>
+sunt praesentiam Domini absque formidine non videbunt.
+In his omnibus dabit Dominus vocem suam,
+ante faciem exercitus sui. Quomodo enim Babylonii
+punientes Jerusalem, Dei vocantur exercitus: sic
+angeli pessimi (de quibus scriptum est: <hi>Furorem et
+iram et angustiam, immissionem per angelos pessimos <note>(Psal. LXXVII, 49)</note>
+            </hi> 
+ Dei exercitus dicuntur, et castra
+illius nominantur, dum Domini faciunt voluntatem.
+Magnus est dies Domini atque terribilis, de quo
+alibi scriptum est: <hi>Ut quid desideratis diem Domini <note>(Amos V)</note>
+            </hi>?
+et hic est tenebrae, et non lux; et terribilis
+valde; rarusque aut nullus eum poterit sustinere,
+quin in se praebeat materiam saeviendi.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 12 seqq.)</note> </head>
+            <p>
+ <hi>Nunc ergo dicit Dominus: Convertimini
+ad me in toto corde vestro, in jejunio, et fletu
+<pb n="0966D"/>
+et planctu; et scindite corda vestra, et non vestimenta
+vestra, et convertimini ad Dominum Deum vestrum:
+quia benignus et misericors est, patiens et multae misericordiae,
+et praestabilis super malitia: quis scit si
+convertatur et ignoscat, et relinquat post se benedictionem,
+sacrificium et libamen Domino Deo nostro</hi> 
+[Vulg. <hi>vestro</hi> ]? LXX: <hi>Et nunc dicit Dominus Deus
+noster: Convertimini ad me in toto corde vestro, in jejunio,
+in cilicio, in fletu, et in planctu; et scindite
+<pb n="0967A"/>
+corda vestra, et non vestimenta vestra, et convertimini
+ad Dominum Deum vestrum: quia misericors et miserator
+est, patiens et multae misericordiae, et poenitens
+super malitiis: quis novit si revertatur et poeniteat eum,
+et dimittat post se benedictionem, sacrificium et libamen
+Domino Deo nostro?</hi> Superius capitulum ab eo loco
+ubi scriptum est: <hi>Canite tuba in Sion, ululate in
+monte sancto meo: conturbentur omnes habitatores
+terrae,</hi> usque ad eum locum, ubi legimus: <hi>Magnus
+est dies Domini et terribilis valde, quis sustinebit eum?</hi> 
+per translationem locustarum, adventum nuntiat
+Chaldaeorum, et quae mala ventura sint populo.
+Nunc eos ad poenitentiam provocat, et converti ad
+Dominum cohortatur, ut tota mente correcti, non
+patiantur quae Dominus comminatur, et est sensus:
+<pb n="0967B"/>
+Omnia quae sermone praeterito continentur, propterea
+sum locutus, ut vos <emph>191</emph> comminatione mea terrerem.
+Unde convertimini ad me in toto corde vestro, et
+animi poenitentiam jejunio et fletu et planctibus indicate;
+ut nunc jejunantes postea saturemini, nunc flentes
+postea rideatis, nunc plangentes postea consolemini. Et
+quia consuetudinis est, ut in tristibus atque adversis
+scindatis vestes, quod et pontifex ad Domini Salvatoris
+crimen augendum in Evangelio fecisse memoratur <note>(Matth. XXVI)</note>,
+et Paulum et Barnabam audientes verba
+blasphemiae, legimus perpetrasse <note>(Act. XIV)</note>: idcirco
+ego praecipio vobis, ut nequaquam scindatis vestimenta,
+sed corda quae plena sunt peccatis, quae
+instar utrium, nisi scissa fuerint, sponte rumpentur.
+Cumque hoc feceritis, redite ad Dominum Deum
+<pb n="0967C"/>
+vestrum, quem vobis priora peccata alienum fecerant:
+nec desperetis veniam scelerum magnitudine;
+quia magna peccata magna delebit misericordia.
+Est enim benignus et misericors, malens poenitentiam
+peccatorum, quam mortem <note>(Ezech. XXXIII)</note>,
+patiens et multus in misericordia, qui non humanam
+imitatur impatientiam; sed longo tempore nostram
+praestolatur poenitentiam: et praestabilis, sive poenitens
+super malitiis, ut si nos egerimus super peccatis
+poenitentiam, et ipsum poeniteat comminationis suae,
+et mala quae comminatus est nobis non inferat,
+nostraeque mutatione sententiae, et ipse mutetur.
+Malitiam autem in hoc loco non contrariam virtuti
+debemus accipere, sed afflictionem, juxta illud quod
+alibi legimus: <hi>Sufficit diei malitia sua <note>(Matt. VI, 34)</note>
+            </hi>.
+<pb n="0967D"/>
+Et: <hi>Si est in civitate malitia, quam Dominus non fecerit <note>(Amos III, 6)</note>
+            </hi>.
+Similiterque quia supra dixerat,
+benignus et misericors, patiens et multus in misecordia,
+et praestabilis, sive poenitens super malitiis,
+ne forsitan magnitudo clementiae nos faceret negligentes,
+ex persona Prophetae jungit et dicit: <hi>Quis
+scit si convertatur et ignoscat, et relinquat post se
+benedictionem?</hi> Ego, inquit, hortor, quod meum est,
+ad poenitentiam, et Deum ineffabiliter novi esse clementem,
+dicente David: <hi>Miserere mei, Deus, secundum
+magnam misericordiam tuam, et secundum multitudinem
+miserationum tuarum dele iniquitatem meam <note>(Psal. L, 1, 2)</note>
+            </hi>.
+Sed quia profundum divitiarum et
+sapientiae et scientiae Dei nosse non possumus, sententiam
+<pb n="0968A"/>
+tempero, et opto potius quam praesumo,
+dicens: <hi>quis scit si convertatur</hi> <emph>192</emph> <hi>et ignoscat?</hi> 
+Quod ait <hi>quis,</hi> aut impossibile, aut difficile sentiendum
+est: <hi>Sacrificium et libamen Domino Deo nostro;</hi> 
+ut postquam dederit benedictionem, et nostra nobis
+peccata donaverit, Deo hostias offerre valeamus.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 15 seqq.)</note> </head>
+            <p>
+ <hi>Canite tuba in Sion: sanctificate
+jejunium, vocate coetum, congregate populum: sanctificate
+Ecclesiam, coadunate senes, congregate parvulos
+et sugentes ubera. Egrediatur sponsus de cubili suo,
+et sponsa de thalamo suo: inter vestibulum et altare
+plorabunt sacerdotes ministri Domini, et dicent: Parce,
+Domine</hi> [Vulg. add. <hi>parce], populo tuo, et ne des
+haereditatem tuam in opprobrium, ut dominentur eis
+nationes. Quare dicunt in populis: Ubi est Deus eorum?</hi> 
+<pb n="0968B"/>
+LXX: <hi>Clangite tuba in Sion, sanctificate jejunium,
+praedicate curationem, congregate populum, sanctificate
+Ecclesiam, eligite senes: congregate parvulos et
+sugentes ubera, egrediatur sponsus de cubili suo, et
+sponsa de thalamo suo. Inter crepidinem et altare plorabunt
+sacerdotes ministri Domini, et dicent: Parce,
+Domine, populo tuo, et ne dederis haereditatem tuam
+in opprobrium, ut dominentur eorum gentes, ne dicant
+in nationibus: Ubi est Deus eorum?</hi> Adhuc eos ad
+poenitentiam cohortatur, antequam veniat hostilis
+exercitus. Supra, inquit, dixeram: <hi>Canite tuba in
+Sion, ululate in monte sancto meo,</hi> et reliqua, quia
+venit dies Domini, quia prope est dies tenebrarum
+et caliginis, dies nubis et turbinis, annuntians vobis
+populum multum et fortem esse venturum, qui
+<pb n="0968C"/>
+vestras possessiones urbesque subverteret. Nunc
+quia benignus sum et misericors, patiens, et multus
+misericordia, rursum praecipio et dico: <hi>Clangite tuba
+in Sion,</hi> et poenitentiam in populis praedicate; <hi>sanctificate
+jejunium, praedicate curationem,</hi> sive <hi>coetum,</hi> 
+de quibus jam ante diximus: <hi>congregate populum,</hi> ut
+qui dispersus peccaverat, congregatus peccare desistat. <hi>Sanctificate Ecclesiam,</hi> 
+ ut nullus in Ecclesia
+non sanctus sit, ne forsitan impediantur orationes
+vestrae, et modicum fermentum totam massam corrumpat <note>(I Cor. V)</note>.
+ <hi>Coadunate,</hi> sive <hi>eligite senes,</hi> ut
+non aetas in eis, sed sanctitas deligatur. <hi>Congregate</hi> 
+quoque <hi>parvulos et sugentes ubera,</hi> ne ulla sit aetas
+quae non convertatur ad Dominum. Parvulos atque
+lactentes, de quibus in Psalmis et in Evangelio legimus:
+<pb n="0968D"/> <hi>Ex ore infantium et lactentium perfecisti laudem <note>(Psal. VIII, 3; Matth. XXI, 16)</note>
+            </hi>.
+ <emph>193</emph> Quos Petrus
+rationali et absque dolo dicit lacte nutritos <note>(I Petr. II)</note>:
+quibus [ <hi>Al.</hi> de quibus] Paulus loquitur: <hi>Lac vobis potum dedi, non escam 
+ <note>(I Cor. III, 2)</note>
+            </hi>: quorum
+et Salvator meminit: <hi>Ne contempseritis unum
+de minimis istis <note>(Mat. XVIII, 10)</note>
+            </hi>. <hi>Egrediatur</hi> quoque <hi>sponsus de cubili suo, et sponsa de thalamo suo:</hi> 
+ ut
+in tempore jejunii, vocationis et coetus, sanctificationis
+Ecclesiae, electionis senum, congregationis
+parvulorum et sugentium ubera, non serviat sponsus
+et sponsa operi nuptiali, quibus et Lege permissum
+est, ut ad bella non procedant. Unde et Apostolus
+recedendum parumper a coitu praecepit, ut vacare
+<pb n="0969A"/>
+possimus orationi <note>(I Cor. VII)</note>. Ergo qui in castigatione
+victus, et jejunio atque eleemosynis dicit se agere
+poenitentiam, frustra hoc sermone promittit, nisi
+egrediatur de cubili suo, et sanctum purumque jejunium
+pudica expleat poenitentia. Quodque sequitur: <hi>Inter vestibulum et altare plorabunt Sacerdotes,</hi> 
+ pro <hi>vestibulo</hi> 
+ LXX <hi>crepidinem</hi> interpretati sunt: Symmachus
+ <foreign xml:lang="greek">προπύλαιον</foreign>: Aquila <foreign xml:lang="greek">πρόδομον</foreign>: Theodotio
+ipsum verbum Hebraicum posuit ULAM ( ): quam
+nos <hi>ante fores</hi> templi <hi>porticum</hi> que possumus dicere.
+Et nota quae [ <hi>Al.</hi> quod] sacerdotibus praecipiat qui
+sunt ministri Domini, ut plorent inter templum et
+altare, et dicant cum Apostolo: <hi>Quis infirmatur, et
+ego non infirmor? quis scandalizatur, et ego non uror <note>(II Cor. XI, 29)</note>
+            </hi>?
+Et: <hi>Flere cum flentibus.</hi> Locusque
+<pb n="0969B"/>
+aptus poenitentiae et confessioni, templum est et
+altare: docetque quid dicere debeant sacerdotes,
+immo quomodo Dominum deprecari: <hi>Parce, Domine,
+populo tuo;</hi> qui quando peccabat, vocabatur non
+populus tuus: nunc postquam recessit a vitiis, appellatur
+populus tuus. <hi>Et ne des haereditatem tuam
+in opprobrium, ut dominentur eis nationes.</hi> Apertum
+est aenigma quod latebat. Populus enim ille multus
+et fortis, qui supra sub erucae, et locustae, et bruchi,
+et rubiginis descriptus est nomine, nunc manifestius
+qui sit ostenditur: <hi>Ut dominentur,</hi> inquit, <hi>eis nationes.</hi> 
+Datur autem in opprobrium haereditas Domini, quando
+servierint hostibus, et dixerint nationes: <hi>Ubi est
+Deus eorum,</hi> quem sibi praesulem, quem defensorem
+esse jactabant? Possumus nationes interpretari et
+<pb n="0969C"/>
+adversarias potestates, quae quamdiu non <emph>194</emph> agimus
+poenitentiam, dominantur nostri, et exprobrant
+et dicunt: <hi>Ubi est Deus eorum?</hi> Judaei istum locum
+ad Gog et Magog referunt, saevissimas nationes,
+quas in ultimo tempore contra Israel dicunt esse
+venturas, de quibus plenius scribitur in Ezechiel.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 18 seqq.)</note> </head>
+            <p>
+ <hi>Zelatus est Dominus terram suam,
+et pepercit populo suo: et respondit Dominus et dixit
+populo suo: Ecce ego mittam vobis frumentum et vinum
+et oleum, et replebimini eo, et non dabo vos ultra
+opprobrium in gentibus: et eum qui ab Aquilone est,
+procul faciam a vobis, et expellam eum in terram inviam
+et desertam: facies</hi> [Vulg. <hi>faciem] ejus contra
+mare orientale, et extremum ejus ad mare novissimum:
+<pb n="0969D"/>
+et ascendet fetor ejus, et ascendet putredo illius, qui</hi> 
+[Vulg. <hi>quia] superbe egit.</hi> LXX: <hi>Et zelatus est Dominus
+terram suam, et pepercit populo suo, et respondit
+Dominus, et dixit populo suo: Ecce ego mittam
+vobis frumentum et vinum et oleum, et implebimini
+ex eis, et non dabo vos ultra opprobrium in gentibus,
+et eum qui ab Aquilone est repellam a vobis, et educam
+eum in terram quae est sine aqua, et disperdam faciem
+ejus in mare primum, et posteriora ejus in mare novissimum:
+et ascendet fetor ejus, et ascendet putredo
+illius, quoniam magnificata sunt opera ejus.</hi> Postquam
+<pb n="0970A"/>
+sacerdotes pro populo deprecati sunt, et
+dixerunt: <hi>Parce, Domine, populo tuo, et ne des haereditatem
+tuam in opprobrium,</hi> fecitque populus quod
+praeceptum est, ut sanctificaret jejunium, praedicaret
+curationem, congregaret [ <hi>Al.</hi> cogeret] multitudinem,
+sanctificaret Ecclesiam, eligeret senes, parvulos
+et sugentes ubera congregaret, et egrederetur
+sponsus de cubili suo, et sponsa de thalamo suo, et
+nequaquam carni et voluptati, sed animae et fletibus
+inservirent. <hi>Zelatus est Dominus terram suam,</hi> quam
+prius quasi alienam contempserat, et passus fuerat
+locusta vastante populari, et intantum pepercit poenitentibus,
+ut eos dignos sua responsione faceret,
+diceretque, quoniam omnes fruges vestras, locusta,
+bruchus, rubigoque vastavit: ideo dabo vobis frumentum,
+<pb n="0970B"/>
+et caetera quae propheta describit, et ultra
+vos non tradam captivitati. Et Assyrium atque Chaldaeum
+qui ab aquilone [ <hi>Al.</hi> a Babylone] est, procul
+faciam a vobis, de quo supra scriptum est: <hi>Populus
+multus et fortis,</hi> <emph>195</emph> <hi>ante faciem ejus ignis vorans,
+et post eum exurens flamma, quasi aspectus equorum
+aspectus eorum. Et expellam,</hi> inquit, <hi>eum in terram
+solitudinis,</hi> et primae partes illius cadent in mare
+Orientale, et posteriores in mare novissimum, et
+ascendet fetor ejus, id est, qui ab Aquilone est, et
+putredo, quia superbe egit. Saepe commonui sub
+translatione locustarum describi impetum Chaldaeorum,
+quo Judaea vastata est. Itaque servat metaphoram
+in reliquis, et juxta situm provinciae sic
+loquitur, quasi non de hostibus, sed de locustis
+<pb n="0970C"/>
+referre videatur. Etiam nostris temporibus vidimus
+agmina locustarum terram texisse Judaeam, quae
+postea misericordia Domini inter vestibulum et altare,
+hoc est, inter crucis et resurrectionis locum,
+sacerdotibus et populis Dominum deprecantibus atque
+dicentibus: <hi>Parce populo tuo,</hi> vento surgente,
+in mare primum et novissimum praecipitatae sunt.
+Mare primum quod juxta solitudinem est, et vergit
+ad Orientem, illud intellige, in quo fuit quondam
+Sodoma et Gomorrha, Adama et Seboim, quod
+nunc Mortuum nominatur, eo quod nulla ibi vivant
+animantia. Mare autem novissimum, hoc quod ad
+Occidentem est, et quod ducit in Aegyptum, in cujus
+littore Gaza, et Ascalon, Azotusque et Joppe, et
+<pb n="0970D"/>
+Caesarea, et caeterae urbes maritimae sitae sunt.
+Cumque littora utriusque maris acervis mortuarum
+locustarum, quas aquae evomuerant, implerentur,
+putredo earum et fetor intantum noxius fuit, ut aerem
+quoque corrumperet, et pestilentia tam jumentorum
+quam hominum gigneretur. Quaerat eruditus
+lector ubi hoc juxta litteram factum sit de Chaldaeis?
+Non multo post tempore quam haec prophetata
+sunt, siquidem in Isaia legimus, centum octoginta
+quinque millia Chaldaeorum sub rege Ezechia
+in una nocte angelo saeviente percussa <note>(Isai. XXXVII)</note>.
+<pb n="0971A"/>
+Hoc juxta historiam dixerimus. Caeterum juxta tropologiam,
+omnis anima terra est Domini, in qua seminat
+pater familias sementem suam, quae cum pro
+tritico zizania fecerit, id est, avenas et lolium, et
+offenderit Dominum suum, et postea egerit poenitentiam, <emph>196</emph> 
+ plangensque dixerit: <hi>Parce, Domine,
+populo tuo,</hi> zelatur Dominus terram suam, et parcet
+ei quam dudum contempserat, suoque eam dignatur
+alloquio et dicit: Mittam tibi frumentum, de quo
+scriptum est: <hi>Amen amen, dico vobis, nisi granum
+frumenti cadens in terram mortuum fuerit, ipsum solum
+manet: si autem mortuum fuerit, multos fructus
+facit <note>(Joan. XII)</note>
+            </hi>: et vinum quod laetificat cor hominis,
+et oleum quod exhilarat faciem, ut vetus tristitia
+peccatorum, frumenti et vini et olei, id est, virtutum
+<pb n="0971B"/>
+laetitia temperetur, tantamque habebunt bonorum
+omnium abundantiam, ut repleantur eis atque saturentur.
+Cumque hoc fuerint consecuti, nequaquam
+tradentur in opprobrium gentibus, de quibus Apostolus
+loquitur: <hi>Non est nobis colluctatio adversus
+carnem et sanguinem, sed adversus principes et potestates:
+adversus mundi rectores tenebrarum harum,
+contra spiritualia nequitiae in coelestibus <note>(Ephes. VI, 12)</note>
+            </hi>.
+Eum quoque qui ab Aquilone est (de quo Jeremias
+loquitur: <hi>Ab Aquilone exardescent mala super omnes
+habitatores terrae <note>(Jerem. I, 14)</note>
+            </hi>: de quo et Salomon
+scribit: <hi>Aquilo ventus durissimus</hi> ) procul, inquit, a
+vobis faciam, et expellam eum in terram inviam et
+desertam, quae non habet notitiam Dei, in qua non
+habitat Spiritus sanctus. Faciesque ejus erit in mari
+<pb n="0971C"/>
+primo et in mari novissimo, in his qui aperuerint ei
+januam peccatorum, et apud quos usque ad extremum
+vitae tempus permanserint, et fetor illius et
+putredo ascendit etiam in eos qui sibi magna promittunt,
+et cadunt per superbiam: quia numquam
+tuta est humana fragilitas, et quanto virtutibus crescimus,
+tanto magis timere debemus ne de sublimibus
+corruamus. Juxta litteram, greges locustarum magis
+Auster quam Aquilo consuevit adducere, id est, non
+ex frigore veniunt, sed ex calore: verum quoniam
+de Assyriis loquebatur, locustarum ponens similitudinem,
+ideo Aquilonem interposuit, ut non veram
+locustam, quae ab Austro venire consuevit, sed sub
+locusta intelligamus Assyrios atque Chaldaeos.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 22 seqq.)</note> </head>
+            <p>
+ <hi>Noli timere, terra: exsulta et
+<pb n="0971D"/>
+laetare quoniam magnificavit Dominus ut faceret:
+nolite timere, animalia regionis; quia germinaverunt</hi> <emph>197</emph> 
+ <hi>speciosa deserti, quoniam</hi> [Vulg. <hi>quia]
+lignum attulit fructum suum, ficus et vinea dederunt
+virtutem suam: et filii Sion, exsultate et laetamini
+in Domino Deo vestro, quia dedit vobis doctorem justitiae,
+et descendere faciet ad vos imbrem matutinum,
+et serotinum</hi> [Vulg. addit <hi>sicut</hi> ] <hi>in principio, et implebuntur
+areae frumento, et redundabunt torcularia
+vino et oleo, et reddam vobis annos, quos comedit locusta,
+bruchus, et rubigo, et eruca. Fortitudo mea magna
+<pb n="0972A"/>
+quam misi in vos: et comedetis vescentes, et saturabimini,
+et laudabitis nomen</hi> [Vulg. addit <hi>Domini]
+Dei vestri, qui fecit nobiscum</hi> [Vulg. <hi>vobiscum] mirabilia,
+et non confundetur populus meus in sempiternum:
+et scietis quia in medio Israel ego sum, et ego
+Dominus Deus vester, et non est amplius, et non confundetur
+populus meus in sempiternum.</hi> LXX: <hi>Confide,
+terra, gaude atque laetare, quia magnificavit Dominus
+ut faceret: confidite, jumenta campi, quoniam
+germinaverunt campi solitudinis, quia lignum attulit
+fructum suum, ficus et vinea dederunt fortitudinem
+suam: et filii Sion, gaudete atque laetamini in Domino
+Deo vestro, quoniam dedit vobis escas justitiae, et pluit
+vobis imbrem temporaneum et serotinum, sicut a principio,
+et replebuntur areae tritico, et redundabunt
+<pb n="0972B"/>
+torcularia vino et oleo. Et reddam vobis pro annis in
+quibus comedit locusta, et bruchus et rubigo, et eruca.
+Fortitudo mea magna quam misi in vos, et vescemini
+comedentes, et saturabimini: et laudabitis nomen Domini
+Dei vestri, qui fecit vobiscum mirabilia et non confundetur
+populus meus in aeternum, et scietis quia in
+medio Israel ego sum, et ego Dominus Deus vester, et
+non est amplius praeter me, et non confundetur populus
+meus in aeternum.</hi> Omnibus quae [ <hi>Al.</hi> quibus] supra
+fuerat comminatus, nunc contraria pollicetur. Supra
+dixerat: ignis comedit speciosa deserti, et flamma
+succendit omnia ligna regionis, et bestiae agri
+quasi area sitiens imbrem suspexerunt ad te: quoniam
+exsiccati sunt fontes aquarum, et ignis devoravit
+speciosa deserti. Nunc laetis tristitiam mitigat,
+<pb n="0972C"/>
+et lacrymas vertit in risum. <hi>Nolite,</hi> inquit, <hi>timere,
+animalia regionis: quia germinaverunt speciosa deserti:
+quia lignum attulit fructum suum, ficus et vinea
+dederunt virtutem suam:</hi> et tanta erit rerum
+omnium abundantia, ut nequaquam desit [ <hi>Al.</hi> dem]
+vobis frumentum, vinum <emph>198</emph> et oleum quo saturemini;
+sed adimpleantur areae frumento, et redundent
+torcularia vino et oleo, ut non solum ipsi
+comedere, sed etiam aliis praebere valeatis. Ad filios
+quoque Sion specialiter loquitur, ut exsultent
+et gaudeant, non in quacumque re levi; sed in Domino
+Deo suo, qui dedit eis alimenta justitiae: et ut
+Septuaginta transtulerunt, <hi>et imbrem temporaneum et
+serotinum,</hi> ut comedant atque laetentur, et laudent
+nomen Domini Dei sui, qui fecit cum eis mirabilia,
+<pb n="0972D"/>
+et nequaquam confundantur: et sciant quia Dominus
+Deus Israel habitet in medio eorum, et praeter illum
+nullus sit alius, quia Pater in Filio, et Filius in Patre:
+et non confundetur populus illius [ <hi>Al.</hi> meus] in
+aeternum. Haec juxta litteram, quia a Domino repromissa
+sunt, credimus accidisse, et sterilitatem praeteritam
+novis frugibus compensatam: ut quidquid
+ locusta, bruchus, et rubigo, et eruca consumpserat,
+annis sequentibus impleretur. Quaerimus cur
+eruca fortitudo, vel virtus Domini appellata sit, et
+non solum virtus, sed virtus magna? Quomodo potentia
+<pb n="0973A"/>
+Dei in Aegyptiis plagis ostensa est per parva
+animalia, et praecipue ciniphes, qui tam parvi sunt
+culices, ut vix cernantur oculis. Sic et nunc in parvo
+tardoque vermiculo, qui vix moveri potest, et levi
+tactu conteritur, Dei potentia et humana fragilitas
+demonstratur. Non quo Deus ad nutum suum et potentiae
+majestatem nequeat terras subvertere, et operire
+cuncta diluvio, vel fulmine concremare; sed
+per parva, et, ut ita dicam, puncta corporum, ostendit
+humanam fragilitatem. Unde et illud solemus
+Marcioni et caeteris respondere haereticis qui vetus
+laniant Testamentum, quod et pulices et culices et
+cimices, et hujuscemodi animantia idcirco fecerit
+Deus, ut fragilitatem et imbecillitatem nostrae carnis
+ostenderet, quae intantum nihil est, ut ab his quae
+<pb n="0973B"/>
+parva sunt vulneretur. Si autem eruca tardus parvusque
+vermiculus fortior homine est, quid gloriatur
+terra et cinis; et elata per superbiam (cum ex humo
+sit, a quo homo appellatur) humana contemnit?
+Quidam locum istum sic interpretantur: A dextris
+et a sinistris virtutes et fortitudines Dei <emph>199</emph> legimus,
+quas Graeci <foreign xml:lang="greek">δυνάμεις</foreign> vocant. A dextris Seraphim et
+Cherubim, cunctasque angelicas potestates, a sinistris
+contrarias fortitudines, de quibus scriptum est: <hi>Misit
+in eos iram indignationis suae, furorem et iram, et
+tribulationem, immissionem per angelos malos <note>(Ps.
+LXXVII, 49)</note>
+            </hi>; de quibus et Michaeas in Regnorum
+[ <hi>Al.</hi> Regum] volumine loquitur: <hi>Vidi Dominum Deum
+Israel sedentem super thronum suum, et omnis exercitus
+coeli stabat juxta eum a dextris, et sinistris ejus</hi> 
+<pb n="0973C"/> <note>(III Reg. XXIII)</note>.
+Ego puto sinistrum fuisse spiritum,
+qui egressus est, et stetit coram Domino, et ait: <hi>Ego
+decipiam Achab, et egrediar, et ero spiritus mendax in
+ore omnium Prophetarum ejus.</hi> Ad quam sinistram et
+contrariam potestatem, quae apta erat ad decipiendum,
+et exercitata ad ruinas, et multos ante deceperat,
+loquitur Deus: <hi>Decipies et praevalebis: egredere
+et fac sic.</hi> Spiritus quoque ille qui suffocabat
+Saul, de quo dixerunt ad eum pueri sui: <hi>Ecce spiritus
+Dei malus obstupescere te facit <note>(I Reg. XVI, 15)</note>
+            </hi>,
+de sinistris partibus erat, qui ministrant Domino ad
+puniendos eos qui cruciari propter peccata meruerunt.
+Non solum enim homines ministri sunt, et ultores
+irae ejus, in his qui malum operantur, et non
+sine causa portant gladium; sed etiam contrariae
+<pb n="0973D"/>
+fortitudines, quae appellantur furor et ira Dei, quos
+propheta declinans ait: <hi>Domine, ne in furore tuo arguas
+me, neque in ira tua corripias me <note>(Ps. VI, 1)</note>
+            </hi>.
+Istiusmodi (ut ita dicam) quaestionariis atque tortoribus
+tradidit Apostolus peccatorem in interitum carnis,
+ut spiritus salvus fieret <note>(I Cor. V)</note>, de quibus et
+Satanas est, cui tradidit alios ut discerent non blasphemare <note>(I Tim. I)</note>.
+Haec de eruca cur Dei appellata sit
+virtus. Transeamus ad ordinem intelligentiae spiritualis:
+Ne timeas, terra, immo confide atque laetare, quae
+prius sementem dominicam tua ariditate perdideras:
+quia magnificavit Dominus, ut faceret tecum misericordiam,
+intantum, ut etiam jumenta regionis et desertae
+solitudinis laetis novalibus complerentur, et
+<pb n="0974A"/>
+lignum crucis afferret fructum suum, et Spiritus sancti
+dona dulcissima suam cunctis tribuerent largitatem.
+Vos quoque quos juste post poenitentiam voco
+filios Sion et Ecclesiae, laetamini atque gaudete,
+quia dedit vobis Deus pater doctorem justitiae, sive
+tribuit vobis alimenta justitiae, et descendere fecit
+ad vos pluvias temporaneas atque serotinas <note>(Isai.
+XXX)</note>. Pluvia <emph>200</emph> tempestiva est quando primum
+doctrinam suscipimus pluvia; serotina quando laboris
+nostri fructus recipimus, et ad perfectam sanctarum
+Scripturarum scientiam pervenimus. Potest
+pluvia temporanea et serotina, vetus et novum accipi
+Testamentum. Et non solum, inquit, hoc dedit;
+sed fecit vos novis virtutum frugibus abundare, et
+saturari atque inebriari frumento, vino et oleo, de
+<pb n="0974B"/>
+quo saepe diximus. Et annos quos perturbationibus
+ante regnantibus perdideratis in vobis, quando opera
+vestra locusta, bruchus, rubigo, erucaque consumpserant,
+Deus vobis perire non passus est. Tunc comedetis
+fructus justitiae, et saturabimini, et laudabitis
+nomen Domini Dei vestri, qui fecit vobiscum
+mirabilia. Si autem post poenitentiam tantam ubertatem
+Deus rerum omnium pollicetur, quid respondebit
+Novatus negans poenitentiam, et reformari
+posse peccatores in pristinum statum, si digna fecerint
+opera poenitentiae? Intantum enim Deus recipit
+poenitentes, ut vocet eos populum suum, et nequaquam
+asserat confundendos; et habitaturum se
+in eorum medio repromittat, nec amplius eos alium
+habituros Deum; sed in eum toto animo confisuros,
+<pb n="0974C"/>
+qui in illis maneat in aeternum.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 28 seqq.)</note> </head>
+            <p>
+ <hi>Et erit post haec, effundam spiritum
+meum super omnem carnem, et prophetabunt filii
+vestri, et filiae vestrae, senes vestri somnia somniabunt,
+et juvenes vestri visiones videbunt; sed et super servos
+meos et</hi> [Vulg. addit <hi>super] ancillas meas</hi> [Vulg. tacet <hi>meas] in diebus illis effundam spiritum meum, et dabo
+prodigia in coelo et in terra, sanguinem, et ignem, et
+vapores fumi. Sol convertetur</hi> 
+ [Vulg. <hi>vertetur] in tenebras,
+et luna in sanguinem, antequam veniat dies Domini
+magnus et horribilis. Et erit, omnis qui invocaverit
+nomen Domini, salvus erit.</hi> LXX: <hi>Et erit post
+haec, effundam de spiritu meo super omnem carnem, et
+prophetabunt filii vestri, et filiae vestrae, et senes vestri
+somnia somniabunt, et juvenes vestri visiones videbunt:
+<pb n="0974D"/>
+et super servos meos et super ancillas meas in
+diebus illis effundam de spiritu meo, et dabo prodigia
+in coelo, et super terram sanguinem, ignem, et vaporem
+fumi. Sol convertetur in tenebras, et luna in
+sanguinem, antequam veniat dies Domini magnus et
+illustris. Et erit, omnis qui invocaverit nomen Domini,
+salvus erit.</hi> Hunc locum beatus apostolus Petrus <emph>201</emph> 
+ impletum tempore Dominicae passionis exposuit,
+quando descendit die Pentecostes Spiritus sanctus
+super credentes, et omnes loquebantur sicut
+Spiritus sanctus dabat eis: ita ut mirarentur qui
+aderant, et dicerent: <hi>Nonne omnes isti qui loquuntur
+Galilaei sunt; et quomodo nos audivimus linguam nostram
+in qua nati sumus? Parthi, et Medi, et Elamitae</hi> 
+<pb n="0975A"/> <note>(Act. II)</note>,
+et reliqui; alii vero dicebant, <hi>quid vult hoc
+esse?</hi> Irridentibusque aliis atque dicentibus: <hi>musto
+pleni sunt,</hi> stans Petrus cum undecim elevavit vocem
+suam, et ait: <hi>Viri Judaei, et qui habitatis Jerusalem
+universi, hoc notum sit vobis, et auribus percipite verba
+mea: Neque enim ut vos aestimatis, isti ebrii sunt, cum
+sit hora tertia diei; sed hoc est quod dictum est per
+prophetam Joel. Et erit post haec, dicit Dominus: Effundam
+de spiritu meo super omnem carnem, et prophetabunt,</hi> 
+et reliqua usque ad eum locum, quem in
+capitulo proposuimus. Cum igitur Petrus illo tempore
+quo passus est Dominus, prophetiam Joel impletam
+esse memoret, hoc tantum quaerimus, quomodo
+et superiora et media, et quae sequuntur usque
+ad finem voluminis sibi valeant cohaerere, ne sub
+<pb n="0975B"/>
+uno textu consequentiaque sermonis, diversa et dissonans
+inter se explanatio scatere videatur? A principio
+ergo usque ad eum locum ubi scriptum est: <hi>Magnus dies Domini et terribilis valde, et quis sustinebit
+eum?</hi> 
+ comminatio est atque descriptio, quae peccatori
+populo Dominus illaturus sit. Ab eo autem
+loco ubi legimus: <hi>Convertimini ad me in toto corde,
+et in jejunio, et in fletu, et in planctu,</hi> usque ad eum
+locum, ubi ait: <hi>Quare dicunt in populis, ubi est Deus
+eorum?</hi> cohortatio Domini est post poenas atque supplicia
+ad poenitentiam provocantis. Rursum ab eo
+loco qui sequitur: <hi>Zelatus est Dominus terram suam
+et pepercit populo suo, et respondens Dominus dixit,</hi> 
+usque ad eum locum, ubi scriptum est: <hi>Et non confundetur
+populus meus in aeternum,</hi> repromissio futurorum
+<pb n="0975C"/>
+est, quae bona postquam egerint poenitentiam,
+debeant praestolari. Et post multa quae nunc longum
+est retexere, haec quoque in promissione dicuntur,
+quae in praesentiarum conamur exponere: <hi>Effundam
+de spiritu meo super omnem carnem, et prophetabunt
+filii vestri,</hi> <emph>202</emph> <hi>et filiae vestrae,</hi> et reliqua. Videor
+mihi a principio usque ad hunc locum, textum servasse
+sermonis. Laboris est maximi, quomodo quae
+sequuntur, his quae nunc disserimus, coaptanda sint.
+Alius dicit quae generaliter in ultimo tempore repromissa
+sunt, nunc ex parte completa. Et quia
+ praemium futurorum in primo adventu Domini
+apostoli sentiebant, libamenta quaedam et primitias
+mirabilium expletas memorare, ut donec veniat quod
+perfectum est, id quod ex parte praecesserat, sentiremus.
+<pb n="0975D"/>
+Alius vero apostolicae esse asserit consuetudinis,
+juxta illud quod de sancto viro scriptum est: <hi>Dispensabit sermones suos in judicio 
+ <note>(Ps. CXI, 5)</note>
+            </hi>: ut
+quidquid utile audientibus esse cernebant, et non
+repugnare praesentibus, de alterius temporis testimoniis
+roborarent, non quod abuterentur audientium
+simplicitate et imperitia, ut impius calumniatur
+Porphyrius, sed juxta apostolum Paulum, praedicarent <hi>opportune, importune 
+ <note>(II Tim. IV)</note>
+            </hi>. Et sequentes
+regulam prophetarum, quidquid Judaei in ultimo
+tempore sibi carnaliter repromittunt, spiritualiter
+<pb n="0976A"/>
+in primo adventu Domini Salvatoris dicerent esse
+completum: maxime cum et illi, et nos quae promissa
+sunt, in Christo dicamus esse complenda: in
+hoc tantummodo discrepantes, quod illi futura contendunt,
+nos jam facta convincimus: de quo in his
+quae sequuntur, plenius disserendum est. Omnis autem
+caro super quam effusurum se de spiritu suo
+Dominus pollicetur, illa est de qua Isaias loquitur: <hi>Et videbit omnis caro salutare Dei 
+ <note>(Isai. XL, 5)</note>
+            </hi>. Ergo
+salutare Dei videri non potest, nisi Spiritus sanctus
+effundatur. Et quicumque credere se dicit in Christum,
+non credens in Spiritum sanctum, perfectae
+fidei oculos non habebit. Unde et in Actibus apostolorum,
+qui baptizati erant baptismate Joannis in
+eum qui venturus erat, hoc est, in nomine Domini
+<pb n="0976B"/>
+Jesu: quia responderunt Paulo interroganti: <hi>Sed ne
+si sit quidem Spiritus sanctus, novimus <note>(Act. XIX)</note>
+            </hi>, iterum
+baptizantur: immo verum baptisma accipiunt,
+quia sine Spiritu sancto et mysterio Trinitatis, quidquid
+in unam et alteram personam accipitur, imperfectum
+est. Neque vero omnis qui acceperit Spiritum <emph>203</emph> 
+ sanctum, statim habebit et gratiam spiritualem;
+sed per effusionem Spiritus sancti diversas gratias
+consequetur <note>(I Cor. XII)</note>. Alii prophetiam, ut
+filii et filiae qui majoris sunt meriti; alii somnia, ut
+senes jam provectioris aetatis: alii visiones, ut juvenes
+qui vicerunt malignum. Servi vero et ancillae qui
+adhuc spiritum timoris habent, et non dilectionis,
+quia <hi>perfecta dilectio foras mittit timorem,</hi> non habebunt
+prophetiam, non somnia, non visiones; sed,
+<pb n="0976C"/>
+Spiritus sancti effusione contenti, fidei tantum et salutis
+gratiam possidebunt. Tunc dabit prodigia Dominus
+in coelo et in terra: in coelo, quia sol est
+versus in tenebras, et luna in sanguinem: in terra,
+quia tam vehementi et insolito motu terra contremuit,
+ut monumenta aperta, et saxa disrupta sint.
+Quod autem dicit, <hi>sanguinem et vapores,</hi> sive <hi>vaporem
+fumi,</hi> sanguis ille est, de quo in Psalmis legimus: <hi>Ut intingatur pes tuus in sanguine 
+ <note>(Psal. XLVII, 24)</note>
+            </hi>.
+Et in Isaia: <hi>Quam rubicunda sunt vestimenta tua <note>(Isai. XCIII, 2)</note>
+            </hi>!
+et quem, percusso latere Salvatoris,
+mixtis aquis Romanus miles effudit <note>(Joan. XIX)</note>. Et
+ignis Spiritus sancti, qui descendit de coelo, ut in
+Actibus apostolorum legimus: <hi>Apparuerunt illis dispertitae
+linguae tamquam ignis, seditque supra singulos
+<pb n="0976D"/>
+eorum, et repleti sunt omnes Spiritu sancto, et coeperunt
+eloquit variis linguis, prout Spiritus sanctus dabat
+eloqui illis <note>(Act. II, 3 seqq.)</note>
+            </hi>. Hic est ignis quem venit
+Dominus mittere super terram, et antequam pateretur,
+in discipulis suis optabat ardere <note>(Luc. XII)</note>.
+Ignis naturae est duplicis: habet lumen credentibus;
+habet tenebras suppliciaque incredulis, qui appellantur
+vapores fumi. Iste fumus est amarissimus,
+qui excaecavit oculos Judaeorum, de quo in proverbiis
+legimus: <hi>Sicut fumus noxius est oculis, et immatura
+uva dentibus, sic iniquitas utentibus ea (Prov.
+<pb n="0977A"/>
+X, 26)</hi>. De hoc fumo et Isaias in visione magna loquitur,
+in qua praedicebatur caecitas Judaeorum: <hi>Et
+superliminare motum est, et domus impleta est fumo.</hi> 
+Unde postea sequitur: <hi>Vade, et dic populo huic:
+Auditu audietis, et non intelligetis; et videntes aspicietis,
+et non videbitis: incrassatum est enim cor populi
+hujus, et auribus suis graviter audierunt <note>(Isai.
+VI, 9, 10)</note>
+            </hi>. Sol quoque est versus in tenebras, quando
+pendentem Dominum suum videre non ausus est, et
+luna in sanguinem, quod aut juxta historiam factum
+esse credamus et ab evangelistis <emph>204</emph> silentio praetermissum,
+neque enim omnia quae fecit Jesus,
+scripta referuntur, quae si scriberentur per singula, <hi>ne ipsum quidem arbitror mundum capere eos, qui scribendi
+sunt, libros 
+ <note>(Joan. XXI)</note>
+            </hi>. Aut certe quomodo sol
+<pb n="0977B"/>
+versus in tenebras est, non quod ipse sit mutatus in
+tenebras, sed quod tenebras mundo induxerit: sic et
+luna non est versa in sanguinem, sed Judaeos blasphemiarum
+et negationis in Christum horrore coopertos,
+aeterno testimonii sui sanguine condemnavit,
+dicentes: <hi>Sanguis ejus super nos, et super filios nostros <note>(Matth. XXVII, 25)</note>
+            </hi>.
+Haec omnia priusquam dies
+Domini veniat magnus et horribilis, futura describit.
+Dies autem Domini magnus et horribilis aut resurrectionis
+esse credendus est, aut certe, multa post
+tempora, dies judicii, qui vere magnus est et horribilis.
+Sed quia sequitur: <hi>Et erit, omnis qui invocaverit
+nomen Domini, salvus erit,</hi> et hoc apostolus Paulus
+refert ad tempus Dominicae passionis, magis de resurrectionis
+die intelligendum est. Ait enim scribens
+<pb n="0977C"/>
+ad Romanos: <hi>Non est distinctio Judaei et Graeci. Idem
+enim ipse Dominus omnium: dives in omnes qui invocant
+illum. Omnis enim quicumque invocaverit nomen
+Domini, salvus erit. Quomodo ergo invocabunt, in quem
+non crediderunt? aut quomodo credent ei, quem non
+audierunt? quomodo autem audient sine praedicante?
+quomodo autem praedicabunt nisi mittantur <note>(Rom.
+XVIII, 12 seqq.)</note>
+            </hi>. Quodque ait: <hi>Omnis qui invocaverit
+nomen Domini, salvus erit,</hi> non leve esse credamus,
+licet enim idem apostolus scribat: <hi>Nemo dicit Dominum
+Jesum nisi in Spiritu sancto <note>(I Cor. XII, 3)</note>
+            </hi>; tamen
+hoc ipsum dicere, non sermone, sed affectu cordis
+est ponderandum. <hi>Omnis enim qui invocaverit nomen
+Domini, salvus erit.</hi> Unde et Paulus et Sostenes scribunt
+Ecclesiae Dei quae est Corinthi: <hi>Sanctificatis in
+<pb n="0977D"/>
+Christo Jesu, vocatis sanctis cum universis qui invocant
+nomen Domini Jesu Christi <note>(I Cor. I)</note>
+            </hi>: secundum
+illud quod in Psalmis legimus: <hi>Moyses et Aaron in
+sacerdotibus ejus, et Samuel inter eos qui invocant
+nomen ejus. Invocabant Dominum, et ipse exaudiebat
+<pb n="0978A"/>
+eos: in columna nubis loquebatur ad eos <note>(Ps. XCVIII, 9)</note>
+            </hi>.
+Si igitur de credentibus Corinthiis, et de Moyse et
+Aaron ac Samuele scribitur, quod invocaverint nomen
+Domini, non incipientium, sed perfectorum,
+hanc gratiam esse credamus. Verbum quoque effusionis,
+quod Hebraice <emph>205</emph> dicitur ESPHOCH ( ),
+et omnes similiter transtulerunt, ostendit muneris
+largitatem, quod nequaquam in paucos Prophetas
+(ut olim fiebat in veteri Testamento), sed in omnes
+credentes in nomine Salvatoris, Spiritus sancti dona
+descenderint [ <hi>Al.</hi> descenderent]: nequaquam in hunc
+et illum, sed in omnem carnem. Neque enim est
+distinctio Judaei et Graeci, servi et liberi, viri et feminae:
+quia omnes in Christo unum sumus <note>(Rom. X)</note>.
+Unde et Agabus Caesareae prophetavit <note>(Act. XXI)</note>, et
+<pb n="0978B"/>
+in Antiochia erant prophetae plurimi: et Apostolus
+praecipit, ut si, altero prophetante, alteri fuerit revelatum,
+prior taceat <note>(I Cor. XIV)</note>. Et quatuor filias
+Philippi evangelistae legimus prophetasse <note>(Act. XXI)</note>.
+Senes quoque viderunt somnia, quando Paulus jam
+senex audivit virum Macedonem, dicentem sibi: <hi>Transiens in Macedoniam adjuva nos 
+ <note>(Act. XVI, 9)</note>
+            </hi>. Et
+omnes juvenes qui in Christo exstitere fortissimi, et
+ Domini bella bellarunt, viderunt visiones, Domino
+sua promissa complente: <hi>Ego visiones multiplico</hi> 
+[Al. <hi>multiplicabo], et in manibus prophetarum assimilatus
+sum <note>(Osee X, 12)</note>
+            </hi>.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 32.)</note> </head>
+            <p>
+ <hi>Quia in monte Sion et in Jerusalem erit
+salvatio: sicut dixit Dominus: et in residuis quos Dominus
+vocaverit.</hi> LXX: <hi>Quia in monte Sion et in Jerusalem
+<pb n="0978C"/>
+erit qui salvatus fuerit: sicut dixit Dominus:
+et annuntians quos Dominus vocavit.</hi> In eo loco, in
+quo nos posuimus, <hi>salvatio,</hi> sive <hi>salvatus,</hi> et in Hebraico
+scriptum est PHALETA ( ), Symmachus
+transtulit, <hi>qui fugerit.</hi> Et rursum ubi nos diximus, <hi>in
+residuis,</hi> et LXX transtulerunt, <hi>annuntians,</hi> in Hebraico
+legitur SARIDIM [ <hi>Al.</hi> SARADIM] ( ), quod
+Judaei loci nomen existimant. Postquam igitur venit
+dies Domini magnus et horribilis: et salvus effectus
+est, quicumque post Domini resurrectionem nomen
+illius invocavit, omnis qui fuit in monte Sion, et
+in Jerusalem salvatus est: de Sion enim egressa est
+lex: et verbum Domini, de Jerusalem <note>(Isai. II)</note>, de
+qua scriptum est: <hi>Non capit prophetam perire extra
+Jerusalem <note>(Luc. XIII, 33)</note>
+            </hi>. Principium ergo eorum qui
+<pb n="0978D"/>
+salvati sunt fuit in Sion et Jerusalem, in specula, et
+in visione pacis, et in his qui residui fuerunt, quos
+vocavit Dominus. Residuos eos debemus intelligere,
+qui de Judaeorum populo crediderunt, de quibus
+Isaias loquitur: <hi>Nisi Dominus Sabaoth</hi> <emph>206</emph> <hi>reliquisset
+<pb n="0979A"/>
+nobis semen, sicut Sodoma facti essemus, et
+sicut Gomorrha similes fuissemus <note>(Isai. I, 9)</note>
+            </hi>. Hos residuos
+Dominus vocavit, sive <hi>evangelizavit</hi> eos, quos
+vocavit: sic enim LXX interpretati sunt. Locus hic
+difficillimus est, et multiplicem recipiens explanationem:
+ut sub tropologia omnia quae dicta sunt, ad
+illa tempora referamus, ad quae Petrus et Paulus
+apostoli retulerunt, hoc est, quando passus est Dominus
+et resurrexit. Neque enim fieri potest, ut superiora
+in tempore passionis, et quae sequuntur intelligamus
+in die judicii, maxime cum sequatur: <hi>Quia ecce in diebus illis, et in tempore illo,</hi> 
+ et iste
+versiculus, praecedentibus inferiora connectens, uno
+dicat cuncta tempore perpetrata.</p>
+          </div3>
+        </div2>
+<div2 id="III">
+          <head>
+            <note>(CAP. III)</note>
+          </head>
+<div3>
+            <head>
+              <note>(Cap. III.--Vers. 1 seqq.)</note> </head>
+            <p>
+ <hi>Quia ecce in diebus illis,
+<pb n="0979B"/>
+et in tempore illo, cum convertero captivitatem Juda et
+Jerusalem, congregabo omnes gentes, et deducam eas in
+vallem Josaphat, et disceptabo cum eis ibi super populo
+meo, et haereditate mea Israel, quos disperserunt in
+nationibus: et terram meam diviserunt, et super populum
+meum miserunt sortem: et posuerunt puerum
+in prostibulo, et puellam vendiderunt pro vino, ut biberent.</hi> 
+LXX: <hi>Quia ecce ego in diebus illis, et in tempore
+illo quando convertero captivitatem Juda et Jerusalem,
+congregabo omnes gentes, et deducam eas in
+vallem Josaphat, et disceptabo cum eis ibi pro populo
+meo, et haereditate mea Israel, qui dispersi sunt in
+gentibus: et terram meam diviserunt, et super populum
+meum miserunt sortes: et posuerunt puerum in prostibulo,
+et puellas vendebant pro vino, et bibebant.</hi> Dicamus
+<pb n="0979C"/>
+ut polliciti sumus, primum juxta anagogen
+prioribus posteriora jungentes, eadem si poterimus,
+ad diem judicii referre tentabimus. Salvatis credentibus
+in monte Sion, et Jerusalem, et vocatis residuis
+de populo Judaeorum, qui cum apostolis et per
+apostolos crediderunt, in tempore illo postquam
+converterit Dominus captivitatem Juda et Jerusalem,
+qui venerat praedicare caesis visum, et captivis remissionem,
+et liberavit eos qui Dominum confitentur,
+et qui versantur in Ecclesia, in qua visio pacis
+est, congregabit omnes gentes quae credere noluerunt:
+et <emph>207</emph> deducet eas in vallem Josaphat, quod
+significantius, juxta Hebraicam veritatem Graece dicitur <foreign xml:lang="greek">κατάξω,</foreign>
+ id est, <hi>deorsum ducam,</hi> et de sublimibus
+ad inferiora detraham. Simulque considera, quando
+<pb n="0979D"/>
+incredulos quosque, vel adversarias potestates Dominus
+ad judicium provocat, et disceptat cum eis
+pro populo suo: <hi>deducam,</hi> inquit, <hi>eas in vallem Josaphat.</hi> 
+Quando autem credentes ad praelium cohortatur,
+dicit: <hi>Suscitate robustos: accedant, ascendant omnes
+viri bellatores: consurgant et ascendant gentes in vallem
+Josaphat,</hi> non descendere, sed ascendere cohortantur.
+Omnis enim qui judicatur propter peccata
+sua, in valle positus est, quae appellatur <hi>Josaphat,</hi> 
+id est, <hi>Domini judicium.</hi> Qui enim credit
+in Domino, non judicabitur. Ibique disputabit
+<pb n="0980A"/>
+cum eis, non potentia majestatis, sed rationis eos
+veritate convincens, qui partiti sunt populum Dei,
+et haereditatem illius disperserunt in nationibus, ut
+servos Dei sibi servire compellerent: et terram
+illius diviserunt, multis eam inter se erroribus separantes,
+ut alii colerent Jovem, alii Junonem, et
+Minervam, et febrem, et rubiginem, et Anubim et
+crocodilum, et ibin, noctuas, accipitres, et ciconias.
+Sub his nominibus quondam divisus est populus
+Dei: quae adversariae nationes, id est, principes
+mundi istius, et rectores tenebrarum, non solum
+diviserunt sibi populum Dei, sed posuerunt pueros
+in prostibulum, ut virilem cogerent mutare naturam,
+de quibus Apostolus loquitur: <hi>Propterea tradidit
+illos Deus in passiones ignominiae: siquidem feminae
+<pb n="0980B"/>
+eorum mutaverunt naturalem usum</hi> [Al. <hi>naturam
+suam], in eum usum qui contra naturam est. Similiter
+et masculi, relicto naturali usu feminae, accensi sunt
+in desiderium sui in invicem, masculi in masculos turpitudinem
+operantes, et mercedem quam oportuit erroris
+sui in semetipsos recipientes.</hi> Nec hoc fecisse contenti,
+vendiderunt puellam pro vino, ut biberent, et
+libidini praeferrent gulam. Quae universa Judaei, Vespasiani,
+Titique temporibus, et maxime Hadriani,
+juxta litteram impleta esse commemorant. Si autem
+ad diem judicii, quae scripta sunt, voluerimus referre,
+dicimus omnem qui salvatur, salvari in Ecclesia,
+sive in coelesti Jerusalem. Et postquam Judae fuerit et
+Jerusalem <emph>208</emph> conversa captivitas, tunc congregandos
+et deducendos omnes in vallem Josaphat: et ibi
+<pb n="0980C"/>
+disceptaturum Dominum cum eis qui suum populum
+persecuti sunt, et diviserunt sibi haereditatem Domini,
+et disperserunt eos in nationibus, et super
+terram illius miserunt sortem: quae non solum super
+haereticis debemus accipere, qui sibi Dei populum
+diviserunt, et eos faciunt esse gentiles, sed ad
+omnem rigidum superbumque doctorem, qui sub
+nomine doctrinae et sacerdotii dominantur cleris,
+et opprimunt eos qui subjecti sunt. Cumque fuerint
+negligentes, et scandalizaverint unum de minimis,
+etiam pueros ponunt in prostibulum, sive tradunt
+meretricibus: et causa voluptatis suae ( <hi>quorum
+Deus venter est, et gloria in confusione eorum <note>(Philip. III)</note>
+            </hi> 
+ vendunt puellas, ut bibant vinum. Tradit
+autem adolescentes meretricibus, et puellas vendit
+<pb n="0980D"/>
+luxuriae, qui turpis lucri gratia non corripit delinquentes.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 4-6.)</note> </head>
+            <p>
+ <hi>Verum quid vobis et mihi, Tyrus et
+Sidon, et omnis terminus Palaestinorum? Numquid
+ultionem vos reddetis</hi> [Al. <hi>redditis] mihi? Et si ulciscimini</hi> 
+[Al. <hi>ulciscemini] vos contra me, cito velociter
+reddam vicissitudinem vobis super caput vestrum. Argentum
+enim meum et aurum meum</hi> [Vulg. tac. <hi>meum]
+tulistis: et desiderabilia mea, et pulcherrima intulistis
+in delubra vestra: et filios Juda, et filios Jerusalem
+vendidistis filiis Graecorum: ut longe faceretis eos de
+<pb n="0981A"/>
+finibus suis.</hi> LXX: <hi>Quid mihi et vobis, Tyrus et Sidon,
+et omnis Galilaea alienigenarum? Numquid retributionem
+vos redditis mihi: aut iram in corde retinetis adversum
+me</hi> (hoc enim Graece significat <foreign xml:lang="greek">μνησικακείτε</foreign>)? <hi>velociter et cito reddam retributionem vestram in capitibus
+vestris: pro eo quod argentum meum et aurum
+meum tulistis: et electa mea et optima intulistis in
+templa vestra: et filios Juda, et filios Jerusalem vendidistis
+filiis Graecorum: ut ejiceretis eos de finibus
+suis.</hi> 
+ Et haec Judaei adversum Tyrum et Sidonem et
+Palaestinorum terminos, sive Galilaeam alienigenarum
+dici arbitrantur: quod tempore captivitatis Judaicae,
+quando victi sunt a Romanis, Dei populum persecuti
+sunt: immo in populo Dei ipsum Deum qui praefuit
+populo, secundum illud quod scriptum est: <hi>Qui vos recipit,
+<pb n="0981B"/>
+me recipit <note>(Mat. X, 40)</note>
+            </hi>. Ergo econtrario, qui persequitur
+populum Dei, ipsum Deum persequitur, cujus
+est <emph>209</emph> populus. Reddam, inquit, vobis quae fecistis
+populo meo: quia argentum meum et aurum, id est,
+vasa templi, et quidquid in eo pretiosissimum et
+speciosissimum fuit, candelabrum aureum et mensam
+propositionis auream, et duos Cherubim aureos,
+et propitiatorium, et phialas ac thuribula aurea tulistis,
+et consecrastis idolis vestris <note>(IV Reg. XXV)</note>.
+Haec autem narrat historia Chaldaeos magis fecisse,
+qui vasa templi Domini posuerunt in templo Bel:
+unde postea Balthasar potat in phialis, et statim regnum
+ejus in Medos et Persas transfertur <note>(Daniel.
+V)</note>. Sed quia post diem Domini magnum et horribilem,
+haec futura dicuntur, quae apostoli in resurrectione
+<pb n="0981C"/>
+Domini interpretantur, et Hebraei in futurum
+judicii tempus differunt, magis de Romanis est intelligendum:
+quod Vespasianus et Titus, Romae
+templo Pacis aedificato, vasa Templi et universa donaria
+in delubro illius consecrarunt: quae Graeca et
+Romana narrat historia. Eo tempore filii Juda et Jerusalem
+(nequaquam Israel, et decem tribuum, quae
+usque hodie in Medorum urbibus et montibus habitant)
+venditi sunt filiis Graecorum, ut exterminarentur
+de finibus suis, et omnis orbis Judaica captivitate
+completus est. Hoc illi referunt, ut ultionem
+sanguinis Christi et subversionem Jerusalem, quae
+Dei judicio accidit, contra Tyrum et Sidonem per se
+accidisse confirment. Nos autem juxta coeptam tropologiam,
+Tyrum et Sidonem et Palaestinos eos interpretemur,
+<pb n="0981D"/>
+qui Dei populum coangustant et tribulant
+et persequuntur (hoc enim Tyrus in lingua
+nostra resonat) et eum venantur [ <hi>Al.</hi> ut venentur]
+in mortem, quod nomen Sidonis indicat, et bibentes
+sanguinem corruunt, sive volutantur in coeno,
+quod Philistiim Galilaeaque significat. Velociter et
+cito restituet eis Dominus quod merentur, quia persecuti
+sunt eum. Et argentum illius et aurum, eloquia
+videlicet Scripturarum, et <foreign xml:lang="greek">νοήματα,</foreign> id est, <hi>sententias,</hi> 
+<pb n="0982A"/>
+et omne quod pulchrum in Ecclesia fuit,
+suis erroribus manciparunt. Haereticus quoscumque
+deceperit, et sua fecerit adorare simulacra, filios
+Juda et filios Jerusalem vendit Graecis, sive gentilibus,
+et eos de Christianis ethnicos facit: ut exterminet
+de finibus suis, in quibus in Christo fuerant
+procreati, et <emph>210</emph> nequaquam in Judaea, et
+veritatis confessione, sed in gentium errore versentur.
+Quae omnia et ad diem judicii referre possumus,
+non discrepante vindicta: licet in tempore a superioribus
+discrepare videantur. Pro Galilaea in Hebraeo
+scriptum est, GALILOTH ( ), quod Aquila
+ <foreign xml:lang="greek">Θῖνας,</foreign> Symmachus <hi>Terminos</hi> transtulit: <foreign xml:lang="greek">Θῖνας</foreign> autem,
+id est, <hi>Tumulos Arenarum,</hi> referamus ad littora
+Palaestinae, non ad Galilaeam Philistiim, quae omnino
+<pb n="0982B"/>
+nulla est.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 7, 8.)</note> </head>
+            <p>
+ <hi>Ecce ego suscitabo eos de loco, in
+quo vendidistis eos, et convertam retributionem vestram
+in caput vestrum, et vendam filios vestros, et filias
+vestras, in manibus filiorum Juda, et venundabunt
+eos Sabaeis, genti longinquae: quia Dominus locutus
+est.</hi> LXX: <hi>Ecce ego suscitabo eos de loco in quo vendidistis
+eos, et reddam retributionem vestram in capita
+vestra, et vendam filios vestros et filias vestras in manibus
+filiorum Juda, et venundabunt eos in captivitatem
+genti, quae procul abest, quoniam Dominus locutus
+est.</hi> Verbum Hebraicum SABAIM ( ), quod
+Aquila et Symmachus ita ut scriptum est transtulerunt,
+LXX <hi>captivitatem</hi> interpretati sunt, quod melius <hi>captivos</hi> 
+ significat. Sabaim autem gens trans Indiam
+<pb n="0982C"/>
+dicitur, de qua fuit et regina Saba, quae venit
+sapientiam audire Salomonis <note>(III Reg. X)</note>, de quibus
+et Isaias loquitur: <hi>Et Sabaim viri excelsi ad te transibunt <note>(Isai. XLIII, 14)</note>
+            </hi>.
+Unde et thus venire perhibetur,
+dicente Virgilio <note>(Aeneid. lib. I)</note>:
+</p>
+            <l rend="indent">. . . Centumque Sabaeo</l>
+<l>Thure calent arae:</l>
+            <p>
+licet quidam Sabaeos, Arabes suspicentur. Promittunt
+ergo sibi Judaei, immo somniant, quod in ultimo
+tempore congregentur a Domino, et reducantur
+in Jerusalem. Nec hac felicitate contenti, ipsum
+Deum suis manibus Romanorum filios et filias asserunt
+traditurum, ut vendant eos Judaei, non Persis
+et Aethiopibus et caeteris nationibus quae vicinae
+sunt; sed Sabaeis, genti longissimae: quia Dominus
+<pb n="0982D"/>
+locutus sit, et populi sui ulciscatur injuriam. Haec
+illi et nostri Judaizantes, qui mille annorum regnum
+in Judaeae sibi finibus pollicentur, et auream Jerusalem,
+et victimarum sanguinem, et filios ac nepotes
+et delicias incredibiles, et portas gemmarum <emph>211</emph> 
+ varietate distinctas. Nos autem dicamus,
+quod et suscitavit Dominus post adventum suum, et
+quotidie suscitat, et suscitaturus est eos, quos varius
+error eduxerat de finibus suis. Pulchreque <hi>suscitabo,</hi> 
+<pb n="0983A"/>
+ait, quasi jacentes et corruentes, ut qui jacebant
+in haeresi, stent in Ecclesia, reddens haereticis
+quod fecerant: Ut filios eorum et filias, quos et
+in mysticis et in carnalibus erudierant, tradat in
+manibus filiorum Juda, in manibus eorum, qui Ecclesiarum
+principes exstiterunt; et instructi sunt
+armatura Apostoli, et habent scutum et lanceam
+veteris et novi Instrumenti. Ut cum ceperint, filios
+eorum et filias vendant Sabaeis, et faciant esse captivos,
+ut procul sint a finibus suis: et ad meliora
+conversi, Ecclesiasticis dogmatibus incipiant esse
+subjecti.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 9 seqq.)</note> </head>
+            <p>
+ <hi>Clamate haec</hi> [Al. <hi>hoc] in gentibus:
+sanctificate bellum: suscitate robustos. Accedant,
+ascendant omnes viri bellatores. Concidite aratra vestra
+<pb n="0983B"/>
+in gladios, et ligones vestros in lanceas. Infirmus
+dicat, quia fortis ego sum. Erumpite, et venite, omnes
+gentes de circuitu, et congregamini, ibi occumbere faciet
+Dominus robustos tuos</hi> [Al. <hi>suos</hi> ]. LXX: <hi>Praedicate
+haec</hi> [Al. <hi>hoc] in gentibus: sanctificate bellum, suscitate
+pugnatores, adducite et ascendite omnes viri bellatores.
+Concidite aratra vestra in gladios, et falces vestras
+in lanceas. Fortis dicat, quia praevaleo ego. Congregamini
+et introite, omnes gentes per circuitum: et
+congregamini illuc, mansuetus sit pugnator.</hi> Locus iste
+dupliciter intelligitur: quidam enim arbitrantur
+haec sanctis gentibus praedicari, ut praeparentur ad
+bellum, et pro populo Dei dimicent, ut omnia instrumenta
+agriculturae in gladios lanceasque convertant,
+ut infirmus dicat se esse robustum, et veniant
+<pb n="0983C"/>
+omnes de circuitu, et in certamen Domini congregentur,
+maxime quia juxta LXX sequitur: <hi>Mansuetus
+et mitis sit pugnator,</hi> juxta illud quod in Paralipomenis
+scriptum est <note>(I Par. V, 8)</note>: <hi>Et trans Jordanem de Ruben
+et Gad et dimidia tribu Manasse, in omnibus vasis bellicis
+centum viginti millia: omnes isti viri bellatores parati
+ad pugnam mente pacifica:</hi> hos esse volunt imitatores
+veri David, de quo legimus: <hi>Memento, Domine, David,
+et omnis mansuetudinis ejus <note>(Ps. CXXXI, 1)</note>
+            </hi>. <emph>212</emph> 
+ Et ipse loquitur in Evangelio: <hi>Discite a me,
+quia humilis sum, et mitis <note>(Matth. XI, 29)</note>
+            </hi>, sive <hi>mansuetus.</hi> 
+Viros quoque eos intelligi volunt, qui destruentes
+initia parvulorum, ad perfectae aetatis robur
+accesserint, et omne studium quo prius animarum
+suarum exercebant agros, ad necessitatem praelii
+<pb n="0983D"/>
+contulerint. Nobis autem Hebraeorum opinionem sequentibus
+videtur esse contrarium. Ideo enim gentes
+adversariae Israeli parantur ad pugnam, et aratra
+sua ligonesque, vel falces in gladios lanceasque
+commutant <note>(Isa. II)</note>, et infirmus robustum se esse
+dicit, erumpuntque et veniunt de circuitu, et contra
+Domini exercitum congregantur, ut [ <hi>Al.</hi> et] occumbere
+Dominus faciat robustos earum, et [ <hi>Al.</hi> ut] intelligant,
+se Deo adversante, superatas. Haec juxta
+litteram sibi Israel miserabilis repromittit. Nos
+juxta coeptam tropologiam, et gentes daemonum, et
+<pb n="0984A"/>
+eos qui quotidie contra Ecclesiam dimicant, et in ultimo,
+qui sub Antichristo adversum sanctos Domini
+pugnaturi sunt, accipere possumus, qui idcirco
+congregantur, ut pereant.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 12 seqq.)</note> </head>
+            <p>
+ <hi>Consurgant, et ascendant gentes in
+vallem Josaphat, quia ibi sedebo ut judicem omnes gentes
+in circuitu: mittite falces, quoniam maturavit</hi> 
+[Vulg. <hi>maturuit] messis. Venite et descendite, quia
+plenum est torcular: exuberant torcularia, quia multiplicata
+est malitia eorum.</hi> LXX: <hi>Consurgant et ascendant
+omnes gentes in vallem Josaphat, quia ibi sedebo
+ut judicem omnes gentes in circuitu: emittite
+falces, quoniam adest vindemia. Introite et calcate,
+quia plenum est torcular, et redundant torcularia, quia
+repleta sunt mala eorum.</hi> Et haec juxta superiorem
+<pb n="0984B"/>
+sensum interpretantur bifariam. Alii enim gentes
+ascendere in vallem Josaphat, quae interpretatur <hi>Domini judicium,</hi> 
+ et sedere ibi Deum, ut dijudicet
+omnes gentes, quae de circuitu veniunt, in bonam
+partem intelligunt: quo scilicet et sancti contra Dei
+adversarios congregentur, et mittant falces suas, ut
+maturam hostium messem demetant, et veniant atque
+descendant, calcentque torcularia, quia adsit
+vindemia, et intantum musta exuberent, ut torcularia
+capere non possint. Et ut sciremus quae sit vindemia,
+plenumque torcular, <emph>213</emph> intulit [ <hi>Al.</hi> intulisse]: <hi>multiplicata est malitia eorum,</hi> 
+ haud dubium
+quin eos significet, qui contra Dominum congregati
+sunt. Alii autem consurgere gentes, et convenire
+in vallem Josaphat, et sedere Dominum, ut omnes
+<pb n="0984C"/>
+judicet nationes, ideo asserunt, ut parent se et assumant
+universa arma pugnantium, et in valle Josaphat
+Domini falcibus demetantur. Venisse enim
+contra eos tempus judicii, et intantum eorum crevisse
+mala, ut Dei vincerent patientiam. Nam et Amorrhaei
+tunc expulsi sunt, quando expleta sunt peccata
+eorum. Judaei istum locum ad Gog et Magog
+gentes saevissimas referunt, de quibus supra diximus,
+arbitrantes ultimo tempore quando Jerusalem
+fuerit instaurata, sub mille annorum imperio contra
+Dei populum esse venturas, et in valle Josaphat quae
+ad Orientalem partem templi sita est, esse ruituras
+[ <hi>Al.</hi> saevituras]: advenisse enim tempus occisionis
+earum, et effundendi sanguinis instare vindemiam.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 14, 15.)</note> </head>
+            <p>
+ <hi>Populi, populi in valle concisionis,
+<pb n="0984D"/>
+quia juxta est dies Domini in valle concisionis. Sol et
+luna obtenebrati sunt, et stellae retraxerunt splendorem
+suum.</hi> LXX: <hi>Sonitus exauditi sunt in valle judicii,
+quia juxta est dies Domini in valle judicii. Sol et luna
+obtenebrabuntur, et stellae occidere facient splendorem
+suum.</hi> In eo loco ubi nos posuimus, <hi>populi, populi,</hi> 
+et Septuaginta transtulerunt, <hi>sonitus exauditi sunt,</hi> 
+in Hebraico scriptum est, AMONIM, AMONIM ( ),
+quod utique multitudinem, et turbas eorum
+qui judicandi sunt, et strepitum sonitumque
+significat. Rursum ubi nos diximus <hi>in valle concisionis,</hi> 
+<pb n="0985A"/>
+sequentes translationem Aquilae et Symmachi
+et quintae editionis, Septuaginta et Theodotio <foreign xml:lang="greek">τῆς
+δίκης καὶ τῆς κρίσεως,</foreign> id est, <hi>causae et judicii</hi> transtulerunt:
+pro quo in Hebraico scriptum est HARUS
+( ), quod Hebraei non solum <hi>concisionem;</hi> sed et <hi>aurum</hi> 
+ interpretari putant, quo scilicet in valle judicii,
+quam suspicantur gehennam, excoctis sordibus
+peccatorum, purum aurum remaneat. Idcirco
+autem gentium, de quibus supra diximus in valle
+judicii, sive concisionis, populi congregantur, ut
+interficiantur et corruant, et a Domino judicentur.
+Cujus moerorem diei et tormenta pereuntium, ne
+sol quidem et luna astraque caetera poterunt intueri;
+sed retrahent fulgorem suum, et severitatem judicantis
+reddentisque uniuscujusque opus in <emph>214</emph> 
+<pb n="0985B"/>
+caput suum, aspicere non audebunt. Non quod clementiora
+sint quam Dei judicia; sed quod omnis
+creatura in tormentis aliorum de suo judicio pertimescat.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 16, 17.)</note> </head>
+            <p>
+ <hi>Et Dominus de Sion rugiet, et de
+Jerusalem dabit vocem suam, et movebuntur coeli et
+terra, et Dominus spes populi sui, et fortitudo filiorum
+Israel, et scietis quia ego Dominus Deus vester, habitans
+in Sion</hi> [Vulg. addit. <hi>in] monte sancto meo, et
+erit Jerusalem sancta, et alieni non transibunt per
+eam amplius.</hi> LXX: <hi>Dominus autem de Sion clamabit,
+et de Jerusalem dabit vocem suam, et movebitur
+coelum et terra, et Dominus parcet populo suo, et
+confortabit filios Israel, et scietis quia ego Dominus
+Deus vester habitans in Sion monte sancto meo, et erit
+<pb n="0985C"/>
+Jerusalem sancta, et alienigena non transibit per eam
+amplius.</hi> Cum solis et lunae cunctarumque stellarum
+splendor tenebris fuerit commutatus, Dominus de
+Sion instar leonis rugiet, sive clamabit, et tam
+excelsa vox ejus erit atque terribilis, ut coelorum
+cardines et terrarum fundamenta quatiantur. Cumque
+tam severus in eos fuerit qui puniendi sunt, erit
+clemens erga populum suum, et dabit eis fortitudinem
+qui appellantur filii Israel, mens scilicet cernens
+Deum; vel <foreign xml:lang="greek">εὐθύτατος Θεοῦ,</foreign> quem nos <hi>rectissimum
+Dei</hi> dicere possumus: qui non ambulaverunt
+per pravas semitas, sed gradientes in via Christi,
+omnia recta fecerunt. Tunc scient et hi qui punientur,
+et illi qui assumentur in gloriam, quod Dominus
+habitet in specula sua Sion, et in Christo
+<pb n="0985D"/>
+monte sancto suo, sive in eo qui se dignum Dei
+habitaculo praeparavit. Tunc erit sancta Jerusalem
+visio pacis, a qua et Salomon nomen accepit, et
+alieni non pertransibunt per eam amplius. Alienos
+vel daemones intellige, qui externi a Deo sunt: vel
+omnes pessimas cogitationes atque peccata, de
+quibus propheta loquitur: <hi>Ab alienis parce servo tuo <note>(Ps. XVIII, 24)</note>
+            </hi>:
+quae nequaquam ultra in nobis viam
+reperirent, si habuerimus Dei pacem, et cor nostrum
+<pb n="0986A"/>
+adversariis non patuerit. Haec Judaei et nostri,
+ut diximus, judaizantes, ad mille annorum fabulam
+referunt, quando putant Christum habitaturum in
+Sion, et in Jerusalem aurea atque gemmata sanctorum
+populos congregandos, ut qui in isto saeculo
+oppressi sunt ab universis gentibus, in hoc eodem
+cunctis imperent nationibus.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 18.)</note> </head>
+            <p>
+ <emph>215</emph> <hi>Et erit in die illa, stillabunt
+montes dulcedinem, et colles fluent lacte, et per omnes
+rivos Judae ibunt aquae.</hi> LXX: <hi>Et erit in die illa, stillabunt
+montes dulcedinem, et colles fluent lacte, et
+omnes emissiones Judae fluent aquis.</hi> Habitante Domino
+in Sion et in monte sancto suo, quando nullus
+per Jerusalem sanctam pertransire tentaverit, quicumque
+in ea mons fuerit, et ad virtutum excelsa
+<pb n="0986B"/>
+pervenerit, dulcedine et melle sudabit, et stillabunt
+ex eo gratiae spirituales, de quibus propheta loquitur: <hi>Quam dulcia gutturi meo eloquia tua, super mel
+ori meo 
+ <note>(Ps. CXVIII, 103)</note>
+            </hi>! Qui autem inferior montibus
+est, et necdum ad perfectionis culmen
+ascenderint, vocabitur collis, et fluent de eo rivi
+lactis, quibus rudis in Christo nutritur infantia, et
+aquarum flumina, quae de ventre suo Dominus manare
+testatus est <note>(Joan. VII)</note>. Omnes enim rivi, sive
+emissiones Juda, implebuntur aquis, et nihil in eis
+siccum erit, redundantibus cunctis gratia spirituali.
+</p>
+            <p> <hi>Et fons de domo Domini egredietur, et irrigabit
+torrentem</hi> [Al. <hi>fontem] spinarum.</hi> Pro <hi>torrente spinarum,</hi> 
+Septuaginta transtulerunt, <hi>torrentem funiculorum,</hi> 
+id est, <foreign xml:lang="greek">σχοίνων</foreign>: quod aut funiculos significat,
+<pb n="0986C"/>
+aut juxta Aegyptios mensuram certi itineris,
+Psalmista dicente: <hi>Semitam meam et funiculum
+meum tu investigasti <note>(Psal. CXXXVIII, 2)</note>
+              </hi>. In Nilo enim
+flumine, sive in rivis ejus, solent naves funibus
+trahere, certa habentes spatia, quae appellant <hi>funiculos,</hi> 
+ut labori defessorum, recentia trahentium
+colla succedant. Nec mirum si unaquaeque gens
+certa viarum spatia suis appellet nominibus, cum et
+Latini mille passus vocent, et Galli leucas, et
+Persae parasangas, et rastas universa Germania,
+atque in singulis nominibus diversa mensura sit.
+Haec propterea, quia verbum Hebraicum SATTIM
+( ) Septuaginta <hi>funiculos</hi> transtulerunt. Caeterum
+nulli dubium est, omnia quae in tabernaculo
+Dei legimus, de lignis <hi>Settim</hi> fuisse perfecta:
+<pb n="0986D"/>
+quae LXX interpretati sunt <hi>ligna imputribilia.</hi> Est
+autem genus arboris in eremo, spinae albae simile,
+colore et foliis, non magnitudine. Alioquin tam
+grandes arbores sunt, ut latissima <emph>216</emph> ex illis
+tabulata caedantur, lignumque fortissimum est, et
+incredibilis levitatis ac pulchritudinis, ita ut ex his
+etiam vasa torcularium, quae <foreign xml:lang="greek">ἂρσενας</foreign> et <foreign xml:lang="greek">θηλύας</foreign> vocant,
+ditissimi quique et studiosissimi faciant, quae
+ligna in locis cultis, et in Romano solo, absque
+<pb n="0987A"/>
+Arabiae solitudine non inveniuntur. Pro <hi>torrente
+funiculorum,</hi> sive <hi>spinarum,</hi> Symmachus interpretatus
+est, <hi>vallem spinarum.</hi> Est autem locus juxta
+Liviadem trans mare mortuum, sexto ab ea distans
+milliario, ubi quondam cum Madianitis fornicatus
+est Israel. Hujus loci ex persona Dei Michaeas propheta
+meminit, dicens: <hi>Populus meus, memento,
+quaeso, quid cogitaverit Balach, rex Moab, et quid responderit
+Balaam filius Beor de Settim usque ad Galgalam <note>(Mich. VI, 5)</note>
+              </hi>.
+Pro quo et ibi Septuaginta
+transtulerunt, <foreign xml:lang="greek">ἀπὸ τῶν σχοίνων,</foreign> hoc est, <hi>a funiculis
+usque ad Galgalam.</hi> Ergo egredietur fons de domo
+Domini, quae interpretatur Ecclesia. De quo et Ezechiel
+et Zacharias ponunt in fine voluminum suorum <note>(Ezech. XLVII, Zach. XIII)</note>,
+ut spinas nostras et
+<pb n="0987B"/>
+vitia atque peccata, quae nullam frugem habuere
+justitiae, commutent in Domini novalia, et ariditatem
+nostram rigent aquis largissimis, et pro spinis
+ac vepribus, flores virtutum multiplices germinemus.
+Et in eo loco, ubi quondam fornicatus est
+Israel, et initiatus est Beelphegor, lilia castitatis et
+rosae pudoris ac virginitatis exuberent.
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 19.)</note> </head>
+            <p>
+ <hi>Aegyptus in desolatione</hi> [Vulg. <hi>desolationem]
+erit, et Idumaea in desertum perditionis,
+pro eo quod inique egerunt</hi> [Vulg. <hi>egerint] in filios
+Juda, et effuderunt</hi> [Vulg. <hi>effuderint] sanguinem innocentem
+in terra sua.</hi> LXX: <hi>Aegyptus in perdione erit,
+et Idumaea in campum desolationis, propter iniquitates
+filiorum Juda, pro eo quod effuderunt sanguinem
+justum in terra sua.</hi> Et in hoc loco Judaei gravissimo
+<pb n="0987C"/>
+somno dormiunt: in ultimo tempore, quando non
+Christum, sed Antichristum suscepturi sunt, vindictam
+sui, in Aegyptios qui vicini sunt, et in Romanos
+quos interpretantur Idumaeos, spe vanissima
+confingentes. Ut scilicet quomodo Pharao et omnis
+ejus exercitus, qui per quadringentos et triginta
+annos populum Dei captivum tenuit, in mari <emph>217</emph> 
+Rubro submersus est: sic etiam Romani qui eodem
+annorum spatio Judaeos possessuri sunt, ultione
+Domini deleantur. Hoc illi spe sibi cassa promittant.
+Neque enim possunt exponere quare cum in orbe
+tantae sint nationes, duae solum gentes, Aegyptiorum
+et Idumaeorum expetantur ad poenam; aut
+cur pro Idumaeis intelligantur Romani, cum eadem
+licentia mentiendi e diverso possimus asserere, sub
+<pb n="0987D"/>
+Idumaeorum vocabulo vel Persas, vel Elamitas, vel
+<pb n="0988A"/>
+Francos, Alemannos, gentesque alias significari.
+Nos autem dicamus tempore Dominicae resurrectionis,
+vel die judicii (utrumque enim recipimus) et
+Aegyptum et Idumaeam, in eo quod Aegyptus et
+Idumaea sunt, destruendas. Aegyptus dicitur MESRAIM
+( ), quod interpretatur <foreign xml:lang="greek">ἐκθλίβουσα,</foreign> id est,
+sanctos Dei <hi>persequens</hi> et <hi>tribulans:</hi> Idumaea, <hi>terrena,</hi> 
+vel <hi>cruenta.</hi> Quicumque igitur Dei populum
+persecutus est, et terrenis vacaverit operibus, ac
+multitudine delictorum quotidie fuderit sanguinem
+innocentem, eorum scilicet, quos decipit <note>( <hi>Al.</hi> deceperit)</note>,
+erit in perditionem, ut animas quoque
+martyrum sub altari clamare cognovimus: <hi>Usquequo,
+Domine sanctus et verus, non judicas et vindicas sanguinem
+nostrum de his qui habitant in terra (Apoc.
+<pb n="0988B"/>
+VI, 10)</hi>?
+</p>
+          </div3>
+<div3>
+            <head>
+              <note>(Vers. 20 seqq.)</note> </head>
+            <p>
+ <hi>Et Judaea in aeternum habitabitur,
+et Jerusalem in generatione et generationem: et mundabo
+sanguinem eorum, quos non</hi> <emph>218</emph> <hi>mundaveram,
+et Dominus commorabitur in Sion.</hi> LXX: <hi>Judaea
+autem in aeternum habitabitur, et Jerusalem in generatione
+et generationem, et requiram sanguinem eorum,
+inultumque esse non patiar, Et Dominus habitabit in
+Sion.</hi> Non utique haec Judaea in aeternum habitabitur,
+quam videmus esse desertam: non ista Jerusalem,
+cujus ruinas cernimus: sed illa Judaea, cujus
+filiae exsultaverunt et laetatae sunt in omnibus judiciis
+Domini. Et de qua in fine quinquagesimi psalmi
+legimus: <hi>Benigne fac, Domine, in bona voluntate tua
+Sion, ut aedificentur muri Jerusalem.</hi> In hac provincia
+<pb n="0988C"/>
+confessionis et gloriae, et in hac urbe in qua
+pax Domini cernitur, erit aeterna habitatio, non in
+unam, vel in tres, aut plures generationes, sed in
+generatione et generationem, hoc est, in duabus generationibus
+eorum, qui de Judaeis et de gentibus
+crediderunt. Et mundabit Dominus sanguinem omnium
+peccatorum, quem prius non mundaverat, ut
+mundet in Evangelio, quos in Lege peccantes immundos
+reliquerat. Ideo enim conclusit omnia sub
+peccato, ut omnibus misereatur <note>(Rom. XI)</note>; sive ulciscetur
+servorum suorum sanguinem, quem in martyrio
+pro nominis ejus confessione fuderunt. Et Dominus
+commorabitur in Sion, de qua scriptum est: <hi>Fundamenta ejus in montibus sanctis; diligit Dominus
+portas Sion, super omnia tabernacula Jacob</hi> 
+<pb n="0988D"/> <note>(Ps. LXVIII, 1)</note>.
+
+</p>
+          </div3>
+        </div2>
+      </div1>
+</body>
+  </text>
+</TEI>

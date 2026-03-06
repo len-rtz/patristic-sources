@@ -1,0 +1,830 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Quaestiones XVII in Matthaeum</title>
+              <author ref="http://viaf.org/viaf/66806872">Augustinus Hipponensis<date>354-430</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1841</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 35</title>
+           <idno>AugHip.QuXvInM</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+
+
+<div1>
+        <head>Liber unus.</head>
+        <head>QUAEST. I. <hi>[MATTH. cap. II, V\ 16.]</hi> </head>
+<p>Quod dictum est,
+occisos infantes a bimatu et infra, significatum est humiles
+habentes geminam charitatem, tanquam parvulos
+bimos posse mori pro Christo.</p>
+</div1>
+
+<div1>
+        <head>II. <hi>[Ib. X, 27.]</hi> </head>
+<p> <hi>Quod dico vobis in tenebris,</hi> id est,
+cum adhuc in timore carnali estis, quia in tenebris est
+timor; <hi>dicite in lumine,</hi> hoc est, in fiducia veritatis,
+accepto Spiritu sancto: <hi>Et quod in aure auditis, praedicate
+super tecta,</hi> id est, quod in secreto auditis, calcato
+carnis domicilio praedicate.</p>
+</div1>
+
+<div1>
+        <head>III. <hi>[Ib. X, 34-36.]</hi> </head>
+<p> <hi>Nolite arbitrari quia venerim
+pacem mittere in terram; non veni pacem mittere, sed
+gladium: veni enim separare hominem adversus patrem
+suum.</hi> Quia renuntiat quis diabolo, qui fuit filius ejus. <hi>Et filiam adversus matrem suam:</hi> 
+ plebem Dei adversus
+mundanam civitatem, hoc est perniciosam generis
+humani societatem, quam nunc Babylonia, nunc
+Aegypto, nunc Sodoma, nunc aliis atque aliis nominibus
+Scriptura significat. <hi>Nurum adversus socrum:</hi> 
+Ecclesiam adversus Synagogam, quae secundum carnem
+Christum peperit sponsum Ecclesiae. Dividuntur
+autem gladio spiritus, quod est verbum Dei <note>(Ephes.
+VI, 17)</note>. <hi>Et inimici hominis domestici ejus:</hi> cum quibus,
+antea consuetudine implicatus erat.</p>
+</div1>
+
+<div1>
+        <head>IV. <hi>[Ib. VIII, 1-3.]</hi> </head>
+<p>Quod autem descendens de monte,
+posteaquam praecepta illic discipulis et multitudini dedit, <hi>leprosum statim, extendens manum suam, curat;</hi> 
+significat eos qui de illis implendis dubitabant, suo
+auxilio ab hujusmodi varietate mundari.</p>
+</div1>
+
+<div1>
+        <head>V. <hi>[Ib. VIII, 20.]</hi> </head>
+<p>Quod Dominus dixit scribae qui
+eum sequi voluit, <hi>Vulpes foveas habent, et volucres
+coeli tabernacula; Filius autem hominis non habet ubi
+caput suum reclinet,</hi> intelligitur miraculis Domini commotus
+propter inanem jactantiam eum sequi voluisse,
+quam significant aves: finxisse autem discipuli obsequium,
+quae fictio vulpium nomine significata est.
+Reclinatione vero capitis humilitatem suam significavit,
+quae in illo simulatore ac superbo non habebat
+locum.</p>
+</div1>
+
+<div1>
+        <head>VI. <hi>[Ib. VIII, 22.]</hi> </head>
+<p> <hi>Dimitte mortuos sepelire mortuos
+suos. Mortuos</hi> hic non credentes dixit: <hi>mortuos</hi> autem <hi>suos,</hi> 
+ qui nihilominus sine fide de corpore exirent.</p>
+</div1>
+
+<div1>
+        <head>VII. <hi>[Ib. X, 14.]</hi> </head>
+<p> <hi>Excutite pulverem de pedibus vestris:</hi> aut ad contestationem laboris terreni, quem pro illis
+<pb n="1366"/>
+inaniter suscepissent; aut ut ostenderent usque
+adeo se ab ipsis nihil terrenum quaerere, ut etiam
+pulverem de terra eorum sibi non paterentur adhaerere.</p>
+</div1>
+
+<div1>
+        <head>VIII. <hi>[Ib. X, 16.]</hi> </head>
+<p> <hi>Estote ergo prudentes sicut serpentes:</hi> ad cavendum malum, in capite custodiendo,
+quod est Christus. Nam serpens totum corpus pro
+capite objicit persequenti: vel quod per angustias se
+coarctans veteri tunica exutus innovatur. Quod imitantur
+quibus dictum est, <hi>Intrate per angustam portam <note>(Matth. VII, 13)</note>
+          </hi>;
+cum vetere homine exuuntur.
+Nam si cavendum malum ita moneret, ut violenter resistendum
+esset malis, non supra dixisset, <hi>Mitto vos
+sicut oves in medio luporum.</hi> Simplices autem sicut columbas
+esse voluit, ad nulli nocendum. Nam hoc genus
+avis nullum omnino animalium necat; non solum
+grandium, contra quae vires non habet, sed etiam
+minutissimorum, quibus etiam perparvi passeres
+aluntur. Est autem omnibus irrationalibus animantibus
+una quaedam inter se societas, sicut etiam rationalibus
+sua, id est hominibus, non solum secum, sed
+etiam cum Angelis. Discunt ergo ex similitudine columbarum
+nulli prorsus nocere ad societatem suam
+pertinenti participatione rationis.</p>
+</div1>
+
+<div1>
+        <head>IX. <hi>[Ib. XI, 25.]</hi> </head>
+<p> <hi>Confiteor tibi, Pater, Domine coeli
+et terrae.</hi> Notandum confessionem poni in laude Dei.
+Non enim peccata Dominus confitebatur, quae nulla
+habebat, praesertim quia eum exsultantem hoc dixisse
+alius evangelista commemorat <note>(Luc. X, 21)</note>: quanquam
+et verba ipsa quae dicit non habeant dubitationem,
+quod in laude Dei dicantur. Ergo confessionem
+vocat Scriptura generaliter quidquid manifeste,
+sicut cernitur, enuntiatur. Nam et illud quod
+ait, <hi>Si quis me confessus fuerit coram hominibus, confitebor
+et ego eum coram Patre meo <note>(Matth. X, 32)</note>
+          </hi>;
+vel sicut alibi est, <hi>coram Angelis Dei <note>(Luc. XII, 8)</note>
+          </hi>:
+non utique peccata confitetur qui Christum confitetur.
+Quod si propterea putant aliqui confessionem
+vocari, quia pro crimine objiciatur Christi nomen
+tempore persecutionis; numquid ita etiam Christus
+coram Patre vel coram Angelis hominem qui se
+confessus fuerit confitetur? Est etiam in Ecclesiastico
+ita positum, <hi>Et haec dicetis in confessione, Opera Domini
+universa, quoniam bona valde (Eccli. XXXIX, 20,
+<pb n="1367"/>
+21)</hi>. Quo in loco indubitanter Dei laudes exaggerantur.
+Haec dicta sunt propter imperitiam fratrum, qui
+cum legente lectore audiunt hoc verbum, pectora statim
+tundunt, non attendentes quo loco dicatur, quasi
+non possit nisi peccatorum esse confessio.</p>
+</div1>
+
+<div1>
+        <head>X. <hi>[Ib. XII, 1-8.]</hi> </head>
+<p>Notandum de eo quod illicite factum
+videretur Judaeis, quod discipuli sabbato spicas
+evulsissent, unum exemplum datum regiae potestatis
+de David, alterum sacerdotalis de iis qui per ministerium
+templi sabbatum violant: ut multo minus ad
+ipsum evulsarum sabbato spicarum crimen pertineat,
+qui verus rex et verus sacerdos est, et ideo Dominus
+sabbati.</p>
+</div1>
+
+<div1>
+        <head>XI. <hi>[Ib. XIII, 25-30, 36-43.]</hi> </head>
+<div3>
+          <head>1.</head>
+          <p>
+ <hi>Cum autem dormirent
+homines, venit inimicus ejus et superseminavit zizania
+in medio tritici, et abiit.</hi> Cum negligentius agerent
+praepositi Ecclesiae, aut cum dormitionem mortis acciperent
+Apostoli, venit diabolus et superseminavit
+eos quos malos filios Dominus interpretatur. Sed recte
+quaeritur utrum haeretici sint, an male viventes catholici.
+Possunt enim dici filii mali etiam haeretici,
+quia ex eodem Evangelii semine et Christi nomine
+procreati, pravis opinionibus ad falsa dogmata convertuntur.
+Sed quod dicit eos in medio tritici seminatos,
+quasi videntur illi significari qui unius communionis
+sunt: verumtamen quoniam Dominus agrum
+ipsum, non Ecclesiam, sed hunc mundum interpretatus
+est, bene intelliguntur haeretici, quia non societate
+unius Ecclesiae vel unius fidei, sed societate solius
+nominis christiani in hoc mundo permiscentur
+bonis: ut illi qui in eadem fide mali sunt, palea potius
+quam zizania deputentur; quia palea etiam fundamentum
+ipsum habet cum frumento, radicemque
+communem. In illa plane sagena, qua concluduntur
+et mali et boni pisces <note>(Matth. XIII, 47-50)</note>, non absurde
+mali catholici intelliguntur. Aliud est enim
+mare, quod magis mundum istum significat; aliud
+sagena, quae unius fidei vel unius Ecclesiae communionem
+videtur ostendere. Inter haereticos et malos
+catholicos hoc interest, quod haeretici falsa credunt,
+illi autem vera credentes non vivunt ita ut
+credunt.</p>
+        </div3>
+<div3>
+          <head>2.</head>
+          <p>
+ Solet autem etiam quaeri, schismatici quid ab haereticis
+distent; et hoc inveniri quod schismaticos non
+fides diversa faciat, sed communionis disrupta societas.
+Sed utrum inter zizania numerandi sint, dubitari
+potest. Magis autem videntur spicis corruptis
+esse similiores, sicut scriptum est, <hi>Vento autem corrumpetur
+filius iniquus <note>(Sap. IV, 4)</note>
+          </hi>: vel paleis aristarum
+fractis, vel scissis et de segete abruptis. Quo
+enim altiores, id est, superbiores, eo fragiliores levioresque
+sunt. Nec tamen consequens est ut omnis
+haereticus vel schismaticus corporaliter ab Ecclesia
+separetur. Si enim falsa de Deo credit, vel de aliqua
+parte doctrinae quae ad fidei pertinet aedificationem,
+ita ut non quaerentis cunctatione temperatus sit, sed
+inconcusse credentis, nec omnino scientis opinione
+atque errore discordans, haereticus est, et foris est
+animo, quamvis corporaliter intus videatur. Multos
+<pb n="1368"/>
+enim tales portat Ecclesia, quia non ita defendunt falsitatem
+sententiae suae, ut intentam multitudinem faciant:
+quod si fecerint, tunc pelluntur. Item, quicumque
+invident bonis, ita ut quaerant occasiones
+excludendi eos, aut degradandi; vel crimina sua sic
+defendere parati sunt, si objecta vel prodita fuerint,
+ut etiam conventiculorum segregationes vel Ecclesiae
+perturbationes cogitent excitare; jam schismatici
+sunt, et ab unitate corde discissi, etiamsi non inventis
+occasionibus aut occultatis factis suis Sacramento
+Ecclesiae corporali conversatione socientur.</p>
+        </div3>
+<div3>
+          <head>3.</head>
+          <p>
+ Quapropter illi soli catholici mali recte deputantur,
+qui quamvis vera credant quae ad fidei doctrinam pertinent,
+et si quid forte nesciunt quaerendum existiment,
+et salva pietate discutiant sine aliquo praejudicio
+ipsius veritatis, et bonos vel quos bonos putant
+ament atque honorent quantum possunt; tamen flagitiose
+atque facinorose vivunt, contra quam vivendum
+esse credunt. Tales enim etiamsi prodantur aut
+accusentur, pro disciplina Ecclesiae salutisque suae
+causa correpti, vel a communione suspensi, nullo
+modo sibi recedendum esse a communione catholica
+existimant, quocumque permissi fuerint satisfactionis
+quaerentes locum: et aliquando per poenitentiam
+in frumenta mutantur, sive correpti, sive remoti,
+sive etiam verbo Dei nullo nominatim accusante
+aut increpante perterriti. Aliquando autem etiam sub
+nomine poenitentium ita vivunt ut solent, aut non
+multo minus, quidam etiam amplius; nullo modo
+tamen a catholica unitate discedunt. Quibus ita viventibus
+si mors obrepserit, paleae deputantur usque
+in finem. Hoc etiam ipsi credunt: nam si aliter credunt,
+et inconcusse tenent, jam inter haereticos numerandi
+sunt, putantes omnibus Deum, etiam in
+magna iniquitate usque in finem vitae perseverantibus,
+tantum quia Ecclesiae unitatem, non sincera dilectione
+(nam bene viverent), sed magis poenarum timore
+tenuerunt, veniam daturum. Isti ergo non hoc
+credunt, vel non firmiter opinantur, etsi adhuc forsitan
+quaerunt: sed magis eos decipit spes dilationis,
+dum se diutius victuros putant, et perditos mores aliquando
+in melius mutaturos. Contra quos dicitur: <hi>Ne
+tardes converti ad Deum, neque differas de die in diem:
+subito enim veniet ira ejus, et in tempore vindictae disperdet
+te <note>(Eccli. V, 8, 9)</note>
+          </hi>. Illi enim convertuntur, qui
+recte vivere incipiunt; hoc est enim ad Deum redire:
+qui autem concupiscentias suas perseveranter sequuntur,
+dorsum quodammodo habent ad Deum,
+quamvis in unitate constituti saepe illum retorto collo
+conentur aspicere. Ergo et isti, ut ait Propheta, <hi>caro
+sunt, et spiritus ambulans et non revertens <note>(Psal. LXXVII,
+39)</note>
+          </hi>. Sed tamen, ut dictum est, propter eamdem fidem
+atque unitatem Ecclesiae, neque inter zizania,
+quoniam illa extra radicata sunt, neque inter aristarum
+paleam, quae se etiam frumentis audet aspera
+<pb n="1369"/>
+dissensione et fragili elatione superimponere, sed
+quamvis subjectam frumentis, tamen inter paleam
+quae ultima ventilatione separanda est, numerantur.</p>
+        </div3>
+<div3>
+          <head>4.</head>
+          <p>
+ Boni autem catholici sunt, qui et fidem integram
+sequuntur et mores bonos: quod autem ad fidei doctrinam
+pertinet, ita quaerunt, si quid quaerendum habent,
+ut absit concertatio periculosa, vel quaerenti,
+vel ei cum quo quaeritur, vel eis qui disserentes audiunt.
+Ita autem docent, si quid docendum habent,
+ut usitata et confirmata securissime, et fidentissime,
+et lenissime, ut possunt, insinuent: inusitata vero,
+etiamsi veritatis manifestatione liquidissima perceperunt,
+quaerendi potius quam praecipiendi aut affirmandi
+modo, propter audientis infirmitatem. Si enim
+tantum habet pondus aliquod verum, ut vires discentis
+excedat; suspendendum est ut extendat crescentem,
+non imponendum ut obterat parvulum. Inde est
+illud Domini: <hi>Sed Filius hominis cum venerit, putas,
+inveniet fidem in terra <note>(Luc. XVIII, 8)</note>
+          </hi>? Aliquando autem
+et occultandum est, sed cum spe hortatoria, ut non
+faciat desperatio frigidiores, sed desiderium capaciores.
+Inde est illud ejusdem Domini: <hi>Multa habeo
+vobis dicere; sed non potestis portare modo <note>(Joan. XVI,
+12)</note>
+          </hi>. Quod vero ad mores pertinet, hoc bene et breviter
+dicitur: aut confligendum est cum amore temporalium
+bonorum, ut non vincat; aut etiam edomitus
+subditusque esse debet, ut cum surgere coeperit, facile
+reprimatur; aut ita exstinctus, ut se omnino nulla ex
+parte commoveat. Ex quo fit ut etiam ipsam mortem
+propter veritatem alii fortiter obeant, alii aequanimiter,
+alii libenter. Quae tria genera fructus sunt fertilis
+terrae, triceni, et sexageni, et centeni <note>(Matth. XIII, 8,
+23)</note>. In horum aliquo genere inveniendus est tempore
+mortis suae, si quis de hac vita recte cogitat emigrare.</p>
+        </div3>
+<div3>
+          <head>5.</head>
+          <p>
+ Toleranda sunt autem non solum zizania usque ad
+messem, quae cum diabolus aspersis pravis erroribus
+falsisque opinionibus superseminasset, hoc est, praecedente
+nomine Christi haereses superjecisset, magis
+ipse latuit atque occultissimus factus est; hoc est
+enim, <hi>Et abiit:</hi> sed etiam palea usque ad ventilationem.
+Nec probatur fortius gravitas frumentorum,
+nisi paleae perturbationibus, quas qui comprimere
+non potuerit veritate defensa, cesserit unitate servata.
+Quanquam in hac parabola Dominus, sicut in
+ejus expositione conclusit, non quaedam, sed omnia
+scandala, et eos qui faciunt iniquitatem, zizaniorum
+nomine significasse intelligitur.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>XII. <hi>[Ib. XIII, 26-30.]</hi> </head>
+<div3>
+          <head>1.</head>
+          <p>
+ <hi>Cum autem crevisset herba, et
+fructum fecisset, tunc apparuerunt et zizania.</hi> Cum
+enim spiritualis homo esse coeperit dijudicans omnia <note>(I Cor. II, 15)</note>,
+tunc ei errores incipiunt apparere.
+Servi autem dixerunt ei: <hi>Vis, imus, et colligimus ea?</hi> 
+Utrum ipsi sunt servi, quos paulo post messores appellat?
+an quia in expositione parabolae messores dixit
+esse Angelos, nec quisquam facile dicere ausus fuerit
+Angelos nescisse quis zizania superseminaverit, et ea
+tunc apparuisse Angelis cum herba fructum fecisset;
+magis oportet intelligi homines ipsos fideles servorum
+<pb n="1370"/>
+nomine hoc loco significatos, quos etiam bonum semen
+dicit? Nec mirum si et bonum semen ipsi dicuntur,
+et servi patrisfamilias: sicut et de se ait, quod
+et ipse sit janua, ipse sit pastor <note>(Joan. X, 7, 11)</note>. Ex
+diversis enim significationibus una res etiam plures et
+diversas similitudines recipit. Praesertim quia cum ad
+servos loqueretur, non ait, <hi>In tempore messis</hi> dicam
+vobis, <hi>Colligite primum zizania;</hi> sed <hi>Dicam,</hi> inquit, <hi>messoribus.</hi> 
+ Unde intelligitur colligendorum zizaniorum
+ad comburendum alia esse ministeria, nec quemquam
+Ecclesiae filium debere arbitrari ad se hoc officium
+pertinere.</p>
+        </div3>
+<div3>
+          <head>2.</head>
+          <p>
+ Cum igitur esse quisque spiritualis coeperit, cognoscit
+errores haereticorum, et omnino dijudicat atque
+discernit quidquid audierit aut legerit abhorrere a
+regula veritatis: sed donec in eisdem spiritualibus
+perficiatur, et quodammodo maturescat in fructum
+quem herba dedit, potest eum movere, quare sub
+nomine christiano tam multae haereticorum exstiterint
+falsitates. Inde est quod servi dicunt, <hi>Nonne bonum
+semen seminasti in agro tuo? unde ergo habet zizania?</hi> 
+Deinde cum cognoverit hanc excogitasse fraudem
+diabolum, cum contra tanti nominis auctoritatem
+nihil se valere sentiret, ut fallacias suas eodem nomine
+obtegeret; potest ei suboriri voluntas, ut tales
+homines de rebus humanis auferat, si aliquam temporis
+habeat facultatem; sed utrum facere debeat,
+justitiam Dei consulit utrum hoc ei praecipiat, vel
+permittat, et hoc officium esse hominum velit: hinc
+est quod servi dicunt, <hi>Vis, imus, et colligimus ea?</hi> 
+Quibus quia Veritas ipsa respondet, non ita hominem
+constitutum esse in hac vita, ut certus esse possit
+qualis quisque futurus sit postea, cujus in praesentia
+cernit errorem, vel quid etiam error ejus conferat
+ad provectum bonorum; non esse tales auferendos de
+hac vita, ne cum malos conatur interficere, bonos
+interficiat, quod forte futuri sunt; aut bonis obsit,
+quibus et inviti forte utiles sunt: sed tunc opportune
+fieri, cum jam in fine non restat vel tempus commutandae
+vitae, vel proficiendi ad veritatem ex occasione
+atque comparatione alieni erroris; tunc autem hoc
+non ab hominibus, sed ab Angelis fieri: inde est
+quod respondet paterfamilias, <hi>Non; ne forte colligentes
+zizania, eradicetis simul et triticum: sed in tempore
+messis dicam messoribus,</hi> et caetera. Atque hoc
+modo eos patientissimos et tranquillissimos reddit.</p>
+        </div3>
+<div3>
+          <head>3.</head>
+          <p>
+ Quaeri autem potest, quod ait, <hi>Alligate fasciculos
+ad comburendum,</hi> cur non unum fascem, aut unum
+acervum zizaniorum fieri dixit? Nisi forte propter
+varietatem haereticorum, et non solum a tritico, verum
+etiam a seipsis discrepantium, ipsa uniuscujusque
+haereseos propria conventicula, in quibus singillatim
+sua communione devincti sunt, nomine fasciculorum
+designavit: ut jam tunc incipiant alligari ad comburendum,
+cum a catholica communione segregati suas
+proprias quasi ecclesias habere coeperint; ut combustio
+earum sit in fine saeculi, modo alligatio fasciculorum.
+Sed si ita esset, non jam multae resipiscendo,
+et in Catholicam remeando ab errore desciscerent.
+<pb n="1371"/>
+Quapropter et alligatio fasciculorum in
+fine futura est, ut non confuse, sed pro modo perversitatis
+suae uniuscujusque erroris pertinacia puniatur.</p>
+        </div3>
+<div3>
+          <head>4.</head>
+          <p>
+ <hi>Ne forte colligentes zizania, eradicetis simul et triticum.</hi> 
+Utrum quia etiam boni cum adhuc infirmi sunt,
+opus habent in quibusdam malorum commixtione,
+sive ut per eos exerceantur, sive ut eorum comparatione
+magna illis exhortatio fiat, ut nitantur ad melius,
+quibus sublatis altitudo charitatis quasi evulsa
+marcescat, quod est eradicari? Nam sic ait Apostolus: <hi>Ut in charitate radicati et fundati, possitis comprehendere <note>(Ephes. III, 17, 18)</note>
+          </hi>.
+An forte ideo simul
+eradicatur triticum, cum auferuntur zizania, quia
+multi primo zizania sunt, et postea triticum fiunt?
+qui nisi patienter, cum mali sunt, tolerentur, ad laudabilem
+mutationem non perveniunt: itaque si evulsi
+fuerint, simul eradicatur et triticum, quod futuri
+essent, si eis parceretur.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>XIII. <hi>[Ib. XIII, 45, 46.]</hi> </head>
+<p> <hi>Simile est regnum coelorum
+homini negotiatori quaerenti bonas margaritas. Inventa
+autem una pretiosa margarita, abiit et vendidit omnia
+quae habuit, et emit eam.</hi> Quaestio est cur a numero
+plurali ad singularem transierit, ut cum quaerat homo
+bonas margaritas, unam inveniat pretiosam, quam
+venditis omnibus quae habet, emat. Aut ergo iste bonos
+homines quaerens, cum quibus utiliter vivat, invenit
+unum prae omnibus sine peccato, mediatorem
+Dei et hominum, hominem Christum Jesum <note>(I Tim.
+II, 5)</note>: aut praecepta quaerens, quibus servatis cum
+hominibus recte conversetur, invenit dilectionem
+proximi, in quo uno dicit Apostolus omnia contineri;
+ut, <hi>Non occides, non moechaberis, non furaberis, non
+falsum testimonium dices, et si quod est aliud mandatum,</hi> 
+singulae margaritae sint, quae <hi>in hoc sermone recapitulantur,
+Diliges proximum tuum tanquam teipsum <note>(Rom.
+XIII, 8, 9)</note>
+          </hi>. Aut bonos intellectus homo quaerit, et invenit
+unum illud quo cuncti continentur, in principio
+Verbum, et Verbum apud Deum, et Verbum Deum <note>(Joan. I, 1)</note>,
+lucidum candore veritatis, et solidum
+firmitate aeternitatis, et undique sui simile pulchritudine
+divinitatis, qui Deus, penetrata carnis testudine,
+intelligendus est. Ille enim ad margaritam ipsam jam
+pervenerat, quae in tegumentis mortalitatis, quasi
+concharum obstaculo, in profundo hujus saeculi, atque
+inter duritias saxeas Judaeorum aliquando latuerat:
+ille ergo ad ipsam margaritam jam pervenerat,
+qui ait, <hi>Et si noveramus Christum secundum carnem,
+sed nunc jam non novimus <note>(II Cor. V, 16)</note>
+          </hi>. Nec ullus
+omnino intellectus margaritae nomine dignus est, nisi
+ad quem discussis omnibus carnalibus tegminibus
+pervenitur, quibus sive per verba humana, sive per
+similitudines circumpositas operitur, ut purus et solidus
+et nusquam a se dissonans, certa ratione cernatur.
+Quos tamen omnes veros et firmos et perfectos
+intellectus unus ille continet, per quem facta sunt
+omnia, quod est Verbum Dei <note>(Joan. I, 3)</note>. Quodlibet
+autem horum trium sit, vel si aliquid aliud occurrere
+potuerit, quod margaritae unius et pretiosae nomine
+<pb n="1372"/>
+bene significetur, pretium ejus est nos ipsi: qui ad
+eam possidendam non sumus liberi, nisi omnibus
+pro nostra liberatione contemptis, quae temporaliter
+possidentur. Venditis enim rebus nostris, nullum earum
+majus accipimus pretium, quam nos ipsos; quia
+talibus implicati, nostri non eramus: ut rursus nos
+ipsos pro illa margarita demus, non quia tanti valeamus,
+sed quia plus dare non possumus.</p>
+</div1>
+
+<div1>
+        <head>XIV. <hi>[Ib. XIII, 15.]</hi> </head>
+<div3>
+          <head>1.</head>
+          <p>
+ <hi>Et oculos suos clauserunt, nequando
+oculis videant:</hi> id est, ipsi causa fuerunt ut Deus
+eis oculos clauderet. Alius enim evangelista dicit, <hi>Excaecavit oculos eorum.</hi> 
+ Sed utrum ut nunquam videant?
+an vero ne vel sic aliquando videant, caecitate
+sua sibi displicentes, et se dolentes, et ex hoc humiliati
+atque commoti ad confitenda peccata sua, et pie
+quaerendum Dominum? Sic enim Marcus hoc dicit, <hi>Nequando convertantur, et dimittantur eis peccata 
+ <note>(Marc.
+IV, 12)</note>
+          </hi>. Ubi intelliguntur peccatis suis meruisse ut
+non intelligerent, et tamen hoc ipsum misericorditer
+eis factum, ut peccata sua cognoscerent, et conversi
+veniam mererentur. Quod autem Joannes hunc locum
+ita dicit. « Propterea non poterant credere, quia iterum
+dixit Isaias, Excaecavit oculos eorum, et induravit
+cor eorum, ut non videant oculis, et intelligant
+corde, et convertantur, et sanem eos »  <note>(Joan. XII, 39,
+40)</note>; adversari videtur huic sententiae, et omnino cogere
+ut quod hic dictum est, <hi>Nequando oculis videant,</hi> 
+non accipiatur, Ne vel sic aliquando oculis videant,
+sed prorsus, Ut non videant: quandoquidem aperte
+ita dicit, <hi>Ut oculis non videant.</hi> Et quod ait, <hi>Propterea
+non poterant credere,</hi> satis ostendit non ideo factam
+illam excaecationem, ut ea commoti et dolentes se
+non intelligere, converterentur aliquando per poenitentiam;
+non enim possent hoc facere, nisi prius crederent,
+ut credendo converterentur, conversione sanarentur,
+sanitate intelligerent: sed ideo potius excaecatos,
+ut non crederent. Dicit enim apertissime, <hi>Propterea non poterant credere.</hi> </p>
+        </div3>
+<div3>
+          <head>2.</head>
+          <p>
+ Quod si ita est, quis non exsurgat in defensionem
+Judaeorum, ut eos extra culpam fuisse proclamet,
+quod non crediderunt? Propterea enim non poterant
+credere, quia excaecavit oculos eorum. Sed quoniam
+potius Deus extra culpam debet intelligi, cogimur fateri
+aliis quibusdam peccatis ita eos excaecari meruisse:
+qua tamen excaecatione non potuerunt credere.
+Verba enim Joannis ista sunt: <hi>Propterea non poterant
+credere, quia iterum dixit Isaias, Excaecavit oculos eorum.</hi> 
+Frustra itaque conamur intelligere, ideo fuisse
+caecatos, ut converterentur, cum ideo converti non
+poterant, quia non credebant, et ideo credere non
+poterant, quia excaecati erant. An forte non absurde
+dicimus, quosdam Judaeorum fuisse sanabiles; sed
+tanto tamen superbiae tumore periclitatos, ut eis expedierit
+primo non credere, et ad hoc fuisse caecatos,
+ut non intelligerent Dominum loquentem per parabolas,
+<pb n="1373"/>
+quibus non intellectis, non in eum crederent,
+non credentes autem, cum caeteris desperatis crucifigerent
+eum; atque ita post ejus resurrectionem converterentur,
+quando jam de reatu mortis Domini amplius
+humiliati, vehementius diligerent a quo sibi
+tantum scelus dimissum esse gauderent: quoniam
+tanta erat eorum superbia, ut tali humiliatione esset
+dejicienda? Quod incongrue dictum esse quilibet arbitretur,
+si non ita contigisse in Actibus Apostolorum
+manifestissime legerit <note>(Act. II, 37)</note>. Non ergo abhorret
+quod ait Joannes, <hi>Propterea non poterant credere,
+quia excaecavit oculos eorum ut non videant,</hi> ab ea
+sententia qua intelligimus ideo excaecatos ut converterentur;
+hoc est, ideo eis per obscuritates parabolarum
+occultatas sententias Domini, ut post ejus resurrectionem
+salubriore poenitentia resipiscerent: quia
+per obscuritatem sermonis excaecati, dicta Domini non
+intellexerunt, et ea non intelligendo, non in eum
+crediderunt, non credendo crucifixerunt eum; atque
+ita post ejus resurrectionem miraculis, quae in ejus
+nomine fiebant, exterriti, majore criminis reatu compuncti
+sunt et prostrati ad poenitentiam, deinde accepta
+indulgentia ad obedientiam, flagrantissima dilectione
+conversi.</p>
+        </div3>
+<div3>
+          <head>5.</head>
+          <p>
+ Nam quibus non profuit illa caecitas ad conversionem,
+quae per linguam parabolarum fiebat, ita de illis
+propheta alio loco dicit, quod etiam Apostolus
+commemoravit cum de obscuritate linguarum ageret: <hi>In aliis linguis, et in aliis labiis loquar populo huic, et
+nec sic me exaudient, dicit Dominus 
+ <note>(I Cor. XIV, 21;
+Isai. XXVIII, 11)</note>
+          </hi>. Non enim diceretur, <hi>Nec sic me exaudient,</hi> 
+nisi ad hoc fieret, ut vel sic exaudirent: id
+est, ut eis ad humilem confessionem, et sollicitam
+inquisitionem, et obedientem conversionem, et ferventem
+dilectionem valeret. Est vero etiam ista ratio
+medicinae corporalis. Nam et pleraque medicamenta
+prius affligunt ut sanent, et ipsa collyria quae ad oculos
+pertinent, si ea opus est intrinsecus infundi, nisi
+sensum videndi prius claudant et perturbent, prodesse
+non possunt.</p>
+        </div3>
+<div3>
+          <head>4.</head>
+          <p>
+ Nec moveat quod idem propheta dicit, <hi>Nisi credideritis,
+non intelligetis <note>(Isai. VII, 9, sec. LXX)</note>
+          </hi>; quasi
+contrarium sit quod Joannes ait, <hi>Propterea non poterant
+credere, quia excaecavit oculos eorum;</hi> id est, quia
+illae parabolae ita dicebantur, ut ab eis non possent intelligi.
+Dicit enim aliquis: Si ut intelligerent credere
+debebant, quomodo propterea non poterant credere,
+quia non intelligebant, hoc est, <hi>quia excaecavit oculos
+eorum?</hi> Sed quod ait Isaias, <hi>Nisi credideritis, non intelligetis,</hi> 
+de illa intelligentia dictum est, in qua semper
+manebitur, rerum ineffabilium: cum autem dicitur
+quod credatur, nisi quod dicitur intelligatur, credi
+non potest. Intelligenda sunt ergo dicta, ut credantur
+quae dici potuerunt: credenda autem quae dici potuerunt,
+ut intelligantur quae dici non possunt.
+</p>
+        </div3>
+      </div1>
+
+<div1>
+        <head>XV. <hi>[Ib. XIII, 34.]</hi> </head>
+<p> <hi>Et sine parabolis non loquebatur
+eis.</hi> Non quia nihil proprie locutus est, sed quia nullum
+fere sermonem explicavit, ubi non aliquid per
+parabolam significavit, quamvis in eo aliqua et proprie
+<pb n="1374"/>
+dixerit: ita ut saepe inveniatur totus sermo ejus
+parabolis explicatus, totus autem proprie dictus nullus
+inveniatur. Explicatos autem sermones dico,
+quando ex aliqua occasione rerum incipit loqui quousque
+terminet quidquid ad ipsam rem pertinet, et
+transeat ad aliud. Nonnunquam sane alius evangelista
+contexit, quod alius diversis temporibus dictum indicat.
+Non enim omnimodo secundum rerum gestarum
+ordinem, sed secundum suae quisque recordationis
+facultatem, narrationem quam exorsus est ordinavit.</p>
+</div1>
+
+<div1>
+        <head>XVI. <hi>[Ib. XIII, 51, 52, 44.]</hi> </head>
+<p> <hi>Intellexistis haec omnia?
+Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus
+in regno coelorum, similis est homini patrifamilias, qui
+profert de thesauro suo nova et vetera.</hi> Utrum ista conclusione
+exponere voluit quem dixerit thesaurum in
+agro absconditum: quoniam sanctae Scripturae intelliguntur,
+quae nomine duorum Testamentorum, Novi
+et Veteris, concluduntur; quemadmodum apud alium
+evangelistam, gladium bis acutum tali conclusione
+videtur exponere <note>(Apoc. I, 16)</note>? An quia in parabolis
+ista locutus est; et cum quaesisset ab eis utrum intellexissent,
+responderunt se intellexisse; fortasse ista
+similitudine ultima patrisfamilias proferentis de thesauro
+suo nova et vetera, ostendere voluit eum doctum
+habendum esse in Ecclesia, qui etiam Scripturas
+veteres parabolis explicatas intellexerit, ab istis
+novis accipiens regulas? Quia et ista Dominus per parabolas
+enuntiavit, quamvis ipse Christus esset finis
+illorum; id est, ut in eo illa vetera complerentur:
+ut si ipse in quo illa complentur et manifestantur,
+per parabolas adhuc loquitur, donec ejus passio velum
+discindat, ut nihil sit occultum quod non reveletur;
+multo magis illa quae ad commendandam tantam
+salutem tam longe de illo scripta sunt, parabolis
+operta esse noverimus: quae cum Judaei ad litteram
+acciperent, noluerunt esse docti in regno coelorum,
+neque transire ad Christum, ut auferretur velamen
+quod supra cor eorum positum est.</p>
+</div1>
+
+<div1>
+        <head>XVII. <hi>[Ib. XIII, 55 et 56.]</hi> </head>
+<div3>
+          <head>1.</head>
+          <p>
+ <hi>Fratres ejus, Jacobus, et
+Joseph, et Simon, et Judas, et sorores ejus, nonne omnes
+apud nos sunt? unde ergo huic omnia ista? Et scandalizabantur
+in eo.</hi> Fratres apud Judaeos dici solere cognatos
+usque adeo probatur, ut non solum ex propinquo
+generationis gradu, sicut sunt filii fratrum et sororum,
+qui etiam apud nos usitatissime fratres dicuntur; sed
+etiam avunculus et sororis filius, sicut sibi erant Jacob
+et Laban, fratres appellati inveniantur <note>(Gen. XXIX,
+15)</note>. Non ergo mirum est dictos esse fratres Domini
+ex materno genere quoscumque cognatos; cum etiam
+ex cognatione Joseph dici potuerint fratres ejus ab
+eis, qui illum patrem Domini esse arbitrabantur.</p>
+        </div3>
+<div3>
+          <head>2.</head>
+          <p>
+ Generalem justitiam non violat quis, nisi libidine
+transgressus fuerit aut placitum societatis humanae,
+<pb n="1375"/>
+sicut est furtum, rapina, adulterium, incestus, et hujusmodi;
+aut naturam, sicut est contumelia, caedes,
+homicidium, concubitus masculorum vel pecorum;
+aut modum in concessis, sicut est superbum amplius
+verberare quam oportet, vel superfluum edere vel bibere
+amplius quam oportet, cum ipsa conjuge concumbere
+amplius quam oportet, et similia.</p>
+        </div3>
+<div3>
+          <head>3.</head>
+          <p>
+ Bene intelligitur Spiritus sanctus ideo primum
+linguarum donum dedisse hominibus, quae pacto et
+placito hominum institutae sunt, et forinsecus per
+sensus corporis consuetudine audiendi discuntur, ut
+eis ostenderet quam facile posset sapientes facere per
+sapientiam Dei, quae in eis interna est.</p>
+        </div3>
+<div3>
+          <head>4.</head>
+          <p>
+ Item voluntas Verbi sempiterni stabilis est semper,
+quia simul habet omnia: nostra autem voluntas
+ideo non stat, quia non habet simul omnia; ideo modo
+hoc, modo illud volumus. Item sic fuerunt in illo
+Verbo omnia quae facta sunt, et ipsa susceptio hominis
+sic ab eo praecognita est, quomodo si pictor velit
+pingere totam domum, et cogitet vel noverit locum
+ubi etiam se pingere debeat: totum in arte habet, et
+in praeparatione, et in voluntate, quamvis certis et
+suis quaeque temporibus explicet. Sic omnis creatura
+<pb n="1376"/>
+et ipse homo qui ejusdem Sapientiae personam mystice
+et inenarrabili susceptione gestaturus erat, in
+ipsa sapientia tanquam Dei arte sempiterna semper
+erat, quamvis suis quaeque temporibus efficiat, quae
+pertendit a fine usque ad finem fortiter, et disponit
+omnia suaviter atque in se manens innovat omnia <note>(Sap. VIII, 1, et VII, 27)</note>.</p>
+        </div3>
+<div3>
+          <head>5.</head>
+          <p>
+ Item quomodo quis velit velle mori, si sic velle
+mori pervenerat, qui jam habet sanam fidem et videt
+quo sibi perveniendum sit, ad hoc jam proficit,
+ut libenter de hac vita discedat. Non enim hoc est videre
+quo sibi perveniendum sit, quod est etiam amare
+illud, et ibi jam esse desiderare: quod in cujus animo
+effectum fuerit, necesse est ut libenter moriatur.
+Frustra itaque dicunt quidam, qui jam sanam fidem
+tenent, ideo se nolle mori ut proficiant, cum ipse
+profectus eorum in eo profectu sit, ut mori velint.
+Si ergo verum loqui volunt, non dicant, Ideo mori
+nolo, ut proficiam; sed, Ideo mori nolo, quia parum
+profeci. Itaque mori nolle fidelibus non consilium est
+ut proficiant, sed indicium quod parum profecerint.
+Proinde quod nolunt, ut perfecti sint; velint, et perfecti
+sunt.
+
+</p>
+        </div3>
+      </div1>
+</body>
+  </text>
+</TEI>

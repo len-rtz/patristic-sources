@@ -1,0 +1,93 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Notitia 2</title>
+              <author ref="http://viaf.org/viaf/27422228">Gennadius Massiliensis<date>-c.492</date> </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date/>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 61</title>
+           <idno>GenMas.Notiti33</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+<div1>
+        <head>Notitia 2</head>
+
+<pb n="0935"/>
+<p>
+          <pb n="0935D"/> <hi>Victorinus rhetor Massiliensis, ad filii sui Etherei</hi> 
+<note>(Al. Etherii)</note> <hi>personam commentatus est in Genesin, id
+est a principio libri usque ad obitum Abrahae patriarchae.
+Quatuor versuum edidit libros Christiano quidem
+et pio sensu: sed ut pote saeculari litteratura homo occupatus,
+et nullius magisterio in divinis Scripturis exercitatus,
+<pb n="0936D"/>
+levioris ponderis sententias figuravit. Morituri
+Theodosio et Valentiniano regnantibus.</hi> </p>
+<p> <hi>Plura de eo agunt Honorius in Catalogo; et ex recentioribus
+Sixtus, Eisingrenius, Possevinus et alii
+sub Theodosio Juniore et Valentiniano III claruisse
+referunt.</hi> 
+
+</p>
+      </div1>
+</body>
+  </text>
+</TEI>

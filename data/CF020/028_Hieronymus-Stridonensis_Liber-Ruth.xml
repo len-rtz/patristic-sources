@@ -1,0 +1,404 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Liber Ruth</title>
+              <author ref="http://viaf.org/viaf/95147024">Hieronymus Stridonensis<date>340-420</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1845</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 28</title>
+           <idno>HieStr.LibRut</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  <note>XML corrections by Jan Ctibor in 2023: isolated heads moved to corresponding divs</note>
+      </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>CAPITULA LIBRI RUTH.</head>
+<div3>
+          <head>I. </head>
+<p>
+            <pb n="0541C"/> <hi>Facta fame in terra Judae, Elimeleth de Bethleem
+Juda abiit cum uxore sua Noemi, et duobus filiis in
+terra Moabitide causa victualium, quo mortuo, filii
+ejus accipientes uxores et ipsi mortui sunt.</hi> </p>
+        </div3>
+<div3>
+          <head>II.</head>
+ <hi>Noemi revertentem ad patriam, Ruth nurus deserere
+<pb n="0541D"/>
+noluit, quae perveniens in Bethleem Juda, perrexit
+in agrum Booz ad colligendas spicas.</hi> </div3>
+<div3>
+          <head>III.</head>
+ <hi>Booz dat licentiam Ruth, ut de agro ejus colligat
+spicas, et hora vescendi cum messoribus comedat,
+pro eo quod audierat, eam bene egisse circa socrum
+suam.</hi> </div3>
+<div3>
+          <head>IV.</head>
+ <hi>Inquirenti Noemi indicat Ruth, quale in agro Booz
+fecerit opus.</hi> </div3>
+<div3>
+          <head>V.</head>
+ <hi>Commonita Ruth a socru sua, jungitur puellis Booz
+iterum ad operandum.</hi> 
+<pb n="0542C"/>
+</div3>
+<div3>
+          <head>VI. </head>
+ <hi>Reversa Ruth denuo ad socrum suam, monetur
+ab ea quemadmodum debeat Booz conjugio sociari.</hi> </div3>
+<div3>
+          <head>VII.</head>
+ <hi>Ruth instructa, collocavit se nocte ad pedes Booz,
+qui ab ejus coitu abstinuit.</hi> 
+<pb n="0542D"/>
+</div3>
+<div3>
+          <head>VIII. </head>
+ <hi>Booz praesentibus decem viris in porta Bethleem,
+consuluit propinquiorem se de nuptiis.</hi> </div3>
+<div3>
+          <head>IX.</head>
+ <hi>Solvit propinquus secundum morem calciamentum
+suum, et dedit Booz, cessitque jure propinquitatis,
+et Booz Ruth accepit uxorem, natusque illi est filius,
+quem Noemi socrus nutriendum suscepit.</hi> </div3>
+<div3>
+          <head>X.</head>
+ <hi>Vocatum est nomen filii Obed, hic est pater Isai patris
+David, deinde sequuntur generationes a Phares
+usque ad David.</hi> 
+</div3>
+      </div1>
+
+<div1>
+        <head> INCIPIT LIBER RUTH.</head>
+
+<pb n="0543"/>
+<p divs_removed="true">
+          <pb n="0543A"/>[C. I, Cap. I.] In diebus unius judicis, quando judices
+praeerant, facta est fames in terra. Abiitque
+homo de Beth-Leem Juda, ut peregrinaretur in regione
+Moabitide, cum uxore sua ac duobus liberis.
+Et ipse vocabatur Elimelech, et uxor ejus Noemi,
+et duo filii, alter Maalon, et alter Chilion, Ephrathaei
+de Beth-Leem Juda. Ingressique regionem
+Moabitidem, morabantur ibi. Et mortuus est Elimelech
+maritus Noemi [h. Nahmi], remansitque
+ipsa cum filiis. Qui acceperunt uxores Moabitidas,
+quarum una vocabatur Orpha [h. Harpa], et altera
+Ruth. Manseruntque ibi decem annis, et ambo mortui
+sunt, Maalon videlicet et Chilion: remansitque
+mulier orbata duobus liberis ac marito. Et surrexit
+ut in patriam pergeret, cum utraque nuru sua, de
+<pb n="0543B"/>
+regione Moabitide: audierat enim quod respexisset
+Dominus populum suum, et dedisset eis escas.
+Egressa est itaque de loco peregrinationis suae, cum
+utraque nuru, et jam in via posita revertendi in terram
+Juda, dixit ad eas: Ite in domum matris vestrae,
+faciat Dominus vobiscum misericordiam, sicut
+fecistis cum mortuis et mecum. Det vobis invenire
+requiem in domibus virorum, quos sortiturae
+estis. [C. II.] Et osculata est eas. Quae elevata voce
+flere coeperunt, et dicere: Tecum pergemus ad populum
+tuum. Quibus illa respondit: Revertimini,
+filiae mi [ <hi>Vulg.</hi> meae], cur venitis mecum? num ultra
+habeo filios in utero meo, ut viros ex me sperare
+possitis? Revertimini, filiae mi, et abite: jam enim
+senectute confecta sum, nec apta vinculo conjugali:
+<pb n="0543C"/>
+etiam si possem hac nocte concipere, et parere filios,
+si eos exspectare velitis, donec crescant, et
+annos impleant pubertatis, ante eritis vetulae quam
+nubatis. Nolite, quaeso, filiae mi: quia vestra angustia
+me magis premit, et egressa est manus Domini
+contra me. Elevata igitur voce, rursum flere coeperunt:
+Orpha osculata est socrum, ac reversa: Ruth
+adhaesit socrui suae. Cui dixit Noemi: En reversa
+est cognata tua ad populum suum, et ad deos suos:
+<pb n="0544A"/>
+vade cum ea. Quae respondit: Ne adverseris mihi
+ut relinquam te et abeam: quocumque perrexeris,
+pergam: ubi morata fueris, et ego pariter morabor.
+Populus tuus populus meus, et Deus tuus Deus meus.
+Quae te morientem terra susceperit, in ea moriar:
+ibique locum accipiam sepulturae. Haec mihi faciat
+Dominus, et haec addat, si non sola mors me et te
+separaverit. Videns ergo Noemi quod obstinato Ruth
+animo decrevisset secum pergere, adversari noluit,
+nec ad suos ultra reditum persuadere: profectaeque
+sunt simul, et venerunt in Beth-Leem. Quibus urbem
+ingressis, velox apud cunctos fama percrebuit:
+dicebantque mulieres: Haec est illa Noemi. Quibus
+ait: Ne vocetis me Noemi (id est, pulchram), sed vocate
+me Mara (hoc est, amaram), quia amaritudine
+<pb n="0544B"/>
+me valde replevit Omnipotens. Egressa sum plena,
+et vacuam reduxit me Dominus. Cur ergo vocatis me
+Noemi, quam Dominus humiliavit, et afflixit omnipotens?
+Venit igitur Noemi cum Ruth Moabitide
+nuru sua, de terra peregrinationis suae: ac reversa
+est in Beth-Leem, quando primum hordea metebantur.
+
+        </p>
+        
+<p>
+          <head>[Cap. II.]</head> Erat autem viri Elimelech consanguineus,
+homo potens, et magnarum opum, nomine
+Booz. Dixit Ruht [ <hi>Vulg. tac.</hi> Ruht] Moabitis ad socrum
+suam: Si jubes, vadam in agrum et colligam
+spicas, quae metentium fugerint manus, ubicumque
+clementis in me patris familias reperero gratiam.
+Cui illa respondit: Vade, filia mi: Abiit itaque
+et colligebat spicas post terga metentium. Accidit
+<pb n="0544C"/>
+autem ut ager ille haberet dominum Booz
+[ <hi>Vulg. add.</hi> nomine], qui erat de cognatione Elimelech.
+Et ecce ipse veniebat de Beth-Leem, dixitque
+messoribus: Dominus vobiscum. [C. III.] Qui responderunt
+ei: Benedicat tibi Dominus. Dixitque
+Booz juveni, qui messoribus praeerat: Cujus est haec
+puella? Cui respondit: Haec est Moabitis, quae venit
+cum Noemi, de regione Moabitide, et rogavit ut
+spicas colligeret remanentes, sequens messorum vestigia,
+<pb n="0545A"/>
+et de mane usque nunc stat in agro, et ne ad
+momentum quidem domum reversa est. Et ait
+Booz ad Ruth: Audi, filia, ne vadas ad colligendum
+in alterum agrum, nec recedas ab hoc
+loco: sed jungere puellis meis, et ubi messuerint,
+sequere. Mandavi enim pueris meis, ut
+nemo tibi molestus sit: sed etiam si sitieris, vade
+ad sarcinulas, et bibe aquas, de quibus et pueri bibunt.
+Quae cadens in faciem suam et adorans super
+terram, dixit ad eum: Unde mihi hoc, ut invenirem
+[ <hi>Vulg.</hi> invenerim] gratiam ante oculos tuos, et nosse
+me dignareris peregrinam mulierem? Cui ille respondit:
+Nuntiata sunt mihi omnia, quae feceris socrui
+tuae post mortem viri tui, et quod dereliqueris parentes
+tuos, et terram in qua nata es, et veneris ad
+<pb n="0545B"/>
+populum, quem antea nesciebas. Reddat tibi Dominus
+pro opere tuo, et plenam mercedem recipias a
+Domino Deo Israel, ad quem venisti, et sub cujus
+confugisti alas. Quae ait: Inveni gratiam apud oculos
+tuos, domine mi, qui consolatus es me, et locutus
+es ad cor ancillae tuae, quae non sum similis unius
+puellarum tuarum. Dixitque ad eam Booz: Quando
+hora vescendi fuerit, veni huc, et comede panem,
+et intinge bucellam tuam in aceto. Sedit itaque ad
+messorum latus, et congessit polentam sibi, comeditque
+et saturata est, et tulit reliquias. Atque inde
+surrexit ut spicas ex more colligeret. Praecepit autem
+Booz pueris suis, dicens: Etiamsi vobiscum
+metere voluerit, ne prohibeatis eam, et de vestris
+quoque manipulis projicite de industria, et remanere
+<pb n="0545C"/>
+permittite, ut absque rubore colligat, et colligentem
+nemo corripiat. Collegit ergo in agro usque ad vesperam,
+et quae collegerat virga caedens et excutiens,
+invenit hordei quasi ephi [h. Epha] mensuram, id
+est tres modios. Quos portans reversa est in civitatem,
+et ostendit socrui suae: insuper protulit et
+dedit ei de reliquiis cibi sui, quo saturata fuerat.
+[C. IV.] Dixitque ei socrus sua: Ubi hodie collegisti,
+et ubi fecisti opus? Sit benedictus qui misertus
+est tui. Indicavitque ei apud quem fuisset operata,
+et nomen dixit viri, quod Booz vocaretur. Cui respondit
+Noemi: Benedictus sit a Domino: quoniam
+eamdem gratiam quam praebuerat vivis, servavit et
+mortuis: Rursumque: Propinquus, ait, noster est
+homo. Et Ruth: Hoc quoque, inquit, praecepit mihi,
+<pb n="0545D"/>
+ut tamdiu messoribus ejus jungerer, donec omnes
+segetes meterentur. [C. V.] Cui dixit socrus: Melius
+est, filia mi, ut cum puellis ejus exeas ad metendum
+[ <hi>Vulg.</hi> molendum], ne in alieno agro quispiam resistat
+tibi. Juncta est itaque puellis Booz, et tamdiu
+cum eis messuit, donec hordea et triticum in horreis
+conderentur.</p>
+<p>[C. VI, Cap. III.] Postquam autem reversa est ad
+socrum suam, audivit ab ea: Filia mi, quaeram tibi
+requiem, et providebo, ut bene sit tibi. Booz iste,
+cujus puellis in agro juncta es, propinquus est noster,
+et hac nocte aream hordei ventilat. Lavare igitur et
+ungere, et induere cultioribus vestimentis, ac descende
+in aream. Non te videat homo, donec esum
+<pb n="0546A"/>
+potumque finierit. Quando autem ierit ad dormiendum,
+nota locum in quo dormiat; veniesque et discooperies
+pallium, quo operitur a parte pedum, et
+projicies te, et ibi jacebis: ipse autem dicet tibi quid
+agere debeas. Quae respondit: Quidquid praeceperis,
+faciam. Descenditque in aream, et fecit omnia quae
+sibi imperaverat socrus. [C. VII.] Cumque comedisset
+Booz, et bibisset, et factus esset hilarior, issetque
+ad dormiendum juxta acervum manipulorum,
+venit abscondite, et discooperto a pedibus ejus pallio,
+se projecit. Et ecce, nocte jam media, expavit
+homo, et conturbatus est: viditque mulierem jacentem
+ad pedes suos, et ait illi: Quae es? Illaque respondit:
+Ego sum Ruth ancilla tua: expande pallium
+tuum super famulam tuam, quia propinquus es. Et
+<pb n="0546B"/>
+ille, Benedicta, inquit, es a Domino filia, et priorem
+misericordiam posteriore superasti: quia non es secuta
+juvenes, pauperes sive divites. Noli ergo metuere,
+sed quidquid mihi dixeris, faciam tibi. Scit
+enim omnis populus, qui habitat intra portas urbis
+meae, mulierem te esse virtutis. Nec abnuo me propinquum,
+sed est alius me propinquior. Quiesce hac
+nocte, et facto mane, si te voluerit propinquitatis
+jure retinere, bene res acta est: sin autem ille noluerit,
+ego te absque ulla dubitatione suscipiam, vivit
+Dominus. Dormi usque mane. Dormivit itaque ad
+pedes ejus, usque ad noctis abscessum. Surrexitque
+antequam homines se cognoscerent mutuo, et dixit
+Booz: Cave ne quis noverit quod huc veneris. Et
+rursum, expande, inquit, pallium tuum quo operiris,
+<pb n="0546C"/>
+et tene utraque manu. Qua extendente, et tenente,
+mensus est sex modios hordei, et posuit super eam.
+Quae portans ingressa est civitatem, et venit ad socrum
+suam. Quae dixit ei: Quid egisti, filia? Narravitque
+ei omnia, quae sibi fecisset homo. Et ait:
+Ecce sex modios hordei dedit mihi, et ait: Nolo vacuam
+te reverti ad socrum tuam. Dixitque Noemi:
+Exspecta, filia, donec videamus quem res exitum
+habeat. Neque enim cessabit homo nisi compleverit
+quod locutus est.</p>
+<p>[C. VIII, Cap. IV.] Ascendit ergo Booz ad portam,
+et sedit ibi. Cumque vidisset propinquum praeterire,
+de quo prius sermo habitus est, dixit ad eum: Declina
+paulisper, et sede hic, vocans eum nomine
+suo. Qui divertit, et sedit. Tollens autem Booz decem
+<pb n="0546D"/>
+viros de senioribus civitatis, dixit ad eos: Sedete
+hic. Quibus residentibus, locutus est ad propinquum:
+Partem agri fratris nostri Elimelech vendit Noemi,
+quae reversa est de regione Moabitide: quod audire
+te volui, et tibi dicere coram cunctis sedentibus, et
+majoribus natu de populo meo. Si vis possidere jure
+propinquitatis: eme, et posside. Sin autem tibi displicet,
+hoc ipsum indica mihi, ut sciam quid facere
+debeam. Nullus enim est propinquus, excepto te,
+qui prior es, et me, qui secundus sum. At ille respondit:
+Ego agrum emam. Cui dixit Booz: Quando
+emeris agrum de manu mulieris, Ruth quoque Moabitidem,
+quae uxor defuncti fuit, debes accipere: ut
+suscites nomen propinqui tui in haereditate sua.
+<pb n="0547A"/>
+[C. IX.] Qui respondit: Cedo jure propinquitatis:
+neque enim posteritatem familiae meae delere debeo.
+Tu meo utere privilegio, quo me libenter carere profiteor.
+Hic autem erat mos antiquitus in Israel inter
+propinquos, ut si quando alter alteri suo jure cedebat,
+ut esset firma concessio, solvebat homo calceamentum
+suum, et dabat proximo suo. Hoc erat testimonium
+cessionis in Israel. Dixit ergo propinquo
+[ <hi>Vulg. addit</hi> suo] Booz: Tolle calceamentum tuum.
+Quod statim solvit de pede suo. At ille majoribus
+natu, et universo populo, Testes, inquit, vos
+estis hodie, quod possederim omnia quae fuerunt
+Elimelech, et Chilion, et Maalon, tradente Noemi,
+et Ruth Moabitidem uxorem Maalon, in conjugium
+sumpserim, ut suscitem nomen defuncti in
+<pb n="0547B"/>
+haereditate sua, ne vocabulum ejus de familia
+sua ac fratribus, et populo deleatur. Vos, inquam,
+hujus rei testes estis. Respondit omnis populus;
+qui erat in porta, et majores natu: Nos testes
+sumus; faciat Dominus hanc mulierem, quae ingreditur
+domum tuam, sicut Rachel et Liam, quae aedificaverunt
+domum Israel: ut sit exemplum virtutis in
+<pb n="0548A"/>
+Ephrata, et habeat celebre nomen in Beth-Leem:
+fiatque domus tua, sicut domus Phares, quem Thamar
+peperit Judae, de semine quod dederit Dominus
+tibi ex hac puella. Tulit itaque Booz Ruth, et accepit
+uxorem: ingressusque est ad eam, et dedit illi Dominus
+ut conciperet, et pareret filium. Dixeruntque
+mulieres ad Noemi: Benedictus Dominus, qui non
+est passus ut deficeret successor familiae tuae, et vocaretur
+nomen ejus in Israel. Et habeas qui consoletur
+animam tuam, et enutriat senectutem. De nuru
+enim tua natus est, quae te diligit, et multo tibi melior
+est, quam si septem haberes filios. Susceptumque
+Noemi puerum posuit in sinu suo, et nutricis ac gerulae
+officio fungebatur. Vicinae autem mulieres congratulantes
+ei, et dicentes: Natus est filius Noemi:
+<pb n="0548B"/>
+vocaverunt nomen ejus Obed: hic est pater Isai, patris
+David. Hae sunt generationes Phares: Phares genuit
+Esron, Esron genuit Ram, Ram genuit Aminadab,
+Aminadab genuit Naasson, Naasson genuit
+Salmon, Salmon genuit Booz, Booz genuit Obed,
+Obed genuit Isai, Isai genuit David.</p>
+<p>
+          <emph>
+            <pb n="0547"/> <hi>Explicit Liber Ruth.</hi> </emph>
+</p>
+</div1>
+</body>
+  </text>
+</TEI>
