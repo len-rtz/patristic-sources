@@ -1,0 +1,2990 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>Divinarum institutionum liber I</title>
+              <author ref="http://viaf.org/viaf/100198064">Lactantius<date>250-325</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1844</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 6</title>
+           <idno>Lactan.DiInLiI</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div1>
+        <head>Praefatio. QUANTI SIT ET FUERIT SEMPER COGNITIO VERITATIS.</head>
+<p>
+          <pb n="0111A"/>Magno et excellenti ingenio viri, cum se doctrinae
+penitus dedissent, 
+<pb n="0111A"/> quidquid laboris poterat impendi,
+contemptis omnibus et privatis et publicis actionibus,
+ad inquirendae veritatis studium contulerunt; existimantes
+multo esse praeclarius humanarum divinarumque
+rerum investigare ac scire rationem, quam
+aut struendis opibus, aut cumulandis honoribus inhaerere.
+Quibus rebus, quoniam fragiles terrenaeque sunt
+<pb n="0112A"/>
+et ad solius corporis pertinent cultum, nemo melior,
+nemo justior effici potest. Erant illi quidem veritatis
+cognitione dignissimi, quam scire tantopere cupiverunt;
+atque ita, ut eam rebus omnibus arteponerent.
+Nam et abjecisse quosdam res familiares suas, et
+renuntiasse universis voluptatibus constat, ut solam
+nudamque veritatem nudi expeditique sequerentur:
+tantumque apud eos veritatis nomen et auctoritas
+<pb n="0113A"/>
+valuit, ut in ipsa esse summi boni praemium praedicarent. 
+<pb n="0113A"/> 
+Sed neque adepti sunt id quod volebant: et
+operam simul atque industriam perdiderunt; quia
+veritas, id est arcanum summi Dei, qui fecit omnia,
+ingenio ac propriis non potest sensibus comprehendi:
+alioqui nihil inter Deum hominemque distaret, si
+consilia et dispositiones illius majestatis aeternae cogitatio
+assequeretur humana. Quod quia fieri non
+potuit, ut homini per seipsum ratio divina innotesceret,
+non est passus hominem Deus lumen sapientiae
+requirentem diutius errare, ac sine ullo laboris
+effectu vagari per tenebras inextricabiles; aperuit
+oculos ejus aliquando, et notionem veritatis munus
+suum fecit: ut et humanam sapientiam nullam esse
+monstraret, et erranti ac vago viam consequendae
+<pb n="0113B"/>
+immortalitatis ostenderet.</p>
+<p>Verum quoniam pauci utuntur hoc coelesti beneficio
+ac munere; quod obvoluta in obscuro veritas
+latet; eaque vel contemptui doctis est, quia idoneis
+assertoribus eget, vel odio indoctis, ob insitam sibi
+austeritatem, quam natura hominum proclivis in vitia
+pati non potest (nam quia virtutibus amaritudo permixta
+est, vitia vero voluptate condita sunt; illa
+<pb n="0114A"/>
+offensi, hac deliniti feruntur in praeceps, et bonorum
+specie falsi, mala pro bonis amplectuntur) succurrendum
+esse his erroribus credidi: ut et docti
+ad veram sapientiam dirigantur et indocti ad veram
+religionem. Quae professio multo melior, utilior,
+gloriosior putanda est, quam illa oratoria, in qua diu
+versati, non ad virtutem, sed plane ad argutam malitiam
+juvenes erudiebamus. Multo quippe nunc rectius
+de praeceptis coelestibus disseremus, quibus ad
+cultum verae majestatis mentes hominum instruere
+possimus: nec tam de rebus humanis bene meretur,
+qui scientiam bene dicendi affert, quam qui pie atque
+innocenter docet vivere: idcirco apud Graecos majore
+in gloria philosophi, quam oratores fuerunt. Illi
+enim recte vivendi doctores sunt existimati: quod
+<pb n="0114B"/>
+est longe praestabilius: quoniam bene dicere, ad
+paucos pertinet, bene autem vivere ad omnes. Multum
+tamen nobis exercitatio illa fictarum litium contulit,
+ut nunc majore copia et facultate dicendi causam
+veritatis peroremus: quae licet possit sine eloquentia
+defendi, ut est a multis saepe defensa; tamen
+claritate ac nitore sermonis illustranda, et quodammodo
+disserenda est, ut potentius in animos
+<pb n="0115A"/>
+influat et vi sua instructa, 
+<pb n="115A"/> et luce orationis ornata.
+</p>
+
+<div2>
+          <head>CAPUT PRIMUM. <hi>De religione et sapientia.</hi> </head>
+<p>De religione itaque nobis rebusque divinis instituitur
+disputatio. Nam si quidam maximi oratores
+professionis suae quasi veterani, decursis operibus
+actionum suarum, postremo se philosophiae tradiderunt,
+eamque sibi requiem laborum justissimam putaverunt;
+si animos suos in earum rerum, quae inveniri
+non poterant, inquisitione torquerent, ut
+non tam otium sibi, quam negotium quaesisse videantur,
+et quidem multo molestius, quam in quo fuerant
+<pb n="0115B"/>
+ante versati: quanto justius ego me ad illam
+<pb n="0116A"/>
+piam, veram, divinamque sapientiam, quasi ad portum
+aliquem tutissimum conferam, in qua omnia
+dictu prona sunt, auditu suavia, facilia intellectu,
+honesta susceptu? Et si quidam prudentes, et arbitri
+aequitatis, Institutiones civilis juris compositas ediderunt,
+quibus civium dissidentium lites contentionesque
+sopirent: quanto melius nos et rectius divinas
+Institutiones litteris persequemur; in quibus non
+de stillicidiis, aut aquis arcendis, aut de manu conserenda,
+sed de spe, de vita, de salute, de immortalitate,
+de Deo loquemur, ut superstitiones mortiferas,
+erroresque turpissimos sopiamus?</p>
+<p>Quod opus nunc nominis tui auspicio inchoamus,
+Constantine, Imperator Maxime, qui primus Romanorum
+<pb n="0116B"/>
+principum, repudiatis erroribus, majestatem
+<pb n="0117A"/>
+Dei singularis ac veri et cognovisti et honorasti. Nam
+cum ille dies felicissimus orbi terrarum illuxisset,
+quo te Deus summus ad beatum imperii culmen evexit,
+salutarem universis et optabilem principatum praeclaro
+initio auspicatus es, cum eversam sublatamque
+justitiam reducens, teterrimum aliorum facinus 
+<pb n="0117A"/> expiasti:
+pro quo facto dabit tibi Deus felicitatem, virtutem,
+diuturnitatem: ut eadem justitia, qua juvenis
+exorsus es, gubernaculum reipublicae etiam senex
+teneas, tuisque liberis, ut ipse a patre accepisti, tutelam
+Romani nominis tradas. Nam malis, qui adhuc
+adversus justos in aliis terrarum partibus saeviunt,
+quanto serius, tanto vehementius idem omnipotens
+mercedem sceleris exsolvet: quia ut est erga
+pios indulgentissimus pater, sic adversus impios rectissimus
+<pb n="0117B"/>
+judex. Cujus religionem cultumque divinum
+cupiens defendere, quem potius appellem, quem alloquar,
+nisi eum per quem rebus humanis justitia
+et sapientia restituta est?</p>
+<p>Omissis ergo hujusce terrenae philosophiae auctoribus
+nihil certi afferentibus, aggrediamur viam rectam:
+quos equidem, si putarem satis idoneos ad bene
+vivendum duces esse, et ipse sequerer, et alios, ut
+sequerentur, hortarer. Sed cum inter se magna concertatione
+dissideant, secumque ipsi plerumque discordent,
+apparet eorum iter nequaquam esse directum:
+siquidem sibi quique, ut est libitum, proprias
+vias impresserunt, confusionemque magnam inquirentibus
+<pb n="0117C"/>
+veritatem reliquerunt. Nobis autem, qui sacramentum
+<pb n="0118A"/>
+verae religionis accepimus, cum sit veritas
+revelata divinitus, cum doctorem sapientiae ducemque
+veritatis Deum sequamur, universos sine ullo
+discrimine vel sexus vel aetatis ad coeleste pabulum
+convocamus. Nullus enim suavior animo cibus est,
+quam cognitio veritatis, cui asserendae atque illustrandae
+septem volumina destinavimus, quamvis ea
+res infiniti pene sit operis et immensi: ut si quis haec
+dilatare atque exequi plenissime velit, tanta illi rerum
+copia exuberet, ut nec libri modum nec finem
+reperiat oratio. Sed nos idcirco breviter omnia colligemus;
+quod ea quae allaturi sumus, tam clara sunt
+et lucida, ut magis mirum esse videatur tam obscuram
+videri hominibus veritatem, et iis praecipue,
+qui sapientes vulgo putantur, vel quod tantummodo
+<pb n="0118B"/>
+instituendi nobis homines erunt, hoc est, ab errore
+quo sunt implicati, ad rectiorem viam revocandi.</p>
+<p>Quod si fuerimus, ut spero, assecuti, mittemus eos
+ad ipsum doctrinae uberrimum ac plenissimum fontem,
+cujus haustu atque potu conceptam visceribus
+sitim sedent, ardoremque restinguant. Eruntque illis
+omnia facilia, prona, manifesta: modo ne pigeat ad
+percipiendam sapientiae disciplinam, legendi, vel
+audiendi patientiam commodare. Multi enim superstitionibus
+vanis pertinaciter inhaerentes, obdurant se
+contra manifestam veritatem, non tam de suis religionibus,
+quas prave asserunt, bene meriti, quam
+de se male: qui cum habeant iter rectum, devios sequuntur
+<pb n="0118C"/>
+anfractus; planum deserunt, ut per praecipitium
+<pb n="0119A"/>
+labantur; 
+<pb n="0119A"/> lucem relinquunt, ut in tenebris
+caeci ac debiles jaceant. His consulendum est ne contra
+se pugnent, velintque se tandem ab inveteratis
+erroribus liberari: quod utique facient, si, quare
+sint nati, aliquando perviderint. Haec enim pravitatis
+est causa, ignoratio sui; quam si quis, cognita veritate,
+discusserit, sciet quo referenda, et quemadmodum
+sibi vita degenda sit. Cujus scientiae summam
+breviter circumscribo: ut neque religio ulla sine sapientia
+suscipienda sit, nec ulla sine religione probanda
+sapientia.
+</p>
+        </div2>
+
+<div2>
+          <head> CAPUT II. <hi>Quod providentia sit in rebus humanis.</hi> </head>
+<p>Suscepto igitur illustrandae veritatis officio, non
+putavi adeo necessarium ab illa quaestione principium
+sumere, quae videtur prima esse natura: sitne
+providentia, quae rebus omnibus consulat; an fortuitu
+vel facta sint omnia vel regantur. Cujus sententiae
+auctor est Democritus, confirmator Epicurus. Sed et
+antea Protagoras, qui deos in dubium vocavit; et
+postea Diagoras, qui exclusit; et alii nonnulli qui
+non putaverunt deos esse; quid aliud effecerunt,
+nisi ut nulla esse providentia putaretur? quos tamen
+et caeteri philosophi, ac maxime Stoici acerrime retuderunt, 
+<pb n="0121A"/> 
+<pb n="0121A"/>
+docentes, nec fieri mundum sine divina
+ratione potuisse, nec constare, nisi summa ratione
+regeretur. Sed et M. Tullius, quamvis Academicae
+disciplinae defensor esset, de providentia gubernatrice
+rerum et multa et saepe disseruit, Stoicorum
+argumenta confirmans, et nova ipse afferens plurima:
+quod facit tum in omnibus philosophiae suae libris,
+tum maxime in iis qui sunt de Natura deorum.</p>
+<p>Nec difficile sane fuit paucorum hominum prave
+sentientium redarguere mendacia testimonio populorum
+atque gentium in hac una re non dissidentium.
+Nemo est enim tam rudis, tam feris moribus, qui
+oculos suos in coelum tollens, tametsi nesciat cujus
+Dei providentia regatur hoc omne quod cernitur, non
+aliquam tamen esse intelligat ex ipsa rerum magnitudine,
+<pb n="0121B"/>
+motu, dispositione, constantia, utilitate, pulchritudine,
+temperatione: nec posse fieri quin id,
+quod mirabili ratione constat, consilio majori aliquo
+sit instructum. Et nobis utique facillimum est exequi
+hanc partem quamlibet copiose. Sed quia multum
+inter philosophos agitata res est, et providentiam
+tollentibus satis responsum videtur ab hominibus argutis
+<pb n="0122A"/>
+et eloquentibus, et de solertia divinae providentiae
+per totum hoc opus, quod suscepimus, sparsim
+dicere necesse est; omittamus in praesenti hanc quaestionem,
+quae cum caeteris sic cohaeret, ut nihil a nobis
+disseri posse videatur, ut non simul de providentia
+disseratur.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT III. <hi>Uniusne potestate Dei mundus regatur, an multorum?</hi> </head>
+<p>Sit ergo nostri operis exordium quaestio illa consequens
+ac secunda: utrum potestate unius Dei
+mundus regatur, anne multorum? Nemo est qui quidem
+sapiat, rationemque secum putet, non unum
+esse intelligat, qui et condiderit omnia, et eadem,
+qua condidit, virtute moderetur. Quid enim multis
+<pb n="0122B"/>
+opus est ad mundi regimen sustinendum? nisi forte
+arbitremur, si plures sint, minus habere singulos
+nervorum atque virium. Quod quidem faciunt ii, qui
+multos esse volunt; quia necesse est imbecilles esse:
+siquidem singuli, sine auxilio reliquorum, tantae
+molis gubernaculum sustinere non possent. Deus
+autem, qui est aeterna mens, ex omni utique parte
+<pb n="0123A"/>
+perfectae consummataeque virtutis est. Quod si
+verum est, unus sit necesse est. Potestas enim, vel
+virtus absoluta, relinet suam propriam firmitatem.
+Id autem solidum existimandum est, cui nihil decedere; 
+<pb n="0123A"/> 
+id perfectum, cui nihil possit accedere.</p>
+<p>Quis dubitet potentissimum esse regem, qui totius
+orbis habeat imperium? neque immerito: cum illius
+sint, quae ubique sunt omnia; cum ad eum solum
+omnes undique copiae congerantur. At si plures partiantur
+orbem, minus certe opum, minus virium
+singuli habebunt, cum intra praescriptam portionem
+se quisque contineat. Eodem etiam modo dii, si
+plures sint, minus valebunt, aliis tantumdem in se
+habentibus. Virtutis autem perfectior natura potest
+esse in eo, in quo totum est, quam in eo, in quo
+<pb n="0123B"/>
+pars exigua de toto est. Deus vero, si perfectus est
+(quia perfectus est) ut esse debet, non potest esse
+nisi unus, ut in eo sint omnia. Deorum igitur virtutes
+ac potestates infirmiores sint necesse est: quia
+tantum singulis deerit quantum in caeteris fuerit;
+ita quanto plures, tanto minores erunt. Quid, quod
+summa illa rerum potestas ac divina vis ne semel
+quidem dividi potest? Quidquid enim capit divisionem,
+et interitum capiat necesse est. Si autem interitus
+procul est a Deo, quia incorruptibilis est et aeternus,
+consequens est ut dividi potestas divina non possit.
+Deus ergo unus est, si nihil esse aliud potest, quod
+tantumdem capiat potestatis; et ii tamen, qui multos
+esse arbitrantur, officia inter se dicunt esse partitos:
+de quibus omnibus suo loco disputabimus. Illud
+interim, quod ad praesentem locum pertinet, teneo.
+<pb n="0123C"/>
+Si partiti sunt inter se officia, eodem revolvitur res,
+ut ex iis quilibet sufficere, omnibus nequeat. Perfectus
+<pb n="0124A"/>
+igitur jam non erit, qui, cessantibus caeteris,
+non potest omnia gubernare. Ita fit ut ad regendum
+mundum unius perfecta virtute magis opus sit, quam
+imbecillitate multorum. Qui autem putat hanc tantam
+magnitudinem non posse ab uno regi, fallitur. Nec
+enim quanta sit vis potestasque divinae majestatis
+intelligit, si existimat singularem Deum, qui facere
+mundum potuit, eumdem regere non posse quem
+fecit. At si concipiat animo, quanta sit divini hujus
+operis immensitas cum antea nihil esset, tamen virtute
+atque consilio Dei ex nihilo esse conflatam;
+quod opus nisi ab uno inchoari perficique non potuit:
+jam intelliget, multo facilius esse ab uno regi,
+quod est ab uno constitutum.</p>
+<p>Dicat fortasse aliquis, ne fabricari quidem tam
+<pb n="0124B"/>
+immensum opus mundi, nisi a pluribus potuisse:
+quamlibet multos, quamlibet magnos faciat, quidquid
+in multis magnitudinis, potestatis, virtutis, majestatisque
+posuerit, id totum in unum confero, et in uno
+esse dico; ut tantum in eo sit istarum rerum, quantum
+nec cogitari nec dici potest. Qua in re quoniam
+et sensu deficimus et verbis; quia neque tantae intelligentiae
+lucem pectus humanum, neque explanationem
+tantarum rerum capit lingua mortalis: idipsum
+intelligere nos oportet ac dicere. Video rursus
+quid e contrario dici possit: tales esse illos plures,
+qualem nos volumus unum. At hoc fieri nullo pacto
+potest, quod singulorum potestas progredi longius
+non valebit, occurrentibus sibi postestatibus caeterorum.
+Necesse est enim ut suos quisque limites aut
+transgredi nequeat, aut si transgressus fuerit, suis
+<pb n="0124C"/>
+alterum finibus pellat. Non vident, qui deos multos
+esse credunt, fieri posse ut aliqui diversum velint;
+<pb n="0125A"/>
+ex qua re disceptatio inter eos et certamen oriatur:
+sicut Homerus bellantes inter se deos finxit; 
+<pb n="0125A"/> cum alii
+Trojam capi vellent, alii repugnarent. Unius igitur
+arbitrio mundum regi necesse est. Nisi enim singularum
+partium potestas ad unam providentiam referatur,
+non poterit summa ipsa constare; unoquoque
+nihil curante amplius, quam quod ad eum proprie
+pertinet: sicut ne res quidem militaris, nisi unum
+habeat ducem atque rectorem. Quod si in uno exercitu
+tot fuerint imperatores, quot legiones, quot cohortes,
+quot cunei, quot alae, primum nec instrui
+poterit acies, unoquoque periculum recusante; nec
+regi facile, aut temperari, quod suis propriis consiliis
+utantur omnes, quorum diversitate plus noceant,
+quam prosint: sic in hoc rerum naturae imperio, nisi
+<pb n="0125B"/>
+unus fuerit, ad quem totius summae cura referatur,
+universa solventur et corruent.</p>
+<p>Dicere autem, multorum arbitrio regi mundum, tale
+<pb n="0126A"/>
+est, quale si quis affirmet in uno corpore multas esse
+mentes: quoniam multa et varia sunt ministeria
+membrorum; ut singulos corporis sensus singulae
+mentes regere credantur, item multi affectus, quibus
+commoveri solemus vel ad iram, vel ad cupiditatem,
+vel ad laetitiam, vel ad metum, vel ad miserationem;
+ut in his omnibus totidem mentes putentur operari:
+quod si quis profecto dicat, ne ipsam quidem, quae
+una est, habere videatur. Quod si in uno corpore
+tantarum rerum gubernationem mens una possidet, et
+universis simul intenta est; cur aliquis existimet
+mundum non posse ab uno regi, a pluribus posse?
+Quod quia intelligunt isti assertores deorum, ita eos
+praeesse singulis rebus ac partibus dicunt, ut tamen
+unus sit rector eximius. Jam ergo caeteri dii non
+<pb n="0126B"/>
+erunt sed satellites ac ministri, quos ille unus maximus
+et polens omnium his officiis praefecerit; et ipsi
+<pb n="0127A"/>
+ejus imperio ac nutibus servient. 
+<pb n="0127A"/> Si universi pares
+non sunt, non igitur dii omnes sunt. Nec enim
+potest hoc idem esse, quod servit, et quod dominatur.
+Nam si Deus est nomen summae potestatis, incorruptibilis
+esse debet, perfectus, impassibilis, nulli rei
+subjectus. Ergo dii non sunt, quos parere uni maximo
+Deo necessitas cogit. Sed quia non frustra falluntur ii
+qui hoc ita putant, causam hujus erroris paulo post
+aperiemus. Nunc unitatem divinae potestatis testimoniis
+comprobemus.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT IV. <hi>Quod unus vere sit Deus a prophetis etiam praenuntiatus.</hi> </head>
+<p>Prophetae, qui fuerunt admodum multi, unum Deum
+praedicant, unum loquuntur: quippe qui unius Dei
+<pb n="0127B"/>
+spiritu pleni, quae futura essent, pari et consona voce
+praedixerunt. At enim veritatis expertes non putant
+his esse credendum. Illas enim non divinas, sed humanas
+voces fuisse aiunt. Videlicet quia de uno Deo
+praeconium faciunt, aut insani, aut fallaces fuerunt.
+At quin impleta esse implerique quotidie illorum
+vaticinia videmus; et in unam sententiam congruens
+<pb n="0128A"/>
+divinatio docet non fuisse furiosos. Quis enim mentis
+emotae, non modo futura praecinere, sed etiam cohaerentia
+loqui possit? Num ergo fallaces erant, qui talia
+loquebantur? quid ab his tam longe alienum
+quam ratio fallendi, cum caeteros ab omni fraude cohiberent?
+Idcirco enim a Deo mittebantur, ut et
+praecones essent majestatis ejus, et correctores pravitatis
+humanae.</p>
+<p>Praeterea voluntas fingendi ac mentiendi eorum
+est qui opes appetunt, qui lucra desiderant; quae res
+procul ab illis sanctis viris abfuit. Ita enim delegato
+sibi officio functi sunt, ut, derelictis omnibus ad tutelam
+vitae necessariis, non modo in futurum, sed ne
+in diem quidem laborarent, contenti extemporali
+cibo, quem Deus subministrasset: et hi non modo
+<pb n="0128B"/>
+quaestum nullum habuerunt, sed etiam cruciatus atque
+mortem. Amara sunt enim vitiosis ac male viventibus
+praecepta justitiae. Itaque ii, quorum peccata et arguebantur
+et prohibebantur, excruciatos eos acerbissime
+necaverunt. Ergo a quibus abfuit studium lucri,
+abfuit etiam voluntas et causa fallendi. Quid, quod
+aliqui eorum principes aut etiam reges fuerunt, in
+<pb n="0129A"/>
+quos cadere non posset 
+<pb n="0129A"/> suspicio cupiditatis ac fraudis,
+et tamen praeconium Dei singularis eadem, qua
+caeteri, divinatione fecerunt?
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT V. <hi>De testimoniis poetarum et philosophorum.</hi> </head>
+<p>Sed omittamus sane testimonia prophetarum, ne
+minus idonea probatio videatur esse de his, quibus
+omnino non creditur. Veniamus ad auctores; et eos
+ipsos ad veri probationem testes citemus, quibus contra
+nos uti solent, poetas dico ac philosophus. Ex
+his unum Deum probemus necesse est: non quod
+illi habuerint cognitam veritatem; sed quod veritatis
+<pb n="0130A"/>
+ipsius tanta vis est, ut nemo possit esse tam caecus,
+qui non videat ingerentem se oculis divinam claritatem.
+Poetae igitur, quamvis deos carminibus ornaverint,
+et eorum res gestas amplificaverint summis laudibus,
+saepissime tamen confitentur spiritu vel mente
+una contineri regique omnia. Orpheus, qui est vetustissimus
+poetarum, et aequalis ipsorum deorum (siquidem
+traditur inter Argonautas cum Tyndaridis
+et Hercule navigasse), Deum verum et magnum, <foreign xml:lang="greek">πρωτόγονον,</foreign>
+ id est primogenitum, appellat; quod ante
+ipsum nihil sit genitum, sed ab ipso sint cuncta generata:
+eumdem etiam <foreign xml:lang="greek">φάνητα</foreign> nominat; quod cum
+adhuc nihil esset, primus ex infinito apparuerit et
+<pb n="0131A"/>
+extiterit. Cujus originem atque naturam quia concipere
+animo non poterat, ex aere immenso natum esse
+dixit: <foreign xml:lang="greek">Πρωτόγονος φαέθων περὶ μήκεος ἠέρος υἱός.</foreign> Aliud
+enim amplius quod diceret non habebat. Hunc ait esse
+omnium deorum parentem, quorum causa coelum
+condiderit, liberisque prospexerit ut haberent habitaculum,
+sedemque communem: <foreign xml:lang="greek">ἔκτισεν ἀθανάτοις
+δόμον ἄφθιτον.</foreign>
+<pb n="0131A"/> Natura igitur et ratione ducente, intellexit
+esse praestantissimam potestatem coeli ac terrae
+conditricem. Non poterat enim dicere Jovem esse
+principem rerum, qui erat Saturno genitus; neque
+Saturnum ipsum, qui coelo natus ferebatur: coelum
+autem tamquam Deum primum constituere non audebat,
+quod videbat elementum esse mundi, quod
+ipsum eguerit auctore. Haec eum ratio perduxit ad
+<pb n="0131B"/>
+illum Deum primogenitum, cui assignat et tribuit
+principatum.</p>
+<p>Homerus nihil nobis dare potuit, quod pertineat ad
+veritatem, qui humana potius quam divina conscripsit.
+Potuit Hesiodus, qui deorum generationem unius
+libri opere complexus est. Sed tamen nihil dedit,
+non a Deo conditore sumens exordium, sed a chao,
+quod est rudis inordinataeque materiae confusa congeries:
+<pb n="0132A"/>
+cum explanare ante debuerit, chaos ipsum
+unde, quando, quomodo esse, aut constare coepisset.
+Nimirum sicut ab aliquo artifice disposita, ordinata,
+effecta sunt omnia: sic ipsam materiam fictam esse
+ab aliquo necesse est. Quis igitur hanc, nisi Deus, fecit,
+cujus potestati subjacent omnia? sed refugit hoc
+ille dum horret incognitam, veritatem. Non enim Musarum
+instinctu, sicut videri volebat, in Helicone
+carmen illud effudit; sed meditatus venerat et paratus.</p>
+<p>Nostrorum primus Maro non longe fuit a veritate;
+cujus de summo Deo, quem mentem ac spiritum nominavit,
+haec verba sunt:
+<l>Principio coelum, ac terras, camposque liquentes,</l>
+<l>Lucentemque globum lunae, Titaniaque astra,</l>
+<l>Spiritus intus alit; totamque infusa per artus</l>
+<l>Meus agitat molem, et magno se corpore miscet.</l> 
+
+<pb n="0132B"/>
+Ac ne quis forte ignoret quisnam esset ille spiritus,
+qui tantum haberet potestatis, declaravit alio loco,
+dicens:
+<l rend="indent">Deum namque ire per omnes</l>
+<l>Terrasque, tractusque maris, coelumque profundum.</l> 
+<l>Hinc pecudes, armenta, viros, genus omne ferarum,</l>
+<l>Quemque sibi tenues nascentem arcessere vitas.</l> 
+Ovidius quoque in principio praeclari operis, sine ulla
+<pb n="0133A"/>
+nominis dissimulatione, a Deo, quem fabricatorem
+mundi, quem rerum opificem vocat, mundum fatetur
+instructum. Quod si vel Orpheus, vel hi nostri, quae 
+<pb n="0133A"/> natura ducente senserunt, in perpetuum defendissent,
+eamdem quam nos sequimur, doctrinam comprehensa
+veritate tenuissent.</p>
+<p>Sed hactenus de poetis. Ad philosophos veniamus,
+quorum gravior est auctoritas, certiusque judicium;
+quia non rebus commentitiis, sed investigandae veritati
+studuisse creduntur. Thales Milesius, qui unus e
+septem sapientium numero fuit, quique primus omnium
+quaesisse de causis naturalibus traditur, aquam
+esse dixit, ex qua nata sint omnia; Deum autem esse
+mentem, quae ex aqua cuncta formaverit. Ita materiam
+<pb n="0133B"/>
+rerum posuit in humore; principium causamque
+<pb n="0134A"/>
+nascendi constituit in Deo. Pythagoras ita definivit
+quid esset Deus:  « Animus, qui per universas mundi
+partes, omnemque naturam commeans atque diffusus;
+ex quo omnia, quae nascuntur animalia, vitam capiunt. » 
+Anaxagoras Deum esse dixit infinitam mentem,
+quae per seipsam moveatur, Antisthenes multos
+quidem esse populares deos, unum tamen naturalem,
+summae totius artificem. Cleanthes et Anaximenes
+aethera dicunt esse summum Deum; cui opinioni
+poeta noster assensit:
+<l>Tum pater omnipotens foecundis imbribus aether</l>
+<l>Conjugis in gremium laetae descendit, et omnes</l>
+<l>Magnus alit magno permixtus corpore foetus.</l> 
+
+<pb n="0134B"/>
+Chrysippus naturalem vim divina ratione praeditam,
+<pb n="0135A"/>
+interdum divinam necessitatem Deum nuncupat. Item
+Zeno 
+<pb n="0135A"/> divinam naturalemque legem.</p>
+<p>Horum omnium sententia, quamvis sit incerta,
+eodem tamen spectat, ut providentiam unam esse
+consentiant. Sive enim natura, sive aether, sive
+ratio, sive mens, sive fatalis necessitas, sive divina
+lex, sive quid aliud dixeris; idem est, quod a nobis
+dicitur Deus. Nec obstat appellationum diversitas,
+cum ipsa significatione ad unum omnia revolvantur.
+Aristoteles, quamvis secum ipse dissideat, ac repugnantia
+sibi et dicat et sentiat, in summum tamen
+unam mentem mundo praeesse testatur. Plato, qui
+omnium sapientissimus judicatur, monarchiam plane
+aperteque defendit; nec aethera, aut rationem, aut
+naturam, sed, ut est, Deum nominat; ab eo mundum
+<pb n="0135B"/>
+hunc perfectum atque mirabilem esse fabricatum.
+Quem Cicero secutus atque imitatus in plurimis,
+Deum frequenter confitetur, ac supremum vocat in
+<pb n="0136A"/>
+iis libris, quos de Legibus scripsit; ab eoque regi
+mundum argumentatur, cum disputat de Natura deorum,
+hoc modo:  « Nihil est praestantius Deo; ab eo
+igitur mundum regi necesse est. Nulli igitur est naturae
+obediens aut subjectus Deus; omnem ergo regit
+ipse naturam. »  Quid autem sit Deus, in Consolatione
+definit:  « Nec vero Deus ipse, qui intelligitur a nobis,
+alio modo intelligi potest, nisi mens soluta quaedam
+et libera, segregata ab omni concretione mortali,
+omnia sentiens ac movens. » </p>
+<p>Annaeus quoque Seneca, qui ex Romanis vel acerrimus
+Stoicus fuit, quam saepe summum Deum merita
+laude prosequitur! Nam cum de immatura morte
+dissereret:  « Non intelligis, inquit, auctoritatem ac majestatem
+judicis tui, rectorem orbis terrarum, coelique
+<pb n="0136B"/>
+et deorum omnium Deum, a quo ista numina,
+quae singula adoramus, et colimus, suspensa sunt. » 
+Item in Exhortationibus:  « Hic, cum prima fundamenta
+<pb n="0137A"/>
+molis pulcherrimae jaceret, et hoc ordiretur,
+quo neque majus quidquam novit natura, nec melius;
+ut omnia sub ducibus suis irent, quamvis ipse per
+totum se corpus intenderat, tamen ministros regni
+sui deos genuit. »  
+<pb n="0137A"/> Et quam multa alia de Deo nostris
+similia locutus est: quae nunc differo, quod aliis locis
+opportuniora sunt. Nunc satis est demonstrare, summo
+ingenio viros attigisse veritatem, ac pene tenuisse;
+nisi eos retrorsum infatuata pravis opinionibus consuetudo 
+rapuisset, qua et deos alios esse opinabantur,
+et ea, quae in usum hominis Deus fecit, tamquam
+sensu praedita essent, pro diis habenda, et colenda
+credebant.
+</p>
+        </div2>
+
+<div2>
+          <head> CAPUT VI. <hi>De divinis testimoniis et de Sibyllis et earum carminibus.</hi> </head>
+<p>Nunc ad divina testimonia transeamus: sed prius
+unum proferam, quod est simile divino, et ob nimiam
+vetustatem, et quod is, quem nominabo, ex hominibus
+in deos relatus est. Apud Ciceronem C. Cotta
+pontifex disputans contra Stoicos de religionibus, et
+de varietate opinionum, quae solent esse de diis, ut
+more academicorum omnia faceret incerta, quinque
+fuisse Mercurios ait; et enumeratis per ordinem
+quatuor, quintum fuisse eum, a quo occisus sit Argus,
+ob eamque causam in Aegyptum profugisse,
+atque Aegyptiis leges ac litteras tradidisse. Hunc
+<pb n="0139A"/>
+Aegyptii Thoyth appellant, 
+<pb n="0139A"/> a quo apud eos primus
+anni sui mensis, id est september, nomen accepit.
+Idem oppidum condidit, quod etiam nunc Graece vocatur <foreign xml:lang="greek">Ἑρμόπολις;</foreign>
+ et Phenatae colunt eum religiose.
+Qui tametsi homo, fuit tamen antiquissimus, et instructissimus
+omni genere doctrinae: adeo ut ei multarum
+rerum et artium scientia Trismegisto cognomen
+imponeret. Hic scripsit libros, et quidem multos,
+ad cognitionem divinarum rerum pertinentes, in
+quibus majestatem summi ac singularis Dei asserit,
+iisdemque nominibus appellat, quibus nos, Deum et
+patrem. Ac ne quis nomen ejus requireret, <foreign xml:lang="greek">ἀνώνυμον</foreign>
+esse dixit; eo quod nominis proprietate non egeat,
+<pb n="0140A"/>
+ob ipsam scilicet unitatem. Ipsius haec verba sunt: <foreign xml:lang="greek">Ὁ δὲ Θεὸς εἷς, ὁ δὲ εἷς ὀνόματος οὐ προσδέεται· ἔστι γὰρ
+ὁ ὢν ἀνωνυμος.</foreign>
+ Deo igitur nomen non est, quia solus
+est; nec opus est proprio vocabulo, nisi cum discrimen
+exigit multitudo, ut unamquamque personam
+sua nota et appellatione designes. Deo autem, quia
+semper unus est, proprium nomen est Deus.</p>
+<p>Superest de responsis carminibusque sacris testimonia,
+quae sunt multo certiora, proferre. Nam fortasse
+ii, contra quos agimus, nec poëtis putent esse
+credendum, tamquam vana fingentibus; nec philosophis,
+quod errare potuerint, quia et ipsi homines
+fuerint.  M. Varro, quo nemo umquam doctior, ne apud
+<pb n="0141A"/>
+graecos quidem nedum apud latinos vixit, 
+<pb n="0141A"/> in libris rerum
+divinarum, quos ad C. Caesarem pontificem maximum
+scripsit, cum de quindecim viris loqueretur, Sibyllinos
+libros ait non fuisse unius Sibyllae; sed appellari
+uno nomine Sibyllinos quod omnes foeminae vates
+Sibyllae, sint a veteribus nuncupatae, vel ab unius Delphidis
+nomine, vel a consiliis deorum enuntiandis. <foreign xml:lang="greek">σιοὺς</foreign>
+ enim deos, non <foreign xml:lang="greek">θεοὺς,</foreign> et consilium non <foreign xml:lang="greek">βουλὴν,</foreign> sed <foreign xml:lang="greek">βυλὴν</foreign>
+ appellabant Aeolico genere sermonis: itaque Sibyllam
+dictam esse quasi <foreign xml:lang="greek">σιοβολὴν;</foreign> caeterum Sibyllas
+decem numero fuisse; easque omnes enumeravit sub
+auctoribus, qui de singulis scriptitaverint: primam
+<pb n="0142A"/>
+fuisse de Persis, cujus mentionem fecerit Nicanor,
+qui res gestas Alexandri Macedonis scripsit: secundam
+Lybissam, cujus meminit Euripides in Lamiae
+prologo: tertiam Delphida, de qua Chrysippus loquitur
+in eo libro, quem de divinatione composuit:
+quartam Cimmeriam in Italia, quam Naevius in libris
+belli Punici, Piso in annalibus nominat: quintam
+Erythraeam, quam Apollodorus Erythraeus affirmat
+suam fuisse civem, eamque Graiis Ilium petentibus
+vaticinatam, et perituram esse Trojam, et Homerum
+mendacia scripturum: sextam Samiam de qua scribit
+Eratosthenes in antiquis annalibus Samiorum repeisse
+<pb n="0143A"/>
+se scriptum: septimam Cumanam 
+<pb n="0143A"/> nomine Amaltheam,
+quae ab aliis Demophile vel Herophile nominatur;
+eamque novem libros attulisse ad regem
+Tarquinium Priscum, ac pro eis trecentos Philippeos
+postulasse; regemque aspernatum pretii magnitudinem,
+derisisse mulieris insaniam: illam in conspectu
+Regis tres combussisse, ac pro reliquis idem pretium
+postulasse: Tarquinium multo magis mulierem insanire
+putasse. Quae denuo tribus aliis exustis, cum in
+eodem pretio perseveraret, motum esse regem, ac
+residuos trecentis aureis emisse: quorum postea
+numerus sit auctus, Capitolio refecto, quod ex omnibus
+civitatibus et Italicis, et Graecis, et praecipue
+<pb n="0143B"/>
+Erythraeis coacti, allatique sunt Romam, cujuscumque
+<pb n="0144A"/>
+Sibyllae nomine fuerint: octavam Hellespontiam
+in agro Trojano natam; vico Marpesso, circa oppidum
+Gergithium; quam scribit Heraclides Ponticus Solonis
+et Cyri fuisse temporibus: nonam Phrygiam,
+quae vaticinata sit Ancyrae: decimam Tiburtem, nomine
+Albuneam, quae Tiburi colitur ut dea, juxta
+ripas amnis Anienis, cujus in gurgite simulacrum
+ejus inventum esse dicitur, tenens in manu librum:
+cujus sortes Senatus in Capitolium transtulerit.</p>
+<p>Harum omnium Sibyllarum carmina et feruntur et
+habentur, praeterquam Cumaeae, cujus libri a Romanis
+occuluntur, nec eos ab ullo, nisi a quindecim
+viris inspici fas habent. Et sunt singularum singuli
+<pb n="0145A"/>
+libri: 
+<pb n="0145A"/> qui quia Sibyllae nomine inscribuntur, unius
+esse creduntur; suntque confusi, nec discerni ac
+suum cuique assignari potest: nisi Eruthraeae, quae
+et nomen suum verum carmini inseruit, et Erythraeam
+se nominatum iri praelocuta est, cum esset
+orta Babylone: sed et nos confuse Sibyllam dicemus,
+sicubi testimoniis earum fuerit abutendum.
+<pb n="0146A"/>
+Omnes igitur hae Sibyllae unum Deum praedicant;
+maxime tamen Erythraea, quae celebrior inter caeteras
+ac nobilior habetur: siquidem Fenestella, diligentissimus
+Scriptor de quindecim viris dicens, ait,
+restituto Capitolio, retulisse ad Senatum C. Curionem
+Cos. ut legati Erythras mitterentur, qui carmina
+Sibyllae conquisita Romam deportarent; itaque
+<pb n="0147A"/>
+missos esse P. Gabinium, M. Otacilium, 
+<pb n="0147A"/> L. Valerium,
+qui descriptos a privatis versus circa mille Romam
+deportarunt. Idem supra ostendimus dixisse Varronem.
+In iis ergo versibus, quos legati Romam attulerunt,
+de uno Deo haec sunt testimonia:
+<l> <foreign xml:lang="greek">Εἶς θεὸς ὃς μόνος ἐστὶν ὑπερμεγεθὴς, ἀγένητος·</foreign>
+            </l>
+Hunc esse solum Deum summum, qui coelum fecerit,
+luminibusque distinxerit.
+<l> <foreign xml:lang="greek">Ἀλλὰ θεὸς μόνος εἶς, πανυπέρτατος, ὃς πεποίηκεν</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Οὐρανὸν, ἡέλιὸν τε καὶ ἀστέρας, ἠδέ σελήνην,</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Καρποφόρον γαῖαν τε, καὶ ὕδατος οἴδματα πόντου.</foreign>
+            </l>
+Qui quoniam solus sit aedificator mundi, et artifex
+rerum, vel quibus constat, vel quae in eo sunt, solum
+coli oportere testatur:
+<l> <foreign xml:lang="greek">Αὐτὸν τὸν μόνον ὄντα σέβεσθ' ἡγήτορα κόσμου.</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Ὃς μόνος εἰς αἰῶνα καὶ ἐξ αἰῶνος ἐτύχθη.</foreign>
+            </l>
+
+<pb n="0147B"/>
+Item alia Sibylla, quaecumque est, cum perferre se
+ad homines Dei vocem diceret, sic ait:
+<l>
+<pb n="0148A"/> <foreign xml:lang="greek">Εἶς μόνος εἰμὶ θεὸς· καὶ οὐκ ἔστι θεὸς ἄλλος.</foreign>
+            </l>
+Exequerer nunc testimonia caeterarum, nisi et haec
+sufficerent, et illa opportunioribus locis reservarem.
+Sed cum defendamus causam veritatis apud eos, qui
+aberrantes a veritate falsis religionibus serviunt,
+quod genus probationis adversus eos magis adhibere
+debemus, quam ut eos deorum suorum testimoniis
+revincamus?</p>
+</div2>
+
+<div2>
+          <head>CAPUT VII. <hi>De testimoniis Apollinis et deorum.</hi> </head>
+<p>Apollo enim, quem praeter caeteros divinum maximeque
+fatidicum existimant, Colophone respondens,
+quod Delphis (credo) migraverat, Asiae ductus
+amoenitate; quaerenti cuidam, quis esset, aut quid
+<pb n="0148B"/>
+esset omnino Deus, respondit viginti et uno versibus,
+quorum hoc principium est:
+<l>
+<pb n="0149A"/> <foreign xml:lang="greek">Αὐτοφυὴς</foreign>, 
+<pb n="0149A"/> <foreign xml:lang="greek">ἀδίδακτος, ἀμήτωρ, ἀστυφέλικτος,</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Οὔνομα μηδὲ λόγῳ χωρούμενόν, ἐν πυρὶ ναίων·</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Τουτὶ θεὸς, μικρὰ δὲ θεοῦ μερὶς ἄγγελοι ἥμεῖς,</foreign>
+            </l>
+Num quis potest suspicari de Jove esse dictum, qui
+et matrem habuit, et nomen? Quid quod, Mercurius
+ille ter maximus, cujus supra mentionem feci, non
+modo <foreign xml:lang="greek">ἀμήτορα,</foreign> ut Apollo, sed <foreign xml:lang="greek">ἀπάτορα</foreign> quoque appellat
+Deum; quod origo illi non sit aliunde? Nec
+enim potest ab ullo esse generatus, qui ipse universa
+generavit. Satis (ut opinor) et argumentis docui,
+et testibus confirmavi, quod per se satis clarum est
+Unum esse regem mundi, unum patrem, unum Deum.</p>
+<p>Sed fortasse quaerat aliquis a nobis idem illud,
+quod apud Ciceronem quaerit Hortensius: Si Deus
+unus est, quae esse beata solitudo queat? Tamquam
+nos, qui unum esse dicimus, desertum ac solitarium
+<pb n="0149B"/>
+esse dicamus; habet enim ministros, quos vocamus
+<pb n="0150A"/>
+nuntios. Et est illud verum, quod dixisse in
+Exhortationibus Senecam supra retuli, ministros genuisse
+regni sui Deum. Verum hi neque dii sunt, neque
+deos se vocari, aut coli volunt: quippe qui nihil
+praeter jussum ac voluntatem Dei faciant. Nec tamen
+illi sunt, qui vulgo coluntur, quorum et exiguus et
+certus est numerus. Quod si cultores deorum eos
+ipsos se colere putant, quos summi Dei ministros
+appellamus, nihil est quod nobis faciant invidiam,
+qui unum Deum dicamus, multos negemus. Si eos
+multitudo delectat, non duodecim dicimus, aut trecentos
+sexaginta quinque (ut Orpheus), sed innumerabiles
+esse arguimus errores eorum in diversum,
+qui tam paucos putant. Sciant tamen, quo nomine
+appellari debeant: ne Deum verum violent, cujus
+<pb n="0150B"/>
+nomen exponunt, dum pluribus tribuunt. Credant
+<pb n="0151A"/>
+Apollini suo, qui eodem illo responso, ut Jovi principatum,
+sic etiam caeteris diis abstulit nomen. Tertius
+enim versus ostendit, Dei ministros, non deos,
+verum angelos appellari oportere. De se quidem ille
+mentitus est, qui cum sit e numero daemonum, 
+<pb n="0151A"/> angelis
+se Dei aggregavit: denique in aliis responsis
+daemonem se esse confessus est. Nam cum interrogaretur,
+quomodo sibi supplicari vellet, ita respondit:
+ <foreign xml:lang="greek">Πάνσοφε, παντοδίδακτ' αἰολόστροφε, κέκλυθι, δαῖμον.</foreign>
+Item rursus cum precem in Apollinem Smynthium
+rogatus expromeret, ab hoc versu exorsus est:
+ <foreign xml:lang="greek">Ἁρμονίη κόσμοιο, φαεσφόρε καὶ σοφὲ δαῖμον.</foreign>
+Quid ergo superest, nisi ut sua confessione verberibus
+veri Dei ac poenae subjaceat sempiternae? Nam
+et in alio responso ita dixit:
+
+<pb n="0151B"/> <foreign xml:lang="greek">Δαίμονες οἳ φοιτῶσι περὶ χθόνα καὶ περὶ πόντον
+Ἀκὰματοι δάμανται ὑπαὶ μάστιγι θεοῖο. </foreign>
+De utrisque generibus in secundo libro disserimus
+<pb n="0152A"/> <note>(scilicet cap. 15)</note>.
+Interim nobis sat est, quod, dum
+honorare se vult, et in coelo collocare, confessus est,
+id quod res habet, quomodo sint appellandi qui Deo
+semper assistunt.</p>
+<p>Retrahant ergo se homines ab erroribus et abjectis
+religionibus pravis, parentem suum dominumque
+cognoscant: cujus nec virtus aestimari potest, nec
+magnitudo perspici, nec principium comprehendi.
+Cum ad illum mentis humanae intentio et acumen
+et memoria pervenerit, quasi subductis et consummatis
+omnibus viis, subsistit, haeret, deficit;
+nec est aliquid ulterius quo progredi possit. Verum
+quia fieri non potest, quin id quod sit, aliquando
+esse coeperit, consequens est, ut quando nihil
+ante illum fuit, ipse ante omnia ex se ipso sit procreatus.
+Ideoque ab Apolline <foreign xml:lang="greek">αὐτοφυὴς,</foreign> a Sibylla <foreign xml:lang="greek">αὐτογενὴς,</foreign>
+<pb n="0152B"/>
+et <foreign xml:lang="greek">ἀγέννητος,</foreign> et <foreign xml:lang="greek">ἀποίητος</foreign> nominatur. Quod Seneca,
+homo acutus, in Exhortationibus vidit:  « Nos,
+inquit, aliunde pendemus. Itaque ad aliquem respicimus,
+<pb n="0153A"/>
+cui, quod est optimum in nobis debeamus.
+<pb n="0153A"/> 
+Alius nos edidit; alius instruxit: Deus ipse se fecit. » </p>
+</div2>
+
+<div2>
+          <head>CAPUT VIII. <hi>Quod Deus sine corpori sit, nec sexu ad procreandum egeat.</hi> </head>
+<p>His igitur tot et tantis testibus comprobatur unius
+Dei potestate ac providentia mundum gubernari;
+cujus vim majestatemque tantam esse dicit in Timaeo
+Plato, ut eam neque mente concipere, neque verbis
+enarrare quisquam possit, ob nimiam ejus et inaestimabilem
+potestatem. Dubitet vero aliquis, an quidquam
+difficile aut impossibile sit Deo, qui tanta tamque
+mirifica opera providentia excogitavit, virtute
+constituit, ratione perfecit; nunc autem spiritu sustentet,
+potestate moderetur, inexcogitabilis, ineffabilis,
+<pb n="0153B"/>
+et nulli alii satis notus quam sibi? Unde mihi
+de tanta majestate saepius cogitanti, qui deos colunt,
+<pb n="0154A"/>
+interdum videri solent tam caeci, tam incogitabiles,
+tam excordes, tam non multum a mutis animalibus
+differentes, qui credant eos, qui geniti sunt maris
+ac foeminae coïtu, aliquid majestatis divinaeque virtutis
+habere potuisse; cum Sibylla Erythraea dicat:
+<l>. . . . . . <foreign xml:lang="greek">. . . . . . Οὐ δύνατ' ἀνδρὸς</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Ἐκ μηρῶν μήτράς τε θεὸς τετυ πωμένος εἶναι.</foreign>
+            </l>
+Quod si est verum, sicuti est, apparet Herculem,
+Apollinem, Liberum, Mercurium, Jovemque ipsum
+cum caeteris homines fuisse; quando sunt ex duobus
+sexibus nati. Quid est autem tam remotum a Deo,
+quam id opus quod ipse ad propagandam sobolem
+mortalibus tribuit, et quod sine substantia corporali
+nullum potest esse?</p>
+<p>Dii ergo si sunt immortales et aeterni, quid opus
+<pb n="0154B"/>
+est altero sexu; cum successione non egeant, qui
+semper sunt futuri? Nam profecto in hominibus
+<pb n="0155A"/>
+caeterisque animantibus diversitas sexus, et coïtio, 
+<pb n="0155A"/> 
+et generatio nullam habet aliam rationem, nisi ut
+omnia genera viventium, quando sunt conditione
+mortalitatis obitura, mutua possint successione servari.
+Deo autem, qui est sempiternus, neque alter
+sexus, neque successio necessaria est. Dicet aliquis,
+ut habeat vel ministros, vel in quos ipse possit dominari.
+Quid igitur opus est sexu foemineo, cum Deus,
+qui est ommipotens, sine usu et opera foeminae possit
+filios procreare? Nam si quibusdam minutis animalibus
+id praestitit, ut sibi
+<l>E foliis natos et suavibus herbis</l>
+<l>Ore legant:</l>
+cur existimet aliquis ipsum Deum, nisi ex permixtione
+sexus alterius non posse generare? Illos igitur,
+<pb n="0155B"/>
+quos imperiti et insipientes tanquam deos et
+<pb n="0156A"/>
+nuncupant et adorant, nemo est tam inconsideratus,
+qui non intelligat fuisse mortales. Quomodo ergo,
+inquiet aliquis, dii crediti sunt? Nimirum quia reges
+maximi ac potentissimi fuerint: ob merita virtutum
+suarum, aut munerum, aut artium repertarum, cum
+cari fuissent iis quibus imperitaverant, in memoriam
+sunt consecrati. Quod is quis dubitet, res eorum
+gestas, et facta consideret, quae universa tam poetae
+quam historici veteres prodiderunt.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT IX. <hi>De Hercule et ejus vita et morte.</hi> </head>
+<p>Hercules, qui ob virtutem clarissimus, et quasi
+Africanus inter deos habetur, nonne orbem terrae,
+<pb n="0156B"/>
+quem peragrasse ac expurgasse narratur, stupris, libidinibus,
+<pb n="0157A"/>
+adulteriis inquinavit? nec mirum, cum
+esset adulterio genitus Alcmenae. 
+<pb n="0157A"/> Quid tandem potuit
+in eo esse divini, quis suis ipse vitiis mancipatus, et
+mares et foeminas contra omnes leges infamia, dedecore,
+flagitio affecit? Sed ne illa quidem, quae
+magna et mirabilia gessit, talia judicanda sunt; ut
+virtutibus divinis tribuenda videantur. Quid enim
+tam magnificum, si leonem aprumque superavit, si
+aves sagittis dejecit, si regium stabulum egessit, si
+viraginem vicit, cingulumque detraxit, si equos
+feroces cum domino interemit? Opera sunt ista fortis
+viri, hominis tamen. Illa enim, quae vicit, fragilia
+<pb n="0157B"/>
+et mortalia fuerunt. Nulla enim est (quod ait
+<pb n="0158A"/>
+Orator) tanta vis, quae non ferro ac viribus debilitari
+frangique possit. At animum vincere, iracundiam
+cohibere, fortissimi est: quae ille nec fecit unquam,
+nec potuit. Haec qui faciat, non ego eum cum summis
+viris comparo; sed simillimum Deo judico.</p>
+<p>Vellem adjecisset de libidine, luxuria, cupiditate,
+insolentia; ut virtutem ejus impleret, quem similem
+Deo judicabat. Non enim fortior putandus est, qui
+leonem, quam qui violentam in seipso inclusam feram
+superat, iracundiam; aut qui rapacissimas volucres
+dejecit, quam qui cupiditates avidissimas coercet;
+aut qui Amazonem bellatricem, quam qui libidinem
+<pb n="0158B"/>
+vincit, pudoris ac famae debellatricem; aut qui fimum
+<pb n="0159A"/>
+de stabulo, quam qui vitia de corde suo egerit,
+quae magis sunt perniciosa, quia domestica et propria
+mala sunt, quam illa, quae et vitari poterant et caveri.
+Ex quo fit, ut ille solus vir fortis debeat judicari,
+qui temperans, moderatus 
+<pb n="0159A"/> et justus est. Quod
+si cogitet aliquis, quae sint Dei opera: jam haec omnia,
+quae mirantur homines ineptissimi, ridicula judicabit.
+Illa enim non divinis virtutibus, quas ignorant, sed
+infirmitate suarum virium metiuntur. Nam illud quidem
+nemo negabit, Herculem non Eurystheo tantum
+servisse regi, quod aliquatenus honestum videri potest;
+sed etiam impudicae mulieri Omphalae, quae illum
+vestibus suis indutum sedere ad pedes suos jubebat
+pensa facientem: detestabilis turpitudo! sed
+tanti erat voluptas. Quid tu, inquiet aliquis, poetisne
+<pb n="0159B"/>
+credendum putas? Quidni putem? Non enim ista Lucilius
+narrat, aut Lucianus, qui diis et hominibus non
+pepercit; sed hi potissimum, qui deorum laudes canebant.</p>
+<p>Quibus igitur credemus, si fidem laudantibus non
+habemus? Qui hos mentiri putat, proferat alios quibus
+credamus auctores, qui nos doceant, qui sint isti
+dii, quomodo, unde orti; quae sit vis eorum, qui numerus,
+quae potestas, quid in his admirabile, quid
+cultu dignum, quod denique certius veriusque mysterium:
+<pb n="0160A"/>
+nullos dabit. Credamus igitur istis, qui non ut
+reprehenderent sunt locuti; sed ut praedicarent. Navigavit
+ergo cum Argonautis, expugnavitque Trojam,
+iratus Laomedonti ob negatam sibi pro filiae salute
+mercedem: unde, quo tempore fuerit, apparet. Idem
+furore atque insania percitus, uxorem suam cum liberis
+interemit. Hunc homines deum putant? sed
+Philocteta ejus haeres non putavit, qui facem supposuit
+arsuro, qui artus ejus et nervos cremari ac diffluere
+vidit, qui ossa ejus ac cineres in Oeteo monte
+sepelivit, pro quo munere sagittas ejus accepit.</p>
+</div2>
+
+<div2>
+          <head>CAPUT X. <hi>De Aesculapii, Apollinis, Neptuni, Martis, Castoris et Pollucis, Mercurii atque Liberi vita et gestis.</hi> </head>
+<p>
+            <pb n="0160B"/>Aesculapius et ipse non sine flagitio Apollinis
+natus, quid fecit aliud divinis honoribus dignum,
+nisi quod sanavit Hippolytum? mortem sane habuit
+clariorem, quod a Deo meruit fulminari. Hunc Tarquitius
+de illustribus viris disserens, ait incertis parentibus
+natum, expositum, et a venatoribus inventum,
+canino lacte nutritum, Chironi traditum,
+didicisse medicinam: fuisse autem Messenium, sed
+Epidauri moratum. Tullius etiam Cynosuris ait sepultum.
+<pb n="0161A"/>
+Quid Apollo 
+<pb n="0161A"/> pater ejus? Nonne ob amorem, quo
+flagrabat, turpissime gregem pavit alienum, et muros
+Laomedonti exstruxit, cum Neptuno mercede conductus,
+quae illi negari potuit impune, ab eoque
+primo Rex perfidus, quidquid cum diis pepigisset,
+didicit abnegare. Idem formosum puerum et dum
+amat, violavit; et dum ludit, occidit.</p>
+<p>Homicida Mars, et per gratiam caedis crimine ab
+Atheniensibus liberatus, ne videretur nimis ferus et
+immanis, adulterium cum Venere commisit. Castor
+et Pollux, dum alienas sponsas rapiunt, esse gemini
+desierunt. Nam livore injuriae concitatus Idas, alterum
+<pb n="0162A"/>
+gladio transverberavit; et eosdem poetae alternis
+vivere alternis mori narrant: ut jam sint non deorum
+tantum, sed omnium mortalium miserrimi, quibus semmel
+mori non licet. Hos tamen Homerus ambos simpliciter
+(non ut poetae solent) mortuos esse testatur.
+Nam cum faceret in muris assidentem Priamo Helenam,
+cunctos Graeciae principes recognoscere, solos
+autem se fratres suos requirere, subjeccit orationi
+ejus hujusmodi versum:
+<l> <foreign xml:lang="greek">Ὡς φάτο, τοὺς δ' ἤδη κάτεχεν φυνίζοος αἶα.</foreign>
+            </l>
+Fur ac nebulo Mercurius, quid ad famam sui reliquit
+nisi memoriam fraudum suarum? Coelo scilicet
+<pb n="0163A"/>
+dignus, quia palaestram docuit, et lyram 
+<pb n="0163A"/> primus invenit.
+Liberum patrem in senatu deorum summae auctoritatis
+primaeque esse sententiae necesse est; quia
+praeter Jovem solus omnium triumphavit, exercitum
+duxit, Indos deballavit. Sed invictus ille Imperator
+Indicus, maximus ab amore ac libidine turpissime
+victus est. Delatus enim Cretam cum semiviro comitatu,
+nactus est impudicam mulierem in littore ac fiducia
+victoriae Indicae vir esse, voluit, ne nimium mollis videretur
+atque illam patris proditricem, fratris inte
+<pb n="0164A"/>
+remptricem, ab alio relictam et repudiatam, in conjugium
+sibi vendicavit, et Liberam fecit, et cum ea pariter
+ascendit in coelum.</p>
+<p>Quid horum omnium pater Jupiter, qui in solemni
+precatione Optimus, Maximus nominatur? nonne a
+prima sua pueritia impius ac pene parricida deprehenditur?
+cum patrem regno expulit ac fugavit, nec
+expectavit mortem decrepiti senis, cupiditate regnandi:
+et cum paternum solium per vim, per arma
+cepisset, bello est a Titanibus lacessitus; quod
+<pb n="0165A"/>
+humano generi principium fuit malorum: quibus
+victis, et pace in perpetuum comparata, reliquam
+suam vitam in stupris adulteriisque 
+<pb n="0165A"/> consumpsit.
+Omitto virgines, quas imminuit. Id enim tolerabile
+judicari solet. Amphitryonem ac Tyndarum praeterire
+non possum, quorum domos dedecore atque
+infamia plenissimas reddidit. Illud vero summae impietatis
+ac sceleris, quod regium puerum rapuit ad
+stuprum. Parum enim videbatur, si in expugnanda foeminarum
+pudicitia maculosus esset ac turpis, nisi etiam
+sexui suo injuriam faceret: hoc est verum adulterium,
+quod fit contra naturam. Haec qui fecit viderimus,
+an maximus; certe optimus non est: quod
+nomen a corruptoribus, ab adulteris, ab incestis
+abest; nisi forte nos erramus homines, qui talia facientes
+<pb n="0165B"/>
+sceleratos vocamus, ac perditos, omnibusque
+poenis dignissimos judicamus. Stultus autem Marcus
+Tullius, qui C. Verri adulteria objecit: eadem enim
+Jupiter, quem colebat, admisit; qui P. Clodio sororis
+incestum: at illi Optimo Maximo eadem fuit <hi>et
+soror et conjnx.</hi> </p>
+</div2>
+
+<div2>
+          <head>CAPUT XI <hi>De Jovis ortu, vita, regno, nomine et morte, et de Saturno et Urano.</hi> </head>
+<p>Quis est igitur tam excors, qui hunc in coelo regnare
+putet, qui ne in terra quidem debuit? Non insulse
+<pb n="0166A"/>
+quidam poeta triumphum Cupidinis scripsit:
+quo in libro non modo potentissimum deorum Cupidinem,
+sed etiam victorem facit. Enumeratis enim
+amoribus singulorum, quibus in potestatem Cupidinis
+ditionemque venissent, instruit pompam, in qua
+Jupiter cum caeteris diis ante currum triumphantis
+ducitur catenatus. Eleganter id quidem a poeta figuratum:
+sed tamen non multum distat a vero. Qui
+enim virtutis est expers, qui a cupiditate ac libidinibus
+malis vincitur, non Cupidini (ut ille finxit), sed
+morti subjectus est sempiternae. Sed omittamus de
+moribus dicere: rem confideremus; ut intelligant
+homines, in quibus miseri versentur erroribus. Regnare
+in coelo Jovem vulgus existimat: id et doctis
+pariter et indoctis persuasum est. Quod et Religio
+<pb n="0166B"/>
+ipsa, et precationes, et hymni, et delubra, et simulacra
+demonstrant. Eumdem tamen Saturno et Rhea
+genitum confitentur. Quomodo potest Deus videri,
+aut credi (ut ait poeta):
+<l>. . . . . . . Hominum rerumque repertor,</l>
+ante cujus ortum infinita hominum millia fuerunt?
+eorum scilicet, qui Saturno regnante vixerunt; ac
+priores luce, quam Jupiter, sunt potiti. Video alium
+Deum regem fuisse primis temporibus, alium consequentibus.
+Potest ergo fieri, ut alius sit postea futurus.
+Si enim regnum prius mutatum est: cur desperemus
+<pb n="0167A"/>
+etiam posterius posse mutari? nisi forte Saturnus
+generare potuit fortiorem: Jupiter non potest.
+Atqui divinum imperium aut semper immutabile est:
+aut, si est mutabile, quod 
+<pb n="0167A"/> fieri non potest, semper
+utique mutabile est.</p>
+<p>Potest ergo Jupiter regnum amittere, sicut pater
+ejus amisit? Ita plane. Nam cum idem neque virginibus,
+neque maritatis unquam pepercisset, abstinuit
+se tamen una Thetide, quod responsum fuit, majorem
+patre suo futurum, quisquis ex illa natus esset.
+Et primum imprudentia in eo non Dei, cui nisi Themis
+futura dixisset, ipse nesciret. Si autem divinus
+non sit, ne Deus quidem sit; unde ipsa divinitas nominatur,
+ut ab homine humanitas. Deinde conscientia
+imbecillitatis, qui timuit utique majorem: quod
+qui facit, scit profecto non esse se maximum: quondoquidem
+<pb n="0167B"/>
+potest aliquid majus existere. Idem per Stygiam
+paludem sanctissime jurat.
+<l>
+<pb n="0168A"/>Vana superstitio, superis quae reddita divis.</l> 
+Quae est ista superstitio? aut a quo reddita? Est ergo
+aliqua potestas maxima, quae pejerantes deos puniat?
+quae tanta formido est paludis infernae, si sunt immortales?
+quid metuunt eam, quam visuri non sunt, nisi
+quos mori necesse est? Quid igitur homines oculos
+suos in coelum tollunt? quid per superos dejerant,
+cum ipsi superi ad inferos revolvantur, ibique habeant
+quod venerentur et adorent? Illud vero quale
+est? esse fata, quibus dii omnes, et ipse Jupiter pareat.
+Si Parcarum tanta vis est, ut plus possint quam
+coelestes universi, quamque ipse rector ac dominus,
+cur non illae potius regnare dicantur, quarum legibus
+ac statutis parere omnes deos necessitas cogit? Nunc
+cui dubium est, quin is, qui alicui rei obsequitur,
+<pb n="0168B"/>
+maximus non sit? nam si sit, non accipiat fata, sed
+faciat. Nunc ad aliud, quod omiseram, redeo. In una
+<pb n="0169A"/>
+itaque 
+<pb n="0169A"/> sola fuit continentior, cum eam deperiret; non
+virtute aliqua, sed metu successoris. Quae formido
+utique ejus est, qui sit et mortalis, et imbecillus, et
+nihili: quippe qui potuit et tunc, cum nasceretur,
+extingui, sicut frater ejus ante genitus, extinctus est:
+qui si vivere potuisset, nunquam minori concessisset
+imperium. Ipse autem furto servatus, furtimque nutritus, <foreign xml:lang="greek">ζεὺς</foreign>
+ sive <foreign xml:lang="greek">ζῆν</foreign> appellatus est; non, ut isti putant,
+a fervore coelestis ignis, vel quod vitae sit dator,
+vel quod animantibus inspiret animas, quae virtus
+solius Dei est (quam enim possit inspirare animam,
+qui ipse accepit aliunde?), sed quod primus ex
+liberis Saturni maribus vixerit.</p>
+<p>Potuerunt igitur homines alium deum habere rectorem,
+si Saturnus non fuisset ab uxore delusus. At
+<pb n="0169B"/>
+enim poetae ista finxerunt. Errat quisquis hoc putat.
+<pb n="0170A"/>
+Illi enim de hominibus loquebantur; sed ut eos ornarent,
+quorum memoriam laudibus celebrabant,
+deos esse dixerunt. Itaque illa potius ficta sunt, quae
+tamquam de diis, non illa quae tamquam de hominibus
+locuti sunt: quod clarum fiet exemplo, quod
+inferemus. Danaen violaturus, aureos nummos largiter
+in sinum ejus infudit. Haec stupri merces fuit. At
+poetae, qui quasi de Deo loquebantur, ne auctoritatem
+creditae majestatis infringerent, finxerunt ipsum
+in aureo imbre delapsum, eadem figura, qua imbres
+ferreos dicunt, cum multitudinem telorum sagittarumque
+describunt. Rapuisse dicitur in aquila Catamitum:
+poeticus color est. Sed aut per legionem rapuit,
+cujus insigne aquila est; aut navis, in qua est
+impositus, tutelam habuit in aquila figuratam, sicut
+<pb n="0170B"/>
+taurum, cum rapuit et transvexit Europam. Eodem
+<pb n="0171A"/>
+modo convertisse in bovem traditur Io Inachi filiam,
+quae, ut iram Junonis effugeret, ut erat jam setis obsita,
+jam bos tranasse dicitur mare, in Aegyptumque
+venisse, atque ibi, recepta pristina specie, dea facta
+quae nunc Isis vocatur. Quo igitur argumento probari
+potest, nec Europam 
+<pb n="0171A"/> in Tauro sedisse, nec Io factam
+bovem? Quod certus dies habetur in Fastis, quo Isidis
+navigium celebratur: quae res docet non tranasse
+illam, sed navigasse. Igitur qui sapere sibi videntur,
+quia intelligunt vivum terrenumque corpus in coelo
+esse non posse, totam Ganymedeam fabulam pro falso
+repudiant; ac sentiunt in terra id esse factum, quia
+res ac libido ipsa terrena est. Non ergo ipsas res
+gestas finxerunt poetae; quod si facerent, essent vanissimi:
+sed rebus gestis addiderunt quemdam colorem.
+Non enim obtrectantes illa dicebant, sed ornare
+<pb n="0171B"/>
+cupientes. Hinc homines decipiuntur: maxime quod,
+dum haec omnia ficta esse arbitrantur a poetis, colunt
+quod ignorant. Nesciunt enim, qui sit poeticae licentiae
+modus; quousque progredi fingendo liceat: cum
+officium poetae sit in eo, ut ea, quae gesta sunt vere,
+in alias species obliquis figurationibus cum decore
+aliquo conversa traducat. Totum autem, quod referas,
+<pb n="0172A"/>
+fingere, id est ineptum esse, et mendacem potius
+quam poetam.</p>
+<p>Sed finxerint ista, quae fabulosa creduntur; num
+etiam illa, quae de diis foeminis, deorumque connubiis
+dicta sunt? Cur igitur sic figurantur, sic coluntur?
+nisi forte non tantum poetae, sed pictores
+etiam fictoresque imaginum mentiuntur. Si enim hic
+est Jupiter, qui a vobis dicitur deus, si non is est,
+qui ex Saturno et Ope natus est, non oportuit nisi
+solius simulacrum in templis omnibus collocari. Quid
+sibi mulierum effigies volunt? quid sexus infirmus?
+in quem si cecidit hic Jupiter, eum vero ipsi lapides
+hominem fatebuntur. Mentitos aiunt esse poetas, et
+his tamen credunt; immo vero non esse mentitos,
+re ipsa probant, ita enim deorum simulacra confingunt,
+ut ex ipsa diversitate sexus appareat, vera esse
+<pb n="0172B"/>
+quae dicunt poetae. Nam quod aliud argumentum
+habet imago Catamiti, et effigies aquilae, cum ante
+pedes Jovis ponuntur in templis, et cum ipso pariter
+adorantur: nisi ut nefandi sceleris ac stupri memoria
+maneat in aeternum? Nihil igitur a poetis in totum
+fictum est: aliquid fortasse traductum, et obliqua
+figuratione obscuratum, quo veritas involuta tegeretur;
+<pb n="0173A"/>
+sicut illud de sortitione regnorum. 
+<pb n="0173A"/> Aiunt enim
+Jovi coelum obtigisse, Neptuno mare, inferna Plutoni.
+Cur non terra potius in sortem tertiam venit; nisi quod
+in terra gesta res est. Ergo illud in vero est, quod
+regnum orbis ita partiti sortitique sunt, ut Orientis
+imperium Jovi cederet; Plutoni, cui cognomen Agesilao
+fuit, pars Occidentis obtingeret: eo quod plaga
+Orientis, ex qua lux mortalibus datur, superior;
+Occidentis autem inferior esse videatur. Sic veritatem
+mendacio velaverunt, ut veritas ipsa persuasioni
+publicae nihil derogaret. De Neptunii sorte manifestum
+est, cujus regnum tale fuisse dicimus, quale
+<pb n="0173B"/>
+Marci Antonii fuit infinitum illud imperium; cui
+<pb n="0174A"/>
+totius orae maritimae potestatem Senatus decreverat,
+ut praedones persequeretur, ac mare omne pacaret.
+Sic Neptuno maritima omnia cum insulis obvenerunt.
+Quomodo id probari potest? Nimirum veteres historiae
+docent. Antiquus auctor Euhemerus, qui fuit ex
+civitate Messene, res gestas Jovis, et caeterorum qui
+dii putantur, collegit, historiamque contexuit ex titulis,
+et inscriptionibus sacris, quae in antiquissimis
+templis habebantur, maximeque in fano Jovis Triphylii;
+ubi auream columnam positam esse ab ipso
+Jove titulus indicabat, in qua columna gesta sua
+perscripsit, ut monumentum esset posteris rerum
+<pb n="0174B"/>
+suarum. Hanc historiam et intepretatus est Ennius,
+<pb n="0175A"/>
+et secutus; 
+<pb n="0175A"/> cujus haec verba sunt:  « Ubi Jupiter
+Neptuno imperium dat maris, ut in insulis omnibus
+et quae secundum mare loca essent, omnibus regnaret. » </p>
+<p>Vera sunt ergo quae loquuntur poetae, sed obtentu
+aliquo specieque velata. Potest et mons Olympus figuram
+poetis dedisse, ut Jovem dicerent coeli regnum
+esse sortitum; quod Olympus ambiguum nomen est et
+montis, et coeli. In Olympo autem Jovem habitasse docet
+historia eadem, quae dicit:  « Ea tempestate Jupiter
+in monte Olympo maximam partem vitae colebat,
+et eo ad eum in jus veniebant, si quae res in controversia
+erant. Item, si quis quid novi invenerat,
+quod ad vitam humanam utile esset, eo veniebat, atque
+Jovi ostendebat. »  Multa in hunc modum poetae
+<pb n="0175B"/>
+transferunt, non ut in eos mentiantur quos colunt, sed
+ut figuris versicoloribus venustatem ac leporem
+carminibus suis addant. Qui autem non intelligunt,
+quomodo aut quare quidque figuretur, poetas velut
+mendaces et sacrilegos insequuntur. Hoc errore decepti
+etiam philosophi, quod ea, quae de Jove feruntur,
+<pb n="0176A"/>
+minime in Deum convenire videbantur, duos
+Joves fecerunt, unum naturalem, alterum fabulosum.
+Viderunt ex parte, quod erat verum, eum scilicet, de
+quo poetae loquuntur hominem fuisse: in illo autem
+naturali Jove, vulgari consuetudine religionis inducti,
+erraverunt, quod in Deum nomen hominis transtulerunt;
+qui (ut supra diximus) quia solus est, non indiget
+nomine. Jovem autem illum esse, qui sit ex Ope
+Saturnoque natus, negari non potest. Vana igitur
+persuasio est eorum, qui nomen Jovis summo Deo
+tribuunt. Solent enim quidam errores suos hac excusatione
+defendere; qui convicti de uno Deo, cum id
+negare non possunt, ipsum se colere affirmant, verum
+hoc sibi placere, ut Jupiter nominetur: quo quid absurdius?
+Jupiter enim sine contubernio conjugis filiaeque
+<pb n="0176B"/>
+coli non solet. Unde quid sit, apparet: nec fas
+est id nomen eo transferri, ubi nec Minerva est ulla,
+nec Juno. Quid? quod hujus nominis proprietas non
+divinam vim exprimit, sed humanam? Jovem enim,
+Junonemque a juvando esse dictos, Cicero interpretatur.
+Et Jupiter, quasi Juvans pater dicitur; quod
+<pb n="0177A"/>
+nomen in Deum minime congruit; quia juvare hominis
+est, opis aliquid conferentis in eum, qui sit alienus,
+et exigui beneficii. Nemo sic Deum precatur, ut
+se adjuvet; sed ut servet, ut vitam salutemque tribuat:
+quod multo plus ac majus est quam juvare.</p>
+<p>Et quoniam de patre loquimur, nullus pater dicitur
+filios juvare, 
+<pb n="0177A"/> cum eos generat, aut educat. Illud
+enim levius est, quam ut eo verbo magnitudo paterni
+beneficii exprimatur. Quanto id magis inconveniens
+est Deo, qui verus est pater; per quem sumus, et
+cujus toti sumus, a quo fingimur, animamur, illuminamur;
+qui nobis vitam impertit, salutem tribuit,
+victum multiplicem subministrat. Non intelligit beneficia
+divina, qui se juvari tantummodo a Deo putat.
+Ergo non imperitus modo, sed etiam impius est, qui
+<pb n="0177B"/>
+nomine Jovis virtutem summae potestatis imminuit.
+Quare si Jovem et ex rebus gestis et ex moribus hominem
+fuisse, in terraque regnasse deprehendimus,
+<pb n="0178A"/>
+superest ut mortem quoque ejus investigemus. Ennius
+in sacra Historia, descriptis omnibus quae in vita
+sua gessit, ad ultimum sic ait: Deinde Jupiter, postquam
+quinquies terras circuivit, omnibusque amicis
+atque cognatis suis imperia divisit, reliquitque hominibus
+leges, mores frumentaque paravit, multaque
+alia bona fecit, immortali gloria, memoriaque affectus,
+sempiterna monimenta suis reliquit: aetate
+pessum acta, in Creta vitam commutavit, et ad
+deos abiit, eumque Curetes filii sui curaverunt, decoraveruntque
+eum; et sepulcrum ejus est in Creta et
+in oppido Cnosso, et dicitur Vesta hanc urbem creavisse;
+inque sepulcro ejus est inscriptum antiquis
+litteris graecis, <foreign xml:lang="greek">ΖΑΝ ΚΡΟΝΟΥ,</foreign> id est latine, Jupiter
+Saturni. Hoc certe non poetae tradunt, sed antiquarum
+<pb n="0178B"/>
+rerum scriptores: quae adeo vera sunt, ut ea sybillinis
+versibus confirmentur; qui sunt tales:
+<l>
+<pb n="0179A"/> <foreign xml:lang="greek">Δαίμονας ἀψύχους, νεκύων εἴδωλα καμόντων,</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Ὧν Χρήτη καύχημα τάφους</foreign>
+<pb n="0179A"/> <foreign xml:lang="greek">ἡ δύσμορος ἴσχει.</foreign>
+            </l>
+Cicero de Natura deorum, cum tres Joves a theologis
+enumerari diceret, ait tertium fuisse Cretensem,
+Saturni filium, cujus in illa insula sepulcrum ostenditur.
+Quomodo igitur potest deus alibi esse vivus
+alibi mortuus, alibi habere templum, alibi sepulcrum?
+Sciant ergo Romani, Capitolium suum, id est
+summum caput religionum publicarum, nihil esse
+aliud quam inane monimentum.</p>
+<p>Veniamus nunc ad ejus patrem, qui ante regnavit,
+et qui fortasse plus habebat in se, quod ex coitu
+tantorum elementorum genitus esse dicatur. Videamus
+quid in eo fuerit deo dignum: in primis illud,
+quod aureum saeculum narratur habuisse; quod justitia
+sub eo fuerit in terra. Teneo aliquid in hoc,
+<pb n="0179B"/>
+quod in ejus filio non fuit. Quid enim tam conveniens
+deo, quam justum regimen, ac pium saeculum?
+Sed cum eadem ratione natum esse cogito, non possum
+<pb n="0180A"/>
+putare Deum summum, quo videam esse aliquid
+antiquius, coelum scilicet atque terram. At ego
+Deum quaero, ultra quem nihil sit omnino, qui fons,
+et origo sit rerum. Hic sit necesse est, qui coelum
+ipsum condidit, terramque fundavit. Saturnus autem
+si ex his natus est (ut putatur) quemadmodum
+potest Deus esse principalis, qui aliis ortum suum
+debet? aut quis praefuit mundo, priusquam Saturnus
+gigneretur? Sed hoc poeticum est (ut dicebam paulo
+ante) figmentum. Nec enim fieri poterat, ut elementa
+insensibilia, tantoque intervallo separata, in unum
+coirent ac filium procrearent: aut is, qui natus esset,
+non potissimum genitoribus similis existeret; sed
+eam formam gereret, quam parentes sui non habebant.</p>
+<p>
+            <pb n="0180B"/>Quaeramus ergo quid veritatis sub hac figura lateat.
+Minucius Felix in eo libro, qui Octavius inscribitur,
+sic argumentatus est:  « Saturnum, cum fugatus
+esset a filio in Italiamque venisset, Coeli filium
+<pb n="0181A"/>
+dictum, quod soleamus eos quorum virtutem miremur,
+aut qui repentino advenerint, 
+<pb n="0181A"/> de coelo cecidisse
+dicere; terrae autem, quod ignotis parentibus natos,
+terrae filios nominemus. »  Sunt haec quidem similia
+veri, non tamen vera: quia constat etiam tunc cum
+regnaret ita esse habitum. Potuit et sic argumentari:
+Saturnum, cum potentissimus rex esset, ad
+retinendam parentum suorum memoriam, nomina
+eorum coelo terraeque indidisse, cum haec prius aliis
+vocabulis appellarentur; qua ratione et montibus et
+fluminibus nomina scimus imposita. Neque enim cum
+dicunt poetae de progenie Atlantis, aut Inachi fluminis,
+id potissimum dicunt, homines ex rebus sensu
+carentibus potuisse generari; sed eos utique significant,
+qui nati sunt ex his hominibus, qui vel vivi,
+vel mortui, nomina montibus aut fluminibus indiderunt.
+<pb n="0181B"/>
+Nam id apud veteres, maximeque Graecos, fuit
+usitatum. Sic maria eorum traxisse nomina accepimus,
+<pb n="0182A"/>
+qui deciderant in ea, ut Aegeum, Icarium, Hellesponticum:
+et in Latio Aventinus, vocabulum monti
+dedit, in quo sepultus est; Tiberinus vel Tiberis,
+amni in quo mersus est.</p>
+<p>Non ergo mirandum, si nomina eorum coelo terraeque
+attributa essent, qui reges genuerant potentissimos.
+Apparet ergo non ex coelo natum esse;
+quod fieri non potest: sed ex eo homine, cui nomen
+Urano fuit. Quod esse verum Trismegistus auctor est:
+qui cum diceret admodum paucos extitisse in quibus
+esset perfecta doctrina, in his Uranum, Saturnum,
+Mercurium cognatos suos nominavit. Haec ille quia
+ignoravit, alio traduxit historiam; qui quomodo potuerit
+argumentari, ostendi: nunc dicam, quomodo,
+ubi, a quo sit hoc factum; non enim Saturnus hoc,
+<pb n="0182B"/>
+sed Jupiter fecit. In sacra Historia sic Ennius tradit:
+ « Deinde Pan eum deducit in montem, qui vocatur
+<pb n="0183A"/>
+coeli stela. 
+<pb n="0183A"/> Postquam eo ascendit, contemplatus est
+late terras, ibique eo in monte aram creat coelo;
+primusque in ea ara Jupiter sacrificavit: in eo loco
+suspexit in coelum quod nunc nos nominamus, idque
+quod supra mundum erat, quod aether vocabatur, de
+sui avi nomine coelo nomen indidit: idque Jupiter,
+quod aether vocatur, precans, primum coelum nominavit;
+eamque hostiam, quam ibi sacravit, totam
+adolevit. »  Nec hic tantum sacrificasse Jupiter invenitur.
+Caesar quoque in Arato refert Aglaosthenem
+dicere, Jovem cum ex insula Naxo adversus Titanas
+proficisceretur, et sacrificium faceret in littore, aquilam
+ei in auspicium advolasse; quam victor bono
+omine acceptam tutelae suae subjugarit. Sacra vero
+<pb n="0183B"/>
+Historia ( <hi>scilicet Ennii</hi> ) etiam ante consedisse illi aquilam
+<pb n="0184A"/>
+in capite, atque illi regnum portendisse, testatur.
+Cui ergo sacrificare Jupiter potuit, nisi coelo
+avo? quem dicit Euhemerus in Oceania mortuum,
+et in oppido Aulacia sepultum.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XII. <hi>Quod stoici figmenta poetarum ad philosophicam tranferunt rationem.</hi> </head>
+<p>Quoniam revelavimus mysteria poetarum, et Saturni
+parentes invenimus, ad virtutes ejus et facta
+redeamus. Justus in regno fuit. Primum ex hoc ipso
+jam Deus non est, quod fuit: Deinde quod ne justus
+quidem fuit; sed impius, non modo in filios quos
+necavit, verum etiam in patrem, cujus dicitur abscidisse
+<pb n="0184B"/>
+genitalia; quod forsitan vere acciderit. Sed
+<pb n="0185A"/>
+homines respectu elementi, quod dicitur coelum, totam
+fabulam explodunt tamquam ineptissime fictam:
+quam tamen stoici (ut solent) ad rationem physicam 
+<pb n="0185A"/> 
+conantur traducere; quorum sententiam Cicero,
+de Natura deorum <note>(lib. II, cap. 24)</note> disserens,
+posuit:  « Coelestem, inquit, altissimam aetheriamque
+naturam, id est igneam, quae per sese omnia
+gigneret, vacare voluerunt ea parte corporis,
+quae conjunctione alterius egeret ad procreandum:
+quae ratio in Vestam potuit convenire, si
+mas diceretur. Idcirco enim virginem putant Vestam,
+quia ignis inviolabile sit elementum, nihilque nasci
+possit ex eo, quippe qui omnia quae arripuerit absumat. » 
+Ovidius in Fastis <note>(Lib. VI, v. 291 sqq.)</note>:
+<l>Nec tu aliud Vestam, quam vivam intellige flammam;</l>
+<l>Nataque de flamma corpora nulla vides.</l> 
+<l>
+<pb n="0185B"/>Jure igitur virgo est, quae semina nulla remittit,</l>
+<l>Nec capit, et comites virginitatis amat.</l> 
+Vulcano quoque id potuit adscribi, qui quidem putatur
+ignis; et tamen eum poetae non absciderunt. Potuit
+et Soli, in quo est natura et causa gignentium;
+nam sine Solis igneo calore neque nasci quidquam,
+neque augeri potest: ut nulli alii elemento magis
+opus sit genitalibus, quam calori, cujus fotu concipiuntur,
+nascuntur, sustentantur omnia. Postremo
+etiamsi ita sit (ut volunt) qui magis abscissum esse
+Coelum putemus, quam omnino sine genitalibus natum?
+Nam si per se gignit, non indigebat utique genitalibus,
+<pb n="0186A"/>
+cum Saturnum ipsum procrearet. Si vero
+habuit, et a filio abscissa sunt, ortus rerum, et natura
+omnis interisset. Quid, quod ipsi Saturno non divinum
+modo sensum, sed humanum quoque adimunt,
+cum affirmant eum esse Saturnum, qui cursum et
+conversionem spatiorum et temporum continet;
+eumque graece id ipsum nomen habere. <foreign xml:lang="greek">Κρόνος</foreign> enim
+dicitur, quod est idem, quod <foreign xml:lang="greek">χρόνος,</foreign> id est spatium
+temporis. Saturnus autem est appellatus, quod
+saturetur annis. Haec Ciceronis verba sunt exponentis
+sententiam stoicorum <note>(Lib. II de Nat. deor, c. 64)</note>:
+ « Quae quam vana sit, cuivis intelligere promptissimum
+est. Si enim Saturnus Coeli est filius, quomodo potuit
+aut tempus a Coelo gigni, aut Coelum a tempore abscidi,
+aut postea tempus imperio spoliari a filio Jove?
+<pb n="0186B"/>
+Aut quomodo Jupiter natus est ex tempore? Aut quibus
+annis saturari possit aeternitas, cui nullus est finis? » </p>
+</div2>
+
+<div2>
+          <head>CAPUT XIII. <hi>Quam vanae sint et inanes stoicorum interpretationes de diis; et ibi de Jovis ortu, Saturno et Ope.</hi> </head>
+<p>Si ergo vanae sunt istae rationes philosophorum,
+quid superest, nisi ut vere factum esse credamus, id
+est hominem ab homine abscissum? nisi forte aliquis
+existimet deum fuisse, qui timuit cohaeredem: cum,
+si quid divinitatis habuisset, non patris genitalia debuerit
+amputare, sed propria, ne Jupiter nasceretur,
+<pb n="0187A"/>
+qui eum regni possessione privavit. Idem 
+<pb n="0187A"/> sororem
+suam Rheam, quam latine Opem dicimus, cum haberet
+uxorem, responso vetitus esse dicitur, mares
+liberos educare; quod futurum esset, ut a filio pelleretur:
+quam rem metuens, natos sibi filios non utique
+devorabat (ut ferunt fabulae) sed necabat; quamquam
+scriptum sit in Historia sacra ( <hi>scilicet</hi> Ennii) Saturnum,
+et Opem, caeterosque tunc homines humanam
+carnem solitos esitare: verum primum Jovem, leges
+hominibus moresque condentem, edicto prohibuisse
+ne liceret eo cibo vesci. Quod si verum est, quae potest
+in eo fuisse justitia? Sed fictum sane putemus,
+Saturnum filios devorasse, modo quum aliqua ratione:
+num idcirco, quod ait vulgus comedisse filios
+suos eum qui extulerit, sepulturaeque mandaverit?
+<pb n="0187B"/>
+Ops autem cum Jovem peperisset, subtraxit infantem,
+eumque nutriendum furtim misit in Cretam. Rursum
+imprudentiam reprehendam necesse est. Cur enim
+responsum ab alio potius accepit? Cur in coelo constitutus,
+quae gerebantur in terra, non videbat? Cur
+<pb n="0188A"/>
+eum Corybantes cymbalis fefellerunt? Postremo cur
+extitit aliqua vis major, quae illius vinceret potestatem?
+Nimirum senex a juvene facile victus est, ac
+spoliatus imperio. Fugit igitur, et in Italiam navigio
+venit, cum errasset diu; sicut expulsus Ovidius in Fastorum
+libris ( <hi>libro primo</hi> ) refert:
+<l>Causa ratis superest. Thuscum rate venit ad amnem</l>
+<l>Ante pererrato falcifer orbe Deus.</l> 
+Hunc errantem atque inopem Janus excepit. Cujus
+rei argumenta sunt nummi veteres, in quibus est cum
+duplici fronte Janus, et in altera parte navis; sicut
+idem poeta <hi>(ibidem)</hi> subjecit:
+<l>At bona posteritas puppim formavit in aere,</l>
+<l>Hospitis adventum testificata dei.</l>
+          </p>
+<p>
+            <pb n="0188B"/>Omnes ergo non tantum poetae, sed historiarum
+quoque ac rerum antiquarum scriptores, hominem
+fuisse consentiunt, qui res ejus in Italia gestas memoriae
+prodiderunt: Graeci, Diodorus et Thallus; Latini,
+Nepos et Cassius et Varro. Nam cum agresti
+<pb n="0189A"/>
+quodam more in Italia viveretur,
+<l>Is genus 
+<pb n="0189A"/> indocile, ac dispersum montibus altis</l>
+<l>Composuit; legesque dedit, Latiumque vocari</l>
+<l>Maluit, his quoniam latuisset tutus in oris.</l> 
+Censet ne aliquis deum esse, qui pulsus est, qui fugit,
+qui latuit? Nemo tam stultus est. Qui enim fugit
+aut latet, et vim et mortem timeat necesse est. Orpheus,
+qui temporibus ejus recentior fuit, aperte Saturnum
+in terra et apud homines regnasse commemorat:
+<l> <foreign xml:lang="greek">Πρώτιστος μὲν ἄνασσεν ἐπιχθονίων Κρόνος ἀνδρῶν,</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Ἐκ δὲ Κρόνου γένετ' αὐτὸς ἄναξ, μέγας, εὐρυόπα Ζεὺς.</foreign>
+            </l>
+Item Maro noster:
+<l>Aureus hanc vitam in terris Saturnus agebat;</l>
+Et alio loco:
+<l>Aureaque (ut perhibent) illo sub rege fuere</l>
+<l>Saecula: sic placida populos in pace regebat.</l> 
+
+<pb n="0189B"/>
+Neque superius dixit in coelo egisse vitam, neque inferius
+superos in pace rexisse: unde apparet illum
+regem fuisse terrenum; quod alibi apertius declarat:
+<l rend="indent">Aurea condet</l>
+<l>Saecula; qui rursus Latio, regnata per arva</l>
+<l>Saturno quondam.</l> 
+Ennius quidem in Euhemero non primum dicit regnasse
+Saturnum, sed Uranum patrem. Initio, inquit,
+primus in terris imperium summum Coelus habuit;
+is id regnum una cum fratribus suis instituit atque
+paravit. Non magna dissensio, siquidem maximorum
+auctorum de filio ac patre dubitatio est. Sed tamen
+utrumque fieri potest: ut et primus Uranus eminere
+<pb n="0189C"/>
+inter caeteros potentia coeperit, et principatum
+<pb n="0190A"/>
+habere, non regnum; postea Saturnus majores sibi
+opes comparaverit, ac regium nomen asciverit.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XIV. <hi>Quid de diis Euhemeri et Ennii doceat sacra historia.</hi> </head>
+<p>Nunc quoniam ab iis, quae retulimus, aliquantulum
+sacra Historia dissentit, aperiamus ea quae veris litteris
+continentur, ne poetarum ineptias in accusandis
+religionibus sequi ac probare videamur. Haec Ennii
+verba sunt:  « Exin Saturnus uxorem duxit Opem.
+Titan, qui major natu erat, postulat ut ipse regnaret.
+Ibi Vesta mater eorum, et sorores Ceres atque Ops,
+suadent Saturno, ut de regno non concedat fratri.
+Ibi Titan, qui facie deterior esset, quam Saturnus,
+idcirco et quod videbat matrem atque sorores suas
+<pb n="0190B"/>
+operam dare ut Saturnus regnaret, concessit ei ut is
+regnaret. Itaque pactus est cum Saturno, uti si quid
+liberum virilis sexus ei natum esset, ne educaret. Id
+ejus rei causa fecit, uti ad suos gnatos regnum rediret.
+Tum Saturno filius qui primus natus est, eum
+necaverunt. Deinde posterius nati sunt gemini, Jupiter
+atque Juno. Tum Junonem Saturno in conspectum
+dedere, atque Jovem clam abscondunt, dantque
+eum Vestae educandum, celantes Saturnum. Item
+Neptunum clam Saturno Ops parit, eumque clanculum
+abscondit. Ad eumdem modum tertio partu Ops
+parit geminos, Plutonem et Glaucam. Pluto Latine
+est Dispater: alii Orcum vocant. Ibi Glaucam filiam
+Saturno ostendunt, ac filium Plutonem celant atque
+<pb n="0190C"/>
+abscondunt. Deinde Glauca parva emoritur. »  Haec
+<pb n="0191A"/>
+(ut scripta sunt) 
+<pb n="0191A"/> Jovis fratrumque ejus stirps, atque
+cognatio in hunc modum nobis ex sacra scriptione
+tradita est. Item paulo post haec infert:  « Deinde Titan,
+postquam rescivit Saturno filios procreatos, atque
+educatos esse clam, seducit secum filios suos qui
+Titani vocantur, fratremque suum Saturnum, atque
+Opem comprehendit, eosque muro circumegit, et
+custodiam his apponit. » </p>
+<p>Haec historia quam vera sit, docet Sibylla Erythraea,
+eadem fere dicens; nisi quod in paucis, quae
+ad rem non pertinent, discrepat. Jupiter ergo liberatur
+summi sceleris crimine, quod patrem vinxisse
+compedibus perhibetur: id enim Titan patruus fecit
+quod ille contra pactionem jusque jurandum mares
+liberos sustulisset. Reliqua historia sic contexitur:
+<pb n="0191B"/>
+Jovem adultum, cum audisset patrem atque matrem
+custodiis circumseptos, atque in vincula conjectos,
+venisse cum magna Cretensium multitudine, Titanumque
+ac filios ejus pugnando vicisse, parentes vinculis
+exemisse, patri regnum reddidisse, atque ita in
+Cretam remeasse: Post haec deinde Saturno datam
+sortem, ut caveret ne filius eum regno expelleret:
+illum elevandae sortis atque effugiendi periculi gratia,
+insidiatum Jovi, ut eum necaret: Jovem, cognitis
+<pb n="0192A"/>
+insidiis, regnum sibi denuo vindicasse, ac fugasse
+Saturnum, qui, cum jactatus esset per omnes terras,
+persequentibus armatis, quos ad eum comprehendendum
+vel necandum Jupiter miserat, vix in Italia locum,
+in quo lateret, invenit.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XV. <hi>Quomodo, cum fuerint illi homines, dii fuerint nominati</hi> </head>
+<p>Quibus ex rebus, cum constet illos homines fuisse,
+non est obscurum qua ratione dii coeperint nominari.
+Si enim nulli reges ante Saturnum vel Uranum
+fuerunt propter hominum raritatem, qui agrestem
+vitam sine ullo rectore vivebant: non est dubium quin
+illis temporibus homines regem ipsum totamque
+gentem summis laudibus ac novis honoribus jactare
+<pb n="0192B"/>
+coeperint, ut etiam deos appellarent, sive ob miraculum
+virtutis (hoc vere putabant rudes adhuc et simplices),
+sive (ut fieri solet) in adulationem praesentis
+potentiae, sive ob beneficia quibus erant ad humanitatem
+compositi. Deinde ipsi reges, cum chari fuissent
+iis, quorum vitam composuerant, magnum sui
+desiderium mortui reliquerunt. Itaque homines eorum
+simulacra finxerunt, ut haberent aliquod ex imaginum
+contemplatione solatium; progressique longius
+<pb n="0193A"/>
+per amorem meriti, 
+<pb n="0193A"/> memoriam defunctorum colere
+coeperunt; ut et gratiam referre bene meritis viderentur,
+et successores eorum allicerent ad bene imperandi
+cupiditatem. Quod Cicero de Natura deorum <note>(l. II, c. 14)</note> 
+ docet, dicens:  « Suscepit autem vita hominum
+consuetudoque communis, ut beneficiis
+excellentes viros in coelum fama ac voluntate tollerent.
+Hinc Hercules, hinc Castor, hinc Pollux, hinc
+Aesculapius, hinc Liber. »  Et alio loco:  « Atque in plerisque civitatibus intelligi potest, acuendae virtutis
+gratia, aut quo libentius reipublicae causa periculum
+adiret optimus quisque virorum fortium, memoriam
+<pb n="0194A"/>
+honore deorum immortalium consecratam. »  Hac
+scilicet ratione Romani Caesares suos consecraverunt,
+et Mauri reges suos. Sic paulatim religiones esse
+coeperunt, dum illi primi, qui eos noverant, eo ritu
+suos liberos ac nepotes, deinde omnes posteros imbuerunt.
+Et hi tamen summi reges ob celebritatem
+nominis in provinciis omnibus colebantur.</p>
+<p>Privatim vero singuli populi gentis aut urbis suae conditores,
+seu viri fortitudine insignes erant, seu foeminae
+castitate mirabiles, summa veneratione coluerunt;
+ut Aegyptii Isidem, Mauri Jubam, Macedones Cabirum,
+Poeni Uranum, Latini Faunum, Sabini Sancum,
+<pb n="0195A"/>
+Romani Quirinum. 
+<pb n="0195A"/> Eodem utique modo Athenae
+Minervam, Samos Junonem, Paphos Venerem,
+Lemnos Vulcanum, Naxos Liberum, Apollinem
+Delphi. Sic per populos atque regiones varia sacra
+suscepta sunt, dum grati homines esse in suos principes
+cupiunt, et quod alios honores, quos vita carentibus
+deferant, invenire non possunt. Praeterea
+pietas eorum, qui successerant, plurimum contulit
+ad errorem; qui (ut divina stirpe nati viderentur)
+divinos honores parentibus detulerunt, deferrique
+jusserunt. An potest aliquis dubitare, quomodo religiones
+deorum sint institutae, cum apud Maronem
+legat Aeneae verba sociis imperantis:
+<l>Nunc pateras libate Jovi, precibusque vocate</l>
+<l>Anchisem genitorem.</l> 
+
+<pb n="0195B"/>
+Cui non tantum immortalitatem, verum etiam ventorum
+tribuit potestatem:
+<l>Poscamus ventos, atque haec me sacra quotannis</l>
+<l>Urbe velit posita templis sibi ferre dicatis.</l>
+          </p>
+<p>Idem scilicet de Jove Liber, et Pan, et Mercurius,
+et Apollo fecerunt; ac postea de his ipsis successores
+<pb n="0196A"/>
+eorum. Accesserunt etiam poetae, et compositis ad
+voluptatem carminibus, in coelum eos sustulerunt:
+sicut faciunt qui apud reges, etiam malos, panegyricis
+mendacibus adulantur. Quod malum a Graecis ortum
+est: quorum levitas, instructa dicendi facultate
+et copia, incredibile est quantas mendaciorum nebulas
+excitaverit. Itaque admirati eos, et susceperunt
+primi sacra illorum, et universis gentibus tradiderunt.
+Ob hanc vanitatem Sibylla sic eos increpat:
+<l> <foreign xml:lang="greek">Ἑλλὰς δὴ τί πέποιθας ἐπ' ἀνδράσιν ἡγεμόνεσσι;</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Πρὸς τί δὲ δῶρα μάταια καταφθιμένοις ἀνατίθης;</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Θύεις εἰδώλοις· τίς σοι πλάνον ἐν φρεσὶ θῆκε,</foreign>
+            </l>
+<l> <foreign xml:lang="greek">Ταῦτα τελεῖν προλιπόντα θεοῦ μεγάλοιο πρόσωπον.</foreign>
+            </l>
+          </p>
+<p> M. Tullius, qui non tantum perfectus orator, sed
+etiam philosophus fuit; siquidem solus extitit Platonis
+<pb n="0196B"/>
+imitator, in eo libro, quo se ipse de morte filiae
+consolatus est, non dubitavit dicere, deos, qui publice
+colerentur, homines fuisse. Quod ipsius testimonium
+eo debet gravissimum judicari, quod et augurale
+habuit sacerdotium, et eosdem se colere venerarique
+<pb n="0197A"/>
+testatur. Itaque intra paucos versiculos 
+<pb n="0197A"/> duas
+res nobis dedit. Nam dum imaginem filiae eodem modo
+se consecraturum esse profiteretur, quo illi a veteribus
+sunt consecrati, et illos mortuos esse docuit,
+et originem vanae superstitionis ostendit. « Cum vero,
+inquit, et mares et foeminas complures ex hominibus
+in deorum numero esse videamus, et eorum in
+urbibus atque agris augustissima delubra veneremur,
+assentiamur eorum sapientiae, quorum ingeniis et
+inventis omnem vitam legibus et institutis excultam
+constitutamque habemus. Quod si ullum unquam animal
+consecrandum fuit, illud profecto fuit. Si Cadmi
+progenies, aut Amphytrionis, aut Tyndari in coelum
+tollenda fama fuit, huic idem honos certe dicandus
+<pb n="0197B"/>
+est. Quod quidem faciam, teque omnium optimam
+<pb n="0198A"/>
+doctissimamque, approbantibus diis immortalibus ipsis,
+in eorum coetu locatam, ad opinionem omnium
+mortalium consecrabo. »  Fortasse dicat aliquis, prae
+nimio luctu delirasse Ciceronem. Atqui omnis illa
+oratio, et doctrina, et exemplis, et ipso loquendi genere
+perfecta, non aegri, sed constantis animi ac judicii
+fuit; et haec ipsa sententia nullum praefert indicium
+doloris. Neque enim puto illum tam varie, tam
+copiose, tam ornate scribere potuisse, nisi luctum
+ejus et ratio ipsa, et consolatio amicorum, et temporis
+longitudo mitigasset. Quid, quod idem dicit in libris
+de Republica? idem de Gloria? Nam de Legibus,
+quo in opere Platonem secutus, leges voluit ponere,
+quibus putaret usuram esse justam et sapienetm civitatem,
+<pb n="0198B"/>
+de Religione ita sanxit:  « Divos, et eos qui
+coelestes semper habiti sunt, colunto; et illos, quos in
+<pb n="0199A"/>
+coelo merita locaverunt, 
+<pb n="0199A"/> Herculem, Liberum, Aesculapium,
+Pollucem, Castorem, Quirinum. »  Item in
+Tusculanis, cum diceret totum pene coelum humano
+genere completum:  « Si vero, inquit, scrutari vetera,
+et ex illis ea quae scriptores Graeciae prodiderunt,
+eruere coner, ipsi illi majorum gentium dii qui habentur,
+hinc a nobis profecti in coelum reperientur.
+Quaere, quorum demonstrantur sepulcra in Graecia;
+reminiscere, quoniam es initiatus, quae traduntur
+mysteriis: tum denique quam hoc late pateat intelliges. » 
+Testatus est videlicet Attici conscientiam, ex
+ipsis mysteriis intelligi posse, quod omnes illi homines
+fuerunt, qui coluntur: et cum de Hercule, Libero,
+Aesculapio, Castore, Polluce incunctanter fateretur;
+<pb n="0199B"/>
+de Apolline ac Jove, patribus eorum, item de Neptuno,
+<pb n="0200A"/>
+Vulcano, Marte, Mercurio, quos majorum gentium
+deos appellavit, timuit aperte confiteri. Et idcirco
+ait late hoc patere, ut idem de Jove caeterisque antiquioribus
+diis intelligamus, quorum memoriam si eadem
+ratione veteres consecraverunt, qua se imaginem
+nomenque filiae consecraturum esse dicit, ignosci
+moerentibus potest, credentibus non potest. Quis enim
+tam demens, qui consensu et placito innumerabilium
+stultorum aperiri coelum mortuis arbitretur? aut aliquem,
+quod ipse non habeat, dare alteri posse? Apud
+Romanos deus Julius, quia hoc scelerato homini placuit
+Antonio; deus Quirinus, quia hoc pastoribus visum
+est: cum alter gemini fratris extiterit, alter patriae
+parricida. Quod si consul non fuisset Antonius,
+C. Caesar pro suis in rempublicam meritis etiam defuncti
+<pb n="0200B"/>
+hominis honore caruisset, et quidem consilio
+<pb n="0201A"/>
+Pisonis soceri, et L. Caesaris 
+<pb n="0201A"/> propinqui, qui vetabant
+funus fieri, et Dolabellae consulis, qui columnam in
+foro, id est, tumulum ejus evertit, ac forum expiavit.
+Nam Romulum desiderio suis fuisse declarat Ennius,
+apud quem populus amissum regem dolens, haec loquitur:
+<l rend="indent">O Romule, Romule dic, o,</l>
+<l>Qualem te patriae custodem dii genuerunt?</l> 
+<l>Tu produxisti nos intra luminis oras.</l> 
+<l>O pater, o genitor, o sanguen diis oriundum!</l> 
+Ob hoc desiderium facilius creditum est Julio Proculo
+mentienti, qui subornatus a patribus est, ut nuntiaret
+plebi vidisse se regem humano habitu augustiorem,
+eumque mandasse ad populum, ut sibi delubrum
+fieret, se deum esse, et Quirinum vocari. Quo facto,
+<pb n="0201B"/>
+et ipsi populo persuasit Romulum ad deos abiisse, et
+senatum suspicione caedis regiae liberavit.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XVI. <hi>Qua ratione dii esse non possint, quos sexus differentia discernit; et quod in naturam Dei non cadit officium generandi.</hi> </head>
+<p>Poteram iis, quae retuli, esse contentus; sed supersunt
+adhuc multa suscepto operi necessaria. Nam
+quam vis ipso religionum capite destructo, universa
+sustulerim, libet tamen prosequi caetera, et redarguere
+plenius inveteratam persuasionem, ut tandem
+homines suorum pudeat ac poeniteat errorum. Magnum
+hoc opus, et homine dignum.
+<l>
+<pb n="0201C"/>Relligionum animos nodis exsolvere pergo,</l>
+<pb n="0202A"/>
+ut ait Lucretius, qui quidem hoc efficere non poterat,
+quia nihil veri afferebat. Nostrum est hoc officium, qui
+et verum Deum asserimus, et falsos refutamus. Illi
+ergo, qui poetas finxisse de diis fabulas opinantur,
+et deas feminas et esse credunt et colunt, revolvuntur
+imprudentes ad id quod negaverant, coire illos,
+ac parere. Nec enim fieri potest, quin duo sexus
+generandi causa sint instituti. Recepta vero sexuum
+diversitate, non intelligunt consequens esse, ut concipiant:
+quod in Deum cadere non potest. Sed sit ut
+isti putant; nam et Jovis esse filios dicunt, et caeterorum
+deorum. Nascuntur ergo et quotidie quidem
+dii novi, nec enim vincuntur ab hominibus fecunditate.
+Igitur deorum innumerabilium plena sunt omnia,
+nullo scilicet moriente. Nam cum hominum vis
+<pb n="0202B"/>
+incredibilis, numerus sit inaestimabilis, quos tamen,
+sicuti nascuntur, mori necesse est; quid deorum esse
+tandem putemus, qui tot saeculis nati sunt, immortalesque
+manserunt? Cur ergo tam pauci coluntur?
+nisi forte arbitramur, non generandi causa, sed tantummodo
+capiendae voluptatis duos esse sexus deorum;
+et ea exercere, quae homunculos et facere et
+pati pudet.</p>
+<p>Cum vero dicantur aliqui ex aliquibus nati, consequens
+est, ut semper nascantur; siquidem aliquando
+sunt nati: vel, si aliquando nasci desierunt, scire nos
+convenit, cur aut quando desierint. Non illepide Seneca
+in libris moralis Philosophiae:  « Quid ergo est,
+inquit, quare apud poetas salacissimus Jupiter desierit
+<pb n="0202C"/>
+liberos tollere? Utrum sexagenarius factus est,
+<pb n="0203A"/>
+et illi lex Papia fibulam imposuit? 
+<pb n="0203A"/> an impetravit jus
+trium liberorum? an tandem illi venit in mentem:
+<l>Ab alio expectes, alteri quod feceris,</l>
+et timet, ne quis sibi faciat, quod ipse Saturno? » 
+At isti, qui deos asserunt, videant quomodo respondeant
+huic argumento quod inferemus: Si duo sunt
+sexus deorum, sequitur concubitus; et si coeunt, et
+domos habeant necesse est, nec enim carent virtute
+ac pudore, ut hoc promiscue aut in propatulo faciant,
+sicut muta videmus facere animalia. Si domos habent,
+consequens est ut et urbes habeant, et quidem auctore
+Nasone qui ait:
+<l>Plebs habitat diversa locis; hac fronte potentes</l>
+<l>Coelicolae clarique suos posuere penates.</l> 
+Si habent urbes, et agros igitur habebunt. Jam, quis
+<pb n="0203B"/>
+non videat quae sequantur? arare illos, et colere:
+quod quidem victus causa fit. Ergo mortales sunt.
+Quod argumentum retroversum idem valet. Si enim
+agros non habent, ne urbes quidem: si urbes non
+habent, ne domos quidem. Si domibus carent, ergo
+<pb n="0204A"/>
+et concubitu. Si concubitus ab his abest, et sexus
+igitur femineus: in diis autem videmus et feminas
+esse; ergo dii non sunt. Dissolvat hoc argumentum,
+si quis potest. Ita enim res rem sequitur, ut haec ultima
+necesse sit confiteri. Sed ne illud quidem dissolvet
+aliquis. Ex duobus sexibus alter fortior, alter
+infirmior est. Robustiores enim mares sunt, feminae
+imbecilliores. Imbecillitas autem non cadit in deum;
+ergo nec femineus sexus. Huic additur superioris
+argumenti extrema illa conclusio, ut dii non sint,
+quoniam in diis et feminae sunt.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XVII. <hi>De Stoicorum eadem sententia; et ibi de deorum aerumnis et turpitudinibus.</hi> </head>
+<p>
+            <pb n="0204B"/>Ob has rationes Stoici alioversus deos interpretantur;
+et quia non pervident, quid sit in vero, conantur
+eos cum rerum naturalium ratione conjungere.
+Quos Cicero secutus, de diis, ac religionibus eorum
+hanc sententiam tulit: Videtisne igitur, ut a physicis
+<pb n="0205A"/>
+rebus bene atque utiliter inventis tracta ratio sit ad
+commentitios ac fictos deos? quae res genuit falsas
+opiniones, erroresque turbulentos, et superstitiones
+pene aniles. 
+<pb n="0205A"/> Et formae enim deorum nobis, et aetates,
+et vestitus, ornatusque noti sunt: genera praeterea,
+conjugia, cognationes omnes, omniaque traducta ad
+similitudinem imbecillitatis humanae. Quid planius,
+quid verius dici potest? Romanae philosophiae princeps,
+et amplissimo sacerdotio praeditus, commentitios
+ac fictos deos arguit; quorum cultus superstitiones
+pene aniles esse testatur: falsis opinionibus,
+erroribusque turbulentis implicatos esse homines
+queritur. Nam totus liber tertius de Natura deorum
+omnes funditus religiones evertit ac delet. Quid ergo
+a nobis expectatur amplius? Num eloquentia superare
+<pb n="0205B"/>
+possumus Ciceronem? minime id quidem; sed fiducia illi defuit ignoranti veritatem, quod ipse simpliciter
+in eodem opere confitetur. Ait enim facilius se posse
+dicere, quid non sit, quam quid sit; hoc est, falsa
+se intelligere, vera nescire. Clarum est igitur homines
+<pb n="0206A"/>
+fuisse illos, qui dii putantur, et eorum memoriam
+post mortem consecratam esse. Ideo etiam aetates
+diversae sunt, et certae imagines singulorum, quod in
+eo habitu, et aetate simulacra eorum configurata sunt,
+in qua quemque mors deprehendit.</p>
+<p>Consideremus, si placet, aerumnas infelicium deorum.
+Isis filium perdidit; Ceres filiam; expulsa et per
+orbem terrae jactata, Latona vix insulam parvam
+( <hi>Delon</hi> ), in qua pareret, invenit. Deum mater et
+amavit formosum adolescentem, et eumdem cum
+pellice deprehensum exsectis virilibus semivirum
+reddidit; et ideo nunc sacra ejus a Gallis sacerdotibus
+celebrantur. Juno pellices acerrime persecuta
+est, quia parere ipsa non potuit ex fratre. Insulam
+<pb n="0206B"/>
+Samum scribit Varro prius Partheniam nominatam,
+quod ibi Juno adoleverit, ibique etiam Jovi nupserit.
+Itaque nobilissimum et antiquissimum templum ejus
+est Sami, et simulacrum in habitu nubentis figuratum,
+et sacra ejus anniversaria nuptiarum ritu celebrantur.
+<pb n="0207A"/>
+Si ergo adolevit, si virgo fuit primo, postea
+mulier, 
+<pb n="0207A"/> hominem fuisse, qui non intelligit, pecudem
+se fatetur. Quid loquar obscoenitatem Veneris omnium
+libidinibus prostitutae, non deorum tantum, sed et
+hominum? Haec enim ex famoso Martis stupro genuit
+Harmoniam; ex Mercurio Hermaphroditum, qui est
+natus Androgynus; ex Jove Cupidinem; ex Anchise
+Aeneam; ex Bute Erycen; ex Adonio quidem nullum
+potuit, quod etiamtum puer ab apro ictus occisus
+est: quae prima, ut in Historia Sacra continetur,
+artem meretriciam instituit, auctorque mulieribus in
+Cypro fuit, uti vulgato corpore quaestum facerent:
+quod idcirco imperavit, ne sola praeter alias
+mulieres impudica, et virorum appetens videretur.
+Etiamne habet haec aliquid numinis? cujus plura
+<pb n="0207B"/>
+numerantur adulteria, quam partus. Sed ne illae quidem
+<pb n="0208A"/>
+virgines illibatam castitatem servare potuerunt.</p>
+<p>Unde enim putemus Erichthonium esse natum?
+an ex terra, ut poetae videri volunt? At res ipsa clamat.
+Nam cum Vulcanus diis arma fecisset, eique
+Jupiter optionem dedisset praemii quod vellet postulandi,
+jurassetque, ut solebat, per infernam paludem
+se nihil negaturum, tum faber claudus Minervae nuptias
+postulavit. Hic Jupiter Opt. Max. tanta religione
+constrictus abnuere non potuit: Minervam tamen
+monuit repugnare, pudicitiamque defendere. Tum in
+illa colluctatione Vulcanum in terram profudisse aiunt
+semen, unde sit Erichthonius natus; idque illi nomen
+impositum <foreign xml:lang="greek">ἀπὸ τῆς ἔριδος, καὶ χθονὸς,</foreign> id est, ex certamine
+atque humo. Cur igitur virgo eum puerum cum
+<pb n="0208B"/>
+dracone conclusum et obsignatum tribus virginibus Cecropidis
+<pb n="0209A"/>
+commendavit? 
+<pb n="0209A"/> evidens, ut opinor, incestum,
+quod nullo modo possit colorari. Altera cum pene
+amatorem suum perdidisset, qui erat <hi>Turbatis distractus
+equis,</hi> praestantissimum medicum Asclepium curando
+juveni advocavit; eumque sanatum:
+<l rend="indent">Secretis alma recondit</l>
+<l>Sedibus, et nymphae Egeriae, nemorique relegat:</l>
+<l>Solus ubi in silvis Italis ignobilis aevum</l>
+<l>Exigeret, versoque ubi nomine Virbius esset.</l> 
+Quid sibi vult haec tam diligens, tam sollicita curatio?
+quid secretae sedes? quid relegatio vel tam longe,
+vel ad mulierem, vel in solitudinem? quid deinde nominis
+commutatio? Postremo, quid equorum tam
+pertinax abominatio? quid significant haec omnia,
+nisi conscientiam stupri, et amorem minime virginalem?
+Erat plane cur tantum laborem pro tam
+<pb n="0209B"/>
+fideli juvene susciperet, qui amanti novercae obsequium
+pernegarat.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XVIII. <hi>De deorum consecratione propter collata in homines beneficia.</hi> </head>
+<p>Hoc loco refellendi sunt etiam ii, qui deos ex hominibus
+esse factos, non tantum fatentur, sed ut eos
+<pb n="0210A"/>
+laudent etiam gloriantur, aut virtutis gratia, ut Herculem;
+aut munerum, ut Cererem ac Liberum; aut
+artium repertarum, ut Aesculapium ac Minervam.
+Haec vero quam inepta sint, quamque non digna propter
+quae homines inexpiabili se scelere contaminent,
+hostesque Deo vero fiant, quo contempto, mortuorum
+sacra suscipiunt, ex singulis rebus ostendam. Virtutem
+esse dicunt, quae hominem tollat in coelum: non
+illam, de qua philosophi disserunt, quae posita est in
+bonis animi; sed hanc corporalem, quae dicitur fortitudo:
+quae quoniam praecipua in Hercule fuit,
+immortalitatem meruisse creditur. Quis tam stulte
+ineptus est, ut corporis vires divinum vel etiam humanum
+bonum judicet; cum sint et majores pecudibus
+attributae, et uno morbo saepe frangantur, vel
+ipsa senectute minuantur et corruant? Itaque idem
+<pb n="0210B"/>
+ille, cum deformari ulceribus toros suos cerneret,
+nec sanari se voluit, nec senem fieri, ne quando
+seipso minor aut deformior videretur. Hunc e rogo
+quo vivum se ipse combusserat, ascendisse in coelum
+putaverunt: eaque ipsa, quae stultissime admirati
+sunt, simulacris et imaginibus expressa et consecrata
+posuerunt, ut in perpetuum vanitatis eorum monimenta
+<pb n="0211A"/>
+perstarent, qui ob necem bestiarum deos fieri
+credidissent. Sed haec Graecorum fortasse culpa sit,
+qui res levissimas pro maximis semper habuerunt.
+Quid nostri, num sapientiores? qui athleticam quidem
+virtutem contemnunt, quia nihil obest: sed regiam,
+quia late solet nocere, sic admirantur, ut fortes et
+bellicosos duces in deorum coetu 
+<pb n="0211A"/> locari arbitrentur;
+nec esse ullam aliam ad immortalitatem viam, quam
+exercitus ducere, aliena vastare, urbes delere, oppida
+excidere, liberos populos aut trucidare, aut
+subjicere servituti: videlicet quo plures homines
+afflixerint, spoliaverint, occiderint, eo se nobiliores,
+et clariores putant, et inanis gloriae specie capti,
+sceleribus suis nomen virtutis imponunt. Jam mallem,
+ut a ferarum caedibus deos sibi fingerent, quam
+<pb n="0211B"/>
+immortalitatem tam cruentam probarent. Si quis
+unum hominem jugulaverit, pro contaminato ac nefario
+habetur, nec ad terrenum hoc domicilium deorum
+admitti eum fas putant. Ille autem, qui infinita
+hominum millia trucidaverit, cruore campos inundaverit,
+flumina infecerit, non modo in templum, sed
+etiam in coelum admittitur. Apud Ennium sic loquitur
+Africanus;
+Si fas endo plagas coelestum ascendere cuiquam est,
+Mi soli coeli maxima porta patet.
+
+<pb n="0212A"/>
+Scilicet quia magnam partem generis humani extinxit
+ac perdidit. O quantis in tenebris, Africane,
+versatus es! vel potius, o poeta, qui per caedes et
+sanguinem patere hominibus in coelum ascensum putaveris!
+Cui vanitati et Cicero assensit: Est vero,
+inquit, Africane: nam et Herculi eadem ista porta
+patuit. Tamquam ipse plane, cum id fieret, janitor
+fuerit in coelo. Equidem statuere non possum, dolendumne
+potius, an ridendum putem; cum videam
+graves et doctos, et, ut sibi videntur, sapientes viros,
+in tam miserandis errorum fluctibus volutari. Si
+haec est virtus, quae nos immortales facit, mori quidem
+malim, quam exitio esse quamplurimis. Si aliter
+immortalitas parari non potest, nisi per sanguinent,
+quid fiet, si omnes in concordiam consenserint?
+<pb n="0212B"/>
+Quod certe fieri poterit, si pernicioso et impio furore
+projecto, innocentes esse ac justi velint. Num igitur
+nemo erit coelo dignus? num peribit virtus, quia hominibus
+in homines saevire non dabitur? Sed isti,
+qui eversiones urbium populorumque summam gloriam
+computant, otium publicum non ferent; rapient,
+saevient, et injuriis insolenter illatis, humanae
+societatis foedus irrumpent, ut habere hostem possint,
+quem sceleratius deleant, quam lacessierint.
+Nunc ad reliqua pergamus. Nomen deorum Cereri ac
+<pb n="0213A"/>
+Libero traditio 
+<pb n="0213A"/> munerum fecit. Possum divinis docere
+litteris, vinum atque fruges ante progeniem
+Coeli atque Saturni fuisse in usu hominum: sed ab
+his sane inventa esse fingamus. Num potest plus aut
+majus videri, collegisse fruges, hisque fractis, panem
+facere docuisse, aut uvas de vitibus lectas expressisse,
+vinumque fecisse, quam fruges ipsas, aut vites
+generasse, ac protulisse de terra? Reliquerit haec
+sane Deus humanis ingeniis eruenda: tamen fieri
+non potest, quin ipsius sint omnia, qui et sapientiam
+tribuit homini, ut inveniret, et illa ipsa, quae possent
+inveniri. Artes quoque suis inventoribus immortalitatem
+peperisse dicuntur, ut Aesculapio medicina,
+<pb n="0213B"/>
+Vulcano fabrica. Colamus igitur et illos, qui fullonicam
+sutrinamque docuerunt. Cur autem figulinae repertori
+honos non habetur? an quia isti divites vas
+Samia contemnunt? Sunt et aliae artes, quarum repertores
+<pb n="0214A"/>
+humanae vitae plurimum profuerunt. Cur
+non et illis attributa sunt templa? sed nimirum Minerva
+est, quae omnes reperit: ideoque illi opifices
+supplicant. Ergo ab his sordibus Minerva ascendit in
+coelum. Est vero cur quisquam derelinquat eum, qui
+terram cum animantibus, coelum cum astris et luminibus
+exorsus est, ut eam veneretur, quae telam docuit
+ordiri? Quid ille, qui vulnera in corporibus sanare
+docuit? num potest esse praestantior, quam qui
+corpora ipsa formavit, sentiendi ac vivendi rationem
+dedit? herbas denique ipsas, et caetera quibus medendi
+ars constat, excogitavit ac protulit?</p>
+</div2>
+
+<div2>
+          <head>CAPUT XIX. <hi>Quod Deum verum simul cum diis vanis nemo possit colere.</hi> </head>
+<p>At enim dicet aliquis, et huic summo qui fecit omnia,
+et illis partim profuerunt, suam venerationem
+<pb n="0215A"/>
+esse tribuendam. Primum nec factum est unquam,
+ut qui hos coluit, 
+<pb n="0215A"/> etiam Deum coluerit: neque
+fieri potest; quoniam si honos idem tribuitur aliis,
+ipse omnino non colitur, cujus religio est, illum esse
+unum ac solum Deum credere. Clamat summus poeta,
+eos omnes,
+<l>Qui inventas vitam excoluere per artes,</l>
+apud inferos esse, ipsumque illum <hi>repertorem medicinae
+talis et artis ad Stygias undas fulmine</hi> esse <hi>detrusum:</hi> 
+ut intelligamus, quantum valeat pater omnipotens,
+qui et deos fulminibus extinguat. Sed homines
+ingeniosi hanc secum habebant fortasse rationem:
+quia Deus fulminari non potest, apparet non esse
+factum; immo vero, quia factum est, apparet hominem
+<pb n="0215B"/>
+fuisse, non deum. Mendacium enim poetarum
+<pb n="0216A"/>
+non in facto est, sed in nomine. Metuebant enim
+malum, si contra publicam persuasionem faterentur,
+quod erat verum. Quod si hoc constat inter ipsos,
+ex hominibus deos factos, cur ergo non credunt
+poetis, si quando illorum fugas, et vulnera, et
+mortes, et bella, et adulteria describunt? Quibus de
+rebus intelligi datur, non potuisse ullo pacto fieri
+deos: quia ne homines quidem probi fuerunt, eaque in
+vita sua gesserunt, quae mortem pariunt sempiternam.</p>
+</div2>
+
+<div2>
+          <head>CAPUT XX. <hi>De diis Romanorum propriis et eorum sacris.</hi> </head>
+<p>Venio nunc ad proprias Romanorum religiones,
+quoniam de communibus dixi. Romuli nutrix lupa
+honoribus est affecta divinis. Et ferrem si animal
+<pb n="0216B"/>
+ipsum fuisset, cujus figuram gerit. Auctor est
+<pb n="0217A"/>
+Livius, 
+<pb n="0217A"/> Larentinae esse simulacrum, et quidem non corporis,
+sed mentis ac morum. Fuit enim Faustuli uxor, et
+propter vulgati corporis vilitatem, lupa inter pastores,
+id est, meretrix nuncupata est; unde etiam lupanar
+dicitur. Exemplum scilicet Atheniensium in ea figuranda
+Romani secuti sunt; apud quos meretrix quaedam
+nomine Leaena, cum tyrannum occidisset, quia
+nefas erat simulacrum constitui meretricis in templo,
+<pb n="0218A"/>
+animalis effigiem posuerunt, cujus nomen gerebat.
+Itaque ut illi monimentum ex nomine, sic isti ex
+professione fecerunt. Hujus nomini etiam dies festus
+dicatus est, et Larentinalia constituta. Nec hanc solam
+Romani meretricem colunt, sed Faulam quoque,
+quam Herculis scortum fuisse Verrius scribit. Jam
+quanta ista immortalitas putanda est quam etiam
+meretrices assequuntur? Flora, cum magnas opes ex
+<pb n="0219A"/>
+arte meretricia quaesivisset, 
+<pb n="0219A"/> populum scripsit haeredem,
+certamque pecuniam reliquit, cujus ex annuo
+foenore suus natalis dies celebraretur editione ludorum,
+quos appelant Floralia. Quod quia senatui flagitiosum
+videbatur, ab ipso nomine argumentum
+sumi placuit, ut pudendae rei quaedam dignitas adderetur.
+Deam finxerunt esse, quae floribus praesit,
+eamque oportere placari, ut fruges cum arboribus
+aut vitibus bene prospereque florescerent. Eum colorem
+secutus in Fastis poeta, non ignobilem nympham
+fuisse narravit, quae sit Chloris vocitata, eamque
+Zephyro nuptam, quasi dotis loco id accepisse
+muneris a marito, ut haberet omnium florum potestatem.
+<pb n="0219B"/>
+Honeste quidem ista dicuntur; sed inhoneste
+<pb n="0220A"/>
+turpiterque creduntur. Nec debent (cum veritas quaeritur)
+hujusmodi nos velamenta decipere. Celebrantur
+ergo illi ludi cum omni lascivia, convenienter
+memoriae meretricis. Nam praeter verborum licentiam,
+quibus obscoenitas omnis effunditur, exuuntur
+etiam vestibus populo flagitante meretrices, quae tunc
+mimarum funguntur officio, et in conspectu populi
+usque ad satietatem impudicorum luminum cum pudendis
+motibus detinentur.</p>
+<p>Cloacinae simulacrum in cloaca maxima repertum
+Tatius consecravit, et quia cujus esset effigies ignorabat,
+ex loco illi nomen imposuit. Pavorem, Palloremque
+Tullus Hostilius figuravit et coluit. Quid de
+<pb n="0220B"/>
+hoc dicam, nisi dignum fuisse, qui semper deos suos
+<pb n="0221A"/>
+(sicut optari solet) praesentes haberet? 
+<pb n="0221A"/> Ab hoc illud
+M. Marcelli de consecratione Honoris atque Virtutis,
+honestate nominum differt, re congruit. Eadem vanitate
+Mentem quoque inter deos collocavit senatus:
+quam profecto si habuisset, ejusmodi sacra
+nunquam suscepisset. Magnum Cicero audaxque
+consilium suscepisse Graeciam dicit, quod Cupidinum
+et Amorum simulacra in gymnasiis consecrasset;
+adulatus est videlicet Attico, et irrisit hominem
+familiarem. Non enim illud magnum, aut omnino
+consilium dicendum fuit, sed impudicorum
+hominum perdita et deplorata nequitia, qui liberos
+suos, quos erudire ad honesta deberent, prostituerunt
+libidini juventutis; a quibus flagitiorum deos,
+<pb n="0221B"/>
+et in illis potissimum locis ubi nuda corpora corruptorum
+luminibus patent, et in illa coli aetate voluerunt,
+<pb n="0222A"/>
+quae simplex et improvida prius irretiri, et in
+laqueos potest cadere, quam cavere. Quid mirum si
+ab hac gente universa flagitia manarunt? apud quam
+ipsa vitia religiosa sunt, eaque non modo non vitantur,
+verum etiam coluntur. Et ideo huic sententiae,
+tanquam Graecos prudentia vinceret, adjecit:  « Virtutes
+enim oportere, non vitia consecrari. Quod si
+recipis, o Marce Tulli, non vides fore ut irrumpant
+vitia cum virtutibus, quia mala bonis adhaerent, et in
+animis hominum potentiora sunt; quae si vetas consecrari,
+respondebit tibi illa eadem Graecia, se alios
+deos colere, ut prosint, alios, ne noceant. » </p>
+<p>Haec enim semper excusatio est eorum, qui mala
+sua pro diis habent, ut Romani Rubiginem ac Febrem.
+<pb n="0222B"/>
+Si ergo vitia consecranda non sunt, in quo
+tibi assentior, ne virtutes quidem. Non enim per se
+<pb n="0223A"/>
+sapiunt, aut sentiunt, neque intra parietes, aut aediculas
+luto factas, sed intra pectus collocandae sunt, et
+interius comprehendendae, ne sint falsae, 
+<pb n="0223A"/> si extra hominem
+fuerint collocatae. Itaque praeclaram illam legem
+tuam derideo, quam ponis his verbis:  « Ast illa,
+propter quae datur homini ascensus in coelum, mentem,
+virtutem, pietatem, fidem, earumque laudum
+delubra sunto. »  Atqui haec separari ab homine non
+possunt. Si enim colenda sunt, in homine ipso sint
+necesse est. Si autem sunt extra hominem, quid opus
+est ea colere quibus careas? Virtus enim colenda est,
+non imago virtutis: et colenda est non sacrificio aliquo,
+aut thure, aut precatione solemni, sed voluntate
+sola atque proposito. Nam quid est aliud colere
+virtutem, nisi eam comprehendere animo, et tenere?
+<pb n="0223B"/>
+quod unusquisque simul ac coepit velle, consequitur.
+Hic solus virtutis est cultus; nam religio et veneratio
+nulla alia, nisi unius Dei tenenda est. Quid igitur
+opus est, o vir sapientissime, supervacuis extructionibus
+loca occupare, quae possint humanis usibus
+cedere? quid sacerdotes constituere vana et insensibilia
+culturos? quid immolare victimas? quid tantos
+<pb n="0224A"/>
+sumptus vel fingendis, vel colendis imaginibus impendere?
+Firmius et incorruptius templum est pectus humanum:
+hoc potius ornetur, hoc veris illis nominibus
+impleatur. Has ergo falsas consecrationes sequitur,
+quod necesse est. Qui enim virtutes sic colunt, id est
+qui umbras atque imagines virtutum consectantur,
+ea ipsa, quae vera sunt, tenere non possunt. Itaque
+nulla in quoquam virtus est, vitiis ubique dominantibus;
+nulla fides, omnia pro se unoquoque rapiente;
+nulla pietas, nec consanguineis nec parentibus parcente
+avaritia, et cupiditate in venena et in ferrum
+ruente; nulla pax, nulla concordia, publice bellis
+saevientibus, privatim vero inimicitiis usque ad sanguinem
+furentibus; nulla pudicitia, libidinibus effrenatis
+omnem sexum et omnes corporis partes contaminantibus:
+<pb n="0224B"/>
+nec tamen desinunt ea colere, quae
+fugiunt et oderunt. Colunt enim thure ac summis
+digitis, quae sensibus intimis horrere debuerunt:
+qui error omnis ex illius principalis ac summi boni
+ignoratione descendit.</p>
+<p>Urbe a Gallis occupata, obsessi in Capitolio Romani,
+cum ex mulierum capillis tormenta fecissent,
+<pb n="0225A"/>
+aedem Veneri Calvae consecrarunt. Non igitur intelligunt,
+quam vanae sint religiones, vel ex eo ipso,
+quod eas his ineptiis cavillantur. A Lacedaemoniis
+fortasse didicerant, deos sibi ex eventis fingere, qui
+cum Messenios obsiderent, et illi furtim deceptis obsessoribus
+egressi, ad diripiendam Lacedaemonem
+cucurrissent, a Spartanis mulieribus fusi fugatique
+sunt. Cognitis autem dolis hostium, 
+<pb n="0225A"/> Lacedaemonii
+sequebantur. His armatae mulieres obviam longius
+exierunt; quae cum viros suos cernerent parare se ad
+pugnam, quod putarent Messenios esse, corpora sua
+nudaverunt. At illi uxoribus cognitis, et aspectu in
+libidinem concitati, sicuti erant armati, permisti sunt
+utique promiscue; nec enim vacabat discernere. Sic
+juvenes ab iisdem antea missi, misti cum virginibus,
+<pb n="0225B"/>
+ex quibus sunt Partheniae nati, propter hujus facti
+memoriam aedem Veneri armatae, simulacrumque posuerunt:
+quod tametsi ex causa turpi venit, tamen
+honestius videtur armatam Venerem consecrasse,
+<pb n="0226A"/>
+quam calvam. Eodem tempore Jovi quoque Pistori
+ara posita est, quod eos in quiete monuisset, ut ex
+omni frumento, quod habebant, panem facerent, et
+in hostium castra jactarent; eoque facto soluta esset
+obsidio, desperantibus Gallis inopia subigi posse Romanos.</p>
+<p>Quae ista religionum derisio est? Si earum defensor
+essem, quid tam graviter queri possem, quam
+deorum nomen in tantum venisse contemptum, ut
+turpissimis nominibus ludibrio habeatur? Quis non
+rideat Fornacem deam, vel potius doctos viros celebrandis
+Fornacalibus operari? Quis, cum audiat deam
+Mutam, tenere risum queat? Hanc esse dicunt, ex qua
+sint nati Lares, et ipsam Laram nominant, vel Larundam.
+Quid praestare colenti potest, quae loqui non
+<pb n="0226B"/>
+potest? Colitur et Caca, quae Herculi fecit indicium
+de furto boum, divinitatem consecuta, quia prodidit
+fratrem; et Cunina, quae infantes in cunis tuetur, ac
+fascinum submovet; et Stercutus, qui stercorandi
+<pb n="0227A"/>
+agri rationem primus induxit; et Tutinus, 
+<pb n="0227A"/> in cujus
+sinu pudendo nubentes praesident, ut illarum pudicitiam
+prior deus delibasse videatur: et mille alia portenta,
+ut jam vaniores qui haec colenda susceperint,
+quam Aegyptios esse dicamus, qui monstruosa et ridicula
+quaedam simulacra venerantur. Et haec tamen
+habent aliquam imaginem. Quid? qui lapidem colunt
+informem atque rudem, cui nomen est Terminus?
+<pb n="0228A"/>
+Hic est, quem pro Jove Saturnus dicitur devorasse;
+nec immerito illi honos tribuitur. Nam cum Tarquinius
+Capitolium facere vellet, atque in eo loco multorum
+deorum sacella essent, consuluit eos per auguria,
+utrum Jovi cederent; et cedentibus caeteris, solus
+Terminus mansit. Unde illum poeta
+<l>Capitoli immobile saxum</l>
+vocat. Jam ex hoc ipso quam magnus Jupiter invenitur,
+<pb n="0229A"/>
+cui non cessit lapis, ea fortasse fiducia, quod
+illum de paternis faucibus liberaverat. Facto itaque
+Capitolio, supra ipsum Terminum foramen est in
+tecto relictum: ut quia non cesserat, libero coelo
+frueretur; 
+<pb n="0229A"/> quo ne ipsi quidem fruebantur, qui lapidem
+frui putaverunt. Et huic ergo publice supplicacatur,
+quasi custodi finium deo: qui non tantum
+lapis, sed etiam stipes interdum est. Quid de iis
+dicam, qui colunt talia? nisi ipsos potissimum lapides
+ac stipites esse?</p>
+</div2>
+
+<div2>
+          <head> CAPUT XXI. <hi>De diis Barbarorum quibusdam propriis, et eorum sacris, ac itidem de Romanis.</hi> </head>
+<p>Diximus de diis ipsis, qui coluntur: nunc de sacris
+ac mysteriis eorum pauca dicenda sunt. Apud
+Cyprios humanam hostiam Jovi Teucrus immolavit;
+idque sacrificium posteris tradidit, quod est nuper
+Hadriano imperante sublatum. Erat lex apud Tauros,
+inhumanam et feram gentem, uti Dianae hospites
+immolarentur; et id sacrificium multis temporibus
+celebratum est. Galli Hesum atque Teutatem humano
+cruore placabant. Nec Latini quidem hujus immanitatis
+expertes fuerunt, siquidem Latialis Jupiter
+<pb n="0231A"/>
+etiamnunc sanguine colitur humano. Quid a diis boni
+precantur, qui sic sacrificant? 
+<pb n="0231A"/> Aut quid tales dii
+hominibus praestare possunt, quorum poenis propitiantur?
+Sed de Barbaris non est adeo mirandum,
+quorum religio cum moribus congruit. Nostri vero,
+qui semper mansuetudinis et humanitatis gloriam sibi
+vindicarunt, nonne sacrilegis his sacris immaniores
+reperiuntur? Hi enim potius scelerati sunt habendi,
+qui, cum sint liberalium disciplinarum studiis expoliti,
+ab humanitate desciscunt, quam qui rudes et imperiti
+ad mala facinora bonorum ignoratione labuntur. Apparet
+tamen antiquum esse hunc immolandorum hominum
+ritum: siquidem Saturnus in Latio eodem genere
+sacrificii cultus est, non quidem ut homo ad aram
+immolaretur, sed uti in Tiberim de ponte Milvio mitteretur.
+Quod ex responso quodam factitatum Varro
+auctor est; cujus responsi ultimus versus est talis:
+<l>
+<pb n="0231B"/> <foreign xml:lang="greek">Καὶ κεφαλὰς Ἀΐδῃ καὶ τῷ πατρὶ πέμπετε φωτα.</foreign>
+            </l>
+
+<pb n="0232A"/>
+Quod quia videtur ambiguum et fax illi, et homo jaci
+solet. Verum id genus sacrificii ab Hercule, cum ex
+Hispania rediret, dicitur esse sublatum, ritu tamen
+permanente, ut pro veris hominibus imagines jacerentur
+ex scirpo; ut Ovidius in Fastis docet:
+<l>Donec in haec venit Tirynthius arva, quotannis</l>
+<l>Tristia Leucadio sacra peracta modo.</l> 
+<l>Illum stramineos in aquam misisse Quirites:</l>
+<l>Herculis exemplo corpora falsa jace.</l> 
+Haec sacra Vestales virgines faciunt, ut ait idem!
+<l>Tum quoque priscorum virgo simulacra virorum</l>
+<l>Mittere roboreo scirpea ponte solet.</l> 
+Nam de infantibus, qui eidem Saturno immolabantur
+propter odium Jovis quid dicam, non invenio; tam barbaros,
+tam immanes fuisse homines, ut parricidium suum,
+id est tetrum atque execrabile humano generi facinus,
+<pb n="0232B"/>
+sacrificium vocarent: cum teneras atque innocentes
+<pb n="0233A"/>
+animas, quae maxime est aetas parentibus dulcior, 
+<pb n="0233A"/> sine
+ullo respectu pietatis extinguerent, immanitatemque
+omnium bestiarum, quae tamen foetus suos amant,
+feritate superarent! O dementiam insanabilem! Quid
+illis isti dii amplius facere possent, si essent iratissimi,
+quam faciunt propitii? cum suos cultores parricidiis
+inquinant, orbitatibus mactant, humanis sensibus
+spoliant? Quid potest esse his hominibus sancti?
+Aut quid in profanis locis facient, qui inter aras deorum
+summa scelera committunt? Pescennius Festus
+in libris Historiarum per Satyram refert, Carthaginenses
+Saturno humanas hostias solitos immolare:
+et cum victi essent ab Agathocle, rege Siculorum, iratum
+sibi Deum putavisse; itaque ut diligentius piaculum
+solverent, ducentos nobilium filios immolasse.
+<l>Tantum relligio potuit suadere malorum,</l>
+<l>
+<pb n="0233B"/>Quae peperit saepe scelerosa, atque impia facta.</l> 
+Cui ergo dementissimi homines illo sacrificio consulebant?
+<pb n="0234A"/>
+cum tantam partem civitatis occiderent,
+quantam fortasse ne Agathocles quidem victor occiderat.</p>
+<p>Ab isto genere sacrorum non minoris insaniae judicanda
+sunt publica illa sacra: quorum alia sunt
+matris deum, in quibus homines suis ipsi virilibus
+litant; amputato enim sexu, nec viros se, nec foeminas
+faciunt: alia Virtutis, quam eamdem Bellonam
+vocant, in quibus ipsi sacerdotes non alieno, sed suo
+cruore sacrificant. Sectis namque humeris, et utraque
+manu districtos gladios exerentes, currunt, efferuntur,
+insaniunt. Optime igitur Quintilianus in
+Fanatico;  « Istud, inquit, si Deus cogit, iratus est. » 
+Etiamne haec sacra sunt? Nonne satius est pecudum
+more vivere, quam deos tam impios, tam profanos,
+tam sanguinarios colere? Sed unde isti errores et
+<pb n="0234B"/>
+haec tanta flagitia manaverint, suo loco disseremus:
+interim videamus et caetera, quae carent scelere, ne
+<pb n="0235A"/>
+studio insectandi videamur eligere pejora. 
+<pb n="0235A"/> Isidis Aegyptia
+sacra sunt, quatenus filium parvulum vel perdiderit,
+vel invenerit. Nam primo sacerdotes ejus, deglabrato
+corpore, pectora sua tundunt; lamentantur,
+sicut ipsa, cum perdidit, fecerat. Deinde puer producitur
+quasi inventus, et in laetitiam luctus ille mutatur:
+ideo Lucanus:
+<l>. . . . Nunquamque satis quaesitus Osiris.</l> 
+Semper enim perdunt, et semper inveniunt. Refertur
+ergo in sacris imago rei, quae vere gesta est, quae profecto,
+si quid sapimus, declarat mortalem mulierem
+fuisse, ac pene orbam, nisi unicum reperisset. Quod
+<pb n="0236A"/>
+illum ipsum poetam minime fugit, apud quem Pompeius
+adolescens, morte patris audita, haec loquitur:
+<l>Evolvam busto jam numen gentibus Isim;</l>
+<l>Et tectum ligno spargam per vulgus Osirim.</l> 
+Hic est Osiris, quem Serapim vel Serapidem vulgus
+appellat. Solent enim mortuis consecratis nomina
+immutari; credo, ne quis putet eos homines fuisse.
+Nam et Romulus post mortem Quirinus factus est; et
+Leda, Nemesis; et Circe, Marica; et Ino, postquam
+se praecipitavit, Leucothea, materque Matuta; et
+Melicertes filius ejus, Palaemon, atque Portumnus.
+<pb n="0237A"/>
+Sacra vero Cereris Eleusinae 
+<pb n="0237A"/> non sunt his dissimilia.
+Nam sicut ibi Osiris puer planctu matris inquiritur;
+ita hic ad incestum patrui matrimonium rapta Proserpina:
+quam quia facibus ex Aetnae vertice accensis
+quaesisse in Sicilia Ceres dicitur, idcirco sacra
+ejus ardentium taedarum jactatione celebrantur.</p>
+<p>Apud Lampsacum Priapo litabilis victima est asellus:
+cujus sacrificii ratio in Fastis haec redditur:
+Cum dii omnes ad festum matris magnae convenissent,
+epulisque satiati noctem lusibus ducerent, quievisse
+humi Vestam, somnumque cepisse: ibi Priapum
+somno ejus ac pudicitiae insidiatum; sed illam intempestivo
+clamore aselli, quo Silenus vehebatur excitatam,
+libidinem vero insidiatoris esse deceptam;
+hac de causa Lampsacenos asellum Priapo, quasi in
+ultionem, mactare consuevisse; apud Romanos vero
+<pb n="0237B"/>
+eumdem Vestalibus sacris in honorem pudicitiae conservatae
+panibus coronari. Quid turpius? quid flagitiosius?
+quam si Vesta beneficio asini virgo est? At
+poeta fabulam finxit. Num ergo illud est verius, quod
+referunt ii, qui <foreign xml:lang="greek">Φαινόμενα</foreign> conscripserunt, cum de
+duabus Cancri stellis loquuntur, quas Graeci <foreign xml:lang="greek">ὄνους</foreign>
+<pb n="0238A"/>
+vocant? asellos fuisse, qui Liberum patrem transvexerint,
+cum amnem transire non posset; quorum
+alteri hoc praemium dederit, ut humana voce loqueretur:
+itaque inter eum, Priapumque ortum esse
+certamen de obscoeni magnitudine; Priapum victum
+et iratum, interemisse victorem. Hoc vero multo
+magis ineptum est; sed poetis licet quidquid velint:
+non excutio tam deforme mysterium, nec Priapum
+denudo, ne quid appareat risu dignum. Finxerunt
+haec sane poetae; sed necesse est alicujus majoris turpitudinis
+tegendae gratia ficta sint. Quae sit ergo quaeramus.
+At ea profecto manifesta est. Nam sicut
+Lunae taurus mactatur, quia similiter habet cornua, et
+<l>Placat equo Persis radiis Hyperiona cinctum,</l>
+<l>Ne detur celeri victima tarda Deo.</l> 
+
+<pb n="0238B"/>
+Ita in hoc quia magnitudo membri virilis enormis est,
+non potuit ei monstro aptior victima reperiri, quam
+quae ipsum, cui mactatur, posset imitari.</p>
+<p>Apud Lindum, quod est oppidum Rhodi, Herculis
+sacra sunt, quorum a caeteris longe diversus est ritus:
+siquidem non <foreign xml:lang="greek">εὐφημίᾳ</foreign> (ut Graeci appellant),
+sed maledictis, et execratione celebrantur; eaque
+<pb n="0239A"/>
+pro violatis habent, si quando inter solemnes ritus
+vel imprudenti alicui exciderit bonum verbum. Cujus
+rei haec ratio redditur, si tamen ulla esse 
+<pb n="0239A"/> in rebus
+vanissimis potest: Hercules, cum eo delatus esset,
+famemque pateretur, aratorem quemdam aspexit
+operantem, ab eoque petere coepit, ut sibi unum
+bovem venderet. Enimvero ille negavit fieri posse,
+quia spes sua omnis colendae terrae duobus illis juvencis
+niteretur. Hercules, solita violentia usus, quia
+unum accipere non potuit, utrumque sustulit. At ille
+infelix, cum boves suos mactari videret, injuriam
+suam maledictis ultus est. Quod homini eleganti et
+urbano gratissimum fuit. Nam dum comitibus suis
+epulas apparat, dumque alienos boves devorat, illum
+sibi amarissime conviciantem, cum risu et cachinnis
+<pb n="0239B"/>
+audiebat. Sed postquam Herculi divinos honores ob
+admirationem virtutis deferri placuit, a civibus ei
+ara posita est, quam de facto <foreign xml:lang="greek">βούζυγον</foreign> nominavit, ad
+quam duo juncti boves immolarentur, sicut illi quos
+abstulerat aratori; eumque ipsum sibi constituit sacerdotem,
+ac praecepit, ut iisdem maledictis semper
+in celebrandis sacrificiis uteretur, quod negaret se
+unquam epulatum esse jucundius. Haec jam non
+sacra sunt, sed sacrilegia, in quibus id sanctum dicitur,
+quod in aliis, si fiat, etiam severissime vindicatur.
+Ipsius autem Cretici Jovis sacra quid aliud
+<pb n="0240A"/>
+quam quomodo sit aut subtractus patri, aut nutritus
+ostendunt? Capella est Amaltheae nymphae, quae
+uberibus suis aluit infantem; de qua Germanicus
+Caesar in Arataeo carmine sic ait:
+<l rend="indent">. . . . . Illa putatur</l>
+<l>Nutrix esse Jovis; si vere Juppiter infans</l>
+<l>Ubera Cretaeae mulsit fidissima caprae,</l>
+<l>Sidere quae claro gratum testatur alumnum.</l> 
+Hujus capellae corio usum esse pro scuto Jovem contra
+Titanas dimicantem Musaeus auctor est: unde a
+poetis <foreign xml:lang="greek">ἀιγίοχος</foreign> nominatur. Ita quidquid est gestum
+in abscondendo puero, id ipsum per imaginem geritur
+in sacris. Sed et matris ejus mysterium idem
+continet, quod Ovidius exponit in Fastis, lib. IV, v.
+207):
+<l>Ardua jamdudum resonat tinnitibus Ide;</l>
+<l rend="indent">
+<pb n="0240B"/>Tutus ut infanti vagiat ore puer.</l> 
+<l>Pars clypeos sudibus, galeas pars tundit inanes:</l>
+<l rend="indent">Hoc Curetes habent, hoc Corybantes opus.</l> 
+<l>Res latuit, priscique manent imitamina facti;</l>
+<l rend="indent">Aera deae comites raucaque terga movent,</l>
+<l>Cymbala pro galeis, pro scutis tympana pulsant:</l>
+<l rend="indent">Tibia dat Phrygios, ut dedit ante, modos.</l> 
+Hanc totam opinionem, quasi a poetis fictam, Salustius
+respuit, voluitque ingeniose interpretari, cur
+altores Jovis dicantur Curetes fuisse; et sic ait:
+Quia principes intelligendi divini fuerunt, vetustatem
+ut caetera in majus componentem, altores Jovis celebravisse.
+Quantum erraverit homo eruditus, jam res
+<pb n="0241A"/>
+ipsa declarat. Si enim princeps est Jupiter, et deorum
+et religionum; si ante illum dii nulli colebantur vulgo,
+quia nondum nati fuerant, qui coluntur; apparet
+Curetes 
+<pb n="0241A"/> ex diverso principes fuisse divini non intelligendi,
+per quos error omnis inductus est, et Dei
+veri memoria sublata. Ex ipsis itaque mysteriis et
+ceremoniis intelligere debuerunt, hominibus se mortuis
+supplicare. Non igitur exigo, ut aliquis poetarum
+fictionibus credat. Qui hos mentiri putat, Pontificum
+ipsorum scripta consideret, et quidquid est litterarum
+ad sacra pertinentium revolvat: plura fortasse, quam
+nos afferimus, inveniet, ex quibus intelligat, inania
+inepta, commentitia esse omnia, quae pro sanctis habentur.
+Si quis autem, percepta sapientia, deposuerit
+errorem, profecto ridebit ineptias hominum pene
+dementium; illos dico, qui vel inhonesto saltatu tripudiant,
+<pb n="0241B"/>
+vel qui nudi, uncti, coronati, personati, aut
+luto obliti currunt. Quid de scutis jam vetustate putridis
+dicam? quae cum portant, deos ipsos se gestare
+humeris suis arbitrantur. Nam Furius Bibaculus inter
+<pb n="0242A"/>
+praecipua pietatis exempla numeratur, qui cum praetor
+esset, tamen lictoribus praeeuntibus, ancile portavit,
+cum haberet, magistratus beneficio, muneris
+ejus vacationem. Non ergo ille Furius, sed plane
+furiosus fuit, qui praeturam hoc ministerio se putavit
+ornare. Merito igitur, cum haec a viris non imperitis
+ac rudibus fiant, Lucretius exclamat:
+<l>O stultas hominum mentes, o pectora caeca!</l> 
+<l>Qualibus in tenebris vitae, quantisque periclis</l>
+<l>Degitur hoc aevi, quodcumque est!</l> 
+Quis haec ludibria non rideat, qui habeat aliquid sanitatis?
+cum videat homines velut mente captos ea
+serio facere, quae si quis faciat in lusu, nimis lascivus
+et ineptus esse videatur.
+</p>
+        </div2>
+
+<div2>
+          <head>CAPUT XXII. <hi>Quid auctor praedictarum vanitatum in Italia apud Romanos fuerit, et quis apud alias gentes.</hi> </head>
+<p>Harum vanitatum apud Romanos auctor et constitutor
+Sabinus ille rex fuit, qui maxime animos hominum
+<pb n="0243A"/>
+rudes atque imperitos novis superstitionibus
+implicavit: quod ut faceret aliqua cum auctoritate,
+simulavit cum dea Egeria 
+<pb n="0243A"/> nocturnos se habere congressus.
+Erat quaedam spelunca peropaca in nemore
+Aricino, unde rivus perenni fonte manabat; huc,
+remotis arbitris, se inferre consueverat, ut mentiri
+posset, monitu deae conjugis ea sacra populo se tradere
+quae acceptissima diis essent: videlicet astutiam
+Minois voluit imitari: qui se in antrum Jovis
+recondebat, et ibi diu moratus, leges tamquam sibi
+a Jove traditas afferebat, ut homines ad parendum
+non modo imperio, sed etiam religione constringeret.
+Nec difficile sane fuit persuadere pastoribus.
+Itaque pontifices, flamines, salios, augures creavit,
+deos per familias descripsit. Sic novi populi feroces
+<pb n="0243B"/>
+animos mitigavit, et ad studia pacis a rebus bellicis
+avocavit. Sed cum alios falleret, seipsum tamen non
+fefellit; nam post annos plurimos, Cornelio et Bebio
+coss., in agro scribae Petilii sub janiculo arcae duae
+lapideae sunt repertae a fossoribus, quarum in altera
+<pb n="0244A"/>
+corpus Numae fuit, in altera septem latini libri de
+jure pontificio, item graeci totidem de disciplina
+sapientiae scripti, quibus religiones, non eas modo,
+quas ipse instituerat, sed omnes praeterea dissolvit.
+Qua re ad senatum delata, decretum est, ut hi libri
+abolerentur: ita eos Q. Petilius Praetor urbanus in
+concione populi concremavit, insipienter id quidem.
+Quid enim profuit, libros esse combustos? cum hoc
+ipsum, quod sunt ideo combusti, quia religionibus
+derogabant, memoriae sit traditum? Nemo ergo tunc
+in senatu non stultissimus. Potuerunt enim et libri
+aboleri, et res tamen in memoriam non exire. Ita
+dum volunt etiam posteris approbare quanta pietate
+defenderint religiones, auctoritatem religionum ipsarum
+testando minuerunt.</p>
+<p>
+            <pb n="0244B"/>Sed ut Pompilius apud Romanos institutor ineptarum
+religionum fuit: sic ante Pompilium Faunus
+in Latio, quin et Saturno avo nefaria sacra constituit,
+et Picum patrem inter deos honoravit, et sororem
+<pb n="0245A"/>
+suam Fatuam Faunam, 
+<pb n="0245A"/> eamdemque conjugem
+consecravit; quam Gabius Bassus Fatuam nominatam
+tradit, quod mulieribus fata canere consuevisset,
+ut Faunus viris. Eamdem Varro scribit tantae
+pudicitiae fuisse, ut nemo eam, quoad vixerit, praeter
+virum suum mas viderit, nec nomen ejus audierit.
+Idcirco illi mulieres in operto sacrificant, et
+bonam deam nominant. Et Sextus Clodius in eo
+libro, quem graece scripsit, refert Fauni hanc
+uxorem fuisse, quae quia contra morem decusque
+regium clam vini ollam ebiberat, et ebria facta erat,
+virgis myrteis a viro usque ad mortem caesa. Postea
+<pb n="0246A"/>
+vero cum eum facti sui poeniteret, et desiderium
+ejus ferre non posset, divinum illi honorem detulisse;
+idcirco in sacris ejus obvolutam vini amphoram
+poni. Reliquit ergo posteris Faunus quoque non
+parum erroris, quem tamen prudentes quique perspiciunt.
+Nam Lucilius eorum stultitiam, qui simulacra
+deos putant esse, deridet his versibus:
+<l>Terricolas Lamias Fauni, quas Pompiliique</l>
+<l>Instituere Numae, tremit has; hic omnia ponit.</l> 
+<l>Ut pueri infantes credunt signa omnia ahena</l>
+<l>Vivere, et esse homines: sic isti omnia ficta</l>
+<l>Vera putant; credunt signis cor inesse in ahenis.</l> 
+<l>Pergula pictorum; veri nihil: omnia ficta</l>
+
+<pb n="0247A"/>
+Poeta quidem stultos homines infantibus comparavit.
+At ego multo imprudentiores esse dico. Illi enim simulacra
+homines putant esse, hi deos. Illos aetas facit
+putare quod non est, hos stultitia. Illi utique brevi
+desinunt falli, horum vanitas et durat, et semper
+crescit. Sacra Liberi Patris 
+<pb n="0247A"/> primus Orpheus induxit
+in Graeciam, primusque celebravit in monte Boeotiae
+Thebis, ubi Liber natus est, proximo, qui cum frequenter
+citharae cantu personaret, Citeron appellatus
+est. Ea sacra etiamnunc Orphica nominantur, in quibus
+ipse postea dilaceratus, et carptus est, et fuit per
+eadem fere tempora, quibus Faunus. Sed quis aetate
+praecesserit, dubitari potest: siquidem per eosdem
+annos Latinus Priamusque regnaverunt; item patres
+eorum Faunus et Laomedon, quo regnante, Orpheus
+<pb n="0247B"/>
+cum Argonautis ad Iliensium littus accessit.</p>
+<p>Procedamus igitur ulterius, et quaeramus, quis omnino
+colendorum deorum primus auctor extiterit. Didymus
+<pb n="0248A"/>
+in libris <foreign xml:lang="greek">ἐξηγήσεος Πινδαρικῆς</foreign> ait, Melissea Cretensium
+regem primum diis sacrificasse, ac ritus novos
+sacrorumque pompas introduxisse. Hujus duas
+fuisse filias, Amalthaeam et Melissam, quae Jovem
+puerum caprino lacte ac melle nutrierunt. Unde poetica
+illa fabula originem sumpsit, advolasse apes, atque
+os pueri melle complesse. Melissam vero a patre
+primam sacerdotem Matri magnae constitutam, unde
+adhuc ejusdem Matris antistites Melissae nuncupantur.
+Historia vero sacra testatur ipsum Jovem, postquam
+rerum potitus est, in tantam insolentiam venisse, ut
+ipse sibi fana multis in locis constitueret. Nam cum
+terras circuiret, ut in quamcumque regionem venerat,
+reges principesve populorum hospitio sibi et amicitia
+copulabat, et cum a quoque digrederetur, jubebat
+<pb n="0248B"/>
+sibi fanum creari hospitis sui nomine, quasi ita posset
+amicitiae et foederis memoria conservari. Sic constituta
+sunt templa Jovi Atabyrio, Jovi Labrandio.
+<pb n="0249A"/>
+Atabyrius enim et Labrandius hospites ejus, atque
+adjutores in bello fuerunt. Item Jovi Laprio, 
+<pb n="0249A"/> Jovi Molioni,
+Jovi Casio, et quae sunt in eumdem modum.
+Quod ille astutissime excogitavit, ut et sibi honorem
+divinum, et hospitibus suis perpetuum nomen acquireret
+cum religione conjunctum. Gaudebant ergo illi,
+et hinc imperio ejus libenter obsequebantur, et nominis
+sui gratia ritus annuos et festa celebrabant. Simile
+quiddam in Sicilia fecit Aeneas <note>(Vid. Aeneid., V)</note>,
+cum conditae urbi Acestae hospitis nomen imposuit,
+ut eam postmodum laetus ac libens Acestes diligeret,
+augeret, ornaret. Hoc modo religionem cultus sui per
+orbem terrae Jupiter seminavit, et exemplum caeteris
+ad imitandum dedit. Sive igitur a Melisseo, sicut Didymus
+tradidit, colendorum deorum ritus effluxit;
+<pb n="0249B"/>
+sive ab ipso quoque Jove, ut Euhemerus; de tempore
+tamen constat quando dii coli coeperint. Melisseus
+quidem multum antecessit aetate, quippe qui
+<pb n="0250A"/>
+educaverit Jovem nepotem. Et idcirco fieri potest,
+vel ut ante, vel adhuc puero Jove deos colere instituerit,
+id est alumni sui matrem; et aviam Tellurem,
+quae fuit Urani conjux, et patrem Saturnum: et ipse
+hoc exemplo atque instituto Jovem ad tantam superbiam
+provexerit, ut postea sibi divinos honores auderet
+assumere.</p>
+</div2>
+
+<div2>
+          <head>CAPUT. XXIII. <hi>De vanarum superstitionum aetatibus, et quibus coeperint temporibus.</hi> </head>
+<p>Nunc quoniam vanarum superstitionum originem
+deprehendimus, superest ut etiam tempora colligamus,
+per quae fuerint illi quorum memoria colitur.
+Theophilus in libro de Temporibus ad Autolicum
+<pb n="0250B"/>
+scripto ait, in historia sua Thallum dicere, quod Belus,
+quem Babylonii et Assyrii colunt, antiquior trojano
+bello fuisse invenitur trecentis viginti duobus
+<pb n="0251A"/>
+annis: Belum autem Saturno aequalem fuisse, et
+utrumque uno tempore adolevisse. Quod adeo verum
+est, ut ratione ipsa colligi possit. Nam et Agamemnon,
+qui gessit bellum Troicum, Jovis abnepos
+fuit, et Achilles Ajaxque pronepotes, et Ulysses eodem
+gradu proximus fuit; Priamus quidem longa
+serie. Sed auctores quidam tradunt, Dardanum et Jasium
+Coriti filios fuisse, non Jovis. Nec enim, si ita
+fuisset, ad usus impudicos Ganymedem pronepotem
+suum habere potuisset. Itaque 
+<pb n="0251A"/> parentibus illorum,
+quos supra nominavi, si congruentes annos dividas,
+numerus consentiet. Ab excidio autem Trojanae urbis
+colliguntur anni MCCCCLXX. Ex hac temporum
+ratione manifestum est, ante annos non amplius
+quam MDCCC natum esse Saturnum, qui et sator omnium
+<pb n="0252A"/>
+deorum fuit. Non ergo isti glorientur sacrorum
+vetustate, quorum et origo, et ratio, et tempora deprehensa
+sunt. Restant adhuc aliqua, quae ad arguendas
+religiones falsas plurimum valent. Sed jam finem
+facere libro decrevi, ne modum excedat. Ea enim
+plenius sunt exequenda, ut omnibus refutatis, quae
+veritati videntur obstare, homines, qui bonorum
+ignorantia vagantur incerti, ad religionem veram
+possimus imbuere. Primus autem sapientiae gradus
+est, falsa intelligere; secundus, vera cognoscere.
+Ergo apud quem haec prima institutio nostra profecerit,
+qua falsa deteximus, excitabitur ad veri cognitionem,
+qua nulla est homini jucundior voluptas; et
+erit jam sapientia coelestis disciplinae dignus, qui ad
+cognoscenda caetera libens ac paratus accesserit.
+</p>
+</div2>
+      </div1>
+</body>
+  </text>
+</TEI>

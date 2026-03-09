@@ -1,0 +1,2480 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+        schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc>
+         <titleStmt>
+              <title>De praescriptionibus adversus haereticos</title>
+              <author ref="http://viaf.org/viaf/100226395">Tertullianus<date>150-230</date>
+        </author>
+         </titleStmt>
+         <editionStmt>
+              <edition>early modern edition, no apparatus</edition>
+              <editor>Jacques-Paul Migne</editor>
+         </editionStmt>
+         <publicationStmt>
+                 <publisher>J. P. Migne</publisher>
+                 <pubPlace>Parisiis</pubPlace>
+                 <date>1844</date>
+              </publicationStmt>
+          <seriesStmt>
+           <title>Patrologia Latina, vol. 2</title>
+           <idno>Tertul.DePrAdH</idno>
+          </seriesStmt>
+          <notesStmt>
+  			<note/>
+ 		  </notesStmt>
+  		<sourceDesc>
+    		<p>Patrologia Latina</p>
+  		</sourceDesc>
+ 	</fileDesc>
+      <encodingDesc>
+         <projectDesc>
+        <p>this file was encoded in TEI xml for the University of Zurich's <emph>Corpus Corporum</emph> project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+          <editorialDecl>
+             <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+          </editorialDecl>
+      </encodingDesc>
+ 	  <profileDesc>
+		<creation>
+ 		<date/>
+  		</creation>
+  	  <langUsage>
+  		<language ident="lat">latin</language>
+  	  </langUsage>
+  	  <textClass>
+  		<keywords>
+ 		 <list>
+ 		  <item/>
+		  <item/>
+	  	 </list>
+  		</keywords>
+  		<keywords scheme="genre">
+  		 <list>
+   			<item/>
+  		</list>
+  		</keywords>
+  		<keywords scheme="period">
+ 		 <list>
+   			<item/>
+  		 </list>
+  		</keywords>
+ 	   </textClass>
+ 	</profileDesc>
+ </teiHeader>
+<text>
+ <body>	
+
+<div2>
+        <head>PROOEMIUM.</head>
+<p>
+          <pb n="0009A"/>Etsi Tertulliani de Praescriptionibus librum, inter
+omnia ejus opuscula longe praestantissimum esse, eoque
+uno telo cunctas omnium temporum haereses prostratas
+pessumdari, nemo ierit inficias, cuique tamen
+nota est ardua, quae ab ipso operis occursu suboritur,
+controversia, quonam nempe potissimum tempore,
+an ante, postve Auctoris ad Montanistas discessum, libellus
+iste vel fuerit editus, vel exaratus.</p>
+<p>Porro communis est Catholicorum sententia hoc
+opus eximium crescere intra haereseos septa nequivisse:
+viros doctissimos, amplissimosque recenseas
+velim huic opinioni suffragantes, videlicet Baronium
+( <hi>ad annum 197, nº</hi> 11), Tillemontium ( <hi>Mémoires
+pour servir à l' Histoire ecclésiastique, t.</hi> III, <hi>note 6
+<pb n="0009B"/>
+sur Tertullien, p. 300 et suiv.</hi> ), D. Remig. Cellerium <note>(Histoire des auteurs ecclésiastiques, t. II, ch. 28, art. VI,
+p. 395)</note>,
+Fleury <note>(Histoire ecclésiastique, t. II, liv. V,
+nº 28)</note>, J.  A. Moehler (Patrologie oder christliche litterar
+geschichte) cujus utpote recentioris, ac proinde
+caeterorum plenius sensus referentis verba hic laudare
+non pigebit:  « Ea est, inquit, hujusce libri mens,
+eo per integrum contexitur modo, quo pateat catholici
+auctoris sinceritas. Ubi enim in Montanistarum placita
+totus semel abierit, palamque ab Ecclesia discesserit,
+jam non licuisset eo rerum verborumque pondere et
+integritate asserere palmare hoc praescriptionis argumentum,
+quo deinceps a Catholicis ipsemet fuit agitatus
+vehementer ac perfossus. » </p>
+<p>Eosdem insuper ad id sentiendum triplex aliud movet
+<pb n="0010A"/>
+argumentum: 1º nihil in hoc libro contineri
+quod apertam redoleat haeresim; 2º imo haud dubiis
+liquere signis Auctorem fuisse tunc temporis cum
+Ecclesia romana communione consociatum; 3º nullibi
+vel minime de quodam Artemone, nequissimo haeresiarcha,
+Christo divinitatem abjudicante, meminisse:
+unde inferre licet, ante Artemonis tempora, ac proinde a
+Tertulliano nondum lapso librum fuisse conscriptum.</p>
+<p>Haec et his similia afferre solent, nec tamen commode
+planeque oppugnant ipsiusmet Tertulliani testimonium
+post lapsum asseverantis, in libris adversus
+Marcionem, hunc de Praescriptionibus nondum fuisse
+editum, uti fusius videre est in dissertatione D. Lumper
+ad hujusce editionis frontem apposita.</p>
+<p>
+          <pb n="0010B"/>Detur igitur necesse est, perpensis hinc inde momentis,
+media inter utramque sententiam semita, qua
+tuto coeant conveniantque dissentientes, nobisque ita
+videntur utrinque impelli, ut jam non ambigatur hoc
+opus alio fuisse conscriptum tempore, alioque in lucem
+editum.</p>
+<p>Ac primo, Tertullianum arbitramur hunc librum
+concepisse primisque tabulis exaravisse, cum, Romae
+versatus, fide adhuc integer ac veluti aestu novitio
+ferox et superbiens, omnes haereses undique Sedem
+Apostolicam unanimi impetu obsidentes, ad Petram
+uno traditionis ictu allisas, conspexerit; ac simul cum
+summis viris qui in Urbe, eadem tempestate florebant,
+necessitate conjunctus, nempe cum Caio presbytero,
+Hippolytoque, illustribus prae cunctis S. Irenaei
+<pb n="0011A"/>
+discipulis, ab ipsis tanti magistri libros acceperit,
+ab iisdem expeditissimam ad novatores quoslibet
+absque acie nec pugna debellandos, tutissimamque
+traditionum et praescriptionum viam, indagaverit, tenuerit,
+expertamque habuerit; indeque penitus in mente
+hoc infixum reposuerit consilium, novos nempe veritatis
+hostes ad judicium rapiendi, eosque, nec re perpensa,
+nec caussa agitata, vi quarumdam duntaxat exceptionum,
+ab omni lite expellendi, damnatosque remittendi. <note>(Cf. Eus., Hist. Eccl., l. II, c. 2, p. 41; Tertull.
+de Cultu F., l. I, c. 6.--Hier. Vir. Illustr., c. 53.)</note> </p>
+<p>Quo consilio jam pene peracto, vel ad metam
+properante, subiit, sive ex clericorum romanorum
+invidia, sive ex impotenti Septimii ingenio, acerrimoque
+viri africani animo, lugenda sane procella, quae
+<pb n="0011B"/>
+eum ab navi Ecclesiae et portu fidei catholicae in invios
+Montanismi scopulos abripuit. Interdum vero remansit
+Tertullianus veritatis aliquatenus indefessus
+assertor, et cum jam ultimam aetatis suae partem totam
+in certamina impenderet, non respuit exantlatos
+antea labores, ac in lucem emisit praeclarum
+illud Praescriptionis catholicae monumentum.</p>
+<p>Hinc nobis satius visum est hoc opus medium inter
+catholici, montanistaeque Tertulliani libros seponere,
+ratis nimirum hunc ad utramque ejus ingenii faciem,
+ambasque vitae ipsius partes respicere ac eodem titulo
+pertinere.
+</p>
+      </div2>
+
+<div2>
+        <head>ARGUMENTUM.</head>
+<p>Hunc librum licet in duas scindere partes, quarum
+<pb n="0011C"/>
+prior praevia quaedam quinque perpendet momenta
+quae viam ad praescriptiones sternunt, posterior vero
+novem praecipuos adversus haereses praescribendi modos
+exponit. Hinc</p>
+<p>
+          <emph> <hi>Partis prioris</hi> </emph>
+ <hi>Prop.</hi> IV. Cunctas haereses ab alterutro fonte, sive
+saecularis sapientiae sive prurientis curiositatis, dimanare
+<list>
+<item> <hi>Propositio prima:</hi> oportere et haereses esse, et
+plurimum valere, multumque in subvertendas animas
+proficere. I--III.</item>
+<item> <hi>Prop.</hi> II. Fugiendas esse haereses, utpote dissensionibus
+et persecutionibus pejores. IV--V.</item>
+<item> <hi>Prop.</hi> III. Haeresim esse electionem, et in quo fit
+electio, inde damnationem VI.</item>
+          </list>
+
+<pb n="0011D"/>
+        </p>
+<p>
+          <emph> <hi>Pars posterior</hi> </emph>
+Hanc PRIMAM exhibet praescriptionem, haereticos
+<list>
+<item>
+VII--XII.</item>
+<item> <hi>Prop.</hi> V. Integram servandam esse fidei regulam,
+nec in litem unquam esse discerpendam. XIII--XIV.</item>
+          </list>
+
+<pb n="0012A"/>SEXTAM. Vera est disciplina nostra, quae ab Apostolis
+utique non damnatur, imo defenditur; falsa vero
+quaelibet alia, utpote Apostolis aliena vel incognita
+<list>
+<item>
+ad disputandum de Scriptura non esse audiendos.
+XV--XIX.</item>
+<item>SECUNDAM. Ab ipso Christo Apostolos, ab Apostolis ecclesias
+sanam disciplinam posteris transferendam accepisse,
+nec aliunde ullam esse accipiendam. XX--XXVII.</item>
+<item>TERTIAM. Ideo veram Ecclesiae doctrinam, quia
+unam; falsam vero haereticorum, quod diversam.</item>
+<item>QUARTAM. Illud verum et divinum, quod prius traditum.
+XXIX--XXXI.</item>
+<item>QUINTAM. Firmum esse verae Ecclesiae testimonium
+continuam ab Apostolis episcoporum successionem
+XXXII.</item>
+          </list>
+
+<pb n="0012B"/>Subjiciuntur ultima capita quae catalogum haereticorum
+<list>
+<item>
+XXXIII--XXXV.</item>
+<item>SEPTIMAM. Ad inveniendam veritatem consulendas
+esse ecclesias apostolicas ac prae omnibus felicem
+ecclesiam cui totam doctrinam Apostoli cum sanguine
+suo profuderunt. XXXVI--XXXVII.</item>
+<item>OCTAVAM. Jus nullum in Sacras Scripturas haereticis
+competere. XXXVIII--XL.</item>
+<item>NONAM. Nullam veritatem inesse cum perversa
+haereticorum conversatione; ubi vero metum in Deum,
+ibi gravitatem honestam, et communicationem deliberatam,
+et promotionem emeritam, et subjectionem
+religiosam, et apparitionem devotam, et processionem
+modestam, et Ecclesiam unitam, et Dei omnia.
+XLI-XLV.</item>
+          </list>
+
+<pb n="0012C"/>
+<list>
+<item>
+continent, de cujus <foreign xml:lang="greek">αὐθεντίᾳ</foreign> vide sis annotationem
+his capitibus annexam. [EDD.]</item>
+          </list>
+</p>
+</div2>
+
+<div2>
+        <head>ARGUMENTUM PER JACOBUM PAMELIUM.</head>
+<p> <hi>Adversus haereticos, sive haereses tum temporis grassantes,
+scripturus Tertullianus, videns disputationibus sive
+nihil aut parum profici, certis praescriptionibus, sive
+doctrinarum retractatu (uti ipse alibi loquitur), revincendos
+existimavit.</hi> </p>
+</div2>
+
+<div2>
+        <head>CAPUT PRIMUM.</head>
+<p> <hi>Priusquam autem ad propositum veniat, docet non
+oportere nos admirari super haereses, eo quod praenuntiatae
+fuerint.</hi> </p>
+<p>Conditio praesentium temporum etiam hanc
+admonitionem provocat nostram: non oportere nos
+<pb n="0012D"/>
+mirari super haereses istas, sive quia sunt, futurae
+enim praenuntiabantur, sive quia fidem quorumdam
+subvertunt, ad hoc enim sunt, ut fides, habendo tentationem,
+habeat etiam probationem. Vane ergo
+et inconsiderate plerique hoc ipso scandalizantur,
+<pb n="0013A"/>
+quod tantum haereses valeant. Quantum, si non
+fuissent! Cum quod sortitum est, ut omnimodo
+sit, sicut caussam accipit ob quam sit,
+sic vim consequitur per quam sit, nec esse
+non possit.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT II.</head>
+<p> <hi>Sed abominandas potius et praecavendas, tanquam mortem
+aeternam afferentes, nihil virium habentes, nisi
+apud eos qui in fide infirmi sunt.</hi> </p>
+<p>Febrem denique, inter caeteros mortiferos et cruciarios
+ exitus erogando homini deputatam,
+neque quia est miramur, est enim; neque quia
+erogat hominem, ad hoc enim est. Proinde haereses,
+ad languorem et interitum fidei productas, si expavescimus
+hoc eas posse, prius est, ut expavescamus
+<pb n="0013B"/>
+ hoc eas esse; quae, dum sunt, habent posse;
+et dum possunt, habent esse. Sed enim febrem, ut
+malum et de caussa et de potentia sua, ut notum est,
+ abominamur potius quam miramur, et, quantum
+in nobis est, praecavemus, non habentes abolitionem
+ejus in nostra potestate; haereses vero, mortem
+aeternam et majoris ignis ardorem inferentes,
+malunt quidam mirari quod hoc possint, quam devitare
+ne possint, cum habeant devitandi potestatem.
+Caeterum nihil valebunt, si illas tantum valere non
+mirentur. Aut enim, dum mirantur, in scandalum
+subministrantur; aut, quia scandalizantur, ideo
+mirantur, quasi, quod tantum valeant, ex aliqua veniat
+<pb n="0014A"/>
+veritate. Mirum scilicet, ut malum vires suas
+habeat; nisi quod haereses apud eos multum valeant,
+qui in fide non valent. In pugna pugilum
+et gladiatorum, plerumque non quia fortis est vincit
+quis, aut quia non potest vinci, sed quoniam ille,
+qui victus est, nullis viribus fuit; adeo idem ille
+victor bene valenti postea comparatus, etiam superatus
+recedit. Non aliter haereses de quorumdam infirmitatibus
+habent quod valent, nihil valentes, si in
+bene valentem fidem incurrant.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT III.</head>
+<p> <hi>Neque scandalizari quemquam oportere si episcopus,
+si diaconus, si vidua, si virgo, si doctor, si etiam
+martyr lapsus a regula fuerit, quia ex personis non
+probatur fides, sed ex fide personae.</hi> </p>
+<p>
+          <pb n="0014B"/>Solent quidem isti miriones etiam de quibusdam
+personis, ab haeresi captis, aedificari in ruinam:
+quare ille vel ille, fidelissimi, prudentissimi,
+et usitatissimi in Ecclesia, in illam partem transierunt?
+Quis, hoc dicens, non ipse sibi respondet,
+neque prudentes, neque fideles, neque usitatos
+aestimandos, quos haereses potuerint demutare? Et
+hoc mirum (opinor) ut probatus aliqui retro, postea
+excidat? Saul, bonus prae caeteris, livore postea evertitur.
+David, vir bonus secundum cor Domini, postea
+caedis et stupri reus est. Salomon, omni gratia et
+sapientia donatus a Domino, ad idololatriam a mulieribus
+inducitur. Soli enim Dei Filio servabatur
+<pb n="0015A"/>
+sine delicto permanere. Quid ergo, si episcopus,
+si diaconus, si vidua, si virgo, si doctor, si etiam
+martyr lapsus a regula fuerit, ideo haereses veritatem
+videbuntur obtinere? Ex personis probamus
+fidem, an ex fide personas? Nemo sapiens est, nisi
+fidelis: nemo major, nisi christianus: nemo autem
+christianus, <hi>nisi qui ad finem usque perseveraverit <note>(Matth., X, 22)</note>
+          </hi>.
+Tu, ut homo, extrinsecus unumquemque
+nosti; putas, quod vides; vides autem, quousque
+oculos habes. Sed <hi>oculi,</hi> inquit, <hi>Domini alti. Homo
+in faciem, Deus in praecordia contemplatur <note>(I Reg.
+XVI, 7)</note>
+          </hi>. Et ideo, <hi>cognoscit Dominus qui sunt ejus <note>(II Tim., II, 19)</note>
+          </hi>;
+et <hi>plantam quam non plantavit Pater,
+eradicat <note>(Matt., XV, 13)</note>
+          </hi>: et <hi>de primis novissimos</hi> 
+ostendit <note>(Matt., XX, 16)</note>; et <hi>ventilabrum in manu
+<pb n="0015B"/>
+portat ad purgandam aream suam. <note>(Matt., III, 12)</note>
+          </hi>.
+Avolent quantum volent paleae levis fidei quocumque
+afflatu tentationum; eo purior massa frumenti
+in horrea Domini reponetur. Nonne ab ipso
+Domino quidam discentium scandalizati deverterunt?
+Nec tamen propterea caeteri quoque discedendum a
+vestigiis ejus putaverunt; sed, qui scierunt illum
+vitae esse Verbum et a Deo venisse, perseveraverunt
+in comitatu ejus usque ad finem, cum illis,
+si vellent et ipsi discedere, placide obtulisset. Minus
+est, si et apostolum ejus aliquis Phygellus, et Hermogenes,
+et Philetus, et Hymenaeus reliquerunt <note>(II Tim., I, 15; I Tim., I, 20)</note>:
+ipse traditor
+Christi de Apostolis fuit. Miramur de Ecclesiis ejus,
+si a quibusdam deseruntur, cum ea nos ostendant
+<pb n="0015C"/>
+Christianos, quae patimur ad exemplum ipsius Christi: <hi>Ex nobis,</hi> 
+ inquit <note>(I Joan., II, 19)</note>, <hi>prodierunt, sed
+<pb n="0016A"/>
+non fuerunt ex nobis; si fuissent ex nobis, permansissent
+utique nobiscum.</hi> 
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT IV.</head>
+<p> <hi>Quin potius memores simus tam dominicarum pronuntiationum
+quam apostolicarum litterarum, quae futuras
+haereses praenuntiarunt, et fugiendas praefinierunt.</hi> </p>
+<p>Quin potius memores simus tam dominicarum
+pronuntiationum, quam apostolicarum litterarum,
+quae nobis et futuras haereses praenuntiarunt, et fugiendas
+praefinierunt; et sicut esse illas non expavescimus,
+ita posse id, propter quod fugiendae sunt,
+non miremur. Instruit Dominus multos esse venturos,
+sub pellibus ovium, rapaces lupos. Quaenam
+<pb n="0016B"/>
+istae sunt pelles ovium, nisi nominis christiani extrinsecus
+superficies? qui lupi rapaces, nisi sensus
+et spiritus subdoli, ad infestandum gregem Christi
+extrinsecus delitescentes? qui pseudoprophetae sunt,
+nisi falsi praedicatores? qui pseudapostoli, nisi
+adulteri evangelizatores? qui antichristi interim
+et semper, nisi Christi rebelles? Nunc sunt haereses,
+non minus doctrinarum perversitate Ecclesiam
+lacessentes, quam tunc Antichristus persecutionum
+atrocitate persequetur: nisi quod persecutio et martyras
+facit, haeresis apostatas tantum. Et ideo <hi>haereses
+quoque oportebat esse, ut probabiles quique manifestarentur <note>(I Cor., II, 19)</note>
+          </hi>,
+tam qui in persecutionibus
+steterint, quam qui ad haereses non exorbitaverint.
+Neque enim eos probabiles intelligi juvat, qui
+<pb n="0016C"/>
+in haeresim fidem demutant: sicut ex diverso sibi interpretantur,
+quia dixit alibi: <hi>Omnia examinate,
+<pb n="0017A"/>
+quod bonum est tenete <note>(I Thess, V, 21)</note>
+          </hi>. Quasi non
+liceat, omnibus male examinatis, in electionem
+alicujus mali impingere per errorem.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT V.</head>
+<p> <hi>Fugiendas haereses praefinitum non modo dissensionum
+et schismatum, sed etiam ipsarum haereseon nomine.</hi> </p>
+<p>Porro, si dissensiones et schismata increpat, quae
+sine dubio mala sunt, et incontinenti haereses subjungit <note>(I Cor., XI, 18)</note>.
+Quod malis adjungat, malum
+utique profitetur, et quidem majus; cum ideo
+credidisse se dicat de schismatibus et dissensionibus,
+quia sciret etiam haereses oportere esse. Ostendit
+enim, gravioris mali prospectu, de levioribus
+<pb n="0017B"/>
+se facile credidisse; certe, non ut ideo de malis
+crediderit, quia haereses bonae essent; sed uti de pejoris
+quoque notae tentationibus praemoneret non
+esse mirandum, quas diceret tendere ad probabiles
+quosque manifestandos, scilicet quos non potuerit
+depravare. Denique si totum capitulum ad unitatem
+continendam, et separationes coercendas sapit,
+haereses vero non minus ab unitate divellunt,
+quam schismata et dissensiones; sine dubio et haereses
+in ea conditione reprehensionis constituit, in qua
+schismata et dissensiones. Ac per hoc, non eos
+probabiles facit, qui in haereses diverterint, cum
+maxime diverti ab ejusmodi objurget, edocens <hi>unum omnes loqui et idipsum sapere 
+ <note>(I Cor., I, 10)</note>
+          </hi>,
+<pb n="0017C"/>
+quod etiam haereses non sinunt.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT VI.</head>
+
+<pb n="0018A"/>
+<p> <hi>Quippe cum, Epistola ad Titum, Apostolus haereticum
+describens, haereses dictas insinuet graeca voce ex
+interpretatione electionis, qua quis sive ad instituendas,
+sive ad suscipiendas eas utitur.</hi> </p>
+<p>Nec diutius de isto, si idem est Paulus,
+qui et alibi haereses inter carnalia crimina numerat,
+scribens ad Galatas <hi>(V, 20)</hi>, et qui Tito suggerit <hi>(III,
+10 et 11)</hi>, <hi>hominem haereticum post primam correptionem
+recusandum, quod perversus sit ejusmodi et delinquat,
+ut a semetipso damnatus.</hi> Sed et in omni pene
+epistola de adulterinis doctrinis fugiendis inculcans,
+haereses taxat, quarum opera sunt adulterae doctrinae,
+haereses dictae graeca voce, ex interpretatione
+<pb n="0018B"/>
+electionis qua quis, sive ad instituendas, sive ad suscipiendas
+eas utitur. Ideo et sibi damnatum dixit
+haereticum, quia et in quo damnatur, sibi elegit. Nobis
+vero nihil ex nostro arbitrio inducere licet, sed
+nec eligere quod aliquis de arbitrio suo induxerit.
+Apostolos Domini habemus auctores, qui nec ipsi
+quidquam ex suo arbitrio, quod inducerent, elegerunt;
+sed acceptam a Christo disciplinam fideliter
+nationibus assignaverunt. Itaque <hi>etiamsi angelus de
+coelis aliter evangelizaret, anathema diceretur a
+nobis (I, 8)</hi>. Providerat jam tunc Spiritus Sanctus
+futurum in virgine quadam Philumene angelum
+seductionis, transfigurantem se in angelum lucis, cujus
+signis et praestigiis Apelles inductus, novam haeresin
+<pb n="0018C"/>
+induxit.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT VII.</head>
+
+<pb n="0019A"/>
+<p> <hi>Ipsas denique haereses cum a philosophia subornentur,
+eo et curiositatis nomine etiam caveri oportere ab
+Apostolo praescriptum.</hi> </p>
+<p> Hae sunt doctrinae hominum et daemoniorum, prurientibus
+auribus <note>(II Tim., IV, 3)</note> natae de ingenio
+sapientiae saecularis, quam Dominus stultitiam vocans, <hi>stulta mundi</hi> 
+ in confusionem etiam philosophiae
+ipsius <hi>elegit <note>(I Cor. I, 27)</note>
+          </hi>. Ea est enim materia
+ sapientiae saecularis, temeraria interpres divinae
+naturae et dispositionis. Ipsae denique haereses a
+philosophia subornantur. Inde <hi>aeones,</hi> et formae nescio
+quae, et trinitas hominis, apud Valentinum:
+platonicus fuerat. Inde Marcionis Deus melior
+<pb n="0019B"/>
+de tranquillitate: a Stoicis venerat. Et ut anima interire
+dicatur, ab Epicureis observatur. Et
+ut carnis restitutio negetur, de una omnium philosophorum
+schola sumitur. Et ubi materia cum Deo
+aequatur, Zenonis disciplina est; et ubi aliquid de
+igneo deo allegatur, Heraclitus intervenit:
+Eadem materia apud haereticos et philosophos volutatur,
+iidem retractatus implicantur. Unde malum,
+et quare? et unde homo, et quomodo? et, quod
+proxime Valentinus proposuit, unde Deus? Scilicet
+<pb n="0020A"/>
+de enthymesi, et ectromate. Miserum Aristotelem
+! qui illis dialecticam instituit, artificem
+struendi et destruendi, versipellem in sententiis,
+coactam in conjecturis, duram in argumentis, operariam
+contentionum, molestam etiam sibi ipsi,
+omnia retractantem, ne quid omnino tractaverit.
+Hinc illae <hi>fabulae et genealogiae interminabiles</hi>, <hi>et quaestiones infructuosae, et sermones serpentes velut
+cancer 
+ <note>(I Tim. I, 4; ibid., III, 4; II Tim. II, 17-23)</note>
+          </hi>;
+a quibus nos Apostolus refraenans, nominatim philosophiam
+contestatur caveri oportere, scribens
+ad Colossenses <hi>(II, 8)</hi>: <hi>Videte ne quis vos circumveniat 
+ per philosophiam et inanem seductionem, secundum
+traditionem hominum, praeter providentiam
+Spiritus Sancti.</hi> Fuerat Athenis, et istam sapientiam
+<pb n="0020B"/>
+humanam, affectatricem et interpolatricem veritatis,
+de congressibus noverat, ipsam quoque in
+suas haereses multipartitam varietate sectarum invicem
+repugnantium. Quid ergo Athenis et Hierosolymis?
+quid Academiae et Ecclesiae? Quid haereticis et
+Christianis? Nostra institutio de Porticu Salomonis
+est, qui et ipse tradiderat <hi>Dominum in simplicitate
+cordis esse quaerendum <note>(Sap. I, 1)</note>.</hi> Viderint, qui stoicum
+et platonicum et dialecticum Christianismum
+ protulerunt. Nobis curiositate opus non
+<pb n="0021A"/>
+est, post Christum Jesum; nec inquisitione, post
+Evangelium. Cum credimus, nihil desideramus ultra
+credere. Hoc enim prius credimus, non esse quod
+ultra credere debeamus.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT VIII.</head>
+<p> <hi>Nihil autem obstare illud:</hi> QUAERITE ET INVENIETIS; <hi>id
+enim dictum ad eos quibus nondum agnitus Christus.</hi> </p>
+<p>Venio itaque ad illum articulum, quem et nostri
+praetendunt ad ineundam curiositatem, et haeretici
+inculcant ad importandam scrupulositatem. Scriptum
+est (inquiunt): <hi>Quaerite et invenietis <note>(Matth., VIII,
+7)</note>
+          </hi>. Quando hanc vocem Dominus emisit, recordemur.
+Puto in primitiis ipsis doctrinae suae, cum adhuc dubitaretur
+apud omnes, an Christus esset, et cum
+adhuc nec Petrus illum Dei Filium pronuntiasset;
+<pb n="0021B"/>
+cum etiam Joannes de illo certus esse desiisset .
+Merito ergo tunc dictum est, <hi>Quaerite et invenietis,</hi> 
+quando quaerendus adhuc erat, qui adhuc agnitus non
+erat. Et hoc quantum ad Judaeos; ad illos
+enim pertinet totus sermo suggillationis istius, qui
+habebant ubi quaererent Christum. <hi>Habent,</hi> inquit, <hi>Moysen et Heliam 
+ <note>(Luc., XVI, 29)</note>
+          </hi>, id est legem et prophetas
+Christum praedicantes, secundum quod et alibi <note>(Joan., V, 39)</note>,
+ <hi>Scrutamini,</hi> inquit, <hi>Scripturas in quibus
+salutem speratis; illae enim de me loquuntur.</hi> Hoc
+erit, QUAERITE ET INVENIETIS; nam et sequentia in Judaeos
+competere manifestum est: <hi>Pulsate et aperietur
+vobis.</hi> Judaei retro penes Deum fuerant; dehinc ejecti
+ob delicta, extra Deum esse coeperunt. Nationes vero
+nunquam penes Deum, <hi>nisi stillicidium de situla, et
+<pb n="0021C"/>
+pulvis ex area, et foris semper (Isai, XL, 15)</hi>. Itaque
+<pb n="0022A"/>
+qui foris semper, quomodo pulsabit eo ubi nunquam
+fuit? quam januam novit, in quam nec receptus,
+nec ejectus aliquando? an qui scit se
+intus fuisse et foras actum, is potius pulsabit et
+ostium novit? Etiam, PETITE ET ACCIPIETIS ei
+competit, qui sciebat a quo esset petendum, a quo
+et erat aliquid repromissum; a Deo scilicet Abraham,
+Isaac et Jacob, quem nationes non magis noverant,
+quam ullam repromissionem ejus. Et ideo ad
+Israel loquebatur: <hi>Non sum,</hi> inquit <note>(Matth., X, 15)</note>, <hi>missus nisi ad oves perditas domus Israel</hi>.
+Nondum <hi>canibus</hi> 
+ jactabat <hi>panem filiorum,</hi> nondum <hi>in viam 
+ nationum ire</hi> mandabat <note>(Matth., XXVIII, 19)</note>; siquidem
+in fine praecepit, ut vaderent ad docendas et
+tinguendas nationes, consecuturi mox Spiritum Sanctum
+<pb n="0022B"/> <hi>Paracletum,</hi> 
+ qui illos <hi>deducturus esset in omnem
+veritatem <note>(Joan., XVI, 13)</note>
+          </hi>. Et hoc erga illos fecit.
+Quod si nationibus destinati doctores,
+Apostoli ipsi quoque doctorem consecuturi erant
+Paracletum, multo magis vacabit erga nos QUAERITE
+ET INVENIETIS, quibus ultro erat obventura doctrina
+per Apostolos, et ipsis Apostolis per Spiritum Sanctum.
+Omnia quidem dicta Domini omnibus posita sunt,
+quae per aures Judaeorum ad nos transierunt;
+sed pleraque in personas directa, non proprietatem
+admonitionis nobis constituerunt, sed exemplum.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT IX.</head>
+<p> <hi>Nobis autem, qui jam credidimus, aliud non quaerendum.</hi> </p>
+<p>Cedo nunc sponte de gradu isto: omnibus dictum
+sit, QUAERITE ET INVENIETIS; tamen et hic expedit
+<pb n="0022C"/>
+sensu certare  cum interpretationis gubernaculo.
+<pb n="0023A"/>
+ Nulla vox divina ita dissoluta est et
+diffusa, ut verba tantum defendantur, et ratio verborum
+non constituatur. Sed in primis hoc propono:
+unum utique etcertum aliquid institutum esse a
+Christo, quod credere omnimodo debeant nationes,
+et idcirco quaerere, ut possint, cum invenerint, credere.
+Unius porro et certi instituti infinita inquisitio
+non potest esse, quaerendum est donec invenias, et
+credendum ubi inveneris; et nihil amplius, nisi custodiendum
+quod credidisti: dum hoc insuper credas,
+aliud non esse credendum, ideoque nec requirendum,
+cum id inveneris et credideris quod ab eo institutum
+est, qui non aliud tibi mandat inquirendum, quam
+quod instituit. De hoc quidem si quis dubitat,
+constabit penes nos esse id, quod a Christo institutum
+<pb n="0023B"/>
+est. Interim ex fiducia probationis praevenio,,
+admonens quosdam nihil esse quaerendum ultra
+quod crediderunt id esse, quod quaerere debuerunt;
+ne QUAERITE ET INVENIETIS sine disciplina
+rationis interpretentur.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT X.</head>
+<p> <hi>Alioqui si semper quaerimus, nunquam inveniemus,
+nunquam credemus.</hi> </p>
+<p>Ratio autem dicti hujus in tribus articulis constitit,
+in re, in tempore, in modo: in re, ut quid sit quaerendum
+consideres; in tempore, ut quando; in modo,
+ut quousque. Igitur quaerendum est quod Christus
+<pb n="0024A"/>
+instituit; utique, quando non invenis; utique
+donec invenias. Invenisti autem, cum credidisti: nam
+non credidisses, si non invenisses; sicut nec quaesisses,
+nisi ut invenires. Ad hoc ergo quaeris, ut invenias;
+et ad hoc invenis, ut credas. Omnem prolationem
+ quaerendi et inveniendi credendo fixisti: hunc
+tibi modum statuit fructus ipse quaerendi;
+hanc tibi fossam determinavit ipse, qui te non
+vult aliud credere, quam quod instituit, ideoque
+nec quaerere. Caeterum, si quia et alia tanta ab
+aliis sunt instituta, propterea in tantum quaerere debemus
+in quantum possumus invenire, semper quaeremus,
+et nunquam omnino credemus. Ubi enim erit
+finis quaerendi? ubi statio credendi? ubi expunctio
+inveniendi? apud Marcionem? Sed et Valentinus
+<pb n="0024B"/>
+proponit: QUAERITE ET INVENIETIS. Apud Valentinum?
+Sed et Apelles hac me pronuntiatione pulsabit; et
+Hebion et Simon, et omnes ordines non habent aliud,
+quo se mihi insinuantes, me sibi addicant. Erit
+itaque nusquam, dum ubique convenior,
+QUAERITE ET INVENIETIS, et velut si nusquam et
+quasi qui nunquam apprehenderim illud quod Christus
+instituit, quod quaeri oportet, quod credi necesse est.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XI.</head>
+<p> <hi>Nemo enim quaerit, nisi qui aut non habuit, aut perdidit.</hi> </p>
+<p>Impune erratur nisi delinquatur (quamvis errare, delinquere
+<pb n="0025A"/>
+est): impune, inquam, vagatur, qui nihil
+deserit. Atenim si quod debui credere credidi, et
+aliud denuo puto requirendum, spero utique et aliud
+esse inveniendum; nullo modo speratur istud, nisi
+quia aut non credideram qui videbar credidisse, aut
+desii credidisse. Ita fidem meam deserens, negator
+invenior. Semel dixerim: nemo quaerit, nisi qui,
+aut non habuit, aut perdidit. Perdiderat unam ex decem
+drachmis anus illa <note>(Luc., XV, 8)</note>, et ideo quaerebat;
+ubi tamen invenit, quaerere desiit. Panem vicinus
+non habebat <note>(Luc., XI, 5)</note>, et ideo pulsabat; ubi tamen
+apertum est ei, et accepit, pulsare cessavit. Vidua
+a judice petebat audiri <note>(Luc. XVIII, 3)</note>, quia non
+admittebatur; sed ubi audita est, hactenus institit. Adeo.
+finis est et quaerendi, et pulsandi, et petendi. <hi>Petenti
+<pb n="0025B"/>
+enim dabitur,</hi> inquit, <hi>et pulsanti aperietur, et quaerenti
+invenietur <note>(Luc. XI, 9)</note>
+          </hi>. Viderit, qui quaerit semper,
+quia non invenit: illic enim quaerit, ubi non invenietur.
+Viderit, qui semper pulsat, quia nunquam aperietur:
+illuc enim pulsat, ubi nemo est. Viderit
+qui semper petit, quia nunquam audietur.
+Ab eo enim petit, qui non audit.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XII.</head>
+<p> <hi>Si tamen adhuc quaerendum sit, non apud haereticos,
+ad quos vetamur accedere, sed a nostris, et de nostro
+quaeramus.</hi> </p>
+<p>Nobis et si quaerendum esset adhuc et semper, ubi
+tamen quaeri oportet? apud haereticos? ubi omnia
+extranea et adversaria nostrae veritati, ad quos vetamur
+accedere? Quis servus cibaria ab extraneo, ne dicam
+<pb n="0026A"/>
+ab inimico domini sui sperat? quis miles ab infoederatis,
+ne dicam ab hostibus regibus, donativum et
+stipendium captat, nisi plane desertor, et transfuga,
+et rebellis? Etiam anus illa intra tectum suum drachmam
+requirebat; etiam pulsator ille vicini januam
+tundebat; etiam vidua illa non inimicum, licet
+durum judicem interpellabat. Nemo inde instrui
+potest, unde destruitur: nemo ab eo illuminatur, a
+quo contenebratur. Quaeramus ergo in nostro, et a
+nostris, et de nostro; idque duntaxat, quod,
+salva regula fidei, potest in quaestionem devenire.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XIII.</head>
+<p> <hi>Regulam enim (seu symbolum) fidei nobis praescriptam,
+ut jam hinc, quid credamus, profiteamur.</hi> </p>
+<p>
+          <pb n="0026B"/>Regula est autem fidei, ut jam hinc quid defendamus
+ profiteamur, illa scilicet qua creditur,
+unum omnino Deum esse, nec alium praeter mundi
+conditorem; qui universa de nihilo produxerit, per
+Verbum suum primo omnium emissum; id Verbum,
+Filium ejus appellatum, in nomine Dei
+varie visum a Patriarchis, in Prophetis semper auditum,
+postremo delatum ex Spiritu Patris Dei et virtute
+in virginem Mariam, carnem factum in utero
+ejus, et ex ea natum egisse Jesum Christum;
+exinde praedicasse novam legem, et novam promissionem
+regni coelorum; virtutes fecisse; fixum cruci,
+tertia die resurrexisse; in coelos ereptum sedisse
+ad dexteram Patris; misisse vicariam vim Spiritus
+Sancti, qui credentes agat, venturum cum claritate,
+ad sumendos sanctos in vitae aeternae et promissorum
+<pb n="0027A"/>
+coelestium fructum, et ad profanos adjudicandos
+ igni perpetuo, facta utriusque partis resuscitatione
+cum carnis restitutione.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XIV.</head>
+<p> <hi>Hanc regulam a Christo institutam nullas apud nos
+habere quaestiones, nisi quas haereses inferunt, et quae
+haereticos faciunt.</hi> </p>
+<p>Haec regula a Christo, ut probabitur, instituta,
+nullas habet apud nos quaestiones, nisi quas haereses
+inferunt, et quae haereticos faciunt. Caeterum, manente
+forma ejus in suo ordine, quantum libet quaeras
+et tractes, et omnem libidinem curiositatis effundas;
+si quid tibi videtur, vel ambiguitate pendere,
+vel obscuritate obumbrari, est utique frater aliquis
+<pb n="0027B"/>
+doctor gratia scientiae donatus, est aliquis inter
+exercitatos conversatus, aliquis tecum, curiosius
+tamen, quaerens; novissime, ignorare melius est, ne
+quod non debeas noris, quia quod debeas nosti <hi>Fides,</hi> 
+ inquit, <hi>tua te salvum fecit <note>(Luc., XVIII, 42)</note>
+          </hi>;
+non exercitatio Scripturarum. Fides in regula posita
+est: habes legem, et salutem de observatione legis:
+exercitatio autem in curiositate consistit, habens
+gloriam solam de peritiae studio. Cedat curiositas
+fidei; cedat gloria saluti. Certe aut non obstrepant,
+aut quiescant. Adversus regulam nihil scire, omnia
+scire est. Ut non inimici essent veritatis haeretici, ut
+de refugiendis eis non praemoneremur, quale est
+conferre cum hominibus qui et ipsi adhuc se quaerere
+profiteantur? Si enim adhuc vere quaerunt, nihil
+<pb n="0027C"/>
+adhuc certi repererunt; et ideo, quaecumque
+videntur interim tenere, dubitationem suam ostendunt,
+<pb n="0028A"/>
+quamdiu quaerunt. Itaque tu qui perinde quaeris,
+spectans ad eos qui et ipsi quaerunt, dubius a
+dubiis, incertus ab incertis, caecus a caecis in foveam
+deducaris necesse est <note>(Matth., XV, 14)</note>. Sed, cum
+decipiendi gratia praetendunt se adhuc quaerere,
+ut nobis per sollicitudinis injectionem tractatus suos
+insinuent; denique, ubi adierint ad nos, statim,
+quae dicebant quaerenda esse, defendunt: jam illos sic
+debemus refutare, ut sciant nos non Christo,
+sed sibi negatores esse. Cum enim quaerunt adhuc,
+nondum tenent; cum autem non tenent, nondum
+crediderunt, non sunt christiani. At, cum tenent
+quidem et credunt, quaerendum tamen dicunt, ut
+defendant. Antequam defendant, negant, quod confitentur
+se nondum credidisse, dum quaerunt. Qui ergo
+<pb n="0028B"/>
+nec sibi sunt christiani, quanto magis nobis? Qui per
+fallaciam veniunt, qualem fidem disputant? Cui veritati
+patrocinantur, qui eam a mendacio inducunt?
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XV.</head>
+<p> <hi>Porro ad propositum veniens Tertullianus, praescribit
+non admittendos haereticos ad ullam de Scripturis
+disputationem.</hi> </p>
+<p>Sed ipsi de Scripturis agunt, et de Scripturis suadent.
+ Aliunde scilicet loqui possent de rebus
+fidei, nisi ex literis fidei? Venimus igitur ad propositum:
+huc enim dirigebamus, et hoc
+praestruebamus allocutionis praefatione, ut
+jam hinc de eo congrediamur, de quo adversarii
+provocant. Scripturas obtendunt, et hac sua audacia
+<pb n="0028C"/>
+statim quosdam movent; in ipso vero congressu
+firmos quidem fatigant, infirmos capiunt, medios cum
+<pb n="0029A"/>
+scrupulo dimittunt. Hunc igitur potissimum gradum
+obstruimus, non admittendos eos ad ullam
+de Scripturis disputationem. Si hae sunt illae
+vires eorum, uti eas habere possint, dispici
+debet cui competat possessio Scripturarum, ne is
+admittatur ad eas, cui nullo modo competit.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XVI.</head>
+<p> <hi>Primum, quod fides nostra obsequium Apostolo debeat,
+disputationem prohibenti, dum post unam correptionem
+convenire haereticum interdixit.</hi> </p>
+<p>Hoc de consilio diffidentiae, aut de studio aliter
+ineundae constitutionis induxerim, nisi ratio constiterit,
+in primis illa, quod fides nostra obsequium
+Apostolo debeat, prohibenti quaestiones inire,
+<pb n="0029B"/>
+novis vocibus aures accommodare <note>(I Tim., VI, 4)</note>,
+haereticum post unam correptionem convenire <note>(Tit.,
+III, 10)</note>, non post disputationem. Adeo interdixit disputationem,
+correptionem designans caussam haeretici
+conveniendi; et hoc unam, scilicet, quia non est
+christianus; ne more christiani, semel et iterum, et
+sub duobus aut tribus testibus <note>(Matth., XVIII, 15, 16)</note> 
+castigandus videretur; cum ob hoc sit castigandus, propter
+quod non sit cum illo disputandum.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XVII.</head>
+<p> <hi>Deinde quod nihil proficiat congressio Scripturarum;
+cum haereses quasdam non recipiant, et si quas recipiant,
+adjectionibus et detractionibus intervertant, aut
+<pb n="0030A"/>
+non recipiant integras, et si aliquatenus integras,
+diversas expositiones comminiscantur.</hi> </p>
+<p>Deinde, quoniam nihil proficiat congressio Scripturarum,
+nisi plane ut stomachi quis ineat eversionem, aut
+cerebri. Ista haeresis non recipit quasdam Scripturas:
+et si quas recipit, non recipit integras: adjectionibus
+et detractionibus ad dispositionem instituti sui intervertit:
+et si aliquatenus integras praestat, niholominus
+diversas expositiones commentata convertit. Tantum
+veritati obstrepit adulter sensus, quantum et
+corruptor stylus. Variae praesumptiones necessario
+nolunt agnoscere ea, per quae revincuntur; his
+nituntur quae ex falso composuerunt, et quae de
+ambiguitate ceperunt. Quid promovebis, exercitatissime
+Scripturarum, cum si quid defenderis, negetur
+<pb n="0030B"/>
+ex diverso, si quid negaveris, defendatur? Et tu
+quidem nihil perdes, nisi vocem in contentione; nihil
+consequeris, nisi bilem de blasphematione.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XVIII.</head>
+<p> <hi>Ille etiam, cujus caussa in congressum Scripturarum
+descendis, incertior discedet, de pari altercatione
+negandi et defendendi.</hi> </p>
+<p>Ille vero, si quis est, cujus caussa in congressum
+descendis Scripturarum, ut eum dubitantem confirmes,
+ad veritatem, an magis ad haereses deverget?
+Hoc ipso motus, quod te videat nihil promovisse,
+aequo gradu negandi et defendendi diversa parte
+statuto, certe pari, altercatione incertior discedet,
+nesciens quam haeresin judicet. Haec utique et ipsi
+<pb n="0031A"/>
+habent in nos retorquere. Necesse est enim et illos
+dicere a nobis potius adulteria Scripturarum et expositionum
+ mendacia inferri, qui proinde sibi defendant
+veritatem.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XIX.</head>
+<p> <hi>Illud itaque solum disputandum, quibus competat fides,
+cujus sint Scripturae, a quo, per quos, et quibus sit
+tradita disciplina qua christiani fiunt.</hi> </p>
+<p>Ergo non ad Scripturas provocandum est; nec in
+his constituendum certamen, in quibus aut nulla, aut
+incerta victoria est, aut par incertae. Nam etsi non
+ita evaderet conlatio Scripturarum, ut utramque partem
+parem sisteret, ordo rerum desiderabat illud
+prius proponi, quod nunc solum disputandum est:
+Quibus competat fides ipsa? Cujus sint Scripturae? A
+<pb n="0031B"/>
+quo, et per quos, et quando, et quibus sit tradita
+disciplina qua fiunt christiani? Ubi enim apparuerit
+esse veritatem et disciplinae et fidei christianae,
+illic erit veritas Scripturarum, et expositionum, et
+omnium traditionum christianarum.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XX.</head>
+<p> <hi>Atqui a Christo unam ejusdem fidei doctrinam Apostolis
+traditam, qui eam nationibus promulgaverunt, et
+Ecclesias apud unamquamque civitatem condiderunt,
+a quibus caeterae Ecclesiae quotidie mutuantur ut Ecclesiae
+fiant; ita ut tot ac tantae Ecclesiae, una sit illa
+ab Apostolis prima, ex qua omnes.</hi> </p>
+<p>Christus Jesus Dominus noster permittat dicere
+interim, quisquis est, cujuscumque Dei Filius,
+<pb n="0031C"/>
+cujuscumque materiae homo et Deus, cujuscumque
+fidei praeceptor, cujuscumque mercedis repromissor,
+quid esset, quid fuisset, quam Patris
+voluntatem administraret, quid homini agendum
+<pb n="0032A"/>
+determinaret, quamdiu in terris agebat, ipse pronuntiabat,
+sive populo palam, sive discentibus seorsum;
+ex quibus duodecim praecipuos lateri suo adlegerat destinatos
+nationibus magistros. Itaque, uno eorum
+decusso, reliquos undecim, digrediens ad Patrem
+post resurrectionem, jussit ire et docere nationes,
+intinguendas in Patrem et in Filium et in
+Spiritum Sanctum. Statim igitur Apostoli (quos haec
+appellatio <hi>missos</hi> interpretatur), assumpto per sortem
+duodecimo Matthia in locum Judae, ex auctoritate
+prophetiae quae est in psalmo David, consecuti promissam
+vim Spiritus Sancti ad virtutes et eloquium primo
+per Judaeam contestata fide in Jesum Christum
+et ecclesiis institutis, dehinc in orbem profecti, eamdem
+doctrinam ejusdem fidei nationibus promulgaverunt,
+<pb n="0032B"/>
+et proinde ecclesias apud unamquamque civitatem
+condiderunt, a quibus traducem fidei et semina
+doctrinae, caeterae exinde ecclesiae mutuatae sunt, et
+quotidie mutuantur ut ecclesiae fiant: ac per hoc et
+ipsae apostolicae deputantur, ut soboles apostolicarum
+ecclesiarum. Omne genus ad originem suam
+censeatur necesse est. Itaque tot ac tantae ecclesiae,
+una est illa ab Apostolis prima, ex qua omnes. Sic
+omnes prima, et apostolicae, dum una omnes
+probant unitatem; dum est illis communicatio
+pacis, et appellatio fraternitatis, et contesseratio
+hospitalitatis: quae jura non alia ratio regit, quam
+ejusdem sacramenti una traditio.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXI.</head>
+<p> <hi>Hanc itaque dirigit alteram praescriptionem: non alios
+<pb n="0032C"/>
+recipienbdos praedicatores, quam quos Christus instituit;
+et proinde eam doctrinam recipiendam, id sine dubio
+tenentem, quod Ecclesia ab Apostolis tam viva voce
+quam per Epistolas, Apostoli a Christo, Christus a
+<pb n="0033A"/>
+Deo suscepit; hoc itaque testimonium veritatis doctrinae
+nostrae quod cum ecclesiis apostolicis communicemus.</hi> </p>
+<p>Hinc igitur dirigimus praescriptionem: si Dominus
+Jesus Christus Apostolos misit ad praedicandum,
+alios non esse recipiendos praedicatores, quam Christus
+instituit; quia nec alius Patrem novit nisi Filius,
+et cui Filius revelavit, nec aliis videtur revelasse Filius,
+quam Apostolis quos misit ad praedicandum,
+utique quod illis revelavit. Quid autem praedicaverint,
+id est, quid illis Christus revelaverit, et hic praescribam
+non aliter probari debere, nisi per easdem
+ecclesias, quas ipsi Apostoli condiderunt, ipsi eis praedicando,
+tam viva, quod aiunt, voce, quam per
+epistolas postea. Si haec ita sunt, constat proinde
+<pb n="0033B"/>
+omnem doctrinam quae cum illis ecclesiis apostolicis,
+matricibus et originalibus fidei, conspiret, veritati
+deputandam, sine dubio tenentem quod Ecclesiae ab
+Apostolis, Apostoli a Christo, Christus a Deo accepit;
+reliquam vero omnem doctrinam de mendacio
+praejudicandam, quae sapiat contra veritatem Ecclesiarum,
+et Apostolorum, et Christi, et Dei. Superest
+ergo uti demonstremus, an haec nostra doctrina,
+cujus regulam supra edidimus, de Apostolorum traditione
+censeatur, et hoc ipso, an caeterae de
+mendacio veniant. Communicamus cum ecclesiis
+apostolicis, quod nulli doctrina diversa: hoc est
+testimonium veritatis.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXII.</head>
+<p>
+          <pb n="0033C"/> <hi>Apostolos autem (quidquid in contrarium soleat dicere
+diversa pars) omnia et scisse et tradidisse; quibus
+et omnes Scripturas edisserere Christus dignatus est,
+et Spiritum Sanctum misit, qui eos deduceret in omnem
+veritatem.</hi> </p>
+<p>Sed quoniam tam expedita probatio est, ut si
+<pb n="0034A"/>
+statim proferatur, nihil jam sit retractandum; ac
+si prolata non sit a nobis, locum interim demus
+diversae parti, si quid putant ad infirmandam hanc
+praescriptionem movere se posse. Solent dicere, non
+omnia Apostolos scisse, eadem agitati dementia
+qua susum jusum convertunt, omnia quidem
+Apostolos scisse, sed non omnia omnibus tradidisse;
+in utroque Christum reprehensioni subjicientes,
+qui aut minus instructos, aut parum simplices Apostolos
+miserit. Quis igitur integrae mentis credere
+potest aliquid eos ignorasse, quos magistros Dominus
+dedit, individuos habens in comitatu, in discipulatu,
+in convictu; quibus obscura quaeque seorsim
+disserebat, illis dicens datum esse cognoscere arcana,
+quae populo intelligere non liceret? Latuit aliquid
+<pb n="0034B"/>
+Petrum, aedificandae Ecclesiae petram dictum <note>(Matth., XVI, 18, 19)</note>,
+claves regni coelorum
+consecutum, et solvendi et alligandi in coelis et in
+terris potestatem? Latuit et Joannem aliquid, dilectissimum
+Domino, pectori ejus incubantem, cui
+soli Dominus Judam traditorem praemonstravit, quem
+loco suo filium Mariae demandavit? Quid eos ignorasse
+voluit, quibus etiam gloriam suam exhibuit, et Moysen
+et Heliam, et insuper de coelo Patris vocem? non
+quasi caeteros reprobans, sed quoniam in tribus testibus
+stabit omne verbum <note>(Matth., XVIII, 16)</note>. Ignoraverunt
+itaque et illi, quibus post resurrectionem quoque in itinere
+omnes Scripturas edisserere dignatus est? Dixerat
+plane aliquando: <hi>Multa habeo adhuc vobis loqui, sed non
+potestis modo ea sustinere (Jean, XVI, 12, 13)</hi>: tamen
+<pb n="0034C"/>
+adjiciens: <hi>Cum venerit ille Spiritus veritatis, ipse vos
+deducet in omnem veritatem,</hi> ostendit illos nihil ignorasse,
+quos omnem veritatem consecuturos per Spiritum
+veritatis repromiserat; et utique implevit repromissum,
+probantibus Actis Apostolorum descensum
+Spiritus Sancti. Quam Scripturam qui non recipiunt,
+<pb n="0035A"/>
+nec Spiritus Sancti esse possunt, qui necdum
+ Spiritum possint agnoscere discentibus
+missum, sed nec Ecclesiam defendere, qui, quando
+et quibus incunabulis institutum est hoc corpus,
+probare non habent. Tanti est enim illis non habere
+probationes eorum quae defendunt, ne pariter
+admittantur traductiones eorum quae mentiuntur.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXIII.</head>
+<p> <hi>In Petro enim non reprehensam ignorantiam aliquam a
+Paulo, sed conversationem.</hi> </p>
+<p>Proponunt ergo ad suggillandam ignorantiam aliquam
+Apostolorum, quod Petrus, et qui cum eo,
+reprehensi sint a Paulo. Adeo, inquiunt, aliquid eis
+defuit; ut ex hoc etiam illud struant, potuisse postea
+pleniorem scientiam supervenire, qualis obvenerit
+<pb n="0035B"/>
+Paulo reprehendendi antecessores. Possumus et hic
+Acta Apostolorum repudiantibus dicere: prius est
+uti ostendatis quis iste Paulus, et quid ante Apostolum,
+et quomodo Apostolus: quatenus et alias ad
+quaestiones plurimum eo utuntur. Neque enim, si ipse
+se apostolum de persecutore profitetur, sufficit unicuique
+examinate credenti; quando nec Dominus
+ipse de se testimonium dixerit. Sed credant
+sine Scripturis, ut credant adversus Scripturas; tamen
+doceant, ex eo quod allegant Petrum a Paulo reprehensum,
+aliam Evangelii formam a Paulo superductam,
+citra eam quam praemiserat Petrus et caeteri.
+Quin, demutatus in praedicatorem de persecutore,
+deducitur ad fratres a fratibus, ut unus ex
+fratribus, et ad illos ab illis qui ab Apostolis fidem
+<pb n="0035C"/>
+induerant. Dehinc, sicut ipse enarrat, ascendit in
+Hierosolyma cognoscendi Petri caussa, ex officio et
+<pb n="0036A"/>
+jure scilicet ejusdem fidei et praedicationis. Nam et
+illi non essent mirati de persecutore factum praedicatorem,
+si aliquid contrarium praedicaret; nec
+Dominum praeterea magnificassent, quia adversarius
+ejus Paulus obvenerat. Itaque et dexteramei dederunt,
+signum concordiae et convenientiae; et inter se distributionem
+officii ordinaverunt, non separationem
+Evangelii; nec ut aliud alter, sed ut aliis alter praedicarent,
+Petrus in Circumcisionem, Paulus in Nationes.
+Caeterum, si reprehensus est Petrus,
+quod cum convixisset ethnicis, postea se a convictu
+eorum se parabat personarum respectu; utique conversationis
+fuit vitium, non praedicationis. Non enim
+ex hoc alius Deus, quam Creator; et alius Christus,
+quam ex Maria, et alia spes quam resurrectio annuntiabatur.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXIV.</head>
+
+<pb n="0036B"/>
+<p> <hi>Idque reprehensionis usurpatum fuisse pro temporibus,
+personis, et caussis.</hi> </p>
+<p>Non mihi tam bene est, imo non mihi tam male
+est, ut Apostolos committam. Sed quoniam perversissimi
+isti illam reprehensionem ad hoc obtendunt,
+ut suspectam faciant doctrinam superiorem, respondebo
+quasi pro Petro: ipsum Paulum dixisse, factum
+se esse omnibus omnia, Judaeis judaeum, non judaeis
+non judaeum, ut omnes lucrificaret. Adeo pro
+temporibus et personis et caussis quaedam reprehendebant,
+in quae et ipsi aeque pro temporibus et personis
+et caussis committebant: quemadmodum si et
+Petrus reprehenderet Paulum, quod prohibens circumcisionem,
+<pb n="0036C"/>
+circumciderit ipse Timotheum. Viderint
+qui de Apostolis judicant. Bene quod Petrus
+<pb n="0037A"/>
+Paulo et in martyrio adaequatur. Sed etsi in tertium
+usque coelum ereptus Paulus, et in paradisum
+delatus audiit quaedam illic, non possunt videri fuisse
+quae illum in aliam doctrinam instructiorem praestarent,
+cum ita fuerit conditio eorum, ut nulli hominum
+proderentur. Quod si ad alicujus conscientiam manavit
+nescio quid illud, et hoc se aliqua haeresis sequi
+affirmat, aut Paulus secreti proditi reus est, aut et
+alius postea in paradisum ereptus debet ostendi, cui
+permissum sit eloqui, quae Paulo mutire non liquit.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXV.</head>
+<p> <hi>Neque vero occultum aliquod evangelium praedicasse
+Apostolos.</hi> </p>
+<p>Sed ut diximus, eadem dementia est, cum confitentur
+quidem, nihil Apostolos ignorasse, nec diversa
+<pb n="0037B"/>
+inter se praedicasse; non tamen omnia volunt
+illos omnibus revelasse: quaedam enim palam,
+et universis; quaedam secreto, et paucis demandasse:
+quia et hoc verbo usus est Paulus ad Timotheum: <hi>O Timothee, depositum custodi</hi>.
+Et rursum: <hi>Bonum
+depositum serva.</hi> Quod hoc depositum est tacitum,
+ut alteri doctrinae deputetur? An illius denuntiationis,
+de qua ait: <hi>Hanc denuntiationem commendo apud te,
+fili Timothee.</hi> Item illius praecepti, de quo ait: <hi>Denuntio tibi ante Deum, 
+ qui vivificat omnia,
+et Jesum Christum, qui testatus est sub Pontio Pilato
+bonam confessionem, custodias praeceptum <note>(I Tim., VI,
+13)</note>
+          </hi> Quod autem praeceptum, et quae denuntiatio?
+Ex supra et infra scriptis intelligetur non nescio
+quid subostendi hoc dicto de remotiore doctrina,
+<pb n="0037C"/>
+sed potius inculcari de non admittenda alia praeter
+eam, quam audierat ab ipso, et, puto, palam. <hi>Coram multis,</hi> 
+ inquit, <hi>testibus <note>(II Tim., II, 2)</note>
+          </hi>. Quos
+multos testes si nolunt Ecclesiam intelligi, nihil
+interest, quando nihil tacitum fuerit, quod sub multis
+testibus proferebatur. Sed nec quia voluit illum <hi>haec
+fidelibus hominibus demandare, qui idonei sint et alios
+<pb n="0038A"/>
+docere <note>(II Tim., II, 2)</note>
+          </hi> id quoque ad argumentum
+occulti alicujus Evangelii interpretandum est. Nam
+cum dicit, <hi>haec,</hi> de eis dicit, de quibus in praesenti
+scribebat; de occultis autem, ut de absentibus apud
+conscientiam, non <hi>haec,</hi> sed <hi>illa</hi> dixisset.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXVI.</head>
+<p> <hi>Quanquam non passim, nec inconsiderate omnibus praedicaverint
+Apostoli.</hi> </p>
+<p>Porro consequens erat, ut cui demandabat Evangelii
+administrationem, non passim, nec inconsiderate
+administrandam, adjiceret secundum dominicam
+vocem, ne <hi>margaritam porcis, et sanctum canibus jactaret <note>(Matth., VII, 6)</note>
+          </hi>.
+Dominus palam edixit, sine
+ulla significatione alicujus tecti sacramenti. Ipse
+praeceperat, <hi>si quid in tenebris et in abscondito audissent,
+<pb n="0038B"/>
+in luce et in tectis praedicarent <note>(Matth., X, 27)</note>
+          </hi>.
+Ipse per similitudinem praefiguraverat, ne unam <hi>mnam,</hi> 
+ id est unum verbum ejus, sine fructu <hi>in abdito <note>(Luc., XIX, 20)</note>
+          </hi> 
+ reservarent. Ipse docebat, <hi>lucernam
+non sub modio abstrudi solere, sed in candelabrum
+constitui, ut luceat omnibus qui in domo
+sunt <note>(Matth., V, 15)</note>
+          </hi>. Haec Apostoli, aut neglexerunt,
+aut minime intellexerunt, si non adimpleverunt
+abscondentes aliquid de lumine, id est, de Dei
+verbo et Christi sacramento. Neminem quod
+scio verebantur, non Judaeorum vim, non ethnicorum;
+quo magis utique in Ecclesia libere praedicabant,
+qui in synagogis et in locis publicis non tacebant.
+Imo neque Judaeos convertere, neque ethnicos
+inducere potuissent, nisi quod credi ab eis volebant
+<pb n="0038C"/>
+ordine exponerent: multo magis jam credentibus
+Ecclesiis nihil subtraxissent, quod aliis paucis
+seorsum demandarent. Quanquam, etsi quaedam
+inter domesticos, ut ita dixerim, disserebant, non tamen
+ea fuisse credendum est, quae aliam regulam fidei
+superducerent, diversam et contrariam illi, quam
+Catholicae in medium proferebant; ut alium Deum
+<pb n="0039A"/>
+in ecclesia dicerent, alium in hospitio; aliam Christi
+substantiam designarent in aperto, aliam in secreto;
+aliam spem resurrectionis apud omnes annuntiarent,
+aliam apud paucos: cum ipsi obsecrarent
+ in Epistolis suis, ut <hi>idipsum et unum loquerentur
+omnes, et non essent schismata et dissensiones in
+Ecclesia <note>(I Cor., I, 10)</note>
+          </hi>, quia sive Paulus, sive alii,
+eadem praedicarent. Alioquin meminerant: <hi>Sit
+sermo vester, est, est; non, non; quod amplius, hoc
+a malo est <note>(Matth., V, 37)</note>
+          </hi>; ne scilicet Evangelium
+in diversitate tractarent.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXVII.</head>
+<p> <hi>Unam etiam regulam fidei eos instituisse, tam ad ecclesias
+correptas postea emendatas, quam ad eas quas
+<pb n="0039B"/>
+commendarunt.</hi> </p>
+<p> Si ergo incredibile est, vel ignorasse Apostolos
+plenitudinem praedicationis, vel non omnem ordinem
+regulae omnibus edidisse, videamus ne forte
+Apostoli quidem simpliciter et plene, Ecclesiae
+autem suo vitio aliter acceperint quam Apostoli proferebant.
+Omnia ista scrupulositatis incitamenta invenias
+praetendi ab haereticis. Tenent correptas ab
+Apostolo Ecclesias: <hi>O insensati Galatae, quis vos fascinavit?</hi> 
+et: <hi>Tam bene currebatis, quis vos impediit?</hi> 
+ipsumque principium: <hi>Miror quod sic tam cito
+transferemini ab eo qui vos vocavit in gratia, ad
+<pb n="0040A"/>
+aliud evangelium.</hi> Item ad Corinthios scriptum, quod
+essent adhuc <hi>carnales,</hi> qui <hi>lacte educarentur, nondum
+idonei ad pabulum;</hi> qui <hi>putarent se scire aliquid,</hi> 
+quando <hi>nondum scirent quemadmodum scire oporteret.</hi> 
+Cum correptas ecclesias opponunt, credant
+emendatas. Sed et illas recognoscant, de quarum
+fide et scientia et conversatione Apostolus gaudet, et
+Deo gratias agit: quae tamen hodie cum illis correptis
+unius institutionis jura miscent.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXVIII.</head>
+<p> <hi>Quod autem apud multos unum invenitur, non censeri
+erratum, sed traditum.</hi> </p>
+<p>Age nunc, omnes erraverint; deceptus sit Apostolus
+de testimonio reddendo quibusdam; nullam
+<pb n="0040B"/>
+respexerit Spiritus Sanctus, uti <hi>eam in veritatem
+deduceret <note>(Joan., XIV, 26)</note>
+          </hi>, ad hoc missus a Christo,
+ad hoc postulatus de Patre, ut esset <hi>doctor veritatis <note>(Joan., XV, 26)</note>
+          </hi>;
+neglexerit officium Dei villicus,
+Christi vicarius, sinens Ecclesias aliter interim intelligere,
+aliter credere, quam ipse per Apostolos praedicabat:
+ecquid verisimile est, ut tot ac tantae in
+unam fidem erraverint? Nullus inter multos eventus
+unus est exitus: variasse debuerat error doctrinae
+Ecclesiarum. Caeterum, quod apud multos unum
+invenitur, non est erratum, sed traditum. Audeat
+ergo aliquis dicere illos errasse qui tradiderunt?
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXIX.</head>
+
+<pb n="0041A"/>
+<p> <hi>Haereses potius errasse, quae vera doctrina sunt posteriores.</hi> </p>
+<p> Quoquo modo sit erratum; tamdiu utique regnavit
+ error, quamdiu haereses non erant. Aliquos
+Marcionitas et Valentinianos liberanda veritas
+expectabat: interea perperam evangelizabatur, perperam
+credebatur, tot millia millium perperam
+tincta, tot opera fidei perperam administrata, tot
+virtutes, tot charismata perperam operata, tot
+sacerdotia, tot ministeria perperam functa, tot
+denique martyria in vacuum coronata. Aut si
+nec perperam, nec in vacuum, quale est ut ante
+res Dei currerent, quam cujus Dei notum esset;
+ante Christiani, quam Christus inventus, ante haeresis,
+<pb n="0041B"/>
+quam vera doctrina? Sed enim in omnibus veritas
+imaginem antecedit; post rem similitudo succedit.
+Caeterum satis ineptum, ut prior in doctrina
+haeresis habeatur; vel quoniam ipsa est quae futuras
+haereses et cavendas praenuntiavit. Ad ejus doctrinae
+Ecclesiam scriptum est, imo ipsa doctrina ad
+Ecclesiam suam scribit: <hi>Etsi Angelus de coelo
+aliter evangelizaverit citra quam nos, anathema sit <note>(Gal., I, 8)</note>
+          </hi>.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXX.</head>
+<p> <hi>Marcionem enim et Valentinum, in catholicam primo
+doctrinam apud Ecclesiam romanensem sub episcopatu
+Eleutheri credidisse; donec ob inquietam curiositatem
+<pb n="0042A"/>
+semel et iterum ejecti, novissime in perpetuum
+dissidium relegati, venena doctrinarum suarum disseminarunt.
+Atque idem de aliis judicium, qui virtutibus
+et miraculis novos se apostolos esse probare nequeunt.</hi> </p>
+<p>Ubi tunc Marcion, ponticus nauclerus, stoicae studiosus?
+Ubi Valentinus platonicae sectator? Nam
+constat illos, neque adeo olim fuisse, Antonini fere
+principatu, et in catholicae primo doctrinam
+credidisse apud Ecclesiam romanensem, sub episcopatu
+ Eleutherii benedicti, donec ob inquietam
+semper eorum curiositatem, qua fratres quoque
+vitabant  semel et iterum ejecti, Marcion
+quidem cum ducentis sestertiis quae Ecclesiae
+intulerat, novissime in perpetuum discidium relegati
+<pb n="0042B"/>,
+venena doctrinarum suarum disseminaverunt.
+Postmodum idem Marcion, poenitentiam confessus
+ cum conditioni datae sibi occurrit,
+ita pacem recepturus, si caeteros quos perditioni
+erudisset, Ecclesiae restitueret, morte praeventus est. <hi>Oportebat enim haereses esse 
+ <note>(I Cor., II, 19)</note>
+          </hi>. Nec tamen
+ideo bonum haereses, quia eas oportebat, quasi
+non et malum oportuerit esse. Nam et Dominum tradi
+oportebat; sed vae traditori <note>(Marc., XIV, 21)</note>? ne
+quis etiam hinc haereses defendat. Si
+et Apellis stemma retractandum est, tam non vetus
+et ipse quam Marcion institutor et praeformator ejus:
+sed lapsus in foeminam desertor continentiae
+<pb n="0043A"/>
+marcionensis, ab oculis sanctissimi magistri Alexandriam
+secessit; inde post annos regressus non
+melior, nisi tantum qua jam non marcionites, in alteram
+foeminam impegit, illam virginem Philumenen,
+quam supra edidimus, postea vero immane prostibulum
+et ipsam, cujus energemate circumventus,
+quas ab ea didicit <hi>phaneroseis</hi> scripsit. Adhuc
+in saeculo supersunt qui meminerint eorum, etiam
+proprii discentes et successores ipsorum, ne se
+posteriores negare possint. Quanquam et <hi>de operibus
+suis,</hi> ut dixit Dominus, <hi>revincuntur <note>(Matth., VII, 16)</note>
+          </hi>.
+Si enim Marcion Novum Testamentum a Vetere separavit,
+posterior est eo quod separavit; quia separare
+non posset, nisi quod unitum fuit. Unitum ergo ante
+quam separaretur, postea separatum, posteriorem
+<pb n="0043B"/>
+ostendit separatorem. Item Valentinus, aliter exponens,
+et sine dubio emendans, hoc omnino quicquid
+emendat, ut mendosum retro, anterius fuisse demonstrat.
+Hos ut insigniores et frequentiores adulteros
+veritatis nominamus. Caeterum et Nigidius nescio
+quis, et Hermogenes, et multi alii qui
+adhuc ambulant pervertentes vias Dei, ostendant
+mihi ex qua auctoritate prodierunt. Si alium Deum
+praedicant, quomodo ejus Dei rebus et litteris et nominibus
+utuntur adversus quem praedicant? si eumdem,
+quomodo aliter? Probent se novos apostolos
+esse: dicant Christum iterum descendisse, iterum
+ipsum docuisse, iterum crucifixum, iterum mortuum,
+iterum resuscitatum: sic enim Apostolos solet
+<pb n="0043C"/>
+facere, dare illis praeterea virtutem eadem signa
+edendi, quae et ipse. Volo igitur et
+virtutes eorum proferri; nisi quod agnosco maximam
+virtutem eorum, qua Apostolos in perversum aemulantur:
+illi enim de mortuis vivos faciebant,
+isti de vivis mortuos faciunt.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXI.</head>
+
+<pb n="0044A"/>
+<p> <hi>Id itaque esse verum et dominicum, quod prius sit traditum;
+falsum, quod posterius.</hi> </p>
+<p>Sed ab excessu revertar ad principalitatem veritatis,
+et posteritatem mendacitatis disputandam,
+ex illius quoque parabolae patrocinio, quae <hi>bonum semen frumenti</hi> 
+ a Domino <hi>seminatum</hi> in primore
+constituit, <hi>avenarum autem sterilis foeni</hi> adulterium
+ <hi>ab inimico diabolo <note>(Matt., XIII, 37, 39)</note>
+          </hi> postea
+superducit. Proprie enim doctrinarum distinctionem
+figurat, quia et alibi verbum Dei seminis similitudo
+est. Ita ex ipso ordine manifestatur, id esse dominicum
+et verum, quod sit prius traditum; id autem extraneum
+et falsum, quod sit posterius immissum. Ea
+sententia manebit adversus posteriores quasque haereses,
+<pb n="0044B"/>
+quibus nulla constantia de conscientia competit
+ ad defendendam sibi veritatem.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXII.</head>
+<p> <hi>Si interim quaedam sint haereses etiam inde ab aetate
+apostolica; praescribendum uti evolvant ordinem
+episcoporum suorum, ita per successiones ab initio
+decurrentem, ut primus ille episcopus aliquem ex
+Apostolis aut apostolicis viris habeat antecessorem,
+quemadmodum Smyrnaeorum et Romanorum Ecclesiae;
+quod cum probare non possim, in communicationem
+non recipiantur.</hi> </p>
+<p>Caeterum, si quae audent interserere se aetati apostolicae,
+ut ideo videantur ab Apostolis traditae, quia
+sub Apostolis fuerunt, possumus dicere: Edant ergo
+<pb n="0044C"/>
+origines Ecclesiarum suarum: evolvant ordinem episcoporum
+suorum, ita per successiones ab initio
+decurrentem, ut primus ille episcopus aliquem ex
+Apostolis, vel apostolicis viris, qui tamen cum Apostolis
+perseveraverit, habuerit auctorem et antecessorem.
+ Hoc enim modo Ecclesiae apostolicae census
+<pb n="0045A"/>
+suos deferunt: sicut Smyrnaeorum Ecclesia
+ Polycarpum ab Joanne conlocatum refert:
+ sicut Romanorum, Clementem a Petro ordinatum
+edit; proinde utique et caeterae exhibent
+quos ab Apostolis in episcopatum constitutos
+apostolici seminis traduces habeant. Confingant
+tale aliquid Haeretici. Quid enim illis post blasphemiam
+inlicitum est? Sed etsi confinxerint, nihil
+promovebunt. Ipsa enim doctrina eorum cum apostolica
+comparata, ex diversitate et contrarietate sua
+pronuntiabit, neque apostoli alicujus auctoris esse,
+neque apostolici; quia sicut Apostoli non diversa
+inter se docuissent, ita et apostolici non contraria
+Apostolis edidissent, nisi illi qui ab Apostolis didicerunt
+ aliter praedicaverunt. Ad hanc itaque formam
+<pb n="0045B"/>
+probabuntur ab illis ecclesiis, quae licet nullum
+ex Apostolis, vel apostolicis, auctorem suum proferant,
+ut multo posteriores, quae denique quotidie
+instituuntur; tamen in eadem fide conspirantes, non
+minus apostolicae deputantur, pro consanguinitate
+doctrinae. Ita omnes haereses ad utramque formam
+nostris Ecclesiis provocatae, probent se quaqua putant
+apostolicas. Sed adeo nec sunt, nec probare possunt
+quod non sunt, nec recipiuntur in pacem et communicationem
+ab Ecclesiis quoquo modo apostolicis,
+scilicet ob diversitatem sacramenti nullo modo
+apostolicae.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXIII.</head>
+<p> <hi>Quid quod jam tum ab Apostolis et demonstratae et
+<pb n="0045C"/>
+ejeratae fuerint, ex quibus et reliquas haereses omnes
+sua semina sumpsisse.</hi> </p>
+<p>Adhibeo super haec ipsarum doctrinarum recognitionem,
+quae tunc sub Apostolis fuerunt, ab iisdem
+Apostolis et demonstratae et dejeratae. Nam et sic
+facilius traducentur, dum, aut jam tunc fuisse deprehendentur,
+aut ex illis quae jam tunc fuerunt, semina
+<pb n="0046A"/>
+sumpsisse. Paulus, in prima ad Corinthios <hi>(XV, 12)</hi>,
+notat negatores et dubitatores resurrectionis. Haec
+opinio propria Sadducaeorum; partem ejus usurpat
+Marcion, et Apelles, et Valentinus, et si qui alii
+resurrectionem carnis infringunt. Et ad Galatas scribens <hi>(V, 2)</hi>,
+invehitur in observatores et defensores
+circumcisionis et legis: Hebionis haeresis est.
+Timotheum instruens <note>(I Tim., IV, 3.)</note>, nuptiarum
+quoque interdictores suggillat: ita instituunt Marcion
+et Apelles ejus secutor. Aeque tangit eos, qui dicerent <hi>factam jam resurrectionem 
+ <note>(II Tim. II, 3)</note>
+          </hi>: id de
+se Valentiniani asseverant. Sed et cum <hi>genealogias
+indeterminatas</hi> nominat <note>(I Tim. I, 4)</note>, Valentinus
+agnoscitur; apud quem Aeon ille nescio qui novi, et
+non unius nominis, generat e sua Charite Sensum
+<pb n="0046B"/>
+et Veritatem; et hi aeque procreant duos, Sermonem
+et Vitam; dehinc et isti generant Hominem et Ecclesiam:
+estque haec prima ogdoas aeonum. Exinde
+decem alii, et duodecim reliqui aeones miris nominibus
+oriuntur, in meram fabulam triginta aeonum.
+Idem apostolus, cum improbat elementis servientes,
+aliquid Hermogenis ostendit, qui, materiam non
+natam introducens, Deo non nato eam comparat, et
+ita matrem elementorum deam faciens, potest ei servire
+quam Deo comparat. Joannes vero, in Apocalypsi, <hi>idolothyta edentes et stupra committentes</hi> 
+ jubet
+castigare: sunt et nunc alii nicolaitae, Caiana
+haeresis dicitur. At in epistola eos maxime antichristos
+vocat, qui Christum negarent in carne venisse, et qui
+non putarent Jesum esse Filium Dei: illud Marcion,
+<pb n="0046C"/>
+hoc Hebion vindicavit. Simonianae autem magiae disciplina,
+angelis serviens, utique et ipsa inter idololatrias
+deputabatur, et a Petro Apostolo in ipso Simone
+damnabatur.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXIV.</head>
+<p> <hi>Atque adeo cum habeant cum illis consortium suae praedicationis,
+<pb n="0047A"/>
+habere etiam damnationis consortium,
+maxime cum ab Apostolis praenuntiatae fuerint.</hi> </p>
+<p>Haec sunt, ut arbitror, genera doctrinarum adulterinarum,
+quae sub Apostolis fuisse ab ipsis Apostolis
+discimus; et tamen nullam invenimus institutionem,
+inter tot diversitates perversitatum, quae
+de Deo creatore universorum controversiam moverit.
+ Nemo alterum Deum ausus est suspicari. Facilius
+de Filio quam de Patre haesitabatur, donec Marcion
+praeter Creatorem alium Deum solius bonitatis induceret;
+Apelles creatorem angelorum nescio
+quem gloriosum superioris Dei, faceret Deum legis et
+Israelis, illum igneum affirmans; Valentinus aeonas
+suos spargeret, et unius aeonis vitium in originem
+<pb n="0047B"/>
+deduceret Dei creatoris. His solis, et his primis revelata
+est veritas Divinitatis, majorem scilicet dignationem
+et pleniorem gratiam a diabolo consecutis,
+qui Deum sic quoque voluerit aemulari, ut de doctrinis
+venenorum, quod Dominus negavit, ipse faceret
+discipulos super magistrum. Eligant igitur sibi tempora
+universae haereses, quae quando fuerint, dummodo
+ intersit quae quando, dum de veritate
+non sint. Utique quae ab Apostolis nominatae non
+fuerunt, sub Apostolis fuisse non possunt: si enim
+fuissent, nominarentur et ipsae, ut et ipsae coercendae.
+Quae vero sub Apostolis fuerunt, in sua nominatione
+damnantur. Sive ergo eaedem nunc sunt aliquanto
+expolitiores, quae sub Apostolis rudes, habent
+suam exinde damnationem; sive aliae quidem fuerunt,
+<pb n="0047C"/>
+aliae autem postea obortae, quidam ex illis
+usurpaverunt, habendo cum eis consortium praedicationis,
+habeant necesse est etiam consortium
+<pb n="0048A"/>
+damnationis; praecedente illo fine supradicto
+posteritatis, quo, etsi nihil de damnatitiis participarent,
+de aetate sola praejudicarentur; tanto magis
+adulterae, quanto nec ab Apostolis nominatae.
+Unde firmius constat, has esse, quae adhuc tunc nuntiabantur
+futurae.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXV.</head>
+<p> <hi>Nullam autem e contrario dictarum praescriptionum
+competere adversus nostram disciplinam.</hi> </p>
+<p>His definitionibus provocatae a nobis et revictae
+haereses omnes, sive quae posterae, sive quae
+coaetaneae Apostolorum, dummodo diversae; sive
+generaliter, sive specialiter notatae ab eis, dummodo
+praedamnatae; audeant respondere et ipsae aliquas
+ejusmodi praescriptiones adversus nostram disciplinam.
+<pb n="0048B"/>
+Si enim negant veritatem ejus, debent probare
+illam quoque haeresin esse, eadem forma revictam,
+qua ipsae revincuntur; et ostendere simul ubinam
+quaerenda sit veritas, quam apud illas non esse
+jam constat. Posterior nostra res non est, imo omnibus
+prior est: hoc erit testimonium veritatis, ubique
+occupantis principatum. Ab Apostolis utique non
+damnatur, imo defenditur: hoc erit indicium proprietatis.
+Quam enim non damnant, qui
+extraneam quamque damnaverunt, suam ostendunt,
+ideoque et defendunt.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXVI.</head>
+<p> <hi>Percurrenti enim Ecclesias apostolicas, apud quas
+adhuc ipsae cathedrae apostolorum suis locis praesidentur,
+<pb n="0048C"/>
+et inter eas Romanam, unde nobis quoque
+auctoritas praesto est (ubi Petrus et Paulus coronati)
+constabit eamdem ab Apostolis suam potasse fidem,
+<pb n="0049A"/>
+per quam aqua signat, Spiritus Sanctus vestit,
+Eucharistia pascit.</hi> </p>
+<p>Age jam, qui voles curiositatem melius exercere
+in negotio salutis tuae, percurre Ecclesias apostolicas,
+apud quas ipsae adhuc cathedrae Apostolorum
+suis locis praesident; apud quas ipsae authenticae
+litterae eorum recitantur, sonantes vocem et
+ repraesentantes faciem uniuscujusque.
+Proxima est tibi Achaia? habes Corinthum. Si
+non longe es a Macedonia, habes Philippos, habes
+Thessalonicenses. Si potes in Asiam tendere, habes
+Ephesum. Si autem Italiae adjaces, habes
+Romam, unde nobis quoque auctoritas praesto
+est. Ista quam felix Ecclesia! cui
+<pb n="0049B"/>
+totam doctrinam Apostoli cum sanguine suo profuderunt;
+ ubi Petrus passioni Dominicae adaequatur;
+ubi Paulus Joannis exitu coronatur; ubi Apostolus
+Joannes, posteaquam, in oleum igneum demersus,
+nihil passus est, in insulam relegatur; videamus
+quid didicerit, quid docuerit, cum Africanis quoque
+Ecclesiis contesserarit. Unum Deum novit, creatorem
+universitatis, et Christum Jesum ex virgine
+Maria Filium Dei creatoris, et carnis resurrectionem;
+Legem et Prophetas cum evangelicis et apostolicis litteris
+<pb n="0050A"/>
+miscet, et inde potat fidem; eam
+ aqua signat, Sancto Spiritu vestit, eucharistia
+pascit, ad martyrium exhortatur, et ita adversus
+hanc institutionem neminem recipit. Haec est institutio,
+non dico jam quae futuras haereses praenuntiabat,
+sed de qua haereses prodierunt. Sed non fuerunt ex
+illa, ex quo factae sunt adversus illam. Etiam de
+olivae nucleo mitis et optimae et necessariae
+ asper oleaster oritur; etiam de papavere ficus
+gratissimae et suavissimae ventosa et vana caprificus
+exsurgit. Ita et haereses de nostro frutice,
+non nostro genere; veritatis grano, sed mendacio
+sylvestres.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXVII.</head>
+<p> <hi>Cum igitur iis veritas adjudicetur quicumque in ea regula
+<pb n="0050B"/>
+incedimus, quam Ecclesia ab Apostolis accepit;
+constare propositum suum non esse admittendos haereticos
+ad ineundam de Scripturis provocationem, cum
+christiani non sint, et proinde exhaeredati a possessione
+christianarum litterarum.</hi> </p>
+<p>Si haec ita se habent, ut veritas nobis adjudicetur,
+quicumque in ea regula incedimus quam Ecclesia ab
+Apostolis, Apostoli a Christo, Christus a Deo tradidit,
+constat ratio propositi nostri, definientis non esse
+<pb n="0051A"/>
+admittendos haereticos ad ineundam de Scripturis
+provocationem, quos sine Scripturis probamus
+ad Scripturas non pertinere. Si enim haeretici sunt,
+christiani esse non possunt, non a Christo habendo
+quod de sua electione sectati haereticorum nomine
+ admittunt. Ita non christiani, nullum jus capiunt
+christianarum litterarum. Ad quos merito dicendum
+est: Qui estis? quando, et unde venistis? quid in meo
+agitis, non mei? quo denique, Marcion, jure sylvam
+meam caedis? qua licentia, Valentine, fontes meos
+transvertis? qua potestate, Apelles, limites meos
+commoves? Quid hic caeteri ad voluntatem vestram
+seminatis et pascitis? Mea est possessio; olim
+possideo: habeo origines firmas, ab ipsis
+auctoribus quorum fuit res. Ego sum haeres Apostolorum.
+<pb n="0051B"/>
+Sicut caverunt testamento suo, sicut fidei commiserunt,
+sicut adjuraverunt, ita teneo. Vos certe
+exhaeredaverunt semper et abdicaverunt, ut extraneos,
+ut inimicos. Unde autem extranei et inimici Apostolis
+haeretici, nisi ex diversitate doctrinae, quam unusquisque
+de suo arbitrio adversus Apostolos, aut protulit,
+aut recepit?
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXVIII.</head>
+<p> <hi>Maxime cum illis non possit succedere corruptela doctrinae sine corruptela instrumentorum, usurpata in
+Scripturis detractione, vel adjectione, vel transmutatione,
+et interpolatione, qua alius manu Scripturas,
+alius sensus expositione intervertit.</hi> </p>
+<p>Illic igitur et Scripturarum et expositionum adulteratio
+<pb n="0051C"/>
+deputanda est, ubi diversitas doctrinae invenitur.
+Quibus fuit propositum aliter docendi, eos necessitas
+coegit aliter disponendi instrumenta doctrinae.
+Alias enim non potuissent aliter docere, nisi aliter haberent
+per quae docerent. Sicut illis non potuisset
+succedere corruptela doctrinae sine corruptela instrumentorum
+ ejus; ita et nobis integritas doctrinae
+non competisset sine integritate eorum, per quae
+<pb n="0052A"/>
+doctrina tractatur. Etenim quid contrarium nobis in
+nostris? quid de proprio intulimus, ut aliquid contrarium
+ei quod esset in Scripturis deprehensum,
+detractione, vel adjectione, vel transmutatione remediaremus?
+Quod sumus, hoc sunt Scripturae ab
+initio suo; ex illis sumus, antequam aliter fuit,
+antequam a vobis interpolarentur. Cum autem omnis
+interpolatio posterior credenda sit, veniens utique
+ex caussa aemulationis, quae neque prior, neque domestica
+unquam est ejus quod aemulatur, tam incredibile
+est sapienti cuique, ut nos adulterum stylum
+intulisse videamur Scripturis, qui sumus et primi et ex
+ipsis, quam illos non intulisse, qui sunt et posteri
+et adversi. Alius manu Scripturas, alius sensus expositione
+intervertit. Neque enim si Valentinus integro
+<pb n="0052B"/>
+instrumento uti videtur, non callidiore ingenio,
+quam Marcion, manus intulit veritati. Marcion
+enim exerte et palam machaera, non stylo usus
+est; quoniam ad materiam suam caedem Scripturarum
+confecit. Valentinus autem pepercit; quoniam
+non ad materiam Scripturas, sed materiam ad Scripturas
+excogitavit: et tamen plus abstulit, et plus
+adjecit, auferens proprietates singulorum quoque verborum,
+et adjiciens dispositiones non comparentium
+rerum.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XXXIX.</head>
+<p> <hi>In eo comparandi illis qui Virgiliocentonas et Homerocentonas
+composuisse leguntur.</hi> </p>
+<p>
+          <pb n="0052C"/>Haec sunt ingenia de spiritalibus nequitiae, cum
+quibus luctatio est nobis, fratres, merito contemplanda,
+fidei necessaria, ut electi manifestentur,
+ut reprobi detegantur. Et ideo habent vim, et
+excogitandis instruendisque erroribus facilitatem,
+non adeo mirandam, quasi difficilem et inexplicabilem,
+cum de saecularibus quoque scripturis exemplum
+praesto sit ejusmodi facilitatis. Vides hodie
+<pb n="0053A"/>
+ex Virgilio fabulam in totum aliam componi,
+materia secundum versus, versibus secundum materiam
+concinnatis. Denique Osidius Geta Medeam
+tragoediam ex Virgilio plenissime exsuxit.
+Meus quidem propinquus ex eodem poeta inter caetera
+styli sui otia Pinacem Cebetis explicuit. Homerocentones
+etiam vocari solent, qui de carminibus
+Homeri propria opera more centonario ex multis hinc
+inde compositis in unum sarciunt corpus. Et utique
+foecundior divina litteratura ad facultatem cujuscumque
+ materiae. Nec periclitor dicere ipsas quoque
+Scripturas sic esse ex Dei voluntate dispositas, ut haereticis
+materias subministrarent, cum legam <hi>oportere
+haereses esse,</hi> quae sine Scripturis esse non possunt.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XL.</head>
+
+<pb n="0054A"/>
+<p> <hi>Fieri haec autem eodem diaboli instinctu, qui ipsas quoque
+res sacramentorum divinorum in idolorum mysteriis
+aemulatur; exempli gratia, qui quosdam tinguit,
+expiationem delictorum de lavacro repromittit,
+signat in frontibus, celebrat et panis oblationem.</hi> </p>
+<p>Sequetur, a quo intellectus intervertatur
+eorum quae ad haereses faciant? A diabolo scilicet,
+cujus sunt partes intervertendi veritatem, qui
+ipsas quoque res sacramentorum divinorum,
+idolorum mysteriis aemulatur. Tingit et ipse quosdam,
+utique credentes et fideles suos; expositionem
+ delictorum de lavacro repromittit; et si adhuc
+ memini, Mithara  signat illic in
+<pb n="0055A"/>
+frontibus milites suos; celebrat et panis oblationem,
+et imaginem resurrectionis inducit, et sub gladio
+redimit coronam. Quid? quod et summum Pontificem
+unius nuptiis statuit, habet et virgines, habet
+et continentes. Caeterum, si Numae Pompilii superstitiones
+revolvamus, si sacerdotalia officia, insignia,
+et privilegia, si sacrificalia ministeria,
+et instrumenta, et vasa ipsorum sacrificiorum, ac
+piaculorum et votorum, curiositates consideremus,
+nonne manifeste diabolus morositatem illam judaicae
+legis imitatus est? Qui ergo ipsas res, de quibus
+sacramenta Christi administrantur, tam aemulanter
+affectavit exprimere in negotiis idololatriae,
+utique et idem et eodem ingenio gestiit et potuit instrumenta
+quoque divinarum rerum et sanctorum
+<pb n="0055B"/>
+christianorum, sensum de sensibus, verba de verbis,
+parabolas de parabolis profanae et aemulae fidei attentare.
+Et ideo, neque a diabolo immissa esse spiritalia
+nequitiae, ex quibus etiam haereses veniunt, dubitare
+quis debet, neque ab idololatria distare haereses,
+cum et auctoris et operis ejusdem sint, cujus et
+idololatria. Deum, aut fingunt alium adversus Creatorem,
+aut, si unicum Creatorem confitentur, aliter
+eum disserunt, quam in vero est. Itaque omne mendacium
+quod de Deo dicunt, quoddammodo genus
+est idololatriae.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XLI.</head>
+<p> <hi>Non omittendam denique, qua contra eos praescribamus,
+<pb n="0056A"/>
+ipsius etiam haereticae conversationis descriptionem;
+ubi quis catechumenus, quis fidelis, incertum; pariter
+enim adeunt, pariter audiunt, pariter orant; qui pacem
+cum omnibus miscent; quorum mulieres audeant exorcismos
+agere, forsitan et tinguere; quorum ordinationes
+temerariae, et alius hodie episcopus, cras alius,
+hodie diaconus, qui cras lector, hodie presbyter qui
+cras laicus, nam et laicis sacerdotalia munera injungere.</hi> </p>
+<p>Non omittam ipsius etiam conversationis haereticae
+descriptionem, quam futilis, quam terrena, quam humana
+sit, sine gravitate, sine auctoritate, sine disciplina,
+ut fidei suae congruens. In primis quis catechumenus,
+quis fidelis, incertum est; pariter adeunt,
+<pb n="0056B"/>
+pariter audiunt, pariter orant; etiam ethnici si supervenerint,
+ sanctum canibus, et porcis margaritas,
+licet non veras, jactabunt. Simplicitatem volunt esse
+prostrationem disciplinae, cujus penes nos curam lenocinium
+vocant. Pacem quoque passim cum omnibus
+miscent: nihil enim interest illis, licet diversa tractantibus,
+dum ad unius veritatis expugnationem conspirent.
+Omnes tument, omnes scientiam pollicentur.
+Ante sunt perfecti catechumeni, quam edocti.
+Ipsae mulieres haereticae, quam procaces! quae audeant
+docere, contendere, exorcismos agere, curationes
+repromittere, forsitan et tingere. Ordinationes
+eorum temerariae, leves, inconstantes: nunc
+<pb n="0057A"/>
+neophytos conlocant, nunc saeculo obstrictos, nunc
+apostatas nostros, ut gloria eos obligent, quia veritate
+non possunt. Nusquam facilius proficitur, quam in
+castris rebellium, ubi ipsum esse illic, promereri est.
+Itaque alius hodie episcopus, cras alius; hodie diaconus,
+qui cras lector; hodie presbyter, qui cras laicus:
+nam et laicis sacerdotalia munera injungunt.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XLII.</head>
+<p> <hi>In verbi quoque administratione negotium illis esse non
+ethnicos convertendi, sed nostros evertendi; nec suis
+praesidibus reverentiam praestent: et hinc apud eos
+schismata non parere, quantumvis tamen a regulis
+suis inter se varient et etiam ab auctoribus suis.</hi> </p>
+<p> De verbi autem administratione quid dicam,
+<pb n="0057B"/>
+cum hoc sit negotium illis, non ethnicos convertendi,
+sed nostros evertendi? Hanc magis gloriam
+captant, si stantibus ruinam, non si jacentibus elevationem
+operentur; quoniam et ipsum opus eorum
+non de suo proprio aedificio venit, sed de veritatis destructione.
+Nostra suffodiunt, ut sua aedificent. Adime
+illis legem Moysi, et Prophetas, et creatorem
+Deum, accusationem eloqui non habent. Ita fit ut ruinas
+facilius operentur stantium aedificiorum, quam
+exstructiones jacentium ruinarum. Ad haec solummodo
+opera humiles, et blandi, et summissi agunt.
+Caeterum, nec suis praesidibus reverentiam noverunt.
+Et hoc est quod schismata apud haereticos fere non
+<pb n="0057C"/>
+sunt; quia, cum sint, non parent. Schisma est
+<pb n="0058A"/>
+unitas ipsis. Mentior si non etiam a regulis suis
+variant inter se, dum unusquisque proinde suo arbitrio
+modulatur quae accepit, quemadmodum de suo
+arbitrio ea composuit ille qui tradidit. Agnoscit naturam
+suam, et originis suae morem, profectus rei. Idem
+licuit Valentinianis quod Valentino, idem Marcionitis
+quod Marcioni, de arbitrio suo fidem innovare. Denique
+penitus inspectae haereses omnes in multis cum
+auctoribus dissentientes deprehenduntur. Plerique
+nec Ecclesias habent, sine matre, sine sede, orbi fide,
+extorres, sine lare vagantur.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XLIII.</head>
+<p> <hi>Notata etiam fuisse eorum commercia cum magis, circulatoribus,
+astrologis, philosophis; adeo ut doctrinae
+<pb n="0058B"/>
+ipsorum non verae index sit disciplina non bona.</hi> </p>
+<p>Notata sunt etiam commercia haereticorum cum
+magis quampluribus: cum circulatoribus, cum astrologis,
+cum philosophis, curiositati scilicet deditis:
+QUAERITE ET INVENIETIS, ubique meminerunt.
+Adeo et de genere conversationis qualitas fidei aestimari
+potest: doctrinae index disciplina est. Negant
+Deum timendum; itaque libera sunt illis omnia
+et soluta. Ubi autem Deus non timetur, nisi ubi non
+est? Ubi Deus non est, nec veritas ulla est; ubi veritas
+nulla est, merito et talis disciplina est. At ubi Deus,
+ibi metus in Deum, qui est initium sapientiae. Ubi metus
+in Deum, ibi gravitas honesta, et diligentia
+attonita, et cura sollicita, et allectio explorata,
+<pb n="0058C"/>
+et communicatio deliberata, et promotio emerita,
+<pb n="0059A"/>
+et subjectio religiosa, et apparitio devota, et
+processio modesta, et Ecclesia unita, et Dei omnia.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XLIV.</head>
+<p> <hi>Postremo si forte praescriptionibus his non moveantur,
+ad futuri judicii metum, et haereticos provocat, et eos
+qui aures haereticis accommodant.</hi> </p>
+<p>Proinde haec pressioris apud nos testimonia
+disciplinae ad probationem veritatis accedunt; a qua
+divertere nemini expedit, qui meminerit futuri judicii
+quo omnes nos necesse est apud Christi tribunal
+astare reddentes rationem in primis ipsius fidei. Quid
+ergo dicent qui illam stupraverint adulterio haeretico,
+virginem traditam a Christo? Credo, allegabunt, nihil
+unquam sibi ab illo vel ab apostolis ejus, de seris
+ et perversis doctrinis futuris praenuntiatum, et
+<pb n="0059B"/>
+de cavendis abominandisque praeceptum. Agnoscant
+ suam potius culpam quam illorum, qui
+nos tanto ante praestruxerunt. Adjicient praeterea
+multa de auctoritate cujusque doctoris haeretici; illos
+maxime doctrinae suae fidem confirmasse, mortuos
+suscitasse, debiles reformasse, futura significasse,
+uti merito apostoli crederentur. Quasi nec hoc
+scriptum sit, venturos multos qui etiam virtutes maximas
+ederent, ad fallaciam muniendam corruptae
+praedicationis. Itaque veniam merebuntur? Qui
+vero memores dominicarum et apostolicarum denuntiationum
+in fide integri steterint, credo de
+venia periclitabuntur, respondente Domino:  « Praenuntiaveram
+<pb n="0060A"/>
+plane futuros fallaciae magistros in meo
+nomine et Prophetarum et Apostolorum etiam; et
+discentibus meis eadem ad vos praedicare mandaveram;
+semel evangelium et ejusdem regulae doctrinam
+apostolis meis delegaveram; sed cum vos non crederetis,
+ libuit mihi postea aliqua inde mutare:
+resurrectionem promiseram etiam carnis; sed recogitavi
+ne implere non possem: natum me ostenderam
+ex virgine; sed postea turpe mihi visum est: patrem
+dixeram qui solem et pluvias fecit, sed alius me pater
+melior adoptavit: prohibueram vos aurem accommodare
+haereticis, sed erravi . . . ? »  Talia capit opinari
+eos qui exorbitant, et fidei veritatis
+periculum non cavent.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XLV.</head>
+<p>
+          <pb n="0060B"/> <hi>Porro hoc institutum simul aggressus etiam specialiter,
+initio facto a judaismo, haereticos omnes ad sua
+usque tempora recenset, et imprimis Dositheum,
+Sadducaeos, Pharisaeos.</hi> </p>
+<p> Sed nunc quidem generaliter actum est a nobis
+adversus haereses omnes, certis et justis, et
+necessariis praescriptionibus repellendas a conlatione
+Scripturarum. De reliquo, si Dei gratia annuerit,
+etiam specialiter quibusdam respondebimus. Haec
+in fide veritatis ci . . . . legentibus pax et gratia Domini
+nostri Jesu Christi in aeternum.</p>
+<p>
+          <emph> CONTRA HAERETICOS EXPLICIT.</emph>
+</p>
+</div2>
+
+<div2>
+        <head> <hi>Sequentia non leguntur in vetustissimo codice Agobardi.</hi> </head>
+<p>
+          <pb n="0061A"/>Quorum haereticorum, ut plura praeteream, pauca
+perstringam. Taceo enim judaismi haereticos,
+Dositheum inquam Samaritanum, qui primus ausus
+est prophetas, quasi non in Spiritu Sancto locutos,
+repudiare. Taceo Sadducaeos, qui ex hujus erroris
+radice surgentes, ausi sunt ad hanc haeresim etiam
+resurrectionem carnis negare. Praetermitto Pharisaeos,
+qui additamenta quaedam legi adstruendo a
+Judaeis divisi sunt: unde etiam hoc accipere ipsum
+quod habent nomen, digni fuerunt: cum his etiam
+Herodianos, qui Christum Herodem esse dixerunt.</p>
+</div2>
+
+<div2>
+        <head>CAPUT XLVI.</head>
+<p> <hi>Deinde eos recenset, qui ex Evangelio haeretici esse
+<pb n="0061B"/>
+voluerunt, Simonem magum, Menandrum, Saturninum,
+Basilidem, Nicolaum.</hi> </p>
+<p> Ad eos me converto qui ex Evangelio haeretici
+esse voluerunt: ex quibus est primus omnium
+Simon Magus, qui in Actis Apostolorum condignam
+meruit ab apostolo Petro justamque sententiam. Hic
+ausus est summam se dicere virtutem, id est,
+summum Deum, mundum autem ab angelis suis
+institutum, a daemone se oberrante, quid esset
+sapientia, descendisse quaerendum apud Judaeos, se
+in phantasmate Dei non passum, sed esse quasi
+passum. Post hunc Menander discipulus ipsius, similiter
+magus, eadem dicens quae Simon ipse: quicquid
+se Simon dixerat, hoc se Menander esse dicebat,
+<pb n="0061C"/>
+negans habere posse quemquam salutem, nisi in
+nomine suo baptizatus fuisset. Secutus est post haec
+et Saturninus, et hic similiter dicens, innascibilem
+<pb n="0062A"/>
+virtutem id est Deum, in summis et illis infinitis
+partibus et in superioribus manere, longe autem distantes
+ab hoc angelos inferiorem mundum fecisse:
+et quia splendor quidam luminis desursum in inferioribus
+refulsisset, ad similitudinem illam superiorem
+propter illius luminis angelos hominem instituere,
+angelos curasse: hunc super terram jacuisse reptantem:
+cujus lumen illud et virtutem misericordiam,
+scintillam salvam esse, caetera hominis perire.
+Christum in substantia corporis non fuisse, et phantasmate
+tantum quasi passum fuisse; resurrectionem
+carnis nullo modo futuram esse. Postea Basilides
+haereticus erupit: hic esse dicit summum Deum
+nomine Abraxan, ex quo mentem creatam, quam
+graece <foreign xml:lang="greek">ΝΟΥΝ</foreign> appellat. Inde Verbum. Ex illo providentiam,
+<pb n="0062B"/>
+ex providentia virtutem, et sapientiam:
+ex ipsis inde principatus, et potestates, et angelos
+factos, deinde infinitas angelorum editiones et probolas:
+ab istis angelis trecentos sexaginta quinque
+coelos institutos, et mundum in honore Abraxae,
+cujus nomen hunc in se habebat numerum computatum.
+In ultimis quidem angelis, et qui nunc fecerunt
+mundum, novissimum ponit Judaeorum Deum, id est,
+Deum legis et prophetarum; quem Deum negat, sed
+angelum dicit. Huic sortito obtigisse semen Abrahae,
+atque ideo hunc de terra Aegypti filios Israel in
+terram Chanaam transtulisse. Hunc turbulentiorem
+prae caeteris angelis, atque ideo et seditiones
+frequenter et bella concutere, sed et humanum
+sanguinem fundere. Christum autem, non ab hoc qui
+<pb n="0062C"/>
+fecerit mundum, sed ab illo Abraxa missum venisse
+in phantasmate: sine substantia carnis fuisse: hunc
+passum a Judaeis non esse, sed vice ipsius Simonem
+<pb n="0063A"/>
+crucifixum esse; unde nec in eum credendum esse
+qui sit crucifixus, ne quis confiteatur in Simonem
+credidisse. Martyria negat esse facienda. Carnis
+resurrectionem graviter impugnat, negans salutem
+corporibus repromissam. Alter haereticus Nicolaus
+emersit; hic de septem diaconis, qui in Actis
+Apostolorum allecti sunt, fuit. Hic dicit tenebras in
+concupiscentia luminis, et quidem foeda et obscena,
+fuisse: ex hac permixtione pudor est dicere quae
+foetida et immunda sunt.</p>
+<p>Aeones enim refert quosdam turpitudinis natos,
+et complexus, et permixtiones execrabiles,
+obscenasque conjunctas, et quaedam ex ipsis adhuc turpiora:
+natos praeterea daemones, et deos, et spiritus
+septem, et alia satis sacrilega pariter et foeda:
+<pb n="0063B"/>
+quae referre erubescimus, et jam praeterimus. Satis
+ est nobis quod totam istam haeresim Nicolaitarum,
+Apocalypsis Domini gravissima sententiae auctoritate
+damnavit, dicendo: Quia hoc tenes, odisti
+doctrinam Nicolaitarum, quam et ego odi.</p>
+</div2>
+
+<div2>
+        <head>CAPUT XLVII.</head>
+<p> <hi>Quibus adjungit Ophitas, Cainaeos, Sethoitas.</hi> </p>
+<p>Accesserunt his haeretici etiam illi, qui Ophitae nuncupantur.
+Nam serpentem magnificant in tantum, utillum
+etiam ipsi Christo praeferant. Ipse enim, inquiunt,
+scientiae nobis boni et mali originem dedit. Hujus animadvertens
+potentiam et majestatem Moyses, inquiunt,
+aereum posuit serpentem: et quicunque ipsum
+<pb n="0064A"/>
+aspexerunt, sanitatem consecuti sunt. Ipse, aiunt
+praeterea, Christus in Evangelio suo imitatur serpentis
+ipsius sacram potestatem, dicendo: Et
+sicut Moyses exaltavit serpentem in deserto, ita
+exaltari oportet filium hominis: ipsum introducunt
+ad benedicenda Eucharistia sua. Sed tota
+istius erroris et scena et doctrina inde fluxit. Dicunt
+enim de illo summo primario aeone complures alios
+aeones extitisse inferiores; omnibus tamen istis
+aeonem antistare, cujus sit nomen Jaldabaoth.
+Hunc autem conceptum esse ex altero aeone aeonibus
+inferioribus permixto: seque postea, cum in superiora
+voluisset eniti, gravitate materiae permixta sibi,
+non potuisse ad superiora pervenire, in medietate
+relictum, extendisse totum, effecisse sic coelum.
+<pb n="0064B"/>
+Jaldabaoth tamen inferius descendisse, et fecisse sibi
+filios septem: quem occlusisse superiora dilatatione;
+ut quia angeli quae superiora essent, scire non possent,
+ipsum solum Deum putarent. Virtutes igitur illas
+et angelos inferiores hominem fecisse: et quia ab infirmioribus
+et mediocribus virtutibus institutus esset,
+quasi vermem jacuisse reptantem. Illum vero aeonem
+ex quo Jaldabaoth processisset, invidia commotum,
+scintillam quamdam jacenti homini immisisse qua
+excitatus per prudentiam saperet, et intelligere
+posset superiora. Sic rursum Jaldabaoth istum in
+indignationem conversum ex semetipso edidisse virtutem,
+et similitudinem serpentis: et hanc fuisse virtutem
+<pb n="0065A"/>
+in paradiso, id est, istum fuisse serpentem, cui
+Eva quasi Filio Dei crediderat. Decerpsit, inquiunt, de
+fructu arboris, atque ideo generi humano scientiam
+bonorum et malorum contribuit. Christum autem non in
+substantia carnis fuisse, salutem carnis sperandam
+omnino non esse. Necnon etiam erupit alia quoque haeresis,
+ quae dicitur Cainaeorum. Et ipsi enim magnificant
+Cain, quasi ex quadam potenti virtute conceptum,
+quae operata sit in ipso. Nam Abel ex inferiore
+virtute conceptum, procreatum, et ideo
+inferiorem repertum. Hi qui hoc adserunt, etiam Judam
+proditorem defendunt, admirabilem illum et
+magnum esse memorantes, propter utilitates quas
+humano generi contulisse jactatur. Quidam enim ipsorum
+gratiarum actionem Judae propter hanc caussam
+<pb n="0065B"/>
+reddendam putant. Animadvertens enim, inquiunt,
+Judas, quod Christus vellet veritatem subvertere,
+tradidit illum, ne subverti veritas posset. Et alii sic
+contra disputant et dicunt: Quia potestates hujus mundi
+nolebant pati Christum, ne humano generi per mortem
+ipsius salus pararetur, saluti consulens generis
+humani, tradidit Christum, ut salus, quae impediebatur
+per virtutes, quae obsistebant ne pateretur
+Christus, impediri omnino non posset: et ideo per
+passionem Christi non posset salus humani generis
+retardari. Sed et illa haeresis processit, quae
+dicitur Sethoitarum. Hujus perversitatis doctrina
+haec est: duos homines ab angelis constitutos, Cain
+et Abel; propter hos magnas inter angelos contentiones
+et discordias extitisse; ob hanc causam illam
+<pb n="0066A"/>
+virtutem quae super omnes virtutes esset, quam matrem
+pronuntiant, dum Abel interfectum dicerent,
+voluisse concipi et nasci hunc Seth loco Abelis, ut
+evacuarentur angeli illi, qui duos priores illos homines
+condidissent, dum hoc semen mundum moritur
+et nascitur. Permixtiones enim dicunt angelorum et
+hominum iniquas fuisse: ob quam caussam illam virtutem,
+quam (sicut diximus) pronuntiant matrem,
+ad vindictam etiam cataclysmum inducere, ut et illud
+permixtionis semen tolleretur: et hoc solum semen,
+quod esset purum, integrum custodiretur. Sed enim
+illos qui seminis illos prioris instituissent, occulte
+et latenter, et ignorante illa matre Virtute, cum illis
+octo animabus in arcam misisse etiam semen
+Cham, quo semen malitiae non periret, sed cum
+<pb n="0066B"/>
+caeteris conservatum, et post cataclysmum terris
+redditum, exemplo caeterorum excresceret, et effunderetur,
+et totum orbem et impleret et occuparet. De
+Christo autem sic sentiunt, ut dicant illum tantummodo
+Seth, et pro ipso Seth ipsum fuisse.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XLVIII.</head>
+<p> <hi>Praeterea Carpocratem, Cerinthum, Hebionem.</hi> </p>
+<p> Corpocrates praeterea hanc tulit sectam. Unam
+esse dicit Virtutem in superioribus principalem,
+ex hac prolatos angelos, atque virtutes: quos distantes
+longe a superioribus virtutibus, mundum istum
+in inferioribus partibus condidisse; Christum non ex
+virgine Maria natum, sed ex semine Joseph, hominem
+tantummodo genitum, sane prae caeteris justitiae
+<pb n="0067A"/>
+cultu, vitae integritate meliorem: hunc
+apud Judaeos passum: solam animam ipsius coelo receptam,
+eo quod et firmior et robustior caeteris fuerit:
+ex quo colligeret, tentata animarum sola salute,
+nullas corporis resurrectiones. Post hunc Cerinthus
+haereticus erupit, similia docens. Nam et ipse mundum
+institutum esse ab illis dicit: Christum ex semine
+Joseph natum proponit, hominem illum tantummodo
+sine divinitate contendens, ipsam quoque legem
+ab angelis datam perhibens: Judaeorum Deum non
+Dominum, sed angelum promens. Hujus successor
+Hebion fuit, Cerintho non in omni parte consentiens,
+quod a Deo dicat mundum, non ab angelis
+factum: et quia scriptum sit, Nemo discipulus
+<pb n="0067B"/>
+super magistrum, nec servus super dominum. Legem
+etiam proponit, scilicet ad excludendum Evangelium,
+et vindicandum Judaismum.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT XLIX.</head>
+<p> <hi>Valentinum deinceps, ac ejus sequaces Ptolomaeum,
+Secundum, Heracleonem.</hi> </p>
+<p>Valentinus autem haereticus multas introducit fabulas,
+<pb n="0068A"/>
+has ego circumducens breviter expediam.
+Introducit enim Pleroma et Aeones triginta: exponit
+autem hos per syzygias, id est, conjugationes
+quasdam. Nam dicit in primis, esse Bython et Silentium;
+ex his processisse semen, Mentem et
+Veritatem: ex quibus erupisse Verbum et Vitam: de
+quibus rursum creatum hominem et Ecclesiam. Sed
+enim ex his quoque processisse duodecim aeonas; de
+Sermone autem et Vita, aeonas alios decem: hanc
+ esse aeonum triacontada, quae fit in Pleromate
+ex ogdoade et decade, ac dyodecade. Tricesimum
+autem aeonem, Bython illum videre voluisse,
+et ad videndum illum ausum esse in superiora Pleromatis
+conscendere. Et quoniam ad magnitudinem
+<pb n="0068B"/>
+ipsius videndam capax non fuit, in defectione fuisse,
+et pene dissolutum esse, nisi quia missus ad
+constabiliendum illum, ille quem appellant Horon,
+confirmasset illum dicto Iao. Hoc pronuntiat Io
+Apelles. Istum autem Aeonem in defectionem factum
+Achamoth dicit in passionibus desiderii quibusdam
+fuisse, et ex passionibus materias edidisse.
+Expavit enim, inquit, et extimuit, et contristata
+<pb n="0069A"/>
+est, et ex his passionibus concepit et edidit. Hinc fecit
+coelum et terram et mare, et omnia quaecumque sunt
+in eis, ob quam caussam omnia infirma esse et fragilia,
+et caduca, et mortalia quaecumque sunt ab ipso
+facta: quoniam quidem ipse fuerit de aporiatione
+conceptus atque prolatus: hunc tamen instituisse
+istum mundum ex his materiis, quas Achamoth, vel
+pavendo, vel timendo, vel contristando, vel sudando
+praestiterat. Nam ex pavore, inquit, tenebrae factae
+sunt: ex timore et ignorantia, spiritus nequitiae et
+malignitatis: ex tristitia et lacrymis, humida fontium,
+fluminum materia, marisque. Christum autem missum
+ab illo propatore qui est Bythos. Hunc autem in
+substantia corporis nostri non fuisse, sed spiritale
+<pb n="0069B"/>
+nescio quod corpus de coelo deferentem, quasi aquam
+ per fistulam, sic per Mariam virginem transmeasse,
+nihil inde vel accipientem, vel mutuantem. Resurrectionem
+hujus carnis negat, sed alterius. Legis
+et prophetarum quaedam probat, quaedam improbat:
+id est, omnia improbat, dum quaedam reprobat.
+Evangelium habet etiam suum, praeter haec nostra.
+Post hunc extiterunt Ptolomaeus et Secundus haeretici,
+qui cum Valentino per omnia consentiunt. In
+illo solo differunt. Nam cum Valentinus Aeonas tantum
+triginta finxisset, isti addiderunt alios complures.
+Quatuor enim primum, deinde alios quatuor
+aggregaverunt. Et quod dicit Valentinus Aeonem trigesimum
+ excessisse de pleromate, ut in defectionem,
+negant isti. Non enim ex illa triacontade fuisse
+<pb n="0069C"/>
+hunc, qui fuerit in defectionem, propter desiderium
+videndi propatoris. Extitit praeterea Heracleon
+alter haereticus, qui cum Valentino paria sentit, sed
+novitate quadam pronuntiationis vult videri alia sentire.
+Introducit enim in primis illud fuisse quod
+pronuntiat, et deinde ex illa monade duo, ac deinde
+reliquos Aeonas, deinde introducit totum Valentinum.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT L.</head>
+
+<pb n="0070A"/>
+<p> <hi>Marcum item et Colarbasum.</hi> </p>
+<p>Non defuerunt post hos Marcus quidam et Colarbasus,
+novam haeresin ex Graecorum alphabeto componentes.
+Negant enim veritatem sine istis posse
+litteris inveniri; imo totam plenitudinem et perfectionem
+veritatis in istis litteris esse dispositam. Propter
+hanc enim caussam Christum dixisse: Ego sum <foreign xml:lang="greek">Α</foreign>
+ et <foreign xml:lang="greek">Ω.</foreign> Denique Jesum Christum descendisse, id
+est, columbam in Jesum venisse, quae graeco nomine
+cum <foreign xml:lang="greek">περιστερὰ</foreign> pronuntietur, habeat secundum
+numerum, DCCCI. Percurrunt isti <foreign xml:lang="greek">ω, ψ, χ,
+φ, υ, τ,</foreign> totum usque ad Alpha Beta, et computant
+ogdoadas et decadas, ita ut adferre illorum
+<pb n="0070B"/>
+omnes vanitates ineptum sit et otiosum, quod tamen
+non tantum jam vanum, sed etiam periculosum sit.
+Alterum Deum fingunt praeter creatorem. Christum
+in substantia negant carnis fuisse. Negant carnis
+resurrectionem futuram.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT LI.</head>
+<p> <hi>Post haec Cerdonem, Marcionem, ejusque discipulos
+Lucanum et Apellem.</hi> </p>
+<p>Accedit his Cerdon quidam; hic introducit initia
+duo, id est duos deos, unum bonum, et alterum
+saevum; bonum superiorem, saevum hunc mundi
+creatorem. Hic prophetias et legem repudiat, Deo
+creatori renuntiat, superioris Dei Filium Christum
+venisse tractat, hunc in substantia carnis negat, in
+<pb n="0070C"/>
+phantasmate solo fuisse pronuntiat, nec omnino passum,
+sed quasi passum: nec ex virgine natum, sed
+omnino nec natum. Resurrectionem animae tantummodo
+probat, corporis negat. Solum Evangelium Lucae,
+nec tamen totum recipit. Apostoli Pauli neque
+omnes, neque totas Epistolas sumit. Acta Apostolorum
+et Apocalypsin quasi falsa rejicit. Post hunc
+<pb n="0071A"/>
+discipulus ipsius emersit Marcion quidam nomine,
+ponticus genere, episcopi filius, propter stuprum
+cujusdam virginis ab Ecclesiae communicatione
+abjectus. Hic ex occasione qua dictum sit, Omnis arbor
+bona bonos fructus facit, mala autem malos, haeresin
+Cerdonis approbare conatus est, eadem dicere, quae
+ille superior haereticus ante dixerat. Extitit post hunc
+ Lucanus quidam nomine, Marcionis sectator atque
+discipulus: et hic per eadem vadens blasphemiae
+genera, eadem docet quae Marcion et Cerdon docuerant.
+Post hos subsequitur Apelles, discipulus
+Marcionis, qui posteaquam in carnem suam lapsus
+est, a Marcione segregatus est. Hic introducit unum
+Deum infinitis superioribus partibus. Hunc potestates
+multas, angelosque fecisse: propterea et aliam
+<pb n="0071B"/>
+virtutem quam dicit, Dominum dicit, sed angelum
+ponit. Hoc vult videri mundum institutum ad imitationem
+mundi superioris, cui mundo permiscuisse poenitentiam;
+quia non illum tam perfecte fecisset,
+quam ille superior mundus institutus fuisset. Legem
+et prophetas repudiat. Christum neque in phantasmate
+dicit fuisse, sicut Marcion, neque in substantia veri
+corporis, ut Evangelium docet; sed eo quod e superioribus
+partibus descenderet, ipso descensu sideream
+sibi carnem et aeream contexuisse: hunc in resurrectione
+singulis quibusque elementis, quae in descensu
+suo mutuata fuissent, in ascensu reddidisse, et sic
+dispersis quibusque corporis sui partibus, in coelo
+spiritum tantum reddidisse. Hic carnis resurrectionem
+negat; solo utitur et Apostolo, sed Marcionis,
+<pb n="0071C"/>
+id est non toto. Animarum solarum dicit salutem.
+Habet praeterea privatas, sed extraordinarias lectiones
+suas, quas appellat phaneroseis Philumenes cujusdam
+puellae, quam quasi prophetissam sequitur.
+Habet praeterea suos libros, quos inscripsit Syllogismorum,
+in quibus probare vult, quod omnia quaecumque
+Moyses de Deo scripserit, vera non sint,
+sed falsa sint.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT LII.</head>
+<p> <hi>Tatianum inde, et eos qui secundum Phrygas dicebantur,</hi> 
+<pb n="0072A"/> <foreign xml:lang="greek">κατὰ</foreign> <hi>Proclum, ad secundum Aeschinem, Montanistas.</hi> </p>
+<p>His haereticis omnibus accedit Tatianus quidam
+alter haereticus. Hic Justini martyris discipulus fuit,
+post hunc diversa sentire coepit. Totus enim secundum
+Valentinum sapit, adjiciens illud, Adam nec
+salutem consequi posse: quasi non, si rami salvi
+fiant, et radix salva sit. Accesserunt alii haeretici,
+qui dicuntur secundum Phrygas; sed horum non
+una doctrina est. Sunt enim qui <foreign xml:lang="greek">κατὰ</foreign> Proclum dicuntur,
+sunt qui secundum Aeschinem pronuntiantur.
+Hi habent aliam communem blasphemiam, aliam
+blasphemiam non communem, sed peculiarem suam:
+et communem quidem illam, qua in Apostolis quidem
+dicant Spiritum Sanctum fuisse, Paracletum non
+fuisse: et qua dicant Paracletum plura in Montano
+<pb n="0072B"/>
+dixisse, quam Christum in Evangelium protulisse,
+nec tantum plura, sed etiam meliora atque majora.
+</p>
+      </div2>
+
+<div2>
+        <head>CAPUT LIII.</head>
+<p> <hi>Denique Blastum, Theodotum utrumque, Praxean et
+Victorinum.</hi> </p>
+<p>Privatam autem blasphemiam illi qui sunt <foreign xml:lang="greek">κατὰ</foreign>
+Aeschinem, hanc habent, qua adjiciunt etiam hoc,
+ut dicant Christum ipsum esse Filium et Patrem. Est
+praeterea his omnibus etiam Blastus accedens, qui
+latenter judaismum vult introducere. Pascha enim
+dicit non aliter custodiendum esse, nisi secundum
+legem Moysi, XIV. mensis. Quis autem nesciat, quoniam
+evangelica gratia evacuatur, si ad legem Christum
+rediget? Accedit his Theodotus haereticus
+<pb n="0072C"/>
+byzantius: qui posteaquam Christi pro nomine comprehensus
+negavit, in Christum blasphemare non
+destitit. Doctrinam enim introduxit, qua Christum hominem
+tantummodo diceret, Deum autem illum negaret;
+ex Spiritu quidem Sancto natum ex virgine, sed
+hominem solitarium, atque nudum, nulla alia prae
+caeteris, nisi sola justitiae auctoritate. Alter post hunc
+Theodotus haereticus erupit, qui et ipse introduxit
+alteram sectam, et ipsum hominem Christum tantummodo
+dicit ex Spiritu Sancto, ex virgine Maria conceptum
+pariter et natum; sed hunc inferiorem esse
+<pb n="0073A"/>
+quam Melchisedech, eo quod dictum sit de Christo: <hi>Tu es sacerdos in aeternum secundum ordinem Melchisedech <note>(Ps. CIX, 4)</note>
+          </hi>.
+Nam illum Melchisedech praecipuae
+gratiae coelestem esse virtutem: eo quod agat Christus
+pro hominibus, deprecator et advocatus ipsorum factus.
+Melchisedech facere pro coelestibus angelis atque
+virtutibus, nam esse illum usque adeo Christo meliorem,
+ut apator sit, ametor sit, agenealogetus sit,
+<pb n="0074A"/>
+cujus neque initium, neque finis comprehensus sit
+aut comprehendi possit. Sed post hos omnes etiam
+Praxeas quidam haeresim introduxit, quam Victorinus
+corroborare curavit. Hic Deum Patrem omnipotentem
+Jesum Christum esse dicit; hunc crucifixum
+passumque contendit et mortuum: praeterea seipsum
+sibi sedere ad dexteram suam, cum prophana et sacrilega
+temeritate proponit.
+
+</p>
+</div2>
+    </body>
+  </text>
+</TEI>
